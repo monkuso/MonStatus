@@ -207,7 +207,8 @@ def build_snapshot(config):
     timestamp=datetime.datetime.now(datetime.timezone.utc).isoformat()
     events,char_profiles=normalize_events(tables)
     catalog=build_catalog(tables,timestamp,evidence,events)
-    for path,request in config.get('reads',{}).items():
+    read_requests=[(path,request) for path,value in config.get('reads',{}).items() for request in (value if isinstance(value,list) else [value])]
+    for path,request in read_requests:
         endpoint=urllib.parse.urlsplit(request['url'])
         if endpoint.scheme!='https' or endpoint.hostname!='api.monster-strike.com' or endpoint.path!=path or path not in {'/information/list','/char/recommend'}:
             raise SyncError('Detail read endpoint rejected')
@@ -232,9 +233,15 @@ def build_snapshot(config):
         else:
             rows=details.get('recommends')
             if not isinstance(rows,list):raise SyncError('Clear character response rejected')
-            fields={'stage_id','aggregate_range','event_char_ids','gacha_char_ids'}
-            catalog['recommendations']=[{key:row[key] for key in fields if key in row} for row in rows]
+            fields={'stage_id','aggregate_range','event_char_ids','gacha_char_ids','response_time'}
+            merged={row['stage_id']:row for row in catalog['recommendations']}
+            for row in rows:
+                public={key:row[key] for key in fields if key in row}
+                public['fetched_at']=timestamp
+                merged[public['stage_id']]=public
+            catalog['recommendations']=list(merged.values())
             catalog['community']['status']='verified'
+            catalog['community']['fetchedStages']=len(merged)
     return {'schemaVersion':3,'updatedAt':timestamp,'source':f'モンスト{config.get("app_version", "33.0.0")} 実サーバー日次マスター','events':events,'charProfiles':char_profiles,'catalog':catalog,'verification':evidence,'sync':{'mode':'github-actions','intervalMinutes':30,'lastSuccessAt':timestamp,'transport':'https'}}
 
 def run():

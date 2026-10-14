@@ -4,6 +4,8 @@ import fs from 'node:fs';
 import {createHub,gachaTitle,permanentGacha} from './hub-sdk.js';
 const load=name=>JSON.parse(fs.readFileSync(new URL(name,import.meta.url),'utf8'));
 const catalog=load('catalog.json'),events=load('events.json'),live=load('live-data.json'),assets=load('assets.json'),rates=load('gacha-rates.json');
+catalog.gachaRates=rates.rates;
+catalog.gachaMessages=rates.messages;
 const hub=createHub(catalog,events,assets,live);
 test('常設ガチャを日付スケジュールから除き、実際の開催名で検索する',()=>{
   assert.ok(hub.gachaEvents.some(permanentGacha));
@@ -28,6 +30,15 @@ test('取得した割合は原文の精度と初回10連の条件を保持する
   assert.equal(row.entries.find(e=>e.name.includes('その他 ★5-6')).rate,'0.012 %');
   assert.ok(rates.rates.every(r=>r.title==='通常の提供割合'||r.title==='初回10連の提供割合（対象条件あり）'));
   assert.ok(rates.rates.every(r=>!r.entries.some(e=>/[\[\]]/.test(e.name))));
+});
+test('ゲームの結合規則で子ガチャへ割合を共有し、50008の例外を守る',()=>{
+  const time=1792000000;
+  assert.equal(hub.providedRates(11174,time)[0]?.messageId,hub.providedRates(11173,time)[0]?.messageId);
+  assert.ok(hub.providedRates(11175,time).length);
+  const parent=catalog.tables.gacha_groups.find(g=>g.id===11173);
+  const child={...parent,id:999999,parent_group_id:11173,category_id:50008};
+  const fixture=createHub({...catalog,tables:{...catalog.tables,gacha_groups:[...catalog.tables.gacha_groups,child]}},events,assets,live);
+  assert.equal(fixture.providedRates(child.id,time).length,0);
 });
 test('未取得のクリア集計を生成せず、公開画像参照が実在する',()=>{
   const observed=new Set((hub.data.recommendations||[]).map(r=>r.stage_id));
