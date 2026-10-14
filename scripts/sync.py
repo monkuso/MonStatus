@@ -365,9 +365,21 @@ def run():
     os.replace(temporary,data/'events.json')
     print(json.dumps({'result':'success','events':len(snapshot['events']),'chars':len(snapshot['charProfiles']),'updatedAt':snapshot['updatedAt'],'tables':snapshot['verification'],'catalogRelations':catalog['relations'],'gimmickLabels':catalog['gimmicks']},ensure_ascii=False))
 
+def fetch_published(name):
+    stamp=int(time.time())
+    for url in (f'https://monkuso.github.io/MonStatus/data/{name}.json?restore={stamp}',f'https://monkuso.github.io/MonStatus/{name}.json?restore={stamp}'):
+        try:
+            return json.loads(download(url,64*1024*1024).decode('utf-8'))
+        except Exception:
+            continue
+    return None
+
 def restore_snapshot():
     data=Path(__file__).resolve().parents[1]/'data'
-    snapshots={name:json.loads(download(f'https://monkuso.github.io/MonStatus/data/{name}.json?restore={int(time.time())}',64*1024*1024).decode('utf-8')) for name in ['catalog','events']}
+    snapshots={name:fetch_published(name) for name in ['catalog','events']}
+    if any(value is None for value in snapshots.values()):
+        print(json.dumps({'restoredStages':0,'note':'public snapshot unavailable; keeping committed data'}))
+        return
     catalog=snapshots['catalog']
     events=snapshots['events']
     if catalog.get('schemaVersion')!=1 or not isinstance(catalog.get('recommendations'),list) or not isinstance(catalog.get('tables',{}).get('stages'),list) or events.get('schemaVersion')!=3 or not isinstance(events.get('events'),list) or catalog.get('updatedAt')!=events.get('updatedAt'):raise SyncError('Public snapshot rejected')
