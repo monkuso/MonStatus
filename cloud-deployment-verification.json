@@ -1,0 +1,27 @@
+{
+  "site": "https://monkuso.github.io/MonStatus/",
+  "repository": "https://github.com/monkuso/MonStatus",
+  "workflowRun": "https://github.com/monkuso/MonStatus/actions/runs/38414812197/attempts/2",
+  "status": "success",
+  "deployedCommit": "508468c",
+  "snapshotUpdatedAt": "2026-10-13T14:40:46.772961+00:00",
+  "events": 1185,
+  "verifiedTables": 4,
+  "sync": {"mode": "github-actions", "intervalMinutes": 30, "apiTransport": "https"},
+  "checks": {
+    "publishedSiteFilesMatchLocal": true,
+    "privateValuesFoundInPublishedFiles": false,
+    "javascriptTestsPassed": 7,
+    "pythonTestsPassed": 4,
+    "desktopImageLoading": true,
+    "mobileWidth390HorizontalOverflow": false,
+    "tomorrowFilterSelectsAll": true,
+    "resetDateSelectsActive": true,
+    "searchReturnsExpectedQuest": true,
+    "publishedMobileWidth390HorizontalOverflow": false,
+    "publishedFavoritesPersistAfterReload": true,
+    "localCredentialRelayStopped": true
+  },
+  "credentialRenewal": "manual-on-expiration",
+  "scheduledRunObserved": false
+}

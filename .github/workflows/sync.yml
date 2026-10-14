@@ -1,0 +1,52 @@
+name: Sync game events and deploy
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: '17,47 * * * *'
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  sync-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+      - name: Install sync dependency
+        run: python -m pip install -r requirements-sync.txt
+      - name: Validate sync and site logic
+        run: |
+          python -m unittest test_cloud_sync.py test_catalog_sync.py
+          node --test tests.mjs library-tests.mjs
+      - name: Fetch verified game data
+        env:
+          MS_GAME_CONFIG: ${{ secrets.MS_GAME_CONFIG }}
+        run: python cloud_sync.py
+      - name: Validate live data
+        run: node --test tests.mjs library-tests.mjs
+      - uses: actions/configure-pages@v5
+      - name: Prepare public site
+        run: |
+          mkdir -p dist
+          cp index.html hub.css hub.js hub-sdk.js sdk.js events.json events.html style.css app.js oragon.svg heart.svg catalog.json assets.json library.html library.js library-sdk.js library.css dist/
+          if [ -d assets ]; then cp -r assets dist/; fi
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+      - uses: actions/deploy-pages@v4
+        id: deployment
