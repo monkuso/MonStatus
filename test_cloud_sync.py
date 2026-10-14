@@ -48,6 +48,12 @@ class CloudSyncTests(unittest.TestCase):
         self.assertEqual([(r['stageId'],r['status']) for r in catalog['clearChecks']],[(10,'available'),(20,'not-published')])
         self.assertEqual(catalog['community']['checkedStages'],2)
 
+    def test_one_individual_failure_does_not_skip_other_stages(self):
+        catalog={'stageEvents':[],'tables':{'stages':[{'id':10,'stage_group_id':1},{'id':20,'stage_group_id':1}]},'recommendations':[],'community':{}}
+        row={'stage_id':20,'gacha_char_ids':[33],'event_char_ids':[]}
+        with patch('cloud_sync.read_game',side_effect=[{'recommends':[]},SyncError('failed'),{'recommends':[row]}]):sync_clear_groups(catalog,{},'2026-10-15T00:00:00+00:00')
+        self.assertEqual([(r['stageId'],r['status']) for r in catalog['clearChecks']],[(10,'error'),(20,'available')])
+
     def archive(self,value):
         buffer=io.BytesIO()
         with zipfile.ZipFile(buffer,'w',zipfile.ZIP_DEFLATED) as archive:

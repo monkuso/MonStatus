@@ -74,15 +74,19 @@ def sync_clear_groups(catalog,config,timestamp,previous=None):
         rows=[]
         result_checks=[]
         errors=[]
+        def reject_global(error):
+            if getattr(error,'code',None) in {200,429}:
+                stopped.set()
+                raise SyncError('Clear session or rate rejected') from None
         try:
+            details=read(f'/char/recommend?stage_id=0&stage_group_id={group_id}')
+            if not isinstance(details.get('recommends'),list):raise SyncError('Clear response rejected')
+            rows=details['recommends']
+        except Exception as error:
+            reject_global(error)
+        returned={row['stage_id'] for row in rows}
+        for stage_id in stage_groups[group_id]:
             try:
-                details=read(f'/char/recommend?stage_id=0&stage_group_id={group_id}')
-                if not isinstance(details.get('recommends'),list):raise SyncError('Clear response rejected')
-                rows=details['recommends']
-            except GameReadError as error:
-                if error.code!=4:raise
-            returned={row['stage_id'] for row in rows}
-            for stage_id in stage_groups[group_id]:
                 if stage_id not in returned:
                     individual=read(f'/char/recommend?stage_id={stage_id}&stage_group_id={group_id}')
                     if not isinstance(individual.get('recommends'),list):raise SyncError('Clear response rejected')
@@ -90,13 +94,10 @@ def sync_clear_groups(catalog,config,timestamp,previous=None):
                     rows.extend(matching)
                     if matching:returned.add(stage_id)
                 result_checks.append({'stageId':stage_id,'status':'available' if stage_id in returned else 'not-published','checkedAt':timestamp})
-        except Exception as error:
-            if getattr(error,'code',None) in {200,429}:
-                stopped.set()
-                raise SyncError('Clear session or rate rejected') from None
-            errors.append({'stageGroupId':group_id,'errorType':type(error).__name__})
-            completed={row['stageId'] for row in result_checks}
-            result_checks.extend({'stageId':stage_id,'status':'error','checkedAt':timestamp} for stage_id in stage_groups[group_id] if stage_id not in completed)
+            except Exception as error:
+                reject_global(error)
+                if not errors:errors.append({'stageGroupId':group_id,'errorType':type(error).__name__})
+                result_checks.append({'stageId':stage_id,'status':'error','checkedAt':timestamp})
         return rows,result_checks,errors
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
         for index,result in enumerate(executor.map(fetch,requested),1):
