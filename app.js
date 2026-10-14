@@ -1,4 +1,4 @@
-import {loadEvents,queryEvents,eventStatus,isLongTerm,displayName,jstDay,syncStatus,decodeGimmicks,hasAnyGimmick,attributeMeta,lookupChars,RARITY_SYMBOLS} from './sdk.js';
+import {loadEvents,queryEvents,eventStatus,isLongTerm,displayName,jstDay,decodeGimmicks,hasAnyGimmick,attributeMeta,lookupChars,RARITY_SYMBOLS} from './sdk.js';
 const $=id=>document.getElementById(id);
 const dateFormat=new Intl.DateTimeFormat('ja-JP',{timeZone:'Asia/Tokyo',month:'2-digit',day:'2-digit',weekday:'short',hour:'2-digit',minute:'2-digit',hour12:false});
 const fullDate=new Intl.DateTimeFormat('ja-JP',{timeZone:'Asia/Tokyo',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false});
@@ -69,22 +69,20 @@ function render(){
   $('grid').replaceChildren(...results.slice(0,limit).map(card));$('result-count').textContent=`${results.length.toLocaleString()}件`; $('message').hidden=results.length>0;$('message').textContent=view==='favorites'?'お気に入りはまだありません。カードのハートから追加できます。':'条件に一致するイベントはありません。検索や表示条件を変更してください。';$('more').hidden=results.length<=limit;
   const base={includeLongTerm:settings.includeLongTerm,includeConditional:settings.includeConditional};$('active-count').textContent=queryEvents(snapshot.events,{...base,view:'active'}).length.toLocaleString();$('upcoming-count').textContent=queryEvents(snapshot.events,{...base,view:'upcoming'}).length.toLocaleString();$('favorite-count').textContent=snapshot.events.filter(e=>favorites.has(e.id)).length.toLocaleString();
   const next=queryEvents(snapshot.events,{view:'upcoming',sort:'starting'})[0];$('next-name').textContent=next?displayName(next.name):'新しい予定を待っています';$('next-time').textContent=next?`${format(next.startAt)} 開始`:'新しいデータで予定をチェック';
-  const sync=syncStatus(snapshot);$('sync-state').textContent=sync.label;$('sync-state').dataset.state=sync.state;
   $('date-hint').textContent=$('date').value?`${$('date').value.replaceAll('-','/')} に開催期間が重なるイベント`:'いまの開催状況で表示しています';
 }
 async function refresh({background=false}={}){
   if(refreshing)return;refreshing=true;
-  $('reload').disabled=true;
-  try{snapshot=await loadEvents();$('updated').textContent=`最終取得 ${fullDate.format(new Date(snapshot.updatedAt))} JST`;if(!background)limit=24;render();$('load-error').hidden=true;}
+  try{snapshot=await loadEvents();if(!background)limit=24;render();$('load-error').hidden=true;}
   catch{if(snapshot)render();else $('message').hidden=true;$('load-error').hidden=false;$('load-error').textContent=snapshot?'最新データの読み込みに失敗しました。前回の取得データを表示しています。':'データを読み込めませんでした。時間をおいて「更新」をお試しください。';}
-  finally{refreshing=false;$('reload').disabled=false;}
+  finally{refreshing=false;}
 }
 function selectView(next){view=next;limit=24;for(const tab of document.querySelectorAll('[data-view]')){const selected=tab.dataset.view===view;tab.classList.toggle('selected',selected);tab.setAttribute('aria-pressed',String(selected));}}
 for(const button of document.querySelectorAll('[data-view]'))button.addEventListener('click',()=>{$('date').value='';selectView(button.dataset.view);render();});
 for(const id of ['search','sort','permanent','conditional'])$(id).addEventListener(id==='search'?'input':'change',()=>{limit=24;render();});
 $('date').addEventListener('change',()=>{selectView($('date').value?'all':'active');render();});
 for(const button of document.querySelectorAll('[data-day]'))button.addEventListener('click',()=>{$('date').value=jstDay(Date.now(),Number(button.dataset.day));selectView('all');render();});
-$('clear-date').addEventListener('click',()=>{$('date').value='';selectView('active');render();});$('more').addEventListener('click',()=>{limit+=24;render();});$('reload').addEventListener('click',()=>refresh());
+$('clear-date').addEventListener('click',()=>{$('date').value='';selectView('active');render();});$('more').addEventListener('click',()=>{limit+=24;render();});
 document.addEventListener('keydown',event=>{if(event.key==='/' && !['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)){event.preventDefault();$('search').focus();}});
 setInterval(()=>{if(snapshot)render();},60000);
 setInterval(()=>{if(!document.hidden)refresh({background:true});},300000);
