@@ -327,21 +327,21 @@ def build_snapshot(config,previous=None):
                 catalog['gachaMessages']=[]
                 catalog['gachaRates']=[]
                 for index,row in enumerate(messages):
-                    metadata={'messageId':row['id'],'gachaGroupId':row.get('gacha_group_id',0),'messageIndex':index,
-                              'startAt':row['start_at'],'endAt':row['end_at'],'disabled':row.get('disabled',0),'priority':row.get('priority',0)}
-                    catalog['gachaMessages'].append(metadata)
                     raw_details=row.get('message','')
                     character_ids=list(dict.fromkeys(int(value) for value in re.findall(r'\[IPLJ(\d+)\]',raw_details)))
                     detail_text=re.sub(r'\[u:[^|\]]+\|([^\]]+)\]',r'\1',raw_details)
                     detail_text=re.sub(r'\[C\d+:([^\[\]]*)\]',r'\1',detail_text)
                     detail_text=re.sub(r'\[BLOCK:([^\]]+)\]',r'\1',detail_text)
                     _,explanation=parse_rates(detail_text)
+                    metadata={'messageId':row['id'],'gachaGroupId':row.get('gacha_group_id',0),'messageIndex':index,
+                              'startAt':row['start_at'],'endAt':row['end_at'],'disabled':row.get('disabled',0),'priority':row.get('priority',0),
+                              'detailText':explanation,'detailCharacterIds':character_ids}
+                    catalog['gachaMessages'].append(metadata)
                     for field,title in [('summary','通常の提供割合'),('inc_prob_gacha_summary','初回10連の提供割合（対象条件あり）')]:
                         text=row.get(field,'')
                         if not text:continue
                         entries,notes=parse_rates(text)
                         catalog['gachaRates'].append({**metadata,'title':title,'entries':entries,'notes':notes,'rawText':text,
-                                                      'detailText':explanation,'detailCharacterIds':character_ids,
                                                       'source':'official-game-provided-rates','observedAt':timestamp})
         else:
             merge_clear_results(catalog,details,timestamp)
