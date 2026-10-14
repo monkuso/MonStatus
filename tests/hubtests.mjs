@@ -1,9 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {createHub,gachaTitle,permanentGacha} from './hub-sdk.js';
-const load=name=>JSON.parse(fs.readFileSync(new URL(name,import.meta.url),'utf8'));
-const catalog=load('catalog.json'),events=load('events.json'),live=load('live-data.json'),assets=load('assets.json'),rates=load('gacha-rates.json');
+import {createHub,gachaTitle,permanentGacha} from '../web/hubsdk.js';
+const load=name=>JSON.parse(fs.readFileSync(new URL('../data/'+name,import.meta.url),'utf8'));
+const catalog=load('catalog.json'),events=load('events.json'),live=load('livedata.json'),assets=load('assets.json'),rates=load('gacharates.json');
 catalog.gachaRates=rates.rates;
 catalog.gachaMessages=rates.messages;
 const hub=createHub(catalog,events,assets,live);
@@ -69,5 +69,5 @@ test('未取得のクリア集計を生成せず、公開画像参照が実在�
   const absent=hub.library.tables.stages.find(s=>!observed.has(s.id));
   if(absent)assert.equal(hub.library.stage(absent.id).community,null);
   assert.ok((hub.data.recommendations||[]).every(row=>hub.library.indexes.stages.has(row.stage_id)));
-  for(const paths of Object.values(assets))if(paths&&typeof paths==='object'&&!Array.isArray(paths))for(const path of Object.values(paths))if(typeof path==='string'&&path.startsWith('assets/'))assert.ok(fs.existsSync(new URL(path,import.meta.url)),path);
+  for(const paths of Object.values(assets))if(paths&&typeof paths==='object'&&!Array.isArray(paths))for(const path of Object.values(paths))if(typeof path==='string'&&path.startsWith('assets/'))assert.ok(fs.existsSync(new URL('../'+path,import.meta.url)),path);
 });

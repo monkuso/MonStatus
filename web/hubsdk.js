@@ -1,5 +1,5 @@
 import {displayName,eventStatus,isLongTerm,jstDay} from './sdk.js';
-import {createLibrary} from './library-sdk.js';
+import {createLibrary} from './librarysdk.js';
 export const cleanText=value=>displayName(String(value??'')).replace(/\[LF\]/g,'\n').replace(/\[GIMMICK:([^\]]+)\]/g,'$1').replace(/\[GIMMICK_END\]/g,'').replace(/\[(?:IMG|LC|LR|L|S|B|C_END)[^\]]*\]/g,'').trim();
 export const normalized=value=>cleanText(value).normalize('NFKC').toLocaleLowerCase('ja');
 export const visibleAt=(row,now)=>!Number.isFinite(row.visible_at)||row.visible_at<=now;

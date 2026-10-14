@@ -15,9 +15,9 @@ import urllib.request
 import zipfile
 import zlib
 import msgpack
-from catalog_sync import CATALOG_TABLES,build_catalog
-from game_protocol import signed_headers,read_game,GameReadError
-from gacha_rates import parse_rates
+from catalog import CATALOG_TABLES,build_catalog
+from protocol import signed_headers,read_game,GameReadError
+from rates import parse_rates
 
 TABLES={'stage_groups','stage_group_events','stage_group_kind_events','stage_group_cycle_events','stages','stage_gimmicks','chars','wanted_bosses','wanted_boss_groups'}
 TABLES|=CATALOG_TABLES
@@ -353,28 +353,28 @@ def run():
     encoded=os.environ.get('MS_GAME_CONFIG')
     if not encoded:
         raise SyncError('MS_GAME_CONFIG secret is not configured')
-    root=Path(__file__).resolve().parent
-    previous=json.loads((root/'catalog.json').read_text(encoding='utf-8'))
+    data=Path(__file__).resolve().parents[1]/'data'
+    previous=json.loads((data/'catalog.json').read_text(encoding='utf-8'))
     snapshot=build_snapshot(json.loads(encoded),previous)
     catalog=snapshot.pop('catalog')
-    catalog_temporary=root/'catalog.json.tmp'
+    catalog_temporary=data/'catalog.json.tmp'
     catalog_temporary.write_text(json.dumps(catalog,ensure_ascii=False,indent=2),encoding='utf-8')
-    os.replace(catalog_temporary,root/'catalog.json')
-    temporary=root/'events.json.tmp'
+    os.replace(catalog_temporary,data/'catalog.json')
+    temporary=data/'events.json.tmp'
     temporary.write_text(json.dumps(snapshot,ensure_ascii=False,indent=2),encoding='utf-8')
-    os.replace(temporary,root/'events.json')
+    os.replace(temporary,data/'events.json')
     print(json.dumps({'result':'success','events':len(snapshot['events']),'chars':len(snapshot['charProfiles']),'updatedAt':snapshot['updatedAt'],'tables':snapshot['verification'],'catalogRelations':catalog['relations'],'gimmickLabels':catalog['gimmicks']},ensure_ascii=False))
 
 def restore_snapshot():
-    root=Path(__file__).resolve().parent
-    snapshots={name:json.loads(download(f'https://monkuso.github.io/MonStatus/{name}.json?restore={int(time.time())}',64*1024*1024).decode('utf-8')) for name in ['catalog','events']}
+    data=Path(__file__).resolve().parents[1]/'data'
+    snapshots={name:json.loads(download(f'https://monkuso.github.io/MonStatus/data/{name}.json?restore={int(time.time())}',64*1024*1024).decode('utf-8')) for name in ['catalog','events']}
     catalog=snapshots['catalog']
     events=snapshots['events']
     if catalog.get('schemaVersion')!=1 or not isinstance(catalog.get('recommendations'),list) or not isinstance(catalog.get('tables',{}).get('stages'),list) or events.get('schemaVersion')!=3 or not isinstance(events.get('events'),list) or catalog.get('updatedAt')!=events.get('updatedAt'):raise SyncError('Public snapshot rejected')
     for name,value in snapshots.items():
-        temporary=root/f'{name}.json.tmp'
+        temporary=data/f'{name}.json.tmp'
         temporary.write_text(json.dumps(value,ensure_ascii=False,indent=2),encoding='utf-8')
-        os.replace(temporary,root/f'{name}.json')
+        os.replace(temporary,data/f'{name}.json')
     print(json.dumps({'restoredStages':len(catalog['recommendations']),'updatedAt':catalog['updatedAt']}))
 
 if __name__=='__main__':

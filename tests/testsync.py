@@ -4,7 +4,10 @@ from unittest.mock import patch
 import zipfile
 import zlib
 import msgpack
-from cloud_sync import SyncError,table_from_archive,normalize_events,build_gimmick_index,union_gimmicks_for_group,build_char_index,recommended_char_ids,build_wanted_boss_index,active_wanted_bosses,ADVANTAGE,clear_group_ids,merge_clear_results,sync_clear_groups
+import sys
+from pathlib import Path
+sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
+from sync import SyncError,table_from_archive,normalize_events,build_gimmick_index,union_gimmicks_for_group,build_char_index,recommended_char_ids,build_wanted_boss_index,active_wanted_bosses,ADVANTAGE,clear_group_ids,merge_clear_results,sync_clear_groups
 
 EMPTY_TABLES={'stage_groups':[],'stage_group_events':[],'stage_group_kind_events':[],'stage_group_cycle_events':[],'stages':[],'stage_gimmicks':[],'chars':[],'wanted_bosses':[],'wanted_boss_groups':[]}
 
@@ -33,7 +36,7 @@ class CloudSyncTests(unittest.TestCase):
 
     def test_group_failures_are_reported_without_invented_clear_results(self):
         catalog={'stageEvents':[{'sourceTable':'stage_group_events','stageGroupId':1,'startAt':0,'endAt':2000000000}], 'tables':{'stages':[{'id':10,'stage_group_id':1}]},'recommendations':[],'community':{}}
-        with patch('cloud_sync.read_game',side_effect=SyncError('failed')):sync_clear_groups(catalog,{},'2026-10-15T00:00:00+00:00')
+        with patch('sync.read_game',side_effect=SyncError('failed')):sync_clear_groups(catalog,{},'2026-10-15T00:00:00+00:00')
         self.assertEqual(catalog['recommendations'],[])
         self.assertEqual(catalog['community']['status'],'partial')
         self.assertEqual(catalog['community']['failedGroups'],[{'stageGroupId':1,'errorType':'SyncError'}])
@@ -42,7 +45,7 @@ class CloudSyncTests(unittest.TestCase):
     def test_missing_group_results_are_checked_individually(self):
         catalog={'stageEvents':[],'tables':{'stages':[{'id':10,'stage_group_id':1},{'id':20,'stage_group_id':1}]},'recommendations':[],'community':{}}
         row={'stage_id':10,'gacha_char_ids':[33],'event_char_ids':[]}
-        with patch('cloud_sync.read_game',side_effect=[{'recommends':[row]},{'recommends':[]}]) as read:
+        with patch('sync.read_game',side_effect=[{'recommends':[row]},{'recommends':[]}]) as read:
             sync_clear_groups(catalog,{},'2026-10-15T00:00:00+00:00')
         self.assertEqual(read.call_args_list[1].args[1],'/char/recommend?stage_id=20&stage_group_id=1')
         self.assertEqual([(r['stageId'],r['status']) for r in catalog['clearChecks']],[(10,'available'),(20,'not-published')])
@@ -51,13 +54,13 @@ class CloudSyncTests(unittest.TestCase):
     def test_one_individual_failure_does_not_skip_other_stages(self):
         catalog={'stageEvents':[],'tables':{'stages':[{'id':10,'stage_group_id':1},{'id':20,'stage_group_id':1}]},'recommendations':[],'community':{}}
         row={'stage_id':20,'gacha_char_ids':[33],'event_char_ids':[]}
-        with patch('cloud_sync.read_game',side_effect=[{'recommends':[]},SyncError('failed'),{'recommends':[row]}]):sync_clear_groups(catalog,{},'2026-10-15T00:00:00+00:00')
+        with patch('sync.read_game',side_effect=[{'recommends':[]},SyncError('failed'),{'recommends':[row]}]):sync_clear_groups(catalog,{},'2026-10-15T00:00:00+00:00')
         self.assertEqual([(r['stageId'],r['status']) for r in catalog['clearChecks']],[(10,'error'),(20,'available')])
 
     def test_cached_historical_results_keep_original_observation_time(self):
         catalog={'stageEvents':[],'tables':{'stages':[{'id':10,'stage_group_id':1}]},'recommendations':[],'community':{}}
         previous={'recommendations':[{'stage_id':10,'gacha_char_ids':[33],'event_char_ids':[],'fetched_at':'2026-10-15T00:00:00+00:00'}],'clearChecks':[{'stageId':10,'status':'available','checkedAt':'2026-10-15T00:00:00+00:00'}]}
-        with patch('cloud_sync.read_game') as read:sync_clear_groups(catalog,{},'2026-10-15T01:00:00+00:00',previous)
+        with patch('sync.read_game') as read:sync_clear_groups(catalog,{},'2026-10-15T01:00:00+00:00',previous)
         read.assert_not_called()
         self.assertEqual(catalog['recommendations'][0]['fetched_at'],'2026-10-15T00:00:00+00:00')
         self.assertEqual(catalog['community']['checkedStages'],1)

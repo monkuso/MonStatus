@@ -37,7 +37,7 @@ export function createLibrary(data){
   }
   return {data,tables,indexes,stage,gacha,character,search};
 }
-export async function loadLibrary(url='./catalog.json'){
+export async function loadLibrary(url='./data/catalog.json'){
   const response=await fetch(url,{cache:'no-cache'});if(!response.ok)throw new Error(`図鑑の取得に失敗しました (${response.status})`);
   return createLibrary(await response.json());
 }

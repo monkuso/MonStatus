@@ -11,8 +11,8 @@ from pathlib import Path
 
 from PIL import Image
 
-ROOT = Path(__file__).resolve().parents[1]
-DESTINATION = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[2]
+DESTINATION = Path(__file__).resolve().parents[1]
 sys.dont_write_bytecode = True
 sys.path.insert(0, str(ROOT / 'analysis'))
 from decode_static_strings import StaticStrings
@@ -158,7 +158,7 @@ def main():
         manifest['gimmicks'][str(mask)] = f'assets/gimmicks/{mask}.webp'
     manifest['counts'] = {key: len(manifest[key]) for key in ['characters', 'quests', 'gachas', 'gimmicks']}
     manifest['provenance']['assetSetDigest'] = hashlib.sha256(json.dumps(manifest['counts'], sort_keys=True).encode()).hexdigest()
-    (DESTINATION / 'assets.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding='utf-8')
+    (DESTINATION / 'data' / 'assets.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding='utf-8')
     print(json.dumps({'result': 'success', **manifest['counts']}), flush=True)
 
 

@@ -66,7 +66,7 @@ export function queryEvents(events, {view='active', now=Date.now()/1000, text=''
   for(const event of selected){const key=JSON.stringify([event.sourceTable,event.stageGroupId,event.name,event.questName,event.startAt,event.endAt]);if(!unique.has(key))unique.set(key,event);}
   return [...unique.values()].sort((a,b)=> sort==='name' ? a.name.localeCompare(b.name,'ja') : (sort==='starting' ? a.startAt-b.startAt : a.endAt-b.endAt) || a.id.localeCompare(b.id));
 }
-export async function loadEvents(url='./events.json') {
+export async function loadEvents(url='./data/events.json') {
   const response=await fetch(url,{cache:'no-cache'});
   if(!response.ok) throw new Error(`HTTP ${response.status}`);
   const snapshot=await response.json();

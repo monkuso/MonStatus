@@ -49,7 +49,7 @@ function card(event){
   const status=eventStatus(event),labels={active:'開催中',upcoming:'開催予定',ended:'終了',unknown:'日程未設定'};
   const article=element('article','event-card');
   const top=element('div','card-top');top.append(element('span',`badge ${status}`,labels[status]));
-  const star=element('button','favorite');const heart=element('img');heart.src='./heart.svg';heart.alt='';heart.width=24;heart.height=26;star.append(heart);star.type='button';star.setAttribute('aria-label',`${displayName(event.name)}をお気に入り${favorites.has(event.id)?'から解除':'に追加'}`);star.setAttribute('aria-pressed',String(favorites.has(event.id)));star.addEventListener('click',()=>{favorites.has(event.id)?favorites.delete(event.id):favorites.add(event.id);saveFavorites();render();});top.append(star);
+  const star=element('button','favorite');const heart=element('img');heart.src='./web/heart.svg';heart.alt='';heart.width=24;heart.height=26;star.append(heart);star.type='button';star.setAttribute('aria-label',`${displayName(event.name)}をお気に入り${favorites.has(event.id)?'から解除':'に追加'}`);star.setAttribute('aria-pressed',String(favorites.has(event.id)));star.addEventListener('click',()=>{favorites.has(event.id)?favorites.delete(event.id):favorites.add(event.id);saveFavorites();render();});top.append(star);
   const body=element('div','card-content');body.append(element('h3','',displayName(event.name)));if(event.questName && event.questName!==event.name)body.append(element('p','quest',displayName(event.questName)));
   const stageAttr=attributeMeta(event.attributeId);
   if(stageAttr){const chip=element('span',`stage-attr char-${stageAttr.key}`,`ステージ属性 ${stageAttr.label}`);chip.style.setProperty('--char-color',stageAttr.color);body.append(chip);}

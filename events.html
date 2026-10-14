@@ -7,8 +7,8 @@
   <meta name="description" content="モンストのイベント開催期間を検索。開催中・開催予定のクエストをJSTでチェック。">
   <title>MonStatus — モンストイベントカレンダー</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23c4f16b'/%3E%3Cpath d='M14 44V20h8l10 14 10-14h8v24h-8V32L32 46 22 32v12z' fill='%23101811'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="./style.css">
-  <script type="module" src="./app.js"></script>
+  <link rel="stylesheet" href="./web/style.css">
+  <script type="module" src="./web/events.js"></script>
 </head>
 <body>
   <a class="skip" href="#events">イベント一覧へ</a>
@@ -16,7 +16,7 @@
   <main>
     <section class="hero">
       <div class="hero-copy"><span class="eyebrow"><i></i> MONSTER STRIKE / EVENT TRACKER</span><h1>次の挑戦を、<br><span>見逃さない。</span></h1><p>いま開催中のイベントも、これからの予定も。<br>気になるクエストを、ひとつのカレンダーに。</p></div>
-      <aside class="next"><div class="next-top"><span>UP NEXT</span><span>JST / 日本時間</span></div><img class="oragon" src="./oragon.svg" alt="オラゴン" width="126" height="190"><div class="next-copy"><p class="next-label">次に始まるイベント</p><h2 id="next-name">読み込み中</h2><p id="next-time" class="next-time">—</p></div><a href="#events" class="next-link">予定をチェック <span>↓</span></a></aside>
+      <aside class="next"><div class="next-top"><span>UP NEXT</span><span>JST / 日本時間</span></div><img class="oragon" src="./web/oragon.svg" alt="オラゴン" width="126" height="190"><div class="next-copy"><p class="next-label">次に始まるイベント</p><h2 id="next-name">読み込み中</h2><p id="next-time" class="next-time">—</p></div><a href="#events" class="next-link">予定をチェック <span>↓</span></a></aside>
     </section>
     <section class="stats" aria-label="イベント集計"><div><span class="stat-label">開催中</span><strong id="active-count">—</strong><span class="stat-note">いまチェックできる日程</span></div><div><span class="stat-label">開催予定</span><strong id="upcoming-count">—</strong><span class="stat-note">これから始まる日程</span></div><div><span class="stat-label">お気に入り</span><strong id="favorite-count">0</strong><span class="stat-note">このブラウザーに保存</span></div><div class="stat-info"><span class="stat-label">TIME ZONE</span><strong class="jst">JST <small>UTC+9</small></strong><span class="stat-note">すべて日本時間で表示</span></div></section>
     <section id="events" class="event-section">
