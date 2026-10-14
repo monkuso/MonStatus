@@ -106,11 +106,12 @@ def main():
     targets = {}
     skins = {row.get('skin_id') or row['id'] for row in catalog['tables']['chars']}
     for skin in skins:
-        targets[name_hash(f'cb/cb{skin:04d}.png')] = ('characters', str(skin), f'characters/{skin}.webp')
+        targets[name_hash(f'cb/cb{skin:04d}.png')] = ('characters', str(skin), f'characters/{skin % 100:02d}/{skin}.webp')
     for group in catalog['tables']['stage_groups']:
         name = group.get('banner_file_name')
         if name:
-            targets[name_hash(name)] = ('quests', name, f'quests/{name_hash(name)}.webp')
+            digest = name_hash(name)
+            targets[digest] = ('quests', name, f'quests/{digest[:2].lower()}/{digest}.webp')
     for banner in catalog.get('gachaBanners', []):
         name = banner.get('file_name')
         if name and name_hash(name) not in targets:
