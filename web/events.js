@@ -3,10 +3,8 @@ const $=id=>document.getElementById(id);
 const dateFormat=new Intl.DateTimeFormat('ja-JP',{timeZone:'Asia/Tokyo',month:'2-digit',day:'2-digit',weekday:'short',hour:'2-digit',minute:'2-digit',hour12:false});
 const fullDate=new Intl.DateTimeFormat('ja-JP',{timeZone:'Asia/Tokyo',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false});
 const format=seconds=>dateFormat.format(new Date(seconds*1000));
-let snapshot=null,view='active',limit=24,favorites=new Set(),refreshing=false;
-try{const saved=JSON.parse(localStorage.getItem('monstatus:favorites') || '[]');if(Array.isArray(saved)) favorites=new Set(saved.filter(v=>typeof v==='string'));}catch{}
+let snapshot=null,view='active',limit=24,refreshing=false;
 function element(tag,className,text){const node=document.createElement(tag);if(className)node.className=className;if(text!==undefined)node.textContent=text;return node;}
-function saveFavorites(){try{localStorage.setItem('monstatus:favorites',JSON.stringify([...favorites]));}catch{} }
 function gimmickRow(event){
   if(!hasAnyGimmick(event))return null;
   const row=element('div','gimmick-row');
@@ -49,7 +47,6 @@ function card(event){
   const status=eventStatus(event),labels={active:'開催中',upcoming:'開催予定',ended:'終了',unknown:'日程未設定'};
   const article=element('article','event-card');
   const top=element('div','card-top');top.append(element('span',`badge ${status}`,labels[status]));
-  const star=element('button','favorite');const heart=element('img');heart.src='./web/heart.svg';heart.alt='';heart.width=24;heart.height=26;star.append(heart);star.type='button';star.setAttribute('aria-label',`${displayName(event.name)}をお気に入り${favorites.has(event.id)?'から解除':'に追加'}`);star.setAttribute('aria-pressed',String(favorites.has(event.id)));star.addEventListener('click',()=>{favorites.has(event.id)?favorites.delete(event.id):favorites.add(event.id);saveFavorites();render();});top.append(star);
   const body=element('div','card-content');body.append(element('h3','',displayName(event.name)));if(event.questName && event.questName!==event.name)body.append(element('p','quest',displayName(event.questName)));
   const stageAttr=attributeMeta(event.attributeId);
   if(stageAttr){const chip=element('span',`stage-attr char-${stageAttr.key}`,`ステージ属性 ${stageAttr.label}`);chip.style.setProperty('--char-color',stageAttr.color);body.append(chip);}
@@ -64,10 +61,10 @@ function card(event){
 }
 function render(){
   if(!snapshot)return;
-  const settings={view,text:$('search').value,includeLongTerm:$('permanent').checked,includeConditional:$('conditional').checked,favorites,sort:$('sort').value,day:$('date').value || null};
+  const settings={view,text:$('search').value,includeLongTerm:$('permanent').checked,includeConditional:$('conditional').checked,sort:$('sort').value,day:$('date').value || null};
   const results=queryEvents(snapshot.events,settings);
-  $('grid').replaceChildren(...results.slice(0,limit).map(card));$('result-count').textContent=`${results.length.toLocaleString()}件`; $('message').hidden=results.length>0;$('message').textContent=view==='favorites'?'お気に入りはまだありません。カードのハートから追加できます。':'条件に一致するイベントはありません。検索や表示条件を変更してください。';$('more').hidden=results.length<=limit;
-  const base={includeLongTerm:settings.includeLongTerm,includeConditional:settings.includeConditional};$('active-count').textContent=queryEvents(snapshot.events,{...base,view:'active'}).length.toLocaleString();$('upcoming-count').textContent=queryEvents(snapshot.events,{...base,view:'upcoming'}).length.toLocaleString();$('favorite-count').textContent=snapshot.events.filter(e=>favorites.has(e.id)).length.toLocaleString();
+  $('grid').replaceChildren(...results.slice(0,limit).map(card));$('result-count').textContent=`${results.length.toLocaleString()}件`; $('message').hidden=results.length>0;$('message').textContent='条件に一致するイベントはありません。検索や表示条件を変更してください。';$('more').hidden=results.length<=limit;
+  const base={includeLongTerm:settings.includeLongTerm,includeConditional:settings.includeConditional};$('active-count').textContent=queryEvents(snapshot.events,{...base,view:'active'}).length.toLocaleString();$('upcoming-count').textContent=queryEvents(snapshot.events,{...base,view:'upcoming'}).length.toLocaleString();
   const next=queryEvents(snapshot.events,{view:'upcoming',sort:'starting'})[0];$('next-name').textContent=next?displayName(next.name):'新しい予定を待っています';$('next-time').textContent=next?`${format(next.startAt)} 開始`:'新しいデータで予定をチェック';
   $('date-hint').textContent=$('date').value?`${$('date').value.replaceAll('-','/')} に開催期間が重なるイベント`:'いまの開催状況で表示しています';
 }

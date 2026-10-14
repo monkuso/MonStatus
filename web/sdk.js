@@ -48,7 +48,7 @@ export function lookupChars(snapshot, ids) {
   if(!Array.isArray(ids) || !snapshot?.charProfiles) return [];
   return ids.map(id => snapshot.charProfiles[String(id)]).filter(Boolean);
 }
-export function queryEvents(events, {view='active', now=Date.now()/1000, text='', includeLongTerm=false, includeConditional=false, favorites=new Set(), sort='ending', day=null}={}) {
+export function queryEvents(events, {view='active', now=Date.now()/1000, text='', includeLongTerm=false, includeConditional=false, sort='ending', day=null}={}) {
   const search=text.trim().normalize('NFKC').toLocaleLowerCase('ja');
   const dayStart=day ? Date.parse(`${day}T00:00:00+09:00`)/1000 : null;
   const dayEnd=dayStart === null ? null : dayStart+86400-1;
@@ -56,7 +56,6 @@ export function queryEvents(events, {view='active', now=Date.now()/1000, text=''
     if (!includeLongTerm && isLongTerm(event)) return false;
     if (!includeConditional && event.sourceTable !== 'stage_group_events') return false;
     if (search && !`${event.name} ${event.questName ?? ''}`.normalize('NFKC').toLocaleLowerCase('ja').includes(search)) return false;
-    if (view==='favorites' && !favorites.has(event.id)) return false;
     if (day && !(event.startAt<=dayEnd && event.endAt>=dayStart)) return false;
     const status=eventStatus(event,day ? dayStart : now);
     if (!day && (view==='active' || view==='upcoming') && status!==view) return false;
