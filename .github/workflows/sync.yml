@@ -15,7 +15,7 @@ concurrency:
 jobs:
   sync-and-deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 45
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -33,6 +33,8 @@ jobs:
         run: |
           python -m unittest test_cloud_sync.py test_catalog_sync.py
           node --test tests.mjs library-tests.mjs hub-tests.mjs
+      - name: Restore last published snapshot
+        run: python cloud_sync.py --restore
       - name: Fetch verified game data
         id: sync
         continue-on-error: true

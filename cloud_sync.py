@@ -5,6 +5,9 @@ import io
 import json
 import os
 import re
+import concurrent.futures
+import threading
+import time
 from pathlib import Path
 import sys
 import urllib.parse
@@ -13,7 +16,7 @@ import zipfile
 import zlib
 import msgpack
 from catalog_sync import CATALOG_TABLES,build_catalog
-from game_protocol import signed_headers,read_game
+from game_protocol import signed_headers,read_game,GameReadError
 from gacha_rates import parse_rates
 
 TABLES={'stage_groups','stage_group_events','stage_group_kind_events','stage_group_cycle_events','stages','stage_gimmicks','chars','wanted_bosses','wanted_boss_groups'}
@@ -23,8 +26,15 @@ HEADER_NAMES={'content-type','user-agent','x-ds-eit','x-ds-session','x-ds-reques
 ADVANTAGE={1:2,2:3,3:1,4:5,5:4}
 RECOMMENDED_PER_EVENT=6
 
-def clear_group_ids(catalog,now):
-    return sorted({row['stageGroupId'] for row in catalog['stageEvents'] if row['sourceTable']=='stage_group_events' and row['startAt']<=now<=row['endAt']})
+def clear_group_ids(catalog,now,previous=None):
+    active={row['stageGroupId'] for row in catalog['stageEvents'] if row['sourceTable']=='stage_group_events' and row['startAt']<=now<=row['endAt']}
+    checks={row['stageId']:row for row in (previous or {}).get('clearChecks',[])}
+    selected=set()
+    for row in catalog['tables']['stages']:
+        check=checks.get(row['id'])
+        age=now-datetime.datetime.fromisoformat(check['checkedAt']).timestamp() if check else float('inf')
+        if row['stage_group_id'] in active or not check or check['status']=='error' or age<0 or age>=86400:selected.add(row['stage_group_id'])
+    return sorted(selected,key=lambda group_id:(group_id not in active,group_id))
 
 def merge_clear_results(catalog,details,timestamp):
     rows=details.get('recommends')
@@ -40,16 +50,65 @@ def merge_clear_results(catalog,details,timestamp):
     catalog['recommendations']=list(merged.values())
     catalog['community']['fetchedStages']=len(merged)
 
-def sync_clear_groups(catalog,config,timestamp):
-    requested=clear_group_ids(catalog,datetime.datetime.fromisoformat(timestamp).timestamp())
+def sync_clear_groups(catalog,config,timestamp,previous=None):
+    stage_groups={}
+    for row in catalog['tables']['stages']:stage_groups.setdefault(row['stage_group_id'],[]).append(row['id'])
+    stage_ids={row['id'] for row in catalog['tables']['stages']}
+    current=catalog['recommendations']
+    catalog['recommendations']=[row for row in (previous or {}).get('recommendations',[]) if row['stage_id'] in stage_ids]
+    merge_clear_results(catalog,{'recommends':current},timestamp)
+    checks={row['stageId']:row for row in (previous or {}).get('clearChecks',[]) if row['stageId'] in stage_ids}
+    requested=clear_group_ids(catalog,datetime.datetime.fromisoformat(timestamp).timestamp(),previous)
     failures=[]
-    for group_id in requested:
+    pacing=threading.Lock()
+    stopped=threading.Event()
+    next_read=[time.monotonic()]
+    def read(route):
+        if stopped.is_set():raise SyncError('Clear synchronization stopped')
+        with pacing:
+            delay=max(0,next_read[0]-time.monotonic())
+            next_read[0]=max(next_read[0],time.monotonic())+0.125
+        if delay:time.sleep(delay)
+        return read_game(config,route)
+    def fetch(group_id):
+        rows=[]
+        result_checks=[]
+        errors=[]
         try:
-            details=read_game(config,f'/char/recommend?stage_id=0&stage_group_id={group_id}')
-            merge_clear_results(catalog,details,timestamp)
+            try:
+                details=read(f'/char/recommend?stage_id=0&stage_group_id={group_id}')
+                if not isinstance(details.get('recommends'),list):raise SyncError('Clear response rejected')
+                rows=details['recommends']
+            except GameReadError as error:
+                if error.code!=4:raise
+            returned={row['stage_id'] for row in rows}
+            for stage_id in stage_groups[group_id]:
+                if stage_id not in returned:
+                    individual=read(f'/char/recommend?stage_id={stage_id}&stage_group_id={group_id}')
+                    if not isinstance(individual.get('recommends'),list):raise SyncError('Clear response rejected')
+                    matching=[row for row in individual['recommends'] if row['stage_id']==stage_id]
+                    rows.extend(matching)
+                    if matching:returned.add(stage_id)
+                result_checks.append({'stageId':stage_id,'status':'available' if stage_id in returned else 'not-published','checkedAt':timestamp})
         except Exception as error:
-            failures.append({'stageGroupId':group_id,'errorType':type(error).__name__})
-    catalog['community'].update({'status':'partial' if failures else 'verified','requestedGroups':len(requested),'failedGroups':failures,'observedAt':timestamp})
+            if getattr(error,'code',None) in {200,429}:
+                stopped.set()
+                raise SyncError('Clear session or rate rejected') from None
+            errors.append({'stageGroupId':group_id,'errorType':type(error).__name__})
+            completed={row['stageId'] for row in result_checks}
+            result_checks.extend({'stageId':stage_id,'status':'error','checkedAt':timestamp} for stage_id in stage_groups[group_id] if stage_id not in completed)
+        return rows,result_checks,errors
+    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
+        for index,result in enumerate(executor.map(fetch,requested),1):
+            rows,result_checks,errors=result
+            merge_clear_results(catalog,{'recommends':rows},timestamp)
+            checks.update({row['stageId']:row for row in result_checks})
+            failures.extend(errors)
+            if index%250==0:print(json.dumps({'clearGroupsCompleted':index,'clearGroupsTotal':len(requested),'checkedStages':len(checks)}),flush=True)
+    catalog['clearChecks']=sorted(checks.values(),key=lambda row:row['stageId'])
+    unpublished={row['stageId'] for row in checks.values() if row['status']=='not-published'}
+    catalog['recommendations']=[row for row in catalog['recommendations'] if row['stage_id'] not in unpublished]
+    catalog['community'].update({'status':'partial' if failures else 'verified','description':'全ステージを対象に確認したゲームのクリアモンスター集計です。','scope':'all-stages','totalStages':len(stage_ids),'checkedStages':len(checks),'fetchedStages':len(catalog['recommendations']),'requestedGroups':len(requested),'failedGroups':failures,'observedAt':timestamp})
 
 class SyncError(Exception):
     pass
@@ -213,7 +272,7 @@ def normalize_events(tables):
     char_profiles={str(cid):char_index[cid] for cid in sorted(referenced_chars) if cid in char_index}
     return events,char_profiles
 
-def build_snapshot(config):
+def build_snapshot(config,previous=None):
     parsed=urllib.parse.urlsplit(config['url'])
     if parsed.scheme!='https' or parsed.hostname!='api.monster-strike.com' or parsed.path!='/master/version':
         raise SyncError('Master endpoint rejected')
@@ -286,15 +345,16 @@ def build_snapshot(config):
         else:
             merge_clear_results(catalog,details,timestamp)
             catalog['community']['status']='verified'
-    if config.get('signing_seed_b64'):sync_clear_groups(catalog,config,timestamp)
+    if config.get('signing_seed_b64'):sync_clear_groups(catalog,config,timestamp,previous)
     return {'schemaVersion':3,'updatedAt':timestamp,'source':f'モンスト{config.get("app_version", "33.0.0")} 実サーバー日次マスター','events':events,'charProfiles':char_profiles,'catalog':catalog,'verification':evidence,'sync':{'mode':'github-actions','intervalMinutes':30,'lastSuccessAt':timestamp,'transport':'https'}}
 
 def run():
     encoded=os.environ.get('MS_GAME_CONFIG')
     if not encoded:
         raise SyncError('MS_GAME_CONFIG secret is not configured')
-    snapshot=build_snapshot(json.loads(encoded))
     root=Path(__file__).resolve().parent
+    previous=json.loads((root/'catalog.json').read_text(encoding='utf-8'))
+    snapshot=build_snapshot(json.loads(encoded),previous)
     catalog=snapshot.pop('catalog')
     catalog_temporary=root/'catalog.json.tmp'
     catalog_temporary.write_text(json.dumps(catalog,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
@@ -304,9 +364,21 @@ def run():
     os.replace(temporary,root/'events.json')
     print(json.dumps({'result':'success','events':len(snapshot['events']),'chars':len(snapshot['charProfiles']),'updatedAt':snapshot['updatedAt'],'tables':snapshot['verification'],'catalogRelations':catalog['relations'],'gimmickLabels':catalog['gimmicks']},ensure_ascii=False))
 
+def restore_snapshot():
+    root=Path(__file__).resolve().parent
+    snapshots={name:json.loads(download(f'https://monkuso.github.io/MonStatus/{name}.json?restore={int(time.time())}',64*1024*1024).decode('utf-8')) for name in ['catalog','events']}
+    catalog=snapshots['catalog']
+    events=snapshots['events']
+    if catalog.get('schemaVersion')!=1 or not isinstance(catalog.get('recommendations'),list) or not isinstance(catalog.get('tables',{}).get('stages'),list) or events.get('schemaVersion')!=3 or not isinstance(events.get('events'),list) or catalog.get('updatedAt')!=events.get('updatedAt'):raise SyncError('Public snapshot rejected')
+    for name,value in snapshots.items():
+        temporary=root/f'{name}.json.tmp'
+        temporary.write_text(json.dumps(value,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+        os.replace(temporary,root/f'{name}.json')
+    print(json.dumps({'restoredStages':len(catalog['recommendations']),'updatedAt':catalog['updatedAt']}))
+
 if __name__=='__main__':
     try:
-        run()
+        restore_snapshot() if sys.argv[1:]==['--restore'] else run()
     except SyncError as error:
         print(f'Synchronization stopped: {error}',file=sys.stderr)
         sys.exit(1)

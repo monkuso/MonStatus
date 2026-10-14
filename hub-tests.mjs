@@ -67,6 +67,7 @@ test('ゲームの結合規則で子ガチャへ割合を共有し、50008の例
 test('未取得のクリア集計を生成せず、公開画像参照が実在する',()=>{
   const observed=new Set((hub.data.recommendations||[]).map(r=>r.stage_id));
   const absent=hub.library.tables.stages.find(s=>!observed.has(s.id));
-  assert.equal(hub.library.stage(absent.id).community,null);
+  if(absent)assert.equal(hub.library.stage(absent.id).community,null);
+  assert.ok((hub.data.recommendations||[]).every(row=>hub.library.indexes.stages.has(row.stage_id)));
   for(const paths of Object.values(assets))if(paths&&typeof paths==='object'&&!Array.isArray(paths))for(const path of Object.values(paths))if(typeof path==='string'&&path.startsWith('assets/'))assert.ok(fs.existsSync(new URL(path,import.meta.url)),path);
 });

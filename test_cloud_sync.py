@@ -9,10 +9,19 @@ from cloud_sync import SyncError,table_from_archive,normalize_events,build_gimmi
 EMPTY_TABLES={'stage_groups':[],'stage_group_events':[],'stage_group_kind_events':[],'stage_group_cycle_events':[],'stages':[],'stage_gimmicks':[],'chars':[],'wanted_bosses':[],'wanted_boss_groups':[]}
 
 class CloudSyncTests(unittest.TestCase):
-    def test_clear_groups_select_current_and_permanent_groups_once(self):
+    def test_clear_groups_cover_ended_future_and_orphan_groups(self):
         rows=[{'sourceTable':'stage_group_events','stageGroupId':1,'startAt':100,'endAt':200}]
         rows.extend([{**rows[0]}, {**rows[0],'stageGroupId':2,'startAt':201}, {**rows[0],'stageGroupId':3,'endAt':99}, {**rows[0],'stageGroupId':4,'endAt':4102444800}])
-        self.assertEqual(clear_group_ids({'stageEvents':rows},150),[1,4])
+        stages=[{'id':i,'stage_group_id':i} for i in range(1,6)]
+        self.assertEqual(clear_group_ids({'stageEvents':rows,'tables':{'stages':stages}},150),[1,4,2,3,5])
+
+    def test_clear_cache_refreshes_active_groups_and_expires_historical_groups(self):
+        catalog={'stageEvents':[{'sourceTable':'stage_group_events','stageGroupId':1,'startAt':0,'endAt':2000000000}],'tables':{'stages':[{'id':10,'stage_group_id':1},{'id':20,'stage_group_id':2}]}}
+        checks={'clearChecks':[{'stageId':10,'status':'available','checkedAt':'2026-10-15T00:00:00+00:00'},{'stageId':20,'status':'not-published','checkedAt':'2026-10-15T00:00:00+00:00'}]}
+        import datetime
+        now=datetime.datetime.fromisoformat('2026-10-15T01:00:00+00:00').timestamp()
+        self.assertEqual(clear_group_ids(catalog,now,checks),[1])
+        self.assertEqual(clear_group_ids(catalog,now+86400,checks),[1,2])
 
     def test_premium_clear_results_preserve_server_order_and_public_fields(self):
         catalog={'tables':{'stages':[{'id':10}]},'recommendations':[],'community':{}}
@@ -23,11 +32,21 @@ class CloudSyncTests(unittest.TestCase):
         with self.assertRaises(SyncError):merge_clear_results(catalog,{'recommends':[{**row,'stage_id':999}]},'2026-10-15T00:00:00+00:00')
 
     def test_group_failures_are_reported_without_invented_clear_results(self):
-        catalog={'stageEvents':[{'sourceTable':'stage_group_events','stageGroupId':1,'startAt':0,'endAt':2000000000}], 'recommendations':[],'community':{}}
+        catalog={'stageEvents':[{'sourceTable':'stage_group_events','stageGroupId':1,'startAt':0,'endAt':2000000000}], 'tables':{'stages':[{'id':10,'stage_group_id':1}]},'recommendations':[],'community':{}}
         with patch('cloud_sync.read_game',side_effect=SyncError('failed')):sync_clear_groups(catalog,{},'2026-10-15T00:00:00+00:00')
         self.assertEqual(catalog['recommendations'],[])
         self.assertEqual(catalog['community']['status'],'partial')
         self.assertEqual(catalog['community']['failedGroups'],[{'stageGroupId':1,'errorType':'SyncError'}])
+        self.assertEqual(catalog['clearChecks'][0]['status'],'error')
+
+    def test_missing_group_results_are_checked_individually(self):
+        catalog={'stageEvents':[],'tables':{'stages':[{'id':10,'stage_group_id':1},{'id':20,'stage_group_id':1}]},'recommendations':[],'community':{}}
+        row={'stage_id':10,'gacha_char_ids':[33],'event_char_ids':[]}
+        with patch('cloud_sync.read_game',side_effect=[{'recommends':[row]},{'recommends':[]}]) as read:
+            sync_clear_groups(catalog,{},'2026-10-15T00:00:00+00:00')
+        self.assertEqual(read.call_args_list[1].args[1],'/char/recommend?stage_id=20&stage_group_id=1')
+        self.assertEqual([(r['stageId'],r['status']) for r in catalog['clearChecks']],[(10,'available'),(20,'not-published')])
+        self.assertEqual(catalog['community']['checkedStages'],2)
 
     def archive(self,value):
         buffer=io.BytesIO()

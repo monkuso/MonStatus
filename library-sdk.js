@@ -15,7 +15,8 @@ export function createLibrary(data){
     const entries=related('stage_gimmicks','stage_id',row.id);
     const flags=entries.reduce((sum,g)=>[sum[0]|g.gimmick_flag,sum[1]|g.highlight_gimmick_flag],[0,0]);
     const gimmicks=decodeGimmicks(...flags).filter(g=>g.status!=='absent').map(g=>{const text=data.gimmicks?.find(v=>v.mask===g.mask);return {...g,label:text?.label||null,description:text?.description||null};});
-    return {row,group,gimmicks,gimmickDataAvailable:entries.length>0,phases:related('stage_phases','stage_id',row.id),notes:[...related('stage_notes','stage_id',row.id),...related('stage_group_notes','stage_group_id',row.stage_group_id)],schedules:(data.stageEvents||[]).filter(e=>e.stageGroupId===row.stage_group_id),community:(data.recommendations||[]).find(r=>r.stage_id===row.id)||null};
+    const clearCheck=(data.clearChecks||[]).find(check=>check.stageId===row.id)||null;
+    return {row,group,gimmicks,gimmickDataAvailable:entries.length>0,phases:related('stage_phases','stage_id',row.id),notes:[...related('stage_notes','stage_id',row.id),...related('stage_group_notes','stage_group_id',row.stage_group_id)],schedules:(data.stageEvents||[]).filter(e=>e.stageGroupId===row.stage_group_id),clearCheck,community:clearCheck?.status==='not-published'?null:(data.recommendations||[]).find(r=>r.stage_id===row.id)||null};
   }
   function gacha(id){
     const row=indexes.gacha_groups.get(Number(id));if(!row)return null;

@@ -25,7 +25,7 @@ function showStage(id){
   if(detail.schedules.length){const calendar=section('イベント開催期間');calendar.append(schedules(detail.schedules));fragment.append(calendar);}
   const community=section('みんなのクリアモンスター');
   if(detail.community){for(const [title,key] of [['プレミアムガチャ','gacha_char_ids'],['その他のモンスター','event_char_ids']]){community.append(node('h3','',title),characters((detail.community[key]||[]).filter(id=>id>0)));}community.append(node('p','muted','ゲームの集計結果に含まれる並び順です。未配信の使用率を補っていません。'));}
-  else community.append(node('p','availability','このステージのクリア実績はまだ取得されていません。集計結果を取得できたステージから反映します。'));
+  else community.append(node('p','availability',detail.clearCheck?.status==='not-published'?'このステージのクリアモンスター集計はゲーム側で配信されていません。':detail.clearCheck?.status==='error'?'このステージの集計取得に失敗しました。次の同期で再取得します。':'このステージのクリア実績はまだ取得されていません。'));
   fragment.append(community);
   const drops=[row.clear_bonus_char_id].filter(id=>id>0&&library.indexes.chars.has(id));if(drops.length){const rewards=section('クリアボーナスのモンスター');rewards.append(characters(drops));fragment.append(rewards);}
   return fragment;
