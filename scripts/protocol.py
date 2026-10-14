@@ -22,15 +22,16 @@ def signed_headers(config, route):
     seed = base64.b64decode(config['signing_seed_b64'], validate=True)
     if len(seed) != 20:
         raise ValueError('Signing material layout mismatch')
+    sig_version = str(config.get('signing_version', 6))
     raw = route.encode('ascii')
-    material = seed + b' ' + raw + b' 6'
+    material = seed + b' ' + raw + b' ' + sig_version.encode('ascii')
     if b'?' in raw:
         material += b' ' + raw.split(b'?', 1)[1]
     material += b' ' + seed
     headers = {key.lower(): value for key, value in config['headers'].items() if key.lower() in HEADER_NAMES}
     if not headers.get('x-ds-session'):
         raise ValueError('Game read session missing')
-    headers['x-ds-requesthash-ver'] = '6'
+    headers['x-ds-requesthash-ver'] = sig_version
     headers['x-ds-requesthash'] = hashlib.sha256(material).hexdigest()
     return headers
 

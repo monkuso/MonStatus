@@ -138,7 +138,10 @@ def main():
                 manifest[category][identity] = 'assets/' + relative
         if number % 25 == 0:
             print(json.dumps({'packagesVisited': number, 'characters': len(manifest['characters']), 'quests': len(manifest['quests'])}), flush=True)
-    with zipfile.ZipFile(ROOT / 'モンスト_33.0.0.apks') as outer:
+    apks = sorted(ROOT.glob('モンスト_*.apks'))
+    if not apks:
+        raise FileNotFoundError('モンスト_*.apks が見つかりません')
+    with zipfile.ZipFile(apks[-1]) as outer:
         with zipfile.ZipFile(io.BytesIO(outer.read('base.apk'))) as base:
             plist = parse_plist(decode(base.read('assets/data/198483BA'), seed))
             sheet = Image.open(io.BytesIO(decode(base.read('assets/data/6A84E770'), seed))).convert('RGBA')

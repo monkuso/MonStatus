@@ -347,7 +347,10 @@ def build_snapshot(config,previous=None):
             merge_clear_results(catalog,details,timestamp)
             catalog['community']['status']='verified'
     if config.get('signing_seed_b64'):sync_clear_groups(catalog,config,timestamp,previous)
-    return {'schemaVersion':3,'updatedAt':timestamp,'source':f'モンスト{config.get("app_version", "33.0.0")} 実サーバー日次マスター','events':events,'charProfiles':char_profiles,'catalog':catalog,'verification':evidence,'sync':{'mode':'github-actions','intervalMinutes':30,'lastSuccessAt':timestamp,'transport':'https'}}
+    app_version=config.get('app_version')
+    if not app_version:
+        raise SyncError('app_version missing from game configuration')
+    return {'schemaVersion':3,'updatedAt':timestamp,'appVersion':app_version,'source':f'モンスト{app_version} 実サーバー日次マスター','events':events,'charProfiles':char_profiles,'catalog':catalog,'verification':evidence,'sync':{'mode':'github-actions','intervalMinutes':30,'lastSuccessAt':timestamp,'transport':'https'}}
 
 def run():
     encoded=os.environ.get('MS_GAME_CONFIG')
