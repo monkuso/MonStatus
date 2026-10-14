@@ -32,21 +32,28 @@ jobs:
       - name: Validate sync and site logic
         run: |
           python -m unittest test_cloud_sync.py test_catalog_sync.py
-          node --test tests.mjs library-tests.mjs
+          node --test tests.mjs library-tests.mjs hub-tests.mjs
       - name: Fetch verified game data
+        id: sync
+        continue-on-error: true
         env:
           MS_GAME_CONFIG: ${{ secrets.MS_GAME_CONFIG }}
         run: python cloud_sync.py
       - name: Validate live data
-        run: node --test tests.mjs library-tests.mjs
+        run: node --test tests.mjs library-tests.mjs hub-tests.mjs
       - uses: actions/configure-pages@v5
       - name: Prepare public site
         run: |
           mkdir -p dist
-          cp index.html hub.css hub.js hub-sdk.js sdk.js events.json events.html style.css app.js oragon.svg heart.svg catalog.json assets.json library.html library.js library-sdk.js library.css dist/
+          cp index.html hub.css hub.js hub-sdk.js sdk.js events.json events.html style.css app.js oragon.svg heart.svg catalog.json assets.json live-data.json gacha-rates.json library.html library.js library-sdk.js library.css dist/
           if [ -d assets ]; then cp -r assets dist/; fi
       - uses: actions/upload-pages-artifact@v4
         with:
           path: dist
       - uses: actions/deploy-pages@v4
         id: deployment
+      - name: Report synchronization failure
+        if: steps.sync.outcome == 'failure'
+        run: |
+          echo 'The last verified snapshot was published. Game synchronization failed; its original timestamp is preserved.' >> "$GITHUB_STEP_SUMMARY"
+          exit 1

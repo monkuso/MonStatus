@@ -235,7 +235,7 @@ def build_snapshot(config):
             fields={'stage_id','aggregate_range','event_char_ids','gacha_char_ids'}
             catalog['recommendations']=[{key:row[key] for key in fields if key in row} for row in rows]
             catalog['community']['status']='verified'
-    return {'schemaVersion':3,'updatedAt':timestamp,'source':'モンスト32.1.1 実サーバー日次マスター','events':events,'charProfiles':char_profiles,'catalog':catalog,'verification':evidence,'sync':{'mode':'github-actions','intervalMinutes':30,'lastSuccessAt':timestamp,'transport':'https'}}
+    return {'schemaVersion':3,'updatedAt':timestamp,'source':f'モンスト{config.get("app_version", "33.0.0")} 実サーバー日次マスター','events':events,'charProfiles':char_profiles,'catalog':catalog,'verification':evidence,'sync':{'mode':'github-actions','intervalMinutes':30,'lastSuccessAt':timestamp,'transport':'https'}}
 
 def run():
     encoded=os.environ.get('MS_GAME_CONFIG')

@@ -1,0 +1,11 @@
+__pycache__/
+*.tmp
+events.json.new
+*-verification.json
+*.pcap
+*.jks
+private*.json
+export_public_snapshot.py
+build_verified_snapshot.py
+export_gacha_rates.py
+publish_setup.py
