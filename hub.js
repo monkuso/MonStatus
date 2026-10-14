@@ -2,6 +2,7 @@ import {createHub,cleanText,normalized,visibleAt,gachaTitle,permanentGacha} from
 import {eventStatus,attributeMeta,jstDay,syncStatus,decodeGimmicks} from './sdk.js';
 
 const $=id=>document.getElementById(id),state={hub:null,tab:'schedule',view:'active',text:'',attribute:'',day:null,all:false,limit:36};
+let detailTrail=[];
 const dateFormat=new Intl.DateTimeFormat('ja-JP',{timeZone:'Asia/Tokyo',month:'numeric',day:'numeric',weekday:'short',hour:'2-digit',minute:'2-digit',hour12:false});
 const date=seconds=>Number.isFinite(seconds)?dateFormat.format(new Date(seconds*1000)):'未取得';
 const period=(start,end)=>end>=4102444800?'常設・チケット（参加条件あり）':`${date(start)} 〜 ${date(end)}`;
@@ -42,7 +43,7 @@ function renderLucky(parent){
   for(const week of weeks){const node=element('article',null,'lucky-week');node.append(element('h3',week.start_at<=now?'対象期間のラッキーモンスター':'来週以降のラッキーモンスター'));paragraph(node,period(week.start_at,week.end_at));paragraph(node,week.description);const grid=element('div',null,'lucky-grid');for(const entry of state.hub.luckyCharacters(week)){const char=entry.forms[0],tile=element('div',null,'lucky-monster');if(char){const link=button('',()=>detail('char',char.id));appendPicture(link,state.hub.characterImage(char),cleanText(char.name));link.append(element('p',cleanText(char.name)));tile.append(link);const group=state.hub.library.tables.stage_groups.find(g=>g.drop_id===entry.dropId);if(group)tile.append(button('入手クエスト →',()=>detail('quest',group.id),'subtle'));}else paragraph(tile,`モンスター情報未取得 · ${entry.dropId}`);grid.append(tile);}node.append(grid);const abilities=state.hub.library.tables.weekly_max_luck_bonus_abilities||[];if(abilities.length){heading(node,'運極所持数ごとの特典');const list=element('div',null,'bonus-list');for(const ability of abilities){const bonus=element('div',null,'bonus');bonus.append(element('strong',`${ability.level}種類で解放`),element('span',cleanText(ability.description)));list.append(bonus);}node.append(list);}parent.append(node);}
 }
 function render(){
-  if(!state.hub)return;const hub=state.hub,tab=state.tab;document.querySelectorAll('[data-tab]').forEach(b=>{b.classList.toggle('selected',b.dataset.tab===tab);b.setAttribute('aria-pressed',String(b.dataset.tab===tab));});
+  if(!state.hub)return;const hub=state.hub,tab=state.tab;$('reset-filters').disabled=!(state.text||state.attribute||state.day||state.all||state.view!=='active');$('content').setAttribute('aria-busy','false');document.querySelectorAll('[data-tab]').forEach(b=>{b.classList.toggle('selected',b.dataset.tab===tab);b.setAttribute('aria-pressed',String(b.dataset.tab===tab));});
   $('section-title').textContent=hub.names[tab];$('section-eyebrow').textContent={schedule:'SCHEDULE',gacha:'GACHA',quest:'QUEST',lucky:'LUCKY MONSTERS',char:'MONSTER LIBRARY'}[tab];
   $('attribute').hidden=!['quest','char'].includes(tab);for(const id of ['day','today','tomorrow'])$(id).hidden=tab!=='schedule';document.querySelectorAll('[data-view]').forEach(b=>{b.hidden=tab!=='schedule';b.classList.toggle('selected',b.dataset.view===state.view);b.setAttribute('aria-pressed',String(b.dataset.view===state.view));});$('all-label').hidden=!['gacha','quest'].includes(tab);$('search').disabled=tab==='lucky';$('notice').hidden=true;
   if(['gacha','lucky'].includes(tab)&&hub.data.detailObservedAt){$('notice').hidden=false;$('notice').textContent=`ゲーム内一覧の確認 ${date(Date.parse(hub.data.detailObservedAt)/1000)} · 開催期間と提供割合の確認日時は詳細に表示します。`;}const content=$('content');content.replaceChildren();content.className='';$('more').hidden=true;
@@ -57,8 +58,9 @@ function render(){
   const grid=element('div',null,tab==='char'?'grid char-grid':'grid');for(const row of rows.slice(0,state.limit))grid.append(draw(row));content.append(grid);$('more').hidden=rows.length<=state.limit;
 }
 function title(parent,text,kind,id){const h=element('h2',cleanText(text));h.id='detail-title';parent.append(h);$('detail-kind').textContent=`${kind} · No.${id}`;}
-function detail(kind,id){
+function detail(kind,id,goingBack=false){
   const hub=state.hub;if(!hub)return;const parent=$('detail-body');parent.replaceChildren();
+  if(!$('detail').open)detailTrail=[];else if(!goingBack&&state.currentDetail)detailTrail.push(state.currentDetail);
   if(kind==='quest'){
     const group=hub.library.indexes.stage_groups.get(Number(id));if(!group)return;title(parent,group.name,'クエスト',id);appendPicture(parent,hub.image('quests',group.banner_file_name),cleanText(group.name),'detail-banner');facts(parent,[['属性',attribute(group.attribute_id)],['必要ランク',group.required_rank],['ステージ数',(hub.stagesByGroup.get(group.id)||[]).length],['クエストID',group.id]]);heading(parent,'ステージ・ギミック・みんなのクリアモンスター');for(const stage of hub.stagesByGroup.get(group.id)||[]){const link=button('',()=>detail('stage',stage.id),'quest-stage');link.append(element('span',cleanText(stage.name)),element('small',`消費 ${stage.cost??'—'} · 詳細 →`));parent.append(link);}const schedules=hub.stageEvents.filter(e=>e.stageGroupId===group.id&&e.endAt>=Date.now()/1000);if(schedules.length){heading(parent,'開催スケジュール');for(const e of schedules.slice(0,12))paragraph(parent,period(e.startAt,e.endAt),'notes');}}
   else if(kind==='stage'){
@@ -70,7 +72,7 @@ function detail(kind,id){
   else if(kind==='char'){
     const info=hub.library.character(id);if(!info)return;const {row}=info;const hero=element('div',null,'detail-hero');appendPicture(hero,hub.characterImage(row),cleanText(row.name));const text=element('div');title(text,row.name,'モンスター',id);paragraph(text,`${attribute(row.attribute_id)} · ★${row.rarity??'—'}`,'lead');hero.append(text);parent.append(hero);facts(parent,[['HP',row.hp_max],['攻撃力',row.attack_max],['スピード',row.power_max],['最大レベル',row.level_max]]);facts(parent,[['撃種',row.hit_type],['戦型',row.fight_type],['種族ID',row.species_id],['モンスターID',row.id]]);if(info.skills.length){heading(parent,'アビリティ・スキル');for(const skill of info.skills){paragraph(parent,skill.name,'lead');paragraph(parent,skill.description,'notes');}}if(info.strikeShot){heading(parent,'ストライクショット');paragraph(parent,info.strikeShot.name,'lead');paragraph(parent,`${info.strikeShot.require_cnt}ターン\n${info.strikeShot.description||''}`,'notes');}if(row.entry_stage_group_id){heading(parent,'関連クエスト');parent.append(button('入手・関連クエストを見る →',()=>detail('quest',row.entry_stage_group_id),'subtle'));}}
   else return;
-  if(!$('detail').open)$('detail').showModal();$('detail').scrollTop=0;
+  state.currentDetail={kind,id};$('back-detail').hidden=!detailTrail.length;if(!$('detail').open)$('detail').showModal();$('detail').scrollTop=0;
 }
 async function fetchJson(url,optional=false){const response=await fetch(url,{cache:'no-cache'});if(!response.ok){if(optional&&response.status===404)return null;throw new Error(`情報の取得に失敗しました (${response.status})`);}return response.json();}
 async function refresh(){
@@ -79,7 +81,12 @@ async function refresh(){
   catch(error){$('error').hidden=false;$('error').textContent=error.message;if(!state.hub)$('content').textContent='情報の読み込みに失敗しました。更新ボタンで再取得できます。';}
   finally{$('reload').disabled=false;}
 }
-document.querySelectorAll('[data-tab]').forEach(b=>b.addEventListener('click',()=>{state.tab=b.dataset.tab;state.limit=36;state.text='';$('search').value='';history.replaceState(null,'',`?tab=${state.tab}`);render();}));
+function clearFilters(){clearTimeout(searchTimer);state.text='';state.attribute='';state.day=null;state.all=false;state.view='active';state.limit=36;$('search').value='';$('attribute').value='';$('day').value='';$('all-registered').checked=false;}
+function switchTab(tab,scroll=false){if(state.tab!==tab){state.tab=tab;clearFilters();}history.replaceState(null,'',`?tab=${state.tab}`);render();if(scroll)$('explore').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});}
+document.querySelectorAll('[data-tab]').forEach(b=>b.addEventListener('click',()=>switchTab(b.dataset.tab,true)));
+document.querySelectorAll('[data-shortcut]').forEach(b=>b.addEventListener('click',()=>switchTab(b.dataset.shortcut,true)));
+$('reset-filters').addEventListener('click',()=>{clearFilters();render();});
+$('back-detail').addEventListener('click',()=>{const previous=detailTrail.pop();if(previous)detail(previous.kind,previous.id,true);});
 document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>{state.view=b.dataset.view;state.day=null;$('day').value='';state.limit=36;render();}));
 let searchTimer;$('search').addEventListener('input',()=>{clearTimeout(searchTimer);searchTimer=setTimeout(()=>{state.text=$('search').value;state.limit=36;render();},120);});
 $('attribute').addEventListener('change',()=>{state.attribute=$('attribute').value;state.limit=36;render();});$('all-registered').addEventListener('change',()=>{state.all=$('all-registered').checked;state.limit=36;render();});$('day').addEventListener('change',()=>{state.day=$('day').value||null;state.limit=36;render();});

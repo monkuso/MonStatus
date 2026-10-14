@@ -45,7 +45,7 @@ jobs:
       - name: Prepare public site
         run: |
           mkdir -p dist
-          cp index.html hub.css hub.js hub-sdk.js sdk.js events.json events.html style.css app.js oragon.svg heart.svg catalog.json assets.json live-data.json gacha-rates.json library.html library.js library-sdk.js library.css dist/
+          cp index.html hub.css ui.css hub.js hub-sdk.js sdk.js events.json events.html style.css app.js oragon.svg heart.svg catalog.json assets.json live-data.json gacha-rates.json library.html library.js library-sdk.js library.css dist/
           if [ -d assets ]; then cp -r assets dist/; fi
       - uses: actions/upload-pages-artifact@v4
         with:
