@@ -19,4 +19,3 @@ def parse_rates(text):
     plain = re.sub(r'\[[^\]]*\]', '', plain)
     plain = re.sub(r'\n{3,}', '\n\n', plain).strip()
     return entries, plain
-
