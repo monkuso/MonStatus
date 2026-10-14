@@ -17,7 +17,7 @@ TABLES={'stage_groups','stage_group_events','stage_group_kind_events','stage_gro
 TABLES|=CATALOG_TABLES
 EVENT_TABLES={'stage_group_events','stage_group_kind_events','stage_group_cycle_events'}
 HEADER_NAMES={'content-type','user-agent','x-ds-eit','x-ds-session','x-ds-requesthash-ver','x-ds-requesthash'}
-ADVANTAGE={1:2,2:4,4:1,8:16,16:8}
+ADVANTAGE={1:2,2:3,3:1,4:5,5:4}
 RECOMMENDED_PER_EVENT=6
 
 class SyncError(Exception):

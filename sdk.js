@@ -36,11 +36,11 @@ export const hasAnyGimmick = event => (event?.gimmickFlag>>>0) !== 0 || (event?.
 export const ATTRIBUTE_META = Object.freeze({
   1:{id:1,key:'fire',label:'火',symbol:'火',color:'#d94747'},
   2:{id:2,key:'water',label:'水',symbol:'水',color:'#2a6fd1'},
-  4:{id:4,key:'wood',label:'木',symbol:'木',color:'#3f9c47'},
-  8:{id:8,key:'light',label:'光',symbol:'光',color:'#d8a93a'},
-  16:{id:16,key:'dark',label:'闇',symbol:'闇',color:'#6c4bb2'},
+  3:{id:3,key:'wood',label:'木',symbol:'木',color:'#3f9c47'},
+  4:{id:4,key:'light',label:'光',symbol:'光',color:'#d8a93a'},
+  5:{id:5,key:'dark',label:'闇',symbol:'闇',color:'#6c4bb2'},
 });
-export const ATTRIBUTE_ADVANTAGE = Object.freeze({1:2,2:4,4:1,8:16,16:8});
+export const ATTRIBUTE_ADVANTAGE = Object.freeze({1:2,2:3,3:1,4:5,5:4});
 export const attributeAdvantage = id => ATTRIBUTE_ADVANTAGE[id] ?? null;
 export const attributeMeta = id => ATTRIBUTE_META[id] ?? null;
 export const RARITY_SYMBOLS = Object.freeze({1:'★1',2:'★2',3:'★3',4:'★4',5:'★5',6:'★6'});
