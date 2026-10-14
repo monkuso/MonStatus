@@ -158,7 +158,7 @@ def main():
         manifest['gimmicks'][str(mask)] = f'assets/gimmicks/{mask}.webp'
     manifest['counts'] = {key: len(manifest[key]) for key in ['characters', 'quests', 'gachas', 'gimmicks']}
     manifest['provenance']['assetSetDigest'] = hashlib.sha256(json.dumps(manifest['counts'], sort_keys=True).encode()).hexdigest()
-    (DESTINATION / 'assets.json').write_text(json.dumps(manifest, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+    (DESTINATION / 'assets.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding='utf-8')
     print(json.dumps({'result': 'success', **manifest['counts']}), flush=True)
 
 

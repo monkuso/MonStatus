@@ -358,10 +358,10 @@ def run():
     snapshot=build_snapshot(json.loads(encoded),previous)
     catalog=snapshot.pop('catalog')
     catalog_temporary=root/'catalog.json.tmp'
-    catalog_temporary.write_text(json.dumps(catalog,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+    catalog_temporary.write_text(json.dumps(catalog,ensure_ascii=False,indent=2),encoding='utf-8')
     os.replace(catalog_temporary,root/'catalog.json')
     temporary=root/'events.json.tmp'
-    temporary.write_text(json.dumps(snapshot,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+    temporary.write_text(json.dumps(snapshot,ensure_ascii=False,indent=2),encoding='utf-8')
     os.replace(temporary,root/'events.json')
     print(json.dumps({'result':'success','events':len(snapshot['events']),'chars':len(snapshot['charProfiles']),'updatedAt':snapshot['updatedAt'],'tables':snapshot['verification'],'catalogRelations':catalog['relations'],'gimmickLabels':catalog['gimmicks']},ensure_ascii=False))
 
@@ -373,7 +373,7 @@ def restore_snapshot():
     if catalog.get('schemaVersion')!=1 or not isinstance(catalog.get('recommendations'),list) or not isinstance(catalog.get('tables',{}).get('stages'),list) or events.get('schemaVersion')!=3 or not isinstance(events.get('events'),list) or catalog.get('updatedAt')!=events.get('updatedAt'):raise SyncError('Public snapshot rejected')
     for name,value in snapshots.items():
         temporary=root/f'{name}.json.tmp'
-        temporary.write_text(json.dumps(value,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+        temporary.write_text(json.dumps(value,ensure_ascii=False,indent=2),encoding='utf-8')
         os.replace(temporary,root/f'{name}.json')
     print(json.dumps({'restoredStages':len(catalog['recommendations']),'updatedAt':catalog['updatedAt']}))
 
