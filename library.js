@@ -24,7 +24,7 @@ function showStage(id){
   fragment.append(gimmicks);
   if(detail.schedules.length){const calendar=section('イベント開催期間');calendar.append(schedules(detail.schedules));fragment.append(calendar);}
   const community=section('みんなのクリアモンスター');
-  if(detail.community){for(const [title,key] of [['ガチャモンスター','gacha_char_ids'],['イベントモンスター','event_char_ids']]){community.append(node('h3','',title),characters((detail.community[key]||[]).filter(id=>id>0)));}community.append(node('p','muted','ゲームの集計結果に含まれる並び順です。未配信の使用率を補っていません。'));}
+  if(detail.community){for(const [title,key] of [['プレミアムガチャ','gacha_char_ids'],['その他のモンスター','event_char_ids']]){community.append(node('h3','',title),characters((detail.community[key]||[]).filter(id=>id>0)));}community.append(node('p','muted','ゲームの集計結果に含まれる並び順です。未配信の使用率を補っていません。'));}
   else community.append(node('p','availability','このステージのクリア実績はまだ取得されていません。集計結果を取得できたステージから反映します。'));
   fragment.append(community);
   const drops=[row.clear_bonus_char_id].filter(id=>id>0&&library.indexes.chars.has(id));if(drops.length){const rewards=section('クリアボーナスのモンスター');rewards.append(characters(drops));fragment.append(rewards);}

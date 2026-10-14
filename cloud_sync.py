@@ -13,7 +13,7 @@ import zipfile
 import zlib
 import msgpack
 from catalog_sync import CATALOG_TABLES,build_catalog
-from game_protocol import signed_headers
+from game_protocol import signed_headers,read_game
 from gacha_rates import parse_rates
 
 TABLES={'stage_groups','stage_group_events','stage_group_kind_events','stage_group_cycle_events','stages','stage_gimmicks','chars','wanted_bosses','wanted_boss_groups'}
@@ -22,6 +22,34 @@ EVENT_TABLES={'stage_group_events','stage_group_kind_events','stage_group_cycle_
 HEADER_NAMES={'content-type','user-agent','x-ds-eit','x-ds-session','x-ds-requesthash-ver','x-ds-requesthash'}
 ADVANTAGE={1:2,2:3,3:1,4:5,5:4}
 RECOMMENDED_PER_EVENT=6
+
+def clear_group_ids(catalog,now):
+    return sorted({row['stageGroupId'] for row in catalog['stageEvents'] if row['sourceTable']=='stage_group_events' and row['startAt']<=now<=row['endAt'] and row['endAt']<4102444800})
+
+def merge_clear_results(catalog,details,timestamp):
+    rows=details.get('recommends')
+    if not isinstance(rows,list):raise SyncError('Clear character response rejected')
+    fields={'stage_id','aggregate_range','event_char_ids','gacha_char_ids','response_time'}
+    merged={row['stage_id']:row for row in catalog['recommendations']}
+    stage_ids={row['id'] for row in catalog['tables']['stages']}
+    for row in rows:
+        if row.get('stage_id') not in stage_ids or any(not isinstance(row.get(key),list) or any(type(value) is not int or value<0 for value in row[key]) for key in ['event_char_ids','gacha_char_ids']):raise SyncError('Clear character identity rejected')
+        public={key:row[key] for key in fields if key in row}
+        public['fetched_at']=timestamp
+        merged[public['stage_id']]=public
+    catalog['recommendations']=list(merged.values())
+    catalog['community']['fetchedStages']=len(merged)
+
+def sync_clear_groups(catalog,config,timestamp):
+    requested=clear_group_ids(catalog,datetime.datetime.fromisoformat(timestamp).timestamp())
+    failures=[]
+    for group_id in requested:
+        try:
+            details=read_game(config,f'/char/recommend?stage_id=0&stage_group_id={group_id}')
+            merge_clear_results(catalog,details,timestamp)
+        except Exception as error:
+            failures.append({'stageGroupId':group_id,'errorType':type(error).__name__})
+    catalog['community'].update({'status':'partial' if failures else 'verified','requestedGroups':len(requested),'failedGroups':failures,'observedAt':timestamp})
 
 class SyncError(Exception):
     pass
@@ -256,17 +284,9 @@ def build_snapshot(config):
                                                       'detailText':explanation,'detailCharacterIds':character_ids,
                                                       'source':'official-game-provided-rates','observedAt':timestamp})
         else:
-            rows=details.get('recommends')
-            if not isinstance(rows,list):raise SyncError('Clear character response rejected')
-            fields={'stage_id','aggregate_range','event_char_ids','gacha_char_ids','response_time'}
-            merged={row['stage_id']:row for row in catalog['recommendations']}
-            for row in rows:
-                public={key:row[key] for key in fields if key in row}
-                public['fetched_at']=timestamp
-                merged[public['stage_id']]=public
-            catalog['recommendations']=list(merged.values())
+            merge_clear_results(catalog,details,timestamp)
             catalog['community']['status']='verified'
-            catalog['community']['fetchedStages']=len(merged)
+    if config.get('signing_seed_b64'):sync_clear_groups(catalog,config,timestamp)
     return {'schemaVersion':3,'updatedAt':timestamp,'source':f'モンスト{config.get("app_version", "33.0.0")} 実サーバー日次マスター','events':events,'charProfiles':char_profiles,'catalog':catalog,'verification':evidence,'sync':{'mode':'github-actions','intervalMinutes':30,'lastSuccessAt':timestamp,'transport':'https'}}
 
 def run():
