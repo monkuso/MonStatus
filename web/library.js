@@ -1,5 +1,5 @@
 import {loadLibrary} from './librarysdk.js';
-import {displayName,attributeMeta,syncStatus} from './sdk.js';
+import {displayName,attributeMeta} from './sdk.js';
 const $=id=>document.getElementById(id);
 const date=new Intl.DateTimeFormat('ja-JP',{timeZone:'Asia/Tokyo',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false});
 let library=null,kind='stage',limit=48,groupId=new URLSearchParams(location.search).get('group');
@@ -63,4 +63,4 @@ function renderRoute(){
 }
 for(const button of document.querySelectorAll('[data-kind]'))button.addEventListener('click',()=>{kind=button.dataset.kind;limit=48;groupId=null;location.hash='';for(const tab of document.querySelectorAll('[data-kind]')){const active=tab===button;tab.classList.toggle('selected',active);tab.setAttribute('aria-pressed',String(active));}renderRoute();});
 $('library-search').addEventListener('input',()=>{limit=48;renderList();});$('library-attribute').addEventListener('change',()=>{limit=48;renderList();});$('library-more').addEventListener('click',()=>{limit+=48;renderList();});$('library-back').addEventListener('click',()=>{location.hash='';});window.addEventListener('hashchange',renderRoute);
-try{const response=await fetch('./data/assets.json',{cache:'no-cache'});if(!response.ok)throw new Error('モンスター画像の一覧を取得できていません。');assets=await response.json();library=await loadLibrary();for(const [name,table] of [['stage','stages'],['gacha','gacha_groups'],['char','chars']])$(name+'-total').textContent=library.tables[table].length.toLocaleString();const status=syncStatus({updatedAt:library.data.updatedAt,sync:{mode:'github-actions'}});$('library-updated').textContent=`最終取得 ${date.format(new Date(library.data.updatedAt))} JST · ${status.label}`;renderRoute();}catch(error){$('library-error').hidden=false;$('library-error').textContent=error.message;$('library-updated').textContent='図鑑データを取得できていません';}
+try{const response=await fetch('./data/assets.json',{cache:'no-cache'});if(!response.ok)throw new Error('モンスター画像の一覧を取得できていません。');assets=await response.json();library=await loadLibrary();for(const [name,table] of [['stage','stages'],['gacha','gacha_groups'],['char','chars']])$(name+'-total').textContent=library.tables[table].length.toLocaleString();$('library-updated').hidden=true;renderRoute();}catch(error){$('library-error').hidden=false;$('library-error').textContent=error.message;$('library-updated').textContent='図鑑データを取得できていません';}
