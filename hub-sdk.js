@@ -9,11 +9,11 @@ export const gachaTitle=(event,group)=>event?.header_title||event?.name||group?.
 export function createHub(catalog,events,assets={},live=null){
   const data={...catalog,tables:{...catalog.tables}};
   if(live?.tables){
-    data.detailObservedAt=live.updatedAt;
-    if(Array.isArray(live.tables.gacha_group_events))data.gachaEvents=live.tables.gacha_group_events;
-    if(Array.isArray(live.tables.weekly_max_luck_bonuses))data.weeklyMaxLuckBonuses=live.tables.weekly_max_luck_bonuses;
+    data.detailObservedAt=data.detailObservedAt||live.updatedAt;
+    if(data.gachaScheduleStatus!=='verified'&&Array.isArray(live.tables.gacha_group_events))data.gachaEvents=live.tables.gacha_group_events;
+    if(data.weeklyMaxLuckBonusesStatus!=='verified'&&Array.isArray(live.tables.weekly_max_luck_bonuses))data.weeklyMaxLuckBonuses=live.tables.weekly_max_luck_bonuses;
     if(Array.isArray(live.tables.recommends)){const rows=new Map(live.tables.recommends.map(r=>[r.stage_id,r]));for(const r of data.recommendations||[])rows.set(r.stage_id,r);data.recommendations=[...rows.values()];}
-    if(Array.isArray(live.tables.gacha_group_banners))data.gachaBanners=live.tables.gacha_group_banners;
+    if(data.gachaBannersStatus!=='verified'&&Array.isArray(live.tables.gacha_group_banners))data.gachaBanners=live.tables.gacha_group_banners;
   }
   const library=createLibrary(data),stagesByGroup=new Map();
   for(const stage of library.tables.stages){if(!stagesByGroup.has(stage.stage_group_id))stagesByGroup.set(stage.stage_group_id,[]);stagesByGroup.get(stage.stage_group_id).push(stage);}

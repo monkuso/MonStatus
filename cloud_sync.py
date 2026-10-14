@@ -4,6 +4,7 @@ import hashlib
 import io
 import json
 import os
+import re
 from pathlib import Path
 import sys
 import urllib.parse
@@ -12,6 +13,8 @@ import zipfile
 import zlib
 import msgpack
 from catalog_sync import CATALOG_TABLES,build_catalog
+from game_protocol import signed_headers
+from gacha_rates import parse_rates
 
 TABLES={'stage_groups','stage_group_events','stage_group_kind_events','stage_group_cycle_events','stages','stage_gimmicks','chars','wanted_bosses','wanted_boss_groups'}
 TABLES|=CATALOG_TABLES
@@ -186,7 +189,7 @@ def build_snapshot(config):
     parsed=urllib.parse.urlsplit(config['url'])
     if parsed.scheme!='https' or parsed.hostname!='api.monster-strike.com' or parsed.path!='/master/version':
         raise SyncError('Master endpoint rejected')
-    headers={k:v for k,v in config['headers'].items() if k.lower() in HEADER_NAMES}
+    headers=signed_headers(config,parsed.path+('?' + parsed.query if parsed.query else '')) if config.get('signing_seed_b64') else {k:v for k,v in config['headers'].items() if k.lower() in HEADER_NAMES}
     if not {'x-ds-session','x-ds-requesthash'}<={key.lower() for key in headers}:
         raise SyncError('Game connection configuration is incomplete')
     manifest=unpack(download(config['url'],4*1024*1024,headers))
@@ -212,7 +215,7 @@ def build_snapshot(config):
         endpoint=urllib.parse.urlsplit(request['url'])
         if endpoint.scheme!='https' or endpoint.hostname!='api.monster-strike.com' or endpoint.path!=path or path not in {'/information/list','/char/recommend'}:
             raise SyncError('Detail read endpoint rejected')
-        read_headers={k:v for k,v in request['headers'].items() if k.lower() in HEADER_NAMES}
+        read_headers=signed_headers(config,endpoint.path+('?' + endpoint.query if endpoint.query else '')) if config.get('signing_seed_b64') else {k:v for k,v in request['headers'].items() if k.lower() in HEADER_NAMES}
         details=unpack(download(request['url'],16*1024*1024,read_headers))
         if path=='/information/list':
             rows=details.get('gacha_group_events')
@@ -220,6 +223,7 @@ def build_snapshot(config):
             fields={'id','name','gacha_group_id','start_at','end_at','visible_at','header_title','footer_title','popup_url'}
             catalog['gachaEvents']=[{key:row[key] for key in fields if key in row} for row in rows]
             catalog['gachaScheduleStatus']='verified'
+            catalog['detailObservedAt']=timestamp
             lucky_rows=details.get('weekly_max_luck_bonuses')
             if isinstance(lucky_rows,list):
                 lucky_fields={'id','description','max_level','start_at','end_at','visible_at','drop_ids'}
@@ -230,6 +234,27 @@ def build_snapshot(config):
                 banner_fields={'id','gacha_group_id','file_name','priority','type_id','start_at','end_at'}
                 catalog['gachaBanners']=[{key:row[key] for key in banner_fields if key in row} for row in banner_rows]
                 catalog['gachaBannersStatus']='verified'
+            messages=details.get('event_messages')
+            if isinstance(messages,list):
+                catalog['gachaMessages']=[]
+                catalog['gachaRates']=[]
+                for index,row in enumerate(messages):
+                    metadata={'messageId':row['id'],'gachaGroupId':row.get('gacha_group_id',0),'messageIndex':index,
+                              'startAt':row['start_at'],'endAt':row['end_at'],'disabled':row.get('disabled',0),'priority':row.get('priority',0)}
+                    catalog['gachaMessages'].append(metadata)
+                    raw_details=row.get('message','')
+                    character_ids=list(dict.fromkeys(int(value) for value in re.findall(r'\[IPLJ(\d+)\]',raw_details)))
+                    detail_text=re.sub(r'\[u:[^|\]]+\|([^\]]+)\]',r'\1',raw_details)
+                    detail_text=re.sub(r'\[C\d+:([^\[\]]*)\]',r'\1',detail_text)
+                    detail_text=re.sub(r'\[BLOCK:([^\]]+)\]',r'\1',detail_text)
+                    _,explanation=parse_rates(detail_text)
+                    for field,title in [('summary','通常の提供割合'),('inc_prob_gacha_summary','初回10連の提供割合（対象条件あり）')]:
+                        text=row.get(field,'')
+                        if not text:continue
+                        entries,notes=parse_rates(text)
+                        catalog['gachaRates'].append({**metadata,'title':title,'entries':entries,'notes':notes,'rawText':text,
+                                                      'detailText':explanation,'detailCharacterIds':character_ids,
+                                                      'source':'official-game-provided-rates','observedAt':timestamp})
         else:
             rows=details.get('recommends')
             if not isinstance(rows,list):raise SyncError('Clear character response rejected')
