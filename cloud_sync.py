@@ -24,7 +24,7 @@ ADVANTAGE={1:2,2:3,3:1,4:5,5:4}
 RECOMMENDED_PER_EVENT=6
 
 def clear_group_ids(catalog,now):
-    return sorted({row['stageGroupId'] for row in catalog['stageEvents'] if row['sourceTable']=='stage_group_events' and row['startAt']<=now<=row['endAt'] and row['endAt']<4102444800})
+    return sorted({row['stageGroupId'] for row in catalog['stageEvents'] if row['sourceTable']=='stage_group_events' and row['startAt']<=now<=row['endAt']})
 
 def merge_clear_results(catalog,details,timestamp):
     rows=details.get('recommends')

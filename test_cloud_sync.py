@@ -9,10 +9,10 @@ from cloud_sync import SyncError,table_from_archive,normalize_events,build_gimmi
 EMPTY_TABLES={'stage_groups':[],'stage_group_events':[],'stage_group_kind_events':[],'stage_group_cycle_events':[],'stages':[],'stage_gimmicks':[],'chars':[],'wanted_bosses':[],'wanted_boss_groups':[]}
 
 class CloudSyncTests(unittest.TestCase):
-    def test_clear_groups_select_only_current_event_groups_once(self):
+    def test_clear_groups_select_current_and_permanent_groups_once(self):
         rows=[{'sourceTable':'stage_group_events','stageGroupId':1,'startAt':100,'endAt':200}]
         rows.extend([{**rows[0]}, {**rows[0],'stageGroupId':2,'startAt':201}, {**rows[0],'stageGroupId':3,'endAt':99}, {**rows[0],'stageGroupId':4,'endAt':4102444800}])
-        self.assertEqual(clear_group_ids({'stageEvents':rows},150),[1])
+        self.assertEqual(clear_group_ids({'stageEvents':rows},150),[1,4])
 
     def test_premium_clear_results_preserve_server_order_and_public_fields(self):
         catalog={'tables':{'stages':[{'id':10}]},'recommendations':[],'community':{}}
