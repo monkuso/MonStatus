@@ -54,6 +54,14 @@ class CloudSyncTests(unittest.TestCase):
         with patch('cloud_sync.read_game',side_effect=[{'recommends':[]},SyncError('failed'),{'recommends':[row]}]):sync_clear_groups(catalog,{},'2026-10-15T00:00:00+00:00')
         self.assertEqual([(r['stageId'],r['status']) for r in catalog['clearChecks']],[(10,'error'),(20,'available')])
 
+    def test_cached_historical_results_keep_original_observation_time(self):
+        catalog={'stageEvents':[],'tables':{'stages':[{'id':10,'stage_group_id':1}]},'recommendations':[],'community':{}}
+        previous={'recommendations':[{'stage_id':10,'gacha_char_ids':[33],'event_char_ids':[],'fetched_at':'2026-10-15T00:00:00+00:00'}],'clearChecks':[{'stageId':10,'status':'available','checkedAt':'2026-10-15T00:00:00+00:00'}]}
+        with patch('cloud_sync.read_game') as read:sync_clear_groups(catalog,{},'2026-10-15T01:00:00+00:00',previous)
+        read.assert_not_called()
+        self.assertEqual(catalog['recommendations'][0]['fetched_at'],'2026-10-15T00:00:00+00:00')
+        self.assertEqual(catalog['community']['checkedStages'],1)
+
     def archive(self,value):
         buffer=io.BytesIO()
         with zipfile.ZipFile(buffer,'w',zipfile.ZIP_DEFLATED) as archive:
