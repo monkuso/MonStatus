@@ -29,7 +29,9 @@ export function createHub(catalog,events,assets={},live=null){
     const rows=stageEvents.filter(e=>e.sourceTable==='stage_group_events'&&!isLongTerm(e)&&Number.isFinite(e.startAt)&&Number.isFinite(e.endAt)).map(e=>({kind:'quest',key:e.id,id:e.stageGroupId,name:library.indexes.stage_groups.get(e.stageGroupId)?.name||e.questName||e.name,startAt:e.startAt,endAt:e.endAt,attributeId:e.attributeId,source:e})).sort((a,b)=>a.id-b.id||a.startAt-b.startAt||a.endAt-b.endAt);
     const distinct=[];
     for(const row of rows){const previous=distinct.at(-1);if(previous?.id===row.id&&row.startAt<=previous.endAt+1){previous.endAt=Math.max(previous.endAt,row.endAt);}else distinct.push({...row});}
-    return distinct;
+    const appearances=new Map();
+    for(const row of distinct){const group=library.indexes.stage_groups.get(row.id);const key=JSON.stringify([normalized(row.name),group?.stage_class_id,row.startAt,row.endAt]);const existing=appearances.get(key);if(existing){existing.groupIds.push(row.id);}else appearances.set(key,{...row,groupIds:[row.id]});}
+    return [...appearances.values()];
   }
   function querySchedule({day=null,text='',view='active',now=Date.now()/1000}={}){return scheduleRows().filter(e=>Number.isFinite(e.startAt)&&Number.isFinite(e.endAt)&&(!day||overlapDay(e.startAt,e.endAt,day))&&(!text||normalized(e.name).includes(normalized(text)))&&(day||view==='all'||eventStatus(e,now)===view)).sort((a,b)=>(view==='upcoming'?a.startAt-b.startAt:a.endAt-b.endAt)||a.key.localeCompare(b.key));}
   function quests({text='',attribute='',now=Date.now()/1000}={}){const ids=new Set(stageEvents.filter(e=>eventStatus(e,now)==='active'&&e.sourceTable==='stage_group_events').map(e=>e.stageGroupId));return library.tables.stage_groups.filter(g=>ids.has(g.id)&&(!attribute||g.attribute_id===Number(attribute))&&(!text||normalized(`${g.name} ${g.id}`).includes(normalized(text)))).sort((a,b)=>b.id-a.id);}

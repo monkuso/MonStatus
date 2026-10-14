@@ -32,6 +32,12 @@ test('実データで同じクエストの重なる出現時間が別カード�
   const groups=new Map();
   for(const row of hub.querySchedule({view:'all'})){const previous=groups.get(row.id);if(previous)assert.ok(previous.endAt<row.startAt||row.endAt<previous.startAt);groups.set(row.id,row);}
 });
+test('覇者の塔の階層別IDを一つの出現日程にまとめ、各階層への参照を保持する',()=>{
+  const rows=hub.querySchedule({view:'all'}).filter(r=>r.name==='覇者の塔'&&r.groupIds.includes(97681));
+  assert.equal(rows.length,1);
+  assert.ok(rows[0].groupIds.includes(97682));
+  assert.ok(rows[0].groupIds.every(id=>hub.stagesByGroup.get(id)?.length));
+});
 test('ラキモンをドロップIDから解決し、アイコンと入手先を関連付ける',()=>{
   const week=hub.lucky.find(w=>w.drop_ids.length);
   assert.ok(week);
