@@ -26,3 +26,4 @@ export function rawChunk(index,table,id){
   if(!entry||!new RegExp(`^${table}-[0-9]{4}\\.json$`).test(entry.file))return null;
   return entry;
 }
+export function recordIdentity(index,table,row){return row[index.tables[table]?.identityField||'id'];}
