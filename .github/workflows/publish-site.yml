@@ -1,0 +1,55 @@
+name: Publish site from verified snapshot
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages-ui
+  cancel-in-progress: true
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+      - name: Validate site
+        run: node --test check/sdk.mjs check/library.mjs check/hub.mjs check/internal.mjs
+      - uses: actions/github-script@v8
+        id: snapshot
+        with:
+          script: |
+            const artifacts = await github.paginate(github.rest.actions.listArtifactsForRepo, {...context.repo, per_page: 100});
+            const snapshot = artifacts.find(item => item.name === 'github-pages' && !item.expired);
+            if (!snapshot) throw new Error('No verified Pages snapshot is available');
+            core.setOutput('artifact', String(snapshot.id));
+            core.setOutput('run', String(snapshot.workflow_run.id));
+      - uses: actions/download-artifact@v4
+        with:
+          artifact-ids: ${{ steps.snapshot.outputs.artifact }}
+          path: snapshot
+          merge-multiple: true
+          run-id: ${{ steps.snapshot.outputs.run }}
+          github-token: ${{ github.token }}
+      - name: Prepare site with preserved game data
+        run: |
+          mkdir -p dist
+          tar -xf snapshot/artifact.tar -C dist
+          test -s dist/data/catalog.json
+          cp index.html events.html internal.html dist/
+          rm -rf dist/web
+          cp -r web dist/
+          rm -f dist/library.html
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+      - uses: actions/deploy-pages@v4
+        id: deployment
