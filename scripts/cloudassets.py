@@ -147,7 +147,14 @@ def sync_assets(catalog,resources,seed,site,manifest,state,opener=urllib.request
                         if key in members:raise ValueError('Duplicate asset member hash')
                         members[key]=info.filename
             return path,{'fingerprint':fingerprint,'members':members},reader,None
-        except Exception as error:return path,None,None,{'package':path,'errorType':type(error).__name__}
+        except Exception as error:
+            failure={'package':path,'errorType':type(error).__name__,'typeId':row.get('type_id')}
+            if isinstance(error,zipfile.BadZipFile):
+                failure['detail']=str(error)
+                try:
+                    reader.seek(0);failure['header']=reader.read(8).hex()
+                except Exception:pass
+            return path,None,None,failure
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
         for path,record,reader,error in pool.map(index,packages):
             if error:failures.append(error);continue
