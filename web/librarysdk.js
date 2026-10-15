@@ -1,4 +1,5 @@
 import {displayName,decodeGimmicks} from './sdk.js';
+import {classifyCharacter} from './internalsdk.js';
 export function createLibrary(data){
   if(data.schemaVersion!==1||!data.tables||!Number.isFinite(Date.parse(data.updatedAt)))throw new Error('図鑑データの形式を確認してください');
   const tables=data.tables;
@@ -26,7 +27,7 @@ export function createLibrary(data){
     return {row,characters:[...new Set(entries.map(e=>e.char_id))].map(cid=>indexes.chars.get(cid)).filter(Boolean),unresolvedCharacterIds:[...new Set(entries.map(e=>e.char_id))].filter(cid=>!indexes.chars.has(cid)),features:related('gacha_group_feature_chars','gacha_group_id',row.id),extraCosts:related('gacha_group_extra_cost_items','gacha_group_id',row.id),schedules:(data.gachaEvents||[]).filter(e=>e.gacha_group_id===row.id)};
   }
   function character(id){const row=indexes.chars.get(Number(id));return row?{row,skills:related('char_skills','char_id',row.id),strikeShot:indexes.strike_shots.get(row.strike_shot_id)||null}:null;}
-  const leakedChars=(()=>{const now=Date.now()/1000;const cutoff=now-180*86400;const skillIds=new Set((tables.char_skills||[]).map(s=>s.char_id));return (tables.chars||[]).filter(r=>r.rarity>=5&&r.attribute_id>=1&&r.attribute_id<=5&&r.strike_shot_id&&(r.updated_at||0)>cutoff&&skillIds.has(r.id)).sort((a,b)=>(b.updated_at||0)-(a.updated_at||0));})();
+  const leakedChars=(()=>{const skillIds=new Set((tables.char_skills||[]).map(s=>s.char_id));return (tables.chars||[]).filter(r=>r.rarity>=5&&r.attribute_id>=1&&r.attribute_id<=5&&r.strike_shot_id&&skillIds.has(r.id)&&classifyCharacter(r).reasons.some(reason=>reason.kind==='future'||reason.kind==='info-mask')).sort((a,b)=>(b.updated_at||0)-(a.updated_at||0));})();
   function search(kind,{text='',attribute='',groupId=null,limit=48,offset=0}={}){
     const names={stage:'stages',gacha:'gacha_groups',char:'chars',leaked:'leaked'};const name=names[kind];if(!name)throw new Error('不明な図鑑カテゴリ');
     const term=text.normalize('NFKC').toLocaleLowerCase('ja').trim();

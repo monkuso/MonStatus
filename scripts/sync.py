@@ -16,6 +16,7 @@ import zipfile
 import zlib
 import msgpack
 from catalog import CATALOG_TABLES,build_catalog
+from internal import write_internal
 from protocol import signed_headers,read_game,GameReadError
 from rates import parse_rates
 
@@ -303,6 +304,7 @@ def build_snapshot(config,previous=None):
     timestamp=datetime.datetime.now(datetime.timezone.utc).isoformat()
     events,char_profiles=normalize_events(tables)
     catalog=build_catalog(tables,timestamp,evidence,events)
+    catalog['internalData']=write_internal(tables,timestamp,evidence,Path(__file__).resolve().parents[1]/'data'/'internal')
     read_requests=[(path,request) for path,value in config.get('reads',{}).items() for request in (value if isinstance(value,list) else [value])]
     for path,request in read_requests:
         endpoint=urllib.parse.urlsplit(request['url'])

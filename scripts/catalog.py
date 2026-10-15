@@ -1,3 +1,5 @@
+from internal import SCHEMAS
+
 FIELDS={
     'stages':'id stage_group_id name attribute_id cost cost_type_id difficulty experience boss_num boss_hp_bar0 boss_hp_bar1 boss_hp_bar2 bonus_turn charball_attribute_rate enemy_attribute_rate clear_bonus_char_id extra_stage_id extra_stage2_id extra_stage3_id updated_at',
     'stage_groups':'id name attribute_id stage_class_id stage_class_sub_id boss_skin_id banner_file_name drop_id required_rank request_item_id request_item_cnt start_at end_at released_at updated_at',
@@ -30,6 +32,9 @@ FIELDS={
     'auto_gacha_events':'id gacha_group_event_id start_at end_at receivable_end_at purchase_item_id',
     'seethrough_gacha_events':'id start_at end_at description',
 }
+FIELDS['chars']+=' collection_enable_at sort_id time_limited virtual_char_id char_ability_id shot_skill_id enhanced_strike_shot_id luck_skill_id'
+FIELDS['stage_groups']+=' enable_condition_id ext_flag ext_flag_2 event_kind_id test_flag sort_id ui_group_id view_texts_id skin_timeline_name invalid_quest_drop_info enable_playable_time'
+for name in ['shot_skills','char_evolutions','stage_phase_layouts','stage_phase_blocks','stage_phase_images']:FIELDS[name]=' '.join(SCHEMAS[name]['fields'])
 CATALOG_TABLES=set(FIELDS)
 GIMMICK_MASKS=[2,1,4,24,32,64,128,256,2048,4096,512,1024]
 GIMMICK_TEXT_IDS=[0x144df23b,0x8d44a381,0xfa439317,0x642706b4,0x13203622,0x8a296798,0xfd2e570e,0x6d914a9f,0x32c34b61,0xe5711e67,0x1a967a09,0x45c47bf7]
