@@ -282,6 +282,8 @@ def build_snapshot(config,previous=None):
         raise SyncError('Game connection configuration is incomplete')
     manifest=unpack(download(config['url'],4*1024*1024,headers))
     password=base64.b64decode(config['password_b64'],validate=True)
+    all_names=[e['name'] for e in manifest['master_versions']+manifest['daily_versions']]
+    print('MANIFEST_TABLES='+json.dumps(sorted(set(all_names)),ensure_ascii=False),flush=True)
     tables={}
     evidence=[]
     for entry in manifest['master_versions']+manifest['daily_versions']:
