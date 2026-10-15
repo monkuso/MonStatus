@@ -1,4 +1,3 @@
-"""Verified version-6 signatures for a bounded set of game read endpoints."""
 import base64
 import hashlib
 import msgpack
