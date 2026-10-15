@@ -59,7 +59,7 @@ function render(){
   else if(tab==='gacha'){rows=hub.gachas({text:state.text,all:state.all,view:state.view});draw=gachaCard;if(!hub.gachaEvents.length){$('notice').hidden=false;$('notice').textContent='現在の開催一覧は未取得です。「過去・その他の登録情報も含める」でガチャの登録情報を検索できます。';}}
   else {rows=hub.library.search('char',{text:state.text,attribute:state.attribute,limit:100000}).rows;draw=charCard;}
   $('result-count').textContent=`${rows.length.toLocaleString('ja-JP')}件`;
-  if(!rows.length){content.append(element('div','条件に一致する情報がありません。名前・属性・日付を変更して探してください。','empty'));return;}
+  if(!rows.length){const msg=tab==='gacha'&&state.view==='upcoming'?'配信中のデータに開催予定ガチャは含まれていません。ゲーム側のお知らせでは告知のタイミングでのみ取得できます。':'条件に一致する情報がありません。名前・属性・日付を変更して探してください。';content.append(element('div',msg,'empty'));return;}
   const grid=element('div',null,tab==='char'?'grid char-grid':'grid');for(const row of rows.slice(0,state.limit))grid.append(draw(row));content.append(grid);$('more').hidden=rows.length<=state.limit;
 }
 function title(parent,text,kind,id){const h=element('h2',cleanText(text));h.id='detail-title';parent.append(h);$('detail-kind').textContent=`${kind} · No.${id}`;}
