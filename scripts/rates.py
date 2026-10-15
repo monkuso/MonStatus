@@ -1,4 +1,3 @@
-"""Parse the official in-game provided-rate text without estimating rates."""
 import re
 
 
