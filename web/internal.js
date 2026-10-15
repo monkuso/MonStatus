@@ -70,7 +70,6 @@ async function showRecord(table,id){
       if(information.children.length)body.append(information);
     }
     if(state.index.tables[table].identityField==='_recordIndex')body.append(el('p','このテーブルにはゲームID列がないため、サイト側のレコード番号を使っています。_recordIndexはゲーム由来の値ではありません。','internal-hint'));
-    const kind={chars:'char',stages:'stage'}[table];if(kind)body.append(link('詳細図鑑を開く ↗',`./library.html#${kind}:${id}`));
     if(table==='stage_groups'){const stages=(state.index.entities.stages||[]).filter(stage=>stage.stage_group_id===id);const links=el('div','','internal-related');for(const stage of stages)links.append(button(cleanText(stage.name||String(stage.id)),()=>showRecord('stages',stage.id)));body.append(el('h3',`ステージ · ${stages.length}件`),links);}
     body.append(el('p',`データ確認 ${date.format(new Date(state.index.updatedAt))} JST`,'internal-hint'));
     const technical=el('details','','character-technical');technical.append(el('summary','解析用データを見る（上級者向け）'));related(technical,table,row);technical.append(el('h3',`配信フィールド · ${Object.keys(row).length}項目`),rawTable(row));

@@ -55,7 +55,7 @@ function card(event){
   const recommended=lookupChars(snapshot,event.recommendedCharIds);
   const recRow=charRow('属性相性の候補',recommended,'クリア実績とは別の候補です');
   if(recRow)body.append(recRow);
-  if(event.stageGroupId){const detail=element('a','event-detail-link','ステージ詳細・ギミックを見る ↗');detail.href=`./library.html?group=${event.stageGroupId}`;body.append(detail);}
+  if(event.stageGroupId){const detail=element('a','event-detail-link','ステージ詳細・ギミックを見る ↗');detail.href=`./internal.html?table=stage_groups&id=${event.stageGroupId}`;body.append(detail);}
   const foot=element('div','card-foot');foot.append(element('span','',event.sourceTable==='stage_group_events'?'イベント日程':'条件付き日程'));
   let remaining=labels[status];if(isLongTerm(event))remaining='長期開催';else if(status==='active'){const hours=Math.ceil((event.endAt-Date.now()/1000)/3600);remaining=hours<=24?`終了まで約${Math.max(1,hours)}時間`:`終了まで約${Math.ceil(hours/24)}日`;}else if(status==='upcoming'){const hours=Math.ceil((event.startAt-Date.now()/1000)/3600);remaining=hours<=24?`開始まで約${Math.max(1,hours)}時間`:`開始まで約${Math.ceil(hours/24)}日`;}foot.append(element('span','remaining',remaining));article.append(top,body,foot);return article;
 }
