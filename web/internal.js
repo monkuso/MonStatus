@@ -1,8 +1,8 @@
 import {queryInternal,rawChunk,recordIdentity} from './internalsdk.js';
-import {cleanText} from './hubsdk.js';
+import {cleanText,assetImageUrl} from './hubsdk.js?v=assets1';
 import {attributeMeta} from './sdk.js';
 import {loadCharacterInfo} from './charactersdk.js';
-import {renderCharacter} from './character-view.js';
+import {renderCharacter} from './character-view.js?v=assets1';
 const $=id=>document.getElementById(id);
 const titles={chars:'キャラクター',stage_groups:'クエスト',stages:'ステージ',assets:'画像候補',tables:'全内部テーブル'};
 const labels={chars:'キャラ定義',stage_groups:'クエスト定義',stages:'ステージ定義',char_skills:'友情・スキル',strike_shots:'ストライクショット',shot_skills:'ショットスキル',char_evolutions:'進化・形態',stage_phases:'バトルフェーズ',stage_gimmicks:'ギミック',stage_notes:'ステージ注記',stage_group_notes:'クエスト注記',stage_phase_blocks:'ブロック',stage_phase_layouts:'フェーズ配置',stage_phase_images:'フェーズ画像',stage_class_catalogs:'クエスト分類'};
@@ -18,7 +18,7 @@ const stamp=value=>typeof value==='number'&&Number.isFinite(value)&&value>0?date
 const error=message=>{$('internal-error').hidden=!message;$('internal-error').textContent=message||'';};
 async function json(url){const response=await fetch(url,{cache:'no-cache'});if(!response.ok)throw new Error(`データ取得に失敗しました (${response.status})。更新後に再度確認してください。`);return response.json();}
 function imageFor(table,row){if(table==='assets')return /^assets\/internal\/\d+\.webp$/.test(row.image)?row.image:null;if(table==='chars')return state.assets.characters?.[String(row.skin_id||row.id)]||null;if(table==='stage_groups')return state.assets.quests?.[row.banner_file_name]||null;return null;}
-function picture(parent,source,alt,className){if(typeof source!=='string'||!/^assets\/[a-zA-Z0-9_./-]+$/.test(source))return;const image=el('img','',className);image.src=source;image.alt=cleanText(alt);image.loading='lazy';image.decoding='async';parent.append(image);}
+function picture(parent,source,alt,className){if(typeof source!=='string'||!/^assets\/[a-zA-Z0-9_./-]+$/.test(source))return;const image=el('img','',className);image.src=assetImageUrl(source,state.assets);image.alt=cleanText(alt);image.loading='lazy';image.decoding='async';parent.append(image);}
 async function loadChunk(table,chunk){
   if(!chunk||!rawChunk(state.index,table,chunk.firstId))throw new Error('対象のデータ範囲がありません。');
   const key=table+':'+chunk.sha256;
@@ -59,7 +59,7 @@ async function showRecord(table,id){
     if(table==='chars'){
       const profile=await loadCharacterInfo(row,{record,related:relatedRecords,all:allRecords});
       if(token!==requestId)return;
-      body.replaceChildren(renderCharacter(profile,{image:imageFor(table,row),attributeImage:state.assets.attributes?.[String(row.attribute_id)]}));
+      body.replaceChildren(renderCharacter(profile,{assets:state.assets,image:imageFor(table,row),attributeImage:state.assets.attributes?.[String(row.attribute_id)]}));
     }else{
       picture(body,imageFor(table,row),row.name||String(id),'internal-detail-image');
       if(row.description)body.append(el('p',cleanText(row.description),'readable-description'));

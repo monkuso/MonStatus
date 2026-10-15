@@ -6,6 +6,11 @@ export const visibleAt=(row,now)=>!Number.isFinite(row.visible_at)||row.visible_
 export const overlapDay=(start,end,day)=>{const a=Date.parse(`${day}T00:00:00+09:00`)/1000;return start<=a+86399&&end>=a;};
 export const permanentGacha=event=>event.end_at>=4102444800;
 export const gachaTitle=(event,group)=>event?.header_title||event?.name||group?.name||'ガチャ';
+export function assetImageUrl(path,assets={}){
+  if(typeof path!=='string'||!/^assets\/[A-Za-z0-9_./-]+$/.test(path)||path.split('/').includes('..'))return null;
+  const version=assets.imageVersions?.[path];
+  return typeof version==='string'&&/^[a-f0-9]{16}$/.test(version)?`${path}?v=${version}`:path;
+}
 export function createHub(catalog,events,assets={},live=null){
   const data={...catalog,tables:{...catalog.tables}};
   if(live?.tables){

@@ -10,51 +10,13 @@ import zipfile
 from pathlib import Path
 
 from PIL import Image
+from assetcodec import mix,name_hash,decode,write_image
 
 ROOT = Path(__file__).resolve().parents[2]
 DESTINATION = Path(__file__).resolve().parents[1]
 sys.dont_write_bytecode = True
 sys.path.insert(0, str(ROOT / 'analysis'))
 from decode_static_strings import StaticStrings
-
-
-def mix(a, b, c):
-    for target, left, right, shift, direction in (
-        ('a', 'b', 'c', 13, 'r'), ('b', 'c', 'a', 8, 'l'), ('c', 'a', 'b', 13, 'r'),
-        ('a', 'b', 'c', 12, 'r'), ('b', 'c', 'a', 16, 'l'), ('c', 'a', 'b', 5, 'r'),
-        ('a', 'b', 'c', 3, 'r'), ('b', 'c', 'a', 10, 'l'), ('c', 'a', 'b', 15, 'r'),
-    ):
-        values = {'a': a, 'b': b, 'c': c}
-        value = (values[target] - values[left] - values[right]) & 0xFFFFFFFF
-        value = (value ^ (values[right] >> shift if direction == 'r' else values[right] << shift)) & 0xFFFFFFFF
-        if target == 'a':
-            a = value
-        elif target == 'b':
-            b = value
-        else:
-            c = value
-    return a, b, c
-
-
-def name_hash(name):
-    data = name.encode('utf-8')
-    a = b = 0x9E3779B9
-    c = 0xFEEDBEEF
-    cursor = 0
-    while len(data) - cursor >= 12:
-        x, y, z = struct.unpack_from('<III', data, cursor)
-        a, b, c = mix((a + x) & 0xFFFFFFFF, (b + y) & 0xFFFFFFFF, (c + z) & 0xFFFFFFFF)
-        cursor += 12
-    c = (c + len(data)) & 0xFFFFFFFF
-    for index, byte in enumerate(data[cursor:]):
-        if index < 4:
-            a = (a + (byte << (index * 8))) & 0xFFFFFFFF
-        elif index < 8:
-            b = (b + (byte << ((index - 4) * 8))) & 0xFFFFFFFF
-        else:
-            c = (c + (byte << ((index - 7) * 8))) & 0xFFFFFFFF
-    return f'{mix(a, b, c)[2]:08X}'
-
 
 def seed_material():
     reader = StaticStrings()
@@ -65,34 +27,9 @@ def seed_material():
     finally:
         reader.close()
 
-
-def decode(data, initial):
-    if data.startswith((b'\x89PNG', b'<?xml', b'<plist')):
-        return data
-    x, y, z, w = initial
-    output = bytearray(len(data))
-    for offset in range(0, len(data), 4):
-        t = (x ^ (x << 11)) & 0xFFFFFFFF
-        x, y, z = y, z, w
-        w = (w ^ (w >> 19) ^ t ^ (t >> 8)) & 0xFFFFFFFF
-        key = struct.pack('<I', w)
-        for index, value in enumerate(data[offset:offset + 4]):
-            output[offset + index] = value ^ key[index]
-    return bytes(output)
-
-
-def write_image(data, target):
-    with Image.open(io.BytesIO(data)) as image:
-        image.load()
-        if image.width > 4096 or image.height > 4096:
-            raise ValueError('画像寸法の上限を超えています')
-        image.convert('RGBA').save(target, format='WEBP', quality=88, method=4)
-
-
 def parse_plist(data):
     data = re.sub(br'<!DOCTYPE[^>]*>', b'', data.rstrip(b'\0'), flags=re.S)
     return plistlib.loads(data)
-
 
 def main():
     expected = {'cb/cb0001.png': 'DD0CB6BD', 'cb/cb0100.png': '14A0589A', 'pb/pb0001.png': '396B5EB5', 'ba_stage950040.png': '3EB2DC91'}
@@ -180,7 +117,6 @@ def main():
     manifest['provenance']['assetSetDigest'] = hashlib.sha256(json.dumps(manifest['counts'], sort_keys=True).encode()).hexdigest()
     (DESTINATION / 'data' / 'assets.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding='utf-8')
     print(json.dumps({'result': 'success', **manifest['counts']}), flush=True)
-
 
 if __name__ == '__main__':
     main()

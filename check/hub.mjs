@@ -1,12 +1,19 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {createHub,gachaTitle,permanentGacha} from '../web/hubsdk.js';
+import {createHub,gachaTitle,permanentGacha,assetImageUrl} from '../web/hubsdk.js';
 const load=name=>JSON.parse(fs.readFileSync(new URL('../data/'+name,import.meta.url),'utf8'));
 const catalog=load('catalog.json'),events=load('events.json'),live=load('livedata.json'),assets=load('assets.json'),rates=load('gacharates.json');
 catalog.gachaRates=rates.rates;
 catalog.gachaMessages=rates.messages;
 const hub=createHub(catalog,events,assets,live);
+test('更新された画像には内容ハッシュを付け、外部URLや親ディレクトリを拒否する',()=>{
+  const path='assets/characters/03/13103.webp';
+  assert.equal(assetImageUrl(path,{imageVersions:{[path]:'1234567890abcdef'}}),path+'?v=1234567890abcdef');
+  assert.equal(assetImageUrl(path),path);
+  assert.equal(assetImageUrl('https://example.test/image.png'),null);
+  assert.equal(assetImageUrl('assets/../private.json'),null);
+});
 test('スケジュールはイベントクエストだけを表示し、ガチャはガチャ一覧で検索する',()=>{
   assert.ok(hub.gachaEvents.some(permanentGacha));
   assert.ok(hub.querySchedule({view:'all'}).length>0);

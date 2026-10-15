@@ -12,6 +12,7 @@ on:
     - cron: '17,47 * * * *'
 permissions:
   contents: read
+  actions: read
   pages: write
   id-token: write
 concurrency:
@@ -54,16 +55,44 @@ jobs:
         run: python -m pip install -r requirements.txt
       - name: Validate sync and site logic
         run: |
-          python -m unittest check/sync.py check/catalog.py check/internal.py check/release.py
+          python -m unittest check/sync.py check/catalog.py check/internal.py check/release.py check/assets.py
           node --test check/sdk.mjs check/library.mjs check/hub.mjs check/internal.mjs
-      - name: Restore last published snapshot
-        run: python scripts/sync.py --restore
+      - uses: actions/github-script@v8
+        id: snapshot
+        with:
+          script: |
+            const artifacts = await github.paginate(github.rest.actions.listArtifactsForRepo, {...context.repo, per_page: 100});
+            const snapshot = artifacts.find(item => item.name === 'github-pages' && !item.expired);
+            if (!snapshot) throw new Error('No verified Pages snapshot is available');
+            core.setOutput('artifact', String(snapshot.id));
+            core.setOutput('run', String(snapshot.workflow_run.id));
+      - uses: actions/download-artifact@v4
+        with:
+          artifact-ids: ${{ steps.snapshot.outputs.artifact }}
+          path: snapshot
+          merge-multiple: true
+          run-id: ${{ steps.snapshot.outputs.run }}
+          github-token: ${{ github.token }}
+      - name: Restore verified data, images and asset index
+        run: |
+          mkdir -p previous-site assets
+          tar -xf snapshot/artifact.tar -C previous-site
+          test -s previous-site/data/catalog.json
+          cp -r previous-site/data/. data/
+          cp -r previous-site/assets/. assets/
       - name: Fetch verified game data
         id: sync
         continue-on-error: true
         env:
           MS_GAME_CONFIG: ${{ secrets.MS_GAME_CONFIG }}
         run: python scripts/sync.py
+      - name: Sync new and changed game images
+        id: images
+        continue-on-error: true
+        env:
+          MS_GAME_CONFIG: ${{ secrets.MS_GAME_CONFIG }}
+          MS_ASSET_CONFIG: ${{ secrets.MS_ASSET_CONFIG }}
+        run: python scripts/cloudassets.py
       - name: Validate live data
         run: node --test check/sdk.mjs check/library.mjs check/hub.mjs
       - uses: actions/configure-pages@v5
@@ -80,7 +109,7 @@ jobs:
       - uses: actions/deploy-pages@v4
         id: deployment
       - name: Report synchronization failure
-        if: steps.sync.outcome == 'failure'
+        if: steps.sync.outcome == 'failure' || steps.images.outcome == 'failure'
         run: |
-          echo 'The last verified snapshot was published. Game synchronization failed; its original timestamp is preserved.' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Verified data and images were published. A synchronization step failed; check the data and image status timestamps.' >> "$GITHUB_STEP_SUMMARY"
           exit 1
