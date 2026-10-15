@@ -47,6 +47,16 @@ export function createHub(catalog,events,assets={},live=null){
     for(const parent of gachaGroupChain(id).slice(1)){const event=gachaSchedule(parent.id,view,now);if(event)return `${gachaTitle(event,parent)} · ${group.name}`;}
     return group.name;
   }
+  function gachaDateSections(rows,view='active',now=Date.now()/1000){
+    const groups=new Map(),format=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Tokyo',year:'numeric',month:'2-digit',day:'2-digit'});
+    for(const row of rows){
+      const event=gachaSchedule(row.id,view,now),startAt=event?.start_at;
+      const day=Number.isFinite(startAt)?format.format(new Date(startAt*1000)).replaceAll('-','/'):null;
+      if(!groups.has(day))groups.set(day,{day,rows:[],starts:new Map()});
+      const section=groups.get(day);section.rows.push(row);section.starts.set(row.id,startAt);
+    }
+    return [...groups.values()].sort((a,b)=>a.day===null?1:b.day===null?-1:view==='upcoming'?a.day.localeCompare(b.day):b.day.localeCompare(a.day)).map(section=>({day:section.day,rows:section.rows.sort((a,b)=>(section.starts.get(a.id)||0)-(section.starts.get(b.id)||0)||a.id-b.id)}));
+  }
   function gachas({text='',all=false,view='active',now=Date.now()/1000}={}){
     const scheduled=gachaEvents.filter(e=>!permanentGacha(e));
     const activeIds=new Set(scheduled.filter(e=>visibleAt(e,now)&&e.start_at<=now&&e.end_at>=now).map(e=>e.gacha_group_id));
@@ -54,8 +64,7 @@ export function createHub(catalog,events,assets={},live=null){
     const referencedIds=new Set(gachaEvents.map(e=>e.gacha_group_id));
     const selected=view==='active'?activeIds:view==='upcoming'?upcomingIds:new Set([...activeIds,...upcomingIds]);
     const rows=library.tables.gacha_groups.filter(g=>(view==='internal'||(view==='leaked'?!referencedIds.has(g.id):all||selected.has(g.id)))&&(!text||normalized(`${g.name} ${g.description} ${g.id} ${gachaEvents.filter(e=>e.gacha_group_id===g.id||e.gacha_group_id===g.parent_group_id).map(e=>gachaTitle(e,g)).join(' ')}`).includes(normalized(text))));
-    if(view==='upcoming')return rows.sort((a,b)=>gachaSchedule(a.id,view,now).start_at-gachaSchedule(b.id,view,now).start_at||a.id-b.id);
-    return rows.sort((a,b)=>(view==='internal'||view==='leaked'?((b.updated_at||0)-(a.updated_at||0)):0)||b.id-a.id);
+    return gachaDateSections(rows,view,now).flatMap(section=>section.rows);
   }
   function luckyCharacters(week){return (week.drop_ids||[]).filter(id=>id>0).map(dropId=>({dropId,forms:library.tables.chars.filter(c=>c.drop_id===dropId).sort((a,b)=>(b.rarity||0)-(a.rarity||0)||b.id-a.id)}));}
   function gachaGroupChain(id){const chain=[];let current=library.indexes.gacha_groups.get(id);const seen=new Set();while(current&&!seen.has(current.id)){seen.add(current.id);chain.push(current);if(current.category_id===50008||!current.parent_group_id)break;current=library.indexes.gacha_groups.get(current.parent_group_id);}return chain;}
@@ -63,5 +72,5 @@ export function createHub(catalog,events,assets={},live=null){
   function providedRates(id,now=Date.now()/1000){const messageIds=new Set(gachaMessages(id,now).map(m=>m.messageId));return (data.gachaRates||[]).filter(r=>messageIds.has(r.messageId)&&(r.entries||[]).length);}
   function gachaCharacterIds(id,now=Date.now()/1000){const result=new Set();for(const m of gachaMessages(id,now))for(const cid of m.detailCharacterIds||[])result.add(cid);for(const f of library.gacha(id)?.features||[]){const start=Number.isFinite(f.start_at)?f.start_at:null,end=Number.isFinite(f.end_at)?f.end_at:null;if((start===null||start<=now)&&(end===null||end>=now))result.add(f.char_id);}for(const c of library.gacha(id)?.characters||[])result.add(c.id);for(const b of library.tables.box_gacha_items||[]){if(b.gacha_group_id!==id)continue;const it=library.indexes.items.get(b.item_id);if(!it||!it.name)continue;const base=it.name.replace(/[（(][^）)]*[）)]/g,'').trim();const ch=library.charByName?.get(base);if(ch)result.add(ch.id);}if(!result.size){const children=library.tables.gacha_groups.filter(g=>g.parent_group_id===id);for(const child of children){for(const m of (data.gachaMessages||[]).filter(m=>m.gachaGroupId===child.id&&m.startAt<=now&&m.endAt>=now))for(const cid of m.detailCharacterIds||[])result.add(cid);for(const f of library.gacha(child.id)?.features||[]){const start=Number.isFinite(f.start_at)?f.start_at:null,end=Number.isFinite(f.end_at)?f.end_at:null;if((start===null||start<=now)&&(end===null||end>=now))result.add(f.char_id);}}}return [...result].filter(cid=>library.indexes.chars.has(cid));}
   function gachaFeaturedIds(id,now=Date.now()/1000){const result=[];for(const f of library.gacha(id)?.features||[]){const start=Number.isFinite(f.start_at)?f.start_at:null,end=Number.isFinite(f.end_at)?f.end_at:null;if((start===null||start<=now)&&(end===null||end>=now))result.push(f.char_id);}return [...new Set(result)].filter(cid=>library.indexes.chars.has(cid));}
-  return {data,library,assets,names,image,characterImage,attributeImage,gachaBannerFile,gachaImage,stagesByGroup,stageEvents,gachaEvents,lucky,gachaBanners,gachaSchedule,gachaDisplayTitle,querySchedule,quests,gachas,luckyCharacters,providedRates,gachaMessages,gachaCharacterIds,gachaFeaturedIds,today:jstDay()};
+  return {data,library,assets,names,image,characterImage,attributeImage,gachaBannerFile,gachaImage,stagesByGroup,stageEvents,gachaEvents,lucky,gachaBanners,gachaSchedule,gachaDisplayTitle,gachaDateSections,querySchedule,quests,gachas,luckyCharacters,providedRates,gachaMessages,gachaCharacterIds,gachaFeaturedIds,today:jstDay()};
 }
