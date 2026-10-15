@@ -22,6 +22,15 @@ class InternalTests(unittest.TestCase):
         self.assertEqual(row['collection_enable_at'],200)
         self.assertNotIn('user_token',row)
 
+    def test_character_summaries_include_friendship_names_and_skill_relations(self):
+        tables={'chars':[{'id':1,'name':'キャラ','hp_max':10000}],'char_skills':[{'id':9,'char_id':1,'name':'ラジアルエッジ'}],'fight_types':[{'id':7,'type_id':12,'name':'超スピード型'}],'assist_skills':[{'id':2,'char_id':1,'description':'攻撃力アップ'}]}
+        with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parent) as directory:
+            write_internal(tables,'2026-10-15T00:00:00Z',[],directory)
+            index=json.loads((Path(directory)/'index.json').read_text(encoding='utf-8'))
+            self.assertEqual(index['entities']['chars'][0]['friendshipNames'],['ラジアルエッジ'])
+            self.assertEqual(index['relations']['chars']['1']['assist_skills'],[2])
+            self.assertEqual(index['tables']['fight_types']['rows'],1)
+
     def test_chunks_cover_ids_and_match_declared_hashes(self):
         tables={name:[] for name in SCHEMAS}
         tables['chars']=[{'id':i,'name':f'キャラ{i}','collection_enable_at':200} for i in range(1,260)]

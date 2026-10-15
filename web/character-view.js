@@ -1,0 +1,25 @@
+import {attributeMeta} from './sdk.js';
+import {cleanText} from './hubsdk.js';
+const node=(tag,text='',className='')=>{const result=document.createElement(tag);result.textContent=cleanText(text);if(className)result.className=className;return result;};
+const numeric=value=>typeof value==='number'&&Number.isFinite(value)?new Intl.NumberFormat('ja-JP',{maximumFractionDigits:2}).format(value):'未配信';
+function section(title,eyebrow){const result=node('section','','character-section');if(eyebrow)result.append(node('span',eyebrow,'eyebrow'));result.append(node('h3',title));return result;}
+function skillCard(title,description,badge){const result=node('article','','character-skill-card');const head=node('div','','character-skill-heading');head.append(node('h4',title));if(badge)head.append(node('span',badge,'character-turns'));result.append(head);if(description)result.append(node('p',description));return result;}
+function abilityGroup(title,rows,gauge=false){const result=section(title,gauge?'GAUGE ABILITY':'ABILITY');if(!rows.length){result.append(node('p','表示できるアビリティ名は配信されていません。','internal-hint'));return result;}const grid=node('div','','character-abilities');for(const row of rows){const card=node('details','','character-ability'+(gauge?' gauge':''));card.append(node('summary',row.name));if(row.description)card.append(node('p',row.description));grid.append(card);}result.append(grid);return result;}
+export function renderCharacter(info,{image,attributeImage}={}){
+  const {row}=info,result=node('div','','character-profile'),attribute=attributeMeta(row.attribute_id);result.style.setProperty('--character-color',attribute?.color||'#b4ce7c');
+  const hero=node('section','','character-overview'),portrait=node('div','','character-portrait');
+  if(image&&/^assets\/[a-zA-Z0-9_./-]+$/.test(image)){const img=node('img');img.src=image;img.alt=cleanText(row.name);portrait.append(img);}else portrait.append(node('span','画像未取得','character-no-image'));
+  const intro=node('div','','character-intro');intro.append(node('span','CHARACTER PROFILE','eyebrow'));const title=node('h2',row.name||'名称未配信');title.id='internal-detail-title';intro.append(title);
+  const tags=node('div','','character-tags');if(typeof row.rarity==='number'&&row.rarity>=1&&row.rarity<=6)tags.append(node('span','★'.repeat(row.rarity),'character-rarity'));
+  if(attribute){const tag=node('span',attribute.label+'属性');if(attributeImage&&/^assets\/[a-zA-Z0-9_./-]+$/.test(attributeImage)){const img=node('img');img.src=attributeImage;img.alt='';tag.prepend(img);}tags.append(tag);}
+  for(const text of [info.hitType,info.fight?.name,info.species?.name])if(text)tags.append(node('span',text));intro.append(tags);
+  if(typeof row.level_max==='number')intro.append(node('p',`レベル上限 ${row.level_max}`,'character-level'));hero.append(portrait,intro);result.append(hero);
+  const stats=node('div','','character-stats');for(const stat of info.stats){const card=node('div','','character-stat');card.append(node('span',stat.label),node('strong',numeric(stat.base)),node('small','基本値（補正前）'));if(typeof stat.plusRaw==='number')card.append(node('span',`タス上限 +${numeric(stat.plusRaw)}`,'character-tas'));stats.append(card);}result.append(stats,node('p','基本値とタス上限を分けて表示しています。レベル解放・ゲージ・個人スキル等の追加補正は含みません。','character-stat-note'));
+  result.append(abilityGroup('アビリティ',info.abilities.normal));if(info.abilities.gauge.length)result.append(abilityGroup('ゲージアビリティ',info.abilities.gauge,true));
+  const friendships=section('友情コンボ','FRIENDSHIP');if(info.friendships.length){const grid=node('div','','character-skill-grid');for(const [position,skill] of info.friendships.entries())grid.append(skillCard(skill.name||'名称未配信',skill.description,position===0?'友情コンボ':'副友情コンボ'));friendships.append(grid);}else friendships.append(node('p','友情コンボの名称・説明は未配信です。','internal-hint'));result.append(friendships);
+  const ss=section('ストライクショット','STRIKE SHOT');if(info.strikeShot){const first=info.strikeShot,second=info.enhancedStrikeShot;ss.append(skillCard(first.name||'名称未配信',first.description,typeof first.require_cnt==='number'?`${first.require_cnt}ターン`:'ターン数未配信'));if(second)ss.append(skillCard(second.name||first.name||'2段階目',second.description,typeof second.require_cnt==='number'?`2段階目 ${second.require_cnt}ターン${typeof first.require_cnt==='number'&&second.require_cnt>=first.require_cnt?`（+${second.require_cnt-first.require_cnt}）`:''}`:'2段階目'));}else ss.append(node('p','ストライクショットの情報は未配信です。','internal-hint'));result.append(ss);
+  if(info.shotSkill?.description){const shot=section('ショットスキル','SHOT SKILL');shot.append(skillCard(info.shotSkill.name||'ショットスキル',info.shotSkill.description));result.append(shot);}
+  if(info.assistSkills.length){const assist=section('アシストスキル','ASSIST SKILL');for(const skill of info.assistSkills)assist.append(skillCard(skill.name||'アシストスキル',skill.description));result.append(assist);}
+  if(info.connectSkills.length){const connect=section('コネクトスキル','CONNECT SKILL');for(const skill of info.connectSkills)connect.append(skillCard(skill.name||'コネクトスキル',skill.description));result.append(connect);}
+  return result;
+}
