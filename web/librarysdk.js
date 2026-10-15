@@ -8,6 +8,7 @@ export function createLibrary(data){
     indexes[name]=new Map((tables[name]||[]).map(row=>[row.id,row]));
     if(indexes[name].size!==(tables[name]||[]).length)throw new Error('図鑑データのIDが重複しています');
   }
+  const charByName=new Map();for(const ch of tables.chars||[]){if(ch.name){const k=ch.name.trim();if(!charByName.has(k))charByName.set(k,ch);}}
   function related(name,key,id){return (tables[name]||[]).filter(row=>row[key]===id);}
   function stage(id){
     const row=indexes.stages.get(Number(id));if(!row)return null;
@@ -35,7 +36,7 @@ export function createLibrary(data){
     }).sort((a,b)=>b.id-a.id);
     return {total:rows.length,rows:rows.slice(offset,offset+limit)};
   }
-  return {data,tables,indexes,stage,gacha,character,search};
+  return {data,tables,indexes,charByName,stage,gacha,character,search};
 }
 export async function loadLibrary(url='./data/catalog.json'){
   const response=await fetch(url,{cache:'no-cache'});if(!response.ok)throw new Error(`図鑑の取得に失敗しました (${response.status})`);
