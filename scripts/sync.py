@@ -393,6 +393,17 @@ def check_connection():
     stages=table_from_archive(raw,entry,base64.b64decode(config['password_b64'],validate=True))
     if not stages or any(type(row.get('id')) is not int or type(row.get('stage_group_id')) is not int for row in stages):raise SyncError('Stage master schema changed')
     report={'state':'verified','checkedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'versionInfo':release,'masterTableCount':len(manifest['master_versions']),'dailyTableCount':len(manifest['daily_versions']),'verifiedArchive':{'table':'stages','version':entry['version'],'rows':len(stages),'crc':entry['crc'],'sha256':hashlib.sha256(raw).hexdigest()}}
+    report['assetManifest']={}
+    for name in ['resources','patch_resources']:
+        rows=manifest.get(name,[])
+        if not isinstance(rows,list):raise SyncError('Asset manifest schema changed')
+        samples=[]
+        for row in rows[:3]:
+            sample={key:value for key,value in row.items() if isinstance(value,(str,int,float,bool)) and key not in {'uri','url'}}
+            for key in ['uri','url']:
+                if isinstance(row.get(key),str):sample[key+'Path']=urllib.parse.urlsplit(row[key]).path
+            samples.append(sample)
+        report['assetManifest'][name]={'count':len(rows),'keys':sorted({str(key) for row in rows for key in row}),'samples':samples}
     if config.get('signing_seed_b64'):
         details=read_game(config,'/information/list')
         if not isinstance(details.get('gacha_group_events'),list):raise SyncError('Gacha schedule schema changed')
