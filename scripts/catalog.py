@@ -19,6 +19,10 @@ FIELDS={
     'texts':'id label text',
     'weekly_max_luck_bonus_abilities':'id level ability_type value description',
     'stage_group_banners':'id stage_group_id file_name priority type_id start_at end_at',
+    'box_gacha_items':'id gacha_group_id item_id rate',
+    'seal_items':'id name description',
+    'seal_item_groups':'id seal_item_id group_id',
+    'seal_events':'id seal_item_id gacha_group_id start_at end_at',
 }
 CATALOG_TABLES=set(FIELDS)
 GIMMICK_MASKS=[2,1,4,24,32,64,128,256,2048,4096,512,1024]
