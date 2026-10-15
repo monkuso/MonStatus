@@ -298,6 +298,8 @@ def build_snapshot(config,previous=None):
         evidence.append({'table':name,'version':entry['version'],'rows':len(tables[name]),'crc':entry['crc'],'sha256':hashlib.sha256(raw).hexdigest()})
     if TABLES!=tables.keys():
         raise SyncError('Required event tables are missing')
+    schema={name:sorted({k for row in rows[:200] for k in (row.keys() if isinstance(row,dict) else [])}) for name,rows in tables.items() if rows}
+    (Path(__file__).resolve().parents[1]/'data'/'schema.json').write_text(json.dumps(schema,ensure_ascii=False,indent=2),encoding='utf-8')
     timestamp=datetime.datetime.now(datetime.timezone.utc).isoformat()
     events,char_profiles=normalize_events(tables)
     catalog=build_catalog(tables,timestamp,evidence,events)
