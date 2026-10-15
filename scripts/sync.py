@@ -8,6 +8,7 @@ import re
 import concurrent.futures
 import threading
 import time
+import tempfile
 from pathlib import Path
 import sys
 import urllib.parse
@@ -19,6 +20,7 @@ from catalog import CATALOG_TABLES,build_catalog
 from internal import write_internal,content_table
 from protocol import signed_headers,read_game,GameReadError
 from rates import parse_rates
+from release import version_metadata
 
 TABLES={'stage_groups','stage_group_events','stage_group_kind_events','stage_group_cycle_events','stages','stage_gimmicks','chars','wanted_bosses','wanted_boss_groups'}
 TABLES|=CATALOG_TABLES
@@ -113,7 +115,9 @@ def sync_clear_groups(catalog,config,timestamp,previous=None):
     catalog['community'].update({'status':'partial' if failures else 'verified','description':'全ステージを対象に確認したゲームのクリアモンスター集計です。','scope':'all-stages','totalStages':len(stage_ids),'checkedStages':len(checks),'fetchedStages':len(catalog['recommendations']),'requestedGroups':len(requested),'failedGroups':failures,'observedAt':timestamp})
 
 class SyncError(Exception):
-    pass
+    def __init__(self,message,code=None):
+        self.code=code
+        super().__init__(message)
 
 def download(url,limit,headers=None):
     if urllib.parse.urlsplit(url).scheme not in {'http','https'}:
@@ -135,7 +139,7 @@ def unpack(payload):
             hints=f' keys={keys}'
             if result==200:
                 hints+=' hint=session_or_signature_rejected; refresh MS_GAME_CONFIG secret with a current x-ds-session, x-ds-requesthash, x-ds-requesthash-ver, x-ds-eit capture'
-        raise SyncError(f'Application response result: {result}{hints}')
+        raise SyncError(f'Application response result: {result}{hints}',code=result)
     return value
 
 def table_from_archive(raw,entry,password):
@@ -274,7 +278,7 @@ def normalize_events(tables):
     char_profiles={str(cid):char_index[cid] for cid in sorted(referenced_chars) if cid in char_index}
     return events,char_profiles
 
-def build_snapshot(config,previous=None):
+def master_manifest(config):
     parsed=urllib.parse.urlsplit(config['url'])
     if parsed.scheme!='https' or parsed.hostname!='api.monster-strike.com' or parsed.path!='/master/version':
         raise SyncError('Master endpoint rejected')
@@ -282,11 +286,17 @@ def build_snapshot(config,previous=None):
     if not {'x-ds-session','x-ds-requesthash'}<={key.lower() for key in headers}:
         raise SyncError('Game connection configuration is incomplete')
     manifest=unpack(download(config['url'],4*1024*1024,headers))
+    if any(not isinstance(manifest.get(name),list) for name in ['master_versions','daily_versions']):raise SyncError('Master manifest schema changed')
+    return manifest
+
+def build_snapshot(config,previous=None,destination=None,version_info=None):
+    destination=Path(destination) if destination is not None else Path(__file__).resolve().parents[1]/'data'
+    manifest=master_manifest(config)
     password=base64.b64decode(config['password_b64'],validate=True)
     all_names=[e['name'] for e in manifest['master_versions']+manifest['daily_versions']]
     required=TABLES|{name for name in all_names if content_table(name)}
     print('MANIFEST_TABLES='+json.dumps(sorted(set(all_names)),ensure_ascii=False),flush=True)
-    (Path(__file__).resolve().parents[1]/'data'/'tables.json').write_text(json.dumps(sorted(set(all_names)),ensure_ascii=False,indent=2),encoding='utf-8')
+    (destination/'tables.json').write_text(json.dumps(sorted(set(all_names)),ensure_ascii=False,indent=2),encoding='utf-8')
     tables={}
     evidence=[]
     for entry in manifest['master_versions']+manifest['daily_versions']:
@@ -305,11 +315,11 @@ def build_snapshot(config,previous=None):
     if missing:
         raise SyncError(f'Required tables missing: {sorted(missing)}')
     schema={name:sorted({k for row in rows[:200] for k in (row.keys() if isinstance(row,dict) else [])}) for name,rows in tables.items() if rows}
-    (Path(__file__).resolve().parents[1]/'data'/'schema.json').write_text(json.dumps(schema,ensure_ascii=False,indent=2),encoding='utf-8')
+    (destination/'schema.json').write_text(json.dumps(schema,ensure_ascii=False,indent=2),encoding='utf-8')
     timestamp=datetime.datetime.now(datetime.timezone.utc).isoformat()
     events,char_profiles=normalize_events(tables)
     catalog=build_catalog(tables,timestamp,evidence,events)
-    catalog['internalData']=write_internal(tables,timestamp,evidence,Path(__file__).resolve().parents[1]/'data'/'internal')
+    catalog['internalData']=write_internal(tables,timestamp,evidence,destination/'internal')
     read_requests=[(path,request) for path,value in config.get('reads',{}).items() for request in (value if isinstance(value,list) else [value])]
     for path,request in read_requests:
         endpoint=urllib.parse.urlsplit(request['url'])
@@ -359,25 +369,62 @@ def build_snapshot(config,previous=None):
             merge_clear_results(catalog,details,timestamp)
             catalog['community']['status']='verified'
     if config.get('signing_seed_b64'):sync_clear_groups(catalog,config,timestamp,previous)
-    app_version=config.get('app_version')
-    if not app_version:
-        raise SyncError('app_version missing from game configuration')
-    return {'schemaVersion':3,'updatedAt':timestamp,'appVersion':app_version,'source':f'モンスト{app_version} 実サーバー日次マスター','events':events,'charProfiles':char_profiles,'catalog':catalog,'verification':evidence,'sync':{'mode':'github-actions','intervalMinutes':30,'lastSuccessAt':timestamp,'transport':'https'}}
+    catalog['versionInfo']=version_info or {}
+    return {'schemaVersion':3,'updatedAt':timestamp,'appVersion':(version_info or {}).get('version'),'configuredClientVersion':config.get('app_version'),'versionInfo':version_info or {},'source':'モンスト 実サーバー日次マスター','events':events,'charProfiles':char_profiles,'catalog':catalog,'verification':evidence,'sync':{'mode':'github-actions','intervalMinutes':30,'lastSuccessAt':timestamp,'transport':'https'}}
 
-def run():
+def configured_game():
     encoded=os.environ.get('MS_GAME_CONFIG')
     if not encoded:
         raise SyncError('MS_GAME_CONFIG secret is not configured')
+    return json.loads(encoded)
+
+def save_status(data,status):
+    temporary=data/'sync-status.json.tmp'
+    temporary.write_text(json.dumps(status,ensure_ascii=False,indent=2),encoding='utf-8')
+    os.replace(temporary,data/'sync-status.json')
+
+def check_connection():
+    config=configured_game()
+    release=version_metadata(config)
+    manifest=master_manifest(config)
+    entry=next((row for row in manifest['master_versions']+manifest['daily_versions'] if row.get('name')=='stages'),None)
+    if entry is None:raise SyncError('Stage master missing from current manifest')
+    raw=download(entry['uri'],32*1024*1024)
+    stages=table_from_archive(raw,entry,base64.b64decode(config['password_b64'],validate=True))
+    if not stages or any(type(row.get('id')) is not int or type(row.get('stage_group_id')) is not int for row in stages):raise SyncError('Stage master schema changed')
+    report={'state':'verified','checkedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'versionInfo':release,'masterTableCount':len(manifest['master_versions']),'dailyTableCount':len(manifest['daily_versions']),'verifiedArchive':{'table':'stages','version':entry['version'],'rows':len(stages),'crc':entry['crc'],'sha256':hashlib.sha256(raw).hexdigest()}}
+    if config.get('signing_seed_b64'):
+        details=read_game(config,'/information/list')
+        if not isinstance(details.get('gacha_group_events'),list):raise SyncError('Gacha schedule schema changed')
+        report['gachaEventCount']=len(details['gacha_group_events'])
+    target=Path(__file__).resolve().parents[1]/'data'/'sync-check.json'
+    target.write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
+    print(json.dumps(report,ensure_ascii=False))
+
+def run():
     data=Path(__file__).resolve().parents[1]/'data'
     previous=json.loads((data/'catalog.json').read_text(encoding='utf-8'))
-    snapshot=build_snapshot(json.loads(encoded),previous)
-    catalog=snapshot.pop('catalog')
-    catalog_temporary=data/'catalog.json.tmp'
-    catalog_temporary.write_text(json.dumps(catalog,ensure_ascii=False,indent=2),encoding='utf-8')
-    os.replace(catalog_temporary,data/'catalog.json')
-    temporary=data/'events.json.tmp'
-    temporary.write_text(json.dumps(snapshot,ensure_ascii=False,indent=2),encoding='utf-8')
-    os.replace(temporary,data/'events.json')
+    attempt=datetime.datetime.now(datetime.timezone.utc).isoformat()
+    release={}
+    try:
+        config=configured_game()
+        release=version_metadata(config,previous)
+        with tempfile.TemporaryDirectory(prefix='.sync-',dir=data) as temporary:
+            destination=Path(temporary)
+            snapshot=build_snapshot(config,previous,destination,release)
+            catalog=snapshot.pop('catalog')
+            for name,value in [('catalog.json',catalog),('events.json',snapshot)]:
+                (destination/name).write_text(json.dumps(value,ensure_ascii=False,indent=2),encoding='utf-8')
+            files=sorted((path for path in destination.rglob('*') if path.is_file()),key=lambda path:(path.name in {'index.json','catalog.json','events.json'},str(path)))
+            for path in files:
+                target=data/path.relative_to(destination)
+                target.parent.mkdir(parents=True,exist_ok=True)
+                os.replace(path,target)
+        save_status(data,{'schemaVersion':1,'state':'success','lastAttemptAt':attempt,'lastSuccessAt':snapshot['updatedAt'],'versionInfo':release})
+    except Exception as error:
+        reason='connection-config' if getattr(error,'code',None) in {2,200} else 'sync-error'
+        save_status(data,{'schemaVersion':1,'state':'error','reason':reason,'errorType':type(error).__name__,'lastAttemptAt':attempt,'lastSuccessAt':previous.get('updatedAt'),'versionInfo':release})
+        raise
     print(json.dumps({'result':'success','events':len(snapshot['events']),'chars':len(snapshot['charProfiles']),'updatedAt':snapshot['updatedAt'],'tables':snapshot['verification'],'catalogRelations':catalog['relations'],'gimmickLabels':catalog['gimmicks']},ensure_ascii=False))
 
 def fetch_published(name):
@@ -406,7 +453,10 @@ def restore_snapshot():
 
 if __name__=='__main__':
     try:
-        restore_snapshot() if sys.argv[1:]==['--restore'] else run()
+        if sys.argv[1:]==['--restore']:restore_snapshot()
+        elif sys.argv[1:]==['--check']:check_connection()
+        elif not sys.argv[1:]:run()
+        else:raise SyncError('Unknown synchronization command')
     except SyncError as error:
         print(f'Synchronization stopped: {error}',file=sys.stderr)
         sys.exit(1)

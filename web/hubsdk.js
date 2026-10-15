@@ -55,7 +55,7 @@ export function createHub(catalog,events,assets={},live=null){
       if(!groups.has(day))groups.set(day,{day,rows:[],starts:new Map()});
       const section=groups.get(day);section.rows.push(row);section.starts.set(row.id,startAt);
     }
-    return [...groups.values()].sort((a,b)=>a.day===null?1:b.day===null?-1:view==='upcoming'?a.day.localeCompare(b.day):b.day.localeCompare(a.day)).map(section=>({day:section.day,rows:section.rows.sort((a,b)=>(section.starts.get(a.id)||0)-(section.starts.get(b.id)||0)||a.id-b.id)}));
+    return [...groups.values()].sort((a,b)=>a.day===null?1:b.day===null?-1:b.day.localeCompare(a.day)).map(section=>({day:section.day,rows:section.rows.sort((a,b)=>(section.starts.get(b.id)||0)-(section.starts.get(a.id)||0)||b.id-a.id)}));
   }
   function gachas({text='',all=false,view='active',now=Date.now()/1000}={}){
     const scheduled=gachaEvents.filter(e=>!permanentGacha(e));

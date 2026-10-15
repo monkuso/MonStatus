@@ -3,6 +3,11 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      check_only:
+        description: Verify current release and game API without publishing
+        type: boolean
+        default: false
   schedule:
     - cron: '17,47 * * * *'
 permissions:
@@ -10,10 +15,28 @@ permissions:
   pages: write
   id-token: write
 concurrency:
-  group: pages
+  group: ${{ inputs.check_only && 'game-sync-check' || 'pages' }}
   cancel-in-progress: false
 jobs:
+  verify-connection:
+    if: inputs.check_only == true
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - name: Verify official release and current game manifest
+        env:
+          MS_GAME_CONFIG: ${{ secrets.MS_GAME_CONFIG }}
+        run: python scripts/sync.py --check
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sync-check
+          path: data/sync-check.json
   sync-and-deploy:
+    if: inputs.check_only != true
     runs-on: ubuntu-latest
     timeout-minutes: 45
     environment:
@@ -31,7 +54,7 @@ jobs:
         run: python -m pip install -r requirements.txt
       - name: Validate sync and site logic
         run: |
-          python -m unittest check/sync.py check/catalog.py check/internal.py
+          python -m unittest check/sync.py check/catalog.py check/internal.py check/release.py
           node --test check/sdk.mjs check/library.mjs check/hub.mjs check/internal.mjs
       - name: Restore last published snapshot
         run: python scripts/sync.py --restore

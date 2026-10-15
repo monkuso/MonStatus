@@ -18,8 +18,8 @@ test('スケジュールはイベントクエストだけを表示し、ガチ�
 test('ガチャ内部定義は表示開始前・古い未参照定義も保持し、予定を開始順に表示する',()=>{
   const fixture=createHub({schemaVersion:1,updatedAt:'2026-10-16T00:00:00Z',tables:{stages:[],stage_groups:[],chars:[],gachas:[],stage_gimmicks:[],gacha_groups:[{id:1,name:'通常',updated_at:1},{id:2,name:'次回',updated_at:2},{id:3,name:'後日',updated_at:3},{id:4,name:'未参照',updated_at:1},{id:5,name:'常設',updated_at:1}]},gachaEvents:[{id:1,gacha_group_id:1,start_at:50,end_at:150,visible_at:0},{id:2,gacha_group_id:1,start_at:250,end_at:350,visible_at:200},{id:3,gacha_group_id:2,start_at:200,end_at:300,visible_at:190},{id:4,gacha_group_id:3,start_at:400,end_at:500,visible_at:390},{id:5,gacha_group_id:5,start_at:0,end_at:4102444800}]},{events:[]});
   assert.deepEqual(fixture.gachas({view:'active',now:100}).map(g=>g.id),[1]);
-  assert.deepEqual(fixture.gachas({view:'upcoming',now:100}).map(g=>g.id),[2,1,3]);
-  assert.deepEqual(fixture.gachas({view:'internal',now:100}).map(g=>g.id),[1,2,3,4,5]);
+  assert.deepEqual(fixture.gachas({view:'upcoming',now:100}).map(g=>g.id),[3,1,2]);
+  assert.deepEqual(fixture.gachas({view:'internal',now:100}).map(g=>g.id),[3,2,1,5,4]);
   assert.deepEqual(fixture.gachas({view:'leaked',now:100}).map(g=>g.id),[4]);
   assert.equal(fixture.gachaSchedule(1,'upcoming',100).start_at,250);
   assert.equal(fixture.gachaSchedule(1,'active',100).start_at,50);
@@ -32,10 +32,10 @@ test('ガチャをJSTの開始日YYYY/MM/DDでまとめ、日付不明は末尾�
   const fixture=createHub({schemaVersion:1,updatedAt:'2026-10-16T00:00:00Z',tables:{stages:[],stage_groups:[],chars:[],gachas:[],stage_gimmicks:[],gacha_groups:[{id:1},{id:2},{id:3},{id:4,updated_at:9999999999}]},gachaEvents:[{id:1,gacha_group_id:1,start_at:stamp('2026-10-15T15:00:00Z'),end_at:stamp('2026-11-01T00:00:00Z')},{id:2,gacha_group_id:2,start_at:stamp('2026-10-16T14:59:00Z'),end_at:stamp('2026-11-01T00:00:00Z')},{id:3,gacha_group_id:3,start_at:stamp('2026-10-16T15:00:00Z'),end_at:stamp('2026-11-01T00:00:00Z')}]},{events:[]});
   const rows=fixture.library.tables.gacha_groups,now=stamp('2026-10-14T00:00:00Z');
   const upcoming=fixture.gachaDateSections([rows[2],rows[1],rows[3],rows[0]],'upcoming',now);
-  assert.deepEqual(upcoming.map(group=>group.day),['2026/10/16','2026/10/17',null]);
-  assert.deepEqual(upcoming[0].rows.map(row=>row.id),[1,2]);
+  assert.deepEqual(upcoming.map(group=>group.day),['2026/10/17','2026/10/16',null]);
+  assert.deepEqual(upcoming[1].rows.map(row=>row.id),[2,1]);
   assert.deepEqual(fixture.gachaDateSections(rows,'internal',now).map(group=>group.day),['2026/10/17','2026/10/16',null]);
-  assert.deepEqual(upcoming.flatMap(group=>group.rows.map(row=>row.id)),[1,2,3,4]);
+  assert.deepEqual(upcoming.flatMap(group=>group.rows.map(row=>row.id)),[3,2,1,4]);
 });
 
 test('同一クエストの重複・重なる期間を統合し、別時間帯と別クエストを保持する',()=>{
