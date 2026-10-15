@@ -23,6 +23,15 @@ FIELDS={
     'seal_items':'id name description',
     'seal_item_groups':'id seal_item_id group_id',
     'seal_events':'id seal_item_id gacha_group_id start_at end_at',
+    'anohi_gacha_group_events':'id gacha_group_id start_at end_at header_title',
+    'multi_gacha_events':'id gacha_group_id start_at end_at',
+    'location_gacha_group_events':'id gacha_group_id start_at end_at',
+    'inherited_special_gacha_events':'id gacha_group_id start_at end_at',
+    'defer_payment_gacha_events':'id gacha_group_id start_at end_at',
+    'login_power_up_gacha_events':'id gacha_group_id start_at end_at',
+    'seethrough_gacha_events':'id gacha_group_id start_at end_at',
+    'storage_favorite_gacha_events':'id gacha_group_id start_at end_at',
+    'auto_gacha_events':'id gacha_group_id start_at end_at',
 }
 CATALOG_TABLES=set(FIELDS)
 GIMMICK_MASKS=[2,1,4,24,32,64,128,256,2048,4096,512,1024]
