@@ -9,6 +9,7 @@ from pathlib import Path
 import re
 import struct
 import threading
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -20,6 +21,11 @@ from sync import configured_game,master_manifest
 
 BLOCK_SIZE=65536
 MAX_PACKAGE_SIZE=256*1024*1024
+
+class AssetFetchError(Exception):
+    def __init__(self,code=None):
+        self.code=code
+        super().__init__('Asset resource request failed')
 
 class TransferBudget:
     def __init__(self,limit=1024*1024*1024):
@@ -62,7 +68,18 @@ class RemoteArchive(io.RawIOBase):
         start=index*BLOCK_SIZE
         end=min(self.size,start+BLOCK_SIZE)-1
         request=urllib.request.Request(self.url,headers={'Range':f'bytes={start}-{end}','Accept-Encoding':'identity','User-Agent':'MonStatus asset sync'})
-        with self.opener(request,timeout=30) as response:
+        response=None
+        for attempt in range(3):
+            try:
+                response=self.opener(request,timeout=30)
+                break
+            except urllib.error.HTTPError as error:
+                if (error.code==429 or 500<=error.code<600) and attempt<2:time.sleep(2**attempt);continue
+                raise AssetFetchError(error.code) from None
+            except OSError:
+                if attempt<2:time.sleep(2**attempt);continue
+                raise AssetFetchError() from None
+        with response:
             limit=end-start+1 if response.status==206 else self.size
             body=response.read(limit+1)
             self.budget.record(len(body))
@@ -136,7 +153,9 @@ def sync_assets(catalog,resources,seed,site,manifest,state,opener=urllib.request
     packages=image_resources(resources)
     def index(row):
         path=row['path'];fingerprint=package_identity(row)
-        if previous.get(path,{}).get('fingerprint')==fingerprint:return path,previous[path],None,None
+        old=previous.get(path,{})
+        negative_age=time.time()-datetime.datetime.fromisoformat(old['checkedAt']).timestamp() if old.get('availability')=='not-distributed' else None
+        if old.get('fingerprint')==fingerprint and (negative_age is None or 0<=negative_age<600):return path,old,None,None
         try:
             reader=RemoteArchive(row,budget,opener)
             with zipfile.ZipFile(reader) as archive:
@@ -149,6 +168,9 @@ def sync_assets(catalog,resources,seed,site,manifest,state,opener=urllib.request
             return path,{'fingerprint':fingerprint,'members':members},reader,None
         except Exception as error:
             failure={'package':path,'errorType':type(error).__name__,'typeId':row.get('type_id')}
+            if isinstance(error,AssetFetchError):
+                failure['httpStatus']=error.code
+                if error.code in {404,410}:return path,{'fingerprint':fingerprint,'members':{},'availability':'not-distributed','httpStatus':error.code,'checkedAt':datetime.datetime.now(datetime.timezone.utc).isoformat()},None,None
             if isinstance(error,zipfile.BadZipFile):
                 failure['detail']=str(error)
                 try:
@@ -179,7 +201,7 @@ def sync_assets(catalog,resources,seed,site,manifest,state,opener=urllib.request
             if existing_file and existing_file.is_file() and (source_key not in old_sources or old_sources[source_key]==fingerprint):
                 state['images'][source_key]=fingerprint;reused+=1
             else:requests.setdefault(path,[]).append(target)
-        elif not existing_file or not existing_file.is_file():missing[source_key]='pending' if failures else 'not-located'
+        elif not existing_file or not existing_file.is_file():missing[source_key]='pending' if failures or any(row.get('availability')=='not-distributed' for row in state['resources'].values()) else 'not-located'
     def extract(item):
         path,selections=item;row=records[path];completed=[];errors=[]
         try:
@@ -223,7 +245,8 @@ def sync_assets(catalog,resources,seed,site,manifest,state,opener=urllib.request
             for target in items:missing[target['category']+':'+target['identity']]='ambiguous-filename-hash'
     timestamp=datetime.datetime.now(datetime.timezone.utc).isoformat()
     manifest['counts']={key:len(manifest.get(key,{})) for key in ['characters','quests','gachas','gimmicks','attributes']}
-    manifest['sync']={'state':'partial' if failures else 'success','lastAttemptAt':timestamp,'lastSuccessAt':manifest.get('sync',{}).get('lastSuccessAt') if failures else timestamp,'updatedImages':updated,'reusedImages':reused,'indexedPackages':len(state['resources']),'packageCount':len(packages),'downloadedBytes':budget.used,'unlocatedImages':len(missing),'failures':failures}
+    unavailable=sum(row.get('availability')=='not-distributed' for row in state['resources'].values())
+    manifest['sync']={'state':'partial' if failures else 'success','lastAttemptAt':timestamp,'lastSuccessAt':manifest.get('sync',{}).get('lastSuccessAt') if failures else timestamp,'updatedImages':updated,'reusedImages':reused,'indexedPackages':len(state['resources'])-unavailable,'unavailablePackages':unavailable,'packageCount':len(packages),'downloadedBytes':budget.used,'unlocatedImages':len(missing),'failures':failures}
     manifest['pending']=missing
     manifest.setdefault('provenance',{})['automaticSource']='verified-game-resource-manifest'
     state['updatedAt']=timestamp

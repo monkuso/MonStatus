@@ -4,6 +4,7 @@ import re
 import sys
 import tempfile
 import unittest
+import urllib.error
 import zipfile
 import zlib
 from PIL import Image
@@ -92,5 +93,19 @@ class AssetSyncTests(unittest.TestCase):
     def test_audio_and_duplicate_small_packages_are_excluded(self):
         rows=[{'path':path} for path in ['/resource/bgm42.zip','/resource/sound3.zip','/resource/c_banner12_s.zip','/resource/c_banner12_n.zip']]
         self.assertEqual([row['path'] for row in image_resources(rows)],['/resource/c_banner12_n.zip'])
+    def test_undistributed_resource_is_cached_and_rechecked_after_expiry(self):
+        raw,row=self.package({'cb/cb13103.png':self.png()});calls=[]
+        def absent(request,timeout=0):
+            calls.append(1);raise urllib.error.HTTPError(request.full_url,404,'Not Found',None,None)
+        with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parent) as directory:
+            manifest,state=sync_assets(self.catalog(),[row],self.seed,directory,{}, {},absent)
+            self.assertEqual(manifest['sync']['state'],'success');self.assertEqual(manifest['sync']['unavailablePackages'],1)
+            self.assertEqual(manifest['pending']['characters:13103'],'pending')
+            count=len(calls)
+            manifest,state=sync_assets(self.catalog(),[row],self.seed,directory,manifest,state,absent)
+            self.assertEqual(len(calls),count)
+            state['resources'][row['path']]['checkedAt']='2020-01-01T00:00:00+00:00'
+            manifest,state=sync_assets(self.catalog(),[row],self.seed,directory,manifest,state,self.opener(raw,[]))
+            self.assertIn('13103',manifest['characters']);self.assertEqual(manifest['sync']['unavailablePackages'],0)
 
 if __name__=='__main__':unittest.main()
