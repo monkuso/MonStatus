@@ -15,11 +15,13 @@ export function classifyQuest(row,events=[],now=Date.now()/1000){
   if(schedules.some(e=>e.startAt>now))reasons.push({kind:'upcoming',label:'今後の出現期間あり',field:'stage_group_events.start_at',value:Math.min(...schedules.filter(e=>e.startAt>now).map(e=>e.startAt))});
   return {reasons};
 }
-export function queryInternal(rows,{text='',filter='candidate',kind='chars',events=[],now=Date.now()/1000}={}){
+export function queryInternal(rows,{text='',filter='candidate',kind='chars',events=[],groups=[],now=Date.now()/1000}={}){
   const term=text.normalize('NFKC').toLocaleLowerCase('ja');
-  return rows.map(row=>({row,...(kind==='chars'?classifyCharacter(row,now):classifyQuest(row,events,now))})).filter(entry=>(!term||`${entry.row.id} ${entry.row.name||''}`.normalize('NFKC').toLocaleLowerCase('ja').includes(term))&&(filter==='all'||(filter==='candidate'?entry.reasons.some(r=>['future','info-mask','test'].includes(r.kind)):entry.reasons.some(r=>r.kind===filter)))).sort((a,b)=>(b.row.updated_at||0)-(a.row.updated_at||0)||b.row.id-a.row.id);
+  const groupMap=new Map(groups.map(row=>[row.id,row]));
+  return rows.map(row=>({row,...(kind==='chars'?classifyCharacter(row,now):classifyQuest(kind==='stages'?groupMap.get(row.stage_group_id)||{id:row.stage_group_id}:row,events,now))})).filter(entry=>(!term||`${entry.row.id} ${entry.row.name||''} ${groupMap.get(entry.row.stage_group_id)?.name||''}`.normalize('NFKC').toLocaleLowerCase('ja').includes(term))&&(filter==='all'||(filter==='candidate'?entry.reasons.some(r=>['future','info-mask','test'].includes(r.kind)):entry.reasons.some(r=>r.kind===filter)))).sort((a,b)=>(b.row.updated_at||0)-(a.row.updated_at||0)||b.row.id-a.row.id);
 }
 export function rawChunk(index,table,id){
+  if(!/^[a-z_]+$/.test(table))return null;
   const entry=index.tables[table]?.chunks.find(chunk=>chunk.firstId<=id&&chunk.lastId>=id);
   if(!entry||!new RegExp(`^${table}-[0-9]{4}\\.json$`).test(entry.file))return null;
   return entry;

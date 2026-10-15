@@ -1,31 +1,45 @@
 import hashlib
 import json
+import re
 from pathlib import Path
 
 SCHEMAS=json.loads(Path(__file__).with_name('internal-schema.json').read_text(encoding='utf-8'))
 
+def content_table(name):
+    return name in {'chars','stages','stage_groups','strike_shots'} or name.startswith(('char_','stage_','skill_','shot_'))
+
 def internal_rows(table,rows):
-    fields=set(SCHEMAS[table]['fields'])
-    return [{key:value for key,value in row.items() if key in fields} for row in rows]
+    if not content_table(table):raise ValueError('Unrelated internal table')
+    return [{key:value for key,value in row.items() if not re.search(r'(^|_)(password|secret|session|token|credential|authorization)(_|$)',key,re.I)} if isinstance(row,dict) else {'_value':row} for row in rows]
 
 def write_internal(tables,timestamp,evidence,destination):
     destination=Path(destination)
     destination.mkdir(parents=True,exist_ok=True)
-    index={'schemaVersion':1,'updatedAt':timestamp,'source':'verified-game-master','tables':{},'entities':{'chars':[],'stage_groups':[]}}
+    index={'schemaVersion':1,'updatedAt':timestamp,'source':'verified-game-master','tables':{},'entities':{'chars':[],'stage_groups':[],'stages':[]},'relations':{}}
     versions={row['table']:row for row in evidence}
-    for table,schema in SCHEMAS.items():
+    for table in sorted(name for name in tables if content_table(name)):
+        schema=SCHEMAS.get(table,{'nativeClass':None,'fields':[]})
         rows=internal_rows(table,tables[table])
-        rows.sort(key=lambda row:row['id'])
+        identity='id' if all(type(row.get('id')) is int for row in rows) else '_recordIndex'
+        if identity=='_recordIndex':
+            for number,row in enumerate(rows):
+                if '_recordIndex' in row:raise ValueError('Reserved record index field')
+                row['_recordIndex']=number
+        rows.sort(key=lambda row:row[identity])
         chunks=[]
         for offset in range(0,len(rows),256):
             selected=rows[offset:offset+256]
             file=f'{table}-{offset//256:04d}.json'
             payload=json.dumps({'schemaVersion':1,'table':table,'updatedAt':timestamp,'rows':selected},ensure_ascii=False,separators=(',',':')).encode('utf-8')
             (destination/file).write_bytes(payload)
-            chunks.append({'file':file,'firstId':selected[0]['id'],'lastId':selected[-1]['id'],'rows':len(selected),'sha256':hashlib.sha256(payload).hexdigest()})
-        index['tables'][table]={'nativeClass':schema['nativeClass'],'rows':len(rows),'fields':schema['fields'],'chunks':chunks,'verification':versions.get(table)}
+            chunks.append({'file':file,'firstId':selected[0][identity],'lastId':selected[-1][identity],'rows':len(selected),'sha256':hashlib.sha256(payload).hexdigest()})
+        fields=sorted({key for row in rows for key in row if key!='_recordIndex'})
+        index['tables'][table]={'nativeClass':schema['nativeClass'],'rows':len(rows),'fields':fields,'registeredFields':schema['fields'],'identityField':identity,'chunks':chunks,'verification':versions.get(table)}
         if table in index['entities']:
-            keys={'id','name','rarity','attribute_id','skin_id','sort_id','virtual_char_id','collection_enable_at','time_limited','updated_at','released_at','test_flag','banner_file_name','stage_class_id'}
+            keys={'id','name','rarity','attribute_id','skin_id','sort_id','virtual_char_id','collection_enable_at','time_limited','updated_at','released_at','test_flag','banner_file_name','stage_class_id','stage_group_id'}
             index['entities'][table]=[{key:value for key,value in row.items() if key in keys} for row in rows]
+        for row in rows:
+            for field,parent in [('char_id','chars'),('stage_id','stages'),('stage_group_id','stage_groups'),('stage_phase_id','stage_phases')]:
+                if type(row.get(field)) is int and row[field]>0:index['relations'].setdefault(parent,{}).setdefault(str(row[field]),{}).setdefault(table,[]).append(row[identity])
     (destination/'index.json').write_text(json.dumps(index,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
     return {'indexUrl':'data/internal/index.json','updatedAt':timestamp,'tables':{name:value['rows'] for name,value in index['tables'].items()}}

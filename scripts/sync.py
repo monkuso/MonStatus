@@ -16,7 +16,7 @@ import zipfile
 import zlib
 import msgpack
 from catalog import CATALOG_TABLES,build_catalog
-from internal import write_internal
+from internal import write_internal,content_table
 from protocol import signed_headers,read_game,GameReadError
 from rates import parse_rates
 
@@ -284,20 +284,21 @@ def build_snapshot(config,previous=None):
     manifest=unpack(download(config['url'],4*1024*1024,headers))
     password=base64.b64decode(config['password_b64'],validate=True)
     all_names=[e['name'] for e in manifest['master_versions']+manifest['daily_versions']]
+    required=TABLES|{name for name in all_names if content_table(name)}
     print('MANIFEST_TABLES='+json.dumps(sorted(set(all_names)),ensure_ascii=False),flush=True)
     (Path(__file__).resolve().parents[1]/'data'/'tables.json').write_text(json.dumps(sorted(set(all_names)),ensure_ascii=False,indent=2),encoding='utf-8')
     tables={}
     evidence=[]
     for entry in manifest['master_versions']+manifest['daily_versions']:
         name=entry['name']
-        if name not in TABLES:
+        if name not in required:
             continue
         if name in tables:
             raise SyncError('Duplicate resource version entry')
         raw=download(entry['uri'],32*1024*1024)
         tables[name]=table_from_archive(raw,entry,password)
         evidence.append({'table':name,'version':entry['version'],'rows':len(tables[name]),'crc':entry['crc'],'sha256':hashlib.sha256(raw).hexdigest()})
-    if TABLES!=tables.keys():
+    if required!=tables.keys():
         raise SyncError('Required event tables are missing')
     schema={name:sorted({k for row in rows[:200] for k in (row.keys() if isinstance(row,dict) else [])}) for name,rows in tables.items() if rows}
     (Path(__file__).resolve().parents[1]/'data'/'schema.json').write_text(json.dumps(schema,ensure_ascii=False,indent=2),encoding='utf-8')

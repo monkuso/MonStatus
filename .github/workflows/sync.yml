@@ -47,7 +47,7 @@ jobs:
       - name: Prepare public site
         run: |
           mkdir -p dist
-          cp index.html events.html library.html dist/
+          cp index.html events.html library.html internal.html dist/
           cp -r web dist/
           cp -r data dist/
           if [ -d assets ]; then cp -r assets dist/; fi
