@@ -8,6 +8,10 @@ on:
         description: Verify current release and game API without publishing
         type: boolean
         default: false
+      assets_only:
+        description: Synchronize images using the latest verified game data
+        type: boolean
+        default: false
   schedule:
     - cron: '17,47 * * * *'
 permissions:
@@ -81,6 +85,7 @@ jobs:
           cp -r previous-site/data/. data/
           cp -r previous-site/assets/. assets/
       - name: Fetch verified game data
+        if: inputs.assets_only != true
         id: sync
         continue-on-error: true
         env:

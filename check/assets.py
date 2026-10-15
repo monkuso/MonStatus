@@ -77,11 +77,18 @@ class AssetSyncTests(unittest.TestCase):
         def bad(request,timeout=0):
             response=io.BytesIO(raw);response.status=206;response.headers={'Content-Range':'bytes 0-0/1'};return response
         with self.assertRaises(ValueError):RemoteArchive(row,TransferBudget(),bad).read(10)
-    def test_manifest_http_urls_are_upgraded_to_https(self):
+    def test_manifest_source_protocol_is_preserved_without_login_headers(self):
         raw,row=self.package({'cb/cb13103.png':self.png()});row['uri']='http://assets.example.test/package'
         reader=RemoteArchive(row,TransferBudget(),self.opener(raw,[]))
-        self.assertEqual(reader.url,'https://assets.example.test/package')
+        self.assertEqual(reader.url,'http://assets.example.test/package')
         with zipfile.ZipFile(reader) as archive:self.assertTrue(archive.namelist())
+    def test_delivery_url_rotation_does_not_invalidate_unchanged_package(self):
+        raw,row=self.package({'cb/cb13103.png':self.png()});calls=[]
+        with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parent) as directory:
+            manifest,state=sync_assets(self.catalog(),[row],self.seed,directory,{}, {},self.opener(raw,calls))
+            count=len(calls);rotated={**row,'uri':'http://another.example.test/package?signature=changed'}
+            manifest,state=sync_assets(self.catalog(),[rotated],self.seed,directory,manifest,state,self.opener(raw,calls))
+            self.assertEqual(len(calls),count)
     def test_large_archive_uses_ranges_instead_of_full_download(self):
         buffer=io.BytesIO()
         with zipfile.ZipFile(buffer,'w',zipfile.ZIP_STORED) as archive:

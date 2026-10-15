@@ -23,8 +23,9 @@ BLOCK_SIZE=65536
 MAX_PACKAGE_SIZE=256*1024*1024
 
 class AssetFetchError(Exception):
-    def __init__(self,code=None):
+    def __init__(self,code=None,reason=None):
         self.code=code
+        self.reason_type=type(reason).__name__ if reason is not None else None
         super().__init__('Asset resource request failed')
 
 class TransferBudget:
@@ -47,7 +48,7 @@ class RemoteArchive(io.RawIOBase):
         if type(self.size) is not int or not 0<self.size<=MAX_PACKAGE_SIZE:raise ValueError('Asset package size rejected')
         parsed=urllib.parse.urlsplit(resource['uri'])
         if parsed.scheme not in {'http','https'} or not parsed.hostname:raise ValueError('Asset package protocol rejected')
-        self.url=urllib.parse.urlunsplit(parsed._replace(scheme='https'))
+        self.url=resource['uri']
         self.budget=budget
         self.opener=opener
         self.position=0
@@ -76,9 +77,9 @@ class RemoteArchive(io.RawIOBase):
             except urllib.error.HTTPError as error:
                 if (error.code==429 or 500<=error.code<600) and attempt<2:time.sleep(2**attempt);continue
                 raise AssetFetchError(error.code) from None
-            except OSError:
+            except OSError as error:
                 if attempt<2:time.sleep(2**attempt);continue
-                raise AssetFetchError() from None
+                raise AssetFetchError(reason=getattr(error,'reason',error)) from None
         with response:
             limit=end-start+1 if response.status==206 else self.size
             body=response.read(limit+1)
@@ -107,7 +108,6 @@ class RemoteArchive(io.RawIOBase):
 
 def package_identity(resource):
     public={key:resource.get(key) for key in ['path','version','size','crc']}
-    public['locationDigest']=hashlib.sha256(resource['uri'].encode()).hexdigest()
     return hashlib.sha256(json.dumps(public,sort_keys=True).encode()).hexdigest()
 
 def image_resources(resources):
@@ -170,6 +170,10 @@ def sync_assets(catalog,resources,seed,site,manifest,state,opener=urllib.request
             failure={'package':path,'errorType':type(error).__name__,'typeId':row.get('type_id')}
             if isinstance(error,AssetFetchError):
                 failure['httpStatus']=error.code
+                failure['reasonType']=error.reason_type
+                failure['sourceScheme']=urllib.parse.urlsplit(row['uri']).scheme
+                failure['sourceHost']=urllib.parse.urlsplit(row['uri']).hostname
+                failure['sourcePort']=urllib.parse.urlsplit(row['uri']).port
                 if error.code in {404,410}:return path,{'fingerprint':fingerprint,'members':{},'availability':'not-distributed','httpStatus':error.code,'checkedAt':datetime.datetime.now(datetime.timezone.utc).isoformat()},None,None
             if isinstance(error,zipfile.BadZipFile):
                 failure['detail']=str(error)
