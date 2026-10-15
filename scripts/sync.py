@@ -291,15 +291,19 @@ def build_snapshot(config,previous=None):
     evidence=[]
     for entry in manifest['master_versions']+manifest['daily_versions']:
         name=entry['name']
-        if name not in required:
+        if name not in required or name in tables:
             continue
-        if name in tables:
-            raise SyncError('Duplicate resource version entry')
-        raw=download(entry['uri'],32*1024*1024)
-        tables[name]=table_from_archive(raw,entry,password)
-        evidence.append({'table':name,'version':entry['version'],'rows':len(tables[name]),'crc':entry['crc'],'sha256':hashlib.sha256(raw).hexdigest()})
-    if required!=tables.keys():
-        raise SyncError('Required event tables are missing')
+        try:
+            raw=download(entry['uri'],32*1024*1024)
+            tables[name]=table_from_archive(raw,entry,password)
+            evidence.append({'table':name,'version':entry['version'],'rows':len(tables[name]),'crc':entry['crc'],'sha256':hashlib.sha256(raw).hexdigest()})
+        except Exception as error:
+            if name in TABLES:
+                raise
+            print(f'SKIP_OPTIONAL_TABLE {name}: {type(error).__name__}: {error}',flush=True)
+    missing=TABLES-tables.keys()
+    if missing:
+        raise SyncError(f'Required tables missing: {sorted(missing)}')
     schema={name:sorted({k for row in rows[:200] for k in (row.keys() if isinstance(row,dict) else [])}) for name,rows in tables.items() if rows}
     (Path(__file__).resolve().parents[1]/'data'/'schema.json').write_text(json.dumps(schema,ensure_ascii=False,indent=2),encoding='utf-8')
     timestamp=datetime.datetime.now(datetime.timezone.utc).isoformat()
