@@ -1,6 +1,5 @@
 import re
 
-
 def parse_rates(text):
     text = re.sub(r'\[C\d+:([^\[\]]*)\]', r'\1', text)
     entries = []
