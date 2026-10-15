@@ -284,6 +284,7 @@ def build_snapshot(config,previous=None):
     password=base64.b64decode(config['password_b64'],validate=True)
     all_names=[e['name'] for e in manifest['master_versions']+manifest['daily_versions']]
     print('MANIFEST_TABLES='+json.dumps(sorted(set(all_names)),ensure_ascii=False),flush=True)
+    (Path(__file__).resolve().parents[1]/'data'/'tables.json').write_text(json.dumps(sorted(set(all_names)),ensure_ascii=False,indent=2),encoding='utf-8')
     tables={}
     evidence=[]
     for entry in manifest['master_versions']+manifest['daily_versions']:
