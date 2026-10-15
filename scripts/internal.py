@@ -6,7 +6,7 @@ from pathlib import Path
 SCHEMAS=json.loads(Path(__file__).with_name('internal-schema.json').read_text(encoding='utf-8'))
 
 def content_table(name):
-    return name in {'chars','stages','stage_groups','strike_shots'} or name.startswith(('char_','stage_','skill_','shot_'))
+    return name in {'chars','stages','stage_groups','strike_shots','fight_types','assist_skills','assist_skill_effects','connect_skills','connect_skill_conditions','connect_skill_effects'} or name.startswith(('char_','stage_','skill_','shot_'))
 
 def internal_rows(table,rows):
     if not content_table(table):raise ValueError('Unrelated internal table')
@@ -17,6 +17,9 @@ def write_internal(tables,timestamp,evidence,destination):
     destination.mkdir(parents=True,exist_ok=True)
     index={'schemaVersion':1,'updatedAt':timestamp,'source':'verified-game-master','tables':{},'entities':{'chars':[],'stage_groups':[],'stages':[]},'relations':{}}
     versions={row['table']:row for row in evidence}
+    friendship_names={}
+    for row in tables.get('char_skills',[]):
+        if isinstance(row,dict) and row.get('name'):friendship_names.setdefault(row.get('char_id'),[]).append(row['name'])
     for table in sorted(name for name in tables if content_table(name)):
         schema=SCHEMAS.get(table,{'nativeClass':None,'fields':[]})
         rows=internal_rows(table,tables[table])
@@ -36,10 +39,12 @@ def write_internal(tables,timestamp,evidence,destination):
         fields=sorted({key for row in rows for key in row if key!='_recordIndex'})
         index['tables'][table]={'nativeClass':schema['nativeClass'],'rows':len(rows),'fields':fields,'registeredFields':schema['fields'],'identityField':identity,'chunks':chunks,'verification':versions.get(table)}
         if table in index['entities']:
-            keys={'id','name','rarity','attribute_id','skin_id','sort_id','virtual_char_id','collection_enable_at','time_limited','updated_at','released_at','test_flag','banner_file_name','stage_class_id','stage_group_id'}
+            keys={'id','name','rarity','attribute_id','skin_id','sort_id','virtual_char_id','collection_enable_at','time_limited','updated_at','released_at','test_flag','banner_file_name','stage_class_id','stage_group_id','level_max','hp_max','attack_max','power_max','species_id','hit_type','fight_type'}
             index['entities'][table]=[{key:value for key,value in row.items() if key in keys} for row in rows]
+            if table=='chars':
+                for row in index['entities'][table]:row['friendshipNames']=list(dict.fromkeys(friendship_names.get(row['id'],[])))
         for row in rows:
-            for field,parent in [('char_id','chars'),('stage_id','stages'),('stage_group_id','stage_groups'),('stage_phase_id','stage_phases')]:
+            for field,parent in [('char_id','chars'),('stage_id','stages'),('stage_group_id','stage_groups'),('stage_phase_id','stage_phases'),('connect_skill_id','connect_skills'),('assist_skill_id','assist_skills')]:
                 if type(row.get(field)) is int and row[field]>0:index['relations'].setdefault(parent,{}).setdefault(str(row[field]),{}).setdefault(table,[]).append(row[identity])
     (destination/'index.json').write_text(json.dumps(index,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
     return {'indexUrl':'data/internal/index.json','updatedAt':timestamp,'tables':{name:value['rows'] for name,value in index['tables'].items()}}
