@@ -26,18 +26,21 @@ export function createLibrary(data){
     return {row,characters:[...new Set(entries.map(e=>e.char_id))].map(cid=>indexes.chars.get(cid)).filter(Boolean),unresolvedCharacterIds:[...new Set(entries.map(e=>e.char_id))].filter(cid=>!indexes.chars.has(cid)),features:related('gacha_group_feature_chars','gacha_group_id',row.id),extraCosts:related('gacha_group_extra_cost_items','gacha_group_id',row.id),schedules:(data.gachaEvents||[]).filter(e=>e.gacha_group_id===row.id)};
   }
   function character(id){const row=indexes.chars.get(Number(id));return row?{row,skills:related('char_skills','char_id',row.id),strikeShot:indexes.strike_shots.get(row.strike_shot_id)||null}:null;}
+  const leakedChars=(()=>{const now=Date.now()/1000;const cutoff=now-180*86400;const skillIds=new Set((tables.char_skills||[]).map(s=>s.char_id));return (tables.chars||[]).filter(r=>r.rarity>=5&&r.attribute_id>=1&&r.attribute_id<=5&&r.strike_shot_id&&(r.updated_at||0)>cutoff&&skillIds.has(r.id)).sort((a,b)=>(b.updated_at||0)-(a.updated_at||0));})();
   function search(kind,{text='',attribute='',groupId=null,limit=48,offset=0}={}){
-    const names={stage:'stages',gacha:'gacha_groups',char:'chars'};const name=names[kind];if(!name)throw new Error('不明な図鑑カテゴリ');
+    const names={stage:'stages',gacha:'gacha_groups',char:'chars',leaked:'leaked'};const name=names[kind];if(!name)throw new Error('不明な図鑑カテゴリ');
     const term=text.normalize('NFKC').toLocaleLowerCase('ja').trim();
-    const rows=tables[name].filter(row=>{
+    const source=kind==='leaked'?leakedChars:tables[name];
+    const rows=source.filter(row=>{
       if(kind==='stage'&&groupId!==null&&row.stage_group_id!==Number(groupId))return false;
       if(attribute&&row.attribute_id!==Number(attribute))return false;
       const group=kind==='stage'?indexes.stage_groups.get(row.stage_group_id)?.name||'':'';
       return !term||`${displayName(row.name)} ${group} ${row.id}`.normalize('NFKC').toLocaleLowerCase('ja').includes(term);
-    }).sort((a,b)=>b.id-a.id);
-    return {total:rows.length,rows:rows.slice(offset,offset+limit)};
+    });
+    if(kind!=='leaked')rows.sort((a,b)=>b.id-a.id);
+    return {total:rows.length,rows:rows.slice(offset,offset+limit),leakedTotal:leakedChars.length};
   }
-  return {data,tables,indexes,charByName,bannerByName,stage,gacha,character,search};
+  return {data,tables,indexes,charByName,bannerByName,leakedChars,stage,gacha,character,search};
 }
 export async function loadLibrary(url='./data/catalog.json'){
   const response=await fetch(url,{cache:'no-cache'});if(!response.ok)throw new Error(`図鑑の取得に失敗しました (${response.status})`);
