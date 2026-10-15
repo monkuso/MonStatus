@@ -401,7 +401,11 @@ def check_connection():
         for row in rows[:3]:
             sample={key:value for key,value in row.items() if key in {'path','version','size','decompressed_size','crc','type_id','disable','old_version','current_version','status'} and isinstance(value,(str,int,float,bool))}
             for key in ['uri','url']:
-                if isinstance(row.get(key),str):sample[key+'Path']=urllib.parse.urlsplit(row[key]).path
+                if isinstance(row.get(key),str):
+                    address=urllib.parse.urlsplit(row[key])
+                    sample[key+'Path']=address.path
+                    sample[key+'Origin']=urllib.parse.urlunsplit((address.scheme,address.netloc,'','',''))
+                    sample[key+'QueryKeys']=sorted(urllib.parse.parse_qs(address.query))
             samples.append(sample)
         report['assetManifest'][name]={'count':len(rows),'keys':sorted({str(key) for row in rows for key in row}),'samples':samples,'paths':[row.get('path') for row in rows]}
     if config.get('signing_seed_b64'):
