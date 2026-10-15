@@ -101,7 +101,7 @@ def main():
     with urllib.request.urlopen('https://monkuso.github.io/MonStatus/catalog.json', timeout=30) as response:
         catalog = json.load(response)
     seed = seed_material()
-    manifest = {'schemaVersion': 1, 'characters': {}, 'quests': {}, 'gachas': {}, 'gimmicks': {},
+    manifest = {'schemaVersion': 1, 'characters': {}, 'quests': {}, 'gachas': {}, 'gimmicks': {}, 'attributes': {},
                 'provenance': {'source': 'game-asset-packages', 'filenameHash': 'Jenkins lookup2', 'characterPath': 'cb/cb%04d.png', 'skinSelector': 'skin_id or id'}}
     targets = {}
     skins = {row.get('skin_id') or row['id'] for row in catalog['tables']['chars']}
@@ -145,6 +145,23 @@ def main():
         with zipfile.ZipFile(io.BytesIO(outer.read('base.apk'))) as base:
             plist = parse_plist(decode(base.read('assets/data/198483BA'), seed))
             sheet = Image.open(io.BytesIO(decode(base.read('assets/data/6A84E770'), seed))).convert('RGBA')
+            attr_plist = parse_plist(decode(base.read('assets/data/BAB6B052'), seed))
+            attr_sheet = Image.open(io.BytesIO(decode(base.read('assets/data/E2B56297'), seed))).convert('RGBA')
+    (assets / 'attributes').mkdir(parents=True, exist_ok=True)
+    for key, aid in {'not': 0, 'fire': 1, 'ice': 2, 'plant': 3, 'light': 4, 'dark': 5}.items():
+        frame = attr_plist['frames'].get(f'attribute_icon_{key}.png')
+        if not frame:
+            continue
+        x, y, w, h = map(int, re.findall(r'-?\d+', frame['frame']))
+        sx, sy, _, _ = map(int, re.findall(r'-?\d+', frame['sourceColorRect']))
+        sw, sh = map(int, re.findall(r'-?\d+', frame['sourceSize']))
+        piece = attr_sheet.crop((x, y, x + w, y + h))
+        if frame.get('rotated'):
+            piece = piece.rotate(90, expand=True)
+        canvas = Image.new('RGBA', (sw, sh))
+        canvas.paste(piece, (sx, sy))
+        canvas.save(assets / 'attributes' / f'{aid}.webp', format='WEBP', lossless=True)
+        manifest['attributes'][str(aid)] = f'assets/attributes/{aid}.webp'
     labels = {2: 'gb', 1: 'dw', 4: 'warp', 24: 'bomb', 32: 'block', 64: 'magic', 128: 'wind',
               256: 'speeddown', 2048: 'transfer', 4096: 'speeddown_floor', 512: 'attacktype', 1024: 'attacktype2'}
     for mask, suffix in labels.items():
@@ -159,7 +176,7 @@ def main():
         path = assets / 'gimmicks' / f'{mask}.webp'
         canvas.save(path, format='WEBP', lossless=True)
         manifest['gimmicks'][str(mask)] = f'assets/gimmicks/{mask}.webp'
-    manifest['counts'] = {key: len(manifest[key]) for key in ['characters', 'quests', 'gachas', 'gimmicks']}
+    manifest['counts'] = {key: len(manifest[key]) for key in ['characters', 'quests', 'gachas', 'gimmicks', 'attributes']}
     manifest['provenance']['assetSetDigest'] = hashlib.sha256(json.dumps(manifest['counts'], sort_keys=True).encode()).hexdigest()
     (DESTINATION / 'data' / 'assets.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding='utf-8')
     print(json.dumps({'result': 'success', **manifest['counts']}), flush=True)
