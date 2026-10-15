@@ -399,11 +399,11 @@ def check_connection():
         if not isinstance(rows,list):raise SyncError('Asset manifest schema changed')
         samples=[]
         for row in rows[:3]:
-            sample={key:value for key,value in row.items() if isinstance(value,(str,int,float,bool)) and key not in {'uri','url'}}
+            sample={key:value for key,value in row.items() if key in {'path','version','size','decompressed_size','crc','type_id','disable','old_version','current_version','status'} and isinstance(value,(str,int,float,bool))}
             for key in ['uri','url']:
                 if isinstance(row.get(key),str):sample[key+'Path']=urllib.parse.urlsplit(row[key]).path
             samples.append(sample)
-        report['assetManifest'][name]={'count':len(rows),'keys':sorted({str(key) for row in rows for key in row}),'samples':samples}
+        report['assetManifest'][name]={'count':len(rows),'keys':sorted({str(key) for row in rows for key in row}),'samples':samples,'paths':[row.get('path') for row in rows]}
     if config.get('signing_seed_b64'):
         details=read_game(config,'/information/list')
         if not isinstance(details.get('gacha_group_events'),list):raise SyncError('Gacha schedule schema changed')
