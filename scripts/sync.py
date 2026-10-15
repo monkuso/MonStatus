@@ -384,7 +384,7 @@ def fetch_published(name):
     stamp=int(time.time())
     for url in (f'https://monkuso.github.io/MonStatus/data/{name}.json?restore={stamp}',f'https://monkuso.github.io/MonStatus/{name}.json?restore={stamp}'):
         try:
-            return json.loads(download(url,64*1024*1024).decode('utf-8'))
+            return json.loads(download(url,256*1024*1024).decode('utf-8'))
         except Exception:
             continue
     return None
