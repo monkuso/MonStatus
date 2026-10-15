@@ -1,0 +1,32 @@
+name: Restore published Pages snapshot
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+  pages: write
+  id-token: write
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+          path: previous
+          run-id: 38814321653
+          github-token: ${{ github.token }}
+      - name: Extract verified snapshot
+        run: |
+          mkdir -p dist
+          tar -xf previous/artifact.tar -C dist
+          test -s dist/index.html
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+      - uses: actions/deploy-pages@v4
+        id: deployment
