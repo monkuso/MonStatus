@@ -84,6 +84,6 @@ try{
   if(index.schemaVersion!==1||!index.entities||!index.tables)throw new Error('内部データの形式が一致しません。');
   Object.assign(state,{index,assets,events:events.events||[],orphans:orphans.rows||[]});const parameters=new URLSearchParams(location.search),kind=parameters.get('kind');if(Object.hasOwn(titles,kind))state.kind=kind;
   $('internal-status').textContent=`配信確認 ${date.format(new Date(index.updatedAt))} JST · キャラ ${(index.entities.chars||[]).length.toLocaleString()}件 / ステージ ${index.tables.stages.rows.toLocaleString()}件`;
-  $('internal-table').replaceChildren(...Object.keys(index.tables).map(name=>{const option=el('option',`${labels[name]||name} · ${index.tables[name].rows.toLocaleString()}件`);option.value=name;return option;}));if(state.kind==='tables')await loadTable();else render();
+  $('internal-table').replaceChildren(...Object.keys(index.tables).map(name=>{const option=el('option',`${labels[name]||name} · ${index.tables[name].rows.toLocaleString()}件`);option.value=name;return option;}));$('internal-table').value=state.table;if(state.kind==='tables')await loadTable();else render();
   const table=parameters.get('table'),id=parameters.get('id');if(Object.hasOwn(index.tables,table)&&/^\d+$/.test(id||''))await showRecord(table,Number(id));
 }catch(exception){error(exception.message);$('internal-status').textContent='内部データの初回同期・公開状態を確認してください。';$('internal-grid').setAttribute('aria-busy','false');}
