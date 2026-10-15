@@ -39,7 +39,9 @@ class RemoteArchive(io.RawIOBase):
         self.resource=resource
         self.size=resource['size']
         if type(self.size) is not int or not 0<self.size<=MAX_PACKAGE_SIZE:raise ValueError('Asset package size rejected')
-        if urllib.parse.urlsplit(resource['uri']).scheme!='https':raise ValueError('Asset package protocol rejected')
+        parsed=urllib.parse.urlsplit(resource['uri'])
+        if parsed.scheme not in {'http','https'} or not parsed.hostname:raise ValueError('Asset package protocol rejected')
+        self.url=urllib.parse.urlunsplit(parsed._replace(scheme='https'))
         self.budget=budget
         self.opener=opener
         self.position=0
@@ -59,7 +61,7 @@ class RemoteArchive(io.RawIOBase):
         self.budget.check()
         start=index*BLOCK_SIZE
         end=min(self.size,start+BLOCK_SIZE)-1
-        request=urllib.request.Request(self.resource['uri'],headers={'Range':f'bytes={start}-{end}','Accept-Encoding':'identity','User-Agent':'MonStatus asset sync'})
+        request=urllib.request.Request(self.url,headers={'Range':f'bytes={start}-{end}','Accept-Encoding':'identity','User-Agent':'MonStatus asset sync'})
         with self.opener(request,timeout=30) as response:
             limit=end-start+1 if response.status==206 else self.size
             body=response.read(limit+1)
