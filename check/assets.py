@@ -1,4 +1,5 @@
 import io
+import plistlib
 from pathlib import Path
 import re
 import sys
@@ -12,11 +13,36 @@ from PIL import Image
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 from assetcodec import name_hash,decode
 from cloudassets import RemoteArchive,TransferBudget,image_resources,sync_assets
+from atlasassets import frame_png
 
 class AssetSyncTests(unittest.TestCase):
     seed=(1,2,3,4)
     def png(self,color=(255,0,0,255)):
         out=io.BytesIO();Image.new('RGBA',(12,12),color).save(out,format='PNG');return out.getvalue()
+    def test_item_atlas_preserves_transparent_padding_and_rejects_out_of_bounds(self):
+        sheet=Image.new('RGBA',(12,12),(255,0,0,255))
+        frame={'frame':'{{0,0},{2,3}}','sourceColorRect':'{{1,1},{2,3}}','sourceSize':'{4,5}','rotated':False}
+        with Image.open(io.BytesIO(frame_png(sheet,frame))) as image:
+            self.assertEqual(image.size,(4,5));self.assertEqual(image.getpixel((0,0))[3],0);self.assertEqual(image.getpixel((1,1)),(255,0,0,255))
+        with self.assertRaises(ValueError):frame_png(sheet,{**frame,'frame':'{{11,0},{2,3}}'})
+        rotated={'frame':'{{0,0},{2,3}}','sourceColorRect':'{{1,1},{2,3}}','sourceSize':'{4,5}','rotated':True}
+        with Image.open(io.BytesIO(frame_png(sheet,rotated))) as image:self.assertEqual(image.getbbox(),(1,1,3,4))
+    def test_item_atlas_connects_shared_frame_to_multiple_item_ids(self):
+        frames={'uiitem_0001.png':{'frame':'{{0,0},{2,3}}','sourceColorRect':'{{1,1},{2,3}}','sourceSize':'{4,5}','rotated':False}}
+        raw,row=self.package({'dlme/ui_items.plist':plistlib.dumps({'frames':frames}),'dlme/ui_items.png':self.png()})
+        catalog=self.catalog(());catalog['tables']['items']=[{'id':1,'image_name':'uiitem_0001.png'},{'id':2,'image_name':'uiitem_0001.png'}]
+        with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parent) as directory:
+            manifest,state=sync_assets(catalog,[row],self.seed,directory,{}, {},self.opener(raw,[]))
+            self.assertEqual(manifest['sync']['state'],'success')
+            self.assertEqual(manifest['items']['1'],manifest['items']['2'])
+            self.assertTrue(Path(directory,manifest['items']['1']).is_file())
+    def test_same_virtual_image_name_across_categories_is_an_alias_not_hash_collision(self):
+        name='ba_gacha11252_01.png';raw,row=self.package({name:self.png()});catalog=self.catalog(())
+        catalog['_visualRows']=[{'file_name':name}]
+        with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parent) as directory:
+            manifest,state=sync_assets(catalog,[row],self.seed,directory,{}, {},self.opener(raw,[]))
+            self.assertEqual(manifest['events'][name],manifest['gachas'][name])
+            self.assertNotIn('events:'+name,manifest['pending'])
     def package(self,images,version=1):
         buffer=io.BytesIO()
         with zipfile.ZipFile(buffer,'w',zipfile.ZIP_STORED) as archive:

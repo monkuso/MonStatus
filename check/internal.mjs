@@ -2,6 +2,39 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {abilityNames,characterStats,loadCharacterInfo} from '../web/charactersdk.js';
 import {classifyCharacter,classifyQuest,queryInternal,rawChunk,recordIdentity} from '../web/internalsdk.js';
+import {createMasterStore} from '../web/masterdata.js';
+import {createHash} from 'node:crypto';
+
+test('全テーブルの詳細取得はSHA256を照合し、不一致後の再取得も検証する',async()=>{
+  const bytes=new TextEncoder().encode(JSON.stringify({schemaVersion:1,table:'new_system2',rows:[{id:1,name:'追加情報'}]}));
+  const part={file:'new_system2-0000.json',firstId:1,lastId:1,sha256:createHash('sha256').update(bytes).digest('hex')};
+  const index={tables:{new_system2:{identityField:'id',chunks:[part]}}};let calls=0;
+  const store=createMasterStore(index,async()=>{calls++;return calls===1?new TextEncoder().encode('broken').buffer:bytes.buffer;});
+  await assert.rejects(store.record('new_system2',1),/整合性/);
+  assert.equal((await store.record('new_system2',1)).name,'追加情報');
+  await store.record('new_system2',1);assert.equal(calls,2);
+});
+
+test('コネクト条件は親の条件IDを、効果は実在する二つのgroup参照元を保持する',async()=>{
+  const condition={id:11,type_id:4,value_1:2},assist={id:22,effect_param_2:5000};
+  const info=await loadCharacterInfo({id:1},{record:async(table,id)=>table==='connect_skill_conditions'&&id===11?condition:table==='assist_skill_effects'&&id===22?assist:null,all:async table=>table==='connect_skill_effects'?[{id:1,group_id:35,value:100}]:table==='char_sort_abilities'?[{id:2,group_id:1901,name:'連撃キラー',description:'攻撃力がアップ'}]:[],related:async(table,id,target)=>target==='connect_skills'?[{id:10,char_id:1,connect_skill_conditions_id_1_1:11,connect_skill_effect_group_id_1:35,connect_skill_effect_group_id_2:1901}]:target==='assist_skills'?[{id:20,char_id:1,assist_skill_effect_id_1:22}]:[]});
+  assert.equal(info.connectSkills[0].conditions[0].row,condition);
+  assert.equal(info.connectSkills[0].conditions[0].sourceField,'connect_skill_conditions_id_1_1');
+  assert.equal(info.connectSkills[0].effects[0].sources[0].table,'connect_skill_effects');
+  assert.equal(info.connectSkills[0].effects[1].sources[0].row.name,'連撃キラー');
+  assert.equal(info.assistSkills[0].effects[0],assist);
+});
+
+test('nativeで確認したキャラ報酬IDだけを解決し、元IDと境界を保持する',async()=>{
+  const character={id:13112,name:'下界をエンジョイ オシラサマ'};
+  const index={tables:{items:{identityField:'id',chunks:[]},chars:{identityField:'id',chunks:[]}},entities:{chars:[character]},referenceRules:{characterItem:{minimum:10000,maximum:9999999,offset:10000}}};
+  const store=createMasterStore(index);
+  assert.deepEqual(await store.resolve('items',23112),{table:'chars',id:13112,row:character,sourceTable:'items',sourceId:23112});
+  assert.equal(store.characterItemId(9999),null);assert.equal(store.characterItemId(10000),0);
+  assert.equal(store.characterItemId(9999999),9989999);assert.equal(store.characterItemId(10000000),null);
+  assert.equal(await store.resolve('items',10000),null);
+  assert.equal(await store.resolve('items',9999999),null);
+});
 test('最近更新された公開済みキャラを未公開扱いしない',()=>{const row={id:2674,rarity:6,sort_id:10,virtual_char_id:0,collection_enable_at:50,updated_at:999};assert.equal(classifyCharacter(row,100).masked,false);assert.equal(queryInternal([row],{now:100}).length,0);});
 test('図鑑マスクを時刻・仮想キャラ例外・特殊範囲から分類する',()=>{assert.equal(classifyCharacter({id:1,sort_id:0,virtual_char_id:1,collection_enable_at:50},100).masked,false);assert.ok(classifyCharacter({id:1,collection_enable_at:101},100).reasons.some(r=>r.kind==='future'));assert.equal(classifyCharacter({id:26000},100).reasons[0].kind,'special-range');assert.ok(classifyCharacter({id:1,sort_id:0,virtual_char_id:0},100).reasons.some(r=>r.kind==='info-mask'));assert.equal(classifyCharacter({id:1},100).masked,null);});
 test('クエストの未参照を実装予定や未公開と同一視しない',()=>{const events=[{sourceTable:'stage_group_events',stageGroupId:2,startAt:50}];assert.deepEqual(classifyQuest({id:1},events,100).reasons.map(r=>r.kind),['unlisted']);assert.equal(classifyQuest({id:1},[],100).reasons.length,0);assert.match(classifyQuest({id:1,released_at:4753368000},[],100).reasons[0].label,/遠未来/);});

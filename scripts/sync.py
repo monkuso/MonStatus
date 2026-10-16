@@ -17,7 +17,7 @@ import zipfile
 import zlib
 import msgpack
 from catalog import CATALOG_TABLES,build_catalog
-from internal import write_internal,content_table,internal_rows,gacha_table
+from internal import write_internal,internal_rows,gacha_table
 from protocol import signed_headers,read_game
 from rates import parse_rates
 from release import version_metadata
@@ -144,7 +144,8 @@ def unpack(payload):
     return value
 
 def table_from_archive(raw,entry,password):
-    if len(raw)!=entry['size'] or zlib.crc32(raw)&0xFFFFFFFF!=entry['crc']:
+    metadata_missing=entry['crc']==0
+    if (entry['size']!=0 and len(raw)!=entry['size']) or (not metadata_missing and (len(raw)!=entry['size'] or zlib.crc32(raw)&0xFFFFFFFF!=entry['crc'])):
         raise SyncError('Resource size or CRC mismatch')
     with zipfile.ZipFile(io.BytesIO(raw)) as archive:
         members=archive.infolist()
@@ -299,36 +300,46 @@ def build_snapshot(config,previous=None,destination=None,version_info=None):
     manifest=master_manifest(config)
     password=base64.b64decode(config['password_b64'],validate=True)
     all_names=[e['name'] for e in manifest['master_versions']+manifest['daily_versions']]
-    required=TABLES|{name for name in all_names if content_table(name)}
+    required=TABLES|set(all_names)
     print('MANIFEST_TABLES='+json.dumps(sorted(set(all_names)),ensure_ascii=False),flush=True)
     (destination/'tables.json').write_text(json.dumps(sorted(set(all_names)),ensure_ascii=False,indent=2),encoding='utf-8')
     tables={}
     evidence=[]
+    failures=[]
+    entries={}
     for entry in manifest['master_versions']+manifest['daily_versions']:
-        name=entry['name']
-        if name not in required or name in tables:
-            continue
-        if empty_master(entry):
-            tables[name]=[]
-            evidence.append({'table':name,'version':entry['version'],'rows':0,'crc':0,'status':'not-distributed'})
-            continue
+        if entry['name'] in required:entries.setdefault(entry['name'],entry)
+    def fetch_table(entry):
+        if empty_master(entry):return entry,[],None,None
         try:
             raw=download(entry['uri'],32*1024*1024)
-            tables[name]=table_from_archive(raw,entry,password)
-            evidence.append({'table':name,'version':entry['version'],'rows':len(tables[name]),'crc':entry['crc'],'sha256':hashlib.sha256(raw).hexdigest()})
-        except Exception as error:
-            if name in TABLES or gacha_table(name) or name=='item_texts':
-                raise
-            print(f'SKIP_OPTIONAL_TABLE {name}: {type(error).__name__}: {error}',flush=True)
+            return entry,table_from_archive(raw,entry,password),raw,None
+        except Exception as error:return entry,None,None,error
+    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
+        for number,(entry,rows,raw,error) in enumerate(executor.map(fetch_table,entries.values()),1):
+            name=entry['name']
+            if error is not None:
+                if name in TABLES or gacha_table(name) or name=='item_texts':raise error
+                failures.append({'table':name,'errorType':type(error).__name__,'version':entry['version']})
+                print(f'TABLE_FETCH_FAILED {name}: {type(error).__name__}',flush=True)
+                continue
+            tables[name]=rows
+            proof={'table':name,'version':entry['version'],'rows':len(rows),'crc':zlib.crc32(raw)&0xFFFFFFFF if raw is not None else 0}
+            if raw is None:proof['status']='not-distributed'
+            else:
+                proof['sha256']=hashlib.sha256(raw).hexdigest()
+                if entry['crc']==0:proof.update({'status':'manifest-integrity-unavailable','size':len(raw),'expectedSize':entry['size'],'expectedCrc':0,'validation':['zip-member-crc','messagepack-result','table-name','array-type']})
+            evidence.append(proof)
+            if number%100==0:print(json.dumps({'masterTablesCompleted':number,'masterTablesTotal':len(entries)}),flush=True)
     missing=TABLES-tables.keys()
     if missing:
         raise SyncError(f'Required tables missing: {sorted(missing)}')
-    schema={name:sorted({k for row in rows[:200] for k in (row.keys() if isinstance(row,dict) else [])}) for name,rows in tables.items() if rows}
+    schema={name:sorted({k for row in rows for k in (row.keys() if isinstance(row,dict) else [])}) for name,rows in tables.items() if rows}
     (destination/'schema.json').write_text(json.dumps(schema,ensure_ascii=False,indent=2),encoding='utf-8')
     timestamp=datetime.datetime.now(datetime.timezone.utc).isoformat()
     events,char_profiles=normalize_events(tables)
     catalog=build_catalog(tables,timestamp,evidence,events)
-    catalog['internalData']=write_internal(tables,timestamp,evidence,destination/'internal')
+    catalog['internalData']=write_internal(tables,timestamp,evidence,destination/'internal',manifest['master_versions']+manifest['daily_versions'],failures)
     read_requests=[(path,request) for path,value in config.get('reads',{}).items() for request in (value if isinstance(value,list) else [value])]
     for path,request in read_requests:
         endpoint=urllib.parse.urlsplit(request['url'])
@@ -438,7 +449,7 @@ def run():
             snapshot=build_snapshot(config,previous,destination,release)
             catalog=snapshot.pop('catalog')
             for name,value in [('catalog.json',catalog),('events.json',snapshot)]:
-                (destination/name).write_text(json.dumps(value,ensure_ascii=False,indent=2),encoding='utf-8')
+                (destination/name).write_text(json.dumps(value,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
             files=sorted((path for path in destination.rglob('*') if path.is_file()),key=lambda path:(path.name in {'index.json','catalog.json','events.json'},str(path)))
             for path in files:
                 target=data/path.relative_to(destination)

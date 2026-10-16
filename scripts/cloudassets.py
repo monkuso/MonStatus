@@ -17,6 +17,7 @@ import uuid
 import zipfile
 
 from assetcodec import name_hash,decode,write_image
+from atlasassets import sync_item_atlases
 from sync import configured_game,master_manifest
 
 BLOCK_SIZE=65536
@@ -138,6 +139,12 @@ def image_targets(catalog):
     for row in catalog.get('gachaBanners',[]):
         name=row.get('file_name')
         if isinstance(name,str) and name:add('gachas',name,name,f'gachas/{name_hash(name)}.webp')
+    for row in catalog.get('_visualRows',[]):
+        for field in ['file_name','banner_name','banner_file_name','icon_name']:
+            names=row.get(field)
+            if not isinstance(names,str):continue
+            for name in names.split('|'):
+                if re.fullmatch(r'[A-Za-z0-9_./-]+\.png',name) and '..' not in name.split('/'):add('events',name,name,f'events/{name_hash(name)}.webp')
     return targets
 
 def sync_assets(catalog,resources,seed,site,manifest,state,opener=urllib.request.urlopen):
@@ -148,7 +155,7 @@ def sync_assets(catalog,resources,seed,site,manifest,state,opener=urllib.request
     state={'schemaVersion':1,'resources':{},'images':dict(old_sources)}
     budget=TransferBudget()
     targets=image_targets(catalog)
-    unique={digest:items[0] for digest,items in targets.items() if len(items)==1}
+    unique={digest:items[0] for digest,items in targets.items() if len({item['name'] for item in items})==1}
     failures=[];readers={};records={}
     packages=image_resources(resources)
     def index(row):
@@ -245,10 +252,26 @@ def sync_assets(catalog,resources,seed,site,manifest,state,opener=urllib.request
     for error in failures:
         if error.get('asset'):missing[error['asset']]='download-or-decode-error'
     for digest,items in targets.items():
-        if len(items)>1:
+        if len({item['name'] for item in items})>1:
             for target in items:missing[target['category']+':'+target['identity']]='ambiguous-filename-hash'
+        else:
+            canonical=items[0];source=manifest.get(canonical['category'],{}).get(canonical['identity'])
+            if source:
+                for target in items:manifest.setdefault(target['category'],{})[target['identity']]=source
+    all_providers={}
+    for path,record in state['resources'].items():
+        for digest in record['members']:all_providers.setdefault(digest,path)
+    def read_atlas(path,digest):
+        row=records[path];reader=readers.get(path) or RemoteArchive(row,budget,opener);readers[path]=reader
+        password=row.get('password','');password=password.encode() if isinstance(password,str) else password
+        with zipfile.ZipFile(reader) as archive:
+            member=state['resources'][path]['members'][digest]
+            if archive.getinfo(member).file_size>32*1024*1024:raise ValueError('Atlas member size rejected')
+            return decode(archive.read(member,pwd=password or None),seed)
+    atlas_updates,atlas_failures=sync_item_atlases(catalog['tables'].get('items',[]),read_atlas,all_providers,site,manifest,state,missing)
+    updated+=atlas_updates;failures.extend(atlas_failures)
     timestamp=datetime.datetime.now(datetime.timezone.utc).isoformat()
-    manifest['counts']={key:len(manifest.get(key,{})) for key in ['characters','quests','gachas','gimmicks','attributes']}
+    manifest['counts']={key:len(manifest.get(key,{})) for key in ['characters','quests','gachas','gimmicks','attributes','items','events']}
     unavailable=sum(row.get('availability')=='not-distributed' for row in state['resources'].values())
     manifest['sync']={'state':'partial' if failures else 'success','lastAttemptAt':timestamp,'lastSuccessAt':manifest.get('sync',{}).get('lastSuccessAt') if failures else timestamp,'updatedImages':updated,'reusedImages':reused,'indexedPackages':len(state['resources'])-unavailable,'unavailablePackages':unavailable,'packageCount':len(packages),'downloadedBytes':budget.used,'unlocatedImages':len(missing),'failures':failures}
     manifest['pending']=missing
@@ -264,6 +287,17 @@ def main():
     if len(raw)!=16 or secret.get('decoder')!='xorshift128-v1':raise ValueError('Asset decoder configuration rejected')
     seed=struct.unpack('<IIII',raw)
     catalog=json.loads((data/'catalog.json').read_text(encoding='utf-8'))
+    internal_index=json.loads((data/'internal'/'index.json').read_text(encoding='utf-8'))
+    catalog['_visualRows']=[]
+    for name,entry in internal_index['tables'].items():
+        if name!='items' and not set(entry['fields'])&{'file_name','banner_file_name','banner_name','icon_name'}:continue
+        rows=[]
+        for part in entry['chunks']:
+            raw_part=(data/'internal'/part['file']).read_bytes()
+            if hashlib.sha256(raw_part).hexdigest()!=part['sha256']:raise ValueError('Visual master chunk digest mismatch')
+            rows.extend(json.loads(raw_part)['rows'])
+        if name=='items':catalog['tables']['items']=rows
+        else:catalog['_visualRows'].extend(rows)
     manifest=json.loads((data/'assets.json').read_text(encoding='utf-8'))
     index=data/'asset-index.json'
     state=json.loads(index.read_text(encoding='utf-8')) if index.exists() else {}

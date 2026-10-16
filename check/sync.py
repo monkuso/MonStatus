@@ -18,6 +18,12 @@ class CloudSyncTests(unittest.TestCase):
         self.assertTrue(empty_master({'uri':None,'size':0,'crc':0}))
         self.assertFalse(empty_master({'uri':None,'size':100,'crc':0}))
         self.assertFalse(empty_master({'uri':'https://example.test/table','size':0,'crc':0}))
+
+    def test_legacy_missing_manifest_metadata_still_requires_zip_and_schema_validation(self):
+        raw,entry=self.archive({'result':0,'masters':[{'stage_group_events':[{'id':1}]}]})
+        self.assertEqual(table_from_archive(raw,{**entry,'size':0,'crc':0},b''),[{'id':1}])
+        with self.assertRaises(SyncError):table_from_archive(raw,{**entry,'size':len(raw)+1,'crc':0},b'')
+        with self.assertRaises(SyncError):table_from_archive(raw,{**entry,'name':'different_table','crc':0},b'')
     def test_gacha_history_keeps_removed_occurrences_and_rates_with_explicit_status(self):
         old={'gachaEvents':[{'id':1,'gacha_group_id':3,'start_at':100,'end_at':200}], 'gachaMessages':[{'messageId':9,'gachaGroupId':3,'startAt':100,'endAt':200}], 'gachaRates':[{'messageId':9,'gachaGroupId':3,'startAt':100,'endAt':200,'title':'通常','entries':[{'rate':'12.0 %'}]}]}
         current={'tables':{'gacha_groups':[{'id':3}]},'gachaEvents':[{'id':2,'gacha_group_id':3,'start_at':300,'end_at':400}]}

@@ -55,7 +55,7 @@ test('スケジュールはイベントクエストだけを表示し、ガチ�
   assert.ok(hub.gachaEvents.some(permanentGacha));
   assert.ok(hub.querySchedule({view:'all'}).length>0);
   assert.ok(hub.querySchedule({view:'all'}).every(r=>r.kind==='quest'&&r.endAt<4102444800));
-  const event=hub.gachaEvents.find(e=>e.header_title&&e.end_at<4102444800);
+  const event=hub.gachaEvents.find(e=>e.header_title&&e.end_at<4102444800&&!e.retainedForHistory&&(e.visible_at??0)<=e.start_at);
   assert.equal(gachaTitle(event,{name:'シングルガチャ'}),event.header_title);
   assert.ok(hub.gachas({text:event.header_title,now:event.start_at}).some(g=>g.id===event.gacha_group_id));
 });
