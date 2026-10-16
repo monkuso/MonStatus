@@ -61,7 +61,7 @@ function render(){
   if(tab==='schedule'||tab==='quest'){$('notice').hidden=false;$('notice').textContent=tab==='schedule'?'イベントクエストの出現時間を表示します。今日・明日・指定日で日程を確認できます。':'現在出現しているクエストを表示します。過去のクエストは詳細情報で確認できます。';}
   if(['gacha','lucky'].includes(tab)&&hub.data.detailObservedAt){$('notice').hidden=false;$('notice').textContent=`ゲーム内一覧の確認 ${date(Date.parse(hub.data.detailObservedAt)/1000)} · 開催期間と提供割合の確認日時は詳細に表示します。`;}if(tab==='gacha'&&['upcoming','internal','leaked'].includes(state.view)){$('notice').hidden=false;$('notice').textContent=state.view==='upcoming'?'開始前の開催定義を表示します。ゲーム内の表示開始前の情報も含みます。':state.view==='internal'?'取得済みの全ガチャ定義を表示します。開催予定・終了済み・常設・開催未確認を含み、内部定義の存在だけでは新規開催は確定しません。':'開催一覧に紐づかない内部定義です。過去・ステップ・未使用の定義も含みます。';}const content=$('content');content.replaceChildren();content.className='';$('more').hidden=true;
   if(tab==='lucky'){renderLucky(content);return;}
-  if(tab==='gacha'&&state.view==='related'){renderGachaArchive(content,{hub,detail,date:gachaDate,characterTiles},state.text);$('result-count').textContent='特殊・関連情報';return;}
+  if(tab==='gacha'&&state.view==='related'){renderGachaArchive(content,{hub,detail,date:gachaDate,characterTiles},state.text,state.gachaArchive||=( {}));$('result-count').textContent='特殊・関連情報';return;}
   let rows,draw;
   if(tab==='schedule'){rows=hub.querySchedule({view:state.view,text:state.text,day:state.day});draw=scheduleCard;}
   else if(tab==='quest'){rows=hub.quests({text:state.text,attribute:state.attribute});draw=questCard;}

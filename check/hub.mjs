@@ -40,6 +40,7 @@ test('特殊ガチャは実在の外部キーだけで結合し、表示重み�
   const sections=relatedGachaData(fixture,11252).sections;
   assert.equal(sections.find(s=>s.name==='unknown_gacha_events').rows[0].new_field,'new');
   assert.equal(sections.find(s=>s.name==='login_power_up_gachas').rows[0].id,99);
+  assert.equal(sections.find(s=>s.name==='login_power_up_gacha_events').rows[0].id,7);
   assert.ok(!sections.some(s=>s.name==='selectable_pickup_gacha_display_weights'));
   assert.ok(gachaTableNames(fixture.library.tables).includes('selectable_pickup_gacha_display_weights'));
 });

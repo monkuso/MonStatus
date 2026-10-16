@@ -15,8 +15,8 @@ export function renderGachaRecords(parent,rows,{hub,detail,date,characterTiles},
     const text=v==null?'未設定':(/_at$/.test(key)||['startAt','endAt'].includes(key))&&Number.isFinite(v)&&v>0?date(v):['observedAt'].includes(key)?date(Date.parse(v)/1000):typeof v==='boolean'?(v?'はい':'いいえ'):cleanText(v);
     parent.append(el('span',text||'空欄'));
   }
-  function append(){for(const row of rows.slice(offset,offset+20)){const card=el('details',null,'record-card');const title=row.name||row.title||row.description||`${titleFor(row)}`;card.append(el('summary',cleanText(title).slice(0,150)));const dl=el('dl',null,'record-fields');for(const [key,v] of Object.entries(row)){dl.append(el('dt',label(key)));const dd=el('dd');value(dd,key,v);dl.append(dd);}card.append(dl);list.append(card);}offset+=20;more.hidden=offset>=rows.length;}
-  function titleFor(row){const char=hub.library.indexes.chars.get(row.char_id),item=hub.library.indexes.items.get(row.item_id);return char?`${char.name} · ${row.start_at?date(row.start_at):'登録情報'}`:item?`${item.name} · 数量 ${row.cnt??row.cost_cnt??'—'}`:`No.${row.id??row.gacha_group_id??'—'}`;}
+  function append(){for(const row of rows.slice(offset,offset+20)){const card=el('details',null,'record-card'),caption=row.name||row.title||row.description||titleFor(row),start=row.start_at??row.startAt;card.append(el('summary',cleanText(caption).slice(0,150)+(start?` · ${date(start)}`:'')));const dl=el('dl',null,'record-fields');for(const [key,v] of Object.entries(row)){dl.append(el('dt',label(key)));const dd=el('dd');value(dd,key,v);dl.append(dd);}card.append(dl);list.append(card);}offset+=20;more.hidden=offset>=rows.length;}
+  function titleFor(row){const char=hub.library.indexes.chars.get(row.char_id),item=hub.library.indexes.items.get(row.item_id),group=hub.library.indexes.gacha_groups.get(row.gacha_group_id??row.gachaGroupId);return char?char.name:item?`${item.name} · 数量 ${row.cnt??row.cost_cnt??'—'}`:group?`${hub.gachaDisplayTitle(group.id)} · No.${group.id}${row.level!=null?` · 段階${row.level}`:''}`:row.gacha_group_event_id?`開催ID ${row.gacha_group_event_id} · No.${row.id}`:`No.${row.id??row.messageId??'—'}`;}
   more.onclick=append;append();shell.append(list,more);parent.append(shell);
 }
 export function renderGachaExtras(parent,id,context){
@@ -28,10 +28,11 @@ export function renderGachaExtras(parent,id,context){
   for(const section of sections){if(section.name==='box_gacha_items')parent.append(el('p','BOXの登録内容・登録数です。プレイヤー個別の現在の残数とは異なります。','notes'));renderGachaRecords(parent,section.rows,context,section.title);}
   renderGachaRecords(parent,[group],context,'全登録項目');
 }
-export function renderGachaArchive(parent,context,text=''){
+export function renderGachaArchive(parent,context,text='',selection={}){
   const tables=gachaBrowseTables(context.hub),select=el('select'),search=el('input'),output=el('div'),intro=el('p','取得済みのガチャ関連テーブルをすべて確認できます。開催IDが現在の一覧にない特殊イベントも保持しています。表示重み・登録数を提供割合として扱いません。','notice');
-  select.setAttribute('aria-label','ガチャ関連情報の種類');search.type='search';search.placeholder='この種類の中で名前・ID・説明を検索';search.setAttribute('aria-label',search.placeholder);search.value=text;
-  for(const name of gachaTableNames(tables)){const option=el('option',`${gachaTables[name]||name} · ${tables[name].length.toLocaleString('ja-JP')}件`);option.value=name;select.append(option);}
-  function draw(){const needle=search.value.normalize('NFKC').toLowerCase();const rows=tables[select.value].filter(r=>!needle||JSON.stringify(r).normalize('NFKC').toLowerCase().includes(needle));output.replaceChildren();const evidence=context.hub.data.verification?.find(v=>v.table===select.value);if(evidence?.status==='not-distributed')output.append(el('p','サーバーの一覧にはありますが、サイズ0・配信URLなしのためデータが配信されていません。','notice'));renderGachaRecords(output,rows,context,gachaTables[select.value]||select.value);}
+  select.setAttribute('aria-label','ガチャ関連情報の種類');search.type='search';search.placeholder='この種類の中で名前・ID・説明を検索';search.setAttribute('aria-label',search.placeholder);if(selection.outerText!==text){selection.text=text;selection.outerText=text;}search.value=selection.text||'';
+  for(const name of [...gachaTableNames(tables),...(tables.item_texts?['item_texts']:[])]){const option=el('option',`${gachaTables[name]||name} · ${tables[name].length.toLocaleString('ja-JP')}件`);option.value=name;select.append(option);}
+  if(selection.table&&Object.hasOwn(tables,selection.table))select.value=selection.table;
+  function draw(){selection.table=select.value;selection.text=search.value;const needle=search.value.normalize('NFKC').toLowerCase();const rows=tables[select.value].filter(r=>!needle||JSON.stringify(r).normalize('NFKC').toLowerCase().includes(needle));output.replaceChildren();const evidence=context.hub.data.verification?.find(v=>v.table===select.value);if(evidence?.status==='not-distributed')output.append(el('p','サーバーの一覧にはありますが、サイズ0・配信URLなしのためデータが配信されていません。','notice'));renderGachaRecords(output,rows,context,gachaTables[select.value]||select.value);}
   select.onchange=draw;search.oninput=draw;parent.append(intro,select,search,output);draw();
 }
