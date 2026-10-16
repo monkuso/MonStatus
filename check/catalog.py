@@ -2,7 +2,7 @@ import unittest
 import sys
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
-from catalog import FIELDS,build_catalog,GIMMICK_TEXT_IDS
+from catalog import FIELDS,build_catalog
 
 class CatalogTests(unittest.TestCase):
     def tables(self):

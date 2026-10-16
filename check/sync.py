@@ -7,7 +7,7 @@ import msgpack
 import sys
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
-from sync import SyncError,table_from_archive,normalize_events,build_gimmick_index,union_gimmicks_for_group,build_char_index,recommended_char_ids,build_wanted_boss_index,active_wanted_bosses,ADVANTAGE,clear_group_ids,merge_clear_results,sync_clear_groups
+from sync import SyncError,table_from_archive,normalize_events,build_gimmick_index,union_gimmicks_for_group,build_char_index,recommended_char_ids,active_wanted_bosses,ADVANTAGE,clear_group_ids,merge_clear_results,sync_clear_groups
 
 EMPTY_TABLES={'stage_groups':[],'stage_group_events':[],'stage_group_kind_events':[],'stage_group_cycle_events':[],'stages':[],'stage_gimmicks':[],'chars':[],'wanted_bosses':[],'wanted_boss_groups':[]}
 

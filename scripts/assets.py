@@ -10,7 +10,7 @@ import zipfile
 from pathlib import Path
 
 from PIL import Image
-from assetcodec import mix,name_hash,decode,write_image
+from assetcodec import name_hash,decode,write_image
 
 ROOT = Path(__file__).resolve().parents[2]
 DESTINATION = Path(__file__).resolve().parents[1]

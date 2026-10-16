@@ -21,7 +21,7 @@ jobs:
         with:
           node-version: '24'
       - name: Validate site
-        run: node --test check/sdk.mjs check/library.mjs check/hub.mjs check/internal.mjs
+        run: npm test
       - uses: actions/github-script@v8
         id: snapshot
         with:
@@ -43,10 +43,10 @@ jobs:
           mkdir -p dist
           tar -xf snapshot/artifact.tar -C dist
           test -s dist/data/catalog.json
-          cp index.html events.html internal.html dist/
+          cp index.html internal.html dist/
           rm -rf dist/web
           cp -r web dist/
-          rm -f dist/library.html
+          rm -f dist/library.html dist/events.html dist/data/clouddeployment.json dist/data/deployment.json
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:

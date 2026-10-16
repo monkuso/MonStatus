@@ -1,4 +1,4 @@
-import {createHub,cleanText,normalized,visibleAt,permanentGacha,assetImageUrl} from './hubsdk.js?v=assets1';
+import {createHub,cleanText,visibleAt,assetImageUrl} from './hubsdk.js?v=assets1';
 import {eventStatus,attributeMeta,jstDay,decodeGimmicks} from './sdk.js';
 
 const $=id=>document.getElementById(id),state={hub:null,tab:'schedule',view:'active',text:'',attribute:'',day:null,all:false,limit:36};

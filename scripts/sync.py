@@ -18,7 +18,7 @@ import zlib
 import msgpack
 from catalog import CATALOG_TABLES,build_catalog
 from internal import write_internal,content_table
-from protocol import signed_headers,read_game,GameReadError
+from protocol import signed_headers,read_game
 from rates import parse_rates
 from release import version_metadata
 
@@ -442,34 +442,9 @@ def run():
         raise
     print(json.dumps({'result':'success','events':len(snapshot['events']),'chars':len(snapshot['charProfiles']),'updatedAt':snapshot['updatedAt'],'tables':snapshot['verification'],'catalogRelations':catalog['relations'],'gimmickLabels':catalog['gimmicks']},ensure_ascii=False))
 
-def fetch_published(name):
-    stamp=int(time.time())
-    for url in (f'https://monkuso.github.io/MonStatus/data/{name}.json?restore={stamp}',f'https://monkuso.github.io/MonStatus/{name}.json?restore={stamp}'):
-        try:
-            return json.loads(download(url,256*1024*1024).decode('utf-8'))
-        except Exception:
-            continue
-    return None
-
-def restore_snapshot():
-    data=Path(__file__).resolve().parents[1]/'data'
-    snapshots={name:fetch_published(name) for name in ['catalog','events']}
-    if any(value is None for value in snapshots.values()):
-        print(json.dumps({'restoredStages':0,'note':'public snapshot unavailable; keeping committed data'}))
-        return
-    catalog=snapshots['catalog']
-    events=snapshots['events']
-    if catalog.get('schemaVersion')!=1 or not isinstance(catalog.get('recommendations'),list) or not isinstance(catalog.get('tables',{}).get('stages'),list) or events.get('schemaVersion')!=3 or not isinstance(events.get('events'),list) or catalog.get('updatedAt')!=events.get('updatedAt'):raise SyncError('Public snapshot rejected')
-    for name,value in snapshots.items():
-        temporary=data/f'{name}.json.tmp'
-        temporary.write_text(json.dumps(value,ensure_ascii=False,indent=2),encoding='utf-8')
-        os.replace(temporary,data/f'{name}.json')
-    print(json.dumps({'restoredStages':len(catalog['recommendations']),'updatedAt':catalog['updatedAt']}))
-
 if __name__=='__main__':
     try:
-        if sys.argv[1:]==['--restore']:restore_snapshot()
-        elif sys.argv[1:]==['--check']:check_connection()
+        if sys.argv[1:]==['--check']:check_connection()
         elif not sys.argv[1:]:run()
         else:raise SyncError('Unknown synchronization command')
     except SyncError as error:
