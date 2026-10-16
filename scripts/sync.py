@@ -17,10 +17,11 @@ import zipfile
 import zlib
 import msgpack
 from catalog import CATALOG_TABLES,build_catalog
-from internal import write_internal,content_table
+from internal import write_internal,content_table,internal_rows,gacha_table
 from protocol import signed_headers,read_game
 from rates import parse_rates
 from release import version_metadata
+from gacha import retain_gacha_history
 
 TABLES={'stage_groups','stage_group_events','stage_group_kind_events','stage_group_cycle_events','stages','stage_gimmicks','chars','wanted_bosses','wanted_boss_groups'}
 TABLES|=CATALOG_TABLES
@@ -289,6 +290,10 @@ def master_manifest(config):
     if any(not isinstance(manifest.get(name),list) for name in ['master_versions','daily_versions']):raise SyncError('Master manifest schema changed')
     return manifest
 
+
+def empty_master(entry):
+    return not entry.get('uri') and entry.get('size')==0 and entry.get('crc')==0
+
 def build_snapshot(config,previous=None,destination=None,version_info=None):
     destination=Path(destination) if destination is not None else Path(__file__).resolve().parents[1]/'data'
     manifest=master_manifest(config)
@@ -303,12 +308,16 @@ def build_snapshot(config,previous=None,destination=None,version_info=None):
         name=entry['name']
         if name not in required or name in tables:
             continue
+        if empty_master(entry):
+            tables[name]=[]
+            evidence.append({'table':name,'version':entry['version'],'rows':0,'crc':0,'status':'not-distributed'})
+            continue
         try:
             raw=download(entry['uri'],32*1024*1024)
             tables[name]=table_from_archive(raw,entry,password)
             evidence.append({'table':name,'version':entry['version'],'rows':len(tables[name]),'crc':entry['crc'],'sha256':hashlib.sha256(raw).hexdigest()})
         except Exception as error:
-            if name in TABLES:
+            if name in TABLES or gacha_table(name) or name=='item_texts':
                 raise
             print(f'SKIP_OPTIONAL_TABLE {name}: {type(error).__name__}: {error}',flush=True)
     missing=TABLES-tables.keys()
@@ -330,8 +339,7 @@ def build_snapshot(config,previous=None,destination=None,version_info=None):
         if path=='/information/list':
             rows=details.get('gacha_group_events')
             if not isinstance(rows,list):raise SyncError('Gacha schedule response rejected')
-            fields={'id','name','gacha_group_id','start_at','end_at','visible_at','header_title','footer_title','popup_url'}
-            catalog['gachaEvents']=[{key:row[key] for key in fields if key in row} for row in rows]
+            catalog['gachaEvents']=internal_rows('gacha_group_events',rows)
             catalog['gachaScheduleStatus']='verified'
             catalog['detailObservedAt']=timestamp
             lucky_rows=details.get('weekly_max_luck_bonuses')
@@ -341,8 +349,7 @@ def build_snapshot(config,previous=None,destination=None,version_info=None):
                 catalog['weeklyMaxLuckBonusesStatus']='verified'
             banner_rows=details.get('gacha_group_banners')
             if isinstance(banner_rows,list):
-                banner_fields={'id','gacha_group_id','file_name','priority','type_id','start_at','end_at'}
-                catalog['gachaBanners']=[{key:row[key] for key in banner_fields if key in row} for row in banner_rows]
+                catalog['gachaBanners']=internal_rows('gacha_group_banners',banner_rows)
                 catalog['gachaBannersStatus']='verified'
             messages=details.get('event_messages')
             if isinstance(messages,list):
@@ -357,7 +364,8 @@ def build_snapshot(config,previous=None,destination=None,version_info=None):
                     _,explanation=parse_rates(detail_text)
                     metadata={'messageId':row['id'],'gachaGroupId':row.get('gacha_group_id',0),'messageIndex':index,
                               'startAt':row['start_at'],'endAt':row['end_at'],'disabled':row.get('disabled',0),'priority':row.get('priority',0),
-                              'detailText':explanation,'detailCharacterIds':character_ids}
+                              'detailText':explanation,'detailCharacterIds':character_ids,'observedAt':timestamp,'source':'official-game-information'}
+                    metadata['original']=internal_rows('gacha_event_messages',[row])[0]
                     catalog['gachaMessages'].append(metadata)
                     for field,title in [('summary','通常の提供割合'),('inc_prob_gacha_summary','初回10連の提供割合（対象条件あり）')]:
                         text=row.get(field,'')
@@ -368,6 +376,7 @@ def build_snapshot(config,previous=None,destination=None,version_info=None):
         else:
             merge_clear_results(catalog,details,timestamp)
             catalog['community']['status']='verified'
+    if catalog.get('gachaScheduleStatus')=='verified':retain_gacha_history(catalog,previous,timestamp)
     if config.get('signing_seed_b64'):sync_clear_groups(catalog,config,timestamp,previous)
     catalog['versionInfo']=version_info or {}
     return {'schemaVersion':3,'updatedAt':timestamp,'appVersion':(version_info or {}).get('version'),'configuredClientVersion':config.get('app_version'),'versionInfo':version_info or {},'source':'モンスト 実サーバー日次マスター','events':events,'charProfiles':char_profiles,'catalog':catalog,'verification':evidence,'sync':{'mode':'github-actions','intervalMinutes':30,'lastSuccessAt':timestamp,'transport':'https'}}

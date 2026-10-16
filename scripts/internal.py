@@ -5,12 +5,19 @@ from pathlib import Path
 
 SCHEMAS=json.loads(Path(__file__).with_name('internal-schema.json').read_text(encoding='utf-8'))
 
+def gacha_table(name):
+    return 'gacha' in name or name=='selectable_pickup_gacha_display_weights'
+
 def content_table(name):
-    return name in {'chars','stages','stage_groups','strike_shots','fight_types','assist_skills','assist_skill_effects','connect_skills','connect_skill_conditions','connect_skill_effects'} or name.startswith(('char_','stage_','skill_','shot_'))
+    return gacha_table(name) or name in {'chars','stages','stage_groups','strike_shots','fight_types','assist_skills','assist_skill_effects','connect_skills','connect_skill_conditions','connect_skill_effects','item_texts'} or name.startswith(('char_','stage_','skill_','shot_'))
 
 def internal_rows(table,rows):
     if not content_table(table):raise ValueError('Unrelated internal table')
-    return [{key:value for key,value in row.items() if not re.search(r'(^|_)(password|secret|session|token|credential|authorization)(_|$)',key,re.I)} if isinstance(row,dict) else {'_value':row} for row in rows]
+    def scrub(value):
+        if isinstance(value,dict):return {key:scrub(item) for key,item in value.items() if not re.search(r'(^|_)(password|secret|session|token|credential|authorization)(_|$)',key,re.I)}
+        if isinstance(value,list):return [scrub(item) for item in value]
+        return value
+    return [scrub(row) if isinstance(row,dict) else {'_value':scrub(row)} for row in rows]
 
 def write_internal(tables,timestamp,evidence,destination):
     destination=Path(destination)

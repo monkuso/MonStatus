@@ -7,11 +7,28 @@ import msgpack
 import sys
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
+from gacha import retain_gacha_history
+from sync import empty_master
 from sync import SyncError,table_from_archive,normalize_events,build_gimmick_index,union_gimmicks_for_group,build_char_index,recommended_char_ids,active_wanted_bosses,ADVANTAGE,clear_group_ids,merge_clear_results,sync_clear_groups
 
 EMPTY_TABLES={'stage_groups':[],'stage_group_events':[],'stage_group_kind_events':[],'stage_group_cycle_events':[],'stages':[],'stage_gimmicks':[],'chars':[],'wanted_bosses':[],'wanted_boss_groups':[]}
 
 class CloudSyncTests(unittest.TestCase):
+    def test_empty_master_requires_all_server_empty_markers(self):
+        self.assertTrue(empty_master({'uri':None,'size':0,'crc':0}))
+        self.assertFalse(empty_master({'uri':None,'size':100,'crc':0}))
+        self.assertFalse(empty_master({'uri':'https://example.test/table','size':0,'crc':0}))
+    def test_gacha_history_keeps_removed_occurrences_and_rates_with_explicit_status(self):
+        old={'gachaEvents':[{'id':1,'gacha_group_id':3,'start_at':100,'end_at':200}], 'gachaMessages':[{'messageId':9,'gachaGroupId':3,'startAt':100,'endAt':200}], 'gachaRates':[{'messageId':9,'gachaGroupId':3,'startAt':100,'endAt':200,'title':'通常','entries':[{'rate':'12.0 %'}]}]}
+        current={'tables':{'gacha_groups':[{'id':3}]},'gachaEvents':[{'id':2,'gacha_group_id':3,'start_at':300,'end_at':400}]}
+        retain_gacha_history(current,old,'2026-10-16T00:00:00Z')
+        self.assertEqual(len(current['gachaEvents']),2)
+        self.assertTrue(current['gachaEvents'][0]['retainedForHistory'])
+        self.assertFalse(current['gachaEvents'][1]['retainedForHistory'])
+        self.assertEqual(current['gachaRates'][0]['entries'][0]['rate'],'12.0 %')
+        self.assertTrue(current['gachaRates'][0]['retainedForHistory'])
+        self.assertEqual(current['gachaCoverage']['currentScheduleRecords'],1)
+
     def test_clear_groups_cover_ended_future_and_orphan_groups(self):
         rows=[{'sourceTable':'stage_group_events','stageGroupId':1,'startAt':100,'endAt':200}]
         rows.extend([{**rows[0]}, {**rows[0],'stageGroupId':2,'startAt':201}, {**rows[0],'stageGroupId':3,'endAt':99}, {**rows[0],'stageGroupId':4,'endAt':4102444800}])

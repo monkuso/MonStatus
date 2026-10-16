@@ -18,6 +18,16 @@ class CatalogTests(unittest.TestCase):
         tables=self.tables()
         tables['stages'].append(tables['stages'][0])
         with self.assertRaises(ValueError):build_catalog(tables,'2026-10-14T00:00:00Z',[],[])
+    def test_all_gacha_fields_and_new_tables_preserved_without_credentials(self):
+        tables=self.tables()
+        tables['gacha_groups'][0].update({'gacha_point':100,'new_version_field':{'value':12,'session':'private'},'secret':'private'})
+        tables['new_special_gachas']=[{'id':9,'gacha_group_id':3,'new_field':'説明'}]
+        tables['item_texts']=[{'id':1,'item_id':2,'text':'アイテムの説明'}]
+        result=build_catalog(tables,'2026-10-16T00:00:00Z',[],[])
+        self.assertEqual(result['tables']['gacha_groups'][0]['new_version_field'],{'value':12})
+        self.assertNotIn('secret',result['tables']['gacha_groups'][0])
+        self.assertEqual(result['tables']['new_special_gachas'],tables['new_special_gachas'])
+        self.assertEqual(result['tables']['item_texts'],tables['item_texts'])
     def test_text_label_requires_matching_game_id(self):
         tables=self.tables();tables['texts']=[{'id':1356,'label':'eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_1','text':'[GIMMICK:重力バリア][LF]説明[GIMMICK_END]'}]
         result=build_catalog(tables,'2026-10-14T00:00:00Z',[],[])

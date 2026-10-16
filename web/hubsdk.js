@@ -1,6 +1,6 @@
 import {displayName,eventStatus,isLongTerm,jstDay} from './sdk.js';
 import {createLibrary} from './librarysdk.js';
-export const cleanText=value=>displayName(String(value??'')).replace(/\[LF\]/g,'\n').replace(/\[GIMMICK:([^\]]+)\]/g,'$1').replace(/\[GIMMICK_END\]/g,'').replace(/\[(?:IMG|LC|LR|L|S|B|C_END)[^\]]*\]/g,'').trim();
+export const cleanText=value=>displayName(String(value??'')).replace(/\[LF\]/g,'\n').replace(/\[(?:BLOCK|GIMMICK):([^\]]+)\]/g,'$1').replace(/\[u:[^|\]]+\|([^\]]+)\]/g,'$1').replace(/\[GIMMICK_END\]/g,'').replace(/\[(?:IMG|IPLJ|LC|LR|L|S|B|C_END)[^\]]*\]/g,'').trim();
 export const normalized=value=>cleanText(value).normalize('NFKC').toLocaleLowerCase('ja');
 export const visibleAt=(row,now)=>!Number.isFinite(row.visible_at)||row.visible_at<=now;
 export const overlapDay=(start,end,day)=>{const a=Date.parse(`${day}T00:00:00+09:00`)/1000;return start<=a+86399&&end>=a;};
@@ -42,7 +42,7 @@ export function createHub(catalog,events,assets={},live=null){
   function querySchedule({day=null,text='',view='active',now=Date.now()/1000}={}){return scheduleRows().filter(e=>Number.isFinite(e.startAt)&&Number.isFinite(e.endAt)&&(!day||overlapDay(e.startAt,e.endAt,day))&&(!text||normalized(e.name).includes(normalized(text)))&&(day||view==='all'||eventStatus(e,now)===view)).sort((a,b)=>(view==='upcoming'?a.startAt-b.startAt:a.endAt-b.endAt)||a.key.localeCompare(b.key));}
   function quests({text='',attribute='',now=Date.now()/1000}={}){const ids=new Set(stageEvents.filter(e=>eventStatus(e,now)==='active'&&e.sourceTable==='stage_group_events').map(e=>e.stageGroupId));return library.tables.stage_groups.filter(g=>ids.has(g.id)&&(!attribute||g.attribute_id===Number(attribute))&&(!text||normalized(`${g.name} ${g.id}`).includes(normalized(text)))).sort((a,b)=>b.id-a.id);}
   function gachaSchedule(id,view='all',now=Date.now()/1000){
-    const rows=gachaEvents.filter(e=>e.gacha_group_id===id&&!permanentGacha(e)).sort((a,b)=>a.start_at-b.start_at||a.id-b.id);
+    const rows=gachaEvents.filter(e=>e.gacha_group_id===id&&!permanentGacha(e)&&(view==='all'||view==='internal'||!e.retainedForHistory)).sort((a,b)=>a.start_at-b.start_at||a.id-b.id);
     if(view==='upcoming')return rows.find(e=>e.start_at>now)||null;
     return rows.find(e=>e.start_at<=now&&e.end_at>=now)||rows.find(e=>e.start_at>now)||rows.at(-1)||null;
   }
@@ -55,15 +55,16 @@ export function createHub(catalog,events,assets={},live=null){
   function gachaDateSections(rows,view='active',now=Date.now()/1000){
     const groups=new Map(),format=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Tokyo',year:'numeric',month:'2-digit',day:'2-digit'});
     for(const row of rows){
-      const event=gachaSchedule(row.id,view,now),startAt=event?.start_at;
-      const day=Number.isFinite(startAt)?format.format(new Date(startAt*1000)).replaceAll('-','/'):null;
-      if(!groups.has(day))groups.set(day,{day,rows:[],starts:new Map()});
-      const section=groups.get(day);section.rows.push(row);section.starts.set(row.id,startAt);
+      const event=Object.hasOwn(row,'occurrence')?row.occurrence:gachaSchedule(row.id,view,now),startAt=event?.start_at;
+      const kind=event&&permanentGacha(event)?'permanent':Number.isFinite(startAt)?'dated':'unknown';
+      const day=kind==='dated'?format.format(new Date(startAt*1000)).replaceAll('-','/'):null,key=day||kind;
+      if(!groups.has(key))groups.set(key,{day,kind,rows:[],starts:new Map()});
+      const section=groups.get(key);section.rows.push(row);section.starts.set(row.occurrenceKey||row.id,startAt);
     }
-    return [...groups.values()].sort((a,b)=>a.day===null?1:b.day===null?-1:b.day.localeCompare(a.day)).map(section=>({day:section.day,rows:section.rows.sort((a,b)=>(section.starts.get(b.id)||0)-(section.starts.get(a.id)||0)||b.id-a.id)}));
+    return [...groups.values()].sort((a,b)=>a.day&&b.day?b.day.localeCompare(a.day):a.day?-1:b.day?1:a.kind==='permanent'?-1:b.kind==='permanent'?1:0).map(section=>({day:section.day,kind:section.kind,rows:section.rows.sort((a,b)=>(section.starts.get(b.occurrenceKey||b.id)||0)-(section.starts.get(a.occurrenceKey||a.id)||0)||b.id-a.id)}));
   }
   function gachas({text='',all=false,view='active',now=Date.now()/1000}={}){
-    const scheduled=gachaEvents.filter(e=>!permanentGacha(e));
+    const scheduled=gachaEvents.filter(e=>!e.retainedForHistory&&!permanentGacha(e));
     const activeIds=new Set(scheduled.filter(e=>visibleAt(e,now)&&e.start_at<=now&&e.end_at>=now).map(e=>e.gacha_group_id));
     const upcomingIds=new Set(scheduled.filter(e=>e.start_at>now).map(e=>e.gacha_group_id));
     const referencedIds=new Set(gachaEvents.map(e=>e.gacha_group_id));
@@ -72,10 +73,25 @@ export function createHub(catalog,events,assets={},live=null){
     return gachaDateSections(rows,view,now).flatMap(section=>section.rows);
   }
   function luckyCharacters(week){return (week.drop_ids||[]).filter(id=>id>0).map(dropId=>({dropId,forms:library.tables.chars.filter(c=>c.drop_id===dropId).sort((a,b)=>(b.rarity||0)-(a.rarity||0)||b.id-a.id)}));}
+  function gachaAppearances({text='',all=false,view='active',now=Date.now()/1000}={}){
+    if(['internal','leaked'].includes(view))return gachas({text,view,now});
+    const rows=[],seen=new Set();
+    for(const event of gachaEvents){
+      if(view!=='all'&&event.retainedForHistory)continue;
+      const group=library.indexes.gacha_groups.get(event.gacha_group_id);if(!group)continue;
+      const permanent=permanentGacha(event);
+      if(view==='permanent'?!permanent:view==='active'?(permanent||!visibleAt(event,now)||event.start_at>now||event.end_at<now):view==='upcoming'?(permanent||event.start_at<=now):false)continue;
+      if(text&&!normalized(`${gachaTitle(event,group)} ${group.name} ${group.description} ${group.id}`).includes(normalized(text)))continue;
+      const key=JSON.stringify([group.id,event.id,event.start_at,event.end_at,event.type_id,event.kind_id]);
+      if(seen.has(key))continue;seen.add(key);rows.push({...group,occurrence:event,occurrenceKey:key});
+    }
+    if(view==='all'&&all){const registered=new Set(gachaEvents.map(e=>e.gacha_group_id));for(const group of gachas({view:'internal',text,now}))if(!registered.has(group.id))rows.push({...group,occurrence:null,occurrenceKey:'definition:'+group.id});}
+    return gachaDateSections(rows,view,now).flatMap(section=>section.rows);
+  }
   function gachaGroupChain(id){const chain=[];let current=library.indexes.gacha_groups.get(id);const seen=new Set();while(current&&!seen.has(current.id)){seen.add(current.id);chain.push(current);if(current.category_id===50008||!current.parent_group_id)break;current=library.indexes.gacha_groups.get(current.parent_group_id);}return chain;}
-  function gachaMessages(id,now=Date.now()/1000){const chain=gachaGroupChain(id);const ids=new Set(chain.map(g=>g.id));return (data.gachaMessages||[]).filter(r=>ids.has(r.gachaGroupId)&&r.startAt<=now&&r.endAt>=now);}
-  function providedRates(id,now=Date.now()/1000){const messageIds=new Set(gachaMessages(id,now).map(m=>m.messageId));return (data.gachaRates||[]).filter(r=>messageIds.has(r.messageId)&&(r.entries||[]).length);}
+  function gachaMessages(id,now=Date.now()/1000,includeHistory=false){const chain=gachaGroupChain(id);const ids=new Set(chain.map(g=>g.id));return (data.gachaMessages||[]).filter(r=>ids.has(r.gachaGroupId)&&(!r.retainedForHistory||includeHistory)&&r.startAt<=now&&r.endAt>=now&&!r.disabled);}
+  function providedRates(id,now=Date.now()/1000,includeHistory=false){const messageIds=new Set(gachaMessages(id,now,includeHistory).map(m=>m.messageId));return (data.gachaRates||[]).filter(r=>messageIds.has(r.messageId)&&(!r.retainedForHistory||includeHistory)&&(r.entries||[]).length);}
   function gachaCharacterIds(id,now=Date.now()/1000){const result=new Set();for(const m of gachaMessages(id,now))for(const cid of m.detailCharacterIds||[])result.add(cid);for(const f of library.gacha(id)?.features||[]){const start=Number.isFinite(f.start_at)?f.start_at:null,end=Number.isFinite(f.end_at)?f.end_at:null;if((start===null||start<=now)&&(end===null||end>=now))result.add(f.char_id);}for(const c of library.gacha(id)?.characters||[])result.add(c.id);for(const b of library.tables.box_gacha_items||[]){if(b.gacha_group_id!==id)continue;const it=library.indexes.items.get(b.item_id);if(!it||!it.name)continue;const base=it.name.replace(/[（(][^）)]*[）)]/g,'').trim();const ch=library.charByName?.get(base);if(ch)result.add(ch.id);}if(!result.size){const children=library.tables.gacha_groups.filter(g=>g.parent_group_id===id);for(const child of children){for(const m of (data.gachaMessages||[]).filter(m=>m.gachaGroupId===child.id&&m.startAt<=now&&m.endAt>=now))for(const cid of m.detailCharacterIds||[])result.add(cid);for(const f of library.gacha(child.id)?.features||[]){const start=Number.isFinite(f.start_at)?f.start_at:null,end=Number.isFinite(f.end_at)?f.end_at:null;if((start===null||start<=now)&&(end===null||end>=now))result.add(f.char_id);}}}return [...result].filter(cid=>library.indexes.chars.has(cid));}
   function gachaFeaturedIds(id,now=Date.now()/1000){const result=[];for(const f of library.gacha(id)?.features||[]){const start=Number.isFinite(f.start_at)?f.start_at:null,end=Number.isFinite(f.end_at)?f.end_at:null;if((start===null||start<=now)&&(end===null||end>=now))result.push(f.char_id);}return [...new Set(result)].filter(cid=>library.indexes.chars.has(cid));}
-  return {data,library,assets,names,image,characterImage,attributeImage,gachaBannerFile,gachaImage,stagesByGroup,stageEvents,gachaEvents,lucky,gachaBanners,gachaSchedule,gachaDisplayTitle,gachaDateSections,querySchedule,quests,gachas,luckyCharacters,providedRates,gachaMessages,gachaCharacterIds,gachaFeaturedIds,today:jstDay()};
+  return {data,library,assets,names,image,characterImage,attributeImage,gachaBannerFile,gachaImage,stagesByGroup,stageEvents,gachaEvents,lucky,gachaBanners,gachaSchedule,gachaDisplayTitle,gachaDateSections,gachaAppearances,querySchedule,quests,gachas,luckyCharacters,providedRates,gachaMessages,gachaCharacterIds,gachaFeaturedIds,today:jstDay()};
 }

@@ -1,4 +1,4 @@
-from internal import SCHEMAS
+from internal import SCHEMAS,gacha_table,internal_rows
 
 FIELDS={
     'stages':'id stage_group_id name attribute_id cost cost_type_id difficulty experience boss_num boss_hp_bar0 boss_hp_bar1 boss_hp_bar2 bonus_turn charball_attribute_rate enemy_attribute_rate clear_bonus_char_id extra_stage_id extra_stage2_id extra_stage3_id updated_at',
@@ -50,6 +50,8 @@ def gimmick_labels(rows):
 
 def build_catalog(tables,timestamp,evidence,stage_events):
     public={name:[{key:row[key] for key in fields.split() if key in row} for row in tables[name]] for name,fields in FIELDS.items()}
+    for name,rows in tables.items():
+        if gacha_table(name) or name=='item_texts':public[name]=internal_rows(name,rows)
     for name in ['stages','stage_groups','gacha_groups','chars']:
         rows=public[name]
         if not rows or any(type(row.get('id')) is not int or not isinstance(row.get('name'),str) for row in rows):
@@ -61,6 +63,6 @@ def build_catalog(tables,timestamp,evidence,stage_events):
     for source,key,target in [('stages','stage_group_id','stage_groups'),('stage_gimmicks','stage_id','stages'),('gachas','gacha_group_id','gacha_groups'),('gachas','char_id','chars'),('char_skills','char_id','chars')]:
         references=[row[key] for row in public[source]]
         relations.append({'source':source,'field':key,'target':target,'references':len(references),'resolved':sum(value in ids[target] for value in references),'unresolved':sorted(set(references)-ids[target])})
-    return {'schemaVersion':1,'updatedAt':timestamp,'tables':public,'gimmicks':gimmick_labels(public['texts']),'verification':[row for row in evidence if row['table'] in CATALOG_TABLES],'relations':relations,'stageEvents':stage_events,'community':{'status':'not-fetched','description':'ステージごとのクリア使用実績は別途取得が必要です。'},'gachaEvents':[],'gachaScheduleStatus':'not-fetched','weeklyMaxLuckBonuses':[],'weeklyMaxLuckBonusesStatus':'not-fetched','recommendations':[],'gachaBanners':[],'gachaBannersStatus':'not-fetched'}
+    return {'schemaVersion':1,'updatedAt':timestamp,'tables':public,'gimmicks':gimmick_labels(public['texts']),'verification':[row for row in evidence if row['table'] in public],'relations':relations,'stageEvents':stage_events,'community':{'status':'not-fetched','description':'ステージごとのクリア使用実績は別途取得が必要です。'},'gachaEvents':[],'gachaScheduleStatus':'not-fetched','weeklyMaxLuckBonuses':[],'weeklyMaxLuckBonusesStatus':'not-fetched','recommendations':[],'gachaBanners':[],'gachaBannersStatus':'not-fetched'}
 import re
 import zlib

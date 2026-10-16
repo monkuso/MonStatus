@@ -2,11 +2,47 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {createHub,gachaTitle,permanentGacha,assetImageUrl} from '../web/hubsdk.js';
+import {relatedGachaData,occurrenceTime,rateCoverage,gachaTableNames} from '../web/gachadetails.js';
 const load=name=>JSON.parse(fs.readFileSync(new URL('../data/'+name,import.meta.url),'utf8'));
 const catalog=load('catalog.json'),events=load('events.json'),live=load('livedata.json'),assets=load('assets.json'),rates=load('gacharates.json');
 catalog.gachaRates=rates.rates;
 catalog.gachaMessages=rates.messages;
 const hub=createHub(catalog,events,assets,live);
+
+test('同じガチャの別開催を保持し、履歴の予定を開催中・予定へ混入させない',()=>{
+  const base={schemaVersion:1,updatedAt:'2026-10-16T00:00:00Z',tables:{stages:[],stage_groups:[],chars:[],gachas:[],stage_gimmicks:[],gacha_groups:[{id:1,name:'繰り返し'},{id:2,name:'常設'},{id:3,name:'未開催'}]},gachaEvents:[{id:10,gacha_group_id:1,start_at:200,end_at:250},{id:11,gacha_group_id:1,start_at:300,end_at:350},{id:12,gacha_group_id:1,start_at:400,end_at:450,retainedForHistory:true},{id:13,gacha_group_id:2,start_at:0,end_at:4102444800}]};
+  const fixture=createHub(base,{events:[]});
+  assert.deepEqual(fixture.gachaAppearances({view:'upcoming',now:100}).map(r=>r.occurrence.id),[11,10]);
+  assert.equal(fixture.gachaAppearances({view:'permanent',now:100}).length,1);
+  assert.equal(fixture.gachaAppearances({view:'all',now:100}).length,4);
+  assert.equal(fixture.gachaAppearances({view:'all',all:true,now:100}).length,5);
+  assert.equal(fixture.gachaAppearances({view:'active',now:425}).length,0);
+  assert.equal(occurrenceTime(base.gachaEvents[0],100),200);
+  assert.equal(occurrenceTime(base.gachaEvents[0],999),250);
+});
+
+test('配信済み全開催記録を日付別に表示し、同一IDの開催回を省略しない',()=>{
+  const rows=hub.gachaAppearances({view:'all'});
+  const expected=new Set(hub.gachaEvents.filter(e=>hub.library.indexes.gacha_groups.has(e.gacha_group_id)).map(e=>JSON.stringify([e.gacha_group_id,e.id,e.start_at,e.end_at,e.type_id,e.kind_id])));
+  assert.equal(rows.length,expected.size);
+  assert.equal(new Set(rows.map(r=>r.occurrenceKey)).size,rows.length);
+});
+
+test('過去の提供割合は現在の提供割合として使わず、履歴として参照できる',()=>{
+  const fixture=createHub({...catalog,tables:{...catalog.tables,gacha_groups:[{id:11252,name:'履歴テスト'}]},gachaMessages:[{messageId:1,gachaGroupId:11252,startAt:1,endAt:9999,retainedForHistory:true}],gachaRates:[{messageId:1,gachaGroupId:11252,startAt:1,endAt:9999,retainedForHistory:true,entries:[{name:'★5-6',rate:'12.0 %'}]}]},events);
+  assert.equal(fixture.providedRates(11252,100).length,0);
+  assert.equal(fixture.providedRates(11252,100,true).length,1);
+  assert.equal(rateCoverage(fixture,[{id:11252,occurrence:{start_at:1,end_at:150,retainedForHistory:true}}],100).withRates,1);
+});
+
+test('特殊ガチャは実在の外部キーだけで結合し、表示重みを割合やガチャIDとして解釈しない',()=>{
+  const fixture=createHub({...catalog,tables:{...catalog.tables,login_power_up_gachas:[{id:99,gacha_group_id:11252,login_power_up_gacha_event_id:7}],login_power_up_gacha_events:[{id:7,description:'説明'}],selectable_pickup_gacha_display_weights:[{id:1,group_id:11252,display_weight:24000}],unknown_gacha_events:[{id:22,gacha_group_id:11252,new_field:'new'}]}},events);
+  const sections=relatedGachaData(fixture,11252).sections;
+  assert.equal(sections.find(s=>s.name==='unknown_gacha_events').rows[0].new_field,'new');
+  assert.equal(sections.find(s=>s.name==='login_power_up_gachas').rows[0].id,99);
+  assert.ok(!sections.some(s=>s.name==='selectable_pickup_gacha_display_weights'));
+  assert.ok(gachaTableNames(fixture.library.tables).includes('selectable_pickup_gacha_display_weights'));
+});
 test('更新された画像には内容ハッシュを付け、外部URLや親ディレクトリを拒否する',()=>{
   const path='assets/characters/03/13103.webp';
   assert.equal(assetImageUrl(path,{imageVersions:{[path]:'1234567890abcdef'}}),path+'?v=1234567890abcdef');
