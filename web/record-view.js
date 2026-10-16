@@ -2,7 +2,7 @@ import {cleanText,assetImageUrl} from './hubsdk.js?v=gacha5';
 import {tableLabel,fieldLabel} from './data-labels.js';
 import {recordIdentity} from './internalsdk.js';
 import {loadCharacterInfo} from './charactersdk.js';
-import {renderCharacter} from './character-view.js?v=assets1';
+import {renderCharacter} from './character-view.js?v=clean1';
 const el=(tag,text='',cls='')=>{const node=document.createElement(tag);node.textContent=cleanText(text);if(cls)node.className=cls;return node;};
 const date=new Intl.DateTimeFormat('ja-JP',{timeZone:'Asia/Tokyo',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'});
 export const recordDate=seconds=>seconds==null?'未設定':typeof seconds==='number'&&Number.isFinite(seconds)&&seconds>0?date.format(new Date(seconds*1000))+' JST':String(seconds);
@@ -70,7 +70,7 @@ export function createRecordView({store,assets={},navigate}){
     const minX=Math.min(...points.map(r=>r.x)),maxX=Math.max(...points.map(r=>r.x)),minY=Math.min(...points.map(r=>r.y)),maxY=Math.max(...points.map(r=>r.y)),width=Math.max(100,maxX-minX),height=Math.max(100,maxY-minY),pad=Math.max(width,height)*.12;
     const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAttribute('viewBox',`${minX-pad} ${minY-pad} ${width+pad*2} ${height+pad*2}`);svg.setAttribute('class','battle-layout');svg.setAttribute('role','img');svg.setAttribute('aria-label',`バトル ${phase.id} の配信座標による配置図`);
     for(const [i,row] of points.entries()){const circle=document.createElementNS(svg.namespaceURI,'circle');circle.setAttribute('cx',row.x);circle.setAttribute('cy',row.y);circle.setAttribute('r',String(Math.max(width,height)*.026));circle.setAttribute('class','placement-dot');const title=document.createElementNS(svg.namespaceURI,'title');title.textContent=`配置${i+1} · 種別${row.type_id} · X ${row.x} / Y ${row.y} · パラメーター ${row.param}`;circle.append(title);svg.append(circle);const number=document.createElementNS(svg.namespaceURI,'text');number.setAttribute('x',row.x);number.setAttribute('y',row.y);number.setAttribute('font-size',String(Math.max(width,height)*.026));number.setAttribute('text-anchor','middle');number.setAttribute('dominant-baseline','central');number.textContent=String(i+1);svg.append(number);}
-    parent.append(svg,el('p','配信されたX・Y座標の配置図です。配置種別・パラメーターの未解析部分を敵名に置き換えていません。','internal-hint'));await recordList(parent,'stage_phase_layouts',rows,'配置ごとの位置・設定');
+    parent.append(svg);await recordList(parent,'stage_phase_layouts',rows,'配置ごとの位置・設定');
   }
   async function timeline(parent,table,row){
     if(table!=='login_stamp_groups')return;
@@ -89,7 +89,6 @@ export function createRecordView({store,assets={},navigate}){
   }
   async function render(table,row,{profile=true,relations=true}={}){
     const body=el('div','','master-record');
-    if(index.tables[table]?.status==='manifest-integrity-unavailable')body.append(el('p','配信元の外側CRCは未指定です。ZIP内部CRC・表名・配列形式を検証したデータとして表示しています。','notice'));
     if(table==='chars'&&profile){const info=await loadCharacterInfo(row,store);body.append(renderCharacter(info,{assets,image:recordImage(table,row,assets,store),attributeImage:assets.attributes?.[String(row.attribute_id)]}));}
     else {const hero=el('div','','record-hero');picture(hero,table,row,index.tables[table]?.category==='events'?'record-hero-image record-event-banner':'record-hero-image');hero.append(el('h2',recordName(table,row)));body.append(hero);}
     for(const [key,v] of Object.entries(row))if(['description','message','summary','text','detail_text','gacha_rate_text','cannot_text'].includes(key)&&typeof v==='string'&&v)body.append(el('p',v,'readable-description'));
@@ -104,7 +103,7 @@ export function createRecordView({store,assets={},navigate}){
     await timeline(body,table,row);
     const fieldsBox=el('section','','record-section');fieldsBox.append(el('h3',`登録された全項目 · ${Object.keys(row).filter(k=>k!=='_recordIndex').length}項目`),await fields(table,row));body.append(fieldsBox);
     if(relations)await related(body,table,row);
-    body.append(el('p',`データ確認 ${date.format(new Date(index.updatedAt))} JST · ${table} · No.${recordIdentity(index,table,row)}`,'internal-hint'));return body;
+    return body;
   }
   return {render,preview,recordList,fields,picture};
 }

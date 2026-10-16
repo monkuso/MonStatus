@@ -1,7 +1,7 @@
 import {queryInternal,recordIdentity} from './internalsdk.js';
 import {cleanText} from './hubsdk.js?v=gacha5';
 import {createMasterStore} from './masterdata.js';
-import {createRecordView,primaryPeriod} from './record-view.js';
+import {createRecordView,primaryPeriod} from './record-view.js?v=clean1';
 import {categoryNames,tableLabel,fieldLabel} from './data-labels.js';
 const $=id=>document.getElementById(id);
 const titles={chars:'キャラクター',stage_groups:'クエスト',stages:'ステージ',events:'イベント',items:'アイテム',assets:'画像候補',tables:'すべてのゲームデータ'};
@@ -17,16 +17,7 @@ async function showRecord(table,id){
   try{const row=await state.store.record(table,id);if(!row)throw new Error('このレコードは配信データ内で確認できません。');const content=await state.view.render(table,row);if(token!==detailRequest)return;const h2=content.querySelector('h2');if(h2)h2.id='internal-detail-title';body.replaceChildren(content);dialog.querySelector('.dialog-top span').textContent=tableLabel(table);dialog.scrollTop=0;const a=el('a','この情報へのリンク ↗','external');a.href='?kind=tables&table='+encodeURIComponent(table)+'&id='+id;body.append(a);}
   catch(exception){if(token===detailRequest)body.replaceChildren(el('p',exception.message,'error'));}
 }
-function showAsset(row){++detailRequest;const body=$('internal-detail-body');body.replaceChildren(el('h2',row.name));const image=el('img','','internal-detail-image');image.src=row.image;image.alt=row.name;body.append(image,el('p','名前のハッシュを照合した画像候補です。未実装キャラとは断定していません。','internal-hint'));if(!$('internal-detail').open)$('internal-detail').showModal();}
-function coverage(){
-  const index=state.index,meta=index.coverage;
-  const summary=el('div','','coverage-panel');
-  const verified=meta?.verified??Object.values(index.tables).filter(v=>v.status!=='error').length;
-  summary.append(el('strong','配信一覧 '+(meta?.expected??Object.keys(index.tables).length)+'種類 / 取得・検証 '+verified+'種類 / 未配信 '+(meta?.notDistributed??0)+'種類'));
-  summary.append(el('p','取得済み・配信元CRC未指定 '+(meta?.limitedIntegrity??0)+'種類 · 取得エラー '+(meta?.failed?.length??0)+'種類 · 未確認 '+(meta?.missing?.length??0)+'種類。配信元のCRCが未指定の場合も、ZIP内部CRC・表名・形式を検証して区別します。'));
-  if(meta?.failed?.length){const failures=el('div','','coverage-failures');for(const row of meta.failed)failures.append(button(tableLabel(row.table)+'：取得エラー',()=>chooseTable(row.table)));summary.append(failures);}
-  $('master-coverage').replaceChildren(summary);
-}
+function showAsset(row){++detailRequest;const body=$('internal-detail-body');body.replaceChildren(el('h2',row.name));const image=el('img','','internal-detail-image');image.src=row.image;image.alt=row.name;body.append(image);if(!$('internal-detail').open)$('internal-detail').showModal();}
 function option(value,text){const node=el('option',text);node.value=value;return node;}
 function refreshFilters(){
   const selector=$('internal-filter'),old=state.filter;
@@ -38,7 +29,7 @@ function chooseTable(name){state.kind='tables';state.table=name;state.chunk=0;st
 function tableCard(name,meta){
   const card=button('',()=>chooseTable(name),'card internal-card table-card'),body=el('div','','card-body');
   body.append(el('span',categoryNames[meta.category]||'ゲームデータ','eyebrow'),el('h3',tableLabel(name)),el('span',name,'internal-evidence'));
-  const status=meta.status==='error'?'取得エラー':meta.status==='not-distributed'?'サーバー未配信':(meta.rows??0).toLocaleString('ja-JP')+'件'+(meta.status==='manifest-integrity-unavailable'?' · 配信元CRC未指定':'');
+  const status=meta.status==='error'?'取得エラー':meta.status==='not-distributed'?'サーバー未配信':(meta.rows??0).toLocaleString('ja-JP')+'件';
   body.append(el('strong',status,'table-count'),el('span',(meta.fields?.length??0)+'項目','internal-evidence'));
   if(meta.fields?.length)body.append(el('p',meta.fields.slice(0,8).map(fieldLabel).join('・'),'table-field-preview'));
   body.append(el('span','情報を見る →','arrow'));card.append(body);return card;
@@ -56,9 +47,8 @@ async function render(){
   if(kind==='tables'&&!state.table){
     const rows=Object.entries(state.index.tables).filter(([name,meta])=>(!state.category||meta.category===state.category)&&(!term||(name+' '+tableLabel(name)+' '+(meta.fields||[]).map(fieldLabel).join(' ')).normalize('NFKC').toLowerCase().includes(term)));
     total=rows.length;cards=rows.slice(0,state.limit).map(([name,meta])=>tableCard(name,meta));
-    $('internal-note').textContent='全配信テーブルを分類して表示します。種類を選ぶと、名前・説明・期間・関連先を確認できます。';
   }else if(kind==='assets'){
-    const rows=state.orphans.filter(row=>!term||JSON.stringify(row).normalize('NFKC').toLowerCase().includes(term));total=rows.length;cards=rows.slice(0,state.limit).map(row=>{const b=button(row.name||row.resourceNameCandidate||'画像候補',()=>showAsset(row),'card internal-card');if(/^assets\/internal\/\d+\.webp$/.test(row.image)){const image=el('img','','internal-image');image.src=row.image;image.alt=row.name||'画像候補';b.prepend(image);}return b;});$('internal-note').textContent='PNGとして検証した画像の照合候補です。名前のハッシュ衝突・別用途の画像を含みます。';
+    const rows=state.orphans.filter(row=>!term||JSON.stringify(row).normalize('NFKC').toLowerCase().includes(term));total=rows.length;cards=rows.slice(0,state.limit).map(row=>{const b=button(row.name||row.resourceNameCandidate||'画像候補',()=>showAsset(row),'card internal-card');if(/^assets\/internal\/\d+\.webp$/.test(row.image)){const image=el('img','','internal-image');image.src=row.image;image.alt=row.name||'画像候補';b.prepend(image);}return b;});
   }else{
     let rows;
     if(kind==='tables')rows=state.tableRows.map(row=>({table:state.table,row}));
@@ -66,8 +56,6 @@ async function render(){
     else rows=queryInternal(state.index.entities[kind]||[],{kind,filter:state.filter,text:state.text,events:state.events,groups:state.index.entities.stage_groups||[]}).map(entry=>({table:kind,...entry}));
     rows=rows.filter(entry=>!term||(JSON.stringify(entry.row)+' '+tableLabel(entry.table)).normalize('NFKC').toLowerCase().includes(term));
     total=rows.length;cards=await Promise.all(rows.slice(0,state.limit).map(async entry=>{const card=await state.view.preview(entry.table,entry.row);card.classList.add('catalog-record');for(const reason of entry.reasons||[])card.append(el('span',reason.label,'tag'));return card;}));
-    const meta=state.index.tables[state.table];
-    $('internal-note').textContent=kind==='tables'?(meta?.status==='error'?'取得に失敗しています。未配信や登録0件とは区別しています。':meta?.status==='not-distributed'?'配信一覧にはありますが、サイズ0・配信URLなしのため未配信です。':state.tableSearch?'選択したテーブル全体から検索しています。':'登録内容を範囲ごとに表示します。検索すると、このテーブル全体を検索します。'):kind==='events'?'開催期間・参加条件・報酬・ログイン日程など、イベントごとの関連情報を確認できます。':kind==='items'?'名称・説明・所持上限・単位・入手や使用に関連する情報を表示します。':'公開済み・敵用・未公開候補を含む登録情報です。能力・形態変化・素材・ステージ条件などを名前でたどれます。';
   }
   if(token!==tableRequest)return;
   grid.className=kind==='tables'&&!state.table?'grid table-grid':['chars','stage_groups','stages','events','items'].includes(kind)?'record-catalog-grid':'grid table-record-grid';
@@ -97,8 +85,7 @@ try{
   if(index.schemaVersion!==1||!index.tables||!index.entities)throw new Error('配信データの形式が一致しません。');
   state.index=index;state.assets=assets;state.events=events.events||[];state.orphans=orphans.rows||[];state.store=createMasterStore(index);state.view=createRecordView({store:state.store,assets,navigate:showRecord});
   const parameters=new URLSearchParams(location.search),kind=parameters.get('kind');if(Object.hasOwn(titles,kind))state.kind=kind;const table=parameters.get('table');if(Object.hasOwn(index.tables,table))state.table=table;state.category=parameters.get('category')||'';
-  $('internal-status').textContent='データ確認 '+new Intl.DateTimeFormat('ja-JP',{timeZone:'Asia/Tokyo',dateStyle:'medium',timeStyle:'short'}).format(new Date(index.updatedAt))+' JST · キャラ '+(index.entities.chars||[]).length.toLocaleString()+'体 / ステージ '+index.tables.stages.rows.toLocaleString()+'件';
   $('internal-table').replaceChildren(option('','すべての種類を見る'),...Object.keys(index.tables).map(name=>option(name,tableLabel(name)+' · '+(index.tables[name].rows??'取得エラー')+'件')));$('internal-table').value=state.table;
   $('internal-category').replaceChildren(option('','すべてのカテゴリ'),...Object.entries(categoryNames).map(([name,label])=>option(name,label)));$('internal-category').value=state.category;
-  refreshFilters();coverage();if(state.kind==='tables')await loadTable();else await render();const id=parameters.get('id');if(state.table&&/^\d+$/.test(id||''))await showRecord(state.table,Number(id));
-}catch(exception){error(exception.message);$('internal-status').textContent='データの同期・公開状態を確認してください。';$('internal-grid').setAttribute('aria-busy','false');}
+  refreshFilters();if(state.kind==='tables')await loadTable();else await render();const id=parameters.get('id');if(state.table&&/^\d+$/.test(id||''))await showRecord(state.table,Number(id));
+}catch(exception){error(exception.message);$('internal-grid').setAttribute('aria-busy','false');}

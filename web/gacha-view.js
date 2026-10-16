@@ -25,14 +25,14 @@ export function renderGachaExtras(parent,id,context){
   const facts=el('div',null,'facts');for(const [text,key] of [['必要ランク','request_rank'],['前ステップの必要回数','require_previous_step_cnt'],['ガチャポイント','gacha_point'],['特殊回数','gacha_special_cnt'],['参加条件コード（意味未確認）','enable_condition_id']])if(Object.hasOwn(group,key)){const f=el('div',text,'fact');f.append(el('strong',group[key]==null?'未設定':String(group[key])));facts.append(f);}parent.append(facts);
   for(const [text,key] of refs)if(group[key]){const r=hub.library.indexes.gacha_groups.get(group[key]),b=el('button',`${text}：${cleanText(r?.name||'名称未取得')} · No.${group[key]} →`,'quest-stage');b.type='button';b.onclick=()=>detail('gacha',group[key]);parent.append(b);}
   if(relations.length)renderGachaRecords(parent,relations,context,'子ガチャ・次のステップ・関連する参加条件');
-  for(const section of sections){if(section.name==='box_gacha_items')parent.append(el('p','BOXの登録内容・登録数です。プレイヤー個別の現在の残数とは異なります。','notes'));renderGachaRecords(parent,section.rows,context,section.title);}
+  for(const section of sections)renderGachaRecords(parent,section.rows,context,section.title);
   renderGachaRecords(parent,[group],context,'全登録項目');
 }
 export function renderGachaArchive(parent,context,text='',selection={}){
-  const tables=gachaBrowseTables(context.hub),select=el('select'),search=el('input'),output=el('div'),intro=el('p','取得済みのガチャ関連テーブルをすべて確認できます。開催IDが現在の一覧にない特殊イベントも保持しています。表示重み・登録数を提供割合として扱いません。','notice');
+  const tables=gachaBrowseTables(context.hub),select=el('select'),search=el('input'),output=el('div');
   select.setAttribute('aria-label','ガチャ関連情報の種類');search.type='search';search.placeholder='この種類の中で名前・ID・説明を検索';search.setAttribute('aria-label',search.placeholder);if(selection.outerText!==text){selection.text=text;selection.outerText=text;}search.value=selection.text||'';
   for(const name of [...gachaTableNames(tables),...(tables.item_texts?['item_texts']:[])]){const option=el('option',`${gachaTables[name]||name} · ${tables[name].length.toLocaleString('ja-JP')}件`);option.value=name;select.append(option);}
   if(selection.table&&Object.hasOwn(tables,selection.table))select.value=selection.table;
-  function draw(){selection.table=select.value;selection.text=search.value;const needle=search.value.normalize('NFKC').toLowerCase();const rows=tables[select.value].filter(r=>!needle||JSON.stringify(r).normalize('NFKC').toLowerCase().includes(needle));output.replaceChildren();const evidence=context.hub.data.verification?.find(v=>v.table===select.value);if(evidence?.status==='not-distributed')output.append(el('p','サーバーの一覧にはありますが、サイズ0・配信URLなしのためデータが配信されていません。','notice'));renderGachaRecords(output,rows,context,gachaTables[select.value]||select.value);}
-  select.onchange=draw;search.oninput=draw;parent.append(intro,select,search,output);draw();
+  function draw(){selection.table=select.value;selection.text=search.value;const needle=search.value.normalize('NFKC').toLowerCase();const rows=tables[select.value].filter(r=>!needle||JSON.stringify(r).normalize('NFKC').toLowerCase().includes(needle));output.replaceChildren();renderGachaRecords(output,rows,context,gachaTables[select.value]||select.value);}
+  select.onchange=draw;search.oninput=draw;parent.append(select,search,output);draw();
 }
