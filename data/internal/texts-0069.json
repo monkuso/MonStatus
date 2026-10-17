@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 1,
+  "table": "texts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 17734,
+      "text": "所持中",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_FOUNTAIN_EFFECT_HOLDING"
+    },
+    {
+      "id": 17735,
+      "text": "所持数：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_FOUNTAIN_ITEM_HOLDING"
+    },
+    {
+      "id": 17736,
+      "text": "★",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_ME_FORTUNE_TWEET_STAR_ON"
+    },
+    {
+      "id": 17737,
+      "text": "☆",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_ME_FORTUNE_TWEET_STAR_OFF"
+    },
+    {
+      "id": 17738,
+      "text": "出張！きのこ占いの館",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1753965439,
+      "label": "eTEXTS_DEF_ME_FORTUNE_TITLE"
+    },
+    {
+      "id": 17739,
+      "text": "[LC]出張！きのこ占いの館とは[LF][LF][CCB:dlme/help_fortune_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1753965439,
+      "label": "eTEXTS_DEF_ME_FORTUNE_HELP"
+    },
+    {
+      "id": 17740,
+      "text": "[LC][IC%d|300][LF280]%s",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_ME_FORTUNE_CHAR_TYPE_FORMAT"
+    },
+    {
+      "id": 17741,
+      "text": "[C6:次回更新：AM4:00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_ME_FORTUNE_NEXT_UPDATE_TIME"
+    },
+    {
+      "id": 17742,
+      "text": "[LC]回答確認[LF][LF]以下の回答でよろしいですか？[LF][LF][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_MSG_FORTUNE_ANSWER_CONFERM"
+    },
+    {
+      "id": 17743,
+      "text": "[LC]通知設定[LF][LF][NODE]",
+      "layout": 7,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_MSG_FORTUNE_NOTICE"
+    },
+    {
+      "id": 17744,
+      "text": "占い可能になったら通知する",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_ME_FORTUNE_NOTICE_LABEL1"
+    },
+    {
+      "id": 17745,
+      "text": "通知する時間を選択してください",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_ME_FORTUNE_NOTICE_LABEL2"
+    },
+    {
+      "id": 17746,
+      "text": "※当日の占いを確認済みの場合は通知されません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_ME_FORTUNE_NOTICE_LABEL3"
+    },
+    {
+      "id": 17747,
+      "text": "AM6時",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_ME_FORTUNE_NOTICE_LABEL4"
+    },
+    {
+      "id": 17748,
+      "text": "AM8時",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_ME_FORTUNE_NOTICE_LABEL5"
+    },
+    {
+      "id": 17749,
+      "text": "AM10時",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_ME_FORTUNE_NOTICE_LABEL6"
+    },
+    {
+      "id": 17750,
+      "text": "変更する",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_ME_FORTUNE_NOTICE_CHANGE_BUTTON"
+    },
+    {
+      "id": 17751,
+      "text": "8/16 3:59 まで",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1753965439,
+      "label": "eTEXTS_DEF_ME_FORTUNE_PERIOD"
+    },
+    {
+      "id": 17752,
+      "text": "回答内容は保存されませんが[LF]よろしいですか？",
+      "layout": 29,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_MSG_FORTUNE_ANSWER_ABORT"
+    },
+    {
+      "id": 17753,
+      "text": "Q%d：%s",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_ME_FORTUNE_CONFERM_QUESTION"
+    },
+    {
+      "id": 17754,
+      "text": "A：%s",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_ME_FORTUNE_CONFERM_ANSWER"
+    },
+    {
+      "id": 17755,
+      "text": "Q%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_ME_FORTUNE_QUESTION_INDEX"
+    },
+    {
+      "id": 17756,
+      "text": "%d/%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_ME_FORTUNE_QUESTION_PROGRESS"
+    },
+    {
+      "id": 17757,
+      "text": "モンスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_ME_FORTUNE_NOTICE_TITLE"
+    },
+    {
+      "id": 17758,
+      "text": "きのこ占いで今日の運勢を確認しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_ME_FORTUNE_NOTICE_MESSAGE"
+    },
+    {
+      "id": 17759,
+      "text": "【#きのこ占いの館 夏のビーチに出張中！】[LF][LF]今日の私の運勢は...[LF][LF]総合運：%s[LF]ラッキーアイテム：%s[LF][LF]▽#モンスト でマムルαに運勢を占ってもらおう！[LF]https://xfl.ag/4ofIGX8[LF][LF]#今日もいいことありますように[LF]#不思議なほど当たるかも",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1753965439,
+      "label": "eTEXTS_DEF_ME_FORTUNE_TWEET_MESSAGE"
+    },
+    {
+      "id": 17760,
+      "text": "[SW0.9][C6:きのこ占いで毎日の運勢を占ってもらおう]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1753965439,
+      "label": "eTEXTS_DEF_46600"
+    },
+    {
+      "id": 17761,
+      "text": "[b:ba_help_fortune_01.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1753965439,
+      "label": "eTEXTS_DEF_46601"
+    },
+    {
+      "id": 17762,
+      "text": "[SW0.7]ガチャ[C6:｢モンスト夏休み2025 ～アイドル・サマー・バケーション～｣]で[LF]登場したマムルαがあなたの運勢を占ってくれます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1753965439,
+      "label": "eTEXTS_DEF_46602"
+    },
+    {
+      "id": 17763,
+      "text": "[C5:タイプ診断について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_46603"
+    },
+    {
+      "id": 17764,
+      "text": "占いの前に[C6:タイプ診断]を受けることができます[LF][LF]6つの質問について、選択肢の中から[LF]自身に一番近いと思う回答を選びましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_46604"
+    },
+    {
+      "id": 17765,
+      "text": "回答1",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_46605"
+    },
+    {
+      "id": 17766,
+      "text": "回答2",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_46606"
+    },
+    {
+      "id": 17767,
+      "text": "回答3",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_46607"
+    },
+    {
+      "id": 17768,
+      "text": "※タイプ診断完了後にやり直すことはできません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_46608"
+    },
+    {
+      "id": 17769,
+      "text": "[C5:今日の運勢について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_46609"
+    },
+    {
+      "id": 17770,
+      "text": "診断されたあなたのタイプに応じて[LF]毎日の運勢を占ってもらうことができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_46610"
+    },
+    {
+      "id": 17771,
+      "text": "※日付の切り替わりは[C6:AM4:00]です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_46611"
+    },
+    {
+      "id": 17772,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20250731_3.html#1a|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1753965439,
+      "label": "eTEXTS_DEF_46612"
+    },
+    {
+      "id": 17773,
+      "text": "報酬一覧",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720090191,
+      "updated_at": 1720090191,
+      "label": "eTEXTS_DEF_JAZZ_MISSION_REWARD_TITLE"
+    },
+    {
+      "id": 17774,
+      "text": "%d回目",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720090191,
+      "updated_at": 1720090191,
+      "label": "eTEXTS_DEF_JAZZ_MISSION_REWARD_REQUIRED_COUNT"
+    },
+    {
+      "id": 17775,
+      "text": "すべてのミッションを達成しました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720090191,
+      "updated_at": 1720090191,
+      "label": "eTEXTS_DEF_JAZZ_MISSION_REWARD_ALL_RECEIVED"
+    },
+    {
+      "id": 17776,
+      "text": "[LC]1日1回挑戦ミッション[LF][LF]期間中1日1回[LF]ファンタコラボクエストの[LF][IMG:icon_missionnote.png][C6:対象ミッション]をクリアして[LF]報酬を獲得しよう[LF][LF][LF]※[C6:ソロ]、マルチプレイの[C6:ホスト]、[C6:ゲスト][LF]どのクリアも対象です[LF][LF][LC][NODE]次から表示しない",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1720090191,
+      "updated_at": 1720090191,
+      "label": "eTEXTS_DEF_JAZZ_STAGE_DAILY_MISSION_HINT_DIALOG"
+    },
+    {
+      "id": 17777,
+      "text": "ミッション報酬一覧",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720090191,
+      "updated_at": 1720090191,
+      "label": "eTEXTS_DEF_JAZZ_STAGE_INFO_TITLE"
+    },
+    {
+      "id": 17778,
+      "text": "ファンタオラゴンを運極にせよ！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720090191,
+      "updated_at": 1720090191,
+      "label": "eTEXTS_DEF_JAZZ_MISSION_REWARD_TITLE2"
+    },
+    {
+      "id": 17779,
+      "text": "ミッションのクリア回数に応じて[LF]以下の報酬を獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720090191,
+      "updated_at": 1720090191,
+      "label": "eTEXTS_DEF_JAZZ_MISSION_REWARD_INFO1"
+    },
+    {
+      "id": 17780,
+      "text": "[LF25]※1日1回挑戦可能となります[LF]※毎日AM4:00に切り替わります。[LF]※報酬を受け取るまで[LF]次のミッションに挑戦できません[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」、[LF]「[C6:ゲスト]」どのクリアも対象です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720090191,
+      "updated_at": 1720090191,
+      "label": "eTEXTS_DEF_JAZZ_MISSION_REWARD_INFO2"
+    },
+    {
+      "id": 17781,
+      "text": "ファンタコラボクエストを1回クリアせよ！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720090191,
+      "updated_at": 1720090191,
+      "label": "eTEXTS_DEF_JAZZ_MISSION_REWARD_TITLE3"
+    },
+    {
+      "id": 17782,
+      "text": "%s",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1724928801,
+      "updated_at": 1724928801,
+      "label": "eTEXTS_DEF_MSG_GENERIC_HOME_ICON"
+    },
+    {
+      "id": 17783,
+      "text": "[LC]ゲージショット[LF][LF][LC][b:tips_welcome_quest_gauge.png][LF]ひっぱるとゲージが表示されるモンスターは[LF]タイミングよくショットすると[LF]追加のアビリティが発動！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1720454898,
+      "updated_at": 1788887798,
+      "label": "eTEXTS_DEF_200339"
+    },
+    {
+      "id": 17784,
+      "text": "クイックマルチ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720454898,
+      "updated_at": 1720454898,
+      "label": "eTEXTS_DEF_MACHING_FILTER_QUICK_MULTI"
+    },
+    {
+      "id": 17785,
+      "text": "[LC]募集が見つかりません[LF][LF]クイックマルチの募集が見つかりません",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1720454898,
+      "updated_at": 1720454898,
+      "label": "eTEXTS_DEF_MSG_MULTI_AUTO_JOIN_ERROR"
+    },
+    {
+      "id": 17786,
+      "text": "[LC]キャンセルしました[LF][LF]クイックマルチの募集の検索を[LF]キャンセルしました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1720454898,
+      "updated_at": 1720454898,
+      "label": "eTEXTS_DEF_MSG_MULTI_AUTO_JOIN_CANCEL"
+    },
+    {
+      "id": 17787,
+      "text": "キャンセル",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1720454898,
+      "updated_at": 1720454898,
+      "label": "eTEXTS_DEF_MSG_MULTI_AUTO_JOIN_BUTTON_CANCEL"
+    },
+    {
+      "id": 17788,
+      "text": "[LC]募集できません[LF][LF]コラボ編成不可設定がONの時は[LF]クイックマルチの募集ができません",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1720454898,
+      "updated_at": 1720454898,
+      "label": "eTEXTS_DEF_MSG_QUICK_MULTI_HOST_ENTRY_STREAMER_ERROR"
+    },
+    {
+      "id": 17789,
+      "text": "クイックマルチの募集を検索中　[I0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720454898,
+      "updated_at": 1720454898,
+      "label": "eTEXTS_DEF_SEARCHING_AUTO_JOIN"
+    },
+    {
+      "id": 17790,
+      "text": "英雄の神殿",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720454898,
+      "updated_at": 1720454898,
+      "label": "eTEXTS_DEF_ME_MATCHING_QUEST_FILTER_BUTTON_NAME3"
+    },
+    {
+      "id": 17791,
+      "text": "所持数：%d個",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1735374506,
+      "updated_at": 1735374506,
+      "label": "eTEXTS_DEF_ME_GACHA_TOKUDAMA_NUM"
+    },
+    {
+      "id": 17792,
+      "text": "※ONの時はクイックマルチの募集ができません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720454898,
+      "updated_at": 1720454898,
+      "label": "eTEXTS_DEF_43710"
+    },
+    {
+      "id": 17793,
+      "text": "合言葉がONになりました[LF]クイックマルチをOFFにして[LF]募集検索します",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1720454898,
+      "updated_at": 1720454898,
+      "label": "eTEXTS_DEF_GUEST_QUICK_MULTI_PASCODE_CHANGE_WARNING"
+    },
+    {
+      "id": 17794,
+      "text": "[LC]苺プロのお仕事神経衰弱とは[LF][LF][CCB:dlme/help_collabo_sazae_sb1_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_MSG_SAZAE_MISSION_HELP"
+    },
+    {
+      "id": 17795,
+      "text": "[LC][LF][TAB|SB:ミッション][NODE][TAB|SB:クリア数報酬][NODE][TAB:神経衰弱報酬][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_MSG_SAZAE_MISSION_REWARD_LIST"
+    },
+    {
+      "id": 17796,
+      "text": "[LC]ミッションクリア数報酬[LF][LF]以下の報酬を獲得しました[LF][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_MSG_SAZAE_MISSION_CLEAR_NUM_GET_REWARD"
+    },
+    {
+      "id": 17797,
+      "text": "[LC]神経衰弱報酬[LF][LF]以下の報酬を獲得しました[LF][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_MSG_SAZAE_MISSION_CARD_TURN_GET_REWARD"
+    },
+    {
+      "id": 17798,
+      "text": "[LC]カードめくり確認[LF][LF][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_MSG_SAZAE_MISSION_CARD_TURN_CONFIRM"
+    },
+    {
+      "id": 17799,
+      "text": "[LC][C6:本日はモンストの日！][LF][LF]今日は特別に[LF]カードを[C6:4枚]めくることが出来ます！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_MSG_SAZAE_MISSION_MONST_DAY"
+    },
+    {
+      "id": 17800,
+      "text": "[LC][LF]開催期間は終了しています",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_MSG_SAZAE_MISSION_END"
+    },
+    {
+      "id": 17801,
+      "text": "[LC]AM0:00を過ぎたため[LF][LC]めくれません",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_MSG_SAZAE_MISSION_DAILY_CHANGE_ERROR"
+    },
+    {
+      "id": 17802,
+      "text": "[LC]ミッション未達成[LF][LF]ミッションをクリアしていないため[LF]このカードをめくることはできません[LF][LF]表示されているミッションを[LF]クリアしよう！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_MSG_SAZAE_MISSION_TURN_OVER_ERROR"
+    },
+    {
+      "id": 17803,
+      "text": "[LC]めくれる枚数終了[LF][LF]本日のめくれる枚数が上限に達しています[LF][LF]AM0:00に再度めくれるようになります",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_MSG_SAZAE_MISSION_TURN_OVER_LIMIT_ERROR"
+    },
+    {
+      "id": 17804,
+      "text": "7/15 0:00 〜 8/4 23:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_ME_SAZAE_MISSION_PERIOD"
+    },
+    {
+      "id": 17805,
+      "text": "毎日2枚めくって絵柄を揃えよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_ME_SAZAE_MISSION_DAILY_CAUTION"
+    },
+    {
+      "id": 17806,
+      "text": "※AM0:00に再度めくれるようになります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_ME_SAZAE_MISSION_RESET"
+    },
+    {
+      "id": 17807,
+      "text": "本日",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_ME_SAZAE_MISSION_TODAY"
+    },
+    {
+      "id": 17808,
+      "text": "本日のめくれる枚数が上限に達しました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_ME_SAZAE_MISSION_TODAY_LIMIT"
+    },
+    {
+      "id": 17809,
+      "text": "[LC][C6:%d]のカードをめくります[LF][LC]よろしいですか？[LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_ME_SAZAE_MISSION_CARD_TURN_CONFIRM"
+    },
+    {
+      "id": 17810,
+      "text": "本日のめくれる枚数　あと%d/%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_ME_SAZAE_MISSION_CARD_TURN_TODAY"
+    },
+    {
+      "id": 17811,
+      "text": "[C6:コラボガチャ開催]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46800"
+    },
+    {
+      "id": 17812,
+      "text": "[b:ba_help_collabo_sazae_00_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46801"
+    },
+    {
+      "id": 17813,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46802"
+    },
+    {
+      "id": 17814,
+      "text": "7/15 0:00～8/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46803"
+    },
+    {
+      "id": 17815,
+      "text": "[C5:コラボ限定ガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46804"
+    },
+    {
+      "id": 17816,
+      "text": "[IPJ11398]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46805"
+    },
+    {
+      "id": 17817,
+      "text": "[IPJ11390]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46806"
+    },
+    {
+      "id": 17818,
+      "text": "[IPJ11394]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46807"
+    },
+    {
+      "id": 17819,
+      "text": "[IPJ11396]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46808"
+    },
+    {
+      "id": 17820,
+      "text": "[IPJ11392]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46809"
+    },
+    {
+      "id": 17821,
+      "text": "さらに10連ガチャではEXおまけとして[LF][C6:コラボグッジョブ]が手に入ります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46810"
+    },
+    {
+      "id": 17822,
+      "text": "[IS533|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46811"
+    },
+    {
+      "id": 17823,
+      "text": "[IS532|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46812"
+    },
+    {
+      "id": 17824,
+      "text": "[IS534|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46813"
+    },
+    {
+      "id": 17825,
+      "text": "[IS535|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46814"
+    },
+    {
+      "id": 17826,
+      "text": "[IS536|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46815"
+    },
+    {
+      "id": 17827,
+      "text": "[IS538|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46816"
+    },
+    {
+      "id": 17828,
+      "text": "[IS539|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46817"
+    },
+    {
+      "id": 17829,
+      "text": "[IS540|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46818"
+    },
+    {
+      "id": 17830,
+      "text": "[IS537|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46819"
+    },
+    {
+      "id": 17831,
+      "text": "[C6:コラボクエスト出現中]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46820"
+    },
+    {
+      "id": 17832,
+      "text": "[b:ba_help_collabo_sazae_00_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46821"
+    },
+    {
+      "id": 17833,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46822"
+    },
+    {
+      "id": 17834,
+      "text": "7/15 0:00～8/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46823"
+    },
+    {
+      "id": 17835,
+      "text": "[C5:コラボ限定クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46824"
+    },
+    {
+      "id": 17836,
+      "text": "[SGBI27450|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46825"
+    },
+    {
+      "id": 17837,
+      "text": "[SGBI27440|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46826"
+    },
+    {
+      "id": 17838,
+      "text": "[SGBI27460|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46827"
+    },
+    {
+      "id": 17839,
+      "text": "[SGBI27420|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46828"
+    },
+    {
+      "id": 17840,
+      "text": "[SGBI27430|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46829"
+    },
+    {
+      "id": 17841,
+      "text": "[C6:｢真夏のドリームタッグ｣]は[LF]1日1回クリアボーナスで[C6:7体]獲得可能[LF]マルチだと金卵2個以上の排出率がアップします",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46830"
+    },
+    {
+      "id": 17842,
+      "text": "[C6:超究極難易度が登場]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46831"
+    },
+    {
+      "id": 17843,
+      "text": "[b:ba_help_collabo_sazae_00_3.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46832"
+    },
+    {
+      "id": 17844,
+      "text": "[C5:超究極クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46833"
+    },
+    {
+      "id": 17845,
+      "text": "[SGBI27470|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46834"
+    },
+    {
+      "id": 17846,
+      "text": "このクエストではどのキャラも[LF]本来のラックに[C4:+99]された[C4:運極]状態で[LF]ラックボーナスが獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46835"
+    },
+    {
+      "id": 17847,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20240714_1.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46836"
+    },
+    {
+      "id": 17848,
+      "text": "[GIMMICK:反撃モード][LF][LF][LC][b:tips_stage_capture_32.png|2.1][LF][LF]敵にダメージを与えると何か効果が発生する[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1716458451,
+      "updated_at": 1716458451,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_116"
+    },
+    {
+      "id": 17849,
+      "text": "[GIMMICK:撃種反撃モード][LF][LF][LC][b:tips_stage_capture_31.png|2.1][LF][LF]赤い部分に反射タイプでふれると何か効果が発生する[LF]青い部分に貫通タイプでふれると何か効果が発生する[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1716458451,
+      "updated_at": 1716458451,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_117"
+    },
+    {
+      "id": 17850,
+      "text": "[LC][SW0.85][C6:コラボスターターパックなどのお楽しみ要素も]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46900"
+    },
+    {
+      "id": 17851,
+      "text": "[b:ba_help_collabo_sazae_01.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46901"
+    },
+    {
+      "id": 17852,
+      "text": "[C5:コラボスターターパック]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46902"
+    },
+    {
+      "id": 17853,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46903"
+    },
+    {
+      "id": 17854,
+      "text": "7/15 0:00～8/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46904"
+    },
+    {
+      "id": 17855,
+      "text": "[C6:ここでのみ入手可能なキャラ]と[LF]各種アイテムがセットになった[LF][C6:コラボスターターパック]が購入可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46905"
+    },
+    {
+      "id": 17856,
+      "text": "[IPJ11399]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46906"
+    },
+    {
+      "id": 17857,
+      "text": "[C5:期間限定ラックボーナス]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46907"
+    },
+    {
+      "id": 17858,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46908"
+    },
+    {
+      "id": 17859,
+      "text": "7/15 0:00～8/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46909"
+    },
+    {
+      "id": 17860,
+      "text": "下記のキャラは期間中[LF]本来のラックに[C4:+99]された[C4:運極]状態で[LF]ラックボーナスが獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46910"
+    },
+    {
+      "id": 17861,
+      "text": "[IPJ11399]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46911"
+    },
+    {
+      "id": 17862,
+      "text": "[IPJ11413]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46912"
+    },
+    {
+      "id": 17863,
+      "text": "[C5:その他お楽しみ要素]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46913"
+    },
+    {
+      "id": 17864,
+      "text": "苺プロのお仕事神経衰弱",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46914"
+    },
+    {
+      "id": 17865,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20240714_1.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_46915"
+    },
+    {
+      "id": 17866,
+      "text": "[C6:カードを揃えて報酬を獲得しよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_47100"
+    },
+    {
+      "id": 17867,
+      "text": "[b:ba_help_collabo_sazae_sb1_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_47101"
+    },
+    {
+      "id": 17868,
+      "text": "ミッションクリアで[C6:神経衰弱に挑戦]して[LF]報酬を獲得しましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_47102"
+    },
+    {
+      "id": 17869,
+      "text": "[C5:ミッションとカードについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_47103"
+    },
+    {
+      "id": 17870,
+      "text": "ミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_47104"
+    },
+    {
+      "id": 17871,
+      "text": "[C6:カードに対応したミッション]をクリアすると[LF]そのカードをめくることができるようになります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_47105"
+    },
+    {
+      "id": 17872,
+      "text": "ミッションクリア！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_47106"
+    },
+    {
+      "id": 17873,
+      "text": "[C6:カードめくりが][LF]　　[C6:可能に！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_47107"
+    },
+    {
+      "id": 17874,
+      "text": "カードは[C6:1日2枚][LF][C6:モンストの日(7/20、7/30)は4枚]まで[LF]めくることができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_47108"
+    },
+    {
+      "id": 17875,
+      "text": "※日付の切り替わりはAM0:00です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_47109"
+    },
+    {
+      "id": 17876,
+      "text": "カード",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_47110"
+    },
+    {
+      "id": 17877,
+      "text": "カードは同じ絵柄が揃うと報酬を獲得できます[LF][LF]揃わなかったカードは[C6:翌日になると裏]へ戻りますが[LF][C6:絵柄は確認できる状態]になっています",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_47111"
+    },
+    {
+      "id": 17878,
+      "text": "神経衰弱失敗！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_47112"
+    },
+    {
+      "id": 17879,
+      "text": "[C5:報酬について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_47113"
+    },
+    {
+      "id": 17880,
+      "text": "神経衰弱報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_47114"
+    },
+    {
+      "id": 17881,
+      "text": "同じ絵柄を揃えると獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_47115"
+    },
+    {
+      "id": 17882,
+      "text": "[C6:神経衰弱成功！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_47116"
+    },
+    {
+      "id": 17883,
+      "text": "[C6:ゲット！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_47117"
+    },
+    {
+      "id": 17884,
+      "text": "ミッションクリア数報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_47118"
+    },
+    {
+      "id": 17885,
+      "text": "ミッションクリア数に応じて獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_47119"
+    },
+    {
+      "id": 17886,
+      "text": "[IPJ11413]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_47120"
+    },
+    {
+      "id": 17887,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20240714_1.html#6|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_47121"
+    },
+    {
+      "id": 17888,
+      "text": "[GIMMICK:多重接触防御ダウン][LF][LF][LC][b:tips_stage_capture_33.png|2.1][LF][LF]対象の敵に一定回数ふれると防御力がダウン[LF]ふれた回数に応じてダウン倍率が上がる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720777958,
+      "updated_at": 1720777958,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_118"
+    },
+    {
+      "id": 17889,
+      "text": "[C28:スタンプ未獲得]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_COIN_STAMP_UNACQUIRED"
+    },
+    {
+      "id": 17890,
+      "text": "[C10:スタンプ獲得済]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_ME_SAZAE_COIN_STAMP_ACQUIRED"
+    },
+    {
+      "id": 17891,
+      "text": "[C28:スタンプ獲得可能]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_ME_SAZAE_COIN_STAMP_CAN_ACQUIRE"
+    },
+    {
+      "id": 17892,
+      "text": "スタンプ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_ME_SAZAE_COIN_STAMP_STAGE_INFO_TAB_TITLE"
+    },
+    {
+      "id": 17893,
+      "text": "1日1回スタンプ報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_ME_SAZAE_COIN_STAMP_STAGE_INFO_TITLE"
+    },
+    {
+      "id": 17894,
+      "text": "獲得したスタンプ数に応じて以下の報酬を獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_ME_SAZAE_COIN_STAMP_STAGE_INFO_DESC1"
+    },
+    {
+      "id": 17895,
+      "text": "※[C6:ソロ]、マルチプレイの[C6:ホスト]、[C6:ゲスト]どのクリアも[LF]対象です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_ME_SAZAE_COIN_STAMP_STAGE_INFO_DESC2"
+    },
+    {
+      "id": 17896,
+      "text": "[LC]1日1回スタンプ獲得[LF][LF]期間中1日1回[LF]クエスト「ぴえヨン式ブートキャンプ」を[LF]クリアでスタンプを1つ獲得できます[LF][LF][LC][NODE][LF][LF]※[C6:ソロ]、マルチプレイの[C6:ホスト]、[C6:ゲスト][LF]どのクリアも対象です[LF][LF][LC][NODE]明日まで表示しない",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_COIN_STAGE_DAILY_MISSION_HINT_DIALOG"
+    },
+    {
+      "id": 17897,
+      "text": "[LC]本日は獲得済みです[LF][LC]毎日0時にリセットされます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_COIN_STAGE_DAILY_MISSION_HINT_DIALOG_DESC"
+    },
+    {
+      "id": 17898,
+      "text": "スタンプ報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_COIN_RESULT_TITLE"
+    },
+    {
+      "id": 17899,
+      "text": "B小町の応援活動",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_CHEERMISSION_TITLE"
+    },
+    {
+      "id": 17900,
+      "text": "7/19 12:00 ～ 8/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_CHEERMISSION_EVENT_PERIOD"
+    },
+    {
+      "id": 17901,
+      "text": "スタミナを消費して[C33:推し]を応援しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_CHEERMISSION_DESC_CHEER"
+    },
+    {
+      "id": 17902,
+      "text": "※クエストクリアでスタミナ分の推しpt獲得",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_CHEERMISSION_GAUGE_TEXT"
+    },
+    {
+      "id": 17903,
+      "text": "最終確認[LF][LF][LC]%sの応援を開始しますか？[LF][LF][LF][LF][LC]%s[LF-43][LF][LF][LC][C6:※1度選んだ推しは変更できません]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_CHEERMISSION_SELECT"
+    },
+    {
+      "id": 17904,
+      "text": "[C6:有馬かな]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_CHEERMISSION_SELECT_CHARNAME_1"
+    },
+    {
+      "id": 17905,
+      "text": "[C6:ルビー]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_CHEERMISSION_SELECT_CHARNAME_2"
+    },
+    {
+      "id": 17906,
+      "text": "[C6:MEMちょ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_CHEERMISSION_SELECT_CHARNAME_3"
+    },
+    {
+      "id": 17907,
+      "text": "[IMG:sazae_sub3_window_ch_1.png|0.62]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_CHEERMISSION_SELECT_CHARIMG_1"
+    },
+    {
+      "id": 17908,
+      "text": "[IMG:sazae_sub3_window_ch_2.png|0.62]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_CHEERMISSION_SELECT_CHARIMG_2"
+    },
+    {
+      "id": 17909,
+      "text": "[IMG:sazae_sub3_window_ch_3.png|0.62]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_CHEERMISSION_SELECT_CHARIMG_3"
+    },
+    {
+      "id": 17910,
+      "text": "[C6:※1度選んだ推しは変更できません]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_CHEERMISSION_SELECT_CHAR_DESC_1"
+    },
+    {
+      "id": 17911,
+      "text": "報酬獲得[LF][LF]以下の報酬を獲得しました[LF][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_CHEERMISSION_RECEIVE"
+    },
+    {
+      "id": 17912,
+      "text": "推しpt獲得報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_CHEERMISSION_RECEIVE_TITLE_1"
+    },
+    {
+      "id": 17913,
+      "text": "推しゲージMAX報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_CHEERMISSION_RECEIVE_TITLE_2"
+    },
+    {
+      "id": 17914,
+      "text": "推しpt",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_CHEERMISSION_RECEIVE_DESC_1"
+    },
+    {
+      "id": 17915,
+      "text": "%d人目",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_CHEERMISSION_RECEIVE_DESC_2"
+    },
+    {
+      "id": 17916,
+      "text": "応援完了",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_CHEERMISSION_RECEIVE_DESC_COMP"
+    },
+    {
+      "id": 17917,
+      "text": "[LC]報酬一覧[LF][LF][LC][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_CHEERMISSION_REWARD"
+    },
+    {
+      "id": 17918,
+      "text": "選んだ推しの推しゲージをMAXにすると獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_CHEERMISSION_REWARD_DESC"
+    },
+    {
+      "id": 17919,
+      "text": "[C6:※1度選んだ推しは変更できません]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_CHEERMISSION_REWARD_DESC_SUB_1"
+    },
+    {
+      "id": 17920,
+      "text": "[C6:※選んだ推しのゲージをMAXにするまで変更できません]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_CHEERMISSION_REWARD_DESC_SUB_2"
+    },
+    {
+      "id": 17921,
+      "text": "有馬かな",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_CHEERMISSION_REWARD_CHARNAME_1"
+    },
+    {
+      "id": 17922,
+      "text": "ルビー",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_CHEERMISSION_REWARD_CHARNAME_2"
+    },
+    {
+      "id": 17923,
+      "text": "MEMちょ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_CHEERMISSION_REWARD_CHARNAME_3"
+    },
+    {
+      "id": 17924,
+      "text": "ぴえヨンコイン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_EXCHANGE_TAB_ORACOIN_COLLABO"
+    },
+    {
+      "id": 17925,
+      "text": "金のぴえヨンコイン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_EXCHANGE_TAB_ORACOIN_GOLD_COLLABO"
+    },
+    {
+      "id": 17926,
+      "text": "%dpt",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_CHEERMISSION_HOMEICON_POINT"
+    },
+    {
+      "id": 17927,
+      "text": "全達成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_ME_SAZAE_MISSION_ALL_CLEAR"
+    },
+    {
+      "id": 17928,
+      "text": "ミッション%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_ME_SAZAE_MISSION_REWARD_LIST_NUM"
+    },
+    {
+      "id": 17929,
+      "text": "%sのカードを揃えよう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1720961346,
+      "updated_at": 1720961346,
+      "label": "eTEXTS_DEF_ME_SAZAE_MISSION_PAIR_REWARD_TITLE"
+    },
+    {
+      "id": 17930,
+      "text": "[LC][S2]本日は獲得済みです[LF][LC][C6:毎日AM0:00]にリセットされます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_ME_SAZAE_COIN_STAMP_STAGE_INFO_DESC3"
+    },
+    {
+      "id": 17931,
+      "text": "推しpt獲得報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_CHEERMISSION_REWARD_TITLE_1"
+    },
+    {
+      "id": 17932,
+      "text": "推しゲージMAX報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_CHEERMISSION_REWARD_TITLE_2"
+    },
+    {
+      "id": 17933,
+      "text": "推しpt",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_CHEERMISSION_REWARD_DESC_1"
+    },
+    {
+      "id": 17934,
+      "text": "%d人目",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_CHEERMISSION_REWARD_DESC_2"
+    },
+    {
+      "id": 17935,
+      "text": "応援完了",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_CHEERMISSION_REWARD_DESC_COMP"
+    },
+    {
+      "id": 17936,
+      "text": "[LC]B小町の応援活動とは[LF][LF][IF_DATE|2024/7/19 12:00:00|2024/7/26 04:00:00][CCB:dlme/help_collabo_sazae_sb3_00_1][ELSE][CCB:dlme/help_collabo_sazae_sb3_00_2][ENDIF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721896274,
+      "label": "eTEXTS_DEF_SAZAE_CHEERMISSION_HELP"
+    },
+    {
+      "id": 17937,
+      "text": "%dpt",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_CHEERMISSION_REWARD_POINTS"
+    },
+    {
+      "id": 17938,
+      "text": "[LC][LF]開催期間は終了しています",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_CHEERMISSION_EXPIRED"
+    },
+    {
+      "id": 17939,
+      "text": "[LC]通信に失敗しました[LF][LF]少し時間を置いてから再度お試しください",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_CHEERMISSION_RECEIVE_ERROR"
+    },
+    {
+      "id": 17940,
+      "text": "[LC]通信に失敗しました[LF][LF]少し時間を置いてから再度お試しください",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_SAZAE_CHEERMISSION_SELECT_ERROR"
+    },
+    {
+      "id": 17941,
+      "text": "ぴえヨン式ブートキャンプ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_46837"
+    },
+    {
+      "id": 17942,
+      "text": "[C5:ぴえヨン]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_46838"
+    },
+    {
+      "id": 17943,
+      "text": "[IPJ11404]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_46839"
+    },
+    {
+      "id": 17944,
+      "text": "[C6:｢真夏のドリームタッグ｣]は[LF]1日1回クリアボーナスで[C6:7体]獲得可能[LF]マルチだと金卵2個以上の排出率がアップします[LF][LF][C5:｢ぴえヨン式ブートキャンプ｣]は[LF]クリア報酬としてぴえヨンコインを獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_46840"
+    },
+    {
+      "id": 17945,
+      "text": "[b:ba_help_collabo_sazae_00_4.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_46841"
+    },
+    {
+      "id": 17946,
+      "text": "ぴえヨン式ブートキャンプ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_46842"
+    },
+    {
+      "id": 17947,
+      "text": "難易度：超究極",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_46843"
+    },
+    {
+      "id": 17948,
+      "text": "[SW0.85][C5:覆面筋トレ系ユーチューバー ぴえヨン]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_46844"
+    },
+    {
+      "id": 17949,
+      "text": "[IPJ11404]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_46845"
+    },
+    {
+      "id": 17950,
+      "text": "クリアすると1日1回金のぴえヨンコインや[LF][C6:コラボ限定グッジョブや勲章]も獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_46846"
+    },
+    {
+      "id": 17951,
+      "text": "[IPJ11399]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_46916"
+    },
+    {
+      "id": 17952,
+      "text": "[IPJ11413]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_46917"
+    },
+    {
+      "id": 17953,
+      "text": "[IPJ11414]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_46918"
+    },
+    {
+      "id": 17954,
+      "text": "100pt",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_46919"
+    },
+    {
+      "id": 17955,
+      "text": "B小町の応援活動",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_46920"
+    },
+    {
+      "id": 17956,
+      "text": "[LC][SW0.9][C6:コインを集めてアイテムと引き換えをしよう]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_47000"
+    },
+    {
+      "id": 17957,
+      "text": "[b:ba_help_collabo_sazae_sb2_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_47001"
+    },
+    {
+      "id": 17958,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_47002"
+    },
+    {
+      "id": 17959,
+      "text": "7/20 12:00～8/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_47003"
+    },
+    {
+      "id": 17960,
+      "text": "[C5:ぴえヨンコインについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_47004"
+    },
+    {
+      "id": 17961,
+      "text": "[C5:｢ぴえヨン式ブートキャンプ｣]をクリアすると[LF]報酬として[C6:アイテム引き換えに使える][LF][C6:ぴえヨンコイン]を獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_47005"
+    },
+    {
+      "id": 17962,
+      "text": "[C5:難易度：究極について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_47006"
+    },
+    {
+      "id": 17963,
+      "text": "クリアすると報酬でぴえヨンコインが獲得できます[LF]またステージに登場する[C6:ぴえヨンボックス]を壊すと[LF]極まれに[C6:金のぴえヨンコイン]が獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_47007"
+    },
+    {
+      "id": 17964,
+      "text": "[C5:難易度：超究極について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_47008"
+    },
+    {
+      "id": 17965,
+      "text": "難易度：究極をクリアすると挑戦可能になります[LF][LF][C6:超究極をクリア]するとスタンプ報酬として[LF]1日1回だけ金のぴえヨンコインや[LF]コラボ限定グッジョブ、勲章が獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_47009"
+    },
+    {
+      "id": 17966,
+      "text": "[C5:引き換えについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_47010"
+    },
+    {
+      "id": 17967,
+      "text": "総合引き換え所にてアイテムと引き換えができます[LF][LF][C6:ぴえヨンコイン]と[C6:金のぴえヨンコイン]では[LF]引き換えできるアイテムが異なります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_47011"
+    },
+    {
+      "id": 17968,
+      "text": "[IPJ11414]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_47012"
+    },
+    {
+      "id": 17969,
+      "text": "[IPJ11404]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_47013"
+    },
+    {
+      "id": 17970,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20240714_1.html#16|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_47014"
+    },
+    {
+      "id": 17971,
+      "text": "[C6:ぴえヨンコインを集めて引き換えよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_47200"
+    },
+    {
+      "id": 17972,
+      "text": "[b:ba_help_collabo_sazae_sb2_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_47201"
+    },
+    {
+      "id": 17973,
+      "text": "引換期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_47202"
+    },
+    {
+      "id": 17974,
+      "text": "7/20 12:00～8/5 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_47203"
+    },
+    {
+      "id": 17975,
+      "text": "[C5:ぴえヨンコインについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_47204"
+    },
+    {
+      "id": 17976,
+      "text": "[C6:コラボキャラ]や[C6:コラボ限定称号]などと[LF]引き換えることができるアイテムです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_47205"
+    },
+    {
+      "id": 17977,
+      "text": "[C5:｢ぴえヨン式ブートキャンプ｣]をクリアすると[LF]獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_47206"
+    },
+    {
+      "id": 17978,
+      "text": "クエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_47207"
+    },
+    {
+      "id": 17979,
+      "text": "[IPJ11404]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_47208"
+    },
+    {
+      "id": 17980,
+      "text": "[C6:ゲット！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_47209"
+    },
+    {
+      "id": 17981,
+      "text": "[C5:引き換えについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_47210"
+    },
+    {
+      "id": 17982,
+      "text": "コインを使用してアイテムと引き換えができます[LF][LF][C6:ぴえヨンコイン]と[C6:金のぴえヨンコイン]では[LF]引き換えできるアイテムが異なります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_47211"
+    },
+    {
+      "id": 17983,
+      "text": "[IPJ11414]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_47212"
+    },
+    {
+      "id": 17984,
+      "text": "[IPJ11404]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_47213"
+    },
+    {
+      "id": 17985,
+      "text": "[C6:ロックされたアイテムは][LF][C6:一定の条件を達成]すると引き換え可能になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_47214"
+    },
+    {
+      "id": 17986,
+      "text": "戦型の書",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_47215"
+    },
+    {
+      "id": 17987,
+      "text": "25000",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_47216"
+    },
+    {
+      "id": 17988,
+      "text": "0/1",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_47217"
+    },
+    {
+      "id": 17989,
+      "text": "条件はアイテムをタップすると確認可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1721296125,
+      "updated_at": 1721296125,
+      "label": "eTEXTS_DEF_47218"
+    }
+  ]
+}

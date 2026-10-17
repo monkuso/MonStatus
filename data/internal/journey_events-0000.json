@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "table": "journey_events",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "start_at": 1780110000,
+      "end_at": 1788231599,
+      "convert_start_at": 1788289200,
+      "convert_end_at": 1790881199,
+      "convert_item_id": 19,
+      "convert_item_cnt_rate": 500,
+      "receive_box_title": "【転界の遺跡】召喚の鍵に応じた魂気の付与について",
+      "receive_box_message": "[C9:召喚の鍵の所持数に応じた魂気の付与][LF][LF][LC][IA19][LF][LF]｢転界の遺跡｣終了時に｢召喚の鍵｣を[LF]<total_ticket_cnt>個所持していたので魂気<converted_cnt>個を付与いたします。[LF]受け取りボタンよりお受け取りください。",
+      "created_at": 1779966270,
+      "updated_at": 1780939743
+    }
+  ]
+}

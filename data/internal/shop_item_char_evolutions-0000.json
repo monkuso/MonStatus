@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "table": "shop_item_char_evolutions",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "shop_item_id": 7502,
+      "evolution_type_id": 1,
+      "evolution_id": 93540,
+      "created_at": 1646045887,
+      "updated_at": 1646045887
+    },
+    {
+      "id": 2,
+      "shop_item_id": 7502,
+      "evolution_type_id": 0,
+      "evolution_id": 93541,
+      "created_at": 1646045887,
+      "updated_at": 1646045887
+    },
+    {
+      "id": 3,
+      "shop_item_id": 7654,
+      "evolution_type_id": 0,
+      "evolution_id": 99790,
+      "created_at": 1665050564,
+      "updated_at": 1665050564
+    },
+    {
+      "id": 4,
+      "shop_item_id": 7654,
+      "evolution_type_id": 0,
+      "evolution_id": 99781,
+      "created_at": 1665050564,
+      "updated_at": 1665050564
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "table": "char_sort_abilities",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 21301,
+      "name": "滅竜魔導士",
+      "group_id": 21300,
+      "type_id": 51,
+      "target_id": 1,
+      "value": 75,
+      "created_at": 1786550549,
+      "updated_at": 1786550549,
+      "name_id": null,
+      "description": null
+    },
+    {
+      "id": 21400,
+      "name": "立体機動装置",
+      "group_id": 21400,
+      "type_id": 7,
+      "target_id": 0,
+      "value": 0,
+      "created_at": 1786550549,
+      "updated_at": 1786550549,
+      "name_id": null,
+      "description": "ショット時に地雷に当たらない[LF]種族「巨人」の敵に対して攻撃力が1.5倍になる"
+    },
+    {
+      "id": 21401,
+      "name": "立体機動装置",
+      "group_id": 21400,
+      "type_id": 6,
+      "target_id": 38,
+      "value": 150,
+      "created_at": 1786550549,
+      "updated_at": 1786550549,
+      "name_id": null,
+      "description": null
+    },
+    {
+      "id": 21500,
+      "name": "新型立体機動装置",
+      "group_id": 21500,
+      "type_id": 7,
+      "target_id": 0,
+      "value": 0,
+      "created_at": 1786550549,
+      "updated_at": 1786550549,
+      "name_id": null,
+      "description": "ショット時に地雷に当たらない[LF]種族「巨人」の敵に対して攻撃力が2倍になる"
+    },
+    {
+      "id": 21501,
+      "name": "新型立体機動装置",
+      "group_id": 21500,
+      "type_id": 6,
+      "target_id": 38,
+      "value": 200,
+      "created_at": 1786550549,
+      "updated_at": 1786550549,
+      "name_id": null,
+      "description": null
+    },
+    {
+      "id": 30000,
+      "name": "-",
+      "group_id": 30000,
+      "type_id": 0,
+      "target_id": 0,
+      "value": 0,
+      "created_at": 1786550549,
+      "updated_at": 1786550549,
+      "name_id": null,
+      "description": null
+    }
+  ]
+}

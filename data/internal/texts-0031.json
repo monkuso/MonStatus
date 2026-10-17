@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 1,
+  "table": "texts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 8000,
+      "text": "海域総ラックボーナス",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_MSG_OCEAN_TOTALLUCK"
+    },
+    {
+      "id": 8001,
+      "text": "%sの[LUCK]を集めて、報酬を手に入れよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_MSG_OCEAN_TOTALLUCK_DESCRIPTION"
+    },
+    {
+      "id": 8002,
+      "text": "対象モンスター",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_MSG_OCEAN_TOTALLUCK_TARGETCHAR_NORMAL"
+    },
+    {
+      "id": 8003,
+      "text": "対象キャラ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_MSG_OCEAN_TOTALLUCK_TARGETCHAR_EVENT"
+    },
+    {
+      "id": 8004,
+      "text": "？？？",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_MSG_OCEAN_TOTALLUCK_QUESTTITLE_BLANK"
+    },
+    {
+      "id": 8005,
+      "text": "総ラック数を[LUCK][C4:%d]にせよ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_MSG_OCEAN_TOTALLUCK_REWARDTABLE"
+    },
+    {
+      "id": 8006,
+      "text": "[LC]秘海の冒険船[LF][LF][TAB:秘海の冒険船とは][CCB:dlme/help_ocean_00][TAB:ストーンワールド][CCB:dlme/help_collabo_plane_ocean_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_OCEAN_MSG_HELP_COLLABO"
+    },
+    {
+      "id": 8007,
+      "text": "[LF][LC]イベント期間が終了しました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_OCEAN_MSG_OUTSIDE_PERIOD_EXCHANGE_COLLABO"
+    },
+    {
+      "id": 8008,
+      "text": "秘海石",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626129143,
+      "updated_at": 1626129143,
+      "label": "eTEXTS_DEF_OCEAN_STAGE_DROP_POINT"
+    },
+    {
+      "id": 8009,
+      "text": "石化復活液",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_OCEAN_STAGE_DROP_POINT_COLLABO"
+    },
+    {
+      "id": 8010,
+      "text": "本日は[C6:船の日！]お宝釣りと秘海石引き換えを確認しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_OCEAN_SHIPDAY_EVENT"
+    },
+    {
+      "id": 8011,
+      "text": "[LC]アイテムが足りません[LF][WIDTH500][LF][LC]%sが足りません[LF][MARGIN20][LF][LC][NODE][MARGIN20][LF][LC][S2]必要%s：[C6:%s][LF][LF][LC][MARGIN15][LF][LC][NODE][MARGIN40][LF][LC]%sを%sと引き換えて[LF][LC]使用しますか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_MSG_OCEAN_USE_ITEM_LACK_ERR"
+    },
+    {
+      "id": 8012,
+      "text": "強化素材",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_OCEAN_EXCHANGE_CATEGORY_6"
+    },
+    {
+      "id": 8013,
+      "text": "[LC]引き換え不可[LF][LF][LC][C6:%s]の総ラック数は現在[LUCK]%dです[LF]総ラック数を[LUCK]%dにすると引き換え可能になります",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_OCEAN_EXCHANGE_USER_LUCK_ERR"
+    },
+    {
+      "id": 8014,
+      "text": "※余ったラックは繰り越されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_MSG_OCEAN_RESULT_CARRY_OVER_REWARD"
+    },
+    {
+      "id": 8015,
+      "text": "[LC][C6:%s]を所持していません[LF][LF][LC][C6:%s]は獅子王司を[LF][LC]すぐに出現させることができるアイテムです[LF][LC]海域総ラックボーナスが貯まると獲得できます",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_MSG_OCEAN_SEARCHCOMPASS_NOITEM_PLANE"
+    },
+    {
+      "id": 8016,
+      "text": "[LC]海域総ラックボーナス報酬[LF][LF][LC][b:ocean_unlock_banner.png][LF][LC][NODE][LF][LC][C6:%s]の引き換えができるようになりました。[LF][LC]※引き換えには秘海石が必要です",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_MSG_OCEAN_NOTICE_PLANE_EXPANSION"
+    },
+    {
+      "id": 8017,
+      "text": "[LF][LC]獅子王司を見失いました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_OCEAN_MSG_OUTSIDE_PERIOD_EX_PLANE"
+    },
+    {
+      "id": 8018,
+      "text": "引き換え後の所持数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_ME_EXCHABGE_HAVE_NUM"
+    },
+    {
+      "id": 8019,
+      "text": "[C5:海域総ラックボーナス]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_23952"
+    },
+    {
+      "id": 8020,
+      "text": "海域ごとに対象キャラの合計ラック数が一定数以上に[LF]なると秘海玉やサーチコンパスを獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1654771580,
+      "label": "eTEXTS_DEF_23953"
+    },
+    {
+      "id": 8021,
+      "text": "サーチコンパス",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_23954"
+    },
+    {
+      "id": 8022,
+      "text": "海域内に潜むアポストロスを[LF][C6:すぐに発見]することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_23955"
+    },
+    {
+      "id": 8023,
+      "text": "※海域ごとに使用できるサーチコンパスが異なります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_23956"
+    },
+    {
+      "id": 8024,
+      "text": "[C5:船の日]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_23957"
+    },
+    {
+      "id": 8025,
+      "text": "[C6:毎月8日、18日、28日]は船の日！[LF]対象の日は冒険船内で特別な特典があります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_23958"
+    },
+    {
+      "id": 8026,
+      "text": "特典一覧",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_23959"
+    },
+    {
+      "id": 8027,
+      "text": "通常、1日1回のお宝釣りの回数を[C6:1回]増加します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1654771580,
+      "label": "eTEXTS_DEF_23960"
+    },
+    {
+      "id": 8028,
+      "text": "[C6:本日は船の日！お宝釣り+1回]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1655192551,
+      "label": "eTEXTS_DEF_23961"
+    },
+    {
+      "id": 8029,
+      "text": "お宝釣り",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_23962"
+    },
+    {
+      "id": 8030,
+      "text": "船の日限定で秘海石引き換えにアイテムが追加されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_23963"
+    },
+    {
+      "id": 8031,
+      "text": "アイテム追加！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_23964"
+    },
+    {
+      "id": 8032,
+      "text": "秘海石引き換え",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_23965"
+    },
+    {
+      "id": 8033,
+      "text": "[SCTR:22|0|0|秘海の冒険船へ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27300"
+    },
+    {
+      "id": 8034,
+      "text": "[SW0.88][C6:Ｄｒ．ＳＴＯＮＥの世界がモンストに登場！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27301"
+    },
+    {
+      "id": 8035,
+      "text": "[b:ba_help_collabo_plane_00_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27302"
+    },
+    {
+      "id": 8036,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27303"
+    },
+    {
+      "id": 8037,
+      "text": "8/2 12:00 ～ 8/31 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27304"
+    },
+    {
+      "id": 8038,
+      "text": "引換期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27305"
+    },
+    {
+      "id": 8039,
+      "text": "8/2 12:00 ～ 9/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27306"
+    },
+    {
+      "id": 8040,
+      "text": "[C5:ストーンワールドが登場！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27307"
+    },
+    {
+      "id": 8041,
+      "text": "秘海の冒険船に[LF]Ｄｒ．ＳＴＯＮＥの海域[C6:｢ストーンワールド｣]が登場！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27308"
+    },
+    {
+      "id": 8042,
+      "text": "[C5:千空たちを仲間に！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27309"
+    },
+    {
+      "id": 8043,
+      "text": "[C6:｢ストーンワールド｣]で獲得できる[C6:｢石化復活液｣]を[LF]集めて、千空たちを仲間にしよう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27310"
+    },
+    {
+      "id": 8044,
+      "text": "石化復活液",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27311"
+    },
+    {
+      "id": 8045,
+      "text": "[IP8882]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27312"
+    },
+    {
+      "id": 8046,
+      "text": "[IP8880]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27313"
+    },
+    {
+      "id": 8047,
+      "text": "[IP8881]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27314"
+    },
+    {
+      "id": 8048,
+      "text": "[C5:石化復活液の入手方法]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27315"
+    },
+    {
+      "id": 8049,
+      "text": "｢ストーンワールド｣での[C6:クエストをクリア]したり、[LF]期間限定の[C6:顔合わせミッション]などで獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27316"
+    },
+    {
+      "id": 8050,
+      "text": "クエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27317"
+    },
+    {
+      "id": 8051,
+      "text": "[C5:海域クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27318"
+    },
+    {
+      "id": 8052,
+      "text": "[C6:｢ストーンワールド｣]を航海すると[LF]それぞれのキャラがいる島に到着し、[LF]その島のクエストをプレイできます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27319"
+    },
+    {
+      "id": 8053,
+      "text": "[SGBI160360|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27320"
+    },
+    {
+      "id": 8054,
+      "text": "[SGBI160370|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27321"
+    },
+    {
+      "id": 8055,
+      "text": "[SGBI160380|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27322"
+    },
+    {
+      "id": 8056,
+      "text": "[SGBI160390|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27323"
+    },
+    {
+      "id": 8057,
+      "text": "※クエストはクリアするまで何度でも挑戦可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27324"
+    },
+    {
+      "id": 8058,
+      "text": "[C6:石化復活液を集めよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27325"
+    },
+    {
+      "id": 8059,
+      "text": "[b:ba_help_collabo_plane_00_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27326"
+    },
+    {
+      "id": 8060,
+      "text": "[C5:石化復活液引き換えについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27327"
+    },
+    {
+      "id": 8061,
+      "text": "集めた石化復活液は、コラボ限定キャラや[LF]アイテムと引き換えることができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27328"
+    },
+    {
+      "id": 8062,
+      "text": "モンスト号",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27329"
+    },
+    {
+      "id": 8063,
+      "text": "[IP8880]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27330"
+    },
+    {
+      "id": 8064,
+      "text": "ここでしか手に入らない[C6:コラボ限定グッジョブ]が登場！[LF]石化復活液で引き換えよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27331"
+    },
+    {
+      "id": 8065,
+      "text": "[IS183|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27332"
+    },
+    {
+      "id": 8066,
+      "text": "[IS184|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27333"
+    },
+    {
+      "id": 8067,
+      "text": "[IS185|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27334"
+    },
+    {
+      "id": 8068,
+      "text": "[IS186|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27335"
+    },
+    {
+      "id": 8069,
+      "text": "[IS187|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27336"
+    },
+    {
+      "id": 8070,
+      "text": "[IS188|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27337"
+    },
+    {
+      "id": 8071,
+      "text": "※アイテムごとに引き換え上限が異なります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27338"
+    },
+    {
+      "id": 8072,
+      "text": "[C6:霊長類最強 獅子王司が出現！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27339"
+    },
+    {
+      "id": 8073,
+      "text": "[b:ba_help_collabo_plane_00_3.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27340"
+    },
+    {
+      "id": 8074,
+      "text": "[C5:獅子王司に挑戦しよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27341"
+    },
+    {
+      "id": 8075,
+      "text": "島でのクエストクリアで[C6:★6 霊長類最強 獅子王司]の[LF]クエストが稀に出現します！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27342"
+    },
+    {
+      "id": 8076,
+      "text": "獅子王司 出現！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27343"
+    },
+    {
+      "id": 8077,
+      "text": "[SGBI160410|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27344"
+    },
+    {
+      "id": 8078,
+      "text": "出現時から[C6:24時間以内]に挑戦しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27345"
+    },
+    {
+      "id": 8079,
+      "text": "※マルチで挑戦するにはホスト・ゲスト共に、[LF]　[C6:クエストが出現している必要]があります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27346"
+    },
+    {
+      "id": 8080,
+      "text": "[C5:獅子王司の進化解放]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27347"
+    },
+    {
+      "id": 8081,
+      "text": "対象の[C6:コラボキャラクターを全て運極]にすると[LF][C6:★6 数千年後の再会 獅子王司＆未来]への進化が解放！[LF][C6:★6 霊長類最強 獅子王司]からいつでも進化可能に",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27348"
+    },
+    {
+      "id": 8082,
+      "text": "[IP8889]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27349"
+    },
+    {
+      "id": 8083,
+      "text": "[IP8890]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27350"
+    },
+    {
+      "id": 8084,
+      "text": "※進化解放はミッションから受け取れます[LF][LF]※詳細は[u:https://www.monster-strike.com/news/20210728_3.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27351"
+    },
+    {
+      "id": 8085,
+      "text": "ずっとこの瞬間（とき）を",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27352"
+    },
+    {
+      "id": 8086,
+      "text": "[C5:氷月]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27353"
+    },
+    {
+      "id": 8087,
+      "text": "[IP8886]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27354"
+    },
+    {
+      "id": 8088,
+      "text": "[C6:ストーンワールドを冒険しよう]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27400"
+    },
+    {
+      "id": 8089,
+      "text": "[b:ba_help_collabo_plane_ocean_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27401"
+    },
+    {
+      "id": 8090,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27402"
+    },
+    {
+      "id": 8091,
+      "text": "8/2 12:00 ～ 8/31 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27403"
+    },
+    {
+      "id": 8092,
+      "text": "引換期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27404"
+    },
+    {
+      "id": 8093,
+      "text": "8/2 12:00 ～ 9/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27405"
+    },
+    {
+      "id": 8094,
+      "text": "[C5:出航について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_27406"
+    },
+    {
+      "id": 8095,
+      "text": "ストーンワールド内には他の海域と同時に[LF]出航することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27407"
+    },
+    {
+      "id": 8096,
+      "text": "出航！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27408"
+    },
+    {
+      "id": 8097,
+      "text": "出航して[C6:４時間が経過すると]ストーンワールド内の[LF]どこかに到着し、[C6:クエストが１つ出現]します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27409"
+    },
+    {
+      "id": 8098,
+      "text": "クエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27410"
+    },
+    {
+      "id": 8099,
+      "text": "あと3:20",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27411"
+    },
+    {
+      "id": 8100,
+      "text": "[C6:到着！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27412"
+    },
+    {
+      "id": 8101,
+      "text": "※他の海域同様に｢スキップして再出航｣が可能です[LF][LF]※クエストはクリアするまで何度でも挑戦可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27413"
+    },
+    {
+      "id": 8102,
+      "text": "[C6:霊長類最強 獅子王司が出現！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27414"
+    },
+    {
+      "id": 8103,
+      "text": "[b:ba_help_collabo_plane_00_3.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27415"
+    },
+    {
+      "id": 8104,
+      "text": "[C5:獅子王司に挑戦しよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27416"
+    },
+    {
+      "id": 8105,
+      "text": "ストーンワールド内のクエストクリアで、[LF][C6:霊長類最強 獅子王司]のクエストが稀に出現します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27417"
+    },
+    {
+      "id": 8106,
+      "text": "獅子王司 出現！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27418"
+    },
+    {
+      "id": 8107,
+      "text": "[SGBI160410|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27419"
+    },
+    {
+      "id": 8108,
+      "text": "出現時から[C6:24時間以内]に挑戦しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27420"
+    },
+    {
+      "id": 8109,
+      "text": "マルチで挑戦するには",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27421"
+    },
+    {
+      "id": 8110,
+      "text": "ホスト・ゲスト共に[C6:獅子王司のクエストが][LF][C6:出現している必要]があります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27422"
+    },
+    {
+      "id": 8111,
+      "text": "獅子王司のクエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27423"
+    },
+    {
+      "id": 8112,
+      "text": "クエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27424"
+    },
+    {
+      "id": 8113,
+      "text": "挑戦回数について",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27425"
+    },
+    {
+      "id": 8114,
+      "text": "獅子王司のクエストは[C6:ソロ、ホスト・ゲストを][LF][C6:問わず一度の出撃で1回のみ]挑戦することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27426"
+    },
+    {
+      "id": 8115,
+      "text": "[C5:海域総ラックボーナス]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27427"
+    },
+    {
+      "id": 8116,
+      "text": "対象のコラボキャラの合計ラック数が一定数以上になると[LF][C6:石化復活液]や[C6:ケータイ]などを獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27428"
+    },
+    {
+      "id": 8117,
+      "text": "[C5:ストーンワールド専用アイテム]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27429"
+    },
+    {
+      "id": 8118,
+      "text": "ケータイ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27430"
+    },
+    {
+      "id": 8119,
+      "text": "獅子王司のクエストを[LF][C6:すぐに出現]させることができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27431"
+    },
+    {
+      "id": 8120,
+      "text": "[C6:石化復活液を集めよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27432"
+    },
+    {
+      "id": 8121,
+      "text": "[b:ba_help_collabo_plane_00_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27433"
+    },
+    {
+      "id": 8122,
+      "text": "[C5:石化復活液とは]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27434"
+    },
+    {
+      "id": 8123,
+      "text": "コラボ限定キャラやアイテムと[LF]引き換えができるアイテムです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27435"
+    },
+    {
+      "id": 8124,
+      "text": "石化復活液の入手方法",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27436"
+    },
+    {
+      "id": 8125,
+      "text": "ストーンワールド内の[C6:クエストクリア]や[LF][C6:海域総ラックボーナス]などで石化復活液が手に入ります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27437"
+    },
+    {
+      "id": 8126,
+      "text": "クエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27438"
+    },
+    {
+      "id": 8127,
+      "text": "石化復活液排出 対象クエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27439"
+    },
+    {
+      "id": 8128,
+      "text": "[SGBI160410|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27440"
+    },
+    {
+      "id": 8129,
+      "text": "[SGBI160360|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27441"
+    },
+    {
+      "id": 8130,
+      "text": "[SGBI160370|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27442"
+    },
+    {
+      "id": 8131,
+      "text": "[SGBI160380|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27443"
+    },
+    {
+      "id": 8132,
+      "text": "[SGBI160390|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27444"
+    },
+    {
+      "id": 8133,
+      "text": "[SGBI160400|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27445"
+    },
+    {
+      "id": 8134,
+      "text": "[C5:石化復活液引き換えについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27446"
+    },
+    {
+      "id": 8135,
+      "text": "集めた石化復活液は、コラボ限定キャラや[LF]アイテムと引き換えることができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27447"
+    },
+    {
+      "id": 8136,
+      "text": "モンスト号",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27448"
+    },
+    {
+      "id": 8137,
+      "text": "[IP8880]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27449"
+    },
+    {
+      "id": 8138,
+      "text": "ここでしか手に入らない[C6:コラボ限定グッジョブ]も登場！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27450"
+    },
+    {
+      "id": 8139,
+      "text": "[IS183|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27451"
+    },
+    {
+      "id": 8140,
+      "text": "[IS184|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27452"
+    },
+    {
+      "id": 8141,
+      "text": "[IS185|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27453"
+    },
+    {
+      "id": 8142,
+      "text": "[IS186|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27454"
+    },
+    {
+      "id": 8143,
+      "text": "[IS187|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27455"
+    },
+    {
+      "id": 8144,
+      "text": "[IS188|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27456"
+    },
+    {
+      "id": 8145,
+      "text": "※アイテムごとに引き換え上限が異なります[LF][LF]※詳細は[u:https://www.monster-strike.com/news/20210728_3.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27457"
+    },
+    {
+      "id": 8146,
+      "text": "ずっとこの瞬間（とき）を",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27458"
+    },
+    {
+      "id": 8147,
+      "text": "[C5:氷月]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27459"
+    },
+    {
+      "id": 8148,
+      "text": "[IP8886]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645638,
+      "updated_at": 1627645638,
+      "label": "eTEXTS_DEF_27460"
+    },
+    {
+      "id": 8149,
+      "text": "[LC]アビリティ詳細[LF][LF][ABILITY:1241][LF][ABILITY:1243][LF][ABILITY:1245][LF][ABILITY:1247]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1628155481,
+      "updated_at": 1628155481,
+      "label": "eTEXTS_DEF_ABILITY_HELP_39"
+    },
+    {
+      "id": 8150,
+      "text": "[LC]峻烈なる天空の支配者 真・ホルスを手に入れろ！[LF][LF]このクエストをクリアすると、ミッション報酬で[LF][C3:★5 真・ホルス]を[C3:★6 峻烈なる天空の支配者 真・ホルス][LF]に進化させる事ができるようになるぞ！[LF][LF]このクエストに挑むには[LF]クエスト[C3:「王家を守護せし天空神」]の[C6:究極]をクリアしよう！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1629280029,
+      "updated_at": 1629280029,
+      "label": "eTEXTS_DEF_20945"
+    },
+    {
+      "id": 8151,
+      "text": "「王家を守護せし天空神」クリアで挑戦可",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1629280029,
+      "updated_at": 1629280029,
+      "label": "eTEXTS_DEF_20946"
+    },
+    {
+      "id": 8152,
+      "text": "[LC]挑戦できません[LF][LF]このクエストに参加するには[LF]クエスト[C3:「王家を守護せし天空神」]の[C6:究極]を[LF]クリアする必要があります[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1629280029,
+      "updated_at": 1629280029,
+      "label": "eTEXTS_DEF_20947"
+    },
+    {
+      "id": 8153,
+      "text": "[LC]アイテム詳細[LF][LF][LC][S2]%s[MARGIN10][LF][LC][NODE][LF]%s[MARGIN20][LF][LC][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1629907082,
+      "updated_at": 1629907082,
+      "label": "eTEXTS_DEF_MSG_DETAIL_REWARD_INFO"
+    },
+    {
+      "id": 8154,
+      "text": "入手状況",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1629907082,
+      "updated_at": 1629907082,
+      "label": "eTEXTS_DEF_SHINJU_HELP_CHECK_LUCK"
+    },
+    {
+      "id": 8155,
+      "text": "[LC]入手状況[LF][LF][TI:神獣][LF][IPLCJ4101][IPLCJ5035][IPLCJ6741][IPLCJ7749][IPLCJ12940][LF88][TI:聖域の狩人][LF][IPLCJ4103][IPLCJ4105][IPLCJ4107][IPLCJ4109][IPLCJ5037][LF88][IPLCJ5039][IPLCJ5041][IPLCJ5043][IPLCJ6745][IPLCJ6747][LF88][IPLCJ6749][IPLCJ6751][IPLCJ7751][IPLCJ7753][IPLCJ7755][LF88][IPLCJ7757][IPLCJ12936][IPLCJ12937][IPLCJ12938][IPLCJ12939][LF88]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1629907082,
+      "updated_at": 1784804806,
+      "label": "eTEXTS_DEF_MESSAGE_SHINJU_HELP_LUCK_CHECK"
+    },
+    {
+      "id": 8156,
+      "text": "[LC]エラー[LF][LF]既にホシ玉でキャラを選択済みです[LF][LF]OKボタン押下でホーム画面に遷移します",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1631787514,
+      "updated_at": 1631787514,
+      "label": "eTEXTS_DEF_MSG_SELECTABLEPOINTGACHA_ERROR_ALREADY_ACQUIRED"
+    },
+    {
+      "id": 8157,
+      "text": "[LC]エラー[LF][LF]別の端末でホシ玉のキャラを選択中のため[LF]ガチャを引くことができません[LF][LF]OKボタン押下でタイトルに戻ります",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1631787514,
+      "updated_at": 1631787514,
+      "label": "eTEXTS_DEF_MSG_SELECTABLEPOINTGACHA_ERROR_NOT_ALLOW_OTHER"
+    },
+    {
+      "id": 8158,
+      "text": "[LC]エラー[LF][LF]まだホシ玉でキャラを選択していません[LF][LF]OKボタン押下でタイトルに戻ります[LF]画面を進めてキャラを選択してください",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1631787514,
+      "updated_at": 1631787514,
+      "label": "eTEXTS_DEF_MSG_SELECTABLEPOINTGACHA_ERROR_HAS_CHAR"
+    },
+    {
+      "id": 8159,
+      "text": "[LC]エラー[LF][LF]ホシ玉の情報にエラーが発生しました[LF][LF]OKボタン押下でタイトルに戻ります[LF][LF]解決しない場合はサポートにお問い合わせください[LF][LF][LC][u:%s|お問い合わせ][LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1631787514,
+      "updated_at": 1631787514,
+      "label": "eTEXTS_DEF_MSG_SELECTABLEPOINTGACHA_ERROR_SELECTABLELIST_NONE"
+    },
+    {
+      "id": 8160,
+      "text": "現在フレンド依頼はありません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1629907082,
+      "updated_at": 1629907082,
+      "label": "eTEXTS_DEF_ME_MAILFRIEND_NOT_FOUND_REQUEST"
+    },
+    {
+      "id": 8161,
+      "text": "[LC]フレンド申請・承認とは[LF][LF][TAB:申請][CCB:dlme/help_friend_request_01][TAB:承認][CCB:dlme/help_friend_request_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1629907082,
+      "updated_at": 1699894492,
+      "label": "eTEXTS_DEF_ME_MAILFRIEND_HELP"
+    },
+    {
+      "id": 8162,
+      "text": "[LC]対象クエスト[LF][LF][LF]%s",
+      "layout": 26,
+      "color": 0,
+      "created_at": 1629907082,
+      "updated_at": 1629907082,
+      "label": "eTEXTS_DEF_CHAR_RESERVATIONS_CONFIRM"
+    },
+    {
+      "id": 8163,
+      "text": "繰り返し予約してラックを集めよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1629907082,
+      "updated_at": 1629907082,
+      "label": "eTEXTS_DEF_MSG_CHAR_RESERVATIONS_INFO"
+    },
+    {
+      "id": 8164,
+      "text": "[C6:依頼を承認してフレンドになろう]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1629907082,
+      "updated_at": 1629907082,
+      "label": "eTEXTS_DEF_28000"
+    },
+    {
+      "id": 8165,
+      "text": "[C5:フレンド承認について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1629907082,
+      "updated_at": 1699894492,
+      "label": "eTEXTS_DEF_28001"
+    },
+    {
+      "id": 8166,
+      "text": "フレンド承認には、他のストライカーから[LF]申請された[C6:フレンド依頼]が表示されます[LF][LF][C6:依頼を承認する]と[LF][C6:フレンド]になることができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1629907082,
+      "updated_at": 1699894492,
+      "label": "eTEXTS_DEF_28002"
+    },
+    {
+      "id": 8167,
+      "text": "[C5:依頼の受け取り上限数について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1629907082,
+      "updated_at": 1629907082,
+      "label": "eTEXTS_DEF_28003"
+    },
+    {
+      "id": 8168,
+      "text": "[C6:フレンド依頼は50件まで]受け取ることが[LF]できます[LF][LF]51件以上依頼がある場合は古いものから[LF]順次削除されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1629907082,
+      "updated_at": 1629907082,
+      "label": "eTEXTS_DEF_28004"
+    },
+    {
+      "id": 8169,
+      "text": "[LC]ミッション詳細[LF][LF][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1629907082,
+      "updated_at": 1629907082,
+      "label": "eTEXTS_DEF_MSG_DETAIL_MISSION_INFO"
+    },
+    {
+      "id": 8170,
+      "text": "対象難易度",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1629907082,
+      "updated_at": 1629907082,
+      "label": "eTEXTS_DEF_MISSION_INFO_TARGET_DIFFICULTY"
+    },
+    {
+      "id": 8171,
+      "text": "入手方法",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1629907082,
+      "updated_at": 1629907082,
+      "label": "eTEXTS_DEF_MISSION_INFO_TARGET_ROUTE"
+    },
+    {
+      "id": 8172,
+      "text": "轟絶・極",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1629907082,
+      "updated_at": 1629907082,
+      "label": "eTEXTS_DEF_FILTER_WINDOW_DIFFICULTY_GOUZETSU_KIWAMI"
+    },
+    {
+      "id": 8173,
+      "text": "轟絶・究極",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1629907082,
+      "updated_at": 1629907082,
+      "label": "eTEXTS_DEF_FILTER_WINDOW_DIFFICULTY_GOUZETSU_KYUKYOKU"
+    },
+    {
+      "id": 8174,
+      "text": "（※訓練場は完遂のみ対象）",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1629907082,
+      "updated_at": 1682755281,
+      "label": "eTEXTS_DEF_MSG_EXCLUDE_PLACTICE"
+    },
+    {
+      "id": 8175,
+      "text": "：プレミアムガチャで[LF]入手できるキャラクター",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1629907082,
+      "updated_at": 1629907082,
+      "label": "eTEXTS_DEF_MSG_MISSION_INFO_INCLUDE_PREMIUM"
+    },
+    {
+      "id": 8176,
+      "text": "：プレミアムガチャ以外で[LF]入手できるキャラクター",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1629907082,
+      "updated_at": 1629907082,
+      "label": "eTEXTS_DEF_MSG_MISSION_INFO_EXCLUDE_PREMIUM"
+    },
+    {
+      "id": 8177,
+      "text": "※モンスターBOX、モンスター図鑑の[LF]「表示順変更」→「絞り込み」にて対象キャラを[LF]確認出来ます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1633259608,
+      "updated_at": 1633259608,
+      "label": "eTEXTS_DEF_MSG_MISSION_INFO_ROUTE_ANNOTATION"
+    },
+    {
+      "id": 8178,
+      "text": "対象アビリティ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1629907082,
+      "updated_at": 1629907082,
+      "label": "eTEXTS_DEF_MISSION_INFO_TARGET_ABILITYS"
+    },
+    {
+      "id": 8179,
+      "text": "対象友情コンボ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1629907082,
+      "updated_at": 1629907082,
+      "label": "eTEXTS_DEF_MISSION_INFO_TARGET_SKILLS"
+    },
+    {
+      "id": 8180,
+      "text": "[LC]報酬一覧[LF][LF][LC]%s",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_MSG_MISSION_CAMPAIGN_REWARD_LIST"
+    },
+    {
+      "id": 8181,
+      "text": "[NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_MSG_MISSION_CAMPAIGN_REWARD_LIST_SINGLE_TAB"
+    },
+    {
+      "id": 8182,
+      "text": "[TAB:%s][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_MSG_MISSION_CAMPAIGN_REWARD_LIST_MULTI_TAB"
+    },
+    {
+      "id": 8183,
+      "text": "[LC]指令達成報酬[LF][LF][LC]指令を達成したため以下報酬を獲得しました[LF][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_MSG_SOFA_MISSION_REWARD"
+    },
+    {
+      "id": 8184,
+      "text": "新たな指令が追加されました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1631183465,
+      "updated_at": 1631183465,
+      "label": "eTEXTS_DEF_MSG_SOFA_NEW_MISSION_OPEN"
+    },
+    {
+      "id": 8185,
+      "text": "[LC]★%d進化解放！[LF][WIDTH520][LF][LC][NODE][LF][CN:%d] は[LF][CN:%d] に[LF]進化可能になりました！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_MSG_TRANSFORMATION_EVO_UNLOCKED"
+    },
+    {
+      "id": 8186,
+      "text": "[LC]★%d神化解放！[LF][WIDTH520][LF][LC][NODE][LF][CN:%d] は[LF][CN:%d] に[LF]神化可能になりました！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_MSG_TRANSFORMATION_GOD_UNLOCKED"
+    },
+    {
+      "id": 8187,
+      "text": "[LC]★%d獣神化解放！[LF][WIDTH520][LF][LC][NODE][LF][CN:%d] は[LF][CN:%d] に[LF]獣神化可能になりました！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_MSG_TRANSFORMATION_BEAST_UNLOCKED"
+    },
+    {
+      "id": 8188,
+      "text": "9/2 12:00 〜 9/20 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_MSG_SOFA_PERIOD"
+    },
+    {
+      "id": 8189,
+      "text": "所持数：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1629907082,
+      "updated_at": 1629907082,
+      "label": "eTEXTS_DEF_POSSESSION_REWARD_DIALOG"
+    },
+    {
+      "id": 8190,
+      "text": "[LC]★%d獣神化・改解放！[LF][WIDTH520][LF][LC][NODE][LF][CN:%d] は[LF][CN:%d] に[LF]獣神化・改可能になりました！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_MSG_TRANSFORMATION_BEAST_KAI_UNLOCKED"
+    },
+    {
+      "id": 8191,
+      "text": "[LC]護廷十三隊からの指令とは[LF][LF][CCB:dlme/help_collabo_sofa_mission_01]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1631183465,
+      "label": "eTEXTS_DEF_MSG_SOFA_MISSION_HELP"
+    },
+    {
+      "id": 8192,
+      "text": "ウソップ工場",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1660819588,
+      "label": "eTEXTS_DEF_MSG_COLLABO_EXCHANGE_TITLE"
+    },
+    {
+      "id": 8193,
+      "text": "本日の引換 %s回",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1660819588,
+      "label": "eTEXTS_DEF_MSG_COLLABO_EXCHANGE_MENU_CHANGE_LIMIT"
+    },
+    {
+      "id": 8194,
+      "text": "[LC]ウソップ工場とは[LF][LF][CCB:dlme/help_collabo_lake_plant_00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1660819588,
+      "label": "eTEXTS_DEF_MSG_COLLABO_EXCHANGE_HELP"
+    },
+    {
+      "id": 8195,
+      "text": "本日の引き換え回数 あと%s回",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_MSG_COLLABO_EXCHANGE_CHANGE_LIMIT"
+    },
+    {
+      "id": 8196,
+      "text": "ラッキー！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_MSG_COLLABO_EXCHANGE_LUCK_CHANGE"
+    },
+    {
+      "id": 8197,
+      "text": "ラッキー！明日は＋１回",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_MSG_COLLABO_EXCHANGE_LUCK_CHANGE_NEXT"
+    },
+    {
+      "id": 8198,
+      "text": "引き換え上限[LF][LF]本日の引き換えは[LF]終了しています[LF]※引き換え回数は翌日に[LF]リセットされます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_MSG_COLLABO_EXCHANGE_LIMIT"
+    },
+    {
+      "id": 8199,
+      "text": "お買い得商品",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_ME_COLLABO_EXCHANGE_SALE"
+    },
+    {
+      "id": 8200,
+      "text": "本日の引換終了",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_MSG_COLLABO_EXCHANGE_MENU_CHANGE_LIMIT_END"
+    },
+    {
+      "id": 8201,
+      "text": "[C6:本日の引き換えは終了しました]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_MSG_COLLABO_EXCHANGE_CHANGE_LIMIT_END"
+    },
+    {
+      "id": 8202,
+      "text": "[C6:%d/%d %d:%02dより引き換え可能です]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_MSG_COLLABO_EXCHANGE_CHANGE_LIMIT_NO_OPEN"
+    },
+    {
+      "id": 8203,
+      "text": "[LC]引き換え[LF][WIDTH580][LF][LC]%sと引き換えます[LF][MARGIN20][LF][LC][NODE][MARGIN20][LF][LC][S2]必要%s：[C6:%s][MARGIN22][LF][LC][NODE][MARGIN26]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_ME_EXCHANGE_BODY_NO_SELECT_NUM"
+    },
+    {
+      "id": 8204,
+      "text": "[LC]抽選結果[LF][WIDTH500][LF][MARGIN10][LF][LC][NODE][LF][MARGIN10][LF][LC]%s%d%sが当たりました！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_MSG_COLLABO_EXCHANGE_SUCCESS_RANDOM"
+    },
+    {
+      "id": 8205,
+      "text": "[LC]ラッキー発動！[LF][LF]引き換え回数が＋1されました！[LF][C6:明日は引き換えが2回可能]です[LF]",
+      "layout": 0,
+      "color": 1,
+      "created_at": 1630492539,
+      "updated_at": 1630654320,
+      "label": "eTEXTS_DEF_MSG_COLLABO_EXCHANGE_LUCKY_DIALOG"
+    },
+    {
+      "id": 8206,
+      "text": "排出率 %.1f%%",
+      "layout": 0,
+      "color": 1,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_MSG_COLLABO_EXCHANGE_LOTTERY_RATE"
+    },
+    {
+      "id": 8207,
+      "text": "ゴッド ウソップの指令",
+      "layout": 0,
+      "color": 1,
+      "created_at": 1630492539,
+      "updated_at": 1660819588,
+      "label": "eTEXTS_DEF_MSG_SOFA_POINT_CHALLENGE_TITLE"
+    },
+    {
+      "id": 8208,
+      "text": "ゴッド ウソップの指令達成数：",
+      "layout": 0,
+      "color": 1,
+      "created_at": 1630492539,
+      "updated_at": 1660819588,
+      "label": "eTEXTS_DEF_MSG_SOFA_POINT_CHALLENGE_ACHIEVEMENT"
+    },
+    {
+      "id": 8209,
+      "text": "獲得ゴッドポイント",
+      "layout": 0,
+      "color": 1,
+      "created_at": 1630492539,
+      "updated_at": 1660819588,
+      "label": "eTEXTS_DEF_MSG_SOFA_POINT_CHALLENGE_GET_POINT"
+    },
+    {
+      "id": 8210,
+      "text": "%d個",
+      "layout": 0,
+      "color": 1,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_MSG_SOFA_POINT_CHALLENGE_REWARD_COUNT"
+    },
+    {
+      "id": 8211,
+      "text": "対象外",
+      "layout": 0,
+      "color": 1,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_MSG_SOFA_POINT_CHALLENGE_INVALID_MISSION"
+    },
+    {
+      "id": 8212,
+      "text": "※回数は0:00にリセット",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_MSG_COLLABO_EXCHANGE_CHANGE_LIMIT_TIME"
+    },
+    {
+      "id": 8213,
+      "text": "[C6:霊力ポイントを集めよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_28100"
+    },
+    {
+      "id": 8214,
+      "text": "[b:ba_help_collabo_sofa_exchange_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_28101"
+    },
+    {
+      "id": 8215,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_28102"
+    },
+    {
+      "id": 8216,
+      "text": "9/2 12:00 ～ 9/16 23:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_28103"
+    },
+    {
+      "id": 8217,
+      "text": "[C5:霊力ポイントとは]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_28104"
+    },
+    {
+      "id": 8218,
+      "text": "対象クエストで死神代行任務を達成すると[LF][C6:霊力ポイント]が獲得できます[LF][C6:霊力ポイント]を集めて[C6:1日1回]アイテムと引き換えよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_28105"
+    },
+    {
+      "id": 8219,
+      "text": "対象クエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_28106"
+    },
+    {
+      "id": 8220,
+      "text": "[C5:浦原商店]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_28107"
+    },
+    {
+      "id": 8221,
+      "text": "[C6:浦原商店]では集めた霊力ポイントを使用して[C6:1日1回][LF][C6:気まぐれBOX]や[C6:アイテム]と引き換えができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_28108"
+    },
+    {
+      "id": 8222,
+      "text": "※アイテムごとに引き換え上限は異なります[LF]※引き換え数は0:00にリセットされます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_28109"
+    },
+    {
+      "id": 8223,
+      "text": "気まぐれBOXについて",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_28110"
+    },
+    {
+      "id": 8224,
+      "text": "ランダムでアイテムが排出される[C6:気まぐれBOX]が登場！[LF]霊力ポイントで引き換えよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_28111"
+    },
+    {
+      "id": 8225,
+      "text": "[C6:気まぐれBOX]からは以下の[LF]いずれか１つが排出されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_28112"
+    },
+    {
+      "id": 8226,
+      "text": "バランスの書",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_28113"
+    },
+    {
+      "id": 8227,
+      "text": "1枚",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_28114"
+    },
+    {
+      "id": 8228,
+      "text": "排出率　15.0％",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_28115"
+    },
+    {
+      "id": 8229,
+      "text": "パワーの書",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_28116"
+    },
+    {
+      "id": 8230,
+      "text": "1枚",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_28117"
+    },
+    {
+      "id": 8231,
+      "text": "排出率　15.0％",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_28118"
+    },
+    {
+      "id": 8232,
+      "text": "スピードの書",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_28119"
+    },
+    {
+      "id": 8233,
+      "text": "1枚",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_28120"
+    },
+    {
+      "id": 8234,
+      "text": "排出率　15.0％",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_28121"
+    },
+    {
+      "id": 8235,
+      "text": "砲撃の書",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_28122"
+    },
+    {
+      "id": 8236,
+      "text": "1枚",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_28123"
+    },
+    {
+      "id": 8237,
+      "text": "排出率　15.0％",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_28124"
+    },
+    {
+      "id": 8238,
+      "text": "獣竜玉",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_28125"
+    },
+    {
+      "id": 8239,
+      "text": "1個",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_28126"
+    },
+    {
+      "id": 8240,
+      "text": "排出率　20.0％",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_28127"
+    },
+    {
+      "id": 8241,
+      "text": "ミラクルミン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_28128"
+    },
+    {
+      "id": 8242,
+      "text": "1個",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_28129"
+    },
+    {
+      "id": 8243,
+      "text": "排出率　20.0％",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_28130"
+    },
+    {
+      "id": 8244,
+      "text": "[C6:4種の戦型の書]はそれぞれの戦型のキャラクターに[LF]使用することで[C6:超戦型]を解放できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_28131"
+    },
+    {
+      "id": 8245,
+      "text": "※4種の戦型の書は使用期限を過ぎると[LF]使用できなくなります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_28132"
+    },
+    {
+      "id": 8246,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20210826_2.html#12a|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_28133"
+    },
+    {
+      "id": 8247,
+      "text": "%d/%d %d:%02d より引き換え可能",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_MSG_COLLABO_EXCHANGE_CHANGE_APPEAL_START"
+    },
+    {
+      "id": 8248,
+      "text": "[C6:コラボ限定ガチャ開催中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_27700"
+    },
+    {
+      "id": 8249,
+      "text": "[b:ba_help_collabo_sofa_00_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_27701"
+    },
+    {
+      "id": 8250,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_27702"
+    },
+    {
+      "id": 8251,
+      "text": "9/2 12:00 ～ 9/17 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_27703"
+    },
+    {
+      "id": 8252,
+      "text": "[C5:コラボ限定ガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_27704"
+    },
+    {
+      "id": 8253,
+      "text": "新登場キャラ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_27705"
+    },
+    {
+      "id": 8254,
+      "text": "ガチャ[C6:｢BLEACH｣]が期間限定で開催中！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_27706"
+    },
+    {
+      "id": 8255,
+      "text": "[IP8944]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1630492539,
+      "updated_at": 1630492539,
+      "label": "eTEXTS_DEF_27707"
+    }
+  ]
+}

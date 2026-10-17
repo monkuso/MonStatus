@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "table": "poem_complete_rewards",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "poem_campaign_id": 1,
+      "stage_group_id": 702000,
+      "item_id": 20639,
+      "cnt": 99,
+      "char_extend_template_id": 0,
+      "created_at": 1691053909,
+      "updated_at": 1691053909
+    },
+    {
+      "id": 2,
+      "poem_campaign_id": 1,
+      "stage_group_id": 702010,
+      "item_id": 20638,
+      "cnt": 99,
+      "char_extend_template_id": 0,
+      "created_at": 1691053909,
+      "updated_at": 1691053909
+    },
+    {
+      "id": 3,
+      "poem_campaign_id": 1,
+      "stage_group_id": 702020,
+      "item_id": 20640,
+      "cnt": 99,
+      "char_extend_template_id": 0,
+      "created_at": 1691053909,
+      "updated_at": 1691053909
+    }
+  ]
+}

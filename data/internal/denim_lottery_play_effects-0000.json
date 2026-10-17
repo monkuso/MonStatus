@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "table": "denim_lottery_play_effects",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "denim_lottery_event_id": 1,
+      "type_id": 0,
+      "max_cnt": 3,
+      "created_at": 1694079631,
+      "updated_at": 1694079631
+    },
+    {
+      "id": 2,
+      "denim_lottery_event_id": 1,
+      "type_id": 1,
+      "max_cnt": 2,
+      "created_at": 1694079631,
+      "updated_at": 1694079631
+    },
+    {
+      "id": 3,
+      "denim_lottery_event_id": 1,
+      "type_id": 2,
+      "max_cnt": 2,
+      "created_at": 1694079631,
+      "updated_at": 1694079631
+    }
+  ]
+}

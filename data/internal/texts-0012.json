@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 1,
+  "table": "texts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 3100,
+      "text": "[LF]◎「モンスターBOX」内の一番ラックの高い[LF]獣神竜から消費されます。不足している場合は、[LF]「進化アイテムBOX」の獣神竜からも消費します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_BEAST_KAI_MUTATION_ADD_WARNING"
+    },
+    {
+      "id": 3101,
+      "text": "[LC]神化できません[LF][LF]神化に必要な条件、素材を[LF]満たしていません。[LF]以下を確認してください[LF][LF]%s",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_ME_MUTATION_WARNING_MSG"
+    },
+    {
+      "id": 3102,
+      "text": "[LC]獣神化できません[LF][LF]獣神化に必要な条件、素材を[LF]満たしていません。[LF]以下を確認してください[LF][LF]%s",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_ME_BEAST_WARNING_MSG"
+    },
+    {
+      "id": 3103,
+      "text": "[LC]獣神化・改にできません[LF][LF]獣神化・改に必要な条件、素材を[LF]満たしていません。[LF]以下を確認してください[LF][LF]%s",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_ME_BEAST_KAI_WARNING_MSG"
+    },
+    {
+      "id": 3104,
+      "text": "獣神化・改",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1646756062,
+      "label": "eTEXTS_DEF_ME_TITLE_BEAST_KAI_SET"
+    },
+    {
+      "id": 3105,
+      "text": "獣神化・改素材変更",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_ME_TITLE_BEAST_KAI_SELECT"
+    },
+    {
+      "id": 3106,
+      "text": "進化",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_ME_COMMON_EVO_AFTER"
+    },
+    {
+      "id": 3107,
+      "text": "神化",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_ME_COMMON_GOD_AFTER"
+    },
+    {
+      "id": 3108,
+      "text": "獣神化",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_ME_COMMON_BEAST_AFTER"
+    },
+    {
+      "id": 3109,
+      "text": "[LC]助っ人ミンを所持していないため[LF][LC]お助けデッキを使用できません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_ERRMSG_HELP_DECK_UNAVAILABLE"
+    },
+    {
+      "id": 3110,
+      "text": "獣神化・改回数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1670862120,
+      "label": "eTEXTS_DEF_PLAYRECORD_BEAST_KAI_MUTATION_COUNT"
+    },
+    {
+      "id": 3111,
+      "text": "[LC]レベル上限を解放しよう！[LF][LF][C4:「解放の書」]メニューの[C4:「レベル上限解放」]から、[LF]獣神化しているモンスターに[C4:「レベルの書」]を使うと[LF]レベル上限を120にすることができるぞ！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1657555187,
+      "label": "eTEXTS_DEF_REWARD_LEVEL_INTRO"
+    },
+    {
+      "id": 3112,
+      "text": "[LC]戦型を解放しよう！[LF][LF][C4:「解放の書」]メニューの[C4:「超戦型解放」]から、[LF]獣神化しているモンスターに[C4:「戦型の書」]を使うと[LF]戦型を超戦型にすることができるぞ！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1657555187,
+      "label": "eTEXTS_DEF_REWARD_FIGHT_TYPE_INTRO"
+    },
+    {
+      "id": 3113,
+      "text": "[LF8][C6:※LV上限解放と超戦型は、獣神化時に][LF][C6:解放していない限り外れます][LF][LF][C6:※LVは、獣神化時のものに変わります][LF][C6:(再度獣神化・改にすると戻ります)][LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1791909060,
+      "label": "eTEXTS_DEF_BEAST_KAI_TO_BEAST_WARNING"
+    },
+    {
+      "id": 3114,
+      "text": "[IP7155]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1591630880,
+      "label": "eTEXTS_DEF_13076"
+    },
+    {
+      "id": 3115,
+      "text": "レベルの書",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1786550612,
+      "label": "eTEXTS_DEF_13077"
+    },
+    {
+      "id": 3116,
+      "text": "レベルの書",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1591630880,
+      "label": "eTEXTS_DEF_13078"
+    },
+    {
+      "id": 3117,
+      "text": "LV上限が[C6:120]に",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1591630880,
+      "label": "eTEXTS_DEF_13079"
+    },
+    {
+      "id": 3118,
+      "text": "戦型の書",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1591630880,
+      "label": "eTEXTS_DEF_13080"
+    },
+    {
+      "id": 3119,
+      "text": "[C6:戦型]を強化",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1591630880,
+      "label": "eTEXTS_DEF_13081"
+    },
+    {
+      "id": 3120,
+      "text": "※獣神化にできるのは一部のキャラのみです[LF][LF]※獣神化すると、[C6:進化・神化形態には戻せない][LF]　ので、注意しましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1696510523,
+      "label": "eTEXTS_DEF_13082"
+    },
+    {
+      "id": 3121,
+      "text": "[C5:獣神化・改とは]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1591630880,
+      "label": "eTEXTS_DEF_13083"
+    },
+    {
+      "id": 3122,
+      "text": "獣神化から[C6:さらにパワーアップした形態]です[LF][LF][C6:LV上限と戦型が解放]され、[C6:コネクトスキル]が[LF]追加されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1591630880,
+      "label": "eTEXTS_DEF_13084"
+    },
+    {
+      "id": 3123,
+      "text": "コネクトスキルとは",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1591630880,
+      "label": "eTEXTS_DEF_13085"
+    },
+    {
+      "id": 3124,
+      "text": "[C6:デッキ編成で特定の条件を満たす]と発動する[LF]スキルです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1591630880,
+      "label": "eTEXTS_DEF_13086"
+    },
+    {
+      "id": 3125,
+      "text": "コネクトスキルアイコン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1591630880,
+      "label": "eTEXTS_DEF_13087"
+    },
+    {
+      "id": 3126,
+      "text": "[IP7342]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1591630880,
+      "label": "eTEXTS_DEF_13088"
+    },
+    {
+      "id": 3127,
+      "text": "※獣神化・改にできるのは一部のキャラのみです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1696510523,
+      "label": "eTEXTS_DEF_13089"
+    },
+    {
+      "id": 3128,
+      "text": "進化前",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1696510523,
+      "label": "eTEXTS_DEF_13090"
+    },
+    {
+      "id": 3129,
+      "text": "[IP187]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1696510523,
+      "label": "eTEXTS_DEF_13091"
+    },
+    {
+      "id": 3130,
+      "text": "真獣神化",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1696510523,
+      "label": "eTEXTS_DEF_13092"
+    },
+    {
+      "id": 3131,
+      "text": "[IP10804]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1696510523,
+      "label": "eTEXTS_DEF_13093"
+    },
+    {
+      "id": 3132,
+      "text": "獣神化から[C6:さらにパワーアップした形態]です[LF][LF][C6:Lv上限と戦型が解放]され、[LF][C6:ショットスキル]と[C6:アシストスキル]が追加されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1696510523,
+      "label": "eTEXTS_DEF_13094"
+    },
+    {
+      "id": 3133,
+      "text": "ショットスキルとは",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1696510523,
+      "label": "eTEXTS_DEF_13095"
+    },
+    {
+      "id": 3134,
+      "text": "キャラを[C6:ショットしたときに発動するスキル]です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1696510523,
+      "label": "eTEXTS_DEF_13096"
+    },
+    {
+      "id": 3135,
+      "text": "[C6:獣神化キャラをさらに強化！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1657555187,
+      "label": "eTEXTS_DEF_16200"
+    },
+    {
+      "id": 3136,
+      "text": "[LC][b:ba_help_secret_power_lv_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1657555187,
+      "label": "eTEXTS_DEF_16201"
+    },
+    {
+      "id": 3137,
+      "text": "[C5:レベル上限を解放]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1657555187,
+      "label": "eTEXTS_DEF_16202"
+    },
+    {
+      "id": 3138,
+      "text": "[C6:レベルの書]を使うと、獣神化キャラの[LF]レベル上限を[C6:LV120]にする事ができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1657555187,
+      "label": "eTEXTS_DEF_16203"
+    },
+    {
+      "id": 3139,
+      "text": "レベルの書",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_16204"
+    },
+    {
+      "id": 3140,
+      "text": "[IP9209]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1657555187,
+      "label": "eTEXTS_DEF_16205"
+    },
+    {
+      "id": 3141,
+      "text": "[C6:LV99]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_16206"
+    },
+    {
+      "id": 3142,
+      "text": "LV120まで強化",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_16207"
+    },
+    {
+      "id": 3143,
+      "text": "[C5:超戦型を解放]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1657555187,
+      "label": "eTEXTS_DEF_16208"
+    },
+    {
+      "id": 3144,
+      "text": "[C6:戦型の書]を使うと、[LF]キャラの[C6:戦型を強化]する事ができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1786550612,
+      "label": "eTEXTS_DEF_16209"
+    },
+    {
+      "id": 3145,
+      "text": "戦型の書",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_16210"
+    },
+    {
+      "id": 3146,
+      "text": "バランス型",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1657555187,
+      "label": "eTEXTS_DEF_16211"
+    },
+    {
+      "id": 3147,
+      "text": "[C6:超バランス型]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1657555187,
+      "label": "eTEXTS_DEF_16212"
+    },
+    {
+      "id": 3148,
+      "text": "超バランス型",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_16213"
+    },
+    {
+      "id": 3149,
+      "text": "アイテム[C6:「ハート」]の[LF]効果アップ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_16214"
+    },
+    {
+      "id": 3150,
+      "text": "[C6:有利属性の敵]に対して[LF]攻撃力が更にアップ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1657555187,
+      "label": "eTEXTS_DEF_16215"
+    },
+    {
+      "id": 3151,
+      "text": "超パワー型",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_16216"
+    },
+    {
+      "id": 3152,
+      "text": "アイテム[C6:「剣」]の[LF]効果アップ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_16217"
+    },
+    {
+      "id": 3153,
+      "text": "[C6:最初に敵にヒットした際]の[LF]攻撃力がアップ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_16218"
+    },
+    {
+      "id": 3154,
+      "text": "超スピード型",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_16219"
+    },
+    {
+      "id": 3155,
+      "text": "アイテム[C6:「靴」]の[LF]効果アップ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_16220"
+    },
+    {
+      "id": 3156,
+      "text": "[C6:最初にふれた壁]で[LF]スピードアップ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_16221"
+    },
+    {
+      "id": 3157,
+      "text": "超砲撃型",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_16222"
+    },
+    {
+      "id": 3158,
+      "text": "アイテム[C6:「砂時計」]の[LF]効果アップ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_16223"
+    },
+    {
+      "id": 3159,
+      "text": "[C6:誘発された友情コンボ]が[LF][C6:100％]の威力で発動",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1657555187,
+      "label": "eTEXTS_DEF_16224"
+    },
+    {
+      "id": 3160,
+      "text": "[LC]ギミック詳細[LF][LF]%s",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1697560695,
+      "label": "eTEXTS_DEF_MSG_STAGE_MAIN_GIMMICK_HELP"
+    },
+    {
+      "id": 3161,
+      "text": "[GIMMICK:重力バリア][LF][LC][IMG:help_gimmick_01.png|1.2][LF][LF]敵の周りやステージ上に展開され、ふれると減速する[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_1"
+    },
+    {
+      "id": 3162,
+      "text": "[GIMMICK:ダメージウォール][LF][LC][IMG:help_gimmick_02.png|1.2][LF][LF]ステージの壁に展開され、ふれるとダメージを受ける[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_2"
+    },
+    {
+      "id": 3163,
+      "text": "[GIMMICK:ワープ][LF][LC][IMG:help_gimmick_03.png|1.2][LF][LF]ステージ上に展開され、[LF]ワープからワープへと強制的に移動する[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_3"
+    },
+    {
+      "id": 3164,
+      "text": "[GIMMICK:地雷][LF][LC][IMG:help_gimmick_04.png|1.2][LF][LF]ステージ上に展開され、ターン数が経過するか[LF]ふれると爆発しダメージを受ける[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_4"
+    },
+    {
+      "id": 3165,
+      "text": "[GIMMICK:ブロック][LF][LC][IMG:help_gimmick_05.png|1.2][LF][LF]ステージ上に出現し、通過することができず進行を妨げる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_5"
+    },
+    {
+      "id": 3166,
+      "text": "[GIMMICK:魔法陣][LF][LC][IMG:help_gimmick_06.png|1.2][LF][LF]ステージ上に出現し、ふれるとひよこ状態になる[LF][LF]※ひよこ状態[LF]攻撃力と友情コンボの威力がダウンし[LF]ストライクショットが使えない状態[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_6"
+    },
+    {
+      "id": 3167,
+      "text": "[GIMMICK:ウィンド][LF][LC][IMG:help_gimmick_07.png|1.2][LF][LF]敵モンスターにより、引き寄せたり吹き飛ばされたりする[LF]感染ウイルスの状態異常を付与するものもある[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1752408982,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_7"
+    },
+    {
+      "id": 3168,
+      "text": "[GIMMICK:減速壁][LF][LC][IMG:help_gimmick_08.png|1.2][LF][LF]ステージの壁に展開され、ふれると減速する[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1639591066,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_8"
+    },
+    {
+      "id": 3169,
+      "text": "[LC]ギミック詳細[LF][LF][texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_1][LF][LF][TI:関連アビリティ][LF][ABILITY:1]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1619453322,
+      "label": "eTEXTS_DEF_GIMMICK_HELP_1"
+    },
+    {
+      "id": 3170,
+      "text": "[LC]ギミック詳細[LF][LF][texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_2][LF][LF][TI:関連アビリティ][LF][ABILITY:11]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1619453322,
+      "label": "eTEXTS_DEF_GIMMICK_HELP_2"
+    },
+    {
+      "id": 3171,
+      "text": "[LC]ギミック詳細[LF][LF][texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_3][LF][LF][TI:関連アビリティ][LF][ABILITY:21]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1619453322,
+      "label": "eTEXTS_DEF_GIMMICK_HELP_3"
+    },
+    {
+      "id": 3172,
+      "text": "[LC]ギミック詳細[LF][LF][texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_4][LF][LF][TI:関連アビリティ][LF][ABILITY:31][LF][ABILITY:41]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1619453322,
+      "label": "eTEXTS_DEF_GIMMICK_HELP_4"
+    },
+    {
+      "id": 3173,
+      "text": "[LC]ギミック詳細[LF][LF][texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_5][LF][LF][TI:関連アビリティ][LF][ABILITY:51]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1619453322,
+      "label": "eTEXTS_DEF_GIMMICK_HELP_5"
+    },
+    {
+      "id": 3174,
+      "text": "[LC]ギミック詳細[LF][LF][texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_6][LF][LF][TI:関連アビリティ][LF][ABILITY:71][LF][ABILITY:72]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1619453322,
+      "label": "eTEXTS_DEF_GIMMICK_HELP_6"
+    },
+    {
+      "id": 3175,
+      "text": "[LC]ギミック詳細[LF][LF][texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_7][LF][LF][TI:関連アビリティ][LF][ABILITY:61]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1619453322,
+      "label": "eTEXTS_DEF_GIMMICK_HELP_7"
+    },
+    {
+      "id": 3176,
+      "text": "[LC]ギミック詳細[LF][LF][texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_8][LF][LF][TI:関連アビリティ][LF][ABILITY:81]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1619453322,
+      "label": "eTEXTS_DEF_GIMMICK_HELP_8"
+    },
+    {
+      "id": 3177,
+      "text": "[LC]アビリティ詳細[LF][LF][ABILITY:1][LF][ABILITY:2][LF][ABILITY:3][LF][LF][TI:関連ギミック][LF][texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_1]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1619453322,
+      "label": "eTEXTS_DEF_ABILITY_HELP_1"
+    },
+    {
+      "id": 3178,
+      "text": "[LC]アビリティ詳細[LF][LF][ABILITY:11][LF][ABILITY:12][LF][ABILITY:13][LF][LF][TI:関連ギミック][LF][texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_2]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1637747902,
+      "label": "eTEXTS_DEF_ABILITY_HELP_2"
+    },
+    {
+      "id": 3179,
+      "text": "[LC]アビリティ詳細[LF][LF][ABILITY:21][LF][ABILITY:22][LF][ABILITY:23][LF][LF][TI:関連ギミック][LF][texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_3]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1619453322,
+      "label": "eTEXTS_DEF_ABILITY_HELP_3"
+    },
+    {
+      "id": 3180,
+      "text": "[LC]アビリティ詳細[LF][LF][ABILITY:31][LF][ABILITY:32][LF][ABILITY:33][LF][ABILITY:34][LF][ABILITY:35][LF][ABILITY:36][LF][ABILITY:37][LF][ABILITY:38][LF][ABILITY:41][LF][LF][TI:関連ギミック][LF][texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_4]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1619453322,
+      "label": "eTEXTS_DEF_ABILITY_HELP_4"
+    },
+    {
+      "id": 3181,
+      "text": "[LC]アビリティ詳細[LF][LF][ABILITY:51][LF][LF][TI:関連ギミック][LF][texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_5]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1619453322,
+      "label": "eTEXTS_DEF_ABILITY_HELP_5"
+    },
+    {
+      "id": 3182,
+      "text": "[LC]アビリティ詳細[LF][LF][ABILITY:71][LF][ABILITY:72][LF][LF][TI:関連ギミック][LF][texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_6]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1619453322,
+      "label": "eTEXTS_DEF_ABILITY_HELP_6"
+    },
+    {
+      "id": 3183,
+      "text": "[LC]アビリティ詳細[LF][LF][ABILITY:61][LF][ABILITY:62][LF][LF][TI:関連ギミック][LF][texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1619453322,
+      "label": "eTEXTS_DEF_ABILITY_HELP_7"
+    },
+    {
+      "id": 3184,
+      "text": "[LC]アビリティ詳細[LF][LF][ABILITY:81][LF][ABILITY:82][LF][ABILITY:83][LF][LF][TI:関連ギミック][LF][texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_8]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1716884335,
+      "label": "eTEXTS_DEF_ABILITY_HELP_8"
+    },
+    {
+      "id": 3185,
+      "text": "[LC]アビリティ詳細[LF][LF][ABILITY:4902]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1619453322,
+      "label": "eTEXTS_DEF_ABILITY_HELP_9"
+    },
+    {
+      "id": 3186,
+      "text": "[LC]アビリティ詳細[LF][LF][GIMMICK:キラー][LF-20]特定の属性、種族、条件の敵に対して[LF]攻撃力が1.5倍になる[LF-14][GIMMICK_END][LF][GIMMICK:キラーM][LF-20]特定の属性、種族、条件の敵に対して[LF]攻撃力が2倍になる[LF-14][GIMMICK_END][LF][GIMMICK:キラーL][LF-20]特定の属性、種族、条件の敵に対して[LF]攻撃力が2.5倍になる[LF-14][GIMMICK_END][LF][GIMMICK:キラーEL][LF-20]特定の属性、種族、条件の敵に対して[LF]攻撃力が3倍になる[LF-14][GIMMICK_END][LF][GIMMICK:キラー（ラック）][LF-20]特定の属性、種族、条件の敵に対して[LF]攻撃力がアップする[LF]運極で1.5倍になる[LF-14][GIMMICK_END][LF][GIMMICK:スレイヤー][LF-20]特定の種族に対して攻撃力が超アップする[LF-14][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1619453322,
+      "label": "eTEXTS_DEF_ABILITY_HELP_10"
+    },
+    {
+      "id": 3187,
+      "text": "[LC]アビリティ詳細[LF][LF][GIMMICK:耐性][LF-20]特定の属性、種族によるダメージを[LF]25％軽減する[LF-14][GIMMICK_END][LF][GIMMICK:耐性M][LF-20]特定の属性、種族によるダメージを[LF]50％軽減する[LF-14][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_ABILITY_HELP_11"
+    },
+    {
+      "id": 3188,
+      "text": "[LC]アビリティ詳細[LF][LF][ABILITY:4801][LF][ABILITY:4804]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1619453322,
+      "label": "eTEXTS_DEF_ABILITY_HELP_12"
+    },
+    {
+      "id": 3189,
+      "text": "[LC]アビリティ詳細[LF][LF][ABILITY:3001][LF][ABILITY:3011]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1619453322,
+      "label": "eTEXTS_DEF_ABILITY_HELP_13"
+    },
+    {
+      "id": 3190,
+      "text": "[LC]アビリティ詳細[LF][LF][ABILITY:5001][LF][ABILITY:5002][LF][ABILITY:5011][LF][ABILITY:5012][LF][ABILITY:5021][LF][ABILITY:5022][LF][ABILITY:5023][LF][ABILITY:5031][LF][ABILITY:5041]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1640686201,
+      "label": "eTEXTS_DEF_ABILITY_HELP_14"
+    },
+    {
+      "id": 3191,
+      "text": "[LC]アビリティ詳細[LF][LF][ABILITY:4001][LF][ABILITY:4002][LF][ABILITY:4003]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1619453322,
+      "label": "eTEXTS_DEF_ABILITY_HELP_15"
+    },
+    {
+      "id": 3192,
+      "text": "[LC]アビリティ詳細[LF][LF][ABILITY:4011]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1619453322,
+      "label": "eTEXTS_DEF_ABILITY_HELP_16"
+    },
+    {
+      "id": 3193,
+      "text": "[LC]アビリティ詳細[LF][LF][ABILITY:4021][LF][ABILITY:4022][LF][ABILITY:4031][LF][ABILITY:4032]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1619453322,
+      "label": "eTEXTS_DEF_ABILITY_HELP_17"
+    },
+    {
+      "id": 3194,
+      "text": "[LC]アビリティ詳細[LF][LF][ABILITY:4201][LF][ABILITY:4202][LF][ABILITY:4203]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1619453322,
+      "label": "eTEXTS_DEF_ABILITY_HELP_18"
+    },
+    {
+      "id": 3195,
+      "text": "[LC]アビリティ詳細[LF][LF][ABILITY:4901]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1619453322,
+      "label": "eTEXTS_DEF_ABILITY_HELP_19"
+    },
+    {
+      "id": 3196,
+      "text": "[LC]アビリティ詳細[LF][LF][ABILITY:4301]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1619453322,
+      "label": "eTEXTS_DEF_ABILITY_HELP_20"
+    },
+    {
+      "id": 3197,
+      "text": "[LC]アビリティ詳細[LF][LF][ABILITY:4204][LF][ABILITY:10021]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1619453322,
+      "label": "eTEXTS_DEF_ABILITY_HELP_21"
+    },
+    {
+      "id": 3198,
+      "text": "[LC]アビリティ詳細[LF][LF][ABILITY:4401][LF][ABILITY:4402]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1619453322,
+      "label": "eTEXTS_DEF_ABILITY_HELP_22"
+    },
+    {
+      "id": 3199,
+      "text": "[LC]アビリティ詳細[LF][LF][ABILITY:4501][LF][ABILITY:4502][LF][ABILITY:4503][LF][ABILITY:4504][LF][ABILITY:4511][LF][ABILITY:4512][LF][ABILITY:4513][LF][ABILITY:4521][LF][ABILITY:4522]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1641542841,
+      "label": "eTEXTS_DEF_ABILITY_HELP_23"
+    },
+    {
+      "id": 3200,
+      "text": "[LC]アビリティ詳細[LF][LF][ABILITY:4701][LF][ABILITY:4702][LF][ABILITY:4703]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1619453322,
+      "label": "eTEXTS_DEF_ABILITY_HELP_24"
+    },
+    {
+      "id": 3201,
+      "text": "[LC]アビリティ詳細[LF][LF][ABILITY:4101][LF][ABILITY:4102][LF][ABILITY:4103][LF][ABILITY:4104]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1619453322,
+      "label": "eTEXTS_DEF_ABILITY_HELP_25"
+    },
+    {
+      "id": 3202,
+      "text": "[LC]アビリティ詳細[LF][LF][ABILITY:4601][LF][ABILITY:4602][LF][ABILITY:4603][LF][ABILITY:4611]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1619453322,
+      "label": "eTEXTS_DEF_ABILITY_HELP_26"
+    },
+    {
+      "id": 3203,
+      "text": "[LC]アビリティ詳細[LF][LF][ABILITY:4111][LF][ABILITY:4112]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1619453322,
+      "label": "eTEXTS_DEF_ABILITY_HELP_27"
+    },
+    {
+      "id": 3204,
+      "text": "[LC]アビリティ詳細[LF][LF][ABILITY:1201][LF][ABILITY:1203][LF][ABILITY:1205][LF][ABILITY:1207]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1619453322,
+      "label": "eTEXTS_DEF_ABILITY_HELP_28"
+    },
+    {
+      "id": 3205,
+      "text": "[LC]アビリティ詳細[LF][LF][ABILITY:10001][LF][ABILITY:10003]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1619453322,
+      "label": "eTEXTS_DEF_ABILITY_HELP_29"
+    },
+    {
+      "id": 3206,
+      "text": "[LC]クエスト選びに迷ったら[LF][LF][CCB:dlme/help_apri_first_00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_HOW_TO_PLAY_HELP"
+    },
+    {
+      "id": 3207,
+      "text": "[C6:はじめの一歩！おすすめクエスト！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15300"
+    },
+    {
+      "id": 3208,
+      "text": "[LC][b:ba_help_apri_first_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15301"
+    },
+    {
+      "id": 3209,
+      "text": "[C5:ノーマルクエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15302"
+    },
+    {
+      "id": 3210,
+      "text": "始めたばかりの人はまずここから！[LF]ギミックの内容も学べて、ランクも上がりやすい！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15303"
+    },
+    {
+      "id": 3211,
+      "text": "おすすめポイント",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15304"
+    },
+    {
+      "id": 3212,
+      "text": "[IP213]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15305"
+    },
+    {
+      "id": 3213,
+      "text": "ステータスアップできる[LF][C6:強化素材]、[C6:経験値][LF]が獲得しやすい！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15306"
+    },
+    {
+      "id": 3214,
+      "text": "[IP3772]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15307"
+    },
+    {
+      "id": 3215,
+      "text": "[LUCK][C4:極]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15308"
+    },
+    {
+      "id": 3216,
+      "text": "[C4:運極][C6:★6][LF][C6:サンクチュアリ・ドラゴン]入手！[LF]※｢極寒の地で削がれし攻勢｣[LF]クリアで入手",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1791909060,
+      "label": "eTEXTS_DEF_15309"
+    },
+    {
+      "id": 3217,
+      "text": "[C5:イベントクエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15310"
+    },
+    {
+      "id": 3218,
+      "text": "時間帯によって出現するクエストがいろいろあるぞ！[LF]一番旬なクエストが遊びたいならここ！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15311"
+    },
+    {
+      "id": 3219,
+      "text": "おすすめポイント",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15312"
+    },
+    {
+      "id": 3220,
+      "text": "プレイする[C6:時間]や[C6:期間]によって[LF]遊べるクエストが異なります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15313"
+    },
+    {
+      "id": 3221,
+      "text": "[C6:強化素材]や[C6:進化アイテム]が[LF]入手可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15314"
+    },
+    {
+      "id": 3222,
+      "text": "[C5:覇者の塔・序]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1773179296,
+      "label": "eTEXTS_DEF_15315"
+    },
+    {
+      "id": 3223,
+      "text": "豪華報酬が獲得できる全20階層のクエスト！[LF]制覇後は定期的に登場する覇者の塔が解放され[LF]開催の度に繰り返し報酬を獲得可能に！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1773179296,
+      "label": "eTEXTS_DEF_15316"
+    },
+    {
+      "id": 3224,
+      "text": "おすすめポイント",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15317"
+    },
+    {
+      "id": 3225,
+      "text": "[IP2727]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15318"
+    },
+    {
+      "id": 3226,
+      "text": "限定モンスターや[LF][C6:オーブを大量ゲット]可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15319"
+    },
+    {
+      "id": 3227,
+      "text": "[IP4493]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15320"
+    },
+    {
+      "id": 3228,
+      "text": "[IP5523]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15321"
+    },
+    {
+      "id": 3229,
+      "text": "[IP4330]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15322"
+    },
+    {
+      "id": 3230,
+      "text": "[IP4822]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15323"
+    },
+    {
+      "id": 3231,
+      "text": "手持ちのモンスターでは[LF]クリアが難しい場合、[LF][C6:お助けデッキ]の力を借りよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15324"
+    },
+    {
+      "id": 3232,
+      "text": "他にもさまざまなクエストが盛りだくさん！[LF]いろいろなクエストに挑戦しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15325"
+    },
+    {
+      "id": 3233,
+      "text": "[LC]ノーマルクエストとは[LF][LF][CCB:dlme/help_apri_normal_00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_MSG_NORMAL_QUEST_HELP"
+    },
+    {
+      "id": 3234,
+      "text": "[C6:経験値獲得でランクUPを目指そう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15400"
+    },
+    {
+      "id": 3235,
+      "text": "[LC][b:ba_help_apri_normal_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15401"
+    },
+    {
+      "id": 3236,
+      "text": "[C5:ノーマルクエストに挑戦]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15402"
+    },
+    {
+      "id": 3237,
+      "text": "[C6:初心者におすすめのクエスト]です[LF]ギミックの内容が学べるなど、[LF]モンストの遊び方が簡単に分かります！[LF][LF]さらにクリアすると[C6:経験値が獲得しやすい！][LF]たくさん遊んでランクアップを目指そう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15403"
+    },
+    {
+      "id": 3238,
+      "text": "[C6:ランクアップ！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15404"
+    },
+    {
+      "id": 3239,
+      "text": "[C5:報酬について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15405"
+    },
+    {
+      "id": 3240,
+      "text": "初回クリア時には、ボーナスステージや[LF]クリアボーナスで[C6:いろいろな報酬を獲得]できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1791909060,
+      "label": "eTEXTS_DEF_15406"
+    },
+    {
+      "id": 3241,
+      "text": "[IP212]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15407"
+    },
+    {
+      "id": 3242,
+      "text": "[C6:ステータス強化素材のタス]を[LF]ステージクリアで大量獲得！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1594660571,
+      "label": "eTEXTS_DEF_15408"
+    },
+    {
+      "id": 3243,
+      "text": "[IP3772]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15409"
+    },
+    {
+      "id": 3244,
+      "text": "[LUCK][C4:極]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15410"
+    },
+    {
+      "id": 3245,
+      "text": "特定ステージクリアで[C4:運極][C6:★6][LF][C6:サンクチュアリ・ドラゴン]入手！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1623655211,
+      "label": "eTEXTS_DEF_15411"
+    },
+    {
+      "id": 3246,
+      "text": "[C5:★6サンクチュアリドラゴンについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15412"
+    },
+    {
+      "id": 3247,
+      "text": "[C6:「極寒の地で削がれし攻勢」]をクリアすると[LF][C6:運極状態で獲得]できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1791909060,
+      "label": "eTEXTS_DEF_15413"
+    },
+    {
+      "id": 3248,
+      "text": "[C6:「炎立つ転送壁の魔境」]を[LF]クリアすると[C6:神化が解放]されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1791909060,
+      "label": "eTEXTS_DEF_15414"
+    },
+    {
+      "id": 3249,
+      "text": "[IP6120]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15415"
+    },
+    {
+      "id": 3250,
+      "text": "[LC]イベントクエストとは[LF][LF][CCB:dlme/help_apri_event_00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_MSG_EVENT_QUEST_HELP"
+    },
+    {
+      "id": 3251,
+      "text": "[SW0.9][C6:ボスに勝利してキャラをどんどん集めよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1760470637,
+      "label": "eTEXTS_DEF_15500"
+    },
+    {
+      "id": 3252,
+      "text": "[LC][b:ba_help_apri_event_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15501"
+    },
+    {
+      "id": 3253,
+      "text": "[C5:イベントクエストに挑戦]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15502"
+    },
+    {
+      "id": 3254,
+      "text": "クエストに挑戦してキャラをどんどん集めましょう[LF][C6:ボスを倒すことでクリア]することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1760470637,
+      "label": "eTEXTS_DEF_15503"
+    },
+    {
+      "id": 3255,
+      "text": "難易度について",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15504"
+    },
+    {
+      "id": 3256,
+      "text": "難易度は、[C6:初心者から上級者向けまで様々]です[LF]まずは簡単なものからチャレンジしましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1760470637,
+      "label": "eTEXTS_DEF_15505"
+    },
+    {
+      "id": 3257,
+      "text": "強猛！武を極めし魔猪",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15506"
+    },
+    {
+      "id": 3258,
+      "text": "[C5:ベン・ブルベン山の猪]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1594660571,
+      "label": "eTEXTS_DEF_15507"
+    },
+    {
+      "id": 3259,
+      "text": "[IP7295]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15508"
+    },
+    {
+      "id": 3260,
+      "text": "極",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15509"
+    },
+    {
+      "id": 3261,
+      "text": "怨炎！黄泉の主宰神",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15510"
+    },
+    {
+      "id": 3262,
+      "text": "[C2:黄泉津大神 イザナミ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1594660571,
+      "label": "eTEXTS_DEF_15511"
+    },
+    {
+      "id": 3263,
+      "text": "[IP820]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15512"
+    },
+    {
+      "id": 3264,
+      "text": "超絶",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15513"
+    },
+    {
+      "id": 3265,
+      "text": "持ち時間について",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1760470637,
+      "label": "eTEXTS_DEF_15514"
+    },
+    {
+      "id": 3266,
+      "text": "[C6:持ち時間]が表示されているクエストは[LF][C6:プレイした時間に応じて持ち時間が減少]し[LF]0になると挑戦できなくなります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1760470637,
+      "label": "eTEXTS_DEF_15515"
+    },
+    {
+      "id": 3267,
+      "text": "持ち時間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1760470637,
+      "label": "eTEXTS_DEF_15516"
+    },
+    {
+      "id": 3268,
+      "text": "[C6:2時間]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1760470637,
+      "label": "eTEXTS_DEF_15517"
+    },
+    {
+      "id": 3269,
+      "text": "[LC]ラックとは[LF][LF][CCB:dlme/help_apri_luck_00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_LUCK_HELP"
+    },
+    {
+      "id": 3270,
+      "text": "[C6:ラックを上げてクリア報酬を追加ゲット！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15600"
+    },
+    {
+      "id": 3271,
+      "text": "[LC][b:ba_help_apri_luck_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15601"
+    },
+    {
+      "id": 3272,
+      "text": "[C5:ラックの効果]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15602"
+    },
+    {
+      "id": 3273,
+      "text": "モンスターの[C6:ラック][LUCK]が高いほどクリア報酬で[LF][C6:ラックボーナスゲットの確率がUP！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15603"
+    },
+    {
+      "id": 3274,
+      "text": "[IP3933]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15604"
+    },
+    {
+      "id": 3275,
+      "text": "[LUCK][C4:1]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15605"
+    },
+    {
+      "id": 3276,
+      "text": "まれにゲット",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15606"
+    },
+    {
+      "id": 3277,
+      "text": "[IP3933]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15607"
+    },
+    {
+      "id": 3278,
+      "text": "[LUCK][C4:90]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15608"
+    },
+    {
+      "id": 3279,
+      "text": "[C6:確率アップ！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15609"
+    },
+    {
+      "id": 3280,
+      "text": "ラックをさらにあげて運極となったモンスターで[LF]クリアすると[C6:確実に宝箱2個ゲット！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15610"
+    },
+    {
+      "id": 3281,
+      "text": "[IP3933]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15611"
+    },
+    {
+      "id": 3282,
+      "text": "[LUCK][C4:極]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15612"
+    },
+    {
+      "id": 3283,
+      "text": "[C6:確実ゲット！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15613"
+    },
+    {
+      "id": 3284,
+      "text": "デッキの先頭モンスターのラック数で[LF]ボーナスは決まります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15614"
+    },
+    {
+      "id": 3285,
+      "text": "[C5:ラックの上げ方]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15615"
+    },
+    {
+      "id": 3286,
+      "text": "強化で[C6:同一種類のモンスター]を合成すると[LF]ラックを上げることができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15616"
+    },
+    {
+      "id": 3287,
+      "text": "[IP1423]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15617"
+    },
+    {
+      "id": 3288,
+      "text": "[LUCK][C4:1]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15618"
+    },
+    {
+      "id": 3289,
+      "text": "[IP1423]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15619"
+    },
+    {
+      "id": 3290,
+      "text": "[LUCK][C4:3]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15620"
+    },
+    {
+      "id": 3291,
+      "text": "[IP1423]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15621"
+    },
+    {
+      "id": 3292,
+      "text": "[LUCK][C4:4]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15622"
+    },
+    {
+      "id": 3293,
+      "text": "ラックの最大値",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15623"
+    },
+    {
+      "id": 3294,
+      "text": "ラックの最大値は、モンスターの[C6:レアリティ][LF]によって異なります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15624"
+    },
+    {
+      "id": 3295,
+      "text": "★5",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15625"
+    },
+    {
+      "id": 3296,
+      "text": "[IP3008]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15626"
+    },
+    {
+      "id": 3297,
+      "text": "[LUCK][C5:75＋15]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15627"
+    },
+    {
+      "id": 3298,
+      "text": "※＋15は、上限まで[LF]あげた時に発生するボーナスです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15628"
+    },
+    {
+      "id": 3299,
+      "text": "★6",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15629"
+    },
+    {
+      "id": 3300,
+      "text": "[LUCK][C4:極（99）]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15630"
+    },
+    {
+      "id": 3301,
+      "text": "※一部最大値が例外のモンスターもいます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15631"
+    },
+    {
+      "id": 3302,
+      "text": "[IP3933]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15632"
+    },
+    {
+      "id": 3303,
+      "text": "[LC]＋値とは[LF][LF][CCB:dlme/help_apri_tasu_00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_TASU_HELP"
+    },
+    {
+      "id": 3304,
+      "text": "[C6:モンスターのステータスをさらに強化！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15700"
+    },
+    {
+      "id": 3305,
+      "text": "[LC][b:ba_help_apri_tasu_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15701"
+    },
+    {
+      "id": 3306,
+      "text": "[C5:＋値について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15702"
+    },
+    {
+      "id": 3307,
+      "text": "レベルアップで成長する基本ステータスとは[LF]別に[C6:＋値]を成長させることで[LF]さらに[C6:モンスターを強化]することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15703"
+    },
+    {
+      "id": 3308,
+      "text": "[C6:＋値でステータスアップ！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15704"
+    },
+    {
+      "id": 3309,
+      "text": "[C5:＋値の強化方法]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15705"
+    },
+    {
+      "id": 3310,
+      "text": "[C6:強化素材]を合成すると[LF]モンスターの＋値がアップします",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15706"
+    },
+    {
+      "id": 3311,
+      "text": "強化に使用する素材",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15707"
+    },
+    {
+      "id": 3312,
+      "text": "ヒトポタス",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15708"
+    },
+    {
+      "id": 3313,
+      "text": "[IP216]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15709"
+    },
+    {
+      "id": 3314,
+      "text": "[C4:HP]の＋値がアップします",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15710"
+    },
+    {
+      "id": 3315,
+      "text": "パワタス",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15711"
+    },
+    {
+      "id": 3316,
+      "text": "[IP212]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15712"
+    },
+    {
+      "id": 3317,
+      "text": "[C2:攻撃力]の＋値がアップします",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15713"
+    },
+    {
+      "id": 3318,
+      "text": "スピタス",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15714"
+    },
+    {
+      "id": 3319,
+      "text": "[IP214]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15715"
+    },
+    {
+      "id": 3320,
+      "text": "[C5:スピード]の＋値がアップします",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15716"
+    },
+    {
+      "id": 3321,
+      "text": "※一部のモンスターには＋値はありません[LF][LF]※＋値はモンスターごとに上限があります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15717"
+    },
+    {
+      "id": 3322,
+      "text": "[LC]スタミナとは[LF][LF][CCB:dlme/help_apri_stamina_00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_STAMINA_HELP"
+    },
+    {
+      "id": 3323,
+      "text": "[C6:クエストプレイにはスタミナが必要]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15800"
+    },
+    {
+      "id": 3324,
+      "text": "[LC][b:ba_help_apri_stamina_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15801"
+    },
+    {
+      "id": 3325,
+      "text": "[C5:スタミナについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15802"
+    },
+    {
+      "id": 3326,
+      "text": "クエストを遊ぶためにはスタミナが必要不可欠！[LF]難易度によって必要なスタミナ数が異なります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15803"
+    },
+    {
+      "id": 3327,
+      "text": "回復方法",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15804"
+    },
+    {
+      "id": 3328,
+      "text": "消費したスタミナは[LF][C6:時間の経過と共に回復]します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15805"
+    },
+    {
+      "id": 3329,
+      "text": "今すぐプレイしたい場合は、[LF][C6:スタミナミン]や[C6:CM視聴、][C6:オーブ]で[LF]回復も可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1597680619,
+      "label": "eTEXTS_DEF_15806"
+    },
+    {
+      "id": 3330,
+      "text": "上限を増やすには",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15807"
+    },
+    {
+      "id": 3331,
+      "text": "[C6:ランクアップ]するとスタミナは[C6:最大値分回復！][LF]さらに[C6:上限があがる]ことも！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15808"
+    },
+    {
+      "id": 3332,
+      "text": "[C6:ランクアップ！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15809"
+    },
+    {
+      "id": 3333,
+      "text": "マルチプレイした場合",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15810"
+    },
+    {
+      "id": 3334,
+      "text": "[C6:ゲスト参加]すると、[C6:スタミナを消費せずに][LF]遊ぶことができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15811"
+    },
+    {
+      "id": 3335,
+      "text": "[LC]戦型とは[LF][LF][CCB:dlme/help_apri_battletype_00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_HELP_APRI_BATTLETYPE"
+    },
+    {
+      "id": 3336,
+      "text": "[C6:戦型ごとの特徴をおぼえよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16300"
+    },
+    {
+      "id": 3337,
+      "text": "[LC][b:ba_help_apri_battletype_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16301"
+    },
+    {
+      "id": 3338,
+      "text": "モンスターは戦型により[C6:4つのタイプ]に分かれます[LF][C6:超戦型]になると、能力が[C6:さらにパワーアップ]します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16302"
+    },
+    {
+      "id": 3339,
+      "text": "サポート/ヘルプ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_ME_TITLE_HELP"
+    },
+    {
+      "id": 3340,
+      "text": "ホームにヘルプアイコンを表示する",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_ME_HELP_ICON"
+    },
+    {
+      "id": 3341,
+      "text": "その他",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_ME_TITLE_OTHER"
+    },
+    {
+      "id": 3342,
+      "text": "[LC]排出対象ガチャ[LF][LF]%s",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_MSG_GACHA_LIMITED_CHARS_1"
+    },
+    {
+      "id": 3343,
+      "text": "[LC]排出対象ガチャ[LF][LF]現在、排出対象ガチャは未定ですが、[LF]今後も限定キャラクターとしてガチャに登場します。[LF]更新をお待ちください。",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_MSG_GACHA_LIMITED_CHARS_2"
+    },
+    {
+      "id": 3344,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips20.png|1.08][LF][LF]ボス以外の敵も強力な攻撃をしてくるぞ！！[LF]敵の数を減らすことを優先しよう！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200101"
+    },
+    {
+      "id": 3345,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips21.png|1.08][LF][LF]「回復」アビリティを持ったモンスターで[LF]こまめに[C6:味方にふれてHPを回復]しよう",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200102"
+    },
+    {
+      "id": 3346,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips22.png|1.08][LF][LF][C6:最初のターンはボスに攻撃を当てないように]しよう[LF]攻撃して怒らせると強力な攻撃をしてくるぞ！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200103"
+    },
+    {
+      "id": 3347,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips23.png|1.08][LF][LF]ターンが進むと「カーマ」は強力な攻撃をしてくるぞ[LF]1体ずつ確実に倒そう！！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200104"
+    },
+    {
+      "id": 3348,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips24.png|1.08][LF][LF]毒攻撃をする敵が出現！毒状態は毎ターンダメージ！[LF]「状態異常回復」アビリティで解除しよう！！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200105"
+    },
+    {
+      "id": 3349,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips25.png|1.08][LF][LF]大部分の敵は毒によるダメージが有効！[LF]敵を毒状態にできる友情コンボをHITさせよう",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200106"
+    },
+    {
+      "id": 3350,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips26.png|1.08][LF][LF]他の敵を復活させる「ネクロン」が登場！[LF]友情コンボを利用してネクロンを優先的に倒そう",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200107"
+    },
+    {
+      "id": 3351,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips27.png|1.08][LF][LF]ボス戦は倒した敵がどんどん復活！[LF]友情コンボで敵を倒しつつ、ボスにも攻撃しよう",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200108"
+    },
+    {
+      "id": 3352,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips28.png|1.08][LF][LF]3体のうち本当のボスは1体だけ！[LF]移動するボスを見失わずに攻撃しよう！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200109"
+    },
+    {
+      "id": 3353,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips29.png|1.08][LF][LF]ボスは防御力UPをして身を守るぞ！[LF]防御力UP中はボスの分身に攻撃を与えよう",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200110"
+    },
+    {
+      "id": 3354,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips30.png|1.08][LF][LF][C6:大黒天のお面]には要注意！倒すと大ダメージが発動！[LF]お面を倒さないように大黒天を攻撃しよう！！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200111"
+    },
+    {
+      "id": 3355,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips31.png|1.08][LF][LF]魔法陣でひよこ状態に！能力が大幅に低下するぞ！[LF]もう一度魔法陣にふれると、ひよこ状態から復活！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200112"
+    }
+  ]
+}

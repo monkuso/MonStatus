@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "table": "referral_passport_login_rewards",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "name": "GWキャンペーン",
+      "login_start_at": 1777143600,
+      "login_end_at": 1778093999,
+      "receive_start_at": 1777143600,
+      "receive_end_at": 1778180399,
+      "item_id": 76,
+      "item_count": 1,
+      "char_extend_template_id": 0,
+      "created_at": 1777104442,
+      "updated_at": 1777104442
+    },
+    {
+      "id": 2,
+      "name": "DREAMDAZE Ⅳ開催記念",
+      "login_start_at": 1783450800,
+      "login_end_at": 1784228399,
+      "receive_start_at": 1783450800,
+      "receive_end_at": 1784314799,
+      "item_id": 75,
+      "item_count": 1,
+      "char_extend_template_id": 0,
+      "created_at": 1782987992,
+      "updated_at": 1782987992
+    },
+    {
+      "id": 3,
+      "name": "もうすぐMONST FREAK 2026 開催記念",
+      "login_start_at": 1789671600,
+      "login_end_at": 1790794799,
+      "receive_start_at": 1789671600,
+      "receive_end_at": 1790881199,
+      "item_id": 76,
+      "item_count": 1,
+      "char_extend_template_id": 0,
+      "created_at": 1789639698,
+      "updated_at": 1789639698
+    },
+    {
+      "id": 4,
+      "name": "13周年キャンペーン",
+      "login_start_at": 1790881200,
+      "login_end_at": 1792954799,
+      "receive_start_at": 1790881200,
+      "receive_end_at": 1793041199,
+      "item_id": 93,
+      "item_count": 1,
+      "char_extend_template_id": 0,
+      "created_at": 1790849745,
+      "updated_at": 1790849745
+    }
+  ]
+}

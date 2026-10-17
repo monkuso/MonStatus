@@ -1,0 +1,1589 @@
+{
+  "schemaVersion": 1,
+  "table": "game_constants",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 348,
+      "name": "DS_61388_LIMITED_AAID_3",
+      "value": 1376,
+      "created_at": 1620379754,
+      "updated_at": 1620379754
+    },
+    {
+      "id": 349,
+      "name": "DS_61388_LIMITED_AAID_4",
+      "value": 1377,
+      "created_at": 1620379754,
+      "updated_at": 1620379754
+    },
+    {
+      "id": 353,
+      "name": "ANNOUNCE_ACTIVE_FLAG",
+      "value": 1,
+      "created_at": 1627380043,
+      "updated_at": 1627380043
+    },
+    {
+      "id": 355,
+      "name": "ENABLE_AUTO_COMBINE_MONSTER_BOX",
+      "value": 1,
+      "created_at": 1623085094,
+      "updated_at": 1632756636
+    },
+    {
+      "id": 357,
+      "name": "DS_63953_TARGET_ENEMY_SKIN_ID",
+      "value": 8827,
+      "created_at": 1626107773,
+      "updated_at": 1710172755
+    },
+    {
+      "id": 358,
+      "name": "DISABLE_RELATIONSHIP",
+      "value": 1,
+      "created_at": 1741621090,
+      "updated_at": 1741621090
+    },
+    {
+      "id": 361,
+      "name": "MAP_BALLOON_MAX_BY_DAY",
+      "value": 100,
+      "created_at": 1629907049,
+      "updated_at": 1629907049
+    },
+    {
+      "id": 363,
+      "name": "ONE_MORE_DICE_START_TIME",
+      "value": 1631818800,
+      "created_at": 1629907049,
+      "updated_at": 1629907049
+    },
+    {
+      "id": 368,
+      "name": "CHOCO_BOSS_RESULT_LIMIT",
+      "value": 200,
+      "created_at": 1633259553,
+      "updated_at": 1633259553
+    },
+    {
+      "id": 369,
+      "name": "BEAST_MUTATION_GREAT_SUCCESS_PROBABILITY",
+      "value": 10,
+      "created_at": 1634747713,
+      "updated_at": 1634747713
+    },
+    {
+      "id": 372,
+      "name": "CONTINUE_WHEN_GUEST_IS_DISCONNECTED",
+      "value": 1,
+      "created_at": 1634747713,
+      "updated_at": 1634747713
+    },
+    {
+      "id": 373,
+      "name": "DISABLE_ROOM",
+      "value": 0,
+      "created_at": 1636563897,
+      "updated_at": 1636563897
+    },
+    {
+      "id": 374,
+      "name": "ROOM_CAPACITY",
+      "value": 20,
+      "created_at": 1636563897,
+      "updated_at": 1636563897
+    },
+    {
+      "id": 375,
+      "name": "ROOM_JOIN_MAX",
+      "value": 3,
+      "created_at": 1636563897,
+      "updated_at": 1636563897
+    },
+    {
+      "id": 376,
+      "name": "ROOM_CREATE_MAX",
+      "value": 2,
+      "created_at": 1636563897,
+      "updated_at": 1644255323
+    },
+    {
+      "id": 377,
+      "name": "ROOM_SEARCH_TERM_IN_HOURS",
+      "value": 24,
+      "created_at": 1636563897,
+      "updated_at": 1636563897
+    },
+    {
+      "id": 378,
+      "name": "ROOM_SEARCH_CACHE_SIZE",
+      "value": 100,
+      "created_at": 1634747713,
+      "updated_at": 1636563897
+    },
+    {
+      "id": 379,
+      "name": "ENABLE_APP_ICON_CHANGE",
+      "value": 1,
+      "created_at": 1636563897,
+      "updated_at": 1636563897
+    },
+    {
+      "id": 382,
+      "name": "CAMPAIGN_ROULETTE_PLAY_RARE_STOPCASE_RATE",
+      "value": 800,
+      "created_at": 1636563897,
+      "updated_at": 1636563897
+    },
+    {
+      "id": 383,
+      "name": "ENABLE_SEASON_ROAD_OPTION",
+      "value": 1,
+      "created_at": 1634747713,
+      "updated_at": 1635503771
+    },
+    {
+      "id": 384,
+      "name": "ENABLE_SEASON_ROAD_OPTION",
+      "value": 1,
+      "created_at": 1636563897,
+      "updated_at": 1636563897
+    },
+    {
+      "id": 385,
+      "name": "CCB_PARTICLE_PRELOAD",
+      "value": 0,
+      "created_at": 1638266458,
+      "updated_at": 1639590996
+    },
+    {
+      "id": 389,
+      "name": "DISABLE_PLAYERCARD_SCREENSHOT",
+      "value": 0,
+      "created_at": 1639590996,
+      "updated_at": 1639590996
+    },
+    {
+      "id": 390,
+      "name": "PLAYERCARD_DEFAULT_CARD_ID",
+      "value": 1,
+      "created_at": 1639590996,
+      "updated_at": 1639590996
+    },
+    {
+      "id": 391,
+      "name": "SUSHI_SP_STAGE_GROUP_ID",
+      "value": 23770,
+      "created_at": 1645095738,
+      "updated_at": 1645095738
+    },
+    {
+      "id": 392,
+      "name": "SUSHI_COLLABO_SP_BOSS_KILL_EFFECT_WAIT_TIME",
+      "value": 13000,
+      "created_at": 1645095738,
+      "updated_at": 1645095738
+    },
+    {
+      "id": 397,
+      "name": "GOURMET_COOKING_LUCKY_RATE",
+      "value": 10,
+      "created_at": 1649323876,
+      "updated_at": 1649323876
+    },
+    {
+      "id": 399,
+      "name": "TOFU_COLLABO_SP_BOSS_KILL_EFFECT_WAIT_TIME",
+      "value": 16100,
+      "created_at": 1647522174,
+      "updated_at": 1705051333
+    },
+    {
+      "id": 400,
+      "name": "TOFU_COLLABO_SP_BOSS_DEAD_START_WAIT_TIME",
+      "value": 8900,
+      "created_at": 1647522174,
+      "updated_at": 1705051333
+    },
+    {
+      "id": 402,
+      "name": "GACHA_POINT_NOT_SELECTABLE_WAIT_RATE",
+      "value": 20,
+      "created_at": 1650905734,
+      "updated_at": 1650905734
+    },
+    {
+      "id": 403,
+      "name": "GACHA_POINT_NOT_SELECTABLE_WAIT_TIME_BASE",
+      "value": 400,
+      "created_at": 1650905734,
+      "updated_at": 1657555099
+    },
+    {
+      "id": 404,
+      "name": "GACHA_POINT_NOT_SELECTABLE_WAIT_TIME_RAND",
+      "value": 200,
+      "created_at": 1650905734,
+      "updated_at": 1650905734
+    },
+    {
+      "id": 405,
+      "name": "WELCOME_QUEST_START_AT",
+      "value": 1650899400,
+      "created_at": 1650905734,
+      "updated_at": 1650905734
+    },
+    {
+      "id": 406,
+      "name": "KANEYOBI_STAGE_GROUP_ID",
+      "value": 850810,
+      "created_at": 1666798736,
+      "updated_at": 1666798736
+    },
+    {
+      "id": 409,
+      "name": "TOURNAMENT_HIDE_FLAG",
+      "value": 0,
+      "created_at": 1743502495,
+      "updated_at": 1743502495
+    },
+    {
+      "id": 412,
+      "name": "DISABLE_GET_NEW_CHAR_PHASE_SKIP",
+      "value": 0,
+      "created_at": 1657555099,
+      "updated_at": 1657555099
+    },
+    {
+      "id": 414,
+      "name": "PURCHASE_DUPLICATED_PERIOD_MINUTES",
+      "value": 10,
+      "created_at": 1657555100,
+      "updated_at": 1657555100
+    },
+    {
+      "id": 415,
+      "name": "TENKO_RELEASE_AT",
+      "value": 1659582000,
+      "created_at": 1657555100,
+      "updated_at": 1659577624
+    },
+    {
+      "id": 417,
+      "name": "FORCE_REFRESH_FRIEND_ON_GAME_SAVE",
+      "value": 0,
+      "created_at": 1657555100,
+      "updated_at": 1662030003
+    },
+    {
+      "id": 419,
+      "name": "HIDE_GEM_GROW_EL",
+      "value": 0,
+      "created_at": 1659577624,
+      "updated_at": 1659577624
+    },
+    {
+      "id": 420,
+      "name": "HIDE_CONNECT_SKILL_MENU_BUTTON",
+      "value": 0,
+      "created_at": 1659577624,
+      "updated_at": 1659577624
+    },
+    {
+      "id": 424,
+      "name": "FRIEND_USRE_DIFF",
+      "value": 1,
+      "created_at": 1660578442,
+      "updated_at": 1660578442
+    },
+    {
+      "id": 425,
+      "name": "MSGWIN_MASK_RETURN_BUTTON",
+      "value": 1,
+      "created_at": 1660578442,
+      "updated_at": 1660578442
+    },
+    {
+      "id": 428,
+      "name": "HIDE_GEM_GROW_RESULT_CHECKBOX",
+      "value": 0,
+      "created_at": 1660819509,
+      "updated_at": 1661496624
+    },
+    {
+      "id": 429,
+      "name": "REGISTER_UPDATE_COUNT_LIMIT",
+      "value": 5,
+      "created_at": 1664206641,
+      "updated_at": 1664206641
+    },
+    {
+      "id": 430,
+      "name": "GACHA_EFFECT_DS_74983",
+      "value": 3,
+      "created_at": 1664623955,
+      "updated_at": 1664623955
+    },
+    {
+      "id": 431,
+      "name": "HEDE_GACHA_MENU_SWITCH_BUTTON",
+      "value": 0,
+      "created_at": 1664206641,
+      "updated_at": 1666798736
+    },
+    {
+      "id": 432,
+      "name": "CREAM_COLLABO_EFFECT_MASK",
+      "value": 8,
+      "created_at": 1723722814,
+      "updated_at": 1723722814
+    },
+    {
+      "id": 436,
+      "name": "DISABLE_GAME_CALENDAR",
+      "value": 0,
+      "created_at": 1666798736,
+      "updated_at": 1666798736
+    },
+    {
+      "id": 440,
+      "name": "DISABLE_HISTORY_DECK_SLOT",
+      "value": 0,
+      "created_at": 1666798736,
+      "updated_at": 1666798736
+    },
+    {
+      "id": 442,
+      "name": "GOURMET_DELIVER_CHEF_ID",
+      "value": 10157,
+      "created_at": 1672224652,
+      "updated_at": 1672224652
+    },
+    {
+      "id": 445,
+      "name": "DISABLE_GOURMET",
+      "value": 0,
+      "created_at": 1670903042,
+      "updated_at": 1672224652
+    },
+    {
+      "id": 450,
+      "name": "DS77585_DIEOUT_START_WAIT_TIME_03",
+      "value": 13000,
+      "created_at": 1673524986,
+      "updated_at": 1673524986
+    },
+    {
+      "id": 454,
+      "name": "DS77585_KILL_EFFECT_WAIT_TIME_03",
+      "value": 15500,
+      "created_at": 1673524986,
+      "updated_at": 1673524986
+    },
+    {
+      "id": 457,
+      "name": "DISABLE_MSGWIN_BUTTON_AT_CONNECTING",
+      "value": 1,
+      "created_at": 1723564004,
+      "updated_at": 1723564004
+    },
+    {
+      "id": 460,
+      "name": "ENABLE_DISPLAY_TENKO_MOST_PHASE_CLEAR_COUNT",
+      "value": 1,
+      "created_at": 1675873155,
+      "updated_at": 1677578515
+    },
+    {
+      "id": 466,
+      "name": "ENABLE_BOX_SORT_SAVE",
+      "value": 1,
+      "created_at": 1678722089,
+      "updated_at": 1678722089
+    },
+    {
+      "id": 467,
+      "name": "ENABLE_BOX_SORT_VERSION",
+      "value": 0,
+      "created_at": 1678722089,
+      "updated_at": 1678722089
+    },
+    {
+      "id": 471,
+      "name": "HIDE_TO_RESULT_VSHOT_BUTTON",
+      "value": 0,
+      "created_at": 1678722089,
+      "updated_at": 1678722089
+    },
+    {
+      "id": 476,
+      "name": "TURN_TIMEOUT_SEC",
+      "value": 20,
+      "created_at": 1713803049,
+      "updated_at": 1713803049
+    },
+    {
+      "id": 477,
+      "name": "RECONNECT_SEC",
+      "value": 20,
+      "created_at": 1713803049,
+      "updated_at": 1713803049
+    },
+    {
+      "id": 482,
+      "name": "POEM_IN_GAME_MAX_USE_COUNT",
+      "value": 5,
+      "created_at": 1691053895,
+      "updated_at": 1691053895
+    },
+    {
+      "id": 483,
+      "name": "MAX_MATCHING_LIST_LOCATION_LIFETIME",
+      "value": 180,
+      "created_at": 1686590530,
+      "updated_at": 1686590530
+    },
+    {
+      "id": 485,
+      "name": "ENABLE_QA_26905",
+      "value": 1,
+      "created_at": 1686590530,
+      "updated_at": 1686590530
+    },
+    {
+      "id": 487,
+      "name": "ONE_HAND_SHOT_MAX_PERFECT_CLEAR_COUNT",
+      "value": 7,
+      "created_at": 1692267362,
+      "updated_at": 1743502495
+    },
+    {
+      "id": 491,
+      "name": "POEM_IN_GAME_UP_RATE_BY_ITEM",
+      "value": 150,
+      "created_at": 1691053895,
+      "updated_at": 1691053895
+    },
+    {
+      "id": 493,
+      "name": "ENABLE_POEM",
+      "value": 1,
+      "created_at": 1691053895,
+      "updated_at": 1691053895
+    },
+    {
+      "id": 494,
+      "name": "SUGAR_RESULT_SP_STAGE_GROUP_ID",
+      "value": 25970,
+      "created_at": 1689854554,
+      "updated_at": 1689854554
+    },
+    {
+      "id": 498,
+      "name": "ENABLE_URL_INVITE_LINK",
+      "value": 1,
+      "created_at": 1689007692,
+      "updated_at": 1695658183
+    },
+    {
+      "id": 500,
+      "name": "DS82854_KILL_EFFECT_WAIT_TIME_06",
+      "value": 7500,
+      "created_at": 1689854554,
+      "updated_at": 1689854554
+    },
+    {
+      "id": 505,
+      "name": "NEO_RELEASE_AT",
+      "value": 1696618800,
+      "created_at": 1695658183,
+      "updated_at": 1695658183
+    },
+    {
+      "id": 507,
+      "name": "GACHA_LIDRUSH_TAP_COUNTER_MIN",
+      "value": 5,
+      "created_at": 1697109064,
+      "updated_at": 1697109064
+    },
+    {
+      "id": 508,
+      "name": "GACHA_LIDRUSH_TAP_COUNTER_MAX",
+      "value": 15,
+      "created_at": 1697109064,
+      "updated_at": 1697109064
+    },
+    {
+      "id": 509,
+      "name": "GACHA_LIDRUSH_TOTAL_GAME_TIME",
+      "value": 25,
+      "created_at": 1697109064,
+      "updated_at": 1697109064
+    },
+    {
+      "id": 510,
+      "name": "GACHA_LIDRUSH_RUSH_TIME_START",
+      "value": 10,
+      "created_at": 1697109064,
+      "updated_at": 1697109064
+    },
+    {
+      "id": 511,
+      "name": "GACHA_LIDRUSH_RUSH_BUTTON_DELAY",
+      "value": 6,
+      "created_at": 1697109064,
+      "updated_at": 1697109064
+    },
+    {
+      "id": 519,
+      "name": "DS85106_KILL_EFFECT_WAIT_TIME_04",
+      "value": 17500,
+      "created_at": 1697711924,
+      "updated_at": 1697711924
+    },
+    {
+      "id": 523,
+      "name": "TAIR_RELEASE_AT",
+      "value": 1706756400,
+      "created_at": 1702311002,
+      "updated_at": 1706752573
+    },
+    {
+      "id": 525,
+      "name": "SSP_LOAD_TIMEOUT",
+      "value": 30,
+      "created_at": 1703234659,
+      "updated_at": 1709202654
+    },
+    {
+      "id": 532,
+      "name": "BEACH_COLLABO_EFFECT_MASK",
+      "value": 0,
+      "created_at": 1705572073,
+      "updated_at": 1705572073
+    },
+    {
+      "id": 533,
+      "name": "DS87866_EFFECT_END_WAIT_TIME_08",
+      "value": 1200,
+      "created_at": 1705572073,
+      "updated_at": 1705572073
+    },
+    {
+      "id": 534,
+      "name": "DS87866_TEXUTURE_VISIBLE_WAIT_TIME_08",
+      "value": 800,
+      "created_at": 1705572073,
+      "updated_at": 1705572073
+    },
+    {
+      "id": 535,
+      "name": "DS87864_KILL_EFFECT_WAIT_TIME_07",
+      "value": 17000,
+      "created_at": 1705572073,
+      "updated_at": 1705572073
+    },
+    {
+      "id": 536,
+      "name": "DS87864_DUMMY_DIE_OUT_WAIT_TIME_07",
+      "value": 15000,
+      "created_at": 1705572073,
+      "updated_at": 1705572073
+    },
+    {
+      "id": 537,
+      "name": "DS87864_KILL_EFFECT_WAIT_TIME_08",
+      "value": 5700,
+      "created_at": 1706178848,
+      "updated_at": 1706178848
+    },
+    {
+      "id": 538,
+      "name": "DS87864_KILL_EFFECT_WAIT_TIME_08_SP",
+      "value": 8700,
+      "created_at": 1706178848,
+      "updated_at": 1706178848
+    },
+    {
+      "id": 540,
+      "name": "ALLOW_MULTIPLE_LOGIN",
+      "value": 0,
+      "created_at": 1743502495,
+      "updated_at": 1743502495
+    },
+    {
+      "id": 550,
+      "name": "TENKO_SEASON_ACHIEVEMENT_WITH_SUM_PHASE_COUNT",
+      "value": 1,
+      "created_at": 1718036351,
+      "updated_at": 1722241401
+    },
+    {
+      "id": 551,
+      "name": "TENKO_ACHIEVE_TOTAL_PHASE_COUNT_ACHIEVEMENT_IN_GAME_SAVE",
+      "value": 1,
+      "created_at": 1718036351,
+      "updated_at": 1722241402
+    },
+    {
+      "id": 553,
+      "name": "SPECIAL_BUDDY_LIST_WARMUP",
+      "value": 1,
+      "created_at": 1718036351,
+      "updated_at": 1718036351
+    },
+    {
+      "id": 554,
+      "name": "SPECIAL_BUDDY_LIST_RETURN_FRIEND_LIST",
+      "value": 1,
+      "created_at": 1718036351,
+      "updated_at": 1718876411
+    },
+    {
+      "id": 555,
+      "name": "GACHA_DISCOUNT_ITEM_USAGE_LIMIT",
+      "value": 3,
+      "created_at": 1719479014,
+      "updated_at": 1719479014
+    },
+    {
+      "id": 556,
+      "name": "RECONNECT_NETWORK_CHECK",
+      "value": 1,
+      "created_at": 1743502495,
+      "updated_at": 1743502495
+    },
+    {
+      "id": 558,
+      "name": "JAZZ_ACTION_ACHIEVE_ID",
+      "value": 10349,
+      "created_at": 1720090061,
+      "updated_at": 1720090061
+    },
+    {
+      "id": 561,
+      "name": "ENABLE_DS90495_APKSIGN_V2",
+      "value": 1,
+      "created_at": 1743502495,
+      "updated_at": 1743502495
+    },
+    {
+      "id": 563,
+      "name": "YATAI_TARGET_SIZE",
+      "value": 120,
+      "created_at": 1723722815,
+      "updated_at": 1723722815
+    },
+    {
+      "id": 564,
+      "name": "YATAI_TARGET_INTERVAL_W",
+      "value": 20,
+      "created_at": 1723722815,
+      "updated_at": 1723722815
+    },
+    {
+      "id": 565,
+      "name": "YATAI_TARGET_INTERVAL_H",
+      "value": 40,
+      "created_at": 1723722815,
+      "updated_at": 1723722815
+    },
+    {
+      "id": 566,
+      "name": "YATAI_TARGET_GUN_R",
+      "value": 14,
+      "created_at": 1723722815,
+      "updated_at": 1723722815
+    },
+    {
+      "id": 567,
+      "name": "YATAI_TARGET_SHOTGUN_R",
+      "value": 27,
+      "created_at": 1723722815,
+      "updated_at": 1723722815
+    },
+    {
+      "id": 568,
+      "name": "YATAI_TARGET_POS_Y",
+      "value": -70,
+      "created_at": 1723722815,
+      "updated_at": 1723722815
+    },
+    {
+      "id": 569,
+      "name": "YATAI_TARGET_GUN_POS_Y",
+      "value": -720,
+      "created_at": 1723722815,
+      "updated_at": 1723722815
+    },
+    {
+      "id": 570,
+      "name": "YATAI_TARGET_PHASE_A_ROTATE_MAX",
+      "value": 70,
+      "created_at": 1723722815,
+      "updated_at": 1723722815
+    },
+    {
+      "id": 571,
+      "name": "YATAI_TARGET_PHASE_A_ROTATE_SPEED",
+      "value": 370,
+      "created_at": 1723722815,
+      "updated_at": 1723722815
+    },
+    {
+      "id": 572,
+      "name": "YATAI_TARGET_PHASE_A_GUN_RANGE",
+      "value": 190,
+      "created_at": 1723722815,
+      "updated_at": 1723722815
+    },
+    {
+      "id": 573,
+      "name": "YATAI_TARGET_PHASE_B_GAUGE_SPEED",
+      "value": 280,
+      "created_at": 1723722815,
+      "updated_at": 1723722815
+    },
+    {
+      "id": 575,
+      "name": "YATAI_TARGET_LOW_SPEED_RATE",
+      "value": 50,
+      "created_at": 1723722815,
+      "updated_at": 1723722815
+    },
+    {
+      "id": 576,
+      "name": "YATAI_TARGET_PHASE_B_GUN_RANGE",
+      "value": 530,
+      "created_at": 1723722815,
+      "updated_at": 1723722815
+    },
+    {
+      "id": 578,
+      "name": "YATAI_TARGET_PHASE_C_GAUGE_SPEED",
+      "value": 250,
+      "created_at": 1723722815,
+      "updated_at": 1723722815
+    },
+    {
+      "id": 579,
+      "name": "YATAI_PHASE_C_GAUGE1_1",
+      "value": 60,
+      "created_at": 1723722815,
+      "updated_at": 1723722815
+    },
+    {
+      "id": 580,
+      "name": "YATAI_PHASE_C_GAUGE1_2",
+      "value": 90,
+      "created_at": 1723722815,
+      "updated_at": 1723722815
+    },
+    {
+      "id": 581,
+      "name": "YATAI_PHASE_C_GAUGE2_1",
+      "value": 20,
+      "created_at": 1723722815,
+      "updated_at": 1723722815
+    },
+    {
+      "id": 582,
+      "name": "YATAI_PHASE_C_GAUGE2_2",
+      "value": 70,
+      "created_at": 1723722815,
+      "updated_at": 1723722815
+    },
+    {
+      "id": 585,
+      "name": "EXTEND_CHARBALL_SLOT_GIFT_MAX",
+      "value": 1500,
+      "created_at": 1723564004,
+      "updated_at": 1723564004
+    },
+    {
+      "id": 586,
+      "name": "AUTO_JOIN_SEARCH_SEC",
+      "value": 30,
+      "created_at": 1743502495,
+      "updated_at": 1743502495
+    },
+    {
+      "id": 587,
+      "name": "AUTO_JOIN_HOST_API_SEC",
+      "value": 5,
+      "created_at": 1743502495,
+      "updated_at": 1743502495
+    },
+    {
+      "id": 588,
+      "name": "SIDE_EFFECT_OVERWRITE_ASSAULT_BONUS_TARGET",
+      "value": 87,
+      "created_at": 1726149893,
+      "updated_at": 1726149893
+    },
+    {
+      "id": 593,
+      "name": "MUSHI_SPEED",
+      "value": 1782,
+      "created_at": 1743502495,
+      "updated_at": 1743502495
+    },
+    {
+      "id": 594,
+      "name": "DESERT_RELEASE_AT",
+      "value": 1728874800,
+      "created_at": 1727195350,
+      "updated_at": 1727195350
+    },
+    {
+      "id": 595,
+      "name": "MUSHI_CHAR_PANEL_ID1",
+      "value": 1,
+      "created_at": 1727691115,
+      "updated_at": 1727691115
+    },
+    {
+      "id": 596,
+      "name": "MUSHI_CHAR_PANEL_ID2",
+      "value": 11,
+      "created_at": 1727950407,
+      "updated_at": 1727950407
+    },
+    {
+      "id": 599,
+      "name": "WALL_BOUND_POWER_UP_GIMMICK_INSURANCE_TIME",
+      "value": 10,
+      "created_at": 1733850945,
+      "updated_at": 1733850945
+    },
+    {
+      "id": 604,
+      "name": "PLUM_GACHA_CHANGE_RATE",
+      "value": 30,
+      "created_at": 1731579170,
+      "updated_at": 1731579170
+    },
+    {
+      "id": 605,
+      "name": "PLUM_GACHA_DEBUG_CHANGE_LIST",
+      "value": 0,
+      "created_at": 1731579170,
+      "updated_at": 1731579170
+    },
+    {
+      "id": 606,
+      "name": "PLUM_GACHA_DEBUG_EFFECT_TARGET_ALL",
+      "value": 0,
+      "created_at": 1731579170,
+      "updated_at": 1731579170
+    },
+    {
+      "id": 608,
+      "name": "DISABLE_MAX_LUCK_BONUS_ARCHIVE_STAGE_POINT",
+      "value": 0,
+      "created_at": 1729908066,
+      "updated_at": 1729936879
+    },
+    {
+      "id": 611,
+      "name": "API_RETRY_SEC_BASE",
+      "value": 2,
+      "created_at": 1733850945,
+      "updated_at": 1733850945
+    },
+    {
+      "id": 612,
+      "name": "API_RETRY_SEC_SLOW_MAX",
+      "value": 16,
+      "created_at": 1733850946,
+      "updated_at": 1733850946
+    },
+    {
+      "id": 613,
+      "name": "API_RETRY_SEC_RAND",
+      "value": 5,
+      "created_at": 1733850946,
+      "updated_at": 1743502495
+    },
+    {
+      "id": 614,
+      "name": "ENABLE_CLIMAX_BGM",
+      "value": 1,
+      "created_at": 1735374185,
+      "updated_at": 1735374185
+    },
+    {
+      "id": 615,
+      "name": "ENABLE_SS_CUT_IN_MOVIE",
+      "value": 1,
+      "created_at": 1735374186,
+      "updated_at": 1735374186
+    },
+    {
+      "id": 621,
+      "name": "DS96316_CITRA_SP_EFFECT_HP_THRESHOLD_01",
+      "value": 50,
+      "created_at": 1736423017,
+      "updated_at": 1736423017
+    },
+    {
+      "id": 626,
+      "name": "DS98257_HIT_TYPE_CHANGE",
+      "value": 0,
+      "created_at": 1738639834,
+      "updated_at": 1741937407
+    },
+    {
+      "id": 629,
+      "name": "PAIRING_MISS_MATCH_PENARTY_TIME",
+      "value": 25,
+      "created_at": 1740662183,
+      "updated_at": 1740662183
+    },
+    {
+      "id": 630,
+      "name": "DISABLE_SUGGEST_DECK",
+      "value": 0,
+      "created_at": 1738598965,
+      "updated_at": 1755061252
+    },
+    {
+      "id": 631,
+      "name": "PAIRING_HIT_CIRCLE_DIA",
+      "value": 100,
+      "created_at": 1740662183,
+      "updated_at": 1740662183
+    },
+    {
+      "id": 632,
+      "name": "PAIRING_HELP_MODE_COUNT",
+      "value": 5,
+      "created_at": 1740662183,
+      "updated_at": 1740662183
+    },
+    {
+      "id": 633,
+      "name": "AMAZON_PURCHASE_CLOSE_TIME",
+      "value": 1740038400,
+      "created_at": 1739944847,
+      "updated_at": 1739944847
+    },
+    {
+      "id": 634,
+      "name": "PAIRING_HELP_MODE_ADDITIONAL_TIME",
+      "value": 30,
+      "created_at": 1740662183,
+      "updated_at": 1741621090
+    },
+    {
+      "id": 635,
+      "name": "INGAME_CCBI_SSP_SWITCH_SKILL_830_DS98779",
+      "value": 1,
+      "created_at": 1770050221,
+      "updated_at": 1770050221
+    },
+    {
+      "id": 636,
+      "name": "DS98206_MOTSU_SP_EFFECT_TURN_THRESHOLD_03",
+      "value": 4,
+      "created_at": 1739443953,
+      "updated_at": 1739443953
+    },
+    {
+      "id": 638,
+      "name": "INHALE_GAME_TIME",
+      "value": 20,
+      "created_at": 1778144253,
+      "updated_at": 1778144253
+    },
+    {
+      "id": 639,
+      "name": "INHALE_PICKUP_INTERVAL",
+      "value": 0,
+      "created_at": 1778144253,
+      "updated_at": 1778144253
+    },
+    {
+      "id": 640,
+      "name": "DISABLE_FRIEND_REFERRAL",
+      "value": 0,
+      "created_at": 1743502495,
+      "updated_at": 1743547366
+    },
+    {
+      "id": 641,
+      "name": "DISABLE_RECAPTCHA",
+      "value": 0,
+      "created_at": 1743502495,
+      "updated_at": 1743502495
+    },
+    {
+      "id": 642,
+      "name": "REPEAT_CHAR_RESERVE_MAX",
+      "value": 20,
+      "created_at": 1741621090,
+      "updated_at": 1741621090
+    },
+    {
+      "id": 643,
+      "name": "CREEP_BRUSH_SIZE",
+      "value": 15,
+      "created_at": 1743502495,
+      "updated_at": 1743502495
+    },
+    {
+      "id": 644,
+      "name": "CREEP_VANISHED_RATIO",
+      "value": 60,
+      "created_at": 1743502495,
+      "updated_at": 1743502495
+    },
+    {
+      "id": 647,
+      "name": "INGAME_CCBI_SSP_SWITCH_SKILL_388_DS99901",
+      "value": 1,
+      "created_at": 1770050221,
+      "updated_at": 1770050221
+    },
+    {
+      "id": 648,
+      "name": "INGAME_CCBI_SSP_SWITCH_SEESAW_KURAYAMI_DS99901",
+      "value": 1,
+      "created_at": 1770050221,
+      "updated_at": 1770050221
+    },
+    {
+      "id": 649,
+      "name": "INGAME_CCBI_SSP_SWITCH_SS_1105_DS99901",
+      "value": 1,
+      "created_at": 1770050221,
+      "updated_at": 1770050221
+    },
+    {
+      "id": 650,
+      "name": "INGAME_CCBI_SSP_SWITCH_SS_41_DS99901",
+      "value": 1,
+      "created_at": 1770050221,
+      "updated_at": 1770050221
+    },
+    {
+      "id": 658,
+      "name": "MIKAN_TARGET_PHASE_A_ROTATE_SPEED",
+      "value": 370,
+      "created_at": 1746697526,
+      "updated_at": 1746697526
+    },
+    {
+      "id": 660,
+      "name": "MIKAN_TARGET_PHASE_B_GAUGE_SPEED",
+      "value": 280,
+      "created_at": 1746697526,
+      "updated_at": 1746697526
+    },
+    {
+      "id": 663,
+      "name": "MIKAN_PHASE_C_GAUGE1_1",
+      "value": 56,
+      "created_at": 1746697526,
+      "updated_at": 1746697526
+    },
+    {
+      "id": 664,
+      "name": "MIKAN_PHASE_C_GAUGE1_2",
+      "value": 89,
+      "created_at": 1746697526,
+      "updated_at": 1746697526
+    },
+    {
+      "id": 665,
+      "name": "MIKAN_PHASE_C_GAUGE2_1",
+      "value": 19,
+      "created_at": 1746697526,
+      "updated_at": 1746697526
+    },
+    {
+      "id": 666,
+      "name": "MIKAN_PHASE_C_GAUGE2_2",
+      "value": 69,
+      "created_at": 1746697526,
+      "updated_at": 1746697526
+    },
+    {
+      "id": 671,
+      "name": "DS101488_URL_INVITAION_ACTIVE_DELAY_TIME",
+      "value": 0,
+      "created_at": 1744092466,
+      "updated_at": 1744092466
+    },
+    {
+      "id": 673,
+      "name": "CRADLE_COIN_RATE_SOLO",
+      "value": 10,
+      "created_at": 1751539551,
+      "updated_at": 1751539551
+    },
+    {
+      "id": 674,
+      "name": "CRADLE_COIN_RATE_MULTI",
+      "value": 15,
+      "created_at": 1751539551,
+      "updated_at": 1751539551
+    },
+    {
+      "id": 682,
+      "name": "INGAME_CCBI_SSP_SWITCH_GIMMICK_ITEM_POINT_DS100417",
+      "value": 1,
+      "created_at": 1770050222,
+      "updated_at": 1770050222
+    },
+    {
+      "id": 683,
+      "name": "INGAME_CCBI_SSP_SWITCH_GIMMICK_LENGTHEN_SPEAR_WALL_DS100417",
+      "value": 1,
+      "created_at": 1770050222,
+      "updated_at": 1770050222
+    },
+    {
+      "id": 684,
+      "name": "INGAME_CCBI_SSP_SWITCH_GIMMICK_COUNTDOWN_CIRCLE_ATTACK_DS100417",
+      "value": 1,
+      "created_at": 1770050222,
+      "updated_at": 1770050222
+    },
+    {
+      "id": 685,
+      "name": "INGAME_CCBI_SSP_SWITCH_SKILL_594_DS100417",
+      "value": 1,
+      "created_at": 1770050222,
+      "updated_at": 1770050222
+    },
+    {
+      "id": 686,
+      "name": "INGAME_CCBI_SSP_SWITCH_SKILL_834_DS100417",
+      "value": 1,
+      "created_at": 1770050222,
+      "updated_at": 1770050222
+    },
+    {
+      "id": 701,
+      "name": "SEIBO_RELEASE_AT",
+      "value": 1754017200,
+      "created_at": 1751990610,
+      "updated_at": 1753965339
+    },
+    {
+      "id": 703,
+      "name": "WALLBREAK_BLOCK_MOVE_THRESHOLD",
+      "value": 64,
+      "created_at": 1753965339,
+      "updated_at": 1753965339
+    },
+    {
+      "id": 704,
+      "name": "ANDEVBOX_BOX2_HIT_OPEN_DEBUG_VALUE",
+      "value": 0,
+      "created_at": 1752745048,
+      "updated_at": 1752745048
+    },
+    {
+      "id": 705,
+      "name": "MONSTER_GEM_SLOT_MAX",
+      "value": 4,
+      "created_at": 1753965339,
+      "updated_at": 1753965339
+    },
+    {
+      "id": 706,
+      "name": "HIDE_MONPASS_PREMIUM_LUCKY_RESULT_BUTTON",
+      "value": 0,
+      "created_at": 1755014496,
+      "updated_at": 1755014496
+    },
+    {
+      "id": 707,
+      "name": "INGAME_CCBI_SSP_SWITCH_SS_291_DS102221",
+      "value": 1,
+      "created_at": 1770050222,
+      "updated_at": 1770050222
+    },
+    {
+      "id": 708,
+      "name": "INGAME_CCBI_SSP_SWITCH_WONDER_DOOR_DS102221",
+      "value": 1,
+      "created_at": 1770050222,
+      "updated_at": 1770050222
+    },
+    {
+      "id": 713,
+      "name": "DS99588_INSIDE_BREAK_AREA_WIDTH",
+      "value": 300,
+      "created_at": 1755777048,
+      "updated_at": 1755777048
+    },
+    {
+      "id": 714,
+      "name": "DS99588_INSIDE_BREAK_AREA_HEIGHT",
+      "value": 400,
+      "created_at": 1755777049,
+      "updated_at": 1755777049
+    },
+    {
+      "id": 715,
+      "name": "DS101312_WAIT_FRAME",
+      "value": 1200,
+      "created_at": 1753965339,
+      "updated_at": 1755777049
+    },
+    {
+      "id": 725,
+      "name": "DS103702_SPEED_DOWN_WALL_LIMIT",
+      "value": 99,
+      "created_at": 1757523330,
+      "updated_at": 1757523330
+    },
+    {
+      "id": 730,
+      "name": "STAGE_GROUP_PLAYABLE_TIME_MINUTES",
+      "value": 120,
+      "created_at": 1760470477,
+      "updated_at": 1760470477
+    },
+    {
+      "id": 731,
+      "name": "STAGE_GROUP_REVIVABLE_TERM_HOURS",
+      "value": 48,
+      "created_at": 1760470477,
+      "updated_at": 1760470477
+    },
+    {
+      "id": 732,
+      "name": "STAGE_GROUP_REVIVED_PLAYABLE_TERM_MINUTES",
+      "value": 180,
+      "created_at": 1760470477,
+      "updated_at": 1760470477
+    },
+    {
+      "id": 733,
+      "name": "STAGE_GROUP_REVIVED_PLAYABLE_TIME_MINUTES",
+      "value": 60,
+      "created_at": 1760470477,
+      "updated_at": 1760470477
+    },
+    {
+      "id": 735,
+      "name": "MAP_BALLOON_ORB_MAX_BY_DAY",
+      "value": 5,
+      "created_at": 1760470477,
+      "updated_at": 1760470477
+    },
+    {
+      "id": 736,
+      "name": "RESTORED_STAGE_GROUP_MAX_CONSUME_PLAYABLE_TIME_MINUTES",
+      "value": 15,
+      "created_at": 1760470477,
+      "updated_at": 1760470477
+    },
+    {
+      "id": 743,
+      "name": "DS104880_BANNER_NEW_EVENT_TIME",
+      "value": 1,
+      "created_at": 1760470477,
+      "updated_at": 1760470477
+    },
+    {
+      "id": 744,
+      "name": "DS104880_BANNER_UNARCHIVED_TIME",
+      "value": 1,
+      "created_at": 1760470477,
+      "updated_at": 1760470477
+    },
+    {
+      "id": 745,
+      "name": "DS104880_BANNER_AUTO_ADVENT_RANK_ULTIMATE_TIME",
+      "value": 1,
+      "created_at": 1760470477,
+      "updated_at": 1760470477
+    },
+    {
+      "id": 746,
+      "name": "DS104880_BANNER_AUTO_ADVENT_RANK_EXTREME_TIME",
+      "value": 1,
+      "created_at": 1760470477,
+      "updated_at": 1760470477
+    },
+    {
+      "id": 747,
+      "name": "DS104880_BANNER_VIEW_CONTROL",
+      "value": 63,
+      "created_at": 1760470477,
+      "updated_at": 1760470477
+    },
+    {
+      "id": 751,
+      "name": "DS106928_IS_ENABLE_SKIP_LANDING_SE_SP_CHARAPPEAR",
+      "value": 1,
+      "created_at": 1763032728,
+      "updated_at": 1763032728
+    },
+    {
+      "id": 753,
+      "name": "INGAME_CCBI_SSP_SWITCH_SS_1638_DS103664",
+      "value": 1,
+      "created_at": 1770050222,
+      "updated_at": 1770050222
+    },
+    {
+      "id": 756,
+      "name": "DS104880_BANNER_DIFFICULTY_LEVEL_TIME",
+      "value": 1,
+      "created_at": 1762796531,
+      "updated_at": 1762796531
+    },
+    {
+      "id": 762,
+      "name": "PAIRING_LOW_RARITY_CHAR_SCALE",
+      "value": 125,
+      "created_at": 1770050222,
+      "updated_at": 1772099903
+    },
+    {
+      "id": 763,
+      "name": "INGAME_CCBI_SSP_SWITCH_ALL_SS_1699_DS106047",
+      "value": 1,
+      "created_at": 1770887782,
+      "updated_at": 1770887782
+    },
+    {
+      "id": 764,
+      "name": "INGAME_CCBI_SSP_SWITCH_AURA_SS_1699_DS106047",
+      "value": 0,
+      "created_at": 1770887782,
+      "updated_at": 1770887782
+    },
+    {
+      "id": 765,
+      "name": "INGAME_CCBI_SSP_SWITCH_BG_SS_1699_DS106047",
+      "value": 0,
+      "created_at": 1770887782,
+      "updated_at": 1770887782
+    },
+    {
+      "id": 768,
+      "name": "DS106033_GAME_PLAY_LOG_SEND_RATE",
+      "value": 10,
+      "created_at": 1773179188,
+      "updated_at": 1775554185
+    },
+    {
+      "id": 769,
+      "name": "DS106033_MAX_GAME_PLAY_LOG_SIZE",
+      "value": 100,
+      "created_at": 1773179188,
+      "updated_at": 1773179188
+    },
+    {
+      "id": 770,
+      "name": "REFERRAL_RESET_TIME",
+      "value": 1773169200,
+      "created_at": 1773179188,
+      "updated_at": 1773179188
+    },
+    {
+      "id": 771,
+      "name": "RECOMMEND_CACHE_RESET_VERSION",
+      "value": 1,
+      "created_at": 1790598845,
+      "updated_at": 1790598845
+    },
+    {
+      "id": 776,
+      "name": "DS109089_IWAKI_SP_EFFECT_HP_THRESHOLD_01",
+      "value": 40,
+      "created_at": 1774952097,
+      "updated_at": 1774952097
+    },
+    {
+      "id": 778,
+      "name": "DISABLE_STAGE_INFO_MISSION_LIST",
+      "value": 0,
+      "created_at": 1773179188,
+      "updated_at": 1773179188
+    },
+    {
+      "id": 780,
+      "name": "BEGINNER_TOWER_START_DATE",
+      "value": 1773154800,
+      "created_at": 1773179188,
+      "updated_at": 1773179188
+    },
+    {
+      "id": 782,
+      "name": "DISABLE_BEGINNER_PACK_REPLACE",
+      "value": 0,
+      "created_at": 1777104430,
+      "updated_at": 1777104430
+    },
+    {
+      "id": 789,
+      "name": "DISABLE_STAGE_CLASS_CATALOG",
+      "value": 0,
+      "created_at": 1780939741,
+      "updated_at": 1780939741
+    },
+    {
+      "id": 790,
+      "name": "SHINJU_GIRAFFE_RELEASE_AT",
+      "value": 1784948400,
+      "created_at": 1784804575,
+      "updated_at": 1784804575
+    },
+    {
+      "id": 795,
+      "name": "FAVORITE_CHAR_VOTE_LIMIT",
+      "value": 4,
+      "created_at": 1783855300,
+      "updated_at": 1783855300
+    },
+    {
+      "id": 796,
+      "name": "CAVERN_RELEASE_AT",
+      "value": 1786676400,
+      "created_at": 1786550562,
+      "updated_at": 1786550562
+    },
+    {
+      "id": 799,
+      "name": "NEW_UNLOCK_CONDITION_RELEASE_AT",
+      "value": 1786561200,
+      "created_at": 1786550562,
+      "updated_at": 1786550562
+    },
+    {
+      "id": 800,
+      "name": "ENABLE_MANJU_CHARA_BALL_SWITCH",
+      "value": 1,
+      "created_at": 1787909375,
+      "updated_at": 1787909375
+    },
+    {
+      "id": 802,
+      "name": "FRONTIER_BATTLEFIELD_TUMEMON_ENDAT",
+      "value": 1798729199,
+      "created_at": 1786550562,
+      "updated_at": 1786550562
+    },
+    {
+      "id": 821,
+      "name": "MISSION_RENEWAL_START_DATE",
+      "value": 1788894000,
+      "created_at": 1788887755,
+      "updated_at": 1788887755
+    },
+    {
+      "id": 822,
+      "name": "DS114183_WELCOME_QUEST_TIPS_RENEWAL_START_DATE",
+      "value": 1788894000,
+      "created_at": 1788887755,
+      "updated_at": 1788887755
+    },
+    {
+      "id": 824,
+      "name": "DS113675_WAIT_TIME_FOR_NEXT_STAGE_WAIT_07_SP",
+      "value": 7900,
+      "created_at": 1791461880,
+      "updated_at": 1791461880
+    },
+    {
+      "id": 825,
+      "name": "ASARI_RELEASE_AT",
+      "value": 1793700000,
+      "created_at": 1791908953,
+      "updated_at": 1791908953
+    },
+    {
+      "id": 829,
+      "name": "DS113674_DUMMY_DIEOUT_WAIT_TIME_07_SP",
+      "value": 19400,
+      "created_at": 1791461880,
+      "updated_at": 1791461880
+    },
+    {
+      "id": 830,
+      "name": "DS113674_KILL_EFFECT_WAIT_TIME_07_SP",
+      "value": 21700,
+      "created_at": 1791461881,
+      "updated_at": 1791461881
+    },
+    {
+      "id": 831,
+      "name": "DS113674_DUMMY_DIEOUT_WAIT_TIME_09_SP",
+      "value": 4000,
+      "created_at": 1791461881,
+      "updated_at": 1791461881
+    },
+    {
+      "id": 832,
+      "name": "DS113674_KILL_EFFECT_WAIT_TIME_09_SP",
+      "value": 14500,
+      "created_at": 1791461881,
+      "updated_at": 1791461881
+    },
+    {
+      "id": 833,
+      "name": "DS113674_KILL_EFFECT_WAIT_TIME_06",
+      "value": 8000,
+      "created_at": 1790849733,
+      "updated_at": 1790849733
+    },
+    {
+      "id": 834,
+      "name": "DS113674_KILL_EFFECT_WAIT_TIME_06_SP",
+      "value": 24200,
+      "created_at": 1790849733,
+      "updated_at": 1790849733
+    },
+    {
+      "id": 835,
+      "name": "DS113674_IS_READY_RELEASE_09_SP",
+      "value": 1,
+      "created_at": 1790849733,
+      "updated_at": 1791461881
+    },
+    {
+      "id": 838,
+      "name": "DS114663_KILL_EFFECT_WAIT_TIME_00_SP",
+      "value": 8800,
+      "created_at": 1792059520,
+      "updated_at": 1792059520
+    },
+    {
+      "id": 839,
+      "name": "DS114663_DUMMY_DIEOUT_WAIT_TIME_00_SP",
+      "value": 6000,
+      "created_at": 1792059520,
+      "updated_at": 1792059520
+    },
+    {
+      "id": 840,
+      "name": "DS114663_KILL_EFFECT_WAIT_TIME_01_SP",
+      "value": 11300,
+      "created_at": 1792059520,
+      "updated_at": 1792059520
+    },
+    {
+      "id": 841,
+      "name": "DS114663_DUMMY_DIEOUT_WAIT_TIME_01_SP",
+      "value": 10800,
+      "created_at": 1792059520,
+      "updated_at": 1792059520
+    },
+    {
+      "id": 844,
+      "name": "SUGGEST_DECK_CACHE_FORCE_REFRESH_AT",
+      "value": 1791925800,
+      "created_at": 1791908953,
+      "updated_at": 1791926607
+    }
+  ]
+}

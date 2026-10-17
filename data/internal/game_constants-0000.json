@@ -1,0 +1,1799 @@
+{
+  "schemaVersion": 1,
+  "table": "game_constants",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "name": "DECK_MAX",
+      "value": 5,
+      "created_at": 1418918948,
+      "updated_at": 1418918948
+    },
+    {
+      "id": 2,
+      "name": "CHARBALL_MAX",
+      "value": 9200,
+      "created_at": 1418918948,
+      "updated_at": 1791908953
+    },
+    {
+      "id": 3,
+      "name": "GEM_MAX",
+      "value": 500,
+      "created_at": 1418918948,
+      "updated_at": 1418918948
+    },
+    {
+      "id": 4,
+      "name": "STAMINA_SEC_PER_POINT",
+      "value": 60,
+      "created_at": 1418918948,
+      "updated_at": 1418918948
+    },
+    {
+      "id": 5,
+      "name": "USE_SYSTIMER",
+      "value": 1,
+      "created_at": 1418918948,
+      "updated_at": 1418918948
+    },
+    {
+      "id": 6,
+      "name": "MAINTENANCE_MESSAGE",
+      "value": 1,
+      "created_at": 1418918948,
+      "updated_at": 1418918948
+    },
+    {
+      "id": 7,
+      "name": "MAX_BUDDY_LIST",
+      "value": 10,
+      "created_at": 1418918948,
+      "updated_at": 1533569603
+    },
+    {
+      "id": 8,
+      "name": "MAX_FRIEND_LIST",
+      "value": 200,
+      "created_at": 1418918948,
+      "updated_at": 1619453210
+    },
+    {
+      "id": 9,
+      "name": "MIN_FRIEND_LIST",
+      "value": 1,
+      "created_at": 1418918948,
+      "updated_at": 1418918948
+    },
+    {
+      "id": 10,
+      "name": "IOS_INET_ADHOC",
+      "value": 1,
+      "created_at": 1418918948,
+      "updated_at": 1418918948
+    },
+    {
+      "id": 11,
+      "name": "MAX_PRESENT_LIST",
+      "value": 80,
+      "created_at": 1418918948,
+      "updated_at": 1418918948
+    },
+    {
+      "id": 12,
+      "name": "USER_RECEIVE_LIMIT",
+      "value": 100,
+      "created_at": 1418918948,
+      "updated_at": 1418918948
+    },
+    {
+      "id": 13,
+      "name": "VERIFY_CACHE",
+      "value": 1,
+      "created_at": 1418918948,
+      "updated_at": 1418918948
+    },
+    {
+      "id": 14,
+      "name": "CHAR_COMBINE_MODE",
+      "value": 0,
+      "created_at": 1418918949,
+      "updated_at": 1418918949
+    },
+    {
+      "id": 15,
+      "name": "CLIENT_OPTION",
+      "value": 6161,
+      "created_at": 1418918949,
+      "updated_at": 1741862240
+    },
+    {
+      "id": 16,
+      "name": "AOS_LAST_LOCATION_KNOWN_USE",
+      "value": 0,
+      "created_at": 1418918949,
+      "updated_at": 1418918949
+    },
+    {
+      "id": 17,
+      "name": "TURN_SKIP_TIME",
+      "value": -30,
+      "created_at": 1418918949,
+      "updated_at": 1475684730
+    },
+    {
+      "id": 18,
+      "name": "INVITATION_MAX",
+      "value": 99999,
+      "created_at": 1418918949,
+      "updated_at": 1454992924
+    },
+    {
+      "id": 19,
+      "name": "NOTIFY_RETRY_SEC",
+      "value": 4,
+      "created_at": 1418918949,
+      "updated_at": 1418918949
+    },
+    {
+      "id": 20,
+      "name": "NOTIFY_RETRY_CNT",
+      "value": 2,
+      "created_at": 1418918949,
+      "updated_at": 1418918949
+    },
+    {
+      "id": 21,
+      "name": "MATCH_RETRY_SEC",
+      "value": 3,
+      "created_at": 1418918949,
+      "updated_at": 1418918949
+    },
+    {
+      "id": 22,
+      "name": "MATCH_RETRY_CNT",
+      "value": 2,
+      "created_at": 1418918949,
+      "updated_at": 1418918949
+    },
+    {
+      "id": 23,
+      "name": "HOST_WAIT_RETRY_SEC",
+      "value": 2,
+      "created_at": 1418918949,
+      "updated_at": 1418918949
+    },
+    {
+      "id": 24,
+      "name": "HTTP_CL_STATE0",
+      "value": 502,
+      "created_at": 1418918949,
+      "updated_at": 1418918949
+    },
+    {
+      "id": 25,
+      "name": "HTTP_CL_RETRY_SEC",
+      "value": 3,
+      "created_at": 1418918949,
+      "updated_at": 1418918949
+    },
+    {
+      "id": 26,
+      "name": "HTTP_CL_RETRY_CNT",
+      "value": 0,
+      "created_at": 1418918949,
+      "updated_at": 1433779776
+    },
+    {
+      "id": 27,
+      "name": "ALTERATION_CHECK",
+      "value": 2,
+      "created_at": 1418918949,
+      "updated_at": 1418918949
+    },
+    {
+      "id": 28,
+      "name": "CL_GAME_START_CHECK",
+      "value": 1,
+      "created_at": 1418918949,
+      "updated_at": 1418918949
+    },
+    {
+      "id": 29,
+      "name": "GAME_RECOVERY_PT",
+      "value": 1,
+      "created_at": 1418918950,
+      "updated_at": 1418918950
+    },
+    {
+      "id": 30,
+      "name": "CL_STAGE_CLEAR_EFF",
+      "value": 0,
+      "created_at": 1418918950,
+      "updated_at": 1418918950
+    },
+    {
+      "id": 31,
+      "name": "CL_HITBACK_DELAY",
+      "value": 2,
+      "created_at": 1418918950,
+      "updated_at": 1418918950
+    },
+    {
+      "id": 32,
+      "name": "GACHA_BANNER_CYCLE",
+      "value": 1,
+      "created_at": 1418918950,
+      "updated_at": 1738598964
+    },
+    {
+      "id": 33,
+      "name": "MAINTENACE_MARGIN",
+      "value": 5,
+      "created_at": 1418918950,
+      "updated_at": 1418918950
+    },
+    {
+      "id": 34,
+      "name": "MATCHING_METER",
+      "value": 1000,
+      "created_at": 1418918950,
+      "updated_at": 1418918950
+    },
+    {
+      "id": 35,
+      "name": "COMBINE_BIGPOCKET_THRESHOLD",
+      "value": 25,
+      "created_at": 1418918950,
+      "updated_at": 1418918950
+    },
+    {
+      "id": 36,
+      "name": "COMBINE_BIGPOCKET_RATIO",
+      "value": 200,
+      "created_at": 1418918950,
+      "updated_at": 1418918950
+    },
+    {
+      "id": 37,
+      "name": "DISP_EVO_15",
+      "value": 0,
+      "created_at": 1418918950,
+      "updated_at": 1418918950
+    },
+    {
+      "id": 38,
+      "name": "GACH_YMOVE_MODE",
+      "value": 0,
+      "created_at": 1418918950,
+      "updated_at": 1418918950
+    },
+    {
+      "id": 39,
+      "name": "CL_BG_TASK",
+      "value": 1,
+      "created_at": 1418918950,
+      "updated_at": 1418918950
+    },
+    {
+      "id": 40,
+      "name": "CL_VIDEO_REC",
+      "value": 1,
+      "created_at": 1418918950,
+      "updated_at": 1418918950
+    },
+    {
+      "id": 41,
+      "name": "ADHOC_GACHA_BUFFER_TIME",
+      "value": 4,
+      "created_at": 1418918950,
+      "updated_at": 1418918950
+    },
+    {
+      "id": 42,
+      "name": "ADHOC_GACHA_SUCCESS_BONUS_THRESHOLD",
+      "value": 10,
+      "created_at": 1418918950,
+      "updated_at": 1418918950
+    },
+    {
+      "id": 43,
+      "name": "ADHOC_GACHA_SUCCESS_BONUS_FIRST_PHASE",
+      "value": 5,
+      "created_at": 1418918950,
+      "updated_at": 1418918950
+    },
+    {
+      "id": 44,
+      "name": "ADHOC_GACHA_SUCCESS_BONUS_SECOND_PHASE",
+      "value": 1,
+      "created_at": 1418918951,
+      "updated_at": 1418918951
+    },
+    {
+      "id": 45,
+      "name": "ADHOC_GACHA_SUCCESS_BONUS_MAX",
+      "value": 100,
+      "created_at": 1418918951,
+      "updated_at": 1418918951
+    },
+    {
+      "id": 46,
+      "name": "MENU_PARAMBAR_TYPE_HP",
+      "value": 45000,
+      "created_at": 1418918951,
+      "updated_at": 1629907048
+    },
+    {
+      "id": 47,
+      "name": "MENU_PARAMBAR_TYPE_ATTACK",
+      "value": 65000,
+      "created_at": 1418918951,
+      "updated_at": 1603213916
+    },
+    {
+      "id": 48,
+      "name": "MENU_PARAMBAR_TYPE_POWER",
+      "value": 20500,
+      "created_at": 1418918951,
+      "updated_at": 1608141790
+    },
+    {
+      "id": 49,
+      "name": "FRIEND_ACHIEVEMENT_POINT",
+      "value": 500,
+      "created_at": 1418918951,
+      "updated_at": 1418918951
+    },
+    {
+      "id": 50,
+      "name": "FRIEND_ACHIEVEMENT_FIRST_IID",
+      "value": 10857,
+      "created_at": 1418918951,
+      "updated_at": 1418918951
+    },
+    {
+      "id": 51,
+      "name": "FRIEND_ACHIEVEMENT_OFF",
+      "value": 0,
+      "created_at": 1418918951,
+      "updated_at": 1418918951
+    },
+    {
+      "id": 52,
+      "name": "ADHOC_BONUS_MAX",
+      "value": 100,
+      "created_at": 1418918951,
+      "updated_at": 1418918951
+    },
+    {
+      "id": 53,
+      "name": "MONTHLY_PURCHASE_LIMIT_AGE16",
+      "value": 5000,
+      "created_at": 1418918951,
+      "updated_at": 1418918951
+    },
+    {
+      "id": 54,
+      "name": "MONTHLY_PURCHASE_LIMIT_AGE20",
+      "value": 20000,
+      "created_at": 1418918951,
+      "updated_at": 1418918951
+    },
+    {
+      "id": 55,
+      "name": "MENU_EFFECT_CUT_NONE",
+      "value": 0,
+      "created_at": 1418918951,
+      "updated_at": 1418918951
+    },
+    {
+      "id": 56,
+      "name": "INVITATION_PROMOTION_ID",
+      "value": 27,
+      "created_at": 1418918951,
+      "updated_at": 1454949923
+    },
+    {
+      "id": 57,
+      "name": "TURTLE_VARIANCE_MODE",
+      "value": 0,
+      "created_at": 1418918951,
+      "updated_at": 1418918951
+    },
+    {
+      "id": 58,
+      "name": "LINE_MULTI_VISIBLE",
+      "value": 1,
+      "created_at": 1418918951,
+      "updated_at": 1418918951
+    },
+    {
+      "id": 59,
+      "name": "LINE_INVITATION_VISIBLE",
+      "value": 1,
+      "created_at": 1418918951,
+      "updated_at": 1418918951
+    },
+    {
+      "id": 60,
+      "name": "MIN_PING_INTERVAL",
+      "value": 0,
+      "created_at": 1418918952,
+      "updated_at": 1418918952
+    },
+    {
+      "id": 61,
+      "name": "MENU_MODEL_CHANGE_NONE",
+      "value": 1,
+      "created_at": 1418918952,
+      "updated_at": 1418918952
+    },
+    {
+      "id": 62,
+      "name": "GEM_MASKOFF_RANK",
+      "value": 40,
+      "created_at": 1418918952,
+      "updated_at": 1583427540
+    },
+    {
+      "id": 63,
+      "name": "GEM_REMAINING_YES_NO",
+      "value": 0,
+      "created_at": 1418918952,
+      "updated_at": 1418918952
+    },
+    {
+      "id": 64,
+      "name": "CL_SUGGEST_STAGE_VIDEO",
+      "value": 1,
+      "created_at": 1418918952,
+      "updated_at": 1418918952
+    },
+    {
+      "id": 65,
+      "name": "CL_COLLABO_CHAR_REC_NG",
+      "value": 1,
+      "created_at": 1418918952,
+      "updated_at": 1418918952
+    },
+    {
+      "id": 66,
+      "name": "DISABLE_GAME_RECOVER_SHOT",
+      "value": 0,
+      "created_at": 1418918952,
+      "updated_at": 1418918952
+    },
+    {
+      "id": 67,
+      "name": "IOS_BT_MULTI_MASK",
+      "value": 1,
+      "created_at": 1418918952,
+      "updated_at": 1418918952
+    },
+    {
+      "id": 68,
+      "name": "ROOKIE_BOX_NOCHECK_RANK",
+      "value": 29,
+      "created_at": 1422464336,
+      "updated_at": 1422464336
+    },
+    {
+      "id": 69,
+      "name": "ROOKIE_BOX_NOCHECK_BOXNUM",
+      "value": 40,
+      "created_at": 1422464336,
+      "updated_at": 1422464336
+    },
+    {
+      "id": 70,
+      "name": "INVITATION_TICKET_ITEM_ID",
+      "value": 1022,
+      "created_at": 1425571110,
+      "updated_at": 1425571110
+    },
+    {
+      "id": 71,
+      "name": "BEAST_MODE_HP",
+      "value": 66,
+      "created_at": 1430497648,
+      "updated_at": 1430497648
+    },
+    {
+      "id": 72,
+      "name": "BEAST_MODE_CHAR_ID",
+      "value": 2235,
+      "created_at": 1430497648,
+      "updated_at": 1430497648
+    },
+    {
+      "id": 73,
+      "name": "INVITATION_LINE_PROMOTION_ID",
+      "value": 18,
+      "created_at": 1433402611,
+      "updated_at": 1433402611
+    },
+    {
+      "id": 74,
+      "name": "WEEKLY_MASK",
+      "value": 0,
+      "created_at": 1436890013,
+      "updated_at": 1436890013
+    },
+    {
+      "id": 75,
+      "name": "INVITATION_MENU_MASK",
+      "value": 0,
+      "created_at": 1442419250,
+      "updated_at": 1442419250
+    },
+    {
+      "id": 76,
+      "name": "MAGIC_CIRCLE_ATTACK_RATE",
+      "value": 33,
+      "created_at": 1442419251,
+      "updated_at": 1442419251
+    },
+    {
+      "id": 77,
+      "name": "BACKUP_ACHIEVEMENTS_ID",
+      "value": 5780,
+      "created_at": 1443794341,
+      "updated_at": 1790243291
+    },
+    {
+      "id": 78,
+      "name": "COMPOSITE_GEM_WARNING_MASK",
+      "value": 0,
+      "created_at": 1447693377,
+      "updated_at": 1450372519
+    },
+    {
+      "id": 80,
+      "name": "LUCK_SKILL_ENABLE_RATE",
+      "value": 100,
+      "created_at": 1448563856,
+      "updated_at": 1448563856
+    },
+    {
+      "id": 81,
+      "name": "RETENTION_PROMOTION_ID",
+      "value": 2000,
+      "created_at": 1450777031,
+      "updated_at": 1450777031
+    },
+    {
+      "id": 82,
+      "name": "RETENTION_MAX",
+      "value": 5,
+      "created_at": 1450777031,
+      "updated_at": 1450777031
+    },
+    {
+      "id": 84,
+      "name": "RARITY_LIMITED_FRIEND_ACHIEVEMENTS_ID",
+      "value": 5200,
+      "created_at": 1457369294,
+      "updated_at": 1457369294
+    },
+    {
+      "id": 85,
+      "name": "RARITY_LIMITED_FRIEND_MASK",
+      "value": 0,
+      "created_at": 1457369295,
+      "updated_at": 1464966973
+    },
+    {
+      "id": 86,
+      "name": "CHAR_MUTATION_NOTIFY_CAP",
+      "value": 10,
+      "created_at": 1457369295,
+      "updated_at": 1463630469
+    },
+    {
+      "id": 89,
+      "name": "SNS_POST_MASK",
+      "value": 1,
+      "created_at": 1461602586,
+      "updated_at": 1461602586
+    },
+    {
+      "id": 90,
+      "name": "QUEST_STOCK_REQUIRED_RANK",
+      "value": 2,
+      "created_at": 1461602586,
+      "updated_at": 1524818619
+    },
+    {
+      "id": 91,
+      "name": "STOCK_STAGE_EXPIRATION_TIME",
+      "value": 48,
+      "created_at": 1461602586,
+      "updated_at": 1478709335
+    },
+    {
+      "id": 92,
+      "name": "COLLABO_SSEIYA_RECOVER_HP_RATE",
+      "value": 33,
+      "created_at": 1461853133,
+      "updated_at": 1461853133
+    },
+    {
+      "id": 93,
+      "name": "COLLABO_SSEIYA_RECOVER_RATE",
+      "value": 80,
+      "created_at": 1461853133,
+      "updated_at": 1461853133
+    },
+    {
+      "id": 94,
+      "name": "HELPER_ATTRIBUTE_SORT_MASK",
+      "value": 0,
+      "created_at": 1465228235,
+      "updated_at": 1465228235
+    },
+    {
+      "id": 95,
+      "name": "MENU_MONEY_ALERT_SETTING_NONE",
+      "value": 0,
+      "created_at": 1465228235,
+      "updated_at": 1465228235
+    },
+    {
+      "id": 96,
+      "name": "GAME_SAVE_EVERY_SHOT",
+      "value": 1,
+      "created_at": 1468654360,
+      "updated_at": 1471364027
+    },
+    {
+      "id": 97,
+      "name": "BUY_BOOST_ITEM_ACHIEVEMENTS_ID",
+      "value": 5102,
+      "created_at": 1471364027,
+      "updated_at": 1471364027
+    },
+    {
+      "id": 98,
+      "name": "CONSUME_BOOST_ITEM_ACHIEVEMENTS_ID",
+      "value": 5101,
+      "created_at": 1471364028,
+      "updated_at": 1471364028
+    },
+    {
+      "id": 99,
+      "name": "TIME_SCORE_STAGE_TIME_RATIO_A",
+      "value": 250,
+      "created_at": 1471364028,
+      "updated_at": 1471364028
+    },
+    {
+      "id": 100,
+      "name": "TIME_SCORE_STAGE_TIME_RATIO_B",
+      "value": 400,
+      "created_at": 1471364028,
+      "updated_at": 1471364028
+    },
+    {
+      "id": 101,
+      "name": "ANYTIME_EVENT_MASKOFF_RANK",
+      "value": 20,
+      "created_at": 1471364028,
+      "updated_at": 1583427540
+    },
+    {
+      "id": 102,
+      "name": "MAX_BULK_SELL_CHARBALL",
+      "value": 100,
+      "created_at": 1475684731,
+      "updated_at": 1475695994
+    },
+    {
+      "id": 103,
+      "name": "CHARBALL_SLOT_INFLATE",
+      "value": 560,
+      "created_at": 1475684731,
+      "updated_at": 1760470476
+    },
+    {
+      "id": 104,
+      "name": "CHARSEARCH_ENABLE",
+      "value": 1,
+      "created_at": 1475684731,
+      "updated_at": 1475684731
+    },
+    {
+      "id": 105,
+      "name": "GACHA_LIDRA_KING_POINT_BY_LOGIN",
+      "value": 100,
+      "created_at": 1475684731,
+      "updated_at": 1496070219
+    },
+    {
+      "id": 106,
+      "name": "GACHA_LIDRA_KING_DAY_POINT_MAX",
+      "value": 300,
+      "created_at": 1475684732,
+      "updated_at": 1496070219
+    },
+    {
+      "id": 107,
+      "name": "GACHA_LIDRA_KING_REQUIRED_RANK",
+      "value": 3,
+      "created_at": 1475684732,
+      "updated_at": 1475684732
+    },
+    {
+      "id": 109,
+      "name": "CHAR_COLLECTION_ENABLE",
+      "value": 1,
+      "created_at": 1478709335,
+      "updated_at": 1488817658
+    },
+    {
+      "id": 110,
+      "name": "XFP_BACKUP",
+      "value": 1,
+      "created_at": 1481559837,
+      "updated_at": 1481559837
+    },
+    {
+      "id": 111,
+      "name": "ADHOC_ACTION_MAX",
+      "value": 50,
+      "created_at": 1481559837,
+      "updated_at": 1634894161
+    },
+    {
+      "id": 112,
+      "name": "ADHOC_ACTION_VERSION",
+      "value": 19,
+      "created_at": 1481559837,
+      "updated_at": 1634894161
+    },
+    {
+      "id": 113,
+      "name": "DS_19031_INVALID",
+      "value": 0,
+      "created_at": 1486484627,
+      "updated_at": 1486484627
+    },
+    {
+      "id": 114,
+      "name": "ANDROID_7_LOBI_ENABLE",
+      "value": 0,
+      "created_at": 1486484627,
+      "updated_at": 1486484627
+    },
+    {
+      "id": 115,
+      "name": "FF_DRIVE_COLLISION_INTERVAL",
+      "value": 35,
+      "created_at": 1487165363,
+      "updated_at": 1487165363
+    },
+    {
+      "id": 116,
+      "name": "POWERUP_WALL_RATE",
+      "value": 350900,
+      "created_at": 1493049921,
+      "updated_at": 1495114047
+    },
+    {
+      "id": 117,
+      "name": "POWERUP_WALL_POWER_RATE",
+      "value": 380930,
+      "created_at": 1493049921,
+      "updated_at": 1495114047
+    },
+    {
+      "id": 118,
+      "name": "GAUGE_FRAME_RATE",
+      "value": 1,
+      "created_at": 1493049921,
+      "updated_at": 1493049921
+    },
+    {
+      "id": 119,
+      "name": "NUMBER_OF_ANSWERS_ONE_DAY_LIMIT",
+      "value": 20,
+      "created_at": 1497859239,
+      "updated_at": 1556703568
+    },
+    {
+      "id": 120,
+      "name": "ENEMY_BULLET_PANEL_ATTACK_RATE",
+      "value": 300,
+      "created_at": 1499429633,
+      "updated_at": 1499429633
+    },
+    {
+      "id": 121,
+      "name": "HIDE_GEM_GROW",
+      "value": 0,
+      "created_at": 1499700661,
+      "updated_at": 1500886829
+    },
+    {
+      "id": 123,
+      "name": "SUBSCRIPTION_HOST_EXP_RATIO",
+      "value": 5,
+      "created_at": 1505233404,
+      "updated_at": 1505233404
+    },
+    {
+      "id": 124,
+      "name": "SUBSCRIPTION_GUEST_EXP_RATIO",
+      "value": 5,
+      "created_at": 1505233404,
+      "updated_at": 1505233404
+    },
+    {
+      "id": 125,
+      "name": "GREED_DAMAGE_THRESHOLD",
+      "value": 86283,
+      "created_at": 1499957597,
+      "updated_at": 1499957597
+    },
+    {
+      "id": 126,
+      "name": "STAMINA_BACK_RATIO",
+      "value": 15,
+      "created_at": 1504174464,
+      "updated_at": 1504174464
+    },
+    {
+      "id": 127,
+      "name": "MEASURE_INFO_ACTIVE_FLAG",
+      "value": 1,
+      "created_at": 1502121117,
+      "updated_at": 1502121117
+    },
+    {
+      "id": 128,
+      "name": "SELF_FRIEND_RECOVER_STAMINA",
+      "value": 5,
+      "created_at": 1505233404,
+      "updated_at": 1505233404
+    },
+    {
+      "id": 129,
+      "name": "SELF_FRIEND_RECOVER_MIN",
+      "value": 30,
+      "created_at": 1505233405,
+      "updated_at": 1505233405
+    },
+    {
+      "id": 130,
+      "name": "ENABLE_XLNQ",
+      "value": 0,
+      "created_at": 1505233405,
+      "updated_at": 1505233405
+    },
+    {
+      "id": 131,
+      "name": "MAX_LUCK_ACHIEVEMENT_GROUP",
+      "value": 1,
+      "created_at": 1507135476,
+      "updated_at": 1507135476
+    },
+    {
+      "id": 132,
+      "name": "SOUL_POINT_ONE_DAY_LIMIT",
+      "value": 1000,
+      "created_at": 1507135476,
+      "updated_at": 1507135476
+    },
+    {
+      "id": 133,
+      "name": "SOUL_SLOT_NUM",
+      "value": 4,
+      "created_at": 1507135476,
+      "updated_at": 1507135476
+    },
+    {
+      "id": 134,
+      "name": "SOUL_CHANGE_POINT",
+      "value": 5000,
+      "created_at": 1507135477,
+      "updated_at": 1507135477
+    },
+    {
+      "id": 135,
+      "name": "SOUL_POINT_TOTAL_MAX",
+      "value": 1000000000,
+      "created_at": 1507135477,
+      "updated_at": 1626107773
+    },
+    {
+      "id": 136,
+      "name": "HH_COLLABO_EFFECT_MASK",
+      "value": 0,
+      "created_at": 1510588390,
+      "updated_at": 1510588390
+    },
+    {
+      "id": 137,
+      "name": "GACHA_LIDRA_KING_DAY_POINT_MAX_FOR_SUBSCRIPTION",
+      "value": 400,
+      "created_at": 1513012168,
+      "updated_at": 1513012168
+    },
+    {
+      "id": 138,
+      "name": "USE_NUM_HP_MAX",
+      "value": 1000,
+      "created_at": 1517244408,
+      "updated_at": 1517244408
+    },
+    {
+      "id": 155,
+      "name": "CARRY_OVER_SOUL_POINT_RELEASE_DATE",
+      "value": 1517238000,
+      "created_at": 1517244408,
+      "updated_at": 1517244408
+    },
+    {
+      "id": 156,
+      "name": "TSUMEMON_TURN_RED",
+      "value": 1,
+      "created_at": 1518519418,
+      "updated_at": 1518519418
+    },
+    {
+      "id": 157,
+      "name": "PUZZLE_STAGE_PLAYABLE_RANK",
+      "value": 20,
+      "created_at": 1518519419,
+      "updated_at": 1518519419
+    },
+    {
+      "id": 161,
+      "name": "SNS_FIRST_LINKAGE_ACHIEVEMENT_ID",
+      "value": 40001,
+      "created_at": 1524671571,
+      "updated_at": 1524671571
+    },
+    {
+      "id": 162,
+      "name": "SNS_MULTISEND_ADD_USER",
+      "value": 10,
+      "created_at": 1524671571,
+      "updated_at": 1524671571
+    },
+    {
+      "id": 163,
+      "name": "SNS_MULTISEND_ADD_GROUP",
+      "value": 5,
+      "created_at": 1524671571,
+      "updated_at": 1524671571
+    },
+    {
+      "id": 164,
+      "name": "ADDITIONAL_SOUL_POINT_LIMIT_FOR_SUBSCRIPTION",
+      "value": 500,
+      "created_at": 1531150899,
+      "updated_at": 1531150899
+    },
+    {
+      "id": 168,
+      "name": "FREE_MONEY_ACQUISITION_ACHIEVED_CNT",
+      "value": 100,
+      "created_at": 1528132168,
+      "updated_at": 1528132168
+    },
+    {
+      "id": 169,
+      "name": "FREE_MONEY_ACQUISITION_REWARD_ITEM_CNT",
+      "value": 10,
+      "created_at": 1528132168,
+      "updated_at": 1528132168
+    },
+    {
+      "id": 170,
+      "name": "RESULT_USE_GEM_REWARD_ENABLE",
+      "value": 1,
+      "created_at": 1528132168,
+      "updated_at": 1661496623
+    },
+    {
+      "id": 171,
+      "name": "PIECE_TO_ORB_SHOP_ITEM_ID",
+      "value": 5000,
+      "created_at": 1531150899,
+      "updated_at": 1531150899
+    },
+    {
+      "id": 172,
+      "name": "SPOT_ITEM_LOCK_END_TIME",
+      "value": 600,
+      "created_at": 1531150900,
+      "updated_at": 1531150900
+    },
+    {
+      "id": 173,
+      "name": "MONSPOT_CAREFUL_MSG_MINI_TIME",
+      "value": 1500,
+      "created_at": 1531150900,
+      "updated_at": 1586166137
+    },
+    {
+      "id": 174,
+      "name": "MONSPOT_MAINTENANCE_FLAG",
+      "value": 0,
+      "created_at": 1531150900,
+      "updated_at": 1531150900
+    },
+    {
+      "id": 175,
+      "name": "MONSPOT_EFFECT_GET_GPS_TIMEOUT",
+      "value": 5,
+      "created_at": 1533569604,
+      "updated_at": 1533569604
+    },
+    {
+      "id": 176,
+      "name": "INGAME_GIMMICK_SYNC",
+      "value": 0,
+      "created_at": 1533609482,
+      "updated_at": 1533609482
+    },
+    {
+      "id": 177,
+      "name": "LINE_LINK_TUTORIAL",
+      "value": 1,
+      "created_at": 1536166377,
+      "updated_at": 1536166377
+    },
+    {
+      "id": 178,
+      "name": "MAP_BALLOON_INTERVAL_MINUTES",
+      "value": 30,
+      "created_at": 1538494845,
+      "updated_at": 1538494845
+    },
+    {
+      "id": 179,
+      "name": "MAP_CAMPAIGN_STAGE_EXPIRATION_TIME",
+      "value": 2,
+      "created_at": 1538494845,
+      "updated_at": 1538494845
+    },
+    {
+      "id": 180,
+      "name": "SEARCH_HOST_FROM_FRIENDS",
+      "value": 1,
+      "created_at": 1538494845,
+      "updated_at": 1538494845
+    },
+    {
+      "id": 181,
+      "name": "CAN_LEND_CHARBALL",
+      "value": 1,
+      "created_at": 1538494846,
+      "updated_at": 1539175134
+    },
+    {
+      "id": 182,
+      "name": "CHAR_RENTAL_OPEN",
+      "value": 1,
+      "created_at": 1538494846,
+      "updated_at": 1538494846
+    },
+    {
+      "id": 183,
+      "name": "SPEED_PUSH_NOTIFY_PREV_MIN",
+      "value": 30,
+      "created_at": 1538494846,
+      "updated_at": 1539092014
+    },
+    {
+      "id": 184,
+      "name": "SPEED_PUSH_NOTIFY_SPLIT",
+      "value": 26,
+      "created_at": 1538494846,
+      "updated_at": 1539092014
+    },
+    {
+      "id": 185,
+      "name": "SPEED_PUSH_NOTIFY_CYCLE_MIN",
+      "value": 1,
+      "created_at": 1538494846,
+      "updated_at": 1538494846
+    },
+    {
+      "id": 186,
+      "name": "COLLISION_PIERCE_CHECK_NEAR",
+      "value": 1,
+      "created_at": 1538494846,
+      "updated_at": 1538494846
+    },
+    {
+      "id": 187,
+      "name": "STATUSHEAL_EXP_V2",
+      "value": 1,
+      "created_at": 1542217068,
+      "updated_at": 1542217068
+    },
+    {
+      "id": 188,
+      "name": "BISCUITS_FLAG",
+      "value": 1,
+      "created_at": 1544459075,
+      "updated_at": 1545915457
+    },
+    {
+      "id": 189,
+      "name": "ITEM_EVENT_EFFECTIVE_PERIOD",
+      "value": 60,
+      "created_at": 1544459075,
+      "updated_at": 1544459075
+    },
+    {
+      "id": 190,
+      "name": "ITEM_EVENT_OPEN",
+      "value": 1,
+      "created_at": 1544459075,
+      "updated_at": 1545915458
+    },
+    {
+      "id": 191,
+      "name": "NEW_EVENT_ASSAULT_STAGE_EXPIRATION_TIME",
+      "value": 24,
+      "created_at": 1544695326,
+      "updated_at": 1544695326
+    },
+    {
+      "id": 192,
+      "name": "GACHA_LIDRA_KING_POINT_MAX_NORMAL",
+      "value": 7500,
+      "created_at": 1549469801,
+      "updated_at": 1566833571
+    },
+    {
+      "id": 193,
+      "name": "CHARA_RECOMMENDED_STAGE",
+      "value": 2,
+      "created_at": 1551713718,
+      "updated_at": 1551713718
+    },
+    {
+      "id": 194,
+      "name": "ENEMY_ATTACK_BLOCK_RECAST_TIME",
+      "value": 6,
+      "created_at": 1551868909,
+      "updated_at": 1551868909
+    },
+    {
+      "id": 195,
+      "name": "DISABLE_DS3894",
+      "value": 0,
+      "created_at": 1553535401,
+      "updated_at": 1554740680
+    },
+    {
+      "id": 196,
+      "name": "GIFT_RANK_LIMIT",
+      "value": 50,
+      "created_at": 1555947367,
+      "updated_at": 1555947367
+    },
+    {
+      "id": 197,
+      "name": "GIFT_RECEIVE_MONTHLY_LIMIT",
+      "value": 3,
+      "created_at": 1555947367,
+      "updated_at": 1555947367
+    },
+    {
+      "id": 198,
+      "name": "GIFT_SEND_UNAVAILABLE",
+      "value": 0,
+      "created_at": 1555947368,
+      "updated_at": 1555947368
+    },
+    {
+      "id": 199,
+      "name": "CLOSE_WEEKLY_MAX_LUCK_BONUS",
+      "value": 0,
+      "created_at": 1555947368,
+      "updated_at": 1556192042
+    },
+    {
+      "id": 200,
+      "name": "ENABLE_MONST_DAY",
+      "value": 1,
+      "created_at": 1555947368,
+      "updated_at": 1555947368
+    },
+    {
+      "id": 201,
+      "name": "TAP_ITEM_RADISU",
+      "value": 150,
+      "created_at": 1559579497,
+      "updated_at": 1559579497
+    },
+    {
+      "id": 202,
+      "name": "SNOWMAN_SPEED_EFF_LV1",
+      "value": 50,
+      "created_at": 1562056241,
+      "updated_at": 1562056241
+    },
+    {
+      "id": 203,
+      "name": "SNOWMAN_SPEED_EFF_LV2",
+      "value": 20,
+      "created_at": 1562056241,
+      "updated_at": 1562056241
+    },
+    {
+      "id": 204,
+      "name": "SNOWMAN_SPEED_EFF_LV3",
+      "value": 20,
+      "created_at": 1562056241,
+      "updated_at": 1562056241
+    },
+    {
+      "id": 205,
+      "name": "HEADS_UP_TIME",
+      "value": 2000,
+      "created_at": 1563294673,
+      "updated_at": 1563294673
+    },
+    {
+      "id": 206,
+      "name": "TOWER_MAX_SKIP_ADVANCED_CHALLENGING",
+      "value": 31,
+      "created_at": 1563294673,
+      "updated_at": 1698924610
+    },
+    {
+      "id": 214,
+      "name": "HA_COLLABO_EFFECT_MASK",
+      "value": 16384,
+      "created_at": 1598874373,
+      "updated_at": 1598874373
+    },
+    {
+      "id": 230,
+      "name": "ORACOIN_COLLABO_ITEM_ID",
+      "value": 39,
+      "created_at": 1570463656,
+      "updated_at": 1577442251
+    },
+    {
+      "id": 231,
+      "name": "FIGHT_TYPE_SP_BALANCE_FITEM_TYPE_HP_RATE",
+      "value": 120,
+      "created_at": 1570463656,
+      "updated_at": 1570463656
+    },
+    {
+      "id": 232,
+      "name": "FIGHT_TYPE_SP_POWER_FITEM_TYPE_ATTACK_UP_RATE",
+      "value": 120,
+      "created_at": 1570463656,
+      "updated_at": 1570463656
+    },
+    {
+      "id": 233,
+      "name": "FIGHT_TYPE_SP_SPEED_FITEM_TYPE_RE_SHOT_RATE",
+      "value": 120,
+      "created_at": 1570463656,
+      "updated_at": 1570463656
+    },
+    {
+      "id": 234,
+      "name": "FIGHT_TYPE_SP_SHELLING_FITEM_TYPE_SSHOT_QUICK_ADD",
+      "value": 1,
+      "created_at": 1570463656,
+      "updated_at": 1570463656
+    },
+    {
+      "id": 235,
+      "name": "FIGHT_TYPE_SP_BALANCE_ATTRIBUTE_RATE",
+      "value": 120,
+      "created_at": 1570463656,
+      "updated_at": 1623085094
+    },
+    {
+      "id": 236,
+      "name": "FIGHT_TYPE_SP_POWER_FIRST_ATTACK_RATE",
+      "value": 120,
+      "created_at": 1570463656,
+      "updated_at": 1570463656
+    },
+    {
+      "id": 237,
+      "name": "FIGHT_TYPE_SP_SPEED_FIRST_BOUNCE_SPEED_RATE",
+      "value": 100,
+      "created_at": 1570463656,
+      "updated_at": 1570463656
+    },
+    {
+      "id": 238,
+      "name": "FIGHT_TYPE_SP_SHELLING_RENSA_SKILL_RATE",
+      "value": 100,
+      "created_at": 1570463656,
+      "updated_at": 1570463656
+    },
+    {
+      "id": 239,
+      "name": "HP_EXTEND_LEVEL_COEFFICIENT_BONUS_PER_21",
+      "value": 50,
+      "created_at": 1570463656,
+      "updated_at": 1570463656
+    },
+    {
+      "id": 240,
+      "name": "HP_EXTEND_LEVEL_CONSTANT_BONUS_PER_21",
+      "value": 1000,
+      "created_at": 1570463656,
+      "updated_at": 1570463656
+    },
+    {
+      "id": 241,
+      "name": "SPEED_EXTEND_LEVEL_COEFFICIENT_BONUS_PER_21",
+      "value": 50,
+      "created_at": 1570463656,
+      "updated_at": 1570463656
+    },
+    {
+      "id": 242,
+      "name": "SPEED_EXTEND_LEVEL_CONSTANT_BONUS_PER_21",
+      "value": 500,
+      "created_at": 1570463656,
+      "updated_at": 1570463656
+    },
+    {
+      "id": 243,
+      "name": "ATTACK_EXTEND_LEVEL_COEFFICIENT_BONUS_PER_21",
+      "value": 50,
+      "created_at": 1570463656,
+      "updated_at": 1570463656
+    },
+    {
+      "id": 244,
+      "name": "ATTACK_EXTEND_LEVEL_CONSTANT_BONUS_PER_21",
+      "value": 500,
+      "created_at": 1570463656,
+      "updated_at": 1570463656
+    },
+    {
+      "id": 245,
+      "name": "SKILL_EXTEND_LEVEL_COEFFICIENT_BONUS_PER_21",
+      "value": 200,
+      "created_at": 1570463656,
+      "updated_at": 1570463656
+    },
+    {
+      "id": 246,
+      "name": "SKILL_EXTEND_LEVEL_CONSTANT_BONUS_PER_21",
+      "value": 0,
+      "created_at": 1570463656,
+      "updated_at": 1570463656
+    },
+    {
+      "id": 247,
+      "name": "DECK_GET_DIFF_VERSION",
+      "value": 4,
+      "created_at": 1573489527,
+      "updated_at": 1591638014
+    },
+    {
+      "id": 248,
+      "name": "ENABLE_ENEMY_NO_ERASE_AT_BOSS_DEAD",
+      "value": 1,
+      "created_at": 1573489527,
+      "updated_at": 1573489527
+    },
+    {
+      "id": 249,
+      "name": "ENABLE_ARCHIVE_BAKUZETSU",
+      "value": 1,
+      "created_at": 1573489527,
+      "updated_at": 1594660479
+    },
+    {
+      "id": 250,
+      "name": "SHADOW_PANEL_LIFE",
+      "value": 240,
+      "created_at": 1573489527,
+      "updated_at": 1573489527
+    },
+    {
+      "id": 251,
+      "name": "DECK_GET_DIFF_GET",
+      "value": 1,
+      "created_at": 1573512570,
+      "updated_at": 1573649444
+    },
+    {
+      "id": 254,
+      "name": "MAP_TRAINING_SPEED_UP_TIME_PER_ITEM",
+      "value": 60,
+      "created_at": 1576520159,
+      "updated_at": 1576520159
+    },
+    {
+      "id": 255,
+      "name": "DISABLE_CLEAR_DEATH_ATTACK_OFF_DS_49013",
+      "value": 0,
+      "created_at": 1576520159,
+      "updated_at": 1576520159
+    },
+    {
+      "id": 256,
+      "name": "MAP_QUEST_SPOT_INTERVAL_MINUTES",
+      "value": 10,
+      "created_at": 1577268660,
+      "updated_at": 1577268660
+    },
+    {
+      "id": 257,
+      "name": "MAP_QUEST_SPOT_MAX_CNT",
+      "value": 8,
+      "created_at": 1577268660,
+      "updated_at": 1623085094
+    },
+    {
+      "id": 258,
+      "name": "MAP_QUEST_SPOT_MATCHING_METER",
+      "value": 10000,
+      "created_at": 1577268660,
+      "updated_at": 1577268660
+    },
+    {
+      "id": 259,
+      "name": "DISABLE_SPOT_TRAINING",
+      "value": 0,
+      "created_at": 1576520159,
+      "updated_at": 1576520159
+    },
+    {
+      "id": 263,
+      "name": "ENABLE_REVIVE_QUEST",
+      "value": 1,
+      "created_at": 1580840660,
+      "updated_at": 1580840660
+    },
+    {
+      "id": 264,
+      "name": "ENABLE_IOS_STORAGE_CHECK",
+      "value": 0,
+      "created_at": 1580840660,
+      "updated_at": 1583427540
+    },
+    {
+      "id": 265,
+      "name": "ENABLE_IMPROVEMENT_OSHIDASHI",
+      "value": 1,
+      "created_at": 1580983835,
+      "updated_at": 1583427540
+    },
+    {
+      "id": 266,
+      "name": "SHINJU_MASKOFF_LUCK_MAX_NUM",
+      "value": 5,
+      "created_at": 1583427540,
+      "updated_at": 1583427540
+    },
+    {
+      "id": 267,
+      "name": "ENABLE_BEACON_CHECK_NUM_IOS",
+      "value": 4,
+      "created_at": 1583427540,
+      "updated_at": 1604566979
+    },
+    {
+      "id": 268,
+      "name": "ENABLE_BEACON_CHECK_NUM_AOS",
+      "value": 2,
+      "created_at": 1583427540,
+      "updated_at": 1604566979
+    },
+    {
+      "id": 271,
+      "name": "ENABLE_VAD",
+      "value": 1,
+      "created_at": 1583427540,
+      "updated_at": 1710410785
+    },
+    {
+      "id": 274,
+      "name": "ENABLE_SHADOW_TOWER_SKIP",
+      "value": 1,
+      "created_at": 1587569503,
+      "updated_at": 1590048378
+    },
+    {
+      "id": 275,
+      "name": "SHADOW_TOWER_SKIP_5_STAMINA",
+      "value": 0,
+      "created_at": 1590048378,
+      "updated_at": 1632756636
+    },
+    {
+      "id": 276,
+      "name": "SHADOW_TOWER_SKIP_10_STAMINA",
+      "value": 0,
+      "created_at": 1590048378,
+      "updated_at": 1632756636
+    },
+    {
+      "id": 280,
+      "name": "CLOSE_MONSPOT",
+      "value": 0,
+      "created_at": 1587569503,
+      "updated_at": 1600882886
+    },
+    {
+      "id": 282,
+      "name": "FRONTIER_SIZE",
+      "value": 10,
+      "created_at": 1591959146,
+      "updated_at": 1591959146
+    },
+    {
+      "id": 286,
+      "name": "DS_57526_NT2_ESC_TSUN_TIME",
+      "value": 43200,
+      "created_at": 1594660479,
+      "updated_at": 1605113753
+    },
+    {
+      "id": 287,
+      "name": "LASER_STOP_TO_CHARBALL_QA14670",
+      "value": 1,
+      "created_at": 1594660479,
+      "updated_at": 1594660479
+    },
+    {
+      "id": 288,
+      "name": "EXPANDED_MATCHING_METER",
+      "value": 10000,
+      "created_at": 1594660479,
+      "updated_at": 1594660479
+    },
+    {
+      "id": 292,
+      "name": "LINE_LINKAGE",
+      "value": 0,
+      "created_at": 1597680518,
+      "updated_at": 1600882886
+    },
+    {
+      "id": 293,
+      "name": "STORE_REVIEW_VERSION",
+      "value": 1,
+      "created_at": 1597680518,
+      "updated_at": 1599637372
+    },
+    {
+      "id": 294,
+      "name": "STORE_REVIEW_GACHA_GROUP_ID",
+      "value": 0,
+      "created_at": 1597680518,
+      "updated_at": 1597680518
+    },
+    {
+      "id": 295,
+      "name": "STORE_REVIEW_DISABLE_FUNCTION_BIT",
+      "value": 48,
+      "created_at": 1597680518,
+      "updated_at": 1599637372
+    },
+    {
+      "id": 296,
+      "name": "ENABLE_FRIEND_MULTI_AVAILABLE",
+      "value": 1,
+      "created_at": 1597680518,
+      "updated_at": 1600882886
+    },
+    {
+      "id": 297,
+      "name": "ENABLE_FRIEND_MULTI_AVAILABLE_SETTING",
+      "value": 1,
+      "created_at": 1597680518,
+      "updated_at": 1600882887
+    },
+    {
+      "id": 300,
+      "name": "CLEAR_ALL_AT_ONCE_RELEASE_DATE",
+      "value": 1601823600,
+      "created_at": 1600882887,
+      "updated_at": 1600882887
+    },
+    {
+      "id": 301,
+      "name": "DS_57019_TARGET_ENEMY_SKIN_ID1",
+      "value": 21633,
+      "created_at": 1601547703,
+      "updated_at": 1601547703
+    },
+    {
+      "id": 302,
+      "name": "DS_57019_TARGET_ENEMY_SKIN_ID2",
+      "value": 21634,
+      "created_at": 1601547703,
+      "updated_at": 1601547703
+    },
+    {
+      "id": 303,
+      "name": "DS_57019_TARGET_ENEMY_SKIN_ID3",
+      "value": 21635,
+      "created_at": 1601547703,
+      "updated_at": 1601547703
+    },
+    {
+      "id": 304,
+      "name": "DS_57019_TARGET_ENEMY_SKIN_ID4",
+      "value": 21636,
+      "created_at": 1601547703,
+      "updated_at": 1601547703
+    },
+    {
+      "id": 305,
+      "name": "DS_57019_TARGET_ENEMY_SKIN_ID5",
+      "value": 21637,
+      "created_at": 1601547703,
+      "updated_at": 1601547703
+    },
+    {
+      "id": 306,
+      "name": "MAP_SPOT_MAX_COUNT",
+      "value": 50,
+      "created_at": 1600882887,
+      "updated_at": 1600882887
+    },
+    {
+      "id": 309,
+      "name": "ENABLE_NEW_ANDROID_REVIEW",
+      "value": 1,
+      "created_at": 1603213917,
+      "updated_at": 1603213917
+    },
+    {
+      "id": 310,
+      "name": "ENABLE_OCEAN",
+      "value": 1,
+      "created_at": 1603213917,
+      "updated_at": 1684477489
+    },
+    {
+      "id": 311,
+      "name": "DS_58686_ENABLE_SEQ_TYPE_CCB",
+      "value": 1,
+      "created_at": 1603213917,
+      "updated_at": 1603213917
+    },
+    {
+      "id": 313,
+      "name": "NT_COLLABO_EFFECT_MASK",
+      "value": 8,
+      "created_at": 1605113753,
+      "updated_at": 1605113753
+    },
+    {
+      "id": 317,
+      "name": "GACHA_PLAY_USER_UPDATE_VER1910",
+      "value": 0,
+      "created_at": 1608141790,
+      "updated_at": 1608628381
+    },
+    {
+      "id": 318,
+      "name": "MISSION_BINGO_COLLABO_ICON_VISIBLE_END_AT",
+      "value": 1615690799,
+      "created_at": 1614342748,
+      "updated_at": 1614342748
+    },
+    {
+      "id": 322,
+      "name": "TAP_ITEM_GET_TIME",
+      "value": 30,
+      "created_at": 1615393152,
+      "updated_at": 1615393152
+    },
+    {
+      "id": 323,
+      "name": "ANCHOR_SPEED",
+      "value": 3500,
+      "created_at": 1615393152,
+      "updated_at": 1615393152
+    },
+    {
+      "id": 324,
+      "name": "ANCHOR_AREA_TYPEBONUS_SPEED",
+      "value": 95,
+      "created_at": 1615393152,
+      "updated_at": 1615393152
+    },
+    {
+      "id": 325,
+      "name": "ANCHOR_AREA_TYPEBONUS_SHELLING",
+      "value": 105,
+      "created_at": 1615393152,
+      "updated_at": 1615393152
+    },
+    {
+      "id": 326,
+      "name": "ANCHOR_AREA_TYPEBONUS_POWER",
+      "value": 120,
+      "created_at": 1615393152,
+      "updated_at": 1615393152
+    },
+    {
+      "id": 327,
+      "name": "SHADOW_TOWER_SKIP_15_STAMINA",
+      "value": 0,
+      "created_at": 1616063335,
+      "updated_at": 1632756636
+    },
+    {
+      "id": 328,
+      "name": "ENABLE_HELPER_DIFF",
+      "value": 1,
+      "created_at": 1615393152,
+      "updated_at": 1615393152
+    },
+    {
+      "id": 340,
+      "name": "FORCE_UPDATE_USER_FRONTIER_STAGE",
+      "value": 0,
+      "created_at": 1615708261,
+      "updated_at": 1619453210
+    },
+    {
+      "id": 341,
+      "name": "REALTIME_FRIEND_COMBO_VISIBILITY",
+      "value": 1,
+      "created_at": 1620992052,
+      "updated_at": 1620992052
+    },
+    {
+      "id": 342,
+      "name": "REALTIME_NETWORK_DISCON_FROM_CLIENT",
+      "value": 600,
+      "created_at": 1620992052,
+      "updated_at": 1620992052
+    },
+    {
+      "id": 343,
+      "name": "REALTIME_NETWORK_DISCON_BY_INACTIVE_TIME",
+      "value": 600,
+      "created_at": 1620992052,
+      "updated_at": 1620992052
+    },
+    {
+      "id": 344,
+      "name": "REALTIME_NETWORK_DISCON_BY_INACTIVE_COUNT",
+      "value": 5,
+      "created_at": 1620992052,
+      "updated_at": 1620992052
+    },
+    {
+      "id": 345,
+      "name": "REALTIME_NETWORK_SYNC_DISCON_FROM_HOST",
+      "value": 600,
+      "created_at": 1620992052,
+      "updated_at": 1620992052
+    },
+    {
+      "id": 346,
+      "name": "DS_61388_LIMITED_AAID_1",
+      "value": 1374,
+      "created_at": 1620379754,
+      "updated_at": 1620379754
+    },
+    {
+      "id": 347,
+      "name": "DS_61388_LIMITED_AAID_2",
+      "value": 1375,
+      "created_at": 1620379754,
+      "updated_at": 1620379754
+    }
+  ]
+}

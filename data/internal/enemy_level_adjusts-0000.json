@@ -1,0 +1,2055 @@
+{
+  "schemaVersion": 1,
+  "table": "enemy_level_adjusts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "base": 9000,
+      "level_ratio": 100,
+      "created_at": 1380105564,
+      "updated_at": 1380105564,
+      "group_id": 0
+    },
+    {
+      "id": 2,
+      "base": 11000,
+      "level_ratio": 100,
+      "created_at": 1380105564,
+      "updated_at": 1395069836,
+      "group_id": 0
+    },
+    {
+      "id": 3,
+      "base": 13000,
+      "level_ratio": 100,
+      "created_at": 1380105564,
+      "updated_at": 1395069836,
+      "group_id": 0
+    },
+    {
+      "id": 4,
+      "base": 16000,
+      "level_ratio": 100,
+      "created_at": 1380105564,
+      "updated_at": 1395069836,
+      "group_id": 0
+    },
+    {
+      "id": 5,
+      "base": 19000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069836,
+      "group_id": 0
+    },
+    {
+      "id": 6,
+      "base": 22000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069836,
+      "group_id": 0
+    },
+    {
+      "id": 7,
+      "base": 26000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069836,
+      "group_id": 0
+    },
+    {
+      "id": 8,
+      "base": 30000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069836,
+      "group_id": 0
+    },
+    {
+      "id": 9,
+      "base": 34000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069836,
+      "group_id": 0
+    },
+    {
+      "id": 10,
+      "base": 38000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069836,
+      "group_id": 0
+    },
+    {
+      "id": 11,
+      "base": 42000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069836,
+      "group_id": 0
+    },
+    {
+      "id": 12,
+      "base": 46000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069836,
+      "group_id": 0
+    },
+    {
+      "id": 13,
+      "base": 50000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069836,
+      "group_id": 0
+    },
+    {
+      "id": 14,
+      "base": 54000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069836,
+      "group_id": 0
+    },
+    {
+      "id": 15,
+      "base": 58000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069836,
+      "group_id": 0
+    },
+    {
+      "id": 16,
+      "base": 999999,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069836,
+      "group_id": 0
+    },
+    {
+      "id": 17,
+      "base": 9000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 1
+    },
+    {
+      "id": 18,
+      "base": 11000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 1
+    },
+    {
+      "id": 19,
+      "base": 13000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 1
+    },
+    {
+      "id": 20,
+      "base": 16000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 1
+    },
+    {
+      "id": 21,
+      "base": 19000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069836,
+      "group_id": 1
+    },
+    {
+      "id": 22,
+      "base": 22000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069836,
+      "group_id": 1
+    },
+    {
+      "id": 23,
+      "base": 26000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069837,
+      "group_id": 1
+    },
+    {
+      "id": 24,
+      "base": 30000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069837,
+      "group_id": 1
+    },
+    {
+      "id": 25,
+      "base": 34000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069837,
+      "group_id": 1
+    },
+    {
+      "id": 26,
+      "base": 38000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069837,
+      "group_id": 1
+    },
+    {
+      "id": 27,
+      "base": 42000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069837,
+      "group_id": 1
+    },
+    {
+      "id": 28,
+      "base": 46000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069837,
+      "group_id": 1
+    },
+    {
+      "id": 29,
+      "base": 50000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069837,
+      "group_id": 1
+    },
+    {
+      "id": 30,
+      "base": 54000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069837,
+      "group_id": 1
+    },
+    {
+      "id": 31,
+      "base": 58000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069837,
+      "group_id": 1
+    },
+    {
+      "id": 32,
+      "base": 999999,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069837,
+      "group_id": 1
+    },
+    {
+      "id": 33,
+      "base": 9000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 2
+    },
+    {
+      "id": 34,
+      "base": 11000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 2
+    },
+    {
+      "id": 35,
+      "base": 13000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 2
+    },
+    {
+      "id": 36,
+      "base": 16000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 2
+    },
+    {
+      "id": 37,
+      "base": 19000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 2
+    },
+    {
+      "id": 38,
+      "base": 22000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 2
+    },
+    {
+      "id": 39,
+      "base": 26000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069837,
+      "group_id": 2
+    },
+    {
+      "id": 40,
+      "base": 30000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069837,
+      "group_id": 2
+    },
+    {
+      "id": 41,
+      "base": 34000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069837,
+      "group_id": 2
+    },
+    {
+      "id": 42,
+      "base": 38000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069837,
+      "group_id": 2
+    },
+    {
+      "id": 43,
+      "base": 42000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069837,
+      "group_id": 2
+    },
+    {
+      "id": 44,
+      "base": 46000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069837,
+      "group_id": 2
+    },
+    {
+      "id": 45,
+      "base": 50000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069837,
+      "group_id": 2
+    },
+    {
+      "id": 46,
+      "base": 54000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069837,
+      "group_id": 2
+    },
+    {
+      "id": 47,
+      "base": 58000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069837,
+      "group_id": 2
+    },
+    {
+      "id": 48,
+      "base": 999999,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069837,
+      "group_id": 2
+    },
+    {
+      "id": 49,
+      "base": 9000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 3
+    },
+    {
+      "id": 50,
+      "base": 11000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 3
+    },
+    {
+      "id": 51,
+      "base": 13000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 3
+    },
+    {
+      "id": 52,
+      "base": 16000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 3
+    },
+    {
+      "id": 53,
+      "base": 19000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 3
+    },
+    {
+      "id": 54,
+      "base": 22000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 3
+    },
+    {
+      "id": 55,
+      "base": 26000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 3
+    },
+    {
+      "id": 56,
+      "base": 30000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069838,
+      "group_id": 3
+    },
+    {
+      "id": 57,
+      "base": 34000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069838,
+      "group_id": 3
+    },
+    {
+      "id": 58,
+      "base": 38000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069838,
+      "group_id": 3
+    },
+    {
+      "id": 59,
+      "base": 42000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069838,
+      "group_id": 3
+    },
+    {
+      "id": 60,
+      "base": 46000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069838,
+      "group_id": 3
+    },
+    {
+      "id": 61,
+      "base": 50000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069838,
+      "group_id": 3
+    },
+    {
+      "id": 62,
+      "base": 54000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069838,
+      "group_id": 3
+    },
+    {
+      "id": 63,
+      "base": 58000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069838,
+      "group_id": 3
+    },
+    {
+      "id": 64,
+      "base": 999999,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069838,
+      "group_id": 3
+    },
+    {
+      "id": 65,
+      "base": 9000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 4
+    },
+    {
+      "id": 66,
+      "base": 11000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 4
+    },
+    {
+      "id": 67,
+      "base": 13000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 4
+    },
+    {
+      "id": 68,
+      "base": 16000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 4
+    },
+    {
+      "id": 69,
+      "base": 19000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 4
+    },
+    {
+      "id": 70,
+      "base": 22000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 4
+    },
+    {
+      "id": 71,
+      "base": 26000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 4
+    },
+    {
+      "id": 72,
+      "base": 30000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 4
+    },
+    {
+      "id": 73,
+      "base": 34000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069838,
+      "group_id": 4
+    },
+    {
+      "id": 74,
+      "base": 38000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069838,
+      "group_id": 4
+    },
+    {
+      "id": 75,
+      "base": 42000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069838,
+      "group_id": 4
+    },
+    {
+      "id": 76,
+      "base": 46000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069838,
+      "group_id": 4
+    },
+    {
+      "id": 77,
+      "base": 50000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069838,
+      "group_id": 4
+    },
+    {
+      "id": 78,
+      "base": 54000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069838,
+      "group_id": 4
+    },
+    {
+      "id": 79,
+      "base": 58000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069838,
+      "group_id": 4
+    },
+    {
+      "id": 80,
+      "base": 999999,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069838,
+      "group_id": 4
+    },
+    {
+      "id": 81,
+      "base": 9000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 5
+    },
+    {
+      "id": 82,
+      "base": 11000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 5
+    },
+    {
+      "id": 83,
+      "base": 13000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 5
+    },
+    {
+      "id": 84,
+      "base": 16000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 5
+    },
+    {
+      "id": 85,
+      "base": 19000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 5
+    },
+    {
+      "id": 86,
+      "base": 22000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 5
+    },
+    {
+      "id": 87,
+      "base": 26000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 5
+    },
+    {
+      "id": 88,
+      "base": 30000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 5
+    },
+    {
+      "id": 89,
+      "base": 34000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 5
+    },
+    {
+      "id": 90,
+      "base": 38000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069839,
+      "group_id": 5
+    },
+    {
+      "id": 91,
+      "base": 42000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069839,
+      "group_id": 5
+    },
+    {
+      "id": 92,
+      "base": 46000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069839,
+      "group_id": 5
+    },
+    {
+      "id": 93,
+      "base": 50000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069839,
+      "group_id": 5
+    },
+    {
+      "id": 94,
+      "base": 54000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069839,
+      "group_id": 5
+    },
+    {
+      "id": 95,
+      "base": 58000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069839,
+      "group_id": 5
+    },
+    {
+      "id": 96,
+      "base": 62000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069839,
+      "group_id": 5
+    },
+    {
+      "id": 97,
+      "base": 66000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069839,
+      "group_id": 5
+    },
+    {
+      "id": 98,
+      "base": 70000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069839,
+      "group_id": 5
+    },
+    {
+      "id": 99,
+      "base": 74000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069839,
+      "group_id": 5
+    },
+    {
+      "id": 100,
+      "base": 78000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069839,
+      "group_id": 5
+    },
+    {
+      "id": 101,
+      "base": 82000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069839,
+      "group_id": 5
+    },
+    {
+      "id": 102,
+      "base": 86000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069839,
+      "group_id": 5
+    },
+    {
+      "id": 103,
+      "base": 90000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069839,
+      "group_id": 5
+    },
+    {
+      "id": 104,
+      "base": 999999,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069839,
+      "group_id": 5
+    },
+    {
+      "id": 105,
+      "base": 9000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 6
+    },
+    {
+      "id": 106,
+      "base": 11000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 6
+    },
+    {
+      "id": 107,
+      "base": 13000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 6
+    },
+    {
+      "id": 108,
+      "base": 16000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 6
+    },
+    {
+      "id": 109,
+      "base": 19000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 6
+    },
+    {
+      "id": 110,
+      "base": 22000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 6
+    },
+    {
+      "id": 111,
+      "base": 26000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 6
+    },
+    {
+      "id": 112,
+      "base": 30000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 6
+    },
+    {
+      "id": 113,
+      "base": 34000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 6
+    },
+    {
+      "id": 114,
+      "base": 38000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1380105565,
+      "group_id": 6
+    },
+    {
+      "id": 115,
+      "base": 42000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069839,
+      "group_id": 6
+    },
+    {
+      "id": 116,
+      "base": 46000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069839,
+      "group_id": 6
+    },
+    {
+      "id": 117,
+      "base": 50000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069839,
+      "group_id": 6
+    },
+    {
+      "id": 118,
+      "base": 54000,
+      "level_ratio": 100,
+      "created_at": 1380105565,
+      "updated_at": 1395069839,
+      "group_id": 6
+    },
+    {
+      "id": 119,
+      "base": 58000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069839,
+      "group_id": 6
+    },
+    {
+      "id": 120,
+      "base": 62000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069839,
+      "group_id": 6
+    },
+    {
+      "id": 121,
+      "base": 66000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069839,
+      "group_id": 6
+    },
+    {
+      "id": 122,
+      "base": 70000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069840,
+      "group_id": 6
+    },
+    {
+      "id": 123,
+      "base": 74000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069840,
+      "group_id": 6
+    },
+    {
+      "id": 124,
+      "base": 78000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069840,
+      "group_id": 6
+    },
+    {
+      "id": 125,
+      "base": 82000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069840,
+      "group_id": 6
+    },
+    {
+      "id": 126,
+      "base": 86000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069840,
+      "group_id": 6
+    },
+    {
+      "id": 127,
+      "base": 90000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069840,
+      "group_id": 6
+    },
+    {
+      "id": 128,
+      "base": 999999,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069840,
+      "group_id": 6
+    },
+    {
+      "id": 129,
+      "base": 9000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 7
+    },
+    {
+      "id": 130,
+      "base": 11000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 7
+    },
+    {
+      "id": 131,
+      "base": 13000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 7
+    },
+    {
+      "id": 132,
+      "base": 16000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 7
+    },
+    {
+      "id": 133,
+      "base": 19000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 7
+    },
+    {
+      "id": 134,
+      "base": 22000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 7
+    },
+    {
+      "id": 135,
+      "base": 26000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 7
+    },
+    {
+      "id": 136,
+      "base": 30000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 7
+    },
+    {
+      "id": 137,
+      "base": 34000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 7
+    },
+    {
+      "id": 138,
+      "base": 38000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 7
+    },
+    {
+      "id": 139,
+      "base": 42000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 7
+    },
+    {
+      "id": 140,
+      "base": 46000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069840,
+      "group_id": 7
+    },
+    {
+      "id": 141,
+      "base": 50000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069840,
+      "group_id": 7
+    },
+    {
+      "id": 142,
+      "base": 54000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069840,
+      "group_id": 7
+    },
+    {
+      "id": 143,
+      "base": 58000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069840,
+      "group_id": 7
+    },
+    {
+      "id": 144,
+      "base": 62000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069840,
+      "group_id": 7
+    },
+    {
+      "id": 145,
+      "base": 66000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069840,
+      "group_id": 7
+    },
+    {
+      "id": 146,
+      "base": 70000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069840,
+      "group_id": 7
+    },
+    {
+      "id": 147,
+      "base": 74000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069840,
+      "group_id": 7
+    },
+    {
+      "id": 148,
+      "base": 78000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069840,
+      "group_id": 7
+    },
+    {
+      "id": 149,
+      "base": 82000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069840,
+      "group_id": 7
+    },
+    {
+      "id": 150,
+      "base": 86000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069840,
+      "group_id": 7
+    },
+    {
+      "id": 151,
+      "base": 90000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069840,
+      "group_id": 7
+    },
+    {
+      "id": 152,
+      "base": 999999,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069840,
+      "group_id": 7
+    },
+    {
+      "id": 153,
+      "base": 9000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 8
+    },
+    {
+      "id": 154,
+      "base": 11000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 8
+    },
+    {
+      "id": 155,
+      "base": 13000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 8
+    },
+    {
+      "id": 156,
+      "base": 16000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 8
+    },
+    {
+      "id": 157,
+      "base": 19000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 8
+    },
+    {
+      "id": 158,
+      "base": 22000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 8
+    },
+    {
+      "id": 159,
+      "base": 26000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 8
+    },
+    {
+      "id": 160,
+      "base": 30000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 8
+    },
+    {
+      "id": 161,
+      "base": 34000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 8
+    },
+    {
+      "id": 162,
+      "base": 38000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 8
+    },
+    {
+      "id": 163,
+      "base": 42000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 8
+    },
+    {
+      "id": 164,
+      "base": 46000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 8
+    },
+    {
+      "id": 165,
+      "base": 50000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069841,
+      "group_id": 8
+    },
+    {
+      "id": 166,
+      "base": 54000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069841,
+      "group_id": 8
+    },
+    {
+      "id": 167,
+      "base": 58000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069841,
+      "group_id": 8
+    },
+    {
+      "id": 168,
+      "base": 62000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069841,
+      "group_id": 8
+    },
+    {
+      "id": 169,
+      "base": 66000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069841,
+      "group_id": 8
+    },
+    {
+      "id": 170,
+      "base": 70000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069841,
+      "group_id": 8
+    },
+    {
+      "id": 171,
+      "base": 74000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069841,
+      "group_id": 8
+    },
+    {
+      "id": 172,
+      "base": 78000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069841,
+      "group_id": 8
+    },
+    {
+      "id": 173,
+      "base": 82000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069841,
+      "group_id": 8
+    },
+    {
+      "id": 174,
+      "base": 86000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069841,
+      "group_id": 8
+    },
+    {
+      "id": 175,
+      "base": 90000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069841,
+      "group_id": 8
+    },
+    {
+      "id": 176,
+      "base": 999999,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069841,
+      "group_id": 8
+    },
+    {
+      "id": 177,
+      "base": 9000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 9
+    },
+    {
+      "id": 178,
+      "base": 11000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 9
+    },
+    {
+      "id": 179,
+      "base": 13000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 9
+    },
+    {
+      "id": 180,
+      "base": 16000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 9
+    },
+    {
+      "id": 181,
+      "base": 19000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 9
+    },
+    {
+      "id": 182,
+      "base": 22000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 9
+    },
+    {
+      "id": 183,
+      "base": 26000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 9
+    },
+    {
+      "id": 184,
+      "base": 30000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 9
+    },
+    {
+      "id": 185,
+      "base": 34000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 9
+    },
+    {
+      "id": 186,
+      "base": 38000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 9
+    },
+    {
+      "id": 187,
+      "base": 42000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 9
+    },
+    {
+      "id": 188,
+      "base": 46000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 9
+    },
+    {
+      "id": 189,
+      "base": 50000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 9
+    },
+    {
+      "id": 190,
+      "base": 54000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069841,
+      "group_id": 9
+    },
+    {
+      "id": 191,
+      "base": 58000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069841,
+      "group_id": 9
+    },
+    {
+      "id": 192,
+      "base": 62000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069841,
+      "group_id": 9
+    },
+    {
+      "id": 193,
+      "base": 66000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069842,
+      "group_id": 9
+    },
+    {
+      "id": 194,
+      "base": 70000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069842,
+      "group_id": 9
+    },
+    {
+      "id": 195,
+      "base": 74000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069842,
+      "group_id": 9
+    },
+    {
+      "id": 196,
+      "base": 78000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069842,
+      "group_id": 9
+    },
+    {
+      "id": 197,
+      "base": 82000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069842,
+      "group_id": 9
+    },
+    {
+      "id": 198,
+      "base": 86000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069842,
+      "group_id": 9
+    },
+    {
+      "id": 199,
+      "base": 90000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069842,
+      "group_id": 9
+    },
+    {
+      "id": 200,
+      "base": 999999,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069842,
+      "group_id": 9
+    },
+    {
+      "id": 201,
+      "base": 9000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 10
+    },
+    {
+      "id": 202,
+      "base": 11000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 10
+    },
+    {
+      "id": 203,
+      "base": 13000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 10
+    },
+    {
+      "id": 204,
+      "base": 16000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 10
+    },
+    {
+      "id": 205,
+      "base": 19000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 10
+    },
+    {
+      "id": 206,
+      "base": 22000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 10
+    },
+    {
+      "id": 207,
+      "base": 26000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 10
+    },
+    {
+      "id": 208,
+      "base": 30000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 10
+    },
+    {
+      "id": 209,
+      "base": 34000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 10
+    },
+    {
+      "id": 210,
+      "base": 38000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 10
+    },
+    {
+      "id": 211,
+      "base": 42000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 10
+    },
+    {
+      "id": 212,
+      "base": 46000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 10
+    },
+    {
+      "id": 213,
+      "base": 50000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 10
+    },
+    {
+      "id": 214,
+      "base": 54000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 10
+    },
+    {
+      "id": 215,
+      "base": 58000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1380105566,
+      "group_id": 10
+    },
+    {
+      "id": 216,
+      "base": 62000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069842,
+      "group_id": 10
+    },
+    {
+      "id": 217,
+      "base": 66000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069842,
+      "group_id": 10
+    },
+    {
+      "id": 218,
+      "base": 70000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069842,
+      "group_id": 10
+    },
+    {
+      "id": 219,
+      "base": 74000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069842,
+      "group_id": 10
+    },
+    {
+      "id": 220,
+      "base": 78000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069842,
+      "group_id": 10
+    },
+    {
+      "id": 221,
+      "base": 82000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069842,
+      "group_id": 10
+    },
+    {
+      "id": 222,
+      "base": 86000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069842,
+      "group_id": 10
+    },
+    {
+      "id": 223,
+      "base": 90000,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069842,
+      "group_id": 10
+    },
+    {
+      "id": 224,
+      "base": 999999,
+      "level_ratio": 100,
+      "created_at": 1380105566,
+      "updated_at": 1395069843,
+      "group_id": 10
+    },
+    {
+      "id": 225,
+      "base": 9000,
+      "level_ratio": 100,
+      "created_at": 1380779932,
+      "updated_at": 1380779932,
+      "group_id": 11
+    },
+    {
+      "id": 226,
+      "base": 11000,
+      "level_ratio": 100,
+      "created_at": 1380779932,
+      "updated_at": 1380779932,
+      "group_id": 11
+    },
+    {
+      "id": 227,
+      "base": 13000,
+      "level_ratio": 100,
+      "created_at": 1380779932,
+      "updated_at": 1380779932,
+      "group_id": 11
+    },
+    {
+      "id": 228,
+      "base": 16000,
+      "level_ratio": 100,
+      "created_at": 1380779932,
+      "updated_at": 1380779932,
+      "group_id": 11
+    },
+    {
+      "id": 229,
+      "base": 19000,
+      "level_ratio": 100,
+      "created_at": 1380779932,
+      "updated_at": 1380779932,
+      "group_id": 11
+    },
+    {
+      "id": 230,
+      "base": 22000,
+      "level_ratio": 100,
+      "created_at": 1380779932,
+      "updated_at": 1380779932,
+      "group_id": 11
+    },
+    {
+      "id": 231,
+      "base": 26000,
+      "level_ratio": 100,
+      "created_at": 1380779932,
+      "updated_at": 1380779932,
+      "group_id": 11
+    },
+    {
+      "id": 232,
+      "base": 30000,
+      "level_ratio": 100,
+      "created_at": 1380779932,
+      "updated_at": 1380779932,
+      "group_id": 11
+    },
+    {
+      "id": 233,
+      "base": 34000,
+      "level_ratio": 100,
+      "created_at": 1380779932,
+      "updated_at": 1380779932,
+      "group_id": 11
+    },
+    {
+      "id": 234,
+      "base": 38000,
+      "level_ratio": 100,
+      "created_at": 1380779932,
+      "updated_at": 1380779932,
+      "group_id": 11
+    },
+    {
+      "id": 235,
+      "base": 42000,
+      "level_ratio": 100,
+      "created_at": 1380779932,
+      "updated_at": 1380779932,
+      "group_id": 11
+    },
+    {
+      "id": 236,
+      "base": 46000,
+      "level_ratio": 100,
+      "created_at": 1380779932,
+      "updated_at": 1380779932,
+      "group_id": 11
+    },
+    {
+      "id": 237,
+      "base": 50000,
+      "level_ratio": 100,
+      "created_at": 1380779933,
+      "updated_at": 1380779933,
+      "group_id": 11
+    },
+    {
+      "id": 238,
+      "base": 54000,
+      "level_ratio": 100,
+      "created_at": 1380779933,
+      "updated_at": 1380779933,
+      "group_id": 11
+    },
+    {
+      "id": 239,
+      "base": 58000,
+      "level_ratio": 100,
+      "created_at": 1380779933,
+      "updated_at": 1380779933,
+      "group_id": 11
+    },
+    {
+      "id": 240,
+      "base": 62000,
+      "level_ratio": 100,
+      "created_at": 1380779933,
+      "updated_at": 1380779933,
+      "group_id": 11
+    },
+    {
+      "id": 241,
+      "base": 66000,
+      "level_ratio": 100,
+      "created_at": 1380779933,
+      "updated_at": 1380779933,
+      "group_id": 11
+    },
+    {
+      "id": 242,
+      "base": 70000,
+      "level_ratio": 100,
+      "created_at": 1380779933,
+      "updated_at": 1380779933,
+      "group_id": 11
+    },
+    {
+      "id": 243,
+      "base": 74000,
+      "level_ratio": 100,
+      "created_at": 1380779933,
+      "updated_at": 1380779933,
+      "group_id": 11
+    },
+    {
+      "id": 244,
+      "base": 78000,
+      "level_ratio": 100,
+      "created_at": 1380779933,
+      "updated_at": 1380779933,
+      "group_id": 11
+    },
+    {
+      "id": 245,
+      "base": 82000,
+      "level_ratio": 100,
+      "created_at": 1380779933,
+      "updated_at": 1380779933,
+      "group_id": 11
+    },
+    {
+      "id": 246,
+      "base": 86000,
+      "level_ratio": 100,
+      "created_at": 1380779933,
+      "updated_at": 1380779933,
+      "group_id": 11
+    },
+    {
+      "id": 247,
+      "base": 90000,
+      "level_ratio": 100,
+      "created_at": 1380779933,
+      "updated_at": 1380779933,
+      "group_id": 11
+    },
+    {
+      "id": 248,
+      "base": 999999,
+      "level_ratio": 100,
+      "created_at": 1380779933,
+      "updated_at": 1380779933,
+      "group_id": 11
+    },
+    {
+      "id": 249,
+      "base": 999999,
+      "level_ratio": 100,
+      "created_at": 1387383727,
+      "updated_at": 1387383727,
+      "group_id": 12
+    },
+    {
+      "id": 250,
+      "base": 999999,
+      "level_ratio": 100,
+      "created_at": 1387383727,
+      "updated_at": 1387383727,
+      "group_id": 13
+    },
+    {
+      "id": 251,
+      "base": 999999,
+      "level_ratio": 100,
+      "created_at": 1387383727,
+      "updated_at": 1387383727,
+      "group_id": 14
+    },
+    {
+      "id": 252,
+      "base": 999999,
+      "level_ratio": 100,
+      "created_at": 1387383727,
+      "updated_at": 1387383727,
+      "group_id": 15
+    },
+    {
+      "id": 253,
+      "base": 999999,
+      "level_ratio": 100,
+      "created_at": 1387383727,
+      "updated_at": 1387383727,
+      "group_id": 16
+    },
+    {
+      "id": 254,
+      "base": 999999,
+      "level_ratio": 100,
+      "created_at": 1387383727,
+      "updated_at": 1387383727,
+      "group_id": 17
+    },
+    {
+      "id": 255,
+      "base": 999999,
+      "level_ratio": 100,
+      "created_at": 1387383727,
+      "updated_at": 1387383727,
+      "group_id": 18
+    },
+    {
+      "id": 256,
+      "base": 999999,
+      "level_ratio": 100,
+      "created_at": 1387383727,
+      "updated_at": 1387383727,
+      "group_id": 19
+    }
+  ]
+}

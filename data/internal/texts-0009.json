@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 1,
+  "table": "texts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 2326,
+      "text": "[LC]購入情報[LF][LF]あなたが所持しているオーブの内訳が確認できます[LF][LF][C2:有料オーブ : %d個][LF][C2:無料オーブ : %d個][IF:%d][LF][C6:[texts:eTEXTS_DEF_LIMITED_ORB_NAME] : %d個（使用期限 %d/%d %02d:%02d）][LF][LF][C6:[texts:eTEXTS_DEF_LIMITED_ORB_NAME]、無料、有料オーブの順で消費されます][ELSE][LF][LF]オーブは無料オーブから消費されます[ENDIF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1555947378,
+      "updated_at": 1751990626,
+      "label": "eTEXTS_DEF_ME_MSG_ORB_INFO"
+    },
+    {
+      "id": 2327,
+      "text": "ラッキーモンスター",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947378,
+      "updated_at": 1555947378,
+      "label": "eTEXTS_DEF_ME_LUCKY_MONSTER"
+    },
+    {
+      "id": 2328,
+      "text": "[LC]ラッキーモンスターとは[LF][LF][CCB:dlme/help_luckymon_00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947378,
+      "updated_at": 1555947378,
+      "label": "eTEXTS_DEF_ME_MSG_LUCKY_MONSTER_HELP"
+    },
+    {
+      "id": 2329,
+      "text": "効果一覧",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947378,
+      "updated_at": 1555947378,
+      "label": "eTEXTS_DEF_ME_EFFECT_LIST"
+    },
+    {
+      "id": 2330,
+      "text": "今週のモンスター",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947378,
+      "updated_at": 1555947378,
+      "label": "eTEXTS_DEF_ME_THIS_WEEKS_MONSTERS"
+    },
+    {
+      "id": 2331,
+      "text": "来週のモンスター",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947378,
+      "updated_at": 1555947378,
+      "label": "eTEXTS_DEF_ME_NEXT_WEEKS_MONSTERS"
+    },
+    {
+      "id": 2332,
+      "text": "%d種所持",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947378,
+      "updated_at": 1555947378,
+      "label": "eTEXTS_DEF_ME_NEED_MONSTER_NUM"
+    },
+    {
+      "id": 2333,
+      "text": "期間:%s ～ %s",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947378,
+      "updated_at": 1555947378,
+      "label": "eTEXTS_DEF_ME_LUCKY_MONSTER_PERIOD"
+    },
+    {
+      "id": 2334,
+      "text": "所持運極種類",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947378,
+      "updated_at": 1555947378,
+      "label": "eTEXTS_DEF_ME_LUCK_MAX_MONSTER_NUM_IN_POSSESSION"
+    },
+    {
+      "id": 2335,
+      "text": "この種類の最大ラック:",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947378,
+      "updated_at": 1555947378,
+      "label": "eTEXTS_DEF_ME_MAX_LUCK_OF_THIS_TYPE"
+    },
+    {
+      "id": 2336,
+      "text": "詳細",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947378,
+      "updated_at": 1555947378,
+      "label": "eTEXTS_DEF_COMMON_DETAIL"
+    },
+    {
+      "id": 2337,
+      "text": "[LC]対象モンスター詳細[LF][WIDTH520][LF][LC]対象モンスターは以下で獲得することができます[LF][MARGIN15][LF][LC][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1555947378,
+      "updated_at": 1636563952,
+      "label": "eTEXTS_DEF_ME_MSG_LUCKY_MONSTER_DETAIL"
+    },
+    {
+      "id": 2338,
+      "text": "今週の実施はありません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947378,
+      "updated_at": 1555947378,
+      "label": "eTEXTS_DEF_ME_NOT_HOLD_THIS_WEEK"
+    },
+    {
+      "id": 2339,
+      "text": "来週の実施はありません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947378,
+      "updated_at": 1555947378,
+      "label": "eTEXTS_DEF_ME_NOT_HOLD_NEXT_WEEK"
+    },
+    {
+      "id": 2340,
+      "text": "[LC]対象モンスター詳細[LF][WIDTH520][LF][MARGIN15][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1555947378,
+      "updated_at": 1555947378,
+      "label": "eTEXTS_DEF_ME_MSG_LUCKY_MONSTER_DETAIL_NO_QUEST"
+    },
+    {
+      "id": 2341,
+      "text": "[C6:運極所持でラッキーな日々を！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947378,
+      "updated_at": 1636563952,
+      "label": "eTEXTS_DEF_13400"
+    },
+    {
+      "id": 2342,
+      "text": "[LC][b:ba_help_luckymon_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947378,
+      "updated_at": 1555947378,
+      "label": "eTEXTS_DEF_13401"
+    },
+    {
+      "id": 2343,
+      "text": "[C5:ラッキーモンスターについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947378,
+      "updated_at": 1555947378,
+      "label": "eTEXTS_DEF_13402"
+    },
+    {
+      "id": 2344,
+      "text": "あなたが所持している運極モンスターが[LF]ラッキーモンスターとして選ばれると[LF][C6:幸運な効果]が[C6:2週間発動]されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947378,
+      "updated_at": 1636563952,
+      "label": "eTEXTS_DEF_13403"
+    },
+    {
+      "id": 2345,
+      "text": "対象モンスター",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947378,
+      "updated_at": 1555947378,
+      "label": "eTEXTS_DEF_13404"
+    },
+    {
+      "id": 2346,
+      "text": "毎週[C6:4種]のモンスターが選ばれます[LF][C6:前週発表された4種を含めた8種]のモンスターが[LF]今週のラッキーモンスターです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947378,
+      "updated_at": 1636563952,
+      "label": "eTEXTS_DEF_13405"
+    },
+    {
+      "id": 2347,
+      "text": "[LUCK][C4:極]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947378,
+      "updated_at": 1555947378,
+      "label": "eTEXTS_DEF_13406"
+    },
+    {
+      "id": 2348,
+      "text": "[C5:効果について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947378,
+      "updated_at": 1555947378,
+      "label": "eTEXTS_DEF_13407"
+    },
+    {
+      "id": 2349,
+      "text": "[C6:ラッキーモンスターの運極所持]で[LF]発動する効果は3つ！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947378,
+      "updated_at": 1555947378,
+      "label": "eTEXTS_DEF_13408"
+    },
+    {
+      "id": 2350,
+      "text": "[IP842]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_13409"
+    },
+    {
+      "id": 2351,
+      "text": "[C6:効果発動！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_13410"
+    },
+    {
+      "id": 2352,
+      "text": "[LUCK][C4:極]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_13411"
+    },
+    {
+      "id": 2353,
+      "text": "効果一覧",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_13412"
+    },
+    {
+      "id": 2354,
+      "text": "[C6:1種所持]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_13413"
+    },
+    {
+      "id": 2355,
+      "text": "ラック引き換えの[LF]必要ラックが[C6:10％割引]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_13414"
+    },
+    {
+      "id": 2356,
+      "text": "[C6:2種所持]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_13415"
+    },
+    {
+      "id": 2357,
+      "text": "所持書庫ptが[C6:60ptアップ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_13416"
+    },
+    {
+      "id": 2358,
+      "text": "[C6:3種所持]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_13417"
+    },
+    {
+      "id": 2359,
+      "text": "自身のラックボーナスに[LF][C6:宝箱を1つ追加]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_13418"
+    },
+    {
+      "id": 2360,
+      "text": "[C6:所持種類数]が増えるたびに効果発動！[LF][C6:最大で3つ]の効果が発動します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_13419"
+    },
+    {
+      "id": 2361,
+      "text": "※同種類のモンスターを複数所持している場合、[LF]　1種類としてカウントされます[LF][LF]※モンスターレンタルで借りたモンスターは[LF]　効果発動の対象外です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1636563952,
+      "label": "eTEXTS_DEF_13420"
+    },
+    {
+      "id": 2362,
+      "text": "[C5:各期間について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_13421"
+    },
+    {
+      "id": 2363,
+      "text": "今週のモンスター",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_13422"
+    },
+    {
+      "id": 2364,
+      "text": "対象期間は[C6:1週間][LF][C6:毎週月曜日のAM4:00]に切り替わります[LF][LF]期間中に運極となった場合でも効果が発動します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_13423"
+    },
+    {
+      "id": 2365,
+      "text": "来週のモンスター",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_13424"
+    },
+    {
+      "id": 2366,
+      "text": "翌週のラッキーモンスターを[LF]確認することができます[LF][LF]数日前から確認可能になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1636563952,
+      "label": "eTEXTS_DEF_13425"
+    },
+    {
+      "id": 2367,
+      "text": "※前週発表された4種のモンスターは[LF]　引き続き対象になります[LF][LF]※効果発動中に対象のラッキーモンスターを[LF]　合成または売却すると効果は失われます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1636563952,
+      "label": "eTEXTS_DEF_13426"
+    },
+    {
+      "id": 2368,
+      "text": "%s",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_MSG_BEGINNER_CAMPAIGN_START"
+    },
+    {
+      "id": 2369,
+      "text": "獣神化",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_SORT_WINDOW_22"
+    },
+    {
+      "id": 2370,
+      "text": "アイテム一覧",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1670862119,
+      "label": "eTEXTS_DEF_ME_ITEM_LIST"
+    },
+    {
+      "id": 2371,
+      "text": "[LC]特殊クエスト[LF][LF][LC]特殊なイベントクエストのため[LF][LC]ここからは挑戦できません",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_ME_MSG_RECOMMEND_SECRET_QUEST_NOT_JUMP"
+    },
+    {
+      "id": 2372,
+      "text": "育成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_DECK_TRAINING"
+    },
+    {
+      "id": 2373,
+      "text": "対象モンスター",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_ME_SELECTED_MONSTER"
+    },
+    {
+      "id": 2374,
+      "text": "[LC]育成完了[LF][LF]レベルと＋値が最大になりました[LF]対象モンスター画面に戻ります",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_ME_MSG_COMB_MAX_ALERT_DECK"
+    },
+    {
+      "id": 2375,
+      "text": "[C4:ラック＋99]イベント開催中！！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_ME_MONST_DAY_STAGE_TEXTS"
+    },
+    {
+      "id": 2376,
+      "text": "ラック＋99",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_ME_MONST_DAY_LUCK"
+    },
+    {
+      "id": 2377,
+      "text": "モンストの日限定！アイテム追加！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_ME_MONST_DAY_ADD_LUCK_ITEM"
+    },
+    {
+      "id": 2378,
+      "text": "大成功確率100%！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_ME_MONST_DAY_SUCCESS_UP"
+    },
+    {
+      "id": 2379,
+      "text": "モンストの日限定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1566833574,
+      "label": "eTEXTS_DEF_ME_LUCK_EXCHANGE_MONST_DAY"
+    },
+    {
+      "id": 2380,
+      "text": "進化アイテム",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_ME_LUCK_EXCHANGE_EVO_ITEM"
+    },
+    {
+      "id": 2381,
+      "text": "強化素材",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_ME_LUCK_EXCHANGE_MATERIAL"
+    },
+    {
+      "id": 2382,
+      "text": "[C6:毎月10日、20日、30日はモンストの日]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_13600"
+    },
+    {
+      "id": 2383,
+      "text": "[LC][b:ba_help_msday_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_13601"
+    },
+    {
+      "id": 2384,
+      "text": "[LC][C5:特典一覧]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_13602"
+    },
+    {
+      "id": 2385,
+      "text": "ラック＋99",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_13603"
+    },
+    {
+      "id": 2386,
+      "text": "[C6:運極]の効果を発揮します[LF]ラックボーナス獲得のチャンス",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_13604"
+    },
+    {
+      "id": 2387,
+      "text": "[C6:※イベントクエスト、追憶の書庫、強化進化クエスト][LF][C6:英雄の神殿]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1615393238,
+      "label": "eTEXTS_DEF_13605"
+    },
+    {
+      "id": 2388,
+      "text": "引き換えアイテム追加",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_13606"
+    },
+    {
+      "id": 2389,
+      "text": "[C6:モンストの日限定]でラック[LF]引き換えにアイテムが追加",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_13607"
+    },
+    {
+      "id": 2390,
+      "text": "強化大成功確率100％",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_13608"
+    },
+    {
+      "id": 2391,
+      "text": "キャラクターの[C6:レベルアップ]が[LF]しやすくなるチャンス",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_13609"
+    },
+    {
+      "id": 2392,
+      "text": "※モンストの日は[C6:0:00～23:59]までになります[LF][LF]※[C6:2月]は[C6:10日]、[C6:20日]、[C6:最終日]がモンストの日に[LF]　なります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1557317720,
+      "label": "eTEXTS_DEF_13610"
+    },
+    {
+      "id": 2393,
+      "text": "勲章変更",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_ME_ORDER_CHANGE_BG_TITLE"
+    },
+    {
+      "id": 2394,
+      "text": "はずす",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_ME_ORDER_CHANGE_RESET"
+    },
+    {
+      "id": 2395,
+      "text": "ラックMAXモンスター勲章",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1689007843,
+      "label": "eTEXTS_DEF_ME_ORDER_NAME_LUCK_MAX"
+    },
+    {
+      "id": 2396,
+      "text": "運極数勲章",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_ME_ORDER_NAME_LUCK_MAX_NUMBER"
+    },
+    {
+      "id": 2397,
+      "text": "ランク勲章",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_ME_ORDER_NAME_RANK"
+    },
+    {
+      "id": 2398,
+      "text": "[LC]勲章とは[LF][LF][CCB:dlme/help_badge_00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_MSG_ORDER_CHANGE_HELP"
+    },
+    {
+      "id": 2399,
+      "text": "[LC]勲章獲得条件[LF][LF]%s",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_MSG_ORDER_CHANGE_ORDER_CONDITION"
+    },
+    {
+      "id": 2400,
+      "text": "勲章選択",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_ME_TITLE_ORDER_CHANGE_CHAR_SELECT"
+    },
+    {
+      "id": 2401,
+      "text": "[LC]モンスター未所持[LF][LF]ラックMAXのモンスターを[LF]持っていません。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1563294521,
+      "label": "eTEXTS_DEF_MSG_ORDER_CHANGE_NO_LUCK_MAX_CHAR"
+    },
+    {
+      "id": 2402,
+      "text": "[C6:自慢の勲章を身に着けよう]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_13800"
+    },
+    {
+      "id": 2403,
+      "text": "[LC][b:ba_help_badge_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_13801"
+    },
+    {
+      "id": 2404,
+      "text": "勲章はストライカーの功績を称えて贈られるものです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_13802"
+    },
+    {
+      "id": 2405,
+      "text": "[LC][C5:ラックMAXモンスター勲章]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1689007843,
+      "label": "eTEXTS_DEF_13803"
+    },
+    {
+      "id": 2406,
+      "text": "[C6:モンスターをラックMAX]にすると[LF]獲得できる勲章です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1563294521,
+      "label": "eTEXTS_DEF_13804"
+    },
+    {
+      "id": 2407,
+      "text": "ラックMAXにしたモンスターモチーフの勲章を[LF]獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1563294521,
+      "label": "eTEXTS_DEF_13805"
+    },
+    {
+      "id": 2408,
+      "text": "※[C6:全てのレアリティのモンスター]が対象です[LF][LF]※[C6:現在所持しているラックMAX]の形態のみ[LF]　勲章を身に着けることができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1563294521,
+      "label": "eTEXTS_DEF_13806"
+    },
+    {
+      "id": 2409,
+      "text": "[LC][C5:運極数勲章]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_13807"
+    },
+    {
+      "id": 2410,
+      "text": "[C6:運極達成数が条件に達する]と[LF]獲得できる勲章です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_13808"
+    },
+    {
+      "id": 2411,
+      "text": "[LC][C5:ランク勲章]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_13809"
+    },
+    {
+      "id": 2412,
+      "text": "[C6:ランクが条件に達する]と[LF]獲得できる勲章です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_13810"
+    },
+    {
+      "id": 2413,
+      "text": "ログイン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_ME_LOGIN_DAYS_MSG"
+    },
+    {
+      "id": 2414,
+      "text": "開催予定のキャンペーンはありません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_ME_MSG_CAMPAIGNS_POPUP_NONE_PLANS"
+    },
+    {
+      "id": 2415,
+      "text": "モンスター",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_MONSPOT_RESULT_CHARA"
+    },
+    {
+      "id": 2416,
+      "text": "本日：受け取り可能[LF]期間中：あと%d回",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_MONSPOT_TOTAL_X_DAY_ONE"
+    },
+    {
+      "id": 2417,
+      "text": "本日：受け取り済み[LF]期間中：あと%d回",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947379,
+      "updated_at": 1555947379,
+      "label": "eTEXTS_DEF_MONSPOT_TOTAL_X_DAY_ONE_RECEIVED"
+    },
+    {
+      "id": 2418,
+      "text": "全て受け取り済みです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947380,
+      "updated_at": 1555947380,
+      "label": "eTEXTS_DEF_MONSPOT_TOTAL_X_DAY_ONE_RECEIVED_ALL"
+    },
+    {
+      "id": 2419,
+      "text": "https://www.monster-strike.com/mission/twitter/?text=",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947380,
+      "updated_at": 1570463654,
+      "label": "eTEXTS_DEF_TWEET_URL"
+    },
+    {
+      "id": 2420,
+      "text": "[LC]お知らせ[LF][LF]現在準備中です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947380,
+      "updated_at": 1555947380,
+      "label": "eTEXTS_DEF_TWEET_URL_EMPTY_ERROR"
+    },
+    {
+      "id": 2421,
+      "text": "繰り返し予約",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947380,
+      "updated_at": 1555947380,
+      "label": "eTEXTS_DEF_ME_MSG_CAMPAIGNS_POPUP_RESERVE_NOTIFICATION"
+    },
+    {
+      "id": 2422,
+      "text": "[LC]キャンペーン予約[LF][LF]キャンペーン予約設定[LF][LC][NODE][LF]",
+      "layout": 26,
+      "color": 0,
+      "created_at": 1555947380,
+      "updated_at": 1555947380,
+      "label": "eTEXTS_DEF_ME_MSG_CAMPAIGNS_RESERVE_NOTIFICATION_DIALOG"
+    },
+    {
+      "id": 2423,
+      "text": "繰り返し予約キャンペーンが開催！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947380,
+      "updated_at": 1555947380,
+      "label": "eTEXTS_DEF_ME_MSG_CAMPAIGNS_RESERVE_NOTIFICATION_TITLE"
+    },
+    {
+      "id": 2424,
+      "text": "削除されるクエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947380,
+      "updated_at": 1555947380,
+      "label": "eTEXTS_DEF_MSG_QUEST_STOCK_OVERWRITE_MSG_SINGLE_1"
+    },
+    {
+      "id": 2425,
+      "text": "削除するクエストを選択してください",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947380,
+      "updated_at": 1555947380,
+      "label": "eTEXTS_DEF_MSG_QUEST_STOCK_OVERWRITE_MSG_SOME_1"
+    },
+    {
+      "id": 2426,
+      "text": "%s %d個",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1555947380,
+      "updated_at": 1555947380,
+      "label": "eTEXTS_DEF_ITEM_COUNT_LABEL"
+    },
+    {
+      "id": 2427,
+      "text": "[LC]シークレット降臨[LF][LF][C3:藍染惣右介]と戦うには、[LF][LF][C2:──ある『条件』と『時間』──][LF][LF]を満たす必要がある。[LF]今は挑むことが出来ないようだ……。",
+      "layout": 26,
+      "color": 0,
+      "created_at": 1556703563,
+      "updated_at": 1556703563,
+      "label": "eTEXTS_DEF_ME_MSG_SECRET_EVENT_EXPLAIN"
+    },
+    {
+      "id": 2428,
+      "text": "[LC]シークレット降臨[LF][LF][C3:藍染惣右介]と戦うには、[LF]ある『条件』と『時間』を満たす必要がある。[LF][LF][C6:──そして、今は両方を満たしている！──][LF][LF]剣をとり、恐るべき野望に挑め！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1556703563,
+      "updated_at": 1556703563,
+      "label": "eTEXTS_DEF_ME_MSG_SECRET_EVENT_CHALLENGE"
+    },
+    {
+      "id": 2429,
+      "text": "[LC]シークレット降臨[LF][LF][C3:藍染惣右介]と戦うための、[LF][LF][C2:──ある『条件』──][LF][LF]を満たしていないようだ。[LF]残念ながら、挑むことは出来ない……。",
+      "layout": 26,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_ME_MSG_SECRET_EVENT_NOT_ACHIEVED"
+    },
+    {
+      "id": 2430,
+      "text": "[LC]キーワード確認[LF][LF][LF][LC][S2][C4:%s][LF][LF]このキーワードで挑戦します！[LF]よろしいですか？[LF]",
+      "layout": 27,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_PROMO_KEYWORD_CHECK"
+    },
+    {
+      "id": 2431,
+      "text": "[LC]ハズレなしの超卍解くじ！とは[LF][LF][CCB:dlme/help_cp5_blc_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_PROMO_KEYWORD_QA"
+    },
+    {
+      "id": 2432,
+      "text": "[LC]キーワード正解[LF][WIDTH500][LF][LC][MARGIN30][NODE][MARGIN10][LF][LC][C6:おめでとうございます！][LF][LF]%s[LF]が当たりました！[LF][LF]受け取りBOXよりお受け取りください。",
+      "layout": 26,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_PROMO_KEYWORD_OK_NORMAL"
+    },
+    {
+      "id": 2433,
+      "text": "[LC]キーワード正解[LF][WIDTH500][LF][LC][MARGIN30][NODE][MARGIN10][LF][LC]【[C9:%s当選]】[LF][LC][C6:おめでとうございます！][LF][LF]受け取りBOXに届く当選メッセージより[LF]詳細をご確認ください！[LF][LF]※メッセージのお届けまでに、[LF]少々お時間をいただく場合がございます。[LF]予めご了承ください。",
+      "layout": 26,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_PROMO_KEYWORD_OK_REAL"
+    },
+    {
+      "id": 2434,
+      "text": "[LC]レアキーワード正解！[LF][WIDTH500][LF][LC][b:ba_cp5_blc2.png][LF][LC][MARGIN10][NODE][MARGIN10][LF][LC][C6:おめでとうございます！][LF][LF]%sをプレゼント！[LF][LF]受け取りBOXよりお受け取りください。",
+      "layout": 26,
+      "color": 1,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_PROMO_KEYWORD_OK_RARE"
+    },
+    {
+      "id": 2435,
+      "text": "[LC]キーワード未入力[LF][LF]キーワードが入力されていないか、[LF]空白が含まれています。",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_PROMO_KEYWORD_EMPTY_WORD"
+    },
+    {
+      "id": 2436,
+      "text": "キーワードを入力",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_PROMO_KEYWORD_PLACEHOLDER"
+    },
+    {
+      "id": 2437,
+      "text": "動画を見る",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_PROMO_KEYWORD_ANDROID_PLAY_ANIME"
+    },
+    {
+      "id": 2438,
+      "text": "ハズレなしの超卍解くじ！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_PROMO_KEYWORD_TITLE"
+    },
+    {
+      "id": 2439,
+      "text": "[LC]入力失敗[LF][LF]そのキーワードは不正解です！[LF]動画を見て、正しいキーワードを探してみよう！[LF][LF]-残り挑戦可能数%d回-",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_PROMO_KEYWORD_ERR_53"
+    },
+    {
+      "id": 2440,
+      "text": "[LC]入力失敗[LF][LF]そのキーワードは有効期限切れです。[LF][LF]-残り挑戦数%d回-",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_PROMO_KEYWORD_ERR_54"
+    },
+    {
+      "id": 2441,
+      "text": "[LC]入力失敗[LF][LF]すでにそのキーワードは入力済みです。[LF]他のキーワード入力してください。[LF][LF]-残り挑戦数%d回-",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_PROMO_KEYWORD_ERR_55"
+    },
+    {
+      "id": 2442,
+      "text": "[LC]入力失敗[LF][LF]本日の挑戦可能回数を超えています。[LF]明日0:00以降に再挑戦しましょう。[LF][LF]-残り挑戦数%d回-",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_PROMO_KEYWORD_ERR_56"
+    },
+    {
+      "id": 2443,
+      "text": "[C6:キーワードを入力し、くじを引こう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_13700"
+    },
+    {
+      "id": 2444,
+      "text": "[b:ba_help_cp5_blc_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_13701"
+    },
+    {
+      "id": 2445,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_13702"
+    },
+    {
+      "id": 2446,
+      "text": "5/2(木)12:00～5/10(金)03:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_13703"
+    },
+    {
+      "id": 2447,
+      "text": "[C5:挑戦方法]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_13704"
+    },
+    {
+      "id": 2448,
+      "text": "ハズレなしの超卍解くじ！は、キーワードを[LF]入力することで引くことができます！[LF][C6:TVCMや卍解動画を視聴し、キーワードを][LF][C6:見つけて入力！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_13705"
+    },
+    {
+      "id": 2449,
+      "text": "[C0:きーわーど]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_13706"
+    },
+    {
+      "id": 2450,
+      "text": "[C7:挑戦]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_13707"
+    },
+    {
+      "id": 2451,
+      "text": "成功することで[C6:アイテムまたは豪華景品]の[LF]いずれかをGETできます！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_13708"
+    },
+    {
+      "id": 2452,
+      "text": "景品についての詳細は[u:https://www.monster-strike.com/|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_13709"
+    },
+    {
+      "id": 2453,
+      "text": "※アイテムは受け取りBOXに届きます[LF][LF]※景品が当選した場合は、受け取りBOXに届く[LF]入力フォームへの記入をお願いいたします",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_13710"
+    },
+    {
+      "id": 2454,
+      "text": "[C5:キーワード入力について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_13711"
+    },
+    {
+      "id": 2455,
+      "text": "ルール",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_13712"
+    },
+    {
+      "id": 2456,
+      "text": "キーワードは全て[C6:ひらがなで入力してください][LF][LF]また、キーワードの入力挑戦可能数は[LF][C6:1日20回]までです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_13713"
+    },
+    {
+      "id": 2457,
+      "text": "入力失敗してしまったら",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_13714"
+    },
+    {
+      "id": 2458,
+      "text": "アＡ漢",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_13715"
+    },
+    {
+      "id": 2459,
+      "text": "ひらがな以外で入力して[LF]送信していませんか？",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_13716"
+    },
+    {
+      "id": 2460,
+      "text": "[C7:挑戦]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_13717"
+    },
+    {
+      "id": 2461,
+      "text": "×20回",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_13718"
+    },
+    {
+      "id": 2462,
+      "text": "1日の入力挑戦可能数を[LF]超えて入力していませんか？",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_13719"
+    },
+    {
+      "id": 2463,
+      "text": "[C2:利用済み]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_13720"
+    },
+    {
+      "id": 2464,
+      "text": "[C0:きーわーど]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_13721"
+    },
+    {
+      "id": 2465,
+      "text": "利用済みのキーワードを[LF]再び入力していませんか？",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_13722"
+    },
+    {
+      "id": 2466,
+      "text": "※成功時、失敗時ともに回数はカウントされ、[LF]　挑戦回数を超えるとその日は入力できません[LF]　[C6:回数のリセットは毎日0時]です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_13723"
+    },
+    {
+      "id": 2467,
+      "text": "[LC]期間終了[LF][LF]キャンペーンの開催期間が終了したため、[LF]キーワードを入力することが出来ませんでした。[LF]ホーム画面に戻ります。[LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1556703564,
+      "updated_at": 1556703564,
+      "label": "eTEXTS_DEF_PROMO_KEYWORD_ALREADY_CLOSED"
+    },
+    {
+      "id": 2468,
+      "text": "[C6:映画館でプロ玉をゲットしよう]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1558517641,
+      "updated_at": 1558517641,
+      "label": "eTEXTS_DEF_13500"
+    },
+    {
+      "id": 2469,
+      "text": "[LC][b:ba_help_monspot_cp_01_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1558517641,
+      "updated_at": 1558517641,
+      "label": "eTEXTS_DEF_13501"
+    },
+    {
+      "id": 2470,
+      "text": "プロ玉所持数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1558517641,
+      "updated_at": 1558517641,
+      "label": "eTEXTS_DEF_13502"
+    },
+    {
+      "id": 2471,
+      "text": "[C6:%d個]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1558517641,
+      "updated_at": 1558517641,
+      "label": "eTEXTS_DEF_13503"
+    },
+    {
+      "id": 2472,
+      "text": "獲得可能期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1558517641,
+      "updated_at": 1558517641,
+      "label": "eTEXTS_DEF_13504"
+    },
+    {
+      "id": 2473,
+      "text": "5/24(金)4:00～6/17(月)3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1558517641,
+      "updated_at": 1559209263,
+      "label": "eTEXTS_DEF_13505"
+    },
+    {
+      "id": 2474,
+      "text": "[C5:プロ玉の獲得方法]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1558517641,
+      "updated_at": 1558517641,
+      "label": "eTEXTS_DEF_13506"
+    },
+    {
+      "id": 2475,
+      "text": "[C6:映画『プロメア』上映館]に足を運ぶと[LF]モンスポットでプロ玉が最大40個獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1558517641,
+      "updated_at": 1558517641,
+      "label": "eTEXTS_DEF_13507"
+    },
+    {
+      "id": 2476,
+      "text": "プロ玉は[C6:1日に1回のみ]獲得可能！[LF]1度に10個獲得することができます[LF]プロ玉が獲得できる上映館は[u:http://www.toho.co.jp/theater/ve/promare/|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1558517641,
+      "updated_at": 1558517641,
+      "label": "eTEXTS_DEF_13508"
+    },
+    {
+      "id": 2477,
+      "text": "プロ玉の使用方法",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1558517641,
+      "updated_at": 1558517641,
+      "label": "eTEXTS_DEF_13509"
+    },
+    {
+      "id": 2478,
+      "text": "プロ玉1個につき、後日開催される[LF][C6:「プロメアガチャ」]が1回引けます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1558517641,
+      "updated_at": 1558517641,
+      "label": "eTEXTS_DEF_13510"
+    },
+    {
+      "id": 2479,
+      "text": "※期間中、最大4回まで獲得することができます[LF][LF]※日付の切り替わりは各日AM4:00です[LF][LF]※「プロ玉」が獲得できるのは、いずれかの[LF]映画館限定スポットで[C6:1日1回のみ]です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1558517641,
+      "updated_at": 1558689696,
+      "label": "eTEXTS_DEF_13511"
+    },
+    {
+      "id": 2480,
+      "text": "[LC]オラフラッグイベントとは[LF][LF][CCB:dlme/help_cp_flag_02]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1562839737,
+      "updated_at": 1657188241,
+      "label": "eTEXTS_DEF_MSG_INFECT_HOME_ICON_1"
+    },
+    {
+      "id": 2481,
+      "text": "[LC]オラフラッグイベントとは[LF][LF][CCB:dlme/help_cp_flag_03]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1562839737,
+      "updated_at": 1657188241,
+      "label": "eTEXTS_DEF_MSG_INFECT_HOME_ICON_2"
+    },
+    {
+      "id": 2482,
+      "text": "オラフラッグが立っていないため[LF]ステージに入れません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1562839737,
+      "updated_at": 1562839737,
+      "label": "eTEXTS_DEF_ME_INFECT_CAN_NOT_STAGE_ENTER"
+    },
+    {
+      "id": 2483,
+      "text": "顔合わせボーナス",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1559578892,
+      "updated_at": 1559578892,
+      "label": "eTEXTS_DEF_ME_RESULT_FRIEND_TITLE_PLAY_TOGETHER_FIRST_TIME"
+    },
+    {
+      "id": 2484,
+      "text": "初めてマルチプレイをした仲間が%d人いたので[LF][C6:オーブ]を%d個プレゼント！ミッションを確認しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1559578892,
+      "updated_at": 1591630880,
+      "label": "eTEXTS_DEF_ME_RESULT_FRIEND_MESSAGE_PLAY_TOGETHER_FIRST_TIME"
+    },
+    {
+      "id": 2485,
+      "text": "オラフラッグが立てられました！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1562839737,
+      "updated_at": 1562839737,
+      "label": "eTEXTS_DEF_ME_RESULT_INFECT_GET_FLAG"
+    },
+    {
+      "id": 2486,
+      "text": "オラフラッグを%d人に立てました！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1562839737,
+      "updated_at": 1562839737,
+      "label": "eTEXTS_DEF_ME_RESULT_INFECT_GIVE_FLAG"
+    },
+    {
+      "id": 2487,
+      "text": "オラフラッグ報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1562839737,
+      "updated_at": 1562839737,
+      "label": "eTEXTS_DEF_ME_RESULT_SPERCIAL_TITLE_INFECT"
+    },
+    {
+      "id": 2488,
+      "text": "全ステージ消費スタミナ30",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1559578892,
+      "updated_at": 1559578892,
+      "label": "eTEXTS_DEF_ME_BINGO_STAGE_SELECT_USE_STAMINA_1"
+    },
+    {
+      "id": 2489,
+      "text": "全ステージ消費スタミナ60",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1559578892,
+      "updated_at": 1559578892,
+      "label": "eTEXTS_DEF_ME_BINGO_STAGE_SELECT_USE_STAMINA_2"
+    },
+    {
+      "id": 2490,
+      "text": "[LC]購入できません[LF][LF]過去に購入したガチャを[LF]消費しないと購入できません。[LF]ガチャを引いてから購入してください。",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1559578892,
+      "updated_at": 1559578892,
+      "label": "eTEXTS_DEF_ME_BEGINNER_GACHA_ERROR"
+    },
+    {
+      "id": 2491,
+      "text": "[LC]フレンド検索[LF][LF][TI:フレンド検索][LF][LC]IDで友達を検索して、フレンド申請できます！[LF][LF][LC][NODE][LF][HR][LF][LC]あなたのID : [C4:%s][WIDTH19][NODE][MARGIN-10][LF20][TI:フレンドになる][LF10]URLまたはQRコードを相手に共有して[LF]フレンドになりましょう[LF]モンストのインストール後に相手がURLまたはQRコードから[LF]モンストを起動するとフレンド申請が行えます[LF]※QRコードは株式会社デンソーウェーブの登録商標です[LF20][LC][NODE]",
+      "layout": 17,
+      "color": 0,
+      "created_at": 1559578892,
+      "updated_at": 1773179296,
+      "label": "eTEXTS_DEF_MSG_FRIENDSEARCH"
+    },
+    {
+      "id": 2492,
+      "text": "自動選択できるモンスターがいません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1559578892,
+      "updated_at": 1660578527,
+      "label": "eTEXTS_DEF_ME_COMBINE_AUTO_SELECT_EMPTY"
+    },
+    {
+      "id": 2493,
+      "text": "まだ誰ともフレンドになっていません[LF][LF]「フレンド」メニュー内にある[LF]・[C8:フレンドを検索する][LF]・[C8:フレンド依頼リスト][LF]を使ってフレンドを作りましょう！",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1559578892,
+      "updated_at": 1729527473,
+      "label": "eTEXTS_DEF_MSG_NO_FRIEND"
+    },
+    {
+      "id": 2494,
+      "text": "まだ誰ともフレンドになっていないため、[LF]プレゼントを贈る/受け取ることができません。[LF][LF]「フレンド」メニュー内にある[LF]・[C8:フレンドを検索する][LF]・[C8:フレンド依頼リスト][LF]を使ってフレンドを作りましょう！",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1559578892,
+      "updated_at": 1559578892,
+      "label": "eTEXTS_DEF_MSG_GIFT_NO_FRIEND"
+    },
+    {
+      "id": 2495,
+      "text": "[LC]受け取れるプレゼントはありません",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1559578892,
+      "updated_at": 1559578892,
+      "label": "eTEXTS_DEF_MSG_GIFT_NO_RECEIVE"
+    },
+    {
+      "id": 2496,
+      "text": "[LC]メッセージがありません",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1559578892,
+      "updated_at": 1559578892,
+      "label": "eTEXTS_DEF_MSG_NO_PRESENT_BOX"
+    },
+    {
+      "id": 2497,
+      "text": "※[C6:ソロ]、マルチプレイの[C6:ホスト]での[LF]クリアのみ対象です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1559578892,
+      "updated_at": 1615547235,
+      "label": "eTEXTS_DEF_CLEAR_BONUS_SOLO"
+    },
+    {
+      "id": 2498,
+      "text": "※[C6:ソロ]、マルチプレイの[C6:ホスト]、[C6:ゲスト]どのクリアも[LF]対象です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1559578892,
+      "updated_at": 1615547235,
+      "label": "eTEXTS_DEF_CLEAR_BONUS_MULTI"
+    },
+    {
+      "id": 2503,
+      "text": "[LC]犯人予想完了[LF][LF][LC][b:ba_cp6_new.png][MARGIN10][LF]犯人予想が完了しました！[LF]真犯人は果たして・・・？[LF]6/27(木)19:00にLIVE配信される[LF]解決篇をみて結果を確認しよう！[MARGIN10][LF][LC][SITE:https://www.monster-strike.com/promotion/nazo201906/suspense.html?utm_campaign=nazo2019&utm_source=iventmsg01][LF][TI:あなたが予想した容疑者][MARGIN140][LF][LC][IMG:cp6_criminal_%d.png|1]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1560943938,
+      "updated_at": 1560943938,
+      "label": "eTEXTS_DEF_CP201906_POLL_CHECK"
+    },
+    {
+      "id": 2504,
+      "text": "[LC]予想期間が終了しました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1560943938,
+      "updated_at": 1560943938,
+      "label": "eTEXTS_DEF_CP201906_POLL_OUTDATED"
+    },
+    {
+      "id": 2505,
+      "text": "[LC]予想期間が終了しました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1560943938,
+      "updated_at": 1560943938,
+      "label": "eTEXTS_DEF_CP201906_POLL_CHECK_OUTDATED"
+    },
+    {
+      "id": 2506,
+      "text": "[LC]解決篇 LIVE配信中！[LF][LF][LC][b:ba_cp6_new.png][MARGIN10][LF][LC][b:ba_cp6_live.png|https://www.monster-strike.com/promotion/nazo201906/suspense.html?utm_campaign=nazo2019&utm_source=iventmsg_monie03#movie3][LF]モンストニュース内で[LF]モンストサスペンス劇場｢解決篇｣配信中！[LF]動画を見て、犯人が誰なのか確かめよう！[LF][LF]山分けオーブ数も発表！[LF][TI:あなたが予想した容疑者][MARGIN140][LF][LC][IMG:cp6_criminal_%d.png|1]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1560943938,
+      "updated_at": 1560943938,
+      "label": "eTEXTS_DEF_CP201906_LIVE_POLLED"
+    },
+    {
+      "id": 2507,
+      "text": "[LC]解決篇 LIVE配信中！[LF][LF][LC][b:ba_cp6_new.png][MARGIN10][LF][LC][b:ba_cp6_live.png|https://www.monster-strike.com/promotion/nazo201906/suspense.html?utm_campaign=nazo2019&utm_source=iventmsg_monie03#movie3][LF]あなたは犯人の予想をしていません。",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1560943938,
+      "updated_at": 1560943938,
+      "label": "eTEXTS_DEF_CP201906_LIVE_NOT_POLLED"
+    },
+    {
+      "id": 2508,
+      "text": "[LC]解決篇 LIVE配信期間は終了しました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1560943938,
+      "updated_at": 1560943938,
+      "label": "eTEXTS_DEF_CP201906_LIVE_OUTDATED"
+    },
+    {
+      "id": 2509,
+      "text": "[LF][LC]犯人予想の結果を確認しますか？",
+      "layout": 29,
+      "color": 0,
+      "created_at": 1561546021,
+      "updated_at": 1561546021,
+      "label": "eTEXTS_DEF_CP201906_RESULT_CHECK"
+    },
+    {
+      "id": 2510,
+      "text": "[LC]犯人予想結果発表！[LF][LF][LC][b:ba_cp6_success.png][LF]あなたの選んだ容疑者が真犯人でした！[LF]見事予想を的中させたあなたには[LF][C2:6/29(土)AM4:00]以降、受け取りBOXに[LF]山分けされたオーブをお届けします。[LF]今しばらくお待ちください。[LF]山分けオーブ数は特設サイトをチェック！[MARGIN10][LF][LC][SITE:https://www.monster-strike.com/promotion/nazo201906/suspense.html?utm_campaign=nazo2019&utm_source=iventmsg01][LF][TI:犯人][MARGIN140][LF][LC][IMG:cp6_criminal_%d.png|1]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1561546021,
+      "updated_at": 1561546021,
+      "label": "eTEXTS_DEF_CP201906_RESULT_WIN"
+    },
+    {
+      "id": 2511,
+      "text": "[LC]犯人予想結果発表！[LF][LF]あなたが選んだ容疑者は犯人ではありませんでした。[LF]残念ながら予想が外れてしまったあなたには[LF]参加賞として[C5:コンテニュミン 2個]を[LF][C2:6/29(土)AM4:00]以降、受け取りBOXにお届けします。[MARGIN10][LF][LC][SITE:https://www.monster-strike.com/promotion/nazo201906/suspense.html?utm_campaign=nazo2019&utm_source=iventmsg01][LF][TI:犯人][MARGIN140][LF][LC][IMG:cp6_criminal_%d.png|1][LF][LF][TI:あなたが選んだ容疑者][MARGIN140][LF][LC][IMG:cp6_criminal_%d.png|1]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1561546021,
+      "updated_at": 1561546021,
+      "label": "eTEXTS_DEF_CP201906_RESULT_LOSE"
+    },
+    {
+      "id": 2512,
+      "text": "[LC]犯人予想結果発表！[LF][LF]あなたは犯人を予想していません。",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1561546021,
+      "updated_at": 1561546021,
+      "label": "eTEXTS_DEF_CP201906_RESULT_NOT_POLLED"
+    },
+    {
+      "id": 2513,
+      "text": "[LC]結果発表期間は終了しました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1561546021,
+      "updated_at": 1561546021,
+      "label": "eTEXTS_DEF_CP201906_RESULT_OUTDATED"
+    },
+    {
+      "id": 2514,
+      "text": "[LC]グッジョブ変更について[LF][LF]Ver.14.1アップデート以降、LINE連携していなくても[LF]グッジョブの変更が可能になりました。[LF][LF]ストライカー>グッジョブから[LF]グッジョブを変更することができます。",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1559578892,
+      "updated_at": 1786550612,
+      "label": "eTEXTS_DEF_ME_MSG_GOODJOB_STAMP_IS_MOVED"
+    },
+    {
+      "id": 2515,
+      "text": "すでに投票済みです",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1559578892,
+      "updated_at": 1559578892,
+      "label": "eTEXTS_DEF_POLL_ERR_ALREADY_VOTE"
+    },
+    {
+      "id": 2516,
+      "text": "[LC]現在は、投票受付期間外です。[LF][LF][LC]投票受付期間内に投票してください。",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1559578892,
+      "updated_at": 1559578892,
+      "label": "eTEXTS_DEF_POLL_ERR_EXPIRED_VOTE"
+    },
+    {
+      "id": 2517,
+      "text": "[LC]投票確認[LF][LF][LC]%s[LF][LC][S2]【%s】[LF][LF][LC]に投票します。よろしいですか？[LF][LC]※投票のやり直しはできませんので[LF][LC]ご注意ください",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1559578892,
+      "updated_at": 1559578892,
+      "label": "eTEXTS_DEF_WINNER_EXPECT_CONFIRM"
+    },
+    {
+      "id": 2518,
+      "text": "[LC]%s[LF][LF][LC]【投票受付期間】[LF][LF][LC][C9:%s][LF][LF][LC]投票受付期間内に投票してください。",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1559578892,
+      "updated_at": 1559578892,
+      "label": "eTEXTS_DEF_WINNER_EXPECT_ERR_OUT_OF_TERM"
+    },
+    {
+      "id": 2519,
+      "text": "[LC]すでに犯人予想済みです",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1560943938,
+      "updated_at": 1560943938,
+      "label": "eTEXTS_DEF_CP201906_POLL_ERR_ALREADY_VOTE"
+    },
+    {
+      "id": 2520,
+      "text": "[LC]現在は、犯人予想受付期間外です。",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1560943938,
+      "updated_at": 1560943938,
+      "label": "eTEXTS_DEF_CP201906_POLL_ERR_EXPIRED_VOTE"
+    },
+    {
+      "id": 2521,
+      "text": "[LC]犯人予想[LF][LF][LC]%s[LF][LC][S2]【%s】[LF][LF][LC]を選択しました。本当によろしいですか？[LF][LC][C2:※予想のやり直しはできませんので][LF][LC][C2:ご注意ください]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1560943938,
+      "updated_at": 1560943938,
+      "label": "eTEXTS_DEF_CP201906_WINNER_EXPECT_CONFIRM"
+    },
+    {
+      "id": 2522,
+      "text": "[LC]%s[LF][LF][LC]【犯人予想受付期間】[LF][LF][LC][C9:%s][LF][LF][LC]予想受付期間内に投票してください。",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1560943938,
+      "updated_at": 1560943938,
+      "label": "eTEXTS_DEF_CP201906_WINNER_EXPECT_ERR_OUT_OF_TERM"
+    },
+    {
+      "id": 2523,
+      "text": "%s",
+      "layout": 26,
+      "color": 0,
+      "created_at": 1562839737,
+      "updated_at": 1562839737,
+      "label": "eTEXTS_DEF_TEAM_MATCH_LIVE_TEAM_SELECT_DIALOG"
+    },
+    {
+      "id": 2524,
+      "text": "[LC]チーム参加確認[LF][LF][LC][S2]【はじめしゃちょー軍】[LF][LF]に参加します。よろしいですか？[LF][LF]※チーム選択後は変更できませんのでご注意ください。",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1562839737,
+      "updated_at": 1625741065,
+      "label": "eTEXTS_DEF_TEAM_MATCH_LIVE_TEAM_DECIDED_CONFIRM_DIALOG_1"
+    },
+    {
+      "id": 2525,
+      "text": "[LC]チーム参加確認[LF][LF][LC][S2]【ゴー☆ジャス軍】[LF][LF]に参加します。よろしいですか？[LF][LF]※チーム選択後は変更できませんのでご注意ください。",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1562839737,
+      "updated_at": 1625741065,
+      "label": "eTEXTS_DEF_TEAM_MATCH_LIVE_TEAM_DECIDED_CONFIRM_DIALOG_2"
+    },
+    {
+      "id": 2526,
+      "text": "[LC]チーム参加受付完了[LF][LF][LC][S2]【はじめしゃちょー軍】[LF][LF][LC]に参加しました。[LF][LF]◎カウント時間(45分間)[LF][S2][C6:7月10日（土）10:35～11:20][LF][LF][C8:上記時間内に獲得したメダル枚数のみカウントされます。][LF][LF]詳細は、受け取りBOXのメッセージをご確認ください。[LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1562839737,
+      "updated_at": 1625741065,
+      "label": "eTEXTS_DEF_TEAM_MATCH_LIVE_TEAM_DECIDED_DIALOG_1"
+    },
+    {
+      "id": 2527,
+      "text": "[LC]チーム参加受付完了[LF][LF][LC][S2]【ゴー☆ジャス軍】[LF][LF][LC]に参加しました。[LF][LF]◎カウント時間(45分間)[LF][S2][C6:7月10日（土）10:35～11:20][LF][LF][C8:上記時間内に獲得したメダル枚数のみカウントされます。][LF][LF]詳細は、受け取りBOXのメッセージをご確認ください。[LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1562839737,
+      "updated_at": 1625741065,
+      "label": "eTEXTS_DEF_TEAM_MATCH_LIVE_TEAM_DECIDED_DIALOG_2"
+    },
+    {
+      "id": 2528,
+      "text": "はじめしゃちょー軍",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1562839737,
+      "updated_at": 1625741065,
+      "label": "eTEXTS_DEF_TEAM_MATCH_LIVE_TEAM_ENTRY_1"
+    },
+    {
+      "id": 2529,
+      "text": "ゴー☆ジャス軍",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1562839737,
+      "updated_at": 1625741065,
+      "label": "eTEXTS_DEF_TEAM_MATCH_LIVE_TEAM_ENTRY_2"
+    },
+    {
+      "id": 2530,
+      "text": "確認する",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1559578892,
+      "updated_at": 1559578892,
+      "label": "eTEXTS_DEF_ME_MSG_GOODJOB_STAMP_IS_MOVED_CONFIRM"
+    },
+    {
+      "id": 2531,
+      "text": "[SW0.95][C6:6月のモンストの日は猪木でボンバイエ！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1559899530,
+      "updated_at": 1559899530,
+      "label": "eTEXTS_DEF_13651"
+    },
+    {
+      "id": 2532,
+      "text": "[LC][b:ba_help_msday_01.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1559899530,
+      "updated_at": 1559899530,
+      "label": "eTEXTS_DEF_13652"
+    },
+    {
+      "id": 2533,
+      "text": "[LC][C5:アントニオ猪木がモンストの日に降臨！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1559899530,
+      "updated_at": 1559899530,
+      "label": "eTEXTS_DEF_13653"
+    },
+    {
+      "id": 2534,
+      "text": "モンストの日に[C6:24時間限定で降臨]するクエスト[LF]「燃える闘魂」をクリアして[LF][C2:アントニオ猪木]をゲットしよう！[LF][LF]運極にするとミッション達成で[LF][C2:アントニオ猪木 スーツVer.]の進化解放が可能に！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1559899530,
+      "updated_at": 1559899530,
+      "label": "eTEXTS_DEF_13654"
+    },
+    {
+      "id": 2535,
+      "text": "[IP7041]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1559899530,
+      "updated_at": 1559899530,
+      "label": "eTEXTS_DEF_13655"
+    },
+    {
+      "id": 2536,
+      "text": "[IP7042]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1559899530,
+      "updated_at": 1559899530,
+      "label": "eTEXTS_DEF_13656"
+    },
+    {
+      "id": 2537,
+      "text": "[LC][C5:猪木を集めて「闘魂くじ」に挑戦！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1559899530,
+      "updated_at": 1559899530,
+      "label": "eTEXTS_DEF_13657"
+    },
+    {
+      "id": 2538,
+      "text": "[C2:アントニオ猪木]のラックを上げて[LF][C6:期間限定ミッション]を達成すると、[LF]猪木の特製グッズが当たる「闘魂くじ」に[LF]挑戦できます[LF][LF][C6:アイテムまたは豪華景品]のいずれかを獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1559899530,
+      "updated_at": 1559899530,
+      "label": "eTEXTS_DEF_13658"
+    },
+    {
+      "id": 2539,
+      "text": "景品についての詳細は[u:https://www.monster-strike.com/news/20190606_1.html#2|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1559899530,
+      "updated_at": 1559899530,
+      "label": "eTEXTS_DEF_13659"
+    },
+    {
+      "id": 2540,
+      "text": "[LC][C5:モンストの日の特典一覧]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1559899530,
+      "updated_at": 1559899530,
+      "label": "eTEXTS_DEF_13660"
+    },
+    {
+      "id": 2541,
+      "text": "コインの所持数が[LF]不足しています",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1561457437,
+      "updated_at": 1561457437,
+      "label": "eTEXTS_DEF_MONSPOT_EXCHANGE_NO_COIN_OVERLAY"
+    },
+    {
+      "id": 2542,
+      "text": "引き換え上限に[LF]達しました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1561457437,
+      "updated_at": 1561457437,
+      "label": "eTEXTS_DEF_MONSPOT_EXCHANGE_LIMIT_OVERLAY"
+    },
+    {
+      "id": 2543,
+      "text": "引き換え数：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1561457437,
+      "updated_at": 1561457437,
+      "label": "eTEXTS_DEF_MONSPOT_EXCHANGE_DIALOG_PARTS_1"
+    },
+    {
+      "id": 2544,
+      "text": "[LC]期間外[LF][LF][LC]期間が終了しました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1561457438,
+      "updated_at": 1561457438,
+      "label": "eTEXTS_DEF_MONSPOT_EXCHANGE_CLOSE_SHOP_ERROR"
+    },
+    {
+      "id": 2545,
+      "text": "[LC]アイテム詳細[LF][WIDTH500][LF][MARGIN10][LF][LC][NODE][LF][MARGIN10][LF][LC]%s",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1561457438,
+      "updated_at": 1561457438,
+      "label": "eTEXTS_DEF_MONSPOT_EXCHANGE_ITEM_INFO"
+    },
+    {
+      "id": 2546,
+      "text": "[LC]アイテム引き換え[LF][LF][LC]%s と引き換えます[LF][MARGIN15][LF][LC][S2]必要コイン：[C6:%d][LF][LF][LC][NODE][MARGIN15][LF][LC][NODE][MARGIN10][LF][LC][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1561457438,
+      "updated_at": 1561457438,
+      "label": "eTEXTS_DEF_MONSPOT_EXCHANGE_DIALOG"
+    },
+    {
+      "id": 2547,
+      "text": "[LC]コイン不足[LF][LF][LC]コインが不足しているため[LF][LC]引き換えできません",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1561457438,
+      "updated_at": 1561457438,
+      "label": "eTEXTS_DEF_MONSPOT_EXCHANGE_NO_COIN_ERROR"
+    },
+    {
+      "id": 2548,
+      "text": "[LC]売切れ[LF][LF][LC]引き換え上限に達しています",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1561457438,
+      "updated_at": 1561457438,
+      "label": "eTEXTS_DEF_MONSPOT_EXCHANGE_LIMIT_ERROR"
+    },
+    {
+      "id": 2549,
+      "text": "[LC]有効エリア外[LF][LF][LC]サークルが表示されるまで[LF][LC]スポットに近づいてください",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1561457438,
+      "updated_at": 1561457438,
+      "label": "eTEXTS_DEF_MONSPOT_EXCHANGE_RANGE_ERROR"
+    },
+    {
+      "id": 2550,
+      "text": "[LC]期間外[LF][LF][LC]期間が終了しました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1561457438,
+      "updated_at": 1561457438,
+      "label": "eTEXTS_DEF_MONSPOT_EXCHANGE_OUT_DATE_ERROR"
+    },
+    {
+      "id": 2551,
+      "text": "[LC]引き換え完了[LF][WIDTH500][LF][MARGIN10][LF][LC][NODE][LF][MARGIN10][LF][LC]%s%d%sと引き換えました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1561457438,
+      "updated_at": 1561457438,
+      "label": "eTEXTS_DEF_ME_MSG_MAP_EXCHANGE_SUCCESS"
+    },
+    {
+      "id": 2552,
+      "text": "[LC]引き換え完了[LF][WIDTH500][LF][MARGIN10][LF][LC][NODE][LF][MARGIN10][LF][LC]%s%d体と引き換えました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1561457438,
+      "updated_at": 1561457438,
+      "label": "eTEXTS_DEF_ME_MSG_MAP_EXCHANGE_SUCCESS2"
+    },
+    {
+      "id": 2553,
+      "text": "アイテム引き換え",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1561457438,
+      "updated_at": 1561457438,
+      "label": "eTEXTS_DEF_MONSPOT_EXCHANGE_ITEM_PART_TITLE"
+    },
+    {
+      "id": 2554,
+      "text": "クーポン一覧",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1561457438,
+      "updated_at": 1561457438,
+      "label": "eTEXTS_DEF_MONSPOT_EXCHANGE_COUPON_TITLE"
+    },
+    {
+      "id": 2555,
+      "text": "利用可能時間：%d時～%d時",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1561457438,
+      "updated_at": 1561457438,
+      "label": "eTEXTS_DEF_MONSPOT_EXCHANGE_OPEN_TIME"
+    },
+    {
+      "id": 2556,
+      "text": "[]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1561457438,
+      "updated_at": 1561457438,
+      "label": "eTEXTS_DEF_MONSPOT_EXCHANGE_OPEN_24"
+    },
+    {
+      "id": 2557,
+      "text": "引き換え",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1561457438,
+      "updated_at": 1561457438,
+      "label": "eTEXTS_DEF_MONSPOT_EXCHANGE_ITEM_BUTTON_LABEL"
+    },
+    {
+      "id": 2558,
+      "text": "クーポン確認",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1561457438,
+      "updated_at": 1561457438,
+      "label": "eTEXTS_DEF_MONSPOT_EXCHANGE_COUPON_BUTTON_LABEL"
+    },
+    {
+      "id": 2559,
+      "text": "閉じる",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1561457438,
+      "updated_at": 1561457438,
+      "label": "eTEXTS_DEF_MONSPOT_EXCHANGE_CLOSE"
+    },
+    {
+      "id": 2560,
+      "text": "%d/%d～%d/%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1561457438,
+      "updated_at": 1561457438,
+      "label": "eTEXTS_DEF_MONSPOT_EXCHANGE_PERIOD"
+    },
+    {
+      "id": 2561,
+      "text": "本日分：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1561457438,
+      "updated_at": 1561457438,
+      "label": "eTEXTS_DEF_MONSPOT_EXCHANGE_ITEM_INTERVAL_TITLE"
+    },
+    {
+      "id": 2562,
+      "text": "期間中：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1561457438,
+      "updated_at": 1561457438,
+      "label": "eTEXTS_DEF_MONSPOT_EXCHANGE_ITEM_SEASON_TITLE"
+    },
+    {
+      "id": 2563,
+      "text": "ニクコイン ドロップUP中！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1561457438,
+      "updated_at": 1570463654,
+      "label": "eTEXTS_DEF_MAP_NON_POWER_SPOT_INFO"
+    },
+    {
+      "id": 2564,
+      "text": "[C6:外食産業5社がモンスポットに集結！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1561457438,
+      "updated_at": 1570463654,
+      "label": "eTEXTS_DEF_14100"
+    },
+    {
+      "id": 2565,
+      "text": "[LC][b:ba_help_spot_ex02_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1561457438,
+      "updated_at": 1570463654,
+      "label": "eTEXTS_DEF_14101"
+    },
+    {
+      "id": 2566,
+      "text": "ニクコイン所持数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1561457438,
+      "updated_at": 1570463654,
+      "label": "eTEXTS_DEF_14102"
+    },
+    {
+      "id": 2567,
+      "text": "[C6:%d個]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1561457438,
+      "updated_at": 1561457438,
+      "label": "eTEXTS_DEF_14103"
+    },
+    {
+      "id": 2568,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1561457438,
+      "updated_at": 1561457438,
+      "label": "eTEXTS_DEF_14104"
+    },
+    {
+      "id": 2569,
+      "text": "10/10 4:00～10/31 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1561457438,
+      "updated_at": 1570463654,
+      "label": "eTEXTS_DEF_14105"
+    },
+    {
+      "id": 2570,
+      "text": "[C5:キャンペーン概要]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1561457438,
+      "updated_at": 1561457438,
+      "label": "eTEXTS_DEF_14106"
+    },
+    {
+      "id": 2571,
+      "text": "[C6:ニクコイン]を集めて[C6:吉野家、松屋、ガスト、][LF][C6:KFC、モスバーガー]の外食産業5社に行こう！[LF][LF]アイテムと引き換えができたり、[LF][C6:クーポン]を使ってお得に食事も可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1561457438,
+      "updated_at": 1570463654,
+      "label": "eTEXTS_DEF_14107"
+    },
+    {
+      "id": 2572,
+      "text": "[C5:ニクコインの獲得方法]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1561457438,
+      "updated_at": 1570463654,
+      "label": "eTEXTS_DEF_14108"
+    },
+    {
+      "id": 2573,
+      "text": "期間中はいつものスポットで[LF]稀にニクコインがドロップ！！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1561457438,
+      "updated_at": 1570463654,
+      "label": "eTEXTS_DEF_14109"
+    },
+    {
+      "id": 2574,
+      "text": "[C6:パワー未発生スポット]では、[LF]ドロップ確率がさらにアップします！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1561457438,
+      "updated_at": 1561457438,
+      "label": "eTEXTS_DEF_14110"
+    },
+    {
+      "id": 2575,
+      "text": "[C6:ドロップ確率][LF][C6:アップ！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1561457438,
+      "updated_at": 1561457438,
+      "label": "eTEXTS_DEF_14111"
+    },
+    {
+      "id": 2576,
+      "text": "※XFLAG STORE専用スポットなど[LF]一部スポットではドロップしません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1561457438,
+      "updated_at": 1561457438,
+      "label": "eTEXTS_DEF_14112"
+    },
+    {
+      "id": 2577,
+      "text": "[C5:各店舗でアイテムと引き換え]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1561457438,
+      "updated_at": 1570463654,
+      "label": "eTEXTS_DEF_14113"
+    },
+    {
+      "id": 2578,
+      "text": "それぞれの店舗に足を運ぶと、ニクコインを[LF]アイテムに引き換えることが可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1561457438,
+      "updated_at": 1570463654,
+      "label": "eTEXTS_DEF_14114"
+    },
+    {
+      "id": 2579,
+      "text": "モンスポットに表示されるクーポンを[LF]食事に利用することもできます！[LF]ご注文・お会計の際に画面を提示しよう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1561457438,
+      "updated_at": 1570463654,
+      "label": "eTEXTS_DEF_14115"
+    },
+    {
+      "id": 2580,
+      "text": "[SW0.9][C6:オラフラッグを広げて専用クエストに挑戦！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1562839737,
+      "updated_at": 1562839737,
+      "label": "eTEXTS_DEF_14200"
+    },
+    {
+      "id": 2581,
+      "text": "[LC][b:ba_help_cp_flag_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1562839737,
+      "updated_at": 1562839737,
+      "label": "eTEXTS_DEF_14201"
+    },
+    {
+      "id": 2582,
+      "text": "[C5:あなたのオラフラッグ状況]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1562839737,
+      "updated_at": 1562839737,
+      "label": "eTEXTS_DEF_14202"
+    },
+    {
+      "id": 2583,
+      "text": "まだオラフラッグは立っていません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1562839737,
+      "updated_at": 1562839737,
+      "label": "eTEXTS_DEF_14203"
+    },
+    {
+      "id": 2584,
+      "text": "オラフラッグが立てられています！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1562839737,
+      "updated_at": 1562839737,
+      "label": "eTEXTS_DEF_14204"
+    },
+    {
+      "id": 2585,
+      "text": "[C5:オラフラッグについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1562839737,
+      "updated_at": 1562839737,
+      "label": "eTEXTS_DEF_14205"
+    }
+  ]
+}

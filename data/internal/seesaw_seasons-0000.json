@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "table": "seesaw_seasons",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "name": "プレシーズン",
+      "start_at": 1723172400,
+      "end_at": 1729565999,
+      "campaign_start_at": 1723172400,
+      "campaign_end_at": 1728961199,
+      "receive_end_at": 1729565999,
+      "badge_item_id": 10041500,
+      "atlas_file": "seesaw_0",
+      "created_at": 1723121723,
+      "updated_at": 1727612362
+    },
+    {
+      "id": 2,
+      "name": "マサムネシーズン",
+      "start_at": 1729566000,
+      "end_at": 1738637999,
+      "campaign_start_at": 1729566000,
+      "campaign_end_at": 1737860399,
+      "receive_end_at": 1737917999,
+      "badge_item_id": 10041501,
+      "atlas_file": "seesaw_1",
+      "created_at": 1729527337,
+      "updated_at": 1729527337
+    },
+    {
+      "id": 3,
+      "name": "三途シーズン",
+      "start_at": 1738638000,
+      "end_at": 1743389999,
+      "campaign_start_at": 1738638000,
+      "campaign_end_at": 1743389999,
+      "receive_end_at": 1743389999,
+      "badge_item_id": 10041502,
+      "atlas_file": "seesaw_2",
+      "created_at": 1738598986,
+      "updated_at": 1743069533
+    },
+    {
+      "id": 4,
+      "name": "ナイトメアシーズン",
+      "start_at": 1747796400,
+      "end_at": 1752548399,
+      "campaign_start_at": 1747796400,
+      "campaign_end_at": 1752548399,
+      "receive_end_at": 1752548399,
+      "badge_item_id": 10041503,
+      "atlas_file": "seesaw_3",
+      "created_at": 1747754752,
+      "updated_at": 1747754752
+    },
+    {
+      "id": 5,
+      "name": "ネオシーズン",
+      "start_at": 1755054000,
+      "end_at": 1759460399,
+      "campaign_start_at": 1755054000,
+      "campaign_end_at": 1759460399,
+      "receive_end_at": 1759460399,
+      "badge_item_id": 10041504,
+      "atlas_file": "seesaw_4",
+      "created_at": 1755014518,
+      "updated_at": 1755014518
+    },
+    {
+      "id": 6,
+      "name": "エルシーズン",
+      "start_at": 1762830000,
+      "end_at": 1767149999,
+      "campaign_start_at": 1762830000,
+      "campaign_end_at": 1767149999,
+      "receive_end_at": 1767149999,
+      "badge_item_id": 10041505,
+      "atlas_file": "seesaw_5",
+      "created_at": 1762796545,
+      "updated_at": 1762796545
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "table": "soul_skill_types",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "type_name": "精神力",
+      "icon_base_name": "icon_base_spirit",
+      "icon_middle_name": "icon_middle_noicon",
+      "icon_upper_name": "icon_upper_disabled",
+      "created_at": 1507135467,
+      "updated_at": 1729527341
+    },
+    {
+      "id": 2,
+      "type_name": "NP耐性",
+      "icon_base_name": "icon_base_needle",
+      "icon_middle_name": "icon_middle_noicon",
+      "icon_upper_name": "icon_upper_shield",
+      "created_at": 1507135467,
+      "updated_at": 1507135467
+    },
+    {
+      "id": 3,
+      "type_name": "火柱耐性",
+      "icon_base_name": "icon_base_firepillar",
+      "icon_middle_name": "icon_middle_noicon",
+      "icon_upper_name": "icon_upper_shield",
+      "created_at": 1507135467,
+      "updated_at": 1507135467
+    },
+    {
+      "id": 4,
+      "type_name": "窮地の活路",
+      "icon_base_name": "icon_base_hp1",
+      "icon_middle_name": "icon_middle_noicon",
+      "icon_upper_name": "icon_upper_shield",
+      "created_at": 1507135467,
+      "updated_at": 1507135467
+    },
+    {
+      "id": 5,
+      "type_name": "HWマスター",
+      "icon_base_name": "icon_base_hw",
+      "icon_middle_name": "icon_middle_noicon",
+      "icon_upper_name": "icon_upper_up",
+      "created_at": 1507135467,
+      "updated_at": 1507135467
+    },
+    {
+      "id": 6,
+      "type_name": "対火の心得",
+      "icon_base_name": "icon_base_ice",
+      "icon_middle_name": "icon_middle_noicon",
+      "icon_upper_name": "icon_upper_noicon",
+      "created_at": 1507135467,
+      "updated_at": 1507135467
+    },
+    {
+      "id": 7,
+      "type_name": "対水の心得",
+      "icon_base_name": "icon_base_plant",
+      "icon_middle_name": "icon_middle_noicon",
+      "icon_upper_name": "icon_upper_noicon",
+      "created_at": 1507135467,
+      "updated_at": 1507135467
+    },
+    {
+      "id": 8,
+      "type_name": "対木の心得",
+      "icon_base_name": "icon_base_fire",
+      "icon_middle_name": "icon_middle_noicon",
+      "icon_upper_name": "icon_upper_noicon",
+      "created_at": 1507135467,
+      "updated_at": 1507135467
+    },
+    {
+      "id": 9,
+      "type_name": "対光の心得",
+      "icon_base_name": "icon_base_dark",
+      "icon_middle_name": "icon_middle_noicon",
+      "icon_upper_name": "icon_upper_noicon",
+      "created_at": 1507135467,
+      "updated_at": 1507135467
+    },
+    {
+      "id": 10,
+      "type_name": "対闇の心得",
+      "icon_base_name": "icon_base_light",
+      "icon_middle_name": "icon_middle_noicon",
+      "icon_upper_name": "icon_upper_noicon",
+      "created_at": 1507135467,
+      "updated_at": 1507135467
+    },
+    {
+      "id": 11,
+      "type_name": "鎖縛回避",
+      "icon_base_name": "icon_base_abilitylock",
+      "icon_middle_name": "icon_middle_noicon",
+      "icon_upper_name": "icon_upper_disabled",
+      "created_at": 1507135467,
+      "updated_at": 1507135467
+    },
+    {
+      "id": 12,
+      "type_name": "収檻回避",
+      "icon_base_name": "icon_base_friendlock",
+      "icon_middle_name": "icon_middle_noicon",
+      "icon_upper_name": "icon_upper_disabled",
+      "created_at": 1507135467,
+      "updated_at": 1507135467
+    },
+    {
+      "id": 13,
+      "type_name": "不屈の防御",
+      "icon_base_name": "icon_base_defensedown",
+      "icon_middle_name": "icon_middle_noicon",
+      "icon_upper_name": "icon_upper_disabled",
+      "created_at": 1507135467,
+      "updated_at": 1507135467
+    },
+    {
+      "id": 14,
+      "type_name": "不屈の闘力",
+      "icon_base_name": "icon_base_attackdown",
+      "icon_middle_name": "icon_middle_noicon",
+      "icon_upper_name": "icon_upper_disabled",
+      "created_at": 1507135467,
+      "updated_at": 1507135467
+    },
+    {
+      "id": 15,
+      "type_name": "不屈の速度",
+      "icon_base_name": "icon_base_speeddown",
+      "icon_middle_name": "icon_middle_noicon",
+      "icon_upper_name": "icon_upper_disabled",
+      "created_at": 1507135467,
+      "updated_at": 1507135467
+    },
+    {
+      "id": 16,
+      "type_name": "常冷却",
+      "icon_base_name": "icon_base_cooling",
+      "icon_middle_name": "icon_middle_noicon",
+      "icon_upper_name": "icon_upper_noicon",
+      "created_at": 1507135467,
+      "updated_at": 1507135467
+    },
+    {
+      "id": 17,
+      "type_name": "不屈の必殺",
+      "icon_base_name": "icon_base_addssturn",
+      "icon_middle_name": "icon_middle_noicon",
+      "icon_upper_name": "icon_upper_disabled",
+      "created_at": 1580840758,
+      "updated_at": 1580840758
+    },
+    {
+      "id": 18,
+      "type_name": "変身回復",
+      "icon_base_name": "icon_base_chick",
+      "icon_middle_name": "icon_middle_noicon",
+      "icon_upper_name": "icon_upper_addhp",
+      "created_at": 1580840758,
+      "updated_at": 1580840758
+    },
+    {
+      "id": 19,
+      "type_name": "伝染抵抗",
+      "icon_base_name": "icon_base_virus",
+      "icon_middle_name": "icon_middle_noicon",
+      "icon_upper_name": "icon_upper_disabled",
+      "created_at": 1580840758,
+      "updated_at": 1580840758
+    },
+    {
+      "id": 20,
+      "type_name": "対弱の心得",
+      "icon_base_name": "icon_base_weak",
+      "icon_middle_name": "icon_middle_noicon",
+      "icon_upper_name": "icon_upper_noicon",
+      "created_at": 1580840758,
+      "updated_at": 1580840758
+    },
+    {
+      "id": 21,
+      "type_name": "ゲージ必中",
+      "icon_base_name": "icon_base_gauge",
+      "icon_middle_name": "icon_middle_noicon",
+      "icon_upper_name": "icon_upper_noicon",
+      "created_at": 1580840758,
+      "updated_at": 1580840758
+    },
+    {
+      "id": 22,
+      "type_name": "対将の心得",
+      "icon_base_name": "icon_base_boss_atk_up",
+      "icon_middle_name": "icon_middle_noicon",
+      "icon_upper_name": "icon_upper_noicon",
+      "created_at": 1729527341,
+      "updated_at": 1729527341
+    },
+    {
+      "id": 23,
+      "type_name": "対兵の心得",
+      "icon_base_name": "icon_base_enemy_atk_up",
+      "icon_middle_name": "icon_middle_noicon",
+      "icon_upper_name": "icon_upper_noicon",
+      "created_at": 1729527341,
+      "updated_at": 1729527341
+    },
+    {
+      "id": 24,
+      "type_name": "守護獣の加勢",
+      "icon_base_name": "icon_base_support_atk_up",
+      "icon_middle_name": "icon_middle_noicon",
+      "icon_upper_name": "icon_upper_powerup",
+      "created_at": 1729527341,
+      "updated_at": 1729527341
+    },
+    {
+      "id": 25,
+      "type_name": "運技の発揮",
+      "icon_base_name": "icon_base_luckskill_up",
+      "icon_middle_name": "icon_middle_noicon",
+      "icon_upper_name": "icon_upper_up",
+      "created_at": 1729527341,
+      "updated_at": 1729527341
+    },
+    {
+      "id": 26,
+      "type_name": "ハートパネルマスター",
+      "icon_base_name": "icon_base_floor_heal",
+      "icon_middle_name": "icon_middle_noicon",
+      "icon_upper_name": "icon_upper_up",
+      "created_at": 1729527341,
+      "updated_at": 1729527341
+    }
+  ]
+}

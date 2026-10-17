@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "table": "cradle_effects",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "type_id": 1,
+      "name": "サンカイ",
+      "description": "ショット後、手番キャラから遠ざける方向に他のキャラを吹き飛ばす",
+      "icon_image": "cradle_ef_icon_1",
+      "created_at": 1751539533,
+      "updated_at": 1751539533
+    },
+    {
+      "id": 2,
+      "type_id": 2,
+      "name": "リプレイス",
+      "description": "ショット前に、サークルが別の位置に移動する",
+      "icon_image": "cradle_ef_icon_2",
+      "created_at": 1751539533,
+      "updated_at": 1751539533
+    },
+    {
+      "id": 3,
+      "type_id": 3,
+      "name": "チェンジ",
+      "description": "ショット後、サークルに最も近い相手キャラと手番キャラを入れ替える",
+      "icon_image": "cradle_ef_icon_3",
+      "created_at": 1751539533,
+      "updated_at": 1751539533
+    },
+    {
+      "id": 4,
+      "type_id": 4,
+      "name": "イチゲキ",
+      "description": "ショット中、手番キャラが敵に触れると必ず倒す状態になる",
+      "icon_image": "cradle_ef_icon_4",
+      "created_at": 1751539533,
+      "updated_at": 1751539533
+    },
+    {
+      "id": 5,
+      "type_id": 5,
+      "name": "スキップ",
+      "description": "ショット後、次のキャラのターンをスキップする",
+      "icon_image": "cradle_ef_icon_5",
+      "created_at": 1751539533,
+      "updated_at": 1751539533
+    },
+    {
+      "id": 6,
+      "type_id": 6,
+      "name": "ダブルアップ",
+      "description": "BATTLE突破時の獲得ポイントが、どのキャラでも2倍になる",
+      "icon_image": "cradle_ef_icon_6",
+      "created_at": 1751539533,
+      "updated_at": 1751539533
+    },
+    {
+      "id": 7,
+      "type_id": 7,
+      "name": "キラーEL",
+      "description": "ショット中、手番キャラが全属性キラーELを所持した状態になる",
+      "icon_image": "cradle_ef_icon_7",
+      "created_at": 1751539533,
+      "updated_at": 1751539533
+    },
+    {
+      "id": 8,
+      "type_id": 8,
+      "name": "ダッシュL",
+      "description": "ショット中、手番キャラがダッシュLを所持した状態になる",
+      "icon_image": "cradle_ef_icon_8",
+      "created_at": 1751539533,
+      "updated_at": 1751539533
+    },
+    {
+      "id": 9,
+      "type_id": 9,
+      "name": "キューブ",
+      "description": "ショット後、手番キャラが1ターンの間キューブ状態になる",
+      "icon_image": "cradle_ef_icon_9",
+      "created_at": 1751539533,
+      "updated_at": 1751539533
+    },
+    {
+      "id": 10,
+      "type_id": 10,
+      "name": "アクセラレータ",
+      "description": "ショット後、手番キャラが1ターンの間アクセラレータ状態になる",
+      "icon_image": "cradle_ef_icon_10",
+      "created_at": 1751539533,
+      "updated_at": 1751539533
+    }
+  ]
+}

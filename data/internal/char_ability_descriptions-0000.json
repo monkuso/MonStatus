@@ -1,0 +1,2055 @@
+{
+  "schemaVersion": 1,
+  "table": "char_ability_descriptions",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "name": "アンチ重力バリア",
+      "group_id": 1,
+      "description": "重力バリアにふれてもスピードが落ちない",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 2,
+      "name": "超アンチ重力バリア",
+      "group_id": 2,
+      "description": "重力バリアにふれてもスピードが落ちず、[LF]ふれると一度だけ加速する",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 3,
+      "name": "アンチ重力バリア（ラック）",
+      "group_id": 3,
+      "description": "ラック数が高いほど重力バリアにふれた際に[LF]スピードが落ちにくくなる[LF]運極で超アンチ重力バリアの効果になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 11,
+      "name": "アンチダメージウォール",
+      "group_id": 11,
+      "description": "ダメージウォールにふれてもダメージを受けない",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 12,
+      "name": "超アンチダメージウォール",
+      "group_id": 12,
+      "description": "ダメージウォールにふれてもダメージを受けず、[LF]ふれるとそのターンの間攻撃力がアップする",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 13,
+      "name": "超アンチダメージウォール(ラック)",
+      "group_id": 13,
+      "description": "ダメージウォールにふれてもダメージを受けず、[LF]ふれるとそのターンの間ラック数に応じて[LF]攻撃力がアップする[LF]運極で超アンチダメージウォールと同じ1.3倍になる",
+      "created_at": 1637747791,
+      "updated_at": 1637747791
+    },
+    {
+      "id": 21,
+      "name": "アンチワープ",
+      "group_id": 21,
+      "description": "ワープにふれても吸い込まれない",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 22,
+      "name": "超アンチワープ",
+      "group_id": 22,
+      "description": "ワープにふれても吸い込まれない[LF]ワープの数に応じて攻撃力が5%アップする",
+      "created_at": 1619453156,
+      "updated_at": 1626419715
+    },
+    {
+      "id": 23,
+      "name": "超アンチワープ（ラック）",
+      "group_id": 23,
+      "description": "ワープにふれても吸い込まれない[LF]ラック数とワープの数に応じて攻撃力がアップする[LF]運極で超アンチワープと同じ5%アップになる",
+      "created_at": 1619453156,
+      "updated_at": 1626419715
+    },
+    {
+      "id": 31,
+      "name": "マインスイーパー",
+      "group_id": 31,
+      "description": "地雷を回収することができる[LF]最大4つまで所持でき、所持した状態で敵にふれると[LF]地雷を消費して1.5倍の攻撃力になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 32,
+      "name": "マインスイーパーM",
+      "group_id": 32,
+      "description": "地雷を回収することができる[LF]最大4つまで所持でき、所持した状態で敵にふれると[LF]地雷を消費して2倍の攻撃力になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 33,
+      "name": "マインスイーパーL",
+      "group_id": 33,
+      "description": "地雷を回収することができる[LF]最大4つまで所持でき、所持した状態で敵にふれると[LF]地雷を消費して2.5倍の攻撃力になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 34,
+      "name": "マインスイーパーEL",
+      "group_id": 34,
+      "description": "地雷を回収することができる[LF]最大4つまで所持でき、所持した状態で敵にふれると[LF]地雷を消費して3倍の攻撃力になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 35,
+      "name": "超マインスイーパー",
+      "group_id": 35,
+      "description": "地雷を回収することができる[LF]最大4つまで所持でき、所持した状態で敵にふれると[LF]地雷を消費して1.5倍の攻撃力になる[LF]各マップ開始時に地雷を4つ所持する",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 36,
+      "name": "超マインスイーパーM",
+      "group_id": 36,
+      "description": "地雷を回収することができる[LF]最大4つまで所持でき、所持した状態で敵にふれると[LF]地雷を消費して2倍の攻撃力になる[LF]各マップ開始時に地雷を4つ所持する",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 37,
+      "name": "超マインスイーパーL",
+      "group_id": 37,
+      "description": "地雷を回収することができる[LF]最大4つまで所持でき、所持した状態で敵にふれると[LF]地雷を消費して2.5倍の攻撃力になる[LF]各マップ開始時に地雷を4つ所持する",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 38,
+      "name": "超マインスイーパーEL",
+      "group_id": 38,
+      "description": "地雷を回収することができる[LF]最大4つまで所持でき、所持した状態で敵にふれると[LF]地雷を消費して3倍の攻撃力になる[LF]各マップ開始時に地雷を4つ所持する",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 41,
+      "name": "飛行",
+      "group_id": 41,
+      "description": "ショット時に地雷に当たらない",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 51,
+      "name": "アンチブロック",
+      "group_id": 51,
+      "description": "ブロックを通過することができる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 61,
+      "name": "アンチウィンド",
+      "group_id": 61,
+      "description": "ウィンドの引き寄せ／吹き飛ばし効果を受けない",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 62,
+      "name": "超アンチウィンド",
+      "group_id": 62,
+      "description": "ウィンドの引き寄せ／吹き飛ばし効果を受けず、[LF]自身にスピードアップ効果が発動する",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 71,
+      "name": "アンチ魔法陣",
+      "group_id": 71,
+      "description": "魔法陣にふれてもひよこ状態にならない[LF][LF]※ひよこ状態[LF]攻撃力と友情コンボの威力がダウンし[LF]ストライクショットが使えない状態",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 72,
+      "name": "魔法陣ブースト",
+      "group_id": 72,
+      "description": "魔法陣にふれるとニワトリ状態になったり戻ったりする[LF][LF]※ニワトリ状態[LF]ストライクショットは使えないが[LF]攻撃力と友情コンボの威力はアップした状態",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 81,
+      "name": "アンチ減速壁",
+      "group_id": 81,
+      "description": "減速壁にふれてもスピードが落ちない",
+      "created_at": 1619453156,
+      "updated_at": 1639590963
+    },
+    {
+      "id": 82,
+      "name": "超アンチ減速壁",
+      "group_id": 82,
+      "description": "減速壁にふれてもスピードが落ちず、[LF]ふれると一度だけ加速する",
+      "created_at": 1619453156,
+      "updated_at": 1639590963
+    },
+    {
+      "id": 91,
+      "name": "アンチ転送壁",
+      "group_id": 91,
+      "description": "転送壁にふれても転送されない",
+      "created_at": 1640685891,
+      "updated_at": 1640685891
+    },
+    {
+      "id": 201,
+      "name": "全属性キラー",
+      "group_id": 201,
+      "description": "火水木光闇属性の敵に対して攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 221,
+      "name": "全属性キラーM",
+      "group_id": 202,
+      "description": "火水木光闇属性の敵に対して攻撃力が2倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 241,
+      "name": "全属性キラーL",
+      "group_id": 203,
+      "description": "火水木光闇属性の敵に対して攻撃力が2.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 261,
+      "name": "全属性キラーEL",
+      "group_id": 204,
+      "description": "火水木光闇属性の敵に対して攻撃力が3倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 301,
+      "name": "火属性キラー",
+      "group_id": 301,
+      "description": "火属性の敵に対して攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 302,
+      "name": "火属性キラーM",
+      "group_id": 302,
+      "description": "火属性の敵に対して攻撃力が2倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 311,
+      "name": "水属性キラー",
+      "group_id": 311,
+      "description": "水属性の敵に対して攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 312,
+      "name": "水属性キラーM",
+      "group_id": 312,
+      "description": "水属性の敵に対して攻撃力が2倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 321,
+      "name": "木属性キラー",
+      "group_id": 321,
+      "description": "木属性の敵に対して攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 322,
+      "name": "木属性キラーM",
+      "group_id": 322,
+      "description": "木属性の敵に対して攻撃力が2倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 331,
+      "name": "光属性キラー",
+      "group_id": 331,
+      "description": "光属性の敵に対して攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 332,
+      "name": "光属性キラーM",
+      "group_id": 332,
+      "description": "光属性の敵に対して攻撃力が2倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 341,
+      "name": "闇属性キラー",
+      "group_id": 341,
+      "description": "闇属性の敵に対して攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 342,
+      "name": "闇属性キラーM",
+      "group_id": 342,
+      "description": "闇属性の敵に対して攻撃力が2倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 401,
+      "name": "カウンターキラー",
+      "group_id": 401,
+      "description": "最後に攻撃してきた敵の種族に対して[LF]攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 402,
+      "name": "カウンターキラーM",
+      "group_id": 402,
+      "description": "最後に攻撃してきた敵の種族に対して攻撃力が2倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 403,
+      "name": "カウンターキラーL",
+      "group_id": 403,
+      "description": "最後に攻撃してきた敵の種族に対して[LF]攻撃力が2.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 406,
+      "name": "カウンターキラー(ラック)",
+      "group_id": 406,
+      "description": "最後に攻撃してきた敵の種族に対して[LF]攻撃力がアップする[LF]運極でカウンターキラーと同じ1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 411,
+      "name": "弱点キラー",
+      "group_id": 411,
+      "description": "敵の弱点に対して攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 412,
+      "name": "弱点キラーM",
+      "group_id": 412,
+      "description": "敵の弱点に対して攻撃力が2倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 413,
+      "name": "弱点キラーL",
+      "group_id": 413,
+      "description": "敵の弱点に対して攻撃力が2.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 414,
+      "name": "弱点キラーEL",
+      "group_id": 414,
+      "description": "敵の弱点に対して攻撃力が3倍になる",
+      "created_at": 1642067624,
+      "updated_at": 1642067624
+    },
+    {
+      "id": 416,
+      "name": "弱点キラー(ラック)",
+      "group_id": 416,
+      "description": "敵の弱点に対して攻撃力がアップする[LF]運極で弱点キラーと同じ1.5倍になる",
+      "created_at": 1641542695,
+      "updated_at": 1641542695
+    },
+    {
+      "id": 421,
+      "name": "重力バリアキラー",
+      "group_id": 421,
+      "description": "重力バリアを持つ敵に対して攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 422,
+      "name": "重力バリアキラーM",
+      "group_id": 422,
+      "description": "重力バリアを持つ敵に対して攻撃力が2倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 423,
+      "name": "重力バリアキラーL",
+      "group_id": 423,
+      "description": "重力バリアを持つ敵に対して攻撃力が2.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 424,
+      "name": "重力バリアキラーEL",
+      "group_id": 424,
+      "description": "重力バリアを持つ敵に対して攻撃力が3倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 426,
+      "name": "重力バリアキラー(ラック)",
+      "group_id": 426,
+      "description": "重力バリアを持つ敵に対して[LF]攻撃力がアップする[LF]運極で重力バリアキラーと同じ1.5倍になる",
+      "created_at": 1627645491,
+      "updated_at": 1627645491
+    },
+    {
+      "id": 427,
+      "name": "重力バリアキラーM(ラック)",
+      "group_id": 427,
+      "description": "重力バリアを持つ敵に対して[LF]攻撃力がアップする[LF]運極で重力バリアキラーMと同じ2倍になる",
+      "created_at": 1627645491,
+      "updated_at": 1639590963
+    },
+    {
+      "id": 428,
+      "name": "重力バリアキラーL(ラック)",
+      "group_id": 428,
+      "description": "重力バリアを持つ敵に対して[LF]攻撃力がアップする[LF]運極で重力バリアキラーLと同じ2.5倍になる",
+      "created_at": 1627645491,
+      "updated_at": 1639590963
+    },
+    {
+      "id": 429,
+      "name": "重力バリアキラーEL(ラック)",
+      "group_id": 429,
+      "description": "重力バリアを持つ敵に対して[LF]攻撃力がアップする[LF]運極で重力バリアキラーELと同じ3倍になる",
+      "created_at": 1627645491,
+      "updated_at": 1639590963
+    },
+    {
+      "id": 431,
+      "name": "毒キラー",
+      "group_id": 431,
+      "description": "毒状態の敵に対して攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 432,
+      "name": "毒キラーM",
+      "group_id": 432,
+      "description": "毒状態の敵に対して攻撃力が2倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 433,
+      "name": "毒キラーL",
+      "group_id": 433,
+      "description": "毒状態の敵に対して攻撃力が2.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 434,
+      "name": "毒キラーEL",
+      "group_id": 434,
+      "description": "毒状態の敵に対して攻撃力が3倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 441,
+      "name": "バイタルキラー",
+      "group_id": 441,
+      "description": "残りHPが50%以上ある敵に対して[LF]攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 442,
+      "name": "バイタルキラーM",
+      "group_id": 442,
+      "description": "残りHPが50%以上ある敵に対して攻撃力が2倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1627645491
+    },
+    {
+      "id": 443,
+      "name": "バイタルキラーL",
+      "group_id": 443,
+      "description": "残りHPが50%以上ある敵に対して[LF]攻撃力が2.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1627645491
+    },
+    {
+      "id": 444,
+      "name": "バイタルキラーEL",
+      "group_id": 444,
+      "description": "残りHPが50%以上ある敵に対して攻撃力が3倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1627645491
+    },
+    {
+      "id": 451,
+      "name": "連撃キラー",
+      "group_id": 451,
+      "description": "連続して同じ敵にふれると最大1.5倍まで[LF]ふれる毎に攻撃力がアップする",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 452,
+      "name": "連撃キラーM",
+      "group_id": 452,
+      "description": "連続して同じ敵にふれると最大2倍まで[LF]ふれる毎に攻撃力がアップする",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 453,
+      "name": "連撃キラーL",
+      "group_id": 453,
+      "description": "連続して同じ敵にふれると最大2.5倍まで[LF]ふれる毎に攻撃力がアップする",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 454,
+      "name": "連撃キラーEL",
+      "group_id": 454,
+      "description": "連続して同じ敵にふれると最大3倍まで[LF]ふれる毎に攻撃力がアップする",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 461,
+      "name": "レーザーバリアキラー",
+      "group_id": 461,
+      "description": "レーザーバリアを持つ敵に対して攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 462,
+      "name": "レーザーバリアキラーM",
+      "group_id": 462,
+      "description": "レーザーバリアを持つ敵に対して攻撃力が2倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 463,
+      "name": "レーザーバリアキラーL",
+      "group_id": 463,
+      "description": "レーザーバリアを持つ敵に対して攻撃力が2.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 464,
+      "name": "レーザーバリアキラーEL",
+      "group_id": 464,
+      "description": "レーザーバリアを持つ敵に対して攻撃力が3倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 471,
+      "name": "ファーストキラー",
+      "group_id": 471,
+      "description": "ショット後に最初にふれた敵の種族に対して[LF]攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 481,
+      "name": "アップポジションキラー",
+      "group_id": 481,
+      "description": "画面の上半分にいる敵に対して攻撃力が1.5倍になる",
+      "created_at": 1628762940,
+      "updated_at": 1628762940
+    },
+    {
+      "id": 482,
+      "name": "アップポジションキラーM",
+      "group_id": 482,
+      "description": "画面の上半分にいる敵に対して攻撃力が2倍になる",
+      "created_at": 1628762940,
+      "updated_at": 1628762940
+    },
+    {
+      "id": 483,
+      "name": "アップポジションキラーL",
+      "group_id": 483,
+      "description": "画面の上半分にいる敵に対して攻撃力が2.5倍になる",
+      "created_at": 1628762940,
+      "updated_at": 1628762940
+    },
+    {
+      "id": 484,
+      "name": "アップポジションキラーEL",
+      "group_id": 484,
+      "description": "画面の上半分にいる敵に対して攻撃力が3倍になる",
+      "created_at": 1628762940,
+      "updated_at": 1628762940
+    },
+    {
+      "id": 491,
+      "name": "ダウンポジションキラー",
+      "group_id": 491,
+      "description": "画面の下半分にいる敵に対して攻撃力が1.5倍になる",
+      "created_at": 1628762940,
+      "updated_at": 1628762940
+    },
+    {
+      "id": 492,
+      "name": "ダウンポジションキラーM",
+      "group_id": 492,
+      "description": "画面の下半分にいる敵に対して攻撃力が2倍になる",
+      "created_at": 1628762940,
+      "updated_at": 1628762940
+    },
+    {
+      "id": 493,
+      "name": "ダウンポジションキラーL",
+      "group_id": 493,
+      "description": "画面の下半分にいる敵に対して攻撃力が2.5倍になる",
+      "created_at": 1628762940,
+      "updated_at": 1628762940
+    },
+    {
+      "id": 494,
+      "name": "ダウンポジションキラーEL",
+      "group_id": 494,
+      "description": "画面の下半分にいる敵に対して攻撃力が3倍になる",
+      "created_at": 1628762940,
+      "updated_at": 1628762940
+    },
+    {
+      "id": 501,
+      "name": "レフトポジションキラー",
+      "group_id": 501,
+      "description": "画面の左半分にいる敵に対して攻撃力が1.5倍になる",
+      "created_at": 1628762940,
+      "updated_at": 1639590963
+    },
+    {
+      "id": 502,
+      "name": "レフトポジションキラーM",
+      "group_id": 502,
+      "description": "画面の左半分にいる敵に対して攻撃力が2倍になる",
+      "created_at": 1628762940,
+      "updated_at": 1639590963
+    },
+    {
+      "id": 503,
+      "name": "レフトポジションキラーL",
+      "group_id": 503,
+      "description": "画面の左半分にいる敵に対して攻撃力が2.5倍になる",
+      "created_at": 1628762940,
+      "updated_at": 1639590963
+    },
+    {
+      "id": 504,
+      "name": "レフトポジションキラーEL",
+      "group_id": 504,
+      "description": "画面の左半分にいる敵に対して攻撃力が3倍になる",
+      "created_at": 1628762940,
+      "updated_at": 1639590963
+    },
+    {
+      "id": 511,
+      "name": "ライトポジションキラー",
+      "group_id": 511,
+      "description": "画面の右半分にいる敵に対して攻撃力が1.5倍になる",
+      "created_at": 1628762940,
+      "updated_at": 1639590963
+    },
+    {
+      "id": 512,
+      "name": "ライトポジションキラーM",
+      "group_id": 512,
+      "description": "画面の右半分にいる敵に対して攻撃力が2倍になる",
+      "created_at": 1628762940,
+      "updated_at": 1639590963
+    },
+    {
+      "id": 513,
+      "name": "ライトポジションキラーL",
+      "group_id": 513,
+      "description": "画面の右半分にいる敵に対して攻撃力が2.5倍になる",
+      "created_at": 1628762940,
+      "updated_at": 1639590963
+    },
+    {
+      "id": 514,
+      "name": "ライトポジションキラーEL",
+      "group_id": 514,
+      "description": "画面の右半分にいる敵に対して攻撃力が3倍になる",
+      "created_at": 1628762940,
+      "updated_at": 1639590963
+    },
+    {
+      "id": 601,
+      "name": "ドラゴンキラー",
+      "group_id": 601,
+      "description": "種族「ドラゴン」の敵に対して攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 602,
+      "name": "ドラゴンキラーM",
+      "group_id": 602,
+      "description": "種族「ドラゴン」の敵に対して攻撃力が2倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 603,
+      "name": "ドラゴンキラーL",
+      "group_id": 603,
+      "description": "種族「ドラゴン」の敵に対して攻撃力が2.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 604,
+      "name": "ドラゴンキラーEL",
+      "group_id": 604,
+      "description": "種族「ドラゴン」の敵に対して攻撃力が3倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 611,
+      "name": "ロボットキラー",
+      "group_id": 611,
+      "description": "種族「ロボット」の敵に対して攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 612,
+      "name": "ロボットキラーM",
+      "group_id": 612,
+      "description": "種族「ロボット」の敵に対して攻撃力が2倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 613,
+      "name": "ロボットキラーL",
+      "group_id": 613,
+      "description": "種族「ロボット」の敵に対して攻撃力が2.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 614,
+      "name": "ロボットキラーEL",
+      "group_id": 614,
+      "description": "種族「ロボット」の敵に対して攻撃力が3倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 621,
+      "name": "魔人キラー",
+      "group_id": 621,
+      "description": "種族「魔人」の敵に対して攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 622,
+      "name": "魔人キラーM",
+      "group_id": 622,
+      "description": "種族「魔人」の敵に対して攻撃力が2倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 623,
+      "name": "魔人キラーL",
+      "group_id": 623,
+      "description": "種族「魔人」の敵に対して攻撃力が2.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 624,
+      "name": "魔人キラーEL",
+      "group_id": 624,
+      "description": "種族「魔人」の敵に対して攻撃力が3倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 631,
+      "name": "神キラー",
+      "group_id": 631,
+      "description": "種族「神」の敵に対して攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 632,
+      "name": "神キラーM",
+      "group_id": 632,
+      "description": "種族「神」の敵に対して攻撃力が2倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 633,
+      "name": "神キラーL",
+      "group_id": 633,
+      "description": "種族「神」の敵に対して攻撃力が2.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 634,
+      "name": "神キラーEL",
+      "group_id": 634,
+      "description": "種族「神」の敵に対して攻撃力が3倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 641,
+      "name": "鳥キラー",
+      "group_id": 641,
+      "description": "種族「鳥」の敵に対して攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 642,
+      "name": "鳥キラーM",
+      "group_id": 642,
+      "description": "種族「鳥」の敵に対して攻撃力が2倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 643,
+      "name": "鳥キラーL",
+      "group_id": 643,
+      "description": "種族「鳥」の敵に対して攻撃力が2.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 644,
+      "name": "鳥キラーEL",
+      "group_id": 644,
+      "description": "種族「鳥」の敵に対して攻撃力が3倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 651,
+      "name": "獣キラー",
+      "group_id": 651,
+      "description": "種族「獣」の敵に対して攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 652,
+      "name": "獣キラーM",
+      "group_id": 652,
+      "description": "種族「獣」の敵に対して攻撃力が2倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 653,
+      "name": "獣キラーL",
+      "group_id": 653,
+      "description": "種族「獣」の敵に対して攻撃力が2.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 654,
+      "name": "獣キラーEL",
+      "group_id": 654,
+      "description": "種族「獣」の敵に対して攻撃力が3倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 661,
+      "name": "亜人キラー",
+      "group_id": 661,
+      "description": "種族「亜人」の敵に対して攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 662,
+      "name": "亜人キラーM",
+      "group_id": 662,
+      "description": "種族「亜人」の敵に対して攻撃力が2倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 663,
+      "name": "亜人キラーL",
+      "group_id": 663,
+      "description": "種族「亜人」の敵に対して攻撃力が2.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 664,
+      "name": "亜人キラーEL",
+      "group_id": 664,
+      "description": "種族「亜人」の敵に対して攻撃力が3倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 671,
+      "name": "魔族キラー",
+      "group_id": 671,
+      "description": "種族「魔族」の敵に対して攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 672,
+      "name": "魔族キラーM",
+      "group_id": 672,
+      "description": "種族「魔族」の敵に対して攻撃力が2倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 673,
+      "name": "魔族キラーL",
+      "group_id": 673,
+      "description": "種族「魔族」の敵に対して攻撃力が2.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 674,
+      "name": "魔族キラーEL",
+      "group_id": 674,
+      "description": "種族「魔族」の敵に対して攻撃力が3倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 681,
+      "name": "妖精キラー",
+      "group_id": 681,
+      "description": "種族「妖精」の敵に対して攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 682,
+      "name": "妖精キラーM",
+      "group_id": 682,
+      "description": "種族「妖精」の敵に対して攻撃力が2倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 683,
+      "name": "妖精キラーL",
+      "group_id": 683,
+      "description": "種族「妖精」の敵に対して攻撃力が2.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 684,
+      "name": "妖精キラーEL",
+      "group_id": 684,
+      "description": "種族「妖精」の敵に対して攻撃力が3倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 691,
+      "name": "鉱物キラー",
+      "group_id": 691,
+      "description": "種族「鉱物」の敵に対して攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 692,
+      "name": "鉱物キラーM",
+      "group_id": 692,
+      "description": "種族「鉱物」の敵に対して攻撃力が2倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 693,
+      "name": "鉱物キラーL",
+      "group_id": 693,
+      "description": "種族「鉱物」の敵に対して攻撃力が2.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 694,
+      "name": "鉱物キラーEL",
+      "group_id": 694,
+      "description": "種族「鉱物」の敵に対して攻撃力が3倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 701,
+      "name": "魔王キラー",
+      "group_id": 701,
+      "description": "種族「魔王」の敵に対して攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 702,
+      "name": "魔王キラーM",
+      "group_id": 702,
+      "description": "種族「魔王」の敵に対して攻撃力が2倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 703,
+      "name": "魔王キラーL",
+      "group_id": 703,
+      "description": "種族「魔王」の敵に対して攻撃力が2.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 704,
+      "name": "魔王キラーEL",
+      "group_id": 704,
+      "description": "種族「魔王」の敵に対して攻撃力が3倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 711,
+      "name": "幻獣キラー",
+      "group_id": 711,
+      "description": "種族「幻獣」の敵に対して攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 712,
+      "name": "幻獣キラーM",
+      "group_id": 712,
+      "description": "種族「幻獣」の敵に対して攻撃力が2倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 713,
+      "name": "幻獣キラーL",
+      "group_id": 713,
+      "description": "種族「幻獣」の敵に対して攻撃力が2.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 714,
+      "name": "幻獣キラーEL",
+      "group_id": 714,
+      "description": "種族「幻獣」の敵に対して攻撃力が3倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 731,
+      "name": "ユニバースキラー",
+      "group_id": 731,
+      "description": "種族「ユニバース」の敵に対して[LF]攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 732,
+      "name": "ユニバースキラーM",
+      "group_id": 732,
+      "description": "種族「ユニバース」の敵に対して攻撃力が2倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 733,
+      "name": "ユニバースキラーL",
+      "group_id": 733,
+      "description": "種族「ユニバース」の敵に対して[LF]攻撃力が2.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 734,
+      "name": "ユニバースキラーEL",
+      "group_id": 734,
+      "description": "種族「ユニバース」の敵に対して攻撃力が3倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 741,
+      "name": "聖騎士キラー",
+      "group_id": 741,
+      "description": "種族「聖騎士」の敵に対して攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 742,
+      "name": "聖騎士キラーM",
+      "group_id": 742,
+      "description": "種族「聖騎士」の敵に対して攻撃力が2倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 743,
+      "name": "聖騎士キラーL",
+      "group_id": 743,
+      "description": "種族「聖騎士」の敵に対して攻撃力が2.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 744,
+      "name": "聖騎士キラーEL",
+      "group_id": 744,
+      "description": "種族「聖騎士」の敵に対して攻撃力が3倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 751,
+      "name": "サムライキラー",
+      "group_id": 751,
+      "description": "種族「サムライ」の敵に対して攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 752,
+      "name": "サムライキラーM",
+      "group_id": 752,
+      "description": "種族「サムライ」の敵に対して攻撃力が2倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 753,
+      "name": "サムライキラーL",
+      "group_id": 753,
+      "description": "種族「サムライ」の敵に対して攻撃力が2.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 754,
+      "name": "サムライキラーEL",
+      "group_id": 754,
+      "description": "種族「サムライ」の敵に対して攻撃力が3倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 781,
+      "name": "ユニオンキラー",
+      "group_id": 781,
+      "description": "種族「ユニオン」の敵に対して攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 782,
+      "name": "ユニオンキラーM",
+      "group_id": 782,
+      "description": "種族「ユニオン」の敵に対して攻撃力が2倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 783,
+      "name": "ユニオンキラーL",
+      "group_id": 783,
+      "description": "種族「ユニオン」の敵に対して攻撃力が2.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 784,
+      "name": "ユニオンキラーEL",
+      "group_id": 784,
+      "description": "種族「ユニオン」の敵に対して攻撃力が3倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 791,
+      "name": "アクシスキラー",
+      "group_id": 791,
+      "description": "種族「アクシス」の敵に対して攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 792,
+      "name": "アクシスキラーM",
+      "group_id": 792,
+      "description": "種族「アクシス」の敵に対して攻撃力が2倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 793,
+      "name": "アクシスキラーL",
+      "group_id": 793,
+      "description": "種族「アクシス」の敵に対して攻撃力が2.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 794,
+      "name": "アクシスキラーEL",
+      "group_id": 794,
+      "description": "種族「アクシス」の敵に対して攻撃力が3倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 801,
+      "name": "幻妖キラー",
+      "group_id": 801,
+      "description": "種族「幻妖」の敵に対して攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 802,
+      "name": "幻妖キラーM",
+      "group_id": 802,
+      "description": "種族「幻妖」の敵に対して攻撃力が2倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 803,
+      "name": "幻妖キラーL",
+      "group_id": 803,
+      "description": "種族「幻妖」の敵に対して攻撃力が2.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 804,
+      "name": "幻妖キラーEL",
+      "group_id": 804,
+      "description": "種族「幻妖」の敵に対して攻撃力が3倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 821,
+      "name": "怪獣キラー",
+      "group_id": 821,
+      "description": "種族「怪獣」の敵に対して攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 822,
+      "name": "怪獣キラーM",
+      "group_id": 822,
+      "description": "種族「怪獣」の敵に対して攻撃力が2倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 823,
+      "name": "怪獣キラーL",
+      "group_id": 823,
+      "description": "種族「怪獣」の敵に対して攻撃力が2.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 824,
+      "name": "怪獣キラーEL",
+      "group_id": 824,
+      "description": "種族「怪獣」の敵に対して攻撃力が3倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 871,
+      "name": "ファイターキラー",
+      "group_id": 871,
+      "description": "種族「ファイター」の敵に対して攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 872,
+      "name": "ファイターキラーM",
+      "group_id": 872,
+      "description": "種族「ファイター」の敵に対して攻撃力が2倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 873,
+      "name": "ファイターキラーL",
+      "group_id": 873,
+      "description": "種族「ファイター」の敵に対して攻撃力が2.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 874,
+      "name": "ファイターキラーEL",
+      "group_id": 874,
+      "description": "種族「ファイター」の敵に対して攻撃力が3倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 921,
+      "name": "闘神キラー",
+      "group_id": 921,
+      "description": "種族「闘神」の敵に対して攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 922,
+      "name": "闘神キラーM",
+      "group_id": 922,
+      "description": "種族「闘神」の敵に対して攻撃力が2倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 923,
+      "name": "闘神キラーL",
+      "group_id": 923,
+      "description": "種族「闘神」の敵に対して攻撃力が2.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 924,
+      "name": "闘神キラーEL",
+      "group_id": 924,
+      "description": "種族「闘神」の敵に対して攻撃力が3倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 931,
+      "name": "神獣キラー",
+      "group_id": 931,
+      "description": "種族「神獣」の敵に対して攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 935,
+      "name": "神獣スレイヤー",
+      "group_id": 935,
+      "description": "種族「神獣」の敵に対して攻撃力が超アップする",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 1201,
+      "name": "魔封じ",
+      "group_id": 1201,
+      "description": "種族「魔人」と「魔族」の敵に対して[LF]攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 1203,
+      "name": "魔封じM",
+      "group_id": 1202,
+      "description": "種族「魔人」と「魔族」の敵に対して[LF]攻撃力が2倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 1205,
+      "name": "魔封じL",
+      "group_id": 1203,
+      "description": "種族「魔人」と「魔族」の敵に対して[LF]攻撃力が2.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 1207,
+      "name": "魔封じEL",
+      "group_id": 1204,
+      "description": "種族「魔人」と「魔族」の敵に対して[LF]攻撃力が3倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 1211,
+      "name": "鳥獣封じ",
+      "group_id": 1211,
+      "description": "種族「鳥」と「獣」の敵に対して[LF]攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 1213,
+      "name": "鳥獣封じM",
+      "group_id": 1212,
+      "description": "種族「鳥」と「獣」の敵に対して[LF]攻撃力が2倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 1215,
+      "name": "鳥獣封じL",
+      "group_id": 1213,
+      "description": "種族「鳥」と「獣」の敵に対して[LF]攻撃力が2.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 1217,
+      "name": "鳥獣封じEL",
+      "group_id": 1214,
+      "description": "種族「鳥」と「獣」の敵に対して[LF]攻撃力が3倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 1221,
+      "name": "幻竜封じ",
+      "group_id": 1221,
+      "description": "種族「幻獣」と「ドラゴン」の敵に対して[LF]攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 1223,
+      "name": "幻竜封じM",
+      "group_id": 1222,
+      "description": "種族「幻獣」と「ドラゴン」の敵に対して[LF]攻撃力が2倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 1225,
+      "name": "幻竜封じL",
+      "group_id": 1223,
+      "description": "種族「幻獣」と「ドラゴン」の敵に対して[LF]攻撃力が2.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 1227,
+      "name": "幻竜封じEL",
+      "group_id": 1224,
+      "description": "種族「幻獣」と「ドラゴン」の敵に対して[LF]攻撃力が3倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 1231,
+      "name": "亜侍封じ",
+      "group_id": 1231,
+      "description": "種族「亜人」と「サムライ」の敵に対して[LF]攻撃力が1.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 1233,
+      "name": "亜侍封じM",
+      "group_id": 1232,
+      "description": "種族「亜人」と「サムライ」の敵に対して[LF]攻撃力が2倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 1235,
+      "name": "亜侍封じL",
+      "group_id": 1233,
+      "description": "種族「亜人」と「サムライ」の敵に対して[LF]攻撃力が2.5倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 1237,
+      "name": "亜侍封じEL",
+      "group_id": 1234,
+      "description": "種族「亜人」と「サムライ」の敵に対して[LF]攻撃力が3倍になる",
+      "created_at": 1619453156,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 1241,
+      "name": "神王封じ",
+      "group_id": 1241,
+      "description": "種族「神」と「魔王」の敵に対して[LF]攻撃力が1.5倍になる",
+      "created_at": 1628155399,
+      "updated_at": 1628155399
+    },
+    {
+      "id": 1243,
+      "name": "神王封じM",
+      "group_id": 1242,
+      "description": "種族「神」と「魔王」の敵に対して[LF]攻撃力が2倍になる",
+      "created_at": 1628155399,
+      "updated_at": 1628155399
+    },
+    {
+      "id": 1245,
+      "name": "神王封じL",
+      "group_id": 1243,
+      "description": "種族「神」と「魔王」の敵に対して[LF]攻撃力が2.5倍になる",
+      "created_at": 1628155399,
+      "updated_at": 1628155399
+    },
+    {
+      "id": 1247,
+      "name": "神王封じEL",
+      "group_id": 1244,
+      "description": "種族「神」と「魔王」の敵に対して[LF]攻撃力が3倍になる",
+      "created_at": 1628155399,
+      "updated_at": 1628155399
+    },
+    {
+      "id": 1251,
+      "name": "機鉱封じ",
+      "group_id": 1251,
+      "description": "種族「ロボット」と「鉱物」の敵に対して[LF]攻撃力が1.5倍になる",
+      "created_at": 1642749029,
+      "updated_at": 1642749029
+    },
+    {
+      "id": 1253,
+      "name": "機鉱封じM",
+      "group_id": 1252,
+      "description": "種族「ロボット」と「鉱物」の敵に対して[LF]攻撃力が2倍になる",
+      "created_at": 1642749029,
+      "updated_at": 1642749029
+    },
+    {
+      "id": 1255,
+      "name": "機鉱封じL",
+      "group_id": 1253,
+      "description": "種族「ロボット」と「鉱物」の敵に対して[LF]攻撃力が2.5倍になる",
+      "created_at": 1642749029,
+      "updated_at": 1642749029
+    },
+    {
+      "id": 1257,
+      "name": "機鉱封じEL",
+      "group_id": 1254,
+      "description": "種族「ロボット」と「鉱物」の敵に対して[LF]攻撃力が3倍になる",
+      "created_at": 1642749029,
+      "updated_at": 1642749029
+    },
+    {
+      "id": 1301,
+      "name": "全属性耐性",
+      "group_id": 1301,
+      "description": "火水木光闇属性によるダメージを25%軽減する",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 1321,
+      "name": "全属性耐性M",
+      "group_id": 1302,
+      "description": "火水木光闇属性によるダメージを50%軽減する",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 1401,
+      "name": "無属性耐性",
+      "group_id": 1401,
+      "description": "無属性によるダメージを25%軽減する",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 1402,
+      "name": "無属性耐性M",
+      "group_id": 1402,
+      "description": "無属性によるダメージを50%軽減する",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 1411,
+      "name": "火属性耐性",
+      "group_id": 1411,
+      "description": "火属性によるダメージを25%軽減する",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 1412,
+      "name": "火属性耐性M",
+      "group_id": 1412,
+      "description": "火属性によるダメージを50%軽減する",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 1421,
+      "name": "水属性耐性",
+      "group_id": 1421,
+      "description": "水属性によるダメージを25%軽減する",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 1422,
+      "name": "水属性耐性M",
+      "group_id": 1422,
+      "description": "水属性によるダメージを50%軽減する",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 1431,
+      "name": "木属性耐性",
+      "group_id": 1431,
+      "description": "木属性によるダメージを25%軽減する",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 1432,
+      "name": "木属性耐性M",
+      "group_id": 1432,
+      "description": "木属性によるダメージを50%軽減する",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 1441,
+      "name": "光属性耐性",
+      "group_id": 1441,
+      "description": "光属性によるダメージを25%軽減する",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 1442,
+      "name": "光属性耐性M",
+      "group_id": 1442,
+      "description": "光属性によるダメージを50%軽減する",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 1451,
+      "name": "闇属性耐性",
+      "group_id": 1451,
+      "description": "闇属性によるダメージを25%軽減する",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 1452,
+      "name": "闇属性耐性M",
+      "group_id": 1452,
+      "description": "闇属性によるダメージを50%軽減する",
+      "created_at": 1619453156,
+      "updated_at": 1619453156
+    },
+    {
+      "id": 1501,
+      "name": "ドラゴン耐性",
+      "group_id": 1501,
+      "description": "種族「ドラゴン」によるダメージを25%軽減する",
+      "created_at": 1619453157,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 1502,
+      "name": "ドラゴン耐性M",
+      "group_id": 1502,
+      "description": "種族「ドラゴン」によるダメージを50%軽減する",
+      "created_at": 1619453157,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 1511,
+      "name": "ロボット耐性",
+      "group_id": 1511,
+      "description": "種族「ロボット」によるダメージを25%軽減する",
+      "created_at": 1619453157,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 1512,
+      "name": "ロボット耐性M",
+      "group_id": 1512,
+      "description": "種族「ロボット」によるダメージを50%軽減する",
+      "created_at": 1619453157,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 1521,
+      "name": "魔人耐性",
+      "group_id": 1521,
+      "description": "種族「魔人」によるダメージを25%軽減する",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 1522,
+      "name": "魔人耐性M",
+      "group_id": 1522,
+      "description": "種族「魔人」によるダメージを50%軽減する",
+      "created_at": 1627645491,
+      "updated_at": 1627645491
+    },
+    {
+      "id": 1531,
+      "name": "神耐性",
+      "group_id": 1531,
+      "description": "種族「神」によるダメージを25%軽減する",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 1532,
+      "name": "神耐性M",
+      "group_id": 1532,
+      "description": "種族「神」によるダメージを50%軽減する",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 1561,
+      "name": "亜人耐性",
+      "group_id": 1561,
+      "description": "種族「亜人」によるダメージを25%軽減する",
+      "created_at": 1619453157,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 1562,
+      "name": "亜人耐性M",
+      "group_id": 1562,
+      "description": "種族「亜人」によるダメージを50%軽減する",
+      "created_at": 1619453157,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 1571,
+      "name": "魔族耐性",
+      "group_id": 1571,
+      "description": "種族「魔族」によるダメージを25%軽減する",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 1572,
+      "name": "魔族耐性M",
+      "group_id": 1572,
+      "description": "種族「魔族」によるダメージを50%軽減する",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 1582,
+      "name": "妖精耐性M",
+      "group_id": 1582,
+      "description": "種族「妖精」によるダメージを50%軽減する",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 1591,
+      "name": "鉱物耐性",
+      "group_id": 1591,
+      "description": "種族「鉱物」によるダメージを25%軽減する",
+      "created_at": 1619453157,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 1592,
+      "name": "鉱物耐性M",
+      "group_id": 1592,
+      "description": "種族「鉱物」によるダメージを50%軽減する",
+      "created_at": 1619453157,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 1601,
+      "name": "魔王耐性",
+      "group_id": 1601,
+      "description": "種族「魔王」によるダメージを25%軽減する",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 1602,
+      "name": "魔王耐性M",
+      "group_id": 1602,
+      "description": "種族「魔王」によるダメージを50%軽減する",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 1611,
+      "name": "幻獣耐性",
+      "group_id": 1611,
+      "description": "種族「幻獣」によるダメージを25%軽減する",
+      "created_at": 1619453157,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 1612,
+      "name": "幻獣耐性M",
+      "group_id": 1612,
+      "description": "種族「幻獣」によるダメージを50%軽減する",
+      "created_at": 1619453157,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 1641,
+      "name": "聖騎士耐性",
+      "group_id": 1641,
+      "description": "種族「聖騎士」によるダメージを25%軽減する",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 1651,
+      "name": "サムライ耐性",
+      "group_id": 1651,
+      "description": "種族「サムライ」によるダメージを25%軽減する",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 1652,
+      "name": "サムライ耐性M",
+      "group_id": 1652,
+      "description": "種族「サムライ」によるダメージを50%軽減する",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 1821,
+      "name": "闘神耐性",
+      "group_id": 1821,
+      "description": "種族「闘神」によるダメージを25%軽減する",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 1822,
+      "name": "闘神耐性M",
+      "group_id": 1822,
+      "description": "種族「闘神」によるダメージを50%軽減する",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 3001,
+      "name": "シールドブレイカー",
+      "group_id": 3001,
+      "description": "シールドンに対して大ダメージを与えられる",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 3002,
+      "name": "シールドブレイカー",
+      "group_id": 3002,
+      "description": "シールドンに対して大ダメージを与えられる",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 3003,
+      "name": "シールドブレイカー",
+      "group_id": 3003,
+      "description": "シールドンに対して大ダメージを与えられる",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 3006,
+      "name": "シールドブレイカー",
+      "group_id": 3004,
+      "description": "シールドンに対して大ダメージを与えられる",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 3011,
+      "name": "ビットンブレイカー",
+      "group_id": 3011,
+      "description": "ビットンに対して大ダメージを与えられる",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 3013,
+      "name": "ビットンブレイカー",
+      "group_id": 3013,
+      "description": "ビットンに対して大ダメージを与えられる",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 3015,
+      "name": "ビットンブレイカー",
+      "group_id": 3014,
+      "description": "ビットンに対して大ダメージを与えられる",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 4001,
+      "name": "回復S",
+      "group_id": 4001,
+      "description": "ふれた味方の数に応じてHPを小回復する",
+      "created_at": 1619453157,
+      "updated_at": 1640685892
+    },
+    {
+      "id": 4002,
+      "name": "回復",
+      "group_id": 4002,
+      "description": "ふれた味方の数に応じてHPを中回復する",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 4003,
+      "name": "回復M",
+      "group_id": 4003,
+      "description": "ふれた味方の数に応じてHPを大回復する",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 4011,
+      "name": "状態異常回復",
+      "group_id": 4011,
+      "description": "状態異常を受けている味方にふれると[LF]状態異常を解除できる",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 4021,
+      "name": "リジェネ",
+      "group_id": 4021,
+      "description": "毎ターンHPが2000回復する",
+      "created_at": 1619453157,
+      "updated_at": 1640685892
+    },
+    {
+      "id": 4022,
+      "name": "リジェネM",
+      "group_id": 4022,
+      "description": "毎ターンHPが3000回復する",
+      "created_at": 1619453157,
+      "updated_at": 1640685892
+    },
+    {
+      "id": 4031,
+      "name": "リジェネ(ラック)",
+      "group_id": 4031,
+      "description": "毎ターン一定量のHPが回復する[LF]ラック数に応じて回復量が変化する[LF]運極でリジェネと同じ2000回復になる",
+      "created_at": 1619453157,
+      "updated_at": 1640685892
+    },
+    {
+      "id": 4032,
+      "name": "リジェネM(ラック)",
+      "group_id": 4032,
+      "description": "毎ターン一定量のHPが回復する[LF]ラック数に応じて回復量が変化する[LF]運極でリジェネMと同じ3000回復になる",
+      "created_at": 1619453157,
+      "updated_at": 1640685892
+    },
+    {
+      "id": 4041,
+      "name": "ノーダメヒール",
+      "group_id": 4041,
+      "description": "敵ターン中に敵が攻撃した際に自身がダメージを[LF]受けなかった場合、HPが5000回復する",
+      "created_at": 1640685892,
+      "updated_at": 1640685892
+    },
+    {
+      "id": 4101,
+      "name": "ドレインS",
+      "group_id": 4101,
+      "description": "敵にふれてダメージを与える毎にHPが小回復する",
+      "created_at": 1619453157,
+      "updated_at": 1640685892
+    },
+    {
+      "id": 4102,
+      "name": "ドレイン",
+      "group_id": 4102,
+      "description": "敵にふれてダメージを与える毎にHPが中回復する",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    }
+  ]
+}

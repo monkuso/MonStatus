@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 1,
+  "table": "texts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 5434,
+      "text": "必要合計EXP あと",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_MSG_COLLABO_SAO2_RAID_MISSION_REWARD_REQUIRE_EXP"
+    },
+    {
+      "id": 5435,
+      "text": "天命を%d以下にせよ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_MSG_COLLABO_SAO2_RAID_MISSION_REWARD_REQUIRE_HP"
+    },
+    {
+      "id": 5436,
+      "text": "[LC]ギガスシダー討伐ミッション[LF][LF][CCB:dlme/help_collabo_sao2_mission_00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_MSG_COLLABO_SAO2_RAID_MISSION_HELP"
+    },
+    {
+      "id": 5437,
+      "text": "集計中",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_MSG_COLLABO_SAO2_TALLYING"
+    },
+    {
+      "id": 5438,
+      "text": "参加ストライカー達のLEVELが高いほど、天命を減らせる！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_MSG_COLLABO_SAO2_DESCRIPTION2"
+    },
+    {
+      "id": 5439,
+      "text": "[LC]個人ミッション達成[LF][LF][LC][S2][C5:《LEVEL%d》達成][LF][LF][LC]報酬を受け取りボックスに配布しました[LF][LF]※複数のLEVELを達成している場合、[LF]全ての報酬が配布されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_MSG_COLLABO_SAO2_RAID_MISSION_LEVEL_CLEAR"
+    },
+    {
+      "id": 5440,
+      "text": "[LC]個人ミッション達成[LF][LF][LC][S2][C5:《LEVEL%d》達成][LF][LF][LC]LEVELがMAXになりました[LF][LC]報酬を受け取りボックスに配布しました[LF][LF]※複数のLEVELを達成している場合、[LF]全ての報酬が配布されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_MSG_COLLABO_SAO2_RAID_MISSION_LEVEL_COMPLETE"
+    },
+    {
+      "id": 5441,
+      "text": "[LC]討伐状況[LF][LF][LC][C5:《ギガスシダー天命%d以下》達成][LF][LF][LC]報酬を受け取りボックスに配布しました[LF][LF]※複数の条件を達成している場合、[LF]全ての報酬が配布されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_MSG_COLLABO_SAO2_RAID_MISSION_RAID_CLEAR"
+    },
+    {
+      "id": 5442,
+      "text": "[LC]討伐状況[LF][LF][LC][C5:ギガスシダーを切り倒しました！][LF][LF][b:ba_stage21270.png][LF]超究極クエスト降臨開始！[LF][LF]達成日の翌日12:00に初降臨します！[LF][LF]※複数の条件を達成している場合、[LF]全ての報酬が受取ボックスに配布されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_MSG_COLLABO_SAO2_RAID_MISSION_RAID_COMPLETE"
+    },
+    {
+      "id": 5443,
+      "text": "CLEAR",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_MSG_COLLABO_SAO2_PERSONAL_MISSION_SUBTITLE_CLEARED"
+    },
+    {
+      "id": 5444,
+      "text": "[LF]超究極クエスト降臨開始！[LF][SGBI21270][LF]クエストクリアで[LF]閃光のアスナ＆黒の剣士キリトから[LF][C6:《上級修剣士》ユージオ＆キリト]への[LF]進化を解放できる！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_MSG_COLLABO_SAO2_RAID_COMPLETE_REWARD_TEXT"
+    },
+    {
+      "id": 5445,
+      "text": "[C6:コラボ限定ガチャ開催中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21700"
+    },
+    {
+      "id": 5446,
+      "text": "[b:ba_help_collabo_sao2_00_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21701"
+    },
+    {
+      "id": 5447,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21702"
+    },
+    {
+      "id": 5448,
+      "text": "7/17 12:00～8/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21703"
+    },
+    {
+      "id": 5449,
+      "text": "[C5:コラボ限定ガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21704"
+    },
+    {
+      "id": 5450,
+      "text": "新登場キャラ！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21705"
+    },
+    {
+      "id": 5451,
+      "text": "ガチャ[C6:｢ソードアート・オンライン アリシゼーション｣]が[LF]期間限定で開催中！新キャラ5体が登場！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21706"
+    },
+    {
+      "id": 5452,
+      "text": "[IP8010]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21707"
+    },
+    {
+      "id": 5453,
+      "text": "[IP8006]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21708"
+    },
+    {
+      "id": 5454,
+      "text": "[IP8008]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21709"
+    },
+    {
+      "id": 5455,
+      "text": "[IP8004]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21710"
+    },
+    {
+      "id": 5456,
+      "text": "[IP8012]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21711"
+    },
+    {
+      "id": 5457,
+      "text": "復刻！第1弾キャラ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21712"
+    },
+    {
+      "id": 5458,
+      "text": "3体の獣神化、解禁！＆ガチャ復刻！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21713"
+    },
+    {
+      "id": 5459,
+      "text": "[IP8002]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21714"
+    },
+    {
+      "id": 5460,
+      "text": "[IP8000]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21715"
+    },
+    {
+      "id": 5461,
+      "text": "[IP8001]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21716"
+    },
+    {
+      "id": 5462,
+      "text": "[IP5871]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21717"
+    },
+    {
+      "id": 5463,
+      "text": "[IP5875]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21718"
+    },
+    {
+      "id": 5464,
+      "text": "[C6:コラボ限定クエスト出現中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21719"
+    },
+    {
+      "id": 5465,
+      "text": "[b:ba_help_collabo_sao2_00_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21720"
+    },
+    {
+      "id": 5466,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21721"
+    },
+    {
+      "id": 5467,
+      "text": "7/17 12:00～8/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21722"
+    },
+    {
+      "id": 5468,
+      "text": "[C5:コラボ限定クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21723"
+    },
+    {
+      "id": 5469,
+      "text": "降臨クエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21724"
+    },
+    {
+      "id": 5470,
+      "text": "決まった時間にクエストが出現！[LF]降臨時間は[C6:スケジュール＆繰り返し予約]で確認しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21725"
+    },
+    {
+      "id": 5471,
+      "text": "アドミニストレータ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21726"
+    },
+    {
+      "id": 5472,
+      "text": "[C6:★5 アドミニストレータ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21727"
+    },
+    {
+      "id": 5473,
+      "text": "[IP8020]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21728"
+    },
+    {
+      "id": 5474,
+      "text": "ダークテリトリー",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21729"
+    },
+    {
+      "id": 5475,
+      "text": "[C3:★5 暗黒神ベクタ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21730"
+    },
+    {
+      "id": 5476,
+      "text": "[IP8022]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21731"
+    },
+    {
+      "id": 5477,
+      "text": "ぼくの英雄",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21732"
+    },
+    {
+      "id": 5478,
+      "text": "難易度：超究極",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21733"
+    },
+    {
+      "id": 5479,
+      "text": "[C6:★5 アドミニストレータ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21734"
+    },
+    {
+      "id": 5480,
+      "text": "[IP8020]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21735"
+    },
+    {
+      "id": 5481,
+      "text": "※クエスト[C6:｢ぼくの英雄｣]は[LF][C6:ギガスシダー討伐ミッションを達成]で解放！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21736"
+    },
+    {
+      "id": 5482,
+      "text": "イベントクエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21737"
+    },
+    {
+      "id": 5483,
+      "text": "コラボ期間中、常に挑戦できるクエストが出現！[LF]クリアしてコラボキャラクターを手に入れよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21738"
+    },
+    {
+      "id": 5484,
+      "text": "騎士たちの戦い",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21739"
+    },
+    {
+      "id": 5485,
+      "text": "[C5:★5 ヴァサゴ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21740"
+    },
+    {
+      "id": 5486,
+      "text": "[IP8016]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21741"
+    },
+    {
+      "id": 5487,
+      "text": "シンセサイズ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21742"
+    },
+    {
+      "id": 5488,
+      "text": "[C2:★4 チュデルキン]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21743"
+    },
+    {
+      "id": 5489,
+      "text": "[IP8014]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21744"
+    },
+    {
+      "id": 5490,
+      "text": "剣と拳",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21745"
+    },
+    {
+      "id": 5491,
+      "text": "[C4:★4 イスカーン]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21746"
+    },
+    {
+      "id": 5492,
+      "text": "[IP8018]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21747"
+    },
+    {
+      "id": 5493,
+      "text": "追憶の書庫クエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21748"
+    },
+    {
+      "id": 5494,
+      "text": "コラボ期間中[C6:追憶の書庫]にコラボ限定クエストが出現！[LF][LF][C2:猛炎の将　　★5 ユージーン][LF][C4:死の追撃者　★5 デス・ガン][LF][C6:解放の日　　★5 ヒースクリフ][LF][C3:絶剣　　　　★5 ユウキ][LF][C5:紅の殺意　　★4 クラディール][LF][C4:鍍金の勇者　★4 オベイロン][LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21749"
+    },
+    {
+      "id": 5495,
+      "text": "[SW0.9][C6:1日1回限定クリアボーナスを手に入れよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21750"
+    },
+    {
+      "id": 5496,
+      "text": "[b:ba_help_collabo_sao2_00_3.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21751"
+    },
+    {
+      "id": 5497,
+      "text": "[C5:1日1回限定クリアボーナス！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21752"
+    },
+    {
+      "id": 5498,
+      "text": "コラボクエスト[C5:｢騎士たちの戦い｣]究極クリアで[LF][C5:★5 ヴァサゴ]が[C6:7体]獲得できる！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21753"
+    },
+    {
+      "id": 5499,
+      "text": "[IP8015]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21754"
+    },
+    {
+      "id": 5500,
+      "text": "さらにマルチプレイで[LF]金卵2個以上のドロップ率アップ！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21755"
+    },
+    {
+      "id": 5501,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20200713_2.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21756"
+    },
+    {
+      "id": 5502,
+      "text": "[C6:地神テラリアを集めよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21800"
+    },
+    {
+      "id": 5503,
+      "text": "[b:ba_help_collabo_sao2_01_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21801"
+    },
+    {
+      "id": 5504,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21802"
+    },
+    {
+      "id": 5505,
+      "text": "7/17 12:00～8/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21803"
+    },
+    {
+      "id": 5506,
+      "text": "[C5:期間限定ラック+99]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21804"
+    },
+    {
+      "id": 5507,
+      "text": "[C4:★6 地神テラリア]は、[LF]本来のラックに[C6:+99]された[C6:運極]の状態に！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21805"
+    },
+    {
+      "id": 5508,
+      "text": "[IP8023]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21806"
+    },
+    {
+      "id": 5509,
+      "text": "コラボ期間中",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21807"
+    },
+    {
+      "id": 5510,
+      "text": "[LUCK][C4:+99]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21808"
+    },
+    {
+      "id": 5511,
+      "text": "コラボ期間中に[C6:99体]を集めて、[LF]期間終了後も[C6:運極キャラ]として使おう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21809"
+    },
+    {
+      "id": 5512,
+      "text": "[C5:地神テラリア入手方法]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21810"
+    },
+    {
+      "id": 5513,
+      "text": "入手方法１",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21811"
+    },
+    {
+      "id": 5514,
+      "text": "[C6:ギガスシダー討伐ミッション]で入手可能！[LF]ミッションをクリアし、LEVELを上げて集めよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21812"
+    },
+    {
+      "id": 5515,
+      "text": "[C6:UP！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21813"
+    },
+    {
+      "id": 5516,
+      "text": "入手方法２",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21814"
+    },
+    {
+      "id": 5517,
+      "text": "[C6:ログインスタンプ]で入手可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21815"
+    },
+    {
+      "id": 5518,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20200713_2.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21816"
+    },
+    {
+      "id": 5519,
+      "text": "[S-2][C6:全ストライカー協力！ギガスシダーを切り倒せ！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21900"
+    },
+    {
+      "id": 5520,
+      "text": "[b:ba_help_collabo_sao2_mission_00_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21901"
+    },
+    {
+      "id": 5521,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21902"
+    },
+    {
+      "id": 5522,
+      "text": "7/17 12:00～8/5 AM3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21903"
+    },
+    {
+      "id": 5523,
+      "text": "[C5:ギガスシダー討伐ミッションとは？]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21904"
+    },
+    {
+      "id": 5524,
+      "text": "《悪魔の樹》ギガスシダーを討伐し、[LF][C6:《上級修剣士》ユージオ＆キリト]を解放しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594904630,
+      "label": "eTEXTS_DEF_21905"
+    },
+    {
+      "id": 5525,
+      "text": "[IP8024]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21906"
+    },
+    {
+      "id": 5526,
+      "text": "ただし[C6:《天命》]と呼ばれる[C6:ギガスシダーのHP]は膨大！[LF]全ストライカーで協力し、ミッションに挑もう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21907"
+    },
+    {
+      "id": 5527,
+      "text": "[C5:ギガスシダー討伐方法]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21908"
+    },
+    {
+      "id": 5528,
+      "text": "まずは[C6:個人ミッション]を達成し[C6:LEVEL]を上げよう！[LF]ミッションごとに設定された[C6:EXPを溜める]ことで[LF]LEVELが上がるぞ！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21909"
+    },
+    {
+      "id": 5529,
+      "text": "[C6:UP！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21910"
+    },
+    {
+      "id": 5530,
+      "text": "個人ミッションでは達成した[C6:LEVELに応じて][LF][C6:報酬も獲得可能！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21911"
+    },
+    {
+      "id": 5531,
+      "text": "[IP8023]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21912"
+    },
+    {
+      "id": 5532,
+      "text": "ストライカー達の[C6:LEVEL]に応じて、[LF]ギガスシダーの天命は削られるぞ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21913"
+    },
+    {
+      "id": 5533,
+      "text": "あと",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21914"
+    },
+    {
+      "id": 5534,
+      "text": "あと",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21915"
+    },
+    {
+      "id": 5535,
+      "text": "天命を削った段階に応じて報酬を獲得！[LF]報酬は[C6:全ストライカー]が受け取ることが出来るぞ！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21916"
+    },
+    {
+      "id": 5536,
+      "text": "[C6:報酬ゲット！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21917"
+    },
+    {
+      "id": 5537,
+      "text": "天命を0にすると[C6:超究極クエスト｢ぼくの英雄｣]が降臨！[LF]みんなで挑戦しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21918"
+    },
+    {
+      "id": 5538,
+      "text": "※ギガスシダーの天命は[C6:10分毎に更新されます][LF]更新されない場合は一度タイトルに戻るか、[LF]しばらく経ってから確認してください",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21919"
+    },
+    {
+      "id": 5539,
+      "text": "[C5:超究極クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21920"
+    },
+    {
+      "id": 5540,
+      "text": "ギガスシダーの[C6:天命を0にする]と、[LF]超究極クエストが降臨！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21921"
+    },
+    {
+      "id": 5541,
+      "text": "ぼくの英雄",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21922"
+    },
+    {
+      "id": 5542,
+      "text": "難易度：超究極",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21923"
+    },
+    {
+      "id": 5543,
+      "text": "[C6:★5 アドミニストレータ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21924"
+    },
+    {
+      "id": 5544,
+      "text": "[IP8020]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21925"
+    },
+    {
+      "id": 5545,
+      "text": "1回クリアすることで[C6:閃光のアスナ＆黒の剣士キリト]から[LF][C6:《上級修剣士》ユージオ＆キリト]に進化可能！[LF]進化素材なしで、いつでも進化形態を[LF]切り替えることが出来るぞ！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21926"
+    },
+    {
+      "id": 5546,
+      "text": "[IP5008]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21927"
+    },
+    {
+      "id": 5547,
+      "text": "[IP8024]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21928"
+    },
+    {
+      "id": 5548,
+      "text": "ホーム画面の[C6:ミッション]から受取可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21929"
+    },
+    {
+      "id": 5549,
+      "text": "[C6:ゲット！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21930"
+    },
+    {
+      "id": 5550,
+      "text": "超究極クエスト降臨時間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21931"
+    },
+    {
+      "id": 5551,
+      "text": "ギガスシダー討伐を達成した[LF][C6:翌日の12:00～15:00に初降臨します][LF]その後は以下のスケジュールで降臨します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21932"
+    },
+    {
+      "id": 5552,
+      "text": "2020/8/1まで、毎日以下の時間に降臨[LF][C6:12:00～15:00][LF][C6:19:00～22:00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594904630,
+      "label": "eTEXTS_DEF_21933"
+    },
+    {
+      "id": 5553,
+      "text": "2020/8/2[LF][C6:09:00～11:59]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594904630,
+      "label": "eTEXTS_DEF_21934"
+    },
+    {
+      "id": 5554,
+      "text": "※日付の切り替わりはAM4:00です[LF][LF]※同クエストのスケジュール、繰り返し予約の表示も[LF]達成した翌日から開始となります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21935"
+    },
+    {
+      "id": 5555,
+      "text": "[C5:個人ミッションについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21936"
+    },
+    {
+      "id": 5556,
+      "text": "LEVELを上げることのできる個人ミッションには[LF][C6:様々な種類]が！[LF]条件や獲得できるEXPを確認して、挑戦しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21937"
+    },
+    {
+      "id": 5557,
+      "text": "ミッション項目",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21938"
+    },
+    {
+      "id": 5558,
+      "text": "ミッション内容①",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21939"
+    },
+    {
+      "id": 5559,
+      "text": "ミッション内容②",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21940"
+    },
+    {
+      "id": 5560,
+      "text": "回復薬ミッションについて",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21941"
+    },
+    {
+      "id": 5561,
+      "text": "コラボクエストで[C6:回復薬]を集めよう！[LF]クエスト中、回復薬に触れることで[C6:数をカウント！][LF]成長段階によって、カウント数が変わります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21942"
+    },
+    {
+      "id": 5562,
+      "text": "1個",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21943"
+    },
+    {
+      "id": 5563,
+      "text": "2個",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21944"
+    },
+    {
+      "id": 5564,
+      "text": "3個",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21945"
+    },
+    {
+      "id": 5565,
+      "text": "対象コラボキャラ一覧",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21946"
+    },
+    {
+      "id": 5566,
+      "text": "コラボキャラ出撃ミッションの編成対象キャラ[LF][LF][C5:★6　ユージオ][LF][C4:★6　ベルクーリ・シンセシス・ワン][LF][C6:★6　アリス・シンセシス・サーティ][LF][C3:★5　キリト][LF][C5:★5　アスナ][LF][C6:★5　シノン][LF][C2:★4　ロニエ＆ティーゼ][LF][C3:★4　カーディナル][LF][C4:★6　地神テラリア][LF][C4:★4　リーファ][LF][C2:★4　シリカ＆リズベット][LF][C5:★5　ヴァサゴ][LF][C6:★5　アドミニストレータ][LF][C3:★5　暗黒神ベクタ][LF][C2:★4　チュデルキン][LF][C4:★4　イスカーン][LF][C2:★5　ユージーン][LF][C4:★5　デス・ガン][LF][C6:★5　ヒースクリフ][LF][C3:★5　ユウキ][LF][C5:★4　クラディール][LF][C4:★4　オベイロン][LF][C6:★5　アスナ＆キリト][LF](※進化[C6:《上級修剣士》ユージオ＆キリト]も対象)[LF][C6:★5　アリス・ツーベルク]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594904630,
+      "label": "eTEXTS_DEF_21947"
+    },
+    {
+      "id": 5567,
+      "text": "※進化後、神化後、獣神化後も含みます[LF][LF]※回復薬・ハイポーションの効果はハートと同様です[LF][LF]※クエストクリアが条件となるミッションは、[LF]特に記載がない限り、[LF]｢ソロ｣マルチプレイの｢ホスト｣｢ゲスト｣[LF]いずれのクリアでも達成可能です[LF][LF]※すべてクリアしなくても、報酬の[C4:｢地神テラリア｣][LF][C6:｢アスナ＆キリト｣は80体獲得]することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594904630,
+      "label": "eTEXTS_DEF_21948"
+    },
+    {
+      "id": 5568,
+      "text": "第1弾コラボクエストではハイポーションが登場しますが[LF]このアイテムも同様にカウントされます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1594816862,
+      "updated_at": 1594816862,
+      "label": "eTEXTS_DEF_21949"
+    },
+    {
+      "id": 5569,
+      "text": "[LC]スタミナが足りません[LF][LF]CMを視聴して最大値分の%d回復できます。[LF][LF]※ショップ画面に遷移します",
+      "layout": 24,
+      "color": 0,
+      "created_at": 1596703328,
+      "updated_at": 1597680622,
+      "label": "eTEXTS_DEF_MSG_STAGE_CM_RESTORE_LINE"
+    },
+    {
+      "id": 5570,
+      "text": "※CM視聴によるスタミナ回復は[C6:1日最大1回]まで",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1596703328,
+      "updated_at": 1745251118,
+      "label": "eTEXTS_DEF_15812"
+    },
+    {
+      "id": 5571,
+      "text": "[LC]スタミナが足りません[LF][LF]CMを視聴して最大値分の%d回復できます。[LF][LF]※ショップ画面に遷移します",
+      "layout": 24,
+      "color": 0,
+      "created_at": 1597680622,
+      "updated_at": 1597680622,
+      "label": "eTEXTS_DEF_MSG_STAGE_CM_RESTORE"
+    },
+    {
+      "id": 5572,
+      "text": "[LC]スタミナ回復[LF][LF][C8:CMを視聴して最大値分の%d回復できます][LF][LF][C8:フエ～ルビスケット]を使用するために[LF]スタミナを回復しますか？[LF][LF]※ショップ画面に遷移します",
+      "layout": 24,
+      "color": 0,
+      "created_at": 1597680622,
+      "updated_at": 1597680622,
+      "label": "eTEXTS_DEF_MSG_BAIBAI_ITEM_CM_RESTORE"
+    },
+    {
+      "id": 5573,
+      "text": "[LC]スタミナ回復[LF][WIDTH580][LF][LC][MARGIN20][LF][LC][NODE][MARGIN20][LF][C8:CMを視聴]して[C8:最大値分の%d回復できます][LF][LF]CMを視聴しますか？[LF][LF]※ 視聴完了後、モンストを開いた時点でスタミナは回復します[LF]※ CMのBGMは、端末のサウンド設定が反映されます[LF]※ CM視聴によるスタミナ回復は1日最大1回まで",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1597680622,
+      "updated_at": 1597680622,
+      "label": "eTEXTS_DEF_SHOP_STAMINA_RECOVERY_BY_CM_MSG"
+    },
+    {
+      "id": 5574,
+      "text": "｢未開の大地｣の開催時",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1597680622,
+      "updated_at": 1695658301,
+      "label": "eTEXTS_DEF_OPTION_CONTENTS_NOTIFICATION_FRONTIER"
+    },
+    {
+      "id": 5575,
+      "text": "「未開の大地」が出現！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1597680622,
+      "updated_at": 1597680622,
+      "label": "eTEXTS_DEF_NOTIFICATON_CONTENTS_FRONTIER"
+    },
+    {
+      "id": 5576,
+      "text": "[C5:マイスポットについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1597680622,
+      "updated_at": 1597680622,
+      "label": "eTEXTS_DEF_11566"
+    },
+    {
+      "id": 5577,
+      "text": "自分がいる場所に[C6:スポット]を設置できる機能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1597680622,
+      "updated_at": 1597680622,
+      "label": "eTEXTS_DEF_11567"
+    },
+    {
+      "id": 5578,
+      "text": "マイスポットは[C6:自分にしか表示されない]専用の[LF]スポットになります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1597680622,
+      "updated_at": 1597680622,
+      "label": "eTEXTS_DEF_11568"
+    },
+    {
+      "id": 5579,
+      "text": "★%d %s",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1597680622,
+      "updated_at": 1597680622,
+      "label": "eTEXTS_DEF_CHARA_NAME_TEMPLATE"
+    },
+    {
+      "id": 5580,
+      "text": "[LC]ストアでレビューする[LF][LF]モンストを遊んでいただき[LF]ありがとうございます[LF][LF]よろしければ励ましのレビューを[LF]お寄せください[LF][LF]ご協力をお願いいたします",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1597680622,
+      "updated_at": 1597680622,
+      "label": "eTEXTS_DEF_MSG_STORE_REVIEW_SUGGEST"
+    },
+    {
+      "id": 5581,
+      "text": "レビューする",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1597680622,
+      "updated_at": 1597680622,
+      "label": "eTEXTS_DEF_MSG_STORE_REVIEW_SUGGEST_BUTTON"
+    },
+    {
+      "id": 5582,
+      "text": "フレンドからのマルチ募集",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1597680622,
+      "updated_at": 1646756064,
+      "label": "eTEXTS_DEF_OPTION_FRIEND_MULTI_AVAILABLE"
+    },
+    {
+      "id": 5583,
+      "text": "[LC][C2:◆◆　警告　◆◆][LF][LF][LC][NODE][LF]このモンスターは[C6:特別な素材]を[LF]使用した進化形態です[LF]他の形態にすると元に戻せない[LF]可能性があります[LF][LF]本当によろしいですか？",
+      "layout": 8,
+      "color": 1,
+      "created_at": 1597680622,
+      "updated_at": 1597680622,
+      "label": "eTEXTS_DEF_EVO_SP_MATERIAL_WARNNING"
+    },
+    {
+      "id": 5584,
+      "text": "[C6:コラボ限定ガチャ開催中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22200"
+    },
+    {
+      "id": 5585,
+      "text": "[b:ba_help_collabo_ha2_00_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22201"
+    },
+    {
+      "id": 5586,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22202"
+    },
+    {
+      "id": 5587,
+      "text": "9/2 12:00 ～ 9/17 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22203"
+    },
+    {
+      "id": 5588,
+      "text": "[C5:コラボ限定ガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22204"
+    },
+    {
+      "id": 5589,
+      "text": "新登場キャラ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22205"
+    },
+    {
+      "id": 5590,
+      "text": "ガチャ[C6:｢僕のヒーローアカデミア｣]が期間限定で開催中！[LF]新キャラ5体が登場！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22206"
+    },
+    {
+      "id": 5591,
+      "text": "[IP8096]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22207"
+    },
+    {
+      "id": 5592,
+      "text": "[IP8100]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22208"
+    },
+    {
+      "id": 5593,
+      "text": "[IP8104]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22209"
+    },
+    {
+      "id": 5594,
+      "text": "[IP8098]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22210"
+    },
+    {
+      "id": 5595,
+      "text": "[IP8102]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22211"
+    },
+    {
+      "id": 5596,
+      "text": "第1弾キャラ再登場",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22212"
+    },
+    {
+      "id": 5597,
+      "text": "3体の獣神化・改、解禁！＆ガチャ復刻！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22213"
+    },
+    {
+      "id": 5598,
+      "text": "[IP8094]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22214"
+    },
+    {
+      "id": 5599,
+      "text": "[IP8092]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22215"
+    },
+    {
+      "id": 5600,
+      "text": "[IP8093]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22216"
+    },
+    {
+      "id": 5601,
+      "text": "[IP7175]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22217"
+    },
+    {
+      "id": 5602,
+      "text": "[IP7179]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22218"
+    },
+    {
+      "id": 5603,
+      "text": "EXおまけ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22219"
+    },
+    {
+      "id": 5604,
+      "text": "どちらのガチャも、10連ガチャのEXおまけとして[LF][C6:コラボ限定グッジョブ]がいずれか1つ付いてくる！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22220"
+    },
+    {
+      "id": 5605,
+      "text": "[C6:コラボ限定クエスト開催中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22221"
+    },
+    {
+      "id": 5606,
+      "text": "[b:ba_help_collabo_ha2_00_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22222"
+    },
+    {
+      "id": 5607,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22223"
+    },
+    {
+      "id": 5608,
+      "text": "9/2 12:00 ～ 9/17 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22224"
+    },
+    {
+      "id": 5609,
+      "text": "[C5:コラボ限定クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22225"
+    },
+    {
+      "id": 5610,
+      "text": "降臨クエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22226"
+    },
+    {
+      "id": 5611,
+      "text": "スケジュールに沿ってクエストが出現！[LF]降臨時間は[C6:スケジュール＆繰り返し予約]で確認しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22227"
+    },
+    {
+      "id": 5612,
+      "text": "抗う運命",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22228"
+    },
+    {
+      "id": 5613,
+      "text": "[C2:★5 オーバーホール]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22229"
+    },
+    {
+      "id": 5614,
+      "text": "[IP8106]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22230"
+    },
+    {
+      "id": 5615,
+      "text": "始まりの",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22231"
+    },
+    {
+      "id": 5616,
+      "text": "[C3:★5 ハイエンド脳無]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22232"
+    },
+    {
+      "id": 5617,
+      "text": "[IP8115]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22233"
+    },
+    {
+      "id": 5618,
+      "text": "イベントクエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22234"
+    },
+    {
+      "id": 5619,
+      "text": "コラボ期間中、常に挑戦できるクエストが出現！[LF]クリアしてコラボキャラクターを手に入れよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22235"
+    },
+    {
+      "id": 5620,
+      "text": "ゴールドティップスインペリアル",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22236"
+    },
+    {
+      "id": 5621,
+      "text": "[C6:★5 ジェントル・クリミナル＆ラブラバ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22237"
+    },
+    {
+      "id": 5622,
+      "text": "[IP8113]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22238"
+    },
+    {
+      "id": 5623,
+      "text": "バトルジャンキー",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22239"
+    },
+    {
+      "id": 5624,
+      "text": "[C5:★4 乱波肩動]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22240"
+    },
+    {
+      "id": 5625,
+      "text": "[IP8109]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22241"
+    },
+    {
+      "id": 5626,
+      "text": "見えない希望",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22242"
+    },
+    {
+      "id": 5627,
+      "text": "[C4:★4 クロノスタシス]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22243"
+    },
+    {
+      "id": 5628,
+      "text": "[IP8111]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22244"
+    },
+    {
+      "id": 5629,
+      "text": "追憶の書庫クエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22245"
+    },
+    {
+      "id": 5630,
+      "text": "[LC]破壊と再生の最高神 真・シヴァを手に入れろ！[LF][LF]このクエストをクリアすると、ミッション報酬で[LF][C3:★5 真・シヴァ]を[C3:★6 破壊と再生の最高神 真・シヴァ][LF]に進化させる事ができるようになるぞ！[LF][LF]このクエストに挑むには[LF]クエスト[C3:「真価を問う破と再生の眼」]の[C6:究極]をクリアしよう！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1597680622,
+      "updated_at": 1597680622,
+      "label": "eTEXTS_DEF_20914"
+    },
+    {
+      "id": 5631,
+      "text": "「真価を問う破と再生の眼」クリアで挑戦可",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1597680622,
+      "updated_at": 1597680622,
+      "label": "eTEXTS_DEF_20915"
+    },
+    {
+      "id": 5632,
+      "text": "コラボ期間中[C6:追憶の書庫]にコラボ限定クエストが出現！[LF][LF][C6:無邪気な邪悪　　　　　　　　★5 死柄木弔][LF][C3:漆黒のワープゲート　　  　　 ★4 黒霧][LF][C2:ヴィラン連合”開闢行動隊”　　 ★5 荼毘][LF][C5:生きやすい世の中に　　　　　★4 トガヒミコ][LF][C4:贋物が蔓延る社会の粛清　　　★5 ステイン]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22246"
+    },
+    {
+      "id": 5633,
+      "text": "[SW0.9][C6:1日1回限定クリアボーナスを手に入れよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22247"
+    },
+    {
+      "id": 5634,
+      "text": "[b:ba_help_collabo_ha2_00_3.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22248"
+    },
+    {
+      "id": 5635,
+      "text": "[C5:1日1回限定クリアボーナス！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22249"
+    },
+    {
+      "id": 5636,
+      "text": "コラボクエスト[C6:｢ゴールドティップスインペリアル｣][LF]究極クリアで[C6:★5 ジェントル・クリミナル＆ラブラバ]が[LF][C6:7体]獲得できる！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22250"
+    },
+    {
+      "id": 5637,
+      "text": "[IP8112]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598959435,
+      "label": "eTEXTS_DEF_22251"
+    },
+    {
+      "id": 5638,
+      "text": "さらにマルチプレイで[LF]金卵2個以上のドロップ率アップ！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22252"
+    },
+    {
+      "id": 5639,
+      "text": "[SW0.85][C6:ミッションクリアでオーバーホールの進化解放！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22253"
+    },
+    {
+      "id": 5640,
+      "text": "[b:ba_help_collabo_ha2_00_4.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22254"
+    },
+    {
+      "id": 5641,
+      "text": "[C5:超究極クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22255"
+    },
+    {
+      "id": 5642,
+      "text": "超究極クエスト[C2:｢オーバーホール｣]が降臨！[LF][C2:｢抗う運命｣]の全てのステージクリアで[LF]超究極クエスト[C2:｢オーバーホール｣]に挑戦可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22256"
+    },
+    {
+      "id": 5643,
+      "text": "オーバーホール",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22257"
+    },
+    {
+      "id": 5644,
+      "text": "難易度：超究極",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22258"
+    },
+    {
+      "id": 5645,
+      "text": "[C2:★5 オーバーホール]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22259"
+    },
+    {
+      "id": 5646,
+      "text": "[IP21605]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22260"
+    },
+    {
+      "id": 5647,
+      "text": "1回クリアすることで[C2:★6 死穢八斎會若頭 オーバーホール]を[LF][C2:★6 理の破壊者 オーバーホール]に進化可能！[LF]進化素材なしでいつでも進化形態を切り替えることが出来る！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22261"
+    },
+    {
+      "id": 5648,
+      "text": "[IP8106]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22262"
+    },
+    {
+      "id": 5649,
+      "text": "[IP8107]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22263"
+    },
+    {
+      "id": 5650,
+      "text": "ホーム画面の[C6:ミッション]から受け取り可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22264"
+    },
+    {
+      "id": 5651,
+      "text": "[C6:ゲット！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22265"
+    },
+    {
+      "id": 5652,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20200828_3.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22266"
+    },
+    {
+      "id": 5653,
+      "text": "[C6:雄英コインをたくさん集めよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22300"
+    },
+    {
+      "id": 5654,
+      "text": "[b:ba_help_collabo_ha2_01_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22301"
+    },
+    {
+      "id": 5655,
+      "text": "引換期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22302"
+    },
+    {
+      "id": 5656,
+      "text": "9/2 12:00 ～ 9/20 AM3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22303"
+    },
+    {
+      "id": 5657,
+      "text": "[C5:雄英コインとは]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22304"
+    },
+    {
+      "id": 5658,
+      "text": "[C6:コラボ限定キャラ]や[C6:アイテム]と[LF]引き換えることができるアイテムです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22305"
+    },
+    {
+      "id": 5659,
+      "text": "雄英コイン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22306"
+    },
+    {
+      "id": 5660,
+      "text": "雄英コインの入手方法",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22307"
+    },
+    {
+      "id": 5661,
+      "text": "9/17 11:59まで出現の[C6:対象クエストを][LF][C6:クリア]すると、雄英コインが手に入ります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22308"
+    },
+    {
+      "id": 5662,
+      "text": "[SGBI21490]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22309"
+    },
+    {
+      "id": 5663,
+      "text": "※このクエストではボスはドロップしません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22310"
+    },
+    {
+      "id": 5664,
+      "text": "クエストの道中でまれに登場する[LF][C6:雄英ボックス]を壊すと[LF]雄英コインが手に入ります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22311"
+    },
+    {
+      "id": 5665,
+      "text": "雄英ボックス",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22312"
+    },
+    {
+      "id": 5666,
+      "text": "[C6:バトルチャレンジに挑戦しよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22313"
+    },
+    {
+      "id": 5667,
+      "text": "[b:ba_help_collabo_ha2_01_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22314"
+    },
+    {
+      "id": 5668,
+      "text": "[C5:バトルチャレンジとは]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22315"
+    },
+    {
+      "id": 5669,
+      "text": "[C6:｢ビッグ3と更に向こうへ！戦闘訓練！！｣]では[LF]クエスト開始時に[C6:｢バトルチャレンジ｣]が出現します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22316"
+    },
+    {
+      "id": 5670,
+      "text": "チャレンジ内容",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22317"
+    },
+    {
+      "id": 5671,
+      "text": "バトルチャレンジ達成数に応じて[LF][C6:バトルチャレンジボーナス]が追加され[LF]クエストクリア時の入手コインが増加します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22318"
+    },
+    {
+      "id": 5672,
+      "text": "バトルチャレンジ達成数：　　　[C6:3]/4",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22319"
+    },
+    {
+      "id": 5673,
+      "text": "バトルチャレンジボーナス　[C6:×1.3倍]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22320"
+    },
+    {
+      "id": 5674,
+      "text": "※バトルチャレンジは[C6:全10種からランダムで4つ][LF]選択されます[LF][LF]※バトルチャレンジボーナスは[C6:1.1倍～1.5倍]です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22321"
+    },
+    {
+      "id": 5675,
+      "text": "[C6:キャラやアイテムと引き換えよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22322"
+    },
+    {
+      "id": 5676,
+      "text": "[b:ba_help_collabo_ha2_01_3.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22323"
+    },
+    {
+      "id": 5677,
+      "text": "[C5:引き換えについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22324"
+    },
+    {
+      "id": 5678,
+      "text": "集めた雄英コインを使用して[LF][C6:キャラ]や[C6:アイテム]と引き換えができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22325"
+    },
+    {
+      "id": 5679,
+      "text": "[IP8118]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22326"
+    },
+    {
+      "id": 5680,
+      "text": "※アイテムごとに、引き換え上限数は異なります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22327"
+    },
+    {
+      "id": 5681,
+      "text": "コラボ限定グッジョブ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22328"
+    },
+    {
+      "id": 5682,
+      "text": "ここでしか手に入らない[C6:コラボ限定グッジョブが登場！][LF]雄英コインで引き換えよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22329"
+    },
+    {
+      "id": 5683,
+      "text": "全ラインナップは雄英コイン引き換えで確認しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22330"
+    },
+    {
+      "id": 5684,
+      "text": "雄英コイン引き換え",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22331"
+    },
+    {
+      "id": 5685,
+      "text": "[SW0.95][C6:日替わり“個性”BOXキャンペーン実施中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22332"
+    },
+    {
+      "id": 5686,
+      "text": "[b:ba_help_collabo_ha2_01_4.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22333"
+    },
+    {
+      "id": 5687,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22334"
+    },
+    {
+      "id": 5688,
+      "text": "9/2 12:00 ～ 9/18 AM3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22335"
+    },
+    {
+      "id": 5689,
+      "text": "[C5:キャンペーン情報]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1598874506,
+      "updated_at": 1598874506,
+      "label": "eTEXTS_DEF_22336"
+    }
+  ]
+}

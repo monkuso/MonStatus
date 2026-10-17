@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "table": "seibo_season_extra_stages",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "seibo_season_id": 2,
+      "stage_group_id": 191100,
+      "floor_number": 5,
+      "extra_stage_effect_id": 39,
+      "seibo_extra_stage_rate_id": 1,
+      "created_at": 1774517478,
+      "updated_at": 1774517478
+    },
+    {
+      "id": 2,
+      "seibo_season_id": 2,
+      "stage_group_id": 191160,
+      "floor_number": 10,
+      "extra_stage_effect_id": 41,
+      "seibo_extra_stage_rate_id": 1,
+      "created_at": 1774517478,
+      "updated_at": 1774517478
+    }
+  ]
+}

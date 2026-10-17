@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "table": "ruins_events",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "description": "第1回試練の門",
+      "shop_end_at": 1647370799,
+      "created_at": 1646045887,
+      "updated_at": 1646045887,
+      "type_id": 0
+    },
+    {
+      "id": 2,
+      "description": "見滝原市",
+      "shop_end_at": 1666033199,
+      "created_at": 1665050563,
+      "updated_at": 1665050563,
+      "type_id": 1
+    },
+    {
+      "id": 3,
+      "description": "梟討伐作戦",
+      "shop_end_at": 1716145199,
+      "created_at": 1715249162,
+      "updated_at": 1715249162,
+      "type_id": 2
+    },
+    {
+      "id": 4,
+      "description": "東京ブレイド",
+      "shop_end_at": 1772477999,
+      "created_at": 1770808002,
+      "updated_at": 1770808002,
+      "type_id": 3
+    }
+  ]
+}

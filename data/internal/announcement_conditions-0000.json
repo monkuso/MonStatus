@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "table": "announcement_conditions",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "announcement_id": 1,
+      "condition_type": 2,
+      "condition_value": 5523,
+      "created_at": 1627379990,
+      "updated_at": 1627379990
+    },
+    {
+      "id": 2,
+      "announcement_id": 2,
+      "condition_type": 2,
+      "condition_value": 5541,
+      "created_at": 1640270576,
+      "updated_at": 1640270576
+    },
+    {
+      "id": 3,
+      "announcement_id": 4,
+      "condition_type": 2,
+      "condition_value": 5581,
+      "created_at": 1671806395,
+      "updated_at": 1671806395
+    },
+    {
+      "id": 4,
+      "announcement_id": 6,
+      "condition_type": 2,
+      "condition_value": 5624,
+      "created_at": 1703429005,
+      "updated_at": 1703429005
+    },
+    {
+      "id": 5,
+      "announcement_id": 8,
+      "condition_type": 2,
+      "condition_value": 5673,
+      "created_at": 1734964943,
+      "updated_at": 1734964943
+    },
+    {
+      "id": 6,
+      "announcement_id": 11,
+      "condition_type": 2,
+      "condition_value": 5740,
+      "created_at": 1766543844,
+      "updated_at": 1766543844
+    }
+  ]
+}

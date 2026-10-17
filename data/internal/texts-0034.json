@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 1,
+  "table": "texts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 8768,
+      "text": "獲得数：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_CAMPAIGN_ROULETTE_PEACE_CATEGORY_GET_NUM"
+    },
+    {
+      "id": 8769,
+      "text": "オールスター10連ガチャ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_CAMPAIGN_ROULETTE_PEACE_CATEGORY_ALL_STAR_GACHA"
+    },
+    {
+      "id": 8770,
+      "text": "アイテム盛り",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_CAMPAIGN_ROULETTE_PEACE_CATEGORY_ASSOTERD"
+    },
+    {
+      "id": 8771,
+      "text": "ガチャ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_CAMPAIGN_ROULETTE_PEACE_CATEGORY_GACHA"
+    },
+    {
+      "id": 8772,
+      "text": "オーブ定期便",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_CAMPAIGN_ROULETTE_PEACE_CATEGORY_SUBSCRIBE"
+    },
+    {
+      "id": 8773,
+      "text": "ドキドキオーブ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_CAMPAIGN_ROULETTE_PEACE_CATEGORY_GAMBLE"
+    },
+    {
+      "id": 8774,
+      "text": "選択中のピース数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_CAMPAIGN_ROULETTE_PEACE_SETTING_NUM"
+    },
+    {
+      "id": 8775,
+      "text": "ルーレットを回して報酬をゲットしよう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_CAMPAIGN_ROULETTE_GET_REWARD"
+    },
+    {
+      "id": 8776,
+      "text": "選び直す",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_CAMPAIGN_ROULETTE_PEACE_RESELECT"
+    },
+    {
+      "id": 8777,
+      "text": "ルーレットを回す",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_CAMPAIGN_ROULETTE_TRUN"
+    },
+    {
+      "id": 8778,
+      "text": "当選結果：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_CAMPAIGN_ROULETTE_RESULT"
+    },
+    {
+      "id": 8779,
+      "text": "[LC]当選結果[LF][LF][LC][NODE][LF][LF]おめでとうございます！[LF][C6:%s]が当選しました！",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_MSG_CAMPAIGN_ROULETTE_RESULT"
+    },
+    {
+      "id": 8780,
+      "text": "[LC]リセット[LF][LF]選んだピースの状態が破棄されます[LF]リセットしますか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_MSG_CAMPAIGN_ROULETTE_PEACE_RESET"
+    },
+    {
+      "id": 8781,
+      "text": "[LC]確認[LF][LF]ルーレットは1度しか回せません[LF]選んだピースでルーレットを回してよろしいですか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_MSG_CAMPAIGN_ROULETTE_PEACE_TURN"
+    },
+    {
+      "id": 8782,
+      "text": "[LC]セットピース選択[LF][LF][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_MSG_CAMPAIGN_ROULETTE_SET_PEACE"
+    },
+    {
+      "id": 8783,
+      "text": "ミッションを達成してピースを[LF]8個以上獲得するとセットできます",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_ERR_MSG_CAMPAIGN_ROULETTE_SET"
+    },
+    {
+      "id": 8784,
+      "text": "ルーレットにセットするピースを[LF]8個選んでください",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_ERR_MSG_CAMPAIGN_ROULETTE_TURN"
+    },
+    {
+      "id": 8785,
+      "text": "[LC]ミッション詳細[LF][LF]%s",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_MSG_CAMPAIGN_ROULETTE_MISSION_DETAIL"
+    },
+    {
+      "id": 8786,
+      "text": "[LC]ミッション達成報酬[LF][LF]ミッションを達成したため以下のピースを獲得しました[MARGIN16][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_MSG_CAMPAIGN_ROULETTE_MISSION_ACHIEVE"
+    },
+    {
+      "id": 8787,
+      "text": "ルーレットにセットするピースを8個選択してください",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_CAMPAIGN_ROULETTE_PIECE_DESCRIPTION"
+    },
+    {
+      "id": 8788,
+      "text": "当選結果%s",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1668682667,
+      "label": "eTEXTS_DEF_CAMPAIGN_ROULETTE_WON_RESULT"
+    },
+    {
+      "id": 8789,
+      "text": "[LC]注意[LF][LF]選んだピースの状態が破棄されます[LF]よろしいですか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_MSG_CAMPAIGN_ROULETTE_PEACE_CLOSE"
+    },
+    {
+      "id": 8790,
+      "text": "[C6:自分好みのルーレットで報酬を狙え！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_28900"
+    },
+    {
+      "id": 8791,
+      "text": "[b:ba_help_customroulette_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_28901"
+    },
+    {
+      "id": 8792,
+      "text": "ミッション期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_28902"
+    },
+    {
+      "id": 8793,
+      "text": "11/21 12:00～12/14 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1668682667,
+      "label": "eTEXTS_DEF_28903"
+    },
+    {
+      "id": 8794,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_28904"
+    },
+    {
+      "id": 8795,
+      "text": "11/21 12:00～12/16 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1668682667,
+      "label": "eTEXTS_DEF_28905"
+    },
+    {
+      "id": 8796,
+      "text": "[C5:お好みルーレットとは]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_28906"
+    },
+    {
+      "id": 8797,
+      "text": "さまざまな報酬がもらえるピースを[C6:8つ選択]して[LF][C6:自分好みのルーレット]を作成しよう！[LF]ルーレットを回して、止まったピースの[C6:報酬]が[LF]あなたのモノに！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_28907"
+    },
+    {
+      "id": 8798,
+      "text": "報酬は[C6:特別な10連ガチャ]や、[LF]オーブ×100が3回届く[C6:オーブ定期便]など盛りだくさん",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_28908"
+    },
+    {
+      "id": 8799,
+      "text": "[C5:遊び方]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_28909"
+    },
+    {
+      "id": 8800,
+      "text": "STEP1　ピースを集めよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_28910"
+    },
+    {
+      "id": 8801,
+      "text": "ミッションをクリアするとピースを獲得できる[LF]自分の欲しい報酬がもらえるピースを集めよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_28911"
+    },
+    {
+      "id": 8802,
+      "text": "オーブ×50",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_28912"
+    },
+    {
+      "id": 8803,
+      "text": "[C5:達成条件：期間中に1日ログイン]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_28913"
+    },
+    {
+      "id": 8804,
+      "text": "※各ミッションの詳細は[IMG:btn_chara_info.png|0.6]ボタンからご確認ください",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_28914"
+    },
+    {
+      "id": 8805,
+      "text": "STEP2　ピースをセットしてルーレットを回そう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_28915"
+    },
+    {
+      "id": 8806,
+      "text": "欲しい報酬がもらえるピースを獲得したら、[LF][C6:ピースを順番にセットして]ルーレットを完成させよう[LF][C6:選択できるピースは8つ]だけ、よく考えてセットしよう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1668682667,
+      "label": "eTEXTS_DEF_28916"
+    },
+    {
+      "id": 8807,
+      "text": "ピースをセット",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_28917"
+    },
+    {
+      "id": 8808,
+      "text": "[C6:ピースを選択]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_28918"
+    },
+    {
+      "id": 8809,
+      "text": "ルーレットを回す",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_28919"
+    },
+    {
+      "id": 8810,
+      "text": "ルーレットを回して、[C6:止まったピースの報酬]がもらえるぞ[LF]どこに止まるかはあなたの運次第！[LF][LF]※[C6:ピースを8つセット]しないとルーレットを[LF]　回すことはできません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_28920"
+    },
+    {
+      "id": 8811,
+      "text": "[C5:報酬について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_28921"
+    },
+    {
+      "id": 8812,
+      "text": "報酬でもらえるガチャの詳細やオーブ定期便に[LF]ついての説明は[u:https://www.monster-strike.com/news/20221117_2.html|こちら]からご確認ください",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1668682667,
+      "label": "eTEXTS_DEF_28922"
+    },
+    {
+      "id": 8813,
+      "text": "%s 達成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_CAMPAIGN_ROULETTE_MISSION_ACHIEVE_HEADING"
+    },
+    {
+      "id": 8814,
+      "text": "[LC]お好みルーレット[LF][LF][CCB:dlme/help_customroulette_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_MSG_CAMPAIGN_ROULETTE_HELP"
+    },
+    {
+      "id": 8815,
+      "text": "ルーレットをすでに回しています",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_MSG_CAMPAIGN_ROULETTE_ALREADY_GET"
+    },
+    {
+      "id": 8816,
+      "text": "ミッション期間終了間近です[LF]好みのピースを8個獲得したらルーレットを回そう",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_MSG_CAMPAIGN_ROULETTE_ALERT_PIECE_EXPRING_SOON"
+    },
+    {
+      "id": 8817,
+      "text": "開催期間終了間近です[LF]好きなピースを8個選んでルーレットを回そう",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_MSG_CAMPAIGN_ROULETTE_ALERT_ROULETTE_EXPRING_SOON"
+    },
+    {
+      "id": 8818,
+      "text": "開催期間外です",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_MSG_CAMPAIGN_ROULETTE_OUT_OF_TERM"
+    },
+    {
+      "id": 8819,
+      "text": "ミッション期間は終了しました[LF]好きなピースを8個選んでルーレットを回そう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_ME_CAMPAIGN_ROULETTE_FINISH_PIECE_EXPRING"
+    },
+    {
+      "id": 8820,
+      "text": "オールα10連ガチャ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_CAMPAIGN_ROULETTE_PEACE_CATEGORY_GACHA_ALPHA"
+    },
+    {
+      "id": 8821,
+      "text": "11/21 12:00～12/14 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1668682667,
+      "label": "eTEXTS_DEF_CAMPAIGN_ROULETTE_GET_TERM_DATE"
+    },
+    {
+      "id": 8822,
+      "text": "11/21 12:00～12/16 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1668682667,
+      "label": "eTEXTS_DEF_CAMPAIGN_ROULETTE_TURN_TERM_DATE"
+    },
+    {
+      "id": 8823,
+      "text": "エラベルベル、フエ～ルビスケット、獣竜玉、[LF]わくわくステッキ、わくわくミン、ミラクルミン[LF]それぞれ×10",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_CAMPAIGN_ROULETTE_ITEM_ASSORT_DESC"
+    },
+    {
+      "id": 8824,
+      "text": "オーブ×100を3回入手[LF]※1回目は当選翌日にお届け",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_CAMPAIGN_ROULETTE_SUBSUCRIBE_ORB_DESC"
+    },
+    {
+      "id": 8825,
+      "text": "オーブ×10または、ごく稀にオーブ×500",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634894201,
+      "updated_at": 1634894201,
+      "label": "eTEXTS_DEF_CAMPAIGN_ROULETTE_GAMBLE_DESC"
+    },
+    {
+      "id": 8826,
+      "text": "[LC]拡張完了[LF][WIDTH500][LF][MARGIN10][LF][LC][NODE][LF][MARGIN10][LF][LC]モンスターBOXの上限に達しました[LF][LC]モンスターBOXを%d個拡張しました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634747775,
+      "updated_at": 1634747775,
+      "label": "eTEXTS_DEF_SHOP_BOX_ADD_SUCCESS_UPPER_LIMIT"
+    },
+    {
+      "id": 8827,
+      "text": "「栄冠の闘技場」の挑戦回数がリセットした時",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634747775,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_OPTION_CONTENTS_NOTIFICATION_SEASONROAD"
+    },
+    {
+      "id": 8828,
+      "text": "栄冠の闘技場勲章",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634747775,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_ME_ORDER_NAME_SEASONROAD"
+    },
+    {
+      "id": 8829,
+      "text": "栄冠の闘技場",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634747775,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_ME_SEASONROAD_TITLE"
+    },
+    {
+      "id": 8830,
+      "text": "シーズン制覇数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634747775,
+      "updated_at": 1670862127,
+      "label": "eTEXTS_DEF_ME_PLAYRECORD_SEASONROAD_SEASON_CLEAR_COUNT"
+    },
+    {
+      "id": 8831,
+      "text": "金トロフィー獲得数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634747775,
+      "updated_at": 1670862127,
+      "label": "eTEXTS_DEF_ME_PLAYRECORD_SEASONROAD_SEASON_GLOD_TROPHY_COUNT"
+    },
+    {
+      "id": 8832,
+      "text": "「栄冠の闘技場」の挑戦回数が[LF]リセットした時",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634747775,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_ME_OPTION_SEASONROAD_SEASON_RESET"
+    },
+    {
+      "id": 8833,
+      "text": "「栄冠の闘技場」の挑戦回数がリセットされました！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634747775,
+      "updated_at": 1636563955,
+      "label": "eTEXTS_DEF_SEASONROAD_RESET_NOTICE_MESSAGE"
+    },
+    {
+      "id": 8834,
+      "text": "[C6:緊迫したバトルへ挑もう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28800"
+    },
+    {
+      "id": 8835,
+      "text": "[b:ba_help_season_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28801"
+    },
+    {
+      "id": 8836,
+      "text": "[C5:栄冠の闘技場とは]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28802"
+    },
+    {
+      "id": 8837,
+      "text": "栄冠の闘技場は、[C6:限られた挑戦回数で][LF][C6:クリアを目指す]期間限定イベントです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28803"
+    },
+    {
+      "id": 8838,
+      "text": "挑戦条件",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28804"
+    },
+    {
+      "id": 8839,
+      "text": "[C6:運極を5体以上]所持することで[LF]挑戦できる特別なクエストです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28805"
+    },
+    {
+      "id": 8840,
+      "text": "[C6:シーズン毎に挑戦しクリアしよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28806"
+    },
+    {
+      "id": 8841,
+      "text": "[b:ba_help_season_01.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28807"
+    },
+    {
+      "id": 8842,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28808"
+    },
+    {
+      "id": 8843,
+      "text": "11/2 12:00～2/8 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28809"
+    },
+    {
+      "id": 8844,
+      "text": "[C5:遊び方]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28810"
+    },
+    {
+      "id": 8845,
+      "text": "シーズンについて",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28811"
+    },
+    {
+      "id": 8846,
+      "text": "栄冠の闘技場では1度の開催期間を[LF][C6:シーズン]と呼びます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28812"
+    },
+    {
+      "id": 8847,
+      "text": "[IP8393]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28813"
+    },
+    {
+      "id": 8848,
+      "text": "[IP9065]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28814"
+    },
+    {
+      "id": 8849,
+      "text": "シーズン名に記されたキャラクターは[LF][C6:クエストのボス]や、[C6:報酬のモチーフ]として[LF]登場します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28815"
+    },
+    {
+      "id": 8850,
+      "text": "セットについて",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28816"
+    },
+    {
+      "id": 8851,
+      "text": "[C6:各属性1つずつ、計5クエストを1セット]として[LF]1シーズンの中で順々に6セットが登場します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28817"
+    },
+    {
+      "id": 8852,
+      "text": "セット1",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28818"
+    },
+    {
+      "id": 8853,
+      "text": "[SRIP:180000]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28819"
+    },
+    {
+      "id": 8854,
+      "text": "[SRIP:180010]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28820"
+    },
+    {
+      "id": 8855,
+      "text": "[SRIP:180020]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28821"
+    },
+    {
+      "id": 8856,
+      "text": "[SRIP:180030]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28822"
+    },
+    {
+      "id": 8857,
+      "text": "[SRIP:180040]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28823"
+    },
+    {
+      "id": 8858,
+      "text": "登場しているクエストであれば[LF]どのクエストからでも挑戦することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28824"
+    },
+    {
+      "id": 8859,
+      "text": "難易度について",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28825"
+    },
+    {
+      "id": 8860,
+      "text": "登場するクエストの難易度は星で表記されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28826"
+    },
+    {
+      "id": 8861,
+      "text": "星の数は最大5つのクエストまで登場します[LF]クエストへ挑戦していく順番を[LF]決める目安にしよう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28827"
+    },
+    {
+      "id": 8862,
+      "text": "挑戦回数について",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28828"
+    },
+    {
+      "id": 8863,
+      "text": "クエストへの挑戦回数は1週間毎に[C6:計10回]です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28829"
+    },
+    {
+      "id": 8864,
+      "text": "残り挑戦回数：[C6:10]/10回",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28830"
+    },
+    {
+      "id": 8865,
+      "text": "回数リセットまであと7日",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28831"
+    },
+    {
+      "id": 8866,
+      "text": "挑戦回数のカウントとクリアの記録は、[LF][C6:ソロ、またはマルチプレイのホストのみ]が[LF]対象です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28832"
+    },
+    {
+      "id": 8867,
+      "text": "※挑戦回数はシーズン中の[LF]　[C6:毎週火曜日12:00]に10回へリセットされます[LF][LF]※残った挑戦回数の[C6:翌週への繰り越しはできません][LF][LF]※クリア済クエストのプレイも、挑戦回数として[LF]　カウントされます[LF][LF]※マルチプレイのゲストで参加した場合は[LF]　挑戦回数としてカウントされず、クリア時も[LF]　セットのクリア進捗は進みません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28833"
+    },
+    {
+      "id": 8868,
+      "text": "[C6:クリアして報酬を手に入れよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28834"
+    },
+    {
+      "id": 8869,
+      "text": "[b:ba_help_season_02.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28835"
+    },
+    {
+      "id": 8870,
+      "text": "[C5:報酬について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28836"
+    },
+    {
+      "id": 8871,
+      "text": "クエストをクリアしていくと、[LF]トロフィーが獲得でき、セット毎の[LF][C6:トロフィーがグレードアップ]します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28837"
+    },
+    {
+      "id": 8872,
+      "text": "クリア数0",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28838"
+    },
+    {
+      "id": 8873,
+      "text": "クリア数1",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28839"
+    },
+    {
+      "id": 8874,
+      "text": "クリア数3",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28840"
+    },
+    {
+      "id": 8875,
+      "text": "クリア数5",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28841"
+    },
+    {
+      "id": 8876,
+      "text": "トロフィーの獲得状況が進むと報酬を獲得できます[LF]シーズンに登場するボスにちなんだ報酬もあります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28842"
+    },
+    {
+      "id": 8877,
+      "text": "[C5:アプリアイコン報酬について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28843"
+    },
+    {
+      "id": 8878,
+      "text": "[C6:アプリアイコン]が新たに獲得できるようになります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28844"
+    },
+    {
+      "id": 8879,
+      "text": "[IA10140002]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28845"
+    },
+    {
+      "id": 8880,
+      "text": "[IA10140003]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28846"
+    },
+    {
+      "id": 8881,
+      "text": "獲得したアプリアイコンは｢その他｣メニュー内の[LF]｢ストライカー情報｣から変更できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28847"
+    },
+    {
+      "id": 8882,
+      "text": "ストライカー情報",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28848"
+    },
+    {
+      "id": 8883,
+      "text": "※FireOSではアプリアイコンを変更できません[LF][LF]※FireOSでご利用のユーザも[LF]　iOSもしくはAndroidへ[LF]　移行した場合に利用できるようになります[LF][LF]※詳細は[u:https://www.monster-strike.com/news/20211028_2.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_28849"
+    },
+    {
+      "id": 8884,
+      "text": "栄冠の闘技場",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_SEASONROAD"
+    },
+    {
+      "id": 8885,
+      "text": "栄冠の闘技場とは[LF][LF][CCB:dlme/help_season_00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_SEASONROAD_HELP"
+    },
+    {
+      "id": 8886,
+      "text": "開催中",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_SEASONROAD_HOLDING"
+    },
+    {
+      "id": 8887,
+      "text": "残り挑戦回数：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_SEASONROAD_CHALLENGE_REMAIN"
+    },
+    {
+      "id": 8888,
+      "text": "/%d回",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_SEASONROAD_CHALLENGE_REMAIN_COUNT"
+    },
+    {
+      "id": 8889,
+      "text": "回数リセットまであと%s",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_SEASONROAD_RESETDATE"
+    },
+    {
+      "id": 8890,
+      "text": "開催予定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_SEASONROAD_SCHEDULED"
+    },
+    {
+      "id": 8891,
+      "text": "未出現",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_SEASONROAD_UNAPPEARED"
+    },
+    {
+      "id": 8892,
+      "text": "セット%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_SEASONROAD_SET"
+    },
+    {
+      "id": 8893,
+      "text": "銅トロフィー",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_SEASONROAD_REWARD_BRONZE"
+    },
+    {
+      "id": 8894,
+      "text": "銀トロフィー",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_SEASONROAD_REWARD_SILVER"
+    },
+    {
+      "id": 8895,
+      "text": "金トロフィー%d個",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_SEASONROAD_REWARD_GOLD"
+    },
+    {
+      "id": 8896,
+      "text": "クリア履歴[LF][LF]各セット開始から24時間以内のクリアに[LF]『初日クリア』マークが付きます[LF][LF]%s",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_SEASONROAD_CLEARHISTORY"
+    },
+    {
+      "id": 8897,
+      "text": "難易度",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_SEASONROAD_DIFFICULTY"
+    },
+    {
+      "id": 8898,
+      "text": "未クリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_SEASONROAD_CLEARHISTORY_NOCLEAR"
+    },
+    {
+      "id": 8899,
+      "text": "残り挑戦回数不足[LF][LF]残り挑戦回数が不足しています。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_SEASONROAD_CHALLENGE_REMAIN_NOT_ENOUGH"
+    },
+    {
+      "id": 8900,
+      "text": "新たなトロフィーを獲得！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_SEASONROAD_RESULT_NEW_TROPHY"
+    },
+    {
+      "id": 8901,
+      "text": "クリア状況が進みました！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_SEASONROAD_RESULT_MAKE_TROPHY"
+    },
+    {
+      "id": 8902,
+      "text": "[C6:トロフィー]がグレードアップ！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_SEASONROAD_RESULT_UPGRADE_TROPHY"
+    },
+    {
+      "id": 8903,
+      "text": "獲得報酬[LF][LF]栄冠の闘技場「%s」の[LF]以下の報酬を獲得しました！[LF][LF]%s",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_SEASONROAD_RESULT_REWARD_DIALOG"
+    },
+    {
+      "id": 8904,
+      "text": "シーズン全制覇[LF][LF][LC][b:ba_season_clear.png][LF][LC][b:ba_seasonload_season.png][LF]栄冠の闘技場「%s」の[LF]全ての金トロフィーが揃いました[LF]以下の報酬を獲得しました！[LF][LF]%s",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_SEASONROAD_RESULT_COMPLETE_DIALOG"
+    },
+    {
+      "id": 8905,
+      "text": "[C6:セット%d全クリア！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_SEASONROAD_RESULT_SET_CLEARED"
+    },
+    {
+      "id": 8906,
+      "text": "[LC]「栄冠の闘技場」出現中！[LF][LF]%sの期間で出現！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_ME_MSG_SEASONROAD_INTRO"
+    },
+    {
+      "id": 8907,
+      "text": "開催期間は終了しました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1635503830,
+      "updated_at": 1635503830,
+      "label": "eTEXTS_DEF_SEASONROAD_FINISH"
+    },
+    {
+      "id": 8908,
+      "text": "[LC]アカウント再登録[LF][LF]アプリを再度インストールすることなく[LF][C6:新しいアカウントを作成できる機能]です[LF][LF]下記全ての条件を満たす場合のみ使用できます[LF]・通算ログイン日数 3日以内[LF]・ストライカー招待 未成立[LF]・未課金[LF][LF]再登録後は、[LF]・チュートリアル[LF]がスキップされ、報酬が付与されます[LF][LF][C6:アカウントを再登録しますか？][LF][LF]※データのバックアップをしていない場合は[LF][C6:　機能使用前のアカウントに戻せません][LF][LF]※詳細は[u:https://www.monster-strike.com/news/20211014_5.html#11|こちら][LF]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1634747775,
+      "updated_at": 1788887798,
+      "label": "eTEXTS_DEF_USER_RESET_ASK_IOS"
+    },
+    {
+      "id": 8909,
+      "text": "[LC]アカウント再登録[LF][LF]アプリを再度インストールすることなく[LF][C6:新しいアカウントを作成できる機能]です[LF][LF]下記全ての条件を満たす場合のみ使用できます[LF]・通算ログイン日数 3日以内[LF]・ストライカー招待 未成立[LF]・未課金[LF][LF]再登録後は、[LF]・チュートリアル[LF]がスキップされ、報酬が付与されます[LF][LF][C6:アカウントを再登録しますか？][LF][LF]※データのバックアップをしていない場合は[LF][C6:　機能使用前のアカウントに戻せません][LF][LF]※詳細は[u:https://www.monster-strike.com/news/20211014_5.html#11|こちら][LF]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1634747775,
+      "updated_at": 1788887798,
+      "label": "eTEXTS_DEF_USER_RESET_ASK_AOS"
+    },
+    {
+      "id": 8910,
+      "text": "[LC]アカウント再登録[LF][LF]アプリを再度インストールすることなく[LF][C6:新しいアカウントを作成できる機能]です[LF][LF]下記全ての条件を満たす場合のみ使用できます[LF]・通算ログイン日数 3日以内[LF]・ストライカー招待 未成立[LF]・未課金[LF][LF]再登録後は、[LF]・チュートリアル[LF]がスキップされ、報酬が付与されます[LF][LF][C6:アカウントを再登録しますか？][LF][LF]※データのバックアップをしていない場合は[LF][C6:　機能使用前のアカウントに戻せません][LF][LF]※詳細は[u:https://www.monster-strike.com/news/20211014_5.html#11|こちら][LF]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1634747775,
+      "updated_at": 1788887798,
+      "label": "eTEXTS_DEF_USER_RESET_ASK_AU"
+    },
+    {
+      "id": 8911,
+      "text": "[LC]アカウント再登録[LF][LF]アプリを再度インストールすることなく[LF][C6:新しいアカウントを作成できる機能]です[LF][LF]下記全ての条件を満たす場合のみ使用できます[LF]・通算ログイン日数 3日以内[LF]・ストライカー招待 未成立[LF]・未課金[LF][LF]再登録後は、[LF]・チュートリアル[LF]がスキップされ、報酬が付与されます[LF][LF][C6:アカウントを再登録しますか？][LF][LF]※データのバックアップをしていない場合は[LF][C6:　機能使用前のアカウントに戻せません][LF][LF]※詳細は[u:https://www.monster-strike.com/news/20211014_5.html#11|こちら][LF]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1634747775,
+      "updated_at": 1788887798,
+      "label": "eTEXTS_DEF_USER_RESET_ASK_AMAZON"
+    },
+    {
+      "id": 8912,
+      "text": "条件を満たしていないため[LF]機能を使用できません[LF]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1634747775,
+      "updated_at": 1634747775,
+      "label": "eTEXTS_DEF_USER_RESET_ERROR"
+    },
+    {
+      "id": 8913,
+      "text": "[LC]最終確認[LF][LF][C6:アカウントを再登録]しても[LF]本当によろしいですか？[LF][LF]※データのバックアップをしていない場合は[LF][C6:　機能使用前のアカウントに戻せません][LF]",
+      "layout": 8,
+      "color": 1,
+      "created_at": 1634747775,
+      "updated_at": 1634747775,
+      "label": "eTEXTS_DEF_USER_RESET_ASK_ASK"
+    },
+    {
+      "id": 8914,
+      "text": "[LC]アカウント再登録機能について[LF][LF]アプリを再度インストールすることなく[LF][C6:新しいアカウントを作成できる機能]です[LF][LF][C6:アカウントを再登録しますか？][LF][LF]※ホーム画面MENU>アカウント再登録の[LF]　項目から機能を使用できます[LF]",
+      "layout": 8,
+      "color": 1,
+      "created_at": 1634747775,
+      "updated_at": 1786550612,
+      "label": "eTEXTS_DEF_USER_RESET_DESCRIPTION"
+    },
+    {
+      "id": 8915,
+      "text": "再登録する",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634747775,
+      "updated_at": 1634747775,
+      "label": "eTEXTS_DEF_USER_RESET_DESCRIPTION_YES"
+    },
+    {
+      "id": 8916,
+      "text": "閉じる",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634747775,
+      "updated_at": 1634747775,
+      "label": "eTEXTS_DEF_USER_RESET_DESCRIPTION_NO"
+    },
+    {
+      "id": 8917,
+      "text": "[C28:ボーナス未獲得]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1660578533,
+      "label": "eTEXTS_DEF_BONUS_UNACQUIRED"
+    },
+    {
+      "id": 8918,
+      "text": "[LC]アイテム詳細[LF][LF][LC][NODE][LF]%s",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1636563955,
+      "label": "eTEXTS_DEF_MSG_DETAIL_REWARD_INFO_WITHOUT_NUM"
+    },
+    {
+      "id": 8919,
+      "text": "最大",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1636563955,
+      "label": "eTEXTS_DEF_LUCKY_MONSTER_LUCK_MAX"
+    },
+    {
+      "id": 8920,
+      "text": "未所持",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1636563955,
+      "label": "eTEXTS_DEF_LUCKY_MONSTER_LUCK_NONE"
+    },
+    {
+      "id": 8921,
+      "text": "来週追加のモンスターは後日発表",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1636563955,
+      "label": "eTEXTS_DEF_LUCKY_MONSTER_WAIT_NEXT_WEEK"
+    },
+    {
+      "id": 8922,
+      "text": "イベントクエスト 降臨中モンスター",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1636563955,
+      "label": "eTEXTS_DEF_LUCKY_MONSTER_TITLE_EVENT"
+    },
+    {
+      "id": 8923,
+      "text": "追憶の書庫 対象モンスター",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1636563955,
+      "label": "eTEXTS_DEF_LUCKY_MONSTER_TITLE_LIBRARY"
+    },
+    {
+      "id": 8924,
+      "text": "その他",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1636563955,
+      "label": "eTEXTS_DEF_LUCKY_MONSTER_TITLE_ETC"
+    },
+    {
+      "id": 8925,
+      "text": "挑戦",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1636563955,
+      "label": "eTEXTS_DEF_LUCKY_MONSTER_MOVE"
+    },
+    {
+      "id": 8926,
+      "text": "ROOM",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1636563955,
+      "label": "eTEXTS_DEF_MATCHING_MULTI_ROOM_TITLE"
+    },
+    {
+      "id": 8927,
+      "text": "フレンド・近くの友達",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1646756067,
+      "label": "eTEXTS_DEF_MATCHING_MULTI_FRIEND_TITLE"
+    },
+    {
+      "id": 8928,
+      "text": "募集がありません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1636563955,
+      "label": "eTEXTS_DEF_WARN_MATCHING_NOT_FOUND"
+    },
+    {
+      "id": 8929,
+      "text": "ROOM",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1636563955,
+      "label": "eTEXTS_DEF_ROOM_TITLE"
+    },
+    {
+      "id": 8930,
+      "text": "ROOM検索結果",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1636563955,
+      "label": "eTEXTS_DEF_ROOM_TITLE_2"
+    },
+    {
+      "id": 8931,
+      "text": "[LC]ROOM[LF][LC]作成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1636563955,
+      "label": "eTEXTS_DEF_ROOM_CREATE_MENU_BUTTON"
+    },
+    {
+      "id": 8932,
+      "text": "[LC]ROOM[LF][LC]検索",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1636563955,
+      "label": "eTEXTS_DEF_ROOM_SEARCH_MENU_BUTTON"
+    },
+    {
+      "id": 8933,
+      "text": "%d/%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1636563955,
+      "label": "eTEXTS_DEF_ROOM_ROOMS_COUNTER"
+    },
+    {
+      "id": 8934,
+      "text": "作成したROOM",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1636563955,
+      "label": "eTEXTS_DEF_ROOM_SUB_TITLE_OWNER_ROOMS"
+    },
+    {
+      "id": 8935,
+      "text": "参加中のROOM",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1650905794,
+      "label": "eTEXTS_DEF_ROOM_SUB_TITLE_JOIN_ROOMS"
+    },
+    {
+      "id": 8936,
+      "text": "作成したROOMはありません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1636563955,
+      "label": "eTEXTS_DEF_ROOM_WARN_DONT_HAVE_OWNER_ROOMS"
+    },
+    {
+      "id": 8937,
+      "text": "参加中のROOMはありません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_ROOM_WARN_DONT_HAVE_JOIN_ROOMS"
+    },
+    {
+      "id": 8938,
+      "text": "メンバー数が上限に達しているROOMです",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1636563955,
+      "label": "eTEXTS_DEF_MSG_ROOM_ERR_DELETE_OR_LIMIT_OVER"
+    },
+    {
+      "id": 8939,
+      "text": "ROOMが見つかりません[LF]でした",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1636563955,
+      "label": "eTEXTS_DEF_MSG_ROOM_ERR_NOT_FOUND_ROOM"
+    },
+    {
+      "id": 8940,
+      "text": "すでに参加中または申請中のROOMです",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_MSG_ROOM_ERR_ALREADY_JOIN"
+    },
+    {
+      "id": 8941,
+      "text": "参加しているROOMがありません[LF]ROOMを作成するか、参加しよう",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_MSG_ROOM_ERR_NO_JOIN"
+    },
+    {
+      "id": 8942,
+      "text": "現在ROOM機能はメンテナンス中のため[LF]ご利用いただけません",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1636563955,
+      "label": "eTEXTS_DEF_MSG_ROOM_ERR_DISABLE"
+    },
+    {
+      "id": 8943,
+      "text": "[LC]ROOMを作る[LF][LF][LC][NODE][LF10][LC][NODE][LF10][LC][NODE][LF10][LC][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_MSG_ROOM_CREATE"
+    },
+    {
+      "id": 8944,
+      "text": "ROOMの名前（最大12文字）[C2:※必須]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1636563955,
+      "label": "eTEXTS_DEF_ROOM_CREATE_NAME_LABEL"
+    },
+    {
+      "id": 8945,
+      "text": "一言コメント（最大17文字）",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1636563955,
+      "label": "eTEXTS_DEF_ROOM_CREATE_MESSAGE_LABEL"
+    },
+    {
+      "id": 8946,
+      "text": "タグで検索できるようにする",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1636563955,
+      "label": "eTEXTS_DEF_ROOM_CREATE_TAG_LABEL"
+    },
+    {
+      "id": 8947,
+      "text": "設定タグ：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1636563955,
+      "label": "eTEXTS_DEF_ROOM_CREATE_SELECT_TAG_LABEL"
+    },
+    {
+      "id": 8948,
+      "text": "[LC]作成完了[LF][LF]ROOMを作成しました[LF][LF][LC][NODE][LF][LF]ROOMに参加してほしい友達に[LF]URLを知らせよう",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_MSG_ROOM_CREATE_SUCCESS"
+    },
+    {
+      "id": 8949,
+      "text": "クリップボードに[LF]URLがコピーがされました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1636563955,
+      "label": "eTEXTS_DEF_MSG_ROOM_URL_COPY"
+    },
+    {
+      "id": 8950,
+      "text": "URLをコピーする",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1636563955,
+      "label": "eTEXTS_DEF_ROOM_URL_COPY_DIALOG_BUTTON"
+    },
+    {
+      "id": 8951,
+      "text": "[LC]削除確認[LF][LF]このROOMを削除しますか？[LF][LF]削除すると参加中のメンバーも退室し、[LF]参加申請もすべてキャンセルされます",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_MSG_ROOM_CONFIRM_DELETE_ROOM"
+    },
+    {
+      "id": 8952,
+      "text": "[LC]退室確認[LF][LF]このROOMから退室しますか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1636563955,
+      "label": "eTEXTS_DEF_MSG_ROOM_CONFIRM_LEAVE_ROOM"
+    },
+    {
+      "id": 8953,
+      "text": "メンバー",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1636563955,
+      "label": "eTEXTS_DEF_ROOM_PARTICIPANTS_MENU_BUTTON"
+    },
+    {
+      "id": 8954,
+      "text": "設定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1636563955,
+      "label": "eTEXTS_DEF_ROOM_EDIT_MENU_BUTTON"
+    },
+    {
+      "id": 8955,
+      "text": "URL",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1636563955,
+      "label": "eTEXTS_DEF_ROOM_URL_COPY_MENU_BUTTON"
+    },
+    {
+      "id": 8956,
+      "text": "削除",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1636563955,
+      "label": "eTEXTS_DEF_ROOM_DELETE_MENU_BUTTON"
+    },
+    {
+      "id": 8957,
+      "text": "[LC]タグ設定[LF][LF]検索対象にするタグを%dつ選んでください[LF][MARGIN15][LF][LC][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1636563955,
+      "label": "eTEXTS_DEF_MSG_ROOM_TAG_SELECT"
+    },
+    {
+      "id": 8958,
+      "text": "%s",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1634747775,
+      "updated_at": 1634747775,
+      "label": "eTEXTS_DEF_MSG_ARG_ONLY_GACHA"
+    },
+    {
+      "id": 8959,
+      "text": "[LC]タグ選択[LF][LF]検索するタグを%dつ選んでください[LF][MARGIN15][LF][LC][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1636563955,
+      "label": "eTEXTS_DEF_MSG_ROOM_SEARCH_TAG_SELECT"
+    },
+    {
+      "id": 8960,
+      "text": "[LC]参加確認[LF][LF]このROOMに参加しますか？[LF10][LC][NODE][LF14][LC][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_MSG_ROOM_JOIN"
+    },
+    {
+      "id": 8961,
+      "text": "[LC]メンバー詳細[LF][LF][LC][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_MSG_ROOM_PARTICIPANTS"
+    },
+    {
+      "id": 8962,
+      "text": "[LC][S2]ROOMを検索中[I0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1636563955,
+      "label": "eTEXTS_DEF_ROOM_SEARCHING"
+    },
+    {
+      "id": 8963,
+      "text": "最終使用時間:",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1636563955,
+      "label": "eTEXTS_DEF_ROOM_PANEL_LAST_MATCHING_LABEL"
+    },
+    {
+      "id": 8964,
+      "text": "マルチを募集するROOMを選んでください",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1636563955,
+      "label": "eTEXTS_DEF_ROOM_SELECT_LABEL"
+    },
+    {
+      "id": 8965,
+      "text": "[LC]ROOMの設定を変える[LF][LF][LC][NODE][LF10][LC][NODE][LF10][LC][NODE][LF10][LC][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1636563955,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_MSG_ROOM_EDIT"
+    },
+    {
+      "id": 8966,
+      "text": "[LC]ROOMとは[LF][LF][CCB:dlme/help_room_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1646756067,
+      "label": "eTEXTS_DEF_MSG_ROOM_HELP"
+    },
+    {
+      "id": 8967,
+      "text": "[LC]フレンド[LF][LC]申請",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_ROOM_FRIEND_REQUEST"
+    },
+    {
+      "id": 8968,
+      "text": "退室",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_ROOM_LEAVE_MENU_BUTTON"
+    },
+    {
+      "id": 8969,
+      "text": "作成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_ROOM_DIALOG_BUTTON_CREATE"
+    },
+    {
+      "id": 8970,
+      "text": "閉じる",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_ROOM_DIALOG_BUTTON_CLOSE"
+    },
+    {
+      "id": 8971,
+      "text": "検索する",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_ROOM_DIALOG_BUTTON_SEARCH"
+    },
+    {
+      "id": 8972,
+      "text": "設定する",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_ROOM_DIALOG_BUTTON_EDIT"
+    },
+    {
+      "id": 8973,
+      "text": "キャンセル",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_ROOM_DIALOG_BUTTON_CANCEL"
+    },
+    {
+      "id": 8974,
+      "text": "決定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_ROOM_DIALOG_BUTTON_DECIDE"
+    },
+    {
+      "id": 8975,
+      "text": "フレンド申請する",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_ROOM_FRIEND_REQUEST_BUTTON"
+    },
+    {
+      "id": 8976,
+      "text": "メンバー",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_MSG_ROOM_PARTICIPANTS_SUB_TITLE"
+    },
+    {
+      "id": 8977,
+      "text": "作成できるROOM数が上限に達しています",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_MSG_ROOM_ERR_OVER_ROOM_CREATE_MAX"
+    },
+    {
+      "id": 8978,
+      "text": "参加中および申請中のROOM数合計が[LF]上限に達しています",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_MSG_ROOM_ERR_OVER_ROOM_JOIN_MAX"
+    },
+    {
+      "id": 8979,
+      "text": "フレンド申請しますか？",
+      "layout": 29,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_MSG_ROOM_REQUEST_FRIEND"
+    },
+    {
+      "id": 8980,
+      "text": "ROOM名「%s」",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_ROOM_URL_SCHEME_MESSAGE_1"
+    },
+    {
+      "id": 8981,
+      "text": "一言コメント「%s」",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_ROOM_URL_SCHEME_MESSAGE_2"
+    },
+    {
+      "id": 8982,
+      "text": "モンストでROOMメンバー募集中！URLから参加してね",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_ROOM_URL_SCHEME_MESSAGE_3"
+    },
+    {
+      "id": 8983,
+      "text": "-",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_ROOM_URL_SCHEME_MESSAGE_4"
+    },
+    {
+      "id": 8984,
+      "text": "指定のタグに合うROOMは[LF]見つかりませんでした",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_MSG_ROOM_NOT_FOUND_AND_RESEARCHING"
+    },
+    {
+      "id": 8985,
+      "text": "[LC]フレンド申請[LF][LF]フレンド申請を送りました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_MSG_ROOM_FRIEND_REQUEST_FINISH"
+    },
+    {
+      "id": 8986,
+      "text": "[C6:離れた友達とも遊びやすく！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29400"
+    },
+    {
+      "id": 8987,
+      "text": "[b:ba_help_room_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29401"
+    },
+    {
+      "id": 8988,
+      "text": "[C6:ROOM]に参加することで、[LF][C6:離れた友達とマルチプレイしやすく]なります！[LF][LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1646756067,
+      "label": "eTEXTS_DEF_29402"
+    },
+    {
+      "id": 8989,
+      "text": "[C5:ROOMでできること]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29403"
+    },
+    {
+      "id": 8990,
+      "text": "ROOMに参加することでメンバーとなり、[LF][C6:メンバー間でマルチの募集・参加]が[LF]できるようになります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29404"
+    },
+    {
+      "id": 8991,
+      "text": "[C6:募集・参加]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29405"
+    },
+    {
+      "id": 8992,
+      "text": "ROOMメンバー同士は、フレンドにならなくても[LF][C6:距離に関係なくマルチプレイが可能]になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29406"
+    },
+    {
+      "id": 8993,
+      "text": "[C5:ROOMの作成について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29407"
+    },
+    {
+      "id": 8994,
+      "text": "作成できるROOM数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29408"
+    },
+    {
+      "id": 8995,
+      "text": "ROOMは[C6:1人につき2つ]作成することが可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_29409"
+    },
+    {
+      "id": 8996,
+      "text": "タグ設定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29410"
+    },
+    {
+      "id": 8997,
+      "text": "[C6:タグ検索をON]にすることで、他のユーザの検索に[LF]自分のROOMがヒットするようになります[LF][LF]プレイの目的に応じたタグを付けましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29411"
+    },
+    {
+      "id": 8998,
+      "text": "ON",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29412"
+    },
+    {
+      "id": 8999,
+      "text": "[C6:ヒット！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29413"
+    },
+    {
+      "id": 9000,
+      "text": "太郎の部屋",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29414"
+    },
+    {
+      "id": 9001,
+      "text": "モンスト太郎",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29415"
+    },
+    {
+      "id": 9002,
+      "text": "ROOMのURL",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29416"
+    },
+    {
+      "id": 9003,
+      "text": "作成が完了すると[C6:URL]が発行されます[LF]URL経由で友達をROOMに誘うことが可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29417"
+    },
+    {
+      "id": 9004,
+      "text": "URLをコピーする",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29418"
+    },
+    {
+      "id": 9005,
+      "text": "URLペースト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29419"
+    },
+    {
+      "id": 9006,
+      "text": "ROOMにお誘い",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29420"
+    },
+    {
+      "id": 9007,
+      "text": "※URLのコピーはROOM作成後いつでも可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29421"
+    },
+    {
+      "id": 9008,
+      "text": "[C5:ROOMの参加方法]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_29422"
+    },
+    {
+      "id": 9009,
+      "text": "URLから",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29423"
+    },
+    {
+      "id": 9010,
+      "text": "友達から教えてもらった[C6:URL]をタップすることで、[LF]ROOMに参加することが可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29424"
+    },
+    {
+      "id": 9011,
+      "text": "友達のROOM",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29425"
+    },
+    {
+      "id": 9012,
+      "text": "タグ検索",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29426"
+    },
+    {
+      "id": 9013,
+      "text": "検索アイコンから[C6:タグ]を指定して検索しましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29427"
+    },
+    {
+      "id": 9014,
+      "text": "一定時間マルチ募集が無く、使用されていない[LF] ROOMは検索結果に表示されません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29430"
+    },
+    {
+      "id": 9015,
+      "text": "[C5:ROOMの削除方法]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29431"
+    },
+    {
+      "id": 9016,
+      "text": "ROOMの削除は[C6:作成者のみ]行うことが可能です[LF]参加メンバー全員が該当ROOMから退出となります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29432"
+    },
+    {
+      "id": 9017,
+      "text": "メンバー",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29433"
+    },
+    {
+      "id": 9018,
+      "text": "設定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29434"
+    },
+    {
+      "id": 9019,
+      "text": "URL",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29435"
+    },
+    {
+      "id": 9020,
+      "text": "削除",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29436"
+    },
+    {
+      "id": 9021,
+      "text": "※検索にヒットさせたくない場合は、[LF] タグの設定をOFFにしてください",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29437"
+    },
+    {
+      "id": 9022,
+      "text": "花子の部屋",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29438"
+    },
+    {
+      "id": 9023,
+      "text": "モンスト花子",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29439"
+    }
+  ]
+}

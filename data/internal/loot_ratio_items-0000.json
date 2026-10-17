@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "table": "loot_ratio_items",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "item_id": 10100001,
+      "type_id": 1,
+      "ratio": 3000,
+      "created_at": 1761815366,
+      "updated_at": 1761815366
+    },
+    {
+      "id": 2,
+      "item_id": 10100002,
+      "type_id": 1,
+      "ratio": 10000,
+      "created_at": 1761815366,
+      "updated_at": 1761815366
+    }
+  ]
+}

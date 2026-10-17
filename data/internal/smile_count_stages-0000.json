@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "table": "smile_count_stages",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "opened_at": 1759590000,
+      "description": "英数字の1~4",
+      "condition_description": "なし",
+      "set_cnt": 2,
+      "normal_number_cnt": 4,
+      "kanji_number_cnt": 0,
+      "move_number_cnt": 0,
+      "limit_time": 800,
+      "challenge_time": 400,
+      "created_at": 1759403028,
+      "updated_at": 1759403028
+    },
+    {
+      "id": 2,
+      "opened_at": 1759676400,
+      "description": "英数字の1~5",
+      "condition_description": "なし",
+      "set_cnt": 3,
+      "normal_number_cnt": 5,
+      "kanji_number_cnt": 0,
+      "move_number_cnt": 0,
+      "limit_time": 1500,
+      "challenge_time": 700,
+      "created_at": 1759403028,
+      "updated_at": 1759403028
+    },
+    {
+      "id": 3,
+      "opened_at": 1759762800,
+      "description": "漢数字の1~6",
+      "condition_description": "なし",
+      "set_cnt": 2,
+      "normal_number_cnt": 0,
+      "kanji_number_cnt": 6,
+      "move_number_cnt": 0,
+      "limit_time": 1200,
+      "challenge_time": 600,
+      "created_at": 1759403028,
+      "updated_at": 1759403028
+    },
+    {
+      "id": 4,
+      "opened_at": 1759849200,
+      "description": "英数字の1~7",
+      "condition_description": "なし",
+      "set_cnt": 3,
+      "normal_number_cnt": 7,
+      "kanji_number_cnt": 0,
+      "move_number_cnt": 0,
+      "limit_time": 2000,
+      "challenge_time": 1000,
+      "created_at": 1759403028,
+      "updated_at": 1759403028
+    },
+    {
+      "id": 5,
+      "opened_at": 1759935600,
+      "description": "漢数字の1~9",
+      "condition_description": "2つ動く",
+      "set_cnt": 3,
+      "normal_number_cnt": 0,
+      "kanji_number_cnt": 9,
+      "move_number_cnt": 2,
+      "limit_time": 2800,
+      "challenge_time": 1400,
+      "created_at": 1759403028,
+      "updated_at": 1759403028
+    },
+    {
+      "id": 6,
+      "opened_at": 1760022000,
+      "description": "英数字あるいは漢数字の1~9",
+      "condition_description": "4つ動く",
+      "set_cnt": 3,
+      "normal_number_cnt": 5,
+      "kanji_number_cnt": 4,
+      "move_number_cnt": 4,
+      "limit_time": 2800,
+      "challenge_time": 1400,
+      "created_at": 1759403028,
+      "updated_at": 1759403028
+    }
+  ]
+}

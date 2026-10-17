@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "table": "nevada_missions",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "name": "コインを合計50000枚獲得せよ",
+      "nevada_event_id": 1,
+      "sort_id": 1,
+      "coin_cnt": 50000,
+      "item_id": 1,
+      "item_cnt": 25,
+      "created_at": 1724928656,
+      "updated_at": 1724928656
+    },
+    {
+      "id": 2,
+      "name": "コインを合計100000枚獲得せよ",
+      "nevada_event_id": 1,
+      "sort_id": 2,
+      "coin_cnt": 100000,
+      "item_id": 1,
+      "item_cnt": 25,
+      "created_at": 1724928656,
+      "updated_at": 1724928656
+    }
+  ]
+}

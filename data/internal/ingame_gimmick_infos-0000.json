@@ -1,0 +1,767 @@
+{
+  "schemaVersion": 1,
+  "table": "ingame_gimmick_infos",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "icon_type": 1,
+      "icon_name": "stat_icon_attack_change_down.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_27]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 2,
+      "icon_type": 2,
+      "icon_name": "stat_icon_attack_change_up.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_31]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 3,
+      "icon_type": 3,
+      "icon_name": "stat_icon_damage_tol_down.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_28]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 4,
+      "icon_type": 4,
+      "icon_name": "stat_icon_damage_tol_up.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_32]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 5,
+      "icon_type": 5,
+      "icon_name": "stat_icon_speed_change_down.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_29]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 6,
+      "icon_type": 6,
+      "icon_name": "stat_icon_speed_change_up.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_33]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 8,
+      "icon_type": 8,
+      "icon_name": "stat_icon_skill_attack_change_up.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_34]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 9,
+      "icon_type": 9,
+      "icon_name": "stat_icon_luckskill01.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_ITEM_HELP_16]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 10,
+      "icon_type": 10,
+      "icon_name": "stat_icon_luckskill02.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_ITEM_HELP_16]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 11,
+      "icon_type": 11,
+      "icon_name": "stat_icon_luckskill03.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_ITEM_HELP_16]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 12,
+      "icon_type": 12,
+      "icon_name": "stat_icon_luckskill04.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_ITEM_HELP_16]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 13,
+      "icon_type": 13,
+      "icon_name": "stat_icon_attack_change_down_rotation.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_86]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 14,
+      "icon_type": 14,
+      "icon_name": "stat_icon_attack_change_up_rotation.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_86]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 15,
+      "icon_type": 15,
+      "icon_name": "stat_icon_damage_tol_down_rotation.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_86]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 16,
+      "icon_type": 16,
+      "icon_name": "stat_icon_damage_tol_up_rotation.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_86]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 17,
+      "icon_type": 17,
+      "icon_name": "stat_icon_onekill.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_36]",
+      "created_at": 1751990610,
+      "updated_at": 1755014498
+    },
+    {
+      "id": 1001,
+      "icon_type": 18,
+      "icon_name": "stat_icon_support.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_35]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 2001,
+      "icon_type": 19,
+      "icon_name": "stat_icon_sleep.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_4]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 2002,
+      "icon_type": 20,
+      "icon_name": "stat_icon_mahi.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_2]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 2003,
+      "icon_type": 21,
+      "icon_name": "stat_icon_stan.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_3]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 2004,
+      "icon_type": 22,
+      "icon_name": "cradle_ef_icon_info_5.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_37]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 3001,
+      "icon_type": 23,
+      "icon_name": "stat_icon_poison.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_1]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 3002,
+      "icon_type": 24,
+      "icon_name": "stat_icon_infectious.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_6]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 3003,
+      "icon_type": 25,
+      "icon_name": "stat_icon_brainwashing.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_5]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 4001,
+      "icon_type": 26,
+      "icon_name": "stat_icon_ability_lock.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_10]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 4002,
+      "icon_type": 27,
+      "icon_name": "stat_icon_skill_lock.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_9]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 4003,
+      "icon_type": 28,
+      "icon_name": "stat_icon_gauge_speed_abnormal.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_16]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 4004,
+      "icon_type": 29,
+      "icon_name": "stat_icon_snowman.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_11]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 4005,
+      "icon_type": 30,
+      "icon_name": "stat_icon_minimum.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_17]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 4006,
+      "icon_type": 31,
+      "icon_name": "stat_icon_minimum.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_18]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 4007,
+      "icon_type": 32,
+      "icon_name": "stat_icon_angle_state_up.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_12]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 4008,
+      "icon_type": 33,
+      "icon_name": "stat_icon_angle_state_down.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_13]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 4009,
+      "icon_type": 34,
+      "icon_name": "stat_icon_inversion_arrow.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_14]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 4010,
+      "icon_type": 35,
+      "icon_name": "stat_icon_undeath.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_15]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 4011,
+      "icon_type": 36,
+      "icon_name": "stat_icon_marking.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_23]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 8001,
+      "icon_type": 37,
+      "icon_name": "stat_icon_inversion_arrow.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_40]",
+      "created_at": 1751990610,
+      "updated_at": 1755014498
+    },
+    {
+      "id": 8002,
+      "icon_type": 38,
+      "icon_name": "stat_icon_invisible_arrow.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_38]",
+      "created_at": 1751990610,
+      "updated_at": 1755014498
+    },
+    {
+      "id": 8003,
+      "icon_type": 39,
+      "icon_name": "stat_icon_onekill.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_36]",
+      "created_at": 1751990610,
+      "updated_at": 1755014498
+    },
+    {
+      "id": 8004,
+      "icon_type": 40,
+      "icon_name": "stat_icon_tackle_critical.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_39]",
+      "created_at": 1751990610,
+      "updated_at": 1755014498
+    },
+    {
+      "id": 10001,
+      "icon_type": 10000,
+      "icon_name": "gim_icon_floor_heal.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_14]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 10002,
+      "icon_type": 10001,
+      "icon_name": "gim_icon_magic_circle.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_6][LF][LF][TI:関連アビリティ][LF][ABILITY:71][LF][ABILITY:72][LF][ABILITY:73]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 10003,
+      "icon_type": 10002,
+      "icon_name": "gim_icon_hit_type_circle.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_15]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 10004,
+      "icon_type": 10003,
+      "icon_name": "gim_icon_speedup_point.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_13]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 10005,
+      "icon_type": 10004,
+      "icon_name": "gim_icon_field_d_change.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_125]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 10006,
+      "icon_type": 10005,
+      "icon_name": "gim_icon_h_t_speed_panel_r.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_25]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 10007,
+      "icon_type": 10006,
+      "icon_name": "gim_icon_powerup_point.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_17]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 10008,
+      "icon_type": 10007,
+      "icon_name": "gim_icon_slot_panel.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_24]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 10009,
+      "icon_type": 10008,
+      "icon_name": "gim_icon_weak_up_point.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_27]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 10010,
+      "icon_type": 10009,
+      "icon_name": "gim_icon_recovery_point.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_26]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 10011,
+      "icon_type": 10010,
+      "icon_name": "gim_icon_item_point.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_28]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 10012,
+      "icon_type": 10011,
+      "icon_name": "gim_icon_toggle_mirage.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_29]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 10013,
+      "icon_type": 10012,
+      "icon_name": "gim_icon_attribute_c_panel.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_38]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 10014,
+      "icon_type": 10013,
+      "icon_name": "gim_icon_energyblock.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_53]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 10015,
+      "icon_type": 10014,
+      "icon_name": "gim_icon_stockable_heal.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_52]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 10016,
+      "icon_type": 10015,
+      "icon_name": "gim_icon_change_rotation.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_86]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 10017,
+      "icon_type": 10016,
+      "icon_name": "gim_icon_c_counter_charger.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_115]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 11001,
+      "icon_type": 10017,
+      "icon_name": "gim_icon_block.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_5][LF][LF][TI:関連アビリティ][LF][ABILITY:51]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 11002,
+      "icon_type": 10018,
+      "icon_name": "gim_icon_warp_zone.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_3][LF][LF][TI:関連アビリティ][LF][ABILITY:21][LF][ABILITY:22][LF][ABILITY:23]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 11003,
+      "icon_type": 10019,
+      "icon_name": "gim_icon_speed_up_m_unit.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_12]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 11004,
+      "icon_type": 10020,
+      "icon_name": "gim_icon_speed_down_m_unit.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_12]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 11005,
+      "icon_type": 10021,
+      "icon_name": "gim_icon_barreir.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_1][LF][LF][TI:関連アビリティ][LF][ABILITY:1][LF][ABILITY:2][LF][ABILITY:3]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 11006,
+      "icon_type": 10022,
+      "icon_name": "gim_icon_telepo_tunnel.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_57]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 11007,
+      "icon_type": 10023,
+      "icon_name": "gim_icon_charball_block.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_65]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 11008,
+      "icon_type": 10024,
+      "icon_name": "gim_icon_kekkai.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_49]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 11009,
+      "icon_type": 10025,
+      "icon_name": "gim_icon_last_hit_unit.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_54]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 11010,
+      "icon_type": 10026,
+      "icon_name": "gim_icon_speed_down_point.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_120][LF][LF][TI:関連アビリティ][LF][ABILITY:101]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 11011,
+      "icon_type": 10027,
+      "icon_name": "gim_icon_hit_type_box.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_123]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 12001,
+      "icon_type": 10028,
+      "icon_name": "gim_icon_floor_damage.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_16]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 12002,
+      "icon_type": 10029,
+      "icon_name": "gim_icon_mine.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_4][LF][LF][TI:関連アビリティ][LF][ABILITY:31][LF][ABILITY:32][LF][ABILITY:33][LF][ABILITY:34][LF][ABILITY:35][LF][ABILITY:36][LF][ABILITY:37][LF][ABILITY:38][LF][ABILITY:41]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 12003,
+      "icon_type": 10030,
+      "icon_name": "gim_icon_fire_ground.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_93][LF][LF][TI:関連アビリティ][LF][texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_96]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 12004,
+      "icon_type": 10031,
+      "icon_name": "gim_icon_damage_line.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_43]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 12005,
+      "icon_type": 10032,
+      "icon_name": "gim_icon_count_meteor.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_41]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 12006,
+      "icon_type": 10033,
+      "icon_name": "gim_icon_damage_shield.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_55]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 12007,
+      "icon_type": 10034,
+      "icon_name": "gim_icon_count_meteor.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_112]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 12008,
+      "icon_type": 10045,
+      "icon_name": "gim_icon_stack_mine.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_127]",
+      "created_at": 1789639694,
+      "updated_at": 1789639694
+    },
+    {
+      "id": 12009,
+      "icon_type": 10054,
+      "icon_name": "gim_icon_damage_barrier.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_129]",
+      "created_at": 1789639694,
+      "updated_at": 1789639694
+    },
+    {
+      "id": 13001,
+      "icon_type": 10035,
+      "icon_name": "gim_icon_e_attack_panel.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_45]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 13002,
+      "icon_type": 10036,
+      "icon_name": "gim_icon_e_attack_block.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_46]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 13003,
+      "icon_type": 10037,
+      "icon_name": "gim_icon_e_attack_s_panel.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_56]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 13004,
+      "icon_type": 10038,
+      "icon_name": "gim_icon_f_attack_block.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_47]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 13005,
+      "icon_type": 10039,
+      "icon_name": "gim_icon_vision_block.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_48]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 13006,
+      "icon_type": 10040,
+      "icon_name": "gim_icon_sensor_line.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_44]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 13007,
+      "icon_type": 10041,
+      "icon_name": "gim_icon_wall_lc_panel.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_30]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 13008,
+      "icon_type": 10042,
+      "icon_name": "gim_icon_shot_panel.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_31]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 13009,
+      "icon_type": 10043,
+      "icon_name": "gim_icon_rotation_laser.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_114]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 13010,
+      "icon_type": 10044,
+      "icon_name": "gim_icon_m_d_grow_bomb_point.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_124]",
+      "created_at": 1751990610,
+      "updated_at": 1751990610
+    },
+    {
+      "id": 13011,
+      "icon_type": 10055,
+      "icon_name": "gim_icon_panel_detonated_bomb.png",
+      "help_text": "[texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_130]",
+      "created_at": 1762427505,
+      "updated_at": 1789639694
+    },
+    {
+      "id": 90000,
+      "icon_type": 10046,
+      "icon_name": "stat_icon_contact_bg",
+      "help_text": null,
+      "created_at": 1773179194,
+      "updated_at": 1773179194
+    },
+    {
+      "id": 90001,
+      "icon_type": 10047,
+      "icon_name": "stat_icon_contact_bg",
+      "help_text": null,
+      "created_at": 1773179194,
+      "updated_at": 1773179194
+    },
+    {
+      "id": 90002,
+      "icon_type": 10048,
+      "icon_name": "stat_icon_contact_bg",
+      "help_text": null,
+      "created_at": 1773179194,
+      "updated_at": 1773179194
+    },
+    {
+      "id": 90003,
+      "icon_type": 10049,
+      "icon_name": "stat_icon_contact_bg",
+      "help_text": null,
+      "created_at": 1773179194,
+      "updated_at": 1773179194
+    },
+    {
+      "id": 90004,
+      "icon_type": 10050,
+      "icon_name": "stat_icon_contact_bg",
+      "help_text": null,
+      "created_at": 1773179194,
+      "updated_at": 1773179194
+    },
+    {
+      "id": 90005,
+      "icon_type": 10051,
+      "icon_name": "stat_icon_contact_bg",
+      "help_text": null,
+      "created_at": 1773179194,
+      "updated_at": 1773179194
+    },
+    {
+      "id": 90006,
+      "icon_type": 10052,
+      "icon_name": "stat_icon_contact_bg",
+      "help_text": null,
+      "created_at": 1773179194,
+      "updated_at": 1773179194
+    },
+    {
+      "id": 90007,
+      "icon_type": 10053,
+      "icon_name": "stat_icon_contact_bg",
+      "help_text": null,
+      "created_at": 1773179194,
+      "updated_at": 1773179194
+    }
+  ]
+}

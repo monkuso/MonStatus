@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "table": "fight_types",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "type_id": 0,
+      "evolved_id": 10,
+      "name": "バランス型",
+      "sort_name": "バランス",
+      "dumprate_reflect": 20,
+      "dumprate_pierce": 40,
+      "created_at": 1570463821,
+      "updated_at": 1570463821
+    },
+    {
+      "id": 2,
+      "type_id": 1,
+      "evolved_id": 11,
+      "name": "パワー型",
+      "sort_name": "パワー",
+      "dumprate_reflect": 30,
+      "dumprate_pierce": 50,
+      "created_at": 1570463821,
+      "updated_at": 1570463821
+    },
+    {
+      "id": 3,
+      "type_id": 2,
+      "evolved_id": 12,
+      "name": "スピード型",
+      "sort_name": "スピード",
+      "dumprate_reflect": 20,
+      "dumprate_pierce": 40,
+      "created_at": 1570463821,
+      "updated_at": 1570463821
+    },
+    {
+      "id": 4,
+      "type_id": 3,
+      "evolved_id": 13,
+      "name": "砲撃型",
+      "sort_name": "砲撃",
+      "dumprate_reflect": 20,
+      "dumprate_pierce": 40,
+      "created_at": 1570463821,
+      "updated_at": 1570463821
+    },
+    {
+      "id": 5,
+      "type_id": 10,
+      "evolved_id": 999,
+      "name": "超バランス型",
+      "sort_name": "超バランス",
+      "dumprate_reflect": 20,
+      "dumprate_pierce": 40,
+      "created_at": 1570463821,
+      "updated_at": 1570463821
+    },
+    {
+      "id": 6,
+      "type_id": 11,
+      "evolved_id": 999,
+      "name": "超パワー型",
+      "sort_name": "超パワー",
+      "dumprate_reflect": 22,
+      "dumprate_pierce": 43,
+      "created_at": 1570463821,
+      "updated_at": 1623085063
+    },
+    {
+      "id": 7,
+      "type_id": 12,
+      "evolved_id": 999,
+      "name": "超スピード型",
+      "sort_name": "超スピード",
+      "dumprate_reflect": 20,
+      "dumprate_pierce": 40,
+      "created_at": 1570463821,
+      "updated_at": 1570463821
+    },
+    {
+      "id": 8,
+      "type_id": 13,
+      "evolved_id": 999,
+      "name": "超砲撃型",
+      "sort_name": "超砲撃",
+      "dumprate_reflect": 20,
+      "dumprate_pierce": 40,
+      "created_at": 1570463821,
+      "updated_at": 1570463821
+    }
+  ]
+}

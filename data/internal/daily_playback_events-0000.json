@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "table": "daily_playback_events",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "gacha_group_id": 4836,
+      "gacha_play_start_at": 1648911600,
+      "gacha_play_end_at": 1650121199,
+      "char_receive_start_at": 1650121200,
+      "char_receive_end_at": 1650812399,
+      "created_at": 1648719361,
+      "updated_at": 1648719361
+    },
+    {
+      "id": 2,
+      "gacha_group_id": 7505,
+      "gacha_play_start_at": 1674918000,
+      "gacha_play_end_at": 1676127599,
+      "char_receive_start_at": 1676127600,
+      "char_receive_end_at": 1676818799,
+      "created_at": 1674724101,
+      "updated_at": 1674724101
+    },
+    {
+      "id": 3,
+      "gacha_group_id": 8425,
+      "gacha_play_start_at": 1709218800,
+      "gacha_play_end_at": 1710428399,
+      "char_receive_start_at": 1710428400,
+      "char_receive_end_at": 1711033199,
+      "created_at": 1709202571,
+      "updated_at": 1709202571
+    },
+    {
+      "id": 4,
+      "gacha_group_id": 9384,
+      "gacha_play_start_at": 1742569200,
+      "gacha_play_end_at": 1743433199,
+      "char_receive_start_at": 1743433200,
+      "char_receive_end_at": 1744037999,
+      "created_at": 1742550571,
+      "updated_at": 1742550571
+    },
+    {
+      "id": 5,
+      "gacha_group_id": 10357,
+      "gacha_play_start_at": 1769785200,
+      "gacha_play_end_at": 1770649199,
+      "char_receive_start_at": 1770649200,
+      "char_receive_end_at": 1770821999,
+      "created_at": 1769681298,
+      "updated_at": 1769681298
+    }
+  ]
+}

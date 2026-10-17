@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "table": "piano_chars",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "display_char_id": 1,
+      "display_char_name": "アルファ",
+      "display_at": 1700190000,
+      "need_to_release": 0,
+      "release_reward_item_id": 0,
+      "release_reward_item_cnt": 0,
+      "created_at": 1700133415,
+      "updated_at": 1700133415
+    },
+    {
+      "id": 2,
+      "display_char_id": 2,
+      "display_char_name": "ベータ",
+      "display_at": 1700190000,
+      "need_to_release": 1,
+      "release_reward_item_id": 8466,
+      "release_reward_item_cnt": 1,
+      "created_at": 1700133415,
+      "updated_at": 1700133415
+    },
+    {
+      "id": 3,
+      "display_char_id": 3,
+      "display_char_name": "ガンマ",
+      "display_at": 1700190000,
+      "need_to_release": 1,
+      "release_reward_item_id": 8467,
+      "release_reward_item_cnt": 1,
+      "created_at": 1700133415,
+      "updated_at": 1700133415
+    },
+    {
+      "id": 4,
+      "display_char_id": 4,
+      "display_char_name": "デルタ",
+      "display_at": 1700190000,
+      "need_to_release": 1,
+      "release_reward_item_id": 8468,
+      "release_reward_item_cnt": 1,
+      "created_at": 1700133415,
+      "updated_at": 1700133415
+    },
+    {
+      "id": 5,
+      "display_char_id": 5,
+      "display_char_name": "イプシロン",
+      "display_at": 1700190000,
+      "need_to_release": 1,
+      "release_reward_item_id": 8469,
+      "release_reward_item_cnt": 1,
+      "created_at": 1700133415,
+      "updated_at": 1700133415
+    },
+    {
+      "id": 6,
+      "display_char_id": 6,
+      "display_char_name": "ゼータ",
+      "display_at": 1700190000,
+      "need_to_release": 1,
+      "release_reward_item_id": 8471,
+      "release_reward_item_cnt": 1,
+      "created_at": 1700133415,
+      "updated_at": 1700133415
+    },
+    {
+      "id": 7,
+      "display_char_id": 7,
+      "display_char_name": "イータ",
+      "display_at": 1700190000,
+      "need_to_release": 1,
+      "release_reward_item_id": 8470,
+      "release_reward_item_cnt": 1,
+      "created_at": 1700133415,
+      "updated_at": 1700133415
+    },
+    {
+      "id": 8,
+      "display_char_id": 8,
+      "display_char_name": "シャドウ",
+      "display_at": 1700852400,
+      "need_to_release": 0,
+      "release_reward_item_id": 0,
+      "release_reward_item_cnt": 0,
+      "created_at": 1700816421,
+      "updated_at": 1700816421
+    }
+  ]
+}

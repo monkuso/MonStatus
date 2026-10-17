@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "table": "collabo_lottery_boxes",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "collabo_lottery_box_event_id": 1,
+      "is_host": true,
+      "type_id": 2,
+      "display_item_id": 102
+    },
+    {
+      "id": 2,
+      "collabo_lottery_box_event_id": 1,
+      "is_host": true,
+      "type_id": 3,
+      "display_item_id": 102
+    },
+    {
+      "id": 3,
+      "collabo_lottery_box_event_id": 1,
+      "is_host": false,
+      "type_id": 1,
+      "display_item_id": 102
+    }
+  ]
+}

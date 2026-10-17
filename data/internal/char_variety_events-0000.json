@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "table": "char_variety_events",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "stage_group_id": 851610,
+      "start_at": 1747537200,
+      "end_at": 1748833199,
+      "created_at": 1747304994,
+      "updated_at": 1776802936,
+      "badge_item_id": 10040150
+    },
+    {
+      "id": 2,
+      "stage_group_id": 851920,
+      "start_at": 1777024800,
+      "end_at": 1782269999,
+      "created_at": 1776802936,
+      "updated_at": 1776802936,
+      "badge_item_id": 10040182
+    },
+    {
+      "id": 3,
+      "stage_group_id": 852030,
+      "start_at": 1782554400,
+      "end_at": 1787108399,
+      "created_at": 1782387175,
+      "updated_at": 1787217685,
+      "badge_item_id": 10040194
+    },
+    {
+      "id": 4,
+      "stage_group_id": 852050,
+      "start_at": 1787392800,
+      "end_at": 1793069999,
+      "created_at": 1787217686,
+      "updated_at": 1787217686,
+      "badge_item_id": 10040201
+    }
+  ]
+}

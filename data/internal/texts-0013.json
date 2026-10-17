@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 1,
+  "table": "texts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 3356,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips32.png|1.08][LF][LF]「ホイホイ」は強力な攻撃をしてくるぞ！[LF]優先的に倒して、ダメージを回避しよう！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200113"
+    },
+    {
+      "id": 3357,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips33.png|1.08][LF][LF]ボス戦では「ぷよリン 」に攻撃すると[LF]ボスにもダメージを与えられるぞ！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200114"
+    },
+    {
+      "id": 3358,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips34.png|1.08][LF][LF]倒すと[C6:防御力DOWN]、[C6:攻撃力DOWN]する敵が出現！[LF]優先的に倒してからボスに攻撃しよう",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200115"
+    },
+    {
+      "id": 3359,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips35.png|1.08][LF][LF]このステージでは大幅スピードDOWN！[LF]ただし[C6:壁にふれるとスピードUP]するぞ！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200116"
+    },
+    {
+      "id": 3360,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips36.png|1.08][LF][LF]「はこリン」を倒すと「冷却ポーション」が出現！[LF]火山のダメージを回避しながらすすめよう",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200117"
+    },
+    {
+      "id": 3361,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips37.png|1.08][LF][LF]攻撃すると[C6:防御力DOWN]、[C6:防御力UP]する敵が出現！[LF]タイミングを見極めて攻撃しよう！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200118"
+    },
+    {
+      "id": 3362,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips38.png|1.08][LF][LF]倒すとレーザーで攻撃してくる敵が多数出現！[LF]発射方向は[C6:ドクロマークの位置]で見極めよう！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200119"
+    },
+    {
+      "id": 3363,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips39.png|1.08][LF][LF]ボスの強力な攻撃に合わせて、[C6:アイテムを取ろう！][LF]ダメージを最小限に抑えることができるぞ",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200120"
+    },
+    {
+      "id": 3364,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips40.png|1.08][LF][LF]反撃モードの右手は[C6:防御力DOWN！][LF]左手は[C6:防御力UP！]上手く使ってボスを攻撃しよう",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200121"
+    },
+    {
+      "id": 3365,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips21.png|1.08][LF][LF]「回復」アビリティを持ったモンスターで[LF]こまめに[C6:味方にふれてHPを回復]しよう",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200201"
+    },
+    {
+      "id": 3366,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips22.png|1.08][LF][LF][C6:最初のターンはボスに攻撃を当てないように]しよう[LF]攻撃して怒らせると強力な攻撃をしてくるぞ！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200202"
+    },
+    {
+      "id": 3367,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips23.png|1.08][LF][LF]ターンが進むと「カーマ」は強力な攻撃をしてくるぞ[LF]1体ずつ確実に倒そう！！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200203"
+    },
+    {
+      "id": 3368,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips24.png|1.08][LF][LF]毒攻撃をする敵が出現！毒状態は毎ターンダメージ！[LF]「状態異常回復」アビリティで解除しよう！！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200204"
+    },
+    {
+      "id": 3369,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips25.png|1.08][LF][LF]大部分の敵は毒によるダメージが有効！[LF]敵を毒状態にできる友情コンボをHITさせよう",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200205"
+    },
+    {
+      "id": 3370,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips26.png|1.08][LF][LF]他の敵を復活させる「ネクロン」が登場！[LF]友情コンボを利用してネクロンを優先的に倒そう",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200206"
+    },
+    {
+      "id": 3371,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips27.png|1.08][LF][LF]ボス戦は倒した敵がどんどん復活！[LF]友情コンボで敵を倒しつつ、ボスにも攻撃しよう",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200207"
+    },
+    {
+      "id": 3372,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips28.png|1.08][LF][LF]3体のうち本当のボスは1体だけ！[LF]移動するボスを見失わずに攻撃しよう！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200208"
+    },
+    {
+      "id": 3373,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips29.png|1.08][LF][LF]ボスは防御力UPをして身を守るぞ！[LF]防御力UP中はボスの分身に攻撃を与えよう",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200209"
+    },
+    {
+      "id": 3374,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips30.png|1.08][LF][LF][C6:大黒天のお面]には要注意！倒すと大ダメージが発動！[LF]お面を倒さないように大黒天を攻撃しよう！！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200210"
+    },
+    {
+      "id": 3375,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips31.png|1.08][LF][LF]魔法陣でひよこ状態に！能力が大幅に低下するぞ！[LF]もう一度魔法陣にふれると、ひよこ状態から復活！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200211"
+    },
+    {
+      "id": 3376,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips32.png|1.08][LF][LF]「ホイホイ」は強力な攻撃をしてくるぞ！[LF]優先的に倒して、ダメージを回避しよう！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200212"
+    },
+    {
+      "id": 3377,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips33.png|1.08][LF][LF]ボス戦では「ぷよリン 」に攻撃すると[LF]ボスにもダメージを与えられるぞ！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200213"
+    },
+    {
+      "id": 3378,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips34.png|1.08][LF][LF]倒すと[C6:防御力DOWN]、[C6:攻撃力DOWN]する敵が出現！[LF]優先的に倒してからボスに攻撃しよう",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200214"
+    },
+    {
+      "id": 3379,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips35.png|1.08][LF][LF]このステージでは大幅スピードDOWN！[LF]ただし[C6:壁にふれるとスピードUP]するぞ！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200215"
+    },
+    {
+      "id": 3380,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips36.png|1.08][LF][LF]「はこリン」を倒すと「冷却ポーション」が出現！[LF]火山のダメージを回避しながらすすめよう",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200216"
+    },
+    {
+      "id": 3381,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips37.png|1.08][LF][LF]攻撃すると[C6:防御力DOWN]、[C6:防御力UP]する敵が出現！[LF]タイミングを見極めて攻撃しよう！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200217"
+    },
+    {
+      "id": 3382,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips38.png|1.08][LF][LF]倒すとレーザーで攻撃してくる敵が多数出現！[LF]発射方向は[C6:ドクロマークの位置]で見極めよう！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200218"
+    },
+    {
+      "id": 3383,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips39.png|1.08][LF][LF]ボスの強力な攻撃に合わせて、[C6:アイテムを取ろう！][LF]ダメージを最小限に抑えることができるぞ",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200219"
+    },
+    {
+      "id": 3384,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:deck_help_tips40.png|1.08][LF][LF]反撃モードの右手は[C6:防御力DOWN！][LF]左手は[C6:防御力UP！]上手く使ってボスを攻撃しよう",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_200220"
+    },
+    {
+      "id": 3385,
+      "text": "[LC]お助けデッキ詳細[LF]%s",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_ME_MSG_HELP_DECK_DETAIL_POPUP"
+    },
+    {
+      "id": 3386,
+      "text": "各ステージに適した専用のデッキで出撃することが可能！[LF]この4体を使ってクエストに挑戦できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1670862120,
+      "label": "eTEXTS_DEF_ME_MSG_HELP_DECK_DETAIL_DESCRIPTION"
+    },
+    {
+      "id": 3387,
+      "text": "お助けデッキ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_ME_HELP_DECK_NAME"
+    },
+    {
+      "id": 3388,
+      "text": "[LC]お助けデッキで出撃[LF][LF][C6:助っ人ミン]を消費して[LF]お助けデッキで出撃しますか？[LF][LF]必要数：[C6:%d][LF]所持数：%d[LF]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_ME_MSG_HELP_DECK_USE_ITEM_POPUP"
+    },
+    {
+      "id": 3389,
+      "text": "[LC]お助けデッキで出撃[LF][LF][C6:助っ人ミン]を消費せずに[LF]使用可能です[LF][LF]お助けデッキで出撃しますか？[LF][LF]必要数：[C6:%d → %d][LF]所持数：%d[LF]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1773179296,
+      "label": "eTEXTS_DEF_ME_MSG_HELP_DECK_NO_USE_ITEM_POPUP"
+    },
+    {
+      "id": 3390,
+      "text": "お助けデッキ対象！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_HELP_DECK_CALLUP_TEXT"
+    },
+    {
+      "id": 3391,
+      "text": "[C6:6周年特別ミッション開催中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_TOWER_SPECIAL_MISSION_MESSAGE"
+    },
+    {
+      "id": 3392,
+      "text": "6周年特別ミッション報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_TOWER_REWARD_CATEGORY_MISSION"
+    },
+    {
+      "id": 3393,
+      "text": "階層クリア報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_TOWER_REWARD_CATEGORY_FLOOR_CLEAR"
+    },
+    {
+      "id": 3394,
+      "text": "ミッション内容",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_TOWER_REWARD_TITLE_MISSION_CONTENT"
+    },
+    {
+      "id": 3395,
+      "text": "達成報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_TOWER_REWARD_TITLE_MISSION_REWARD"
+    },
+    {
+      "id": 3396,
+      "text": "[C6:覇者の塔を制覇で超チョイ玉をゲット！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15000"
+    },
+    {
+      "id": 3397,
+      "text": "[b:ba_help_6th_choice_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15001"
+    },
+    {
+      "id": 3398,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15002"
+    },
+    {
+      "id": 3399,
+      "text": "10/8 12:00～10/28 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15003"
+    },
+    {
+      "id": 3400,
+      "text": "[C5:超チョイ玉をゲットしよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15004"
+    },
+    {
+      "id": 3401,
+      "text": "今月の覇者の塔は[C6:6周年特別仕様！][LF]40階制覇の専用ミッションを達成すると[LF][C6:超チョイ玉]が獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15005"
+    },
+    {
+      "id": 3402,
+      "text": "超チョイ玉",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15006"
+    },
+    {
+      "id": 3403,
+      "text": "※超チョイ玉で引けるのは[C6:11/06 11:59まで]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15007"
+    },
+    {
+      "id": 3404,
+      "text": "[C5:スタミナ1/2キャンペーン！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15008"
+    },
+    {
+      "id": 3405,
+      "text": "覇者の塔で[C6:スタミナ1/2]イベントを開催！[LF][C6:スキップに必要な消費スタミナも対象]です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15009"
+    },
+    {
+      "id": 3406,
+      "text": "[C6:スキップも][IMG:icon_stamina.png|1][C6:1/2]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15010"
+    },
+    {
+      "id": 3407,
+      "text": "1階",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15011"
+    },
+    {
+      "id": 3408,
+      "text": "スキップ可能階",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15012"
+    },
+    {
+      "id": 3409,
+      "text": "全階層スタミナ1/2で気軽に挑戦できます！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15013"
+    },
+    {
+      "id": 3410,
+      "text": "お助けデッキが登場！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15014"
+    },
+    {
+      "id": 3411,
+      "text": "クエスト攻略をサポートする[LF][C6:あらかじめ用意されたソロ専用のデッキ]です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1773179296,
+      "label": "eTEXTS_DEF_15015"
+    },
+    {
+      "id": 3412,
+      "text": "[IP4493]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15016"
+    },
+    {
+      "id": 3413,
+      "text": "[IP5523]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15017"
+    },
+    {
+      "id": 3414,
+      "text": "[IP4330]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15018"
+    },
+    {
+      "id": 3415,
+      "text": "[IP4822]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15019"
+    },
+    {
+      "id": 3416,
+      "text": "手持ちのモンスターでは、クリアすることが[LF]難しい階層で使うのがオススメです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1773179296,
+      "label": "eTEXTS_DEF_15020"
+    },
+    {
+      "id": 3417,
+      "text": "お助けデッキは[C6:ソロプレイでのみ使用可能]です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1773179296,
+      "label": "eTEXTS_DEF_15021"
+    },
+    {
+      "id": 3418,
+      "text": "[C6:お助けデッキ対象！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1773179296,
+      "label": "eTEXTS_DEF_15022"
+    },
+    {
+      "id": 3419,
+      "text": "ルール",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1773179296,
+      "label": "eTEXTS_DEF_15023"
+    },
+    {
+      "id": 3420,
+      "text": "助っ人ミンを1つ消費することで使用できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1773179296,
+      "label": "eTEXTS_DEF_15024"
+    },
+    {
+      "id": 3421,
+      "text": "助っ人ミン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15025"
+    },
+    {
+      "id": 3422,
+      "text": "[LC]お助けデッキ登場記念！[LF][LC]今月開催の覇者の塔では[C6:助っ人ミンの消費なし！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15026"
+    },
+    {
+      "id": 3423,
+      "text": "※お助けデッキのモンスターは[LF]ショット順を入れ替えることはできません[LF][LF]※お助けデッキを使った場合デッキ履歴は残りません[LF][LF]※お助けデッキのモンスターは[LF]一部の戦績には残りません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15027"
+    },
+    {
+      "id": 3424,
+      "text": "[C5:お助けデッキについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_10526"
+    },
+    {
+      "id": 3425,
+      "text": "チケットを所持していません",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_QUEST_TICKET_ERROR"
+    },
+    {
+      "id": 3426,
+      "text": "[LC][b:ba_help_cp10_janken_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15100"
+    },
+    {
+      "id": 3427,
+      "text": "[LC][SITE:https://xfl.ag/2oCmmxA]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15101"
+    },
+    {
+      "id": 3428,
+      "text": "黒川所長とじゃんけん対決！[LF][LF]勝った数に応じて報酬がもらえるぞ！[LF][C6:5戦全勝すれば賞金2億円を山分け！][LF]マルチでやれば人数分の報酬ゲット！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15102"
+    },
+    {
+      "id": 3429,
+      "text": "[LC][b:ba_help_cp10_janken_01.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15103"
+    },
+    {
+      "id": 3430,
+      "text": "[LC][C5:遊び方]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15104"
+    },
+    {
+      "id": 3431,
+      "text": "予備",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15105"
+    },
+    {
+      "id": 3432,
+      "text": "予備",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15106"
+    },
+    {
+      "id": 3433,
+      "text": "黒川所長の声が流れます[LF][C6:音声ON]でお楽しみください",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15107"
+    },
+    {
+      "id": 3434,
+      "text": "全部で[C6:5回]勝負！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15108"
+    },
+    {
+      "id": 3435,
+      "text": "予備",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15109"
+    },
+    {
+      "id": 3436,
+      "text": "予備",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15110"
+    },
+    {
+      "id": 3437,
+      "text": "vs",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15111"
+    },
+    {
+      "id": 3438,
+      "text": "あいこは[C6:負け]！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15112"
+    },
+    {
+      "id": 3439,
+      "text": "予備",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15113"
+    },
+    {
+      "id": 3440,
+      "text": "[C1:Lose]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15114"
+    },
+    {
+      "id": 3441,
+      "text": "[C5:報酬について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15115"
+    },
+    {
+      "id": 3442,
+      "text": "近くの人とマルチで一緒にじゃんけんすると、[LF][C6:メンバーの報酬ももらえます！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15116"
+    },
+    {
+      "id": 3443,
+      "text": "※挑戦できるのは[C6:1人1回限り]！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15117"
+    },
+    {
+      "id": 3444,
+      "text": "報酬一覧",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15118"
+    },
+    {
+      "id": 3445,
+      "text": "0勝",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15119"
+    },
+    {
+      "id": 3446,
+      "text": "1勝",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15120"
+    },
+    {
+      "id": 3447,
+      "text": "2勝",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15121"
+    },
+    {
+      "id": 3448,
+      "text": "3勝",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15122"
+    },
+    {
+      "id": 3449,
+      "text": "4勝",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15123"
+    },
+    {
+      "id": 3450,
+      "text": "5勝",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15124"
+    },
+    {
+      "id": 3451,
+      "text": "[C6:+ 賞金山分け]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_15125"
+    },
+    {
+      "id": 3452,
+      "text": "マルチで挑戦する",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_MONSTJANKEN_MULTI_BUTTON"
+    },
+    {
+      "id": 3453,
+      "text": "ソロで挑戦する",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_MONSTJANKEN_SOLO_BUTTON"
+    },
+    {
+      "id": 3454,
+      "text": "[LC]認証キャンセル[LF][LF]ユーザーによる操作であることの確認を[LF]キャンセルしました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1743502598,
+      "label": "eTEXTS_DEF_MSG_RECAPTCHA_CANCEL"
+    },
+    {
+      "id": 3455,
+      "text": "[LC]認証エラー[LF][LF]ユーザーによる操作であることの確認に[LF]失敗しました[LF]しばらく時間を置いてからお試しください[LF][LF]エラーコード = %d [LF][LF][C2:※通信環境の良いところでプレイしてください]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1743502598,
+      "label": "eTEXTS_DEF_MSG_RECAPTCHA_ERROR"
+    },
+    {
+      "id": 3456,
+      "text": "[LC]開催期間外[LF][LF][LC]じゃんけんの開催期間は終了しました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_MONSTJANKEN_ERR_VALID_TIME"
+    },
+    {
+      "id": 3457,
+      "text": "[LC]通信エラー[LF][LF]サーバーとの通信に失敗しました。[LF]ホーム画面に戻ります。[LF]じゃんけんアイコンをタップすれば[LF]再度挑戦することができます。[LF][C2:※通信環境の良いところでプレイしてください。]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_MONSTJANKEN_ERR_JANKEN_PLAY"
+    },
+    {
+      "id": 3458,
+      "text": "[LC]受け取り済み[LF][LF][LC]既にじゃんけん報酬を受け取っています",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_MONSTJANKEN_ERR_ALREADY_RECEIVED"
+    },
+    {
+      "id": 3459,
+      "text": "じゃんけん参加前に、ホストがメンバー確定を[LF]していたため、参加できませんでした。[LF]接続を終了します。",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_MSG_MONSTJANKEN_ERR_TEAM_CREATE_WITHOUTME"
+    },
+    {
+      "id": 3460,
+      "text": "[LC]じゃんけんの募集/検索[LF][LF]「検索する」をタップすると、[LF][C4:近くのホスト]の募集の検索を開始します。[LF][LF]・[C4:合言葉設定]をすると、同じ3桁の数字を入力した[LF]　ホストの募集のみが表示されます。解除したい時は、[LF]　数字の横の「鍵のボタン」をタップしましょう。[LF][LF]・[C4:位置情報（GPS）]許可設定、[C4:電波状況]等を[LF]　ご確認ください。[LF][LF][C6:「募集する」]をタップすると、自分がホストになり[LF]一緒にじゃんけんするメンバーを集められます。",
+      "layout": 27,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_ME_MONSTJANKEN_GUEST_MESSAGE"
+    },
+    {
+      "id": 3461,
+      "text": "[LC]じゃんけんの募集が見つかりません[LF][LF]有効な[C4:ホスト]の募集が見つかりません。[LF][LF]・友達が[C4:合言葉]を設定していませんか？[LF]　友達に聞いて同じ数字を入力しましょう。[LF][LF]・[C4:位置情報（GPS）]許可設定、[C4:電波状況]等を[LF]　ご確認ください。",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_MSG_MONSTJANKEN_SEARCH_ERROR"
+    },
+    {
+      "id": 3462,
+      "text": "[LC]ホスト確認[LF][LF][LC][NODE][LF][LF][LC][C16:ホストがメンバーを確定すると、][LF][LC][C16:一緒に挑戦する人を変えることは出来ません。][LF][LC]このホストで間違いないですか？[LF]",
+      "layout": 8,
+      "color": 1,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_MSG_MONSTJANKEN_HOST_CONFIRM"
+    },
+    {
+      "id": 3463,
+      "text": "[LC]じゃんけんメンバー確認[LF][LF][LC]このメンバーでじゃんけんに挑戦します。[LF][LC][C16:決定するとメンバーを変えることは出来ません。][LF][LC]よろしいですか？[LF][LF][LC][NODE]",
+      "layout": 8,
+      "color": 1,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_MSG_MONSTJANKEN_MEMBER_CONFIRM"
+    },
+    {
+      "id": 3464,
+      "text": "[LC]じゃんけんメンバー決定！[LF][LF][LC]それぞれじゃんけん対決を開始してください！[LF][LC]報酬は、他のメンバーの受け取りBOXにも送られます！[LF][LF][LC][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_MSG_MONSTJANKEN_MEMBER_FIX"
+    },
+    {
+      "id": 3465,
+      "text": "[LC]合言葉を入力しよう[LF][LF][LC]3桁の番号が入力されていません。[LF][LC]3桁の番号を設定してください。",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_MSG_MONSTJANKEN_PSS_CODE_ERR"
+    },
+    {
+      "id": 3466,
+      "text": "募集する",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_MSG_MONSTJANKEN_HOST_BUTTON"
+    },
+    {
+      "id": 3467,
+      "text": "検索する",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_MSG_MONSTJANKEN_GUEST_BUTTON"
+    },
+    {
+      "id": 3468,
+      "text": "じゃんけん受付中",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_ME_TITLE_MONSTJANKEN_STANDBY"
+    },
+    {
+      "id": 3469,
+      "text": "じゃんけん募集リスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_ME_TITLE_MONSTJANKEN_RECRUIT_LIST"
+    },
+    {
+      "id": 3470,
+      "text": "[LC]エラー[LF][LF]定員オーバーです。[LF]マッチングをし直してください。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_ERRMSG_MONSTJANKEN_TEAM_MEMBER_OVERED"
+    },
+    {
+      "id": 3471,
+      "text": "[LC]エラー[LF][LF]メンバー確認に失敗し、[LF]じゃんけんをすることが出来ませんでした。[LF][LF]【[C6:「マルチで挑戦する」]の場合】[LF]ホストまたはゲストのいずれかのメンバーが[LF]すでにじゃんけんをしています。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_ERRMSG_MONSTJANKEN_TEAM_ALREADY_CREATED"
+    },
+    {
+      "id": 3472,
+      "text": "[LC]じゃんけん開催期間終了[LF][LF]マルチ募集期間、または、[LF]じゃんけん開催期間が終了しました。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_ERRMSG_MONSTJANKEN_TEAM_CREARION_OUT_OF_SESSION"
+    },
+    {
+      "id": 3473,
+      "text": "[LC]確認[LF][LF][LC]「ソロで挑戦する」を選択しました。[LF][LF][LC][C12:一度決定すると「マルチで挑戦する」を][LF][C12:選択することはできません！][LF][LF][LC]本当によろしいですか？",
+      "layout": 8,
+      "color": 1,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_MSG_MONSTJANKEN_SOLO_CONFIRM"
+    },
+    {
+      "id": 3474,
+      "text": "[LC]確定[LF][LF][LC]「ソロで挑戦する」で[LF][LC]じゃんけんをします。",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1570463655,
+      "updated_at": 1570463655,
+      "label": "eTEXTS_DEF_MSG_MONSTJANKEN_SOLO_FIX"
+    },
+    {
+      "id": 3475,
+      "text": "週間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_ME_MISSION_TAB1"
+    },
+    {
+      "id": 3476,
+      "text": "通常",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_ME_MISSION_TAB2"
+    },
+    {
+      "id": 3477,
+      "text": "期間限定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_ME_MISSION_TAB3"
+    },
+    {
+      "id": 3478,
+      "text": "現在挑戦可能なミッションはありません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1664206709,
+      "label": "eTEXTS_DEF_ME_MISSION_TAB_ERROR1"
+    },
+    {
+      "id": 3479,
+      "text": "ランク3以上で挑戦できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_ME_MISSION_TAB_ERROR2"
+    },
+    {
+      "id": 3480,
+      "text": "モンストの日限定！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_MONSTDAY_STAGE"
+    },
+    {
+      "id": 3481,
+      "text": "タイムボーナスで[C6:わくわくの実2個確定！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_ME_MONST_DAY_TIMEBONUS_TEXTS"
+    },
+    {
+      "id": 3482,
+      "text": "タイムボーナスでわくわくの実2個確定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_ME_MONST_DAY_TIMEBONUS"
+    },
+    {
+      "id": 3483,
+      "text": "強化進化クエストに限定クエスト登場",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1594660572,
+      "label": "eTEXTS_DEF_13611"
+    },
+    {
+      "id": 3484,
+      "text": "[IA10564]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_13612"
+    },
+    {
+      "id": 3485,
+      "text": "[C6:強化素材]や[C6:進化アイテム]を[LF]大量獲得のチャンス",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_13613"
+    },
+    {
+      "id": 3486,
+      "text": "タイムボーナス2個確定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_13614"
+    },
+    {
+      "id": 3487,
+      "text": "英雄の神殿の[C6:タイムボーナス]で[LF][C6:わくわくの実]が[C6:2個確定]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_13615"
+    },
+    {
+      "id": 3488,
+      "text": "タイム",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_13616"
+    },
+    {
+      "id": 3489,
+      "text": "[LC]引き換え条件[LF][LF]今週のラッキーモンスターをあと%d種運極にすると[LF]引き換え可能になります。",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1586329254,
+      "label": "eTEXTS_DEF_ME_MSG_LUCK_EXCHANGE_LUCKYMON_LIMIT"
+    },
+    {
+      "id": 3490,
+      "text": "すでにキャンペーン開催中のため使用できません",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_ME_ITEM_EVENT_WARNING_SAME_EVENT"
+    },
+    {
+      "id": 3491,
+      "text": "[LF][C6:ソロ]、マルチプレイの[C6:ホスト]のみ対象となります。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_ME_MSG_CAMPAIGNS_ITEM_ASK_POPUP_SOLO"
+    },
+    {
+      "id": 3492,
+      "text": "[LC]マイスポット設置[LF][LF]現在の場所に、マイスポットを設置しますか？[LF]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1776803022,
+      "label": "eTEXTS_DEF_MSG_MONSPOT_MYSPOT_SET_FIRST"
+    },
+    {
+      "id": 3493,
+      "text": "[LC]マイスポット置き換え[LF][LF]現在の場所に、マイスポットを置き換えますか？[MARGIN20][LF][LC][NODE][LF][MARGIN15][LF]※パワーの効果は変わりません",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1757523460,
+      "label": "eTEXTS_DEF_MSG_MONSPOT_MYSPOT_SET_RESET"
+    },
+    {
+      "id": 3494,
+      "text": "[SW0.9]一部を除く[C6:すべてのスポットが＋パワー]に",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1594660572,
+      "label": "eTEXTS_DEF_10820"
+    },
+    {
+      "id": 3495,
+      "text": "マイスポット",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_MONSPOT_MYSPOT_NAME"
+    },
+    {
+      "id": 3496,
+      "text": "拡張上限に達しました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_SHOP_BOX_ADD_LIMIT"
+    },
+    {
+      "id": 3497,
+      "text": "[LC]拡張完了[LF][WIDTH500][LF][MARGIN10][LF][LC][NODE][LF][MARGIN10][LF][LC]モンスターBOXを%d個拡張しました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_SHOP_BOX_ADD_SUCCESS"
+    },
+    {
+      "id": 3498,
+      "text": "オーブが不足しているため[LF]拡張できません",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_SHOP_BOX_ADD_LACK_ORB"
+    },
+    {
+      "id": 3499,
+      "text": "[LC]ゲージショットとは[LF][LF][CCB:dlme/help_apri_gauge_00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_ME_HELP_APRI_GAGE"
+    },
+    {
+      "id": 3500,
+      "text": "[C6:ゲージショット成功でアビリティ発動！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16500"
+    },
+    {
+      "id": 3501,
+      "text": "[b:ba_help_apri_gauge_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16501"
+    },
+    {
+      "id": 3502,
+      "text": "[C5:ゲージショット成功の効果]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16502"
+    },
+    {
+      "id": 3503,
+      "text": "ゲージショットを成功させると[LF][IMG:char_gauge.png]が付いた[C6:アビリティが発動]します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16503"
+    },
+    {
+      "id": 3504,
+      "text": "[IP7349]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16504"
+    },
+    {
+      "id": 3505,
+      "text": "アンチ魔法陣／全属性耐性",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16505"
+    },
+    {
+      "id": 3506,
+      "text": "超アンチワープ／SSターン短縮",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16506"
+    },
+    {
+      "id": 3507,
+      "text": "また、[C6:攻撃力もアップ]します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16507"
+    },
+    {
+      "id": 3508,
+      "text": "[C5:ゲージショット成功の方法]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16508"
+    },
+    {
+      "id": 3509,
+      "text": "ゲージはクエストプレイ中、[LF][C6:画面上部に表示]されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16509"
+    },
+    {
+      "id": 3510,
+      "text": "タイミング良くショットして[LF]ゲージ成功を狙おう！[LF][C6:FANTASTIC!]が表示されるとゲージ成功です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16510"
+    },
+    {
+      "id": 3511,
+      "text": "[C6:FANTASTIC!]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16511"
+    },
+    {
+      "id": 3512,
+      "text": "[C5:バランス型]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16303"
+    },
+    {
+      "id": 3513,
+      "text": "[C6:ステータス、友情コンボ威力の][LF][C6:バランスがとれた]戦型",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16304"
+    },
+    {
+      "id": 3514,
+      "text": "超バランス型",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16305"
+    },
+    {
+      "id": 3515,
+      "text": "下記の能力が解放されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16306"
+    },
+    {
+      "id": 3516,
+      "text": "アイテム[C6:「ハート」]の[LF]効果アップ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16307"
+    },
+    {
+      "id": 3517,
+      "text": "有利属性の敵に対して[LF][C6:攻撃力が更にアップ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16308"
+    },
+    {
+      "id": 3518,
+      "text": "[C5:パワー型]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16309"
+    },
+    {
+      "id": 3519,
+      "text": "[C6:攻撃力が高い]戦型",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16310"
+    },
+    {
+      "id": 3520,
+      "text": "超パワー型",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16311"
+    },
+    {
+      "id": 3521,
+      "text": "下記の能力が解放されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16312"
+    },
+    {
+      "id": 3522,
+      "text": "アイテム[C6:「剣」]の[LF]効果アップ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16313"
+    },
+    {
+      "id": 3523,
+      "text": "[C6:最初に敵にヒットした際]の[LF]攻撃力がアップ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16314"
+    },
+    {
+      "id": 3524,
+      "text": "[C5:スピード型]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16315"
+    },
+    {
+      "id": 3525,
+      "text": "[C6:スピードが速い]戦型",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16316"
+    },
+    {
+      "id": 3526,
+      "text": "超スピード型",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16317"
+    },
+    {
+      "id": 3527,
+      "text": "下記の能力が解放されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16318"
+    },
+    {
+      "id": 3528,
+      "text": "アイテム[C6:「靴」]の[LF]効果アップ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16319"
+    },
+    {
+      "id": 3529,
+      "text": "[C6:最初にふれた壁]で[LF]スピードアップ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16320"
+    },
+    {
+      "id": 3530,
+      "text": "[C5:砲撃型]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16321"
+    },
+    {
+      "id": 3531,
+      "text": "[C6:友情コンボの威力が高い]戦型",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16322"
+    },
+    {
+      "id": 3532,
+      "text": "超砲撃型",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16323"
+    },
+    {
+      "id": 3533,
+      "text": "下記の能力が解放されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16324"
+    },
+    {
+      "id": 3534,
+      "text": "アイテム[C6:「砂時計」]の[LF]効果アップ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16325"
+    },
+    {
+      "id": 3535,
+      "text": "[C6:誘発された友情コンボの威力]が[LF]50％から100％にアップ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_16326"
+    },
+    {
+      "id": 3536,
+      "text": "友人選択がキャンセルされました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_ME_MSG_INVITATE_CANCEL"
+    },
+    {
+      "id": 3537,
+      "text": "友人選択がキャンセルされた、あるいは[LF][[連絡先リスト]が正常に取得できませんでした。[LF][LF]Android6.0以上の方は、[[連絡先リスト]を[LF]取得する際にアプリの権限の許可が必要になり[LF]ます。[LF][LF]端末の[[設定]から、[LF][[アプリ]-[[モンスト]-[[許可][LF]にて[[連絡先]の設定をご確認下さい。",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_ME_MSG_INVITATE_CANCEL_AOS"
+    },
+    {
+      "id": 3538,
+      "text": "[LC]エラー[LF][LF]位置情報（GPS）が正常に取得できませんでした。[LF][LF]Android6.0以上の方は、[[位置情報]を[LF]取得する際にアプリの権限の許可が必要になり[LF]ます。[LF][LF]端末の[[設定]から、[LF][[アプリ]-[[モンスト]-[[許可][LF]にて[[位置情報]の設定をご確認下さい。",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1583427617,
+      "label": "eTEXTS_DEF_MONSPOT_GPS_ERROR_AOS"
+    },
+    {
+      "id": 3539,
+      "text": "モンスポットはデバイスの位置情報を利用します。[LF][LF]屋外など位置情報（GPS）を取得しやすい場所で[LF]ご利用ください。",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_MONSPOT_GPS_MSG_PERMISSION"
+    },
+    {
+      "id": 3540,
+      "text": "モンスターレンタルはデバイスの位置情報を利用します。[LF][LF]位置情報（GPS）を取得しやすい場所でご利用ください。",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_FRIEND_RENTAL_GPS_MSG_PERMISSION"
+    },
+    {
+      "id": 3541,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LC][b:tips_stage_capture_1.png][LF]手番のモンスターをショットした後、触れた[LF][C6:パワーアップウォール]の数に応じて攻撃力がアップ！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_200300"
+    },
+    {
+      "id": 3542,
+      "text": "[LF][MARGIN16][LC][b:tips_stage_capture_1.png][LF]手番のモンスターをショットした後、触れた[LF][C6:パワーアップウォール]の数に応じて攻撃力がアップ！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1791909060,
+      "label": "eTEXTS_DEF_200301"
+    },
+    {
+      "id": 3543,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LC][b:tips_stage_capture_2.png][LF]手番のモンスターをショットした後[LF][C6:味方のモンスターに触れる]ことで攻撃力がアップ！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1682351338,
+      "label": "eTEXTS_DEF_200302"
+    },
+    {
+      "id": 3544,
+      "text": "[LF][MARGIN16][LC][b:tips_stage_capture_2.png][LF]手番のモンスターをショットした後[LF][C6:味方のモンスターに触れる]ことで攻撃力がアップ！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1791909060,
+      "label": "eTEXTS_DEF_200303"
+    },
+    {
+      "id": 3545,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LC][b:tips_stage_capture_3.png][LF][C6:エレメントエリア]内にいる味方モンスターの[LF][C6:属性効果]が通常時よりもアップ！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1682351338,
+      "label": "eTEXTS_DEF_200304"
+    },
+    {
+      "id": 3546,
+      "text": "[LF][MARGIN16][LC][b:tips_stage_capture_3.png][LF][C6:エレメントエリア]内にいる味方モンスターの[LF][C6:属性効果]が通常時よりもアップ！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1791909060,
+      "label": "eTEXTS_DEF_200305"
+    },
+    {
+      "id": 3547,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LC][b:tips_stage_capture_4.png][LF][C6:触れた敵の数に応じて]攻撃力がアップ！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_200306"
+    },
+    {
+      "id": 3548,
+      "text": "[LF][MARGIN16][LC][b:tips_stage_capture_4.png][LF][C6:触れた敵の数に応じて]攻撃力がアップ！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1791909060,
+      "label": "eTEXTS_DEF_200307"
+    },
+    {
+      "id": 3549,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LC][b:tips_stage_capture_5.png][LF]ショットした際に[C6:ダメージを受けると][LF][C6:ダメージ量に応じて]攻撃力がアップ！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_200308"
+    },
+    {
+      "id": 3550,
+      "text": "[LF][MARGIN16][LC][b:tips_stage_capture_5.png][LF]ショットした際に[C6:ダメージを受けると][LF][C6:ダメージ量に応じて]攻撃力がアップ！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1791909060,
+      "label": "eTEXTS_DEF_200309"
+    },
+    {
+      "id": 3551,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LC][b:tips_stage_capture_6.png][LF]敵に[C6:一定回数触れる]まで、ダメージ無効！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_200310"
+    },
+    {
+      "id": 3552,
+      "text": "[LF][MARGIN16][LC][b:tips_stage_capture_6.png][LF]敵に[C6:一定回数触れる]まで、ダメージ無効！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1791909060,
+      "label": "eTEXTS_DEF_200311"
+    },
+    {
+      "id": 3553,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LC][b:tips_stage_capture_7.png][LF]ショットした後、味方モンスターに[LF][C6:触れた数に応じて]攻撃力がアップ！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1682351338,
+      "label": "eTEXTS_DEF_200312"
+    },
+    {
+      "id": 3554,
+      "text": "[LF][MARGIN16][LC][b:tips_stage_capture_7.png][LF]ショットした後、味方モンスターに[LF][C6:触れた数に応じて]攻撃力がアップ！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1791909060,
+      "label": "eTEXTS_DEF_200313"
+    },
+    {
+      "id": 3555,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LC][b:tips_stage_capture_8.png][LF][C6:防御状態]の敵は、ダメージが無効！[LF]他の敵に触れることで[C6:防御状態]は解除されるぞ！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_200314"
+    },
+    {
+      "id": 3556,
+      "text": "[LF][MARGIN16][LC][b:tips_stage_capture_8.png][LF][C6:防御状態]の敵は、ダメージが無効！[LF]他の敵に触れることで[C6:防御状態]は解除されるぞ！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1791909060,
+      "label": "eTEXTS_DEF_200315"
+    },
+    {
+      "id": 3557,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LC][b:tips_stage_capture_9.png][LF]手番のモンスターをショット後に[LF][C6:一定の速度まで減速]することで、攻撃力がアップ！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_200316"
+    },
+    {
+      "id": 3558,
+      "text": "[LF][MARGIN16][LC][b:tips_stage_capture_9.png][LF]手番のモンスターをショット後に[LF][C6:一定の速度まで減速]することで、攻撃力がアップ！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1791909060,
+      "label": "eTEXTS_DEF_200317"
+    },
+    {
+      "id": 3559,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LC][b:tips_stage_capture_10.png][LF]味方モンスターが常に[C6:キューブ]に覆われた状態！[LF]味方モンスターは触れても動かないぞ！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1682351338,
+      "label": "eTEXTS_DEF_200318"
+    },
+    {
+      "id": 3560,
+      "text": "[LF][MARGIN16][LC][b:tips_stage_capture_10.png][LF]味方モンスターが常に[C6:キューブ]に覆われた状態！[LF]味方モンスターは触れても動かないぞ！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1791909060,
+      "label": "eTEXTS_DEF_200319"
+    },
+    {
+      "id": 3561,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LC][b:tips_stage_capture_11.png][LF]ステージ内の全ての[C6:パワースイッチ]を[LF][C6:LV2]に揃えると攻撃力がアップ！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1573489526,
+      "label": "eTEXTS_DEF_200320"
+    },
+    {
+      "id": 3562,
+      "text": "[LF][MARGIN16][LC][b:tips_stage_capture_11.png][LF]ステージ内の全ての[C6:パワースイッチ]を[LF][C6:LV2]に揃えると攻撃力がアップ！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1791909060,
+      "label": "eTEXTS_DEF_200321"
+    },
+    {
+      "id": 3563,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LC][b:tips_stage_capture_12.png][LF]手番のモンスターをショットした際に[LF]味方モンスターに触れると[C6:撃種が変化]！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1682351338,
+      "label": "eTEXTS_DEF_200322"
+    },
+    {
+      "id": 3564,
+      "text": "[LF][MARGIN16][LC][b:tips_stage_capture_12.png][LF]手番のモンスターをショットした際に[LF]味方モンスターに触れると[C6:撃種が変化]！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1573489526,
+      "updated_at": 1791909060,
+      "label": "eTEXTS_DEF_200323"
+    },
+    {
+      "id": 3565,
+      "text": "期間限定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_ME_COLLABO_CAMPAIGN_PERIOD"
+    },
+    {
+      "id": 3566,
+      "text": "1日1回クリアボーナス",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_STAGE_ONCE_CLEAR_BONUS_CATEGORY"
+    },
+    {
+      "id": 3567,
+      "text": "※[C6:ソロ]、マルチプレイの[C6:ホスト]、[C6:ゲスト]どのクリアも[LF]対象です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_STAGE_ONCE_CLEAR_BONUS_DETAIL"
+    },
+    {
+      "id": 3568,
+      "text": "[LC]本日は獲得済みです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_STAGE_ONCE_CLEAR_BONUS_CLEAR_TEXT"
+    },
+    {
+      "id": 3569,
+      "text": "[LC][C6:AM4:00]にリセットされます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1583427617,
+      "label": "eTEXTS_DEF_STAGE_ONCE_CLEAR_BONUS_CLEAR_TEXT_02"
+    },
+    {
+      "id": 3570,
+      "text": "コラボキャラの英雄の証を解放",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1660819583,
+      "label": "eTEXTS_DEF_ME_COLLABO_GEM_REWARD"
+    },
+    {
+      "id": 3571,
+      "text": "まで解放可能",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1660819583,
+      "label": "eTEXTS_DEF_ME_COLLABO_GEM_REWARD_USE_APPEAL"
+    },
+    {
+      "id": 3572,
+      "text": "[LC]科学の書とは[LF][LF][IF_DATE|2024/12/13 12:00:00|2024/12/20 04:00:00][CCB:dlme/help_collabo_juice_sb3_00_1][ELSE][CCB:dlme/help_collabo_juice_sb3_00_2][ENDIF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1733997298,
+      "label": "eTEXTS_DEF_ME_MSG_COLLABO_GEM_REWARD_HELP"
+    },
+    {
+      "id": 3573,
+      "text": "科学の書を所持していないため、[LF]英雄の証を解放することができません",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1733997298,
+      "label": "eTEXTS_DEF_ME_COLLABO_GEM_REWARD_ERROR"
+    },
+    {
+      "id": 3574,
+      "text": "英雄の証を解放",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1660819583,
+      "label": "eTEXTS_DEF_ME_COLLABO_GEMGET_TITLE"
+    },
+    {
+      "id": 3575,
+      "text": "[LC][C2:◆◆　警告　◆◆][LF][LF][LF][LF][LF][LF]このモンスターの英雄の証を解放しますか？[LF][LF]一度解放すると、取り消すことはできません[LF]また、解放は1体につき1回までとなります[LF][LF]本当によろしいですか？",
+      "layout": 8,
+      "color": 1,
+      "created_at": 1573649342,
+      "updated_at": 1660819583,
+      "label": "eTEXTS_DEF_MSG_COLLABO_GEM_REWARD_CAUTION"
+    },
+    {
+      "id": 3576,
+      "text": "科学の書の期限が切れているため、[LF]英雄の証を解放できません",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1733997298,
+      "label": "eTEXTS_DEF_ERRMSG_COLLABO_GEM_REWARD_EXPIRED"
+    },
+    {
+      "id": 3577,
+      "text": "[LC]ネン×ノ×シレンとは[LF][LF][CCB:dlme/help_collabo_hh2quest_00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_HH2QUEST_HELP"
+    },
+    {
+      "id": 3578,
+      "text": "[LC]報酬一覧[LF][LF][LC]報酬は受け取りBOXに届きます[LF][LF][LC][NODE][LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_HH2QUEST_ITEM_LIST"
+    },
+    {
+      "id": 3579,
+      "text": "11/15 12:00～12/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_HH2QUEST_KIKAN"
+    },
+    {
+      "id": 3580,
+      "text": "対象クエストをクリアして、[C6:念]を修得しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_HH2QUEST_MESSAGE"
+    },
+    {
+      "id": 3581,
+      "text": "ネン×ノ×シレン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_HH2QUEST_RESULT_TITLE"
+    },
+    {
+      "id": 3582,
+      "text": "強化系",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_HH2QUEST_TYPE_KYOUKA"
+    },
+    {
+      "id": 3583,
+      "text": "変化系",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_HH2QUEST_TYPE_HENKA"
+    },
+    {
+      "id": 3584,
+      "text": "放出系",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_HH2QUEST_TYPE_HOUSHUTSU"
+    },
+    {
+      "id": 3585,
+      "text": "具現化系",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_HH2QUEST_TYPE_GUGENKA"
+    },
+    {
+      "id": 3586,
+      "text": "操作系",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_HH2QUEST_TYPE_SOUSA"
+    },
+    {
+      "id": 3587,
+      "text": "特質系",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_HH2QUEST_TYPE_TOKUSITSU"
+    },
+    {
+      "id": 3588,
+      "text": "%s：[C6:%d]修得！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_HH2QUEST_RESULT_PT_GET"
+    },
+    {
+      "id": 3589,
+      "text": "[C6:%s　%d達成！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_HH2QUEST_RESULT_PT_OVER"
+    },
+    {
+      "id": 3590,
+      "text": "受け取りBOXに報酬が届きます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_HH2QUEST_RESULT_PRESENT_MSG"
+    },
+    {
+      "id": 3591,
+      "text": "マルチ人数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_HH2QUEST_RESULT_MULTITITLE"
+    },
+    {
+      "id": 3592,
+      "text": "%d人",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_HH2QUEST_RESULT_MULTI_NIN"
+    },
+    {
+      "id": 3593,
+      "text": "強化系修得量",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_HH2QUEST_REWARD_TITLE_KYOUKA"
+    },
+    {
+      "id": 3594,
+      "text": "変化系修得量",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_HH2QUEST_REWARD_TITLE_HENKA"
+    },
+    {
+      "id": 3595,
+      "text": "放出系修得量",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_HH2QUEST_REWARD_TITLE_HOUSHUTSU"
+    },
+    {
+      "id": 3596,
+      "text": "具現化系修得量",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_HH2QUEST_REWARD_TITLE_GUGENKA"
+    },
+    {
+      "id": 3597,
+      "text": "操作系修得量",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_HH2QUEST_REWARD_TITLE_SOUSA"
+    },
+    {
+      "id": 3598,
+      "text": "特質系修得量",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_HH2QUEST_REWARD_TITLE_TOKUSITSU"
+    },
+    {
+      "id": 3599,
+      "text": "ネン×ノ×シレン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_HH2QUEST_SCENE_TITLE"
+    },
+    {
+      "id": 3600,
+      "text": "既に最大まで修得済みです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_HH2QUEST_RESULT_ALREADY_MAX"
+    },
+    {
+      "id": 3601,
+      "text": "[C6:コラボ限定ガチャ開催中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_16600"
+    },
+    {
+      "id": 3602,
+      "text": "[LC][b:ba_help_collabo_hh2_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_16601"
+    },
+    {
+      "id": 3603,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_16602"
+    },
+    {
+      "id": 3604,
+      "text": "11/15 12:00 ～ 12/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1574327822,
+      "label": "eTEXTS_DEF_16603"
+    },
+    {
+      "id": 3605,
+      "text": "[C5:コラボ限定ガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_16604"
+    },
+    {
+      "id": 3606,
+      "text": "ガチャ[C6:「HUNTER×HUNTER」]が[LF]期間限定で開催中！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_16605"
+    },
+    {
+      "id": 3607,
+      "text": "[IP7424]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_16606"
+    },
+    {
+      "id": 3608,
+      "text": "[IP7426]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_16607"
+    },
+    {
+      "id": 3609,
+      "text": "[IP7430]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_16608"
+    },
+    {
+      "id": 3610,
+      "text": "[IP7428]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_16609"
+    },
+    {
+      "id": 3611,
+      "text": "[IP7432]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1573649342,
+      "updated_at": 1573649342,
+      "label": "eTEXTS_DEF_16610"
+    }
+  ]
+}

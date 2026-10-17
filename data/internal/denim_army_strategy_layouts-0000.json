@@ -1,0 +1,655 @@
+{
+  "schemaVersion": 1,
+  "table": "denim_army_strategy_layouts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "denim_army_id": 1,
+      "denim_strategy_id": 2,
+      "group_id": 1,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 2,
+      "denim_army_id": 2,
+      "denim_strategy_id": 2,
+      "group_id": 1,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 3,
+      "denim_army_id": 3,
+      "denim_strategy_id": 1,
+      "group_id": 1,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 4,
+      "denim_army_id": 4,
+      "denim_strategy_id": 3,
+      "group_id": 1,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 5,
+      "denim_army_id": 5,
+      "denim_strategy_id": 1,
+      "group_id": 1,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 6,
+      "denim_army_id": 6,
+      "denim_strategy_id": 1,
+      "group_id": 1,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 7,
+      "denim_army_id": 7,
+      "denim_strategy_id": 3,
+      "group_id": 1,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 8,
+      "denim_army_id": 8,
+      "denim_strategy_id": 3,
+      "group_id": 1,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 9,
+      "denim_army_id": 9,
+      "denim_strategy_id": 1,
+      "group_id": 1,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 10,
+      "denim_army_id": 1,
+      "denim_strategy_id": 1,
+      "group_id": 2,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 11,
+      "denim_army_id": 2,
+      "denim_strategy_id": 3,
+      "group_id": 2,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 12,
+      "denim_army_id": 3,
+      "denim_strategy_id": 2,
+      "group_id": 2,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 13,
+      "denim_army_id": 4,
+      "denim_strategy_id": 1,
+      "group_id": 2,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 14,
+      "denim_army_id": 5,
+      "denim_strategy_id": 2,
+      "group_id": 2,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 15,
+      "denim_army_id": 6,
+      "denim_strategy_id": 1,
+      "group_id": 2,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 16,
+      "denim_army_id": 7,
+      "denim_strategy_id": 2,
+      "group_id": 2,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 17,
+      "denim_army_id": 8,
+      "denim_strategy_id": 3,
+      "group_id": 2,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 18,
+      "denim_army_id": 9,
+      "denim_strategy_id": 1,
+      "group_id": 2,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 19,
+      "denim_army_id": 1,
+      "denim_strategy_id": 2,
+      "group_id": 3,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 20,
+      "denim_army_id": 2,
+      "denim_strategy_id": 3,
+      "group_id": 3,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 21,
+      "denim_army_id": 3,
+      "denim_strategy_id": 3,
+      "group_id": 3,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 22,
+      "denim_army_id": 4,
+      "denim_strategy_id": 2,
+      "group_id": 3,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 23,
+      "denim_army_id": 5,
+      "denim_strategy_id": 1,
+      "group_id": 3,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 24,
+      "denim_army_id": 6,
+      "denim_strategy_id": 1,
+      "group_id": 3,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 25,
+      "denim_army_id": 7,
+      "denim_strategy_id": 3,
+      "group_id": 3,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 26,
+      "denim_army_id": 8,
+      "denim_strategy_id": 2,
+      "group_id": 3,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 27,
+      "denim_army_id": 9,
+      "denim_strategy_id": 2,
+      "group_id": 3,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 28,
+      "denim_army_id": 1,
+      "denim_strategy_id": 1,
+      "group_id": 4,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 29,
+      "denim_army_id": 2,
+      "denim_strategy_id": 2,
+      "group_id": 4,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 30,
+      "denim_army_id": 3,
+      "denim_strategy_id": 3,
+      "group_id": 4,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 31,
+      "denim_army_id": 4,
+      "denim_strategy_id": 1,
+      "group_id": 4,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 32,
+      "denim_army_id": 5,
+      "denim_strategy_id": 3,
+      "group_id": 4,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 33,
+      "denim_army_id": 6,
+      "denim_strategy_id": 2,
+      "group_id": 4,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 34,
+      "denim_army_id": 7,
+      "denim_strategy_id": 2,
+      "group_id": 4,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 35,
+      "denim_army_id": 8,
+      "denim_strategy_id": 3,
+      "group_id": 4,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 36,
+      "denim_army_id": 9,
+      "denim_strategy_id": 2,
+      "group_id": 4,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 37,
+      "denim_army_id": 1,
+      "denim_strategy_id": 1,
+      "group_id": 5,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 38,
+      "denim_army_id": 2,
+      "denim_strategy_id": 1,
+      "group_id": 5,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 39,
+      "denim_army_id": 3,
+      "denim_strategy_id": 3,
+      "group_id": 5,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 40,
+      "denim_army_id": 4,
+      "denim_strategy_id": 2,
+      "group_id": 5,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 41,
+      "denim_army_id": 5,
+      "denim_strategy_id": 2,
+      "group_id": 5,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 42,
+      "denim_army_id": 6,
+      "denim_strategy_id": 1,
+      "group_id": 5,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 43,
+      "denim_army_id": 7,
+      "denim_strategy_id": 3,
+      "group_id": 5,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 44,
+      "denim_army_id": 8,
+      "denim_strategy_id": 1,
+      "group_id": 5,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 45,
+      "denim_army_id": 9,
+      "denim_strategy_id": 2,
+      "group_id": 5,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 46,
+      "denim_army_id": 1,
+      "denim_strategy_id": 3,
+      "group_id": 6,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 47,
+      "denim_army_id": 2,
+      "denim_strategy_id": 2,
+      "group_id": 6,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 48,
+      "denim_army_id": 3,
+      "denim_strategy_id": 2,
+      "group_id": 6,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 49,
+      "denim_army_id": 4,
+      "denim_strategy_id": 3,
+      "group_id": 6,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 50,
+      "denim_army_id": 5,
+      "denim_strategy_id": 1,
+      "group_id": 6,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 51,
+      "denim_army_id": 6,
+      "denim_strategy_id": 2,
+      "group_id": 6,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 52,
+      "denim_army_id": 7,
+      "denim_strategy_id": 3,
+      "group_id": 6,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 53,
+      "denim_army_id": 8,
+      "denim_strategy_id": 1,
+      "group_id": 6,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 54,
+      "denim_army_id": 9,
+      "denim_strategy_id": 3,
+      "group_id": 6,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 55,
+      "denim_army_id": 1,
+      "denim_strategy_id": 2,
+      "group_id": 7,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 56,
+      "denim_army_id": 2,
+      "denim_strategy_id": 1,
+      "group_id": 7,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 57,
+      "denim_army_id": 3,
+      "denim_strategy_id": 2,
+      "group_id": 7,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 58,
+      "denim_army_id": 4,
+      "denim_strategy_id": 3,
+      "group_id": 7,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 59,
+      "denim_army_id": 5,
+      "denim_strategy_id": 3,
+      "group_id": 7,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 60,
+      "denim_army_id": 6,
+      "denim_strategy_id": 1,
+      "group_id": 7,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 61,
+      "denim_army_id": 7,
+      "denim_strategy_id": 1,
+      "group_id": 7,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 62,
+      "denim_army_id": 8,
+      "denim_strategy_id": 2,
+      "group_id": 7,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 63,
+      "denim_army_id": 9,
+      "denim_strategy_id": 1,
+      "group_id": 7,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 64,
+      "denim_army_id": 1,
+      "denim_strategy_id": 3,
+      "group_id": 8,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 65,
+      "denim_army_id": 2,
+      "denim_strategy_id": 1,
+      "group_id": 8,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 66,
+      "denim_army_id": 3,
+      "denim_strategy_id": 3,
+      "group_id": 8,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 67,
+      "denim_army_id": 4,
+      "denim_strategy_id": 1,
+      "group_id": 8,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 68,
+      "denim_army_id": 5,
+      "denim_strategy_id": 2,
+      "group_id": 8,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 69,
+      "denim_army_id": 6,
+      "denim_strategy_id": 2,
+      "group_id": 8,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 70,
+      "denim_army_id": 7,
+      "denim_strategy_id": 1,
+      "group_id": 8,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 71,
+      "denim_army_id": 8,
+      "denim_strategy_id": 3,
+      "group_id": 8,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 72,
+      "denim_army_id": 9,
+      "denim_strategy_id": 3,
+      "group_id": 8,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 73,
+      "denim_army_id": 1,
+      "denim_strategy_id": 1,
+      "group_id": 9,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 74,
+      "denim_army_id": 2,
+      "denim_strategy_id": 2,
+      "group_id": 9,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 75,
+      "denim_army_id": 3,
+      "denim_strategy_id": 1,
+      "group_id": 9,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 76,
+      "denim_army_id": 4,
+      "denim_strategy_id": 3,
+      "group_id": 9,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 77,
+      "denim_army_id": 5,
+      "denim_strategy_id": 3,
+      "group_id": 9,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 78,
+      "denim_army_id": 6,
+      "denim_strategy_id": 2,
+      "group_id": 9,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 79,
+      "denim_army_id": 7,
+      "denim_strategy_id": 1,
+      "group_id": 9,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 80,
+      "denim_army_id": 8,
+      "denim_strategy_id": 3,
+      "group_id": 9,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 81,
+      "denim_army_id": 9,
+      "denim_strategy_id": 2,
+      "group_id": 9,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    }
+  ]
+}

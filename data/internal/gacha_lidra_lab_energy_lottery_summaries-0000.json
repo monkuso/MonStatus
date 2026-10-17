@@ -1,0 +1,682 @@
+{
+  "schemaVersion": 1,
+  "table": "gacha_lidra_lab_energy_lottery_summaries",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "gacha_lidra_lab_event_id": 1,
+      "received_energy": 0,
+      "generate_rate_label": "通常",
+      "next_generate_level_label": "合計1000獲得で発生率アップ！",
+      "created_at": 1743069469,
+      "updated_at": 1743069469
+    },
+    {
+      "id": 2,
+      "gacha_lidra_lab_event_id": 1,
+      "received_energy": 1000,
+      "generate_rate_label": "[C6:アップ中]",
+      "next_generate_level_label": "[C6:合計2000獲得で発生率アップ！]",
+      "created_at": 1743069469,
+      "updated_at": 1743069469
+    },
+    {
+      "id": 3,
+      "gacha_lidra_lab_event_id": 1,
+      "received_energy": 2000,
+      "generate_rate_label": "[C6:大アップ中]",
+      "next_generate_level_label": "[C6:2000達成]",
+      "created_at": 1743069469,
+      "updated_at": 1743069469
+    },
+    {
+      "id": 4,
+      "gacha_lidra_lab_event_id": 2,
+      "received_energy": 0,
+      "generate_rate_label": "通常",
+      "next_generate_level_label": "合計500獲得で発生率アップ！",
+      "created_at": 1745833236,
+      "updated_at": 1745833236
+    },
+    {
+      "id": 5,
+      "gacha_lidra_lab_event_id": 2,
+      "received_energy": 500,
+      "generate_rate_label": "[C6:小アップ]",
+      "next_generate_level_label": "[C6:合計1000獲得で発生率アップ！]",
+      "created_at": 1745833236,
+      "updated_at": 1745833236
+    },
+    {
+      "id": 6,
+      "gacha_lidra_lab_event_id": 2,
+      "received_energy": 1000,
+      "generate_rate_label": "[C6:中アップ]",
+      "next_generate_level_label": "[C6:合計2000獲得で発生率アップ！]",
+      "created_at": 1745833236,
+      "updated_at": 1745833236
+    },
+    {
+      "id": 7,
+      "gacha_lidra_lab_event_id": 2,
+      "received_energy": 2000,
+      "generate_rate_label": "[C6:大アップ]",
+      "next_generate_level_label": "[C6:2000達成]",
+      "created_at": 1745833236,
+      "updated_at": 1745833236
+    },
+    {
+      "id": 8,
+      "gacha_lidra_lab_event_id": 3,
+      "received_energy": 0,
+      "generate_rate_label": "通常",
+      "next_generate_level_label": "合計500獲得で発生率アップ！",
+      "created_at": 1748513745,
+      "updated_at": 1748513745
+    },
+    {
+      "id": 9,
+      "gacha_lidra_lab_event_id": 3,
+      "received_energy": 500,
+      "generate_rate_label": "[C6:小アップ]",
+      "next_generate_level_label": "[C6:合計1000獲得で発生率アップ！]",
+      "created_at": 1748513745,
+      "updated_at": 1748513745
+    },
+    {
+      "id": 10,
+      "gacha_lidra_lab_event_id": 3,
+      "received_energy": 1000,
+      "generate_rate_label": "[C6:中アップ]",
+      "next_generate_level_label": "[C6:合計2000獲得で発生率アップ！]",
+      "created_at": 1748513745,
+      "updated_at": 1748513745
+    },
+    {
+      "id": 11,
+      "gacha_lidra_lab_event_id": 3,
+      "received_energy": 2000,
+      "generate_rate_label": "[C6:大アップ]",
+      "next_generate_level_label": "[C6:2000達成]",
+      "created_at": 1748513745,
+      "updated_at": 1748513745
+    },
+    {
+      "id": 12,
+      "gacha_lidra_lab_event_id": 4,
+      "received_energy": 0,
+      "generate_rate_label": "通常",
+      "next_generate_level_label": "合計500獲得で発生率アップ！",
+      "created_at": 1751012193,
+      "updated_at": 1751012193
+    },
+    {
+      "id": 13,
+      "gacha_lidra_lab_event_id": 4,
+      "received_energy": 500,
+      "generate_rate_label": "[C6:小アップ]",
+      "next_generate_level_label": "[C6:合計1000獲得で発生率アップ！]",
+      "created_at": 1751012193,
+      "updated_at": 1751012193
+    },
+    {
+      "id": 14,
+      "gacha_lidra_lab_event_id": 4,
+      "received_energy": 1000,
+      "generate_rate_label": "[C6:中アップ]",
+      "next_generate_level_label": "[C6:合計2000獲得で発生率アップ！]",
+      "created_at": 1751012193,
+      "updated_at": 1751012193
+    },
+    {
+      "id": 15,
+      "gacha_lidra_lab_event_id": 4,
+      "received_energy": 2000,
+      "generate_rate_label": "[C6:大アップ]",
+      "next_generate_level_label": "[C6:2000達成]",
+      "created_at": 1751012193,
+      "updated_at": 1751012193
+    },
+    {
+      "id": 16,
+      "gacha_lidra_lab_event_id": 5,
+      "received_energy": 0,
+      "generate_rate_label": "通常",
+      "next_generate_level_label": "合計500獲得で発生率アップ！",
+      "created_at": 1753775401,
+      "updated_at": 1753775401
+    },
+    {
+      "id": 17,
+      "gacha_lidra_lab_event_id": 5,
+      "received_energy": 500,
+      "generate_rate_label": "[C6:小アップ]",
+      "next_generate_level_label": "[C6:合計1000獲得で発生率アップ！]",
+      "created_at": 1753775401,
+      "updated_at": 1753775401
+    },
+    {
+      "id": 18,
+      "gacha_lidra_lab_event_id": 5,
+      "received_energy": 1000,
+      "generate_rate_label": "[C6:中アップ]",
+      "next_generate_level_label": "[C6:合計2000獲得で発生率アップ！]",
+      "created_at": 1753775401,
+      "updated_at": 1753775401
+    },
+    {
+      "id": 19,
+      "gacha_lidra_lab_event_id": 5,
+      "received_energy": 2000,
+      "generate_rate_label": "[C6:大アップ]",
+      "next_generate_level_label": "[C6:2000達成]",
+      "created_at": 1753775401,
+      "updated_at": 1753775401
+    },
+    {
+      "id": 20,
+      "gacha_lidra_lab_event_id": 6,
+      "received_energy": 0,
+      "generate_rate_label": "通常",
+      "next_generate_level_label": "合計500獲得で発生率アップ！",
+      "created_at": 1756455496,
+      "updated_at": 1756455496
+    },
+    {
+      "id": 21,
+      "gacha_lidra_lab_event_id": 6,
+      "received_energy": 500,
+      "generate_rate_label": "[C6:小アップ]",
+      "next_generate_level_label": "[C6:合計1000獲得で発生率アップ！]",
+      "created_at": 1756455496,
+      "updated_at": 1756455496
+    },
+    {
+      "id": 22,
+      "gacha_lidra_lab_event_id": 6,
+      "received_energy": 1000,
+      "generate_rate_label": "[C6:中アップ]",
+      "next_generate_level_label": "[C6:合計2000獲得で発生率アップ！]",
+      "created_at": 1756455497,
+      "updated_at": 1756455497
+    },
+    {
+      "id": 23,
+      "gacha_lidra_lab_event_id": 6,
+      "received_energy": 2000,
+      "generate_rate_label": "[C6:大アップ]",
+      "next_generate_level_label": "[C6:2000達成]",
+      "created_at": 1756455497,
+      "updated_at": 1756455497
+    },
+    {
+      "id": 24,
+      "gacha_lidra_lab_event_id": 7,
+      "received_energy": 0,
+      "generate_rate_label": "通常",
+      "next_generate_level_label": "合計500獲得で発生率アップ！",
+      "created_at": 1758793691,
+      "updated_at": 1758793691
+    },
+    {
+      "id": 25,
+      "gacha_lidra_lab_event_id": 7,
+      "received_energy": 500,
+      "generate_rate_label": "[C6:小アップ]",
+      "next_generate_level_label": "[C6:合計1000獲得で発生率アップ！]",
+      "created_at": 1758793691,
+      "updated_at": 1758793691
+    },
+    {
+      "id": 26,
+      "gacha_lidra_lab_event_id": 7,
+      "received_energy": 1000,
+      "generate_rate_label": "[C6:中アップ]",
+      "next_generate_level_label": "[C6:合計2000獲得で発生率アップ！]",
+      "created_at": 1758793691,
+      "updated_at": 1758793691
+    },
+    {
+      "id": 27,
+      "gacha_lidra_lab_event_id": 7,
+      "received_energy": 2000,
+      "generate_rate_label": "[C6:大アップ]",
+      "next_generate_level_label": "[C6:2000達成]",
+      "created_at": 1758793691,
+      "updated_at": 1758793691
+    },
+    {
+      "id": 28,
+      "gacha_lidra_lab_event_id": 8,
+      "received_energy": 0,
+      "generate_rate_label": "通常",
+      "next_generate_level_label": "合計500獲得で発生率アップ！",
+      "created_at": 1761722926,
+      "updated_at": 1761722926
+    },
+    {
+      "id": 29,
+      "gacha_lidra_lab_event_id": 8,
+      "received_energy": 500,
+      "generate_rate_label": "[C6:小アップ]",
+      "next_generate_level_label": "[C6:合計1000獲得で発生率アップ！]",
+      "created_at": 1761722926,
+      "updated_at": 1761722926
+    },
+    {
+      "id": 30,
+      "gacha_lidra_lab_event_id": 8,
+      "received_energy": 1000,
+      "generate_rate_label": "[C6:中アップ]",
+      "next_generate_level_label": "[C6:合計2000獲得で発生率アップ！]",
+      "created_at": 1761722926,
+      "updated_at": 1761722926
+    },
+    {
+      "id": 31,
+      "gacha_lidra_lab_event_id": 8,
+      "received_energy": 2000,
+      "generate_rate_label": "[C6:大アップ]",
+      "next_generate_level_label": "[C6:2000達成]",
+      "created_at": 1761722926,
+      "updated_at": 1761722926
+    },
+    {
+      "id": 32,
+      "gacha_lidra_lab_event_id": 9,
+      "received_energy": 0,
+      "generate_rate_label": "通常",
+      "next_generate_level_label": "合計500獲得で発生率アップ！",
+      "created_at": 1764326870,
+      "updated_at": 1764326870
+    },
+    {
+      "id": 33,
+      "gacha_lidra_lab_event_id": 9,
+      "received_energy": 500,
+      "generate_rate_label": "[C6:小アップ]",
+      "next_generate_level_label": "[C6:合計1000獲得で発生率アップ！]",
+      "created_at": 1764326870,
+      "updated_at": 1764326870
+    },
+    {
+      "id": 34,
+      "gacha_lidra_lab_event_id": 9,
+      "received_energy": 1000,
+      "generate_rate_label": "[C6:中アップ]",
+      "next_generate_level_label": "[C6:合計2000獲得で発生率アップ！]",
+      "created_at": 1764326870,
+      "updated_at": 1764326870
+    },
+    {
+      "id": 35,
+      "gacha_lidra_lab_event_id": 9,
+      "received_energy": 2000,
+      "generate_rate_label": "[C6:大アップ]",
+      "next_generate_level_label": "[C6:2000達成]",
+      "created_at": 1764326870,
+      "updated_at": 1764326870
+    },
+    {
+      "id": 36,
+      "gacha_lidra_lab_event_id": 10,
+      "received_energy": 0,
+      "generate_rate_label": "通常",
+      "next_generate_level_label": "合計500獲得で発生率アップ！",
+      "created_at": 1766920775,
+      "updated_at": 1766920775
+    },
+    {
+      "id": 37,
+      "gacha_lidra_lab_event_id": 10,
+      "received_energy": 500,
+      "generate_rate_label": "[C6:小アップ]",
+      "next_generate_level_label": "[C6:合計1000獲得で発生率アップ！]",
+      "created_at": 1766920775,
+      "updated_at": 1766920775
+    },
+    {
+      "id": 38,
+      "gacha_lidra_lab_event_id": 10,
+      "received_energy": 1000,
+      "generate_rate_label": "[C6:中アップ]",
+      "next_generate_level_label": "[C6:合計2000獲得で発生率アップ！]",
+      "created_at": 1766920775,
+      "updated_at": 1766920775
+    },
+    {
+      "id": 39,
+      "gacha_lidra_lab_event_id": 10,
+      "received_energy": 2000,
+      "generate_rate_label": "[C6:大アップ]",
+      "next_generate_level_label": "[C6:2000達成]",
+      "created_at": 1766920775,
+      "updated_at": 1766920775
+    },
+    {
+      "id": 40,
+      "gacha_lidra_lab_event_id": 11,
+      "received_energy": 0,
+      "generate_rate_label": "通常",
+      "next_generate_level_label": "合計500獲得で発生率アップ！",
+      "created_at": 1769681318,
+      "updated_at": 1769681318
+    },
+    {
+      "id": 41,
+      "gacha_lidra_lab_event_id": 11,
+      "received_energy": 500,
+      "generate_rate_label": "[C6:小アップ]",
+      "next_generate_level_label": "[C6:合計1000獲得で発生率アップ！]",
+      "created_at": 1769681318,
+      "updated_at": 1769681318
+    },
+    {
+      "id": 42,
+      "gacha_lidra_lab_event_id": 11,
+      "received_energy": 1000,
+      "generate_rate_label": "[C6:中アップ]",
+      "next_generate_level_label": "[C6:合計2000獲得で発生率アップ！]",
+      "created_at": 1769681318,
+      "updated_at": 1769681318
+    },
+    {
+      "id": 43,
+      "gacha_lidra_lab_event_id": 11,
+      "received_energy": 2000,
+      "generate_rate_label": "[C6:大アップ]",
+      "next_generate_level_label": "[C6:2000達成]",
+      "created_at": 1769681318,
+      "updated_at": 1769681318
+    },
+    {
+      "id": 44,
+      "gacha_lidra_lab_event_id": 12,
+      "received_energy": 0,
+      "generate_rate_label": "通常",
+      "next_generate_level_label": "合計500獲得で発生率アップ！",
+      "created_at": 1772099895,
+      "updated_at": 1772099895
+    },
+    {
+      "id": 45,
+      "gacha_lidra_lab_event_id": 12,
+      "received_energy": 500,
+      "generate_rate_label": "[C6:小アップ]",
+      "next_generate_level_label": "[C6:合計1000獲得で発生率アップ！]",
+      "created_at": 1772099896,
+      "updated_at": 1772099896
+    },
+    {
+      "id": 46,
+      "gacha_lidra_lab_event_id": 12,
+      "received_energy": 1000,
+      "generate_rate_label": "[C6:中アップ]",
+      "next_generate_level_label": "[C6:合計2000獲得で発生率アップ！]",
+      "created_at": 1772099896,
+      "updated_at": 1772099896
+    },
+    {
+      "id": 47,
+      "gacha_lidra_lab_event_id": 12,
+      "received_energy": 2000,
+      "generate_rate_label": "[C6:大アップ]",
+      "next_generate_level_label": "[C6:2000達成]",
+      "created_at": 1772099896,
+      "updated_at": 1772099896
+    },
+    {
+      "id": 48,
+      "gacha_lidra_lab_event_id": 13,
+      "received_energy": 0,
+      "generate_rate_label": "通常",
+      "next_generate_level_label": "合計500獲得で発生率アップ！",
+      "created_at": 1774517423,
+      "updated_at": 1774517423
+    },
+    {
+      "id": 49,
+      "gacha_lidra_lab_event_id": 13,
+      "received_energy": 500,
+      "generate_rate_label": "[C6:小アップ]",
+      "next_generate_level_label": "[C6:合計1000獲得で発生率アップ！]",
+      "created_at": 1774517423,
+      "updated_at": 1774517423
+    },
+    {
+      "id": 50,
+      "gacha_lidra_lab_event_id": 13,
+      "received_energy": 1000,
+      "generate_rate_label": "[C6:中アップ]",
+      "next_generate_level_label": "[C6:合計2000獲得で発生率アップ！]",
+      "created_at": 1774517423,
+      "updated_at": 1774517423
+    },
+    {
+      "id": 51,
+      "gacha_lidra_lab_event_id": 13,
+      "received_energy": 2000,
+      "generate_rate_label": "[C6:大アップ]",
+      "next_generate_level_label": "[C6:2000達成]",
+      "created_at": 1774517423,
+      "updated_at": 1774517423
+    },
+    {
+      "id": 52,
+      "gacha_lidra_lab_event_id": 14,
+      "received_energy": 0,
+      "generate_rate_label": "通常",
+      "next_generate_level_label": "合計500獲得で発生率アップ！",
+      "created_at": 1777275205,
+      "updated_at": 1777275205
+    },
+    {
+      "id": 53,
+      "gacha_lidra_lab_event_id": 14,
+      "received_energy": 500,
+      "generate_rate_label": "[C6:小アップ]",
+      "next_generate_level_label": "[C6:合計1000獲得で発生率アップ！]",
+      "created_at": 1777275205,
+      "updated_at": 1777275205
+    },
+    {
+      "id": 54,
+      "gacha_lidra_lab_event_id": 14,
+      "received_energy": 1000,
+      "generate_rate_label": "[C6:中アップ]",
+      "next_generate_level_label": "[C6:合計2000獲得で発生率アップ！]",
+      "created_at": 1777275205,
+      "updated_at": 1777275205
+    },
+    {
+      "id": 55,
+      "gacha_lidra_lab_event_id": 14,
+      "received_energy": 2000,
+      "generate_rate_label": "[C6:大アップ]",
+      "next_generate_level_label": "[C6:2000達成]",
+      "created_at": 1777275205,
+      "updated_at": 1777275205
+    },
+    {
+      "id": 56,
+      "gacha_lidra_lab_event_id": 15,
+      "received_energy": 0,
+      "generate_rate_label": "通常",
+      "next_generate_level_label": "合計500獲得で発生率アップ！",
+      "created_at": 1779966255,
+      "updated_at": 1779966255
+    },
+    {
+      "id": 57,
+      "gacha_lidra_lab_event_id": 15,
+      "received_energy": 500,
+      "generate_rate_label": "[C6:小アップ]",
+      "next_generate_level_label": "[C6:合計1000獲得で発生率アップ！]",
+      "created_at": 1779966255,
+      "updated_at": 1779966255
+    },
+    {
+      "id": 58,
+      "gacha_lidra_lab_event_id": 15,
+      "received_energy": 1000,
+      "generate_rate_label": "[C6:中アップ]",
+      "next_generate_level_label": "[C6:合計2000獲得で発生率アップ！]",
+      "created_at": 1779966255,
+      "updated_at": 1779966255
+    },
+    {
+      "id": 59,
+      "gacha_lidra_lab_event_id": 15,
+      "received_energy": 2000,
+      "generate_rate_label": "[C6:大アップ]",
+      "next_generate_level_label": "[C6:2000達成]",
+      "created_at": 1779966255,
+      "updated_at": 1779966255
+    },
+    {
+      "id": 60,
+      "gacha_lidra_lab_event_id": 16,
+      "received_energy": 0,
+      "generate_rate_label": "通常",
+      "next_generate_level_label": "合計500獲得で発生率アップ！",
+      "created_at": 1782387192,
+      "updated_at": 1782387192
+    },
+    {
+      "id": 61,
+      "gacha_lidra_lab_event_id": 16,
+      "received_energy": 500,
+      "generate_rate_label": "[C6:小アップ]",
+      "next_generate_level_label": "[C6:合計1000獲得で発生率アップ！]",
+      "created_at": 1782387192,
+      "updated_at": 1782387192
+    },
+    {
+      "id": 62,
+      "gacha_lidra_lab_event_id": 16,
+      "received_energy": 1000,
+      "generate_rate_label": "[C6:中アップ]",
+      "next_generate_level_label": "[C6:合計2000獲得で発生率アップ！]",
+      "created_at": 1782387192,
+      "updated_at": 1782387192
+    },
+    {
+      "id": 63,
+      "gacha_lidra_lab_event_id": 16,
+      "received_energy": 2000,
+      "generate_rate_label": "[C6:大アップ]",
+      "next_generate_level_label": "[C6:2000達成]",
+      "created_at": 1782387192,
+      "updated_at": 1782387192
+    },
+    {
+      "id": 64,
+      "gacha_lidra_lab_event_id": 17,
+      "received_energy": 0,
+      "generate_rate_label": "通常",
+      "next_generate_level_label": "合計500獲得で発生率アップ！",
+      "created_at": 1784804565,
+      "updated_at": 1784804565
+    },
+    {
+      "id": 65,
+      "gacha_lidra_lab_event_id": 17,
+      "received_energy": 500,
+      "generate_rate_label": "[C6:小アップ]",
+      "next_generate_level_label": "[C6:合計1000獲得で発生率アップ！]",
+      "created_at": 1784804565,
+      "updated_at": 1784804565
+    },
+    {
+      "id": 66,
+      "gacha_lidra_lab_event_id": 17,
+      "received_energy": 1000,
+      "generate_rate_label": "[C6:中アップ]",
+      "next_generate_level_label": "[C6:合計2000獲得で発生率アップ！]",
+      "created_at": 1784804565,
+      "updated_at": 1784804565
+    },
+    {
+      "id": 67,
+      "gacha_lidra_lab_event_id": 17,
+      "received_energy": 2000,
+      "generate_rate_label": "[C6:大アップ]",
+      "next_generate_level_label": "[C6:2000達成]",
+      "created_at": 1784804565,
+      "updated_at": 1784804565
+    },
+    {
+      "id": 68,
+      "gacha_lidra_lab_event_id": 18,
+      "received_energy": 0,
+      "generate_rate_label": "通常",
+      "next_generate_level_label": "合計500獲得で発生率アップ！",
+      "created_at": 1787909357,
+      "updated_at": 1787909357
+    },
+    {
+      "id": 69,
+      "gacha_lidra_lab_event_id": 18,
+      "received_energy": 500,
+      "generate_rate_label": "[C6:小アップ]",
+      "next_generate_level_label": "[C6:合計1000獲得で発生率アップ！]",
+      "created_at": 1787909357,
+      "updated_at": 1787909357
+    },
+    {
+      "id": 70,
+      "gacha_lidra_lab_event_id": 18,
+      "received_energy": 1000,
+      "generate_rate_label": "[C6:中アップ]",
+      "next_generate_level_label": "[C6:合計2000獲得で発生率アップ！]",
+      "created_at": 1787909357,
+      "updated_at": 1787909357
+    },
+    {
+      "id": 71,
+      "gacha_lidra_lab_event_id": 18,
+      "received_energy": 2000,
+      "generate_rate_label": "[C6:大アップ]",
+      "next_generate_level_label": "[C6:2000達成]",
+      "created_at": 1787909357,
+      "updated_at": 1787909357
+    },
+    {
+      "id": 72,
+      "gacha_lidra_lab_event_id": 19,
+      "received_energy": 0,
+      "generate_rate_label": "通常",
+      "next_generate_level_label": "合計500獲得で発生率アップ！",
+      "created_at": 1790243284,
+      "updated_at": 1790243284
+    },
+    {
+      "id": 73,
+      "gacha_lidra_lab_event_id": 19,
+      "received_energy": 500,
+      "generate_rate_label": "[C6:小アップ]",
+      "next_generate_level_label": "[C6:合計1000獲得で発生率アップ！]",
+      "created_at": 1790243284,
+      "updated_at": 1790243284
+    },
+    {
+      "id": 74,
+      "gacha_lidra_lab_event_id": 19,
+      "received_energy": 1000,
+      "generate_rate_label": "[C6:中アップ]",
+      "next_generate_level_label": "[C6:合計2000獲得で発生率アップ！]",
+      "created_at": 1790243284,
+      "updated_at": 1790243284
+    },
+    {
+      "id": 75,
+      "gacha_lidra_lab_event_id": 19,
+      "received_energy": 2000,
+      "generate_rate_label": "[C6:大アップ]",
+      "next_generate_level_label": "[C6:2000達成]",
+      "created_at": 1790243284,
+      "updated_at": 1790243284
+    }
+  ]
+}

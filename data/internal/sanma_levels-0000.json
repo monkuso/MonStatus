@@ -1,0 +1,898 @@
+{
+  "schemaVersion": 1,
+  "table": "sanma_levels",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "sanma_campaign_id": 1,
+      "level": 1,
+      "required_experiences": 0,
+      "decrease_cool_time": 0,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 2,
+      "sanma_campaign_id": 1,
+      "level": 2,
+      "required_experiences": 600,
+      "decrease_cool_time": 0,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 3,
+      "sanma_campaign_id": 1,
+      "level": 3,
+      "required_experiences": 1200,
+      "decrease_cool_time": 0,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 4,
+      "sanma_campaign_id": 1,
+      "level": 4,
+      "required_experiences": 1800,
+      "decrease_cool_time": 30,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 5,
+      "sanma_campaign_id": 1,
+      "level": 5,
+      "required_experiences": 2400,
+      "decrease_cool_time": 30,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 6,
+      "sanma_campaign_id": 1,
+      "level": 6,
+      "required_experiences": 3000,
+      "decrease_cool_time": 30,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 7,
+      "sanma_campaign_id": 1,
+      "level": 7,
+      "required_experiences": 3600,
+      "decrease_cool_time": 30,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 8,
+      "sanma_campaign_id": 1,
+      "level": 8,
+      "required_experiences": 4200,
+      "decrease_cool_time": 60,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 9,
+      "sanma_campaign_id": 1,
+      "level": 9,
+      "required_experiences": 4800,
+      "decrease_cool_time": 60,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 10,
+      "sanma_campaign_id": 1,
+      "level": 10,
+      "required_experiences": 5400,
+      "decrease_cool_time": 60,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 11,
+      "sanma_campaign_id": 1,
+      "level": 11,
+      "required_experiences": 6600,
+      "decrease_cool_time": 60,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 12,
+      "sanma_campaign_id": 1,
+      "level": 12,
+      "required_experiences": 7800,
+      "decrease_cool_time": 90,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 13,
+      "sanma_campaign_id": 1,
+      "level": 13,
+      "required_experiences": 9000,
+      "decrease_cool_time": 90,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 14,
+      "sanma_campaign_id": 1,
+      "level": 14,
+      "required_experiences": 10200,
+      "decrease_cool_time": 90,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 15,
+      "sanma_campaign_id": 1,
+      "level": 15,
+      "required_experiences": 11400,
+      "decrease_cool_time": 90,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 16,
+      "sanma_campaign_id": 1,
+      "level": 16,
+      "required_experiences": 12600,
+      "decrease_cool_time": 135,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 17,
+      "sanma_campaign_id": 1,
+      "level": 17,
+      "required_experiences": 13800,
+      "decrease_cool_time": 135,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 18,
+      "sanma_campaign_id": 1,
+      "level": 18,
+      "required_experiences": 15000,
+      "decrease_cool_time": 135,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 19,
+      "sanma_campaign_id": 1,
+      "level": 19,
+      "required_experiences": 16200,
+      "decrease_cool_time": 135,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 20,
+      "sanma_campaign_id": 1,
+      "level": 20,
+      "required_experiences": 17400,
+      "decrease_cool_time": 180,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 21,
+      "sanma_campaign_id": 1,
+      "level": 21,
+      "required_experiences": 19200,
+      "decrease_cool_time": 180,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 22,
+      "sanma_campaign_id": 1,
+      "level": 22,
+      "required_experiences": 21000,
+      "decrease_cool_time": 180,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 23,
+      "sanma_campaign_id": 1,
+      "level": 23,
+      "required_experiences": 22800,
+      "decrease_cool_time": 180,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 24,
+      "sanma_campaign_id": 1,
+      "level": 24,
+      "required_experiences": 24600,
+      "decrease_cool_time": 240,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 25,
+      "sanma_campaign_id": 1,
+      "level": 25,
+      "required_experiences": 26400,
+      "decrease_cool_time": 240,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 26,
+      "sanma_campaign_id": 1,
+      "level": 26,
+      "required_experiences": 28200,
+      "decrease_cool_time": 240,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 27,
+      "sanma_campaign_id": 1,
+      "level": 27,
+      "required_experiences": 30000,
+      "decrease_cool_time": 240,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 28,
+      "sanma_campaign_id": 1,
+      "level": 28,
+      "required_experiences": 31800,
+      "decrease_cool_time": 300,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 29,
+      "sanma_campaign_id": 1,
+      "level": 29,
+      "required_experiences": 33600,
+      "decrease_cool_time": 300,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 30,
+      "sanma_campaign_id": 1,
+      "level": 30,
+      "required_experiences": 35400,
+      "decrease_cool_time": 300,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 31,
+      "sanma_campaign_id": 1,
+      "level": 31,
+      "required_experiences": 37800,
+      "decrease_cool_time": 300,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 32,
+      "sanma_campaign_id": 1,
+      "level": 32,
+      "required_experiences": 40200,
+      "decrease_cool_time": 360,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 33,
+      "sanma_campaign_id": 1,
+      "level": 33,
+      "required_experiences": 42600,
+      "decrease_cool_time": 360,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 34,
+      "sanma_campaign_id": 1,
+      "level": 34,
+      "required_experiences": 45000,
+      "decrease_cool_time": 360,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 35,
+      "sanma_campaign_id": 1,
+      "level": 35,
+      "required_experiences": 47400,
+      "decrease_cool_time": 360,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 36,
+      "sanma_campaign_id": 1,
+      "level": 36,
+      "required_experiences": 49800,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 37,
+      "sanma_campaign_id": 1,
+      "level": 37,
+      "required_experiences": 52200,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 38,
+      "sanma_campaign_id": 1,
+      "level": 38,
+      "required_experiences": 54600,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 39,
+      "sanma_campaign_id": 1,
+      "level": 39,
+      "required_experiences": 57000,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 40,
+      "sanma_campaign_id": 1,
+      "level": 40,
+      "required_experiences": 59400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 41,
+      "sanma_campaign_id": 1,
+      "level": 41,
+      "required_experiences": 62100,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 42,
+      "sanma_campaign_id": 1,
+      "level": 42,
+      "required_experiences": 64800,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 43,
+      "sanma_campaign_id": 1,
+      "level": 43,
+      "required_experiences": 67500,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 44,
+      "sanma_campaign_id": 1,
+      "level": 44,
+      "required_experiences": 70200,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 45,
+      "sanma_campaign_id": 1,
+      "level": 45,
+      "required_experiences": 72900,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 46,
+      "sanma_campaign_id": 1,
+      "level": 46,
+      "required_experiences": 75600,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 47,
+      "sanma_campaign_id": 1,
+      "level": 47,
+      "required_experiences": 78300,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 48,
+      "sanma_campaign_id": 1,
+      "level": 48,
+      "required_experiences": 81000,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 49,
+      "sanma_campaign_id": 1,
+      "level": 49,
+      "required_experiences": 83700,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 50,
+      "sanma_campaign_id": 1,
+      "level": 50,
+      "required_experiences": 86400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 51,
+      "sanma_campaign_id": 1,
+      "level": 51,
+      "required_experiences": 89400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 52,
+      "sanma_campaign_id": 1,
+      "level": 52,
+      "required_experiences": 92400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 53,
+      "sanma_campaign_id": 1,
+      "level": 53,
+      "required_experiences": 95400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 54,
+      "sanma_campaign_id": 1,
+      "level": 54,
+      "required_experiences": 98400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 55,
+      "sanma_campaign_id": 1,
+      "level": 55,
+      "required_experiences": 101400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 56,
+      "sanma_campaign_id": 1,
+      "level": 56,
+      "required_experiences": 104400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 57,
+      "sanma_campaign_id": 1,
+      "level": 57,
+      "required_experiences": 107400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 58,
+      "sanma_campaign_id": 1,
+      "level": 58,
+      "required_experiences": 110400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 59,
+      "sanma_campaign_id": 1,
+      "level": 59,
+      "required_experiences": 113400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 60,
+      "sanma_campaign_id": 1,
+      "level": 60,
+      "required_experiences": 116400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 61,
+      "sanma_campaign_id": 1,
+      "level": 61,
+      "required_experiences": 119400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 62,
+      "sanma_campaign_id": 1,
+      "level": 62,
+      "required_experiences": 122400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 63,
+      "sanma_campaign_id": 1,
+      "level": 63,
+      "required_experiences": 125400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 64,
+      "sanma_campaign_id": 1,
+      "level": 64,
+      "required_experiences": 128400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 65,
+      "sanma_campaign_id": 1,
+      "level": 65,
+      "required_experiences": 131400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 66,
+      "sanma_campaign_id": 1,
+      "level": 66,
+      "required_experiences": 134400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 67,
+      "sanma_campaign_id": 1,
+      "level": 67,
+      "required_experiences": 137400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 68,
+      "sanma_campaign_id": 1,
+      "level": 68,
+      "required_experiences": 140400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 69,
+      "sanma_campaign_id": 1,
+      "level": 69,
+      "required_experiences": 143400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 70,
+      "sanma_campaign_id": 1,
+      "level": 70,
+      "required_experiences": 146400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 71,
+      "sanma_campaign_id": 1,
+      "level": 71,
+      "required_experiences": 149400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 72,
+      "sanma_campaign_id": 1,
+      "level": 72,
+      "required_experiences": 152400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 73,
+      "sanma_campaign_id": 1,
+      "level": 73,
+      "required_experiences": 155400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 74,
+      "sanma_campaign_id": 1,
+      "level": 74,
+      "required_experiences": 158400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 75,
+      "sanma_campaign_id": 1,
+      "level": 75,
+      "required_experiences": 161400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 76,
+      "sanma_campaign_id": 1,
+      "level": 76,
+      "required_experiences": 164400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 77,
+      "sanma_campaign_id": 1,
+      "level": 77,
+      "required_experiences": 167400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 78,
+      "sanma_campaign_id": 1,
+      "level": 78,
+      "required_experiences": 170400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 79,
+      "sanma_campaign_id": 1,
+      "level": 79,
+      "required_experiences": 173400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 80,
+      "sanma_campaign_id": 1,
+      "level": 80,
+      "required_experiences": 176400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 81,
+      "sanma_campaign_id": 1,
+      "level": 81,
+      "required_experiences": 179400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 82,
+      "sanma_campaign_id": 1,
+      "level": 82,
+      "required_experiences": 182400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 83,
+      "sanma_campaign_id": 1,
+      "level": 83,
+      "required_experiences": 185400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 84,
+      "sanma_campaign_id": 1,
+      "level": 84,
+      "required_experiences": 188400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 85,
+      "sanma_campaign_id": 1,
+      "level": 85,
+      "required_experiences": 191400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 86,
+      "sanma_campaign_id": 1,
+      "level": 86,
+      "required_experiences": 194400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 87,
+      "sanma_campaign_id": 1,
+      "level": 87,
+      "required_experiences": 197400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 88,
+      "sanma_campaign_id": 1,
+      "level": 88,
+      "required_experiences": 200400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 89,
+      "sanma_campaign_id": 1,
+      "level": 89,
+      "required_experiences": 203400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 90,
+      "sanma_campaign_id": 1,
+      "level": 90,
+      "required_experiences": 206400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 91,
+      "sanma_campaign_id": 1,
+      "level": 91,
+      "required_experiences": 209400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 92,
+      "sanma_campaign_id": 1,
+      "level": 92,
+      "required_experiences": 212400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663118,
+      "updated_at": 1691663118
+    },
+    {
+      "id": 93,
+      "sanma_campaign_id": 1,
+      "level": 93,
+      "required_experiences": 215400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663119,
+      "updated_at": 1691663119
+    },
+    {
+      "id": 94,
+      "sanma_campaign_id": 1,
+      "level": 94,
+      "required_experiences": 218400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663119,
+      "updated_at": 1691663119
+    },
+    {
+      "id": 95,
+      "sanma_campaign_id": 1,
+      "level": 95,
+      "required_experiences": 221400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663119,
+      "updated_at": 1691663119
+    },
+    {
+      "id": 96,
+      "sanma_campaign_id": 1,
+      "level": 96,
+      "required_experiences": 224400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663119,
+      "updated_at": 1691663119
+    },
+    {
+      "id": 97,
+      "sanma_campaign_id": 1,
+      "level": 97,
+      "required_experiences": 227400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663119,
+      "updated_at": 1691663119
+    },
+    {
+      "id": 98,
+      "sanma_campaign_id": 1,
+      "level": 98,
+      "required_experiences": 230400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663119,
+      "updated_at": 1691663119
+    },
+    {
+      "id": 99,
+      "sanma_campaign_id": 1,
+      "level": 99,
+      "required_experiences": 233400,
+      "decrease_cool_time": 420,
+      "created_at": 1691663119,
+      "updated_at": 1691663119
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "table": "collabo_shops",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "collabo_id": 1,
+      "display_at": 1630551600,
+      "start_at": 1630594800,
+      "end_at": 1631804399,
+      "daily_limit": 1,
+      "created_at": 1630492456,
+      "updated_at": 1630492456,
+      "lucky_type": 1,
+      "transition_type": 0
+    },
+    {
+      "id": 2,
+      "collabo_id": 2,
+      "display_at": 1658502000,
+      "start_at": 1658502000,
+      "end_at": 1659409199,
+      "daily_limit": 0,
+      "created_at": 1658400437,
+      "updated_at": 1658400437,
+      "lucky_type": 1,
+      "transition_type": 0
+    },
+    {
+      "id": 3,
+      "collabo_id": 3,
+      "display_at": 1660921200,
+      "start_at": 1660921200,
+      "end_at": 1661871599,
+      "daily_limit": 1,
+      "created_at": 1660819441,
+      "updated_at": 1660819441,
+      "lucky_type": 1,
+      "transition_type": 0
+    },
+    {
+      "id": 4,
+      "collabo_id": 4,
+      "display_at": 1711652400,
+      "start_at": 1711652400,
+      "end_at": 1712084399,
+      "daily_limit": 1,
+      "created_at": 1711619223,
+      "updated_at": 1711619223,
+      "lucky_type": 2,
+      "transition_type": 1
+    }
+  ]
+}

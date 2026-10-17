@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "table": "adhoc_events",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "start_at": 1617390000,
+      "end_at": 1697569199,
+      "daily_required_adhoc_cnt": 5,
+      "total_required_adhoc_cnt": 100,
+      "created_at": 1617276909,
+      "updated_at": 1697560400
+    },
+    {
+      "id": 2,
+      "start_at": 1697569200,
+      "end_at": 32503647599,
+      "daily_required_adhoc_cnt": 5,
+      "total_required_adhoc_cnt": 100,
+      "created_at": 1697560400,
+      "updated_at": 1783443742
+    }
+  ]
+}

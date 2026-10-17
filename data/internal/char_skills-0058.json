@@ -1,0 +1,3607 @@
+{
+  "schemaVersion": 1,
+  "table": "char_skills",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 16749,
+      "skill_id": 48,
+      "skill_pattern_id": 0,
+      "created_at": 1790511622,
+      "updated_at": 1791909124,
+      "char_id": 13080,
+      "name": "白爆発 EL",
+      "description": "広範囲の爆発で友情コンボを誘発",
+      "sort_id": 10204,
+      "sort_image_id": 8,
+      "attribute_id": 100,
+      "char_skill_values": [
+        {
+          "id": 35506521,
+          "char_skill_id": 16749,
+          "value": 2562,
+          "value_ext": 5124,
+          "created_at": 1790511622,
+          "updated_at": 1790511622
+        },
+        {
+          "id": 35506522,
+          "char_skill_id": 16749,
+          "value": 5,
+          "value_ext": null,
+          "created_at": 1790511622,
+          "updated_at": 1790511622
+        },
+        {
+          "id": 35506523,
+          "char_skill_id": 16749,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1790511622,
+          "updated_at": 1790511622
+        },
+        {
+          "id": 35506524,
+          "char_skill_id": 16749,
+          "value": 300,
+          "value_ext": null,
+          "created_at": 1790511622,
+          "updated_at": 1790511622
+        }
+      ],
+      "values": [
+        2562,
+        5,
+        0,
+        300
+      ],
+      "value_ext": 5124
+    },
+    {
+      "id": 16750,
+      "skill_id": 218,
+      "skill_pattern_id": 0,
+      "created_at": 1790511622,
+      "updated_at": 1791909124,
+      "char_id": 13081,
+      "name": "超絶スナイプバレット",
+      "description": "100発の超強力な貫通弾が弱った敵を攻撃",
+      "sort_id": 110803,
+      "sort_image_id": 158,
+      "attribute_id": 0,
+      "char_skill_values": [
+        {
+          "id": 35506525,
+          "char_skill_id": 16750,
+          "value": 6951,
+          "value_ext": 13905,
+          "created_at": 1790511622,
+          "updated_at": 1790511622
+        },
+        {
+          "id": 35506526,
+          "char_skill_id": 16750,
+          "value": 100,
+          "value_ext": null,
+          "created_at": 1790511622,
+          "updated_at": 1790511622
+        },
+        {
+          "id": 35506527,
+          "char_skill_id": 16750,
+          "value": 6,
+          "value_ext": null,
+          "created_at": 1790511622,
+          "updated_at": 1790511622
+        },
+        {
+          "id": 35506528,
+          "char_skill_id": 16750,
+          "value": 18,
+          "value_ext": null,
+          "created_at": 1790511622,
+          "updated_at": 1790511622
+        },
+        {
+          "id": 35506529,
+          "char_skill_id": 16750,
+          "value": 1,
+          "value_ext": null,
+          "created_at": 1790511622,
+          "updated_at": 1790511622
+        },
+        {
+          "id": 35506530,
+          "char_skill_id": 16750,
+          "value": 1,
+          "value_ext": null,
+          "created_at": 1790511622,
+          "updated_at": 1790511622
+        }
+      ],
+      "values": [
+        6951,
+        100,
+        6,
+        18,
+        1,
+        1
+      ],
+      "value_ext": 13905
+    },
+    {
+      "id": 16751,
+      "skill_id": 900,
+      "skill_pattern_id": 0,
+      "created_at": 1790511622,
+      "updated_at": 1791909124,
+      "char_id": 13081,
+      "name": "バーストスピナー",
+      "description": "壁で反射し爆発するスピナーで敵を攻撃",
+      "sort_id": 291901,
+      "sort_image_id": 212,
+      "attribute_id": 0,
+      "char_skill_values": [
+        {
+          "id": 35506531,
+          "char_skill_id": 16751,
+          "value": 84000,
+          "value_ext": 168000,
+          "created_at": 1790511622,
+          "updated_at": 1790511622
+        },
+        {
+          "id": 35506532,
+          "char_skill_id": 16751,
+          "value": 100000,
+          "value_ext": null,
+          "created_at": 1790511622,
+          "updated_at": 1790511622
+        },
+        {
+          "id": 35506533,
+          "char_skill_id": 16751,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1790511622,
+          "updated_at": 1790511622
+        },
+        {
+          "id": 35506534,
+          "char_skill_id": 16751,
+          "value": 32,
+          "value_ext": null,
+          "created_at": 1790511622,
+          "updated_at": 1790511622
+        },
+        {
+          "id": 35506535,
+          "char_skill_id": 16751,
+          "value": 10,
+          "value_ext": null,
+          "created_at": 1790511622,
+          "updated_at": 1790511622
+        },
+        {
+          "id": 35506536,
+          "char_skill_id": 16751,
+          "value": 100,
+          "value_ext": null,
+          "created_at": 1790511622,
+          "updated_at": 1790511622
+        }
+      ],
+      "values": [
+        84000,
+        100000,
+        0,
+        32,
+        10,
+        100
+      ],
+      "value_ext": 168000
+    },
+    {
+      "id": 16752,
+      "skill_id": 379,
+      "skill_pattern_id": 0,
+      "created_at": 1790511622,
+      "updated_at": 1791909124,
+      "char_id": 13082,
+      "name": "超絶衛星弾 4",
+      "description": "ふれた味方に付与した4発の超強力な衛星弾で攻撃",
+      "sort_id": 290405,
+      "sort_image_id": 97,
+      "attribute_id": 0,
+      "char_skill_values": [
+        {
+          "id": 35506537,
+          "char_skill_id": 16752,
+          "value": 105000,
+          "value_ext": 210000,
+          "created_at": 1790511622,
+          "updated_at": 1790511622
+        },
+        {
+          "id": 35506538,
+          "char_skill_id": 16752,
+          "value": 4,
+          "value_ext": null,
+          "created_at": 1790511622,
+          "updated_at": 1790511622
+        },
+        {
+          "id": 35506539,
+          "char_skill_id": 16752,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1790511622,
+          "updated_at": 1790511622
+        },
+        {
+          "id": 35506540,
+          "char_skill_id": 16752,
+          "value": 6,
+          "value_ext": null,
+          "created_at": 1790511622,
+          "updated_at": 1790511622
+        },
+        {
+          "id": 35506541,
+          "char_skill_id": 16752,
+          "value": 2,
+          "value_ext": null,
+          "created_at": 1790511622,
+          "updated_at": 1790511622
+        }
+      ],
+      "values": [
+        105000,
+        4,
+        0,
+        6,
+        2
+      ],
+      "value_ext": 210000
+    },
+    {
+      "id": 16753,
+      "skill_id": 741,
+      "skill_pattern_id": 0,
+      "created_at": 1790511622,
+      "updated_at": 1791909124,
+      "char_id": 13082,
+      "name": "ヒーリングボムスロー",
+      "description": "ふれた味方を追従する回復爆弾で攻撃",
+      "sort_id": 191001,
+      "sort_image_id": 164,
+      "attribute_id": 100,
+      "char_skill_values": [
+        {
+          "id": 35506542,
+          "char_skill_id": 16753,
+          "value": 36363,
+          "value_ext": 72727,
+          "created_at": 1790511622,
+          "updated_at": 1790511622
+        },
+        {
+          "id": 35506543,
+          "char_skill_id": 16753,
+          "value": 6,
+          "value_ext": null,
+          "created_at": 1790511622,
+          "updated_at": 1790511622
+        },
+        {
+          "id": 35506544,
+          "char_skill_id": 16753,
+          "value": 2000,
+          "value_ext": null,
+          "created_at": 1790511622,
+          "updated_at": 1790511622
+        },
+        {
+          "id": 35506545,
+          "char_skill_id": 16753,
+          "value": 200,
+          "value_ext": null,
+          "created_at": 1790511622,
+          "updated_at": 1790511622
+        },
+        {
+          "id": 35506546,
+          "char_skill_id": 16753,
+          "value": 200,
+          "value_ext": null,
+          "created_at": 1790511622,
+          "updated_at": 1790511622
+        }
+      ],
+      "values": [
+        36363,
+        6,
+        2000,
+        200,
+        200
+      ],
+      "value_ext": 72727
+    },
+    {
+      "id": 16754,
+      "skill_id": 378,
+      "skill_pattern_id": 0,
+      "created_at": 1790511622,
+      "updated_at": 1791909124,
+      "char_id": 13083,
+      "name": "超強8方向分身弾",
+      "description": "8方向に強力な分身弾で攻撃",
+      "sort_id": 220801,
+      "sort_image_id": 95,
+      "attribute_id": 0,
+      "char_skill_values": [
+        {
+          "id": 35506547,
+          "char_skill_id": 16754,
+          "value": 17150,
+          "value_ext": 34300,
+          "created_at": 1790511622,
+          "updated_at": 1790511622
+        },
+        {
+          "id": 35506548,
+          "char_skill_id": 16754,
+          "value": 300,
+          "value_ext": null,
+          "created_at": 1790511622,
+          "updated_at": 1790511622
+        },
+        {
+          "id": 35506549,
+          "char_skill_id": 16754,
+          "value": 20,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506550,
+          "char_skill_id": 16754,
+          "value": 27,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506551,
+          "char_skill_id": 16754,
+          "value": 3000,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        }
+      ],
+      "values": [
+        17150,
+        300,
+        20,
+        27,
+        3000
+      ],
+      "value_ext": 34300
+    },
+    {
+      "id": 16755,
+      "skill_id": 388,
+      "skill_pattern_id": 0,
+      "created_at": 1790511623,
+      "updated_at": 1791909124,
+      "char_id": 13083,
+      "name": "超強乱回復弾",
+      "description": "周囲に6発の強力な回復弾で攻撃",
+      "sort_id": 270104,
+      "sort_image_id": 99,
+      "attribute_id": 100,
+      "char_skill_values": [
+        {
+          "id": 35506552,
+          "char_skill_id": 16755,
+          "value": 274284,
+          "value_ext": 548568,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506553,
+          "char_skill_id": 16755,
+          "value": 6,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506554,
+          "char_skill_id": 16755,
+          "value": 6000,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506555,
+          "char_skill_id": 16755,
+          "value": 16,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506556,
+          "char_skill_id": 16755,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        }
+      ],
+      "values": [
+        274284,
+        6,
+        6000,
+        16,
+        0
+      ],
+      "value_ext": 548568
+    },
+    {
+      "id": 16756,
+      "skill_id": 378,
+      "skill_pattern_id": 0,
+      "created_at": 1790511623,
+      "updated_at": 1791909124,
+      "char_id": 13084,
+      "name": "超強8方向分身弾",
+      "description": "8方向に強力な分身弾で攻撃",
+      "sort_id": 220801,
+      "sort_image_id": 95,
+      "attribute_id": 0,
+      "char_skill_values": [
+        {
+          "id": 35506557,
+          "char_skill_id": 16756,
+          "value": 17150,
+          "value_ext": 34300,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506558,
+          "char_skill_id": 16756,
+          "value": 300,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506559,
+          "char_skill_id": 16756,
+          "value": 20,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506560,
+          "char_skill_id": 16756,
+          "value": 27,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506561,
+          "char_skill_id": 16756,
+          "value": 3000,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        }
+      ],
+      "values": [
+        17150,
+        300,
+        20,
+        27,
+        3000
+      ],
+      "value_ext": 34300
+    },
+    {
+      "id": 16757,
+      "skill_id": 388,
+      "skill_pattern_id": 0,
+      "created_at": 1790511623,
+      "updated_at": 1791909124,
+      "char_id": 13084,
+      "name": "超強乱回復弾",
+      "description": "周囲に6発の強力な回復弾で攻撃",
+      "sort_id": 270104,
+      "sort_image_id": 99,
+      "attribute_id": 100,
+      "char_skill_values": [
+        {
+          "id": 35506562,
+          "char_skill_id": 16757,
+          "value": 274284,
+          "value_ext": 548568,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506563,
+          "char_skill_id": 16757,
+          "value": 6,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506564,
+          "char_skill_id": 16757,
+          "value": 6000,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506565,
+          "char_skill_id": 16757,
+          "value": 16,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506566,
+          "char_skill_id": 16757,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        }
+      ],
+      "values": [
+        274284,
+        6,
+        6000,
+        16,
+        0
+      ],
+      "value_ext": 548568
+    },
+    {
+      "id": 16758,
+      "skill_id": 325,
+      "skill_pattern_id": 0,
+      "created_at": 1790511623,
+      "updated_at": 1791909124,
+      "char_id": 13085,
+      "name": "超絶ラウンドフラッシュ",
+      "description": "自身を中心に超強力な攻撃",
+      "sort_id": 200103,
+      "sort_image_id": 82,
+      "attribute_id": 100,
+      "char_skill_values": [
+        {
+          "id": 35506567,
+          "char_skill_id": 16758,
+          "value": 208331,
+          "value_ext": 416662,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506568,
+          "char_skill_id": 16758,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506569,
+          "char_skill_id": 16758,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506570,
+          "char_skill_id": 16758,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506571,
+          "char_skill_id": 16758,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        }
+      ],
+      "values": [
+        208331,
+        0,
+        0,
+        0,
+        0
+      ],
+      "value_ext": 416662
+    },
+    {
+      "id": 16759,
+      "skill_id": 48,
+      "skill_pattern_id": 0,
+      "created_at": 1790511623,
+      "updated_at": 1791909124,
+      "char_id": 13085,
+      "name": "白爆発 EL",
+      "description": "広範囲の爆発で友情コンボを誘発",
+      "sort_id": 10204,
+      "sort_image_id": 8,
+      "attribute_id": 100,
+      "char_skill_values": [
+        {
+          "id": 35506572,
+          "char_skill_id": 16759,
+          "value": 1307,
+          "value_ext": 2614,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506573,
+          "char_skill_id": 16759,
+          "value": 5,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506574,
+          "char_skill_id": 16759,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506575,
+          "char_skill_id": 16759,
+          "value": 300,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        }
+      ],
+      "values": [
+        1307,
+        5,
+        0,
+        300
+      ],
+      "value_ext": 2614
+    },
+    {
+      "id": 16760,
+      "skill_id": 635,
+      "skill_pattern_id": 0,
+      "created_at": 1790511623,
+      "updated_at": 1791909124,
+      "char_id": 13086,
+      "name": "超強鋭角3方向追従型貫通弾",
+      "description": "ふれた味方を追従する強力な3方向貫通弾で攻撃",
+      "sort_id": 210302,
+      "sort_image_id": 58,
+      "attribute_id": 0,
+      "char_skill_values": [
+        {
+          "id": 35506576,
+          "char_skill_id": 16760,
+          "value": 19500,
+          "value_ext": 39000,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506577,
+          "char_skill_id": 16760,
+          "value": 100,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506578,
+          "char_skill_id": 16760,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506579,
+          "char_skill_id": 16760,
+          "value": 20,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        }
+      ],
+      "values": [
+        19500,
+        100,
+        0,
+        20
+      ],
+      "value_ext": 39000
+    },
+    {
+      "id": 16761,
+      "skill_id": 692,
+      "skill_pattern_id": 0,
+      "created_at": 1790511623,
+      "updated_at": 1791909124,
+      "char_id": 13086,
+      "name": "ワイドパワードライブ",
+      "description": "壁を沿う広範囲の貫通衝撃波で敵を攻撃",
+      "sort_id": 101301,
+      "sort_image_id": 156,
+      "attribute_id": 0,
+      "char_skill_values": [
+        {
+          "id": 35506580,
+          "char_skill_id": 16761,
+          "value": 225000,
+          "value_ext": 450000,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506581,
+          "char_skill_id": 16761,
+          "value": 225,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506582,
+          "char_skill_id": 16761,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506583,
+          "char_skill_id": 16761,
+          "value": 32,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        }
+      ],
+      "values": [
+        225000,
+        225,
+        0,
+        32
+      ],
+      "value_ext": 450000
+    },
+    {
+      "id": 16762,
+      "skill_id": 635,
+      "skill_pattern_id": 0,
+      "created_at": 1790511623,
+      "updated_at": 1791909124,
+      "char_id": 13087,
+      "name": "超強鋭角3方向追従型貫通弾",
+      "description": "ふれた味方を追従する強力な3方向貫通弾で攻撃",
+      "sort_id": 210302,
+      "sort_image_id": 58,
+      "attribute_id": 0,
+      "char_skill_values": [
+        {
+          "id": 35506584,
+          "char_skill_id": 16762,
+          "value": 19500,
+          "value_ext": 39000,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506585,
+          "char_skill_id": 16762,
+          "value": 100,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506586,
+          "char_skill_id": 16762,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506587,
+          "char_skill_id": 16762,
+          "value": 20,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        }
+      ],
+      "values": [
+        19500,
+        100,
+        0,
+        20
+      ],
+      "value_ext": 39000
+    },
+    {
+      "id": 16763,
+      "skill_id": 692,
+      "skill_pattern_id": 0,
+      "created_at": 1790511623,
+      "updated_at": 1791909124,
+      "char_id": 13087,
+      "name": "ワイドパワードライブ",
+      "description": "壁を沿う広範囲の貫通衝撃波で敵を攻撃",
+      "sort_id": 101301,
+      "sort_image_id": 156,
+      "attribute_id": 0,
+      "char_skill_values": [
+        {
+          "id": 35506588,
+          "char_skill_id": 16763,
+          "value": 225000,
+          "value_ext": 450000,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506589,
+          "char_skill_id": 16763,
+          "value": 225,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506590,
+          "char_skill_id": 16763,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506591,
+          "char_skill_id": 16763,
+          "value": 32,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        }
+      ],
+      "values": [
+        225000,
+        225,
+        0,
+        32
+      ],
+      "value_ext": 450000
+    },
+    {
+      "id": 16764,
+      "skill_id": 203,
+      "skill_pattern_id": 0,
+      "created_at": 1790511623,
+      "updated_at": 1791909124,
+      "char_id": 13088,
+      "name": "超強全敵貫通ロックオン衝撃波 3",
+      "description": "画面上のすべての敵に向かって強力な貫通衝撃波を放つ",
+      "sort_id": 100307,
+      "sort_image_id": 64,
+      "attribute_id": 0,
+      "char_skill_values": [
+        {
+          "id": 35506592,
+          "char_skill_id": 16764,
+          "value": 61020,
+          "value_ext": 122040,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506593,
+          "char_skill_id": 16764,
+          "value": 3,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506594,
+          "char_skill_id": 16764,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506595,
+          "char_skill_id": 16764,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506596,
+          "char_skill_id": 16764,
+          "value": 1,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        }
+      ],
+      "values": [
+        61020,
+        3,
+        0,
+        0,
+        1
+      ],
+      "value_ext": 122040
+    },
+    {
+      "id": 16765,
+      "skill_id": 864,
+      "skill_pattern_id": 0,
+      "created_at": 1790511623,
+      "updated_at": 1791909124,
+      "char_id": 13088,
+      "name": "防御ダウン弾",
+      "description": "敵を防御力ダウンさせる貫通弾で攻撃",
+      "sort_id": 280301,
+      "sort_image_id": 192,
+      "attribute_id": 100,
+      "char_skill_values": [
+        {
+          "id": 35506597,
+          "char_skill_id": 16765,
+          "value": 100000,
+          "value_ext": 200000,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506598,
+          "char_skill_id": 16765,
+          "value": 1,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506599,
+          "char_skill_id": 16765,
+          "value": 120,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506600,
+          "char_skill_id": 16765,
+          "value": 30,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506601,
+          "char_skill_id": 16765,
+          "value": 1,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        }
+      ],
+      "values": [
+        100000,
+        1,
+        120,
+        30,
+        1
+      ],
+      "value_ext": 200000
+    },
+    {
+      "id": 16766,
+      "skill_id": 860,
+      "skill_pattern_id": 0,
+      "created_at": 1790511623,
+      "updated_at": 1791909124,
+      "char_id": 13089,
+      "name": "ハイリレーションカッター",
+      "description": "味方の位置を順番に移動し攻撃するカッターを放つ",
+      "sort_id": 291302,
+      "sort_image_id": 142,
+      "attribute_id": 0,
+      "char_skill_values": [
+        {
+          "id": 35506602,
+          "char_skill_id": 16766,
+          "value": 105000,
+          "value_ext": 210000,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506603,
+          "char_skill_id": 16766,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506604,
+          "char_skill_id": 16766,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506605,
+          "char_skill_id": 16766,
+          "value": 8,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506606,
+          "char_skill_id": 16766,
+          "value": 4,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        }
+      ],
+      "values": [
+        105000,
+        0,
+        0,
+        8,
+        4
+      ],
+      "value_ext": 210000
+    },
+    {
+      "id": 16767,
+      "skill_id": 109,
+      "skill_pattern_id": 0,
+      "created_at": 1790511623,
+      "updated_at": 1791909124,
+      "char_id": 13089,
+      "name": "超絶攻撃ダウンブラスト",
+      "description": "自身を中心に敵を攻撃力ダウンさせる超強力な範囲攻撃",
+      "sort_id": 20402,
+      "sort_image_id": 162,
+      "attribute_id": 100,
+      "char_skill_values": [
+        {
+          "id": 35506607,
+          "char_skill_id": 16767,
+          "value": 68600,
+          "value_ext": 137200,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506608,
+          "char_skill_id": 16767,
+          "value": 1,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506609,
+          "char_skill_id": 16767,
+          "value": 80,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506610,
+          "char_skill_id": 16767,
+          "value": 250,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506611,
+          "char_skill_id": 16767,
+          "value": 1,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        }
+      ],
+      "values": [
+        68600,
+        1,
+        80,
+        250,
+        1
+      ],
+      "value_ext": 137200
+    },
+    {
+      "id": 16768,
+      "skill_id": 891,
+      "skill_pattern_id": 0,
+      "created_at": 1790511623,
+      "updated_at": 1791909124,
+      "char_id": 13090,
+      "name": "トライデントウィンドミル",
+      "description": "当たった壁から敵に追撃する3発の貫通弾で攻撃",
+      "sort_id": 211701,
+      "sort_image_id": 207,
+      "attribute_id": 0,
+      "char_skill_values": [
+        {
+          "id": 35506612,
+          "char_skill_id": 16768,
+          "value": 52500,
+          "value_ext": 105000,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506613,
+          "char_skill_id": 16768,
+          "value": 28,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506614,
+          "char_skill_id": 16768,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506615,
+          "char_skill_id": 16768,
+          "value": 30,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506616,
+          "char_skill_id": 16768,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        }
+      ],
+      "values": [
+        52500,
+        28,
+        0,
+        30,
+        0
+      ],
+      "value_ext": 105000
+    },
+    {
+      "id": 16769,
+      "skill_id": 37,
+      "skill_pattern_id": 0,
+      "created_at": 1790511623,
+      "updated_at": 1791909124,
+      "char_id": 13090,
+      "name": "全敵超絶落雷",
+      "description": "すべての敵に1発の超強力な雷で攻撃",
+      "sort_id": 120208,
+      "sort_image_id": 34,
+      "attribute_id": 100,
+      "char_skill_values": [
+        {
+          "id": 35506617,
+          "char_skill_id": 16769,
+          "value": 388432,
+          "value_ext": 776864,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506618,
+          "char_skill_id": 16769,
+          "value": 1,
+          "value_ext": null,
+          "created_at": 1790511623,
+          "updated_at": 1790511623
+        },
+        {
+          "id": 35506619,
+          "char_skill_id": 16769,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1790511624,
+          "updated_at": 1790511624
+        },
+        {
+          "id": 35506620,
+          "char_skill_id": 16769,
+          "value": 1,
+          "value_ext": null,
+          "created_at": 1790511624,
+          "updated_at": 1790511624
+        },
+        {
+          "id": 35506621,
+          "char_skill_id": 16769,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1790511624,
+          "updated_at": 1790511624
+        }
+      ],
+      "values": [
+        388432,
+        1,
+        0,
+        1,
+        0
+      ],
+      "value_ext": 776864
+    },
+    {
+      "id": 16770,
+      "skill_id": 146,
+      "skill_pattern_id": 0,
+      "created_at": 1791461899,
+      "updated_at": 1791909124,
+      "char_id": 13091,
+      "name": "爆絶電撃",
+      "description": "敵を伝う強烈な電気攻撃",
+      "sort_id": 150104,
+      "sort_image_id": 43,
+      "attribute_id": 100,
+      "char_skill_values": [
+        {
+          "id": 35506725,
+          "char_skill_id": 16770,
+          "value": 352800,
+          "value_ext": 705600,
+          "created_at": 1791461899,
+          "updated_at": 1791461899
+        },
+        {
+          "id": 35506726,
+          "char_skill_id": 16770,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1791461899,
+          "updated_at": 1791461899
+        },
+        {
+          "id": 35506727,
+          "char_skill_id": 16770,
+          "value": 600,
+          "value_ext": null,
+          "created_at": 1791461899,
+          "updated_at": 1791461899
+        },
+        {
+          "id": 35506728,
+          "char_skill_id": 16770,
+          "value": 95,
+          "value_ext": null,
+          "created_at": 1791461899,
+          "updated_at": 1791461899
+        }
+      ],
+      "values": [
+        352800,
+        0,
+        600,
+        95
+      ],
+      "value_ext": 705600
+    },
+    {
+      "id": 16771,
+      "skill_id": 844,
+      "skill_pattern_id": 0,
+      "created_at": 1791461899,
+      "updated_at": 1791909124,
+      "char_id": 13091,
+      "name": "反射ウォールボム",
+      "description": "敵を貫通し壁で反射し爆発する弾をふれた味方の進行方向に発射",
+      "sort_id": 191601,
+      "sort_image_id": 179,
+      "attribute_id": 100,
+      "char_skill_values": [
+        {
+          "id": 35506729,
+          "char_skill_id": 16771,
+          "value": 51500,
+          "value_ext": 103000,
+          "created_at": 1791461899,
+          "updated_at": 1791461899
+        },
+        {
+          "id": 35506730,
+          "char_skill_id": 16771,
+          "value": 1,
+          "value_ext": null,
+          "created_at": 1791461899,
+          "updated_at": 1791461899
+        },
+        {
+          "id": 35506731,
+          "char_skill_id": 16771,
+          "value": 200,
+          "value_ext": null,
+          "created_at": 1791461899,
+          "updated_at": 1791461899
+        },
+        {
+          "id": 35506732,
+          "char_skill_id": 16771,
+          "value": 32,
+          "value_ext": null,
+          "created_at": 1791461899,
+          "updated_at": 1791461899
+        },
+        {
+          "id": 35506733,
+          "char_skill_id": 16771,
+          "value": 10000,
+          "value_ext": null,
+          "created_at": 1791461899,
+          "updated_at": 1791461899
+        },
+        {
+          "id": 35506734,
+          "char_skill_id": 16771,
+          "value": 3,
+          "value_ext": null,
+          "created_at": 1791461899,
+          "updated_at": 1791461899
+        },
+        {
+          "id": 35506735,
+          "char_skill_id": 16771,
+          "value": 150,
+          "value_ext": null,
+          "created_at": 1791461899,
+          "updated_at": 1791461899
+        },
+        {
+          "id": 35506736,
+          "char_skill_id": 16771,
+          "value": 22,
+          "value_ext": null,
+          "created_at": 1791461899,
+          "updated_at": 1791461899
+        }
+      ],
+      "values": [
+        51500,
+        1,
+        200,
+        32,
+        10000,
+        3,
+        150,
+        22
+      ],
+      "value_ext": 103000
+    },
+    {
+      "id": 16772,
+      "skill_id": 618,
+      "skill_pattern_id": 0,
+      "created_at": 1791461899,
+      "updated_at": 1791909124,
+      "char_id": 13092,
+      "name": "超強クイックチャージショット",
+      "description": "近くの敵に強力なチャージショットで攻撃",
+      "sort_id": 291503,
+      "sort_image_id": 139,
+      "attribute_id": 0,
+      "char_skill_values": [
+        {
+          "id": 35506737,
+          "char_skill_id": 16772,
+          "value": 175000,
+          "value_ext": 350000,
+          "created_at": 1791461899,
+          "updated_at": 1791461899
+        },
+        {
+          "id": 35506738,
+          "char_skill_id": 16772,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1791461899,
+          "updated_at": 1791461899
+        },
+        {
+          "id": 35506739,
+          "char_skill_id": 16772,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1791461899,
+          "updated_at": 1791461899
+        },
+        {
+          "id": 35506740,
+          "char_skill_id": 16772,
+          "value": 2002000,
+          "value_ext": null,
+          "created_at": 1791461899,
+          "updated_at": 1791461899
+        },
+        {
+          "id": 35506741,
+          "char_skill_id": 16772,
+          "value": 4002000,
+          "value_ext": null,
+          "created_at": 1791461899,
+          "updated_at": 1791461899
+        }
+      ],
+      "values": [
+        175000,
+        0,
+        0,
+        2002000,
+        4002000
+      ],
+      "value_ext": 350000
+    },
+    {
+      "id": 16773,
+      "skill_id": 678,
+      "skill_pattern_id": 1,
+      "created_at": 1791461899,
+      "updated_at": 1791909124,
+      "char_id": 13092,
+      "name": "友スピアップ",
+      "description": "ふれた味方の友情コンボ威力とスピードがアップ",
+      "sort_id": 261001,
+      "sort_image_id": 155,
+      "attribute_id": 100,
+      "char_skill_values": [
+        {
+          "id": 35506742,
+          "char_skill_id": 16773,
+          "value": 0,
+          "value_ext": 0,
+          "created_at": 1791461899,
+          "updated_at": 1791461899
+        },
+        {
+          "id": 35506743,
+          "char_skill_id": 16773,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1791461899,
+          "updated_at": 1791461899
+        },
+        {
+          "id": 35506744,
+          "char_skill_id": 16773,
+          "value": 100,
+          "value_ext": null,
+          "created_at": 1791461899,
+          "updated_at": 1791461899
+        },
+        {
+          "id": 35506745,
+          "char_skill_id": 16773,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1791461899,
+          "updated_at": 1791461899
+        },
+        {
+          "id": 35506746,
+          "char_skill_id": 16773,
+          "value": 1255,
+          "value_ext": null,
+          "created_at": 1791461899,
+          "updated_at": 1791461899
+        }
+      ],
+      "values": [
+        0,
+        0,
+        100,
+        0,
+        1255
+      ],
+      "value_ext": 0
+    },
+    {
+      "id": 16774,
+      "skill_id": 606,
+      "skill_pattern_id": 0,
+      "created_at": 1792059526,
+      "updated_at": 1792059526,
+      "char_id": 13093,
+      "name": "超絶SS短縮弾",
+      "description": "超強力なSS短縮弾をふれた味方の進行方向に発射",
+      "sort_id": 280103,
+      "sort_image_id": 138,
+      "attribute_id": 100,
+      "char_skill_values": [
+        {
+          "id": 35506836,
+          "char_skill_id": 16774,
+          "value": 183674,
+          "value_ext": 367347,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        },
+        {
+          "id": 35506837,
+          "char_skill_id": 16774,
+          "value": 1,
+          "value_ext": null,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        },
+        {
+          "id": 35506838,
+          "char_skill_id": 16774,
+          "value": 3,
+          "value_ext": null,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        },
+        {
+          "id": 35506839,
+          "char_skill_id": 16774,
+          "value": 32,
+          "value_ext": null,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        },
+        {
+          "id": 35506840,
+          "char_skill_id": 16774,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        }
+      ],
+      "values": [
+        183674,
+        1,
+        3,
+        32,
+        0
+      ],
+      "value_ext": 367347
+    },
+    {
+      "id": 16775,
+      "skill_id": 678,
+      "skill_pattern_id": 0,
+      "created_at": 1792059526,
+      "updated_at": 1792059526,
+      "char_id": 13093,
+      "name": "攻防アップ",
+      "description": "ふれた味方の攻撃力と防御力がアップ",
+      "sort_id": 260501,
+      "sort_image_id": 150,
+      "attribute_id": 100,
+      "char_skill_values": [
+        {
+          "id": 35506841,
+          "char_skill_id": 16775,
+          "value": 0,
+          "value_ext": 0,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        },
+        {
+          "id": 35506842,
+          "char_skill_id": 16775,
+          "value": 931,
+          "value_ext": null,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        },
+        {
+          "id": 35506843,
+          "char_skill_id": 16775,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        },
+        {
+          "id": 35506844,
+          "char_skill_id": 16775,
+          "value": 756,
+          "value_ext": null,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        },
+        {
+          "id": 35506845,
+          "char_skill_id": 16775,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        }
+      ],
+      "values": [
+        0,
+        931,
+        0,
+        756,
+        0
+      ],
+      "value_ext": 0
+    },
+    {
+      "id": 16776,
+      "skill_id": 226,
+      "skill_pattern_id": 0,
+      "created_at": 1792059526,
+      "updated_at": 1792059526,
+      "char_id": 13094,
+      "name": "超絶貫通弱点ロックオン衝撃波 5",
+      "description": "画面上のすべての弱点に向かって超強力な貫通衝撃波を放つ",
+      "sort_id": 100603,
+      "sort_image_id": 87,
+      "attribute_id": 0,
+      "char_skill_values": [
+        {
+          "id": 35506846,
+          "char_skill_id": 16776,
+          "value": 112000,
+          "value_ext": 224000,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        },
+        {
+          "id": 35506847,
+          "char_skill_id": 16776,
+          "value": 5,
+          "value_ext": null,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        },
+        {
+          "id": 35506848,
+          "char_skill_id": 16776,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        },
+        {
+          "id": 35506849,
+          "char_skill_id": 16776,
+          "value": 1,
+          "value_ext": null,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        },
+        {
+          "id": 35506850,
+          "char_skill_id": 16776,
+          "value": 1,
+          "value_ext": null,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        }
+      ],
+      "values": [
+        112000,
+        5,
+        0,
+        1,
+        1
+      ],
+      "value_ext": 224000
+    },
+    {
+      "id": 16777,
+      "skill_id": 226,
+      "skill_pattern_id": 0,
+      "created_at": 1792059526,
+      "updated_at": 1792059526,
+      "char_id": 13095,
+      "name": "超絶貫通弱点ロックオン衝撃波 5",
+      "description": "画面上のすべての弱点に向かって超強力な貫通衝撃波を放つ",
+      "sort_id": 100603,
+      "sort_image_id": 87,
+      "attribute_id": 0,
+      "char_skill_values": [
+        {
+          "id": 35506851,
+          "char_skill_id": 16777,
+          "value": 112000,
+          "value_ext": 224000,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        },
+        {
+          "id": 35506852,
+          "char_skill_id": 16777,
+          "value": 5,
+          "value_ext": null,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        },
+        {
+          "id": 35506853,
+          "char_skill_id": 16777,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        },
+        {
+          "id": 35506854,
+          "char_skill_id": 16777,
+          "value": 1,
+          "value_ext": null,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        },
+        {
+          "id": 35506855,
+          "char_skill_id": 16777,
+          "value": 1,
+          "value_ext": null,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        }
+      ],
+      "values": [
+        112000,
+        5,
+        0,
+        1,
+        1
+      ],
+      "value_ext": 224000
+    },
+    {
+      "id": 16778,
+      "skill_id": 546,
+      "skill_pattern_id": 0,
+      "created_at": 1792059526,
+      "updated_at": 1792059526,
+      "char_id": 13095,
+      "name": "超強ランページウォールボム",
+      "description": "周囲に6発の敵を貫通し壁で爆発する強力な弾で攻撃",
+      "sort_id": 191502,
+      "sort_image_id": 128,
+      "attribute_id": 100,
+      "char_skill_values": [
+        {
+          "id": 35506856,
+          "char_skill_id": 16778,
+          "value": 140000,
+          "value_ext": 280000,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        },
+        {
+          "id": 35506857,
+          "char_skill_id": 16778,
+          "value": 6,
+          "value_ext": null,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        },
+        {
+          "id": 35506858,
+          "char_skill_id": 16778,
+          "value": 250,
+          "value_ext": null,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        },
+        {
+          "id": 35506859,
+          "char_skill_id": 16778,
+          "value": 16,
+          "value_ext": null,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        },
+        {
+          "id": 35506860,
+          "char_skill_id": 16778,
+          "value": 10000,
+          "value_ext": null,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        }
+      ],
+      "values": [
+        140000,
+        6,
+        250,
+        16,
+        10000
+      ],
+      "value_ext": 280000
+    },
+    {
+      "id": 16779,
+      "skill_id": 803,
+      "skill_pattern_id": 0,
+      "created_at": 1792059526,
+      "updated_at": 1792059526,
+      "char_id": 13096,
+      "name": "ラウンドバースト",
+      "description": "ふれた味方の移動に応じて攻撃範囲が広がる爆発で敵を攻撃",
+      "sort_id": 200301,
+      "sort_image_id": 171,
+      "attribute_id": 100,
+      "char_skill_values": [
+        {
+          "id": 35506861,
+          "char_skill_id": 16779,
+          "value": 178571,
+          "value_ext": 357143,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        },
+        {
+          "id": 35506862,
+          "char_skill_id": 16779,
+          "value": 150,
+          "value_ext": null,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        },
+        {
+          "id": 35506863,
+          "char_skill_id": 16779,
+          "value": 75,
+          "value_ext": null,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        },
+        {
+          "id": 35506864,
+          "char_skill_id": 16779,
+          "value": 500,
+          "value_ext": null,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        }
+      ],
+      "values": [
+        178571,
+        150,
+        75,
+        500
+      ],
+      "value_ext": 357143
+    },
+    {
+      "id": 16780,
+      "skill_id": 803,
+      "skill_pattern_id": 0,
+      "created_at": 1792059526,
+      "updated_at": 1792059526,
+      "char_id": 13097,
+      "name": "ラウンドバースト",
+      "description": "ふれた味方の移動に応じて攻撃範囲が広がる爆発で敵を攻撃",
+      "sort_id": 200301,
+      "sort_image_id": 171,
+      "attribute_id": 100,
+      "char_skill_values": [
+        {
+          "id": 35506865,
+          "char_skill_id": 16780,
+          "value": 250000,
+          "value_ext": 500000,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        },
+        {
+          "id": 35506866,
+          "char_skill_id": 16780,
+          "value": 150,
+          "value_ext": null,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        },
+        {
+          "id": 35506867,
+          "char_skill_id": 16780,
+          "value": 75,
+          "value_ext": null,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        },
+        {
+          "id": 35506868,
+          "char_skill_id": 16780,
+          "value": 500,
+          "value_ext": null,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        }
+      ],
+      "values": [
+        250000,
+        150,
+        75,
+        500
+      ],
+      "value_ext": 500000
+    },
+    {
+      "id": 16781,
+      "skill_id": 330,
+      "skill_pattern_id": 0,
+      "created_at": 1792059526,
+      "updated_at": 1792059526,
+      "char_id": 13098,
+      "name": "超強跳弾",
+      "description": "画面上のすべての敵に当たる強力な跳弾を放つ",
+      "sort_id": 290102,
+      "sort_image_id": 90,
+      "attribute_id": 100,
+      "char_skill_values": [
+        {
+          "id": 35506869,
+          "char_skill_id": 16781,
+          "value": 16494,
+          "value_ext": 32988,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        },
+        {
+          "id": 35506870,
+          "char_skill_id": 16781,
+          "value": 1,
+          "value_ext": null,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        },
+        {
+          "id": 35506871,
+          "char_skill_id": 16781,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        },
+        {
+          "id": 35506872,
+          "char_skill_id": 16781,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        }
+      ],
+      "values": [
+        16494,
+        1,
+        0,
+        0
+      ],
+      "value_ext": 32988
+    },
+    {
+      "id": 16782,
+      "skill_id": 330,
+      "skill_pattern_id": 0,
+      "created_at": 1792059526,
+      "updated_at": 1792059526,
+      "char_id": 13099,
+      "name": "超絶跳弾",
+      "description": "画面上のすべての敵に当たる超強力な跳弾を放つ",
+      "sort_id": 290103,
+      "sort_image_id": 90,
+      "attribute_id": 100,
+      "char_skill_values": [
+        {
+          "id": 35506873,
+          "char_skill_id": 16782,
+          "value": 69276,
+          "value_ext": 138552,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        },
+        {
+          "id": 35506874,
+          "char_skill_id": 16782,
+          "value": 1,
+          "value_ext": null,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        },
+        {
+          "id": 35506875,
+          "char_skill_id": 16782,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        },
+        {
+          "id": 35506876,
+          "char_skill_id": 16782,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1792059526,
+          "updated_at": 1792059526
+        }
+      ],
+      "values": [
+        69276,
+        1,
+        0,
+        0
+      ],
+      "value_ext": 138552
+    },
+    {
+      "id": 16783,
+      "skill_id": 618,
+      "skill_pattern_id": 0,
+      "created_at": 1792059527,
+      "updated_at": 1792059527,
+      "char_id": 13100,
+      "name": "超強クイックチャージショット",
+      "description": "近くの敵に強力なチャージショットで攻撃",
+      "sort_id": 291503,
+      "sort_image_id": 139,
+      "attribute_id": 0,
+      "char_skill_values": [
+        {
+          "id": 35506877,
+          "char_skill_id": 16783,
+          "value": 175000,
+          "value_ext": 350000,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506878,
+          "char_skill_id": 16783,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506879,
+          "char_skill_id": 16783,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506880,
+          "char_skill_id": 16783,
+          "value": 2002000,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506881,
+          "char_skill_id": 16783,
+          "value": 4002000,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        }
+      ],
+      "values": [
+        175000,
+        0,
+        0,
+        2002000,
+        4002000
+      ],
+      "value_ext": 350000
+    },
+    {
+      "id": 16784,
+      "skill_id": 618,
+      "skill_pattern_id": 0,
+      "created_at": 1792059527,
+      "updated_at": 1792059527,
+      "char_id": 13101,
+      "name": "超強クイックチャージショット",
+      "description": "近くの敵に強力なチャージショットで攻撃",
+      "sort_id": 291503,
+      "sort_image_id": 139,
+      "attribute_id": 0,
+      "char_skill_values": [
+        {
+          "id": 35506882,
+          "char_skill_id": 16784,
+          "value": 175000,
+          "value_ext": 350000,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506883,
+          "char_skill_id": 16784,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506884,
+          "char_skill_id": 16784,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506885,
+          "char_skill_id": 16784,
+          "value": 2002000,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506886,
+          "char_skill_id": 16784,
+          "value": 4002000,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        }
+      ],
+      "values": [
+        175000,
+        0,
+        0,
+        2002000,
+        4002000
+      ],
+      "value_ext": 350000
+    },
+    {
+      "id": 16785,
+      "skill_id": 218,
+      "skill_pattern_id": 0,
+      "created_at": 1792059527,
+      "updated_at": 1792059527,
+      "char_id": 13101,
+      "name": "超絶スパークバレット",
+      "description": "30発の超強力な貫通する反射弾で近くの敵を攻撃",
+      "sort_id": 110503,
+      "sort_image_id": 92,
+      "attribute_id": 0,
+      "char_skill_values": [
+        {
+          "id": 35506887,
+          "char_skill_id": 16785,
+          "value": 8585,
+          "value_ext": 17170,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506888,
+          "char_skill_id": 16785,
+          "value": 30,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506889,
+          "char_skill_id": 16785,
+          "value": 90,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506890,
+          "char_skill_id": 16785,
+          "value": 17,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506891,
+          "char_skill_id": 16785,
+          "value": 4,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        }
+      ],
+      "values": [
+        8585,
+        30,
+        90,
+        17,
+        4
+      ],
+      "value_ext": 17170
+    },
+    {
+      "id": 16786,
+      "skill_id": 834,
+      "skill_pattern_id": 0,
+      "created_at": 1792059527,
+      "updated_at": 1792059527,
+      "char_id": 13102,
+      "name": "5方向追撃貫通弾",
+      "description": "ふれた敵に5方向貫通弾で攻撃",
+      "sort_id": 210801,
+      "sort_image_id": 124,
+      "attribute_id": 0,
+      "char_skill_values": [
+        {
+          "id": 35506892,
+          "char_skill_id": 16786,
+          "value": 56250,
+          "value_ext": 112500,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506893,
+          "char_skill_id": 16786,
+          "value": 1,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506894,
+          "char_skill_id": 16786,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506895,
+          "char_skill_id": 16786,
+          "value": 15,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        }
+      ],
+      "values": [
+        56250,
+        1,
+        0,
+        15
+      ],
+      "value_ext": 112500
+    },
+    {
+      "id": 16787,
+      "skill_id": 834,
+      "skill_pattern_id": 0,
+      "created_at": 1792059527,
+      "updated_at": 1792059527,
+      "char_id": 13103,
+      "name": "5方向追撃貫通弾",
+      "description": "ふれた敵に5方向貫通弾で攻撃",
+      "sort_id": 210801,
+      "sort_image_id": 124,
+      "attribute_id": 0,
+      "char_skill_values": [
+        {
+          "id": 35506896,
+          "char_skill_id": 16787,
+          "value": 56250,
+          "value_ext": 112500,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506897,
+          "char_skill_id": 16787,
+          "value": 1,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506898,
+          "char_skill_id": 16787,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506899,
+          "char_skill_id": 16787,
+          "value": 15,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        }
+      ],
+      "values": [
+        56250,
+        1,
+        0,
+        15
+      ],
+      "value_ext": 112500
+    },
+    {
+      "id": 16788,
+      "skill_id": 27,
+      "skill_pattern_id": 0,
+      "created_at": 1792059527,
+      "updated_at": 1792059527,
+      "char_id": 13103,
+      "name": "爆絶爆発",
+      "description": "自身を中心に爆絶爆発攻撃",
+      "sort_id": 10107,
+      "sort_image_id": 1,
+      "attribute_id": 100,
+      "char_skill_values": [
+        {
+          "id": 35506900,
+          "char_skill_id": 16788,
+          "value": 85998,
+          "value_ext": 171996,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506901,
+          "char_skill_id": 16788,
+          "value": 5,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506902,
+          "char_skill_id": 16788,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506903,
+          "char_skill_id": 16788,
+          "value": 100,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        }
+      ],
+      "values": [
+        85998,
+        5,
+        0,
+        100
+      ],
+      "value_ext": 171996
+    },
+    {
+      "id": 16789,
+      "skill_id": 900,
+      "skill_pattern_id": 0,
+      "created_at": 1792059527,
+      "updated_at": 1792059527,
+      "char_id": 13104,
+      "name": "バーストスピナー",
+      "description": "壁で反射し爆発するスピナーで敵を攻撃",
+      "sort_id": 291901,
+      "sort_image_id": 212,
+      "attribute_id": 0,
+      "char_skill_values": [
+        {
+          "id": 35506904,
+          "char_skill_id": 16789,
+          "value": 84000,
+          "value_ext": 168000,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506905,
+          "char_skill_id": 16789,
+          "value": 100000,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506906,
+          "char_skill_id": 16789,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506907,
+          "char_skill_id": 16789,
+          "value": 32,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506908,
+          "char_skill_id": 16789,
+          "value": 10,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506909,
+          "char_skill_id": 16789,
+          "value": 100,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        }
+      ],
+      "values": [
+        84000,
+        100000,
+        0,
+        32,
+        10,
+        100
+      ],
+      "value_ext": 168000
+    },
+    {
+      "id": 16790,
+      "skill_id": 109,
+      "skill_pattern_id": 0,
+      "created_at": 1792059527,
+      "updated_at": 1792059527,
+      "char_id": 13104,
+      "name": "超絶攻撃ダウンブラスト",
+      "description": "自身を中心に敵を攻撃力ダウンさせる超強力な範囲攻撃",
+      "sort_id": 20402,
+      "sort_image_id": 162,
+      "attribute_id": 100,
+      "char_skill_values": [
+        {
+          "id": 35506910,
+          "char_skill_id": 16790,
+          "value": 49000,
+          "value_ext": 98000,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506911,
+          "char_skill_id": 16790,
+          "value": 1,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506912,
+          "char_skill_id": 16790,
+          "value": 80,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506913,
+          "char_skill_id": 16790,
+          "value": 250,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506914,
+          "char_skill_id": 16790,
+          "value": 1,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        }
+      ],
+      "values": [
+        49000,
+        1,
+        80,
+        250,
+        1
+      ],
+      "value_ext": 98000
+    },
+    {
+      "id": 16791,
+      "skill_id": 110,
+      "skill_pattern_id": 0,
+      "created_at": 1792059527,
+      "updated_at": 1792059527,
+      "char_id": 13105,
+      "name": "爆絶バラージショットガン",
+      "description": "100発の強烈な弾が近くの敵を攻撃",
+      "sort_id": 110204,
+      "sort_image_id": 32,
+      "attribute_id": 0,
+      "char_skill_values": [
+        {
+          "id": 35506915,
+          "char_skill_id": 16791,
+          "value": 13433,
+          "value_ext": 26866,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506916,
+          "char_skill_id": 16791,
+          "value": 100,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506917,
+          "char_skill_id": 16791,
+          "value": 45,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506918,
+          "char_skill_id": 16791,
+          "value": 17,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        }
+      ],
+      "values": [
+        13433,
+        100,
+        45,
+        17
+      ],
+      "value_ext": 26866
+    },
+    {
+      "id": 16792,
+      "skill_id": 47,
+      "skill_pattern_id": 0,
+      "created_at": 1792059527,
+      "updated_at": 1792059527,
+      "char_id": 13106,
+      "name": "超強ツインワンウェイレーザー EL",
+      "description": "近くの敵に2本の強力な特大レーザー攻撃",
+      "sort_id": 41002,
+      "sort_image_id": 144,
+      "attribute_id": 0,
+      "char_skill_values": [
+        {
+          "id": 35506919,
+          "char_skill_id": 16792,
+          "value": 92400,
+          "value_ext": 169400,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506920,
+          "char_skill_id": 16792,
+          "value": 3,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506921,
+          "char_skill_id": 16792,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506922,
+          "char_skill_id": 16792,
+          "value": 41,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        }
+      ],
+      "values": [
+        92400,
+        3,
+        0,
+        41
+      ],
+      "value_ext": 169400
+    },
+    {
+      "id": 16793,
+      "skill_id": 846,
+      "skill_pattern_id": 0,
+      "created_at": 1792059527,
+      "updated_at": 1792059527,
+      "char_id": 13107,
+      "name": "ツインインボリュートスフィア",
+      "description": "螺旋状に広がる弾で2方向に攻撃",
+      "sort_id": 230401,
+      "sort_image_id": 181,
+      "attribute_id": 0,
+      "char_skill_values": [
+        {
+          "id": 35506923,
+          "char_skill_id": 16793,
+          "value": 20000,
+          "value_ext": 40000,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506924,
+          "char_skill_id": 16793,
+          "value": 6,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506925,
+          "char_skill_id": 16793,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506926,
+          "char_skill_id": 16793,
+          "value": 27,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506927,
+          "char_skill_id": 16793,
+          "value": 4,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        }
+      ],
+      "values": [
+        20000,
+        6,
+        0,
+        27,
+        4
+      ],
+      "value_ext": 40000
+    },
+    {
+      "id": 16794,
+      "skill_id": 141,
+      "skill_pattern_id": 0,
+      "created_at": 1792059527,
+      "updated_at": 1792059527,
+      "char_id": 13108,
+      "name": "超絶拡大爆破弾",
+      "description": "巨大化する超強力な爆弾で近くの敵を攻撃",
+      "sort_id": 190103,
+      "sort_image_id": 45,
+      "attribute_id": 100,
+      "char_skill_values": [
+        {
+          "id": 35506928,
+          "char_skill_id": 16794,
+          "value": 40320,
+          "value_ext": 80640,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506929,
+          "char_skill_id": 16794,
+          "value": 65,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506930,
+          "char_skill_id": 16794,
+          "value": 153600,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506931,
+          "char_skill_id": 16794,
+          "value": 17,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506932,
+          "char_skill_id": 16794,
+          "value": 400,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        }
+      ],
+      "values": [
+        40320,
+        65,
+        153600,
+        17,
+        400
+      ],
+      "value_ext": 80640
+    },
+    {
+      "id": 16795,
+      "skill_id": 174,
+      "skill_pattern_id": 0,
+      "created_at": 1792059527,
+      "updated_at": 1792059527,
+      "char_id": 13109,
+      "name": "爆絶乱気弾",
+      "description": "周囲に7発の強烈な気弾で攻撃",
+      "sort_id": 160108,
+      "sort_image_id": 47,
+      "attribute_id": 0,
+      "char_skill_values": [
+        {
+          "id": 35506933,
+          "char_skill_id": 16795,
+          "value": 183672,
+          "value_ext": 367344,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506934,
+          "char_skill_id": 16795,
+          "value": 7,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506935,
+          "char_skill_id": 16795,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506936,
+          "char_skill_id": 16795,
+          "value": 16,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        }
+      ],
+      "values": [
+        183672,
+        7,
+        0,
+        16
+      ],
+      "value_ext": 367344
+    },
+    {
+      "id": 16796,
+      "skill_id": 37,
+      "skill_pattern_id": 0,
+      "created_at": 1792059527,
+      "updated_at": 1792059527,
+      "char_id": 13110,
+      "name": "全敵超絶落雷",
+      "description": "すべての敵に1発の超強力な雷で攻撃",
+      "sort_id": 120208,
+      "sort_image_id": 34,
+      "attribute_id": 100,
+      "char_skill_values": [
+        {
+          "id": 35506937,
+          "char_skill_id": 16796,
+          "value": 388432,
+          "value_ext": 776864,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506938,
+          "char_skill_id": 16796,
+          "value": 1,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506939,
+          "char_skill_id": 16796,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506940,
+          "char_skill_id": 16796,
+          "value": 1,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506941,
+          "char_skill_id": 16796,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        }
+      ],
+      "values": [
+        388432,
+        1,
+        0,
+        1,
+        0
+      ],
+      "value_ext": 776864
+    },
+    {
+      "id": 16797,
+      "skill_id": 678,
+      "skill_pattern_id": 0,
+      "created_at": 1792059527,
+      "updated_at": 1792059527,
+      "char_id": 13111,
+      "name": "攻友アップ",
+      "description": "ふれた味方の攻撃力と友情コンボ威力がアップ",
+      "sort_id": 260601,
+      "sort_image_id": 151,
+      "attribute_id": 100,
+      "char_skill_values": [
+        {
+          "id": 35506942,
+          "char_skill_id": 16797,
+          "value": 0,
+          "value_ext": 0,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506943,
+          "char_skill_id": 16797,
+          "value": 931,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506944,
+          "char_skill_id": 16797,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506945,
+          "char_skill_id": 16797,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        },
+        {
+          "id": 35506946,
+          "char_skill_id": 16797,
+          "value": 1255,
+          "value_ext": null,
+          "created_at": 1792059527,
+          "updated_at": 1792059527
+        }
+      ],
+      "values": [
+        0,
+        931,
+        0,
+        0,
+        1255
+      ],
+      "value_ext": 0
+    },
+    {
+      "id": 16798,
+      "skill_id": 856,
+      "skill_pattern_id": 1,
+      "created_at": 1792059528,
+      "updated_at": 1792059528,
+      "char_id": 13112,
+      "name": "バブリーギフト",
+      "description": "ふれた味方をバブリー状態にする",
+      "sort_id": 261101,
+      "sort_image_id": 188,
+      "attribute_id": 100,
+      "char_skill_values": [
+        {
+          "id": 35506947,
+          "char_skill_id": 16798,
+          "value": 0,
+          "value_ext": 0,
+          "created_at": 1792059528,
+          "updated_at": 1792059528
+        },
+        {
+          "id": 35506948,
+          "char_skill_id": 16798,
+          "value": 80,
+          "value_ext": null,
+          "created_at": 1792059528,
+          "updated_at": 1792059528
+        },
+        {
+          "id": 35506949,
+          "char_skill_id": 16798,
+          "value": 1,
+          "value_ext": null,
+          "created_at": 1792059528,
+          "updated_at": 1792059528
+        },
+        {
+          "id": 35506950,
+          "char_skill_id": 16798,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1792059528,
+          "updated_at": 1792059528
+        }
+      ],
+      "values": [
+        0,
+        80,
+        1,
+        0
+      ],
+      "value_ext": 0
+    },
+    {
+      "id": 16799,
+      "skill_id": 72,
+      "skill_pattern_id": 0,
+      "created_at": 1792059528,
+      "updated_at": 1792059528,
+      "char_id": 13113,
+      "name": "超絶貫通ホーミング 18",
+      "description": "超強力な18発の貫通弾がランダムで敵を攻撃",
+      "sort_id": 80216,
+      "sort_image_id": 9,
+      "attribute_id": 0,
+      "char_skill_values": [
+        {
+          "id": 35506951,
+          "char_skill_id": 16799,
+          "value": 11417,
+          "value_ext": 22848,
+          "created_at": 1792059528,
+          "updated_at": 1792059528
+        },
+        {
+          "id": 35506952,
+          "char_skill_id": 16799,
+          "value": 18,
+          "value_ext": null,
+          "created_at": 1792059528,
+          "updated_at": 1792059528
+        },
+        {
+          "id": 35506953,
+          "char_skill_id": 16799,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1792059528,
+          "updated_at": 1792059528
+        },
+        {
+          "id": 35506954,
+          "char_skill_id": 16799,
+          "value": 16,
+          "value_ext": null,
+          "created_at": 1792059528,
+          "updated_at": 1792059528
+        },
+        {
+          "id": 35506955,
+          "char_skill_id": 16799,
+          "value": 3,
+          "value_ext": null,
+          "created_at": 1792059528,
+          "updated_at": 1792059528
+        }
+      ],
+      "values": [
+        11417,
+        18,
+        0,
+        16,
+        3
+      ],
+      "value_ext": 22848
+    },
+    {
+      "id": 16801,
+      "skill_id": 65,
+      "skill_pattern_id": 0,
+      "created_at": 1790849760,
+      "updated_at": 1791909124,
+      "char_id": 13115,
+      "name": "超絶リワインドブラスター",
+      "description": "48発の超強力な往復弾で敵を攻撃",
+      "sort_id": 90503,
+      "sort_image_id": 28,
+      "attribute_id": 0,
+      "char_skill_values": [
+        {
+          "id": 35506641,
+          "char_skill_id": 16801,
+          "value": 34295,
+          "value_ext": 68590,
+          "created_at": 1790849760,
+          "updated_at": 1790849760
+        },
+        {
+          "id": 35506642,
+          "char_skill_id": 16801,
+          "value": 3,
+          "value_ext": null,
+          "created_at": 1790849760,
+          "updated_at": 1790849760
+        },
+        {
+          "id": 35506643,
+          "char_skill_id": 16801,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1790849760,
+          "updated_at": 1790849760
+        },
+        {
+          "id": 35506644,
+          "char_skill_id": 16801,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1790849760,
+          "updated_at": 1790849760
+        }
+      ],
+      "values": [
+        34295,
+        3,
+        0,
+        0
+      ],
+      "value_ext": 68590
+    },
+    {
+      "id": 16802,
+      "skill_id": 65,
+      "skill_pattern_id": 0,
+      "created_at": 1790849760,
+      "updated_at": 1791909124,
+      "char_id": 13116,
+      "name": "超絶リワインドブラスター",
+      "description": "48発の超強力な往復弾で敵を攻撃",
+      "sort_id": 90503,
+      "sort_image_id": 28,
+      "attribute_id": 0,
+      "char_skill_values": [
+        {
+          "id": 35506645,
+          "char_skill_id": 16802,
+          "value": 34295,
+          "value_ext": 68590,
+          "created_at": 1790849760,
+          "updated_at": 1790849760
+        },
+        {
+          "id": 35506646,
+          "char_skill_id": 16802,
+          "value": 3,
+          "value_ext": null,
+          "created_at": 1790849760,
+          "updated_at": 1790849760
+        },
+        {
+          "id": 35506647,
+          "char_skill_id": 16802,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1790849760,
+          "updated_at": 1790849760
+        },
+        {
+          "id": 35506648,
+          "char_skill_id": 16802,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1790849760,
+          "updated_at": 1790849760
+        }
+      ],
+      "values": [
+        34295,
+        3,
+        0,
+        0
+      ],
+      "value_ext": 68590
+    },
+    {
+      "id": 16803,
+      "skill_id": 669,
+      "skill_pattern_id": 0,
+      "created_at": 1790849760,
+      "updated_at": 1791909124,
+      "char_id": 13116,
+      "name": "超強トライアングルボム",
+      "description": "3発の強力な爆弾が弱った敵を攻撃",
+      "sort_id": 192002,
+      "sort_image_id": 149,
+      "attribute_id": 100,
+      "char_skill_values": [
+        {
+          "id": 35506649,
+          "char_skill_id": 16803,
+          "value": 240000,
+          "value_ext": 480000,
+          "created_at": 1790849760,
+          "updated_at": 1790849760
+        },
+        {
+          "id": 35506650,
+          "char_skill_id": 16803,
+          "value": 185,
+          "value_ext": null,
+          "created_at": 1790849760,
+          "updated_at": 1790849760
+        },
+        {
+          "id": 35506651,
+          "char_skill_id": 16803,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1790849760,
+          "updated_at": 1790849760
+        },
+        {
+          "id": 35506652,
+          "char_skill_id": 16803,
+          "value": 18,
+          "value_ext": null,
+          "created_at": 1790849760,
+          "updated_at": 1790849760
+        },
+        {
+          "id": 35506653,
+          "char_skill_id": 16803,
+          "value": 1403,
+          "value_ext": null,
+          "created_at": 1790849760,
+          "updated_at": 1790849760
+        }
+      ],
+      "values": [
+        240000,
+        185,
+        0,
+        18,
+        1403
+      ],
+      "value_ext": 480000
+    },
+    {
+      "id": 50000,
+      "skill_id": 890,
+      "skill_pattern_id": 0,
+      "created_at": 1740662108,
+      "updated_at": 1740662108,
+      "char_id": 26000,
+      "name": "友情コンボはありません",
+      "description": "このモンスターは友情コンボを持っていません",
+      "sort_id": 0,
+      "sort_image_id": 0,
+      "attribute_id": 300,
+      "char_skill_values": [
+        {
+          "id": 31422739,
+          "char_skill_id": 50000,
+          "value": 0,
+          "value_ext": 0,
+          "created_at": 1740662108,
+          "updated_at": 1740662108
+        },
+        {
+          "id": 31422741,
+          "char_skill_id": 50000,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1740662108,
+          "updated_at": 1740662108
+        },
+        {
+          "id": 31422742,
+          "char_skill_id": 50000,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1740662108,
+          "updated_at": 1740662108
+        },
+        {
+          "id": 31422743,
+          "char_skill_id": 50000,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1740662108,
+          "updated_at": 1740662108
+        }
+      ],
+      "values": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "value_ext": 0
+    },
+    {
+      "id": 50001,
+      "skill_id": 61,
+      "skill_pattern_id": 0,
+      "created_at": 1738836233,
+      "updated_at": 1738836233,
+      "char_id": 26001,
+      "name": "貫通拡散弾 EL3",
+      "description": "16方向に特大貫通属性弾を3発ずつ乱れ撃ち",
+      "sort_id": 7053,
+      "sort_image_id": 3,
+      "attribute_id": 0,
+      "char_skill_values": [
+        {
+          "id": 31422756,
+          "char_skill_id": 50001,
+          "value": 1372,
+          "value_ext": 2744,
+          "created_at": 1740662108,
+          "updated_at": 1740662108
+        },
+        {
+          "id": 31422757,
+          "char_skill_id": 50001,
+          "value": 3,
+          "value_ext": null,
+          "created_at": 1740662108,
+          "updated_at": 1740662108
+        },
+        {
+          "id": 31422758,
+          "char_skill_id": 50001,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1740662108,
+          "updated_at": 1740662108
+        },
+        {
+          "id": 31422759,
+          "char_skill_id": 50001,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1740662108,
+          "updated_at": 1740662108
+        }
+      ],
+      "values": [
+        1372,
+        3,
+        0,
+        0
+      ],
+      "value_ext": 2744
+    },
+    {
+      "id": 50002,
+      "skill_id": 49,
+      "skill_pattern_id": 0,
+      "created_at": 1738836233,
+      "updated_at": 1738836233,
+      "char_id": 26002,
+      "name": "ホーミング 18",
+      "description": "18発の属性弾がランダムで敵を攻撃",
+      "sort_id": 6007,
+      "sort_image_id": 4,
+      "attribute_id": 0,
+      "char_skill_values": [
+        {
+          "id": 31422764,
+          "char_skill_id": 50002,
+          "value": 1607,
+          "value_ext": 3214,
+          "created_at": 1740662108,
+          "updated_at": 1740662108
+        },
+        {
+          "id": 31422765,
+          "char_skill_id": 50002,
+          "value": 18,
+          "value_ext": null,
+          "created_at": 1740662108,
+          "updated_at": 1740662108
+        },
+        {
+          "id": 31422766,
+          "char_skill_id": 50002,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1740662108,
+          "updated_at": 1740662108
+        },
+        {
+          "id": 31422767,
+          "char_skill_id": 50002,
+          "value": 16,
+          "value_ext": null,
+          "created_at": 1740662108,
+          "updated_at": 1740662108
+        }
+      ],
+      "values": [
+        1607,
+        18,
+        0,
+        16
+      ],
+      "value_ext": 3214
+    },
+    {
+      "id": 50003,
+      "skill_id": 1,
+      "skill_pattern_id": 0,
+      "created_at": 1738836233,
+      "updated_at": 1738836233,
+      "char_id": 26003,
+      "name": "短距離拡散弾 9",
+      "description": "16方向に属性弾を9発ずつ乱れ撃ち",
+      "sort_id": 7251,
+      "sort_image_id": 3,
+      "attribute_id": 0,
+      "char_skill_values": [
+        {
+          "id": 31422772,
+          "char_skill_id": 50003,
+          "value": 1999,
+          "value_ext": 3998,
+          "created_at": 1740662108,
+          "updated_at": 1740662108
+        },
+        {
+          "id": 31422773,
+          "char_skill_id": 50003,
+          "value": 9,
+          "value_ext": null,
+          "created_at": 1740662108,
+          "updated_at": 1740662108
+        },
+        {
+          "id": 31422774,
+          "char_skill_id": 50003,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1740662108,
+          "updated_at": 1740662108
+        },
+        {
+          "id": 31422775,
+          "char_skill_id": 50003,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1740662108,
+          "updated_at": 1740662108
+        }
+      ],
+      "values": [
+        1999,
+        9,
+        0,
+        0
+      ],
+      "value_ext": 3998
+    },
+    {
+      "id": 50004,
+      "skill_id": 81,
+      "skill_pattern_id": 0,
+      "created_at": 1738836233,
+      "updated_at": 1738836233,
+      "char_id": 26003,
+      "name": "スピードアップ",
+      "description": "ふれた味方のスピードがアップ",
+      "sort_id": 13002,
+      "sort_image_id": 13,
+      "attribute_id": 100,
+      "char_skill_values": [
+        {
+          "id": 31422780,
+          "char_skill_id": 50004,
+          "value": 0,
+          "value_ext": 0,
+          "created_at": 1740662108,
+          "updated_at": 1740662108
+        },
+        {
+          "id": 31422781,
+          "char_skill_id": 50004,
+          "value": 100,
+          "value_ext": null,
+          "created_at": 1740662108,
+          "updated_at": 1740662108
+        },
+        {
+          "id": 31422782,
+          "char_skill_id": 50004,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1740662108,
+          "updated_at": 1740662108
+        },
+        {
+          "id": 31422783,
+          "char_skill_id": 50004,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1740662108,
+          "updated_at": 1740662108
+        }
+      ],
+      "values": [
+        0,
+        100,
+        0,
+        0
+      ],
+      "value_ext": 0
+    },
+    {
+      "id": 50005,
+      "skill_id": 77,
+      "skill_pattern_id": 0,
+      "created_at": 1738836233,
+      "updated_at": 1738836233,
+      "char_id": 26004,
+      "name": "プラズマ",
+      "description": "ふれた味方との間に属性プラズマを発生させ攻撃",
+      "sort_id": 11001,
+      "sort_image_id": 11,
+      "attribute_id": 0,
+      "char_skill_values": [
+        {
+          "id": 31422788,
+          "char_skill_id": 50005,
+          "value": 3459,
+          "value_ext": 6918,
+          "created_at": 1740662108,
+          "updated_at": 1740662108
+        },
+        {
+          "id": 31422789,
+          "char_skill_id": 50005,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1740662108,
+          "updated_at": 1740662108
+        },
+        {
+          "id": 31422790,
+          "char_skill_id": 50005,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1740662108,
+          "updated_at": 1740662108
+        },
+        {
+          "id": 31422791,
+          "char_skill_id": 50005,
+          "value": 0,
+          "value_ext": null,
+          "created_at": 1740662108,
+          "updated_at": 1740662108
+        }
+      ],
+      "values": [
+        3459,
+        0,
+        0,
+        0
+      ],
+      "value_ext": 6918
+    }
+  ]
+}

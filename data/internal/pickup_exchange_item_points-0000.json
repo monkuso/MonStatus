@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "table": "pickup_exchange_item_points",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "gain_item_id": 10090100,
+      "point_item_id": 10090000,
+      "point": 2,
+      "created_at": 1626109793,
+      "updated_at": 1626109793
+    },
+    {
+      "id": 2,
+      "gain_item_id": 10090101,
+      "point_item_id": 10090000,
+      "point": 5,
+      "created_at": 1626109793,
+      "updated_at": 1626109793
+    },
+    {
+      "id": 3,
+      "gain_item_id": 10090102,
+      "point_item_id": 10090000,
+      "point": 20,
+      "created_at": 1626109793,
+      "updated_at": 1626109793
+    }
+  ]
+}

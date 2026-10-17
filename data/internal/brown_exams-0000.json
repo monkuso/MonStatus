@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "table": "brown_exams",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "weight": 1000,
+      "additional_point_min": 80,
+      "additional_point_max": 80,
+      "created_at": 1653559657,
+      "updated_at": 1653559657
+    },
+    {
+      "id": 2,
+      "weight": 100000,
+      "additional_point_min": 16,
+      "additional_point_max": 20,
+      "created_at": 1653559657,
+      "updated_at": 1653559657
+    },
+    {
+      "id": 3,
+      "weight": 200000,
+      "additional_point_min": 11,
+      "additional_point_max": 15,
+      "created_at": 1653559657,
+      "updated_at": 1653559657
+    },
+    {
+      "id": 4,
+      "weight": 550000,
+      "additional_point_min": 0,
+      "additional_point_max": 10,
+      "created_at": 1653559657,
+      "updated_at": 1653559657
+    },
+    {
+      "id": 5,
+      "weight": 135000,
+      "additional_point_min": -9,
+      "additional_point_max": -1,
+      "created_at": 1653559657,
+      "updated_at": 1653559657
+    },
+    {
+      "id": 6,
+      "weight": 14000,
+      "additional_point_min": -10,
+      "additional_point_max": -10,
+      "created_at": 1653559657,
+      "updated_at": 1653559657
+    }
+  ]
+}

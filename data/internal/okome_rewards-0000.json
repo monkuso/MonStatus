@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "table": "okome_rewards",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "okome_event_id": 2,
+      "grade": 1,
+      "limit": 10,
+      "reward_type": 0,
+      "sns_message_group_id": 40,
+      "description": "0",
+      "created_at": 1753352806,
+      "updated_at": 1766058183
+    },
+    {
+      "id": 2,
+      "okome_event_id": 2,
+      "grade": 2,
+      "limit": 50,
+      "reward_type": 0,
+      "sns_message_group_id": 41,
+      "description": "0",
+      "created_at": 1753352806,
+      "updated_at": 1766058183
+    },
+    {
+      "id": 3,
+      "okome_event_id": 2,
+      "grade": 3,
+      "limit": 1000,
+      "reward_type": 0,
+      "sns_message_group_id": 42,
+      "description": "0",
+      "created_at": 1753352806,
+      "updated_at": 1766058183
+    },
+    {
+      "id": 4,
+      "okome_event_id": 2,
+      "grade": 4,
+      "limit": 10000,
+      "reward_type": 0,
+      "sns_message_group_id": 43,
+      "description": "0",
+      "created_at": 1753352806,
+      "updated_at": 1766058183
+    },
+    {
+      "id": 5,
+      "okome_event_id": 2,
+      "grade": 5,
+      "limit": 100000,
+      "reward_type": 0,
+      "sns_message_group_id": 44,
+      "description": "「解放の書詰め合わせ」は、[LF]以下のアイテムが獲得できます[LF][WIDTH640][LF]・コネクトスキルの書×1[LF]・戦型の書×1[LF]・英雄の書×1[LF]・レベルの書×1",
+      "created_at": 1753352806,
+      "updated_at": 1766058183
+    },
+    {
+      "id": 6,
+      "okome_event_id": 2,
+      "grade": 6,
+      "limit": 150000,
+      "reward_type": 0,
+      "sns_message_group_id": 45,
+      "description": "「アイテム詰め合わせ」は、[LF]以下のアイテムが獲得できます[LF][WIDTH640][LF]・ミラクルミン×1[LF]・わくわくミン×1[LF]・トラベルベル×1[LF]・エラベルベル×1[LF]・フエ〜ルビスケット×1[LF]・わくわくステッキ×1",
+      "created_at": 1753352806,
+      "updated_at": 1766058183
+    },
+    {
+      "id": 7,
+      "okome_event_id": 2,
+      "grade": 7,
+      "limit": 500000,
+      "reward_type": 0,
+      "sns_message_group_id": 46,
+      "description": "0",
+      "created_at": 1753352806,
+      "updated_at": 1766058183
+    },
+    {
+      "id": 8,
+      "okome_event_id": 2,
+      "grade": 8,
+      "limit": 0,
+      "reward_type": 1,
+      "sns_message_group_id": 47,
+      "description": "「クエストチケット2枚セット」は、[LF]以下のアイテムが獲得できます[LF][WIDTH640][LF]・黄金の神殿×1[LF]・経験値たんまり！タスの巣窟×1",
+      "created_at": 1753352806,
+      "updated_at": 1766058183
+    }
+  ]
+}

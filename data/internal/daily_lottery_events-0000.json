@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "table": "daily_lottery_events",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "start_at": 1647702000,
+      "end_at": 1648825199,
+      "switch_hour": 0,
+      "created_at": 1647522165,
+      "updated_at": 1662625625,
+      "name": "遊郭潜入任務"
+    },
+    {
+      "id": 2,
+      "start_at": 1662649200,
+      "end_at": 1663340399,
+      "switch_hour": 0,
+      "created_at": 1662625625,
+      "updated_at": 1662625625,
+      "name": "バディを応援！HEROスポンサー"
+    },
+    {
+      "id": 3,
+      "start_at": 1668106800,
+      "end_at": 1668711599,
+      "switch_hour": 4,
+      "created_at": 1668074199,
+      "updated_at": 1668074199,
+      "name": "バディ大作戦"
+    }
+  ]
+}

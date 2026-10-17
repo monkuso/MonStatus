@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "table": "maiku_mission_max_points",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "maiku_mission_event_id": 1,
+      "type_id": 0,
+      "max_point": 400,
+      "created_at": 1766058173,
+      "updated_at": 1766058173
+    },
+    {
+      "id": 2,
+      "maiku_mission_event_id": 1,
+      "type_id": 1,
+      "max_point": 100,
+      "created_at": 1766058173,
+      "updated_at": 1766058173
+    },
+    {
+      "id": 3,
+      "maiku_mission_event_id": 1,
+      "type_id": 2,
+      "max_point": 100,
+      "created_at": 1766058173,
+      "updated_at": 1766058173
+    },
+    {
+      "id": 4,
+      "maiku_mission_event_id": 1,
+      "type_id": 3,
+      "max_point": 100,
+      "created_at": 1766058173,
+      "updated_at": 1766058173
+    },
+    {
+      "id": 5,
+      "maiku_mission_event_id": 1,
+      "type_id": 4,
+      "max_point": 100,
+      "created_at": 1766058173,
+      "updated_at": 1766058173
+    }
+  ]
+}

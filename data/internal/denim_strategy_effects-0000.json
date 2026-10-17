@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "table": "denim_strategy_effects",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "own_strategy_type_id": 1,
+      "enemy_strategy_type_id": 1,
+      "rate": 50,
+      "created_at": 1693480001,
+      "updated_at": 1693480001
+    },
+    {
+      "id": 2,
+      "own_strategy_type_id": 1,
+      "enemy_strategy_type_id": 2,
+      "rate": 20,
+      "created_at": 1693480001,
+      "updated_at": 1693480001
+    },
+    {
+      "id": 3,
+      "own_strategy_type_id": 1,
+      "enemy_strategy_type_id": 3,
+      "rate": 80,
+      "created_at": 1693480001,
+      "updated_at": 1693480001
+    },
+    {
+      "id": 4,
+      "own_strategy_type_id": 2,
+      "enemy_strategy_type_id": 1,
+      "rate": 80,
+      "created_at": 1693480001,
+      "updated_at": 1693480001
+    },
+    {
+      "id": 5,
+      "own_strategy_type_id": 2,
+      "enemy_strategy_type_id": 2,
+      "rate": 50,
+      "created_at": 1693480001,
+      "updated_at": 1693480001
+    },
+    {
+      "id": 6,
+      "own_strategy_type_id": 2,
+      "enemy_strategy_type_id": 3,
+      "rate": 20,
+      "created_at": 1693480001,
+      "updated_at": 1693480001
+    },
+    {
+      "id": 7,
+      "own_strategy_type_id": 3,
+      "enemy_strategy_type_id": 1,
+      "rate": 20,
+      "created_at": 1693480001,
+      "updated_at": 1693480001
+    },
+    {
+      "id": 8,
+      "own_strategy_type_id": 3,
+      "enemy_strategy_type_id": 2,
+      "rate": 80,
+      "created_at": 1693480001,
+      "updated_at": 1693480001
+    },
+    {
+      "id": 9,
+      "own_strategy_type_id": 3,
+      "enemy_strategy_type_id": 3,
+      "rate": 50,
+      "created_at": 1693480001,
+      "updated_at": 1693480001
+    }
+  ]
+}

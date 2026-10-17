@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "table": "choco_boss_special_rewards",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "choco_event_id": 1,
+      "reward_type": 1,
+      "item_id": 70,
+      "cnt": 5000,
+      "created_at": 1633259521,
+      "updated_at": 1633259521
+    },
+    {
+      "id": 2,
+      "choco_event_id": 1,
+      "reward_type": 2,
+      "item_id": 70,
+      "cnt": 5000,
+      "created_at": 1633259521,
+      "updated_at": 1633259521
+    }
+  ]
+}

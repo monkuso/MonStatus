@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "table": "room_tags",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "text": "ノーマル",
+      "sort_id": 1,
+      "image_name": "room_tag_normal.png",
+      "created_at": 1636563908,
+      "updated_at": 1636563908,
+      "release_at": null
+    },
+    {
+      "id": 2,
+      "text": "イベント",
+      "sort_id": 2,
+      "image_name": "room_tag_event.png",
+      "created_at": 1636563908,
+      "updated_at": 1636563908,
+      "release_at": null
+    },
+    {
+      "id": 3,
+      "text": "コラボ",
+      "sort_id": 3,
+      "image_name": "room_tag_collabo.png",
+      "created_at": 1636563908,
+      "updated_at": 1636563908,
+      "release_at": null
+    },
+    {
+      "id": 4,
+      "text": "英雄の神殿",
+      "sort_id": 4,
+      "image_name": "room_tag_challenge.png",
+      "created_at": 1636563908,
+      "updated_at": 1636563908,
+      "release_at": null
+    },
+    {
+      "id": 5,
+      "text": "追憶の書庫",
+      "sort_id": 5,
+      "image_name": "room_tag_anytime_event.png",
+      "created_at": 1636563908,
+      "updated_at": 1636563908,
+      "release_at": null
+    },
+    {
+      "id": 6,
+      "text": "覇者の塔",
+      "sort_id": 6,
+      "image_name": "room_tag_tower.png",
+      "created_at": 1636563908,
+      "updated_at": 1636563908,
+      "release_at": null
+    },
+    {
+      "id": 7,
+      "text": "禁忌の獄",
+      "sort_id": 7,
+      "image_name": "room_tag_shadow_tower.png",
+      "created_at": 1636563908,
+      "updated_at": 1636563908,
+      "release_at": null
+    },
+    {
+      "id": 8,
+      "text": "未開の大地",
+      "sort_id": 13,
+      "image_name": "room_tag_frontier.png",
+      "created_at": 1636563908,
+      "updated_at": 1728559041,
+      "release_at": null
+    },
+    {
+      "id": 9,
+      "text": "守護獣の森",
+      "sort_id": 11,
+      "image_name": "room_tag_support.png",
+      "created_at": 1636563908,
+      "updated_at": 1659577627,
+      "release_at": null
+    },
+    {
+      "id": 10,
+      "text": "強化進化",
+      "sort_id": 12,
+      "image_name": "room_tag_kyoka.png",
+      "created_at": 1636563908,
+      "updated_at": 1659577627,
+      "release_at": null
+    },
+    {
+      "id": 11,
+      "text": "神獣の聖域",
+      "sort_id": 15,
+      "image_name": "room_tag_shinju.png",
+      "created_at": 1636563908,
+      "updated_at": 1753965353,
+      "release_at": null
+    },
+    {
+      "id": 12,
+      "text": "その他",
+      "sort_id": 16,
+      "image_name": "room_tag_others.png",
+      "created_at": 1636563908,
+      "updated_at": 1753965353,
+      "release_at": null
+    },
+    {
+      "id": 13,
+      "text": "絶級トーナメント",
+      "sort_id": 9,
+      "image_name": "room_tag_tournament.png",
+      "created_at": 1653492780,
+      "updated_at": 1653492780,
+      "release_at": null
+    },
+    {
+      "id": 14,
+      "text": "天魔の孤城",
+      "sort_id": 14,
+      "image_name": "room_tag_tenko.png",
+      "created_at": 1659577627,
+      "updated_at": 1753965353,
+      "release_at": 1659582000
+    },
+    {
+      "id": 15,
+      "text": "未開の砂宮",
+      "sort_id": 8,
+      "image_name": "room_tag_desert.png",
+      "created_at": 1728559041,
+      "updated_at": 1728559041,
+      "release_at": 1728874800
+    },
+    {
+      "id": 16,
+      "text": "破界の星墓",
+      "sort_id": 10,
+      "image_name": "room_tag_seibo.png",
+      "created_at": 1753965353,
+      "updated_at": 1753965353,
+      "release_at": 1754017200
+    }
+  ]
+}

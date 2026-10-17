@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 1,
+  "table": "texts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 7744,
+      "text": "[LC]ミッション全達成[LF][LF][LC]全ミッションを達成しました！[LF][LC]以下の報酬を獲得しました[LF][LF][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_ME_BEEF_MISSION_ALL_CLEAR_DIALOG"
+    },
+    {
+      "id": 7745,
+      "text": "[LC]称号詳細[LF][LF][LC][NODE][LF][LC]%s",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_ME_BEEF_MISSION_TITLE_DETAIL_DIALOG"
+    },
+    {
+      "id": 7746,
+      "text": "7月22日0:00 開放！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_ME_BEEF_MISSION_SECRET_MISSION_UNLOCK_DATE_STRING"
+    },
+    {
+      "id": 7747,
+      "text": "シークレット",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_ME_BEEF_MISSION_SECRET_MISSION_NAME_IN_REWARD_STRING"
+    },
+    {
+      "id": 7748,
+      "text": "[LC]プレイ回数制限クエスト[LF][LF]１日にプレイ出来る回数に制限の[LF]あるクエストです。クエストをクリアをした場合、[LF]プレイ数がカウントされます。[LF][LF]※０時を過ぎるとプレイ数がリセットされます。[LF]※プレイ数が制限数に達すると、当日中は[LF] プレイすることができません。[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_ME_MSG_T_LIMIT_STAGE_CAUTION"
+    },
+    {
+      "id": 7749,
+      "text": "[C6:コラボ限定ガチャ開催中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26900"
+    },
+    {
+      "id": 7750,
+      "text": "[b:ba_help_collabo_beef_00_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26901"
+    },
+    {
+      "id": 7751,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26902"
+    },
+    {
+      "id": 7752,
+      "text": "7/15 12:00 ～ 8/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26903"
+    },
+    {
+      "id": 7753,
+      "text": "[C5:コラボ限定ガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26904"
+    },
+    {
+      "id": 7754,
+      "text": "ガチャ[C6:｢ダイの大冒険｣]が期間限定で開催中！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26905"
+    },
+    {
+      "id": 7755,
+      "text": "[IP8791]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26906"
+    },
+    {
+      "id": 7756,
+      "text": "[IP8793]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26907"
+    },
+    {
+      "id": 7757,
+      "text": "[IP8795]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26908"
+    },
+    {
+      "id": 7758,
+      "text": "[IP8797]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26909"
+    },
+    {
+      "id": 7759,
+      "text": "[IP8799]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26910"
+    },
+    {
+      "id": 7760,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20210711_3.html#1|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26911"
+    },
+    {
+      "id": 7761,
+      "text": "[C6:コラボ限定クエスト出現中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26912"
+    },
+    {
+      "id": 7762,
+      "text": "[b:ba_help_collabo_beef_00_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26913"
+    },
+    {
+      "id": 7763,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26914"
+    },
+    {
+      "id": 7764,
+      "text": "7/15 12:00 ～ 8/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26915"
+    },
+    {
+      "id": 7765,
+      "text": "[C5:コラボ限定クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26916"
+    },
+    {
+      "id": 7766,
+      "text": "スケジュールに沿ってクエストが出現！[LF]降臨時間はスケジュール＆繰り返し予約で確認しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26917"
+    },
+    {
+      "id": 7767,
+      "text": "[SGBI22850|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26918"
+    },
+    {
+      "id": 7768,
+      "text": "[SGBI22870|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26919"
+    },
+    {
+      "id": 7769,
+      "text": "[SGBI22880|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26920"
+    },
+    {
+      "id": 7770,
+      "text": "コラボ期間中、常に挑戦できるクエストも出現！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26921"
+    },
+    {
+      "id": 7771,
+      "text": "[SGBI22860|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26922"
+    },
+    {
+      "id": 7772,
+      "text": "[SGBI22830|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26923"
+    },
+    {
+      "id": 7773,
+      "text": "[SGBI22840|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26924"
+    },
+    {
+      "id": 7774,
+      "text": "[C5:守護獣の森クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26925"
+    },
+    {
+      "id": 7775,
+      "text": "守護獣の森にクエスト[C5:｢小さな勇者、ダイ｣]が出現！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26926"
+    },
+    {
+      "id": 7776,
+      "text": "[SUE22306]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26927"
+    },
+    {
+      "id": 7777,
+      "text": "[C6:難易度究極]をクリアすることで、守護獣[C6:ゴメちゃん]を[LF]入手可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26928"
+    },
+    {
+      "id": 7778,
+      "text": "[SU12]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26929"
+    },
+    {
+      "id": 7779,
+      "text": "※クエストボスの｢ニセ勇者一行｣は入手できません[LF]※詳細は[u:https://www.monster-strike.com/news/20210711_3.html#4|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26930"
+    },
+    {
+      "id": 7780,
+      "text": "[SW0.88][C6:1日1回限定クリアボーナスを手に入れよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26931"
+    },
+    {
+      "id": 7781,
+      "text": "[b:ba_help_collabo_beef_00_3.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26932"
+    },
+    {
+      "id": 7782,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26933"
+    },
+    {
+      "id": 7783,
+      "text": "7/15 12:00 ～ 8/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26934"
+    },
+    {
+      "id": 7784,
+      "text": "[C5:1日1回限定クリアボーナス！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26935"
+    },
+    {
+      "id": 7785,
+      "text": "1日1回限定クリアボーナス！[LF]コラボクエスト[C4:｢不死身の救世主｣]究極クリアで[LF][C4:★5 ハドラー]が[C6:7体]獲得できる！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26936"
+    },
+    {
+      "id": 7786,
+      "text": "[IP8808]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26937"
+    },
+    {
+      "id": 7787,
+      "text": "さらにマルチプレイで[LF][C6:金卵2個以上のドロップ率アップ！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26938"
+    },
+    {
+      "id": 7788,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20210711_3.html#3|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26939"
+    },
+    {
+      "id": 7789,
+      "text": "小さな勇者、ダイ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26950"
+    },
+    {
+      "id": 7790,
+      "text": "[C5:★5 ニセ勇者一行]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_26951"
+    },
+    {
+      "id": 7791,
+      "text": "[SW0.85][C6:アバン先生は期間中運極状態で使用できる！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27000"
+    },
+    {
+      "id": 7792,
+      "text": "[b:ba_help_collabo_beef_02_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27001"
+    },
+    {
+      "id": 7793,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27002"
+    },
+    {
+      "id": 7794,
+      "text": "7/15 12:00 ～ 8/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626258774,
+      "label": "eTEXTS_DEF_27003"
+    },
+    {
+      "id": 7795,
+      "text": "[C5:期間限定ラック+99]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27004"
+    },
+    {
+      "id": 7796,
+      "text": "[C2:★6 勇者の家庭教師 アバン先生]は、[LF]コラボ期間中本来のラックに[C4:+99]された[C4:運極]の状態で[LF]ラックボーナスが獲得できるぞ！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27005"
+    },
+    {
+      "id": 7797,
+      "text": "[IP8813]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27006"
+    },
+    {
+      "id": 7798,
+      "text": "コラボ期間中",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27007"
+    },
+    {
+      "id": 7799,
+      "text": "[LUCK]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27008"
+    },
+    {
+      "id": 7800,
+      "text": "敵にヒットした際の[LF][C6:減速率を緩和]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_16327"
+    },
+    {
+      "id": 7801,
+      "text": "[LC]至誠の局長 真・近藤勇を手に入れろ！[LF][LF]このクエストをクリアすると、ミッション報酬で[LF][C6:★5 真・近藤勇]を[C6:★6 至誠の局長 真・近藤勇][LF]に進化させる事ができるようになるぞ！[LF][LF]このクエストに挑むには[LF]クエスト[C6:「大志を背負う新選組の長」]の[C6:究極]をクリアしよう！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1623923959,
+      "updated_at": 1623923959,
+      "label": "eTEXTS_DEF_20939"
+    },
+    {
+      "id": 7802,
+      "text": "「大志を背負う新選組の長」クリアで挑戦可",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623923959,
+      "updated_at": 1623923959,
+      "label": "eTEXTS_DEF_20940"
+    },
+    {
+      "id": 7803,
+      "text": "[LC]挑戦できません[LF][LF]このクエストに参加するには[LF]クエスト[C6:「大志を背負う新選組の長」]の[C6:究極]を[LF]クリアする必要があります[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1623923959,
+      "updated_at": 1623923959,
+      "label": "eTEXTS_DEF_20941"
+    },
+    {
+      "id": 7804,
+      "text": "[C4:+99]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27009"
+    },
+    {
+      "id": 7805,
+      "text": "[SW0.85][C6:コラボクエスト限定！ボーナスバトルが出現！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27010"
+    },
+    {
+      "id": 7806,
+      "text": "[b:ba_help_collabo_beef_02_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27011"
+    },
+    {
+      "id": 7807,
+      "text": "[C5:ボーナスバトル]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27012"
+    },
+    {
+      "id": 7808,
+      "text": "コラボクエストではボーナスバトルが出現することも！[LF][C6:モンスターソウル]を沢山手に入れるチャンスだぞ！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27013"
+    },
+    {
+      "id": 7809,
+      "text": "出現するはぐれメタルを倒すと[LF]倒した数に応じて[C6:大量の経験値]が獲得可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27014"
+    },
+    {
+      "id": 7810,
+      "text": "またコラボキャラクターを連れていくと[LF]はぐれメタルの出現率が少しだけアップ！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27015"
+    },
+    {
+      "id": 7811,
+      "text": "対象イベントクエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27016"
+    },
+    {
+      "id": 7812,
+      "text": "[SGBI22850|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27017"
+    },
+    {
+      "id": 7813,
+      "text": "[SGBI22860|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27018"
+    },
+    {
+      "id": 7814,
+      "text": "[SGBI22870|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27019"
+    },
+    {
+      "id": 7815,
+      "text": "[SGBI22880|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27020"
+    },
+    {
+      "id": 7816,
+      "text": "[SGBI22830|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27021"
+    },
+    {
+      "id": 7817,
+      "text": "[SGBI22840|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27022"
+    },
+    {
+      "id": 7818,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20210711_3.html#5b|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27023"
+    },
+    {
+      "id": 7819,
+      "text": "[C6:大冒険ミッションに挑戦しよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27100"
+    },
+    {
+      "id": 7820,
+      "text": "[b:ba_help_beef_mission_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27101"
+    },
+    {
+      "id": 7821,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27102"
+    },
+    {
+      "id": 7822,
+      "text": "7/15 12:00 ～ 8/5 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27103"
+    },
+    {
+      "id": 7823,
+      "text": "[C5:大冒険ミッションとは]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27104"
+    },
+    {
+      "id": 7824,
+      "text": "各ミッションをクリアすると[C6:コラボ限定モンスター]や[LF][C6:グッジョブ]などの報酬が獲得可能！[LF]大冒険の旅に出て全ミッションクリアを目指そう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27105"
+    },
+    {
+      "id": 7825,
+      "text": "[IP8814]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27106"
+    },
+    {
+      "id": 7826,
+      "text": "※シークレットミッションは[C6:7/22 0:00～]に[LF][C6:解放]されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27107"
+    },
+    {
+      "id": 7827,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20210711_3.html#6|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27108"
+    },
+    {
+      "id": 7828,
+      "text": "[C6:モンスターソウルをたくさん集めよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27200"
+    },
+    {
+      "id": 7829,
+      "text": "[b:ba_help_beef_exchange_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27201"
+    },
+    {
+      "id": 7830,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27202"
+    },
+    {
+      "id": 7831,
+      "text": "7/15 12:00 ～ 8/5 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27203"
+    },
+    {
+      "id": 7832,
+      "text": "[C5:モンスターソウルとは]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27204"
+    },
+    {
+      "id": 7833,
+      "text": "対象クエストでボスや一部モンスターを除く[LF][C6:コラボ限定モンスター]を倒すと[C6:モンスターソウル]が[LF]手に入ります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27205"
+    },
+    {
+      "id": 7834,
+      "text": "モンスターソウルは倒した敵の種類によって[LF]入手できる数が異なります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27206"
+    },
+    {
+      "id": 7835,
+      "text": "対象イベントクエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27207"
+    },
+    {
+      "id": 7836,
+      "text": "[SGBI22850|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27208"
+    },
+    {
+      "id": 7837,
+      "text": "[SGBI22860|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27209"
+    },
+    {
+      "id": 7838,
+      "text": "[SGBI22870|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27210"
+    },
+    {
+      "id": 7839,
+      "text": "[SGBI22880|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27211"
+    },
+    {
+      "id": 7840,
+      "text": "[SGBI22830|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27212"
+    },
+    {
+      "id": 7841,
+      "text": "[SGBI22840|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27213"
+    },
+    {
+      "id": 7842,
+      "text": "[C5:引き換えについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27214"
+    },
+    {
+      "id": 7843,
+      "text": "集めたモンスターソウルを使用して[LF][C6:コラボ限定モンスター]や[C6:アイテム]と引き換えができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27215"
+    },
+    {
+      "id": 7844,
+      "text": "[IP8816]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27216"
+    },
+    {
+      "id": 7845,
+      "text": "アイテムごとに引換上限数は異なります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27217"
+    },
+    {
+      "id": 7846,
+      "text": "コラボ限定モンスター",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27218"
+    },
+    {
+      "id": 7847,
+      "text": "ここでしか手に入らない[C6:コラボ限定モンスター]が登場！[LF]モンスターソウルで引き換えよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27219"
+    },
+    {
+      "id": 7848,
+      "text": "[IP8817]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27220"
+    },
+    {
+      "id": 7849,
+      "text": "[IP8826]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27221"
+    },
+    {
+      "id": 7850,
+      "text": "[IP8820]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27222"
+    },
+    {
+      "id": 7851,
+      "text": "[IP8827]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_27223"
+    },
+    {
+      "id": 7852,
+      "text": "[IP8824]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27224"
+    },
+    {
+      "id": 7853,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20210711_3.html#5e|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27225"
+    },
+    {
+      "id": 7854,
+      "text": "ストライカー招待",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_FRIEND_RELATIONSHIP_STUDENT"
+    },
+    {
+      "id": 7855,
+      "text": "ストライカー招待",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_FRIEND_RELATIONSHIP_TUTOR"
+    },
+    {
+      "id": 7856,
+      "text": "ストライカー招待",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_ME_RELATIONSHIP_STUDENT_TITLE_INFO"
+    },
+    {
+      "id": 7857,
+      "text": "ストライカー招待",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_ME_RELATIONSHIP_TUTOR_TITLE_INFO"
+    },
+    {
+      "id": 7858,
+      "text": "新人一覧",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_ME_RELATIONSHIP_TUTOR_SUB_TITLE_STUDENTS"
+    },
+    {
+      "id": 7859,
+      "text": "ランク30達成（報酬の受け取りは最大3人まで）",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_ME_RELATIONSHIP_TUTOR_SUB_TITLE_REACH_RANK30"
+    },
+    {
+      "id": 7860,
+      "text": "新人検索",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_ME_RELATIONSHIP_TUTOR_SEARCH_BUTTON"
+    },
+    {
+      "id": 7861,
+      "text": "現在招待が成立しているユーザーはいません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_ME_RELATIONSHIP_TUTOR_NOT_FOUND_STUDENTS"
+    },
+    {
+      "id": 7862,
+      "text": "現在ランク30達成しているユーザーはいません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_ME_RELATIONSHIP_TUTOR_NOT_FOUND_REACH_RANK30"
+    },
+    {
+      "id": 7863,
+      "text": "招待成立数：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_ME_RELATIONSHIP_TUTOR_STUDENT_COUNT_TITLE"
+    },
+    {
+      "id": 7864,
+      "text": "%d/%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_ME_RELATIONSHIP_COUNT_NUM"
+    },
+    {
+      "id": 7865,
+      "text": "%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_ME_RELATIONSHIP_TUTOR_RANK30_COUNT_NUM"
+    },
+    {
+      "id": 7866,
+      "text": "[LC]新人検索[LF][LF][LC]IDで新人を検索して、招待を申請しよう[LF][LF][LF]",
+      "layout": 17,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_MSG_RELATIONSHIP_TUTOR_SEARCH_STUDENT"
+    },
+    {
+      "id": 7867,
+      "text": "[LC]招待申請[LF][LF][LC][NODE][LF][LF]このユーザーに招待を申請しますか？[LF]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_MSG_RELATIONSHIP_TUTOR_REQUEST_STUDENT"
+    },
+    {
+      "id": 7868,
+      "text": "現在の招待成立数　%d/%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_ME_RELATIONSHIP_TUTOR_CURRENT_STUDENT_COUNT_TITLE"
+    },
+    {
+      "id": 7869,
+      "text": "[LC]申請完了[LF][LF][LC]%s[LF]に招待を申請しました[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_MSG_RELATIONSHIP_TUTOR_REQUEST_FINISH"
+    },
+    {
+      "id": 7870,
+      "text": "このユーザーは既に招待成立済です[LF]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_MSG_RELATIONSHIP_ERR710"
+    },
+    {
+      "id": 7871,
+      "text": "相手の申請受け取り数が[LF]最大のため申請できません[LF]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_MSG_RELATIONSHIP_ERR711"
+    },
+    {
+      "id": 7872,
+      "text": "新人ではなく既に先輩になっている[LF]ユーザーのため申請できません[LF]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_MSG_RELATIONSHIP_ERR712"
+    },
+    {
+      "id": 7873,
+      "text": "[LC]招待5人成立済[LF][LF]既に招待が5人成立しているため[LF]申請できません[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1774703477,
+      "label": "eTEXTS_DEF_MSG_RELATIONSHIP_ERR713"
+    },
+    {
+      "id": 7874,
+      "text": "[LC]報酬一覧[LF][LF][LC][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_MSG_RELATIONSHIP_REWARD_LIST"
+    },
+    {
+      "id": 7875,
+      "text": "招待成立",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_ME_RELATIONSHIP_TUTOR_REWARD_TYPE_TAG_1"
+    },
+    {
+      "id": 7876,
+      "text": "ランク達成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_ME_RELATIONSHIP_TUTOR_REWARD_TYPE_TAG_2"
+    },
+    {
+      "id": 7877,
+      "text": "[LC]招待成立報酬[LF][LF][LC][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_MSG_RELATIONSHIP_REWARD_1"
+    },
+    {
+      "id": 7878,
+      "text": "[LC]ランク達成報酬[LF][LF][LC][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_MSG_RELATIONSHIP_REWARD_2"
+    },
+    {
+      "id": 7879,
+      "text": "[LC]ランク30達成報酬[LF][LF][LC][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_MSG_RELATIONSHIP_REWARD_3"
+    },
+    {
+      "id": 7880,
+      "text": "フレンドID",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_ME_RELATIONSHIP_STUDENT_FRIEND_ID_TITLE"
+    },
+    {
+      "id": 7881,
+      "text": "[LC]あなたのフレンドIDを先輩に教えて、[LF][LC]招待申請を送ってもらいましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_ME_RELATIONSHIP_STUDENT_FRIEND_ID_MESSAGE_1"
+    },
+    {
+      "id": 7882,
+      "text": "[LC]あなたのフレンドIDを先輩に教えて、[LF][LC]招待申請を送ってもらいましょう[LF][LC][C6:※承認できる先輩は1人のみとなります]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_ME_RELATIONSHIP_STUDENT_FRIEND_ID_MESSAGE_2"
+    },
+    {
+      "id": 7883,
+      "text": "[LC]招待承認[LF][LF][LC][NODE][LF]このユーザーの招待申請を承認しますか？[LF]※招待成立は1人のみとなります[LF]",
+      "layout": 21,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_MSG_RELATIONSHIP_STUDENT_ACCEPT_REQUEST"
+    },
+    {
+      "id": 7884,
+      "text": "招待申請を拒否します[LF]本当によろしいですか？",
+      "layout": 29,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_MSG_RELATIONSHIP_STUDENT_REMIND_REFUSE"
+    },
+    {
+      "id": 7885,
+      "text": "招待成立",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_ME_RELATIONSHIP_STUDENT_SUB_TITLE_TUTOR"
+    },
+    {
+      "id": 7886,
+      "text": "承認期限",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_ME_RELATIONSHIP_STUDENT_ACCEPT_EXPIRE"
+    },
+    {
+      "id": 7887,
+      "text": "[LC]ランク30達成[LF][LF]おめでとうございます！[LF]今度はあなたが先輩ストライカーに！[LF]新人を誘ってモンストを一緒に楽しもう！[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_MSG_RELATIONSHIP_STUDENT_REACH_RANK30"
+    },
+    {
+      "id": 7888,
+      "text": "[LC]ストライカー招待とは[LF][LF][CCB:dlme/help_friend_student_00]",
+      "layout": 53,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1646756066,
+      "label": "eTEXTS_DEF_MSG_RELATIONSHIP_STUDENT_HELP"
+    },
+    {
+      "id": 7889,
+      "text": "[LC]ストライカー招待とは[LF][LF][CCB:dlme/help_friend_tutor_00]",
+      "layout": 53,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1646756066,
+      "label": "eTEXTS_DEF_MSG_RELATIONSHIP_TUTOR_HELP"
+    },
+    {
+      "id": 7890,
+      "text": "このユーザーは既に招待が5人成立しているため[LF]新たに成立できません[LF]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1774703477,
+      "label": "eTEXTS_DEF_MSG_RELATIONSHIP_ERR_ACCEPT_TUTOR_REACH_MAX"
+    },
+    {
+      "id": 7891,
+      "text": "[LC]フレンド申請[LF][LF]招待が成立しました！[LF]この先輩にフレンド申請を送りますか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_MSG_RELATIONSHIP_FRIEND_REQUEST"
+    },
+    {
+      "id": 7892,
+      "text": "[LC]フレンド申請[LF][LF]フレンド申請を送りました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_MSG_RELATIONSHIP_FRIEND_REQUEST_FINISH"
+    },
+    {
+      "id": 7893,
+      "text": "あなたのID：[C4:%s]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_ME_RELATIONSHIP_STUDENT_YOUR_FRIEND_ID"
+    },
+    {
+      "id": 7894,
+      "text": "依頼数：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_ME_RELATIONSHIP_STUDENT_TUTOR_REQUEST_COUNT_TITLE"
+    },
+    {
+      "id": 7895,
+      "text": "[C6:%d]/%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_ME_RELATIONSHIP_COUNT_NUM_MAX"
+    },
+    {
+      "id": 7896,
+      "text": "招待申請一覧",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_ME_RELATIONSHIP_NOVICE_SUB_TITLE_TUTOR_REQUEST"
+    },
+    {
+      "id": 7897,
+      "text": "[LC]報酬一覧[LF][LF][TAB:招待成立][NODE][TAB:ランク達成][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_MSG_RELATIONSHIP_TUTOR_REWARD_LIST"
+    },
+    {
+      "id": 7898,
+      "text": "IDが入力されていません",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_MSG_RELATIONSHIP_ERR_NO_USER_ID"
+    },
+    {
+      "id": 7899,
+      "text": "[C6:新人を招待すると報酬をプレゼント！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27500"
+    },
+    {
+      "id": 7900,
+      "text": "[b:ba_help_friend_striker_invite_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27501"
+    },
+    {
+      "id": 7901,
+      "text": "[C5:ストライカー招待について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27502"
+    },
+    {
+      "id": 7902,
+      "text": "[C6:新人ストライカー]を誘って一緒にモンストを楽しもう[LF][C6:招待成立で報酬]が貰える！[LF]新人ストライカーの成長でさらに報酬が獲得できる！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27503"
+    },
+    {
+      "id": 7903,
+      "text": "招待申請",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27504"
+    },
+    {
+      "id": 7904,
+      "text": "招待承認",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27505"
+    },
+    {
+      "id": 7905,
+      "text": "[C6:招待成立]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27506"
+    },
+    {
+      "id": 7906,
+      "text": "新人ストライカーとは",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27507"
+    },
+    {
+      "id": 7907,
+      "text": "[C6:ランク30未満]、もしくは[C6:通算ログイン7日未満]の人[LF][LF]※新人ストライカーは、招待成立後に[LF]　[C6:ランク30達成]で[C6:先輩ストライカー]になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27508"
+    },
+    {
+      "id": 7908,
+      "text": "招待を成立させるには",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27509"
+    },
+    {
+      "id": 7909,
+      "text": "[C6:新人からIDを教えてもらい、新人検索]をすると[LF]招待を申請することができます[LF]また、新人が、[C6:あなたが発行した招待用URLから][LF]モンストをインストールすると、[LF]あなたからの招待が申請された状態になります[LF][LF]招待が承認されると招待が成立します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1695658305,
+      "label": "eTEXTS_DEF_27510"
+    },
+    {
+      "id": 7910,
+      "text": "新人検索",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27511"
+    },
+    {
+      "id": 7911,
+      "text": "※招待申請は申請から[C6:24時間後]に自動取消されます[LF]※新人が受け取れる申請数は[C6:最大5件まで]です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27513"
+    },
+    {
+      "id": 7912,
+      "text": "[C5:報酬について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27514"
+    },
+    {
+      "id": 7913,
+      "text": "招待成立報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27515"
+    },
+    {
+      "id": 7914,
+      "text": "招待成立で[C6:オーブ]や[C6:★6確定ガチャ玉]が貰えます[LF]招待は[C6:最大20人まで]成立可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1689007851,
+      "label": "eTEXTS_DEF_27516"
+    },
+    {
+      "id": 7915,
+      "text": "[C6:1人目・10人目]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27517"
+    },
+    {
+      "id": 7916,
+      "text": "★6確定ガチャ玉",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27518"
+    },
+    {
+      "id": 7917,
+      "text": "招待成立で[C6:新人]も[C6:オーブ]や[C6:強化素材]が貰えます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27519"
+    },
+    {
+      "id": 7918,
+      "text": "新人ランク30達成報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27520"
+    },
+    {
+      "id": 7919,
+      "text": "招待成立した[C6:新人がランク30以上]になると[LF]追加で[C6:★6確定ガチャ玉]が貰えます[LF]報酬は[C6:最大3人分まで]獲得可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27521"
+    },
+    {
+      "id": 7920,
+      "text": "[C6:ランク30達成]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27522"
+    },
+    {
+      "id": 7921,
+      "text": "[C6:1人目・2人目]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27523"
+    },
+    {
+      "id": 7922,
+      "text": "[C6:3人目]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27524"
+    },
+    {
+      "id": 7923,
+      "text": "初獲得★6確定ガチャ玉",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27525"
+    },
+    {
+      "id": 7924,
+      "text": "[C6:新人]もランクを上げることで[C6:オーブ]や[LF][C6:★6確定ガチャ玉]が貰えます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27526"
+    },
+    {
+      "id": 7925,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20260328_4.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1774703477,
+      "label": "eTEXTS_DEF_27527"
+    },
+    {
+      "id": 7926,
+      "text": "[SW0.80][C6:先輩からの招待でお得にモンストをはじめよう]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27600"
+    },
+    {
+      "id": 7927,
+      "text": "[b:ba_help_friend_striker_invite_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27601"
+    },
+    {
+      "id": 7928,
+      "text": "[C5:ストライカー招待について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27602"
+    },
+    {
+      "id": 7929,
+      "text": "モンストをプレイしている[LF][C6:先輩ストライカー]から招待を受けよう！[LF]招待成立やあなたの成長で報酬が獲得できる！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27603"
+    },
+    {
+      "id": 7930,
+      "text": "招待申請",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27604"
+    },
+    {
+      "id": 7931,
+      "text": "招待承認",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27605"
+    },
+    {
+      "id": 7932,
+      "text": "[C6:招待成立]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27606"
+    },
+    {
+      "id": 7933,
+      "text": "先輩ストライカーとは",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27607"
+    },
+    {
+      "id": 7934,
+      "text": "[C6:ランク30以上]、かつ[C6:通算ログイン7日以上]の人[LF][LF]※新人ストライカーは、招待成立後に[LF]　[C6:ランク30達成]で[C6:先輩ストライカー]になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27608"
+    },
+    {
+      "id": 7935,
+      "text": "招待を成立させるには",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27609"
+    },
+    {
+      "id": 7936,
+      "text": "[C6:先輩に自分のIDを教えて]招待申請をしてもらうか、[LF][C6:先輩が発行した招待用URLからモンストを起動]して[LF]先輩からの招待申請を受け取ろう[LF][LF]あなたが招待申請を承認することで招待が成立します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1695658305,
+      "label": "eTEXTS_DEF_27610"
+    },
+    {
+      "id": 7937,
+      "text": "フレンドID",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27611"
+    },
+    {
+      "id": 7938,
+      "text": "※招待申請は申請から[C6:24時間後]に自動取消されます[LF]※新人が受け取れる申請数は[C6:最大5件まで]です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27613"
+    },
+    {
+      "id": 7939,
+      "text": "[C5:報酬について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27614"
+    },
+    {
+      "id": 7940,
+      "text": "招待成立報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27615"
+    },
+    {
+      "id": 7941,
+      "text": "招待成立で[C6:オーブ]や[C6:強化素材]が貰えます[LF]先輩からの招待は[C6:1人のみ承認可能]です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27616"
+    },
+    {
+      "id": 7942,
+      "text": "[IA11373]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27617"
+    },
+    {
+      "id": 7943,
+      "text": "[IA10564]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27618"
+    },
+    {
+      "id": 7944,
+      "text": "招待成立で[C6:先輩]も[C6:オーブなど]が貰えます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27619"
+    },
+    {
+      "id": 7945,
+      "text": "ランク達成報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27620"
+    },
+    {
+      "id": 7946,
+      "text": "招待成立後に[C6:ランクを上げる]と[C6:追加で報酬]が貰えます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27621"
+    },
+    {
+      "id": 7947,
+      "text": "ランク10達成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27622"
+    },
+    {
+      "id": 7948,
+      "text": "ランク20達成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27623"
+    },
+    {
+      "id": 7949,
+      "text": "ランク30達成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27624"
+    },
+    {
+      "id": 7950,
+      "text": "ランク30達成で[C6:先輩]も[C6:★6確定ガチャ玉]が貰えます[LF][LF]ランク30達成で今度はあなたが[C6:先輩ストライカー]に！[LF]新人を誘ってモンストを一緒に楽しもう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27625"
+    },
+    {
+      "id": 7951,
+      "text": "※招待成立時に既にランクが条件を達成していた[LF]　場合でも[C6:報酬を獲得]できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1626109857,
+      "label": "eTEXTS_DEF_27626"
+    },
+    {
+      "id": 7952,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20260328_4.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1774703477,
+      "label": "eTEXTS_DEF_27627"
+    },
+    {
+      "id": 7953,
+      "text": "指定されたユーザーは見つかりませんでした[LF]入力した内容をお確かめの上、再度お試しください[LF]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1626109857,
+      "updated_at": 1774703477,
+      "label": "eTEXTS_DEF_MSG_RELATIONSHIP_ERR_NOT_FOUND_USER"
+    },
+    {
+      "id": 7954,
+      "text": "[LC]クエスト追加情報[LF][LF]以下の階層にクエストが追加されました[LF][LF]対象の階層は[C6:これまでのクエストか、][LF][C6:追加されたクエストのいずれかクリア]する事で[LF]次の階層に進むことができます[LF][LF]%s",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1626864142,
+      "updated_at": 1626864142,
+      "label": "eTEXTS_DEF_MSG_SHADOW_TOWER_ADDITIONAL_STAGE"
+    },
+    {
+      "id": 7955,
+      "text": "報酬が受け取れるのは、各階層1回までです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626864142,
+      "updated_at": 1626864142,
+      "label": "eTEXTS_DEF_MSG_SHADOW_TOWER_REWARDS_NOTE"
+    },
+    {
+      "id": 7956,
+      "text": "[C5:クエストを選択してプレイ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626864142,
+      "updated_at": 1626864142,
+      "label": "eTEXTS_DEF_20432"
+    },
+    {
+      "id": 7957,
+      "text": "２つのクエストから[C6:好きな方を選択]して[LF]プレイすることが可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626864142,
+      "updated_at": 1657707800,
+      "label": "eTEXTS_DEF_20433"
+    },
+    {
+      "id": 7958,
+      "text": "一ノ獄 叫喚の毒炎地",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626864142,
+      "updated_at": 1626864142,
+      "label": "eTEXTS_DEF_20434"
+    },
+    {
+      "id": 7959,
+      "text": "一ノ獄 獰悪の牙鮫炎",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626864142,
+      "updated_at": 1626864142,
+      "label": "eTEXTS_DEF_20435"
+    },
+    {
+      "id": 7960,
+      "text": "[C6:どちらかのクエストをクリア]することで、[LF]次の階層に進むことができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626864142,
+      "updated_at": 1626864142,
+      "label": "eTEXTS_DEF_20436"
+    },
+    {
+      "id": 7961,
+      "text": "[LC]★６ スライド進化解放！[LF][LF][b:ba_evo_beef.png][LF][C2:★６ 超竜軍団軍団長 竜騎将バラン] は[LF][C2:★６ 竜魔人 バラン] に[LF]スライド進化可能になりました！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1626864142,
+      "updated_at": 1626864142,
+      "label": "eTEXTS_DEF_ME_BEEF_MISSION_BARAN_TRANSFORMATION_UNLOCKED_DIALOG"
+    },
+    {
+      "id": 7962,
+      "text": "[C6:超究極クエストをクリアしよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626864142,
+      "updated_at": 1626864142,
+      "label": "eTEXTS_DEF_26940"
+    },
+    {
+      "id": 7963,
+      "text": "[b:ba_help_collabo_beef_00_4.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626864142,
+      "updated_at": 1626864142,
+      "label": "eTEXTS_DEF_26941"
+    },
+    {
+      "id": 7964,
+      "text": "[C5:超究極クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626864142,
+      "updated_at": 1626864142,
+      "label": "eTEXTS_DEF_26942"
+    },
+    {
+      "id": 7965,
+      "text": "超究極クエスト[C2:｢バランの怒り｣]が出現！[LF][C2:｢戦慄の竜闘気(ドラゴニックオーラ)｣]を[LF]クリアすることで挑戦可能に！[LF]降臨時間はスケジュール＆繰り返し予約で確認しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626864142,
+      "updated_at": 1626864142,
+      "label": "eTEXTS_DEF_26943"
+    },
+    {
+      "id": 7966,
+      "text": "[SGBI22890|difficulty1]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626864142,
+      "updated_at": 1626864142,
+      "label": "eTEXTS_DEF_26944"
+    },
+    {
+      "id": 7967,
+      "text": "1度クリアする事で[LF][C2:★6 超竜軍団軍団長 竜騎将バラン]のもう一つの[LF]進化が開放！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626864142,
+      "updated_at": 1626864142,
+      "label": "eTEXTS_DEF_26945"
+    },
+    {
+      "id": 7968,
+      "text": "[C2:★6 超竜軍団軍団長 竜騎将バラン]と[LF][C2:★6 竜魔人 バラン]の切り替えが可能に！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626864142,
+      "updated_at": 1626864142,
+      "label": "eTEXTS_DEF_26946"
+    },
+    {
+      "id": 7969,
+      "text": "[IP8803]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626864142,
+      "updated_at": 1626864142,
+      "label": "eTEXTS_DEF_26947"
+    },
+    {
+      "id": 7970,
+      "text": "[IP8804]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626864142,
+      "updated_at": 1626864142,
+      "label": "eTEXTS_DEF_26948"
+    },
+    {
+      "id": 7971,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20210711_3.html#a|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626864142,
+      "updated_at": 1626864142,
+      "label": "eTEXTS_DEF_26949"
+    },
+    {
+      "id": 7972,
+      "text": "[SW0.80][C6:1日1回限定！｢勇者の家庭教師｣をクリアしよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626864142,
+      "updated_at": 1626864142,
+      "label": "eTEXTS_DEF_27024"
+    },
+    {
+      "id": 7973,
+      "text": "[b:ba_help_collabo_beef_02_3.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626864142,
+      "updated_at": 1626864142,
+      "label": "eTEXTS_DEF_27025"
+    },
+    {
+      "id": 7974,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626864142,
+      "updated_at": 1626864142,
+      "label": "eTEXTS_DEF_27026"
+    },
+    {
+      "id": 7975,
+      "text": "7/22 0:00 ～ 8/1 23:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626864142,
+      "updated_at": 1626864142,
+      "label": "eTEXTS_DEF_27027"
+    },
+    {
+      "id": 7976,
+      "text": "[SW0.9][C5:アバン先生とレベルの書を手に入れよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626864142,
+      "updated_at": 1626864142,
+      "label": "eTEXTS_DEF_27028"
+    },
+    {
+      "id": 7977,
+      "text": "[C6:1日1回限定]の対象クエストをクリアすると[LF]スピードクリア報酬で[LF][C2:★6 勇者の家庭教師アバン先生]を13体[LF]クリアボーナスで[C6:レベルの書]を獲得できるぞ！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626864142,
+      "updated_at": 1626864142,
+      "label": "eTEXTS_DEF_27029"
+    },
+    {
+      "id": 7978,
+      "text": "[SGBI850580|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626864142,
+      "updated_at": 1626864142,
+      "label": "eTEXTS_DEF_27030"
+    },
+    {
+      "id": 7979,
+      "text": "※[C6:ソロ]または[C6:ホスト]のみ獲得可能です[LF]※レベルの書は計8回まで獲得可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626864142,
+      "updated_at": 1626864142,
+      "label": "eTEXTS_DEF_27031"
+    },
+    {
+      "id": 7980,
+      "text": "コラボ期間中に[C6:99体]を集めて、[LF]期間終了後も[C6:運極キャラ]として使おう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626864142,
+      "updated_at": 1626864142,
+      "label": "eTEXTS_DEF_27032"
+    },
+    {
+      "id": 7981,
+      "text": "[LC]新たな進化｢竜魔人 バラン｣を解放せよ！[LF][LF]このクエストをクリアすると、ミッション報酬で[LF][CN:8803]を[LF][CN:8804]に[LF]進化させる事ができるようになるぞ！[LF][LF]このクエストに挑むには[LF][C2:｢戦慄の竜闘気（ドラゴニックオーラ）｣]をクリアしよう！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1626864142,
+      "updated_at": 1626864142,
+      "label": "eTEXTS_DEF_20942"
+    },
+    {
+      "id": 7982,
+      "text": "｢戦慄の竜闘気（ドラゴニックオーラ）｣クリアで挑戦可",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626864142,
+      "updated_at": 1626864142,
+      "label": "eTEXTS_DEF_20943"
+    },
+    {
+      "id": 7983,
+      "text": "[LC]挑戦できません[LF][LF]このクエストに参加するには[LF][C2:｢戦慄の竜闘気（ドラゴニックオーラ）｣]を[LF]クリアする必要があります[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1626864142,
+      "updated_at": 1626864142,
+      "label": "eTEXTS_DEF_20944"
+    },
+    {
+      "id": 7984,
+      "text": "[LC]【号外】モンストニュース[LF][LF][LC][b:ba_announcement_210727.png][LF][LF]｢[C6:クレオパトラ]｣が、[LF]｢[C6:甦りし偉大なるエジプト女王 クレオパトラ]｣へ[LF]｢[C6:聖夜を極めし女王 クレオパトラ]｣が、[LF]｢[C6:寛ぎし偉大なる聖夜女王 クレオパトラ]｣へ[LF]獣神化・改が可能になりました！[LF][LF][C8:▼｢獣神化・改｣解禁日時][LF]2021/7/27(火)19:00より解禁[LF][LF][HR][LF]そのほか過去に獣神化・改した全てのキャラクターは[LF][u:https://www.monster-strike.com/blog/20200903_1.html|こちら]で確認ができます。[LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627380098,
+      "updated_at": 1627380098,
+      "label": "eTEXTS_DEF_ANNOUNCE_NEWS_DIALOG"
+    },
+    {
+      "id": 7985,
+      "text": "[LC]「秘海の冒険船」出現中！[LF][LF]%sの期間で出現！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_ME_MSG_OCEAN_INTRO"
+    },
+    {
+      "id": 7986,
+      "text": "石化復活液引き換え",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_OCEAN_ME_EXCHANGE_COLLABO"
+    },
+    {
+      "id": 7987,
+      "text": "？？？？",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_OCEAN_ME_AREA_TITLE_LOCKED"
+    },
+    {
+      "id": 7988,
+      "text": "船の日開催",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_OCEAN_SHIP_CAMPAIGN_NOTIFY_EVENT"
+    },
+    {
+      "id": 7989,
+      "text": "[LC]サーチコンパスで探索[LF][LF][LC][C6:%s]で探索して[LF][LC]アポストロスにすぐに挑戦できます[LF][LF][LC]アポストロスに挑戦できるのは24時間以内！[LF][LC][C6:%s]を使用しますか？[LF][LF][LC][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_MSG_OCEAN_SEARCHCOMPASS_USE"
+    },
+    {
+      "id": 7990,
+      "text": "[LC]サーチコンパスは使用できません[LF][LF][LC][C6:%s]は[LF][LC]アポストロスが出現していないときに[LF][LC]すぐに挑戦できるアイテムです[LF][LF][LC]現在、アポストロス出現中！[LF][LC]挑戦しますか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_MSG_OCEAN_SEARCHCOMPASS_ALREADY"
+    },
+    {
+      "id": 7991,
+      "text": "[LC][C6:%s]を所持していません[LF][LF][LC][C6:%s]はアポストロスを[LF][LC]すぐに出現させることができるアイテムです[LF][LC]海域総ラックボーナスが貯まると獲得できます",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_MSG_OCEAN_SEARCHCOMPASS_NOITEM"
+    },
+    {
+      "id": 7992,
+      "text": "[LC]ケータイは使用できません[LF][LF][LC][C6:%s]は獅子王司が出現していないときに[LF][LC]すぐに挑戦できるアイテムです[LF][LF][LC]現在、獅子王司出現中！[LF][LC]挑戦しますか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_MSG_OCEAN_SEARCHCOMPASS_ALREADY_PLANE"
+    },
+    {
+      "id": 7993,
+      "text": "[LC]ケータイで情報戦！[LF][LF][LC][C6:%s]を使用して情報を手に入れて[LF][LC]獅子王司にすぐに挑戦できます[LF][LF][LC]獅子王司に挑戦できるのは24時間以内！[LF][LC][C6:%s]を使用しますか？[LF][LF][LC][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_MSG_OCEAN_SEARCHCOMPASS_USE_PLANE"
+    },
+    {
+      "id": 7994,
+      "text": "本日は船の日！お宝釣り+1回",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1654771580,
+      "label": "eTEXTS_DEF_OCEAN_ME_FORTUNE_NOTE"
+    },
+    {
+      "id": 7995,
+      "text": "[LC]イベント期間が終了しているため[LF][LC]引き換えできませんでした",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_OCEAN_MSG_EXPIRED_EXCHANGE_PERIOD"
+    },
+    {
+      "id": 7996,
+      "text": "[LC]お宝釣り[LF][LF][LC]お宝釣りをしてお宝を釣り上げよう！[LF][LC]トレルアーを使うと必ず宝箱が釣れます[LF][WIDTH540][LF][LC]※本日は[C6:船の日！]お宝釣りが1日[C6:2回]できます[LF][LC]※AM0:00を過ぎると回数がリセットされます",
+      "layout": 48,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_OCEAN_MSG_FORTUNE_SHIP_DAY"
+    },
+    {
+      "id": 7997,
+      "text": "期間終了",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_OCEAN_ME_COLLABO_ENDED"
+    },
+    {
+      "id": 7998,
+      "text": "[LC]イベント期間が終了しました[LF][LC]2021/9/2 11:59までに石化復活液を引き換えよう！",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_OCEAN_MSG_OUTSIDE_PERIOD_STAGE_COLLABO"
+    },
+    {
+      "id": 7999,
+      "text": "獅子王司 出現！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1627645637,
+      "updated_at": 1627645637,
+      "label": "eTEXTS_DEF_OCEAN_ME_COLLABO_EX_APPEARED"
+    }
+  ]
+}

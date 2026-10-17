@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "table": "gem_bank_slots",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "description": "初期解放枠",
+      "unlock_condition_id": 0,
+      "condition_value": 0,
+      "available_at": 1735671600,
+      "sort_id": 1,
+      "created_at": 1755014497,
+      "updated_at": 1755014497
+    },
+    {
+      "id": 2,
+      "description": "天魔の孤城～空中庭園～を制覇で解放",
+      "unlock_condition_id": 3,
+      "condition_value": 0,
+      "available_at": 1735671600,
+      "sort_id": 10,
+      "created_at": 1755014497,
+      "updated_at": 1755014497
+    },
+    {
+      "id": 3,
+      "description": "轟絶ポイントを消費して解放",
+      "unlock_condition_id": 2,
+      "condition_value": 1,
+      "available_at": 1735671600,
+      "sort_id": 20,
+      "created_at": 1755014497,
+      "updated_at": 1755014497
+    },
+    {
+      "id": 4,
+      "description": "オーブを5個使用して解放",
+      "unlock_condition_id": 1,
+      "condition_value": 5,
+      "available_at": 1735671600,
+      "sort_id": 1000,
+      "created_at": 1755014497,
+      "updated_at": 1755014497
+    },
+    {
+      "id": 5,
+      "description": "ランク500で解放",
+      "unlock_condition_id": 4,
+      "condition_value": 500,
+      "available_at": 1735671600,
+      "sort_id": 30,
+      "created_at": 1760470478,
+      "updated_at": 1760470478
+    },
+    {
+      "id": 6,
+      "description": "通算ログイン100日で解放",
+      "unlock_condition_id": 5,
+      "condition_value": 100,
+      "available_at": 1735671600,
+      "sort_id": 40,
+      "created_at": 1760470478,
+      "updated_at": 1760470478
+    },
+    {
+      "id": 7,
+      "description": "禁忌の獄を制覇で解放",
+      "unlock_condition_id": 6,
+      "condition_value": 0,
+      "available_at": 1735671600,
+      "sort_id": 50,
+      "created_at": 1760470478,
+      "updated_at": 1760470478
+    },
+    {
+      "id": 8,
+      "description": "ノーマルクエストを全てクリアで解放",
+      "unlock_condition_id": 7,
+      "condition_value": 0,
+      "available_at": 1735671600,
+      "sort_id": 60,
+      "created_at": 1791908953,
+      "updated_at": 1791908953
+    }
+  ]
+}

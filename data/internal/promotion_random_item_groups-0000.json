@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "table": "promotion_random_item_groups",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 89,
+      "pool_id": 15,
+      "weight": 200,
+      "title": null,
+      "message": null,
+      "effect_id": 1,
+      "created_at": 1730370116,
+      "updated_at": 1730370116,
+      "text": "[LC]抽選結果[LF][LF][LC][IA40|1][LF][LF][C6:エラベルベル]が[LF]当たりました！",
+      "send_item_only": true,
+      "display_item_id": 40,
+      "visible": 1
+    },
+    {
+      "id": 90,
+      "pool_id": 15,
+      "weight": 200,
+      "title": null,
+      "message": null,
+      "effect_id": 1,
+      "created_at": 1730370116,
+      "updated_at": 1730370116,
+      "text": "[LC]抽選結果[LF][LF][LC][IA49|1][LF][LF][C6:トラベルベル]が[LF]当たりました！",
+      "send_item_only": true,
+      "display_item_id": 49,
+      "visible": 1
+    },
+    {
+      "id": 91,
+      "pool_id": 15,
+      "weight": 200,
+      "title": null,
+      "message": null,
+      "effect_id": 1,
+      "created_at": 1730370116,
+      "updated_at": 1730370116,
+      "text": "[LC]抽選結果[LF][LF][LC][IA42|1][LF][LF][C6:フエ～ルビスケット]が[LF]当たりました！",
+      "send_item_only": true,
+      "display_item_id": 42,
+      "visible": 1
+    },
+    {
+      "id": 92,
+      "pool_id": 15,
+      "weight": 200,
+      "title": null,
+      "message": null,
+      "effect_id": 1,
+      "created_at": 1730370116,
+      "updated_at": 1730370116,
+      "text": "[LC]抽選結果[LF][LF][LC][IA35|1][LF][LF][C6:わくわくステッキ]が[LF]当たりました！",
+      "send_item_only": true,
+      "display_item_id": 35,
+      "visible": 1
+    },
+    {
+      "id": 93,
+      "pool_id": 15,
+      "weight": 200,
+      "title": null,
+      "message": null,
+      "effect_id": 1,
+      "created_at": 1730370116,
+      "updated_at": 1730370116,
+      "text": "[LC]抽選結果[LF][LF][LC][IA14|1][LF][LF][C6:わくわくミン]が[LF]当たりました！",
+      "send_item_only": true,
+      "display_item_id": 14,
+      "visible": 1
+    }
+  ]
+}

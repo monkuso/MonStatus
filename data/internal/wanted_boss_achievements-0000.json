@@ -1,0 +1,887 @@
+{
+  "schemaVersion": 1,
+  "table": "wanted_boss_achievements",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "wanted_boss_group_id": 10010,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST10870][LF][ST11540][LF][ST11220][LF][ST11740][LF][ST12050][LF][LF]※「イベントクエスト」「追憶の書庫」「歴戦の跡地」の[LF]クエストが対象です[LF]※チケットクエスト『超絶なる者達』は対象外です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です",
+      "condition_type": 1,
+      "created_at": 1563294714,
+      "updated_at": 1611590228
+    },
+    {
+      "id": 2,
+      "wanted_boss_group_id": 10010,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:イザナミ]の対象モンスター][LF][IPJ820][IPJ4545][IPJ4601][IPJ12270][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C5:ヤマトタケル]の対象モンスター][LF][IPJ1389][IPJ4915][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C4:クシナダ]の対象モンスター][LF][IPJ991][IPJ4806][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C6:イザナギ]の対象モンスター][LF][IPJ1513][IPJ5016][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C3:ツクヨミ]の対象モンスター][LF][IPJ1642][IPJ5106][IPJ8897][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります",
+      "condition_type": 2,
+      "created_at": 1563294714,
+      "updated_at": 1760598931
+    },
+    {
+      "id": 3,
+      "wanted_boss_group_id": 10020,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST12250][LF][ST12540][LF][ST12910][LF][ST13110][LF][ST13270][LF][LF]※「イベントクエスト」「追憶の書庫」「歴戦の跡地」の[LF]クエストが対象です[LF]※チケットクエスト『超絶なる者達』は対象外です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です",
+      "condition_type": 1,
+      "created_at": 1563294714,
+      "updated_at": 1611590228
+    },
+    {
+      "id": 4,
+      "wanted_boss_group_id": 10020,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:阿修羅]の対象モンスター][LF][IPJ1922][IPJ5184][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C5:毘沙門天]の対象モンスター][LF][IPJ2034][IPJ5278][IPJ9637][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C4:摩利支天]の対象モンスター][LF][IPJ2212][IPJ5390][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C6:大黒天]の対象モンスター][LF][IPJ2551][IPJ5479][IPJ13091][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C3:不動明王]の対象モンスター][LF][IPJ2699][IPJ5571][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります",
+      "condition_type": 2,
+      "created_at": 1563294714,
+      "updated_at": 1791461958
+    },
+    {
+      "id": 5,
+      "wanted_boss_group_id": 10030,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST13930][LF][ST14420][LF][ST14130][LF][ST14730][LF][ST14980][LF][LF]※「イベントクエスト」および「追憶の書庫」のクエストが対象です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です",
+      "condition_type": 1,
+      "created_at": 1563294714,
+      "updated_at": 1611590228
+    },
+    {
+      "id": 6,
+      "wanted_boss_group_id": 10030,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:イザナミ零]の対象モンスター][LF][IPJ3022][LF][LF][LF][LF][TI:[C5:ヤマトタケル零]の対象モンスター][LF][IPJ3376][LF][LF][LF][LF][TI:[C4:クシナダ零]の対象モンスター][LF][IPJ3153][LF][LF][LF][LF][TI:[C6:イザナギ零]の対象モンスター][LF][IPJ3487][LF][LF][LF][LF][TI:[C3:ツクヨミ零]の対象モンスター][LF][IPJ3621][LF][LF]",
+      "condition_type": 2,
+      "created_at": 1563294714,
+      "updated_at": 1591630879
+    },
+    {
+      "id": 7,
+      "wanted_boss_group_id": 10040,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST15310][LF][ST15110][LF][ST15470][LF][ST15610][LF][ST15690][LF][LF]※「イベントクエスト」および「追憶の書庫」のクエストが対象です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です",
+      "condition_type": 1,
+      "created_at": 1563294714,
+      "updated_at": 1611590228
+    },
+    {
+      "id": 8,
+      "wanted_boss_group_id": 10040,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:ニルヴァーナ]の対象モンスター][LF][IPJ3774][IPJ7279][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C5:ドゥーム]の対象モンスター][LF][IPJ3668][IPJ7222][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C4:メメント・モリ]の対象モンスター][LF][IPJ3858][IPJ7328][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C6:カルマ]の対象モンスター][LF][IPJ3944][IPJ7418][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C3:アカシャ]の対象モンスター][LF][IPJ4001][IPJ7490][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF]",
+      "condition_type": 2,
+      "created_at": 1563294714,
+      "updated_at": 1606284690
+    },
+    {
+      "id": 9,
+      "wanted_boss_group_id": 10050,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST15860][LF][ST16140][LF][ST16320][LF][ST16710][LF][ST16940][LF][LF]※「イベントクエスト」および「追憶の書庫」のクエストが対象です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です",
+      "condition_type": 1,
+      "created_at": 1563294714,
+      "updated_at": 1611590228
+    },
+    {
+      "id": 10,
+      "wanted_boss_group_id": 10050,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:カイン]の対象モンスター][LF][IPJ4152][IPJ7556][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C5:呂布]の対象モンスター][LF][IPJ4333][IPJ7634][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C4:ブルータス]の対象モンスター][LF][IPJ4463][IPJ7741][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C6:デーヴァダッタ]の対象モンスター][LF][IPJ4794][IPJ7784][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C3:ジューダス]の対象モンスター][LF][IPJ4977][IPJ7856][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF]",
+      "condition_type": 2,
+      "created_at": 1563294714,
+      "updated_at": 1606284690
+    },
+    {
+      "id": 11,
+      "wanted_boss_group_id": 10060,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST16550][LF][ST16830][LF][ST16720][LF][ST16980][LF][ST17100][LF][LF]※「イベントクエスト」および「追憶の書庫」のクエストが対象です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です",
+      "condition_type": 1,
+      "created_at": 1563294714,
+      "updated_at": 1623085181
+    },
+    {
+      "id": 12,
+      "wanted_boss_group_id": 10070,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST17150][LF][ST17470][LF][ST17770][LF][ST18060][LF][ST18290][LF][LF]※「イベントクエスト」および「追憶の書庫」のクエストが対象です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です",
+      "condition_type": 1,
+      "created_at": 1563294714,
+      "updated_at": 1611590228
+    },
+    {
+      "id": 13,
+      "wanted_boss_group_id": 10070,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:焔摩天]の対象モンスター][LF][IPJ5141][IPJ7916][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C5:帝釈天]の対象モンスター][LF][IPJ5342][IPJ7975][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C4:韋駄天]の対象モンスター][LF][IPJ5547][IPJ8083][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C6:金剛夜叉明王]の対象モンスター][LF][IPJ5774][IPJ8150][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C3:愛染明王]の対象モンスター][LF][IPJ5926][IPJ8214][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF]",
+      "condition_type": 2,
+      "created_at": 1563294714,
+      "updated_at": 1608693416
+    },
+    {
+      "id": 14,
+      "wanted_boss_group_id": 10080,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST17230][LF][ST17360][LF][ST17540][LF][ST17670][LF][ST17840][LF][LF]※「イベントクエスト」および「追憶の書庫」のクエストが対象です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です",
+      "condition_type": 1,
+      "created_at": 1563294714,
+      "updated_at": 1623085181
+    },
+    {
+      "id": 15,
+      "wanted_boss_group_id": 20010,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST13640][LF][ST13940][LF][ST14350][LF][ST14800][LF][ST15180][LF][LF]※「イベントクエスト」「追憶の書庫」「歴戦の跡地」の[LF]クエストが対象です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です",
+      "condition_type": 1,
+      "created_at": 1563294714,
+      "updated_at": 1611590229
+    },
+    {
+      "id": 16,
+      "wanted_boss_group_id": 20010,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:アヴァロン]の対象モンスター][LF][IPJ2840][IPJ6082][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C5:ニライカナイ]の対象モンスター][LF][IPJ3026][IPJ8894][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C4:シャンバラ]の対象モンスター][LF][IPJ3318][IPJ7122][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C6:エデン]の対象モンスター][LF][IPJ3528][IPJ8170][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C3:黄泉]の対象モンスター][LF][IPJ3724][IPJ6309][IPJ10558][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります",
+      "condition_type": 2,
+      "created_at": 1563294714,
+      "updated_at": 1692267482
+    },
+    {
+      "id": 17,
+      "wanted_boss_group_id": 20020,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST15550][LF][ST15720][LF][ST16030][LF][ST16270][LF][ST16480][LF][LF]※「イベントクエスト」および「追憶の書庫」のクエストが対象です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です",
+      "condition_type": 1,
+      "created_at": 1563294714,
+      "updated_at": 1611590229
+    },
+    {
+      "id": 18,
+      "wanted_boss_group_id": 20020,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:アルカディア]の対象モンスター][LF][IPJ3905][LF][LF][LF][LF][TI:[C5:蓬莱]の対象モンスター][LF][IPJ4028][IPJ6305][IPJ8168][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C4:マグ・メル]の対象モンスター][LF][IPJ4248][IPJ5811][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C6:エルドラド]の対象モンスター][LF][IPJ4416][IPJ5812][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C3:カナン]の対象モンスター][LF][IPJ4551][IPJ7124][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります",
+      "condition_type": 2,
+      "created_at": 1563294714,
+      "updated_at": 1601830283
+    },
+    {
+      "id": 19,
+      "wanted_boss_group_id": 20030,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST16840][LF][ST17030][LF][ST17260][LF][ST17610][LF][ST17990][LF][LF]※「イベントクエスト」および「追憶の書庫」のクエストが対象です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です",
+      "condition_type": 1,
+      "created_at": 1563294714,
+      "updated_at": 1619453322
+    },
+    {
+      "id": 20,
+      "wanted_boss_group_id": 20030,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:ラグナロク]の対象モンスター][LF][IPJ4852][LF][LF][LF][LF][TI:[C5:アルマゲドン]の対象モンスター][LF][IPJ5064][IPJ6868][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C4:エスカトロジー]の対象モンスター][LF][IPJ5220][IPJ5221][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C6:カタストロフィ]の対象モンスター][LF][IPJ5448][LF][LF][LF][LF][TI:[C3:アポカリプス]の対象モンスター][LF][IPJ5652][LF][LF]",
+      "condition_type": 2,
+      "created_at": 1563294714,
+      "updated_at": 1591630879
+    },
+    {
+      "id": 21,
+      "wanted_boss_group_id": 20040,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST18510][LF][ST18760][LF][ST19010][LF][ST19220][LF][ST19460][LF][LF]※「イベントクエスト」および「追憶の書庫」のクエストが対象です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です",
+      "condition_type": 1,
+      "created_at": 1563294714,
+      "updated_at": 1650905794
+    },
+    {
+      "id": 22,
+      "wanted_boss_group_id": 20040,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:ニギミタマ]の対象モンスター][LF][IPJ6103][LF][LF][LF][LF][TI:[C5:アラミタマ]の対象モンスター][LF][IPJ6356][LF][LF][LF][LF][TI:[C4:サキミタマ]の対象モンスター][LF][IPJ6542][IPJ8169][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C6:クシミタマ]の対象モンスター][LF][IPJ6843][LF][LF][LF][LF][TI:[C3:ナオヒ]の対象モンスター][LF][IPJ7025][LF][LF]",
+      "condition_type": 2,
+      "created_at": 1563294714,
+      "updated_at": 1606284690
+    },
+    {
+      "id": 23,
+      "wanted_boss_group_id": 30010,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST18130][LF][ST18400][LF][ST18630][LF][ST18890][LF][ST19130][LF][LF]※全ての難易度をクリアすると達成となります。[LF]※「イベントクエスト」「追憶の書庫」「歴戦の跡地」の[LF]クエストが対象です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です",
+      "condition_type": 1,
+      "created_at": 1563294714,
+      "updated_at": 1675873242
+    },
+    {
+      "id": 24,
+      "wanted_boss_group_id": 30010,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:シュリンガーラ]の対象モンスター][LF][IPJ5820][IPJ5821][IPJ8893][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C5:カルナ]の対象モンスター][LF][IPJ6040][IPJ6041][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C4:ヴィーラ]の対象モンスター][LF][IPJ6260][IPJ6261][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C6:ラウドラ]の対象モンスター][LF][IPJ6440][IPJ6441][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C3:アドゥブタ]の対象モンスター][LF][IPJ6690][IPJ6691][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります",
+      "condition_type": 2,
+      "created_at": 1563294714,
+      "updated_at": 1625741069
+    },
+    {
+      "id": 25,
+      "wanted_boss_group_id": 10090,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST252240][LF][ST252220][LF][ST252120][LF][ST19270][LF][ST251800][LF][LF]※「イベントクエスト」および「追憶の書庫」のクエストが対象です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です",
+      "condition_type": 1,
+      "created_at": 1566377734,
+      "updated_at": 1615393244
+    },
+    {
+      "id": 26,
+      "wanted_boss_group_id": 10090,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:ショクイン]の対象モンスター][LF][IPJ6006][IPJ9036][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C5:キュウキ]の対象モンスター][LF][IPJ5994][IPJ8927][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C4:トウテツ]の対象モンスター][LF][IPJ5987][IPJ8585][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C6:カイメイジュウ]の対象モンスター][LF][IPJ4654][IPJ8496][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C3:ジョカ]の対象モンスター][LF][IPJ4710][IPJ8725][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります",
+      "condition_type": 2,
+      "created_at": 1566377734,
+      "updated_at": 1634747776
+    },
+    {
+      "id": 27,
+      "wanted_boss_group_id": 10100,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST19860][LF][ST19740][LF][ST19970][LF][ST20130][LF][ST20280][LF][LF]※「イベントクエスト」および「追憶の書庫」のクエストが対象です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です",
+      "condition_type": 1,
+      "created_at": 1576053754,
+      "updated_at": 1623085182
+    },
+    {
+      "id": 28,
+      "wanted_boss_group_id": 30020,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST19390][LF][ST19570][LF][ST19920][LF][ST20140][LF][ST20380][LF][LF]※「イベントクエスト」および「追憶の書庫」のクエストが対象です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です[LF]",
+      "condition_type": 1,
+      "created_at": 1577442288,
+      "updated_at": 1689007861
+    },
+    {
+      "id": 29,
+      "wanted_boss_group_id": 30020,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:モラル]の対象モンスター][LF][IPJ6963][IPJ6964][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C5:パラドクス]の対象モンスター][LF][IPJ7140][IPJ7141][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C4:コンプレックス]の対象モンスター][LF][IPJ7302][IPJ7303][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C6:アンチテーゼ]の対象モンスター][LF][IPJ7458][IPJ7459][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C3:イデア]の対象モンスター][LF][IPJ7538][IPJ7539][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります",
+      "condition_type": 2,
+      "created_at": 1577442288,
+      "updated_at": 1591630879
+    },
+    {
+      "id": 30,
+      "wanted_boss_group_id": 10110,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST20080][LF][ST20210][LF][ST20360][LF][ST20430][LF][ST20610][LF][LF]※「イベントクエスト」および「追憶の書庫」のクエストが対象です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です[LF]",
+      "condition_type": 1,
+      "created_at": 1582716340,
+      "updated_at": 1639591071
+    },
+    {
+      "id": 31,
+      "wanted_boss_group_id": 10110,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:マルクト]の対象モンスター][LF][IPJ7384][IPJ9189][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C5:ティファレト]の対象モンスター][LF][IPJ7464][IPJ9329][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C4:ケセド]の対象モンスター][LF][IPJ7515][IPJ9437][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C6:ケテル]の対象モンスター][LF][IPJ7582][IPJ9552][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C3:イェソド]の対象モンスター][LF][IPJ7674][IPJ9895][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF]",
+      "condition_type": 2,
+      "created_at": 1582716340,
+      "updated_at": 1660819583
+    },
+    {
+      "id": 32,
+      "wanted_boss_group_id": 20050,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST19730][LF][ST20000][LF][ST20340][LF][ST20600][LF][ST20880][LF][LF]※「イベントクエスト」および「追憶の書庫」のクエストが対象です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です[LF]",
+      "condition_type": 1,
+      "created_at": 1587569588,
+      "updated_at": 1689007861
+    },
+    {
+      "id": 33,
+      "wanted_boss_group_id": 20050,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:ジパング]の対象モンスター][LF][IPJ7217][LF][LF][LF][LF][TI:[C5:ティル・ナ・ノーグ]の対象モンスター][LF][IPJ7347][LF][LF][LF][LF][TI:[C4:ザナドゥ]の対象モンスター][LF][IPJ7486][LF][LF][LF][LF][TI:[C6:エリュシオン]の対象モンスター][LF][IPJ7671][LF][LF][LF][LF][TI:[C3:アガルタ]の対象モンスター][LF][IPJ7813][LF][LF][LF]",
+      "condition_type": 2,
+      "created_at": 1587569588,
+      "updated_at": 1591630879
+    },
+    {
+      "id": 34,
+      "wanted_boss_group_id": 10120,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST20480][LF][ST20530][LF][ST20660][LF][ST20800][LF][ST20950][LF][LF]※「イベントクエスト」および「追憶の書庫」のクエストが対象です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です[LF]",
+      "condition_type": 1,
+      "created_at": 1588341981,
+      "updated_at": 1760470636
+    },
+    {
+      "id": 35,
+      "wanted_boss_group_id": 10130,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST20810][LF][ST21010][LF][ST21080][LF][ST21280][LF][ST21360][LF][LF]※「イベントクエスト」および「追憶の書庫」のクエストが対象です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です[LF]",
+      "condition_type": 1,
+      "created_at": 1597220333,
+      "updated_at": 1670862117
+    },
+    {
+      "id": 36,
+      "wanted_boss_group_id": 10130,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:アダマンタイト]の対象モンスター][LF][IPJ7808][IPJ9984][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C5:ミスリル]の対象モンスター][LF][IPJ7887][IPJ10119][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C4:ダマスカス]の対象モンスター][LF][IPJ7925][IPJ10215][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C6:オリハルコン]の対象モンスター][LF][IPJ8027][IPJ10387][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C3:ヒヒイロカネ]の対象モンスター][LF][IPJ8057][IPJ10516][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF]",
+      "condition_type": 2,
+      "created_at": 1597220333,
+      "updated_at": 1686822171
+    },
+    {
+      "id": 37,
+      "wanted_boss_group_id": 30030,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST20670][LF][ST20960][LF][ST21210][LF][ST21510][LF][ST21900][LF][LF]※「イベントクエスト」および「追憶の書庫」のクエストが対象です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です[LF]",
+      "condition_type": 1,
+      "created_at": 1606284690,
+      "updated_at": 1718065090
+    },
+    {
+      "id": 38,
+      "wanted_boss_group_id": 30030,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:レクイエム]の対象モンスター][LF][IPJ7711][IPJ7712][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C5:ノクターン]の対象モンスター][LF][IPJ7879][IPJ7880][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C4:セレナーデ]の対象モンスター][LF][IPJ7986][IPJ7987][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C6:アリア]の対象モンスター][LF][IPJ8128][IPJ8129][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C3:マーチ]の対象モンスター][LF][IPJ8338][IPJ8339][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF]",
+      "condition_type": 2,
+      "created_at": 1606284690,
+      "updated_at": 1606284690
+    },
+    {
+      "id": 39,
+      "wanted_boss_group_id": 10140,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST21070][LF][ST21200][LF][ST21420][LF][ST21670][LF][ST22000][LF][LF]※「イベントクエスト」および「追憶の書庫」のクエストが対象です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です[LF]",
+      "condition_type": 1,
+      "created_at": 1608693416,
+      "updated_at": 1791909068
+    },
+    {
+      "id": 40,
+      "wanted_boss_group_id": 20060,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST21150][LF][ST21410][LF][ST21570][LF][ST21990][LF][ST22280][LF][LF]※「イベントクエスト」および「追憶の書庫」のクエストが対象です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です[LF]",
+      "condition_type": 1,
+      "created_at": 1614150747,
+      "updated_at": 1718065090
+    },
+    {
+      "id": 41,
+      "wanted_boss_group_id": 20060,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:ゲヘナ]の対象モンスター][LF][IPJ7958][IPJ9636][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C5:ヘルヘイム]の対象モンスター][LF][IPJ8078][LF][LF][LF][LF][TI:[C4:コキュートス]の対象モンスター][LF][IPJ8173][LF][LF][LF][LF][TI:[C6:阿鼻]の対象モンスター][LF][IPJ8364][LF][LF][LF][LF][TI:[C3:テイネモシリ]の対象モンスター][LF][IPJ8508][LF][LF]",
+      "condition_type": 2,
+      "created_at": 1614150747,
+      "updated_at": 1657188241
+    },
+    {
+      "id": 42,
+      "wanted_boss_group_id": 10150,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST21500][LF][ST21780][LF][ST22120][LF][ST22400][LF][ST22640][LF][LF]※「イベントクエスト」および「追憶の書庫」のクエストが対象です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です",
+      "condition_type": 1,
+      "created_at": 1622106391,
+      "updated_at": 1733851106
+    },
+    {
+      "id": 43,
+      "wanted_boss_group_id": 10150,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:増長天]の対象モンスター][LF][IPJ8123][LF][LF][LF][LF][TI:[C5:蔵王権現]の対象モンスター][LF][IPJ8271][LF][LF][LF][LF][TI:[C4:持国天]の対象モンスター][LF][IPJ8298][LF][LF][LF][LF][TI:[C6:軍荼利明王]の対象モンスター][LF][IPJ8566][LF][LF][LF][LF][TI:[C3:降三世明王]の対象モンスター][LF][IPJ8682][LF][LF]",
+      "condition_type": 2,
+      "created_at": 1622106391,
+      "updated_at": 1622106391
+    },
+    {
+      "id": 44,
+      "wanted_boss_group_id": 30040,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST22040][LF][ST23110][LF][ST22600][LF][ST22320][LF][ST22820][LF][LF]※「イベントクエスト」および「追憶の書庫」のクエストが対象です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です",
+      "condition_type": 1,
+      "created_at": 1631787515,
+      "updated_at": 1733851106
+    },
+    {
+      "id": 45,
+      "wanted_boss_group_id": 30040,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:ディヴィジョン]の対象モンスター][LF][IPJ8400][IPJ8401][IPJ12108][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C5:ダウト]の対象モンスター][LF][IPJ8986][IPJ8987][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C4:エリミネイター]の対象モンスター][LF][IPJ8659][IPJ8660][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C6:イグノー]の対象モンスター][LF][IPJ8537][IPJ8538][IPJ9639][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C3:アンフェア]の対象モンスター][LF][IPJ8766][IPJ8767][IPJ11367][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF]",
+      "condition_type": 2,
+      "created_at": 1631787515,
+      "updated_at": 1752143525
+    },
+    {
+      "id": 46,
+      "wanted_boss_group_id": 10160,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST23260][LF][ST23000][LF][ST22440][LF][ST22270][LF][ST22730][LF][LF]※「イベントクエスト」および「追憶の書庫」のクエストが対象です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です[LF]",
+      "condition_type": 1,
+      "created_at": 1634747776,
+      "updated_at": 1791909068
+    },
+    {
+      "id": 47,
+      "wanted_boss_group_id": 20070,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST22450][LF][ST22690][LF][ST22940][LF][ST23470][LF][ST23150][LF][LF]※「イベントクエスト」および「追憶の書庫」のクエストが対象です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です",
+      "condition_type": 1,
+      "created_at": 1638865082,
+      "updated_at": 1733851106
+    },
+    {
+      "id": 48,
+      "wanted_boss_group_id": 20070,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:テラ]の対象モンスター][LF][IPJ8594][LF][LF][LF][LF][TI:[C5:カイリ]の対象モンスター][LF][IPJ8707][IPJ10575][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C4:ガロン]の対象モンスター][LF][IPJ8903][IPJ9638][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C6:フェムト]の対象モンスター][LF][IPJ9166][LF][LF][LF][LF][TI:[C3:カンデラ]の対象モンスター][LF][IPJ9045][LF][LF][LF]",
+      "condition_type": 2,
+      "created_at": 1638865082,
+      "updated_at": 1688640515
+    },
+    {
+      "id": 49,
+      "wanted_boss_group_id": 10170,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST22900][LF][ST23420][LF][ST23120][LF][ST23620][LF][ST23900][LF][LF]※「イベントクエスト」および「追憶の書庫」のクエストが対象です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です[LF]",
+      "condition_type": 1,
+      "created_at": 1648548814,
+      "updated_at": 1760470636
+    },
+    {
+      "id": 50,
+      "wanted_boss_group_id": 10170,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:アストラル]の対象モンスター][LF][IPJ8836][LF][LF][LF][LF][TI:[C5:オド]の対象モンスター][LF][IPJ9146][IPJ12109][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C4:エーテル]の対象モンスター][LF][IPJ8990][LF][LF][LF][LF][TI:[C6:チャクラ]の対象モンスター][LF][IPJ9253][LF][LF][LF][LF][TI:[C3:タキオン]の対象モンスター][LF][IPJ9410][LF][LF]",
+      "condition_type": 2,
+      "created_at": 1648548814,
+      "updated_at": 1752143525
+    },
+    {
+      "id": 51,
+      "wanted_boss_group_id": 30050,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST23540][LF][ST23810][LF][ST23300][LF][ST24160][LF][ST24340][LF][LF]※「イベントクエスト」および「追憶の書庫」のクエストが対象です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です[LF]",
+      "condition_type": 1,
+      "created_at": 1657188241,
+      "updated_at": 1760470636
+    },
+    {
+      "id": 52,
+      "wanted_boss_group_id": 30050,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:アビニベーシャ]の対象モンスター][LF][IPJ9210][IPJ9211][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C5:サマ]の対象モンスター][LF][IPJ9368][IPJ9369][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C4:カウシーディヤ]の対象モンスター][LF][IPJ9110][IPJ9111][IPJ10576][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C6:クシャーンティ]の対象モンスター][LF][IPJ9517][IPJ9518][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C3:ムラクシャ]の対象モンスター][LF][IPJ9646][IPJ9647][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF]",
+      "condition_type": 2,
+      "created_at": 1657188241,
+      "updated_at": 1688640515
+    },
+    {
+      "id": 53,
+      "wanted_boss_group_id": 10180,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST23510][LF][ST23780][LF][ST24000][LF][ST24230][LF][ST24470][LF][LF]※「イベントクエスト」および「追憶の書庫」のクエストが対象です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です[LF]",
+      "condition_type": 1,
+      "created_at": 1660819583,
+      "updated_at": 1791909068
+    },
+    {
+      "id": 54,
+      "wanted_boss_group_id": 20080,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST24290][LF][ST23680][LF][ST24680][LF][ST24460][LF][ST23950][LF][LF]※「イベントクエスト」および「追憶の書庫」のクエストが対象です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です[LF]",
+      "condition_type": 1,
+      "created_at": 1664358098,
+      "updated_at": 1760470636
+    },
+    {
+      "id": 55,
+      "wanted_boss_group_id": 20080,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:アジタート]の対象モンスター][LF][IPJ9612][LF][LF][LF][LF][TI:[C5:ノービレ]の対象モンスター][LF][IPJ9288][LF][LF][LF][LF][TI:[C4:テンペストーソ]の対象モンスター][LF][IPJ9932][LF][LF][LF][LF][TI:[C6:ラルガメンテ]の対象モンスター][LF][IPJ9720][IPJ11366][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C3:スケルツァンド]の対象モンスター][LF][IPJ9432][LF][LF][LF]",
+      "condition_type": 2,
+      "created_at": 1664358098,
+      "updated_at": 1720690215
+    },
+    {
+      "id": 56,
+      "wanted_boss_group_id": 10190,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST24170][LF][ST24930][LF][ST24410][LF][ST24670][LF][ST25240][LF][LF]※「イベントクエスト」および「追憶の書庫」のクエストが対象です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です[LF]",
+      "condition_type": 1,
+      "created_at": 1674540923,
+      "updated_at": 1791909068
+    },
+    {
+      "id": 57,
+      "wanted_boss_group_id": 10190,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:ノイン]の対象モンスター][LF][IPJ9532][IPJ11363][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C5:フィーア]の対象モンスター][LF][IPJ10052][LF][LF][LF][LF][TI:[C4:アハト]の対象モンスター][LF][IPJ9694][LF][LF][LF][LF][TI:[C6:ゼクス]の対象モンスター][LF][IPJ9925][IPJ10577][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C3:アインス]の対象モンスター][LF][IPJ10193][LF][LF]",
+      "condition_type": 2,
+      "created_at": 1674540923,
+      "updated_at": 1720690215
+    },
+    {
+      "id": 58,
+      "wanted_boss_group_id": 30060,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST24940][LF][ST25090][LF][ST24630][LF][ST25740][LF][ST25510][LF][LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です[LF]",
+      "condition_type": 1,
+      "created_at": 1684837718,
+      "updated_at": 1684837718
+    },
+    {
+      "id": 59,
+      "wanted_boss_group_id": 30060,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:カルニベ]の対象モンスター][LF][IPJ10074][IPJ10075][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C5:ハービセル]の対象モンスター][LF][IPJ10141][IPJ10142][IPJ12873][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C4:プレデビオル]の対象モンスター][LF][IPJ9902][IPJ9903][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C6:ディクエクス]の対象モンスター][LF][IPJ10492][IPJ10493][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C3:ベジテパラ]の対象モンスター][LF][IPJ10340][IPJ10341][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF]",
+      "condition_type": 2,
+      "created_at": 1684837718,
+      "updated_at": 1782988066
+    },
+    {
+      "id": 60,
+      "wanted_boss_group_id": 10200,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST24760][LF][ST25060][LF][ST25280][LF][ST25590][LF][ST25780][LF][LF]※「イベントクエスト」および「追憶の書庫」のクエストが対象です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です[LF]",
+      "condition_type": 1,
+      "created_at": 1686822171,
+      "updated_at": 1791909068
+    },
+    {
+      "id": 61,
+      "wanted_boss_group_id": 20090,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST25580][LF][ST26030][LF][ST25840][LF][ST25350][LF][ST24980][LF][LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です[LF]",
+      "condition_type": 1,
+      "created_at": 1691423899,
+      "updated_at": 1691423899
+    },
+    {
+      "id": 62,
+      "wanted_boss_group_id": 20090,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:タモアンチャン]の対象モンスター][LF][IPJ10384][LF][LF][LF][LF][TI:[C5:桃源郷]の対象モンスター][LF][IPJ10682][IPJ11364][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C4:パライソ]の対象モンスター][LF][IPJ10544][LF][LF][LF][LF][TI:[C6:アアル]の対象モンスター][LF][IPJ10225][LF][LF][LF][LF][TI:[C3:極楽浄土]の対象モンスター][LF][IPJ10091][IPJ10578][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF]",
+      "condition_type": 2,
+      "created_at": 1691423899,
+      "updated_at": 1720690215
+    },
+    {
+      "id": 63,
+      "wanted_boss_group_id": 10210,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST26210][LF][ST25730][LF][ST25420][LF][ST25990][LF][ST26450][LF][LF]※「イベントクエスト」および「追憶の書庫」のクエストが対象です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です[LF]",
+      "condition_type": 1,
+      "created_at": 1699526421,
+      "updated_at": 1791909068
+    },
+    {
+      "id": 64,
+      "wanted_boss_group_id": 10210,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:オモイカネ]の対象モンスター][LF][IPJ10741][IPJ12872][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C5:アメノサギリ]の対象モンスター][LF][IPJ10455][LF][LF][LF][LF][TI:[C4:ホノイカヅチ]の対象モンスター][LF][IPJ10295][LF][LF][LF][LF][TI:[C6:オオクチノマカミ]の対象モンスター][LF][IPJ10636][IPJ12111][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C3:トヨタマヒメ]の対象モンスター][LF][IPJ10901][LF][LF]",
+      "condition_type": 2,
+      "created_at": 1699526421,
+      "updated_at": 1782988066
+    },
+    {
+      "id": 65,
+      "wanted_boss_group_id": 30070,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST26570][LF][ST25900][LF][ST27100][LF][ST26890][LF][ST26220][LF][LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です[LF]",
+      "condition_type": 1,
+      "created_at": 1713803204,
+      "updated_at": 1713803204
+    },
+    {
+      "id": 66,
+      "wanted_boss_group_id": 30070,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:ママゴアシ]の対象モンスター][LF][IPJ10949][IPJ10950][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C5:ハナレコグニ]の対象モンスター][LF][IPJ10585][IPJ10586][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C4:カカゴセデク]の対象モンスター][LF][IPJ11152][IPJ11153][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C6:ユビレギリ]の対象モンスター][LF][IPJ11076][IPJ11077][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C3:ドケソコトリ]の対象モンスター][LF][IPJ10742][IPJ10743][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF]",
+      "condition_type": 2,
+      "created_at": 1713803204,
+      "updated_at": 1713803204
+    },
+    {
+      "id": 67,
+      "wanted_boss_group_id": 20100,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST26810][LF][ST27250][LF][ST26310][LF][ST26630][LF][ST27050][LF][LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です[LF]",
+      "condition_type": 1,
+      "created_at": 1717661127,
+      "updated_at": 1717661127
+    },
+    {
+      "id": 68,
+      "wanted_boss_group_id": 20100,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:ファイト]の対象モンスター][LF][IPJ11047][LF][LF][LF][LF][TI:[C5:ストラテジー]の対象モンスター][LF][IPJ11296][LF][LF][LF][LF][TI:[C4:ロール]の対象モンスター][LF][IPJ10798][LF][LF][LF][LF][TI:[C6:ラブ]の対象モンスター][LF][IPJ10924][IPJ12875][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C3:クラフト]の対象モンスター][LF][IPJ11155][IPJ12112][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF]",
+      "condition_type": 2,
+      "created_at": 1717661127,
+      "updated_at": 1782988066
+    },
+    {
+      "id": 69,
+      "wanted_boss_group_id": 40010,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST27200][LF][ST26930][LF][ST26640][LF][ST26440][LF][ST27410][LF][LF]※「イベントクエスト」および「追憶の書庫」のクエストが対象です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です[LF]",
+      "condition_type": 1,
+      "created_at": 1720777959,
+      "updated_at": 1760470636
+    },
+    {
+      "id": 70,
+      "wanted_boss_group_id": 40010,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:アレスター]の対象モンスター][LF][IPJ11243][IPJ11244][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C5:アジテーター]の対象モンスター][LF][IPJ11098][IPJ11099][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C4:ロヴァー]の対象モンスター][LF][IPJ10973][IPJ10974][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C6:フォーサー]の対象モンスター][LF][IPJ10867][IPJ10868][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C3:エンベズラー]の対象モンスター][LF][IPJ11369][IPJ11370][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF]",
+      "condition_type": 2,
+      "created_at": 1720777959,
+      "updated_at": 1720777959
+    },
+    {
+      "id": 71,
+      "wanted_boss_group_id": 10220,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST27380][LF][ST27210][LF][ST27010][LF][ST26680][LF][ST27630][LF][LF]※「イベントクエスト」および「追憶の書庫」のクエストが対象です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です[LF]",
+      "condition_type": 1,
+      "created_at": 1726150048,
+      "updated_at": 1791909068
+    },
+    {
+      "id": 72,
+      "wanted_boss_group_id": 10220,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:ネクタル]の対象モンスター][LF][IPJ11353][LF][LF][LF][LF][TI:[C5:ソーマ]の対象モンスター][LF][IPJ11275][LF][LF][LF][LF][TI:[C4:仙丹]の対象モンスター][LF][IPJ11138][LF][LF][LF][LF][TI:[C6:エリクサー]の対象モンスター][LF][IPJ11022][LF][LF][LF][LF][TI:[C3:甘露]の対象モンスター][LF][IPJ11485][LF][LF]",
+      "condition_type": 2,
+      "created_at": 1726150048,
+      "updated_at": 1726150048
+    },
+    {
+      "id": 73,
+      "wanted_boss_group_id": 30080,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST28300][LF][ST28010][LF][ST27530][LF][ST27330][LF][ST27850][LF][LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です[LF]",
+      "condition_type": 1,
+      "created_at": 1738599178,
+      "updated_at": 1738599178
+    },
+    {
+      "id": 74,
+      "wanted_boss_group_id": 30080,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:ジャーム]の対象モンスター][LF][IPJ11810][IPJ11811][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C5:ディスモルフォ]の対象モンスター][LF][IPJ11682][IPJ11683][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C4:アイクモ]の対象モンスター][LF][IPJ11436][IPJ11437][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C6:コルロ]の対象モンスター][LF][IPJ11297][IPJ11298][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C3:ペディオ]の対象モンスター][LF][IPJ11596][IPJ11597][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF]",
+      "condition_type": 2,
+      "created_at": 1738599178,
+      "updated_at": 1738599178
+    },
+    {
+      "id": 75,
+      "wanted_boss_group_id": 20110,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST27580][LF][ST28380][LF][ST27840][LF][ST28100][LF][ST28640][LF][LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です[LF]",
+      "condition_type": 1,
+      "created_at": 1745494138,
+      "updated_at": 1745494138
+    },
+    {
+      "id": 76,
+      "wanted_boss_group_id": 20110,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:ディエス・イレ]の対象モンスター][LF][IPJ11460][LF][LF][LF][LF][TI:[C5:カリ・ユガ]の対象モンスター][LF][IPJ11855][LF][LF][LF][LF][TI:[C4:ドゥームズデイ]の対象モンスター][LF][IPJ11592][IPJ12110][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C6:末法]の対象モンスター][LF][IPJ11730][LF][LF][LF][LF][TI:[C3:ビッグクランチ]の対象モンスター][LF][IPJ11958][LF][LF]",
+      "condition_type": 2,
+      "created_at": 1745494138,
+      "updated_at": 1752143525
+    },
+    {
+      "id": 77,
+      "wanted_boss_group_id": 40020,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST27710][LF][ST28420][LF][ST28720][LF][ST27860][LF][ST28120][LF][LF]※「イベントクエスト」および「追憶の書庫」のクエストが対象です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です[LF]",
+      "condition_type": 1,
+      "created_at": 1747127857,
+      "updated_at": 1791909068
+    },
+    {
+      "id": 78,
+      "wanted_boss_group_id": 40020,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:アブピッシャー]の対象モンスター][LF][IPJ11522][IPJ11523][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C5:デティアカル]の対象モンスター][LF][IPJ11878][IPJ11879][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C4:コディエゴス]の対象モンスター][LF][IPJ11999][IPJ12000][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C6:ビリミスク]の対象モンスター][LF][IPJ11627][IPJ11628][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C3:ペグイル]の対象モンスター][LF][IPJ11739][IPJ11740][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF]",
+      "condition_type": 2,
+      "created_at": 1747127857,
+      "updated_at": 1747127857
+    },
+    {
+      "id": 79,
+      "wanted_boss_group_id": 10230,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST28900][LF][ST27900][LF][ST28510][LF][ST28250][LF][ST28760][LF][LF]※「イベントクエスト」および「追憶の書庫」のクエストが対象です[LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です[LF]",
+      "condition_type": 1,
+      "created_at": 1751539701,
+      "updated_at": 1791909068
+    },
+    {
+      "id": 80,
+      "wanted_boss_group_id": 10230,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:ツェーン]の対象モンスター][LF][IPJ12097][LF][LF][LF][LF][TI:[C5:ツヴァイ]の対象モンスター][LF][IPJ11631][LF][LF][LF][LF][TI:[C4:フュンフ]の対象モンスター][LF][IPJ11911][LF][LF][LF][LF][TI:[C6:ズィーベン]の対象モンスター][LF][IPJ11789][LF][LF][LF][LF][TI:[C3:ドライ]の対象モンスター][LF][IPJ12020][IPJ12876][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF]",
+      "condition_type": 2,
+      "created_at": 1751539701,
+      "updated_at": 1782988066
+    },
+    {
+      "id": 81,
+      "wanted_boss_group_id": 30090,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST29430][LF][ST29640][LF][ST28800][LF][ST28550][LF][ST29040][LF][LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です[LF]",
+      "condition_type": 1,
+      "created_at": 1764844248,
+      "updated_at": 1764844248
+    },
+    {
+      "id": 82,
+      "wanted_boss_group_id": 30090,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:サバイール]の対象モンスター][LF][IPJ12302][IPJ12303][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C5:ノーピタル]の対象モンスター][LF][IPJ12452][IPJ12453][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C4:スケアトラ]の対象モンスター][LF][IPJ12054][IPJ12055][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C6:オーポレン]の対象モンスター][LF][IPJ11928][IPJ11929][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C3:アンコルウ]の対象モンスター][LF][IPJ12177][IPJ12178][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF]",
+      "condition_type": 2,
+      "created_at": 1764844248,
+      "updated_at": 1764844248
+    },
+    {
+      "id": 83,
+      "wanted_boss_group_id": 20120,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST29710][LF][ST29410][LF][ST29120][LF][ST28850][LF][ST29990][LF][LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です[LF]",
+      "condition_type": 1,
+      "created_at": 1772100025,
+      "updated_at": 1772100025
+    },
+    {
+      "id": 84,
+      "wanted_boss_group_id": 20120,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:シューティング]の対象モンスター][LF][IPJ12459][LF][LF][LF][LF][TI:[C5:ミステリー]の対象モンスター][LF][IPJ12307][LF][LF][LF][LF][TI:[C4:ホラー]の対象モンスター][LF][IPJ12216][IPJ12874][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C6:レース]の対象モンスター][LF][IPJ12074][LF][LF][LF][LF][TI:[C3:カード]の対象モンスター][LF][IPJ12612][LF][LF]",
+      "condition_type": 2,
+      "created_at": 1772100025,
+      "updated_at": 1782988066
+    },
+    {
+      "id": 85,
+      "wanted_boss_group_id": 40030,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST29250][LF][ST28910][LF][ST30040][LF][ST29750][LF][ST29500][LF][LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です[LF]",
+      "condition_type": 1,
+      "created_at": 1772704096,
+      "updated_at": 1772704096
+    },
+    {
+      "id": 86,
+      "wanted_boss_group_id": 40030,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:コポルネス]の対象モンスター][LF][IPJ12279][IPJ12280][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C5:プロポバテ]の対象モンスター][LF][IPJ12102][IPJ12103][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C4:アフェレデイン]の対象モンスター][LF][IPJ12633][IPJ12634][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C6:イプエクティ]の対象モンスター][LF][IPJ12504][IPJ12505][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C3:キャローネ]の対象モンスター][LF][IPJ12390][IPJ12391][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF]",
+      "condition_type": 2,
+      "created_at": 1772704096,
+      "updated_at": 1772704096
+    },
+    {
+      "id": 87,
+      "wanted_boss_group_id": 30100,
+      "name": "全てのクエストをクリアする",
+      "order": 1,
+      "description": "[LC]全てのクエストをクリアする[LF][LF][TI:対象のクエスト][LF][ST29910][LF][ST30630][LF][ST30390][LF][ST30190][LF][ST30930][LF][LF]※「[C6:ソロ]」、マルチプレイの「[C6:ホスト]」での[LF]クリアのみ対象です[LF]",
+      "condition_type": 1,
+      "created_at": 1790849806,
+      "updated_at": 1790849806
+    },
+    {
+      "id": 88,
+      "wanted_boss_group_id": 30100,
+      "name": "全てのモンスターを運極にする",
+      "order": 2,
+      "description": "[LC]全てのモンスターを運極にする[LF][LF][TI:[C2:ディジェン]の対象モンスター][LF][IPJ12569][IPJ12570][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C5:ヴェイン]の対象モンスター][LF][IPJ12956][IPJ12957][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C4:ポットスターラー]の対象モンスター][LF][IPJ12794][IPJ12795][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C6:スタバーン]の対象モンスター][LF][IPJ12693][IPJ12694][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF][TI:[C3:ルーズリップス]の対象モンスター][LF][IPJ13115][IPJ13116][LF][LF][LF][S-1]※いずれか1体を運極にすると達成となります[LF][LF]",
+      "condition_type": 2,
+      "created_at": 1790849806,
+      "updated_at": 1790849806
+    }
+  ]
+}

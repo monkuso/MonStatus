@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "table": "creep_events",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "start_at": 1743534000,
+      "end_at": 1744599599,
+      "cost_item_receivable_end_at": 1744570799,
+      "cost_item_id": 10090086,
+      "created_at": 1743502492,
+      "updated_at": 1743502492,
+      "new_comeback_x_day": null
+    },
+    {
+      "id": 2,
+      "start_at": 1792177200,
+      "end_at": 1792522799,
+      "cost_item_receivable_end_at": 1792436399,
+      "cost_item_id": 10090097,
+      "created_at": 1792059504,
+      "updated_at": 1792059504,
+      "new_comeback_x_day": 1792004400
+    }
+  ]
+}

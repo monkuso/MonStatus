@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "table": "sanma_worlds",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "sanma_campaign_id": 1,
+      "display_type_id": 0,
+      "icon_name": "sanma_01_homeicon_0.png",
+      "name": "アルヴヘイム・オンライン",
+      "stage_group_ids": "671020 671000 671010 671030 671050 26050 26060 170260",
+      "created_at": 1691663119,
+      "updated_at": 1691663119
+    },
+    {
+      "id": 2,
+      "sanma_campaign_id": 1,
+      "display_type_id": 1,
+      "icon_name": "sanma_01_homeicon_1.png",
+      "name": "ガンゲイル・オンライン",
+      "stage_group_ids": "671040",
+      "created_at": 1691663119,
+      "updated_at": 1691663119
+    },
+    {
+      "id": 3,
+      "sanma_campaign_id": 1,
+      "display_type_id": 2,
+      "icon_name": "sanma_01_homeicon_2.png",
+      "name": "アンダーワールド",
+      "stage_group_ids": "671060 671100 671070 671080 671090 26040 26070",
+      "created_at": 1691663119,
+      "updated_at": 1692267368
+    }
+  ]
+}

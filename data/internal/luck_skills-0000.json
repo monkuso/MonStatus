@@ -1,0 +1,855 @@
+{
+  "schemaVersion": 1,
+  "table": "luck_skills",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 10000,
+      "luck_skill_type_id": 1,
+      "name": "クリティカル",
+      "description": "稀に敵へのダメージ量が増加する",
+      "created_at": 1448467773,
+      "updated_at": 1448467773,
+      "luck_skill_values": [
+        {
+          "id": 83,
+          "luck_skill_id": 10000,
+          "value": 96,
+          "value_ext": 200
+        },
+        {
+          "id": 84,
+          "luck_skill_id": 10000,
+          "value": 750,
+          "value_ext": 0
+        }
+      ],
+      "values": [
+        96,
+        750
+      ],
+      "value_ext": 200
+    },
+    {
+      "id": 10001,
+      "luck_skill_type_id": 1,
+      "name": "クリティカル",
+      "description": "稀に敵へのダメージ量が増加する",
+      "created_at": 1448467773,
+      "updated_at": 1448467773,
+      "luck_skill_values": [
+        {
+          "id": 85,
+          "luck_skill_id": 10001,
+          "value": 192,
+          "value_ext": 400
+        },
+        {
+          "id": 86,
+          "luck_skill_id": 10001,
+          "value": 750,
+          "value_ext": 0
+        }
+      ],
+      "values": [
+        192,
+        750
+      ],
+      "value_ext": 400
+    },
+    {
+      "id": 10002,
+      "luck_skill_type_id": 1,
+      "name": "クリティカル",
+      "description": "稀に敵へのダメージ量が増加する",
+      "created_at": 1448467773,
+      "updated_at": 1448467773,
+      "luck_skill_values": [
+        {
+          "id": 87,
+          "luck_skill_id": 10002,
+          "value": 72,
+          "value_ext": 150
+        },
+        {
+          "id": 88,
+          "luck_skill_id": 10002,
+          "value": 750,
+          "value_ext": 0
+        }
+      ],
+      "values": [
+        72,
+        750
+      ],
+      "value_ext": 150
+    },
+    {
+      "id": 10003,
+      "luck_skill_type_id": 1,
+      "name": "クリティカル",
+      "description": "稀に敵へのダメージ量が増加する",
+      "created_at": 1448467773,
+      "updated_at": 1448467773,
+      "luck_skill_values": [
+        {
+          "id": 89,
+          "luck_skill_id": 10003,
+          "value": 96,
+          "value_ext": 200
+        },
+        {
+          "id": 90,
+          "luck_skill_id": 10003,
+          "value": 750,
+          "value_ext": 0
+        }
+      ],
+      "values": [
+        96,
+        750
+      ],
+      "value_ext": 200
+    },
+    {
+      "id": 10010,
+      "luck_skill_type_id": 1,
+      "name": "クリティカル",
+      "description": "稀に敵へのダメージ量が増加する",
+      "created_at": 1448467773,
+      "updated_at": 1448467773,
+      "luck_skill_values": [
+        {
+          "id": 91,
+          "luck_skill_id": 10010,
+          "value": 96,
+          "value_ext": 200
+        },
+        {
+          "id": 92,
+          "luck_skill_id": 10010,
+          "value": 750,
+          "value_ext": 0
+        }
+      ],
+      "values": [
+        96,
+        750
+      ],
+      "value_ext": 200
+    },
+    {
+      "id": 10011,
+      "luck_skill_type_id": 1,
+      "name": "クリティカル",
+      "description": "稀に敵へのダメージ量が増加する",
+      "created_at": 1448467774,
+      "updated_at": 1448467774,
+      "luck_skill_values": [
+        {
+          "id": 93,
+          "luck_skill_id": 10011,
+          "value": 192,
+          "value_ext": 400
+        },
+        {
+          "id": 94,
+          "luck_skill_id": 10011,
+          "value": 750,
+          "value_ext": 0
+        }
+      ],
+      "values": [
+        192,
+        750
+      ],
+      "value_ext": 400
+    },
+    {
+      "id": 10012,
+      "luck_skill_type_id": 1,
+      "name": "クリティカル",
+      "description": "稀に敵へのダメージ量が増加する",
+      "created_at": 1448467774,
+      "updated_at": 1448467774,
+      "luck_skill_values": [
+        {
+          "id": 95,
+          "luck_skill_id": 10012,
+          "value": 72,
+          "value_ext": 150
+        },
+        {
+          "id": 96,
+          "luck_skill_id": 10012,
+          "value": 750,
+          "value_ext": 0
+        }
+      ],
+      "values": [
+        72,
+        750
+      ],
+      "value_ext": 150
+    },
+    {
+      "id": 10013,
+      "luck_skill_type_id": 1,
+      "name": "クリティカル",
+      "description": "稀に敵へのダメージ量が増加する",
+      "created_at": 1448467774,
+      "updated_at": 1448467774,
+      "luck_skill_values": [
+        {
+          "id": 97,
+          "luck_skill_id": 10013,
+          "value": 96,
+          "value_ext": 200
+        },
+        {
+          "id": 98,
+          "luck_skill_id": 10013,
+          "value": 750,
+          "value_ext": 0
+        }
+      ],
+      "values": [
+        96,
+        750
+      ],
+      "value_ext": 200
+    },
+    {
+      "id": 10100,
+      "luck_skill_type_id": 1,
+      "name": "クリティカル",
+      "description": "稀に敵へのダメージ量が増加する",
+      "created_at": 1448467774,
+      "updated_at": 1448467774,
+      "luck_skill_values": [
+        {
+          "id": 99,
+          "luck_skill_id": 10100,
+          "value": 1,
+          "value_ext": 100
+        },
+        {
+          "id": 100,
+          "luck_skill_id": 10100,
+          "value": 750,
+          "value_ext": 0
+        }
+      ],
+      "values": [
+        1,
+        750
+      ],
+      "value_ext": 100
+    },
+    {
+      "id": 10101,
+      "luck_skill_type_id": 1,
+      "name": "クリティカル",
+      "description": "稀に敵へのダメージ量が増加する",
+      "created_at": 1448467774,
+      "updated_at": 1448467774,
+      "luck_skill_values": [
+        {
+          "id": 101,
+          "luck_skill_id": 10101,
+          "value": 1,
+          "value_ext": 200
+        },
+        {
+          "id": 102,
+          "luck_skill_id": 10101,
+          "value": 750,
+          "value_ext": 0
+        }
+      ],
+      "values": [
+        1,
+        750
+      ],
+      "value_ext": 200
+    },
+    {
+      "id": 10102,
+      "luck_skill_type_id": 1,
+      "name": "クリティカル",
+      "description": "稀に敵へのダメージ量が増加する",
+      "created_at": 1448467774,
+      "updated_at": 1448467774,
+      "luck_skill_values": [
+        {
+          "id": 103,
+          "luck_skill_id": 10102,
+          "value": 1,
+          "value_ext": 80
+        },
+        {
+          "id": 104,
+          "luck_skill_id": 10102,
+          "value": 750,
+          "value_ext": 0
+        }
+      ],
+      "values": [
+        1,
+        750
+      ],
+      "value_ext": 80
+    },
+    {
+      "id": 10103,
+      "luck_skill_type_id": 1,
+      "name": "クリティカル",
+      "description": "稀に敵へのダメージ量が増加する",
+      "created_at": 1448467774,
+      "updated_at": 1448467774,
+      "luck_skill_values": [
+        {
+          "id": 105,
+          "luck_skill_id": 10103,
+          "value": 1,
+          "value_ext": 100
+        },
+        {
+          "id": 106,
+          "luck_skill_id": 10103,
+          "value": 750,
+          "value_ext": 0
+        }
+      ],
+      "values": [
+        1,
+        750
+      ],
+      "value_ext": 100
+    },
+    {
+      "id": 10110,
+      "luck_skill_type_id": 1,
+      "name": "クリティカル",
+      "description": "稀に敵へのダメージ量が増加する",
+      "created_at": 1448467775,
+      "updated_at": 1448467775,
+      "luck_skill_values": [
+        {
+          "id": 107,
+          "luck_skill_id": 10110,
+          "value": 1,
+          "value_ext": 100
+        },
+        {
+          "id": 108,
+          "luck_skill_id": 10110,
+          "value": 750,
+          "value_ext": 0
+        }
+      ],
+      "values": [
+        1,
+        750
+      ],
+      "value_ext": 100
+    },
+    {
+      "id": 10111,
+      "luck_skill_type_id": 1,
+      "name": "クリティカル",
+      "description": "稀に敵へのダメージ量が増加する",
+      "created_at": 1448467775,
+      "updated_at": 1448467775,
+      "luck_skill_values": [
+        {
+          "id": 109,
+          "luck_skill_id": 10111,
+          "value": 1,
+          "value_ext": 200
+        },
+        {
+          "id": 110,
+          "luck_skill_id": 10111,
+          "value": 750,
+          "value_ext": 0
+        }
+      ],
+      "values": [
+        1,
+        750
+      ],
+      "value_ext": 200
+    },
+    {
+      "id": 10112,
+      "luck_skill_type_id": 1,
+      "name": "クリティカル",
+      "description": "稀に敵へのダメージ量が増加する",
+      "created_at": 1448467775,
+      "updated_at": 1448467775,
+      "luck_skill_values": [
+        {
+          "id": 111,
+          "luck_skill_id": 10112,
+          "value": 1,
+          "value_ext": 80
+        },
+        {
+          "id": 112,
+          "luck_skill_id": 10112,
+          "value": 750,
+          "value_ext": 0
+        }
+      ],
+      "values": [
+        1,
+        750
+      ],
+      "value_ext": 80
+    },
+    {
+      "id": 10113,
+      "luck_skill_type_id": 1,
+      "name": "クリティカル",
+      "description": "稀に敵へのダメージ量が増加する",
+      "created_at": 1448467775,
+      "updated_at": 1448467775,
+      "luck_skill_values": [
+        {
+          "id": 113,
+          "luck_skill_id": 10113,
+          "value": 1,
+          "value_ext": 100
+        },
+        {
+          "id": 114,
+          "luck_skill_id": 10113,
+          "value": 750,
+          "value_ext": 0
+        }
+      ],
+      "values": [
+        1,
+        750
+      ],
+      "value_ext": 100
+    },
+    {
+      "id": 20000,
+      "luck_skill_type_id": 2,
+      "name": "シールド",
+      "description": "稀に自身へのダメージ量が激減する",
+      "created_at": 1448467775,
+      "updated_at": 1448467775,
+      "luck_skill_values": [
+        {
+          "id": 115,
+          "luck_skill_id": 20000,
+          "value": 300,
+          "value_ext": 800
+        }
+      ],
+      "values": [
+        300
+      ],
+      "value_ext": 800
+    },
+    {
+      "id": 20001,
+      "luck_skill_type_id": 2,
+      "name": "シールド",
+      "description": "稀に自身へのダメージ量が激減する",
+      "created_at": 1448467775,
+      "updated_at": 1448467775,
+      "luck_skill_values": [
+        {
+          "id": 116,
+          "luck_skill_id": 20001,
+          "value": 300,
+          "value_ext": 800
+        }
+      ],
+      "values": [
+        300
+      ],
+      "value_ext": 800
+    },
+    {
+      "id": 20002,
+      "luck_skill_type_id": 2,
+      "name": "シールド",
+      "description": "稀に自身へのダメージ量が激減する",
+      "created_at": 1448467775,
+      "updated_at": 1448467775,
+      "luck_skill_values": [
+        {
+          "id": 117,
+          "luck_skill_id": 20002,
+          "value": 300,
+          "value_ext": 800
+        }
+      ],
+      "values": [
+        300
+      ],
+      "value_ext": 800
+    },
+    {
+      "id": 20003,
+      "luck_skill_type_id": 2,
+      "name": "シールド",
+      "description": "稀に自身へのダメージ量が激減する",
+      "created_at": 1448467775,
+      "updated_at": 1448467775,
+      "luck_skill_values": [
+        {
+          "id": 118,
+          "luck_skill_id": 20003,
+          "value": 300,
+          "value_ext": 800
+        }
+      ],
+      "values": [
+        300
+      ],
+      "value_ext": 800
+    },
+    {
+      "id": 20100,
+      "luck_skill_type_id": 2,
+      "name": "シールド",
+      "description": "稀に自身へのダメージ量が激減する",
+      "created_at": 1448467776,
+      "updated_at": 1448467776,
+      "luck_skill_values": [
+        {
+          "id": 119,
+          "luck_skill_id": 20100,
+          "value": 100,
+          "value_ext": 400
+        }
+      ],
+      "values": [
+        100
+      ],
+      "value_ext": 400
+    },
+    {
+      "id": 20101,
+      "luck_skill_type_id": 2,
+      "name": "シールド",
+      "description": "稀に自身へのダメージ量が激減する",
+      "created_at": 1448467776,
+      "updated_at": 1448467776,
+      "luck_skill_values": [
+        {
+          "id": 120,
+          "luck_skill_id": 20101,
+          "value": 100,
+          "value_ext": 400
+        }
+      ],
+      "values": [
+        100
+      ],
+      "value_ext": 400
+    },
+    {
+      "id": 20102,
+      "luck_skill_type_id": 2,
+      "name": "シールド",
+      "description": "稀に自身へのダメージ量が激減する",
+      "created_at": 1448467776,
+      "updated_at": 1448467776,
+      "luck_skill_values": [
+        {
+          "id": 121,
+          "luck_skill_id": 20102,
+          "value": 100,
+          "value_ext": 400
+        }
+      ],
+      "values": [
+        100
+      ],
+      "value_ext": 400
+    },
+    {
+      "id": 20103,
+      "luck_skill_type_id": 2,
+      "name": "シールド",
+      "description": "稀に自身へのダメージ量が激減する",
+      "created_at": 1448467776,
+      "updated_at": 1448467776,
+      "luck_skill_values": [
+        {
+          "id": 122,
+          "luck_skill_id": 20103,
+          "value": 100,
+          "value_ext": 400
+        }
+      ],
+      "values": [
+        100
+      ],
+      "value_ext": 400
+    },
+    {
+      "id": 30000,
+      "luck_skill_type_id": 3,
+      "name": "ガイド",
+      "description": "稀にショット時にガイドが表示される",
+      "created_at": 1457950498,
+      "updated_at": 1457950498,
+      "luck_skill_values": [
+        {
+          "id": 123,
+          "luck_skill_id": 30000,
+          "value": 1500,
+          "value_ext": 3000
+        }
+      ],
+      "values": [
+        1500
+      ],
+      "value_ext": 3000
+    },
+    {
+      "id": 30100,
+      "luck_skill_type_id": 3,
+      "name": "ガイド",
+      "description": "稀にショット時にガイドが表示される",
+      "created_at": 1457950498,
+      "updated_at": 1457950498,
+      "luck_skill_values": [
+        {
+          "id": 124,
+          "luck_skill_id": 30100,
+          "value": 600,
+          "value_ext": 1800
+        }
+      ],
+      "values": [
+        600
+      ],
+      "value_ext": 1800
+    },
+    {
+      "id": 40000,
+      "luck_skill_type_id": 4,
+      "name": "友情コンボクリティカル",
+      "description": "稀に友情コンボによる敵へのダメージ量が増加する",
+      "created_at": 1458748972,
+      "updated_at": 1458748972,
+      "luck_skill_values": [
+        {
+          "id": 125,
+          "luck_skill_id": 40000,
+          "value": 300,
+          "value_ext": 800
+        },
+        {
+          "id": 126,
+          "luck_skill_id": 40000,
+          "value": 300,
+          "value_ext": 0
+        }
+      ],
+      "values": [
+        300,
+        300
+      ],
+      "value_ext": 800
+    },
+    {
+      "id": 40001,
+      "luck_skill_type_id": 4,
+      "name": "友情コンボクリティカル",
+      "description": "稀に友情コンボによる敵へのダメージ量が増加する",
+      "created_at": 1458748972,
+      "updated_at": 1458748972,
+      "luck_skill_values": [
+        {
+          "id": 127,
+          "luck_skill_id": 40001,
+          "value": 300,
+          "value_ext": 800
+        },
+        {
+          "id": 128,
+          "luck_skill_id": 40001,
+          "value": 300,
+          "value_ext": 0
+        }
+      ],
+      "values": [
+        300,
+        300
+      ],
+      "value_ext": 800
+    },
+    {
+      "id": 40002,
+      "luck_skill_type_id": 4,
+      "name": "友情コンボクリティカル",
+      "description": "稀に友情コンボによる敵へのダメージ量が増加する",
+      "created_at": 1458748972,
+      "updated_at": 1458748972,
+      "luck_skill_values": [
+        {
+          "id": 129,
+          "luck_skill_id": 40002,
+          "value": 300,
+          "value_ext": 800
+        },
+        {
+          "id": 130,
+          "luck_skill_id": 40002,
+          "value": 300,
+          "value_ext": 0
+        }
+      ],
+      "values": [
+        300,
+        300
+      ],
+      "value_ext": 800
+    },
+    {
+      "id": 40003,
+      "luck_skill_type_id": 4,
+      "name": "友情コンボクリティカル",
+      "description": "稀に友情コンボによる敵へのダメージ量が増加する",
+      "created_at": 1458748972,
+      "updated_at": 1458748972,
+      "luck_skill_values": [
+        {
+          "id": 131,
+          "luck_skill_id": 40003,
+          "value": 300,
+          "value_ext": 800
+        },
+        {
+          "id": 132,
+          "luck_skill_id": 40003,
+          "value": 300,
+          "value_ext": 0
+        }
+      ],
+      "values": [
+        300,
+        300
+      ],
+      "value_ext": 800
+    },
+    {
+      "id": 40100,
+      "luck_skill_type_id": 4,
+      "name": "友情コンボクリティカル",
+      "description": "稀に友情コンボによる敵へのダメージ量が増加する",
+      "created_at": 1458748972,
+      "updated_at": 1458748972,
+      "luck_skill_values": [
+        {
+          "id": 133,
+          "luck_skill_id": 40100,
+          "value": 100,
+          "value_ext": 400
+        },
+        {
+          "id": 134,
+          "luck_skill_id": 40100,
+          "value": 300,
+          "value_ext": 0
+        }
+      ],
+      "values": [
+        100,
+        300
+      ],
+      "value_ext": 400
+    },
+    {
+      "id": 40101,
+      "luck_skill_type_id": 4,
+      "name": "友情コンボクリティカル",
+      "description": "稀に友情コンボによる敵へのダメージ量が増加する",
+      "created_at": 1458748973,
+      "updated_at": 1458748973,
+      "luck_skill_values": [
+        {
+          "id": 135,
+          "luck_skill_id": 40101,
+          "value": 100,
+          "value_ext": 400
+        },
+        {
+          "id": 136,
+          "luck_skill_id": 40101,
+          "value": 300,
+          "value_ext": 0
+        }
+      ],
+      "values": [
+        100,
+        300
+      ],
+      "value_ext": 400
+    },
+    {
+      "id": 40102,
+      "luck_skill_type_id": 4,
+      "name": "友情コンボクリティカル",
+      "description": "稀に友情コンボによる敵へのダメージ量が増加する",
+      "created_at": 1458748973,
+      "updated_at": 1458748973,
+      "luck_skill_values": [
+        {
+          "id": 137,
+          "luck_skill_id": 40102,
+          "value": 100,
+          "value_ext": 400
+        },
+        {
+          "id": 138,
+          "luck_skill_id": 40102,
+          "value": 300,
+          "value_ext": 0
+        }
+      ],
+      "values": [
+        100,
+        300
+      ],
+      "value_ext": 400
+    },
+    {
+      "id": 40103,
+      "luck_skill_type_id": 4,
+      "name": "友情コンボクリティカル",
+      "description": "稀に友情コンボによる敵へのダメージ量が増加する",
+      "created_at": 1458748973,
+      "updated_at": 1458748973,
+      "luck_skill_values": [
+        {
+          "id": 139,
+          "luck_skill_id": 40103,
+          "value": 100,
+          "value_ext": 400
+        },
+        {
+          "id": 140,
+          "luck_skill_id": 40103,
+          "value": 300,
+          "value_ext": 0
+        }
+      ],
+      "values": [
+        100,
+        300
+      ],
+      "value_ext": 400
+    }
+  ]
+}

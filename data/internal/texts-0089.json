@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 1,
+  "table": "texts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 22858,
+      "text": "キャラ1体につき、1回のみ使用可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_12408"
+    },
+    {
+      "id": 22859,
+      "text": "英雄の証を解放",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_ME_GEM_REWARD_ADVANCED"
+    },
+    {
+      "id": 22860,
+      "text": "[LC]破界の星墓とは[LF][LF][CCB:dlme/help_seibo_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_SEIBO_MSG_HELP"
+    },
+    {
+      "id": 22861,
+      "text": "[LC]「破界の星墓」出現中！[LF][LF]%sの期間で出現！[LF][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_ME_MSG_SEIBO_INTRO"
+    },
+    {
+      "id": 22862,
+      "text": "破界の星墓",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_ME_SEIBO_TITLE"
+    },
+    {
+      "id": 22863,
+      "text": "[LC]お知らせ[LF][LF][LC]開催期間外です",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_SEIBO_EVENT_EXPIRED"
+    },
+    {
+      "id": 22864,
+      "text": "[LC]報酬一覧[LF][LF][TAB|WIDTH565:BATTLE突破][NODE][TAB|WIDTH565:全クエストBATTLE突破][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1774517600,
+      "label": "eTEXTS_DEF_SEIBO_REWARD_DIALOG"
+    },
+    {
+      "id": 22865,
+      "text": "[C6:%d] BATTLE突破しました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_SEIBO_RESULT_CLEARED_PHASE_LABEL"
+    },
+    {
+      "id": 22866,
+      "text": "BATTLE突破数：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_SEIBO_RESULT_TOTAL_CLEARED_PHASE_LABEL"
+    },
+    {
+      "id": 22867,
+      "text": "開催期間外",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_SEIBO_TIMEOUT_LABEL"
+    },
+    {
+      "id": 22868,
+      "text": "破界の星墓の開催期間は終了しているため[LF]挑戦できません[LF][LF]EXステージは出現から24時間挑戦可能です",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_SEIBO_NORMAL_STAGE_TIMEOUT_DIALOG"
+    },
+    {
+      "id": 22869,
+      "text": "クエスト終了後、48時間が経過してるため、[LF]今回更新されたBATTLE突破は無効となります",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_SEIBO_QUEST_OVERTIME_48HOUR_MSG"
+    },
+    {
+      "id": 22870,
+      "text": "破界の星墓",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_SEIBO_RESULT_TITLE"
+    },
+    {
+      "id": 22871,
+      "text": "ランダムBOX",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_SEIBO_RANDOM_REWARD_TITLE"
+    },
+    {
+      "id": 22872,
+      "text": "[LC]報酬獲得[LF][LF]以下の報酬を獲得しました[LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_SEIBO_RESULT_REWARD_DIALOG"
+    },
+    {
+      "id": 22873,
+      "text": "合計 %d BATTLE突破",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_SEIBO_RESULT_CONFIRM_REWARD_TITLE"
+    },
+    {
+      "id": 22874,
+      "text": "ガチャ玉のカケラ %d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_SEIBO_RESULT_GACHABALL_REWARD_TITLE"
+    },
+    {
+      "id": 22875,
+      "text": "ガチャ玉のカケラ[C6:%d]個を獲得しました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1774517600,
+      "label": "eTEXTS_DEF_SEIBO_RESULT_GACHABALL_REWARD_LABEL"
+    },
+    {
+      "id": 22876,
+      "text": "[IMG:uiitem_10000052.png|0.72]ランダムBOX",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_SEIBO_REWARD_RANDOM_BOX_NAME"
+    },
+    {
+      "id": 22877,
+      "text": "3 BATTLE突破毎に獲得できます[LF]※10BATTLE突破する毎に別の報酬を獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1774517600,
+      "label": "eTEXTS_DEF_SEIBO_REWARD_DIALOG_PHASE_CLEAR_DESCRIPTION"
+    },
+    {
+      "id": 22878,
+      "text": "BOXから入手できるアイテム",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_SEIBO_REWARD_DIALOG_RANDOM_BOX_HEADING"
+    },
+    {
+      "id": 22879,
+      "text": "現在のガチャ玉のカケラ：%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_SEIBO_REWARD_GACHABALL_CURRENT_LABEL"
+    },
+    {
+      "id": 22880,
+      "text": "ガチャ玉のカケラ獲得条件",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_SEIBO_REWARD_GACHABALL_DESCRIPTION_TITLE"
+    },
+    {
+      "id": 22881,
+      "text": "全10クエストでBATTLE1/2/3以上突破で獲得可能",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_SEIBO_REWARD_GACHABALL_DESCRIPTION_LABEL"
+    },
+    {
+      "id": 22882,
+      "text": "獲得済報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_SEIBO_REWARD_GACHABALL_RECEIVED_HEADING"
+    },
+    {
+      "id": 22883,
+      "text": "[LC]クエスト解放！[LF][LF]破界の星墓[LF]%s[LF]が挑戦可能になりました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_SEIBO_RESULT_RELEASE_STAGE_DIALOG"
+    },
+    {
+      "id": 22884,
+      "text": "[LC]全クエスト解放！[LF][LF]全ステージが解放されました！[LF]全10ステージで一定数以上のBATTLE突破して[LF]ガチャ玉のカケラを獲得しましょう[LF][LF][b:ba_seibo_all_stage.png]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_SEIBO_RESULT_ALL_STAGE_RELEASE_DIALOG"
+    },
+    {
+      "id": 22885,
+      "text": "EXステージ出現中!",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_STAGE_CLASS_ICON_ASSAULT_APPEARING_LABEL"
+    },
+    {
+      "id": 22886,
+      "text": "最大BATTLE突破数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_SEIBO_RECORD_MAX_PHASE_CNT"
+    },
+    {
+      "id": 22887,
+      "text": "制覇回数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_SEIBO_RECORD_COMPLETE_CNT"
+    },
+    {
+      "id": 22888,
+      "text": "破界の星墓 最大BATTLE突破数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_PLAYERCARD_SEIBO_MOST_CLEAR_PHASE_CNT"
+    },
+    {
+      "id": 22889,
+      "text": "破界の星墓 制覇回数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_PLAYERCARD_SEIBO_COMPLETE_CNT"
+    },
+    {
+      "id": 22890,
+      "text": "｢破界の星墓｣の通知",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_OPTION_CONTENTS_NOTIFICATION_ITEM_SEIBO"
+    },
+    {
+      "id": 22891,
+      "text": "｢破界の星墓｣の開催時",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_OPTION_CONTENTS_NOTIFICATION_SEIBO"
+    },
+    {
+      "id": 22892,
+      "text": "｢破界の星墓｣の終了前",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_OPTION_CONTENTS_NOTIFICATION_END_SEIBO"
+    },
+    {
+      "id": 22893,
+      "text": "「破界の星墓」が出現！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_NOTIFICATION_CONTENTS_SEIBO"
+    },
+    {
+      "id": 22894,
+      "text": "「破界の星墓」が終了間近です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_END_NOTIFICATON_CONTENTS_SEIBO"
+    },
+    {
+      "id": 22895,
+      "text": "[BG_STR:|WIDTH:300|WCSTR:640|CSTR:合計BATTLE突破数：[C6:%d]/%d]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_SEIBO_BATTLE_COUNT_LABEL"
+    },
+    {
+      "id": 22896,
+      "text": "[SW0.8][C6:BATTLE突破を積み重ね、星墓の最奥を目指せ！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57500"
+    },
+    {
+      "id": 22897,
+      "text": "[b:ba_help_seibo_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57501"
+    },
+    {
+      "id": 22898,
+      "text": "[C5:破界の星墓に挑戦]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57502"
+    },
+    {
+      "id": 22899,
+      "text": "破界の星墓は、以下の条件を[C6:1つでも満たすと][LF]挑戦できる、超高難易度の特別なクエストです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57503"
+    },
+    {
+      "id": 22900,
+      "text": "挑戦条件（いずれか1つ）",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57504"
+    },
+    {
+      "id": 22901,
+      "text": "・絶級の記録 [C6:超絶15種] 以上クリア[LF]・絶級の記録 [C6:爆絶5種] 以上クリア[LF]・絶級の記録 [C6:轟絶1種] 以上クリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57505"
+    },
+    {
+      "id": 22902,
+      "text": "[C5:遊び方]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57506"
+    },
+    {
+      "id": 22903,
+      "text": "破界の星墓では、より多くの[C6:BATTLE突破]が[LF]各クエストの目標になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57507"
+    },
+    {
+      "id": 22904,
+      "text": "BATTLE突破数:[C6:2]/6",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57508"
+    },
+    {
+      "id": 22905,
+      "text": "[C6:クリアできなくても、BATTLE突破数]が[LF]増えると、[C6:次のクエストが解放されたり、][LF][C6:報酬が獲得]できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57509"
+    },
+    {
+      "id": 22906,
+      "text": "合計BATTLE突破数:　[C6:1]/60",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57510"
+    },
+    {
+      "id": 22907,
+      "text": "[C6:解放！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57511"
+    },
+    {
+      "id": 22908,
+      "text": "ニギミタマの星墓",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1774517600,
+      "label": "eTEXTS_DEF_57512"
+    },
+    {
+      "id": 22909,
+      "text": "BATTLE突破数:[C6:0]/6",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57513"
+    },
+    {
+      "id": 22910,
+      "text": "※[C6:1度突破したBATTLEを再度突破]しても[LF]　合計BATTLE突破数にはカウントされません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57514"
+    },
+    {
+      "id": 22911,
+      "text": "[C5:報酬について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57515"
+    },
+    {
+      "id": 22912,
+      "text": "BATTLE突破報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57516"
+    },
+    {
+      "id": 22913,
+      "text": "破界の星墓の[C6:開催毎]に[C6:合計BATTLE突破数]が[LF][C6:一定まで達する]と報酬を獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57517"
+    },
+    {
+      "id": 22914,
+      "text": "全クエストBATTLE突破報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57518"
+    },
+    {
+      "id": 22915,
+      "text": "破界の星墓の[C6:開催毎]に[C6:10クエスト全てで][LF][C6:BATTLE1以上突破]することで獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57519"
+    },
+    {
+      "id": 22916,
+      "text": "[LC]全クエストで[LF][LC]1～3BATTLE突破",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57520"
+    },
+    {
+      "id": 22917,
+      "text": "BATTLE突破数:[C6:3]/6",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57521"
+    },
+    {
+      "id": 22918,
+      "text": "[LC][C6:ガチャ玉の][LF][LC][C6:カケラ][LF][LC][C6:1～3個獲得！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57522"
+    },
+    {
+      "id": 22919,
+      "text": "ガチャ玉のカケラが[C6:3個貯まるごとに][LF][C6:ガチャ玉を1個獲得]できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57523"
+    },
+    {
+      "id": 22920,
+      "text": "ガチャ玉のカケラ3個",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57524"
+    },
+    {
+      "id": 22921,
+      "text": "ガチャ玉",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57525"
+    },
+    {
+      "id": 22922,
+      "text": "※1度獲得した報酬でも破界の星墓の[C6:開催毎に][LF]　[C6:再度獲得可能]です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57526"
+    },
+    {
+      "id": 22923,
+      "text": "[C5:マルチプレイのゲスト参加について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57527"
+    },
+    {
+      "id": 22924,
+      "text": "ゲストで参加していても[LF][C6:BATTLE突破数はカウント]されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57528"
+    },
+    {
+      "id": 22925,
+      "text": "ゲストでは自分がまだ解放していない[LF]クエストでも挑戦することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57529"
+    },
+    {
+      "id": 22926,
+      "text": "[C5:BATTLE突破数の確認]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57530"
+    },
+    {
+      "id": 22927,
+      "text": "各クエストごとに[C6:現在の突破数]と[LF]これまでの[C6:最高突破数]を確認することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57531"
+    },
+    {
+      "id": 22928,
+      "text": "[C6:現在の突破数]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57532"
+    },
+    {
+      "id": 22929,
+      "text": "BATTLE突破数:[C6:2]/6",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57533"
+    },
+    {
+      "id": 22930,
+      "text": "[C6:最高突破数]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57534"
+    },
+    {
+      "id": 22931,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20260319_2.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1774517600,
+      "label": "eTEXTS_DEF_57535"
+    },
+    {
+      "id": 22932,
+      "text": "クラッシュトレジャー",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_ME_WALLBREAK_TITLE"
+    },
+    {
+      "id": 22933,
+      "text": "[LC]クラッシュトレジャーとは[LF][LF][CCB:dlme/help_wallbreak_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_MSG_WALLBREAK_HELP"
+    },
+    {
+      "id": 22934,
+      "text": "8/2 12:00 ～ 8/19 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_ME_WALLBREAK_PERIOD"
+    },
+    {
+      "id": 22935,
+      "text": "対象クエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_ME_WALLBREAK_PARTS_1"
+    },
+    {
+      "id": 22936,
+      "text": "%d/%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_ME_WALLBREAK_PARTS_3"
+    },
+    {
+      "id": 22937,
+      "text": "アイテム残り：%d/%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_ME_WALLBREAK_PARTS_4"
+    },
+    {
+      "id": 22938,
+      "text": "難易度%s",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_ME_WALLBREAK_PARTS_5"
+    },
+    {
+      "id": 22939,
+      "text": "[LC]報酬一覧[LF][WIDTH565][LF][TAB|WIDTH565:発見報酬][NODE][TAB|WIDTH565:最高難易度クリア報酬][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_MSG_WALLBREAK_REWARD_LIST"
+    },
+    {
+      "id": 22940,
+      "text": "獲得上限あり",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_ME_WALLBREAK_REWARD_LIST_PARTS_1"
+    },
+    {
+      "id": 22941,
+      "text": "獲得上限なし",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_ME_WALLBREAK_REWARD_LIST_PARTS_2"
+    },
+    {
+      "id": 22942,
+      "text": "残り",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_ME_WALLBREAK_REWARD_LIST_PARTS_3"
+    },
+    {
+      "id": 22943,
+      "text": "%d個",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_ME_WALLBREAK_REWARD_LIST_PARTS_4"
+    },
+    {
+      "id": 22944,
+      "text": "[C6:★%dで解放]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_ME_WALLBREAK_REWARD_LIST_PARTS_5"
+    },
+    {
+      "id": 22945,
+      "text": "難易度★★★★★のパネルを初クリアすると獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_ME_WALLBREAK_REWARD_LIST_PARTS_6"
+    },
+    {
+      "id": 22946,
+      "text": "[LC]アイテム発見！[LF][LF]以下のアイテムを発見しました[LF][LC][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_MSG_WALLBREAK_REWARD"
+    },
+    {
+      "id": 22947,
+      "text": "[LC]トレジャー成功！[LF][LF]隠されたアイテムをすべて発見しました[LF]パネルがリセットされます",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_MSG_WALLBREAK_BOARD_COMPLETE"
+    },
+    {
+      "id": 22948,
+      "text": "[LC]リセット[LF][LF]現在プレイ中のパネルをリセットします[LF][C2:リセットすると未発見のアイテムが][LF][C2:獲得できなくなります][LF][LF]本当によろしいですか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_MSG_WALLBREAK_RESET_BOARD_CONFIRM"
+    },
+    {
+      "id": 22949,
+      "text": "[LC]リセット[LF][LF]パネルをリセットしました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_MSG_WALLBREAK_RESET_BOARD_SUCCESS"
+    },
+    {
+      "id": 22950,
+      "text": "[LC]クラッシュチップがありません[LF][LF]対象クエストをクリアすると[LF]クラッシュチップを獲得できます",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_ERR_WALLBREAK_NO_MEMORY"
+    },
+    {
+      "id": 22951,
+      "text": "[LC]未プレイのパネルはリセットできません",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_ERR_WALLBREAK_CANT_RESET"
+    },
+    {
+      "id": 22952,
+      "text": "対象クエストは現在出現していません[LF][LF]出現時間はスケジュールで確認可能です",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_ERR_WALLBREAK_NON_OPEN_STAGE"
+    },
+    {
+      "id": 22953,
+      "text": "全ての難易度★★★★★をクリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_ME_WALLBREAK_REWARD_LIST_PARTS_7"
+    },
+    {
+      "id": 22954,
+      "text": "[C6:%d]/%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_ME_WALLBREAK_PARTS_9"
+    },
+    {
+      "id": 22955,
+      "text": "特別報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_RESULT_WALLBREAK_CLEAR_BONUS"
+    },
+    {
+      "id": 22956,
+      "text": "クラッシュチップA",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_RESULT_WALLBREAK_ITEM_A"
+    },
+    {
+      "id": 22957,
+      "text": "クラッシュチップB",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_RESULT_WALLBREAK_ITEM_B"
+    },
+    {
+      "id": 22958,
+      "text": "クラッシュチップC",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_RESULT_WALLBREAK_ITEM_C"
+    },
+    {
+      "id": 22959,
+      "text": "[C6:★]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_ME_WALLBREAK_PARTS_10"
+    },
+    {
+      "id": 22960,
+      "text": "クリア報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_MSG_WALLBREAK_REWARD_PARTS_1"
+    },
+    {
+      "id": 22961,
+      "text": "全達成報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_MSG_WALLBREAK_REWARD_PARTS_2"
+    },
+    {
+      "id": 22962,
+      "text": "[SW0.8][C6:ブロックを破壊して隠されたアイテムを探そう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57700"
+    },
+    {
+      "id": 22963,
+      "text": "[b:ba_help_wallbreak_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57701"
+    },
+    {
+      "id": 22964,
+      "text": "クラッシュチップの力でブロックを破壊して[LF]隠されたアイテムを見つけ出すことができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57702"
+    },
+    {
+      "id": 22965,
+      "text": "[C5:クラッシュチップの入手方法]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57703"
+    },
+    {
+      "id": 22966,
+      "text": "[C6:対象クエストをクリア]すると[C6:チップ]が入手できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57704"
+    },
+    {
+      "id": 22967,
+      "text": "[C6:クリア！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57705"
+    },
+    {
+      "id": 22968,
+      "text": "クエストをクリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57706"
+    },
+    {
+      "id": 22969,
+      "text": "マルチプレイでクリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57707"
+    },
+    {
+      "id": 22970,
+      "text": "金卵以外の報酬を15個獲得",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57708"
+    },
+    {
+      "id": 22971,
+      "text": "また、対象クエストのいずれかで、[C6:1日1回だけ][LF][C6:ボーナス]としてチップが多めに獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57709"
+    },
+    {
+      "id": 22972,
+      "text": "対象クエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57710"
+    },
+    {
+      "id": 22973,
+      "text": "[TRYB:29000]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57711"
+    },
+    {
+      "id": 22974,
+      "text": "[TRYB:29010]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57712"
+    },
+    {
+      "id": 22975,
+      "text": "[TRYB:29020]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57713"
+    },
+    {
+      "id": 22976,
+      "text": "クエスト毎に[C6:異なるチップ]を獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57714"
+    },
+    {
+      "id": 22977,
+      "text": "チップを所持していると[LF][C6:クエストに対応したパネルに挑戦可能]になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57715"
+    },
+    {
+      "id": 22978,
+      "text": "※日付の切り替わりはAM4:00です[LF]※チップにはクエスト毎に所持上限があります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57716"
+    },
+    {
+      "id": 22979,
+      "text": "[C5:ブロックへの設置について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57717"
+    },
+    {
+      "id": 22980,
+      "text": "設置できる範囲はチップ毎に変わり[LF][C6:スワイプや回転]で設置場所を選択可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57718"
+    },
+    {
+      "id": 22981,
+      "text": "スワイプ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57719"
+    },
+    {
+      "id": 22982,
+      "text": "回転",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57720"
+    },
+    {
+      "id": 22983,
+      "text": "ブロックの状態によって破壊するのに必要な[LF]チップの必要個数が異なります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57721"
+    },
+    {
+      "id": 22984,
+      "text": "破壊",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57722"
+    },
+    {
+      "id": 22985,
+      "text": "[C6:全て破壊！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57723"
+    },
+    {
+      "id": 22986,
+      "text": "[C6:アイテムを隠しているブロックを][LF][C6:全て破壊するとアイテムを獲得]できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57724"
+    },
+    {
+      "id": 22987,
+      "text": "[C6:ゲット！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57725"
+    },
+    {
+      "id": 22988,
+      "text": "[C5:難易度について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57726"
+    },
+    {
+      "id": 22989,
+      "text": "各パネルでアイテムを全て発見すると[LF][C6:次の難易度のパネルが出現]します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57727"
+    },
+    {
+      "id": 22990,
+      "text": "難易度[C6:★]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57728"
+    },
+    {
+      "id": 22991,
+      "text": "難易度[C6:★★]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57729"
+    },
+    {
+      "id": 22992,
+      "text": "最高難易度のパネルについては[LF]繰り返し遊ぶことができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57730"
+    },
+    {
+      "id": 22993,
+      "text": "[C5:報酬について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57731"
+    },
+    {
+      "id": 22994,
+      "text": "発見報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57732"
+    },
+    {
+      "id": 22995,
+      "text": "隠してるブロックを全て破壊すると獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57733"
+    },
+    {
+      "id": 22996,
+      "text": "最高難易度クリア報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57734"
+    },
+    {
+      "id": 22997,
+      "text": "対象クエストの最高難易度のパネルで[LF]アイテムを全て発見すると獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57735"
+    },
+    {
+      "id": 22998,
+      "text": "難易度[C6:★★★★★]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57736"
+    },
+    {
+      "id": 22999,
+      "text": "[C5:リセットについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57737"
+    },
+    {
+      "id": 23000,
+      "text": "最高難易度のパネルをクリアすると任意の[LF]タイミングで[C6:リセット]することが可能になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57738"
+    },
+    {
+      "id": 23001,
+      "text": "リセットを行うとお宝報酬のアイテムが[LF]再抽選されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57739"
+    },
+    {
+      "id": 23002,
+      "text": "※一部のアイテムには出現上限があります[LF][LF]※詳細は[u:https://www.monster-strike.com/|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57740"
+    },
+    {
+      "id": 23003,
+      "text": "それぞれ1～2個獲得可能",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1753965440,
+      "updated_at": 1753965440,
+      "label": "eTEXTS_DEF_57741"
+    },
+    {
+      "id": 23004,
+      "text": "[LC]ガチャ開催期間終了間近[LF][LF]まもなくガチャ期間が終了します[LF]忘れずに引きましょう[LF][LF]ガチャ開催期間: %s[LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1754563062,
+      "updated_at": 1754563062,
+      "label": "eTEXTS_DEF_MSG_FLUCTUATION_GACHA_NEAR_END"
+    },
+    {
+      "id": 23006,
+      "text": "達成演出",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_ME_LUCK_MAX_TITLE"
+    },
+    {
+      "id": 23007,
+      "text": "達成演出",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_ME_RECORD_LUCK_MAX_LIST"
+    },
+    {
+      "id": 23008,
+      "text": "[LC]おすすめデッキ詳細[LF][LF]みんなが使ったデッキの中から[LF]あなたが組める最も勝率が高いデッキが表示されます[LF][LF][C6:■適正度◎][LF]勝率がかなり上位のデッキです[LF][LF][C6:■適正度〇][LF]勝率が上位のデッキです[LF][LF][C6:■表示無し][LF]おすすめできるデッキがありません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_SUGGEST_DECK_STAGE_BUTTON_HELP"
+    },
+    {
+      "id": 23009,
+      "text": "[LC]%s[LF][LF][NODE][LF]%sが降臨！[LF]破界の星墓から挑戦しよう！！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_MSG_SEIBO_ASSAULT_EVENT"
+    },
+    {
+      "id": 23010,
+      "text": "開催期間外",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_SHADOW_TOWER_TIMEOUT_LABEL"
+    },
+    {
+      "id": 23011,
+      "text": "禁忌の獄の開催期間は終了しているため[LF]挑戦できません[LF][LF]EXステージは出現から24時間挑戦可能です",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_SHADOW_TOWER_NORMAL_STAGE_TIMEOUT_DIALOG"
+    },
+    {
+      "id": 23012,
+      "text": "[LC]ミッション期間は終了しました[LF][LC]獲得したオーブポイントでルーレットを回そう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_ORB_ROULETTE_TOP_EMPTY_MISSION"
+    },
+    {
+      "id": 23013,
+      "text": "[LC]オーブポイントが0のため[LF]ルーレットを回すことはできません",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_MSG_ORB_ROULETTE_POINT_EMPTY_DIALOG"
+    },
+    {
+      "id": 23014,
+      "text": "%s",
+      "layout": 26,
+      "color": 0,
+      "created_at": 1755095794,
+      "updated_at": 1755095794,
+      "label": "eTEXTS_DEF_JAGGY_MAIL_DIALOG"
+    },
+    {
+      "id": 23015,
+      "text": "チャンネル登録",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755095794,
+      "updated_at": 1755095794,
+      "label": "eTEXTS_DEF_JAGGY_MAIL_BUTTON"
+    },
+    {
+      "id": 23016,
+      "text": "表示期間は終了しました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1755095794,
+      "updated_at": 1755095794,
+      "label": "eTEXTS_DEF_JAGGY_MAIL_EXPRIOD"
+    },
+    {
+      "id": 23017,
+      "text": "[LC]「天魔の孤城」リセット[LF][LF]クリア情報がリセットされました[LF25][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_MSG_TENKO_RESET_DIALOG"
+    },
+    {
+      "id": 23018,
+      "text": "リセットまであと%s",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_TENKO_RESET_REMAIN_TIME"
+    },
+    {
+      "id": 23019,
+      "text": "[LC]報酬一覧[LF][LF][TAB|WIDTH565|SB:通算報酬][NODE][TAB|WIDTH565|SB:空中庭園初制覇報酬][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_TENKO_RESULT_REWARD_DIALOG_2"
+    },
+    {
+      "id": 23020,
+      "text": "リセット：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_QUEST_NOTIFY_RESET"
+    },
+    {
+      "id": 23021,
+      "text": "[C5:リセットについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_33446"
+    },
+    {
+      "id": 23022,
+      "text": "天魔の孤城は[C6:毎月1日のAM4時にクリア状況が][LF][C6:リセットされます]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_33447"
+    },
+    {
+      "id": 23023,
+      "text": "空中庭園初制覇報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_33448"
+    },
+    {
+      "id": 23024,
+      "text": "[C6:空中庭園を初めて制覇]すると報酬を獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_33449"
+    },
+    {
+      "id": 23025,
+      "text": "リセット前通知",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_RESET_NOTIFICATON_CONTENTS_TITLE"
+    },
+    {
+      "id": 23026,
+      "text": "ホーム画面MENU>オプション>通知設定[LF]よりリセット前の通知設定を行えます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1786550613,
+      "label": "eTEXTS_DEF_QUEST_NOTIFY_DESCRIPTION_RESET"
+    },
+    {
+      "id": 23027,
+      "text": "英雄の証解放の対象外です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_ME_RELEASE_SAMETIME_CANNOT_USE_GEM_ADVANCED"
+    },
+    {
+      "id": 23028,
+      "text": "・[C6:大英雄の書]は使用すると[LF]　取り消すことができません[LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_ME_RELEASE_SAMETIME_CAUTION_GEM_ADVANCED"
+    },
+    {
+      "id": 23029,
+      "text": "[LC]大英雄の書を使用するには英雄の書による[LF][LC]英雄の証の解放が必要です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_ME_RELEASE_SAMETIME_TOAST_CAUTION_NO_SELECTED"
+    },
+    {
+      "id": 23030,
+      "text": "[C6:※大英雄の書1枚を使用します]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_ME_GEM_SELECT_USE_GEM_REWARD_ADVANCED"
+    },
+    {
+      "id": 23031,
+      "text": "[C6:※大英雄の書1枚、わくわくミン%dつを使用します]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_ME_GEM_SELECT_USE_GEM_ADVANCED_BOTH"
+    },
+    {
+      "id": 23032,
+      "text": "[C6:※英雄の書1枚、大英雄の書1枚を使用します]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_ME_GEM_SELECT_USE_GEM_REWARD_AND_ADVANCED"
+    },
+    {
+      "id": 23033,
+      "text": "[C6:※英雄の書1枚、大英雄の書1枚、わくわくミン%dつを使用します]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_ME_GEM_SELECT_USE_GEM_AND_ADVANCED_BOTH"
+    },
+    {
+      "id": 23034,
+      "text": "[LC]ラックポイント不足[LF][LF]ラックポイントが不足しています",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_ME_NOT_ENOUGH_LUCK_POINT"
+    },
+    {
+      "id": 23035,
+      "text": "[LC]書庫ポイント不足[LF][LF]書庫ポイントが不足しています",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_ME_NOT_ENOUGH_ARCHIVE_STAGE_POINT"
+    },
+    {
+      "id": 23036,
+      "text": "[LC]割引期間[LF][LF]割引期間を過ぎています",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_ME_INVALID_SHOP_DISCOUNT_RATE"
+    },
+    {
+      "id": 23037,
+      "text": "再発動まで",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_ME_MONPASS_PREMIUM_LUCKY_RESULT_PERIOD"
+    },
+    {
+      "id": 23038,
+      "text": "[LC]アイテム使用不可[LF][LF]%s",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_MSG_MONPASS_PREMIUM_LUCKY_RESULT_CAN_NOT_USE"
+    },
+    {
+      "id": 23039,
+      "text": "待機時間を経過するまで使用できません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_ME_MONPASS_PREMIUM_LUCKY_RESULT_WAITING_TIME"
+    },
+    {
+      "id": 23040,
+      "text": "効果が重複するため使用できません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_ME_MONPASS_PREMIUM_LUCKY_RESULT_DUPLICATE_EFFECTS"
+    },
+    {
+      "id": 23041,
+      "text": "[LF]■注意事項[LF]有効期間について[LF]・モンパス（プレミアム）の有効期間は購入日から[C6:1ヶ月間]です[LF]・有効期間が終了すると[C6:自動的に次の1ヶ月分が更新]されます[LF]・特典は有効期限後の翌午前3時59分まで利用できます[LF]・月額料金は、プラットフォームで定められた支払時期および[LF]　支払方法により請求されます[LF]・同じプラットフォームIDで契約できるモンストIDは1つのみです[LF][LF]解約（自動更新の停止）について[LF]・解約は任意のタイミングで手続き可能です[LF]・解約手続きは有効期限終了の[C6:24時間以上前]に行う必要があります[LF]・モンパス（プレミアム）を購入したプラットフォームでの手続きが必要です[LF]　[C6:アプリをアンインストールするだけでは解約されません][LF]・解約後も有効期間中は特典を受けることができます[LF]・支払った月額料金は返金されません[LF]・解約後、有効期限終了から[C6:最短翌々日のAM03:59まで]に[LF]　再度購入すると継続扱いになります[LF]　上記を過ぎると継続にはならず新たに契約したものとして[LF]　1ヶ月目からのスタートとなります[LF]・解約・引継ぎの詳しい手順は[u:https://support.monster-strike.com/hc/ja/sections/42458929920153|こちら]をご確認ください[LF][LF]プラン変更について[LF]・モンパスからモンパスプレミアムにプラン変更をすると[LF]　請求が実行され、完了次第プランが切り替わります[LF]・モンパスプレミアムからモンパスにプラン変更をすると[LF]　変更前のプランの有効期限後に変更後のプランに切り替わります[LF]　[C6:※Androidアプリをご利用の場合は変更手続き完了次第][LF]　　[C6:プランが切り替わります][LF]　　[C6:変更前のプランで既に支払った金額は日割り計算され][LF]　　[C6:その分が変更後のプランの有効日数として追加されます][LF][LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1780939801,
+      "label": "eTEXTS_DEF_ME_COMMON_MONPASS_PURCHASE"
+    },
+    {
+      "id": 23042,
+      "text": "[LC]特典詳細[LF][LF][NODE][LF]%s",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_MSG_MONPASS_BANNER_DETAIL"
+    },
+    {
+      "id": 23043,
+      "text": "[LC]確認[LF][LF]加入中のモンパスプレミアムからモンパスにプランを変更すると[LF]以下の[C6:プレミアム限定特典が受けられなくなります][LF]プランを変更しますか？[LF][LF]■基本特典[LF]・ラッキーリザルトを2週間に1度[LF]　好きなタイミングで発動[LF]・ラッキーモンスターの運極所持が＋1され[LF]　2種所持ですべての所持効果が発動するように[LF]・会員限定パックが毎月1回購入可能に[LF]・｢真獣神玉を求めて｣の宝箱が2つ追加[LF]・マイスポットが必ず王者のパワーに[LF][LF]■継続特典[LF]・1ヶ月ごとにCMスキップ券30枚プレゼント[LF]・6ヶ月継続ごとに対象のガチャで[LF]　注目キャラ確定のガチャが引ける超モンパス玉1個プレゼント[LF]　※ガチャの詳細は[u:https://www.monster-strike.com/news/20250807_3.html#3b|こちら][LF]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1762796616,
+      "label": "eTEXTS_DEF_MSG_MONPASS_PREMIUM_DG"
+    },
+    {
+      "id": 23044,
+      "text": "プラン変更",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_ME_MONPASS_CHANGE_PLAN"
+    },
+    {
+      "id": 23045,
+      "text": "monpass_premium_card.png",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_ME_COMMON_MONPASS_PREMIUM_BANNER"
+    },
+    {
+      "id": 23046,
+      "text": "超モンパス玉ガチャ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_TITLE_GACHA_CATEGORY_MONPASS_PREMIUM"
+    },
+    {
+      "id": 23047,
+      "text": "対象のガチャがありません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_ME_GACHA_CATEGORY_MONPASS_PREMIUM_GACHA_NONE"
+    },
+    {
+      "id": 23048,
+      "text": "[LC]モンパスプレミアム会員限定[LF][LF]モンパスプレミアム会員になることで購入可能になります[LF]商品ページへ移動しますか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_MSG_MONPASS_PREMIUM_PACK_SUBSCRIPTION"
+    },
+    {
+      "id": 23049,
+      "text": "購入へ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_ME_MONPASS_PREMIUM_PACK_BUTTON"
+    },
+    {
+      "id": 23050,
+      "text": "モンパス",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_10821"
+    },
+    {
+      "id": 23051,
+      "text": "月額480円",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_10822"
+    },
+    {
+      "id": 23052,
+      "text": "モンパスプレミアム",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_10823"
+    },
+    {
+      "id": 23053,
+      "text": "月額1980円",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_10824"
+    },
+    {
+      "id": 23054,
+      "text": "[C5:モンパスプレミアム特典一覧]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_10825"
+    },
+    {
+      "id": 23055,
+      "text": "[C6:モンパス会員特典すべてに加えて]以下の特典も[LF]受け取ることができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_10826"
+    },
+    {
+      "id": 23056,
+      "text": "入会特典プレゼント",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_10827"
+    },
+    {
+      "id": 23057,
+      "text": "[C6:CMスキップ券30枚]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_10828"
+    },
+    {
+      "id": 23058,
+      "text": "基本特典",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_10829"
+    },
+    {
+      "id": 23059,
+      "text": "[C6:ラッキーリザルト]を2週間に1度[LF][C6:好きなタイミングで発動可能]に",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_10830"
+    },
+    {
+      "id": 23060,
+      "text": "ラッキーモンスターの[C6:所持運極が＋1体]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_10831"
+    },
+    {
+      "id": 23061,
+      "text": "毎月1回まで[C6:会員限定パックが購入可能]に",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_10832"
+    },
+    {
+      "id": 23062,
+      "text": "継続特典プレゼント",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_10833"
+    },
+    {
+      "id": 23063,
+      "text": "1ヶ月ごとに",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_10834"
+    },
+    {
+      "id": 23064,
+      "text": "[C6:CMスキップ券30枚]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_10835"
+    },
+    {
+      "id": 23065,
+      "text": "6ヶ月ごとに",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_10836"
+    },
+    {
+      "id": 23066,
+      "text": "[C6:注目キャラが1体確定]で当たる超モンパス玉[LF]※初回は1ヶ月継続時に受け取れます[LF]※初回受け取り後6ヶ月ごとに受け取れます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_10837"
+    },
+    {
+      "id": 23067,
+      "text": "モンパスプレミアム会員限定パックが[LF]購入可能になった時のバッジを表示",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_OPTION_BADGE_MONPASS_PREMIUM_PACK"
+    },
+    {
+      "id": 23068,
+      "text": "[LF]■モンパス購入日[LF]・%d年%d月%d日[LF][IF:%d][LF]■モンパスプレミアム購入日[LF]・%d年%d月%d日[LF][ENDIF][LF]■注意事項[LF]有効期間について[LF]・モンパス（プレミアム）の有効期間は購入日から[C6:1ヶ月間]です[LF]・有効期間が終了すると[C6:自動的に次の1ヶ月分が更新]されます[LF]・特典は有効期限後の翌午前3時59分まで利用できます[LF]・月額料金は、プラットフォームで定められた支払時期および[LF]　支払方法により請求されます[LF]・同じプラットフォームIDで契約できるモンストIDは1つのみです[LF][LF]解約（自動更新の停止）について[LF]・解約は任意のタイミングで手続き可能です[LF]・解約手続きは有効期限終了の[C6:24時間以上前]に行う必要があります[LF]・モンパス（プレミアム）を購入したプラットフォームでの手続きが必要です[LF]　[C6:アプリをアンインストールするだけでは解約されません][LF]・解約後も有効期間中は特典を受けることができます[LF]・支払った月額料金は返金されません[LF]・解約後、有効期限終了から[C6:最短翌々日のAM03:59まで]に[LF]　再度購入すると継続扱いになります[LF]　上記を過ぎると継続にはならず新たに契約したものとして[LF]　1ヶ月目からのスタートとなります[LF]・解約・引継ぎの詳しい手順は[u:https://support.monster-strike.com/hc/ja/sections/42458929920153|こちら]をご確認ください[LF][LF]プラン変更について[LF]・モンパスからモンパスプレミアムにプラン変更をすると[LF]　請求が実行され、完了次第プランが切り替わります[LF]・モンパスプレミアムからモンパスにプラン変更をすると[LF]　変更前のプランの有効期限後に変更後のプランに切り替わります[LF][LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1780939801,
+      "label": "eTEXTS_DEF_ME_COMMON_MONPASS_INFO_IOS"
+    },
+    {
+      "id": 23069,
+      "text": "[LF]■注意事項[LF]有効期間について[LF]・モンパス（プレミアム）の有効期間は購入日から[C6:1ヶ月間]です[LF]・有効期間が終了すると[C6:自動的に次の1ヶ月分が更新]されます[LF]・特典は有効期限後の翌午前3時59分まで利用できます[LF]・月額料金は、プラットフォームで定められた支払時期および[LF]　支払方法により請求されます[LF]・同じプラットフォームIDで契約できるモンストIDは1つのみです[LF][LF]解約（自動更新の停止）について[LF]・解約は任意のタイミングで手続き可能です[LF]・解約手続きは有効期限終了の[C6:24時間以上前]に行う必要があります[LF]・モンパス（プレミアム）を購入したプラットフォームでの手続きが必要です[LF]　[C6:アプリをアンインストールするだけでは解約されません][LF]・解約後も有効期間中は特典を受けることができます[LF]・支払った月額料金は返金されません[LF]・解約後、有効期限終了から[C6:最短翌々日のAM03:59まで]に[LF]　再度購入すると継続扱いになります[LF]　上記を過ぎると継続にはならず新たに契約したものとして[LF]　1ヶ月目からのスタートとなります[LF]・解約・引継ぎの詳しい手順は[u:https://support.monster-strike.com/hc/ja/sections/42458929920153|こちら]をご確認ください[LF][LF]プラン変更について[LF]・モンパスからモンパスプレミアムにプラン変更をすると[LF]　請求が実行され、完了次第プランが切り替わります[LF]・モンパスプレミアムからモンパスにプラン変更をすると[LF]　変更前のプランの有効期限後に変更後のプランに切り替わります[LF][LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1780939801,
+      "label": "eTEXTS_DEF_ME_COMMON_MONPASS_PURCHASE_IOS"
+    },
+    {
+      "id": 23070,
+      "text": "[LC]購入済み[LF][LF]現在モンパスプレミアムの有効期間中です[LF]有効期間終了後にモンパス会員にプランが変更されます[LF][LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_MSG_MONPASS_PREMIUM_DG_BUY_MONPASS_ITEM"
+    },
+    {
+      "id": 23071,
+      "text": "モンパスプレミアム会員効果",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_ME_LUCKY_MON_TILE_MONPASS_PREMIUM"
+    },
+    {
+      "id": 23072,
+      "text": "会員特典",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_ME_NEED_MONPASS_PREMIUM"
+    },
+    {
+      "id": 23073,
+      "text": "わくわくの力",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_ME_MONSTER_GEM_MENU_BTN"
+    },
+    {
+      "id": 23074,
+      "text": "わくわくの力を預ける＆引き出す",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_ME_GEM_BANK"
+    },
+    {
+      "id": 23075,
+      "text": "[LC]わくわくBANKとは[LF][LF][CCB:dlme/help_gembank_00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_GEM_BANK_HELP"
+    },
+    {
+      "id": 23076,
+      "text": "預かり枠の解放状況と、預けたわくわくの力を[LF]確認することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_ME_GEM_BANK_HEADLINE"
+    },
+    {
+      "id": 23077,
+      "text": "未解放",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_GEM_BANK_LOCKED"
+    },
+    {
+      "id": 23078,
+      "text": "空き",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_GEM_BANK_SLOT_EMPTY"
+    },
+    {
+      "id": 23079,
+      "text": "付替えをする",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_GEM_BANK_CHANGE_BUTTON"
+    },
+    {
+      "id": 23080,
+      "text": "解放されている預かり枠の数だけ[LF]わくわくの力を預けることができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_GEM_BANK_TRANSFER_HEADLINE"
+    },
+    {
+      "id": 23081,
+      "text": "付替え完了",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_GEM_BANK_CHANGE_COMPLETE_BUTTON"
+    },
+    {
+      "id": 23082,
+      "text": "OK",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_GEM_BANK_CHANGE_SELECT_BUTTON"
+    },
+    {
+      "id": 23083,
+      "text": "わくわくBANK",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_GEM_BANK_LIST_TITLE"
+    },
+    {
+      "id": 23084,
+      "text": "預かり枠",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_GEM_BANK_LIST_SUBTITLE"
+    },
+    {
+      "id": 23085,
+      "text": "[LC]既に選択中です[LF][LC]他の預かり枠を選択してください",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_GEM_TRANSFER_ALREADY_SELECTED"
+    },
+    {
+      "id": 23086,
+      "text": "わくわくBANK",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_GEM_BANK_TITLE"
+    },
+    {
+      "id": 23087,
+      "text": "入れ替えた実がリセットされます[LF]この画面を離れますか？",
+      "layout": 29,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_GEM_TRANSFER_MOVE_WARNING"
+    },
+    {
+      "id": 23088,
+      "text": "解放条件",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_GEM_BANK_DIALOG_TITLE"
+    },
+    {
+      "id": 23089,
+      "text": "挑戦",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_GEM_BANK_DIALOG_TRY"
+    },
+    {
+      "id": 23090,
+      "text": "確認",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_GEM_BANK_DIALOG_CONFIRM"
+    },
+    {
+      "id": 23091,
+      "text": "[LC]解放条件一覧[LF][LF]条件を達成することで[LF]預かり枠を解放することができます[LF][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_GEM_BANK_DIALOG"
+    },
+    {
+      "id": 23092,
+      "text": "[LC]預かり枠[LF][LF]わくわくステッキを消費して[LF]他のキャラに付替えることができます",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_GEM_BANK_SLOT_GEM_DIALOG"
+    },
+    {
+      "id": 23093,
+      "text": "[LC]預かり枠[LF][LF]キャラに付いている実を[LF]枠1つにつき、1つ預けることができます[LF][LF]※預ける際には[LF]　わくわくステッキは消費しません",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_GEM_BANK_SLOT_LOCK_DIALOG"
+    },
+    {
+      "id": 23094,
+      "text": "[LC]預かり枠解放[LF][LF]オーブ%d個消費して預かり枠を解放できます[LF][LF][LC]解放しますか？[IF:%d][LF][LF]所持数：[IMG:icon_orb_s.png][WIDTH-15][BG_STR:dummy.png|WIDTH:140|RSTR:%d個][IMG_LORB:][WIDTH-15][BG_STR:dummy.png|WIDTH:100|RSTR:[C6:%d個]][LF][C6:[texts:eTEXTS_DEF_LIMITED_ORB_NAME]から消費されます][ENDIF][LF][LF][LF-15][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_GEM_BANK_SLOT_UNLOCK_ORB"
+    },
+    {
+      "id": 23095,
+      "text": "[gm:eTEXTS_DEF_MSG_SPECIFIED_GEM_BANK_ORB_DETAIL|特商法に基づく表示(支払時期/提供時期)][LF]｢はい｣を押した後のキャンセルはできません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_SPECIFIED_GEM_BANK_ORB"
+    },
+    {
+      "id": 23096,
+      "text": "[LC]特商法に基づく表示[LF][LF][C6:価格（分量、対価）][LF]1回 オーブ5個[LF][LF][C6:商品の提供（引渡し）時期][LF]｢はい｣を押すと、預かり枠が解放されます。[LF][LF][C6:代金支払い時期および方法][LF]オーブによるお支払い。[LF]｢はい｣を押した後すぐに消費されます。[LF][LF][C6:返品][LF]｢はい｣を押した後のキャンセルはできません。[LF][LF][C6:代表者名][LF]木村 弘毅[LF][LF][C6:連絡先][LF]URL: https://mixi.co.jp/inquiry/others/[LF]E-Mail: support-ms@mixi.jp[LF]電話番号： 03-6897-9500[LF](受付：弊社営業日10:00～19:00)[LF]土日祝日・冬季休暇日はお休みさせていただきます。[LF][LF][C6:お問い合わせ][LF]ホーム画面MENU>ヘルプ>お問い合わせよりお問い合わせください。[LF](受付：弊社営業日11:00～18:00)[LF]土日祝日・冬季休暇日はお休みさせていただきます。[LF][LF][C6:販売事業者所在地][LF]〒150-6136[LF]東京都渋谷区渋谷二丁目24番12号[LF]渋谷スクランブルスクエア[LF][LF][C6:販売事業者名][LF]株式会社MIXI[LF][LF][C6:商品代金以外に必要な費用][LF]消費税、パケット通信料[LF][LF][C6:不良品の取り扱い条件][LF]コンテンツに不具合が発生した場合には速やかに対処いたします。[LF][LF][C6:必須環境][LF]iOS 15.0 以降／iPhone、iPad および iPod touch 対応[LF]Android 7.0以上(Android 7.0未満は動作不可)[LF][LF][C6:利用規約][LF]ホーム画面MENU>その他>利用規約をご覧ください。",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1786550613,
+      "label": "eTEXTS_DEF_MSG_SPECIFIED_GEM_BANK_ORB_DETAIL"
+    },
+    {
+      "id": 23097,
+      "text": "[LC]解放完了[LF][LF]預かり枠が解放されました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_GEM_BANK_SLOT_UNLOCK_ORB_COMPLETE"
+    },
+    {
+      "id": 23098,
+      "text": "[LC]預かり枠追加[LF][LF]新たに預かり枠の解放条件が追加されました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_GEM_BANK_NEW_SLOT"
+    },
+    {
+      "id": 23099,
+      "text": "[LC]わくわくBANKとは[LF][LF][CCB:dlme/help_gembank_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_MSG_GEM_BANK_HELP"
+    },
+    {
+      "id": 23100,
+      "text": "[C6:わくわくの力の整理がしやすく]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_58100"
+    },
+    {
+      "id": 23101,
+      "text": "[b:ba_help_gembank_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_58101"
+    },
+    {
+      "id": 23102,
+      "text": "[C5:わくわくBANKについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_58102"
+    },
+    {
+      "id": 23103,
+      "text": "キャラのわくわくの力を[C6:一時的に預けること]で[LF][C6:わくわくの力の付替えがしやすく]なります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_58103"
+    },
+    {
+      "id": 23104,
+      "text": "[C10:空き]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_58104"
+    },
+    {
+      "id": 23105,
+      "text": "[C5:熱き友撃]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_58105"
+    },
+    {
+      "id": 23106,
+      "text": "キャラから預かり枠への付替えは[LF][C6:わくわくステッキを使用せずに行うことができます]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_58106"
+    },
+    {
+      "id": 23107,
+      "text": "[C6:不要！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_58107"
+    },
+    {
+      "id": 23108,
+      "text": "必要",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_58108"
+    },
+    {
+      "id": 23109,
+      "text": "[IP11733]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_58109"
+    },
+    {
+      "id": 23110,
+      "text": "[C5:預かり枠について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_58110"
+    },
+    {
+      "id": 23111,
+      "text": "解放されている預かり枠の数だけ[LF]わくわくの力を預けることができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_58111"
+    },
+    {
+      "id": 23112,
+      "text": "預かり不可",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_58112"
+    },
+    {
+      "id": 23113,
+      "text": "[C6:預かり可能]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_58113"
+    },
+    {
+      "id": 23114,
+      "text": "[C2:未解放]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_58114"
+    }
+  ]
+}

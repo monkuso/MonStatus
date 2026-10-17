@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "table": "fortune_events",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "start_at": 1719889200,
+      "end_at": 1720897199,
+      "start_fortune_route_id": 1,
+      "created_at": 1719478931,
+      "updated_at": 1719478931
+    },
+    {
+      "id": 2,
+      "start_at": 1754103600,
+      "end_at": 1755284399,
+      "start_fortune_route_id": 29,
+      "created_at": 1753965326,
+      "updated_at": 1753965326
+    }
+  ]
+}

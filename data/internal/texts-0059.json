@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 1,
+  "table": "texts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 15173,
+      "text": "合計報告数:",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_GUNMA_MISSION_INFO_SUM"
+    },
+    {
+      "id": 15174,
+      "text": "各メンバーの指令をそれぞれ[C6:2回報告]すると[LF]以下の副友情コンボを所持する[LF][C4:★6 泣き虫のヒーロー 花垣武道]を獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_GUNMA_MISSION_REWARD_TEXT"
+    },
+    {
+      "id": 15175,
+      "text": "獲得まで: [C32:%d/2]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_GUNMA_MISSION_MISSION_TEXT"
+    },
+    {
+      "id": 15176,
+      "text": "[IMG:combo_icon152.png|0.6]攻スピアップ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_GUNMA_MISSION_REWARD_FRIEND1_TITLE"
+    },
+    {
+      "id": 15177,
+      "text": "[IMG:combo_icon164.png|0.6]ヒーリングボムスロー",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_GUNMA_MISSION_REWARD_FRIEND2_TITLE"
+    },
+    {
+      "id": 15178,
+      "text": "[IMG:combo_icon138.png|0.6]超強SS短縮弾",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_GUNMA_MISSION_REWARD_FRIEND3_TITLE"
+    },
+    {
+      "id": 15179,
+      "text": "[IMG:combo_icon81.png|0.6]超強防御ダウンブラスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_GUNMA_MISSION_REWARD_FRIEND4_TITLE"
+    },
+    {
+      "id": 15180,
+      "text": "[IMG:combo_icon112.png|0.6]超強状態異常回復ブラスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_GUNMA_MISSION_REWARD_FRIEND5_TITLE"
+    },
+    {
+      "id": 15181,
+      "text": "ふれた味方の攻撃力とスピードがアップ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_GUNMA_MISSION_REWARD_FRIEND1_INFO"
+    },
+    {
+      "id": 15182,
+      "text": "ふれた味方を追従する回復爆弾で攻撃",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_GUNMA_MISSION_REWARD_FRIEND2_INFO"
+    },
+    {
+      "id": 15183,
+      "text": "強力なSS短縮弾をふれた味方の進行方向に発射",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_GUNMA_MISSION_REWARD_FRIEND3_INFO"
+    },
+    {
+      "id": 15184,
+      "text": "自身を中心に敵を防御力ダウンさせる強力な範囲攻撃",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_GUNMA_MISSION_REWARD_FRIEND4_INFO"
+    },
+    {
+      "id": 15185,
+      "text": "自身を中心に味方の状態異常回復効果を持つ強力な範囲攻撃",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_GUNMA_MISSION_REWARD_FRIEND5_INFO"
+    },
+    {
+      "id": 15186,
+      "text": "報告数%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_GUNMA_MISSION_REWARD_REPORT_TITLE1"
+    },
+    {
+      "id": 15187,
+      "text": "[SW0.85][C6:指令を達成報告してタケミっちを成長させよう]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40600"
+    },
+    {
+      "id": 15188,
+      "text": "[b:ba_help_collabo_gunma_ms_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40601"
+    },
+    {
+      "id": 15189,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40602"
+    },
+    {
+      "id": 15190,
+      "text": "10/1 4:00 ～ 10/15 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40603"
+    },
+    {
+      "id": 15191,
+      "text": "[C5:遊び方]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40604"
+    },
+    {
+      "id": 15192,
+      "text": "東京卍會メンバーからの指令を達成して[LF][C6:報告を行うと報酬が獲得できます]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40605"
+    },
+    {
+      "id": 15193,
+      "text": "指令A",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40606"
+    },
+    {
+      "id": 15194,
+      "text": "獲得まで:[C8:0/2]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40607"
+    },
+    {
+      "id": 15195,
+      "text": "[C6:報告完了！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40608"
+    },
+    {
+      "id": 15196,
+      "text": "[IPJ10771]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40609"
+    },
+    {
+      "id": 15197,
+      "text": "報告は1日1回のみ可能です[LF]誰に報告したいかを考えて指令を達成しましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40610"
+    },
+    {
+      "id": 15198,
+      "text": "[C5:指令と報告について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40611"
+    },
+    {
+      "id": 15199,
+      "text": "指令について",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40612"
+    },
+    {
+      "id": 15200,
+      "text": "各メンバーからの[C6:指令を達成することで][LF]そのメンバーに[C6:報告が可能になります]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40613"
+    },
+    {
+      "id": 15201,
+      "text": "[C6:指令達成！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40614"
+    },
+    {
+      "id": 15202,
+      "text": "報告について",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40615"
+    },
+    {
+      "id": 15203,
+      "text": "複数の指令を達成していても[LF][C6:1日に報告できるのはいずれかの指令1つのみです]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40616"
+    },
+    {
+      "id": 15204,
+      "text": "[C6:指令A]の報告をする",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40617"
+    },
+    {
+      "id": 15205,
+      "text": "[C6:指令B]は報告できない",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40618"
+    },
+    {
+      "id": 15206,
+      "text": "獲得まで:[C8:1/2]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40619"
+    },
+    {
+      "id": 15207,
+      "text": "指令B",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40620"
+    },
+    {
+      "id": 15208,
+      "text": "※指令の内容や達成状況は[LF]毎日AM4:00にリセットされます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40621"
+    },
+    {
+      "id": 15209,
+      "text": "[C5:報酬について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40622"
+    },
+    {
+      "id": 15210,
+      "text": "報告回数報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40623"
+    },
+    {
+      "id": 15211,
+      "text": "[C6:報告した累計回数]に応じて報酬を獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40624"
+    },
+    {
+      "id": 15212,
+      "text": "進化解放を獲得すると[C4:★5 花垣武道]が[LF][C4:★6 人生のリベンジ 花垣武道]に進化可能に!",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40625"
+    },
+    {
+      "id": 15213,
+      "text": "[IPJ10772]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40626"
+    },
+    {
+      "id": 15214,
+      "text": "友情報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40627"
+    },
+    {
+      "id": 15215,
+      "text": "[C6:各メンバーに合計2回報告]することで[LF]それぞれから[C6:副友情コンボが異なる][LF][C4:★6 泣き虫のヒーロー 花垣武道]を獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40628"
+    },
+    {
+      "id": 15216,
+      "text": "[IPJ10774]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40629"
+    },
+    {
+      "id": 15217,
+      "text": "攻スピアップ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40630"
+    },
+    {
+      "id": 15218,
+      "text": "ヒーリングボムスロー",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40631"
+    },
+    {
+      "id": 15219,
+      "text": "超強SS短縮弾",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40632"
+    },
+    {
+      "id": 15220,
+      "text": "超強防御ダウンブラスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40633"
+    },
+    {
+      "id": 15221,
+      "text": "超強状態異常回復ブラスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40634"
+    },
+    {
+      "id": 15222,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20230930_2.html#6|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40635"
+    },
+    {
+      "id": 15223,
+      "text": "[IPJ10775]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40636"
+    },
+    {
+      "id": 15224,
+      "text": "[IPJ10776]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40637"
+    },
+    {
+      "id": 15225,
+      "text": "[IPJ10777]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40638"
+    },
+    {
+      "id": 15226,
+      "text": "[IPJ10778]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40639"
+    },
+    {
+      "id": 15227,
+      "text": "[C6:コラボ限定ガチャ開催中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40400"
+    },
+    {
+      "id": 15228,
+      "text": "[b:ba_help_collabo_gunma_00_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40401"
+    },
+    {
+      "id": 15229,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40402"
+    },
+    {
+      "id": 15230,
+      "text": "10/1 0:00～10/15 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40403"
+    },
+    {
+      "id": 15231,
+      "text": "[C5:コラボ限定ガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40404"
+    },
+    {
+      "id": 15232,
+      "text": "新登場キャラ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40405"
+    },
+    {
+      "id": 15233,
+      "text": "ガチャ[C6:｢東京リベンジャーズ｣]が期間限定で開催中！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40406"
+    },
+    {
+      "id": 15234,
+      "text": "[IPJ10749]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40407"
+    },
+    {
+      "id": 15235,
+      "text": "[IPJ10757]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070676,
+      "updated_at": 1696070676,
+      "label": "eTEXTS_DEF_40408"
+    },
+    {
+      "id": 15236,
+      "text": "[IPJ10755]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40409"
+    },
+    {
+      "id": 15237,
+      "text": "[IPJ10751]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40410"
+    },
+    {
+      "id": 15238,
+      "text": "[IPJ10753]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40411"
+    },
+    {
+      "id": 15239,
+      "text": "さらに、10連ガチャのEXおまけとして[LF][C6:コラボ限定グッジョブが付いてくる！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40412"
+    },
+    {
+      "id": 15240,
+      "text": "[IS430|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40413"
+    },
+    {
+      "id": 15241,
+      "text": "[IS431|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40414"
+    },
+    {
+      "id": 15242,
+      "text": "[IS432|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40415"
+    },
+    {
+      "id": 15243,
+      "text": "[IS433|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40416"
+    },
+    {
+      "id": 15244,
+      "text": "[IS434|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40417"
+    },
+    {
+      "id": 15245,
+      "text": "[IS435|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40418"
+    },
+    {
+      "id": 15246,
+      "text": "[IS436|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40419"
+    },
+    {
+      "id": 15247,
+      "text": "[IS437|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40420"
+    },
+    {
+      "id": 15248,
+      "text": "[IS438|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40421"
+    },
+    {
+      "id": 15249,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20230930_2.html#1|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40422"
+    },
+    {
+      "id": 15250,
+      "text": "[C6:コラボ限定クエスト出現中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40423"
+    },
+    {
+      "id": 15251,
+      "text": "[b:ba_help_collabo_gunma_00_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40424"
+    },
+    {
+      "id": 15252,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40425"
+    },
+    {
+      "id": 15253,
+      "text": "10/1 0:00～10/15 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40426"
+    },
+    {
+      "id": 15254,
+      "text": "[C5:コラボ限定クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40427"
+    },
+    {
+      "id": 15255,
+      "text": "[SGBI26260|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40428"
+    },
+    {
+      "id": 15256,
+      "text": "[SGBI26280|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40429"
+    },
+    {
+      "id": 15257,
+      "text": "[SGBI26270|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40430"
+    },
+    {
+      "id": 15258,
+      "text": "[SGBI26240|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40431"
+    },
+    {
+      "id": 15259,
+      "text": "[SGBI26250|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40432"
+    },
+    {
+      "id": 15260,
+      "text": "[C6:｢Open Fire｣]はマルチプレイだと[LF]金卵２個以上のドロップ率アップ！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40433"
+    },
+    {
+      "id": 15261,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20230930_2.html#4|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40434"
+    },
+    {
+      "id": 15262,
+      "text": "[SW0.88][C6:1日1回限定クリアボーナスを手に入れよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40435"
+    },
+    {
+      "id": 15263,
+      "text": "[b:ba_help_collabo_gunma_00_3.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40436"
+    },
+    {
+      "id": 15264,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40437"
+    },
+    {
+      "id": 15265,
+      "text": "10/1 0:00～10/15 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40438"
+    },
+    {
+      "id": 15266,
+      "text": "[C5:1日1回限定クリアボーナス]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40439"
+    },
+    {
+      "id": 15267,
+      "text": "コラボクエスト[C6:｢Open Fire｣][LF]クリアで1日1回[C6:羽宮一虎]が[C6:7体]獲得できる",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40440"
+    },
+    {
+      "id": 15268,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20230930_2.html#4|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40441"
+    },
+    {
+      "id": 15269,
+      "text": "[C6:超究極、出現！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40442"
+    },
+    {
+      "id": 15270,
+      "text": "[b:ba_help_collabo_gunma_00_4.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40443"
+    },
+    {
+      "id": 15271,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40444"
+    },
+    {
+      "id": 15272,
+      "text": "10/3 19:00～10/15 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40445"
+    },
+    {
+      "id": 15273,
+      "text": "[C5:芭流覇羅、出現！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40446"
+    },
+    {
+      "id": 15274,
+      "text": "超究極クエスト[C5:｢One and only｣]が出現！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40447"
+    },
+    {
+      "id": 15275,
+      "text": "[SGBI26290|difficulty1]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40448"
+    },
+    {
+      "id": 15276,
+      "text": "※クエストボスは入手できません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40449"
+    },
+    {
+      "id": 15277,
+      "text": "クリアボーナス",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40450"
+    },
+    {
+      "id": 15278,
+      "text": "[C5:東京卍會壱番隊 場地圭介＆松野千冬]の[C4:運極]と[LF][C6:勲章｢芭流覇羅｣]を獲得可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40451"
+    },
+    {
+      "id": 15279,
+      "text": "[IPJ10770]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40452"
+    },
+    {
+      "id": 15280,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20230930_2.html#5|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40453"
+    },
+    {
+      "id": 15281,
+      "text": "[b:ba_help_collabo_gunma_00_5.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40454"
+    },
+    {
+      "id": 15282,
+      "text": "[C6:コラボスターターパック登場！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40500"
+    },
+    {
+      "id": 15283,
+      "text": "[b:ba_help_collabo_gunma_01_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40501"
+    },
+    {
+      "id": 15284,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40502"
+    },
+    {
+      "id": 15285,
+      "text": "10/1 0:00～10/15 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40503"
+    },
+    {
+      "id": 15286,
+      "text": "[C5:スターターパックについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40504"
+    },
+    {
+      "id": 15287,
+      "text": "コラボ期間中、[LF][C5:東京卍會壱番隊隊長 場地圭介]と[LF]各種アイテムがセットとなった[LF][C6:東京リベンジャーズ コラボスターターパック]が登場！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40505"
+    },
+    {
+      "id": 15288,
+      "text": "[IPJ10758]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40506"
+    },
+    {
+      "id": 15289,
+      "text": "[C5:東京卍會壱番隊隊長 場地圭介]は[LF]ここでのみ入手可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40507"
+    },
+    {
+      "id": 15290,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20230930_2.html#3|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40508"
+    },
+    {
+      "id": 15291,
+      "text": "[C5:フレンドガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40509"
+    },
+    {
+      "id": 15292,
+      "text": "コラボイベント期間中[C6:｢フレンドガチャ｣]でも[LF][C4:花垣武道]を入手する事ができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40510"
+    },
+    {
+      "id": 15293,
+      "text": "[IPJ10771]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40511"
+    },
+    {
+      "id": 15294,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20230930_2.html#friend|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40512"
+    },
+    {
+      "id": 15295,
+      "text": "[C6:期間限定ラックボーナス！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40513"
+    },
+    {
+      "id": 15296,
+      "text": "[b:ba_help_collabo_gunma_01_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40514"
+    },
+    {
+      "id": 15297,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40515"
+    },
+    {
+      "id": 15298,
+      "text": "10/1 0:00～10/15 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40516"
+    },
+    {
+      "id": 15299,
+      "text": "[C5:期間限定ラック+99]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40517"
+    },
+    {
+      "id": 15300,
+      "text": "以下のキャラはコラボ期間中、[LF]本来のラックに[C4:+99]された[C4:運極]状態で、[LF]ラックボーナスが獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40518"
+    },
+    {
+      "id": 15301,
+      "text": "[IPJ10772]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40519"
+    },
+    {
+      "id": 15302,
+      "text": "[IPJ10774]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40520"
+    },
+    {
+      "id": 15303,
+      "text": "[IPJ10758]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40521"
+    },
+    {
+      "id": 15304,
+      "text": "コラボ開催中",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40522"
+    },
+    {
+      "id": 15305,
+      "text": "[LUCK]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40523"
+    },
+    {
+      "id": 15306,
+      "text": "[C4:+99]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40524"
+    },
+    {
+      "id": 15307,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20230930_2.html#9|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40525"
+    },
+    {
+      "id": 15308,
+      "text": "[C6:他にもコラボ限定のお楽しみ要素満載]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40526"
+    },
+    {
+      "id": 15309,
+      "text": "[b:ba_help_collabo_gunma_ms_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40527"
+    },
+    {
+      "id": 15310,
+      "text": "詳細は各コラボページを確認しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40528"
+    },
+    {
+      "id": 15311,
+      "text": "東京卍會からの指令",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696070677,
+      "updated_at": 1696070677,
+      "label": "eTEXTS_DEF_40529"
+    },
+    {
+      "id": 15312,
+      "text": "[LC]選択ガチャ確認[LF][LF][LC][NODE][LF][LC]このガチャでよろしいですか？[LF][LC]※決定後にガチャの変更はできません。",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1696510544,
+      "updated_at": 1696510544,
+      "label": "eTEXTS_DEF_SELECT_MULTI_GACHA_CONFIRM_DIALOG"
+    },
+    {
+      "id": 15313,
+      "text": "ガチャ期間：10/10 12:00〜11/11 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510544,
+      "updated_at": 1760470637,
+      "label": "eTEXTS_DEF_ME_SELECT_MULTI_GACHA_PLAY_PERIOD_STR"
+    },
+    {
+      "id": 15314,
+      "text": "受取期間　：10/10 12:00〜11/15 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510544,
+      "updated_at": 1760470637,
+      "label": "eTEXTS_DEF_ME_SELECT_MULTI_GACHA_RECEIVE_PERIOD_STR"
+    },
+    {
+      "id": 15315,
+      "text": "メンバーのガチャ結果を確認して受け取ろう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510544,
+      "updated_at": 1696510544,
+      "label": "eTEXTS_DEF_ME_SELECT_MULTI_GACHA_OTHER_PLAYER_LIST_TITLE"
+    },
+    {
+      "id": 15316,
+      "text": "ガチャを1つ選択してね",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510544,
+      "updated_at": 1696510544,
+      "label": "eTEXTS_DEF_ME_SELECT_MULTI_GACHA_LIST_TITLE"
+    },
+    {
+      "id": 15317,
+      "text": "[LC]轟絶感謝マルチガチャとは[LF][LF][CCB:dlme/help_cp_multi_ga_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1696510544,
+      "updated_at": 1727950528,
+      "label": "eTEXTS_DEF_MSG_SELECT_MULTI_GACHA_HELP"
+    },
+    {
+      "id": 15318,
+      "text": "キャラを1体選択してゲットしよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510544,
+      "updated_at": 1696510544,
+      "label": "eTEXTS_DEF_ME_SELECT_MULTI_GACHA_SELECT_CHAR_TITLE"
+    },
+    {
+      "id": 15319,
+      "text": "[LC]欲しいキャラを選択[LF][LF]受け取るキャラを体数分選択しましょう[LF25][LC][NODE]",
+      "layout": 42,
+      "color": 0,
+      "created_at": 1696510544,
+      "updated_at": 1760008716,
+      "label": "eTEXTS_DEF_MSG_SELECT_MULTI_GACHA_SELECT_CHAR"
+    },
+    {
+      "id": 15320,
+      "text": "[LC]確認[LF][LF][LC][NODE][LF]受け取り後の選び直しはできません[LF]本当によろしいですか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1696510544,
+      "updated_at": 1760008716,
+      "label": "eTEXTS_DEF_MSG_SELECT_MULTI_GACHA_SELECT_CHAR_CONFIRM"
+    },
+    {
+      "id": 15321,
+      "text": "まだガチャを引いていません",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1696510544,
+      "updated_at": 1696510544,
+      "label": "eTEXTS_DEF_MSG_SELECT_MULTI_GACHA_ERR_OTHER_USER_NOT_PLAY"
+    },
+    {
+      "id": 15322,
+      "text": "[LC]選択したキャラは[LF][LC]モンスターBOXへ送られました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1696510544,
+      "updated_at": 1696510544,
+      "label": "eTEXTS_DEF_MSG_SELECT_MULTI_GACHA_SEND_CHAR_BOX"
+    },
+    {
+      "id": 15323,
+      "text": "[LC]ガチャ期間終了間近[LF][LF]まもなくガチャ期間が終了します[LF]まだ引いてない場合は忘れずに引こう！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_MSG_SELECT_MULTI_GACHA_PLAY_ENDING_SOON"
+    },
+    {
+      "id": 15324,
+      "text": "[LC]期間間近[LF][LF]期限までに忘れずに[LF]キャラを受け取りましょう",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1760008716,
+      "label": "eTEXTS_DEF_MSG_SELECT_MULTI_GACHA_PICKUP_ANNOUNCE"
+    },
+    {
+      "id": 15325,
+      "text": "[LC]受け取り期間終了間近[LF][LF]受け取り期限まで残り3日！忘れずに受け取ろう！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_MSG_SELECT_MULTI_GACHA_PICKUP_ENDING_SOON_1"
+    },
+    {
+      "id": 15326,
+      "text": "[LC]受け取り期間終了間近[LF][LF]受け取り期限まで残り1日！忘れずに受け取ろう！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_MSG_SELECT_MULTI_GACHA_PICKUP_ENDING_SOON_2"
+    },
+    {
+      "id": 15327,
+      "text": "受け取り期限まで残り3日！忘れずに受け取ろう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_ME_SELECT_MULTI_GACHA_LOCAL_NOTIFICATION_1"
+    },
+    {
+      "id": 15328,
+      "text": "受け取り期限まで残り1日！忘れずに受け取ろう！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_ME_SELECT_MULTI_GACHA_LOCAL_NOTIFICATION_2"
+    },
+    {
+      "id": 15329,
+      "text": "マルチガチャ",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_ME_SELECT_MULTI_GACHA_LOCAL_NOTIFICATION_TITLE"
+    },
+    {
+      "id": 15330,
+      "text": "メンバー結成済",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_ME_SELECT_MULTI_GACHA_TEAM_JOINED"
+    },
+    {
+      "id": 15331,
+      "text": "[HSIZE:720][LC]あなたの予想内容[LF][LF]あなたの予想内容は以下の通りです[LF][LF][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_QUIZ_VIEW_PLAYER_ANSWER_DIALOG"
+    },
+    {
+      "id": 15332,
+      "text": "決定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_COMMON_DECISION"
+    },
+    {
+      "id": 15333,
+      "text": "[LC]オーブを使って集めると、その分オーブが返ってくる！[LF-8][LC]予想正解数が多いほど、返ってくる個数が増えるチャンス",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_TOP_TITLE"
+    },
+    {
+      "id": 15334,
+      "text": "オーブカウント状況",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_STATUS_TITLE"
+    },
+    {
+      "id": 15335,
+      "text": "[C33:オーブカウント期間:]10/1 0:00 ～ 10/31 23:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_STATUS_PERIOD"
+    },
+    {
+      "id": 15336,
+      "text": "[C34:オーブカウント期間終了]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_STATUS_PERIOD_OVER"
+    },
+    {
+      "id": 15337,
+      "text": "集めた",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_STATUS_GATHER"
+    },
+    {
+      "id": 15338,
+      "text": "使った",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_STATUS_USE"
+    },
+    {
+      "id": 15339,
+      "text": "[LC]期間中の無料オーブの獲得数とオーブの消費数の[LF][LC]個数が少ない方がオーブバック対象個数になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_STATUS_INFO1"
+    },
+    {
+      "id": 15340,
+      "text": "[IMG:uiitem_0001.png]バック対象[LF][LC][FSIZE:30][C6:%d個]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_STATUS_BACK_ORB"
+    },
+    {
+      "id": 15341,
+      "text": "[IMG:uiitem_0001.png|0.5]バック個数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_STATUS_BACK_ORB_BUTTON_TEXT"
+    },
+    {
+      "id": 15342,
+      "text": "[SW0.9]全問正解で[C6:%d個]バック！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_STATUS_BACK_ORB_NO1"
+    },
+    {
+      "id": 15343,
+      "text": "[LC]オーブカウント状況とは[LF][LF][CCB:dlme/help_cp_obc_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_STATUS_HELP"
+    },
+    {
+      "id": 15344,
+      "text": "オーブバックチャレンジクイズ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_QUIZ_TITEL"
+    },
+    {
+      "id": 15345,
+      "text": "[C33:予想可能期間:]10/2 4:00 ～ 11/3 16:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_QUIZ_PERIOD"
+    },
+    {
+      "id": 15346,
+      "text": "[C34:予想期間終了]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_QUIZ_PERIOD_OVER"
+    },
+    {
+      "id": 15347,
+      "text": "動画を見て予想に参加しましょう[LF]正解数に応じてオーブがバックされます[LF][LF][C6:※予想に参加しないと][LF][C6:　オーブは返ってきません]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_QUIZ_INFO1"
+    },
+    {
+      "id": 15348,
+      "text": "チャレンジは[C6:11月3日 18:00から] [LF]YouTubeでライブ配信予定です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_QUIZ_INFO2"
+    },
+    {
+      "id": 15349,
+      "text": "現在チャレンジをライブ配信中",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_QUIZ_INFO3"
+    },
+    {
+      "id": 15350,
+      "text": "[LC]ただいま結果確認中です[LF][LF][C6:11月4日AM4:00以降]に[LF]この画面でオーブが受取可能になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_QUIZ_INFO4"
+    },
+    {
+      "id": 15351,
+      "text": "予想状況：[C5:未]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_QUIZ_NO_ANSWER"
+    },
+    {
+      "id": 15352,
+      "text": "[LC]オーブバックチャレンジクイズとは[LF][LF][CCB:dlme/help_cp_obc_01]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_QUIZ_HELP"
+    },
+    {
+      "id": 15353,
+      "text": "[LC]バック個数[LF][LF]現在のバック対象でバックされる個数は以下になります[LF][LF][LC][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_NOW_CACHE_BACK_ORB_DIALOG"
+    },
+    {
+      "id": 15354,
+      "text": "%d問的中：[IMG:uiitem_0001.png|0.5][C6:%d個]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_NOW_CACHE_BACK_ORB_DIALOG_TEXT"
+    },
+    {
+      "id": 15355,
+      "text": "[LC]オーブバックチャレンジクイズ[LF][LF]5つのチャレンジの勝者を予想しましょう[LF]詳細なルールなどは[u:https://www.monster-strike.com/promotion/10th_anniversary/orb_back_challenge.html|こちら][LF][LF][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696207970,
+      "label": "eTEXTS_DEF_OBC_QUIZ_DIALOG"
+    },
+    {
+      "id": 15356,
+      "text": "問題%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_QUIZ_QUESTION"
+    },
+    {
+      "id": 15357,
+      "text": "鈴木もぐら",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_QUIZ_TEAM_A"
+    },
+    {
+      "id": 15358,
+      "text": "坂井良多",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_QUIZ_TEAM_B"
+    },
+    {
+      "id": 15359,
+      "text": "[LC]内容確認[LF][LF]この内容で予想を確定してよろしいですか？[LF][LF]※確定後、予想を変更することはできません[LF][LF][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_QUIZ_CHECK_DIALOG"
+    },
+    {
+      "id": 15360,
+      "text": "あなたの予想内容",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_QUIZ_UA_ANSWER"
+    },
+    {
+      "id": 15361,
+      "text": "[LC]オーブバックチャレンジ報酬受取[LF][LF]あなたの予想的中数と獲得オーブは以下の通りです[LF][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_QUIZ_RESULT_DIALOG"
+    },
+    {
+      "id": 15362,
+      "text": "オーブバック",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_QUIZ_REWARD_TITLE"
+    },
+    {
+      "id": 15363,
+      "text": "[IMG:uiitem_0001.png][C6:%d個 獲得]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_QUIZ_REWARD_RESULT"
+    },
+    {
+      "id": 15364,
+      "text": "内訳",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_QUIZ_BREKEDOWN"
+    },
+    {
+      "id": 15365,
+      "text": "予想的中数:[C6:%d] [IMG:evo_arrow4.png|0.6|270] バック率:[C6:%d％]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_QUIZ_CORRECT_ANSWER"
+    },
+    {
+      "id": 15366,
+      "text": "オーブバック対象：[IMG:uiitem_0001.png|0.5]%d個",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_QUIZ_SUBJECT_ORB"
+    },
+    {
+      "id": 15367,
+      "text": "x [C6:%d％] = [C6:%d個]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_QUIZ_CALC"
+    },
+    {
+      "id": 15368,
+      "text": "予想期間が終了しました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_ERROR_ANSWER_PERIOD_DIALOG"
+    },
+    {
+      "id": 15369,
+      "text": "オーブカウント期間が終了しました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_ERROR_COUNT_PERIOD_DIALOG"
+    },
+    {
+      "id": 15370,
+      "text": "予想を確定しました[LF][LF]チャレンジ当日をお楽しみに！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_QUIZ_ANSEWR_POST_DIALOG"
+    },
+    {
+      "id": 15371,
+      "text": "[LF][LF]5問すべて予想してください",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_QUIZ_PLEASE_CHECK_ANSWER_DIALOG"
+    },
+    {
+      "id": 15372,
+      "text": "オーブを受け取りました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_GET_ORB_DIALOG"
+    },
+    {
+      "id": 15373,
+      "text": "https://www.monster-strike.com/promotion/10th_anniversary/event_movie.html",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_OUT_LIVE_TIME_URL"
+    },
+    {
+      "id": 15374,
+      "text": "https://youtube.com/live/2uDufbYeEYo",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_IN_LIVE_TIME_URL"
+    },
+    {
+      "id": 15375,
+      "text": "オーブバックチャレンジクイズ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_OUT_LIVE_TIME_URL_TITLE"
+    },
+    {
+      "id": 15376,
+      "text": " ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_OUT_LIVE_TIME_URL_WIDGET_TITLE"
+    },
+    {
+      "id": 15377,
+      "text": "https://youtu.be/OMFAe7KZAo8",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_OUT_LIVE_TIME_URL_WIDGET_MOVIE_URL"
+    },
+    {
+      "id": 15378,
+      "text": "[C6:モンスポットにコラボ店舗が登場！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1695295259,
+      "updated_at": 1695295259,
+      "label": "eTEXTS_DEF_40200"
+    },
+    {
+      "id": 15379,
+      "text": "[b:ba_help_spot_ex04_00_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1695295259,
+      "updated_at": 1695295259,
+      "label": "eTEXTS_DEF_40201"
+    },
+    {
+      "id": 15380,
+      "text": "ROUND1 開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1695295259,
+      "updated_at": 1695295259,
+      "label": "eTEXTS_DEF_40202"
+    },
+    {
+      "id": 15381,
+      "text": "9/22 4:00 ～ 10/16 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1695295259,
+      "updated_at": 1695295259,
+      "label": "eTEXTS_DEF_40203"
+    },
+    {
+      "id": 15382,
+      "text": "串カツ田中 開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1695295259,
+      "updated_at": 1695295259,
+      "label": "eTEXTS_DEF_40204"
+    },
+    {
+      "id": 15383,
+      "text": "9/22 4:00 ～ 10/2 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1695295259,
+      "updated_at": 1695295259,
+      "label": "eTEXTS_DEF_40205"
+    },
+    {
+      "id": 15384,
+      "text": "[C5:キャンペーン概要]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1695295259,
+      "updated_at": 1695295259,
+      "label": "eTEXTS_DEF_40206"
+    },
+    {
+      "id": 15385,
+      "text": "[C6:コラボ店舗]やいつものスポットで[LF][C6:おでかけコイン]を集めアイテムに引き換えましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1695295259,
+      "updated_at": 1695295259,
+      "label": "eTEXTS_DEF_40207"
+    },
+    {
+      "id": 15386,
+      "text": "コラボ店舗では[C6:モンスポット限定のクーポン]で[LF]食事やレジャーがおトクに楽しめます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1695295259,
+      "updated_at": 1695295259,
+      "label": "eTEXTS_DEF_40208"
+    },
+    {
+      "id": 15387,
+      "text": "[C5:おでかけコインについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1695295259,
+      "updated_at": 1695295259,
+      "label": "eTEXTS_DEF_40209"
+    },
+    {
+      "id": 15388,
+      "text": "期間中はいつものスポットで[LF]おでかけコインがドロップするようになります[LF]稀に[C6:金のおでかけコイン]がドロップすることも！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1695295259,
+      "updated_at": 1695295259,
+      "label": "eTEXTS_DEF_40210"
+    },
+    {
+      "id": 15389,
+      "text": "コラボ店舗ではオーブのカケラなどとあわせて[LF]金のおでかけコインが必ずドロップします",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1695295259,
+      "updated_at": 1695295259,
+      "label": "eTEXTS_DEF_40211"
+    },
+    {
+      "id": 15390,
+      "text": "※コラボ店舗も10分でアイテムが再取得可能です[LF][LF]※コラボ店舗でのアイテム獲得は[LF]　轟絶ボーナスモンスポット範囲拡大の対象外です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1695295259,
+      "updated_at": 1695295259,
+      "label": "eTEXTS_DEF_40212"
+    },
+    {
+      "id": 15391,
+      "text": "[C5:引き換えについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1695295259,
+      "updated_at": 1695295259,
+      "label": "eTEXTS_DEF_40213"
+    },
+    {
+      "id": 15392,
+      "text": "引き換え期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1695295259,
+      "updated_at": 1695295259,
+      "label": "eTEXTS_DEF_40214"
+    },
+    {
+      "id": 15393,
+      "text": "9/22 4:00 ～ 10/16 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1695295259,
+      "updated_at": 1695295259,
+      "label": "eTEXTS_DEF_40215"
+    },
+    {
+      "id": 15394,
+      "text": "おでかけコインをアイテムと引き換えができます[LF]金のおでかけコインでは[LF][C6:限定勲章]や[C6:称号]も引き換え可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1695295259,
+      "updated_at": 1695295259,
+      "label": "eTEXTS_DEF_40216"
+    },
+    {
+      "id": 15395,
+      "text": "[C5:クーポンについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1695295259,
+      "updated_at": 1695295259,
+      "label": "eTEXTS_DEF_40217"
+    },
+    {
+      "id": 15396,
+      "text": "コラボ店舗では限定のクーポンを使用可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1695295259,
+      "updated_at": 1695295259,
+      "label": "eTEXTS_DEF_40218"
+    },
+    {
+      "id": 15397,
+      "text": "　　　[SW0.9]モンストコラボパック",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1695295259,
+      "updated_at": 1695295259,
+      "label": "eTEXTS_DEF_40219"
+    },
+    {
+      "id": 15398,
+      "text": "[C6:100円引き]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1695295259,
+      "updated_at": 1695295259,
+      "label": "eTEXTS_DEF_40220"
+    },
+    {
+      "id": 15399,
+      "text": "表示",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1695295259,
+      "updated_at": 1695295259,
+      "label": "eTEXTS_DEF_40221"
+    },
+    {
+      "id": 15400,
+      "text": "使用にあたっての注意事項などは[LF]クーポン画面からご確認ください",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1695295259,
+      "updated_at": 1695295259,
+      "label": "eTEXTS_DEF_40222"
+    },
+    {
+      "id": 15401,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20230921_3.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1695295259,
+      "updated_at": 1695295259,
+      "label": "eTEXTS_DEF_40223"
+    },
+    {
+      "id": 15402,
+      "text": "クイズ回答締切間近！",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_OBC_QUIZZ_ATTENSION_DIALOG"
+    },
+    {
+      "id": 15403,
+      "text": "[C5:オーブバック対象個数とは]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_41400"
+    },
+    {
+      "id": 15404,
+      "text": "[C4:｢集めた無料オーブ｣]と[C5:｢使ったオーブ｣]のうち[LF]少ないほうがオーブバック対象個数になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_41401"
+    },
+    {
+      "id": 15405,
+      "text": "[C4:集めた]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_41402"
+    },
+    {
+      "id": 15406,
+      "text": "[C5:使った]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_41403"
+    },
+    {
+      "id": 15407,
+      "text": "[LC][IMG:uiitem_0001.png|0.5]バック対象",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_41404"
+    },
+    {
+      "id": 15408,
+      "text": "[LC][C6:125個]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_41405"
+    },
+    {
+      "id": 15409,
+      "text": "[LC]少ないほうが[LF][LC]対象になる",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_41406"
+    },
+    {
+      "id": 15410,
+      "text": "そのため、どちらの個数も増やすことが[LF]対象個数を増やすカギになります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_41407"
+    },
+    {
+      "id": 15411,
+      "text": "[C6:240個]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_41408"
+    },
+    {
+      "id": 15412,
+      "text": "[LC]バック対象[LF][LC]個数アップ！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_41409"
+    },
+    {
+      "id": 15413,
+      "text": "オーブバック対象個数が多いほど[LF]予想参加で返ってくるオーブが多くなります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_41410"
+    },
+    {
+      "id": 15414,
+      "text": "[C5:集めた無料オーブとは]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_41411"
+    },
+    {
+      "id": 15415,
+      "text": "カウント期間中に[C6:獲得した無料オーブ]の個数です[LF]250個を上限としてカウントされます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_41412"
+    },
+    {
+      "id": 15416,
+      "text": "[C2:カウント対象外]の無料オーブ入手方法",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_41413"
+    },
+    {
+      "id": 15417,
+      "text": "・ショップでのオーブ購入（パック購入を含む）[LF]・ログインスタンププレミアム[LF]・ショップまたはストア等でのオーブ引き換え[LF]・オーブカウンター達成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1790511672,
+      "label": "eTEXTS_DEF_41414"
+    },
+    {
+      "id": 15418,
+      "text": "[C5:使ったオーブとは]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_41415"
+    },
+    {
+      "id": 15419,
+      "text": "カウント期間中に[C6:使用したオーブ]の個数です[LF]250個を上限としてカウントされます[LF][LF]※無料オーブ、有料オーブいずれもカウント対象",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_41416"
+    },
+    {
+      "id": 15420,
+      "text": "[C2:カウント対象外]の使用オーブ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_41417"
+    },
+    {
+      "id": 15421,
+      "text": "・10周年オーブ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_41418"
+    },
+    {
+      "id": 15422,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20260927_1.html#1|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1790511672,
+      "label": "eTEXTS_DEF_41419"
+    },
+    {
+      "id": 15423,
+      "text": "[C5:遊び方]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_41500"
+    },
+    {
+      "id": 15424,
+      "text": "予想に参加すると的中数に応じてオーブが貰えます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_41501"
+    },
+    {
+      "id": 15425,
+      "text": "3問的中！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_41502"
+    },
+    {
+      "id": 15426,
+      "text": "[IMG:uiitem_0001.png|0.5][C6:60個ゲット！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_41503"
+    },
+    {
+      "id": 15427,
+      "text": "[SW0.9][IMG:uiitem_0001.png|0.5]バック対象",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_41504"
+    },
+    {
+      "id": 15428,
+      "text": "[C6:100個]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696155430,
+      "updated_at": 1696155430,
+      "label": "eTEXTS_DEF_41505"
+    }
+  ]
+}

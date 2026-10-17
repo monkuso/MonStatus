@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 1,
+  "table": "texts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 12611,
+      "text": "裏・覇者の塔 制覇回数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1670862131,
+      "updated_at": 1670862131,
+      "label": "eTEXTS_DEF_ME_PLAYERCARD_ROTATION_TOWER_COMPLETE"
+    },
+    {
+      "id": 12612,
+      "text": "裏・覇者の塔 最高到達階",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1670862131,
+      "updated_at": 1670862131,
+      "label": "eTEXTS_DEF_ME_PLAYERCARD_ROTATION_TOWER_MAXFLOOR"
+    },
+    {
+      "id": 12613,
+      "text": "ひっぱりアクションで[LF]仲間と共に強敵に挑もう！[LF]キミの冒険はこれから始まる・・・",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1670862131,
+      "updated_at": 1670862131,
+      "label": "eTEXTS_DEF_ME_TIPS_TUTORIAL_MESSAGE"
+    },
+    {
+      "id": 12614,
+      "text": "合計",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1670862131,
+      "updated_at": 1670862131,
+      "label": "eTEXTS_DEF_ME_TOTAL_LUCK_MENU_CHAR_SPRITE"
+    },
+    {
+      "id": 12615,
+      "text": "[GIMMICK:毒][LF][LF][LC][IMG:help_status_effect_01.png|1.2][LF][LF]一定ターン継続してダメージを受ける[LF]状態異常回復で解除できる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1670862131,
+      "updated_at": 1670862131,
+      "label": "eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_1"
+    },
+    {
+      "id": 12616,
+      "text": "[GIMMICK:マヒ][LF][LF][LC][IMG:help_status_effect_02.png|1.2][LF][LF]一定ターン動くことができなくなる[LF]状態異常回復で解除できる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1670862131,
+      "updated_at": 1670862131,
+      "label": "eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_2"
+    },
+    {
+      "id": 12617,
+      "text": "[GIMMICK:気絶][LF][LF][LC][IMG:help_status_effect_03.png|1.2][LF][LF]一定ターン動くことができなくなる[LF]状態異常回復で解除できる[LF]味方がふれる、または敵の攻撃を受けても解除できる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1670862131,
+      "updated_at": 1670862131,
+      "label": "eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_3"
+    },
+    {
+      "id": 12618,
+      "text": "[GIMMICK:睡眠][LF][LF][LC][IMG:help_status_effect_04.png|1.2][LF][LF]一定ターン動くことができなくなり、友情コンボが発動しなくなる[LF]状態異常回復で解除できる[LF]味方がふれる、または敵の攻撃を受けても解除できる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1670862131,
+      "updated_at": 1670862131,
+      "label": "eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_4"
+    },
+    {
+      "id": 12619,
+      "text": "[GIMMICK:混乱][LF][LF][LC][IMG:help_status_effect_05.png|1.2][LF][LF]友情コンボが発動しなくなり、ふれた味方にダメージを与える[LF]状態異常回復で解除できる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1670862131,
+      "updated_at": 1670862131,
+      "label": "eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_5"
+    },
+    {
+      "id": 12620,
+      "text": "[GIMMICK:感染ウイルス][LF][LF][LC][IMG:help_status_effect_06.png|1.2][LF][LF]一定ターン継続してダメージを受ける[LF]感染ウイルス状態の味方にふれる、[LF]またはふれられると感染ウイルス状態になる[LF]状態異常回復で解除できる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1670862131,
+      "updated_at": 1670862131,
+      "label": "eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_6"
+    },
+    {
+      "id": 12621,
+      "text": "[GIMMICK:攻撃力アップ][LF][LF][LC][IMG:help_status_effect_07.png|1.2][LF][LF]攻撃力と友情コンボ威力がアップした状態[LF]攻撃力アップの効果を複数受けた場合、[LF]最も倍率の高いものが優先される[LF][GIMMICK_END][LF][GIMMICK:防御力アップ][LF][LF][LC][IMG:help_status_effect_29.png|1.2][LF][LF]防御力がアップしダメージが軽減される状態[LF]防御力アップの効果を複数受けた場合、[LF]最も倍率の高いものが優先される[LF][GIMMICK_END][LF][GIMMICK:スピードアップ][LF][LF][LC][IMG:help_status_effect_27.png|1.2][LF][LF]スピードがアップした状態[LF]スピードアップの効果を複数受けた場合、[LF]最も倍率の高いものが優先される[LF][GIMMICK_END][LF][GIMMICK:友情コンボアップ][LF][LF][LC][IMG:help_status_effect_31.png|1.2][LF][LF]友情コンボ威力がアップした状態[LF]友情コンボアップの効果を複数受けた場合、[LF]最も倍率が高いものが優先される[LF][GIMMICK_END][LF][GIMMICK:守護獣アップ][LF][LF][LC][IMG:help_status_effect_32.png|1.2][LF][LF]守護スキルによってステータスが強化された状態[LF]強化内容や継続ターン数はスキルによって異なる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1670862131,
+      "updated_at": 1741621130,
+      "label": "eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_7"
+    },
+    {
+      "id": 12622,
+      "text": "[GIMMICK:攻撃力ダウン][LF][LF][LC][IMG:help_status_effect_08.png|1.2][LF][LF]攻撃力と友情コンボ威力がダウンした状態[LF]攻撃力ダウンの効果を複数受けた場合、[LF]最も倍率の高いものが優先される[LF]状態異常回復で解除できる[LF][GIMMICK_END][LF][GIMMICK:防御力ダウン][LF][LF][LC][IMG:help_status_effect_30.png|1.2][LF][LF]防御力がダウンしダメージが増加する状態[LF]防御力ダウンの効果を複数受けた場合、[LF]最も倍率の高いものが優先される[LF]状態異常回復で解除できる[LF][GIMMICK_END][LF][GIMMICK:スピードダウン][LF][LF][LC][IMG:help_status_effect_28.png|1.2][LF][LF]スピードがダウンした状態[LF]スピードダウンの効果を複数受けた場合、[LF]最も倍率の高いものが優先される[LF]状態異常回復で解除できる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1670862131,
+      "updated_at": 1741621130,
+      "label": "eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_8"
+    },
+    {
+      "id": 12623,
+      "text": "[GIMMICK:友情コンボロック][LF][LF][LC][IMG:help_status_effect_09.png|1.2][LF][LF]一定ターン友情コンボが発動しなくなる[LF]状態異常回復で解除できる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1670862131,
+      "updated_at": 1670862131,
+      "label": "eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_9"
+    },
+    {
+      "id": 12624,
+      "text": "[GIMMICK:アビリティロック][LF][LF][LC][IMG:help_status_effect_10.png|1.2][LF][LF]一定ターンアビリティが発動しなくなる[LF]※コネクトスキルは対象外[LF]状態異常回復で解除できる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1670862131,
+      "updated_at": 1670862131,
+      "label": "eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_10"
+    },
+    {
+      "id": 12625,
+      "text": "[GIMMICK:雪だるま][LF][LF][LC][IMG:help_status_effect_11.png|1.2][LF][LF]段階に応じてスピードがダウンする[LF]3段階目（最大）になると動くことができなくなり、[LF]友情コンボが発動しなくなる[LF]味方がふれると1段階下がる[LF]状態異常回復で解除できる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1670862131,
+      "updated_at": 1670862131,
+      "label": "eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_11"
+    },
+    {
+      "id": 12626,
+      "text": "[GIMMICK:パワーアップレンジ][LF][LF][LC][IMG:help_status_effect_12.png|1.2][LF][LF]一定ターン赤い範囲に弾くと攻撃力がアップする[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1670862131,
+      "updated_at": 1670862131,
+      "label": "eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_12"
+    },
+    {
+      "id": 12627,
+      "text": "[GIMMICK:パワーダウンレンジ][LF][LF][LC][IMG:help_status_effect_13.png|1.2][LF][LF]一定ターン青い範囲に弾くと攻撃力がダウンする[LF]状態異常回復で解除できる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1670862131,
+      "updated_at": 1670862131,
+      "label": "eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_13"
+    },
+    {
+      "id": 12628,
+      "text": "[GIMMICK:反転][LF][LF][LC][IMG:help_status_effect_14.png|1.2][LF][LF]引っ張った方向とは反対方向にショットされる[LF]状態異常回復で解除できる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1670862131,
+      "updated_at": 1670862131,
+      "label": "eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_14"
+    },
+    {
+      "id": 12629,
+      "text": "[GIMMICK:狂化][LF][LF][LC][IMG:help_status_effect_15.png|1.2][LF][LF]攻撃力がアップするが、HPが回復できなくなる[LF]狂化状態の味方にふれる、[LF]またはふれられると狂化状態になる[LF]状態異常回復で解除できる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1670862131,
+      "updated_at": 1670862131,
+      "label": "eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_15"
+    },
+    {
+      "id": 12630,
+      "text": "[GIMMICK:ゲージ異常][LF][LF][LC][IMG:help_status_effect_16.png|1.2][LF][LF]ゲージショットの速度が速くなる[LF]状態異常回復で解除できる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1670862131,
+      "updated_at": 1670862131,
+      "label": "eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_16"
+    },
+    {
+      "id": 12631,
+      "text": "[GIMMICK:ひよこ状態][LF][LF][LC][IMG:help_status_effect_17.png|1.2][LF][LF]攻撃力と友情コンボの威力がダウンする[LF]ストライクショットが使えなくなる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1670862131,
+      "updated_at": 1670862131,
+      "label": "eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_17"
+    },
+    {
+      "id": 12632,
+      "text": "[GIMMICK:ニワトリ状態][LF][LF][LC][IMG:help_status_effect_18.png|1.2][LF][LF]攻撃力と友情コンボの威力がアップする[LF]ストライクショットが使えなくなる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1670862131,
+      "updated_at": 1670862131,
+      "label": "eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_18"
+    },
+    {
+      "id": 12633,
+      "text": "[GIMMICK:リジェネ状態][LF][LF][LC][IMG:help_status_effect_19.png|1.2][LF][LF]毎ターン一定量のHPが回復する[LF]一定ターン経過で解除される[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1670862131,
+      "updated_at": 1682351352,
+      "label": "eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_19"
+    },
+    {
+      "id": 12634,
+      "text": "[GIMMICK:ユーレイ][LF][LF][LC][IMG:help_status_effect_20.png|1.2][LF][LF]攻撃力とスピードがダウンし、[LF]アビリティ、コネクトスキル、ショットスキルが[LF]発動しなくなる[LF]ストライクショットが使えなくなり、ターンが増加する[LF]HPを回復することで解除できる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1670862131,
+      "updated_at": 1698738395,
+      "label": "eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_20"
+    },
+    {
+      "id": 12635,
+      "text": "[GIMMICK:反撃モード][LF][LF][LC][IMG:help_status_effect_21.png|1.2][LF][LF]敵から攻撃を受けると、50％の威力で友情コンボを発動する[LF]一定ターン経過で解除される[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1670862131,
+      "updated_at": 1670862131,
+      "label": "eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_21"
+    },
+    {
+      "id": 12636,
+      "text": "[GIMMICK:超反撃モード][LF][LF][LC][IMG:help_status_effect_22.png|1.2][LF][LF]敵から攻撃を受けると、100％の威力で友情コンボを発動する[LF]一定ターン経過で解除される[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1670862131,
+      "updated_at": 1670862131,
+      "label": "eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_22"
+    },
+    {
+      "id": 12637,
+      "text": "[GIMMICK:アップルマーカー][LF][LF][LC][IMG:help_status_effect_23.png|1.2][LF][LF]敵からの特定の攻撃を集中的に受ける[LF]一定ターン経過で解除される[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1670862131,
+      "updated_at": 1670862131,
+      "label": "eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_23"
+    },
+    {
+      "id": 12638,
+      "text": "[GIMMICK:属性効果アップ][LF][LF][LC][IMG:help_status_effect_24.png|1.2][LF][LF]属性効果がアップした状態になる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1670862131,
+      "updated_at": 1670862131,
+      "label": "eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_24"
+    },
+    {
+      "id": 12639,
+      "text": "[GIMMICK:アクセラレータ][LF][LF][LC][IMG:help_status_effect_25.png|1.2][LF][LF]味方がふれるとスピードアップする[LF]一定ターン経過で解除される[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1670862131,
+      "updated_at": 1670862131,
+      "label": "eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_25"
+    },
+    {
+      "id": 12640,
+      "text": "[GIMMICK:バブリー][LF][LF][LC][IMG:help_status_effect_26.png|1.2][LF][LF]減速率が緩和された状態になる[LF]一定ターン経過で解除される[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1670862131,
+      "updated_at": 1670862131,
+      "label": "eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_26"
+    },
+    {
+      "id": 12641,
+      "text": "ドキドキ！クリスマスミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106217,
+      "updated_at": 1671106217,
+      "label": "eTEXTS_DEF_ME_GANA_TITLE"
+    },
+    {
+      "id": 12642,
+      "text": "12/16 12:00 ~ 1/3 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106217,
+      "updated_at": 1671106217,
+      "label": "eTEXTS_DEF_ME_GANA_PERIOD"
+    },
+    {
+      "id": 12643,
+      "text": "達成条件を探して、ルートを選択しよう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106217,
+      "updated_at": 1671106217,
+      "label": "eTEXTS_DEF_ME_GANA_INFO"
+    },
+    {
+      "id": 12644,
+      "text": "???",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106217,
+      "updated_at": 1671106217,
+      "label": "eTEXTS_DEF_ME_GANA_SECRET_LABEL"
+    },
+    {
+      "id": 12645,
+      "text": "報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106217,
+      "updated_at": 1671106217,
+      "label": "eTEXTS_DEF_ME_GANA_RESULT_REWARD_TITLE_1"
+    },
+    {
+      "id": 12646,
+      "text": "初ルート選択数報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106217,
+      "updated_at": 1671106217,
+      "label": "eTEXTS_DEF_ME_GANA_RESULT_REWARD_TITLE_2"
+    },
+    {
+      "id": 12647,
+      "text": "ゴール初到達報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106217,
+      "updated_at": 1671106217,
+      "label": "eTEXTS_DEF_ME_GANA_RESULT_REWARD_TITLE_3"
+    },
+    {
+      "id": 12648,
+      "text": "ゴール到達数報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106217,
+      "updated_at": 1671106217,
+      "label": "eTEXTS_DEF_ME_GANA_RESULT_REWARD_TITLE_4"
+    },
+    {
+      "id": 12649,
+      "text": "全ルート達成報酬報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671698984,
+      "updated_at": 1671698984,
+      "label": "eTEXTS_DEF_ME_GANA_RESULT_REWARD_TITLE_COMPLETE"
+    },
+    {
+      "id": 12650,
+      "text": "[LC]ドキドキ！クリスマスミッション[LF][LF][CCB:dlme/help_collabo_gana_ms_00_2]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1671106217,
+      "updated_at": 1671698984,
+      "label": "eTEXTS_DEF_MSG_GANA_HELP"
+    },
+    {
+      "id": 12651,
+      "text": "[LC]報酬一覧[LF][LF][TAB:初ルート選択数報酬][NODE][TAB:ゴール初到達報酬][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1671106217,
+      "updated_at": 1671106217,
+      "label": "eTEXTS_DEF_MSG_GANA_REWARD_LIST"
+    },
+    {
+      "id": 12652,
+      "text": "[LC]選択確認[LF][LF][LC][NODE][LF]こちらのルートにすすみますか？[LF][C6:※一度選択したら、死に戻りするまで][LF][C6:後戻りできません][LF]もう一方の達成条件もクリアすれば選択[LF]肢が増えます",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1671106217,
+      "updated_at": 1671106217,
+      "label": "eTEXTS_DEF_MSG_GANA_DECIDE_ROUTE_CONFIRM_1"
+    },
+    {
+      "id": 12653,
+      "text": "[LC]選択確認[LF][LF][LC][NODE][LF]こちらのルートにすすみますか？[LF][C6:※一度選択したら、死に戻りするまで][LF][C6:後戻りできません]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1671106217,
+      "updated_at": 1671106217,
+      "label": "eTEXTS_DEF_MSG_GANA_DECIDE_ROUTE_CONFIRM_2"
+    },
+    {
+      "id": 12654,
+      "text": "[LC]選択確認[LF][LF][LC][NODE][LF]既に達成したルートに進みますか？[LF][C6:※一度選択したら、死に戻りするまで][LF][C6:後戻りできません]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1671106217,
+      "updated_at": 1671106217,
+      "label": "eTEXTS_DEF_MSG_GANA_DECIDE_ROUTE_CONFIRM_3"
+    },
+    {
+      "id": 12655,
+      "text": "ミッション条件を達成していない[LF]ため[LF]進むことができません",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1671106217,
+      "updated_at": 1671106217,
+      "label": "eTEXTS_DEF_MSG_GANA_ERR_CANT_DECIDE_ROUTE"
+    },
+    {
+      "id": 12656,
+      "text": "[LC]%s[LF][LF][LC]以下のアイテムを獲得しました[LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1671106217,
+      "updated_at": 1671106217,
+      "label": "eTEXTS_DEF_MSG_GANA_RESULT_REWARD"
+    },
+    {
+      "id": 12657,
+      "text": "[LC]死に戻り発生[LF][LF]死に戻りが発生し[LF][LF][C6:・ルート進捗][LF][LF]がリセットされました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1671106217,
+      "updated_at": 1671106217,
+      "label": "eTEXTS_DEF_MSG_GANA_DETH_RETURN"
+    },
+    {
+      "id": 12658,
+      "text": "[LC]SP報酬[LF][LF][LC][NODE][LF20][C6:超究極クエスト『強欲の魔女』]の[LF]金卵のドロップ率がアップ！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1671698984,
+      "updated_at": 1671698984,
+      "label": "eTEXTS_DEF_MSG_GANA_SP_ITEM_DIALOG"
+    },
+    {
+      "id": 12659,
+      "text": "[BG_STR:deck_number_bg.png|WIDTH:220|HEIGHT:36|FSIZE:20|CSTR:ドロップ率 [C6:%.2f倍]]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671698984,
+      "updated_at": 1671698984,
+      "label": "eTEXTS_DEF_ME_GANA_SP_ITEM_RATE"
+    },
+    {
+      "id": 12660,
+      "text": "[C6:金卵ドロップ率%.2f倍]発動中",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671698984,
+      "updated_at": 1671698984,
+      "label": "eTEXTS_DEF_ME_GANA_STAGE_EVENT_LABEL"
+    },
+    {
+      "id": 12661,
+      "text": "[LC]新ルート追加[LF][LF][LC][NODE][LF20]エキドナルートが追加されました[LF]ゴール達成数に応じて超究極クエスト｢強欲の魔女｣の[LF]金卵ドロップ率がアップする｢ゴール到達数報酬｣が追加[LF]報酬一覧で確認してみよう",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1671698984,
+      "updated_at": 1671698984,
+      "label": "eTEXTS_DEF_MSG_GANA_NEW_ROUTE"
+    },
+    {
+      "id": 12662,
+      "text": "[LC]報酬一覧[LF][LF][TAB:初ルート選択数報酬][NODE][TAB:ゴール初到達報酬][NODE][TAB:ゴール到達数報酬][C6:超究極クエスト『強欲の魔女』]の[LF]金卵のドロップ率がアップ！[LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1671698984,
+      "updated_at": 1671698984,
+      "label": "eTEXTS_DEF_MSG_GANA_REWARD_LIST_2"
+    },
+    {
+      "id": 12663,
+      "text": "[LC]ルート達成回数報酬[LF][LF][LC]以下のアイテムを獲得しました[LF][LC][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1671698984,
+      "updated_at": 1671698984,
+      "label": "eTEXTS_DEF_MSG_GANA_RESULT_REWARD_AFTER_NEW_ROUTE"
+    },
+    {
+      "id": 12664,
+      "text": "[C6:コラボ限定ガチャ開催中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106217,
+      "updated_at": 1671106217,
+      "label": "eTEXTS_DEF_36200"
+    },
+    {
+      "id": 12665,
+      "text": "[b:ba_help_collabo_gana_00_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106217,
+      "updated_at": 1671106217,
+      "label": "eTEXTS_DEF_36201"
+    },
+    {
+      "id": 12666,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106217,
+      "updated_at": 1671106217,
+      "label": "eTEXTS_DEF_36202"
+    },
+    {
+      "id": 12667,
+      "text": "[SW0.9]2022/12/16 12:00～2023/1/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106217,
+      "updated_at": 1671106217,
+      "label": "eTEXTS_DEF_36203"
+    },
+    {
+      "id": 12668,
+      "text": "[C5:コラボ限定ガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106217,
+      "updated_at": 1671106217,
+      "label": "eTEXTS_DEF_36204"
+    },
+    {
+      "id": 12669,
+      "text": "ガチャ[C6:｢モンストクリスマス×][LF][C6:Re:ゼロから始める異世界生活｣]が期間限定で開催中！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106217,
+      "updated_at": 1671106217,
+      "label": "eTEXTS_DEF_36205"
+    },
+    {
+      "id": 12670,
+      "text": "新登場キャラ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106217,
+      "updated_at": 1671106217,
+      "label": "eTEXTS_DEF_36206"
+    },
+    {
+      "id": 12671,
+      "text": "[IPJ10103]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106217,
+      "updated_at": 1671106217,
+      "label": "eTEXTS_DEF_36207"
+    },
+    {
+      "id": 12672,
+      "text": "[IPJ10101]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106217,
+      "updated_at": 1671106217,
+      "label": "eTEXTS_DEF_36208"
+    },
+    {
+      "id": 12673,
+      "text": "[IPJ10099]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106217,
+      "updated_at": 1671106217,
+      "label": "eTEXTS_DEF_36209"
+    },
+    {
+      "id": 12674,
+      "text": "[C5:コラボ限定ガチャ再登場]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106217,
+      "updated_at": 1671106217,
+      "label": "eTEXTS_DEF_36210"
+    },
+    {
+      "id": 12675,
+      "text": "過去に実施したガチャ[LF][C6:｢Re:ゼロから始める異世界生活｣]が期間限定で再登場！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106217,
+      "updated_at": 1671106217,
+      "label": "eTEXTS_DEF_36211"
+    },
+    {
+      "id": 12676,
+      "text": "再登場キャラ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106217,
+      "updated_at": 1671106217,
+      "label": "eTEXTS_DEF_36212"
+    },
+    {
+      "id": 12677,
+      "text": "[IPJ9006]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106217,
+      "updated_at": 1671106217,
+      "label": "eTEXTS_DEF_36213"
+    },
+    {
+      "id": 12678,
+      "text": "[IPJ9002]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106217,
+      "updated_at": 1671106217,
+      "label": "eTEXTS_DEF_36214"
+    },
+    {
+      "id": 12679,
+      "text": "[IPJ9000]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36215"
+    },
+    {
+      "id": 12680,
+      "text": "[IPJ9008]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36216"
+    },
+    {
+      "id": 12681,
+      "text": "[IPJ9004]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36217"
+    },
+    {
+      "id": 12682,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20221215_1.html#1|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36218"
+    },
+    {
+      "id": 12683,
+      "text": "[C6:コラボ限定クエスト出現中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36219"
+    },
+    {
+      "id": 12684,
+      "text": "[b:ba_help_collabo_gana_00_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36220"
+    },
+    {
+      "id": 12685,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36221"
+    },
+    {
+      "id": 12686,
+      "text": "12/16 12:00～12/31 23:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36222"
+    },
+    {
+      "id": 12687,
+      "text": "[C5:コラボ限定クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36223"
+    },
+    {
+      "id": 12688,
+      "text": "[SGBI25000|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36224"
+    },
+    {
+      "id": 12689,
+      "text": "[SGBI25010|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36225"
+    },
+    {
+      "id": 12690,
+      "text": "[SGBI25020|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36226"
+    },
+    {
+      "id": 12691,
+      "text": "追憶の書庫クエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36227"
+    },
+    {
+      "id": 12692,
+      "text": "コラボ期間中追憶の書庫にコラボ限定クエストが出現！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36228"
+    },
+    {
+      "id": 12693,
+      "text": "[C2:死の味　　　　　　　　　　　　　　　★4 メィリィ][LF][C5:血と臓物まで愛して　　　　　　　　　 ★5 エルザ][LF][C4:クウェインの石は一人じゃ上がらない　★5 ガーフィール][LF][C6:ヴィルヘルム・ヴァン・アストレア　　 ★4 ヴィルヘルム][LF][C3:狂気の外側　　　　　　　　　　　　　★5 ペテルギウス]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36229"
+    },
+    {
+      "id": 12694,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20221215_1.html#3|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36230"
+    },
+    {
+      "id": 12695,
+      "text": "[C5:守護獣の森クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36231"
+    },
+    {
+      "id": 12696,
+      "text": "守護獣の森にクエスト[C6:｢ロズワール邸の団欒｣]が再出現！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36232"
+    },
+    {
+      "id": 12697,
+      "text": "ロズワール邸の団欒",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36233"
+    },
+    {
+      "id": 12698,
+      "text": "[SUE22345]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36234"
+    },
+    {
+      "id": 12699,
+      "text": "[C6:大精霊パック]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36235"
+    },
+    {
+      "id": 12700,
+      "text": "難易度究極をクリアすることで、[LF]守護獣[C6:大精霊パック]を入手可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36236"
+    },
+    {
+      "id": 12701,
+      "text": "[SU14]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36237"
+    },
+    {
+      "id": 12702,
+      "text": "※守護獣や絆のカケラなどの報酬の入手状況は[LF]　前回から引き継がれます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36238"
+    },
+    {
+      "id": 12703,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20221215_1.html#6|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36239"
+    },
+    {
+      "id": 12704,
+      "text": "[SW0.9][C6:1日1回限定クリアボーナスを手に入れよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36240"
+    },
+    {
+      "id": 12705,
+      "text": "[b:ba_help_collabo_gana_00_3.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36241"
+    },
+    {
+      "id": 12706,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36242"
+    },
+    {
+      "id": 12707,
+      "text": "12/16 12:00～12/31 23:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36243"
+    },
+    {
+      "id": 12708,
+      "text": "[C5:1日1回限定クリアボーナス]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36244"
+    },
+    {
+      "id": 12709,
+      "text": "追憶の書庫にあるコラボクエスト[C3:｢狂気の外側｣]を[LF]クリアで1日1回[C3:★5 ペテルギウス]が7体獲得できる！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36245"
+    },
+    {
+      "id": 12710,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20221215_1.html#5a|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36246"
+    },
+    {
+      "id": 12711,
+      "text": "[C6:他にもコラボ限定のお楽しみ要素満載]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36247"
+    },
+    {
+      "id": 12712,
+      "text": "[b:ba_help_collabo_gana_ms_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36248"
+    },
+    {
+      "id": 12713,
+      "text": "詳細はコラボページを確認しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36249"
+    },
+    {
+      "id": 12714,
+      "text": "ドキドキ！クリスマスミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36250"
+    },
+    {
+      "id": 12715,
+      "text": "[SW0.72][C6:達成条件を探して、死に戻りまでにゴールを目指そう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36300"
+    },
+    {
+      "id": 12716,
+      "text": "[b:ba_help_collabo_gana_ms_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36301"
+    },
+    {
+      "id": 12717,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36302"
+    },
+    {
+      "id": 12718,
+      "text": "[SW0.8]2022/12/16 12:00～2023/1/3 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36303"
+    },
+    {
+      "id": 12719,
+      "text": "[C5:遊び方]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36304"
+    },
+    {
+      "id": 12720,
+      "text": "ドキドキ！クリスマスミッションは[LF]ミッション毎に[C6:隠された達成条件を見つけて][LF][C6:各ルートのゴールを目指す]ミッションです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36305"
+    },
+    {
+      "id": 12721,
+      "text": "スタート",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36306"
+    },
+    {
+      "id": 12722,
+      "text": "[C6:ゴール]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36307"
+    },
+    {
+      "id": 12723,
+      "text": "ミッションクリアや各ルートのゴールなどで[LF]報酬が獲得可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36308"
+    },
+    {
+      "id": 12724,
+      "text": "[C5:ミッションの達成条件について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36309"
+    },
+    {
+      "id": 12725,
+      "text": "[C6:ミッションはA～Gの7つ]用意されています[LF][LF]それぞれ明かされているのは、[C6:大まかな条件のみで][LF][C6:正確な達成条件は隠されています]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36310"
+    },
+    {
+      "id": 12726,
+      "text": "難易度｢究極｣のコラボクエストを[LF]クリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671698984,
+      "label": "eTEXTS_DEF_36311"
+    },
+    {
+      "id": 12727,
+      "text": "達成条件：？？？",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36312"
+    },
+    {
+      "id": 12728,
+      "text": "達成条件：？？？",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36313"
+    },
+    {
+      "id": 12729,
+      "text": "自身の手で達成条件を探してゴールを目指しましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36314"
+    },
+    {
+      "id": 12730,
+      "text": "[C5:ルートの選択について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36315"
+    },
+    {
+      "id": 12731,
+      "text": "ミッションの達成条件を満たすと[LF][C6:次のルートを選択できるようになり][LF][C6:新たなミッションが解放されます]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36316"
+    },
+    {
+      "id": 12732,
+      "text": "達成条件：[C6:発見！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36317"
+    },
+    {
+      "id": 12733,
+      "text": "[C6:選択可能！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36318"
+    },
+    {
+      "id": 12734,
+      "text": "達成条件：？？？",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36319"
+    },
+    {
+      "id": 12735,
+      "text": "※ミッション選択前に達成条件を満たしても[LF]　クリアにはなりません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36320"
+    },
+    {
+      "id": 12736,
+      "text": "[C5:｢死に戻り｣について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36321"
+    },
+    {
+      "id": 12737,
+      "text": "毎日AM4:00を過ぎると[C6:｢死に戻り｣]が発生し[LF][C6:進捗状況がリセット]され再スタートとなります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36322"
+    },
+    {
+      "id": 12738,
+      "text": "[C2:｢死に戻り｣発生]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36323"
+    },
+    {
+      "id": 12739,
+      "text": "｢死に戻り｣発生までに、ゴールに辿り着きましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36324"
+    },
+    {
+      "id": 12740,
+      "text": "※表示された達成条件内容は変更されません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36325"
+    },
+    {
+      "id": 12741,
+      "text": "[C5:報酬の種類について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36326"
+    },
+    {
+      "id": 12742,
+      "text": "[C6:初ルート選択数報酬]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36327"
+    },
+    {
+      "id": 12743,
+      "text": "各達成条件を初めて選択すると獲得",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36328"
+    },
+    {
+      "id": 12744,
+      "text": "[C6:ゴール初到達報酬]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36329"
+    },
+    {
+      "id": 12745,
+      "text": "各ルートで初めてゴールに到達すると獲得",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36330"
+    },
+    {
+      "id": 12746,
+      "text": "　",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671106218,
+      "updated_at": 1671106218,
+      "label": "eTEXTS_DEF_36331"
+    },
+    {
+      "id": 12747,
+      "text": "[SGBI25030|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671698984,
+      "updated_at": 1671698984,
+      "label": "eTEXTS_DEF_36251"
+    },
+    {
+      "id": 12748,
+      "text": "[C6:超究極、出現！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671698984,
+      "updated_at": 1671698984,
+      "label": "eTEXTS_DEF_36252"
+    },
+    {
+      "id": 12749,
+      "text": "[b:ba_help_collabo_gana_00_4.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671698984,
+      "updated_at": 1671698984,
+      "label": "eTEXTS_DEF_36253"
+    },
+    {
+      "id": 12750,
+      "text": "[C5:超究極クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671698984,
+      "updated_at": 1671698984,
+      "label": "eTEXTS_DEF_36254"
+    },
+    {
+      "id": 12751,
+      "text": "超究極クエスト[C6:｢『強欲の魔女』｣]が登場！[LF]降臨時間はスケジュール＆繰り返し予約で確認しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671698984,
+      "updated_at": 1671698984,
+      "label": "eTEXTS_DEF_36255"
+    },
+    {
+      "id": 12752,
+      "text": "[SGBI25030|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671698984,
+      "updated_at": 1671698984,
+      "label": "eTEXTS_DEF_36256"
+    },
+    {
+      "id": 12753,
+      "text": "[C6:｢『強欲の魔女』｣]では、本来のラックに[LF]｢ラック+99｣分のラックボーナスがプラス！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671698984,
+      "updated_at": 1671698984,
+      "label": "eTEXTS_DEF_36257"
+    },
+    {
+      "id": 12754,
+      "text": "コラボ開催中",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671698984,
+      "updated_at": 1671698984,
+      "label": "eTEXTS_DEF_36258"
+    },
+    {
+      "id": 12755,
+      "text": "[C4:+99]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671698984,
+      "updated_at": 1671698984,
+      "label": "eTEXTS_DEF_36259"
+    },
+    {
+      "id": 12756,
+      "text": "全てのモンスターがラックボーナスで宝箱を[LF]2個獲得可能！[LF]さらにドキドキ！クリスマスミッションの進捗に応じて[LF][C6:金卵のドロップ率がアップ]します！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671698984,
+      "updated_at": 1671698984,
+      "label": "eTEXTS_DEF_36260"
+    },
+    {
+      "id": 12757,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20221215_1.html#3a|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671698984,
+      "updated_at": 1671698984,
+      "label": "eTEXTS_DEF_36261"
+    },
+    {
+      "id": 12758,
+      "text": "[C6:ゴール到達数報酬]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671698984,
+      "updated_at": 1671698984,
+      "label": "eTEXTS_DEF_36332"
+    },
+    {
+      "id": 12759,
+      "text": "初めてゴールに到達した数に応じて獲得",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1671698984,
+      "updated_at": 1671698984,
+      "label": "eTEXTS_DEF_36333"
+    },
+    {
+      "id": 12760,
+      "text": "[LC]食材不足[LF][LF]不足している食材は[LF]以下で獲得することが出来ます[LF][LF][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1672224740,
+      "updated_at": 1672224740,
+      "label": "eTEXTS_DEF_GOURMET_KITCHEN_RECIPE_NOT_ENOUGH_FOOD_ANNOUNCE_BODY"
+    },
+    {
+      "id": 12761,
+      "text": "[LC]引き換え条件[LF][LF]料理Lv%dに達すると[LF]引き換え可能になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1672224740,
+      "updated_at": 1672224740,
+      "label": "eTEXTS_DEF_ME_CANT_EXCHANGE_REASON_GOURMET_LEVEL"
+    },
+    {
+      "id": 12762,
+      "text": "災禍の根城は料理Lv%dで解放されます",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1672224740,
+      "updated_at": 1672224740,
+      "label": "eTEXTS_DEF_MSG_GOURMET_AREA_LOCK"
+    },
+    {
+      "id": 12763,
+      "text": "納品報酬:",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1672224740,
+      "updated_at": 1672224740,
+      "label": "eTEXTS_DEF_MSG_GOURMET_DERIVER_REWARD"
+    },
+    {
+      "id": 12764,
+      "text": "[LC]ラッキー発動！[LF][LF][LC][C6:オーブ]を1個獲得しました！[LF20][LC][NODE][LF25]期間中に獲得できるオーブは[C6:1日1個][LF][C6:最大10個]です[LF]※AM4:00を過ぎると再度獲得可能になります[LF20][LC][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1672224740,
+      "updated_at": 1672224740,
+      "label": "eTEXTS_DEF_GOURMET_KITCHEN_COOK_FINISH_LUCKEY_BODY"
+    },
+    {
+      "id": 12765,
+      "text": "期間中：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1672224740,
+      "updated_at": 1672224740,
+      "label": "eTEXTS_DEF_PERIOD_REWARD_DIALOG"
+    },
+    {
+      "id": 12766,
+      "text": "[C6:%d]/%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1672224740,
+      "updated_at": 1672224740,
+      "label": "eTEXTS_DEF_PERIOD_REWARD_DIALOG_FORMAT"
+    },
+    {
+      "id": 12767,
+      "text": "Lv%d料理",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1672224740,
+      "updated_at": 1672224740,
+      "label": "eTEXTS_DEF_GOURMET_LEVEL_COOKING_FORMAT"
+    },
+    {
+      "id": 12768,
+      "text": "料理を作る",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1672224740,
+      "updated_at": 1672224740,
+      "label": "eTEXTS_DEF_GOURMET_COOKING_BTN"
+    },
+    {
+      "id": 12769,
+      "text": "残り：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1672224740,
+      "updated_at": 1672224740,
+      "label": "eTEXTS_DEF_GOURMET_SHORTAGE"
+    },
+    {
+      "id": 12770,
+      "text": "[LC]料理不足[LF][WIDTH470][LF][LC][NODE][LF20][LC][C6:%s]が不足しています[LF][LC]調理場で不足している料理を作りますか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1672224740,
+      "updated_at": 1672224740,
+      "label": "eTEXTS_DEF_GOURMET_DELIVER_CONDITION_UNACHIEVE_2"
+    },
+    {
+      "id": 12771,
+      "text": "[LC]入手状況[LF][LF][TI:その他][LF10][IPLCJ7526][IPLCJ10156][IPLCJ10157][LF][LF]",
+      "layout": 53,
+      "color": 0,
+      "created_at": 1672224740,
+      "updated_at": 1672224740,
+      "label": "eTEXTS_DEF_1001"
+    },
+    {
+      "id": 12772,
+      "text": "解放されたレシピ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1672224740,
+      "updated_at": 1672224740,
+      "label": "eTEXTS_DEF_ME_GOURMET_RECIPE_UNLOCK"
+    },
+    {
+      "id": 12773,
+      "text": "解放された引き換え可能アイテム",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1672224740,
+      "updated_at": 1672224740,
+      "label": "eTEXTS_DEF_ME_GOURMET_EXCHANGE_UNLOCK"
+    },
+    {
+      "id": 12774,
+      "text": "料理すると稀に[C6:オーブ]が獲得できます[LF]獲得できるオーブは[C6:1日1回]、[C6:最大10個]です[LF][LF]※[C6:AM4:00]を過ぎると再獲得可能になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1672224740,
+      "updated_at": 1672224740,
+      "label": "eTEXTS_DEF_31258"
+    },
+    {
+      "id": 12775,
+      "text": "[IPJ10157]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1672224740,
+      "updated_at": 1672224740,
+      "label": "eTEXTS_DEF_31259"
+    },
+    {
+      "id": 12776,
+      "text": "[LC]挑戦できません[LF][LF]このクエストに参加するには[LF]美食の旅路で料理Lvを[LF][C6:Lv%d]にする必要があります",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1672224740,
+      "updated_at": 1672224740,
+      "label": "eTEXTS_DEF_MSG_STAGE_CONDITION_COOKING_LEVEL_LUCK"
+    },
+    {
+      "id": 12777,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LF][LF][LF][LF][LC][IMG_B:gourmet_help_tips01.png|1.08][LF][LF][C6:収穫エリア]で食材を集めて[C6:料理]を作ろう！[LF]クエストに有利な[C6:料理]を食べてリベンジしよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1672224740,
+      "updated_at": 1672224740,
+      "label": "eTEXTS_DEF_20963"
+    },
+    {
+      "id": 12778,
+      "text": "[C6:コラボ限定ガチャ開催中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36400"
+    },
+    {
+      "id": 12779,
+      "text": "[b:ba_help_collabo_pork_00_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36401"
+    },
+    {
+      "id": 12780,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36402"
+    },
+    {
+      "id": 12781,
+      "text": "1/14 12:00～1/31 23:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36403"
+    },
+    {
+      "id": 12782,
+      "text": "[C5:コラボ限定ガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36404"
+    },
+    {
+      "id": 12783,
+      "text": "ガチャ[C6:｢ガンダムシリーズ｣]が期間限定で開催中！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36405"
+    },
+    {
+      "id": 12784,
+      "text": "[IPJ10171]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36406"
+    },
+    {
+      "id": 12785,
+      "text": "[IPJ10167]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36407"
+    },
+    {
+      "id": 12786,
+      "text": "[IPJ10165]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36408"
+    },
+    {
+      "id": 12787,
+      "text": "[IPJ10169]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36409"
+    },
+    {
+      "id": 12788,
+      "text": "[IPJ10173]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36410"
+    },
+    {
+      "id": 12789,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20230105_1.html#1|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36411"
+    },
+    {
+      "id": 12790,
+      "text": "[C6:コラボ限定クエスト出現中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36412"
+    },
+    {
+      "id": 12791,
+      "text": "[b:ba_help_collabo_pork_00_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36413"
+    },
+    {
+      "id": 12792,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36414"
+    },
+    {
+      "id": 12793,
+      "text": "1/14 12:00～1/31 23:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36415"
+    },
+    {
+      "id": 12794,
+      "text": "[C5:コラボ限定クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36416"
+    },
+    {
+      "id": 12795,
+      "text": "[SGBI25210|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36417"
+    },
+    {
+      "id": 12796,
+      "text": "[SGBI25190|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36418"
+    },
+    {
+      "id": 12797,
+      "text": "[SGBI25200|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36419"
+    },
+    {
+      "id": 12798,
+      "text": "[SGBI25170|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36420"
+    },
+    {
+      "id": 12799,
+      "text": "[SGBI25180|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36421"
+    },
+    {
+      "id": 12800,
+      "text": "[C2:｢赤い彗星｣]はマルチプレイだと[LF]金卵２個以上のドロップ率アップ！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36422"
+    },
+    {
+      "id": 12801,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20230105_1.html#4|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36423"
+    },
+    {
+      "id": 12802,
+      "text": "[SW0.88][C6:1日1回限定クリアボーナスを手に入れよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36424"
+    },
+    {
+      "id": 12803,
+      "text": "[b:ba_help_collabo_pork_00_3.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36425"
+    },
+    {
+      "id": 12804,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36426"
+    },
+    {
+      "id": 12805,
+      "text": "1/14 12:00～1/31 23:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36427"
+    },
+    {
+      "id": 12806,
+      "text": "[C5:1日1回限定クリアボーナス]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36428"
+    },
+    {
+      "id": 12807,
+      "text": "コラボクエスト[C2:｢赤い彗星｣]クリアで1日1回[LF][C2:シャア・アズナブル＆シャア専用ザクⅡ]が[LF][C6:7体]獲得できる！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36429"
+    },
+    {
+      "id": 12808,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20230105_1.html#4a|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36430"
+    },
+    {
+      "id": 12809,
+      "text": "[C6:超究極、出現！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36431"
+    },
+    {
+      "id": 12810,
+      "text": "[b:ba_help_collabo_pork_00_4.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36432"
+    },
+    {
+      "id": 12811,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36433"
+    },
+    {
+      "id": 12812,
+      "text": "1/16 19:00～1/31 23:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36434"
+    },
+    {
+      "id": 12813,
+      "text": "[C5:ハマーン・カーン＆キュベレイ、出現]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36435"
+    },
+    {
+      "id": 12814,
+      "text": "[SGBI25220]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36436"
+    },
+    {
+      "id": 12815,
+      "text": "このクエストでは[LF]使用キャラのラックが[C4:+99]され、[LF]ラックボーナスで宝箱を2個獲得可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36437"
+    },
+    {
+      "id": 12816,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20230105_1.html#5|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36438"
+    },
+    {
+      "id": 12817,
+      "text": "[b:ba_help_collabo_pork_00_5.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1674120895,
+      "updated_at": 1674120895,
+      "label": "eTEXTS_DEF_36439"
+    },
+    {
+      "id": 12818,
+      "text": "[C5:シャア・アズナブル＆サザビー、出現]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1674120895,
+      "updated_at": 1674120895,
+      "label": "eTEXTS_DEF_36440"
+    },
+    {
+      "id": 12819,
+      "text": "超究極クエスト[C2:｢逆襲のシャア｣]が出現！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1674120895,
+      "updated_at": 1674120895,
+      "label": "eTEXTS_DEF_36441"
+    },
+    {
+      "id": 12820,
+      "text": "[SGBI25230]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1674120895,
+      "updated_at": 1674120895,
+      "label": "eTEXTS_DEF_36442"
+    },
+    {
+      "id": 12821,
+      "text": "クエストクリアで[LF][C2:シャア・アズナブル＆ジオング]から[LF][C2:シャア・アズナブル＆サザビー]への進化が可能に！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1674120895,
+      "updated_at": 1674120895,
+      "label": "eTEXTS_DEF_36443"
+    },
+    {
+      "id": 12822,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20230105_1.html#13|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1674120895,
+      "updated_at": 1674120895,
+      "label": "eTEXTS_DEF_36444"
+    },
+    {
+      "id": 12823,
+      "text": "[b:ba_help_collabo_pork_00_6.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1674724143,
+      "updated_at": 1674724143,
+      "label": "eTEXTS_DEF_36445"
+    },
+    {
+      "id": 12824,
+      "text": "[C5:超究極ミッション]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1674724143,
+      "updated_at": 1674724143,
+      "label": "eTEXTS_DEF_36446"
+    },
+    {
+      "id": 12825,
+      "text": "ミッションの｢期間限定｣にコラボ専用ミッションが登場[LF]クリアでストライカーカードや称号、[LF]ボイスセットが獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1674724143,
+      "updated_at": 1674724143,
+      "label": "eTEXTS_DEF_36447"
+    },
+    {
+      "id": 12826,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20230105_1.html#13a|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1674724143,
+      "updated_at": 1674724143,
+      "label": "eTEXTS_DEF_36448"
+    },
+    {
+      "id": 12827,
+      "text": "[C6:コラボスターターパック登場！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36500"
+    },
+    {
+      "id": 12828,
+      "text": "[b:ba_help_collabo_pork_01_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36501"
+    },
+    {
+      "id": 12829,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36502"
+    },
+    {
+      "id": 12830,
+      "text": "1/14 12:00～1/31 23:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36503"
+    },
+    {
+      "id": 12831,
+      "text": "[C5:スターターパックについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36504"
+    },
+    {
+      "id": 12832,
+      "text": "コラボ期間中[LF][C3:ヒイロ・ユイ＆ウイングガンダムゼロ(EW版)][LF]と各種アイテムがセットとなった[LF][C6:ガンダムシリーズ コラボスターターパック]が登場！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36505"
+    },
+    {
+      "id": 12833,
+      "text": "[IPJ10174]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36506"
+    },
+    {
+      "id": 12834,
+      "text": "[C3:ヒイロ・ユイ＆ウイングガンダムゼロ(EW版)]は[LF]ここでのみ入手可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36507"
+    },
+    {
+      "id": 12835,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20230105_1.html#3|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36508"
+    },
+    {
+      "id": 12836,
+      "text": "[C5:フレンドガチャについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36509"
+    },
+    {
+      "id": 12837,
+      "text": "コラボイベント期間中[C6:｢フレンドガチャ｣]でも[LF][C5:スレッタ・マーキュリー＆ガンダム・エアリアル]を[LF]入手することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36510"
+    },
+    {
+      "id": 12838,
+      "text": "[IPJ10188]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36511"
+    },
+    {
+      "id": 12839,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20230105_1.html#7a|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36512"
+    },
+    {
+      "id": 12840,
+      "text": "[C6:期間限定ラックボーナス！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36513"
+    },
+    {
+      "id": 12841,
+      "text": "[b:ba_help_collabo_pork_01_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36514"
+    },
+    {
+      "id": 12842,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36515"
+    },
+    {
+      "id": 12843,
+      "text": "1/14 12:00～1/31 23:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36516"
+    },
+    {
+      "id": 12844,
+      "text": "[C5:期間限定ラック+99]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36517"
+    },
+    {
+      "id": 12845,
+      "text": "以下のキャラはコラボ期間中、[LF]本来のラックに[C4:+99]された[C4:運極]状態で、[LF]ラックボーナスが獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36518"
+    },
+    {
+      "id": 12846,
+      "text": "[IPJ10174]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36519"
+    },
+    {
+      "id": 12847,
+      "text": "[IPJ10187]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36520"
+    },
+    {
+      "id": 12848,
+      "text": "[IPJ10188]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36521"
+    },
+    {
+      "id": 12849,
+      "text": "[IPJ10189]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36522"
+    },
+    {
+      "id": 12850,
+      "text": "コラボ期間中",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36523"
+    },
+    {
+      "id": 12851,
+      "text": "[LUCK]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36524"
+    },
+    {
+      "id": 12852,
+      "text": "[C4:+99]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36525"
+    },
+    {
+      "id": 12853,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20230105_1.html#8|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36526"
+    },
+    {
+      "id": 12854,
+      "text": "[C6:他にもコラボ限定のお楽しみ要素満載]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36527"
+    },
+    {
+      "id": 12855,
+      "text": "[b:ba_help_collabo_pork_ms_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36528"
+    },
+    {
+      "id": 12856,
+      "text": "詳細は各コラボページを確認しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36529"
+    },
+    {
+      "id": 12857,
+      "text": "地球連邦軍/ジオン公国軍からの指令",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36530"
+    },
+    {
+      "id": 12858,
+      "text": "[b:ba_help_collabo_pork_01_3.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1674120895,
+      "updated_at": 1674120895,
+      "label": "eTEXTS_DEF_36531"
+    },
+    {
+      "id": 12859,
+      "text": "ザク討伐戦",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1674120895,
+      "updated_at": 1674120895,
+      "label": "eTEXTS_DEF_36532"
+    },
+    {
+      "id": 12860,
+      "text": "1月14日 12:00 〜 2月3日 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_PORK_MISSION_TILL_TIME"
+    },
+    {
+      "id": 12861,
+      "text": "地球連邦軍　[C18:難易度：低]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_PORK_MISSION_BLUE_DIFFICULTY"
+    },
+    {
+      "id": 12862,
+      "text": "ジオン公国軍　[C2:難易度：高]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_PORK_MISSION_RED_DIFFICULTY"
+    },
+    {
+      "id": 12863,
+      "text": "※選択し所属決定をタップ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_PORK_MISSION_DIFF_ATTENTION"
+    },
+    {
+      "id": 12864,
+      "text": "現在の所属",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_PORK_MISSION_NOW_TEAM"
+    },
+    {
+      "id": 12865,
+      "text": "全ての指令を達成しました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_PORK_MISSION_COMPLETE"
+    },
+    {
+      "id": 12866,
+      "text": "[LC][SW0.8]地球連邦軍/ジオン公国軍からの指令とは[LF][LF][CCB:dlme/help_collabo_pork_ms_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_PORK_MISSION_HELP_DAILOG"
+    }
+  ]
+}

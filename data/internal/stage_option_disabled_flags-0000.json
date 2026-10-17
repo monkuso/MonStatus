@@ -1,0 +1,2055 @@
+{
+  "schemaVersion": 1,
+  "table": "stage_option_disabled_flags",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "stage_id": 23420010,
+      "type_id": 0,
+      "end_at": 1642759200,
+      "created_at": 1639591255,
+      "updated_at": 1642672927
+    },
+    {
+      "id": 2,
+      "stage_id": 23420010,
+      "type_id": 1,
+      "end_at": 1642759200,
+      "created_at": 1639591255,
+      "updated_at": 1642672927
+    },
+    {
+      "id": 3,
+      "stage_id": 23420010,
+      "type_id": 2,
+      "end_at": 1642759200,
+      "created_at": 1639591255,
+      "updated_at": 1642672927
+    },
+    {
+      "id": 4,
+      "stage_id": 23120010,
+      "type_id": 0,
+      "end_at": 1637920800,
+      "created_at": 1639591255,
+      "updated_at": 1639591255
+    },
+    {
+      "id": 5,
+      "stage_id": 23120010,
+      "type_id": 1,
+      "end_at": 1637920800,
+      "created_at": 1639591255,
+      "updated_at": 1639591255
+    },
+    {
+      "id": 6,
+      "stage_id": 23120010,
+      "type_id": 2,
+      "end_at": 1637920800,
+      "created_at": 1639591255,
+      "updated_at": 1639591255
+    },
+    {
+      "id": 7,
+      "stage_id": 23470010,
+      "type_id": 0,
+      "end_at": 1644573600,
+      "created_at": 1639591255,
+      "updated_at": 1644495474
+    },
+    {
+      "id": 8,
+      "stage_id": 23470010,
+      "type_id": 1,
+      "end_at": 1644573600,
+      "created_at": 1639591255,
+      "updated_at": 1644495474
+    },
+    {
+      "id": 9,
+      "stage_id": 23470010,
+      "type_id": 2,
+      "end_at": 1644573600,
+      "created_at": 1639591255,
+      "updated_at": 1644495474
+    },
+    {
+      "id": 10,
+      "stage_id": 23150010,
+      "type_id": 0,
+      "end_at": 1639044000,
+      "created_at": 1639591255,
+      "updated_at": 1639591255
+    },
+    {
+      "id": 11,
+      "stage_id": 23150010,
+      "type_id": 1,
+      "end_at": 1639044000,
+      "created_at": 1639591255,
+      "updated_at": 1639591255
+    },
+    {
+      "id": 12,
+      "stage_id": 23150010,
+      "type_id": 2,
+      "end_at": 1639044000,
+      "created_at": 1639591255,
+      "updated_at": 1639591255
+    },
+    {
+      "id": 13,
+      "stage_id": 23260010,
+      "type_id": 0,
+      "end_at": 1640340000,
+      "created_at": 1639591255,
+      "updated_at": 1640247838
+    },
+    {
+      "id": 14,
+      "stage_id": 23260010,
+      "type_id": 1,
+      "end_at": 1640340000,
+      "created_at": 1639591255,
+      "updated_at": 1640247838
+    },
+    {
+      "id": 15,
+      "stage_id": 23260010,
+      "type_id": 2,
+      "end_at": 1640340000,
+      "created_at": 1639591255,
+      "updated_at": 1640247838
+    },
+    {
+      "id": 16,
+      "stage_id": 23000010,
+      "type_id": 0,
+      "end_at": 1634900400,
+      "created_at": 1639591255,
+      "updated_at": 1639591255
+    },
+    {
+      "id": 17,
+      "stage_id": 23000010,
+      "type_id": 1,
+      "end_at": 1634900400,
+      "created_at": 1639591255,
+      "updated_at": 1639591255
+    },
+    {
+      "id": 18,
+      "stage_id": 23000010,
+      "type_id": 2,
+      "end_at": 1634900400,
+      "created_at": 1639591255,
+      "updated_at": 1639591255
+    },
+    {
+      "id": 19,
+      "stage_id": 23300010,
+      "type_id": 0,
+      "end_at": 1641117600,
+      "created_at": 1639591255,
+      "updated_at": 1640686434
+    },
+    {
+      "id": 20,
+      "stage_id": 23300010,
+      "type_id": 1,
+      "end_at": 1641117600,
+      "created_at": 1639591255,
+      "updated_at": 1640686434
+    },
+    {
+      "id": 21,
+      "stage_id": 23300010,
+      "type_id": 2,
+      "end_at": 1641117600,
+      "created_at": 1639591255,
+      "updated_at": 1640686434
+    },
+    {
+      "id": 22,
+      "stage_id": 23110010,
+      "type_id": 0,
+      "end_at": 1636711200,
+      "created_at": 1639591255,
+      "updated_at": 1639591255
+    },
+    {
+      "id": 23,
+      "stage_id": 23110010,
+      "type_id": 1,
+      "end_at": 1636711200,
+      "created_at": 1639591255,
+      "updated_at": 1639591255
+    },
+    {
+      "id": 24,
+      "stage_id": 23110010,
+      "type_id": 2,
+      "end_at": 1636711200,
+      "created_at": 1639591255,
+      "updated_at": 1639591255
+    },
+    {
+      "id": 25,
+      "stage_id": 23510010,
+      "type_id": 0,
+      "end_at": 1645786800,
+      "created_at": 1640247838,
+      "updated_at": 1645699343
+    },
+    {
+      "id": 26,
+      "stage_id": 23510010,
+      "type_id": 1,
+      "end_at": 1645786800,
+      "created_at": 1640247838,
+      "updated_at": 1645699343
+    },
+    {
+      "id": 27,
+      "stage_id": 23510010,
+      "type_id": 2,
+      "end_at": 1645786800,
+      "created_at": 1640247838,
+      "updated_at": 1645699343
+    },
+    {
+      "id": 28,
+      "stage_id": 23540010,
+      "type_id": 0,
+      "end_at": 1649671200,
+      "created_at": 1640686434,
+      "updated_at": 1651829115
+    },
+    {
+      "id": 29,
+      "stage_id": 23540010,
+      "type_id": 1,
+      "end_at": 1649671200,
+      "created_at": 1640686434,
+      "updated_at": 1651829115
+    },
+    {
+      "id": 30,
+      "stage_id": 23540010,
+      "type_id": 2,
+      "end_at": 1649671200,
+      "created_at": 1640686434,
+      "updated_at": 1651829115
+    },
+    {
+      "id": 31,
+      "stage_id": 23620010,
+      "type_id": 0,
+      "end_at": 1650855600,
+      "created_at": 1642672927,
+      "updated_at": 1652953966
+    },
+    {
+      "id": 32,
+      "stage_id": 23620010,
+      "type_id": 1,
+      "end_at": 1650855600,
+      "created_at": 1642672927,
+      "updated_at": 1652953966
+    },
+    {
+      "id": 33,
+      "stage_id": 23620010,
+      "type_id": 2,
+      "end_at": 1650855600,
+      "created_at": 1642672927,
+      "updated_at": 1652953966
+    },
+    {
+      "id": 34,
+      "stage_id": 23680010,
+      "type_id": 0,
+      "end_at": 1650708000,
+      "created_at": 1644495474,
+      "updated_at": 1652953966
+    },
+    {
+      "id": 35,
+      "stage_id": 23680010,
+      "type_id": 1,
+      "end_at": 1650708000,
+      "created_at": 1644495474,
+      "updated_at": 1652953966
+    },
+    {
+      "id": 36,
+      "stage_id": 23680010,
+      "type_id": 2,
+      "end_at": 1650708000,
+      "created_at": 1644495474,
+      "updated_at": 1652953966
+    },
+    {
+      "id": 37,
+      "stage_id": 23780010,
+      "type_id": 0,
+      "end_at": 1650016800,
+      "created_at": 1645699343,
+      "updated_at": 1649935503
+    },
+    {
+      "id": 38,
+      "stage_id": 23780010,
+      "type_id": 1,
+      "end_at": 1650016800,
+      "created_at": 1645699343,
+      "updated_at": 1649935503
+    },
+    {
+      "id": 39,
+      "stage_id": 23780010,
+      "type_id": 2,
+      "end_at": 1650016800,
+      "created_at": 1645699343,
+      "updated_at": 1649935503
+    },
+    {
+      "id": 40,
+      "stage_id": 23810010,
+      "type_id": 0,
+      "end_at": 1652954400,
+      "created_at": 1646996861,
+      "updated_at": 1652772577
+    },
+    {
+      "id": 41,
+      "stage_id": 23810010,
+      "type_id": 1,
+      "end_at": 1652954400,
+      "created_at": 1646996861,
+      "updated_at": 1652772577
+    },
+    {
+      "id": 42,
+      "stage_id": 23810010,
+      "type_id": 2,
+      "end_at": 1652954400,
+      "created_at": 1646996861,
+      "updated_at": 1652772577
+    },
+    {
+      "id": 43,
+      "stage_id": 23900010,
+      "type_id": 0,
+      "end_at": 1657339200,
+      "created_at": 1648549037,
+      "updated_at": 1657801957
+    },
+    {
+      "id": 44,
+      "stage_id": 23900010,
+      "type_id": 1,
+      "end_at": 1657339200,
+      "created_at": 1648549037,
+      "updated_at": 1657801957
+    },
+    {
+      "id": 45,
+      "stage_id": 23900010,
+      "type_id": 2,
+      "end_at": 1657339200,
+      "created_at": 1648549037,
+      "updated_at": 1657801957
+    },
+    {
+      "id": 46,
+      "stage_id": 23950010,
+      "type_id": 0,
+      "end_at": 1658138400,
+      "created_at": 1649324183,
+      "updated_at": 1659005544
+    },
+    {
+      "id": 47,
+      "stage_id": 23950010,
+      "type_id": 1,
+      "end_at": 1658138400,
+      "created_at": 1649324183,
+      "updated_at": 1659005544
+    },
+    {
+      "id": 48,
+      "stage_id": 23950010,
+      "type_id": 2,
+      "end_at": 1658138400,
+      "created_at": 1649324183,
+      "updated_at": 1659005544
+    },
+    {
+      "id": 49,
+      "stage_id": 24000010,
+      "type_id": 0,
+      "end_at": 1658988000,
+      "created_at": 1649935503,
+      "updated_at": 1660114039
+    },
+    {
+      "id": 50,
+      "stage_id": 24000010,
+      "type_id": 1,
+      "end_at": 1658988000,
+      "created_at": 1649935503,
+      "updated_at": 1660114039
+    },
+    {
+      "id": 51,
+      "stage_id": 24000010,
+      "type_id": 2,
+      "end_at": 1658988000,
+      "created_at": 1649935503,
+      "updated_at": 1660114039
+    },
+    {
+      "id": 52,
+      "stage_id": 24160010,
+      "type_id": 0,
+      "end_at": 1660557600,
+      "created_at": 1652772577,
+      "updated_at": 1661424204
+    },
+    {
+      "id": 53,
+      "stage_id": 24160010,
+      "type_id": 1,
+      "end_at": 1660557600,
+      "created_at": 1652772577,
+      "updated_at": 1661424204
+    },
+    {
+      "id": 54,
+      "stage_id": 24160010,
+      "type_id": 2,
+      "end_at": 1660557600,
+      "created_at": 1652772577,
+      "updated_at": 1661424204
+    },
+    {
+      "id": 55,
+      "stage_id": 24170010,
+      "type_id": 0,
+      "end_at": 1659704400,
+      "created_at": 1653560042,
+      "updated_at": 1660114039
+    },
+    {
+      "id": 56,
+      "stage_id": 24170010,
+      "type_id": 1,
+      "end_at": 1659704400,
+      "created_at": 1653560042,
+      "updated_at": 1660114039
+    },
+    {
+      "id": 57,
+      "stage_id": 24170010,
+      "type_id": 2,
+      "end_at": 1659704400,
+      "created_at": 1653560042,
+      "updated_at": 1660114039
+    },
+    {
+      "id": 58,
+      "stage_id": 24230010,
+      "type_id": 0,
+      "end_at": 1660906800,
+      "created_at": 1654076611,
+      "updated_at": 1660819814
+    },
+    {
+      "id": 59,
+      "stage_id": 24230010,
+      "type_id": 1,
+      "end_at": 1660906800,
+      "created_at": 1654076611,
+      "updated_at": 1660819814
+    },
+    {
+      "id": 60,
+      "stage_id": 24230010,
+      "type_id": 2,
+      "end_at": 1660906800,
+      "created_at": 1654076611,
+      "updated_at": 1660819814
+    },
+    {
+      "id": 61,
+      "stage_id": 24290010,
+      "type_id": 0,
+      "end_at": 1662030000,
+      "created_at": 1655886790,
+      "updated_at": 1663754678
+    },
+    {
+      "id": 62,
+      "stage_id": 24290010,
+      "type_id": 1,
+      "end_at": 1662030000,
+      "created_at": 1655886790,
+      "updated_at": 1663754678
+    },
+    {
+      "id": 63,
+      "stage_id": 24290010,
+      "type_id": 2,
+      "end_at": 1662030000,
+      "created_at": 1655886790,
+      "updated_at": 1663754678
+    },
+    {
+      "id": 64,
+      "stage_id": 24340010,
+      "type_id": 0,
+      "end_at": 1667394000,
+      "created_at": 1657188471,
+      "updated_at": 1667378589
+    },
+    {
+      "id": 65,
+      "stage_id": 24340010,
+      "type_id": 1,
+      "end_at": 1667394000,
+      "created_at": 1657188471,
+      "updated_at": 1667378589
+    },
+    {
+      "id": 66,
+      "stage_id": 24340010,
+      "type_id": 2,
+      "end_at": 1667394000,
+      "created_at": 1657188471,
+      "updated_at": 1667378589
+    },
+    {
+      "id": 67,
+      "stage_id": 24410010,
+      "type_id": 0,
+      "end_at": 1666598400,
+      "created_at": 1658400768,
+      "updated_at": 1667378589
+    },
+    {
+      "id": 68,
+      "stage_id": 24410010,
+      "type_id": 1,
+      "end_at": 1666598400,
+      "created_at": 1658400768,
+      "updated_at": 1667378589
+    },
+    {
+      "id": 69,
+      "stage_id": 24410010,
+      "type_id": 2,
+      "end_at": 1666598400,
+      "created_at": 1658400768,
+      "updated_at": 1667378589
+    },
+    {
+      "id": 70,
+      "stage_id": 24460010,
+      "type_id": 0,
+      "end_at": 1664614800,
+      "created_at": 1660114039,
+      "updated_at": 1664358329
+    },
+    {
+      "id": 71,
+      "stage_id": 24460010,
+      "type_id": 1,
+      "end_at": 1664614800,
+      "created_at": 1660114039,
+      "updated_at": 1664358329
+    },
+    {
+      "id": 72,
+      "stage_id": 24460010,
+      "type_id": 2,
+      "end_at": 1664614800,
+      "created_at": 1660114039,
+      "updated_at": 1664358329
+    },
+    {
+      "id": 73,
+      "stage_id": 24470010,
+      "type_id": 0,
+      "end_at": 1671397200,
+      "created_at": 1660819814,
+      "updated_at": 1671106557
+    },
+    {
+      "id": 74,
+      "stage_id": 24470010,
+      "type_id": 1,
+      "end_at": 1671397200,
+      "created_at": 1660819814,
+      "updated_at": 1671106557
+    },
+    {
+      "id": 75,
+      "stage_id": 24470010,
+      "type_id": 2,
+      "end_at": 1671397200,
+      "created_at": 1660819814,
+      "updated_at": 1671106557
+    },
+    {
+      "id": 76,
+      "stage_id": 24630010,
+      "type_id": 0,
+      "end_at": 1670760000,
+      "created_at": 1662625971,
+      "updated_at": 1671106557
+    },
+    {
+      "id": 77,
+      "stage_id": 24630010,
+      "type_id": 1,
+      "end_at": 1670760000,
+      "created_at": 1662625971,
+      "updated_at": 1671106557
+    },
+    {
+      "id": 78,
+      "stage_id": 24630010,
+      "type_id": 2,
+      "end_at": 1670760000,
+      "created_at": 1662625971,
+      "updated_at": 1671106557
+    },
+    {
+      "id": 79,
+      "stage_id": 24670010,
+      "type_id": 0,
+      "end_at": 1672797600,
+      "created_at": 1663754677,
+      "updated_at": 1673525437
+    },
+    {
+      "id": 80,
+      "stage_id": 24670010,
+      "type_id": 1,
+      "end_at": 1672797600,
+      "created_at": 1663754677,
+      "updated_at": 1673525437
+    },
+    {
+      "id": 81,
+      "stage_id": 24670010,
+      "type_id": 2,
+      "end_at": 1672797600,
+      "created_at": 1663754677,
+      "updated_at": 1673525437
+    },
+    {
+      "id": 82,
+      "stage_id": 24680010,
+      "type_id": 0,
+      "end_at": 1676109600,
+      "created_at": 1664358329,
+      "updated_at": 1675873569
+    },
+    {
+      "id": 83,
+      "stage_id": 24680010,
+      "type_id": 1,
+      "end_at": 1676109600,
+      "created_at": 1664358329,
+      "updated_at": 1675873569
+    },
+    {
+      "id": 84,
+      "stage_id": 24680010,
+      "type_id": 2,
+      "end_at": 1676109600,
+      "created_at": 1664358329,
+      "updated_at": 1675873569
+    },
+    {
+      "id": 85,
+      "stage_id": 24760010,
+      "type_id": 0,
+      "end_at": 1674943200,
+      "created_at": 1665549141,
+      "updated_at": 1674724398
+    },
+    {
+      "id": 86,
+      "stage_id": 24760010,
+      "type_id": 1,
+      "end_at": 1674943200,
+      "created_at": 1665549141,
+      "updated_at": 1674724398
+    },
+    {
+      "id": 87,
+      "stage_id": 24760010,
+      "type_id": 2,
+      "end_at": 1674943200,
+      "created_at": 1665549141,
+      "updated_at": 1674724398
+    },
+    {
+      "id": 88,
+      "stage_id": 24930010,
+      "type_id": 0,
+      "end_at": 1676206800,
+      "created_at": 1668682999,
+      "updated_at": 1677057067
+    },
+    {
+      "id": 89,
+      "stage_id": 24930010,
+      "type_id": 1,
+      "end_at": 1676206800,
+      "created_at": 1668682999,
+      "updated_at": 1677057067
+    },
+    {
+      "id": 90,
+      "stage_id": 24930010,
+      "type_id": 2,
+      "end_at": 1676206800,
+      "created_at": 1668682999,
+      "updated_at": 1677057067
+    },
+    {
+      "id": 91,
+      "stage_id": 24940010,
+      "type_id": 0,
+      "end_at": 1677934800,
+      "created_at": 1669359165,
+      "updated_at": 1679567019
+    },
+    {
+      "id": 92,
+      "stage_id": 24940010,
+      "type_id": 1,
+      "end_at": 1677934800,
+      "created_at": 1669359165,
+      "updated_at": 1679567019
+    },
+    {
+      "id": 93,
+      "stage_id": 24940010,
+      "type_id": 2,
+      "end_at": 1677934800,
+      "created_at": 1669359165,
+      "updated_at": 1679567019
+    },
+    {
+      "id": 94,
+      "stage_id": 24980010,
+      "type_id": 0,
+      "end_at": 1679108400,
+      "created_at": 1670502347,
+      "updated_at": 1680775411
+    },
+    {
+      "id": 95,
+      "stage_id": 24980010,
+      "type_id": 1,
+      "end_at": 1679108400,
+      "created_at": 1670502347,
+      "updated_at": 1680775411
+    },
+    {
+      "id": 96,
+      "stage_id": 24980010,
+      "type_id": 2,
+      "end_at": 1679108400,
+      "created_at": 1670502347,
+      "updated_at": 1680775411
+    },
+    {
+      "id": 97,
+      "stage_id": 25060010,
+      "type_id": 0,
+      "end_at": 1681797600,
+      "created_at": 1671699306,
+      "updated_at": 1681977493
+    },
+    {
+      "id": 98,
+      "stage_id": 25060010,
+      "type_id": 1,
+      "end_at": 1681797600,
+      "created_at": 1671699306,
+      "updated_at": 1681977493
+    },
+    {
+      "id": 99,
+      "stage_id": 25060010,
+      "type_id": 2,
+      "end_at": 1681797600,
+      "created_at": 1671699306,
+      "updated_at": 1681977493
+    },
+    {
+      "id": 100,
+      "stage_id": 25090010,
+      "type_id": 0,
+      "end_at": 1680256800,
+      "created_at": 1672225069,
+      "updated_at": 1681722475
+    },
+    {
+      "id": 101,
+      "stage_id": 25090010,
+      "type_id": 1,
+      "end_at": 1680256800,
+      "created_at": 1672225069,
+      "updated_at": 1681722475
+    },
+    {
+      "id": 102,
+      "stage_id": 25090010,
+      "type_id": 2,
+      "end_at": 1680256800,
+      "created_at": 1672225069,
+      "updated_at": 1681722475
+    },
+    {
+      "id": 103,
+      "stage_id": 25240010,
+      "type_id": 0,
+      "end_at": 1682326800,
+      "created_at": 1674541197,
+      "updated_at": 1683026748
+    },
+    {
+      "id": 104,
+      "stage_id": 25240010,
+      "type_id": 1,
+      "end_at": 1682326800,
+      "created_at": 1674541197,
+      "updated_at": 1683026748
+    },
+    {
+      "id": 105,
+      "stage_id": 25240010,
+      "type_id": 2,
+      "end_at": 1682326800,
+      "created_at": 1674541197,
+      "updated_at": 1683026748
+    },
+    {
+      "id": 106,
+      "stage_id": 25280010,
+      "type_id": 0,
+      "end_at": 1682679600,
+      "created_at": 1675873569,
+      "updated_at": 1682492557
+    },
+    {
+      "id": 107,
+      "stage_id": 25280010,
+      "type_id": 1,
+      "end_at": 1682679600,
+      "created_at": 1675873569,
+      "updated_at": 1682492557
+    },
+    {
+      "id": 108,
+      "stage_id": 25280010,
+      "type_id": 2,
+      "end_at": 1682679600,
+      "created_at": 1675873569,
+      "updated_at": 1682492557
+    },
+    {
+      "id": 109,
+      "stage_id": 25350010,
+      "type_id": 0,
+      "end_at": 1682071200,
+      "created_at": 1676547625,
+      "updated_at": 1681977492
+    },
+    {
+      "id": 110,
+      "stage_id": 25350010,
+      "type_id": 1,
+      "end_at": 1682071200,
+      "created_at": 1676547625,
+      "updated_at": 1681977492
+    },
+    {
+      "id": 111,
+      "stage_id": 25350010,
+      "type_id": 2,
+      "end_at": 1682071200,
+      "created_at": 1676547625,
+      "updated_at": 1681977492
+    },
+    {
+      "id": 112,
+      "stage_id": 25420010,
+      "type_id": 0,
+      "end_at": 1684490400,
+      "created_at": 1678181242,
+      "updated_at": 1684404902
+    },
+    {
+      "id": 113,
+      "stage_id": 25420010,
+      "type_id": 1,
+      "end_at": 1684490400,
+      "created_at": 1678181242,
+      "updated_at": 1684404902
+    },
+    {
+      "id": 114,
+      "stage_id": 25420010,
+      "type_id": 2,
+      "end_at": 1684490400,
+      "created_at": 1678181242,
+      "updated_at": 1684404902
+    },
+    {
+      "id": 115,
+      "stage_id": 25510010,
+      "type_id": 0,
+      "end_at": 1685095200,
+      "created_at": 1680084880,
+      "updated_at": 1684838037
+    },
+    {
+      "id": 116,
+      "stage_id": 25510010,
+      "type_id": 1,
+      "end_at": 1685095200,
+      "created_at": 1680084880,
+      "updated_at": 1684838037
+    },
+    {
+      "id": 117,
+      "stage_id": 25510010,
+      "type_id": 2,
+      "end_at": 1685095200,
+      "created_at": 1680084880,
+      "updated_at": 1684838037
+    },
+    {
+      "id": 118,
+      "stage_id": 25580010,
+      "type_id": 0,
+      "end_at": 1687514400,
+      "created_at": 1681977492,
+      "updated_at": 1687428501
+    },
+    {
+      "id": 119,
+      "stage_id": 25580010,
+      "type_id": 1,
+      "end_at": 1687514400,
+      "created_at": 1681977492,
+      "updated_at": 1687428501
+    },
+    {
+      "id": 120,
+      "stage_id": 25580010,
+      "type_id": 2,
+      "end_at": 1687514400,
+      "created_at": 1681977492,
+      "updated_at": 1687428501
+    },
+    {
+      "id": 121,
+      "stage_id": 25590010,
+      "type_id": 0,
+      "end_at": 1686909600,
+      "created_at": 1682492557,
+      "updated_at": 1686822551
+    },
+    {
+      "id": 122,
+      "stage_id": 25590010,
+      "type_id": 1,
+      "end_at": 1686909600,
+      "created_at": 1682492557,
+      "updated_at": 1686822551
+    },
+    {
+      "id": 123,
+      "stage_id": 25590010,
+      "type_id": 2,
+      "end_at": 1686909600,
+      "created_at": 1682492557,
+      "updated_at": 1686822551
+    },
+    {
+      "id": 124,
+      "stage_id": 25730010,
+      "type_id": 0,
+      "end_at": 1690624800,
+      "created_at": 1684404902,
+      "updated_at": 1690454760
+    },
+    {
+      "id": 125,
+      "stage_id": 25730010,
+      "type_id": 1,
+      "end_at": 1690624800,
+      "created_at": 1684404902,
+      "updated_at": 1690454760
+    },
+    {
+      "id": 126,
+      "stage_id": 25730010,
+      "type_id": 2,
+      "end_at": 1690624800,
+      "created_at": 1684404902,
+      "updated_at": 1690454760
+    },
+    {
+      "id": 127,
+      "stage_id": 25740010,
+      "type_id": 0,
+      "end_at": 1688806800,
+      "created_at": 1684838037,
+      "updated_at": 1688640864
+    },
+    {
+      "id": 128,
+      "stage_id": 25740010,
+      "type_id": 1,
+      "end_at": 1688806800,
+      "created_at": 1684838037,
+      "updated_at": 1688640864
+    },
+    {
+      "id": 129,
+      "stage_id": 25740010,
+      "type_id": 2,
+      "end_at": 1688806800,
+      "created_at": 1684838037,
+      "updated_at": 1688640864
+    },
+    {
+      "id": 130,
+      "stage_id": 25780010,
+      "type_id": 0,
+      "end_at": 1691434800,
+      "created_at": 1686822551,
+      "updated_at": 1691423093
+    },
+    {
+      "id": 131,
+      "stage_id": 25780010,
+      "type_id": 1,
+      "end_at": 1691434800,
+      "created_at": 1686822551,
+      "updated_at": 1691423093
+    },
+    {
+      "id": 132,
+      "stage_id": 25780010,
+      "type_id": 2,
+      "end_at": 1691434800,
+      "created_at": 1686822551,
+      "updated_at": 1691423093
+    },
+    {
+      "id": 133,
+      "stage_id": 25840010,
+      "type_id": 0,
+      "end_at": 1691748000,
+      "created_at": 1687428501,
+      "updated_at": 1691424266
+    },
+    {
+      "id": 134,
+      "stage_id": 25840010,
+      "type_id": 1,
+      "end_at": 1691748000,
+      "created_at": 1687428501,
+      "updated_at": 1691424266
+    },
+    {
+      "id": 135,
+      "stage_id": 25840010,
+      "type_id": 2,
+      "end_at": 1691748000,
+      "created_at": 1687428501,
+      "updated_at": 1691424266
+    },
+    {
+      "id": 136,
+      "stage_id": 25900010,
+      "type_id": 0,
+      "end_at": 1696060800,
+      "created_at": 1688640864,
+      "updated_at": 1695896826
+    },
+    {
+      "id": 137,
+      "stage_id": 25900010,
+      "type_id": 1,
+      "end_at": 1696060800,
+      "created_at": 1688640864,
+      "updated_at": 1695896826
+    },
+    {
+      "id": 138,
+      "stage_id": 25900010,
+      "type_id": 2,
+      "end_at": 1696060800,
+      "created_at": 1688640864,
+      "updated_at": 1695896826
+    },
+    {
+      "id": 139,
+      "stage_id": 25990010,
+      "type_id": 0,
+      "end_at": 1695376800,
+      "created_at": 1690454760,
+      "updated_at": 1695118345
+    },
+    {
+      "id": 140,
+      "stage_id": 25990010,
+      "type_id": 1,
+      "end_at": 1695376800,
+      "created_at": 1690454760,
+      "updated_at": 1695118345
+    },
+    {
+      "id": 141,
+      "stage_id": 25990010,
+      "type_id": 2,
+      "end_at": 1695376800,
+      "created_at": 1690454760,
+      "updated_at": 1695118345
+    },
+    {
+      "id": 142,
+      "stage_id": 26030010,
+      "type_id": 0,
+      "end_at": 1697191200,
+      "created_at": 1691424266,
+      "updated_at": 1697109661
+    },
+    {
+      "id": 143,
+      "stage_id": 26030010,
+      "type_id": 1,
+      "end_at": 1697191200,
+      "created_at": 1691424266,
+      "updated_at": 1697109661
+    },
+    {
+      "id": 144,
+      "stage_id": 26030010,
+      "type_id": 2,
+      "end_at": 1697191200,
+      "created_at": 1691424266,
+      "updated_at": 1697109661
+    },
+    {
+      "id": 145,
+      "stage_id": 26210010,
+      "type_id": 0,
+      "end_at": 1699610400,
+      "created_at": 1695118345,
+      "updated_at": 1699526800
+    },
+    {
+      "id": 146,
+      "stage_id": 26210010,
+      "type_id": 1,
+      "end_at": 1699610400,
+      "created_at": 1695118345,
+      "updated_at": 1699526800
+    },
+    {
+      "id": 147,
+      "stage_id": 26210010,
+      "type_id": 2,
+      "end_at": 1699610400,
+      "created_at": 1695118345,
+      "updated_at": 1699526800
+    },
+    {
+      "id": 148,
+      "stage_id": 26220010,
+      "type_id": 0,
+      "end_at": 1702116000,
+      "created_at": 1695896826,
+      "updated_at": 1701845444
+    },
+    {
+      "id": 149,
+      "stage_id": 26220010,
+      "type_id": 1,
+      "end_at": 1702116000,
+      "created_at": 1695896826,
+      "updated_at": 1701845444
+    },
+    {
+      "id": 150,
+      "stage_id": 26220010,
+      "type_id": 2,
+      "end_at": 1702116000,
+      "created_at": 1695896826,
+      "updated_at": 1701845444
+    },
+    {
+      "id": 151,
+      "stage_id": 26310010,
+      "type_id": 0,
+      "end_at": 1703847600,
+      "created_at": 1697109661,
+      "updated_at": 1703579408
+    },
+    {
+      "id": 152,
+      "stage_id": 26310010,
+      "type_id": 1,
+      "end_at": 1703847600,
+      "created_at": 1697109661,
+      "updated_at": 1703579408
+    },
+    {
+      "id": 153,
+      "stage_id": 26310010,
+      "type_id": 2,
+      "end_at": 1703847600,
+      "created_at": 1697109661,
+      "updated_at": 1703579408
+    },
+    {
+      "id": 154,
+      "stage_id": 26450010,
+      "type_id": 0,
+      "end_at": 1705053600,
+      "created_at": 1699526800,
+      "updated_at": 1704878498
+    },
+    {
+      "id": 155,
+      "stage_id": 26450010,
+      "type_id": 1,
+      "end_at": 1705053600,
+      "created_at": 1699526800,
+      "updated_at": 1704878498
+    },
+    {
+      "id": 156,
+      "stage_id": 26450010,
+      "type_id": 2,
+      "end_at": 1705053600,
+      "created_at": 1699526800,
+      "updated_at": 1704878498
+    },
+    {
+      "id": 157,
+      "stage_id": 26570010,
+      "type_id": 0,
+      "end_at": 1708772400,
+      "created_at": 1701845444,
+      "updated_at": 1708596692
+    },
+    {
+      "id": 158,
+      "stage_id": 26570010,
+      "type_id": 1,
+      "end_at": 1708772400,
+      "created_at": 1701845444,
+      "updated_at": 1708596692
+    },
+    {
+      "id": 159,
+      "stage_id": 26570010,
+      "type_id": 2,
+      "end_at": 1708772400,
+      "created_at": 1701845444,
+      "updated_at": 1708596692
+    },
+    {
+      "id": 160,
+      "stage_id": 26630010,
+      "type_id": 0,
+      "end_at": 1707638400,
+      "created_at": 1703579408,
+      "updated_at": 1707390247
+    },
+    {
+      "id": 161,
+      "stage_id": 26630010,
+      "type_id": 1,
+      "end_at": 1707638400,
+      "created_at": 1703579408,
+      "updated_at": 1707390247
+    },
+    {
+      "id": 162,
+      "stage_id": 26630010,
+      "type_id": 2,
+      "end_at": 1707638400,
+      "created_at": 1703579408,
+      "updated_at": 1707390247
+    },
+    {
+      "id": 163,
+      "stage_id": 26680010,
+      "type_id": 0,
+      "end_at": 1711706400,
+      "created_at": 1704878498,
+      "updated_at": 1711444857
+    },
+    {
+      "id": 164,
+      "stage_id": 26680010,
+      "type_id": 1,
+      "end_at": 1711706400,
+      "created_at": 1704878498,
+      "updated_at": 1711444857
+    },
+    {
+      "id": 165,
+      "stage_id": 26680010,
+      "type_id": 2,
+      "end_at": 1711706400,
+      "created_at": 1704878498,
+      "updated_at": 1711444857
+    },
+    {
+      "id": 166,
+      "stage_id": 26810010,
+      "type_id": 0,
+      "end_at": 1712311200,
+      "created_at": 1707390247,
+      "updated_at": 1712223620
+    },
+    {
+      "id": 167,
+      "stage_id": 26810010,
+      "type_id": 1,
+      "end_at": 1712311200,
+      "created_at": 1707390247,
+      "updated_at": 1712223620
+    },
+    {
+      "id": 168,
+      "stage_id": 26810010,
+      "type_id": 2,
+      "end_at": 1712311200,
+      "created_at": 1707390247,
+      "updated_at": 1712223620
+    },
+    {
+      "id": 169,
+      "stage_id": 26890010,
+      "type_id": 0,
+      "end_at": 1714129200,
+      "created_at": 1708596692,
+      "updated_at": 1713803559
+    },
+    {
+      "id": 170,
+      "stage_id": 26890010,
+      "type_id": 1,
+      "end_at": 1714129200,
+      "created_at": 1708596692,
+      "updated_at": 1713803559
+    },
+    {
+      "id": 171,
+      "stage_id": 26890010,
+      "type_id": 2,
+      "end_at": 1714129200,
+      "created_at": 1708596692,
+      "updated_at": 1713803559
+    },
+    {
+      "id": 172,
+      "stage_id": 27010010,
+      "type_id": 0,
+      "end_at": 1717149600,
+      "created_at": 1711444856,
+      "updated_at": 1716884712
+    },
+    {
+      "id": 173,
+      "stage_id": 27010010,
+      "type_id": 1,
+      "end_at": 1717149600,
+      "created_at": 1711444856,
+      "updated_at": 1716884712
+    },
+    {
+      "id": 174,
+      "stage_id": 27010010,
+      "type_id": 2,
+      "end_at": 1717149600,
+      "created_at": 1711444856,
+      "updated_at": 1716884712
+    },
+    {
+      "id": 175,
+      "stage_id": 27050010,
+      "type_id": 0,
+      "end_at": 1717758000,
+      "created_at": 1712223620,
+      "updated_at": 1717661435
+    },
+    {
+      "id": 176,
+      "stage_id": 27050010,
+      "type_id": 1,
+      "end_at": 1717758000,
+      "created_at": 1712223620,
+      "updated_at": 1717661435
+    },
+    {
+      "id": 177,
+      "stage_id": 27050010,
+      "type_id": 2,
+      "end_at": 1717758000,
+      "created_at": 1712223620,
+      "updated_at": 1717661435
+    },
+    {
+      "id": 178,
+      "stage_id": 27100010,
+      "type_id": 0,
+      "end_at": 1719568800,
+      "created_at": 1713803559,
+      "updated_at": 1719479539
+    },
+    {
+      "id": 179,
+      "stage_id": 27100010,
+      "type_id": 1,
+      "end_at": 1719568800,
+      "created_at": 1713803559,
+      "updated_at": 1719479539
+    },
+    {
+      "id": 180,
+      "stage_id": 27100010,
+      "type_id": 2,
+      "end_at": 1719568800,
+      "created_at": 1713803559,
+      "updated_at": 1719479539
+    },
+    {
+      "id": 181,
+      "stage_id": 27210010,
+      "type_id": 0,
+      "end_at": 1720173600,
+      "created_at": 1716884712,
+      "updated_at": 1720090536
+    },
+    {
+      "id": 182,
+      "stage_id": 27210010,
+      "type_id": 1,
+      "end_at": 1720173600,
+      "created_at": 1716884712,
+      "updated_at": 1720090536
+    },
+    {
+      "id": 183,
+      "stage_id": 27210010,
+      "type_id": 2,
+      "end_at": 1720173600,
+      "created_at": 1716884712,
+      "updated_at": 1720090536
+    },
+    {
+      "id": 184,
+      "stage_id": 27250010,
+      "type_id": 0,
+      "end_at": 1725184800,
+      "created_at": 1717661435,
+      "updated_at": 1724929203
+    },
+    {
+      "id": 185,
+      "stage_id": 27250010,
+      "type_id": 1,
+      "end_at": 1725184800,
+      "created_at": 1717661435,
+      "updated_at": 1724929203
+    },
+    {
+      "id": 186,
+      "stage_id": 27250010,
+      "type_id": 2,
+      "end_at": 1725184800,
+      "created_at": 1717661435,
+      "updated_at": 1724929203
+    },
+    {
+      "id": 187,
+      "stage_id": 27330010,
+      "type_id": 0,
+      "end_at": 1723370400,
+      "created_at": 1719479539,
+      "updated_at": 1723122204
+    },
+    {
+      "id": 188,
+      "stage_id": 27330010,
+      "type_id": 1,
+      "end_at": 1723370400,
+      "created_at": 1719479539,
+      "updated_at": 1723122204
+    },
+    {
+      "id": 189,
+      "stage_id": 27330010,
+      "type_id": 2,
+      "end_at": 1723370400,
+      "created_at": 1719479539,
+      "updated_at": 1723122204
+    },
+    {
+      "id": 190,
+      "stage_id": 27380010,
+      "type_id": 0,
+      "end_at": 1726221600,
+      "created_at": 1720090536,
+      "updated_at": 1726150447
+    },
+    {
+      "id": 191,
+      "stage_id": 27380010,
+      "type_id": 1,
+      "end_at": 1726221600,
+      "created_at": 1720090536,
+      "updated_at": 1726150447
+    },
+    {
+      "id": 192,
+      "stage_id": 27380010,
+      "type_id": 2,
+      "end_at": 1726221600,
+      "created_at": 1720090536,
+      "updated_at": 1726150447
+    },
+    {
+      "id": 193,
+      "stage_id": 27530010,
+      "type_id": 0,
+      "end_at": 1729850400,
+      "created_at": 1723122204,
+      "updated_at": 1729527924
+    },
+    {
+      "id": 194,
+      "stage_id": 27530010,
+      "type_id": 1,
+      "end_at": 1729850400,
+      "created_at": 1723122204,
+      "updated_at": 1729527924
+    },
+    {
+      "id": 195,
+      "stage_id": 27530010,
+      "type_id": 2,
+      "end_at": 1729850400,
+      "created_at": 1723122204,
+      "updated_at": 1729527924
+    },
+    {
+      "id": 196,
+      "stage_id": 27580010,
+      "type_id": 0,
+      "end_at": 1729242000,
+      "created_at": 1724929203,
+      "updated_at": 1728991168
+    },
+    {
+      "id": 197,
+      "stage_id": 27580010,
+      "type_id": 1,
+      "end_at": 1729242000,
+      "created_at": 1724929203,
+      "updated_at": 1728991168
+    },
+    {
+      "id": 198,
+      "stage_id": 27580010,
+      "type_id": 2,
+      "end_at": 1729242000,
+      "created_at": 1724929203,
+      "updated_at": 1728991168
+    },
+    {
+      "id": 199,
+      "stage_id": 27630010,
+      "type_id": 0,
+      "end_at": 1731060000,
+      "created_at": 1726150447,
+      "updated_at": 1730973608
+    },
+    {
+      "id": 200,
+      "stage_id": 27630010,
+      "type_id": 1,
+      "end_at": 1731060000,
+      "created_at": 1726150447,
+      "updated_at": 1730973608
+    },
+    {
+      "id": 201,
+      "stage_id": 27630010,
+      "type_id": 2,
+      "end_at": 1731060000,
+      "created_at": 1726150447,
+      "updated_at": 1730973608
+    },
+    {
+      "id": 202,
+      "stage_id": 27840010,
+      "type_id": 0,
+      "end_at": 1735297200,
+      "created_at": 1728991168,
+      "updated_at": 1734949890
+    },
+    {
+      "id": 203,
+      "stage_id": 27840010,
+      "type_id": 1,
+      "end_at": 1735297200,
+      "created_at": 1728991168,
+      "updated_at": 1734949890
+    },
+    {
+      "id": 204,
+      "stage_id": 27840010,
+      "type_id": 2,
+      "end_at": 1735297200,
+      "created_at": 1728991168,
+      "updated_at": 1734949890
+    },
+    {
+      "id": 205,
+      "stage_id": 27850010,
+      "type_id": 0,
+      "end_at": 1733479200,
+      "created_at": 1729527924,
+      "updated_at": 1733213693
+    },
+    {
+      "id": 206,
+      "stage_id": 27850010,
+      "type_id": 1,
+      "end_at": 1733479200,
+      "created_at": 1729527924,
+      "updated_at": 1733213693
+    },
+    {
+      "id": 207,
+      "stage_id": 27850010,
+      "type_id": 2,
+      "end_at": 1733479200,
+      "created_at": 1729527924,
+      "updated_at": 1733213693
+    },
+    {
+      "id": 208,
+      "stage_id": 27710010,
+      "type_id": 0,
+      "end_at": 1730455200,
+      "created_at": 1729527924,
+      "updated_at": 1730192569
+    },
+    {
+      "id": 209,
+      "stage_id": 27710010,
+      "type_id": 1,
+      "end_at": 1730455200,
+      "created_at": 1729527924,
+      "updated_at": 1730192569
+    },
+    {
+      "id": 210,
+      "stage_id": 27710010,
+      "type_id": 2,
+      "end_at": 1730455200,
+      "created_at": 1729527924,
+      "updated_at": 1730192569
+    },
+    {
+      "id": 211,
+      "stage_id": 27410010,
+      "type_id": 0,
+      "end_at": 1727514000,
+      "created_at": 1729527924,
+      "updated_at": 1729527924
+    },
+    {
+      "id": 212,
+      "stage_id": 27410010,
+      "type_id": 1,
+      "end_at": 1727514000,
+      "created_at": 1729527924,
+      "updated_at": 1729527924
+    },
+    {
+      "id": 213,
+      "stage_id": 27410010,
+      "type_id": 2,
+      "end_at": 1727514000,
+      "created_at": 1729527924,
+      "updated_at": 1729527924
+    },
+    {
+      "id": 214,
+      "stage_id": 27860010,
+      "type_id": 0,
+      "end_at": 1735812000,
+      "created_at": 1730192569,
+      "updated_at": 1735374844
+    },
+    {
+      "id": 215,
+      "stage_id": 27860010,
+      "type_id": 1,
+      "end_at": 1735812000,
+      "created_at": 1730192569,
+      "updated_at": 1735374844
+    },
+    {
+      "id": 216,
+      "stage_id": 27860010,
+      "type_id": 2,
+      "end_at": 1735812000,
+      "created_at": 1730192569,
+      "updated_at": 1735374844
+    },
+    {
+      "id": 217,
+      "stage_id": 27900010,
+      "type_id": 0,
+      "end_at": 1738317600,
+      "created_at": 1730973608,
+      "updated_at": 1738233339
+    },
+    {
+      "id": 218,
+      "stage_id": 27900010,
+      "type_id": 1,
+      "end_at": 1738317600,
+      "created_at": 1730973608,
+      "updated_at": 1738233339
+    },
+    {
+      "id": 219,
+      "stage_id": 27900010,
+      "type_id": 2,
+      "end_at": 1738317600,
+      "created_at": 1730973608,
+      "updated_at": 1738233339
+    },
+    {
+      "id": 220,
+      "stage_id": 28010010,
+      "type_id": 0,
+      "end_at": 1739260800,
+      "created_at": 1733213693,
+      "updated_at": 1738599589
+    },
+    {
+      "id": 221,
+      "stage_id": 28010010,
+      "type_id": 1,
+      "end_at": 1739260800,
+      "created_at": 1733213693,
+      "updated_at": 1738599589
+    },
+    {
+      "id": 222,
+      "stage_id": 28010010,
+      "type_id": 2,
+      "end_at": 1739260800,
+      "created_at": 1733213693,
+      "updated_at": 1738599589
+    },
+    {
+      "id": 223,
+      "stage_id": 28100010,
+      "type_id": 0,
+      "end_at": 1740736800,
+      "created_at": 1734949890,
+      "updated_at": 1740662747
+    },
+    {
+      "id": 224,
+      "stage_id": 28100010,
+      "type_id": 1,
+      "end_at": 1740736800,
+      "created_at": 1734949890,
+      "updated_at": 1740662747
+    },
+    {
+      "id": 225,
+      "stage_id": 28100010,
+      "type_id": 2,
+      "end_at": 1740736800,
+      "created_at": 1734949890,
+      "updated_at": 1740662747
+    },
+    {
+      "id": 226,
+      "stage_id": 28120010,
+      "type_id": 0,
+      "end_at": 1741946400,
+      "created_at": 1735374844,
+      "updated_at": 1741862654
+    },
+    {
+      "id": 227,
+      "stage_id": 28120010,
+      "type_id": 1,
+      "end_at": 1741946400,
+      "created_at": 1735374844,
+      "updated_at": 1741862654
+    },
+    {
+      "id": 228,
+      "stage_id": 28120010,
+      "type_id": 2,
+      "end_at": 1741946400,
+      "created_at": 1735374844,
+      "updated_at": 1741862654
+    },
+    {
+      "id": 229,
+      "stage_id": 28250010,
+      "type_id": 0,
+      "end_at": 1743156000,
+      "created_at": 1738233339,
+      "updated_at": 1743069908
+    },
+    {
+      "id": 230,
+      "stage_id": 28250010,
+      "type_id": 1,
+      "end_at": 1743156000,
+      "created_at": 1738233339,
+      "updated_at": 1743069908
+    },
+    {
+      "id": 231,
+      "stage_id": 28250010,
+      "type_id": 2,
+      "end_at": 1743156000,
+      "created_at": 1738233339,
+      "updated_at": 1743069908
+    },
+    {
+      "id": 232,
+      "stage_id": 28300010,
+      "type_id": 0,
+      "end_at": 1744365600,
+      "created_at": 1738599588,
+      "updated_at": 1744092835
+    },
+    {
+      "id": 233,
+      "stage_id": 28300010,
+      "type_id": 1,
+      "end_at": 1744365600,
+      "created_at": 1738599588,
+      "updated_at": 1744092835
+    },
+    {
+      "id": 234,
+      "stage_id": 28300010,
+      "type_id": 2,
+      "end_at": 1744365600,
+      "created_at": 1738599588,
+      "updated_at": 1744092835
+    },
+    {
+      "id": 235,
+      "stage_id": 28380010,
+      "type_id": 0,
+      "end_at": 1745661600,
+      "created_at": 1740662747,
+      "updated_at": 1745494409
+    },
+    {
+      "id": 236,
+      "stage_id": 28380010,
+      "type_id": 1,
+      "end_at": 1745661600,
+      "created_at": 1740662747,
+      "updated_at": 1745494409
+    },
+    {
+      "id": 237,
+      "stage_id": 28380010,
+      "type_id": 2,
+      "end_at": 1745661600,
+      "created_at": 1740662747,
+      "updated_at": 1745494409
+    },
+    {
+      "id": 238,
+      "stage_id": 28420010,
+      "type_id": 0,
+      "end_at": 1747303200,
+      "created_at": 1741862654,
+      "updated_at": 1747128031
+    },
+    {
+      "id": 239,
+      "stage_id": 28420010,
+      "type_id": 1,
+      "end_at": 1747303200,
+      "created_at": 1741862654,
+      "updated_at": 1747128031
+    },
+    {
+      "id": 240,
+      "stage_id": 28420010,
+      "type_id": 2,
+      "end_at": 1747303200,
+      "created_at": 1741862654,
+      "updated_at": 1747128031
+    },
+    {
+      "id": 241,
+      "stage_id": 28510010,
+      "type_id": 0,
+      "end_at": 1747994400,
+      "created_at": 1743069908,
+      "updated_at": 1747755146
+    },
+    {
+      "id": 242,
+      "stage_id": 28510010,
+      "type_id": 1,
+      "end_at": 1747994400,
+      "created_at": 1743069908,
+      "updated_at": 1747755146
+    },
+    {
+      "id": 243,
+      "stage_id": 28510010,
+      "type_id": 2,
+      "end_at": 1747994400,
+      "created_at": 1743069908,
+      "updated_at": 1747755146
+    },
+    {
+      "id": 244,
+      "stage_id": 28550010,
+      "type_id": 0,
+      "end_at": 1749204000,
+      "created_at": 1744092835,
+      "updated_at": 1749120441
+    },
+    {
+      "id": 245,
+      "stage_id": 28550010,
+      "type_id": 1,
+      "end_at": 1749204000,
+      "created_at": 1744092835,
+      "updated_at": 1749120441
+    },
+    {
+      "id": 246,
+      "stage_id": 28550010,
+      "type_id": 2,
+      "end_at": 1749204000,
+      "created_at": 1744092835,
+      "updated_at": 1749120441
+    },
+    {
+      "id": 247,
+      "stage_id": 28640010,
+      "type_id": 0,
+      "end_at": 1751104800,
+      "created_at": 1745494409,
+      "updated_at": 1750935666
+    },
+    {
+      "id": 248,
+      "stage_id": 28640010,
+      "type_id": 1,
+      "end_at": 1751104800,
+      "created_at": 1745494409,
+      "updated_at": 1750935666
+    },
+    {
+      "id": 249,
+      "stage_id": 28640010,
+      "type_id": 2,
+      "end_at": 1751104800,
+      "created_at": 1745494409,
+      "updated_at": 1750935666
+    },
+    {
+      "id": 250,
+      "stage_id": 28720010,
+      "type_id": 0,
+      "end_at": 1752310800,
+      "created_at": 1747128030,
+      "updated_at": 1752143728
+    },
+    {
+      "id": 251,
+      "stage_id": 28720010,
+      "type_id": 1,
+      "end_at": 1752310800,
+      "created_at": 1747128030,
+      "updated_at": 1752143728
+    },
+    {
+      "id": 252,
+      "stage_id": 28720010,
+      "type_id": 2,
+      "end_at": 1752310800,
+      "created_at": 1747128030,
+      "updated_at": 1752143728
+    },
+    {
+      "id": 253,
+      "stage_id": 28760010,
+      "type_id": 0,
+      "end_at": 1751623200,
+      "created_at": 1747755146,
+      "updated_at": 1751539907
+    },
+    {
+      "id": 254,
+      "stage_id": 28760010,
+      "type_id": 1,
+      "end_at": 1751623200,
+      "created_at": 1747755146,
+      "updated_at": 1751539907
+    },
+    {
+      "id": 255,
+      "stage_id": 28760010,
+      "type_id": 2,
+      "end_at": 1751623200,
+      "created_at": 1747755146,
+      "updated_at": 1751539907
+    },
+    {
+      "id": 256,
+      "stage_id": 28800010,
+      "type_id": 0,
+      "end_at": 1755252000,
+      "created_at": 1749120441,
+      "updated_at": 1755014880
+    }
+  ]
+}

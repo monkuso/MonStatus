@@ -1,0 +1,394 @@
+{
+  "schemaVersion": 1,
+  "table": "char_efficacious_descriptions",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "char_id": 206,
+      "sort_id": 5,
+      "description": "合成で経験値がアップ！",
+      "combine_material": true,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 2,
+      "char_id": 207,
+      "sort_id": 6,
+      "description": "合成で経験値が大アップ！",
+      "combine_material": true,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 3,
+      "char_id": 208,
+      "sort_id": 7,
+      "description": "合成で経験値が特大アップ！",
+      "combine_material": true,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 4,
+      "char_id": 209,
+      "sort_id": 1,
+      "description": "売却でコインがアップ！",
+      "combine_material": false,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 5,
+      "char_id": 210,
+      "sort_id": 2,
+      "description": "売却でコインが大アップ！",
+      "combine_material": false,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 6,
+      "char_id": 211,
+      "sort_id": 3,
+      "description": "売却でコインが特大アップ！",
+      "combine_material": false,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 7,
+      "char_id": 212,
+      "sort_id": 17,
+      "description": "合成で攻撃力がアップ！",
+      "combine_material": true,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 8,
+      "char_id": 213,
+      "sort_id": 18,
+      "description": "合成で攻撃力が大アップ！",
+      "combine_material": true,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 9,
+      "char_id": 214,
+      "sort_id": 13,
+      "description": "合成でスピードがアップ！",
+      "combine_material": true,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 10,
+      "char_id": 215,
+      "sort_id": 14,
+      "description": "合成でスピードが大アップ！",
+      "combine_material": true,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 11,
+      "char_id": 216,
+      "sort_id": 9,
+      "description": "合成でHPがアップ！",
+      "combine_material": true,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 12,
+      "char_id": 217,
+      "sort_id": 10,
+      "description": "合成でHPが大アップ！",
+      "combine_material": true,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 13,
+      "char_id": 375,
+      "sort_id": 4,
+      "description": "売却でコインが極大アップ！",
+      "combine_material": false,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 14,
+      "char_id": 564,
+      "sort_id": 8,
+      "description": "合成で経験値が極大アップ！",
+      "combine_material": true,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 15,
+      "char_id": 670,
+      "sort_id": 19,
+      "description": "合成で攻撃力が特大アップ！",
+      "combine_material": true,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 16,
+      "char_id": 671,
+      "sort_id": 15,
+      "description": "合成でスピードが特大アップ！",
+      "combine_material": true,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 17,
+      "char_id": 672,
+      "sort_id": 11,
+      "description": "合成でHPが特大アップ！",
+      "combine_material": true,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 18,
+      "char_id": 854,
+      "sort_id": 5,
+      "description": "合成で経験値がアップ！",
+      "combine_material": true,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 19,
+      "char_id": 855,
+      "sort_id": 6,
+      "description": "合成で経験値が大アップ！",
+      "combine_material": true,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 20,
+      "char_id": 856,
+      "sort_id": 7,
+      "description": "合成で経験値が特大アップ！",
+      "combine_material": true,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 21,
+      "char_id": 857,
+      "sort_id": 8,
+      "description": "合成で経験値が極大アップ！",
+      "combine_material": true,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 22,
+      "char_id": 858,
+      "sort_id": 5,
+      "description": "合成で経験値がアップ！",
+      "combine_material": true,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 23,
+      "char_id": 859,
+      "sort_id": 6,
+      "description": "合成で経験値が大アップ！",
+      "combine_material": true,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 24,
+      "char_id": 860,
+      "sort_id": 7,
+      "description": "合成で経験値が特大アップ！",
+      "combine_material": true,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 25,
+      "char_id": 861,
+      "sort_id": 8,
+      "description": "合成で経験値が極大アップ！",
+      "combine_material": true,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 26,
+      "char_id": 862,
+      "sort_id": 5,
+      "description": "合成で経験値がアップ！",
+      "combine_material": true,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 27,
+      "char_id": 863,
+      "sort_id": 6,
+      "description": "合成で経験値が大アップ！",
+      "combine_material": true,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 28,
+      "char_id": 864,
+      "sort_id": 7,
+      "description": "合成で経験値が特大アップ！",
+      "combine_material": true,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 29,
+      "char_id": 865,
+      "sort_id": 8,
+      "description": "合成で経験値が極大アップ！",
+      "combine_material": true,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 30,
+      "char_id": 866,
+      "sort_id": 5,
+      "description": "合成で経験値がアップ！",
+      "combine_material": true,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 31,
+      "char_id": 867,
+      "sort_id": 6,
+      "description": "合成で経験値が大アップ！",
+      "combine_material": true,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 32,
+      "char_id": 868,
+      "sort_id": 7,
+      "description": "合成で経験値が特大アップ！",
+      "combine_material": true,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 33,
+      "char_id": 869,
+      "sort_id": 8,
+      "description": "合成で経験値が極大アップ！",
+      "combine_material": true,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 34,
+      "char_id": 1373,
+      "sort_id": 20,
+      "description": "合成で攻撃力が超大アップ！",
+      "combine_material": true,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 35,
+      "char_id": 2892,
+      "sort_id": 23,
+      "description": "獣神化用素材モンスター",
+      "combine_material": false,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 36,
+      "char_id": 2893,
+      "sort_id": 23,
+      "description": "獣神化用素材モンスター",
+      "combine_material": false,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 37,
+      "char_id": 2894,
+      "sort_id": 23,
+      "description": "獣神化用素材モンスター",
+      "combine_material": false,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 38,
+      "char_id": 2895,
+      "sort_id": 23,
+      "description": "獣神化用素材モンスター",
+      "combine_material": false,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 39,
+      "char_id": 2896,
+      "sort_id": 23,
+      "description": "獣神化用素材モンスター",
+      "combine_material": false,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 40,
+      "char_id": 3264,
+      "sort_id": 24,
+      "description": "バベル神化用素材モンスター",
+      "combine_material": false,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 41,
+      "char_id": 3585,
+      "sort_id": 16,
+      "description": "合成でスピードが超大アップ！",
+      "combine_material": true,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 42,
+      "char_id": 3586,
+      "sort_id": 12,
+      "description": "合成でHPが超大アップ！",
+      "combine_material": true,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    },
+    {
+      "id": 43,
+      "char_id": 6227,
+      "sort_id": 25,
+      "description": "モン玉キャラ引き換え用モンスター",
+      "combine_material": false,
+      "created_at": 1646755979,
+      "updated_at": 1646755979
+    }
+  ]
+}

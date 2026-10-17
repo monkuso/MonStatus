@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 1,
+  "table": "texts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 16454,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20251127_2.html#2|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1701340579,
+      "updated_at": 1764239257,
+      "label": "eTEXTS_DEF_42617"
+    },
+    {
+      "id": 16455,
+      "text": "[LC]エラー[LF][LF]セッションが切れました[LF]アクセスし直します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702311128,
+      "updated_at": 1702311128,
+      "label": "eTEXTS_DEF_ERR_MSG_SESSION"
+    },
+    {
+      "id": 16456,
+      "text": "「%s」開始！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572249,
+      "updated_at": 1705572249,
+      "label": "eTEXTS_DEF_OTHER_NOTIFY_EVENT_STAGE_2"
+    },
+    {
+      "id": 16457,
+      "text": "コラボ・期間限定キャラを含む",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702311128,
+      "updated_at": 1702311128,
+      "label": "eTEXTS_DEF_MSG_BATCH_SELL_DESC_TIME_LIMITED_CHAR"
+    },
+    {
+      "id": 16458,
+      "text": "[IF:%d][LC]%s[ENDIF][LF]現在の通算BATTLE突破数: %d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702311128,
+      "updated_at": 1702311128,
+      "label": "eTEXTS_DEF_TENKO_TOTAL_PAHSE_REWARD_NOTE"
+    },
+    {
+      "id": 16459,
+      "text": "※未クリアステージや獲得可能な報酬が[LF]残っている場合に通知されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702311128,
+      "updated_at": 1706752745,
+      "label": "eTEXTS_DEF_QUEST_NOTIFY_DESCRIPTION4"
+    },
+    {
+      "id": 16460,
+      "text": "モンストでマルチしない？\\n「%s（%s）」\\n%s\\n↑このURLをタップすると、タップした人達同士で一緒にマルチプレイができるよ！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702311128,
+      "updated_at": 1702311128,
+      "label": "eTEXTS_DEF_DECK_SELECT_MULTI_INVITE_MESSAGE"
+    },
+    {
+      "id": 16461,
+      "text": "[LC]確認[LF][LF]他の画面に移動した後に[LF]受付画面に戻りたい場合は[LF]URLをタップして起動し直してください[LF][LF]他の画面に移動しますか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1702311128,
+      "updated_at": 1702311128,
+      "label": "eTEXTS_DEF_MSG_SNS_MULTI_MOVE"
+    },
+    {
+      "id": 16462,
+      "text": "起動する",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1702311128,
+      "updated_at": 1702311128,
+      "label": "eTEXTS_DEF_MSG_SNS_MULTI_APPOPEN"
+    },
+    {
+      "id": 16463,
+      "text": "URLをコピー",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1702311128,
+      "updated_at": 1702311128,
+      "label": "eTEXTS_DEF_MSG_SNS_MULTI_URLCOPY"
+    },
+    {
+      "id": 16464,
+      "text": "URLをコピーしました",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1702311128,
+      "updated_at": 1702311128,
+      "label": "eTEXTS_DEF_MSG_SNS_MULTI_URLCOPY_DONE"
+    },
+    {
+      "id": 16465,
+      "text": "[LC]無効な募集[LF][LF]この募集はプレイ済みです[LF]改めてマルチ募集を行ってください",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1702311128,
+      "updated_at": 1702311128,
+      "label": "eTEXTS_DEF_MSG_SNS_INVITATION_INVALID"
+    },
+    {
+      "id": 16466,
+      "text": "同行中",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_STEW_LOTTERY_ICON_LABEL"
+    },
+    {
+      "id": 16467,
+      "text": "同行効果は発動していません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_STEW_LOTTERY_NO_EFFECT_IN_QUEST"
+    },
+    {
+      "id": 16468,
+      "text": "同行中のキャラはなかよし度を300pt獲得済です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_STEW_LOTTERY_MISSION_INFO_MAX"
+    },
+    {
+      "id": 16469,
+      "text": "%sのM.A.V.効果発動中",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1752408983,
+      "label": "eTEXTS_DEF_STEW_LOTTERY_QUEST_EFFECT"
+    },
+    {
+      "id": 16470,
+      "text": "M.A.V.効果効果",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1752408983,
+      "label": "eTEXTS_DEF_STEW_LOTTERY_QUEST_EFFECT_INFO"
+    },
+    {
+      "id": 16471,
+      "text": "%dpt",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_STEW_LOTTERY_PT"
+    },
+    {
+      "id": 16472,
+      "text": "pt",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_STEW_LOTTERY_PT_ONLY"
+    },
+    {
+      "id": 16473,
+      "text": "[LC]同行キャラ変更確認[LF][WIDTH565][LF]%sと同行しますか？[LF][LF][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_STEW_LOTTERY_CHECK_DIALOG"
+    },
+    {
+      "id": 16474,
+      "text": "[LC]報酬[LF][WIDTH565][LF]以下の同行効果を獲得しました[LF][LF][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_STEW_LOTTERY_REWARD_EFFECT_DIALOG"
+    },
+    {
+      "id": 16475,
+      "text": "[LC]報酬・同行効果一覧[LF][LF][TAB|WIDTH565:報酬][LF][NODE][TAB|WIDTH565:同行効果]同行中のキャラによって効果が異なります[LF]また獲得した[C6:なかよし度]に応じて効果が変化します[LF][NODE][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_STEW_LOTTERY_REWARD_LIST_DIALOG"
+    },
+    {
+      "id": 16476,
+      "text": "[LC]なかよし任務とは[LF][LF][CCB:dlme/help_collabo_stew_sb1_00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_STEW_LOTTERY_HELP"
+    },
+    {
+      "id": 16477,
+      "text": "[LC]ミッションリセット[LF][LF]日替わりミッションがリセットされました[LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_STEW_LOTTERY_MISSION_RESET_DIALOG"
+    },
+    {
+      "id": 16478,
+      "text": "[LC]報酬[LF][WIDTH565][LF]以下の報酬を獲得しました[LF][LF][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_STEW_LOTTERY_REWARD_ITEM_DIALOG"
+    },
+    {
+      "id": 16479,
+      "text": "[LC]報酬[LF][WIDTH565][LF]以下の報酬と同行効果を獲得しました[LF][LF][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_STEW_LOTTERY_REWARD_ITEM_PLUS_DIALOG"
+    },
+    {
+      "id": 16480,
+      "text": "%d/50",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43000"
+    },
+    {
+      "id": 16481,
+      "text": "%d/5",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43001"
+    },
+    {
+      "id": 16482,
+      "text": "%d/5",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43002"
+    },
+    {
+      "id": 16483,
+      "text": "なかよし任務",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_STEW_LOTTERY_QUEST_RESULT_TITLE"
+    },
+    {
+      "id": 16484,
+      "text": "獲得なかよし度",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_STEW_LOTTERY_QUEST_RESULT_ALL_PT"
+    },
+    {
+      "id": 16485,
+      "text": "なかよし度が最大値に到達しています",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_STEW_LOTTERY_QUEST_RESULT_MAX_POINT"
+    },
+    {
+      "id": 16486,
+      "text": "クエストクリアで[LF]スタミナを50消費",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_STEW_LOTTERY_QUEST_RESULT_STAMINA"
+    },
+    {
+      "id": 16487,
+      "text": "金卵を5個排出",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_STEW_LOTTERY_QUEST_RESULT_TAMAGO"
+    },
+    {
+      "id": 16488,
+      "text": "金種を5個排出",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_STEW_LOTTERY_QUEST_RESULT_TANE"
+    },
+    {
+      "id": 16489,
+      "text": "12/15 12:00 ~ 1/3 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_STEW_LOTTERY_PERIOD"
+    },
+    {
+      "id": 16490,
+      "text": "同行するキャラを選んでなかよし度を上げよう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_STEW_LOTTERY_INFO1"
+    },
+    {
+      "id": 16491,
+      "text": "同行キャラは何度でも変更可能",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_STEW_LOTTERY_INFO2"
+    },
+    {
+      "id": 16492,
+      "text": "同行効果",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_STEW_LOTTERY_EFFECT"
+    },
+    {
+      "id": 16493,
+      "text": "効果なし",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_STEW_LOTTERY_NO_EFFECT"
+    },
+    {
+      "id": 16494,
+      "text": "ミッションクリアでなかよし度獲得 (4:00にリセット)",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_STEW_LOTTERY_MISSION_INFO"
+    },
+    {
+      "id": 16495,
+      "text": "なかよし任務",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_STEW_LOTTERY_MAIN_LABEL"
+    },
+    {
+      "id": 16496,
+      "text": "全員",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_STEW_LOTTERY_MAIN_CHAR_NAME0"
+    },
+    {
+      "id": 16497,
+      "text": "ロイド",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_STEW_LOTTERY_MAIN_CHAR_NAME1"
+    },
+    {
+      "id": 16498,
+      "text": "アーニャ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_STEW_LOTTERY_MAIN_CHAR_NAME2"
+    },
+    {
+      "id": 16499,
+      "text": "ヨル",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_STEW_LOTTERY_MAIN_CHAR_NAME3"
+    },
+    {
+      "id": 16500,
+      "text": "[C6:コラボ限定ガチャ開催中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42800"
+    },
+    {
+      "id": 16501,
+      "text": "[b:ba_help_collabo_stew_00_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42801"
+    },
+    {
+      "id": 16502,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42802"
+    },
+    {
+      "id": 16503,
+      "text": "12/15 12:00 ～ 1/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42803"
+    },
+    {
+      "id": 16504,
+      "text": "[C5:コラボ限定ガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42804"
+    },
+    {
+      "id": 16505,
+      "text": "新登場キャラ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42805"
+    },
+    {
+      "id": 16506,
+      "text": "ガチャ[C6:｢劇場版 SPY×FAMILY CODE: White｣][LF]が期間限定で開催中！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42806"
+    },
+    {
+      "id": 16507,
+      "text": "[IPJ10931]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42807"
+    },
+    {
+      "id": 16508,
+      "text": "[IPJ10933]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42808"
+    },
+    {
+      "id": 16509,
+      "text": "[IPJ10935]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42809"
+    },
+    {
+      "id": 16510,
+      "text": "コラボ限定キャラ再登場",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42810"
+    },
+    {
+      "id": 16511,
+      "text": "ガチャ[C6:｢SPY×FAMILY｣]では、[LF]コラボキャラクター3体が再登場！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42811"
+    },
+    {
+      "id": 16512,
+      "text": "[IPJ9526]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42812"
+    },
+    {
+      "id": 16513,
+      "text": "[IPJ9528]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42813"
+    },
+    {
+      "id": 16514,
+      "text": "[IPJ9530]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42814"
+    },
+    {
+      "id": 16515,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20231214_1.html#1|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42815"
+    },
+    {
+      "id": 16516,
+      "text": "[C6:コラボ限定クエスト出現中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42816"
+    },
+    {
+      "id": 16517,
+      "text": "[b:ba_help_collabo_stew_00_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42817"
+    },
+    {
+      "id": 16518,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42818"
+    },
+    {
+      "id": 16519,
+      "text": "12/15 12:00 ～ 12/31 23:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42819"
+    },
+    {
+      "id": 16520,
+      "text": "[C5:コラボ限定クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42820"
+    },
+    {
+      "id": 16521,
+      "text": "[SGBI26600|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42821"
+    },
+    {
+      "id": 16522,
+      "text": "[SGBI26580|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42822"
+    },
+    {
+      "id": 16523,
+      "text": "[SGBI26590|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42823"
+    },
+    {
+      "id": 16524,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20231214_1.html#3|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42824"
+    },
+    {
+      "id": 16525,
+      "text": "[C5:守護獣の森クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42825"
+    },
+    {
+      "id": 16526,
+      "text": "守護獣の森にクエスト[C2:｢怪しい二人組｣]が降臨！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42826"
+    },
+    {
+      "id": 16527,
+      "text": "怪しい二人組",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42827"
+    },
+    {
+      "id": 16528,
+      "text": "[C2:★5 ドミトリ＆ルカ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42828"
+    },
+    {
+      "id": 16529,
+      "text": "[SUE25152]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42829"
+    },
+    {
+      "id": 16530,
+      "text": "難易度究極をクリアすることで[LF]守護獣[C6:ボンド・フォージャー]を入手可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42830"
+    },
+    {
+      "id": 16531,
+      "text": "[SU36]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42831"
+    },
+    {
+      "id": 16532,
+      "text": "※クエストボスの｢ドミトリ＆ルカ｣は入手できません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42832"
+    },
+    {
+      "id": 16533,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20231214_1.html#4|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42833"
+    },
+    {
+      "id": 16534,
+      "text": "[C6:期間限定ラックボーナス！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42900"
+    },
+    {
+      "id": 16535,
+      "text": "[b:ba_help_collabo_stew_01_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42901"
+    },
+    {
+      "id": 16536,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42902"
+    },
+    {
+      "id": 16537,
+      "text": "12/15 12:00～12/31 23:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42903"
+    },
+    {
+      "id": 16538,
+      "text": "[C5:期間限定ラック+99]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42904"
+    },
+    {
+      "id": 16539,
+      "text": "以下のキャラはコラボ期間中[LF]本来のラックに[C4:+99]された[C4:運極]状態で[LF]ラックボーナスが獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42905"
+    },
+    {
+      "id": 16540,
+      "text": "[LUCK]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42906"
+    },
+    {
+      "id": 16541,
+      "text": "[C4:+99]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42907"
+    },
+    {
+      "id": 16542,
+      "text": "[IPJ10944]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42908"
+    },
+    {
+      "id": 16543,
+      "text": "コラボ開催中",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42909"
+    },
+    {
+      "id": 16544,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20231214_1.html#6|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42910"
+    },
+    {
+      "id": 16545,
+      "text": "[C6:他にもコラボ限定のお楽しみ要素満載]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42911"
+    },
+    {
+      "id": 16546,
+      "text": "[b:ba_help_collabo_stew_sb1_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42912"
+    },
+    {
+      "id": 16547,
+      "text": "詳細はコラボページを確認しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42913"
+    },
+    {
+      "id": 16548,
+      "text": "なかよし任務",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_42914"
+    },
+    {
+      "id": 16549,
+      "text": "[SW0.86][C6:フォージャー家と任務をこなしてなかよしに！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43003"
+    },
+    {
+      "id": 16550,
+      "text": "[b:ba_help_collabo_stew_sb1_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43004"
+    },
+    {
+      "id": 16551,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43005"
+    },
+    {
+      "id": 16552,
+      "text": "12/15 12:00～1/3 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43006"
+    },
+    {
+      "id": 16553,
+      "text": "[C5:遊び方]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43007"
+    },
+    {
+      "id": 16554,
+      "text": "フォージャー家の中から1人を選択しましょう[LF]選択したキャラに応じて[C6:アイテムが獲得]できたり[LF][C6:クエストで役立つ特殊効果]が受けられます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43008"
+    },
+    {
+      "id": 16555,
+      "text": "[C6:効果や報酬ゲット！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43009"
+    },
+    {
+      "id": 16556,
+      "text": "0",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43010"
+    },
+    {
+      "id": 16557,
+      "text": "pt",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43011"
+    },
+    {
+      "id": 16558,
+      "text": "[C5:同行となかよし度について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43012"
+    },
+    {
+      "id": 16559,
+      "text": "ロイド、アーニャ、ヨルの中から1人を選んで[LF]そのキャラと同行することが出来ます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43013"
+    },
+    {
+      "id": 16560,
+      "text": "日替わりのミッションやクエストクリアなどで[LF][C6:同行中のキャラのなかよし度を上げることが出来ます]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43014"
+    },
+    {
+      "id": 16561,
+      "text": "[C6:ミッションクリア！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43015"
+    },
+    {
+      "id": 16562,
+      "text": "[C6:なかよし度アップ！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43016"
+    },
+    {
+      "id": 16563,
+      "text": "+",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43017"
+    },
+    {
+      "id": 16564,
+      "text": "30",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43018"
+    },
+    {
+      "id": 16565,
+      "text": "ミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43019"
+    },
+    {
+      "id": 16566,
+      "text": "[C5:報酬について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43020"
+    },
+    {
+      "id": 16567,
+      "text": "各キャラごとに、なかよし度が一定まで上がると[LF][C6:アイテムやコラボ限定の勲章]などが獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43021"
+    },
+    {
+      "id": 16568,
+      "text": "勲章はなかよし度[C6:100pt]で獲得でき、[LF][C6:200pt]、[C6:300pt]到達でデザインが豪華になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43022"
+    },
+    {
+      "id": 16569,
+      "text": "100pt到達",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43023"
+    },
+    {
+      "id": 16570,
+      "text": "200pt到達",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43024"
+    },
+    {
+      "id": 16571,
+      "text": "300pt到達",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43025"
+    },
+    {
+      "id": 16572,
+      "text": "[C5:同行効果について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43026"
+    },
+    {
+      "id": 16573,
+      "text": "なかよし度が50ptになると同行効果が発動し[LF]100ptになると効果が上がります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43027"
+    },
+    {
+      "id": 16574,
+      "text": "ロイド",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43028"
+    },
+    {
+      "id": 16575,
+      "text": "追憶の書庫と対象コラボクエストで[LF][C6:金卵排出率がアップ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43029"
+    },
+    {
+      "id": 16576,
+      "text": "アーニャ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43030"
+    },
+    {
+      "id": 16577,
+      "text": "追憶の書庫と対象コラボクエストで[LF][C6:獲得経験値がアップ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43031"
+    },
+    {
+      "id": 16578,
+      "text": "ヨル",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43032"
+    },
+    {
+      "id": 16579,
+      "text": "追憶の書庫と対象コラボクエストで[LF][C6:攻撃力と友情コンボ威力がアップ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43033"
+    },
+    {
+      "id": 16580,
+      "text": "※マルチプレイでは、ホストの効果のみ発動します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43034"
+    },
+    {
+      "id": 16581,
+      "text": "[C5:なかよし度の獲得方法について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43035"
+    },
+    {
+      "id": 16582,
+      "text": "日替わりミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43036"
+    },
+    {
+      "id": 16583,
+      "text": "毎日内容が変わるミッションを達成することで[LF]達成時に同行中のキャラのなかよし度が上がります[LF][LF]ミッションは毎日AM4:00に内容が変わります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43037"
+    },
+    {
+      "id": 16584,
+      "text": "4時になる",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43038"
+    },
+    {
+      "id": 16585,
+      "text": "[C6:挑戦可能！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43039"
+    },
+    {
+      "id": 16586,
+      "text": "ミッションA",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43040"
+    },
+    {
+      "id": 16587,
+      "text": "ミッションB",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43041"
+    },
+    {
+      "id": 16588,
+      "text": "クエストクリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43042"
+    },
+    {
+      "id": 16589,
+      "text": "クエストクリア時に一定の条件を満たすと[LF]なかよし度を1ptずつ上げることができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43043"
+    },
+    {
+      "id": 16590,
+      "text": "スタミナを消費",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43044"
+    },
+    {
+      "id": 16591,
+      "text": "クエストクリアでスタミナを[C6:50]消費[LF]（ソロ、ホストのみ）",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43045"
+    },
+    {
+      "id": 16592,
+      "text": "現在の消費スタミナ：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43046"
+    },
+    {
+      "id": 16593,
+      "text": "金卵を排出",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43047"
+    },
+    {
+      "id": 16594,
+      "text": "[C6:コラボクエスト]または[C6:追憶の書庫]で金卵を[C6:5個]排出[LF]（ソロ、ホスト、ゲスト問わず）",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43048"
+    },
+    {
+      "id": 16595,
+      "text": "現在の排出数：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43049"
+    },
+    {
+      "id": 16596,
+      "text": "金種を排出",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43050"
+    },
+    {
+      "id": 16597,
+      "text": "[C6:英雄の神殿]で金種を[C6:5個]排出[LF]（ソロ、ホスト、ゲスト問わず）",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43051"
+    },
+    {
+      "id": 16598,
+      "text": "現在の排出数：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43052"
+    },
+    {
+      "id": 16599,
+      "text": "※同行中のキャラのなかよし度が上限に達していると[LF]　ミッション・クリア条件のカウントは進みません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43053"
+    },
+    {
+      "id": 16600,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20231214_1.html#5|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1702549032,
+      "updated_at": 1702549032,
+      "label": "eTEXTS_DEF_43054"
+    },
+    {
+      "id": 16601,
+      "text": "[C6:超究極、出現！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1703147445,
+      "updated_at": 1703147445,
+      "label": "eTEXTS_DEF_42834"
+    },
+    {
+      "id": 16602,
+      "text": "[b:ba_help_collabo_stew_00_3.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1703147445,
+      "updated_at": 1703147445,
+      "label": "eTEXTS_DEF_42835"
+    },
+    {
+      "id": 16603,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1703147445,
+      "updated_at": 1703147445,
+      "label": "eTEXTS_DEF_42836"
+    },
+    {
+      "id": 16604,
+      "text": "12/23 19:00～12/31 23:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1703147445,
+      "updated_at": 1703147445,
+      "label": "eTEXTS_DEF_42837"
+    },
+    {
+      "id": 16605,
+      "text": "[C5:ユーリ・ブライア、出現]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1703147445,
+      "updated_at": 1703147445,
+      "label": "eTEXTS_DEF_42838"
+    },
+    {
+      "id": 16606,
+      "text": "超究極クエスト[C5:｢姉への愛情｣]が出現！[LF]降臨時間はスケジュール＆繰り返し予約で[LF]確認しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1703147445,
+      "updated_at": 1703147445,
+      "label": "eTEXTS_DEF_42839"
+    },
+    {
+      "id": 16607,
+      "text": "[SGBI26610|difficulty1]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1703147445,
+      "updated_at": 1703147445,
+      "label": "eTEXTS_DEF_42840"
+    },
+    {
+      "id": 16608,
+      "text": "このクエストでは[LF]使用キャラのラックが[C4:+99]され、[LF]ラックボーナスで宝箱を2個獲得可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1703147445,
+      "updated_at": 1703147445,
+      "label": "eTEXTS_DEF_42841"
+    },
+    {
+      "id": 16609,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20231214_1.html#10|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1703147445,
+      "updated_at": 1703147445,
+      "label": "eTEXTS_DEF_42842"
+    },
+    {
+      "id": 16610,
+      "text": "[LC]ミニメカ丸ミッションとは[LF][LF][CCB:dlme/help_collabo_beach_sb1_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_ME_MSG_BEACH_MISSION_HELP"
+    },
+    {
+      "id": 16611,
+      "text": "ミッション達成数%d個",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_ME_BEACH_POINT_REWARD_TITLE"
+    },
+    {
+      "id": 16612,
+      "text": "ミッション達成[LF][LF]以下の報酬を獲得しました[LF][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_ME_MSG_BEACH_POINT_REWARD"
+    },
+    {
+      "id": 16613,
+      "text": "[LC]ミッション追加[LF][LF]新しいミッションが追加されました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_BEACH_SECRET_MISSION_UNLOCK"
+    },
+    {
+      "id": 16614,
+      "text": "[C6:コラボガチャ開催中]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43100"
+    },
+    {
+      "id": 16615,
+      "text": "[b:ba_help_collabo_beach_00_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43101"
+    },
+    {
+      "id": 16616,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43102"
+    },
+    {
+      "id": 16617,
+      "text": "1/16 12:00～2/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43103"
+    },
+    {
+      "id": 16618,
+      "text": "[C5:コラボ限定ガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43104"
+    },
+    {
+      "id": 16619,
+      "text": "新登場キャラ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43105"
+    },
+    {
+      "id": 16620,
+      "text": "[IPJ10998]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43106"
+    },
+    {
+      "id": 16621,
+      "text": "[IPJ10994]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43107"
+    },
+    {
+      "id": 16622,
+      "text": "[IPJ10996]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43108"
+    },
+    {
+      "id": 16623,
+      "text": "[IPJ11000]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43109"
+    },
+    {
+      "id": 16624,
+      "text": "[IPJ11002]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43110"
+    },
+    {
+      "id": 16625,
+      "text": "再登場キャラ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43111"
+    },
+    {
+      "id": 16626,
+      "text": "[IPJ10990]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43112"
+    },
+    {
+      "id": 16627,
+      "text": "[IPJ10992]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43113"
+    },
+    {
+      "id": 16628,
+      "text": "[IPJ10991]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43114"
+    },
+    {
+      "id": 16629,
+      "text": "[IPJ8634]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43115"
+    },
+    {
+      "id": 16630,
+      "text": "[IPJ8636]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43116"
+    },
+    {
+      "id": 16631,
+      "text": "[IPJ9255]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43117"
+    },
+    {
+      "id": 16632,
+      "text": "[IPJ9257]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43118"
+    },
+    {
+      "id": 16633,
+      "text": "[IPJ9258]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43119"
+    },
+    {
+      "id": 16634,
+      "text": "[IPJ9259]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43120"
+    },
+    {
+      "id": 16635,
+      "text": "[C6:コラボクエスト出現中]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43121"
+    },
+    {
+      "id": 16636,
+      "text": "[b:ba_help_collabo_beach_00_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43122"
+    },
+    {
+      "id": 16637,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43123"
+    },
+    {
+      "id": 16638,
+      "text": "1/16 12:00～2/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43124"
+    },
+    {
+      "id": 16639,
+      "text": "[C5:イベントクエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43125"
+    },
+    {
+      "id": 16640,
+      "text": "[SGBI26740|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43126"
+    },
+    {
+      "id": 16641,
+      "text": "[SGBI26720|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43127"
+    },
+    {
+      "id": 16642,
+      "text": "[SGBI26730|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43128"
+    },
+    {
+      "id": 16643,
+      "text": "[SGBI26700|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43129"
+    },
+    {
+      "id": 16644,
+      "text": "[SGBI26710|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43130"
+    },
+    {
+      "id": 16645,
+      "text": "[C2:｢渋谷事変 -脹相-｣]は[LF]1日1回クリアボーナスで[C6:7体]獲得可能、[LF]マルチだと金卵２個以上の排出率がアップします",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43131"
+    },
+    {
+      "id": 16646,
+      "text": "[C5:追憶の書庫]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43132"
+    },
+    {
+      "id": 16647,
+      "text": "[IPJ8642]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43133"
+    },
+    {
+      "id": 16648,
+      "text": "[IPJ8646]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43134"
+    },
+    {
+      "id": 16649,
+      "text": "[IPJ8650]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43135"
+    },
+    {
+      "id": 16650,
+      "text": "[IPJ9261]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43136"
+    },
+    {
+      "id": 16651,
+      "text": "[IPJ8644]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43137"
+    },
+    {
+      "id": 16652,
+      "text": "[IPJ8648]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43138"
+    },
+    {
+      "id": 16653,
+      "text": "[C2:｢急襲｣]は[LF]1日1回クリアボーナスで[C6:7体]獲得可能、[LF]マルチだと金卵２個以上の排出率がアップします",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43139"
+    },
+    {
+      "id": 16654,
+      "text": "[C6:超究極難易度が登場]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43140"
+    },
+    {
+      "id": 16655,
+      "text": "[b:ba_help_collabo_beach_00_3.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43141"
+    },
+    {
+      "id": 16656,
+      "text": "[C5:超究極クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43142"
+    },
+    {
+      "id": 16657,
+      "text": "[SGBI26750|difficulty1]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43143"
+    },
+    {
+      "id": 16658,
+      "text": "このクエストではどのキャラも[LF]本来のラックに[C4:+99]された[C4:運極]状態で[LF]ラックボーナスが獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43144"
+    },
+    {
+      "id": 16659,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20240111_2.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43145"
+    },
+    {
+      "id": 16660,
+      "text": "[SW0.85][C6:コラボスターターパックなどのお楽しみ要素も]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43200"
+    },
+    {
+      "id": 16661,
+      "text": "[b:ba_help_collabo_beach_01.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43201"
+    },
+    {
+      "id": 16662,
+      "text": "[C5:コラボスターターパック]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43202"
+    },
+    {
+      "id": 16663,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43203"
+    },
+    {
+      "id": 16664,
+      "text": "1/16 12:00～2/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43204"
+    },
+    {
+      "id": 16665,
+      "text": "[C6:ここでのみ入手可能なキャラ]と[LF]各種アイテムがセットとなった[LF][C6:コラボスターターパック]が購入可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051502,
+      "updated_at": 1705051502,
+      "label": "eTEXTS_DEF_43205"
+    },
+    {
+      "id": 16666,
+      "text": "[IPJ11003]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051503,
+      "updated_at": 1705051503,
+      "label": "eTEXTS_DEF_43206"
+    },
+    {
+      "id": 16667,
+      "text": "[C5:フレンドガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051503,
+      "updated_at": 1705051503,
+      "label": "eTEXTS_DEF_43207"
+    },
+    {
+      "id": 16668,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051503,
+      "updated_at": 1705051503,
+      "label": "eTEXTS_DEF_43208"
+    },
+    {
+      "id": 16669,
+      "text": "1/16 12:00～2/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051503,
+      "updated_at": 1705051503,
+      "label": "eTEXTS_DEF_43209"
+    },
+    {
+      "id": 16670,
+      "text": "期間中フレンドガチャから[LF]下記のキャラが排出されるようになります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051503,
+      "updated_at": 1705051503,
+      "label": "eTEXTS_DEF_43210"
+    },
+    {
+      "id": 16671,
+      "text": "[IPJ11016]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051503,
+      "updated_at": 1705051503,
+      "label": "eTEXTS_DEF_43211"
+    },
+    {
+      "id": 16672,
+      "text": "[C5:期間限定ラックボーナス]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051503,
+      "updated_at": 1705051503,
+      "label": "eTEXTS_DEF_43212"
+    },
+    {
+      "id": 16673,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051503,
+      "updated_at": 1705051503,
+      "label": "eTEXTS_DEF_43213"
+    },
+    {
+      "id": 16674,
+      "text": "1/16 12:00～2/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051503,
+      "updated_at": 1705051503,
+      "label": "eTEXTS_DEF_43214"
+    },
+    {
+      "id": 16675,
+      "text": "下記のキャラは期間中[LF]本来のラックに[C4:+99]された[C4:運極]状態で[LF]ラックボーナスが獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051503,
+      "updated_at": 1705051503,
+      "label": "eTEXTS_DEF_43215"
+    },
+    {
+      "id": 16676,
+      "text": "[IPJ11003]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051503,
+      "updated_at": 1705051503,
+      "label": "eTEXTS_DEF_43216"
+    },
+    {
+      "id": 16677,
+      "text": "[IPJ11016]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051503,
+      "updated_at": 1705051503,
+      "label": "eTEXTS_DEF_43217"
+    },
+    {
+      "id": 16678,
+      "text": "[IPJ11017]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051503,
+      "updated_at": 1705051503,
+      "label": "eTEXTS_DEF_43218"
+    },
+    {
+      "id": 16679,
+      "text": "※詳細はこちら⇒使わない",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051503,
+      "updated_at": 1705051503,
+      "label": "eTEXTS_DEF_43219"
+    },
+    {
+      "id": 16680,
+      "text": "[C5:その他お楽しみ要素]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051503,
+      "updated_at": 1705051503,
+      "label": "eTEXTS_DEF_43220"
+    },
+    {
+      "id": 16681,
+      "text": "ミニメカ丸ミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051503,
+      "updated_at": 1705051503,
+      "label": "eTEXTS_DEF_43221"
+    },
+    {
+      "id": 16682,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20240111_2.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051503,
+      "updated_at": 1705051503,
+      "label": "eTEXTS_DEF_43222"
+    },
+    {
+      "id": 16683,
+      "text": "[C6:ミッションをクリアして報酬を獲得！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051503,
+      "updated_at": 1705051503,
+      "label": "eTEXTS_DEF_43300"
+    },
+    {
+      "id": 16684,
+      "text": "[b:ba_help_collabo_beach_sb1_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051503,
+      "updated_at": 1705051503,
+      "label": "eTEXTS_DEF_43301"
+    },
+    {
+      "id": 16685,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051503,
+      "updated_at": 1705051503,
+      "label": "eTEXTS_DEF_43302"
+    },
+    {
+      "id": 16686,
+      "text": "1/16 12:00～2/5 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051503,
+      "updated_at": 1705051503,
+      "label": "eTEXTS_DEF_43303"
+    },
+    {
+      "id": 16687,
+      "text": "ミニメカ丸のミッションに挑戦しましょう[LF][C6:コラボキャラやアイテムなどの報酬が獲得]できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051503,
+      "updated_at": 1705051503,
+      "label": "eTEXTS_DEF_43304"
+    },
+    {
+      "id": 16688,
+      "text": "[C5:報酬について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051503,
+      "updated_at": 1705051503,
+      "label": "eTEXTS_DEF_43305"
+    },
+    {
+      "id": 16689,
+      "text": "[C6:達成したミッション数]に応じて獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051503,
+      "updated_at": 1705051503,
+      "label": "eTEXTS_DEF_43306"
+    },
+    {
+      "id": 16690,
+      "text": "[IPJ11017]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051503,
+      "updated_at": 1705051503,
+      "label": "eTEXTS_DEF_43307"
+    },
+    {
+      "id": 16691,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20240111_2.html#8|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051503,
+      "updated_at": 1705051503,
+      "label": "eTEXTS_DEF_43308"
+    },
+    {
+      "id": 16692,
+      "text": "[b:ba_help_collabo_beach_00_4.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_43146"
+    },
+    {
+      "id": 16693,
+      "text": "[SGBI26760|difficulty1]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_43147"
+    },
+    {
+      "id": 16694,
+      "text": "クリアすると[C6:呪いの本能 真人]への[LF]進化が解放されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_43148"
+    },
+    {
+      "id": 16695,
+      "text": "[IPJ8650]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_43149"
+    },
+    {
+      "id": 16696,
+      "text": "[IPJ11013]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_43150"
+    },
+    {
+      "id": 16697,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20240111_2.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_43151"
+    },
+    {
+      "id": 16698,
+      "text": "渋谷事変 -漏瑚-",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_43223"
+    },
+    {
+      "id": 16699,
+      "text": "渋谷事変 -漏瑚-",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_NAVI_BEACH_QUEST_TITLE"
+    },
+    {
+      "id": 16700,
+      "text": "1/16 12:00 〜 2/5 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705051503,
+      "updated_at": 1705051503,
+      "label": "eTEXTS_DEF_BEACH_MISSION_PERIOD"
+    },
+    {
+      "id": 16701,
+      "text": "1/20 12:00 〜 2/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_BEACH_QUEST_PERIOD"
+    },
+    {
+      "id": 16702,
+      "text": "渋谷事変 -漏瑚-",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_ME_TITLE_BEACH_QUEST"
+    },
+    {
+      "id": 16703,
+      "text": "[LC]｢渋谷事変 -漏瑚-｣出現中！[LF][LF]%sの期間で出現！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_ME_MSG_BEACH_QUEST_INTRO"
+    },
+    {
+      "id": 16704,
+      "text": "[LC]渋谷事変 -漏瑚- とは[LF][LF][CCB:dlme/help_collabo_beach_sb2_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_ME_MSG_BEACH_QUEST_HELP"
+    },
+    {
+      "id": 16705,
+      "text": "縛り",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_ME_BEACH_QUEST_INGAME_MISSION_TITLE"
+    },
+    {
+      "id": 16706,
+      "text": "[LC]出撃確認[LF][LF][NODE][LF][LF]縛りによる制限が適用されます[LF]出撃しますか？[LF][LF]※マルチで出撃した場合はホストの縛りが[LF]全プレイヤーに適用されます[LF][LF][LC][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_ME_MSG_STAGEGROUP_SELECT_BEACH_QUEST_WARNING1"
+    },
+    {
+      "id": 16707,
+      "text": "今日はもう表示しない",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_ME_MSG_STAGEGROUP_SELECT_BEACH_QUEST_WARNING1_TXT"
+    },
+    {
+      "id": 16708,
+      "text": "[LC]ミッション達成[LF][LF][NODE][LF]縛りによる制限が解除されました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_BEACH_QUEST_UNLOCK_DIALOG"
+    },
+    {
+      "id": 16709,
+      "text": "[LC]縛り[LF][LF][LC][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_BEACH_QUEST_LIMIT_DIALOG"
+    }
+  ]
+}

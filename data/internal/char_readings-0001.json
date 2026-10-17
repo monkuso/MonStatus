@@ -1,0 +1,2055 @@
+{
+  "schemaVersion": 1,
+  "table": "char_readings",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 259,
+      "char_id": 291,
+      "name": "地獄の薔薇のハーレーX",
+      "match_str": "じごくのばらのはーれーえっくす",
+      "created_at": 1475684746,
+      "updated_at": 1477658577
+    },
+    {
+      "id": 260,
+      "char_id": 260,
+      "name": "アポロ",
+      "match_str": "あぽろ",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 261,
+      "char_id": 261,
+      "name": "太陽機神アポロ",
+      "match_str": "たいようきしんあぽろ",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 262,
+      "char_id": 262,
+      "name": "ネプチューン",
+      "match_str": "ねぷちゅーん",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 263,
+      "char_id": 263,
+      "name": "海王機将ネプチューン",
+      "match_str": "かいおうきしょうねぷちゅーん",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 264,
+      "char_id": 264,
+      "name": "ジュピター",
+      "match_str": "じゅぴたー",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 265,
+      "char_id": 265,
+      "name": "木星機将ジュピター",
+      "match_str": "もくせいきしょうじゅぴたー",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 266,
+      "char_id": 266,
+      "name": "ヴィーナス",
+      "match_str": "ゔぃーなす|びーなす",
+      "created_at": 1475684746,
+      "updated_at": 1543219823
+    },
+    {
+      "id": 267,
+      "char_id": 267,
+      "name": "金星機将ヴィーナス",
+      "match_str": "きんせいきしょうゔぃーなす|きんせいきしょうびーなす",
+      "created_at": 1475684746,
+      "updated_at": 1543219823
+    },
+    {
+      "id": 268,
+      "char_id": 268,
+      "name": "エクリプス",
+      "match_str": "えくりぷす",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 269,
+      "char_id": 269,
+      "name": "暗黒星機神エクリプス",
+      "match_str": "あんこくせいきしんえくりぷす",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 270,
+      "char_id": 270,
+      "name": "マース",
+      "match_str": "まーす",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 271,
+      "char_id": 271,
+      "name": "火星魔機将マース",
+      "match_str": "かせいまきしょうまーす",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 272,
+      "char_id": 272,
+      "name": "マーキュリー",
+      "match_str": "まーきゅりー",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 273,
+      "char_id": 273,
+      "name": "水星魔機将マーキュリー",
+      "match_str": "すいせいまきしょうまーきゅりー",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 274,
+      "char_id": 274,
+      "name": "サターン",
+      "match_str": "さたーん",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 275,
+      "char_id": 275,
+      "name": "土星魔機神サターン",
+      "match_str": "どせいまきしんさたーん",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 276,
+      "char_id": 276,
+      "name": "ウラヌス",
+      "match_str": "うらぬす",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 277,
+      "char_id": 277,
+      "name": "天王魔機将ウラヌス",
+      "match_str": "てんのうまきしょううらぬす",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 278,
+      "char_id": 278,
+      "name": "プルートー",
+      "match_str": "ぷるーとー",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 279,
+      "char_id": 279,
+      "name": "冥王魔機将プルートー",
+      "match_str": "めいおうまきしょうぷるーとー",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 280,
+      "char_id": 352,
+      "name": "アグナムートX",
+      "match_str": "あぐなむーとえっくす",
+      "created_at": 1475684746,
+      "updated_at": 1477658577
+    },
+    {
+      "id": 281,
+      "char_id": 353,
+      "name": "炎神アグナムートX",
+      "match_str": "えんしんあぐなむーとえっくす",
+      "created_at": 1475684746,
+      "updated_at": 1477658577
+    },
+    {
+      "id": 282,
+      "char_id": 292,
+      "name": "ガラハッド",
+      "match_str": "がらはっど",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 283,
+      "char_id": 293,
+      "name": "純真なる騎士ガラハッド",
+      "match_str": "じゅんしんなるきしがらはっど",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 284,
+      "char_id": 294,
+      "name": "ランスロット",
+      "match_str": "らんすろっと",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 285,
+      "char_id": 295,
+      "name": "湖の騎士ランスロット",
+      "match_str": "みずうみのきしらんすろっと",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 286,
+      "char_id": 296,
+      "name": "マーリン",
+      "match_str": "まーりん",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 287,
+      "char_id": 297,
+      "name": "運命の魔術師マーリン",
+      "match_str": "うんめいのまじゅつしまーりん",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 288,
+      "char_id": 298,
+      "name": "アーサー",
+      "match_str": "あーさー",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 289,
+      "char_id": 299,
+      "name": "騎士王アーサー",
+      "match_str": "きしおうあーさー",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 290,
+      "char_id": 300,
+      "name": "トリスタン",
+      "match_str": "とりすたん",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 291,
+      "char_id": 301,
+      "name": "渇欲の騎士トリスタン",
+      "match_str": "かつよくのきしとりすたん",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 292,
+      "char_id": 302,
+      "name": "モルドレッド",
+      "match_str": "もるどれっど",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 293,
+      "char_id": 303,
+      "name": "幽玄の騎士モルドレッド",
+      "match_str": "ゆうげんのきしもるどれっど",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 294,
+      "char_id": 304,
+      "name": "ロット",
+      "match_str": "ろっと",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 295,
+      "char_id": 305,
+      "name": "オークニー王ロット",
+      "match_str": "おーくにーおうろっと",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 296,
+      "char_id": 306,
+      "name": "コーモラン",
+      "match_str": "こーもらん",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 297,
+      "char_id": 307,
+      "name": "聖なる山の巨人コーモラン",
+      "match_str": "せいなるやまのきょじんこーもらん",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 298,
+      "char_id": 308,
+      "name": "エメラルドドラゴン",
+      "match_str": "えめらるどどらごん",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 299,
+      "char_id": 309,
+      "name": "光翠竜エメラルドドラゴン",
+      "match_str": "こうすいりゅうえめらるどどらごん",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 300,
+      "char_id": 310,
+      "name": "モルガン",
+      "match_str": "もるがん",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 301,
+      "char_id": 311,
+      "name": "闇の妖精モルガン",
+      "match_str": "やみのようせいもるがん",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 302,
+      "char_id": 374,
+      "name": "聖☆マンケンチー",
+      "match_str": "せいんと☆まんけんちー|せいんとまんけんちー",
+      "created_at": 1475684746,
+      "updated_at": 1702622192
+    },
+    {
+      "id": 303,
+      "char_id": 354,
+      "name": "真田幸村",
+      "match_str": "さなだゆきむら",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 304,
+      "char_id": 355,
+      "name": "乱世の英雄 真田幸村",
+      "match_str": "らんせのえいゆうさなだゆきむら",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 305,
+      "char_id": 356,
+      "name": "伊達政宗",
+      "match_str": "だてまさむね",
+      "created_at": 1475684746,
+      "updated_at": 1475684746
+    },
+    {
+      "id": 306,
+      "char_id": 357,
+      "name": "独眼竜 伊達政宗",
+      "match_str": "どくがんりゅうだてまさむね",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 307,
+      "char_id": 358,
+      "name": "黒田官兵衛",
+      "match_str": "くろだかんべい|くろだかんべえ",
+      "created_at": 1475684747,
+      "updated_at": 1540203146
+    },
+    {
+      "id": 308,
+      "char_id": 359,
+      "name": "百万石軍師 黒田官兵衛",
+      "match_str": "ひゃくまんごくぐんしくろだかんべい|ひゃくまんごくぐんしくろだかんべえ",
+      "created_at": 1475684747,
+      "updated_at": 1540203146
+    },
+    {
+      "id": 309,
+      "char_id": 360,
+      "name": "石田三成",
+      "match_str": "いしだみつなり",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 310,
+      "char_id": 361,
+      "name": "聡慧なる智将 石田三成",
+      "match_str": "そうけいなるちしょういしだみつなり",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 311,
+      "char_id": 362,
+      "name": "織田信長",
+      "match_str": "おだのぶなが",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 312,
+      "char_id": 363,
+      "name": "第六天魔王 ノブナガ",
+      "match_str": "だいろくてんまおうのぶなが",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 313,
+      "char_id": 364,
+      "name": "朱鬼",
+      "match_str": "あかおに",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 314,
+      "char_id": 365,
+      "name": "朱天童子",
+      "match_str": "しゅてんどうじ",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 315,
+      "char_id": 366,
+      "name": "ぬらりひょん",
+      "match_str": "ぬらりひょん",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 316,
+      "char_id": 367,
+      "name": "妖怪大将 ぬらりひょん",
+      "match_str": "ようかいたいしょうぬらりひょん",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 317,
+      "char_id": 368,
+      "name": "コダマ",
+      "match_str": "こだま",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 318,
+      "char_id": 369,
+      "name": "オオヤマビコ",
+      "match_str": "おおやまびこ",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 319,
+      "char_id": 370,
+      "name": "ぬえ",
+      "match_str": "ぬえ",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 320,
+      "char_id": 371,
+      "name": "雷獣 鵺",
+      "match_str": "らいじゅうぬえ",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 321,
+      "char_id": 372,
+      "name": "イナリ",
+      "match_str": "いなり",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 322,
+      "char_id": 373,
+      "name": "命婦神 稲荷",
+      "match_str": "みょうぶがみいなり",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 323,
+      "char_id": 375,
+      "name": "寿・マンゼニー",
+      "match_str": "ことぶき・まんぜにー|ことぶきまんぜにー",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 324,
+      "char_id": 388,
+      "name": "不知火カリン",
+      "match_str": "しらぬいかりん",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 325,
+      "char_id": 389,
+      "name": "不知火カリン 【焔武】",
+      "match_str": "しらぬいかりん【えんぶ】|しらぬいかりんえんぶ",
+      "created_at": 1475684747,
+      "updated_at": 1702310886
+    },
+    {
+      "id": 326,
+      "char_id": 390,
+      "name": "水輝ナナミ",
+      "match_str": "みずきななみ",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 327,
+      "char_id": 391,
+      "name": "水輝ナナミ 【流武】",
+      "match_str": "みずきななみ【りゅうぶ】|みずきななみりゅうぶ",
+      "created_at": 1475684747,
+      "updated_at": 1702310886
+    },
+    {
+      "id": 328,
+      "char_id": 392,
+      "name": "草薙フウカ",
+      "match_str": "くさなぎふうか",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 329,
+      "char_id": 393,
+      "name": "草薙フウカ 【樹武】",
+      "match_str": "くさなぎふうか【じゅぶ】|くさなぎふうかじゅぶ",
+      "created_at": 1475684747,
+      "updated_at": 1702310886
+    },
+    {
+      "id": 330,
+      "char_id": 394,
+      "name": "螢光院ヒカリ",
+      "match_str": "けいこういんひかり",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 331,
+      "char_id": 395,
+      "name": "螢光院ヒカリ 【爛武】",
+      "match_str": "けいこういんひかり【らんぶ】|けいこういんひかりらんぶ",
+      "created_at": 1475684747,
+      "updated_at": 1702310886
+    },
+    {
+      "id": 332,
+      "char_id": 396,
+      "name": "黒神サヤ",
+      "match_str": "くろかみさや",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 333,
+      "char_id": 397,
+      "name": "黒神サヤ 【闇武】",
+      "match_str": "くろかみさや【あんぶ】|くろかみさやあんぶ",
+      "created_at": 1475684747,
+      "updated_at": 1702310886
+    },
+    {
+      "id": 334,
+      "char_id": 398,
+      "name": "フラム・フュジ",
+      "match_str": "ふらむ・ふゅじ|ふらむふゅじ",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 335,
+      "char_id": 402,
+      "name": "エール・ソレイユ",
+      "match_str": "えーる・それいゆ|えーるそれいゆ",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 336,
+      "char_id": 409,
+      "name": "カスカード",
+      "match_str": "かすかーど",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 337,
+      "char_id": 413,
+      "name": "カスカード・アミュレ",
+      "match_str": "かすかーど・あみゅれ|かすかーどあみゅれ",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 338,
+      "char_id": 420,
+      "name": "ブルジオン",
+      "match_str": "ぶるじおん",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 339,
+      "char_id": 424,
+      "name": "フルール",
+      "match_str": "ふるーる",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 340,
+      "char_id": 431,
+      "name": "ブラン・ゼフィール",
+      "match_str": "ぶらん・ぜふぃーる|ぶらんぜふぃーる",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 341,
+      "char_id": 435,
+      "name": "ブル・シエル・ヴァン",
+      "match_str": "ぶる・しえる・ゔぁん|ぶるしえるゔぁん",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 342,
+      "char_id": 442,
+      "name": "グリーズ・アーム",
+      "match_str": "ぐりーず・あーむ|ぐりーずあーむ",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 343,
+      "char_id": 446,
+      "name": "ヴィオレット・ロア",
+      "match_str": "ゔぃおれっと・ろあ|ゔぃおれっとろあ",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 344,
+      "char_id": 453,
+      "name": "マチルダⅡ",
+      "match_str": "まちるだつー",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 345,
+      "char_id": 454,
+      "name": "チャーチル",
+      "match_str": "ちゃーちる",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 346,
+      "char_id": 455,
+      "name": "シェフィールド",
+      "match_str": "しぇふぃーるど",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 347,
+      "char_id": 456,
+      "name": "ネルソン",
+      "match_str": "ねるそん",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 348,
+      "char_id": 457,
+      "name": "ワイルドキャット",
+      "match_str": "わいるどきゃっと",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 349,
+      "char_id": 458,
+      "name": "コルセア",
+      "match_str": "こるせあ",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 350,
+      "char_id": 459,
+      "name": "フェアリーTSR",
+      "match_str": "ふぇありーてぃーえすあーる",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 351,
+      "char_id": 460,
+      "name": "ソードフィッシュ",
+      "match_str": "そーどふぃっしゅ",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 352,
+      "char_id": 461,
+      "name": "ボルチモア",
+      "match_str": "ぼるちもあ",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 353,
+      "char_id": 462,
+      "name": "モンタナ",
+      "match_str": "もんたな",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 354,
+      "char_id": 463,
+      "name": "プリンツ・オイゲン",
+      "match_str": "ぷりんつ・おいげん|ぷりんつおいげん",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 355,
+      "char_id": 467,
+      "name": "グナイゼナウ",
+      "match_str": "ぐないぜなう",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 356,
+      "char_id": 471,
+      "name": "クルップⅣD",
+      "match_str": "くるっぷふぉーでぃー",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 357,
+      "char_id": 475,
+      "name": "ティーガーⅠ",
+      "match_str": "てぃーがーわん",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 358,
+      "char_id": 479,
+      "name": "シュヴァルベ",
+      "match_str": "しゅゔぁるべ",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 359,
+      "char_id": 483,
+      "name": "シュトゥーカ",
+      "match_str": "しゅとぅーか",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 360,
+      "char_id": 487,
+      "name": "伊４００",
+      "match_str": "いよんひゃく",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 361,
+      "char_id": 491,
+      "name": "紀伊",
+      "match_str": "きい",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 362,
+      "char_id": 495,
+      "name": "ＵボートⅦ型",
+      "match_str": "ゆーぼーとなながた",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 363,
+      "char_id": 499,
+      "name": "ＵボートXXI型",
+      "match_str": "ゆーぼーとにじゅういちがた",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 364,
+      "char_id": 565,
+      "name": "アポロX",
+      "match_str": "あぽろえっくす",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 365,
+      "char_id": 566,
+      "name": "太陽機神アポロX",
+      "match_str": "たいようきしんあぽろえっくす",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 366,
+      "char_id": 515,
+      "name": "ベイビードールFⅡ",
+      "match_str": "べいびーどーるえふつー",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 367,
+      "char_id": 516,
+      "name": "風花姫ベイビードールFⅡ",
+      "match_str": "ふうかひめべいびーどーるえふつー",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 368,
+      "char_id": 637,
+      "name": "織田信長X",
+      "match_str": "おだのぶながえっくす",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 369,
+      "char_id": 638,
+      "name": "第六天魔王 ノブナガX",
+      "match_str": "だいろくてんまおうのぶながえっくす",
+      "created_at": 1475684747,
+      "updated_at": 1475684747
+    },
+    {
+      "id": 370,
+      "char_id": 619,
+      "name": "スザクS",
+      "match_str": "すざくえす",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 371,
+      "char_id": 620,
+      "name": "鳳凰の女帝 スザクS",
+      "match_str": "ほうおうのじょていすざくえす",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 372,
+      "char_id": 629,
+      "name": "朱鬼S",
+      "match_str": "あかおにえす",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 373,
+      "char_id": 630,
+      "name": "朱天童子S",
+      "match_str": "しゅてんどうじえす",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 374,
+      "char_id": 567,
+      "name": "ランスロットX",
+      "match_str": "らんすろっとえっくす",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 375,
+      "char_id": 568,
+      "name": "湖の騎士ランスロットX",
+      "match_str": "みずうみのきしらんすろっとえっくす",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 376,
+      "char_id": 609,
+      "name": "ビャッコS",
+      "match_str": "びゃっこえす",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 377,
+      "char_id": 610,
+      "name": "翠緑の虎姫 ビャッコS",
+      "match_str": "すいりょくのとらひめびゃっこえす",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 378,
+      "char_id": 631,
+      "name": "コダマS",
+      "match_str": "こだまえす",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 379,
+      "char_id": 632,
+      "name": "オオヤマビコS",
+      "match_str": "おおやまびこえす",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 380,
+      "char_id": 569,
+      "name": "アマテラス",
+      "match_str": "あまてらす",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 381,
+      "char_id": 570,
+      "name": "炎天神 アマテラス",
+      "match_str": "えんてんしんあまてらす",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 382,
+      "char_id": 571,
+      "name": "炎光神 天照大神",
+      "match_str": "えんこうしんあまてらすおおかみ",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 383,
+      "char_id": 572,
+      "name": "オーディン",
+      "match_str": "おーでぃん",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 384,
+      "char_id": 573,
+      "name": "主神 オーディン",
+      "match_str": "しゅしんおーでぃん",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 385,
+      "char_id": 574,
+      "name": "蒼紅神 フレアオーディン",
+      "match_str": "そうこうしんふれあおーでぃん",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 386,
+      "char_id": 575,
+      "name": "ヴァルキリー",
+      "match_str": "ゔぁるきりー",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 387,
+      "char_id": 576,
+      "name": "戦場の女神 ヴァルキリー",
+      "match_str": "せんじょうのめがみゔぁるきりー",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 388,
+      "char_id": 577,
+      "name": "碧朱神 フレアヴァルキリー",
+      "match_str": "へきしゅしんふれあゔぁるきりー",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 389,
+      "char_id": 578,
+      "name": "ゼウス",
+      "match_str": "ぜうす",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 390,
+      "char_id": 579,
+      "name": "天空神 ゼウス",
+      "match_str": "てんくうしんぜうす",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 391,
+      "char_id": 580,
+      "name": "光緋神 フレアゼウス",
+      "match_str": "こうひしんふれあぜうす",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 392,
+      "char_id": 581,
+      "name": "天邪神 ダークゼウス",
+      "match_str": "てんじゃしんだーくぜうす",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 393,
+      "char_id": 582,
+      "name": "シヴァ",
+      "match_str": "しゔぁ",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 394,
+      "char_id": 583,
+      "name": "黒天神 シヴァ",
+      "match_str": "こくてんしんしゔぁ",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 395,
+      "char_id": 584,
+      "name": "破壊神 シヴァ",
+      "match_str": "はかいしんしゔぁ",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 396,
+      "char_id": 585,
+      "name": "ファイアードラゴン",
+      "match_str": "ふぁいあーどらごん",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 397,
+      "char_id": 586,
+      "name": "インフェルノドラゴン",
+      "match_str": "いんふぇるのどらごん",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 398,
+      "char_id": 587,
+      "name": "死火神龍 ティアマト",
+      "match_str": "しかしんりゅうてぃあまと",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 399,
+      "char_id": 588,
+      "name": "アクアドラゴン",
+      "match_str": "あくあどらごん",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 400,
+      "char_id": 589,
+      "name": "蒼海神龍 アクアドラゴン",
+      "match_str": "そうかいしんりゅうあくあどらごん",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 401,
+      "char_id": 590,
+      "name": "ドリアード",
+      "match_str": "どりあーど",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 402,
+      "char_id": 591,
+      "name": "精霊木神 ドリアード",
+      "match_str": "せいれいもくしんどりあーど",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 403,
+      "char_id": 592,
+      "name": "サンダーバード",
+      "match_str": "さんだーばーど",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 404,
+      "char_id": 593,
+      "name": "精霊鳥神 サンダーバード",
+      "match_str": "せいれいちょうしんさんだーばーど",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 405,
+      "char_id": 594,
+      "name": "ダークドラゴン",
+      "match_str": "だーくどらごん",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 406,
+      "char_id": 595,
+      "name": "デビルドラゴン",
+      "match_str": "でびるどらごん",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 407,
+      "char_id": 596,
+      "name": "暗黒神龍 ニーズヘッグ",
+      "match_str": "あんこくしんりゅうにーずへっぐ",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 408,
+      "char_id": 564,
+      "name": "オクケンチー",
+      "match_str": "おくけんちー",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 409,
+      "char_id": 517,
+      "name": "リン・ツー",
+      "match_str": "りん・つー|りんつー",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 410,
+      "char_id": 518,
+      "name": "武闘家 リン・ツー",
+      "match_str": "ぶとうかりん・つー|ぶとうかりんつー",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 411,
+      "char_id": 519,
+      "name": "レオニダルス",
+      "match_str": "れおにだるす",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 412,
+      "char_id": 520,
+      "name": "重戦士 レオニダルス",
+      "match_str": "じゅうせんしれおにだるす",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 413,
+      "char_id": 521,
+      "name": "ディル・ロッテ",
+      "match_str": "でぃる・ろって|でぃるろって",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 414,
+      "char_id": 522,
+      "name": "吟遊詩人 ディル・ロッテ",
+      "match_str": "ぎんゆうしじんでぃる・ろって|ぎんゆうしじんでぃるろって",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 415,
+      "char_id": 523,
+      "name": "ロイゼ",
+      "match_str": "ろいぜ",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 416,
+      "char_id": 524,
+      "name": "勇者 ロイゼ",
+      "match_str": "ゆうしゃろいぜ",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 417,
+      "char_id": 525,
+      "name": "エヴァン",
+      "match_str": "えゔぁん",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 418,
+      "char_id": 526,
+      "name": "魔女っ娘 エヴァン",
+      "match_str": "まじょっこえゔぁん",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 419,
+      "char_id": 527,
+      "name": "バクーレン",
+      "match_str": "ばくーれん",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 420,
+      "char_id": 528,
+      "name": "熊掌魔王 バクーレン",
+      "match_str": "ゆうしょうまおうばくーれん",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 421,
+      "char_id": 529,
+      "name": "ドガフィール",
+      "match_str": "どがふぃーる",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 422,
+      "char_id": 530,
+      "name": "象征魔王 ドガフィール",
+      "match_str": "ぞうせいまおうどがふぃーる",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 423,
+      "char_id": 531,
+      "name": "ガッチェス",
+      "match_str": "がっちぇす",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 424,
+      "char_id": 532,
+      "name": "大獅魔王 ガッチェス",
+      "match_str": "たいしまおうがっちぇす",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 425,
+      "char_id": 533,
+      "name": "アーバネルゼ",
+      "match_str": "あーばねるぜ",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 426,
+      "char_id": 534,
+      "name": "金雀魔王 アーバネルゼ",
+      "match_str": "こんじゃくまおうあーばねるぜ",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 427,
+      "char_id": 535,
+      "name": "ビゼラー",
+      "match_str": "びぜらー",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 428,
+      "char_id": 536,
+      "name": "獄狼魔王 ビゼラー",
+      "match_str": "ごくろうまおうびぜらー",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 429,
+      "char_id": 669,
+      "name": "爆速マンケンチー",
+      "match_str": "ばくそくまんけんちー",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 430,
+      "char_id": 673,
+      "name": "ロリポップ",
+      "match_str": "ろりぽっぷ",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 431,
+      "char_id": 674,
+      "name": "兎姫ロリポップ",
+      "match_str": "うさぎひめろりぽっぷ",
+      "created_at": 1475684748,
+      "updated_at": 1475684748
+    },
+    {
+      "id": 432,
+      "char_id": 692,
+      "name": "マーティカル リン・ツー",
+      "match_str": "まーてぃかるりん・つー|まーてぃかるりんつー",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 433,
+      "char_id": 693,
+      "name": "ブレイヴ ロイゼ",
+      "match_str": "ぶれいゔろいぜ",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 434,
+      "char_id": 694,
+      "name": "大斧魔王 バクーレン",
+      "match_str": "おおおのまおうばくーれん",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 435,
+      "char_id": 615,
+      "name": "キリンAS",
+      "match_str": "きりんえーえす",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 436,
+      "char_id": 616,
+      "name": "聖龍王 キリンAS",
+      "match_str": "せいりゅうおうきりんえーえす",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 437,
+      "char_id": 675,
+      "name": "炎の巨人 ウォッカ",
+      "match_str": "ほのおのきょじんうぉっか",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 438,
+      "char_id": 676,
+      "name": "炎の巨神兵 ウォッカ",
+      "match_str": "ほのおのきょしんへいうぉっか",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 439,
+      "char_id": 677,
+      "name": "水の精 テキーラ",
+      "match_str": "みずのせいてきーら",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 440,
+      "char_id": 678,
+      "name": "水精の天女 テキーラ",
+      "match_str": "すいせいのてんにょてきーら",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 441,
+      "char_id": 679,
+      "name": "女神 テキーラシャイン",
+      "match_str": "めがみてきーらしゃいん",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 442,
+      "char_id": 680,
+      "name": "妖精王子 ギムレット",
+      "match_str": "ようせいおうじぎむれっと",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 443,
+      "char_id": 681,
+      "name": "妖精王 ギムレット",
+      "match_str": "ようせいおうぎむれっと",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 444,
+      "char_id": 682,
+      "name": "妖精皇 ダークギムレット",
+      "match_str": "ようせいこうだーくぎむれっと",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 445,
+      "char_id": 683,
+      "name": "バカルディ",
+      "match_str": "ばかるでぃ",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 446,
+      "char_id": 684,
+      "name": "光獣兵器 バカルディ",
+      "match_str": "こうじゅうへいきばかるでぃ",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 447,
+      "char_id": 685,
+      "name": "スプリッツァー",
+      "match_str": "すぷりっつぁー",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 448,
+      "char_id": 686,
+      "name": "八蛇神 スプリッツァー",
+      "match_str": "はちじゃしんすぷりっつぁー",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 449,
+      "char_id": 687,
+      "name": "暗黒蛇神 スプリッツァー",
+      "match_str": "あんこくじゃしんすぷりっつぁー",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 450,
+      "char_id": 670,
+      "name": "パワタスX",
+      "match_str": "ぱわたすえっくす",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 451,
+      "char_id": 671,
+      "name": "スピタスX",
+      "match_str": "すぴたすえっくす",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 452,
+      "char_id": 672,
+      "name": "ヒトポタスX",
+      "match_str": "ひとぽたすえっくす",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 453,
+      "char_id": 689,
+      "name": "月海の戦士 アルミラージ",
+      "match_str": "げっかいのせんしあるみらーじ",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 454,
+      "char_id": 688,
+      "name": "大荒神 建速須佐之男命",
+      "match_str": "だいこうじんたけはやすさのおのみこと",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 455,
+      "char_id": 690,
+      "name": "ワールズ・エンド",
+      "match_str": "わーるず・えんど|わーるずえんど",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 456,
+      "char_id": 691,
+      "name": "超翠竜 エメラルドドラゴン",
+      "match_str": "ちょうすいりゅうえめらるどどらごん",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 457,
+      "char_id": 621,
+      "name": "電撃のタートルアサシン",
+      "match_str": "でんげきのたーとるあさしん",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 458,
+      "char_id": 622,
+      "name": "電撃のD.T.Aゲンブ",
+      "match_str": "でんげきのでぃーてぃーえーげんぶ",
+      "created_at": 1475684749,
+      "updated_at": 1702310886
+    },
+    {
+      "id": 459,
+      "char_id": 745,
+      "name": "赤ずきん ノンノ",
+      "match_str": "あかずきんのんの",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 460,
+      "char_id": 746,
+      "name": "炎狼の赤ずきん ノンノ",
+      "match_str": "えんろうのあかずきんのんの",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 461,
+      "char_id": 747,
+      "name": "神狼の赤ずきん ノンノ",
+      "match_str": "しんろうのあかずきんのんの",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 462,
+      "char_id": 748,
+      "name": "マーメイド・ローレライ",
+      "match_str": "まーめいど・ろーれらい|まーめいどろーれらい",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 463,
+      "char_id": 749,
+      "name": "青海の歌姫 ローレライ",
+      "match_str": "せいかいのうたひめろーれらい",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 464,
+      "char_id": 750,
+      "name": "長靴をはいた猫ミント",
+      "match_str": "ながぐつをはいたねこみんと",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 465,
+      "char_id": 751,
+      "name": "長靴をはいた猫騎士ミント",
+      "match_str": "ながぐつをはいたねこきしみんと",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 466,
+      "char_id": 752,
+      "name": "ビースト",
+      "match_str": "びーすと",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 467,
+      "char_id": 753,
+      "name": "ビューティ・ビースト",
+      "match_str": "びゅーてぃ・びーすと|びゅーてぃびーすと",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 468,
+      "char_id": 754,
+      "name": "フレア・ビースト",
+      "match_str": "ふれあ・びーすと|ふれあびーすと",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 469,
+      "char_id": 755,
+      "name": "ハーメルン",
+      "match_str": "はーめるん",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 470,
+      "char_id": 756,
+      "name": "笛吹の魔導士 ハーメルン",
+      "match_str": "ふえふきのまどうしはーめるん",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 471,
+      "char_id": 757,
+      "name": "マグス・ハーメルン",
+      "match_str": "まぐす・はーめるん|まぐすはーめるん",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 472,
+      "char_id": 758,
+      "name": "桃太郎",
+      "match_str": "ももたろう",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 473,
+      "char_id": 759,
+      "name": "吉備津彦命 桃太郎",
+      "match_str": "きびつひこのみことももたろう",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 474,
+      "char_id": 760,
+      "name": "鬼殺しの桃太郎",
+      "match_str": "おにごろしのももたろう",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 475,
+      "char_id": 761,
+      "name": "浦島太郎",
+      "match_str": "うらしまたろう",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 476,
+      "char_id": 762,
+      "name": "龍宮童子 浦島太郎",
+      "match_str": "りゅうぐうどうじうらしまたろう",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 477,
+      "char_id": 763,
+      "name": "一寸法師",
+      "match_str": "いっすんぼうし",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 478,
+      "char_id": 764,
+      "name": "少名毘古那 一寸法師",
+      "match_str": "すくなひこないっすんぼうし",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 479,
+      "char_id": 765,
+      "name": "ぶんぶく茶釜",
+      "match_str": "ぶんぶくちゃがま",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 480,
+      "char_id": 766,
+      "name": "守鶴 文福茶釜",
+      "match_str": "しゅかくぶんぶくちゃがま",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 481,
+      "char_id": 767,
+      "name": "かぐや姫",
+      "match_str": "かぐやひめ",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 482,
+      "char_id": 768,
+      "name": "なよ竹のかぐや姫",
+      "match_str": "なよたけのかぐやひめ",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 483,
+      "char_id": 770,
+      "name": "あらいぐま ラスカル",
+      "match_str": "あらいぐまらすかる",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 484,
+      "char_id": 782,
+      "name": "坂本龍馬",
+      "match_str": "さかもとりょうま",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 485,
+      "char_id": 783,
+      "name": "海援隊隊長 坂本龍馬",
+      "match_str": "かいえんたいたいちょうさかもとりょうま",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 486,
+      "char_id": 784,
+      "name": "維新の奇跡 坂本龍馬",
+      "match_str": "いしんのきせきさかもとりょうま",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 487,
+      "char_id": 785,
+      "name": "勝海舟",
+      "match_str": "かつかいしゅう",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 488,
+      "char_id": 786,
+      "name": "軍艦奉行 勝海舟",
+      "match_str": "ぐんかんぶぎょうかつかいしゅう",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 489,
+      "char_id": 787,
+      "name": "おりょう",
+      "match_str": "おりょう",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 490,
+      "char_id": 788,
+      "name": "龍馬の妻 おりょう",
+      "match_str": "りょうまのつまおりょう",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 491,
+      "char_id": 789,
+      "name": "幕末の強女 おりょう",
+      "match_str": "ばくまつのきょうおんなおりょう",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 492,
+      "char_id": 790,
+      "name": "ジョン万次郎",
+      "match_str": "じょんまんじろう",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 493,
+      "char_id": 791,
+      "name": "開国の英雄 ジョン万次郎",
+      "match_str": "かいこくのえいゆうじょんまんじろう",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 494,
+      "char_id": 792,
+      "name": "西郷隆盛",
+      "match_str": "さいごうたかもり",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 495,
+      "char_id": 793,
+      "name": "薩摩の英傑 西郷隆盛",
+      "match_str": "さつまのえいけつさいごうたかもり",
+      "created_at": 1475684749,
+      "updated_at": 1475684749
+    },
+    {
+      "id": 496,
+      "char_id": 794,
+      "name": "南洲翁 西郷隆盛",
+      "match_str": "なんしゅうおうさいごうたかもり",
+      "created_at": 1475684750,
+      "updated_at": 1475684750
+    },
+    {
+      "id": 497,
+      "char_id": 795,
+      "name": "斉藤一",
+      "match_str": "さいとうはじめ",
+      "created_at": 1475684750,
+      "updated_at": 1475684750
+    },
+    {
+      "id": 498,
+      "char_id": 796,
+      "name": "孤高の無敵剣 斉藤一",
+      "match_str": "ここうのむてきけんさいとうはじめ",
+      "created_at": 1475684750,
+      "updated_at": 1475684750
+    },
+    {
+      "id": 499,
+      "char_id": 797,
+      "name": "沖田総司",
+      "match_str": "おきたそうじ",
+      "created_at": 1475684750,
+      "updated_at": 1475684750
+    },
+    {
+      "id": 500,
+      "char_id": 798,
+      "name": "薄幸の天才剣士 沖田総司",
+      "match_str": "はっこうのてんさいけんしおきたそうじ",
+      "created_at": 1475684750,
+      "updated_at": 1475684750
+    },
+    {
+      "id": 501,
+      "char_id": 799,
+      "name": "一番隊組長 沖田総司",
+      "match_str": "いちばんたいくみちょうおきたそうじ",
+      "created_at": 1475684750,
+      "updated_at": 1475684750
+    },
+    {
+      "id": 502,
+      "char_id": 800,
+      "name": "徳川慶喜",
+      "match_str": "とくがわよしのぶ",
+      "created_at": 1475684750,
+      "updated_at": 1475684750
+    },
+    {
+      "id": 503,
+      "char_id": 801,
+      "name": "終ノ征夷大将軍 徳川慶喜",
+      "match_str": "おわりのせいいたいしょうぐんとくがわよしのぶ",
+      "created_at": 1475684750,
+      "updated_at": 1475684750
+    },
+    {
+      "id": 504,
+      "char_id": 802,
+      "name": "英断の華将軍 徳川慶喜",
+      "match_str": "えいだんのはなしょうぐんとくがわよしのぶ",
+      "created_at": 1475684750,
+      "updated_at": 1475684750
+    },
+    {
+      "id": 505,
+      "char_id": 803,
+      "name": "近藤勇",
+      "match_str": "こんどういさみ",
+      "created_at": 1475684750,
+      "updated_at": 1475684750
+    },
+    {
+      "id": 506,
+      "char_id": 804,
+      "name": "新選組局長 近藤勇",
+      "match_str": "しんせんぐみきょくちょうこんどういさみ",
+      "created_at": 1475684750,
+      "updated_at": 1475684750
+    },
+    {
+      "id": 507,
+      "char_id": 805,
+      "name": "土方歳三",
+      "match_str": "ひじかたとしぞう",
+      "created_at": 1475684750,
+      "updated_at": 1475684750
+    },
+    {
+      "id": 508,
+      "char_id": 806,
+      "name": "凄然なる厳鬼 土方歳三",
+      "match_str": "せいぜんなるげんきひじかたとしぞう",
+      "created_at": 1475684750,
+      "updated_at": 1475684750
+    },
+    {
+      "id": 509,
+      "char_id": 769,
+      "name": "タカラゴン",
+      "match_str": "たからごん",
+      "created_at": 1475684750,
+      "updated_at": 1475684750
+    },
+    {
+      "id": 510,
+      "char_id": 817,
+      "name": "アリス",
+      "match_str": "ありす",
+      "created_at": 1475684750,
+      "updated_at": 1475684750
+    },
+    {
+      "id": 511,
+      "char_id": 818,
+      "name": "不思議の国のアリス",
+      "match_str": "ふしぎのくにのありす",
+      "created_at": 1475684750,
+      "updated_at": 1475684750
+    },
+    {
+      "id": 512,
+      "char_id": 826,
+      "name": "桜木リリィ",
+      "match_str": "さくらぎりりぃ",
+      "created_at": 1475684750,
+      "updated_at": 1475684750
+    },
+    {
+      "id": 513,
+      "char_id": 827,
+      "name": "モンストローズ",
+      "match_str": "もんすとろーず",
+      "created_at": 1475684750,
+      "updated_at": 1475684750
+    },
+    {
+      "id": 514,
+      "char_id": 828,
+      "name": "桜光戦士モンストローズ",
+      "match_str": "おうこうせんしもんすとろーず",
+      "created_at": 1475684750,
+      "updated_at": 1475684750
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "table": "piman_daily_gacha_groups",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "start_at": 1753383600,
+      "end_at": 1753426799,
+      "parent_piman_daily_gacha_group_id": 0,
+      "created_at": 1753352806,
+      "updated_at": 1753352806
+    },
+    {
+      "id": 2,
+      "start_at": 1753426800,
+      "end_at": 1753469999,
+      "parent_piman_daily_gacha_group_id": 1,
+      "created_at": 1753352806,
+      "updated_at": 1753352806
+    },
+    {
+      "id": 3,
+      "start_at": 1753470000,
+      "end_at": 1753513199,
+      "parent_piman_daily_gacha_group_id": 0,
+      "created_at": 1753352806,
+      "updated_at": 1753352806
+    },
+    {
+      "id": 4,
+      "start_at": 1753513200,
+      "end_at": 1753556399,
+      "parent_piman_daily_gacha_group_id": 3,
+      "created_at": 1753352806,
+      "updated_at": 1753352806
+    },
+    {
+      "id": 5,
+      "start_at": 1753556400,
+      "end_at": 1753599599,
+      "parent_piman_daily_gacha_group_id": 0,
+      "created_at": 1753352806,
+      "updated_at": 1753352806
+    },
+    {
+      "id": 6,
+      "start_at": 1753599600,
+      "end_at": 1753642799,
+      "parent_piman_daily_gacha_group_id": 5,
+      "created_at": 1753352806,
+      "updated_at": 1753352806
+    },
+    {
+      "id": 7,
+      "start_at": 1753642800,
+      "end_at": 1753685999,
+      "parent_piman_daily_gacha_group_id": 0,
+      "created_at": 1753352806,
+      "updated_at": 1753352806
+    },
+    {
+      "id": 8,
+      "start_at": 1753686000,
+      "end_at": 1753729199,
+      "parent_piman_daily_gacha_group_id": 7,
+      "created_at": 1753352806,
+      "updated_at": 1753352806
+    },
+    {
+      "id": 9,
+      "start_at": 1753729200,
+      "end_at": 1753772399,
+      "parent_piman_daily_gacha_group_id": 0,
+      "created_at": 1753352806,
+      "updated_at": 1753352806
+    },
+    {
+      "id": 10,
+      "start_at": 1753772400,
+      "end_at": 1753815599,
+      "parent_piman_daily_gacha_group_id": 9,
+      "created_at": 1753352806,
+      "updated_at": 1753352806
+    },
+    {
+      "id": 11,
+      "start_at": 1753815600,
+      "end_at": 1753858799,
+      "parent_piman_daily_gacha_group_id": 0,
+      "created_at": 1753352806,
+      "updated_at": 1753352806
+    },
+    {
+      "id": 12,
+      "start_at": 1753858800,
+      "end_at": 1753901999,
+      "parent_piman_daily_gacha_group_id": 11,
+      "created_at": 1753352806,
+      "updated_at": 1753352806
+    },
+    {
+      "id": 13,
+      "start_at": 1753902000,
+      "end_at": 1753945199,
+      "parent_piman_daily_gacha_group_id": 0,
+      "created_at": 1753352806,
+      "updated_at": 1753352806
+    },
+    {
+      "id": 14,
+      "start_at": 1753945200,
+      "end_at": 1753988399,
+      "parent_piman_daily_gacha_group_id": 13,
+      "created_at": 1753352806,
+      "updated_at": 1753352806
+    },
+    {
+      "id": 15,
+      "start_at": 1753988400,
+      "end_at": 1754031599,
+      "parent_piman_daily_gacha_group_id": 0,
+      "created_at": 1753352806,
+      "updated_at": 1753352806
+    },
+    {
+      "id": 16,
+      "start_at": 1754031600,
+      "end_at": 1754074799,
+      "parent_piman_daily_gacha_group_id": 15,
+      "created_at": 1753352806,
+      "updated_at": 1753352806
+    }
+  ]
+}

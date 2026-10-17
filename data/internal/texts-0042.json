@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 1,
+  "table": "texts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 10816,
+      "text": "[C5:引き換えについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1653559838,
+      "updated_at": 1653559838,
+      "label": "eTEXTS_DEF_32209"
+    },
+    {
+      "id": 10817,
+      "text": "集めたアーニャコインを使用して[LF][C6:アイテム]と引き換えができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1653559838,
+      "updated_at": 1653559838,
+      "label": "eTEXTS_DEF_32210"
+    },
+    {
+      "id": 10818,
+      "text": "※アイテム毎に必要なアーニャコインの数[LF]は異なります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1653559838,
+      "updated_at": 1653559838,
+      "label": "eTEXTS_DEF_32211"
+    },
+    {
+      "id": 10819,
+      "text": "アーニャの学力テスト[LF][LF][CCB:dlme/help_collabo_brown_ms_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1653559838,
+      "updated_at": 1653559838,
+      "label": "eTEXTS_DEF_MSG_BROWN_MISSION_HELP"
+    },
+    {
+      "id": 10820,
+      "text": "[LC]報酬一覧[LF][LF][TAB:テスト結果報酬]テストの点数に応じて、各点数帯の報酬から[LF][C6:ランダムに1つ]獲得できます[LF][MARGIN20][LF][NODE][TAB:初到達報酬]到達した点数までの報酬を[C6:1度だけ]獲得できます[LF][MARGIN20][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1653559838,
+      "updated_at": 1653559838,
+      "label": "eTEXTS_DEF_MSG_BROWN_MISSION_REWARD_LIST"
+    },
+    {
+      "id": 10821,
+      "text": "初到達報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1653559838,
+      "updated_at": 1653559838,
+      "label": "eTEXTS_DEF_ME_BROWN_MISSION_HIGH_SCORE_REWARD_TITLE"
+    },
+    {
+      "id": 10822,
+      "text": "テスト結果報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1653559838,
+      "updated_at": 1653559838,
+      "label": "eTEXTS_DEF_ME_BROWN_MISSION_TESTING_REWARD_TITLE"
+    },
+    {
+      "id": 10823,
+      "text": "[LC]報酬獲得[LF][LF][LC][S2]テスト結果は[C6:%d]点でした！[LF][LF][LC]以下の報酬を獲得しました[LF][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1653559838,
+      "updated_at": 1653559838,
+      "label": "eTEXTS_DEF_MSG_BROWN_MISSION_REWARD"
+    },
+    {
+      "id": 10824,
+      "text": "5/27 12:00 ～ [C6:6/2 3:59]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1653559838,
+      "updated_at": 1653559838,
+      "label": "eTEXTS_DEF_ME_BROWN_MISSION_TRAINING_PERIOD"
+    },
+    {
+      "id": 10825,
+      "text": "5/28 4:00 ～ 6/3 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1653559838,
+      "updated_at": 1653559838,
+      "label": "eTEXTS_DEF_ME_BROWN_MISSION_TESTING_PERIOD"
+    },
+    {
+      "id": 10826,
+      "text": "アーニャのかしこさを上げ、明日のテストに備えよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1653559838,
+      "updated_at": 1653559838,
+      "label": "eTEXTS_DEF_ME_BROWN_MISSION_INFO"
+    },
+    {
+      "id": 10827,
+      "text": "%d点〜%d点",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1653559838,
+      "updated_at": 1653559838,
+      "label": "eTEXTS_DEF_ME_BROWN_MISSION_TESTING_REWARD_SUB_TITLE1"
+    },
+    {
+      "id": 10828,
+      "text": "100点",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1653559838,
+      "updated_at": 1653559838,
+      "label": "eTEXTS_DEF_ME_BROWN_MISSION_TESTING_REWARD_SUB_TITLE2"
+    },
+    {
+      "id": 10829,
+      "text": "or",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1653559838,
+      "updated_at": 1653559838,
+      "label": "eTEXTS_DEF_ME_BROWN_MISSION_TESTING_REWARD_SEPARATE_WORD"
+    },
+    {
+      "id": 10830,
+      "text": "%d点以上",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1653559838,
+      "updated_at": 1653559838,
+      "label": "eTEXTS_DEF_ME_BROWN_MISSION_HIGH_SCORE_REWARD_SUB_TITLE1"
+    },
+    {
+      "id": 10831,
+      "text": "100点",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1653559838,
+      "updated_at": 1653559838,
+      "label": "eTEXTS_DEF_ME_BROWN_MISSION_HIGH_SCORE_REWARD_SUB_TITLE2"
+    },
+    {
+      "id": 10832,
+      "text": "連",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1654076375,
+      "label": "eTEXTS_DEF_GACHA_DAILY_STACK_REN"
+    },
+    {
+      "id": 10833,
+      "text": "クリア回数ボーナス",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1654076375,
+      "label": "eTEXTS_DEF_GACHA_DAILY_STACK_CLEAR_COUNT_BONUS"
+    },
+    {
+      "id": 10834,
+      "text": "[LC]つみたてガチャ連数獲得！[LF][LF][LF][LC]クリア回数ボーナス達成で[LF][LC]ガチャ連数を獲得しました[LF][LF][LC]獲得ガチャ連数：%d連[LF][LF][LC][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1654076375,
+      "label": "eTEXTS_DEF_GACHA_DAILY_STACK_DIALOG_RESULT_CLEAR_COUNT"
+    },
+    {
+      "id": 10835,
+      "text": "[LC]つみたてガチャ連数獲得！[LF][LF][LF][LC]クリア回数ボーナス[LF][LC]1日1回クエストクリア達成で[LF][LC]ガチャ連数を獲得しました[LF][LF][LC]獲得ガチャ連数：%d連[LF][LF][LC][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1654076375,
+      "label": "eTEXTS_DEF_GACHA_DAILY_STACK_DIALOG_RESULT_BOTH"
+    },
+    {
+      "id": 10836,
+      "text": "[LC]ガチャ期間外[LF][LF][LF][LC]ガチャ期間外です[LF][LC]ガチャ期間：7/11 0:00~7/27 3:59[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1781774287,
+      "label": "eTEXTS_DEF_GACHA_DAILY_STACK_DIALOG_NOT_STARTED"
+    },
+    {
+      "id": 10837,
+      "text": "[LC]デイリーつみたてガチャ[LF][LF][LF][LC][S2]現在[C6:%d連]回せます[LF][LF][LC]※このガチャが引けるのは[C2:1度のみ]です[LF][LF][LF][LC]ガチャを引きますか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1686822177,
+      "label": "eTEXTS_DEF_GACHA_DAILY_STACK_DIALOG_CONFIRM_CHALLENGED"
+    },
+    {
+      "id": 10838,
+      "text": "[C6:毎日クエストクリアを続けて最大50連！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1654076375,
+      "label": "eTEXTS_DEF_32400"
+    },
+    {
+      "id": 10839,
+      "text": "[b:ba_help_deposit_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1654076375,
+      "label": "eTEXTS_DEF_32401"
+    },
+    {
+      "id": 10840,
+      "text": "つみたて期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1718876550,
+      "label": "eTEXTS_DEF_32402"
+    },
+    {
+      "id": 10841,
+      "text": "6/21 0:00 ～ [C6:7/20 23:59]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1781774287,
+      "label": "eTEXTS_DEF_32403"
+    },
+    {
+      "id": 10842,
+      "text": "ガチャ期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1718876550,
+      "label": "eTEXTS_DEF_32404"
+    },
+    {
+      "id": 10843,
+      "text": "7/11 0:00 ～ [C6:7/27 3:59]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1781774287,
+      "label": "eTEXTS_DEF_32405"
+    },
+    {
+      "id": 10844,
+      "text": "[C5:デイリーつみたてガチャについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1654076375,
+      "label": "eTEXTS_DEF_32406"
+    },
+    {
+      "id": 10845,
+      "text": "[C6:期間中一回だけ、最大で50連引ける]ガチャ！[LF][LF][C6:クエストをクリア]することで[LF]引けるガチャ連数を自分で増やすことが可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1654076375,
+      "label": "eTEXTS_DEF_32407"
+    },
+    {
+      "id": 10846,
+      "text": "[C6:どのクエストタイプ][LF][C6:でもOK！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1654076375,
+      "label": "eTEXTS_DEF_32408"
+    },
+    {
+      "id": 10847,
+      "text": "[C6:31連目以降]は[C6:限定キャラ]も排出対象に追加！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1654076375,
+      "label": "eTEXTS_DEF_32409"
+    },
+    {
+      "id": 10848,
+      "text": "※排出対象となるキャラクターの詳細は[u:https://www.monster-strike.com/news/20260618_2.html#3a|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1781774287,
+      "label": "eTEXTS_DEF_32410"
+    },
+    {
+      "id": 10849,
+      "text": "[C5:ガチャ連数をつみたてよう]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1654076375,
+      "label": "eTEXTS_DEF_32411"
+    },
+    {
+      "id": 10850,
+      "text": "ガチャ連数は[C6:2種類の方法]でつみたてられるぞ[LF][LF]どちらも[C6:つみたて期間中]に[LF]行う必要があるので要注意！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1718876550,
+      "label": "eTEXTS_DEF_32412"
+    },
+    {
+      "id": 10851,
+      "text": "つみたてかた1. 1日1回クエストクリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1654076375,
+      "label": "eTEXTS_DEF_32413"
+    },
+    {
+      "id": 10852,
+      "text": "[C6:クエストをクリア]することで[LF]ガチャ連数が[C6:1日1回]だけ加算されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1654076375,
+      "label": "eTEXTS_DEF_32414"
+    },
+    {
+      "id": 10853,
+      "text": "[C6:クエストクリア]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1654076375,
+      "label": "eTEXTS_DEF_32415"
+    },
+    {
+      "id": 10854,
+      "text": "1",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1654076375,
+      "label": "eTEXTS_DEF_32416"
+    },
+    {
+      "id": 10855,
+      "text": "▶",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1654076375,
+      "label": "eTEXTS_DEF_32417"
+    },
+    {
+      "id": 10856,
+      "text": "[C6:2]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1654076375,
+      "label": "eTEXTS_DEF_32418"
+    },
+    {
+      "id": 10857,
+      "text": "[C6:ガチャ連数獲得！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1654076375,
+      "label": "eTEXTS_DEF_32419"
+    },
+    {
+      "id": 10858,
+      "text": "さらに[C6:モンストの日]は一気に[C6:10連分]がつみたて！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1654076375,
+      "label": "eTEXTS_DEF_32420"
+    },
+    {
+      "id": 10859,
+      "text": "[C6:クエストクリア]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1654076375,
+      "label": "eTEXTS_DEF_32421"
+    },
+    {
+      "id": 10860,
+      "text": "10",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1654076375,
+      "label": "eTEXTS_DEF_32422"
+    },
+    {
+      "id": 10861,
+      "text": "[C6:20]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1654076375,
+      "label": "eTEXTS_DEF_32423"
+    },
+    {
+      "id": 10862,
+      "text": "[C6:ガチャ10連分獲得！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1654076375,
+      "label": "eTEXTS_DEF_32424"
+    },
+    {
+      "id": 10863,
+      "text": "つみたてかた2. クリア回数ボーナス",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1654076375,
+      "label": "eTEXTS_DEF_32425"
+    },
+    {
+      "id": 10864,
+      "text": "クエストをクリアした回数が一定回数に[LF]到達すると[C6:クリア回数ボーナス]をゲット！[LF][LF][C6:1回クリアで1連]追加、[C6:30回でさらに10連]追加！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1781774287,
+      "label": "eTEXTS_DEF_32426"
+    },
+    {
+      "id": 10865,
+      "text": "1",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1781774287,
+      "label": "eTEXTS_DEF_32427"
+    },
+    {
+      "id": 10866,
+      "text": "30",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1781774287,
+      "label": "eTEXTS_DEF_32428"
+    },
+    {
+      "id": 10867,
+      "text": "[C6:1連]追加！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1781774287,
+      "label": "eTEXTS_DEF_32429"
+    },
+    {
+      "id": 10868,
+      "text": "[C6:10連]追加！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1654076375,
+      "label": "eTEXTS_DEF_32430"
+    },
+    {
+      "id": 10869,
+      "text": "※[C6:ソロプレイ]、マルチプレイの[C6:ホスト]、[C6:ゲスト][LF]　どのクエストのクリアでも対象です[LF][LF]※日付の切り替わりは毎日0時です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1654076375,
+      "label": "eTEXTS_DEF_32431"
+    },
+    {
+      "id": 10870,
+      "text": "[C5:ガチャの引き方]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1654076375,
+      "label": "eTEXTS_DEF_32432"
+    },
+    {
+      "id": 10871,
+      "text": "[C6:ガチャ期間になったら]つみたてたガチャ連数分、[LF]ガチャを引くことができます[LF][LF]つみたてが完了したら、ガチャを引こう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1718876550,
+      "label": "eTEXTS_DEF_32433"
+    },
+    {
+      "id": 10872,
+      "text": "ガチャ連数を最大まで獲得しました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1654076375,
+      "label": "eTEXTS_DEF_32434"
+    },
+    {
+      "id": 10873,
+      "text": "現在",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1654076375,
+      "label": "eTEXTS_DEF_32435"
+    },
+    {
+      "id": 10874,
+      "text": "[C6:50]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1654076375,
+      "label": "eTEXTS_DEF_32436"
+    },
+    {
+      "id": 10875,
+      "text": "連",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1654076375,
+      "label": "eTEXTS_DEF_32437"
+    },
+    {
+      "id": 10876,
+      "text": "ガチャる",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1654076375,
+      "label": "eTEXTS_DEF_32438"
+    },
+    {
+      "id": 10877,
+      "text": "ガチャを引けるのは[C6:期間中1回限り]です[LF]50連分貯まる前に引く場合はよく考えて引こう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654076375,
+      "updated_at": 1654076375,
+      "label": "eTEXTS_DEF_32439"
+    },
+    {
+      "id": 10878,
+      "text": "[LC]開催期間外[LF][LF][LC]イベント期間が終了しました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1716458442,
+      "label": "eTEXTS_DEF_OCEAN_MSG_ERR_VALID_TIME"
+    },
+    {
+      "id": 10879,
+      "text": "[LC]出航！[LF][LF][LC][NODE][LF][LC]この海域に出航します！[LF][LC]目的地へ到着するには、航海時間がかかります[MARGIN20][LF][LC][NODE][LF][LC]※他の海域で航海中でも海域の変更が可能です[LF][LC]出航しますか？",
+      "layout": 7,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_OCEAN_MSG_DEPARTURE_2"
+    },
+    {
+      "id": 10880,
+      "text": "[LC]出航する船の選択[LF][LF][LC]他の海域で出航中です[LF][LC][C6:%s]に出航させる船を選択してください[LF][LF][LC][NODE]",
+      "layout": 7,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_OCEAN_MSG_SHIP_SELECT"
+    },
+    {
+      "id": 10881,
+      "text": "選択する",
+      "layout": 7,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_OCEAN_MSG_SHIP_SELECT_BTN"
+    },
+    {
+      "id": 10882,
+      "text": "出航先",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_OCEAN_VOYAGE_AREA"
+    },
+    {
+      "id": 10883,
+      "text": "小型船",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_OCEAN_SHIP_SECOND_NAME"
+    },
+    {
+      "id": 10884,
+      "text": "[C6:%s短縮]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_OCEAN_SHIP_PARTS_ENGINE"
+    },
+    {
+      "id": 10885,
+      "text": "[IMG:ocean_icon_parts_02.png|0.4][C6:海底探査機を装備中！スピードクリア報酬%s倍]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_OCEAN_SHIP_PARTS_SENSOR"
+    },
+    {
+      "id": 10886,
+      "text": "[IMG:ocean_icon_parts_03.png|0.4][C6:船首像を装備中！金卵排出率%s倍]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_OCEAN_SHIP_PARTS_SALVAGE"
+    },
+    {
+      "id": 10887,
+      "text": "[IMG:ocean_icon_parts_05.png|0.4][C6:リールを装備中！お宝釣り+1回]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_OCEAN_SHIP_PARTS_REEL_1"
+    },
+    {
+      "id": 10888,
+      "text": "[LC][IMG:ocean_icon_parts_05.png|0.6]リールを装備中！[C6:お宝釣り+1回]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_OCEAN_SHIP_PARTS_REEL_2"
+    },
+    {
+      "id": 10889,
+      "text": "[LF][LC]　さらに[C6:豪華な宝箱]が稀に出現！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_OCEAN_SHIP_PARTS_REEL_3"
+    },
+    {
+      "id": 10890,
+      "text": "[IMG:ocean_icon_parts_05.png|0.6][C6:豪華な宝箱]が稀に出現！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_OCEAN_SHIP_PARTS_REEL_4"
+    },
+    {
+      "id": 10891,
+      "text": "[LC]アイテムが足りません[LF][WIDTH500][LF][LC]%sが足りません[LF][MARGIN20][LF][LC][NODE][MARGIN20][LF][LC][S2]必要%s：[C6:%s][LF][LF][LC][MARGIN15][LF][LC][NODE][MARGIN40][LF][LC]%sを%sと引き換えて[LF][LC]使用しますか？[LF][LF][LC]%s",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_MSG_OCEAN_USE_ITEM_LACK_ERR_2"
+    },
+    {
+      "id": 10892,
+      "text": "[LC]トレルアーを使って釣る[LF][LF][LC]トレルアー%d個を使用し、お宝釣りをしますか？[LF][LF][LC]%s",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_OCEAN_MSG_FORTUNE_USE_ITEM_2"
+    },
+    {
+      "id": 10893,
+      "text": "船舶装備・強化",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_OCEAN_SHIP_PARTS_CUSTOM_MENU"
+    },
+    {
+      "id": 10894,
+      "text": "船舶装備・強化",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_OCEAN_SHIP_PARTS_CUSTOM_TITLE"
+    },
+    {
+      "id": 10895,
+      "text": "未装備",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_OCEAN_SHIP_PARTS_NO_UPDATE"
+    },
+    {
+      "id": 10896,
+      "text": "次のLvまで",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_OCEAN_SHIP_PARTS_NEXT_LEVEL"
+    },
+    {
+      "id": 10897,
+      "text": "Lv",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_OCEAN_SHIP_PARTS_LEVEL"
+    },
+    {
+      "id": 10898,
+      "text": "[LC]エンジン[LF][LF][LF][LC][NODE][LF][LF]出航時の航海時間を短縮する[LF][LF] Lv 1：[C6:8％短縮][LF] Lv 2：[C6:16.5％短縮][LF] Lv 3：[C6:25％短縮][LF] Lv 4：[C6:37.5％短縮]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_OCEAN_MSG_ENGINE_DESCRIPTION"
+    },
+    {
+      "id": 10899,
+      "text": "[LC]海底探査機[LF][LF][LF][LC][NODE][LF][LF]アポストロスのスピードクリア報酬が増加する[LF][LF] Lv 1：[C6:2倍][LF] Lv 2：[C6:3倍][LF] Lv 3：[C6:4倍]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_OCEAN_MSG_SENSOR_DESCRIPTION"
+    },
+    {
+      "id": 10900,
+      "text": "[LC]船首像[LF][LF][LF][LC][NODE][LF][LF]秘海の冒険船内のクエストの金卵排出率が増加する[LF][LF] Lv 1：[C6:1.2倍][LF] Lv 2：[C6:1.5倍][LF] Lv 3：[C6:2倍]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_OCEAN_MSG_SALVAGE_DESCRIPTION"
+    },
+    {
+      "id": 10901,
+      "text": "[LC]小型船[LF][LF][LF][LC][NODE][LF][LF]同時に出航できる海域数が増加する[LF][LF] Lv 1：[C6:1海域追加]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_OCEAN_MSG_SECOND_SHIP_DESCRIPTION"
+    },
+    {
+      "id": 10902,
+      "text": "[LC]リール[LF][LF][LF][LC][NODE][LF][LF]お宝釣りの釣竿がパワーアップする[LF][LF] Lv 1：[C6:お宝釣りの回数+1回][LF] Lv ２：[C6:稀に豪華な宝箱が出現！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_OCEAN_MSG_REEL_DESCRIPTION"
+    },
+    {
+      "id": 10903,
+      "text": "[LC]秘海玉のリセット[LF][LF][LC][C6:オーブ%d個]で船舶装備の強化で失った秘海玉を[LF][LC]リセットする事が出来ます[LF][LC]リセットしますか？[LF][LF][LC][BG_STR:dummy.png|WIDTH:420|LSTR:必要オーブ数:|RSTR:[C6:%d個]][LF][LC][BG_STR:dummy.png|WIDTH:420|LSTR:所持オーブ数:|RSTR:%d個][LF][IF:%d][LC][BG_STR:dummy.png|WIDTH:420|LSTR:[C6:[texts:eTEXTS_DEF_LIMITED_ORB_NAME]数:]|RSTR:[C6:%d個]][LF][LC][C6:[texts:eTEXTS_DEF_LIMITED_ORB_NAME]から消費されます][ENDIF][LF][LC]※船が未出航の時のみリセット可能です[LF][LF-15][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1751990627,
+      "label": "eTEXTS_DEF_OCEAN_MSG_REROOL"
+    },
+    {
+      "id": 10904,
+      "text": "[LC]秘海玉のリセット[LF][LF][LC][C6:オーブを使用せず]に船舶装備の強化で失った秘海玉を[LF][LC]リセットする事が出来ます[LF][LC]リセットしますか？[LF][LF][LC][BG_STR:dummy.png|WIDTH:420|LSTR:リセット可能回数:|RSTR:[C6:%d個]][LF][LC]※船が未出航の時のみリセット可能です",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_OCEAN_MSG_REROOL_FREE"
+    },
+    {
+      "id": 10905,
+      "text": "[LC]船が出航中です[LF][LF][LC]船舶装備で失った秘海玉のリセットは[LF]全ての船が[C6:未出航]の時のみ可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_OCEAN_MSG_REROOL_ERR"
+    },
+    {
+      "id": 10906,
+      "text": "[LC]出航！[LF][LF][LC][NODE][LF][LC]この海域で出航します！[LF][LC]目的地へ到着するには、航海時間がかかります[MARGIN20][LF][LC][NODE][LF][LC]他の海域で[C6:秘海の海図]を使用しています[LF][LC]海域を変更すると指定した目的地に到着しません[LF][LC]本当によろしいですか？",
+      "layout": 7,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_OCEAN_MSG_DEPARTURE_WARN_2"
+    },
+    {
+      "id": 10907,
+      "text": "元に戻す",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_OCEAN_PARTS_CUSTOM_UNDO_BTN"
+    },
+    {
+      "id": 10908,
+      "text": "強化する",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_OCEAN_PARTS_CUSTOM_DECIDE_BTN"
+    },
+    {
+      "id": 10909,
+      "text": "返却される%s",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_REROOL_ITEM_FORMAT"
+    },
+    {
+      "id": 10910,
+      "text": "リセット後の%s",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_REROOL_TOTAL_ITEM_FORMAT"
+    },
+    {
+      "id": 10911,
+      "text": "[LC]船舶装備の強化[LF][LF][LC][NODE][LF][LF]選択した船舶装備を強化しますか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_OCEAN_MSG_DECIDE"
+    },
+    {
+      "id": 10912,
+      "text": "[BG_STR:deck_number_bg.png|WIDTH:190|LSTR:Lv |RSTR:%d    →    [C4:%d]]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_OCEAN_MSG_DECIDE_LV_LAYOUT"
+    },
+    {
+      "id": 10913,
+      "text": "[LC]豪華な宝箱を釣り上げました[LF][WIDTH500][LF][LC][NODE][LF][LC]豪華な宝箱の中からお宝が出てきました！！[LF][LF][LC][NODE][LF]%s[LF][LF][LC]※効果は次にプレイする秘海の冒険船内のクエストが対象です[LF][LC]※スペシャル報酬量2倍の効果はAM0:00に失います[LF][LC]※スペシャル報酬量2倍の効果はクエストに挑戦すると効果を失います",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_OCEAN_MSG_FORTUNE_REWARD_400"
+    },
+    {
+      "id": 10914,
+      "text": "[LC]%sでクエストが出現しています[LF][LC]クエストをクリアするか再出航するまで海域を変更できません",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_OCEAN_MSG_CANT_DEPARTURE_2"
+    },
+    {
+      "id": 10915,
+      "text": "「[C6:%s]」",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_OCEAN_MSG_CANT_DEPARTURE_FORMAT"
+    },
+    {
+      "id": 10916,
+      "text": "[LC]お宝釣り[LF][WIDTH540][LF][LC]お宝釣りをしてお宝を釣り上げよう！[LF][LC]トレルアーを使うと必ず宝箱が釣れます[LF][LF]%s[LF][LF][LC]※お宝釣りは1日2回できます[LF][LC]※AM0:00を過ぎると回数がリセットされます",
+      "layout": 48,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_OCEAN_MSG_FORTUNE_2"
+    },
+    {
+      "id": 10917,
+      "text": "[LC]お宝釣り[LF][WIDTH540][LF][LC]お宝釣りをしてお宝を釣り上げよう！[LF][LC]トレルアーを使うと必ず宝箱が釣れます[LF][LF]%s[LF][LF][LC]※本日は[C6:船の日！]お宝釣りが1日[C6:3回]できます[LF][LC]※AM0:00を過ぎると回数がリセットされます",
+      "layout": 48,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_OCEAN_MSG_FORTUNE_SHIP_DAY_2"
+    },
+    {
+      "id": 10918,
+      "text": "あと　%d回",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_OCEAN_ME_FORTUNE_COUNT"
+    },
+    {
+      "id": 10919,
+      "text": "秘海玉",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_23966"
+    },
+    {
+      "id": 10920,
+      "text": "冒険船の[C6:船舶装備を強化]することが[LF]できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_23967"
+    },
+    {
+      "id": 10921,
+      "text": "[C5:船舶装備・強化について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_23968"
+    },
+    {
+      "id": 10922,
+      "text": "海域総ラックボーナスで獲得した[C6:秘海玉を使って][LF][C6:船舶装備の追加と強化をする]ことができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_23969"
+    },
+    {
+      "id": 10923,
+      "text": "[C6:装備強化！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_23970"
+    },
+    {
+      "id": 10924,
+      "text": "冒険船が出航していない時に限り、船舶装備の状態を[LF][C6:オーブ1個消費でリセット]できます[LF][LF]※船のLvを上げると、[C6:1度だけオーブの消費なし]で[LF]　リセットできます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_23971"
+    },
+    {
+      "id": 10925,
+      "text": "[C6:船舶装備を強化して航海を楽しもう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32300"
+    },
+    {
+      "id": 10926,
+      "text": "[b:ba_help_ocean_01.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32301"
+    },
+    {
+      "id": 10927,
+      "text": "海域総ラックボーナスで獲得した秘海玉を使って[LF]船舶装備の追加と強化をすることができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32302"
+    },
+    {
+      "id": 10928,
+      "text": "[C5:船舶装備の詳細]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32303"
+    },
+    {
+      "id": 10929,
+      "text": "エンジン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32304"
+    },
+    {
+      "id": 10930,
+      "text": "エンジンを装備すると[LF]出航から島へ到着までの[C6:時間を短縮]できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32305"
+    },
+    {
+      "id": 10931,
+      "text": "Lv1",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32306"
+    },
+    {
+      "id": 10932,
+      "text": "Lv2",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32307"
+    },
+    {
+      "id": 10933,
+      "text": "Lv3",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32308"
+    },
+    {
+      "id": 10934,
+      "text": "Lv4",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32309"
+    },
+    {
+      "id": 10935,
+      "text": "8％",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32310"
+    },
+    {
+      "id": 10936,
+      "text": "16.5％",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32311"
+    },
+    {
+      "id": 10937,
+      "text": "25％",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32312"
+    },
+    {
+      "id": 10938,
+      "text": "37.5％",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32313"
+    },
+    {
+      "id": 10939,
+      "text": "※効力はエンジンの強化後の出航から発揮します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32314"
+    },
+    {
+      "id": 10940,
+      "text": "海底探査機",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32315"
+    },
+    {
+      "id": 10941,
+      "text": "海底探査機を装備するとアポストロスのクエストで[LF]獲得できる[C6:スピードクリア報酬の獲得量が増加]します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32316"
+    },
+    {
+      "id": 10942,
+      "text": "Lv1",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32317"
+    },
+    {
+      "id": 10943,
+      "text": "Lv2",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32318"
+    },
+    {
+      "id": 10944,
+      "text": "Lv3",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32319"
+    },
+    {
+      "id": 10945,
+      "text": "2倍！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32320"
+    },
+    {
+      "id": 10946,
+      "text": "3倍！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32321"
+    },
+    {
+      "id": 10947,
+      "text": "4倍！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32322"
+    },
+    {
+      "id": 10948,
+      "text": "船首像",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32323"
+    },
+    {
+      "id": 10949,
+      "text": "船首像を装備すると秘海の冒険船のクエストで[LF]獲得できる[C6:金卵の排出率が増加]します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32324"
+    },
+    {
+      "id": 10950,
+      "text": "Lv1",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32325"
+    },
+    {
+      "id": 10951,
+      "text": "Lv2",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32326"
+    },
+    {
+      "id": 10952,
+      "text": "Lv3",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32327"
+    },
+    {
+      "id": 10953,
+      "text": "1.2倍！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32328"
+    },
+    {
+      "id": 10954,
+      "text": "1.5倍！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32329"
+    },
+    {
+      "id": 10955,
+      "text": "2倍！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32330"
+    },
+    {
+      "id": 10956,
+      "text": "※アポストロスのクエストは対象外です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32331"
+    },
+    {
+      "id": 10957,
+      "text": "小型船",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32332"
+    },
+    {
+      "id": 10958,
+      "text": "小型船を装備すると[C6:出航中の海域]とは、[LF][C6:別の海域に出航する]ことができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32333"
+    },
+    {
+      "id": 10959,
+      "text": "別の海域に出航！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32334"
+    },
+    {
+      "id": 10960,
+      "text": "※エンジン、海底探査機、船首像の効果は[LF]　小型船にも適用されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32335"
+    },
+    {
+      "id": 10961,
+      "text": "リール",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32336"
+    },
+    {
+      "id": 10962,
+      "text": "リールを装備すると宝箱の出現確率が増加し[LF]1日1回のお宝釣りの回数を[C6:1回]増やします",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32337"
+    },
+    {
+      "id": 10963,
+      "text": "+1回",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32338"
+    },
+    {
+      "id": 10964,
+      "text": "さらにリールを強化すると[LF][C6:豪華な宝箱]を釣り上げることができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1654771584,
+      "label": "eTEXTS_DEF_32339"
+    },
+    {
+      "id": 10965,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20240523_2.html#5b|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1654771584,
+      "updated_at": 1716462476,
+      "label": "eTEXTS_DEF_32340"
+    },
+    {
+      "id": 10966,
+      "text": "[LC]放たれし賢者の魔剣 アゾットを手に入れろ！[LF][LF]このクエストをクリアすると、クリア報酬で[LF][C4:放たれし賢者の魔剣 アゾット][LF]を手に入れる事ができるぞ！[LF][LF]このクエストに挑むには[LF]クエスト[C4:「愛情を憎みし暗殺の魔刃」]の[C6:超究極]をクリアしよう！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1655375097,
+      "updated_at": 1655375097,
+      "label": "eTEXTS_DEF_20957"
+    },
+    {
+      "id": 10967,
+      "text": "「愛情を憎みし暗殺の魔刃」の「超究極」クリアで挑戦可",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1655375097,
+      "updated_at": 1655375097,
+      "label": "eTEXTS_DEF_20958"
+    },
+    {
+      "id": 10968,
+      "text": "[LC]挑戦できません[LF][LF]このクエストに参加するには[LF]クエスト[C4:「愛情を憎みし暗殺の魔刃」]の[C6:超究極]を[LF]クリアする必要があります[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1655375097,
+      "updated_at": 1655375097,
+      "label": "eTEXTS_DEF_20959"
+    },
+    {
+      "id": 10969,
+      "text": "ログインプレゼントBIG",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1655978458,
+      "updated_at": 1731579267,
+      "label": "eTEXTS_DEF_SUPER_LOGIN_BONUS_TITLE"
+    },
+    {
+      "id": 10970,
+      "text": "冬のログインキャンペーン♪特別なプレゼント",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1655978458,
+      "updated_at": 1731579267,
+      "label": "eTEXTS_DEF_SUPER_LOGIN_BONUS_INFO"
+    },
+    {
+      "id": 10971,
+      "text": "受け取る",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1655978458,
+      "updated_at": 1655978458,
+      "label": "eTEXTS_DEF_SUPER_LOGIN_BONUS_BUTTONGET"
+    },
+    {
+      "id": 10972,
+      "text": "受取期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1655978458,
+      "updated_at": 1695295252,
+      "label": "eTEXTS_DEF_ME_SUPER_LOGIN_BONUS_GETTERM"
+    },
+    {
+      "id": 10973,
+      "text": "[LC][C2:◆◆　警告　◆◆][LF][LF][LC][NODE][LF]戦型の書を使用したモンスターが[LF]含まれています[LF][LF]本当によろしいですか？",
+      "layout": 8,
+      "color": 1,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_ME_RELEASE_FIGHT_WARNING"
+    },
+    {
+      "id": 10974,
+      "text": "戦型の書を所持していない為、[LF]戦型を解放する事ができません",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_ME_COLLABO_SECRET_POWER_ERROR_FIGHT_TYPE"
+    },
+    {
+      "id": 10975,
+      "text": "購入処理完了前に購入ボタンが再度押されたため[LF]誤購入防止として最大10分購入できません。[LF]時間をあけて再度お試しください。",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_MSG_PURCHASE_DUPLICATED_ERROR"
+    },
+    {
+      "id": 10976,
+      "text": "[LC]カード画像保存権限[LF][LF][LC]ストレージへのアクセス権限がないため[LF][LC]カード画像が保存できませんでした[LF][LF][LC]カード画像を保存するためには[LF][LC]権限の許可が必要になります[LC][NODE][LF][LF]端末の[[設定]から[LF][[アプリ]-[[モンスト]-[[許可]にて[LF][[ファイルとメディア]の設定をご確認[LF]下さい",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_MSG_PLAYER_CARD_NOT_PERMISSION_2ND"
+    },
+    {
+      "id": 10977,
+      "text": "[LC]アンテナ取り付け[LF][WIDTH560][LF][NODE][NODE][LF]このスポットにアンテナを取り付けますか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_MONSPOT_MSG_ANTENNA_GET_FIRST"
+    },
+    {
+      "id": 10978,
+      "text": "[LC]アンテナの変更[LF][WIDTH560][LF][NODE][NODE][LF]このスポットにアンテナを取り付けますか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_MONSPOT_MSG_ANTENNA_GET_CHANGE"
+    },
+    {
+      "id": 10979,
+      "text": "[LC]アンテナの変更[LF][WIDTH560][LF][NODE][NODE][LF]このスポットにはパワーが発生していませんが、[LF]アンテナを取り付けますか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_MONSPOT_MSG_ANTENNA_GET_NO_EFF"
+    },
+    {
+      "id": 10980,
+      "text": "メインアンテナ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_ADHOC_SPOT_TITLE"
+    },
+    {
+      "id": 10981,
+      "text": "サブアンテナ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_FLAG_SPOT_TITLE"
+    },
+    {
+      "id": 10982,
+      "text": "[LC][C5:アンテナの種類]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_11569"
+    },
+    {
+      "id": 10983,
+      "text": "マイアンテナには[LF]メインアンテナ、サブアンテナの2種類があります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_11570"
+    },
+    {
+      "id": 10984,
+      "text": "メインアンテナ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_11571"
+    },
+    {
+      "id": 10985,
+      "text": "メインアンテナで獲得できるパワーは効果大！[LF]ただし[C6:ソロ]または[C6:ホスト]でマルチする場合[LF]のみに効果が発揮します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_11572"
+    },
+    {
+      "id": 10986,
+      "text": "サブアンテナ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_11573"
+    },
+    {
+      "id": 10987,
+      "text": "サブアンテナは[C6:ソロ・ホスト]だけではなく[LF]マルチの[C6:ゲスト]でも効果を発揮します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_11574"
+    },
+    {
+      "id": 10988,
+      "text": "[LC]けいウサ出現率アップ対象モンスター[LF][LF]対象のモンスターをデッキに編成すると[LF][C6:けいウサが出現しやすく]なります[LF][LF][NODE][LF]※対象モンスターは全ての進化形態が対象です",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_MSG_EXP_UP_ENEMY_STAGE_INFO"
+    },
+    {
+      "id": 10989,
+      "text": "ボーナス",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_ME_EXP_UP_ENEMY_STAGE_INFO_BUTTON_NAME"
+    },
+    {
+      "id": 10990,
+      "text": "[LC]スキップ機能の条件追加について[LF][LF]これまでの５回ごとの制覇に加え、[LF]下記条件でのスキップが可能になります[LF][LF]前回開催の進行状況に応じたスキップ[LF][LC][NODE][LF]これまでの条件も同様に満たしている場合は[LF][C6:スキップ個数が多い方が優先]されます[LF][LF]スキップできる対象のクエストは、[LF][C6:一ノ獄〜二十五ノ獄のいずれか]です",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_MSG_SHADOW_TOWER_SKIP_RULE_CHANGE_1"
+    },
+    {
+      "id": 10991,
+      "text": "[LC]スキップ機能の条件追加について[LF][LF]スキップ機能が使用可能になりました[LF][LF]これまで禁忌の獄の制覇が、５回以上の場合のみ[LF]スキップ機能が使用可能でしたが、[LF]制覇１回以上で、スキップ機能が解放されます[LF][LC][NODE][LF]なお、スキップ機能解放に伴い[LF]パス機能は使用できなくなります",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_MSG_SHADOW_TOWER_SKIP_RULE_CHANGE_2"
+    },
+    {
+      "id": 10992,
+      "text": "%d階までクリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_ENHANCED_SHADOW_TOWER_SKIP_CLEAR_LABEL"
+    },
+    {
+      "id": 10993,
+      "text": "[C6:%d個]スキップ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_ENHANCED_SHADOW_TOWER_SKIP_COUNT_LABEL"
+    },
+    {
+      "id": 10994,
+      "text": "条件1：これまでの制覇回数に応じたスキップ数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_20437"
+    },
+    {
+      "id": 10995,
+      "text": "※5回以上制覇した方が対象です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_20438"
+    },
+    {
+      "id": 10996,
+      "text": "条件2：前回開催の進行状況に応じたスキップ数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_20439"
+    },
+    {
+      "id": 10997,
+      "text": "15階までクリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_20440"
+    },
+    {
+      "id": 10998,
+      "text": "20階までクリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_20441"
+    },
+    {
+      "id": 10999,
+      "text": "25階までクリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_20442"
+    },
+    {
+      "id": 11000,
+      "text": "30階までクリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_20443"
+    },
+    {
+      "id": 11001,
+      "text": "[C6:5個]スキップ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_20444"
+    },
+    {
+      "id": 11002,
+      "text": "[C6:10個]スキップ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_20445"
+    },
+    {
+      "id": 11003,
+      "text": "[C6:15個]スキップ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_20446"
+    },
+    {
+      "id": 11004,
+      "text": "[C6:20個]スキップ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_20447"
+    },
+    {
+      "id": 11005,
+      "text": "クエストでサーチ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657707803,
+      "label": "eTEXTS_DEF_ME_MATCHING_FILTER_DIALOG_QUEST_WORDING"
+    },
+    {
+      "id": 11006,
+      "text": "タイプでサーチ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657707803,
+      "label": "eTEXTS_DEF_ME_MATCHING_FILTER_DIALOG_CATEGORY_WORDING"
+    },
+    {
+      "id": 11007,
+      "text": "クエストを選ぶ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_ME_MATCHING_FILTER_DIALOG_QUESTBTN_WORDING"
+    },
+    {
+      "id": 11008,
+      "text": "通常",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_ME_MATCHING_FILTER_DIALOG_CATEGORY_NORMAL"
+    },
+    {
+      "id": 11009,
+      "text": "期間限定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_ME_MATCHING_FILTER_DIALOG_CATEGORY_PERIOD"
+    },
+    {
+      "id": 11010,
+      "text": "決定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_ME_MATCHING_FILTER_DIALOG_DECIDE"
+    },
+    {
+      "id": 11011,
+      "text": "検索",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_ME_MATCHING_FILTER_DIALOG_SEARCH"
+    },
+    {
+      "id": 11012,
+      "text": "リセット",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_ME_MATCHING_FILTER_DIALOG_RESET"
+    },
+    {
+      "id": 11013,
+      "text": "クエストサーチ機能をONにするには[LF]設定ボタンから対象を設定してください",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657707803,
+      "label": "eTEXTS_DEF_MSG_MATCHING_FILTER_NOSET_FILTER"
+    },
+    {
+      "id": 11014,
+      "text": "[LC]設定確認[LF][LF]クエストでのサーチ設定が[LF]外れますが、よろしいですか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657707803,
+      "label": "eTEXTS_DEF_MSG_MATCHING_FILTER_DIALOG_OVERWRITE_QUEST"
+    },
+    {
+      "id": 11015,
+      "text": "期間外のためサーチ設定を[LF]外して検索します",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657707803,
+      "label": "eTEXTS_DEF_MSG_MATCHING_FILTER_DIALOG_OUTOF_PERIOD"
+    },
+    {
+      "id": 11016,
+      "text": "イベント",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1720454890,
+      "label": "eTEXTS_DEF_ME_MATCHING_QUEST_FILTER_BUTTON_NAME1"
+    },
+    {
+      "id": 11017,
+      "text": "追憶の書庫",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_ME_MATCHING_QUEST_FILTER_BUTTON_NAME2"
+    },
+    {
+      "id": 11018,
+      "text": "出現中クエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_ME_MATCHING_QUEST_FILTER_CATEGORY1"
+    },
+    {
+      "id": 11019,
+      "text": "タイムシフト期間クエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1760470637,
+      "label": "eTEXTS_DEF_ME_MATCHING_QUEST_FILTER_CATEGORY2"
+    },
+    {
+      "id": 11020,
+      "text": "[LC]検索確認[LF][LF][LC]「%s」[LF][LF][LC]%s[LF][LF]このクエストで検索しますか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1720454890,
+      "label": "eTEXTS_DEF_MSG_MATCHING_QUEST_FILTER_DECIDE_DIALOG"
+    },
+    {
+      "id": 11021,
+      "text": "募集リスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_ME_TITLE_RECRUITLIST"
+    },
+    {
+      "id": 11022,
+      "text": "クエスト選択",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657707803,
+      "label": "eTEXTS_DEF_ME_MATCHING_QUEST_FILTER_TITLE"
+    },
+    {
+      "id": 11023,
+      "text": "[C6:キャラをさらに強化！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1786550612,
+      "label": "eTEXTS_DEF_16226"
+    },
+    {
+      "id": 11024,
+      "text": "[b:ba_help_secret_power_battle_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_16227"
+    },
+    {
+      "id": 11025,
+      "text": "[GIMMICK:転送壁][LF][LC][IMG:help_gimmick_12.png|1.2][IMG:help_gimmick_11.png|1.2][LF][LF]ステージの壁に設置され、[LF]転送壁にふれると、転送ポイントへと強制的に移動する[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_11"
+    },
+    {
+      "id": 11026,
+      "text": "[LC]ギミック詳細[LF][LF][texts:eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_11][LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_GIMMICK_HELP_11"
+    },
+    {
+      "id": 11027,
+      "text": "転送壁",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_ME_STAGE_INFO_GIMMICK_ICON_POPUP_NAME11"
+    },
+    {
+      "id": 11028,
+      "text": "英雄の証・解放の書",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_ME_MONSTER_ADDFUNC_TITLE"
+    },
+    {
+      "id": 11029,
+      "text": "英雄の証・解放の書",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_ME_MONSTER_ADDFUNC_BTN"
+    },
+    {
+      "id": 11030,
+      "text": "英雄の証",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_ME_MONSTER_ADDFUNC_SECRET_POWER_SUBTITLE"
+    },
+    {
+      "id": 11031,
+      "text": "わくわくの力",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1658400568,
+      "label": "eTEXTS_DEF_ME_MONSTER_ADDFUNC_WAKUWAKU_SUBTITLE"
+    },
+    {
+      "id": 11032,
+      "text": "期間限定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_ME_MONSTER_ADDFUNC_LIMITED_COLLABO_SUBTITLE"
+    },
+    {
+      "id": 11033,
+      "text": "期間限定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_ME_MONSTER_ADDFUNC_LIMITED_SUBTITLE"
+    },
+    {
+      "id": 11034,
+      "text": "通常",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_ME_MONSTER_ADDFUNC_NORMAL_SUBTITLE"
+    },
+    {
+      "id": 11035,
+      "text": "[LC]戦型の書とは[LF][LF][CCB:dlme/help_secret_power_battle_00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_MSG_MONSTER_ADDFUNC_FIGHT_TYPE_HELP"
+    },
+    {
+      "id": 11036,
+      "text": "[LC]レベルの書とは[LF][LF][CCB:dlme/help_secret_power_lv_00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_MSG_MONSTER_ADDFUNC_LEVEL_HELP"
+    },
+    {
+      "id": 11037,
+      "text": "英雄の証をつけられるキャラがいません",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_MSG_GEM_LUCK_ERROR"
+    },
+    {
+      "id": 11038,
+      "text": "英雄の証",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_ME_ADD_FUNC_GEM_TAB"
+    },
+    {
+      "id": 11039,
+      "text": "解放の書",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_ME_ADD_FUNC_SECRET_TAB"
+    },
+    {
+      "id": 11040,
+      "text": "[LC]オーブ引き換えとは[LF][LF][CCB:dlme/help_orb_coupon_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_FRIEND_EXCHANGE_HELP1"
+    },
+    {
+      "id": 11041,
+      "text": "[LC]オーブ引き換えとは[LF][LF][TAB:オーブ引換券][CCB:dlme/help_orb_coupon_00][TAB:キズナオーブ引換券][CCB:dlme/help_orb_exchange_ticket_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_FRIEND_EXCHANGE_HELP2"
+    },
+    {
+      "id": 11042,
+      "text": "無料オーブを200個以上所持しているため[LF]引き換えできません",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_ME_MSG_FRIEND_EXCHANGE_FREE_ORB"
+    },
+    {
+      "id": 11043,
+      "text": "所持無料オーブ:",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_ME_FRIEND_EXCHANGE_FREE_ORB_LABEL"
+    },
+    {
+      "id": 11044,
+      "text": "[LC]所持無料オーブが200個を超えるため[LF][LC]引き換えできません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_ME_FRIEND_EXCHANGE_FREE_ORB_OVER"
+    },
+    {
+      "id": 11045,
+      "text": "[C6:引換券をオーブに引き換えよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_32600"
+    },
+    {
+      "id": 11046,
+      "text": "[b:ba_help_orb_coupon_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_32601"
+    },
+    {
+      "id": 11047,
+      "text": "[C5:オーブ引換券とは]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_32602"
+    },
+    {
+      "id": 11048,
+      "text": "[C6:オーブ引換券]と引き換えで[C6:オーブ5個]を[LF]入手することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_32603"
+    },
+    {
+      "id": 11049,
+      "text": "[C5:オーブ引換券の入手方法]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_32604"
+    },
+    {
+      "id": 11050,
+      "text": "オーブ引換券は[C6:キズナ報酬]で入手する[LF]ことができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_32605"
+    },
+    {
+      "id": 11051,
+      "text": "キズナメーター",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_32606"
+    },
+    {
+      "id": 11052,
+      "text": "※キズナ報酬は[C6:キズナメーターが満タン]に[LF]　なるともらえます[LF]　キズナメーターは[C6:フレンドとマルチプレイ][LF]　することで貯まります[LF]　[C6:報酬の内容は貰うたびに変わります]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_32607"
+    },
+    {
+      "id": 11053,
+      "text": "[C5:引き換えの条件について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_32608"
+    },
+    {
+      "id": 11054,
+      "text": "引き換えには条件が[C6:2つ]あります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_32609"
+    },
+    {
+      "id": 11055,
+      "text": "条件1",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_32610"
+    },
+    {
+      "id": 11056,
+      "text": "毎月の引き換え上限に達していないこと[LF]引き換えた回数は[C6:月の初め]に[C6:リセット]されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_32611"
+    },
+    {
+      "id": 11057,
+      "text": "条件2",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_32612"
+    },
+    {
+      "id": 11058,
+      "text": "[C6:無料オーブ]の所持数が[C6:200個未満]であること",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_32613"
+    },
+    {
+      "id": 11059,
+      "text": "オーブ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_32614"
+    },
+    {
+      "id": 11060,
+      "text": "所持無料オーブ:100",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_32615"
+    },
+    {
+      "id": 11061,
+      "text": "1",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_32616"
+    },
+    {
+      "id": 11062,
+      "text": "今月分:　　　 0/40",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_32617"
+    },
+    {
+      "id": 11063,
+      "text": "※オーブ引換券を[C6:入手できる枚数に][LF]　[C6:制限]はありません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657555193,
+      "updated_at": 1657555193,
+      "label": "eTEXTS_DEF_32618"
+    },
+    {
+      "id": 11064,
+      "text": "獲得済",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657801709,
+      "updated_at": 1657801709,
+      "label": "eTEXTS_DEF_SUPPORT_ACQUIRED"
+    },
+    {
+      "id": 11065,
+      "text": "未獲得",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657801709,
+      "updated_at": 1657801709,
+      "label": "eTEXTS_DEF_SUPPORT_NOT_ACQUIRED"
+    },
+    {
+      "id": 11066,
+      "text": "[C6:%d]ドル",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657801709,
+      "updated_at": 1657801709,
+      "label": "eTEXTS_DEF_BEER_TELEPHONE_CONFIRM_PARTS_DOLLARS"
+    },
+    {
+      "id": 11067,
+      "text": "G.D. STORE",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657801709,
+      "updated_at": 1657801709,
+      "label": "eTEXTS_DEF_ME_BEER_EXCHANGE_NAME"
+    },
+    {
+      "id": 11068,
+      "text": "エリア%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657801709,
+      "updated_at": 1657801709,
+      "label": "eTEXTS_DEF_ME_EXCHANGE_RANK"
+    },
+    {
+      "id": 11069,
+      "text": "エリア未解放",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657801709,
+      "updated_at": 1657801709,
+      "label": "eTEXTS_DEF_ME_EXCHANGE_LOCK_RANK"
+    },
+    {
+      "id": 11070,
+      "text": "[LC]G.D. st JAILミッションでエリアを解放して[LF][LC]アイテムを引き換えよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1657801709,
+      "updated_at": 1657801709,
+      "label": "eTEXTS_DEF_ME_EXCHANGE_RANK_DESCRIPTION"
+    },
+    {
+      "id": 11071,
+      "text": "[LC]条件未達成[LF][LF]条件を満たしていないためアイテムを[LF]引き換えできません[LF]G.D. st JAILミッションで[LF][C6:エリア%d]を解放すると引き換え可能になります",
+      "layout": 43,
+      "color": 0,
+      "created_at": 1657801709,
+      "updated_at": 1657801709,
+      "label": "eTEXTS_DEF_ME_CANT_EXCHANGE_REASON_COLLABO_RANK"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "table": "kyoto_generator_char_count_rewards",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "kyoto_generator_event_id": 1,
+      "char_count": 50,
+      "reward_type": 1,
+      "reward_value": 3,
+      "header_text": "合計ラック数50達成",
+      "description": "調薬数が3枠に増える",
+      "created_at": 1747754729,
+      "updated_at": 1749808165
+    },
+    {
+      "id": 2,
+      "kyoto_generator_event_id": 1,
+      "char_count": 150,
+      "reward_type": 2,
+      "reward_value": 2,
+      "header_text": "合計ラック数150達成",
+      "description": "調薬時間が10時間になる",
+      "created_at": 1747754729,
+      "updated_at": 1749808165
+    },
+    {
+      "id": 3,
+      "kyoto_generator_event_id": 1,
+      "char_count": 250,
+      "reward_type": 1,
+      "reward_value": 4,
+      "header_text": "合計ラック数250達成",
+      "description": "調薬数が4枠に増える",
+      "created_at": 1747754729,
+      "updated_at": 1749808165
+    },
+    {
+      "id": 4,
+      "kyoto_generator_event_id": 1,
+      "char_count": 297,
+      "reward_type": 2,
+      "reward_value": 4,
+      "header_text": "合計ラック数297達成",
+      "description": "調薬時間が8時間になる",
+      "created_at": 1747754730,
+      "updated_at": 1749808165
+    }
+  ]
+}

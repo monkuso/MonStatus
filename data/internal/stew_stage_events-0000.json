@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "table": "stew_stage_events",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "fellow_id": 1,
+      "item_id": 10095001,
+      "type_id": 16,
+      "value": 120,
+      "name": "ロイド",
+      "icon_name": "stew_01_ch_s_1.png",
+      "description": "対象クエストで金卵の排出率1.2倍",
+      "panel_description": "金卵排出率1.2倍",
+      "created_at": 1702548996,
+      "updated_at": 1702548996
+    },
+    {
+      "id": 2,
+      "fellow_id": 1,
+      "item_id": 10095002,
+      "type_id": 16,
+      "value": 150,
+      "name": "ロイド",
+      "icon_name": "stew_01_ch_s_1.png",
+      "description": "対象クエストで金卵の排出率1.5倍",
+      "panel_description": "金卵排出率1.5倍",
+      "created_at": 1702548996,
+      "updated_at": 1702548996
+    },
+    {
+      "id": 3,
+      "fellow_id": 2,
+      "item_id": 10095003,
+      "type_id": 2,
+      "value": 2000,
+      "name": "アーニャ",
+      "icon_name": "stew_01_ch_s_2.png",
+      "description": "対象クエストで獲得経験値20倍",
+      "panel_description": "獲得経験値20倍",
+      "created_at": 1702548996,
+      "updated_at": 1702548996
+    },
+    {
+      "id": 4,
+      "fellow_id": 2,
+      "item_id": 10095004,
+      "type_id": 2,
+      "value": 4000,
+      "name": "アーニャ",
+      "icon_name": "stew_01_ch_s_2.png",
+      "description": "対象クエストで獲得経験値40倍",
+      "panel_description": "獲得経験値40倍",
+      "created_at": 1702548996,
+      "updated_at": 1702548996
+    },
+    {
+      "id": 5,
+      "fellow_id": 3,
+      "item_id": 10095005,
+      "type_id": 80,
+      "value": 110,
+      "name": "ヨル",
+      "icon_name": "stew_01_ch_s_3.png",
+      "description": "対象クエストで攻撃力と友情コンボ威力が10%アップ",
+      "panel_description": "攻撃力と友情コンボ[LF]威力10%アップ",
+      "created_at": 1702548996,
+      "updated_at": 1702548996
+    },
+    {
+      "id": 6,
+      "fellow_id": 3,
+      "item_id": 10095006,
+      "type_id": 80,
+      "value": 120,
+      "name": "ヨル",
+      "icon_name": "stew_01_ch_s_3.png",
+      "description": "対象クエストで攻撃力と友情コンボ威力が20%アップ",
+      "panel_description": "攻撃力と友情コンボ[LF]威力20%アップ",
+      "created_at": 1702548996,
+      "updated_at": 1702548996
+    }
+  ]
+}

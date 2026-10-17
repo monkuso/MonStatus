@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "table": "login_power_up_gacha_events",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "power_up_start_at": 1714244400,
+      "power_up_end_at": 1715799599,
+      "gacha_start_at": 1714964400,
+      "gacha_end_at": 1715871599,
+      "power_texts1": "確率[LF][BMP]★5以上確率12%",
+      "power_texts2": "排出対象[LF][BMP]通常キャラ排出",
+      "power_texts3": "確定枠[LF][BMP]なし",
+      "created_at": 1714206840,
+      "updated_at": 1714206840
+    },
+    {
+      "id": 2,
+      "power_up_start_at": 1733079600,
+      "power_up_end_at": 1734548399,
+      "gacha_start_at": 1733799600,
+      "gacha_end_at": 1734620399,
+      "power_texts1": "確率[LF][BMP]★5以上確率12%",
+      "power_texts2": "排出対象[LF][BMP]通常キャラ排出",
+      "power_texts3": "確定枠[LF][BMP]なし",
+      "created_at": 1732791975,
+      "updated_at": 1732791975
+    }
+  ]
+}

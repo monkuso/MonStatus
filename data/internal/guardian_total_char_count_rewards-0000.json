@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "table": "guardian_total_char_count_rewards",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "guardian_event_id": 1,
+      "char_count": 25,
+      "item_id": 13,
+      "cnt": 1,
+      "created_at": 1756373673,
+      "updated_at": 1756373673
+    },
+    {
+      "id": 2,
+      "guardian_event_id": 1,
+      "char_count": 30,
+      "item_id": 1,
+      "cnt": 20,
+      "created_at": 1756373673,
+      "updated_at": 1756373673
+    },
+    {
+      "id": 3,
+      "guardian_event_id": 2,
+      "char_count": 20,
+      "item_id": 10020526,
+      "cnt": 1,
+      "created_at": 1773393098,
+      "updated_at": 1773393098
+    },
+    {
+      "id": 4,
+      "guardian_event_id": 2,
+      "char_count": 25,
+      "item_id": 8815,
+      "cnt": 1,
+      "created_at": 1773393098,
+      "updated_at": 1773393098
+    },
+    {
+      "id": 5,
+      "guardian_event_id": 2,
+      "char_count": 30,
+      "item_id": 10040177,
+      "cnt": 1,
+      "created_at": 1773393098,
+      "updated_at": 1773393098
+    }
+  ]
+}

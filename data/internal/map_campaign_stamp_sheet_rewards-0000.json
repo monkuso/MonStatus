@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "table": "map_campaign_stamp_sheet_rewards",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "map_campaign_stamp_sheet_id": 1,
+      "required_point": 5,
+      "item_id": 69,
+      "cnt": 1,
+      "created_at": 1775728258,
+      "updated_at": 1775728258
+    },
+    {
+      "id": 2,
+      "map_campaign_stamp_sheet_id": 1,
+      "required_point": 10,
+      "item_id": 75,
+      "cnt": 1,
+      "created_at": 1775728258,
+      "updated_at": 1775728258
+    }
+  ]
+}

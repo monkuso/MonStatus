@@ -1,0 +1,457 @@
+{
+  "schemaVersion": 1,
+  "table": "ginza_strategy_phase_cells",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "ginza_strategy_phase_id": 1,
+      "type_id": 1,
+      "item_id": null,
+      "cnt": null,
+      "enemy_id": null,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 2,
+      "ginza_strategy_phase_id": 1,
+      "type_id": 2,
+      "item_id": 8493,
+      "cnt": 1,
+      "enemy_id": null,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 3,
+      "ginza_strategy_phase_id": 1,
+      "type_id": 3,
+      "item_id": null,
+      "cnt": null,
+      "enemy_id": 1,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 4,
+      "ginza_strategy_phase_id": 1,
+      "type_id": 3,
+      "item_id": null,
+      "cnt": null,
+      "enemy_id": 2,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 5,
+      "ginza_strategy_phase_id": 1,
+      "type_id": 3,
+      "item_id": null,
+      "cnt": null,
+      "enemy_id": 3,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 6,
+      "ginza_strategy_phase_id": 1,
+      "type_id": 3,
+      "item_id": null,
+      "cnt": null,
+      "enemy_id": 4,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 7,
+      "ginza_strategy_phase_id": 2,
+      "type_id": 1,
+      "item_id": null,
+      "cnt": null,
+      "enemy_id": null,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 8,
+      "ginza_strategy_phase_id": 2,
+      "type_id": 2,
+      "item_id": 8493,
+      "cnt": 1,
+      "enemy_id": null,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 9,
+      "ginza_strategy_phase_id": 2,
+      "type_id": 3,
+      "item_id": null,
+      "cnt": null,
+      "enemy_id": 1,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 10,
+      "ginza_strategy_phase_id": 2,
+      "type_id": 3,
+      "item_id": null,
+      "cnt": null,
+      "enemy_id": 2,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 11,
+      "ginza_strategy_phase_id": 2,
+      "type_id": 3,
+      "item_id": null,
+      "cnt": null,
+      "enemy_id": 3,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 12,
+      "ginza_strategy_phase_id": 2,
+      "type_id": 3,
+      "item_id": null,
+      "cnt": null,
+      "enemy_id": 4,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 13,
+      "ginza_strategy_phase_id": 3,
+      "type_id": 1,
+      "item_id": null,
+      "cnt": null,
+      "enemy_id": null,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 14,
+      "ginza_strategy_phase_id": 3,
+      "type_id": 2,
+      "item_id": 8493,
+      "cnt": 1,
+      "enemy_id": null,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 15,
+      "ginza_strategy_phase_id": 3,
+      "type_id": 3,
+      "item_id": null,
+      "cnt": null,
+      "enemy_id": 1,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 16,
+      "ginza_strategy_phase_id": 3,
+      "type_id": 3,
+      "item_id": null,
+      "cnt": null,
+      "enemy_id": 2,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 17,
+      "ginza_strategy_phase_id": 3,
+      "type_id": 3,
+      "item_id": null,
+      "cnt": null,
+      "enemy_id": 3,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 18,
+      "ginza_strategy_phase_id": 3,
+      "type_id": 3,
+      "item_id": null,
+      "cnt": null,
+      "enemy_id": 4,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 19,
+      "ginza_strategy_phase_id": 4,
+      "type_id": 1,
+      "item_id": null,
+      "cnt": null,
+      "enemy_id": null,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 20,
+      "ginza_strategy_phase_id": 4,
+      "type_id": 2,
+      "item_id": 8494,
+      "cnt": 1,
+      "enemy_id": null,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 21,
+      "ginza_strategy_phase_id": 4,
+      "type_id": 3,
+      "item_id": null,
+      "cnt": null,
+      "enemy_id": 5,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 22,
+      "ginza_strategy_phase_id": 4,
+      "type_id": 4,
+      "item_id": null,
+      "cnt": null,
+      "enemy_id": 8,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 23,
+      "ginza_strategy_phase_id": 5,
+      "type_id": 1,
+      "item_id": null,
+      "cnt": null,
+      "enemy_id": null,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 24,
+      "ginza_strategy_phase_id": 5,
+      "type_id": 2,
+      "item_id": 8494,
+      "cnt": 1,
+      "enemy_id": null,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 25,
+      "ginza_strategy_phase_id": 5,
+      "type_id": 3,
+      "item_id": null,
+      "cnt": null,
+      "enemy_id": 5,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 26,
+      "ginza_strategy_phase_id": 5,
+      "type_id": 4,
+      "item_id": null,
+      "cnt": null,
+      "enemy_id": 8,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 27,
+      "ginza_strategy_phase_id": 6,
+      "type_id": 1,
+      "item_id": null,
+      "cnt": null,
+      "enemy_id": null,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 28,
+      "ginza_strategy_phase_id": 6,
+      "type_id": 2,
+      "item_id": 8494,
+      "cnt": 1,
+      "enemy_id": null,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 29,
+      "ginza_strategy_phase_id": 6,
+      "type_id": 3,
+      "item_id": null,
+      "cnt": null,
+      "enemy_id": 5,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 30,
+      "ginza_strategy_phase_id": 6,
+      "type_id": 4,
+      "item_id": null,
+      "cnt": null,
+      "enemy_id": 8,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 31,
+      "ginza_strategy_phase_id": 7,
+      "type_id": 1,
+      "item_id": null,
+      "cnt": null,
+      "enemy_id": null,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 32,
+      "ginza_strategy_phase_id": 7,
+      "type_id": 2,
+      "item_id": 8495,
+      "cnt": 1,
+      "enemy_id": null,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 33,
+      "ginza_strategy_phase_id": 7,
+      "type_id": 3,
+      "item_id": null,
+      "cnt": null,
+      "enemy_id": 6,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 34,
+      "ginza_strategy_phase_id": 7,
+      "type_id": 3,
+      "item_id": null,
+      "cnt": null,
+      "enemy_id": 7,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 35,
+      "ginza_strategy_phase_id": 7,
+      "type_id": 4,
+      "item_id": null,
+      "cnt": null,
+      "enemy_id": 9,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 36,
+      "ginza_strategy_phase_id": 8,
+      "type_id": 1,
+      "item_id": null,
+      "cnt": null,
+      "enemy_id": null,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 37,
+      "ginza_strategy_phase_id": 8,
+      "type_id": 2,
+      "item_id": 8495,
+      "cnt": 1,
+      "enemy_id": null,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 38,
+      "ginza_strategy_phase_id": 8,
+      "type_id": 3,
+      "item_id": null,
+      "cnt": null,
+      "enemy_id": 6,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 39,
+      "ginza_strategy_phase_id": 8,
+      "type_id": 3,
+      "item_id": null,
+      "cnt": null,
+      "enemy_id": 7,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 40,
+      "ginza_strategy_phase_id": 8,
+      "type_id": 4,
+      "item_id": null,
+      "cnt": null,
+      "enemy_id": 9,
+      "created_at": 1707995599,
+      "updated_at": 1707995599
+    },
+    {
+      "id": 41,
+      "ginza_strategy_phase_id": 9,
+      "type_id": 1,
+      "item_id": null,
+      "cnt": null,
+      "enemy_id": null,
+      "created_at": 1707995600,
+      "updated_at": 1707995600
+    },
+    {
+      "id": 42,
+      "ginza_strategy_phase_id": 9,
+      "type_id": 2,
+      "item_id": 8495,
+      "cnt": 1,
+      "enemy_id": null,
+      "created_at": 1707995600,
+      "updated_at": 1707995600
+    },
+    {
+      "id": 43,
+      "ginza_strategy_phase_id": 9,
+      "type_id": 3,
+      "item_id": null,
+      "cnt": null,
+      "enemy_id": 6,
+      "created_at": 1707995600,
+      "updated_at": 1707995600
+    },
+    {
+      "id": 44,
+      "ginza_strategy_phase_id": 9,
+      "type_id": 3,
+      "item_id": null,
+      "cnt": null,
+      "enemy_id": 7,
+      "created_at": 1707995600,
+      "updated_at": 1707995600
+    },
+    {
+      "id": 45,
+      "ginza_strategy_phase_id": 9,
+      "type_id": 4,
+      "item_id": null,
+      "cnt": null,
+      "enemy_id": 9,
+      "created_at": 1707995600,
+      "updated_at": 1707995600
+    }
+  ]
+}

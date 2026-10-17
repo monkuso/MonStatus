@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 1,
+  "table": "texts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 6715,
+      "text": "待機中",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_WT_ACTIVATE_DIALOG_BUTTON_WAITING"
+    },
+    {
+      "id": 6716,
+      "text": "｢%s｣のサイドエフェクト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_WT_ACTIVATE_DIALOG_TEXT_SIDEEFFECT"
+    },
+    {
+      "id": 6717,
+      "text": "効果時間：[C6:%s][LF]待機時間：[C6:%s]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1678963159,
+      "label": "eTEXTS_DEF_WT_ACTIVATE_DIALOG_TEXT_SIDEEFFECT_DETAIL_INFO"
+    },
+    {
+      "id": 6718,
+      "text": "[LC]サイドエフェクト発動状況[LF][LF][LC][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1644495252,
+      "label": "eTEXTS_DEF_WT_ACTIVATE_DIALOG_MAIN"
+    },
+    {
+      "id": 6719,
+      "text": "[LC]サイドエフェクト[LF][LF][LC]再発動にかかる待機時間が終わるまで[LF]効果を発動できません",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1644495252,
+      "label": "eTEXTS_DEF_WT_ACTIVATE_DIALOG_COOLING"
+    },
+    {
+      "id": 6720,
+      "text": "[LC]サイドエフェクト[LF][LF][LC]ボーダーランクミッションをクリアし[LF]報酬パネルでサイドエフェクトを解放しよう！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1644495252,
+      "label": "eTEXTS_DEF_WT_ACTIVATE_DIALOG_NOT_EARNED"
+    },
+    {
+      "id": 6721,
+      "text": "[LC]サイドエフェクト発動確認[LF][LF]｢%s｣のサイドエフェクトを[LF]発動しますか？[LF][LF][LC][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_WT_ACTIVATE_DIALOG_ACITIVATE_CONFIRM"
+    },
+    {
+      "id": 6722,
+      "text": "スキル",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1678963159,
+      "label": "eTEXTS_DEF_WT_MISSION_QUEST_MENU_TITLE_SIDE_EFFECT"
+    },
+    {
+      "id": 6723,
+      "text": "発動中のスキルはありません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1678963159,
+      "label": "eTEXTS_DEF_WT_MISSION_SIDE_EFFECT_NOTHING"
+    },
+    {
+      "id": 6724,
+      "text": "[LC]サイドエフェクト発動状況[LF][LF][LC]開催終了しました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_WT_ACTIVATE_DIALOG_EXPIRED1"
+    },
+    {
+      "id": 6725,
+      "text": "[LC]サイドエフェクト発動状況[LF][LF][LC]期限が過ぎました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_WT_ACTIVATE_DIALOG_EXPIRED2"
+    },
+    {
+      "id": 6726,
+      "text": "三門市防衛ミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_ME_TITLE_WT_MISSION"
+    },
+    {
+      "id": 6727,
+      "text": "C級ミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_ME_WT_MISSION_HEADER_C"
+    },
+    {
+      "id": 6728,
+      "text": "B級ミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_ME_WT_MISSION_HEADER_B"
+    },
+    {
+      "id": 6729,
+      "text": "A級ミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_ME_WT_MISSION_HEADER_A"
+    },
+    {
+      "id": 6730,
+      "text": "2/2 12:00 ～ 2/19 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_ME_WT_MISSION_SCHEDULE"
+    },
+    {
+      "id": 6731,
+      "text": "[LC]三門市防衛ミッション[LF][LF][CCB:dlme/help_collabo_wt_mission_00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_ME_MSG_WT_MISSION_HELP"
+    },
+    {
+      "id": 6732,
+      "text": "[LC]ミッション報酬[LF][LF][TAB:ミッション報酬][LC]報酬は受け取りBOXに届きます[MARGIN16][LF][NODE][TAB:階級クリア報酬][LC]報酬は受け取りBOXに届きます[MARGIN16][LF][NODE][TAB:サイドエフェクト][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_ME_MSG_WT_MISSION_REWARD"
+    },
+    {
+      "id": 6733,
+      "text": "[LC]ミッション達成[LF][LF]ミッションを達成しました[LF]報酬は受け取りBOXに届きます[MARGIN16][LF][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_ME_MSG_WT_MISSION_EARN_REWARD"
+    },
+    {
+      "id": 6734,
+      "text": "[LC]サイドエフェクト解放[LF][LF][LC]サイドエフェクトが解放されました[MARGIN16][LF][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_ME_MSG_WT_MISSION_EARN_SIDEEFFECT"
+    },
+    {
+      "id": 6735,
+      "text": "[LC]アフトクラトル ヴィザの壁を超えろ！[LF][LF][LF][LC][b:ba_wt_mission_00.png][LF][LF][LC][SGBI22180|difficulty1][LF][C4:超究極クエスト]に挑戦可能になりました[LF]クエストは2/6以降、随時降臨します[LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_ME_MSG_WT_MISSION_EARN_STAGE"
+    },
+    {
+      "id": 6736,
+      "text": "B級ミッションすべてクリアで解放",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_ME_WT_MISSION_STAGE_CANT_CHALLENGE"
+    },
+    {
+      "id": 6737,
+      "text": "[LC]条件未達成[LF][LF]ミッションクリア条件を満たしていないため[LF]選択できません[LF][LF]B級ミッションをすべてクリアすると[LF]挑戦可能になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_ME_WT_MISSION_TIMESHIFT_ERROR"
+    },
+    {
+      "id": 6738,
+      "text": "ミッション達成報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_ME_WT_MISSION_GET_REWARD_DIALOG_HEADING"
+    },
+    {
+      "id": 6739,
+      "text": "超究極クエスト挑戦可能に[LF][SGBI22180|difficulty1]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_ME_WT_MISSION_REWARD_STAGE_RELEASE"
+    },
+    {
+      "id": 6740,
+      "text": "防衛ミッションを%d個クリアせよ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_ME_WT_MISSION_REWARD_SIDE_EFFECT_HEADING"
+    },
+    {
+      "id": 6741,
+      "text": "[SW0.85][C6:アフトクラトルの脅威から三門市を守れ！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24800"
+    },
+    {
+      "id": 6742,
+      "text": "[b:ba_help_collabo_wt_mission_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24801"
+    },
+    {
+      "id": 6743,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24802"
+    },
+    {
+      "id": 6744,
+      "text": "2/2 12:00～2/19 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24803"
+    },
+    {
+      "id": 6745,
+      "text": "[C5:三門市防衛ミッションとは]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24804"
+    },
+    {
+      "id": 6746,
+      "text": "ミッションをクリアして[C6:三門市を防衛]しよう！[LF][LF]ミッションをクリアするとゲーム内アイテムや[LF]勲章などの報酬をゲットできます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24805"
+    },
+    {
+      "id": 6747,
+      "text": "[C5:ミッションの進め方]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24806"
+    },
+    {
+      "id": 6748,
+      "text": "三門市防衛ミッションは、[C6:C級、B級、A級]の[LF][C6:３つの階級]に分かれています",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24807"
+    },
+    {
+      "id": 6749,
+      "text": "C級ミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24808"
+    },
+    {
+      "id": 6750,
+      "text": "B級ミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24809"
+    },
+    {
+      "id": 6751,
+      "text": "A級ミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24810"
+    },
+    {
+      "id": 6752,
+      "text": "C級からスタートし、[C6:B級はC級のミッションを、][LF][C6:A級はB級のミッションを全てクリア]することで[LF]挑戦できるようになります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24811"
+    },
+    {
+      "id": 6753,
+      "text": "[C6:全ミッションクリア！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24812"
+    },
+    {
+      "id": 6754,
+      "text": "[C6:挑戦可能！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24813"
+    },
+    {
+      "id": 6755,
+      "text": "C級ミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24814"
+    },
+    {
+      "id": 6756,
+      "text": "B級ミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24815"
+    },
+    {
+      "id": 6757,
+      "text": "※ミッションはソロ、マルチプレイのホスト、ゲスト[LF]でも達成可能です[LF]※ノーコンテニュークリアでのみ達成可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24816"
+    },
+    {
+      "id": 6758,
+      "text": "[C5:クリア報酬]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24817"
+    },
+    {
+      "id": 6759,
+      "text": "各階級ごとに[C6:7つのミッション]があり、[C6:ミッションを][LF][C6:クリア]する毎に報酬が獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24818"
+    },
+    {
+      "id": 6760,
+      "text": "[C6:クリア！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24819"
+    },
+    {
+      "id": 6761,
+      "text": "[C6:ゲット！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24820"
+    },
+    {
+      "id": 6762,
+      "text": "ミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24821"
+    },
+    {
+      "id": 6763,
+      "text": "[IP8469]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24822"
+    },
+    {
+      "id": 6764,
+      "text": "[C6:各階級のミッションすべてをクリア]する毎に[LF][C6:コラボオリジナルの報酬]が獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24823"
+    },
+    {
+      "id": 6765,
+      "text": "C級全クリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24824"
+    },
+    {
+      "id": 6766,
+      "text": "[IS126|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24825"
+    },
+    {
+      "id": 6767,
+      "text": "[IS127|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24826"
+    },
+    {
+      "id": 6768,
+      "text": "[IS128|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24827"
+    },
+    {
+      "id": 6769,
+      "text": "[IS129|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24828"
+    },
+    {
+      "id": 6770,
+      "text": "B級全クリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24829"
+    },
+    {
+      "id": 6771,
+      "text": "[IS122|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24830"
+    },
+    {
+      "id": 6772,
+      "text": "[IS123|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24831"
+    },
+    {
+      "id": 6773,
+      "text": "[IS124|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24832"
+    },
+    {
+      "id": 6774,
+      "text": "[IS125|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24833"
+    },
+    {
+      "id": 6775,
+      "text": "A級全クリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24834"
+    },
+    {
+      "id": 6776,
+      "text": "[C6:B級ミッションを全てクリア]すると[C4:超究極クエスト][LF][C4:｢老錬たる剣戟の壁｣]に挑戦可能になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24835"
+    },
+    {
+      "id": 6777,
+      "text": "老練たる剣戟の壁",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24836"
+    },
+    {
+      "id": 6778,
+      "text": "[C5:サイドエフェクト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24837"
+    },
+    {
+      "id": 6779,
+      "text": "ミッションをクリアしていくと、[LF]コラボミッションの攻略に活躍する[LF][C6:サイドエフェクト]が発動可能になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24838"
+    },
+    {
+      "id": 6780,
+      "text": "ミッション[C6:4個]クリアで解放",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24839"
+    },
+    {
+      "id": 6781,
+      "text": "[C6:｢攻撃強化｣のサイドエフェクト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24840"
+    },
+    {
+      "id": 6782,
+      "text": "味方全員の攻撃力と友情コンボ威力が[LF]50％アップ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24841"
+    },
+    {
+      "id": 6783,
+      "text": "ミッション[C6:8個]クリアで解放",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24842"
+    },
+    {
+      "id": 6784,
+      "text": "[C6:｢弱点特攻｣のサイドエフェクト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24843"
+    },
+    {
+      "id": 6785,
+      "text": "弱点への攻撃倍率が50％アップ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24844"
+    },
+    {
+      "id": 6786,
+      "text": "ミッション[C6:11個]クリアで解放",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24845"
+    },
+    {
+      "id": 6787,
+      "text": "[C6:｢報酬強化｣のサイドエフェクト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24846"
+    },
+    {
+      "id": 6788,
+      "text": "スペシャル報酬が2倍になる",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24847"
+    },
+    {
+      "id": 6789,
+      "text": "ミッション[C6:15個]クリアで解放",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24848"
+    },
+    {
+      "id": 6790,
+      "text": "[C6:｢軌道予測｣のサイドエフェクト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24849"
+    },
+    {
+      "id": 6791,
+      "text": "ガイドが常に表示される",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24850"
+    },
+    {
+      "id": 6792,
+      "text": "ミッション[C6:18個]クリアで解放",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24851"
+    },
+    {
+      "id": 6793,
+      "text": "[C6:｢必殺全開｣のサイドエフェクト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24852"
+    },
+    {
+      "id": 6794,
+      "text": "ゲーム開始時にSSが満タン状態になる",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24853"
+    },
+    {
+      "id": 6795,
+      "text": "サイドエフェクトは[C6:時間経過で何度でも発動可能][LF]サイドエフェクトを活用して[LF]三門市防衛ミッションをどんどんクリアしましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24854"
+    },
+    {
+      "id": 6796,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20210128_3.html#g|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24855"
+    },
+    {
+      "id": 6797,
+      "text": "難易度：超究極",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24856"
+    },
+    {
+      "id": 6798,
+      "text": "[C4:★5 ヴィザ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24857"
+    },
+    {
+      "id": 6799,
+      "text": "[C6:サイドエフェクトでコラボ攻略を有利に]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24700"
+    },
+    {
+      "id": 6800,
+      "text": "[b:ba_help_collabo_wt_02.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24701"
+    },
+    {
+      "id": 6801,
+      "text": "[C5:サイドエフェクトとは]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24702"
+    },
+    {
+      "id": 6802,
+      "text": "三門市防衛ミッションの達成状況に応じて[LF][C6:サイドエフェクト]が解放！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24703"
+    },
+    {
+      "id": 6803,
+      "text": "ミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24704"
+    },
+    {
+      "id": 6804,
+      "text": "[C6:達成！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24705"
+    },
+    {
+      "id": 6805,
+      "text": "[C6:解放！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24706"
+    },
+    {
+      "id": 6806,
+      "text": "サイドエフェクトを発動すると、[LF][C6:一定時間クエスト攻略に有利な効果]が得られます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24707"
+    },
+    {
+      "id": 6807,
+      "text": "発動",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24708"
+    },
+    {
+      "id": 6808,
+      "text": "[C6:あと1時間]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24709"
+    },
+    {
+      "id": 6809,
+      "text": "一度発動したサイドエフェクトは効果時間終了後[LF][C6:時間が経過することで]再度発動が可能になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24710"
+    },
+    {
+      "id": 6810,
+      "text": "待機中",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24711"
+    },
+    {
+      "id": 6811,
+      "text": "発動",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24712"
+    },
+    {
+      "id": 6812,
+      "text": "あと2時間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24713"
+    },
+    {
+      "id": 6813,
+      "text": "[C6:発動可能！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24714"
+    },
+    {
+      "id": 6814,
+      "text": "サイドエフェクトを活用して、[LF]クエスト攻略やミッションを進めよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24715"
+    },
+    {
+      "id": 6815,
+      "text": "[C5:サイドエフェクト一覧]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24716"
+    },
+    {
+      "id": 6816,
+      "text": "ミッション[C6:4個]クリアで解放",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24717"
+    },
+    {
+      "id": 6817,
+      "text": "[C6:｢攻撃強化｣のサイドエフェクト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24718"
+    },
+    {
+      "id": 6818,
+      "text": "味方全員の攻撃力と友情コンボ威力が[LF]50％アップ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24719"
+    },
+    {
+      "id": 6819,
+      "text": "効果時間：[C6:1時間][LF]発動可能までの待機時間：[C6:2時間]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24720"
+    },
+    {
+      "id": 6820,
+      "text": "ミッション[C6:8個]クリアで解放",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24721"
+    },
+    {
+      "id": 6821,
+      "text": "[C6:｢弱点特攻｣のサイドエフェクト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24722"
+    },
+    {
+      "id": 6822,
+      "text": "弱点への攻撃倍率が50％アップ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24723"
+    },
+    {
+      "id": 6823,
+      "text": "効果時間：[C6:1時間][LF]発動可能までの待機時間：[C6:2時間]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24724"
+    },
+    {
+      "id": 6824,
+      "text": "ミッション[C6:11個]クリアで解放",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24725"
+    },
+    {
+      "id": 6825,
+      "text": "[C6:｢報酬強化｣のサイドエフェクト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24726"
+    },
+    {
+      "id": 6826,
+      "text": "スペシャル報酬が2倍になる",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24727"
+    },
+    {
+      "id": 6827,
+      "text": "効果時間：[C6:30分][LF]発動可能までの待機時間：[C6:4時間]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24728"
+    },
+    {
+      "id": 6828,
+      "text": "ミッション[C6:15個]クリアで解放",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24729"
+    },
+    {
+      "id": 6829,
+      "text": "[C6:｢軌道予測｣のサイドエフェクト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24730"
+    },
+    {
+      "id": 6830,
+      "text": "ガイドが常に表示される",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24731"
+    },
+    {
+      "id": 6831,
+      "text": "効果時間：[C6:1時間][LF]発動可能までの待機時間：[C6:2時間]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24732"
+    },
+    {
+      "id": 6832,
+      "text": "ミッション[C6:18個]クリアで解放",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24733"
+    },
+    {
+      "id": 6833,
+      "text": "[C6:｢必殺全開｣のサイドエフェクト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24734"
+    },
+    {
+      "id": 6834,
+      "text": "ゲーム開始時にSSが満タン状態になる",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24735"
+    },
+    {
+      "id": 6835,
+      "text": "効果時間：[C6:30分][LF]発動可能までの待機時間：[C6:2時間]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24736"
+    },
+    {
+      "id": 6836,
+      "text": "※同時に複数のサイドエフェクトを発動可能です[LF][LF]※マルチプレイの場合、ホストが発動している[LF]　サイドエフェクトのみ効果を発揮します[LF][LF]※｢報酬強化｣のサイドエフェクトは[LF]　フエ～ルビスケットと併用して発動できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24737"
+    },
+    {
+      "id": 6837,
+      "text": "[C5:対象クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24738"
+    },
+    {
+      "id": 6838,
+      "text": "[C5:ハイレインの恐怖　　　　　　★5 ハイレイン][LF][C4:星の杖の使い手　　　　　　　★5 ヴィザ(究極)][LF][C6:ヒュースの使命　　　　　　　 ★5 ヒュース][LF][C3:異世界からの来訪者　　　　　★5 ラービット][LF][C2:個の力vs数の力　　　　　　  ★4 ランバネイン][LF][C3:執念のエネドラ　　　　　　　★4 エネドラ][LF][C4:老練たる剣戟の壁　　　　　　★5 ヴィザ(超究極)][LF][C3:NO.1アタッカー・太刀川慶　 ★5 太刀川慶]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1612436827,
+      "label": "eTEXTS_DEF_24739"
+    },
+    {
+      "id": 6839,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20210128_3.html#h|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24740"
+    },
+    {
+      "id": 6840,
+      "text": "[C6:コラボ限定ガチャ開催中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24500"
+    },
+    {
+      "id": 6841,
+      "text": "[b:ba_help_collabo_wt_00_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24501"
+    },
+    {
+      "id": 6842,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24502"
+    },
+    {
+      "id": 6843,
+      "text": "2/2 12:00～2/16 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24503"
+    },
+    {
+      "id": 6844,
+      "text": "[C5:コラボ限定ガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24504"
+    },
+    {
+      "id": 6845,
+      "text": "ガチャ[C6:｢ワールドトリガー｣]が期間限定で開催中！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24505"
+    },
+    {
+      "id": 6846,
+      "text": "[IP8446]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24506"
+    },
+    {
+      "id": 6847,
+      "text": "[IP8448]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24507"
+    },
+    {
+      "id": 6848,
+      "text": "[IP8454]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24508"
+    },
+    {
+      "id": 6849,
+      "text": "[IP8450]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24509"
+    },
+    {
+      "id": 6850,
+      "text": "[IP8452]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24510"
+    },
+    {
+      "id": 6851,
+      "text": "[C6:コラボ限定クエスト出現中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24511"
+    },
+    {
+      "id": 6852,
+      "text": "[b:ba_help_collabo_wt_00_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24512"
+    },
+    {
+      "id": 6853,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24513"
+    },
+    {
+      "id": 6854,
+      "text": "2/2 12:00～2/16 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24514"
+    },
+    {
+      "id": 6855,
+      "text": "[C5:コラボ限定クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24515"
+    },
+    {
+      "id": 6856,
+      "text": "スケジュールに沿ってクエストが出現！[LF]降臨時間はスケジュール＆繰り返し予約で確認しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24516"
+    },
+    {
+      "id": 6857,
+      "text": "[SGBI22150|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24517"
+    },
+    {
+      "id": 6858,
+      "text": "[SGBI22170|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24518"
+    },
+    {
+      "id": 6859,
+      "text": "[SGBI22160|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24519"
+    },
+    {
+      "id": 6860,
+      "text": "[SGBI22130|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24520"
+    },
+    {
+      "id": 6861,
+      "text": "[SGBI22140|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24521"
+    },
+    {
+      "id": 6862,
+      "text": "[C5:守護獣の森クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24522"
+    },
+    {
+      "id": 6863,
+      "text": "守護獣の森にクエスト[C3:｢異世界からの来訪者｣]が降臨！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24523"
+    },
+    {
+      "id": 6864,
+      "text": "異世界からの来訪者",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24524"
+    },
+    {
+      "id": 6865,
+      "text": "[C3:★5 ラービット]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24525"
+    },
+    {
+      "id": 6866,
+      "text": "[SUE21891]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24526"
+    },
+    {
+      "id": 6867,
+      "text": "[C6:難易度究極]をクリアすることで、守護獣[C6:レプリカ]を[LF]入手可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24527"
+    },
+    {
+      "id": 6868,
+      "text": "[SU4]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24528"
+    },
+    {
+      "id": 6869,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20210128_3.html#c|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24529"
+    },
+    {
+      "id": 6870,
+      "text": "[SW0.88][C6:1日1回限定クリアボーナスを手に入れよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24530"
+    },
+    {
+      "id": 6871,
+      "text": "[b:ba_help_collabo_wt_00_3.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24531"
+    },
+    {
+      "id": 6872,
+      "text": "[C5:1日1回限定クリアボーナス！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24532"
+    },
+    {
+      "id": 6873,
+      "text": "1日1回限定クリアボーナス！[LF]コラボクエスト[C4:｢星の杖の使い手｣]クリアで[LF][C4:★5 ヴィザ]が[C6:7体]獲得できる！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24533"
+    },
+    {
+      "id": 6874,
+      "text": "[IP8459]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24534"
+    },
+    {
+      "id": 6875,
+      "text": "さらにマルチプレイで[LF]金卵2個以上のドロップ率アップ！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24535"
+    },
+    {
+      "id": 6876,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20210128_3.html#d|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24536"
+    },
+    {
+      "id": 6877,
+      "text": "[C6:アフトクラトル ヴィザの壁を超えろ！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24537"
+    },
+    {
+      "id": 6878,
+      "text": "[b:ba_help_collabo_wt_00_4.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24538"
+    },
+    {
+      "id": 6879,
+      "text": "[C5:超究極クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24539"
+    },
+    {
+      "id": 6880,
+      "text": "超究極クエスト[C4:｢老練たる剣戟の壁｣]が降臨！[LF][C6:三門市防衛ミッション]の[C6:B級ミッションを][LF][C6:全てクリア]すると挑戦可能に！[LF]降臨時間はスケジュール&繰り返し予約で確認しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24540"
+    },
+    {
+      "id": 6881,
+      "text": "老練たる剣戟の壁",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24541"
+    },
+    {
+      "id": 6882,
+      "text": "さらに[C6:期間限定ミッション]をクリアすることで[LF]特別な称号を入手することが可能！[LF]達成後、ホーム画面の[C6:ミッション]から受取可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24542"
+    },
+    {
+      "id": 6883,
+      "text": "[C6:ゲット！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24543"
+    },
+    {
+      "id": 6884,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20210128_3.html#g3|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24544"
+    },
+    {
+      "id": 6885,
+      "text": "[SW0.8][C6:専用宝箱から嵐山隊・風間隊を手に入れよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24600"
+    },
+    {
+      "id": 6886,
+      "text": "[b:ba_help_collabo_wt_01_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24601"
+    },
+    {
+      "id": 6887,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24602"
+    },
+    {
+      "id": 6888,
+      "text": "2/2 12:00～2/16 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24603"
+    },
+    {
+      "id": 6889,
+      "text": "[C5:嵐山隊・風間隊の入手方法]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24604"
+    },
+    {
+      "id": 6890,
+      "text": "期間中、対象のクエストをクリアするともらえる[LF]専用宝箱から[C2:★6 A級5位 嵐山隊]と[LF][C5:★6 A級3位 風間隊]が手に入ります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24605"
+    },
+    {
+      "id": 6891,
+      "text": "[IP8467]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24606"
+    },
+    {
+      "id": 6892,
+      "text": "[IP8468]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24607"
+    },
+    {
+      "id": 6893,
+      "text": "さらにマルチプレイの[C6:ホストだと金卵が3個ずつ]、[LF]ゲストだと[C6:金卵が2個ずつ]排出されます！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24608"
+    },
+    {
+      "id": 6894,
+      "text": "ホスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24609"
+    },
+    {
+      "id": 6895,
+      "text": "ゲスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24610"
+    },
+    {
+      "id": 6896,
+      "text": "対象クエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24611"
+    },
+    {
+      "id": 6897,
+      "text": "[LF][C5:ハイレインの恐怖　　　★5 ハイレイン][LF][C4:星の杖の使い手　　　　★5 ヴィザ(究極)][LF][C6:ヒュースの使命　　　　 ★5 ヒュース][LF][C2:個の力vs数の力　　　  ★4 ランバネイン][LF][C3:執念のエネドラ　　　　★4 エネドラ][LF][C4:老練たる剣戟の壁　　　★5 ヴィザ(超究極)]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24612"
+    },
+    {
+      "id": 6898,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20210128_3.html#f|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24613"
+    },
+    {
+      "id": 6899,
+      "text": "[C6:木崎レイジ＆烏丸京介を手に入れよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24614"
+    },
+    {
+      "id": 6900,
+      "text": "[b:ba_help_collabo_wt_01_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24615"
+    },
+    {
+      "id": 6901,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24616"
+    },
+    {
+      "id": 6902,
+      "text": "2/2 12:00～2/16 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24617"
+    },
+    {
+      "id": 6903,
+      "text": "[C5:コラボ期間限定ラック+99]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24618"
+    },
+    {
+      "id": 6904,
+      "text": "[C4:★6 玉狛第１ 木崎レイジ＆烏丸京介]は[LF]コラボ期間中、本来のラックに[C4:+99]された[LF][C4:運極]状態で、ラックボーナスが獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24619"
+    },
+    {
+      "id": 6905,
+      "text": "[IP8469]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24620"
+    },
+    {
+      "id": 6906,
+      "text": "コラボ期間中",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24621"
+    },
+    {
+      "id": 6907,
+      "text": "[LUCK]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24622"
+    },
+    {
+      "id": 6908,
+      "text": "[C4:+99]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24623"
+    },
+    {
+      "id": 6909,
+      "text": "コラボ期間中に99体集めて、[LF]期間終了後も[C6:運極キャラ]として使おう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24624"
+    },
+    {
+      "id": 6910,
+      "text": "[C5:木崎レイジ＆烏丸京介入手方法]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24625"
+    },
+    {
+      "id": 6911,
+      "text": "三門市防衛ミッションの達成報酬と、[LF]ログインスタンプで獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24626"
+    },
+    {
+      "id": 6912,
+      "text": "三門市防衛ミッションを全て達成すると、[LF][C6:最大で2体][C4:運極]にすることが可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24627"
+    },
+    {
+      "id": 6913,
+      "text": "[C5:英雄の証をつけよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24628"
+    },
+    {
+      "id": 6914,
+      "text": "運極[C4:★6 玉狛第１ 木崎レイジ＆烏丸京介]に[LF][C4:合計ラック99以上]の同一種類キャラを[LF]素材として使用すると[C6:英雄の証]がつけられます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24629"
+    },
+    {
+      "id": 6915,
+      "text": "[LUCK]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24630"
+    },
+    {
+      "id": 6916,
+      "text": "[C4:極]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24631"
+    },
+    {
+      "id": 6917,
+      "text": "[C4:50]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24632"
+    },
+    {
+      "id": 6918,
+      "text": "[C4:49]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24633"
+    },
+    {
+      "id": 6919,
+      "text": "合計",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24634"
+    },
+    {
+      "id": 6920,
+      "text": "[LUCK]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24635"
+    },
+    {
+      "id": 6921,
+      "text": "[C4:99]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24636"
+    },
+    {
+      "id": 6922,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20210128_3.html#g1|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24637"
+    },
+    {
+      "id": 6923,
+      "text": "難易度：超究極",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24553"
+    },
+    {
+      "id": 6924,
+      "text": "[C4:★5 ヴィザ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24554"
+    },
+    {
+      "id": 6925,
+      "text": "※クエストボスの｢ラービット｣は入手できません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1611920250,
+      "updated_at": 1611920250,
+      "label": "eTEXTS_DEF_24555"
+    },
+    {
+      "id": 6926,
+      "text": "スキップ消費",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1612436827,
+      "updated_at": 1612436827,
+      "label": "eTEXTS_DEF_TOWER_SKIP_STAMINA_CONSUME"
+    },
+    {
+      "id": 6927,
+      "text": "[LC]素材・アイテム不足[LF][WIDTH520][LF]%s[LF]不足している素材・アイテムは[LF]以下で獲得可能です[LF][LF][LC][NODE][MARGIN20][LF][LC][NODE][MARGIN20]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1611590228,
+      "updated_at": 1765385553,
+      "label": "eTEXTS_DEF_MSG_BEAST_GOD_KAI_CHARA_JUMP"
+    },
+    {
+      "id": 6928,
+      "text": "[C6:急襲！NO.1アタッカー・太刀川慶！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1612436827,
+      "updated_at": 1612436827,
+      "label": "eTEXTS_DEF_24545"
+    },
+    {
+      "id": 6929,
+      "text": "[b:ba_help_collabo_wt_00_5.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1612436827,
+      "updated_at": 1612436827,
+      "label": "eTEXTS_DEF_24546"
+    },
+    {
+      "id": 6930,
+      "text": "[C5:超究極クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1612436827,
+      "updated_at": 1612436827,
+      "label": "eTEXTS_DEF_24547"
+    },
+    {
+      "id": 6931,
+      "text": "いつ降臨するか分からない超究極クエスト[LF][C3:｢NO.1アタッカー・太刀川慶｣]が登場！[LF]降臨した時を見逃さずクリアし、[C4:運極]を目指そう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1612436827,
+      "updated_at": 1612436827,
+      "label": "eTEXTS_DEF_24548"
+    },
+    {
+      "id": 6932,
+      "text": "[SGBI22190|difficulty1]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1612436827,
+      "updated_at": 1612436827,
+      "label": "eTEXTS_DEF_24549"
+    },
+    {
+      "id": 6933,
+      "text": "さらに[C6:期間限定ミッション]をクリアすることで[LF][C6:太刀川隊の勲章]を入手することができます！[LF]達成後、ホーム画面の[C6:ミッション]から受取可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1612436827,
+      "updated_at": 1612436827,
+      "label": "eTEXTS_DEF_24550"
+    },
+    {
+      "id": 6934,
+      "text": "[C6:ゲット！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1612436827,
+      "updated_at": 1612436827,
+      "label": "eTEXTS_DEF_24551"
+    },
+    {
+      "id": 6935,
+      "text": "※クエストは[C6:スケジュール＆繰り返し予約]に[LF]　表示されず、[C6:ユーザーによって出現時間が異なります][LF][LF]※自分にクエストが出現していない場合でも、[LF]　[C6:マルチプレイのゲスト]であればクエストに参加可能です[LF][LF]※詳細は[u:https://www.monster-strike.com/news/20210128_3.html#n|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1612436827,
+      "updated_at": 1612436827,
+      "label": "eTEXTS_DEF_24552"
+    },
+    {
+      "id": 6936,
+      "text": "[LC]蒼海の竜宮使者 真・浦島太郎を手に入れろ！[LF][LF]このクエストをクリアすると、ミッション報酬で[LF][C5:★5 真・浦島太郎]を[C5:★6 蒼海の竜宮使者 真・浦島太郎][LF]に進化させる事ができるようになるぞ！[LF][LF]このクエストに挑むには[LF]クエスト[C5:「竜宮の加護を受けし者」]の[C6:究極]をクリアしよう！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1612777873,
+      "updated_at": 1612777873,
+      "label": "eTEXTS_DEF_20927"
+    },
+    {
+      "id": 6937,
+      "text": "「竜宮の加護を受けし者」クリアで挑戦可",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1612777873,
+      "updated_at": 1612777873,
+      "label": "eTEXTS_DEF_20928"
+    },
+    {
+      "id": 6938,
+      "text": "[LC]挑戦できません[LF][LF]このクエストに参加するには[LF]クエスト[C5:「竜宮の加護を受けし者」]の[C6:究極]を[LF]クリアする必要があります[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1612777873,
+      "updated_at": 1612777873,
+      "label": "eTEXTS_DEF_20929"
+    },
+    {
+      "id": 6939,
+      "text": "[LC]勇武の炎を纏いし狩人 弓虎姫を手に入れろ！[LF][LF]このクエストをクリアすると、ミッション報酬で[LF][C2:★5 弓虎姫]を[C2:★6 勇武の炎を纏いし狩人 弓虎姫][LF]に進化させる事ができるようになるぞ！[LF][LF]このクエストに挑むには[LF]クエスト[C2:「猛虎率いし灼熱の弓姫」]の[C6:究極]をクリアしよう！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1612955638,
+      "updated_at": 1612955638,
+      "label": "eTEXTS_DEF_20930"
+    },
+    {
+      "id": 6940,
+      "text": "「猛虎率いし灼熱の弓姫」クリアで挑戦可",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1612955638,
+      "updated_at": 1612955638,
+      "label": "eTEXTS_DEF_20931"
+    },
+    {
+      "id": 6941,
+      "text": "[LC]挑戦できません[LF][LF]このクエストに参加するには[LF]クエスト[C2:「猛虎率いし灼熱の弓姫」]の[C6:究極]を[LF]クリアする必要があります[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1612955638,
+      "updated_at": 1612955638,
+      "label": "eTEXTS_DEF_20932"
+    },
+    {
+      "id": 6942,
+      "text": "[LC]集めてラック楽キャンペーン[LF][LF]対象キャラの合計ラックを[C4:%d以上]にすると[LF]対象クエストのスペシャル報酬が[LF]すべて[C6:2倍]になります[LF][LF][LC][NODE][LF][LF]※マルチでは、[C6:ボーナスを達成している人のみ][LF]対象です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1612955638,
+      "updated_at": 1612955638,
+      "label": "eTEXTS_DEF_ME_MSG_TOTAL_LUCK_BONUS_HELP_2"
+    },
+    {
+      "id": 6943,
+      "text": "[SW0.9][C6:ラックを集めてスペシャル報酬を2倍に！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1612955638,
+      "updated_at": 1612955638,
+      "label": "eTEXTS_DEF_25100"
+    },
+    {
+      "id": 6944,
+      "text": "[b:ba_help_luckdouble_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1612955638,
+      "updated_at": 1612955638,
+      "label": "eTEXTS_DEF_25101"
+    },
+    {
+      "id": 6945,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1612955638,
+      "updated_at": 1612955638,
+      "label": "eTEXTS_DEF_ME_MSG_TOTAL_LUCK_BONUS_PIRIOD"
+    },
+    {
+      "id": 6946,
+      "text": "%s～%s",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1612955638,
+      "updated_at": 1612955638,
+      "label": "eTEXTS_DEF_ME_MSG_TOTAL_LUCK_BONUS_PIRIOD_2"
+    },
+    {
+      "id": 6947,
+      "text": "対象キャラの[C6:合計ラックが一定以上]になると、[LF]対象クエストで[C6:スペシャル報酬が2倍]に！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1612955638,
+      "updated_at": 1612955638,
+      "label": "eTEXTS_DEF_ME_MSG_TOTAL_LUCK_BONUS_MESSAGE"
+    },
+    {
+      "id": 6948,
+      "text": "[C5:所持状況]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1612955638,
+      "updated_at": 1612955638,
+      "label": "eTEXTS_DEF_ME_MSG_TOTAL_LUCK_BONUS_SUB_TITLE"
+    },
+    {
+      "id": 6949,
+      "text": "対象キャラ/対象クエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1612955638,
+      "updated_at": 1612955638,
+      "label": "eTEXTS_DEF_ME_MSG_TOTAL_LUCK_BONUS_SUB_TITLE_2"
+    },
+    {
+      "id": 6950,
+      "text": "※マルチの場合、[C6:条件を達成しているユーザーのみ][LF]効果が適用されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1612955638,
+      "updated_at": 1612955638,
+      "label": "eTEXTS_DEF_ME_MSG_TOTAL_LUCK_BONUS_MESSAGE_2"
+    },
+    {
+      "id": 6951,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1612955638,
+      "updated_at": 1612955638,
+      "label": "eTEXTS_DEF_25102"
+    },
+    {
+      "id": 6952,
+      "text": "3/2 12:00～3/15 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1612955638,
+      "updated_at": 1772100024,
+      "label": "eTEXTS_DEF_25103"
+    },
+    {
+      "id": 6953,
+      "text": "※詳細は[u:%s|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1612955638,
+      "updated_at": 1612955638,
+      "label": "eTEXTS_DEF_ME_MSG_TOTAL_LUCK_BONUS_MESSAGE_3"
+    },
+    {
+      "id": 6954,
+      "text": "[LC]適正にできるモンスター[LF][LF]%sの[LF]別の進化形態を所持しています[LF]強化することで適正モンスターになります[LF][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1615393244,
+      "updated_at": 1615393244,
+      "label": "eTEXTS_DEF_MSG_EVO_BEFORE_LIST"
+    },
+    {
+      "id": 6955,
+      "text": "最大",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1615393244,
+      "updated_at": 1670862124,
+      "label": "eTEXTS_DEF_ME_POSSESSION_LUCK_MAX"
+    },
+    {
+      "id": 6956,
+      "text": "[LC]守護獣の森情報[LF][LF]以下のクエストが追加されました。[LF][LF][LC][NODE]",
+      "layout": 26,
+      "color": 0,
+      "created_at": 1615393244,
+      "updated_at": 1615393244,
+      "label": "eTEXTS_DEF_MSG_ADDITIONAL_SUPPORT"
+    },
+    {
+      "id": 6957,
+      "text": "あと%d回",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1615393244,
+      "updated_at": 1615393244,
+      "label": "eTEXTS_DEF_ME_MSG_GACHA_LEFT"
+    },
+    {
+      "id": 6958,
+      "text": "排出対象キャラ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1615393244,
+      "updated_at": 1669896053,
+      "label": "eTEXTS_DEF_ME_MSG_GACHA_RACIO_UP_CHAR"
+    },
+    {
+      "id": 6959,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LC][b:tips_stage_capture_15.png][LF][C6:エレメントショット]がヒットした位置に[LF][C6:エレメントエリア]が展開！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1615393244,
+      "updated_at": 1615393244,
+      "label": "eTEXTS_DEF_200328"
+    },
+    {
+      "id": 6960,
+      "text": "[LF][MARGIN16][LC][b:tips_stage_capture_15.png][LF][C6:エレメントショット]がヒットした位置に[LF][C6:エレメントエリア]が展開！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1615393244,
+      "updated_at": 1791909060,
+      "label": "eTEXTS_DEF_200329"
+    },
+    {
+      "id": 6961,
+      "text": "[C5:撃破報酬]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1618383844,
+      "updated_at": 1618383844,
+      "label": "eTEXTS_DEF_24421"
+    },
+    {
+      "id": 6962,
+      "text": "[C6:期間内に撃破]することができれば[LF]対象モンスターの[C6:グッジョブスタンプ]を[LF]撃破報酬として獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1618383844,
+      "updated_at": 1618383844,
+      "label": "eTEXTS_DEF_24422"
+    },
+    {
+      "id": 6963,
+      "text": "本日分 %d/%d体",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1615393244,
+      "updated_at": 1615393244,
+      "label": "eTEXTS_DEF_SPOT_TRAINING_FINISHED_TODAY_1"
+    },
+    {
+      "id": 6964,
+      "text": "[IMG:uiitem_0012.png|0.64]使用数 ：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1615393244,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_SPOT_TRAINING_MSG_USE_ITEM_PARTS_1"
+    },
+    {
+      "id": 6965,
+      "text": "[C6:%d/]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1615393244,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_SPOT_TRAINING_MSG_USE_ITEM_PARTS_2"
+    },
+    {
+      "id": 6966,
+      "text": "%d個",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1615393244,
+      "updated_at": 1615393244,
+      "label": "eTEXTS_DEF_SPOT_TRAINING_MSG_USE_ITEM_PARTS_3"
+    },
+    {
+      "id": 6967,
+      "text": "使用後の修練状況：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1615393244,
+      "updated_at": 1615393244,
+      "label": "eTEXTS_DEF_SPOT_TRAINING_MSG_USE_ITEM_PARTS_4"
+    },
+    {
+      "id": 6968,
+      "text": "[C6:完了]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1615393244,
+      "updated_at": 1615393244,
+      "label": "eTEXTS_DEF_SPOT_TRAINING_MSG_USE_ITEM_PARTS_5"
+    },
+    {
+      "id": 6969,
+      "text": "[C6:残り%d時間]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1615393244,
+      "updated_at": 1615393244,
+      "label": "eTEXTS_DEF_SPOT_TRAINING_MSG_USE_ITEM_PARTS_6"
+    },
+    {
+      "id": 6970,
+      "text": "[C6:残り%d分]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1615393244,
+      "updated_at": 1615393244,
+      "label": "eTEXTS_DEF_SPOT_TRAINING_MSG_USE_ITEM_PARTS_7"
+    }
+  ]
+}

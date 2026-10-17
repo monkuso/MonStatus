@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 1,
+  "table": "texts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 21064,
+      "text": "また｢魔女との契約｣の画面を開いた際に[LF][C6:1日1枚ピザを獲得]することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54019"
+    },
+    {
+      "id": 21065,
+      "text": "※ピザの獲得は4/2 11:59までとなります[LF]※クエストでゲームオーバーや、リタイアした際の[LF]　消費スタミナはカウントされません[LF]※上限8枚を超えてピザを所持することができません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54020"
+    },
+    {
+      "id": 21066,
+      "text": "[C5:報酬について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54021"
+    },
+    {
+      "id": 21067,
+      "text": "ピザ報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54022"
+    },
+    {
+      "id": 21068,
+      "text": "C.C.にピザをあげると[LF][C6:ギアスまたは魂気を獲得]できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54023"
+    },
+    {
+      "id": 21069,
+      "text": "レア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54024"
+    },
+    {
+      "id": 21070,
+      "text": "通常",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54025"
+    },
+    {
+      "id": 21071,
+      "text": "ギアス使用数報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54026"
+    },
+    {
+      "id": 21072,
+      "text": "また、ギアスの使用回数に応じてC.C.から[LF][C6:報酬をもらう]ことができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54027"
+    },
+    {
+      "id": 21073,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20250313_2.html#8|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54028"
+    },
+    {
+      "id": 21074,
+      "text": "認証",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_RECAPTCHA_PAGE_TITLE"
+    },
+    {
+      "id": 21075,
+      "text": "https://www.monster-strike.com/turnstile/",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_RECAPTCHA_PAGE_URL"
+    },
+    {
+      "id": 21076,
+      "text": "[LC]春のスクラッチくじとは[LF][LF][CCB:dlme/help_creep_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_CREEP_HELP"
+    },
+    {
+      "id": 21077,
+      "text": "開催期間：4/2 4:00 ~ 4/14 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_CREEP_PERIOD"
+    },
+    {
+      "id": 21078,
+      "text": "リセット",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_CREEP_RESET"
+    },
+    {
+      "id": 21079,
+      "text": "スクラッチする",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_CREEP_SCRATCH"
+    },
+    {
+      "id": 21080,
+      "text": "マーク[IMG:creep_scratch01.png]をあと[C6:%dか所]選ぼう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_CREEP_SELECT_REMAIN"
+    },
+    {
+      "id": 21081,
+      "text": "所持数：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_CREEP_TICKET_NUM"
+    },
+    {
+      "id": 21082,
+      "text": "選択できるマークは5か所です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_CREEP_SELECT_LIMIT"
+    },
+    {
+      "id": 21083,
+      "text": "[LC][LF]開催期間は終了しています",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_CREEP_END"
+    },
+    {
+      "id": 21084,
+      "text": "[LC]同意確認[LF][LF]「13周年スクラッチくじ」への参加には[u:https://www.monster-strike.com/campaign-terms/261017/index.html|参加規約]、[LF]および[u:https://mixi.co.jp/privacy/|株式会社MIXIのプライバシーポリシー][LF]への同意が必要です[LF][LF]同意いただけない場合は[LF]参加いただけませんのでご了承ください[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1792059590,
+      "label": "eTEXTS_DEF_MSG_CREEP_CONFIRM"
+    },
+    {
+      "id": 21085,
+      "text": "同意する",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_CREEP_CONFIRM_BUTTON"
+    },
+    {
+      "id": 21086,
+      "text": "マークを5か所選んでから[LF]「スクラッチする」を選択してください",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_CREEP_NOT_ENOUGH"
+    },
+    {
+      "id": 21087,
+      "text": "[LC]確認[LF][LF]決定後マークの変更はできません[LF]選択したマークを削りますか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_CREEP_ENTRY"
+    },
+    {
+      "id": 21088,
+      "text": "モンスト春のキャンペーン「#春のスクラッチくじ」で%d等に当選したよ！<br><br>期間中は アプリにログインするだけで、毎日スクラッチに挑戦できちゃう♪<br>現金最大100万円・最大100個のオーブが当たるチャンスが、みんなにあるよ！<br><br>今すぐ #モンスト をチェック！<br>https://xfl.ag/4iHc4Ci",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MS_CREEP_SNS_MESSAGE"
+    },
+    {
+      "id": 21089,
+      "text": "[IF_DATE|2025/04/02 04:00:00|2025/04/13 04:00:00]くじ券を所持していません[LF]AM4:00以降のログインで獲得可能です[ELSE]くじ券を所持していません[ENDIF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MS_CREEP_NO_TICKET"
+    },
+    {
+      "id": 21090,
+      "text": "[LC]SNS投稿[LF][LF]｢ポスト｣ボタンから[LF]Xに結果を投稿することが可能です[LF][LF]結果を友達に自慢しよう！",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_CREEP_POST_SNS"
+    },
+    {
+      "id": 21091,
+      "text": "ポスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_CREEP_POST"
+    },
+    {
+      "id": 21092,
+      "text": "閉じる",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_CREEP_CLOSE"
+    },
+    {
+      "id": 21093,
+      "text": "%sが不足しています",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_BOTH_TICKECK_QUEST_BUTTON_NO_TICKET"
+    },
+    {
+      "id": 21094,
+      "text": "[LC]%sが不足しています[LF][LF]挑戦するために必要な枚数を所持していません",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_MULTI_NO_BOTH_TICKET"
+    },
+    {
+      "id": 21095,
+      "text": "[LC]%s使用[LF][LF]%sが%d枚必要です[LF]「%s」[LF]をプレイしますか？[LF][LF]所持数:%s枚[LF][LF][C6:※ステージ開始時に消費します]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_USE_BOTH_TICKET"
+    },
+    {
+      "id": 21096,
+      "text": "[C6:※出撃すると][IMG:%s][C6:%sを%d枚消費します]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_USE_MULTI_BOTH_TICKET"
+    },
+    {
+      "id": 21097,
+      "text": "[LC]%sが不足しています[LF][LF]挑戦するために必要な枚数を所持していません[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_BOTH_TICKET_NO_TICKET"
+    },
+    {
+      "id": 21098,
+      "text": "[LC]%sが不足しています[LF][LF]挑戦するために必要な枚数を所持していません",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_BOTH_MULTI_NO_TICKET_ERROR"
+    },
+    {
+      "id": 21099,
+      "text": "%d/%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_REFERRAL_COUNT_NUM"
+    },
+    {
+      "id": 21100,
+      "text": "[C6:%d]/%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_REFERRAL_COUNT_NUM_MAX"
+    },
+    {
+      "id": 21101,
+      "text": "新人ストライカーとして招待を受けることが可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_REFERRAL_GUEST_CAN_RECEIVE_INVITATIONS"
+    },
+    {
+      "id": 21102,
+      "text": "期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_REFERRAL_GUEST_DEADLINE"
+    },
+    {
+      "id": 21103,
+      "text": "%d/%d/%d 3:59まで",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_REFERRAL_GUEST_DEADLINE_TIME"
+    },
+    {
+      "id": 21104,
+      "text": "[LC]あなたのフレンドIDを友達に教えて[LF][LC]招待申請を送ってもらましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_REFERRAL_GUEST_FRIEND_ID_MESSAGE_1"
+    },
+    {
+      "id": 21105,
+      "text": "[LC]あなたのフレンドIDを友達に教えて[LF][LC]招待申請を送ってもらましょう[LF][LC][C6:※招待成立は1人のみとなります]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_REFERRAL_GUEST_FRIEND_ID_MESSAGE_2"
+    },
+    {
+      "id": 21106,
+      "text": "フレンドID",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_REFERRAL_GUEST_FRIEND_ID_TITLE"
+    },
+    {
+      "id": 21107,
+      "text": "　",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_REFERRAL_GUEST_HOST_REQUEST_COUNT_TITLE"
+    },
+    {
+      "id": 21108,
+      "text": "承認依頼一覧",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_REFERRAL_GUEST_SUB_TITLE_HOST_REQUEST"
+    },
+    {
+      "id": 21109,
+      "text": "招待成立",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_REFERRAL_GUEST_SUB_TITLE_HOST"
+    },
+    {
+      "id": 21110,
+      "text": "あなたのID：[C4:%s]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_REFERRAL_GUEST_YOUR_FRIEND_ID"
+    },
+    {
+      "id": 21111,
+      "text": "現在の招待成立数　%d/%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_REFERRAL_HOST_CURRENT_GUEST_COUNT_TITLE"
+    },
+    {
+      "id": 21112,
+      "text": "　",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_REFERRAL_HOST_GUEST_COUNT_TITLE"
+    },
+    {
+      "id": 21113,
+      "text": "招待が成立しているユーザーはいません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_REFERRAL_HOST_NOT_FOUND_GUESTS"
+    },
+    {
+      "id": 21114,
+      "text": "招待成立一覧",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_REFERRAL_HOST_SUB_TITLE_GUESTS"
+    },
+    {
+      "id": 21115,
+      "text": "招待報酬を受け取ってモンストをはじめよう！[LF]モンストのインストール後に下記URLからアプリを起動して、「ストライカー招待」に届いてる「招待申請」を承認してね！[LF]%s[LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_REFERRAL_IINVITATION_APPSTART_TEXT_TEMPLATE"
+    },
+    {
+      "id": 21116,
+      "text": "起動する",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_REFERRAL_INVITATION_APPSTART_BTN"
+    },
+    {
+      "id": 21117,
+      "text": "QRコード",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_REFERRAL_INVITATION_QRCODE_BTN"
+    },
+    {
+      "id": 21118,
+      "text": "URLをコピー",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_REFERRAL_INVITATION_URLCOPY_BTN"
+    },
+    {
+      "id": 21119,
+      "text": "招待報酬を受け取ってモンストをはじめよう！[LF]モンストのインストール後に下記URLからアプリを起動して、「ストライカー招待」に届いてる「招待申請」を承認してね！[LF]%s[LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_REFERRAL_INVITATION_URLCOPY_INFO"
+    },
+    {
+      "id": 21120,
+      "text": "招待する",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_REFERRAL_TAG_INVITE"
+    },
+    {
+      "id": 21121,
+      "text": "招待を受ける",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_REFERRAL_TAG_RECEIVE_INVITATION"
+    },
+    {
+      "id": 21122,
+      "text": "[C6:%04d/%2d/%d AM%d:%02d]まで",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_REFERRAL_GUEST_TIMELIMIT"
+    },
+    {
+      "id": 21123,
+      "text": "招待を受ける条件を満たしていません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_REFERRAL_GUEST_CANNOT_BE_INVITEE"
+    },
+    {
+      "id": 21124,
+      "text": "[LC]フレンド申請[LF][LF]招待が成立しました！[LF]フレンド申請を送りますか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_REFERRAL_FRIEND_REQUEST"
+    },
+    {
+      "id": 21125,
+      "text": "[LC]フレンド申請[LF][LF]フレンド申請を送りました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_REFERRAL_FRIEND_REQUEST_FINISH"
+    },
+    {
+      "id": 21126,
+      "text": "[LC]ストライカー招待とは[LF][LF][TAB:招待する][CCB:dlme/help_referral_00][TAB:招待を受ける][CCB:dlme/help_referral_01][TAB:期間限定][CCB:dlme/help_referral_02]",
+      "layout": 53,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_REFERRAL_HELP"
+    },
+    {
+      "id": 21127,
+      "text": "[LC]申請完了[LF][LF][LC]%s[LF]に招待を申請しました[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_REFERRAL_HOST_REQUEST_FINISH"
+    },
+    {
+      "id": 21128,
+      "text": "[LC]招待申請[LF][LF][LC][NODE][LF][LF]このユーザーに招待を申請しますか？[LF]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_REFERRAL_HOST_REQUEST_GUEST"
+    },
+    {
+      "id": 21129,
+      "text": "[LC]報酬一覧[LF][LF][TAB:招待する][NODE][TAB:招待を受ける][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_REFERRAL_HOST_REWARD_LIST"
+    },
+    {
+      "id": 21130,
+      "text": "[LC]ID検索[LF][LF][LC]IDで友達を検索して、招待を申請しよう[LF][LF][LF]",
+      "layout": 17,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_REFERRAL_HOST_SEARCH_GUEST"
+    },
+    {
+      "id": 21131,
+      "text": "[LC]招待成立報酬[LF][LF][LC][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_REFERRAL_REWARD_1"
+    },
+    {
+      "id": 21132,
+      "text": "[LC]報酬一覧[LF][LF][LC][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_REFERRAL_REWARD_LIST"
+    },
+    {
+      "id": 21133,
+      "text": "[LC]承認確認[LF][LF][LC][NODE][LF]この招待申請を承認しますか？[LF]※招待の承認は1人のみです[LF]",
+      "layout": 21,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_REFERRAL_GUEST_ACCEPT_REQUEST"
+    },
+    {
+      "id": 21134,
+      "text": "招待申請を拒否します[LF]本当によろしいですか？",
+      "layout": 29,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_REFERRAL_GUEST_REMIND_REFUSE"
+    },
+    {
+      "id": 21135,
+      "text": "[LC]招待する[LF][LF]URLまたはQRコードから[LF][LF]友達を招待することが可能です[LF][LF]相手がモンストインストール後に[LF]URLまたはQRコードから起動すると[LF]あなたからの招待申請が相手に届きます[LF][LF][S-1]※申請がうまく相手に届かない場合は[LF][S-1]　ID検索から申請をしてください[LF][S-1]※QRコードは株式会社デンソーウェーブの登録商標です[LF][LF][LC][NODE][LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743587336,
+      "label": "eTEXTS_DEF_MSG_REFERRAL_URL_INVITE"
+    },
+    {
+      "id": 21136,
+      "text": "ストライカー招待",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_REFERRAL_TITLE_INFO"
+    },
+    {
+      "id": 21137,
+      "text": "ID検索",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_REFERRAL_HOST_SEARCH_BUTTON"
+    },
+    {
+      "id": 21138,
+      "text": "URL / QRコード",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_REFERRAL_URL_INVITE_BTN"
+    },
+    {
+      "id": 21139,
+      "text": "相手が申請を受けることのできる期間を過ぎました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_REFERRAL_ERR30410"
+    },
+    {
+      "id": 21140,
+      "text": "このユーザーは既に招待成立済です[LF]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_REFERRAL_ERR30411"
+    },
+    {
+      "id": 21141,
+      "text": "相手の申請受け取り数が[LF]最大のため申請できません[LF]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_REFERRAL_ERR30412"
+    },
+    {
+      "id": 21142,
+      "text": "相手が招待申請が受けられる条件を満たしていません[LF]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_REFERRAL_ERR30413"
+    },
+    {
+      "id": 21143,
+      "text": "[LC]招待5人成立済[LF][LF]既に招待が5人成立しているため[LF]申請できません[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1774703477,
+      "label": "eTEXTS_DEF_MSG_REFERRAL_ERR30414"
+    },
+    {
+      "id": 21144,
+      "text": "招待申請の有効期限が過ぎました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_REFERRAL_ERR30415"
+    },
+    {
+      "id": 21145,
+      "text": "IDが入力されていません",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_REFERRAL_ERR_NO_USER_ID"
+    },
+    {
+      "id": 21146,
+      "text": "指定されたユーザーは見つかりませんでした[LF]入力した内容をお確かめの上、再度お試しください[LF]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1774703477,
+      "label": "eTEXTS_DEF_MSG_REFERRAL_ERR_NOT_FOUND_USER"
+    },
+    {
+      "id": 21147,
+      "text": "ウェルカムクエストをクリアしていないため[LF]招待を行う条件を満たしていません[LF]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_REFERRAL_ERR_NOT_COMPLETED_WELCOME_QUEST"
+    },
+    {
+      "id": 21148,
+      "text": "ストライカー招待",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_FRIEND_REFERRAL"
+    },
+    {
+      "id": 21149,
+      "text": "[LC]あなたの招待用QRコード[LF][LF]相手にQRコードを読み取ってもらいましょう[LF][LF][LF][LC][NODE][LF][LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_REFERRAL_QRCODE_INVITE"
+    },
+    {
+      "id": 21150,
+      "text": "復帰ストライカーとして招待を受けることが可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_ME_REFERRAL_GUEST_CAN_RECEIVE_2_INVITATIONS"
+    },
+    {
+      "id": 21151,
+      "text": "友達にログインしてもらってから申請を行おう！",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_REFERRAL_ERR30417"
+    },
+    {
+      "id": 21152,
+      "text": "[LC]招待成立[LF][LF][LC][NODE][LF]招待が成立しました[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_REFERRAL_GUEST_ACCEPT_COMPLETE"
+    },
+    {
+      "id": 21153,
+      "text": "[LC]招待成立報酬[LF][LF][LC][NODE][LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_REFERRAL_GUEST_REWARD_1DAY"
+    },
+    {
+      "id": 21154,
+      "text": "ログイン(%d日目)",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_REFERRAL_GUEST_REWARD_TITLE"
+    },
+    {
+      "id": 21155,
+      "text": "[LC]招待成立[LF][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_REFERRAL_GUEST_ACCEPT_REWARD"
+    },
+    {
+      "id": 21156,
+      "text": "ログインでプレゼント！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_REFERRAL_STAMP_DESCRIPTION_1"
+    },
+    {
+      "id": 21157,
+      "text": "※プレゼントの切り替わりはAM4:00となります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_REFERRAL_STAMP_DESCRIPTION_2"
+    },
+    {
+      "id": 21158,
+      "text": "[LC]本日のログインスタンプ報酬[LF][WIDTH608][LF][MARGIN16][LF][LC][NODE][MARGIN16][LF]%s",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_REFERRAL_STAMP"
+    },
+    {
+      "id": 21159,
+      "text": "[LC]ストライカー招待とは[LF][LF][TAB:招待する][CCB:dlme/help_referral_00][TAB:招待を受ける][CCB:dlme/help_referral_01]",
+      "layout": 53,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_REFERRAL_HELP2"
+    },
+    {
+      "id": 21160,
+      "text": "申請を承認できる期間を過ぎました[LF]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_REFERRAL_GUEST_ERR30410"
+    },
+    {
+      "id": 21161,
+      "text": "既に招待成立済です[LF]申請承認は1人のみ行えます[LF]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_REFERRAL_GUEST_ERR30411"
+    },
+    {
+      "id": 21162,
+      "text": "すでに承認依頼数が最大です[LF]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_REFERRAL_GUEST_ERR30412"
+    },
+    {
+      "id": 21163,
+      "text": "招待申請が受けられる条件を満たしていません[LF]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_REFERRAL_GUEST_ERR30413"
+    },
+    {
+      "id": 21164,
+      "text": "[LC]招待5人成立済[LF][LF]既に招待が5人成立しているため[LF]成立できません[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1774703477,
+      "label": "eTEXTS_DEF_MSG_REFERRAL_GUEST_ERR30414"
+    },
+    {
+      "id": 21165,
+      "text": "申請の有効期限が過ぎました[LF]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_REFERRAL_GUEST_ERR30415"
+    },
+    {
+      "id": 21166,
+      "text": "申請を受けることができる条件を満たしていません[LF]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_MSG_REFERRAL_ERR_URL_CONDITIONS_NOT_MET"
+    },
+    {
+      "id": 21167,
+      "text": "開催期間：%d/%d %d:%02d ～ %d/%d %d:%02d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_PERIOD_TEXT"
+    },
+    {
+      "id": 21168,
+      "text": "ガチャリドLab.",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_TITLE"
+    },
+    {
+      "id": 21169,
+      "text": "[LC]ガチャリドLab.とは[LF][LF][CCB:dlme/help_gacha_lidra_lab_00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_HELP"
+    },
+    {
+      "id": 21170,
+      "text": "召喚不可",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_GENERATE_UNAVAIL"
+    },
+    {
+      "id": 21171,
+      "text": "召喚できる上限に達しました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_GENERATE_ERROR_CHAR_MAX"
+    },
+    {
+      "id": 21172,
+      "text": "特典で召喚できる上限に達しました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_GENERATE_ERROR_MONPASS_CHAR_MAX"
+    },
+    {
+      "id": 21173,
+      "text": "同じ属性の召喚は5体までです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_GENERATE_ERROR_ATTRIBUTE_CHAR_MAX"
+    },
+    {
+      "id": 21174,
+      "text": "召喚に必要なエネルギーが足りません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_GENERATE_ERROR_ENERGY_NOT_ENOUGH"
+    },
+    {
+      "id": 21175,
+      "text": "所持エネルギー数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_PANEL_HOLDING_ENERGY_PT"
+    },
+    {
+      "id": 21176,
+      "text": "召喚キャラ数：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_PANEL_GENERATED_CHAR_RATE"
+    },
+    {
+      "id": 21177,
+      "text": "/%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_GAUGE_LABEL"
+    },
+    {
+      "id": 21178,
+      "text": "%d達成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_GAUGE_LABEL_MAX"
+    },
+    {
+      "id": 21179,
+      "text": "レアエネルギー発生率：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_RARE_RATE_LABEL"
+    },
+    {
+      "id": 21180,
+      "text": "[LC]レア確率アップ！[LF][LF]合計獲得エネルギーが溜まり[LF][C6:レアエネルギー発生率がアップ]しました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_RARE_RATE_UP_DIALOG"
+    },
+    {
+      "id": 21181,
+      "text": "発生エネルギー数：%d/%02d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_ENERGY_GENERATED_CNT_LABEL"
+    },
+    {
+      "id": 21182,
+      "text": "排出対象[C6:限定キャラ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_CHAR_GENERATE_PICKUP_LABEL"
+    },
+    {
+      "id": 21183,
+      "text": "召喚状況：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_CHAR_GENERATE_COUNT_LABEL"
+    },
+    {
+      "id": 21184,
+      "text": "必要エネルギー%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_GENERATE_BTN_HINT"
+    },
+    {
+      "id": 21185,
+      "text": "会員特典で[C6:残り%d体]召喚可能",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_GENERATE_BTN_MONPASS_HINT"
+    },
+    {
+      "id": 21186,
+      "text": "1体のみ受取可能",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_RECEIVE_BTN_HINT"
+    },
+    {
+      "id": 21187,
+      "text": "今月分はすでに受け取りました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_RECEIVED_LABEL"
+    },
+    {
+      "id": 21188,
+      "text": "[LC]属性確認[LF][LF][NODE][LF]上記の内容で召喚を行ってよろしいですか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_GENERATE_CONFIRM_DIALOG"
+    },
+    {
+      "id": 21189,
+      "text": "選択中の属性",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_GENERATE_DIALOG_SUBTITLE"
+    },
+    {
+      "id": 21190,
+      "text": "[LC]属性未選択[LF][LF]属性を選択して召喚を押してください",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_GENERATE_BTN_NONE"
+    },
+    {
+      "id": 21191,
+      "text": "[LC]キャラ未召喚[LF][LF]キャラの召喚をしてください",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_RECEIVE_NO_GENERATED_CHAR"
+    },
+    {
+      "id": 21192,
+      "text": "[LC]キャラ未選択[LF][LF]キャラを1体選択して[LF]受け取るを押してください",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_RECEIVE_NO_SELECTED_CHAR"
+    },
+    {
+      "id": 21193,
+      "text": "[LC]上限到達済み[LF][LF]キャラの召喚数が上限に達しているため[LF]召喚できません",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_GENERATE_REACHED_LIMIT"
+    },
+    {
+      "id": 21194,
+      "text": "[LC]受け取り済み[LF][LF]キャラの受け取りが完了しているため[LF]召喚できません",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_GENERATE_BTN_RECEIVED"
+    },
+    {
+      "id": 21195,
+      "text": "[LC][C2:◆◆ 注意 ◆◆][LF][LF][LC]%sを受け取りますか？[LF][LF][LC][NODE][LF]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_RECEIVE_CONFIRM_MAX"
+    },
+    {
+      "id": 21196,
+      "text": "[LC][C2:◆◆ 注意 ◆◆][LF][LF][LC]%sを受け取りますか？[LF][LC][NODE][LF]召喚可能数が上限に達していません[LF]受け取るとこれ以上召喚ができなくなります",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_RECEIVE_CONFIRM_NOTMAX"
+    },
+    {
+      "id": 21197,
+      "text": "[LC][C2:◆◆ 警告 ◆◆][LF][LF][LC]%sを受け取ります[LF][LC][NODE][LF]受け取り後のキャラ変更はできません[LF]本当によろしいですか？[LF]※受け取ったキャラはモンスターBOXに送られます",
+      "layout": 54,
+      "color": 1,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_RECEIVE_FINAL_CONFIRM"
+    },
+    {
+      "id": 21198,
+      "text": "モンスターBOXへ送りました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_RECEIVE_END_DIALOG"
+    },
+    {
+      "id": 21199,
+      "text": "ーー",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_ENERGY_CNT_ENDED"
+    },
+    {
+      "id": 21200,
+      "text": "使用済",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_MONPASS_DONE"
+    },
+    {
+      "id": 21201,
+      "text": "[LC]モンパス特典[LF][LF]モンパスに加入すると下記の特典が得られます[LF][LF]・キャラの召喚が12体まで可能に[LF]・属性エネルギーを消費せず2体召喚可能に",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_MONPASS_INFO"
+    },
+    {
+      "id": 21202,
+      "text": "限定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_LIST_LIMITED_TITLE"
+    },
+    {
+      "id": 21203,
+      "text": "所持数：%d/%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_LIST_HOLD_PERCENT"
+    },
+    {
+      "id": 21204,
+      "text": "[LC]モンストの日[LF][LF]各属性のエネルギーを[C6:%dずつ獲得]しました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_MONST_DAY_ENERGY_RECEIVE"
+    },
+    {
+      "id": 21205,
+      "text": "[LC]レア確率アップ！[LF][LF]合計獲得エネルギーが溜まり[LF][C6:レアエネルギー発生率がアップ]しました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_ENERGY_LEVELUP"
+    },
+    {
+      "id": 21206,
+      "text": "受取期間：%d/%d %d:%02d ～ %d/%d %d:%02d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_RECEIVE_PERIOD"
+    },
+    {
+      "id": 21207,
+      "text": "エネルギー生成待ち...",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_WAIT_ENERGY"
+    },
+    {
+      "id": 21208,
+      "text": "[LC]｢ガチャリドLab.｣詳細[LF][LF][BLOCK:[C5:期間]][LF]開催期間：%d月%d日 %d:%02d～%d月%d日 %d:%02d[LF]受取期間：%d月%d日 %d:%02d～%d月%d日 %d:%02d[LF][BLOCK_END][LF][BLOCK:[C5:本開催で排出対象の限定キャラクター]][LF][LC][IPLJ%d][IPLJ%d][LF][LF][LF][BLOCK_END][LF][BLOCK:[C5:排出されないキャラクター]][LF]※下記の限定キャラクターや、コラボキャラクター、[LF]期間限定キャラクターは、[LF][C2:対象外]のため排出されません。[LF][C2:※%d/%d/%d以降に追加される][LF][C2:新キャラクターは排出されません。][LF][C2:【火属性】][LF]%s[LF][C5:【水属性】][LF]%s[LF][C4:【木属性】][LF]%s[LF][C6:【光属性】][LF]%s[LF][C3:【闇属性】][LF]%s[BLOCK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1751539700,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_INFO_DIALOG"
+    },
+    {
+      "id": 21209,
+      "text": "%s",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LABO_INFO_DIALOG_WRAPPER"
+    },
+    {
+      "id": 21210,
+      "text": "満タン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LAB_HOMEICON_FULL"
+    },
+    {
+      "id": 21211,
+      "text": "--",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LAB_HOMEICON_ENDED"
+    },
+    {
+      "id": 21212,
+      "text": "未受取り",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LAB_HOMEICON_RECEVIVABLE"
+    },
+    {
+      "id": 21213,
+      "text": "エネルギー発生期間が終了しました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LAB_BUFFER_MSG"
+    },
+    {
+      "id": 21214,
+      "text": "これ以上エネルギーは発生しません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LAB_GENERATE_LIMIT_MSG"
+    },
+    {
+      "id": 21215,
+      "text": "これ以上エネルギーは発生しません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LAB_CHAR_RECEIVED_MSG"
+    },
+    {
+      "id": 21216,
+      "text": "ガチャリドLab.受取期限2日前の正午",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_ME_GACHA_LIDRA_LAB_NOTIFICATION_OPTION"
+    },
+    {
+      "id": 21217,
+      "text": "★5以上キャラがもらえるチャンス！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_ME_GACHA_LIDRA_LAB_NOTIFICATION_TITLE"
+    },
+    {
+      "id": 21218,
+      "text": "ガチャリドLab.で忘れずにキャラを受け取ろう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_ME_GACHA_LIDRA_LAB_NOTIFICATION_CONTENT"
+    },
+    {
+      "id": 21219,
+      "text": "[LC]通知設定[LF][LF][C6:キャラの受け取り期限は%d/%d %d:%02dまでです][LF]受け取り忘れ防止のため通知設定が可能です[LF15][LC][NODE][LF]※オプション画面でも設定変更できます[LF20][LC][NODE]次から表示しない",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_ME_GACHA_LIDRA_LAB_NOTIFICATION_HINT"
+    },
+    {
+      "id": 21220,
+      "text": "ガチャリドLab.受取期限2日前の正午",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_ME_GACHA_LIDRA_LAB_NOTIFICATION_CHECKBOX_LABEL"
+    },
+    {
+      "id": 21221,
+      "text": "今月分の開催期間になりました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LAB_NEW_EVENT_START"
+    },
+    {
+      "id": 21222,
+      "text": "[LC]キャラを召喚できる上限に達しました[LF][LF]召喚したキャラの中から１体だけ選択して獲得しましょう",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_LAB_MAX_GENERATE_DIALOG"
+    },
+    {
+      "id": 21223,
+      "text": "[SW0.72][C6:エネルギーを回収して好きな属性のキャラを召喚しよう]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54100"
+    },
+    {
+      "id": 21224,
+      "text": "[b:ba_help_gacha_lidra_lab_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54101"
+    },
+    {
+      "id": 21225,
+      "text": "[C6:属性エネルギー]を集めてキャラを召喚しましょう[LF]その中から[C6:1体だけ選んで獲得]することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54102"
+    },
+    {
+      "id": 21226,
+      "text": "[C5:エネルギーの集め方]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54103"
+    },
+    {
+      "id": 21227,
+      "text": "属性エネルギーは[C6:一定時間経過で発生]します[LF]満タンになる前に[C6:回収]しましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1757523461,
+      "label": "eTEXTS_DEF_54104"
+    },
+    {
+      "id": 21228,
+      "text": "エネルギー：[C6:一括回収]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54105"
+    },
+    {
+      "id": 21229,
+      "text": "エネルギー：[C6:収納]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54106"
+    },
+    {
+      "id": 21230,
+      "text": "また[C6:モンストの日]はガチャリドLab.を[LF]開くだけで[C6:属性エネルギー]が獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54107"
+    },
+    {
+      "id": 21231,
+      "text": "[C5:レアエネルギーについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54108"
+    },
+    {
+      "id": 21232,
+      "text": "エネルギーには[C6:通常より獲得量が大きい][LF][C6:レアエネルギー]があり、極稀に発生します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54109"
+    },
+    {
+      "id": 21233,
+      "text": "属性エネルギーを開催期間中に[C6:一定数集めると][LF]レアエネルギーの[C6:出現率がアップ]します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54110"
+    },
+    {
+      "id": 21234,
+      "text": "発生率：通常",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54111"
+    },
+    {
+      "id": 21235,
+      "text": "発生率：[C6:アップ中]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54112"
+    },
+    {
+      "id": 21236,
+      "text": "[C5:キャラの召喚について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54113"
+    },
+    {
+      "id": 21237,
+      "text": "集めた属性エネルギーを消費することで[LF][C6:好きな属性を選んで]キャラを召喚できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54114"
+    },
+    {
+      "id": 21238,
+      "text": "500",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54115"
+    },
+    {
+      "id": 21239,
+      "text": "[IPJ7900]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54116"
+    },
+    {
+      "id": 21240,
+      "text": "キャラの召喚は[C6:最大10体まで]、[LF]同じ属性のキャラは[C6:最大5体まで]召喚可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54117"
+    },
+    {
+      "id": 21241,
+      "text": "[IPJ6827]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54118"
+    },
+    {
+      "id": 21242,
+      "text": "[IPJ10560]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54119"
+    },
+    {
+      "id": 21243,
+      "text": "[IPJ11578]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54120"
+    },
+    {
+      "id": 21244,
+      "text": "[IPJ10143]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54121"
+    },
+    {
+      "id": 21245,
+      "text": "[C5:モンパス会員について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54122"
+    },
+    {
+      "id": 21246,
+      "text": "[C6:モンパス会員]は下記の特典が得られます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54123"
+    },
+    {
+      "id": 21247,
+      "text": "キャラの召喚が12体まで可能に",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54124"
+    },
+    {
+      "id": 21248,
+      "text": "属性エネルギーを消費せずに2体召喚可能に",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54125"
+    },
+    {
+      "id": 21249,
+      "text": "[IPJ11028]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54126"
+    },
+    {
+      "id": 21250,
+      "text": "[IPJ7567]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54127"
+    },
+    {
+      "id": 21251,
+      "text": "[C5:キャラの受け取り方]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54128"
+    },
+    {
+      "id": 21252,
+      "text": "召喚したキャラの中から[C6:1体だけ選択]して[LF]受け取ることが可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54129"
+    },
+    {
+      "id": 21253,
+      "text": "[C5:モン玉エネルギーについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54130"
+    },
+    {
+      "id": 21254,
+      "text": "[C6:キャラの召喚を1体]行うたびに[LF][C6:モン玉エネルギーが1つ]貯まります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54131"
+    },
+    {
+      "id": 21255,
+      "text": "1/50",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54132"
+    },
+    {
+      "id": 21256,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20250327_3.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54133"
+    },
+    {
+      "id": 21257,
+      "text": "[C6:友達を招待すると報酬をプレゼント！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_54600"
+    },
+    {
+      "id": 21258,
+      "text": "[b:ba_help_referral_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502599,
+      "updated_at": 1743502599,
+      "label": "eTEXTS_DEF_54601"
+    },
+    {
+      "id": 21259,
+      "text": "[C6:友達を招待]してモンストを一緒に楽しみましょう[LF][LF]新たに始めた人、お休みをしている人を誘って、[LF]招待成立するとお互い[C6:豪華報酬]が受け取れます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1774703477,
+      "label": "eTEXTS_DEF_54602"
+    },
+    {
+      "id": 21260,
+      "text": "[C5:招待申請の送り方について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54603"
+    },
+    {
+      "id": 21261,
+      "text": "URLで招待する",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54604"
+    },
+    {
+      "id": 21262,
+      "text": "あなたの[C6:招待URL]を友達に伝えて[LF]そこからモンストを起動してもらいましょう[LF]友達にあなたからの[C6:招待申請]が届きます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1774703477,
+      "label": "eTEXTS_DEF_54605"
+    },
+    {
+      "id": 21263,
+      "text": "URL / QRコード",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54606"
+    },
+    {
+      "id": 21264,
+      "text": "ID検索で招待する",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54607"
+    },
+    {
+      "id": 21265,
+      "text": "または友達に[C6:モンストのID]を教えてもらい[LF][C6:ID検索]することでも招待の申請が送れます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1774703477,
+      "label": "eTEXTS_DEF_54608"
+    },
+    {
+      "id": 21266,
+      "text": "IDを教える",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54609"
+    },
+    {
+      "id": 21267,
+      "text": "ID検索",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54610"
+    },
+    {
+      "id": 21268,
+      "text": "友達",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54611"
+    },
+    {
+      "id": 21269,
+      "text": "あなた",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54612"
+    },
+    {
+      "id": 21270,
+      "text": "ID検索",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54613"
+    },
+    {
+      "id": 21271,
+      "text": "[C5:招待を成立させるには]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54614"
+    },
+    {
+      "id": 21272,
+      "text": "友達があなたの[C6:招待申請を承認]することで、[LF]招待が成立し、[C6:お互い報酬が受け取れます]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1774703477,
+      "label": "eTEXTS_DEF_54615"
+    },
+    {
+      "id": 21273,
+      "text": "申請を承認",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54616"
+    },
+    {
+      "id": 21274,
+      "text": "[C6:招待成立！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54617"
+    },
+    {
+      "id": 21275,
+      "text": "[C6:報酬獲得]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54618"
+    },
+    {
+      "id": 21276,
+      "text": "友達",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54619"
+    },
+    {
+      "id": 21277,
+      "text": "[C5:招待申請を送れる対象について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54620"
+    },
+    {
+      "id": 21278,
+      "text": "招待申請は下記いずれかの状態の[LF]友達にのみ送ることができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1774703477,
+      "label": "eTEXTS_DEF_54621"
+    },
+    {
+      "id": 21279,
+      "text": "新人ストライカー",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54622"
+    },
+    {
+      "id": 21280,
+      "text": "[C6:新規登録後、3日以内]のプレイヤー[LF]※3日目は翌AM3:59までが対象",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54623"
+    },
+    {
+      "id": 21281,
+      "text": "復帰ストライカー",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54624"
+    },
+    {
+      "id": 21282,
+      "text": "[C6:最終プレイ99日前の状態を経て][LF][C6:ログインしてから3日以内]のプレイヤー[LF]※3日目は翌AM3:59までが対象",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54625"
+    },
+    {
+      "id": 21284,
+      "text": "[C5:報酬について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54627"
+    },
+    {
+      "id": 21285,
+      "text": "招待成立報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54628"
+    },
+    {
+      "id": 21286,
+      "text": "招待成立1人につき[C6:オーブ5個][LF]最大5人招待成立で[C6:オーブ計25個][LF]1人目の招待成立で[C6:招待感謝バッジ]獲得",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1774703477,
+      "label": "eTEXTS_DEF_54629"
+    },
+    {
+      "id": 21287,
+      "text": "更に、招待成立した人と[LF][C6:招待マルチミッション]が発生します[LF]ミッションクリアでさらに報酬を受け取れます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1774703477,
+      "label": "eTEXTS_DEF_54630"
+    },
+    {
+      "id": 21288,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20260328_4.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1774703477,
+      "label": "eTEXTS_DEF_54631"
+    },
+    {
+      "id": 21289,
+      "text": "[C6:招待を受けてお得にモンストを始めよう]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54700"
+    },
+    {
+      "id": 21290,
+      "text": "[b:ba_help_referral_01.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54701"
+    },
+    {
+      "id": 21291,
+      "text": "[C6:友達から招待]を受けてモンストを始めましょう[LF][C6:豪華報酬]を受け取ってお得にスタートが可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1774703477,
+      "label": "eTEXTS_DEF_54702"
+    },
+    {
+      "id": 21292,
+      "text": "[C5:招待を受ける条件について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54703"
+    },
+    {
+      "id": 21293,
+      "text": "招待を受けることが出来るのは[LF]下記いずれかのプレイヤーのみです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1774703477,
+      "label": "eTEXTS_DEF_54704"
+    },
+    {
+      "id": 21294,
+      "text": "新人ストライカー",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54705"
+    },
+    {
+      "id": 21295,
+      "text": "[C6:新規登録後、3日以内]のプレイヤー[LF]※3日目は翌AM3:59までが対象",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54706"
+    },
+    {
+      "id": 21296,
+      "text": "復帰ストライカー",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54707"
+    },
+    {
+      "id": 21297,
+      "text": "[C6:最終プレイ99日前の状態を経て][LF][C6:ログインしてから3日以内]のプレイヤー[LF]※3日目は翌AM3:59までが対象",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54708"
+    },
+    {
+      "id": 21298,
+      "text": "[C5:招待を受ける方法について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54709"
+    },
+    {
+      "id": 21299,
+      "text": "URLで招待してもらう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54710"
+    },
+    {
+      "id": 21300,
+      "text": "友達から[C6:招待URL]を送ってもらい[LF]そこからモンストを起動しましょう[LF][LF]※[C6:モンストインストール後]にURLから起動しましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1774703478,
+      "label": "eTEXTS_DEF_54711"
+    },
+    {
+      "id": 21301,
+      "text": "インストール",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54712"
+    },
+    {
+      "id": 21302,
+      "text": "[C6:招待URL]からモンストを起動",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54713"
+    },
+    {
+      "id": 21303,
+      "text": "ID検索で招待してもらう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54714"
+    },
+    {
+      "id": 21304,
+      "text": "または友達に[C6:あなたのID]を伝えて[LF][C6:招待申請]を送ってもらいましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1774703478,
+      "label": "eTEXTS_DEF_54715"
+    },
+    {
+      "id": 21305,
+      "text": "IDを教える",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54716"
+    },
+    {
+      "id": 21306,
+      "text": "あなた",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54717"
+    },
+    {
+      "id": 21307,
+      "text": "友達",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54718"
+    },
+    {
+      "id": 21308,
+      "text": "[C5:招待の承認について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54719"
+    },
+    {
+      "id": 21309,
+      "text": "招待の[C6:申請を承認]することで[C6:招待が成立]します[LF][LF]承認は[C6:1人分のみ可能]なため、[LF]複数の申請がある場合は、よく考えて承認しましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54720"
+    },
+    {
+      "id": 21310,
+      "text": "複数の申請",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54721"
+    },
+    {
+      "id": 21311,
+      "text": "[C6:1人承認]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54722"
+    },
+    {
+      "id": 21312,
+      "text": "[C6:招待成立]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54723"
+    },
+    {
+      "id": 21313,
+      "text": "※招待申請は[C6:24時間]経過すると消えます[LF]※表示される招待申請は[C6:最大5件]までです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54724"
+    },
+    {
+      "id": 21314,
+      "text": "[C5:報酬について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54725"
+    },
+    {
+      "id": 21315,
+      "text": "報酬は[C6:新人]と[C6:復帰]で異なります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54726"
+    },
+    {
+      "id": 21316,
+      "text": "新人ストライカー",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54727"
+    },
+    {
+      "id": 21317,
+      "text": "招待成立報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54728"
+    },
+    {
+      "id": 21318,
+      "text": "招待成立ログインスタンプで[LF][C6:毎日オーブ5個、最大でオーブ150個]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1743502600,
+      "label": "eTEXTS_DEF_54729"
+    },
+    {
+      "id": 21319,
+      "text": "復帰ストライカー",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1774703478,
+      "label": "eTEXTS_DEF_54730"
+    },
+    {
+      "id": 21320,
+      "text": "招待成立報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743502600,
+      "updated_at": 1774703478,
+      "label": "eTEXTS_DEF_54731"
+    }
+  ]
+}

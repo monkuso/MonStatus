@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "table": "pythagora_areas",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "pythagora_event_id": 1,
+      "name": "アドベンチャーエリア",
+      "open_at": 1677898800,
+      "ccb_id": 1,
+      "created_at": 1677838478,
+      "updated_at": 1677838478
+    },
+    {
+      "id": 2,
+      "pythagora_event_id": 1,
+      "name": "スイーツエリア",
+      "open_at": 1678071600,
+      "ccb_id": 2,
+      "created_at": 1677838478,
+      "updated_at": 1677838478
+    },
+    {
+      "id": 3,
+      "pythagora_event_id": 1,
+      "name": "ウエスタンエリア",
+      "open_at": 1678244400,
+      "ccb_id": 3,
+      "created_at": 1677838478,
+      "updated_at": 1677838478
+    },
+    {
+      "id": 4,
+      "pythagora_event_id": 1,
+      "name": "ホラーエリア",
+      "open_at": 1678417200,
+      "ccb_id": 4,
+      "created_at": 1677838478,
+      "updated_at": 1677838478
+    }
+  ]
+}

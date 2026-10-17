@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "table": "wonder_temporary_items",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "name": "攻撃力+3000、ライフ+2",
+      "icon_name": "wonder_in_medicine_1.png",
+      "type_id": 2001,
+      "value1": 3000,
+      "value2": 2,
+      "created_at": 1740662295,
+      "updated_at": 1740662295
+    },
+    {
+      "id": 2,
+      "name": "スピード+20km/h、ライフ+2",
+      "icon_name": "wonder_in_medicine_2.png",
+      "type_id": 2002,
+      "value1": 600,
+      "value2": 2,
+      "created_at": 1740662295,
+      "updated_at": 1740662295
+    },
+    {
+      "id": 3,
+      "name": "ライフ+5",
+      "icon_name": "wonder_in_medicine_3.png",
+      "type_id": 2003,
+      "value1": 5,
+      "value2": 0,
+      "created_at": 1740662295,
+      "updated_at": 1740662295
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "table": "journey_luck_bonus_configs",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "required_luck_count": 0,
+      "premium_treasure_rate": 50,
+      "created_at": 1779966270,
+      "updated_at": 1779966270
+    },
+    {
+      "id": 2,
+      "required_luck_count": 99,
+      "premium_treasure_rate": 100,
+      "created_at": 1779966270,
+      "updated_at": 1779966270
+    },
+    {
+      "id": 3,
+      "required_luck_count": 198,
+      "premium_treasure_rate": 150,
+      "created_at": 1779966270,
+      "updated_at": 1779966270
+    },
+    {
+      "id": 4,
+      "required_luck_count": 297,
+      "premium_treasure_rate": 200,
+      "created_at": 1779966270,
+      "updated_at": 1779966270
+    },
+    {
+      "id": 5,
+      "required_luck_count": 396,
+      "premium_treasure_rate": 250,
+      "created_at": 1779966270,
+      "updated_at": 1779966270
+    },
+    {
+      "id": 6,
+      "required_luck_count": 495,
+      "premium_treasure_rate": 300,
+      "created_at": 1779966270,
+      "updated_at": 1779966270
+    }
+  ]
+}

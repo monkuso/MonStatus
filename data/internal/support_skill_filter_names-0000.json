@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "table": "support_skill_filter_names",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "name": "ステータスアップ",
+      "filter_id": 1,
+      "created_at": 1710172867,
+      "updated_at": 1710172867
+    },
+    {
+      "id": 2,
+      "name": "ステータスダウン",
+      "filter_id": 2,
+      "created_at": 1710172867,
+      "updated_at": 1710172867
+    },
+    {
+      "id": 3,
+      "name": "ダメージアップ",
+      "filter_id": 11,
+      "created_at": 1710172867,
+      "updated_at": 1710172867
+    },
+    {
+      "id": 4,
+      "name": "ダメージダウン",
+      "filter_id": 12,
+      "created_at": 1710172867,
+      "updated_at": 1710172867
+    },
+    {
+      "id": 5,
+      "name": "回復",
+      "filter_id": 101,
+      "created_at": 1710172867,
+      "updated_at": 1710172867
+    },
+    {
+      "id": 6,
+      "name": "バリア付与",
+      "filter_id": 111,
+      "created_at": 1710172867,
+      "updated_at": 1710172867
+    },
+    {
+      "id": 7,
+      "name": "SSターン短縮",
+      "filter_id": 121,
+      "created_at": 1710172867,
+      "updated_at": 1710172867
+    },
+    {
+      "id": 8,
+      "name": "ダメージ",
+      "filter_id": 131,
+      "created_at": 1710172867,
+      "updated_at": 1710172867
+    },
+    {
+      "id": 9,
+      "name": "マヒ",
+      "filter_id": 141,
+      "created_at": 1710172867,
+      "updated_at": 1710172867
+    },
+    {
+      "id": 10,
+      "name": "睡眠",
+      "filter_id": 146,
+      "created_at": 1710172867,
+      "updated_at": 1786550608
+    },
+    {
+      "id": 11,
+      "name": "毒",
+      "filter_id": 151,
+      "created_at": 1710172867,
+      "updated_at": 1786550608
+    },
+    {
+      "id": 12,
+      "name": "攻撃ターン増加",
+      "filter_id": 161,
+      "created_at": 1710172867,
+      "updated_at": 1786550608
+    },
+    {
+      "id": 13,
+      "name": "弱点倍率アップ",
+      "filter_id": 171,
+      "created_at": 1718036474,
+      "updated_at": 1786550608
+    },
+    {
+      "id": 14,
+      "name": "アイテム成長",
+      "filter_id": 181,
+      "created_at": 1786550608,
+      "updated_at": 1786550608
+    }
+  ]
+}

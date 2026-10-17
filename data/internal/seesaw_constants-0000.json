@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "table": "seesaw_constants",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "key": "ITEM_POP_INTERVAL_LOWER",
+      "value": 15000,
+      "downloadable": 1,
+      "created_at": 1723121722,
+      "updated_at": 1723121722
+    },
+    {
+      "id": 2,
+      "key": "ITEM_POP_INTERVAL_UPPER",
+      "value": 30000,
+      "downloadable": 1,
+      "created_at": 1723121722,
+      "updated_at": 1723121722
+    },
+    {
+      "id": 3,
+      "key": "ITEM_RANK_THRESHOLD",
+      "value": 6,
+      "downloadable": 1,
+      "created_at": 1723121722,
+      "updated_at": 1723121722
+    },
+    {
+      "id": 4,
+      "key": "FREE_MODE_GAME_START_TIMER",
+      "value": 60000,
+      "downloadable": 1,
+      "created_at": 1723121722,
+      "updated_at": 1729527337
+    },
+    {
+      "id": 5,
+      "key": "BATTLE_MODE_GAME_START_TIMER",
+      "value": 60000,
+      "downloadable": 1,
+      "created_at": 1723121722,
+      "updated_at": 1729527337
+    },
+    {
+      "id": 11,
+      "key": "DEAD_WAIT_COUNT",
+      "value": 10000,
+      "downloadable": 1,
+      "created_at": 1723121722,
+      "updated_at": 1723121722
+    },
+    {
+      "id": 30,
+      "key": "USER_WEBSOCKET_TIMEOUT",
+      "value": 10000,
+      "downloadable": 1,
+      "created_at": 1723121722,
+      "updated_at": 1723121722
+    },
+    {
+      "id": 31,
+      "key": "USER_DISCONNECTED_TIME",
+      "value": 10000,
+      "downloadable": 1,
+      "created_at": 1723121722,
+      "updated_at": 1723121722
+    },
+    {
+      "id": 32,
+      "key": "SEESAW_ENABLE_SSL",
+      "value": 1,
+      "downloadable": 1,
+      "created_at": 1723121722,
+      "updated_at": 1723121722
+    },
+    {
+      "id": 34,
+      "key": "USER_DISCONNECTED_TIME_READY",
+      "value": 15000,
+      "downloadable": 1,
+      "created_at": 1723121722,
+      "updated_at": 1723121722
+    },
+    {
+      "id": 36,
+      "key": "RATE_OF_SEESAW_COIN_RATE_CHANGE_ITEM",
+      "value": 300,
+      "downloadable": 1,
+      "created_at": 1729527337,
+      "updated_at": 1729527337
+    },
+    {
+      "id": 37,
+      "key": "SEESAW_ITEM_TELOP_READY_TIME",
+      "value": 300,
+      "downloadable": 1,
+      "created_at": 1729527337,
+      "updated_at": 1729527337
+    },
+    {
+      "id": 38,
+      "key": "SEESAW_ITEM_INPUT_LOCK_TIME",
+      "value": 300,
+      "downloadable": 1,
+      "created_at": 1729527337,
+      "updated_at": 1729527337
+    },
+    {
+      "id": 39,
+      "key": "INTERVAL_HOUR_OF_HELP_DECK_COIN_RATE_CHANGE",
+      "value": 1,
+      "downloadable": 1,
+      "created_at": 1729527337,
+      "updated_at": 1729527337
+    },
+    {
+      "id": 40,
+      "key": "ONEDAY_PLAY_BONUS_RATE",
+      "value": 300,
+      "downloadable": 1,
+      "created_at": 1762796544,
+      "updated_at": 1762796544
+    }
+  ]
+}

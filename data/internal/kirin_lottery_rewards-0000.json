@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "table": "kirin_lottery_rewards",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "kirin_lottery_event_id": 1,
+      "reward_group": 1,
+      "jackpot": true,
+      "item_id": 77,
+      "cnt": 1,
+      "created_at": 1773914132,
+      "updated_at": 1773914132
+    },
+    {
+      "id": 2,
+      "kirin_lottery_event_id": 1,
+      "reward_group": 1,
+      "jackpot": false,
+      "item_id": 47,
+      "cnt": 1,
+      "created_at": 1773914132,
+      "updated_at": 1773914132
+    },
+    {
+      "id": 3,
+      "kirin_lottery_event_id": 1,
+      "reward_group": 1,
+      "jackpot": false,
+      "item_id": 35,
+      "cnt": 1,
+      "created_at": 1773914132,
+      "updated_at": 1773914132
+    },
+    {
+      "id": 4,
+      "kirin_lottery_event_id": 1,
+      "reward_group": 1,
+      "jackpot": false,
+      "item_id": 42,
+      "cnt": 1,
+      "created_at": 1773914132,
+      "updated_at": 1773914132
+    },
+    {
+      "id": 5,
+      "kirin_lottery_event_id": 1,
+      "reward_group": 1,
+      "jackpot": false,
+      "item_id": 41,
+      "cnt": 1,
+      "created_at": 1773914132,
+      "updated_at": 1773914132
+    },
+    {
+      "id": 6,
+      "kirin_lottery_event_id": 1,
+      "reward_group": 2,
+      "jackpot": true,
+      "item_id": 1,
+      "cnt": 1,
+      "created_at": 1773914132,
+      "updated_at": 1773914132
+    },
+    {
+      "id": 7,
+      "kirin_lottery_event_id": 1,
+      "reward_group": 2,
+      "jackpot": false,
+      "item_id": 19,
+      "cnt": 2000,
+      "created_at": 1773914132,
+      "updated_at": 1773914132
+    },
+    {
+      "id": 8,
+      "kirin_lottery_event_id": 1,
+      "reward_group": 2,
+      "jackpot": false,
+      "item_id": 19,
+      "cnt": 1000,
+      "created_at": 1773914132,
+      "updated_at": 1773914132
+    },
+    {
+      "id": 9,
+      "kirin_lottery_event_id": 1,
+      "reward_group": 2,
+      "jackpot": false,
+      "item_id": 19,
+      "cnt": 1000,
+      "created_at": 1773914132,
+      "updated_at": 1773914132
+    },
+    {
+      "id": 10,
+      "kirin_lottery_event_id": 1,
+      "reward_group": 2,
+      "jackpot": false,
+      "item_id": 19,
+      "cnt": 500,
+      "created_at": 1773914132,
+      "updated_at": 1773914132
+    }
+  ]
+}

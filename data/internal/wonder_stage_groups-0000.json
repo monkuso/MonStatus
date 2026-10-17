@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "table": "wonder_stage_groups",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "wonder_event_id": 1,
+      "stage_group_id": 983000,
+      "battle_order": 1,
+      "created_at": 1740662294,
+      "updated_at": 1740662294
+    },
+    {
+      "id": 2,
+      "wonder_event_id": 1,
+      "stage_group_id": 983010,
+      "battle_order": 2,
+      "created_at": 1740662294,
+      "updated_at": 1740662294
+    },
+    {
+      "id": 3,
+      "wonder_event_id": 1,
+      "stage_group_id": 983020,
+      "battle_order": 3,
+      "created_at": 1740662294,
+      "updated_at": 1740662294
+    },
+    {
+      "id": 4,
+      "wonder_event_id": 1,
+      "stage_group_id": 983030,
+      "battle_order": 4,
+      "created_at": 1740662294,
+      "updated_at": 1740662294
+    }
+  ]
+}

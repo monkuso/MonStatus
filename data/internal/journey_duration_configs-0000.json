@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "table": "journey_duration_configs",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "luck_threshold": 1,
+      "duration_hours": 48,
+      "treasure_count": 3,
+      "lucky_rate": 50,
+      "created_at": 1779966270,
+      "updated_at": 1779966270
+    },
+    {
+      "id": 2,
+      "luck_threshold": 99,
+      "duration_hours": 44,
+      "treasure_count": 4,
+      "lucky_rate": 60,
+      "created_at": 1779966270,
+      "updated_at": 1779966270
+    },
+    {
+      "id": 3,
+      "luck_threshold": 198,
+      "duration_hours": 40,
+      "treasure_count": 6,
+      "lucky_rate": 70,
+      "created_at": 1779966270,
+      "updated_at": 1779966270
+    },
+    {
+      "id": 4,
+      "luck_threshold": 297,
+      "duration_hours": 36,
+      "treasure_count": 8,
+      "lucky_rate": 80,
+      "created_at": 1779966270,
+      "updated_at": 1779966270
+    },
+    {
+      "id": 5,
+      "luck_threshold": 396,
+      "duration_hours": 24,
+      "treasure_count": 10,
+      "lucky_rate": 100,
+      "created_at": 1779966270,
+      "updated_at": 1779966270
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "table": "badge_groups",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "type_id": 0,
+      "sort_id": 1,
+      "name": "ランク勲章",
+      "created_at": 1691423632,
+      "updated_at": 1747754671
+    },
+    {
+      "id": 2,
+      "type_id": 0,
+      "sort_id": 2,
+      "name": "ストライカーレコード勲章",
+      "created_at": 1691423632,
+      "updated_at": 1747754671
+    },
+    {
+      "id": 3,
+      "type_id": 1,
+      "sort_id": 3,
+      "name": "ラックMAXモンスター勲章",
+      "created_at": 1691423632,
+      "updated_at": 1747754671
+    },
+    {
+      "id": 4,
+      "type_id": 0,
+      "sort_id": 4,
+      "name": "運極数勲章",
+      "created_at": 1691423632,
+      "updated_at": 1747754671
+    },
+    {
+      "id": 5,
+      "type_id": 4,
+      "sort_id": 5,
+      "name": "轟傑勲章",
+      "created_at": 1691423632,
+      "updated_at": 1691423632
+    },
+    {
+      "id": 6,
+      "type_id": 0,
+      "sort_id": 6,
+      "name": "黎絶勲章",
+      "created_at": 1691423632,
+      "updated_at": 1747754671
+    },
+    {
+      "id": 7,
+      "type_id": 0,
+      "sort_id": 7,
+      "name": "スクランブルユニバース勲章",
+      "created_at": 1691423632,
+      "updated_at": 1747754671
+    },
+    {
+      "id": 8,
+      "type_id": 3,
+      "sort_id": 8,
+      "name": "スペシャル勲章",
+      "created_at": 1691423632,
+      "updated_at": 1747754671
+    },
+    {
+      "id": 9,
+      "type_id": 0,
+      "sort_id": 9,
+      "name": "コラボ勲章",
+      "created_at": 1691423632,
+      "updated_at": 1747754671
+    },
+    {
+      "id": 10,
+      "type_id": 2,
+      "sort_id": 10,
+      "name": "コラボスターターパックモンスター勲章",
+      "created_at": 1691423632,
+      "updated_at": 1747754671
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "table": "one_hand_shot_king_stage_groups",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "one_hand_shot_king_group_id": 1,
+      "stage_group_id": 850960,
+      "mode": 1,
+      "normal_point": 1,
+      "perfect_clear_bonus_point": 0,
+      "battle_point_1": 0,
+      "battle_point_2": 0,
+      "battle_point_3": 0,
+      "battle_point_4": 0,
+      "created_at": 1665740320,
+      "updated_at": 1665740320
+    },
+    {
+      "id": 2,
+      "one_hand_shot_king_group_id": 1,
+      "stage_group_id": 850970,
+      "mode": 2,
+      "normal_point": 0,
+      "perfect_clear_bonus_point": 0,
+      "battle_point_1": 8,
+      "battle_point_2": 6,
+      "battle_point_3": 5,
+      "battle_point_4": 4,
+      "created_at": 1665740320,
+      "updated_at": 1665740320
+    },
+    {
+      "id": 3,
+      "one_hand_shot_king_group_id": 2,
+      "stage_group_id": 851190,
+      "mode": 1,
+      "normal_point": 1,
+      "perfect_clear_bonus_point": 3,
+      "battle_point_1": 0,
+      "battle_point_2": 0,
+      "battle_point_3": 0,
+      "battle_point_4": 0,
+      "created_at": 1692267365,
+      "updated_at": 1692267365
+    },
+    {
+      "id": 4,
+      "one_hand_shot_king_group_id": 2,
+      "stage_group_id": 851200,
+      "mode": 2,
+      "normal_point": 0,
+      "perfect_clear_bonus_point": 0,
+      "battle_point_1": 20,
+      "battle_point_2": 15,
+      "battle_point_3": 12,
+      "battle_point_4": 10,
+      "created_at": 1692267365,
+      "updated_at": 1692267365
+    }
+  ]
+}

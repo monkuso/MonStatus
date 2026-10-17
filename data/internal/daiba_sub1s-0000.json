@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "table": "daiba_sub1s",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "name": "フィリノソマ",
+      "daiba_sub1_group_id": 1,
+      "appear_order_id": 1,
+      "box_item_id": 10090069,
+      "stage_group_id": null,
+      "image_file_name": "daiba_sub1_evil1.png",
+      "bk_file_name": "daiba_sub1_bg1.png",
+      "created_at": 1718272997,
+      "updated_at": 1718272997
+    },
+    {
+      "id": 2,
+      "name": "トリコネフィラ",
+      "daiba_sub1_group_id": 1,
+      "appear_order_id": 2,
+      "box_item_id": 10090070,
+      "stage_group_id": null,
+      "image_file_name": "daiba_sub1_evil2.png",
+      "bk_file_name": "daiba_sub1_bg2.png",
+      "created_at": 1718272997,
+      "updated_at": 1718272997
+    },
+    {
+      "id": 3,
+      "name": "プリミジニウス",
+      "daiba_sub1_group_id": 1,
+      "appear_order_id": 3,
+      "box_item_id": 10090071,
+      "stage_group_id": null,
+      "image_file_name": "daiba_sub1_evil3.png",
+      "bk_file_name": "daiba_sub1_bg1.png",
+      "created_at": 1718272997,
+      "updated_at": 1718272997
+    },
+    {
+      "id": 4,
+      "name": "ミクソガステロ",
+      "daiba_sub1_group_id": 1,
+      "appear_order_id": 4,
+      "box_item_id": 10090072,
+      "stage_group_id": null,
+      "image_file_name": "daiba_sub1_evil4.png",
+      "bk_file_name": "daiba_sub1_bg3.png",
+      "created_at": 1718272997,
+      "updated_at": 1718272997
+    },
+    {
+      "id": 5,
+      "name": "プレオンダクティル",
+      "daiba_sub1_group_id": 1,
+      "appear_order_id": 5,
+      "box_item_id": 10090073,
+      "stage_group_id": null,
+      "image_file_name": "daiba_sub1_evil5.png",
+      "bk_file_name": "daiba_sub1_bg3.png",
+      "created_at": 1718272997,
+      "updated_at": 1718272997
+    },
+    {
+      "id": 6,
+      "name": "再生後プリミジニウス",
+      "daiba_sub1_group_id": 2,
+      "appear_order_id": 6,
+      "box_item_id": 10090074,
+      "stage_group_id": null,
+      "image_file_name": "daiba_sub1_evil6.png",
+      "bk_file_name": "daiba_sub1_bg1.png",
+      "created_at": 1718876313,
+      "updated_at": 1718876313
+    },
+    {
+      "id": 7,
+      "name": "怪獣９号",
+      "daiba_sub1_group_id": 2,
+      "appear_order_id": 7,
+      "box_item_id": 10090075,
+      "stage_group_id": null,
+      "image_file_name": "daiba_sub1_evil7.png",
+      "bk_file_name": "daiba_sub1_bg3.png",
+      "created_at": 1718876313,
+      "updated_at": 1718876313
+    },
+    {
+      "id": 8,
+      "name": "怪獣１０号",
+      "daiba_sub1_group_id": 3,
+      "appear_order_id": 8,
+      "box_item_id": 10090076,
+      "stage_group_id": 0,
+      "image_file_name": "daiba_sub1_evil8.png",
+      "bk_file_name": "daiba_sub1_bg3.png",
+      "created_at": 1719478927,
+      "updated_at": 1719478927
+    }
+  ]
+}

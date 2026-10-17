@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "table": "rain_characters",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "rain_event_id": 1,
+      "group_id": 1,
+      "order_id": 0,
+      "name": "黒澤ルビィ",
+      "texture_name": "rain_button_1_1.png",
+      "created_at": 1624529750,
+      "updated_at": 1624529750
+    },
+    {
+      "id": 2,
+      "rain_event_id": 1,
+      "group_id": 1,
+      "order_id": 1,
+      "name": "津島善子",
+      "texture_name": "rain_button_1_2.png",
+      "created_at": 1624529750,
+      "updated_at": 1624529750
+    },
+    {
+      "id": 3,
+      "rain_event_id": 1,
+      "group_id": 1,
+      "order_id": 2,
+      "name": "国木田花丸",
+      "texture_name": "rain_button_1_3.png",
+      "created_at": 1624529750,
+      "updated_at": 1624529750
+    },
+    {
+      "id": 4,
+      "rain_event_id": 1,
+      "group_id": 2,
+      "order_id": 3,
+      "name": "渡辺 曜",
+      "texture_name": "rain_button_2_1.png",
+      "created_at": 1624529750,
+      "updated_at": 1624529750
+    },
+    {
+      "id": 5,
+      "rain_event_id": 1,
+      "group_id": 2,
+      "order_id": 4,
+      "name": "高海千歌",
+      "texture_name": "rain_button_2_2.png",
+      "created_at": 1624529750,
+      "updated_at": 1624529750
+    },
+    {
+      "id": 6,
+      "rain_event_id": 1,
+      "group_id": 2,
+      "order_id": 5,
+      "name": "桜内梨子",
+      "texture_name": "rain_button_2_3.png",
+      "created_at": 1624529750,
+      "updated_at": 1624529750
+    },
+    {
+      "id": 7,
+      "rain_event_id": 1,
+      "group_id": 3,
+      "order_id": 6,
+      "name": "松浦果南",
+      "texture_name": "rain_button_3_1.png",
+      "created_at": 1624529750,
+      "updated_at": 1624529750
+    },
+    {
+      "id": 8,
+      "rain_event_id": 1,
+      "group_id": 3,
+      "order_id": 7,
+      "name": "黒澤ダイヤ",
+      "texture_name": "rain_button_3_2.png",
+      "created_at": 1624529750,
+      "updated_at": 1624529750
+    },
+    {
+      "id": 9,
+      "rain_event_id": 1,
+      "group_id": 3,
+      "order_id": 8,
+      "name": "小原鞠莉",
+      "texture_name": "rain_button_3_3.png",
+      "created_at": 1624529750,
+      "updated_at": 1624529750
+    }
+  ]
+}

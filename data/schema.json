@@ -1,0 +1,8148 @@
+{
+  "chars": [
+    "adding_attack",
+    "adding_hp",
+    "adding_power",
+    "assist_gem_max",
+    "attack",
+    "attack_max",
+    "attribute_id",
+    "auto_combine_opts",
+    "char_ability_id",
+    "char_type_id",
+    "collection_enable_at",
+    "created_at",
+    "dieout_voice_id",
+    "drop_id",
+    "drop_rate_max",
+    "enemy_ext_flag",
+    "enhanced_strike_shot_id",
+    "entry_stage_group_id",
+    "escape_voice_id",
+    "experience",
+    "extend_assist_gem_max",
+    "extend_attack_max",
+    "extend_hp_max",
+    "extend_power_max",
+    "extend_total_max",
+    "fight_type",
+    "gem_max",
+    "gender",
+    "growth_type",
+    "hit_type",
+    "hp",
+    "hp_as_enemy",
+    "hp_max",
+    "hp_max_as_enemy",
+    "id",
+    "level_max",
+    "luck_skill_id",
+    "name",
+    "power",
+    "power_max",
+    "price",
+    "rarity",
+    "rt_egg_id1",
+    "rt_egg_id2",
+    "rt_egg_id3",
+    "secret_power_type_id",
+    "shot_gauge1",
+    "shot_gauge2",
+    "shot_gauge3",
+    "shot_gauge4",
+    "shot_gauge_margin",
+    "shot_gauge_speed",
+    "shot_skill_id",
+    "size_id",
+    "skin_id",
+    "sort_id",
+    "species_id",
+    "strike_shot_id",
+    "time_limited",
+    "updated_at",
+    "virtual_char_id",
+    "voice_id"
+  ],
+  "game_constants": [
+    "created_at",
+    "id",
+    "name",
+    "updated_at",
+    "value"
+  ],
+  "char_evolutions": [
+    "achievement_id",
+    "achievement_type",
+    "cannot_dialog",
+    "cannot_text",
+    "char_evolution_items",
+    "char_id",
+    "created_at",
+    "enable_warning",
+    "game_point",
+    "id",
+    "items",
+    "prev_char_id",
+    "start_at",
+    "updated_at"
+  ],
+  "strike_shots": [
+    "attribute_id",
+    "created_at",
+    "description",
+    "id",
+    "name",
+    "require_cnt",
+    "strike_shot_type_id",
+    "strike_shot_values",
+    "updated_at",
+    "values"
+  ],
+  "stage_bonuss": [
+    "cnt",
+    "created_at",
+    "extend_template_id",
+    "id",
+    "item_id",
+    "rate",
+    "stage_id",
+    "updated_at"
+  ],
+  "stage_phases": [
+    "background_effect_id",
+    "created_at",
+    "enemy_max",
+    "id",
+    "phase_ext_flag",
+    "skip_rate",
+    "stage_ground_effect_id",
+    "stage_id",
+    "updated_at"
+  ],
+  "stage_phase_layouts": [
+    "id",
+    "param",
+    "range",
+    "stage_phase_id",
+    "type_id",
+    "x",
+    "y"
+  ],
+  "stage_phase_blocks": [
+    "created_at",
+    "id",
+    "loop_turn",
+    "on_flag",
+    "stage_phase_id",
+    "type_id",
+    "updated_at",
+    "val0",
+    "val1",
+    "x",
+    "x_fin",
+    "y",
+    "y_fin"
+  ],
+  "stage_groups": [
+    "attribute_id",
+    "banner_file_name",
+    "bgm_id",
+    "boss_change_hp",
+    "boss_skin_id",
+    "complete_bonus_item_cnt",
+    "complete_bonus_item_id",
+    "created_at",
+    "drop_id",
+    "enable_condition_id",
+    "enable_playable_time",
+    "end_at",
+    "event_kind_id",
+    "event_text_id",
+    "ext_flag",
+    "ext_flag_2",
+    "id",
+    "invalid_quest_drop_info",
+    "name",
+    "released_at",
+    "request_item_cnt",
+    "request_item_id",
+    "required_rank",
+    "skin_timeline_name",
+    "sort_id",
+    "stage_class_id",
+    "stage_class_sub_id",
+    "start_at",
+    "test_flag",
+    "turn_skip_time",
+    "ui_group_id",
+    "updated_at",
+    "view_texts_id"
+  ],
+  "stages": [
+    "achievement_id",
+    "alias_stage_id",
+    "allowed_boost_item_flag",
+    "assault_bonus_id",
+    "attribute_id",
+    "bg_x",
+    "bgm_id",
+    "bonus_sp_cnt",
+    "bonus_sp_item_id",
+    "bonus_sp_rate",
+    "bonus_turn",
+    "boost_item_category_id",
+    "boss_change_hp",
+    "boss_entry_phase",
+    "boss_hp_bar0",
+    "boss_hp_bar1",
+    "boss_hp_bar2",
+    "boss_loop_phase",
+    "boss_num",
+    "boss_zap_phase",
+    "charball_attribute_rate",
+    "clear_bonus_char_id",
+    "clear_bonus_group_id",
+    "cost",
+    "cost_type_id",
+    "created_at",
+    "difficulty",
+    "double_treasure_box_item_available",
+    "enemy_attribute_rate",
+    "enemy_level_base",
+    "enemy_level_group",
+    "event_id",
+    "experience",
+    "ext_flag",
+    "ext_flag_array",
+    "extra_stage2_id",
+    "extra_stage2_weight",
+    "extra_stage3_id",
+    "extra_stage3_weight",
+    "extra_stage_cond",
+    "extra_stage_id",
+    "extra_stage_weight",
+    "field_effect_value",
+    "field_item_group_id",
+    "friend_achievement_point",
+    "id",
+    "img_id",
+    "name",
+    "one_more_dice_available",
+    "phase_intrusion_rate",
+    "rt_bcoin_incidence",
+    "rt_bcoin_max",
+    "rt_boss_drop_cnt",
+    "rt_coin_incidence",
+    "rt_coin_value",
+    "rt_egg1_incidence",
+    "rt_egg2_incidence",
+    "rt_egg3_incidence",
+    "rt_egg_id1",
+    "rt_egg_id2",
+    "rt_egg_id3",
+    "rt_egg_incidence",
+    "rt_egg_max",
+    "rt_evo1_incidence",
+    "rt_evo1_max",
+    "rt_evo2_incidence",
+    "rt_evo2_max",
+    "rt_evo3_incidence",
+    "rt_evo3_max",
+    "rt_gem_incidence",
+    "rt_object_base",
+    "rt_object_max",
+    "rt_rare_incidence",
+    "rt_rare_max",
+    "rt_required_point",
+    "rt_self_drop_rate_client",
+    "rt_self_drop_rate_server",
+    "salvaged_stage_reward_id",
+    "score_bonus_group_id",
+    "speed_clear_sp_item_cnt",
+    "speed_clear_sp_item_id",
+    "stage_group_id",
+    "updated_at",
+    "wall_id"
+  ],
+  "field_items": [
+    "created_at",
+    "effect_id",
+    "evolution_id",
+    "evolution_turn",
+    "group_id",
+    "id",
+    "img_id",
+    "incidence",
+    "updated_at",
+    "value"
+  ],
+  "enemy_level_adjusts": [
+    "base",
+    "created_at",
+    "group_id",
+    "id",
+    "level_ratio",
+    "updated_at"
+  ],
+  "gacha_groups": [
+    "additions_cnt",
+    "button_footer_text",
+    "category_id",
+    "context_group_id",
+    "cost_cnt",
+    "cost_item_id",
+    "created_at",
+    "description",
+    "enable",
+    "enable_condition_id",
+    "enable_count",
+    "footer_title",
+    "gacha_icon_group_id",
+    "gacha_omake_box_icon_name",
+    "gacha_omake_box_id",
+    "gacha_point",
+    "gacha_point_selectable_group_id",
+    "gacha_result",
+    "gacha_special_cnt",
+    "header_title",
+    "id",
+    "image_id",
+    "is_allow_auto_combine",
+    "name",
+    "output_cnt",
+    "parent_group_id",
+    "popup_url",
+    "previous_step_gacha_group_id",
+    "priority",
+    "purchase_item_id",
+    "rarity_max",
+    "rarity_min",
+    "request_rank",
+    "require_previous_step_cnt",
+    "required_gacha_group_id",
+    "result_effect_skippable",
+    "selectable_weight_sum",
+    "type_id",
+    "ui_category_id",
+    "updated_at"
+  ],
+  "gachas": [
+    "char_id",
+    "gacha_group_id",
+    "id",
+    "selectable_category_id",
+    "selectable_default",
+    "selectable_group_id"
+  ],
+  "item_in_apps": [
+    "cnt",
+    "cnt_in_free",
+    "created_at",
+    "description",
+    "display_type",
+    "icon_item_id",
+    "id",
+    "item_id",
+    "name",
+    "normalized_price",
+    "platform_id",
+    "price",
+    "price_type",
+    "product_id",
+    "purchase_item_id",
+    "sort_id",
+    "updated_at",
+    "visible",
+    "webshop_overwrite_id",
+    "webshop_special_note",
+    "webshop_url"
+  ],
+  "char_enemy_attacks": [
+    "attack_cancel_hp",
+    "char_id",
+    "created_at",
+    "fire_pos_x",
+    "fire_pos_y",
+    "first_attack_turn",
+    "flag",
+    "group_id",
+    "id",
+    "rate",
+    "skill_id",
+    "turn",
+    "turn_pos_x",
+    "turn_pos_y",
+    "type_id",
+    "updated_at",
+    "value_ext",
+    "values"
+  ],
+  "char_enemy_collisions": [
+    "char_id",
+    "created_at",
+    "damage_rate",
+    "flag",
+    "group_id",
+    "id",
+    "pos_x",
+    "pos_y",
+    "radius",
+    "updated_at"
+  ],
+  "char_skills": [
+    "attribute_id",
+    "char_id",
+    "char_skill_values",
+    "created_at",
+    "description",
+    "id",
+    "name",
+    "skill_id",
+    "skill_pattern_id",
+    "sort_id",
+    "sort_image_id",
+    "updated_at",
+    "value_ext",
+    "values"
+  ],
+  "ranks": [
+    "created_at",
+    "experience",
+    "id",
+    "max_archive_stage_points",
+    "max_friends",
+    "max_stamina",
+    "rank",
+    "updated_at"
+  ],
+  "levels": [
+    "created_at",
+    "experience",
+    "growth_type",
+    "id",
+    "level",
+    "updated_at"
+  ],
+  "items": [
+    "category_id",
+    "created_at",
+    "description",
+    "end_at",
+    "id",
+    "image_name",
+    "is_one_off",
+    "max_cnt",
+    "name",
+    "record_sort_id",
+    "type",
+    "unit_name",
+    "updated_at",
+    "visible"
+  ],
+  "notifies": [
+    "api_name",
+    "created_at",
+    "id",
+    "updated_at"
+  ],
+  "menus": [
+    "campaign_id",
+    "color",
+    "created_at",
+    "enabled",
+    "end_at",
+    "exec_param",
+    "exec_type",
+    "id",
+    "image_name",
+    "page",
+    "parent_id",
+    "platform_mask",
+    "start_at",
+    "sub_text",
+    "text",
+    "updated_at"
+  ],
+  "char_mutations": [
+    "achievement_id",
+    "achievement_type",
+    "cannot_dialog",
+    "cannot_text",
+    "char_id",
+    "char_id1",
+    "char_id2",
+    "char_id3",
+    "char_id4",
+    "char_id5",
+    "char_mutation_items",
+    "created_at",
+    "default_flag",
+    "enable_warning",
+    "force_mutable",
+    "game_point",
+    "id",
+    "level",
+    "next_char_id",
+    "request_drop_rate1",
+    "request_drop_rate2",
+    "request_drop_rate3",
+    "request_drop_rate4",
+    "request_drop_rate5",
+    "request_drop_rate_source",
+    "start_at",
+    "updated_at"
+  ],
+  "char_efficacious": [
+    "char_id",
+    "created_at",
+    "id",
+    "name_id",
+    "shot_gauge_level",
+    "target_id",
+    "type_id",
+    "updated_at",
+    "value"
+  ],
+  "char_extend_templates": [
+    "assist_gem_group_id",
+    "connect_skill_liberated",
+    "created_at",
+    "evolved_fight_type",
+    "extend_attack",
+    "extend_drop_rate",
+    "extend_hp",
+    "extend_power",
+    "gem_unlocked_cnt",
+    "id",
+    "level",
+    "release_level_id",
+    "updated_at"
+  ],
+  "shop_items": [
+    "category_id",
+    "char_extend_template_id",
+    "cost_cnt",
+    "cost_item_id",
+    "created_at",
+    "enable",
+    "enable_auto_exchange",
+    "end_at",
+    "icon_item_id",
+    "id",
+    "interval",
+    "interval_type_id",
+    "is_onerous",
+    "item_cnt",
+    "item_id",
+    "label",
+    "max_cnt",
+    "max_exchange_cnt",
+    "max_purchase_cnt",
+    "message",
+    "multiple_buy",
+    "reprint_flag",
+    "request_rank",
+    "sort_id",
+    "start_at",
+    "sub_message",
+    "title",
+    "ui_group_id",
+    "updated_at"
+  ],
+  "friend_achievements": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "reward_achievements": [
+    "created_at",
+    "description",
+    "id",
+    "message",
+    "title",
+    "updated_at"
+  ],
+  "profile_titles": [
+    "created_at",
+    "description",
+    "end_at",
+    "ext_style",
+    "frame_color",
+    "google_pgs_achievement_id",
+    "id",
+    "is_default_open",
+    "is_monpass",
+    "is_prefix",
+    "is_special",
+    "name",
+    "sort_id",
+    "start_at",
+    "updated_at"
+  ],
+  "assist_gems": [
+    "assist_gem_values",
+    "assist_type",
+    "box_group_id",
+    "created_at",
+    "description",
+    "description_with_tag",
+    "gem_sort_id",
+    "gem_sort_id_box",
+    "gem_sort_id_hero",
+    "grown_assist_gem_id",
+    "id",
+    "image_id",
+    "is_permanent",
+    "name",
+    "name_short",
+    "name_short_with_rarity",
+    "rarity",
+    "rarity_type",
+    "updated_at",
+    "values"
+  ],
+  "char_exchanges": [
+    "assigned_char_id",
+    "char_extend_template_id",
+    "created_at",
+    "description",
+    "end_at",
+    "group_id",
+    "id",
+    "item_cnt",
+    "item_id",
+    "limit_cnt",
+    "require_drop_rate",
+    "require_rarity",
+    "start_at",
+    "threshold_drop_rate",
+    "updated_at"
+  ],
+  "purchase_item_additionals": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "purchase_item_id",
+    "updated_at"
+  ],
+  "purchase_items": [
+    "campaign_id",
+    "created_at",
+    "description",
+    "dialogue_title",
+    "id",
+    "limit_per_user",
+    "message_body",
+    "message_title",
+    "name",
+    "notice_message",
+    "priority",
+    "summary",
+    "updated_at",
+    "version"
+  ],
+  "max_luck_achievement_items": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "max_luck_achievement_id",
+    "source_id",
+    "source_type",
+    "updated_at"
+  ],
+  "max_luck_achievements": [
+    "achievement_type",
+    "condition_value",
+    "created_at",
+    "description",
+    "group_id",
+    "headline",
+    "id",
+    "lv",
+    "name",
+    "panel_id",
+    "probability",
+    "show_period",
+    "sort_id",
+    "sub_value",
+    "ui_category_id",
+    "updated_at",
+    "usable_cnt"
+  ],
+  "max_luck_stage_abilities": [
+    "created_at",
+    "description",
+    "id",
+    "name",
+    "updated_at"
+  ],
+  "stage_group_playing_condition_chars": [
+    "char_id",
+    "created_at",
+    "id",
+    "stage_group_id",
+    "updated_at"
+  ],
+  "stage_alternations": [
+    "alternate_stage_id",
+    "created_at",
+    "id",
+    "stage_id",
+    "updated_at"
+  ],
+  "luck_skills": [
+    "created_at",
+    "description",
+    "id",
+    "luck_skill_type_id",
+    "luck_skill_values",
+    "name",
+    "updated_at",
+    "value_ext",
+    "values"
+  ],
+  "poll_answers": [
+    "created_at",
+    "id",
+    "label",
+    "poll_id",
+    "sub_label",
+    "updated_at"
+  ],
+  "polls": [
+    "action_type",
+    "body",
+    "confirm_message",
+    "created_at",
+    "end_at",
+    "id",
+    "name",
+    "require_totp",
+    "required_rank",
+    "start_at",
+    "updated_at"
+  ],
+  "char_filter_abilities": [
+    "created_at",
+    "filter_id",
+    "id",
+    "name",
+    "target_id",
+    "type_id",
+    "updated_at"
+  ],
+  "stage_clear_bonus_items": [
+    "achievement_id",
+    "allow_clear_count_at_guest",
+    "bonus_type",
+    "char_extend_template_id",
+    "clear_bonus_group_id",
+    "clear_count",
+    "clear_count_type",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "show_dialog",
+    "updated_at"
+  ],
+  "tower_floors": [
+    "attribute_id",
+    "created_at",
+    "enable_skip",
+    "floor",
+    "id",
+    "skip_group",
+    "stage_id",
+    "tower_id",
+    "updated_at"
+  ],
+  "stage_bonus_extensions": [
+    "bonus_type",
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "flag",
+    "id",
+    "item_id",
+    "role",
+    "stage_id",
+    "updated_at"
+  ],
+  "char_species": [
+    "category_id",
+    "created_at",
+    "id",
+    "name",
+    "sort_id",
+    "updated_at"
+  ],
+  "boost_item_values": [
+    "boost_item_id",
+    "created_at",
+    "id",
+    "sort_id",
+    "updated_at",
+    "value"
+  ],
+  "boost_items": [
+    "category_id",
+    "created_at",
+    "description",
+    "effect_id",
+    "id",
+    "is_extend",
+    "is_special_item",
+    "item_id",
+    "priority",
+    "updated_at"
+  ],
+  "score_bonus_groups": [
+    "created_at",
+    "group_id",
+    "id",
+    "s_rank_time",
+    "updated_at"
+  ],
+  "stage_bgms": [
+    "bgm_id",
+    "boss_bgm",
+    "climax_bgm",
+    "created_at",
+    "id",
+    "updated_at",
+    "zako_bgm"
+  ],
+  "stage_group_notes": [
+    "created_at",
+    "display_type",
+    "id",
+    "message",
+    "stage_group_id",
+    "updated_at"
+  ],
+  "function_scales": [
+    "created_at",
+    "function_type",
+    "id",
+    "open_at",
+    "scale_attribute",
+    "scale_end_value",
+    "scale_start_value",
+    "updated_at"
+  ],
+  "char_readings": [
+    "char_id",
+    "created_at",
+    "id",
+    "match_str",
+    "name",
+    "updated_at"
+  ],
+  "texts": [
+    "color",
+    "created_at",
+    "id",
+    "label",
+    "layout",
+    "text",
+    "updated_at"
+  ],
+  "gacha_group_feature_chars": [
+    "char_id",
+    "created_at",
+    "end_at",
+    "gacha_group_id",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "stage_group_playing_conditions": [
+    "created_at",
+    "id",
+    "playing_condition_id",
+    "stage_group_id",
+    "text_id_0",
+    "text_id_1",
+    "updated_at",
+    "value_0",
+    "value_1",
+    "value_2"
+  ],
+  "location_gacha_group_events": [
+    "created_at",
+    "gacha_group_event_id",
+    "id",
+    "item_multiple_cnt",
+    "location_id",
+    "updated_at"
+  ],
+  "char_collection_achievement_items": [
+    "char_collection_achievement_id",
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "source_id",
+    "source_type",
+    "updated_at"
+  ],
+  "char_collection_achievements": [
+    "condition_count",
+    "condition_type_id",
+    "created_at",
+    "description",
+    "headline",
+    "id",
+    "message",
+    "name",
+    "panel_id",
+    "sort_id",
+    "ui_category_id",
+    "updated_at",
+    "visible_require_id"
+  ],
+  "login_stamp_groups": [
+    "created_at",
+    "display_owned_item_id",
+    "end_at",
+    "file_name",
+    "id",
+    "message",
+    "start_at",
+    "title",
+    "type_id",
+    "ui_type",
+    "updated_at"
+  ],
+  "login_stamp_items": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "login_stamp_id",
+    "updated_at"
+  ],
+  "login_stamps": [
+    "assign_at",
+    "created_at",
+    "id",
+    "login_stamp_group_id",
+    "order_id",
+    "title",
+    "updated_at"
+  ],
+  "max_luck_actions": [
+    "char_id",
+    "created_at",
+    "end_at",
+    "game_message",
+    "id",
+    "post_message",
+    "start_at",
+    "updated_at"
+  ],
+  "bingo_bonus_items": [
+    "achieve_cnt",
+    "assembled_stage_group_id",
+    "bingo_bonus_id",
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "source_id",
+    "source_type",
+    "updated_at"
+  ],
+  "gacha_group_event_kinds": [
+    "created_at",
+    "description",
+    "enable",
+    "file_name",
+    "id",
+    "sort_id",
+    "summary",
+    "updated_at"
+  ],
+  "auto_combine_blacklist": [
+    "char_id",
+    "created_at",
+    "id",
+    "updated_at"
+  ],
+  "betting_posts": [
+    "betting_id",
+    "created_at",
+    "description",
+    "file_name",
+    "id",
+    "name",
+    "post",
+    "updated_at"
+  ],
+  "betting_result_groups": [
+    "betting_id",
+    "created_at",
+    "end_at",
+    "id",
+    "message",
+    "start_at",
+    "title",
+    "updated_at"
+  ],
+  "bettings": [
+    "bet_item_id",
+    "bet_type",
+    "betting_group_id",
+    "created_at",
+    "description",
+    "end_at",
+    "event_end_at",
+    "event_start_at",
+    "file_name",
+    "icon_name_after",
+    "icon_name_before",
+    "icon_name_now",
+    "id",
+    "start_at",
+    "title",
+    "updated_at"
+  ],
+  "first_char_get_actions": [
+    "char_id",
+    "created_at",
+    "end_at",
+    "game_message",
+    "id",
+    "post_message",
+    "start_at",
+    "updated_at"
+  ],
+  "betting_results": [
+    "bet_type",
+    "betting_id",
+    "created_at",
+    "id",
+    "match_cnt",
+    "message",
+    "odds",
+    "result_1",
+    "result_2",
+    "reward_item_id",
+    "reward_type",
+    "title",
+    "updated_at"
+  ],
+  "release_stage_groups": [
+    "created_at",
+    "expiration_minutes",
+    "id",
+    "item_id",
+    "stage_group_id",
+    "updated_at"
+  ],
+  "term_limit_items": [
+    "cnt",
+    "created_at",
+    "daily_limit",
+    "end_at",
+    "id",
+    "item_id",
+    "start_at",
+    "total_limit",
+    "updated_at"
+  ],
+  "char_repeated_booking_terms": [
+    "bookable_end_at",
+    "bookable_start_at",
+    "char_id",
+    "created_at",
+    "id",
+    "revival",
+    "updated_at"
+  ],
+  "soul_skill_types": [
+    "created_at",
+    "icon_base_name",
+    "icon_middle_name",
+    "icon_upper_name",
+    "id",
+    "type_name",
+    "updated_at"
+  ],
+  "soul_skills": [
+    "created_at",
+    "description",
+    "description_non_tag",
+    "icon_base_name",
+    "icon_middle_name",
+    "icon_upper_name",
+    "id",
+    "level",
+    "name",
+    "start_at",
+    "type_id",
+    "updated_at",
+    "value_0",
+    "value_1"
+  ],
+  "soul_release_lists": [
+    "content_id",
+    "content_type",
+    "created_at",
+    "id",
+    "point",
+    "require_collection_level",
+    "updated_at"
+  ],
+  "soul_collection_level_blacklists": [
+    "char_id",
+    "created_at",
+    "id",
+    "updated_at"
+  ],
+  "char_exchange_assigned_chars": [
+    "char_exchange_id",
+    "char_id",
+    "created_at",
+    "id",
+    "updated_at"
+  ],
+  "profile_frames": [
+    "additional_back_image",
+    "additional_front_image",
+    "base_image",
+    "created_at",
+    "description",
+    "enable_condition",
+    "end_at",
+    "frame_image",
+    "frame_palette_id",
+    "id",
+    "is_limited",
+    "parts_image",
+    "parts_palette_id",
+    "parts_vertical_align",
+    "sort_id",
+    "start_at",
+    "updated_at"
+  ],
+  "stage_group_auto_combine_chars": [
+    "created_at",
+    "drop_id",
+    "id",
+    "stage_group_id",
+    "updated_at"
+  ],
+  "year_end_bingo_balls": [
+    "char_id",
+    "created_at",
+    "id",
+    "updated_at",
+    "year"
+  ],
+  "puzzle_problem_groups": [
+    "created_at",
+    "id",
+    "name",
+    "updated_at"
+  ],
+  "puzzle_problems": [
+    "created_at",
+    "id",
+    "order_id",
+    "puzzle_problem_group_id",
+    "stage_id",
+    "updated_at"
+  ],
+  "collabo_bingo_bonus_items": [
+    "char_extend_template_id",
+    "cnt",
+    "collabo_bingo_bonus_id",
+    "created_at",
+    "id",
+    "item_id",
+    "source_id",
+    "source_type",
+    "updated_at"
+  ],
+  "collabo_bingo_bonuses": [
+    "achieve_cnt",
+    "collabo_bingo_id",
+    "created_at",
+    "id",
+    "message",
+    "source_id",
+    "source_type",
+    "title",
+    "updated_at"
+  ],
+  "sns_api_messages": [
+    "created_at",
+    "id",
+    "message",
+    "sns_id",
+    "updated_at"
+  ],
+  "beast_notice_list": [
+    "char_id",
+    "created_at",
+    "id",
+    "updated_at"
+  ],
+  "stage_notes": [
+    "created_at",
+    "display_type",
+    "id",
+    "message",
+    "stage_id",
+    "updated_at"
+  ],
+  "player_skill_point_chars": [
+    "char_id",
+    "created_at",
+    "id",
+    "max_cnt",
+    "point_rate",
+    "sort_id",
+    "updated_at"
+  ],
+  "map_spot_effects": [
+    "condition_id",
+    "created_at",
+    "description",
+    "end_at",
+    "icon_name",
+    "id",
+    "name",
+    "rarity",
+    "start_at",
+    "type_id",
+    "updated_at",
+    "value_0",
+    "value_1",
+    "value_2",
+    "value_3",
+    "value_4",
+    "weight"
+  ],
+  "good_job_stamps": [
+    "category_id",
+    "created_at",
+    "description",
+    "good_job_stamp_group_id",
+    "id",
+    "priority",
+    "sort_id",
+    "type_id",
+    "updated_at",
+    "voice_end_at",
+    "voice_id"
+  ],
+  "player_skills": [
+    "created_at",
+    "description",
+    "id",
+    "level",
+    "name",
+    "point",
+    "short_description",
+    "skill_type_id",
+    "sort_id",
+    "updated_at",
+    "value"
+  ],
+  "gacha_limited_chars": [
+    "char_id",
+    "created_at",
+    "end_at",
+    "gacha_group_event_kind_id",
+    "id",
+    "start_at",
+    "status",
+    "updated_at"
+  ],
+  "stage_gimmicks": [
+    "created_at",
+    "gimmick_flag",
+    "highlight_gimmick_flag",
+    "id",
+    "stage_id",
+    "updated_at"
+  ],
+  "betting_group_posts": [
+    "betting_group_id",
+    "created_at",
+    "description",
+    "file_name",
+    "id",
+    "name",
+    "post",
+    "updated_at"
+  ],
+  "betting_groups": [
+    "created_at",
+    "description",
+    "end_at",
+    "event_end_at",
+    "event_start_at",
+    "file_name",
+    "icon_name_after",
+    "icon_name_before",
+    "icon_name_now",
+    "id",
+    "start_at",
+    "title",
+    "type_id",
+    "updated_at"
+  ],
+  "shop_item_conditions": [
+    "condition_count",
+    "condition_type",
+    "condition_value",
+    "created_at",
+    "id",
+    "shop_item_id",
+    "updated_at"
+  ],
+  "char_voice_effective_terms": [
+    "created_at",
+    "end_at",
+    "id",
+    "updated_at",
+    "voice_id",
+    "voice_type"
+  ],
+  "char_sort_abilities": [
+    "created_at",
+    "description",
+    "group_id",
+    "id",
+    "name",
+    "name_id",
+    "target_id",
+    "type_id",
+    "updated_at",
+    "value"
+  ],
+  "tips": [
+    "created_at",
+    "disable",
+    "id",
+    "param1",
+    "param2",
+    "param3",
+    "text",
+    "updated_at"
+  ],
+  "item_events": [
+    "created_at",
+    "description",
+    "effective_period",
+    "effective_period_type",
+    "end_at",
+    "group_type",
+    "icon_name",
+    "id",
+    "item_event_group_id",
+    "level",
+    "name",
+    "recast_time",
+    "sort_id",
+    "start_at",
+    "sub_target_id_0",
+    "sub_target_id_1",
+    "target_id",
+    "target_type_id",
+    "updated_at",
+    "visible"
+  ],
+  "map_balloon_groups": [
+    "created_at",
+    "description",
+    "id",
+    "name",
+    "updated_at"
+  ],
+  "stage_group_versions": [
+    "complete_bonus_item_cnt",
+    "complete_bonus_item_id",
+    "complete_reset",
+    "created_at",
+    "id",
+    "stage_group_id",
+    "start_at",
+    "updated_at",
+    "version"
+  ],
+  "badges": [
+    "condition_type",
+    "condition_value",
+    "created_at",
+    "description",
+    "design",
+    "group_id",
+    "id",
+    "sort_id",
+    "sub_condition_id",
+    "updated_at"
+  ],
+  "campaign_notifies": [
+    "created_at",
+    "icon_name",
+    "id",
+    "message",
+    "name",
+    "sort_id",
+    "sp_motion",
+    "stage_class_id",
+    "updated_at",
+    "visible"
+  ],
+  "campaign_notify_events": [
+    "badge_id",
+    "campaign_notify_id",
+    "class_id",
+    "created_at",
+    "end_at",
+    "icon_name",
+    "id",
+    "name",
+    "start_at",
+    "updated_at",
+    "visible_at"
+  ],
+  "weekly_max_luck_bonus_abilities": [
+    "ability_type",
+    "created_at",
+    "description",
+    "id",
+    "level",
+    "updated_at",
+    "value"
+  ],
+  "promotion_random_item_groups": [
+    "created_at",
+    "display_item_id",
+    "effect_id",
+    "id",
+    "message",
+    "pool_id",
+    "send_item_only",
+    "text",
+    "title",
+    "updated_at",
+    "visible",
+    "weight"
+  ],
+  "promotion_random_items": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "promotion_random_item_group_id",
+    "updated_at"
+  ],
+  "char_voices": [
+    "char_id",
+    "created_at",
+    "id",
+    "item_id",
+    "sub_voice_id",
+    "updated_at"
+  ],
+  "char_ability_descriptions": [
+    "created_at",
+    "description",
+    "group_id",
+    "id",
+    "name",
+    "updated_at"
+  ],
+  "wanted_boss_achievement_conditions": [
+    "condition_type",
+    "condition_value",
+    "created_at",
+    "id",
+    "updated_at",
+    "wanted_boss_id"
+  ],
+  "wanted_boss_achievement_items": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at",
+    "wanted_boss_achievement_id"
+  ],
+  "wanted_boss_achievements": [
+    "condition_type",
+    "created_at",
+    "description",
+    "id",
+    "name",
+    "order",
+    "updated_at",
+    "wanted_boss_group_id"
+  ],
+  "wanted_boss_groups": [
+    "created_at",
+    "id",
+    "name",
+    "order",
+    "show_char_lucks",
+    "start_at",
+    "updated_at",
+    "wanted_boss_class_id",
+    "wanted_boss_count"
+  ],
+  "wanted_bosses": [
+    "char_id",
+    "created_at",
+    "id",
+    "order",
+    "start_at",
+    "updated_at",
+    "wanted_boss_group_id"
+  ],
+  "strikeball_bingo_bonus_items": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "strikeball_bingo_bonus_id",
+    "updated_at"
+  ],
+  "strikeball_bingo_bonuses": [
+    "achieve_cnt",
+    "created_at",
+    "id",
+    "message",
+    "strikeball_bingo_event_id",
+    "title",
+    "updated_at"
+  ],
+  "strikeball_bingo_stage_groups": [
+    "created_at",
+    "id",
+    "stage_group_id",
+    "strikeball_bingo_event_id",
+    "updated_at"
+  ],
+  "help_decks": [
+    "charball_id_1",
+    "charball_id_2",
+    "charball_id_3",
+    "charball_id_4",
+    "cost_item_cnt",
+    "created_at",
+    "id",
+    "stage_id",
+    "updated_at"
+  ],
+  "help_deck_charballs": [
+    "char_id",
+    "connect_skill_liberated",
+    "created_at",
+    "evolved_fight_type",
+    "experience",
+    "extend_attack",
+    "extend_drop_rate",
+    "extend_gem_unlocked_cnt",
+    "extend_hp",
+    "extend_power",
+    "gem_ids",
+    "gem_unlocked_cnt",
+    "id",
+    "level",
+    "like_point",
+    "release_level_id",
+    "secret_powers",
+    "soul"
+  ],
+  "stage_tips": [
+    "created_at",
+    "id",
+    "stage_id",
+    "text_label_id",
+    "type_id",
+    "updated_at",
+    "value"
+  ],
+  "game_helps": [
+    "created_at",
+    "end_at",
+    "id",
+    "parent_id",
+    "sort_id",
+    "start_at",
+    "text_label_id",
+    "text_name",
+    "title",
+    "type_id",
+    "type_id_param",
+    "updated_at"
+  ],
+  "connect_skills": [
+    "char_id",
+    "connect_skill_conditions_id_1_1",
+    "connect_skill_conditions_id_1_2",
+    "connect_skill_conditions_id_2_1",
+    "connect_skill_conditions_id_2_2",
+    "connect_skill_effect_group_id_1",
+    "connect_skill_effect_group_id_2",
+    "connect_skill_effect_group_id_3",
+    "created_at",
+    "description",
+    "id",
+    "name",
+    "updated_at"
+  ],
+  "connect_skill_conditions": [
+    "created_at",
+    "id",
+    "type_id",
+    "type_value",
+    "updated_at",
+    "value_0",
+    "value_1",
+    "value_2"
+  ],
+  "connect_skill_effects": [
+    "created_at",
+    "group_id",
+    "id",
+    "target_id",
+    "type_id",
+    "updated_at",
+    "value"
+  ],
+  "release_levels": [
+    "created_at",
+    "id",
+    "level",
+    "require_release_level_id",
+    "type_id",
+    "updated_at"
+  ],
+  "fight_types": [
+    "created_at",
+    "dumprate_pierce",
+    "dumprate_reflect",
+    "evolved_id",
+    "id",
+    "name",
+    "sort_name",
+    "type_id",
+    "updated_at"
+  ],
+  "char_originals": [
+    "char_id",
+    "created_at",
+    "id",
+    "original_char_id",
+    "updated_at"
+  ],
+  "campaign_items": [
+    "can_hold_start_at",
+    "created_at",
+    "end_at",
+    "id",
+    "item_id",
+    "start_at",
+    "type_id",
+    "updated_at",
+    "version"
+  ],
+  "campaign_item_conditions": [
+    "campaign_item_id",
+    "condition_type",
+    "condition_value",
+    "created_at",
+    "id",
+    "updated_at"
+  ],
+  "ordeal_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "ordeal_event_id",
+    "require_message",
+    "required_point",
+    "type_id",
+    "updated_at"
+  ],
+  "item_event_effects": [
+    "created_at",
+    "id",
+    "item_event_id",
+    "type_id",
+    "updated_at",
+    "value"
+  ],
+  "gacha_omake_boxes": [
+    "created_at",
+    "disable",
+    "id",
+    "play_cnt",
+    "type_id",
+    "updated_at"
+  ],
+  "revive_stage_group_black_lists": [
+    "created_at",
+    "end_at",
+    "id",
+    "stage_group_id",
+    "start_at",
+    "updated_at"
+  ],
+  "max_luck_item_abilities": [
+    "created_at",
+    "extend_max_cnt",
+    "id",
+    "item_id",
+    "max_luck_achievement_id",
+    "updated_at"
+  ],
+  "defector_campaigns": [
+    "created_at",
+    "end_at",
+    "id",
+    "last_login_at",
+    "new_user_start_at",
+    "start_at",
+    "updated_at"
+  ],
+  "skin_timelines": [
+    "created_at",
+    "id",
+    "skin_timeline_name",
+    "type_id",
+    "updated_at",
+    "value"
+  ],
+  "stage_reward_layouts": [
+    "created_at",
+    "event_name",
+    "id",
+    "item_id_1",
+    "item_id_2",
+    "stage_id",
+    "updated_at"
+  ],
+  "recommend_stage_types": [
+    "attribute_id",
+    "created_at",
+    "id",
+    "stage_id",
+    "type_id",
+    "updated_at"
+  ],
+  "limited_bgm_schedules": [
+    "bgm_tag",
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "stamp_mission_selects": [
+    "created_at",
+    "id",
+    "name",
+    "stamp_mission_id",
+    "switch_condition_action_achievement_id",
+    "switch_stamp_mission_id",
+    "updated_at"
+  ],
+  "char_filter_skills": [
+    "category_id",
+    "created_at",
+    "filter_id",
+    "id",
+    "name",
+    "skill_id",
+    "skill_pattern_id",
+    "updated_at"
+  ],
+  "frontier_stage_clear_points": [
+    "created_at",
+    "id",
+    "point",
+    "stage_id",
+    "updated_at"
+  ],
+  "frontier_stage_complete_points": [
+    "complete_cnt",
+    "created_at",
+    "id",
+    "point",
+    "updated_at"
+  ],
+  "frontier_stage_point_bonuses": [
+    "cnt",
+    "complete_cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "point",
+    "updated_at"
+  ],
+  "good_job_stamp_groups": [
+    "created_at",
+    "description",
+    "id",
+    "type_id",
+    "updated_at"
+  ],
+  "historic_battlefield_achievements": [
+    "badge_frame_id",
+    "created_at",
+    "historic_battlefield_group_id",
+    "id",
+    "point",
+    "updated_at"
+  ],
+  "historic_battlefield_groups": [
+    "created_at",
+    "end_at",
+    "id",
+    "name",
+    "start_at",
+    "updated_at"
+  ],
+  "historic_battlefield_stage_levels": [
+    "created_at",
+    "id",
+    "level",
+    "stage_id",
+    "updated_at"
+  ],
+  "historic_battlefields": [
+    "char_id",
+    "created_at",
+    "group_id",
+    "id",
+    "stage_group_id",
+    "updated_at"
+  ],
+  "quest_type_categories": [
+    "created_at",
+    "id",
+    "image_name",
+    "name",
+    "sort_id",
+    "updated_at"
+  ],
+  "quest_types": [
+    "category_id",
+    "close_at",
+    "created_at",
+    "description",
+    "difficulty_max",
+    "difficulty_min",
+    "enable",
+    "enable_clear_icon",
+    "filter_id",
+    "help_deck_type",
+    "icon_name",
+    "id",
+    "list_category_id",
+    "list_sort_id",
+    "name",
+    "shortcut_type",
+    "sort_id",
+    "stage_class_id",
+    "suggest_type",
+    "updated_at",
+    "visible_at"
+  ],
+  "char_abnormals": [
+    "abnormal_flag",
+    "char_id",
+    "created_at",
+    "enable_at",
+    "id",
+    "ref_sort_id",
+    "updated_at"
+  ],
+  "raid_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "max_hit_point",
+    "point_group_id",
+    "start_at",
+    "updated_at"
+  ],
+  "raid_level_groups": [
+    "created_at",
+    "id",
+    "label",
+    "updated_at"
+  ],
+  "raid_levels": [
+    "created_at",
+    "id",
+    "level",
+    "raid_event_id",
+    "raid_level_group_id",
+    "required_point",
+    "updated_at"
+  ],
+  "raid_reward_items": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "raid_reward_id",
+    "updated_at"
+  ],
+  "raid_rewards": [
+    "campaign_text",
+    "created_at",
+    "hit_point",
+    "id",
+    "message",
+    "raid_event_id",
+    "title",
+    "updated_at"
+  ],
+  "badge_frames": [
+    "created_at",
+    "description",
+    "design",
+    "id",
+    "sort_id",
+    "updated_at"
+  ],
+  "stage_group_unique_boss_drop_names": [
+    "boss_id",
+    "created_at",
+    "drop_id",
+    "id",
+    "pattern_flag",
+    "stage_group_id",
+    "support_char_id",
+    "support_release_boss_id",
+    "type_id",
+    "updated_at"
+  ],
+  "ocean_area_stage_groups": [
+    "created_at",
+    "ex_flag",
+    "ex_group_id",
+    "id",
+    "ocean_area_id",
+    "stage_group_id",
+    "updated_at"
+  ],
+  "ocean_areas": [
+    "created_at",
+    "description",
+    "end_at",
+    "exchange_end_at",
+    "extra_stage_item_id",
+    "id",
+    "inherent_id",
+    "level_id",
+    "ocean_campaign_id",
+    "start_at",
+    "title",
+    "type_id",
+    "updated_at"
+  ],
+  "ocean_campaigns": [
+    "created_at",
+    "end_at",
+    "exchange_end_at",
+    "id",
+    "season_id",
+    "start_at",
+    "updated_at"
+  ],
+  "ocean_fortune_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "ocean_fortune_id",
+    "ocean_individual_event_id",
+    "updated_at",
+    "weight"
+  ],
+  "ocean_fortunes": [
+    "created_at",
+    "id",
+    "luck",
+    "updated_at"
+  ],
+  "ocean_point_items": [
+    "category_id",
+    "cost_item_id",
+    "cost_points",
+    "created_at",
+    "end_at",
+    "id",
+    "interval",
+    "item_id",
+    "label",
+    "message",
+    "once_max_cnt",
+    "required_level",
+    "required_luck",
+    "sort_id",
+    "start_at",
+    "title",
+    "total_max_cnt",
+    "type_id",
+    "unit_cnt",
+    "updated_at"
+  ],
+  "total_luck_bonuses": [
+    "char_id_1",
+    "char_id_2",
+    "char_id_3",
+    "created_at",
+    "id",
+    "stage_id_1",
+    "stage_id_2",
+    "stage_id_3",
+    "total_luck",
+    "total_luck_event_id",
+    "updated_at"
+  ],
+  "total_luck_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "message",
+    "start_at",
+    "updated_at"
+  ],
+  "stamp_sheet_reward_items": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "panel",
+    "stamp_sheet_id",
+    "updated_at"
+  ],
+  "stamp_sheets": [
+    "created_at",
+    "end_at",
+    "id",
+    "is_collabo",
+    "jackpot_panel",
+    "sort_id",
+    "stage_id",
+    "start_at",
+    "updated_at"
+  ],
+  "action_stamp_card_conditions": [
+    "action_stamp_card_id",
+    "created_at",
+    "id",
+    "type_id",
+    "updated_at",
+    "value_1"
+  ],
+  "action_stamp_cards": [
+    "created_at",
+    "end_at",
+    "file_name",
+    "id",
+    "message",
+    "receiving_period",
+    "start_at",
+    "title",
+    "updated_at"
+  ],
+  "action_stamp_items": [
+    "action_stamp_id",
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "action_stamps": [
+    "action_stamp_card_id",
+    "created_at",
+    "id",
+    "order_id",
+    "title",
+    "updated_at"
+  ],
+  "support_char_stage_bonuses": [
+    "cnt_max",
+    "created_at",
+    "id",
+    "item_id",
+    "stage_id",
+    "updated_at"
+  ],
+  "support_chars": [
+    "collection_enable_at",
+    "created_at",
+    "entry_stage_group_id",
+    "growth_type",
+    "id",
+    "level_max",
+    "name",
+    "sort_id",
+    "species_id",
+    "support_condition_id",
+    "support_skill_id",
+    "updated_at",
+    "voice_id"
+  ],
+  "support_conditions": [
+    "condition_param_0",
+    "condition_param_1",
+    "condition_period_value",
+    "condition_type",
+    "condition_value",
+    "created_at",
+    "description",
+    "id",
+    "updated_at"
+  ],
+  "support_levels": [
+    "created_at",
+    "experience",
+    "growth_type",
+    "id",
+    "level",
+    "updated_at"
+  ],
+  "support_skills": [
+    "created_at",
+    "description",
+    "id",
+    "level",
+    "level_value_0",
+    "level_value_1",
+    "level_value_2",
+    "name",
+    "sort_id",
+    "support_skill_id",
+    "target_type",
+    "type_id",
+    "updated_at",
+    "value"
+  ],
+  "item_event_conditions": [
+    "created_at",
+    "id",
+    "item_event_id",
+    "type_id",
+    "updated_at",
+    "value"
+  ],
+  "box_gacha_items": [
+    "cnt",
+    "created_at",
+    "gacha_group_id",
+    "id",
+    "item_id",
+    "rarity",
+    "stock",
+    "unlimited",
+    "updated_at"
+  ],
+  "adhoc_events": [
+    "created_at",
+    "daily_required_adhoc_cnt",
+    "end_at",
+    "id",
+    "start_at",
+    "total_required_adhoc_cnt",
+    "updated_at"
+  ],
+  "gacha_group_extra_cost_items": [
+    "cost_cnt",
+    "created_at",
+    "gacha_group_id",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "stamp_sheet_complete_reward_items": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "sort_id",
+    "stamp_sheet_id",
+    "updated_at"
+  ],
+  "collabo_rank_stage_points": [
+    "collabo_rank_id",
+    "created_at",
+    "id",
+    "max_point",
+    "updated_at"
+  ],
+  "gacha_effect_chars": [
+    "char_id",
+    "created_at",
+    "effect_bit",
+    "id",
+    "updated_at"
+  ],
+  "realtime_campaigns": [
+    "created_at",
+    "daily_mission_group_num",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "realtime_char_enemy_attack_patterns": [
+    "attack_group_id",
+    "char_id",
+    "created_at",
+    "group_id",
+    "id",
+    "rate",
+    "state_id",
+    "time",
+    "updated_at"
+  ],
+  "realtime_char_enemy_attacks": [
+    "attack_group_id",
+    "char_id",
+    "created_at",
+    "fire_pos_x",
+    "fire_pos_y",
+    "flag",
+    "id",
+    "skill_id",
+    "updated_at",
+    "value_0",
+    "value_0_ext",
+    "value_1",
+    "value_2",
+    "value_3",
+    "value_4",
+    "value_ext",
+    "values"
+  ],
+  "realtime_char_enemy_interrupts": [
+    "char_id",
+    "condition_method",
+    "condition_param_0",
+    "condition_param_1",
+    "created_at",
+    "effect",
+    "effect_param_0",
+    "effect_param_1",
+    "group_id",
+    "id",
+    "updated_at"
+  ],
+  "realtime_char_enemy_state_conditions": [
+    "char_id",
+    "condition_method",
+    "condition_param_0",
+    "condition_param_1",
+    "created_at",
+    "id",
+    "state_id",
+    "updated_at"
+  ],
+  "realtime_char_enemy_state_relations": [
+    "char_id",
+    "created_at",
+    "from_state_id",
+    "group_id",
+    "id",
+    "to_state_id",
+    "updated_at"
+  ],
+  "realtime_char_enemy_states": [
+    "char_id",
+    "created_at",
+    "first_ready_time",
+    "id",
+    "priority",
+    "ready_time",
+    "ready_time_pos_x",
+    "ready_time_pos_y",
+    "state_id",
+    "updated_at"
+  ],
+  "realtime_char_roles": [
+    "char_id",
+    "created_at",
+    "id",
+    "role",
+    "updated_at"
+  ],
+  "realtime_daily_missions": [
+    "char_id",
+    "created_at",
+    "group_id",
+    "id",
+    "realtime_campaign_id",
+    "stage_id",
+    "updated_at"
+  ],
+  "realtime_point_reward_items": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "realtime_point_reward_id",
+    "updated_at"
+  ],
+  "realtime_point_rewards": [
+    "created_at",
+    "end_at",
+    "id",
+    "realtime_campaign_id",
+    "require_point",
+    "start_at",
+    "updated_at"
+  ],
+  "realtime_roles": [
+    "created_at",
+    "id",
+    "message",
+    "name",
+    "role",
+    "updated_at"
+  ],
+  "realtime_stage_points": [
+    "created_at",
+    "daily_realtime_point",
+    "id",
+    "realtime_point",
+    "stage_id",
+    "updated_at"
+  ],
+  "char_efficacious_descriptions": [
+    "char_id",
+    "combine_material",
+    "created_at",
+    "description",
+    "id",
+    "sort_id",
+    "updated_at"
+  ],
+  "daily_stage_gacha_points": [
+    "created_at",
+    "end_at",
+    "id",
+    "point_end_at",
+    "start_at",
+    "type_id",
+    "updated_at"
+  ],
+  "rain_characters": [
+    "created_at",
+    "group_id",
+    "id",
+    "name",
+    "order_id",
+    "rain_event_id",
+    "texture_name",
+    "updated_at"
+  ],
+  "rain_complete_reward_items": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "rain_complete_reward_id",
+    "updated_at"
+  ],
+  "rain_complete_rewards": [
+    "created_at",
+    "id",
+    "rain_event_id",
+    "title",
+    "title_style_font",
+    "updated_at"
+  ],
+  "rain_events": [
+    "created_at",
+    "exchange_end_at",
+    "id",
+    "stamina_point_get_end_at",
+    "start_at",
+    "updated_at"
+  ],
+  "rain_group_reward_items": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "rain_group_reward_id",
+    "updated_at"
+  ],
+  "rain_group_rewards": [
+    "created_at",
+    "group_id",
+    "id",
+    "rain_event_id",
+    "title",
+    "title_style_font",
+    "updated_at"
+  ],
+  "stage_bgm_details": [
+    "bgm_tag",
+    "created_at",
+    "id",
+    "name",
+    "updated_at"
+  ],
+  "pickup_exchange_item_points": [
+    "created_at",
+    "gain_item_id",
+    "id",
+    "point",
+    "point_item_id",
+    "updated_at"
+  ],
+  "stage_phase_enemy_char_group_rates": [
+    "end_at",
+    "group_id",
+    "id",
+    "stage_id",
+    "start_at",
+    "type_id"
+  ],
+  "stage_phase_enemy_rate_char_groups": [
+    "char_id",
+    "created_at",
+    "group_id",
+    "id",
+    "is_skin_char",
+    "updated_at"
+  ],
+  "stage_phase_images": [
+    "created_at",
+    "id",
+    "img_id",
+    "stage_id",
+    "stage_phase_id",
+    "target",
+    "updated_at",
+    "wall_id"
+  ],
+  "loot_ratio_items": [
+    "created_at",
+    "id",
+    "item_id",
+    "ratio",
+    "type_id",
+    "updated_at"
+  ],
+  "ocean_fishing_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "ocean_fishing_id",
+    "ocean_individual_event_id",
+    "updated_at",
+    "weight"
+  ],
+  "ocean_fishings": [
+    "created_at",
+    "group_id",
+    "id",
+    "luck",
+    "updated_at"
+  ],
+  "tower_floor_additional_stages": [
+    "created_at",
+    "id",
+    "stage_id",
+    "tower_floor_id",
+    "updated_at"
+  ],
+  "announcement_conditions": [
+    "announcement_id",
+    "condition_type",
+    "condition_value",
+    "created_at",
+    "id",
+    "updated_at"
+  ],
+  "announcement_resource_conditions": [
+    "announcement_resource_id",
+    "condition_type",
+    "condition_value",
+    "created_at",
+    "id",
+    "updated_at"
+  ],
+  "announcement_resources": [
+    "announcement_id",
+    "created_at",
+    "dialog_type",
+    "id",
+    "resource_id",
+    "updated_at"
+  ],
+  "announcements": [
+    "created_at",
+    "description",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "ocean_area_drop_chars": [
+    "created_at",
+    "drop_id",
+    "id",
+    "ocean_area_id",
+    "ocean_area_stage_group_id",
+    "updated_at"
+  ],
+  "ocean_area_luck_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "ocean_area_id",
+    "required_luck",
+    "updated_at"
+  ],
+  "collabo_shop_items": [
+    "collabo_shop_id",
+    "cost_cnt",
+    "cost_item_id",
+    "created_at",
+    "description",
+    "end_at",
+    "id",
+    "is_sale",
+    "item_cnt",
+    "item_id",
+    "label",
+    "lottery",
+    "max_exchange_cnt",
+    "message",
+    "start_at",
+    "title",
+    "updated_at"
+  ],
+  "collabo_shop_lottery_items": [
+    "collabo_shop_id",
+    "collabo_shop_item_id",
+    "created_at",
+    "id",
+    "item_cnt",
+    "item_id",
+    "updated_at",
+    "weight"
+  ],
+  "collabo_shops": [
+    "collabo_id",
+    "created_at",
+    "daily_limit",
+    "display_at",
+    "end_at",
+    "id",
+    "lucky_type",
+    "start_at",
+    "transition_type",
+    "updated_at"
+  ],
+  "choco_boss_defeat_count_rewards": [
+    "choco_event_id",
+    "cnt",
+    "created_at",
+    "defeat_cnt",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "choco_boss_owner_rewards": [
+    "choco_event_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "received_cnt",
+    "updated_at"
+  ],
+  "choco_boss_special_rewards": [
+    "choco_event_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "reward_type",
+    "updated_at"
+  ],
+  "choco_events": [
+    "created_at",
+    "exchange_end_at",
+    "id",
+    "play_end_at",
+    "start_at",
+    "updated_at"
+  ],
+  "pelmanism_campaigns": [
+    "created_at",
+    "end_at",
+    "id",
+    "point_group_id",
+    "receiving_at",
+    "start_at",
+    "updated_at"
+  ],
+  "pelmanism_card_pair_set_achievements": [
+    "created_at",
+    "id",
+    "name",
+    "pelmanism_campaign_id",
+    "reward_display_id",
+    "reward_id",
+    "updated_at"
+  ],
+  "combination_gacha_groups": [
+    "child_gacha_group_id",
+    "cnt",
+    "created_at",
+    "gacha_group_id",
+    "id",
+    "select_group_id",
+    "updated_at"
+  ],
+  "placement_king_lap_rewards": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "placement_king_id",
+    "updated_at"
+  ],
+  "placement_king_total_rewards": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "placement_king_id",
+    "require_total_point",
+    "updated_at"
+  ],
+  "placement_kings": [
+    "created_at",
+    "end_at",
+    "id",
+    "lap_point",
+    "start_at",
+    "updated_at"
+  ],
+  "premium_login_stamps": [
+    "created_at",
+    "day_count",
+    "description",
+    "gift_item_count",
+    "gift_item_id",
+    "group_item_id",
+    "id",
+    "updated_at"
+  ],
+  "campaign_roulette_piece_content_items": [
+    "campaign_roulette_piece_content_id",
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "campaign_roulette_piece_contents": [
+    "campaign_roulette_piece_id",
+    "created_at",
+    "id",
+    "name",
+    "rarity",
+    "updated_at",
+    "weight"
+  ],
+  "campaign_roulette_pieces": [
+    "campaign_roulette_id",
+    "created_at",
+    "id",
+    "item_id",
+    "name",
+    "updated_at"
+  ],
+  "campaign_roulettes": [
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "total_weight",
+    "updated_at"
+  ],
+  "daily_limitation_gift_rights": [
+    "created_at",
+    "id",
+    "item_id",
+    "message",
+    "title",
+    "updated_at"
+  ],
+  "app_icons": [
+    "created_at",
+    "icon_name",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "season_road_reward_items": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "season_road_reward_id",
+    "updated_at"
+  ],
+  "season_road_rewards": [
+    "bronze_cnt",
+    "created_at",
+    "gold_cnt",
+    "id",
+    "season_road_id",
+    "silver_cnt",
+    "updated_at"
+  ],
+  "season_road_sets": [
+    "created_at",
+    "end_at",
+    "id",
+    "name",
+    "season_road_id",
+    "start_at",
+    "updated_at"
+  ],
+  "season_road_stage_groups": [
+    "created_at",
+    "difficulty",
+    "id",
+    "label_type",
+    "season_road_set_id",
+    "stage_group_id",
+    "updated_at"
+  ],
+  "season_roads": [
+    "created_at",
+    "end_at",
+    "id",
+    "name",
+    "start_at",
+    "updated_at"
+  ],
+  "room_tags": [
+    "created_at",
+    "id",
+    "image_name",
+    "release_at",
+    "sort_id",
+    "text",
+    "updated_at"
+  ],
+  "stamina_mission_campaigns": [
+    "created_at",
+    "end_at",
+    "id",
+    "item_id",
+    "point_group_id",
+    "start_at",
+    "total_cnt_item_id",
+    "updated_at"
+  ],
+  "preparative_stage_against_chars": [
+    "against_char_id",
+    "created_at",
+    "id",
+    "stage_id",
+    "updated_at"
+  ],
+  "preparative_stage_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "target_stage_id",
+    "updated_at"
+  ],
+  "preparative_stage_levels": [
+    "created_at",
+    "experience",
+    "id",
+    "level",
+    "stage_id",
+    "updated_at",
+    "value"
+  ],
+  "preparative_stages": [
+    "created_at",
+    "id",
+    "skin_char_id",
+    "stage_id",
+    "target_stage_id",
+    "updated_at"
+  ],
+  "player_cards": [
+    "created_at",
+    "enable_condition",
+    "end_at",
+    "group_id",
+    "id",
+    "image_name",
+    "item_id",
+    "plist_name",
+    "sort_id",
+    "start_at",
+    "updated_at"
+  ],
+  "stage_option_disabled_flags": [
+    "created_at",
+    "end_at",
+    "id",
+    "stage_id",
+    "type_id",
+    "updated_at"
+  ],
+  "special_box_reward_box_items": [
+    "box_reward_group_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "max_distribution",
+    "rarity",
+    "updated_at"
+  ],
+  "special_box_reward_boxes": [
+    "box_reward_group_id",
+    "created_at",
+    "id",
+    "rarity",
+    "updated_at"
+  ],
+  "special_box_reward_groups": [
+    "box_reward_group_id",
+    "created_at",
+    "end_at",
+    "id",
+    "point_group_id",
+    "start_at",
+    "updated_at"
+  ],
+  "stage_phase_extend_skip_rates": [
+    "created_at",
+    "end_at",
+    "id",
+    "skip_rate",
+    "stage_phase_id",
+    "start_at",
+    "updated_at"
+  ],
+  "room_active_time_tags": [
+    "created_at",
+    "id",
+    "sort_id",
+    "text",
+    "updated_at"
+  ],
+  "collabo_mission_panel_complete_rewards": [
+    "cnt",
+    "collabo_mission_panel_group_id",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "collabo_mission_panel_groups": [
+    "allow_side_effect_overwrite",
+    "created_at",
+    "drop_point_enabled",
+    "end_at",
+    "id",
+    "max_login",
+    "max_width",
+    "point_per_login",
+    "start_at",
+    "updated_at"
+  ],
+  "collabo_mission_panel_random_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "reward_id",
+    "sort_id",
+    "updated_at"
+  ],
+  "collabo_mission_panel_specific_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "sort_id",
+    "updated_at"
+  ],
+  "collabo_mission_panels": [
+    "collabo_mission_panel_group_id",
+    "condition_achievement_id",
+    "condition_achievement_type",
+    "condition_panel_id_0",
+    "condition_panel_id_1",
+    "condition_panel_id_2",
+    "condition_panel_id_3",
+    "consume_point_type",
+    "created_at",
+    "description",
+    "id",
+    "line_id_1",
+    "line_id_2",
+    "line_id_3",
+    "line_id_4",
+    "openable_at",
+    "panel_type",
+    "point",
+    "reward_id",
+    "reward_id_2",
+    "reward_type",
+    "updated_at"
+  ],
+  "item_event_group_conditions": [
+    "created_at",
+    "end_at",
+    "id",
+    "item_event_group_id",
+    "start_at",
+    "sub_target_id_0",
+    "sub_target_id_1",
+    "target_id",
+    "target_type_id",
+    "updated_at"
+  ],
+  "item_event_groups": [
+    "created_at",
+    "id",
+    "name",
+    "updated_at"
+  ],
+  "ruins_bonus_chars": [
+    "char_id",
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "ruins_events": [
+    "created_at",
+    "description",
+    "id",
+    "shop_end_at",
+    "type_id",
+    "updated_at"
+  ],
+  "ruins_stages": [
+    "created_at",
+    "floor",
+    "id",
+    "is_floor",
+    "ruins_event_id",
+    "stage_id",
+    "updated_at"
+  ],
+  "shop_item_char_evolutions": [
+    "created_at",
+    "evolution_id",
+    "evolution_type_id",
+    "id",
+    "shop_item_id",
+    "updated_at"
+  ],
+  "daily_lottery_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "name",
+    "start_at",
+    "switch_hour",
+    "updated_at"
+  ],
+  "daily_lottery_fixed_items": [
+    "cnt",
+    "created_at",
+    "daily_lottery_group_id",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "daily_lottery_groups": [
+    "created_at",
+    "file_name",
+    "id",
+    "name",
+    "sort_id",
+    "type_id",
+    "updated_at"
+  ],
+  "daily_lottery_items": [
+    "cnt",
+    "created_at",
+    "daily_lottery_group_id",
+    "id",
+    "item_id",
+    "rate_of_win_effect",
+    "updated_at",
+    "weight"
+  ],
+  "daily_playback_events": [
+    "char_receive_end_at",
+    "char_receive_start_at",
+    "created_at",
+    "gacha_group_id",
+    "gacha_play_end_at",
+    "gacha_play_start_at",
+    "id",
+    "updated_at"
+  ],
+  "boost_item_groups": [
+    "array_boost_item_ids",
+    "boost_item_category_id",
+    "created_at",
+    "id",
+    "updated_at"
+  ],
+  "boost_item_stages": [
+    "boost_item_group_id",
+    "created_at",
+    "id",
+    "stage_id",
+    "updated_at"
+  ],
+  "gourmet_campaigns": [
+    "campaign_type",
+    "cooking_end_at",
+    "created_at",
+    "end_at",
+    "id",
+    "max_lucky_orb_cnt",
+    "start_at",
+    "updated_at"
+  ],
+  "gourmet_cooking_levels": [
+    "cooking_cnt",
+    "created_at",
+    "id",
+    "level",
+    "updated_at"
+  ],
+  "gourmet_cooking_recipes": [
+    "created_at",
+    "id",
+    "item_id",
+    "require_cnt_0",
+    "require_cnt_1",
+    "require_cnt_2",
+    "require_cnt_3",
+    "require_item_id_0",
+    "require_item_id_1",
+    "require_item_id_2",
+    "require_item_id_3",
+    "require_level",
+    "updated_at"
+  ],
+  "gourmet_delivers": [
+    "cnt",
+    "condition_type",
+    "condition_value_0",
+    "condition_value_1",
+    "created_at",
+    "description",
+    "gourmet_campaign_id",
+    "id",
+    "item_id",
+    "require_level",
+    "updated_at"
+  ],
+  "carp_events": [
+    "created_at",
+    "id",
+    "investigate_end_at",
+    "receive_end_at",
+    "start_at",
+    "updated_at"
+  ],
+  "carp_investigation_items": [
+    "carp_investigation_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "carp_investigations": [
+    "carp_event_id",
+    "created_at",
+    "id",
+    "need_investigated_cnt",
+    "only_once",
+    "title",
+    "updated_at"
+  ],
+  "random_item_generate_events": [
+    "created_at",
+    "end_at",
+    "generate_point",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "random_item_generate_stages": [
+    "created_at",
+    "id",
+    "random_item_generate_event_id",
+    "stage_id",
+    "updated_at"
+  ],
+  "ultimate_tournament_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "receive_end_at",
+    "start_at",
+    "updated_at"
+  ],
+  "ultimate_tournament_reward_items": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "ultimate_tournament_reward_id",
+    "updated_at"
+  ],
+  "ultimate_tournament_rewards": [
+    "created_at",
+    "id",
+    "tournament_type",
+    "updated_at",
+    "win_cnt"
+  ],
+  "ultimate_tournaments": [
+    "created_at",
+    "id",
+    "stage_group_id",
+    "target_char_ids",
+    "tournament_id",
+    "tournament_type",
+    "ultimate_tournament_event_id",
+    "updated_at"
+  ],
+  "brown_exams": [
+    "additional_point_max",
+    "additional_point_min",
+    "created_at",
+    "id",
+    "updated_at",
+    "weight"
+  ],
+  "brown_first_clear_reward_items": [
+    "brown_first_clear_reward_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "brown_first_clear_rewards": [
+    "created_at",
+    "id",
+    "score",
+    "updated_at"
+  ],
+  "brown_reward_items": [
+    "brown_reward_id",
+    "cnt",
+    "id",
+    "item_id"
+  ],
+  "brown_rewards": [
+    "created_at",
+    "id",
+    "score_max",
+    "score_min",
+    "updated_at"
+  ],
+  "browns": [
+    "created_at",
+    "end_at",
+    "id",
+    "max_cleverness",
+    "start_at",
+    "updated_at"
+  ],
+  "daily_stage_gacha_point_total_clear_bonuses": [
+    "condition_cnt",
+    "created_at",
+    "daily_stage_gacha_point_id",
+    "id",
+    "point",
+    "updated_at"
+  ],
+  "ocean_ship_parts": [
+    "created_at",
+    "description",
+    "group_id",
+    "id",
+    "image_name",
+    "level",
+    "name",
+    "require_point",
+    "updated_at"
+  ],
+  "map_spot_effect_campaigns": [
+    "calendar_icon_name",
+    "created_at",
+    "end_at",
+    "home_icon_name",
+    "id",
+    "map_spot_effect_type_id",
+    "name",
+    "start_at",
+    "updated_at",
+    "visible_at"
+  ],
+  "matching_filter_stage_group_additional_conditions": [
+    "created_at",
+    "end_at",
+    "id",
+    "sort_id",
+    "stage_group_id",
+    "start_at",
+    "type_id",
+    "updated_at"
+  ],
+  "beer_rush_stage_groups": [
+    "beer_rush_id",
+    "created_at",
+    "id",
+    "stage_group_id",
+    "updated_at"
+  ],
+  "beer_rushes": [
+    "consume_end_at",
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "collabo_phone_items": [
+    "always",
+    "cnt",
+    "collabo_phone_id",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "collabo_phones": [
+    "created_at",
+    "end_at",
+    "id",
+    "receiver_id",
+    "start_at",
+    "updated_at"
+  ],
+  "collabo_shop_item_reward_items": [
+    "cnt",
+    "collabo_shop_item_reward_id",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "collabo_shop_item_rewards": [
+    "collabo_shop_item_id",
+    "created_at",
+    "exchange_cnt",
+    "id",
+    "updated_at"
+  ],
+  "gacha_lidra_cards": [
+    "created_at",
+    "description",
+    "end_at",
+    "feature_char_id_1",
+    "feature_char_id_2",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "tenko_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "tenko_season_achievements": [
+    "char_extend_template_id",
+    "cnt",
+    "condition_phase_cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "tenko_stages": [
+    "created_at",
+    "floor",
+    "id",
+    "stage_id",
+    "tenko_group_id",
+    "updated_at"
+  ],
+  "ehime_point_missions": [
+    "created_at",
+    "daily_point_group_id_origin",
+    "end_at",
+    "id",
+    "start_at",
+    "total_point_group_id",
+    "updated_at"
+  ],
+  "login_popup_campaigns": [
+    "check_frequency",
+    "created_at",
+    "end_at",
+    "id",
+    "message",
+    "no_text",
+    "start_at",
+    "type_id",
+    "updated_at",
+    "value",
+    "value_2",
+    "value_3",
+    "value_4",
+    "yes_text"
+  ],
+  "daily_lottery_event_section_relations": [
+    "created_at",
+    "daily_lottery_event_section_id",
+    "daily_lottery_group_id",
+    "id",
+    "updated_at"
+  ],
+  "daily_lottery_event_sections": [
+    "created_at",
+    "daily_lottery_event_id",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "color_shift_bonus_schedules": [
+    "attribute_id",
+    "bonus_cnt",
+    "color_shift_id",
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "color_shifts": [
+    "char_extend_template_id",
+    "created_at",
+    "end_at",
+    "id",
+    "item_id",
+    "max_cnt",
+    "stage_group_id",
+    "start_at",
+    "updated_at"
+  ],
+  "stage_drop_item_notes": [
+    "created_at",
+    "icon_name_1",
+    "icon_name_2",
+    "id",
+    "item_id_1",
+    "item_id_2",
+    "stage_id",
+    "type_id",
+    "updated_at"
+  ],
+  "dungeon_blocks": [
+    "block_number",
+    "block_type",
+    "created_at",
+    "dungeon_event_id",
+    "id",
+    "updated_at"
+  ],
+  "dungeon_events": [
+    "buffer",
+    "chance_lose_gacha_group_id",
+    "chance_win_gacha_group_id",
+    "created_at",
+    "end_at",
+    "id",
+    "normal_gacha_group_id",
+    "start_at",
+    "updated_at"
+  ],
+  "matching_filter_delegate_stage_groups": [
+    "created_at",
+    "id",
+    "stage_group_id",
+    "stage_id",
+    "updated_at"
+  ],
+  "one_hand_shot_king_stage_groups": [
+    "battle_point_1",
+    "battle_point_2",
+    "battle_point_3",
+    "battle_point_4",
+    "created_at",
+    "id",
+    "mode",
+    "normal_point",
+    "one_hand_shot_king_group_id",
+    "perfect_clear_bonus_point",
+    "stage_group_id",
+    "updated_at"
+  ],
+  "one_hand_shot_king_total_rewards": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "one_hand_shot_king_group_id",
+    "require_total_point",
+    "updated_at"
+  ],
+  "one_hand_shot_kings": [
+    "created_at",
+    "end_at",
+    "group_id",
+    "id",
+    "max_total_point",
+    "start_at",
+    "updated_at"
+  ],
+  "game_calendar_categories": [
+    "caution_message",
+    "color",
+    "created_at",
+    "dialog_type",
+    "end_at",
+    "id",
+    "name",
+    "priority",
+    "start_at",
+    "updated_at"
+  ],
+  "game_calendar_contents": [
+    "created_at",
+    "event_type",
+    "ext_bottom",
+    "ext_top",
+    "game_calendar_category_id",
+    "icon_name",
+    "id",
+    "is_all_day",
+    "is_pickup_content",
+    "layout",
+    "name",
+    "priority",
+    "text",
+    "updated_at",
+    "value",
+    "value_2",
+    "value_3",
+    "value_4",
+    "visible_at"
+  ],
+  "game_calendar_events": [
+    "created_at",
+    "enable",
+    "game_calendar_content_id",
+    "gift_end_at",
+    "gift_item_id",
+    "gift_start_at",
+    "icon_name",
+    "id",
+    "main_end_at",
+    "main_label",
+    "main_start_at",
+    "stage_class_id",
+    "sub_end_at",
+    "sub_label",
+    "sub_start_at",
+    "updated_at"
+  ],
+  "daily_lottery_effects": [
+    "created_at",
+    "daily_lottery_group_id",
+    "id",
+    "item_event_id",
+    "updated_at"
+  ],
+  "collabo_lottery_box_events": [
+    "end_at",
+    "id",
+    "start_at"
+  ],
+  "collabo_lottery_box_items": [
+    "cnt",
+    "collabo_lottery_box_id",
+    "id",
+    "item_id"
+  ],
+  "collabo_lottery_boxes": [
+    "collabo_lottery_box_event_id",
+    "display_item_id",
+    "id",
+    "is_host",
+    "type_id"
+  ],
+  "dictionary_urls": [
+    "char_id",
+    "created_at",
+    "id",
+    "start_at",
+    "updated_at",
+    "url"
+  ],
+  "udon_auto_material_accumulations": [
+    "accumulate_cnt",
+    "created_at",
+    "id",
+    "level",
+    "max_cnt",
+    "updated_at"
+  ],
+  "udon_campaigns": [
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "udon_game_clear_reward_materials": [
+    "created_at",
+    "id",
+    "stage_class_ids",
+    "udon_campaign_id",
+    "updated_at"
+  ],
+  "udon_level_reward_items": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "level",
+    "udon_campaign_id",
+    "updated_at"
+  ],
+  "udon_levels": [
+    "created_at",
+    "id",
+    "level",
+    "required_cnt",
+    "udon_campaign_id",
+    "updated_at"
+  ],
+  "udon_town_reward_materials": [
+    "cnt",
+    "created_at",
+    "id",
+    "level",
+    "udon_town_id",
+    "updated_at"
+  ],
+  "udon_towns": [
+    "created_at",
+    "display_type_id",
+    "icon_name",
+    "id",
+    "mission_interval",
+    "name",
+    "updated_at"
+  ],
+  "pythagora_areas": [
+    "ccb_id",
+    "created_at",
+    "id",
+    "name",
+    "open_at",
+    "pythagora_event_id",
+    "updated_at"
+  ],
+  "pythagora_charball_init_pos_ranges": [
+    "char_no",
+    "created_at",
+    "h",
+    "id",
+    "stage_id",
+    "updated_at",
+    "w",
+    "x",
+    "y"
+  ],
+  "pythagora_events": [
+    "created_at",
+    "id",
+    "play_end_at",
+    "receive_end_at",
+    "start_at",
+    "updated_at"
+  ],
+  "pythagora_gimmick_blocks": [
+    "created_at",
+    "id",
+    "loop_turn",
+    "on_flag",
+    "type_id",
+    "updated_at",
+    "val0",
+    "val1",
+    "x_fin",
+    "y_fin"
+  ],
+  "pythagora_gimmick_layouts": [
+    "created_at",
+    "id",
+    "param",
+    "range",
+    "type_id",
+    "updated_at"
+  ],
+  "pythagora_gimmicks": [
+    "created_at",
+    "gimmick_id",
+    "gimmick_type",
+    "group_id",
+    "h",
+    "id",
+    "pattern",
+    "stage_id",
+    "updated_at",
+    "w",
+    "x",
+    "y"
+  ],
+  "pythagora_missions": [
+    "created_at",
+    "id",
+    "level",
+    "param",
+    "pythagora_stage_id",
+    "type_id",
+    "updated_at"
+  ],
+  "pythagora_reward_items": [
+    "created_at",
+    "id",
+    "item_cnt",
+    "item_id",
+    "pythagora_reward_id",
+    "updated_at"
+  ],
+  "pythagora_rewards": [
+    "created_at",
+    "id",
+    "param",
+    "pythagora_event_id",
+    "type_id",
+    "updated_at"
+  ],
+  "pythagora_routes": [
+    "ccb_tag_begin",
+    "ccb_tag_end",
+    "ccb_tag_lock",
+    "created_at",
+    "from_pythagora_stage_id",
+    "id",
+    "to_pythagora_stage_id",
+    "updated_at"
+  ],
+  "pythagora_stages": [
+    "ccb_tag",
+    "created_at",
+    "icon_number",
+    "icon_type",
+    "id",
+    "pythagora_area_id",
+    "required_stars",
+    "sort_id",
+    "stage_id",
+    "type_id",
+    "updated_at"
+  ],
+  "char_evolution_tags": [
+    "char_id",
+    "created_at",
+    "id",
+    "type_id",
+    "updated_at"
+  ],
+  "player_card_groups": [
+    "created_at",
+    "id",
+    "name",
+    "sort_id",
+    "updated_at"
+  ],
+  "vshot_background_images": [
+    "created_at",
+    "end_at",
+    "file_name",
+    "id",
+    "priority",
+    "stage_group_id",
+    "start_at",
+    "updated_at"
+  ],
+  "gacha_effect_collabo_types": [
+    "created_at",
+    "effect_type",
+    "gacha_group_id",
+    "id",
+    "updated_at"
+  ],
+  "reward_calendar_display_items": [
+    "calendar_id",
+    "cnt",
+    "created_at",
+    "display_date",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "lottery_box_contents": [
+    "char_extend_template_id",
+    "created_at",
+    "discharge_cnt",
+    "discharge_item_id",
+    "id",
+    "is_lucky",
+    "item_id",
+    "updated_at"
+  ],
+  "sugoroku_boards": [
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "sugoroku_group_id",
+    "updated_at"
+  ],
+  "sugoroku_group_dice_roll_bonuses": [
+    "cnt",
+    "created_at",
+    "dice_roll_cnt",
+    "id",
+    "item_id",
+    "sugoroku_group_id",
+    "updated_at"
+  ],
+  "sugoroku_group_goal_bonuses": [
+    "cnt",
+    "created_at",
+    "goal_cnt",
+    "id",
+    "item_id",
+    "sugoroku_group_id",
+    "updated_at"
+  ],
+  "sauna_rescue_bonuses": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "rescue_char_id",
+    "sort_id",
+    "updated_at"
+  ],
+  "collabo_item_generator_events": [
+    "end_at",
+    "id",
+    "receivable_at",
+    "start_at"
+  ],
+  "collabo_item_generator_items": [
+    "cnt",
+    "collabo_item_generator_event_id",
+    "generate_minutes",
+    "id",
+    "item_id"
+  ],
+  "collabo_item_generator_total_rewards": [
+    "cnt",
+    "collabo_item_generator_event_id",
+    "id",
+    "item_id",
+    "total_cnt"
+  ],
+  "ocean_point_item_conditions": [
+    "condition_type",
+    "condition_value",
+    "created_at",
+    "id",
+    "ocean_point_item_id",
+    "updated_at"
+  ],
+  "collabo_char_associated_mission_campaigns": [
+    "activate_end_at",
+    "created_at",
+    "file_name",
+    "id",
+    "reward_end_at",
+    "start_at",
+    "title",
+    "updated_at"
+  ],
+  "collabo_char_associated_mission_login_items": [
+    "char_extend_template_id",
+    "cnt",
+    "collabo_char_associated_mission_id",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "collabo_char_associated_missions": [
+    "action_achievement_id",
+    "collabo_char_associated_mission_campaign_id",
+    "created_at",
+    "icon_label_name",
+    "icon_name",
+    "id",
+    "name",
+    "type_id",
+    "updated_at"
+  ],
+  "gacha_half_campaigns": [
+    "created_at",
+    "effective_days",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "sugar_map_event_items": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "reward_id",
+    "sugar_map_event_id",
+    "updated_at"
+  ],
+  "sugar_map_events": [
+    "bonus_stage_group_id",
+    "complete_action_achievement_id",
+    "created_at",
+    "end_at",
+    "id",
+    "required_action_achievement_id",
+    "start_at",
+    "updated_at"
+  ],
+  "sugar_stage_event_effects": [
+    "created_at",
+    "description",
+    "display_type_id",
+    "id",
+    "sugar_stage_event_id",
+    "target_id",
+    "target_type_id",
+    "type_id",
+    "updated_at",
+    "value"
+  ],
+  "sugar_stage_events": [
+    "condition_value",
+    "created_at",
+    "description",
+    "id",
+    "level",
+    "name",
+    "updated_at"
+  ],
+  "limited_term_orb_events": [
+    "cnt",
+    "created_at",
+    "end_at",
+    "icon_name",
+    "id",
+    "item_id",
+    "notify_days1",
+    "notify_days2",
+    "start_at",
+    "updated_at",
+    "use_end_at"
+  ],
+  "poem_campaigns": [
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "poem_chars": [
+    "created_at",
+    "ext_flag",
+    "id",
+    "poem_campaign_id",
+    "skin_id",
+    "sort_id",
+    "stage_group_id",
+    "updated_at"
+  ],
+  "poem_complete_rewards": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "poem_campaign_id",
+    "stage_group_id",
+    "updated_at"
+  ],
+  "poem_rewards": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "poem_campaign_id",
+    "poem_char_id",
+    "updated_at"
+  ],
+  "badge_groups": [
+    "created_at",
+    "id",
+    "name",
+    "sort_id",
+    "type_id",
+    "updated_at"
+  ],
+  "sanma_campaigns": [
+    "cool_time",
+    "created_at",
+    "end_at",
+    "exchangeable_end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "sanma_levels": [
+    "created_at",
+    "decrease_cool_time",
+    "id",
+    "level",
+    "required_experiences",
+    "sanma_campaign_id",
+    "updated_at"
+  ],
+  "sanma_worlds": [
+    "created_at",
+    "display_type_id",
+    "icon_name",
+    "id",
+    "name",
+    "sanma_campaign_id",
+    "stage_group_ids",
+    "updated_at"
+  ],
+  "gacha_half_blacklists": [
+    "created_at",
+    "gacha_group_id",
+    "id",
+    "updated_at"
+  ],
+  "oragon_robot_event_items": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "effect_id",
+    "group_id",
+    "id",
+    "item_id",
+    "oragon_robot_event_id",
+    "sort_id",
+    "updated_at"
+  ],
+  "oragon_robot_events": [
+    "created_at",
+    "description",
+    "end_at",
+    "id",
+    "receive_end_at",
+    "receive_start_at",
+    "start_at",
+    "updated_at"
+  ],
+  "denim_action_achievement_conditions": [
+    "condition_id",
+    "created_at",
+    "denim_action_achievement_id",
+    "id",
+    "sub_condition_id_0",
+    "sub_condition_id_1",
+    "type_id",
+    "updated_at"
+  ],
+  "denim_action_achievements": [
+    "action_type",
+    "condition_count",
+    "condition_id",
+    "created_at",
+    "denim_strategy_id",
+    "description",
+    "end_at",
+    "headline",
+    "id",
+    "long_name",
+    "message",
+    "multi_play_condition",
+    "name",
+    "receiving_at",
+    "start_at",
+    "updated_at"
+  ],
+  "denim_armies": [
+    "created_at",
+    "id",
+    "is_enemy",
+    "name",
+    "rival_denim_army_id",
+    "rival_denim_army_id2",
+    "type_id",
+    "updated_at"
+  ],
+  "denim_army_strategy_layouts": [
+    "created_at",
+    "denim_army_id",
+    "denim_strategy_id",
+    "group_id",
+    "id",
+    "updated_at"
+  ],
+  "denim_campaigns": [
+    "base_point",
+    "cool_time",
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "denim_rewards": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "denim_army_id",
+    "id",
+    "item_id",
+    "point",
+    "updated_at"
+  ],
+  "denim_stage_event_effects": [
+    "created_at",
+    "denim_stage_event_id",
+    "id",
+    "target_id",
+    "target_type_id",
+    "type_id",
+    "updated_at",
+    "value"
+  ],
+  "denim_stage_events": [
+    "condition_value",
+    "created_at",
+    "id",
+    "level",
+    "updated_at"
+  ],
+  "denim_strategies": [
+    "created_at",
+    "id",
+    "name",
+    "type_id",
+    "updated_at"
+  ],
+  "denim_strategy_effects": [
+    "created_at",
+    "enemy_strategy_type_id",
+    "id",
+    "own_strategy_type_id",
+    "rate",
+    "updated_at"
+  ],
+  "denim_total_point_reward_items": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "denim_total_point_reward_id",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "denim_total_point_rewards": [
+    "created_at",
+    "description",
+    "id",
+    "point",
+    "updated_at"
+  ],
+  "denim_lottery_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "denim_lottery_groups": [
+    "created_at",
+    "denim_lottery_event_id",
+    "id",
+    "name",
+    "sort_id",
+    "updated_at"
+  ],
+  "denim_lottery_items": [
+    "cnt",
+    "created_at",
+    "denim_lottery_group_id",
+    "id",
+    "item_id",
+    "success",
+    "updated_at"
+  ],
+  "denim_lottery_play_count_items": [
+    "cnt",
+    "created_at",
+    "denim_lottery_event_id",
+    "id",
+    "item_id",
+    "play_cnt",
+    "updated_at"
+  ],
+  "denim_lottery_play_effects": [
+    "created_at",
+    "denim_lottery_event_id",
+    "id",
+    "max_cnt",
+    "type_id",
+    "updated_at"
+  ],
+  "my_best_gacha_groups": [
+    "cost_item_id",
+    "created_at",
+    "detail_text",
+    "discharge_cnt",
+    "end_at",
+    "file_name",
+    "gacha_group_id",
+    "gacha_rate_text",
+    "gacha_result",
+    "id",
+    "image_id",
+    "pickup_cnt",
+    "priority",
+    "start_at",
+    "ui_category_id",
+    "updated_at"
+  ],
+  "my_best_gachas": [
+    "char_id",
+    "created_at",
+    "id",
+    "my_best_gacha_group_id",
+    "updated_at"
+  ],
+  "gunma_action_achievement_friend_bonuses": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "friend_bonus_id",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "gunma_action_achievement_report_bonuses": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "require_cnt",
+    "updated_at"
+  ],
+  "orb_back_events": [
+    "back_end_at",
+    "back_start_at",
+    "count_end_at",
+    "count_start_at",
+    "created_at",
+    "id",
+    "live_end_at",
+    "live_start_at",
+    "max_count",
+    "quiz_end_at",
+    "quiz_start_at",
+    "updated_at"
+  ],
+  "orb_back_quizzes": [
+    "answer_name1",
+    "answer_name2",
+    "created_at",
+    "description",
+    "file_name",
+    "file_name_small",
+    "id",
+    "name",
+    "orb_back_event_id",
+    "short_description",
+    "updated_at"
+  ],
+  "orb_back_rates": [
+    "back_rate",
+    "correct_count",
+    "created_at",
+    "id",
+    "orb_back_event_id",
+    "updated_at"
+  ],
+  "assist_skill_effects": [
+    "condition_id_1",
+    "condition_id_2",
+    "condition_id_3",
+    "condition_param_1",
+    "condition_param_2",
+    "condition_param_3",
+    "created_at",
+    "effect_group",
+    "effect_id",
+    "effect_param_1",
+    "effect_param_2",
+    "effect_param_3",
+    "effect_param_4",
+    "id",
+    "trigger_id",
+    "trigger_param",
+    "updated_at"
+  ],
+  "assist_skills": [
+    "assist_skill_effect_id_1",
+    "assist_skill_effect_id_2",
+    "assist_skill_effect_id_3",
+    "char_id",
+    "created_at",
+    "description",
+    "id",
+    "updated_at"
+  ],
+  "gunma_campaigns": [
+    "content_end_at",
+    "created_at",
+    "end_at",
+    "hp",
+    "id",
+    "stage_group_id",
+    "start_at",
+    "updated_at"
+  ],
+  "gunma_cards": [
+    "created_at",
+    "gunma_enemy_id",
+    "id",
+    "type_id",
+    "updated_at"
+  ],
+  "gunma_enemies": [
+    "created_at",
+    "id",
+    "name",
+    "sort_id",
+    "type_id",
+    "updated_at"
+  ],
+  "gunma_rewards": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "gunma_enemy_id",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "multi_gacha_events": [
+    "created_at",
+    "description",
+    "direct_gift_id",
+    "gacha_group_event_id",
+    "id",
+    "item_id",
+    "max_receiving_cnt_1",
+    "max_receiving_cnt_2",
+    "max_receiving_cnt_3",
+    "max_receiving_cnt_4",
+    "pickup_end_at",
+    "updated_at"
+  ],
+  "shot_skills": [
+    "created_at",
+    "description",
+    "id",
+    "strike_shot_type_id",
+    "updated_at",
+    "values"
+  ],
+  "gacha_lidrush_events": [
+    "created_at",
+    "gacha_group_event_id",
+    "game_end_at",
+    "game_start_at",
+    "id",
+    "updated_at"
+  ],
+  "pils_campaigns": [
+    "created_at",
+    "end_at",
+    "id",
+    "max_friendly_point",
+    "start_at",
+    "updated_at"
+  ],
+  "pils_feeding_count_items": [
+    "cnt",
+    "created_at",
+    "feeding_cnt",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "pils_friendly_reward_items": [
+    "cnt",
+    "created_at",
+    "friendly_point",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "item_texts": [
+    "created_at",
+    "id",
+    "item_id",
+    "text",
+    "updated_at"
+  ],
+  "total_shops": [
+    "content_id",
+    "created_at",
+    "display_end_at",
+    "display_start_at",
+    "icon_name",
+    "id",
+    "message",
+    "multiple_buy",
+    "priority",
+    "sort_id",
+    "ui_category_id",
+    "updated_at",
+    "value",
+    "value_2",
+    "value_3",
+    "value_4"
+  ],
+  "pils_phase_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "stage_group_id",
+    "start_at",
+    "updated_at"
+  ],
+  "pils_phase_rewards": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "phase",
+    "pils_phase_event_id",
+    "updated_at"
+  ],
+  "sidecar_tower_floor_group_complete_rewards": [
+    "complete_cnt",
+    "created_at",
+    "id",
+    "reward_item_cnt",
+    "reward_item_id",
+    "sidecar_tower_floor_group_id",
+    "updated_at"
+  ],
+  "sidecar_tower_floor_groups": [
+    "created_at",
+    "end_at",
+    "id",
+    "name",
+    "start_at",
+    "tower_id",
+    "updated_at"
+  ],
+  "sidecar_tower_floors": [
+    "attribute_id",
+    "created_at",
+    "floor",
+    "id",
+    "link_floor_1",
+    "link_floor_2",
+    "sidecar_tower_floor_group_id",
+    "stage_id",
+    "tower_id",
+    "updated_at"
+  ],
+  "piano_char_release_cost_items": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "release_cnt",
+    "updated_at"
+  ],
+  "piano_chars": [
+    "created_at",
+    "display_at",
+    "display_char_id",
+    "display_char_name",
+    "id",
+    "need_to_release",
+    "release_reward_item_cnt",
+    "release_reward_item_id",
+    "updated_at"
+  ],
+  "piano_events": [
+    "char_releasable_at",
+    "end_at",
+    "id",
+    "investigable_at",
+    "start_at"
+  ],
+  "piano_investigations": [
+    "created_at",
+    "id",
+    "interval_minutes",
+    "reward_char_extend_template_id",
+    "reward_item_cnt",
+    "reward_item_id",
+    "updated_at"
+  ],
+  "piano_errands": [
+    "day",
+    "effect_id",
+    "id",
+    "is_success",
+    "shop_item_id",
+    "type_id",
+    "weight"
+  ],
+  "illustration_quiz_answers": [
+    "char_id",
+    "created_at",
+    "id",
+    "illustration_quiz_event_id",
+    "updated_at"
+  ],
+  "illustration_quiz_common_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "illustration_quiz_event_id",
+    "item_id",
+    "success_cnt",
+    "updated_at"
+  ],
+  "illustration_quiz_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "type_id",
+    "updated_at"
+  ],
+  "illustration_quiz_random_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "illustration_quiz_event_id",
+    "item_id",
+    "updated_at",
+    "weight"
+  ],
+  "illustration_quiz_stages": [
+    "created_at",
+    "id",
+    "illustration_quiz_event_id",
+    "order",
+    "stage_id",
+    "updated_at"
+  ],
+  "stew_campaigns": [
+    "collabo_stage_group_ids",
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "stew_friendly_reward_items": [
+    "cnt",
+    "created_at",
+    "fellow_id",
+    "friendly_point",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "stew_stage_events": [
+    "created_at",
+    "description",
+    "fellow_id",
+    "icon_name",
+    "id",
+    "item_id",
+    "name",
+    "panel_description",
+    "type_id",
+    "updated_at",
+    "value"
+  ],
+  "video_ad_lucky_campaigns": [
+    "calendar_icon_name",
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at",
+    "video_ad_reward_id"
+  ],
+  "beach_box_items": [
+    "beach_box_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "beach_boxes": [
+    "created_at",
+    "id",
+    "type_id",
+    "updated_at"
+  ],
+  "beach_events": [
+    "box_quest_start_at",
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "beach_stage_groups": [
+    "created_at",
+    "id",
+    "is_enable_limit_1",
+    "is_enable_limit_2",
+    "is_enable_limit_3",
+    "stage_group_id",
+    "updated_at"
+  ],
+  "hiding_drop_char_stage_groups": [
+    "created_at",
+    "id",
+    "stage_group_id",
+    "updated_at"
+  ],
+  "collabo_filter_chars": [
+    "char_id",
+    "collabo_filter_id",
+    "created_at",
+    "id",
+    "updated_at"
+  ],
+  "collabo_filter_groups": [
+    "created_at",
+    "display_char_id",
+    "id",
+    "name",
+    "sort_id",
+    "updated_at",
+    "visible_at"
+  ],
+  "collabo_filter_support_chars": [
+    "collabo_filter_id",
+    "created_at",
+    "id",
+    "support_char_id",
+    "updated_at"
+  ],
+  "collabo_filters": [
+    "collabo_filter_group_id",
+    "created_at",
+    "id",
+    "name",
+    "sort_id",
+    "updated_at",
+    "visible"
+  ],
+  "ginza_strategies": [
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "ginza_strategy_enemies": [
+    "ball_img_type",
+    "char_id",
+    "created_at",
+    "file_name_suffix",
+    "id",
+    "name",
+    "updated_at"
+  ],
+  "ginza_strategy_phase_cells": [
+    "cnt",
+    "created_at",
+    "enemy_id",
+    "ginza_strategy_phase_id",
+    "id",
+    "item_id",
+    "type_id",
+    "updated_at"
+  ],
+  "ginza_strategy_phase_clear_items": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "phase_step",
+    "updated_at"
+  ],
+  "ginza_strategy_phases": [
+    "created_at",
+    "id",
+    "phase_step",
+    "updated_at",
+    "x",
+    "y"
+  ],
+  "ginza_daily_mission_campaigns": [
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "type2_additional_rate",
+    "type3_additional_item_count",
+    "type3_additional_item_id",
+    "type3_special_additional_item_count",
+    "updated_at"
+  ],
+  "ginza_daily_missions": [
+    "created_at",
+    "day",
+    "failure_item_count",
+    "failure_item_id",
+    "id",
+    "success_item_count",
+    "success_item_id",
+    "success_rate_percent",
+    "updated_at"
+  ],
+  "fountain_campaigns": [
+    "category_id",
+    "consume_item_cnt",
+    "consume_item_id",
+    "effect_stage_class_ids",
+    "effect_stage_group_ids",
+    "end_at",
+    "event_stage_group_ids",
+    "id",
+    "provide_cnt_bonus_type",
+    "start_at"
+  ],
+  "fountain_reward_chars": [
+    "char_id",
+    "cnt",
+    "created_at",
+    "fountain_campaign_id",
+    "id",
+    "stage_id",
+    "updated_at"
+  ],
+  "fountain_reward_items": [
+    "cnt",
+    "created_at",
+    "fountain_campaign_id",
+    "id",
+    "item_id",
+    "stock",
+    "updated_at"
+  ],
+  "fountain_reward_side_effects": [
+    "created_at",
+    "fountain_campaign_id",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "fountain_side_effect_to_item_events": [
+    "created_at",
+    "id",
+    "item_event_id",
+    "item_id",
+    "updated_at"
+  ],
+  "support_filter_skills": [
+    "created_at",
+    "filter_id",
+    "id",
+    "skill_id",
+    "updated_at"
+  ],
+  "support_skill_filter_names": [
+    "created_at",
+    "filter_id",
+    "id",
+    "name",
+    "updated_at"
+  ],
+  "unagi_stages": [
+    "created_at",
+    "display_enemy_cnt",
+    "id",
+    "stage_id",
+    "updated_at"
+  ],
+  "collabo_shop_lucky_items": [
+    "cnt",
+    "collabo_shop_id",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "cacao_direct_mission_rewards": [
+    "cacao_event_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "cacao_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "receivable_end_at",
+    "start_at",
+    "updated_at"
+  ],
+  "cacao_total_achieve_rewards": [
+    "achieve_cnt",
+    "cacao_event_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "flute_cafe_campaigns": [
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "flute_reward_box_items": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "stock",
+    "updated_at",
+    "waiter_id"
+  ],
+  "flute_reward_confirmed_items": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "flute_reward_unlimited_items": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "flute_waiters": [
+    "created_at",
+    "id",
+    "name",
+    "updated_at"
+  ],
+  "login_power_up_gacha_events": [
+    "created_at",
+    "gacha_end_at",
+    "gacha_start_at",
+    "id",
+    "power_texts1",
+    "power_texts2",
+    "power_texts3",
+    "power_up_end_at",
+    "power_up_start_at",
+    "updated_at"
+  ],
+  "login_power_up_gachas": [
+    "created_at",
+    "gacha_group_id",
+    "id",
+    "level",
+    "login_power_up_gacha_event_id",
+    "login_stamp_texts",
+    "power_color",
+    "power_layout",
+    "power_texts",
+    "title",
+    "title2",
+    "updated_at"
+  ],
+  "daiba_sub1_box_items": [
+    "cnt",
+    "created_at",
+    "daiba_sub1_box_id",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "daiba_sub1_boxes": [
+    "created_at",
+    "daiba_sub1_id",
+    "hit",
+    "id",
+    "updated_at",
+    "weapon_ccb_file_name",
+    "weapon_image_file_name"
+  ],
+  "daiba_sub1_campaigns": [
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "daiba_sub1_groups": [
+    "created_at",
+    "earliest_appear_at",
+    "id",
+    "updated_at"
+  ],
+  "daiba_sub1s": [
+    "appear_order_id",
+    "bk_file_name",
+    "box_item_id",
+    "created_at",
+    "daiba_sub1_group_id",
+    "id",
+    "image_file_name",
+    "name",
+    "stage_group_id",
+    "updated_at"
+  ],
+  "daiba_sub2_campaigns": [
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "daiba_sub2_complete_reward_items": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "daiba_sub2_reward_items": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "fortune_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "start_fortune_route_id",
+    "updated_at"
+  ],
+  "fortune_routes": [
+    "answer_1_message",
+    "answer_1_next_id",
+    "answer_2_message",
+    "answer_2_next_id",
+    "answer_3_message",
+    "answer_3_next_id",
+    "answer_4_message",
+    "answer_4_next_id",
+    "created_at",
+    "fortune_event_id",
+    "id",
+    "question_message",
+    "result_fortune_char_type_id",
+    "updated_at"
+  ],
+  "matching_filter_categories": [
+    "created_at",
+    "enable",
+    "group_id",
+    "id",
+    "ignore_distance_limit",
+    "name",
+    "sort_id",
+    "stage_class_id",
+    "stage_class_sub_id",
+    "updated_at"
+  ],
+  "stage_class_panels": [
+    "created_at",
+    "id",
+    "panel_name",
+    "stage_class_id",
+    "stage_class_sub_id",
+    "updated_at"
+  ],
+  "sazae_card_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "receivable_at",
+    "start_at",
+    "updated_at"
+  ],
+  "sazae_cards": [
+    "created_at",
+    "display_char_id",
+    "id",
+    "name",
+    "pair_reward_item_cnt",
+    "pair_reward_item_id",
+    "updated_at"
+  ],
+  "sazae_cheer_reward_items": [
+    "cheer_char_id",
+    "cheer_count",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "point",
+    "updated_at"
+  ],
+  "sazae_cheers": [
+    "condition_stage_group_id",
+    "created_at",
+    "dummy_condition_stage_group_id",
+    "end_at",
+    "id",
+    "latter_half_at",
+    "receiving_at",
+    "start_at",
+    "updated_at"
+  ],
+  "sazae_stamp_campaigns": [
+    "created_at",
+    "end_at",
+    "id",
+    "stage_id",
+    "start_at",
+    "updated_at"
+  ],
+  "sazae_stamp_rewards": [
+    "cnt",
+    "created_at",
+    "day",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "andevbox_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "andevbox_groups": [
+    "andevbox_event_id",
+    "andevbox_type",
+    "carry_over_orb",
+    "created_at",
+    "id",
+    "init_orb",
+    "lottery",
+    "name",
+    "short_name",
+    "updated_at"
+  ],
+  "seesaw_constants": [
+    "created_at",
+    "downloadable",
+    "id",
+    "key",
+    "updated_at",
+    "value"
+  ],
+  "seesaw_promotion_rewards": [
+    "created_at",
+    "id",
+    "item_cnt",
+    "item_id",
+    "seesaw_rank_id",
+    "seesaw_season_id",
+    "updated_at"
+  ],
+  "seesaw_rank_bonuses": [
+    "created_at",
+    "id",
+    "lose_bonus_points",
+    "rank_delta",
+    "updated_at",
+    "win_bonus_points"
+  ],
+  "seesaw_ranks": [
+    "coin_delta_1",
+    "coin_delta_2",
+    "coin_delta_3",
+    "coin_delta_4",
+    "coin_delta_5",
+    "coin_delta_6",
+    "coin_delta_7",
+    "coin_delta_8",
+    "created_at",
+    "demote_protection",
+    "group_id",
+    "id",
+    "level",
+    "min_points",
+    "name",
+    "points_delta_1",
+    "points_delta_2",
+    "points_delta_3",
+    "points_delta_4",
+    "points_delta_5",
+    "points_delta_6",
+    "points_delta_7",
+    "points_delta_8",
+    "sort_id",
+    "trophy_image",
+    "updated_at"
+  ],
+  "seesaw_seasons": [
+    "atlas_file",
+    "badge_item_id",
+    "campaign_end_at",
+    "campaign_start_at",
+    "created_at",
+    "end_at",
+    "id",
+    "name",
+    "receive_end_at",
+    "start_at",
+    "updated_at"
+  ],
+  "seesaw_stage_groups": [
+    "created_at",
+    "id",
+    "seesaw_season_id",
+    "stage_group_id",
+    "updated_at"
+  ],
+  "seesaw_stage_items": [
+    "created_at",
+    "effect_value",
+    "id",
+    "item_type",
+    "name",
+    "target_value",
+    "updated_at"
+  ],
+  "yatai_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "second_half_at",
+    "start_at",
+    "updated_at"
+  ],
+  "yatai_play_count_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "play_count",
+    "updated_at"
+  ],
+  "yatai_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "shop_item_id",
+    "target_color",
+    "type_id",
+    "updated_at"
+  ],
+  "nevada_events": [
+    "campaign_end_at",
+    "cost_item_id",
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "type_id",
+    "updated_at",
+    "wager_item_cnt"
+  ],
+  "nevada_missions": [
+    "coin_cnt",
+    "created_at",
+    "id",
+    "item_cnt",
+    "item_id",
+    "name",
+    "nevada_event_id",
+    "sort_id",
+    "updated_at"
+  ],
+  "nevada_stages": [
+    "cost_item_id",
+    "created_at",
+    "id",
+    "nevada_event_id",
+    "stage_id",
+    "updated_at"
+  ],
+  "collabo_mission_panel_total_login_bonuses": [
+    "cnt",
+    "collabo_mission_panel_group_id",
+    "created_at",
+    "id",
+    "total_login_cnt",
+    "updated_at"
+  ],
+  "collabo_mission_panel_open_count_rewards": [
+    "char_extend_template_id",
+    "cnt",
+    "collabo_mission_panel_group_id",
+    "created_at",
+    "id",
+    "item_id",
+    "open_cnt",
+    "updated_at"
+  ],
+  "char_luck_groups": [
+    "char_id",
+    "created_at",
+    "id",
+    "luck_group_id",
+    "updated_at"
+  ],
+  "favorite_chars": [
+    "char_id",
+    "created_at",
+    "id",
+    "updated_at"
+  ],
+  "mushi_action_achievement_achieved_count_rewards": [
+    "achieved_cnt",
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "striker_report_average_rank_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "rank",
+    "striker_report_event_id",
+    "updated_at"
+  ],
+  "striker_report_categories": [
+    "created_at",
+    "id",
+    "name",
+    "point_item_id",
+    "striker_report_event_id",
+    "updated_at"
+  ],
+  "striker_report_category_ranks": [
+    "created_at",
+    "id",
+    "point",
+    "rank",
+    "striker_report_event_id",
+    "updated_at"
+  ],
+  "striker_report_events": [
+    "badge_item_id",
+    "created_at",
+    "end_at",
+    "id",
+    "receive_end_at",
+    "start_at",
+    "title_name",
+    "updated_at"
+  ],
+  "striker_report_max_rank_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "rank",
+    "striker_report_event_id",
+    "updated_at"
+  ],
+  "striker_report_sub_categories": [
+    "created_at",
+    "id",
+    "name",
+    "order",
+    "striker_report_category_id",
+    "updated_at"
+  ],
+  "mushi_daily_gacha_groups": [
+    "created_at",
+    "end_at",
+    "gacha_type",
+    "id",
+    "limit_cnt",
+    "num_day",
+    "start_at",
+    "updated_at"
+  ],
+  "mushi_daily_gacha_play_bonuses": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "play_cnt",
+    "updated_at"
+  ],
+  "mushi_daily_gachas": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "mushi_daily_gacha_group_id",
+    "updated_at",
+    "weight"
+  ],
+  "desert_campaigns": [
+    "created_at",
+    "desert_frontier_id",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "desert_complete_rewards": [
+    "cnt",
+    "created_at",
+    "desert_frontier_id",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "desert_fixed_floor_rewards": [
+    "cnt",
+    "created_at",
+    "desert_frontier_id",
+    "floor_number",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "desert_floors": [
+    "created_at",
+    "desert_frontier_id",
+    "floor_number",
+    "id",
+    "stage_group_id",
+    "updated_at"
+  ],
+  "desert_relative_floor_rewards": [
+    "cnt",
+    "created_at",
+    "desert_frontier_id",
+    "id",
+    "item_id",
+    "relative_floor_number",
+    "updated_at"
+  ],
+  "desert_selectable_rewards": [
+    "cnt",
+    "created_at",
+    "desert_frontier_id",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "legacy_frontier_complete_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "legacy_frontier_floor_rewards": [
+    "cnt",
+    "created_at",
+    "floor_number",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "legacy_frontier_floors": [
+    "created_at",
+    "floor_number",
+    "id",
+    "stage_group_id",
+    "updated_at"
+  ],
+  "seesaw_daily_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "seesaw_season_id",
+    "updated_at"
+  ],
+  "seesaw_help_deck_coin_rates": [
+    "created_at",
+    "id",
+    "rate",
+    "updated_at"
+  ],
+  "tobira_events": [
+    "created_at",
+    "display_max_continuous_correct_answers",
+    "force_end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "plum_bingo_action_achievement_conditions": [
+    "condition_id",
+    "created_at",
+    "id",
+    "plum_bingo_action_achievement_id",
+    "sub_condition_id_0",
+    "sub_condition_id_1",
+    "type_id",
+    "updated_at"
+  ],
+  "plum_bingo_action_achievement_rewards": [
+    "bros_id",
+    "char_extend_template_id",
+    "clear_count",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "sheet_id",
+    "updated_at"
+  ],
+  "plum_bingo_action_achievements": [
+    "action_type",
+    "bros_id",
+    "condition_count",
+    "condition_id",
+    "created_at",
+    "description",
+    "end_at",
+    "headline",
+    "id",
+    "link_tag",
+    "long_name",
+    "multi_play_condition",
+    "name",
+    "panel_id",
+    "receiving_at",
+    "sheet_id",
+    "sort_id",
+    "start_at",
+    "updated_at"
+  ],
+  "plum_bingo_rewards": [
+    "bingo_count",
+    "created_at",
+    "id",
+    "item_count",
+    "item_id",
+    "sheet_id",
+    "updated_at"
+  ],
+  "plum_bingos": [
+    "created_at",
+    "end_at",
+    "id",
+    "receiving_at",
+    "second_half_at",
+    "start_at",
+    "updated_at"
+  ],
+  "plum_phase_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "stage_group_id",
+    "start_at",
+    "updated_at"
+  ],
+  "plum_phase_rewards": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "phase",
+    "plum_phase_event_id",
+    "updated_at"
+  ],
+  "stage_group_stage_required_items": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "stage_group_id",
+    "stage_id",
+    "updated_at"
+  ],
+  "fountain_provide_cnt_bonuses": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "fountain_campaign_id",
+    "id",
+    "item_id",
+    "provide_cnt",
+    "updated_at"
+  ],
+  "juice_cycle_action_achievement_count_bonuses": [
+    "achieved_cnt",
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "juice_open_stage_groups": [
+    "created_at",
+    "end_at",
+    "id",
+    "open_hours",
+    "recast_hours",
+    "stage_group_id",
+    "start_at",
+    "updated_at"
+  ],
+  "replace_climax_bgms": [
+    "bgm",
+    "created_at",
+    "id",
+    "updated_at"
+  ],
+  "replace_stage_bgms": [
+    "bgm",
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "type_id",
+    "updated_at",
+    "value"
+  ],
+  "special_strike_shot_cut_in_effects": [
+    "char_id",
+    "created_at",
+    "drop_id",
+    "enable_at",
+    "id",
+    "item_id",
+    "luck_count",
+    "name",
+    "new_end_at",
+    "new_start_at",
+    "updated_at"
+  ],
+  "citra_achieve_daily_achievements": [
+    "action_achievement_ui_category_id",
+    "cnt",
+    "created_at",
+    "end_at",
+    "id",
+    "item_id",
+    "start_at",
+    "ui_category_id",
+    "updated_at"
+  ],
+  "citra_daily_boxed_campaigns": [
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "citra_daily_boxed_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "surpass_phase_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "next_stage_group_id",
+    "overtime_period",
+    "revived_end_at",
+    "stage_group_id",
+    "start_at",
+    "updated_at"
+  ],
+  "surpass_phase_rewards": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "phase",
+    "surpass_phase_event_id",
+    "updated_at"
+  ],
+  "action_achievement_display_details": [
+    "action_achievement_id",
+    "created_at",
+    "id",
+    "prefix_message",
+    "sub_value",
+    "sub_value2",
+    "sufix_message",
+    "type_id",
+    "updated_at",
+    "value"
+  ],
+  "motsu_battle_actions": [
+    "created_at",
+    "id",
+    "motsu_battle_enemy_id",
+    "type_id",
+    "updated_at"
+  ],
+  "motsu_battle_enemies": [
+    "created_at",
+    "id",
+    "name",
+    "sort_id",
+    "type_id",
+    "updated_at"
+  ],
+  "motsu_battle_events": [
+    "created_at",
+    "end_at",
+    "hp",
+    "id",
+    "receivable_at",
+    "start_at",
+    "updated_at"
+  ],
+  "motsu_battle_rewards": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "motsu_battle_enemy_id",
+    "type_id",
+    "updated_at"
+  ],
+  "pairing_game_campaigns": [
+    "challege_reward_badge_item_id",
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "pairing_game_charballs": [
+    "char_id",
+    "created_at",
+    "group_id",
+    "id",
+    "set_id",
+    "updated_at"
+  ],
+  "pairing_game_stage_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "pairing_game_stage_id",
+    "updated_at"
+  ],
+  "pairing_game_stages": [
+    "challenge_time",
+    "char_attribute_id",
+    "condition_description",
+    "created_at",
+    "description",
+    "grids",
+    "id",
+    "limit_time",
+    "opened_at",
+    "pairing_game_campaign_id",
+    "pairing_game_charball_group_id",
+    "updated_at"
+  ],
+  "wonder_drop_stage_groups": [
+    "created_at",
+    "id",
+    "stage_group_id",
+    "updated_at",
+    "wonder_event_id"
+  ],
+  "wonder_events": [
+    "char_id",
+    "created_at",
+    "end_at",
+    "id",
+    "login_ticket_gettable_end_at",
+    "quest_ticket_gettable_end_at",
+    "start_at",
+    "updated_at"
+  ],
+  "wonder_gimmicks": [
+    "created_at",
+    "floor",
+    "gimmick_kind",
+    "id",
+    "param0",
+    "param1",
+    "param2",
+    "param3",
+    "stage_id",
+    "updated_at"
+  ],
+  "wonder_permanent_items": [
+    "created_at",
+    "icon_name",
+    "id",
+    "name",
+    "name_on_add",
+    "target_id",
+    "type_id",
+    "updated_at",
+    "value"
+  ],
+  "wonder_rewards": [
+    "battle_order",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "phase",
+    "updated_at",
+    "wonder_event_id"
+  ],
+  "wonder_stage_groups": [
+    "battle_order",
+    "created_at",
+    "id",
+    "stage_group_id",
+    "updated_at",
+    "wonder_event_id"
+  ],
+  "wonder_stage_permanent_items": [
+    "created_at",
+    "id",
+    "stage_id",
+    "updated_at",
+    "weight",
+    "wonder_permanent_item_id"
+  ],
+  "wonder_stage_temporary_items": [
+    "created_at",
+    "id",
+    "stage_id",
+    "updated_at",
+    "wonder_temporary_item_id"
+  ],
+  "wonder_temporary_items": [
+    "created_at",
+    "icon_name",
+    "id",
+    "name",
+    "type_id",
+    "updated_at",
+    "value1",
+    "value2"
+  ],
+  "gacha_lidra_lab_chars": [
+    "attribute_id",
+    "char_id",
+    "created_at",
+    "gacha_lidra_lab_event_id",
+    "id",
+    "updated_at"
+  ],
+  "gacha_lidra_lab_energy_lotteries": [
+    "attribute_id",
+    "created_at",
+    "energy_cnt",
+    "gacha_lidra_lab_energy_lottery_summary_id",
+    "id",
+    "updated_at"
+  ],
+  "gacha_lidra_lab_energy_lottery_summaries": [
+    "created_at",
+    "gacha_lidra_lab_event_id",
+    "generate_rate_label",
+    "id",
+    "next_generate_level_label",
+    "received_energy",
+    "updated_at"
+  ],
+  "gacha_lidra_lab_events": [
+    "char_receivable_end_at",
+    "created_at",
+    "end_at",
+    "feature_char_id_1",
+    "feature_char_id_2",
+    "id",
+    "monst_day_energy",
+    "start_at",
+    "updated_at"
+  ],
+  "pulin_events": [
+    "created_at",
+    "effect_stage_class_ids",
+    "end_at",
+    "event_stage_group_ids",
+    "id",
+    "start_at",
+    "ticket_gettable_end_at",
+    "updated_at"
+  ],
+  "pulin_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "pulin_event_id",
+    "updated_at"
+  ],
+  "pulin_total_use_boost_item_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "play_cnt",
+    "pulin_event_id",
+    "updated_at"
+  ],
+  "referral_events": [
+    "campaign_end_at",
+    "campaign_group_id",
+    "campaign_start_at",
+    "created_at",
+    "end_at",
+    "id",
+    "receiver_check_start_at",
+    "start_at",
+    "updated_at"
+  ],
+  "striker_report_mission_linkages": [
+    "created_at",
+    "id",
+    "linkage_achievement_id",
+    "striker_report_action_achievement_id",
+    "updated_at"
+  ],
+  "creep_event_reward_items": [
+    "cnt",
+    "created_at",
+    "creep_event_reward_id",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "creep_event_rewards": [
+    "course_id",
+    "created_at",
+    "creep_event_id",
+    "details_message",
+    "details_message_type",
+    "details_title",
+    "dialog_text",
+    "id",
+    "jackpot_count",
+    "limit_per_day",
+    "message_body",
+    "message_title",
+    "name",
+    "prize_rank",
+    "sns_message_group_id",
+    "updated_at",
+    "win_count"
+  ],
+  "creep_events": [
+    "cost_item_id",
+    "cost_item_receivable_end_at",
+    "created_at",
+    "end_at",
+    "id",
+    "new_comeback_x_day",
+    "start_at",
+    "updated_at"
+  ],
+  "referral_login_stamp_groups": [
+    "campaign_group_id",
+    "created_at",
+    "file_name",
+    "id",
+    "is_new_user",
+    "title",
+    "updated_at"
+  ],
+  "referral_login_stamps": [
+    "char_extend_template_id",
+    "created_at",
+    "day_count",
+    "id",
+    "item_cnt",
+    "item_id",
+    "referral_login_stamp_group_id",
+    "updated_at"
+  ],
+  "koura_photo_session_rewards": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "koura_photo_session_id",
+    "type_id",
+    "updated_at"
+  ],
+  "koura_photo_sessions": [
+    "created_at",
+    "end_at",
+    "id",
+    "name",
+    "start_at",
+    "updated_at"
+  ],
+  "koura_daily_draw_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "koura_daily_draw_total_play_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "koura_daily_draw_event_id",
+    "play_cnt",
+    "updated_at"
+  ],
+  "selectable_pickup_gacha_display_weights": [
+    "created_at",
+    "display_weight",
+    "group_id",
+    "id",
+    "updated_at"
+  ],
+  "daily_limitedup_events": [
+    "created_at",
+    "end_at",
+    "gacha_group_id",
+    "id",
+    "receiving_end_at",
+    "receiving_start_at",
+    "start_at",
+    "updated_at"
+  ],
+  "daily_limitedup_gacha_groups": [
+    "created_at",
+    "daily_limitedup_event_id",
+    "gacha_cnt",
+    "id",
+    "limited_ratio",
+    "updated_at"
+  ],
+  "mikan_daily_achievement_items": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "mikan_daily_achievement_id",
+    "updated_at"
+  ],
+  "mikan_daily_achievements": [
+    "clear_count",
+    "created_at",
+    "description",
+    "end_at",
+    "headline",
+    "id",
+    "message",
+    "name",
+    "panel_id",
+    "receiving_at",
+    "show_period",
+    "sort_id",
+    "start_at",
+    "ui_category_id",
+    "updated_at"
+  ],
+  "mikan_target_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "ticket_end_at",
+    "updated_at"
+  ],
+  "mikan_target_play_count_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "play_count",
+    "updated_at"
+  ],
+  "mikan_target_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "shop_item_id",
+    "target_color",
+    "type_id",
+    "updated_at"
+  ],
+  "char_variety_daily_rewards": [
+    "char_extend_template_id",
+    "char_kinds",
+    "char_variety_event_id",
+    "created_at",
+    "id",
+    "item_count",
+    "item_id",
+    "updated_at"
+  ],
+  "char_variety_events": [
+    "badge_item_id",
+    "created_at",
+    "end_at",
+    "id",
+    "stage_group_id",
+    "start_at",
+    "updated_at"
+  ],
+  "char_variety_rewards": [
+    "char_extend_template_id",
+    "char_kinds",
+    "char_variety_event_id",
+    "created_at",
+    "id",
+    "item_count",
+    "item_id",
+    "updated_at"
+  ],
+  "substitute_charball_groups": [
+    "charball_id_1",
+    "charball_id_2",
+    "charball_id_3",
+    "charball_id_4",
+    "charball_id_5",
+    "created_at",
+    "end_at",
+    "id",
+    "stage_id",
+    "start_at",
+    "updated_at"
+  ],
+  "substitute_charballs": [
+    "char_id",
+    "connect_skill_liberated",
+    "created_at",
+    "evolved_fight_type",
+    "experience",
+    "extend_attack",
+    "extend_drop_rate",
+    "extend_gem_unlocked_cnt",
+    "extend_hp",
+    "extend_power",
+    "gem_ids",
+    "gem_unlocked_cnt",
+    "id",
+    "level",
+    "like_point",
+    "release_level_id",
+    "secret_powers",
+    "soul"
+  ],
+  "kyoto_generator_char_count_rewards": [
+    "char_count",
+    "created_at",
+    "description",
+    "header_text",
+    "id",
+    "kyoto_generator_event_id",
+    "reward_type",
+    "reward_value",
+    "updated_at"
+  ],
+  "kevin_map_achievement_extra_items": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "kevin_map_achievement_id",
+    "updated_at"
+  ],
+  "kevin_map_achievement_items": [
+    "char_extend_template_id",
+    "clear_count",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "kevin_map_achievement_id",
+    "updated_at"
+  ],
+  "kevin_map_achievements": [
+    "achieve_limit",
+    "created_at",
+    "description",
+    "end_at",
+    "headline",
+    "id",
+    "kevin_type_id",
+    "message",
+    "name",
+    "panel_id",
+    "receiving_at",
+    "show_period",
+    "sort_id",
+    "start_at",
+    "updated_at"
+  ],
+  "kevin_map_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "second_half_at",
+    "start_at",
+    "updated_at"
+  ],
+  "seethrough_gacha_chars": [
+    "char_extend_template_id",
+    "char_id",
+    "created_at",
+    "id",
+    "seethrough_gacha_event_id",
+    "updated_at"
+  ],
+  "seethrough_gacha_events": [
+    "created_at",
+    "description",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "kyoto_generator_char_count_targets": [
+    "char_id",
+    "created_at",
+    "id",
+    "kyoto_generator_event_id",
+    "max_count",
+    "stage_group_id",
+    "updated_at"
+  ],
+  "kyoto_generator_events": [
+    "action_achievement_id",
+    "created_at",
+    "end_at",
+    "id",
+    "receivable_end_at",
+    "start_at",
+    "updated_at"
+  ],
+  "kyoto_generator_items": [
+    "category_id",
+    "cnt",
+    "created_at",
+    "first_pick",
+    "id",
+    "item_id",
+    "kyoto_generator_event_id",
+    "limit_per_user",
+    "updated_at"
+  ],
+  "kyoto_generator_received_count_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "kyoto_generator_event_id",
+    "received_count",
+    "updated_at"
+  ],
+  "cradle_effects": [
+    "created_at",
+    "description",
+    "icon_image",
+    "id",
+    "name",
+    "type_id",
+    "updated_at"
+  ],
+  "cradle_opponent_deck_charballs": [
+    "char_id",
+    "connect_skill_liberated",
+    "created_at",
+    "evolved_fight_type",
+    "experience",
+    "extend_attack",
+    "extend_drop_rate",
+    "extend_gem_unlocked_cnt",
+    "extend_hp",
+    "extend_power",
+    "gem_ids",
+    "gem_unlocked_cnt",
+    "id",
+    "level",
+    "like_point",
+    "release_level_id",
+    "secret_powers",
+    "soul"
+  ],
+  "cradle_opponent_decks": [
+    "charball_id_1",
+    "charball_id_2",
+    "created_at",
+    "id",
+    "stage_id",
+    "updated_at",
+    "weight"
+  ],
+  "cradle_stage_effects": [
+    "cradle_effect_id",
+    "created_at",
+    "id",
+    "stage_id",
+    "updated_at",
+    "weight"
+  ],
+  "ingame_gimmick_infos": [
+    "created_at",
+    "help_text",
+    "icon_name",
+    "icon_type",
+    "id",
+    "updated_at"
+  ],
+  "gacha_option_item_blacklists": [
+    "created_at",
+    "gacha_group_id",
+    "id",
+    "updated_at"
+  ],
+  "piman_mission_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "max_point_first",
+    "max_point_second",
+    "second_half_at",
+    "start_at",
+    "updated_at"
+  ],
+  "piman_mission_friendly_reward_items": [
+    "cnt",
+    "created_at",
+    "fellow_id",
+    "friendly_point",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "piman_mission_group_rewards": [
+    "cnt",
+    "created_at",
+    "group_id",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "piman_mission_quest_friendly_point_chars": [
+    "char_id",
+    "created_at",
+    "id",
+    "updated_at"
+  ],
+  "piman_mission_stage_events": [
+    "created_at",
+    "description",
+    "fellow_id",
+    "icon_name",
+    "id",
+    "item_id",
+    "name",
+    "panel_description",
+    "stage_class_ids",
+    "stage_ids",
+    "type_id",
+    "updated_at",
+    "value"
+  ],
+  "okome_event_terms": [
+    "cancelled",
+    "created_at",
+    "entry_start_at",
+    "id",
+    "lottery_start_at",
+    "okome_event_id",
+    "receive_start_at",
+    "updated_at"
+  ],
+  "okome_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "name",
+    "orb_cost_count",
+    "start_at",
+    "updated_at"
+  ],
+  "okome_participation_items": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "okome_event_id",
+    "updated_at"
+  ],
+  "okome_reward_items": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "okome_reward_id",
+    "updated_at"
+  ],
+  "okome_rewards": [
+    "created_at",
+    "description",
+    "grade",
+    "id",
+    "limit",
+    "okome_event_id",
+    "reward_type",
+    "sns_message_group_id",
+    "updated_at"
+  ],
+  "piman_daily_gacha_groups": [
+    "created_at",
+    "end_at",
+    "id",
+    "parent_piman_daily_gacha_group_id",
+    "start_at",
+    "updated_at"
+  ],
+  "piman_daily_gacha_play_count_rewards": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "play_count",
+    "updated_at"
+  ],
+  "piman_daily_gachas": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "is_special",
+    "item_id",
+    "limit_per_day",
+    "updated_at",
+    "weight_default",
+    "weight_special_boosted",
+    "weight_special_nerfed"
+  ],
+  "sns_message_group_texts": [
+    "created_at",
+    "id",
+    "sns_message",
+    "sns_message_group_id",
+    "updated_at"
+  ],
+  "sns_message_groups": [
+    "created_at",
+    "description",
+    "id",
+    "updated_at"
+  ],
+  "tunespinner_events": [
+    "created_at",
+    "deadline_badge_x_day",
+    "end_at",
+    "event_start_at",
+    "id",
+    "max_point",
+    "new_comeback_point_ratio",
+    "new_comeback_x_day",
+    "roulette_start_at",
+    "updated_at"
+  ],
+  "seibo_event_phase_confirmed_rewards": [
+    "char_extend_template_id",
+    "cnt",
+    "condition_phase_cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "seibo_event_phase_lottery_rewards": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "seibo_event_total_phase_rewards": [
+    "char_extend_template_id",
+    "cnt",
+    "condition_phase_cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "seibo_event_id",
+    "updated_at"
+  ],
+  "seibo_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "seibo_season_id",
+    "start_at",
+    "updated_at"
+  ],
+  "seibo_floor_playing_conditions": [
+    "created_at",
+    "floor_number",
+    "id",
+    "need_phase_cnt",
+    "seibo_season_id",
+    "updated_at"
+  ],
+  "seibo_phase_gachaball_rewards": [
+    "created_at",
+    "gacha_piece_cnt",
+    "gacha_piece_item_id",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "seibo_seasons": [
+    "created_at",
+    "description",
+    "id",
+    "updated_at"
+  ],
+  "tunespinner_achievement_points": [
+    "achievement_id",
+    "created_at",
+    "id",
+    "point",
+    "updated_at"
+  ],
+  "tunespinner_action_achievement_display_details": [
+    "created_at",
+    "id",
+    "prefix_message",
+    "sub_value",
+    "sufix_message",
+    "tunespinner_action_achievement_id",
+    "type_id",
+    "updated_at",
+    "value"
+  ],
+  "tunespinner_separators": [
+    "created_at",
+    "id",
+    "name",
+    "tunespinner_event_id",
+    "updated_at"
+  ],
+  "wall_break_blocks": [
+    "created_at",
+    "description",
+    "id",
+    "rotation_type",
+    "shape",
+    "updated_at"
+  ],
+  "wall_break_boards": [
+    "created_at",
+    "id",
+    "item_spawn_cnt",
+    "level",
+    "life_one_panel_cnt",
+    "size",
+    "updated_at",
+    "wall_break_stage_id"
+  ],
+  "wall_break_complete_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at",
+    "wall_break_stage_id"
+  ],
+  "wall_break_events": [
+    "created_at",
+    "daily_cost_reward_cnt",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "wall_break_rewards": [
+    "cnt",
+    "created_at",
+    "excavation_limit",
+    "id",
+    "item_id",
+    "unlock_level",
+    "updated_at",
+    "wall_break_stage_id"
+  ],
+  "wall_break_stages": [
+    "cost_item_id",
+    "created_at",
+    "id",
+    "order",
+    "stage_id",
+    "updated_at",
+    "wall_break_event_id"
+  ],
+  "wall_break_total_complete_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at",
+    "wall_break_event_id"
+  ],
+  "game_calendar_campaign_events": [
+    "badge_id",
+    "campaign_type_id",
+    "class_id",
+    "created_at",
+    "end_at",
+    "icon_name",
+    "id",
+    "name",
+    "sort_id",
+    "sp_motion",
+    "start_at",
+    "updated_at",
+    "visible_at"
+  ],
+  "gem_bank_slots": [
+    "available_at",
+    "condition_value",
+    "created_at",
+    "description",
+    "id",
+    "sort_id",
+    "unlock_condition_id",
+    "updated_at"
+  ],
+  "lucky_result_stage_class_ids": [
+    "created_at",
+    "id",
+    "stage_class_id",
+    "updated_at"
+  ],
+  "monpass_premium_lucky_result_stage_black_lists": [
+    "created_at",
+    "id",
+    "stage_id",
+    "updated_at"
+  ],
+  "monpass_premium_lucky_result_stage_class_ids": [
+    "created_at",
+    "id",
+    "stage_class_id",
+    "updated_at"
+  ],
+  "tenko_permanent_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "jaggy_mail_events": [
+    "created_at",
+    "dialog_text",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at",
+    "url"
+  ],
+  "jaggy_action_achievement_conditions": [
+    "condition_id",
+    "created_at",
+    "id",
+    "jaggy_action_achievement_id",
+    "sub_condition_id_0",
+    "sub_condition_id_1",
+    "type_id",
+    "updated_at"
+  ],
+  "jaggy_parameter_events": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "end_at",
+    "id",
+    "item_id",
+    "start_at",
+    "updated_at"
+  ],
+  "defer_payment_gacha_events": [
+    "banner_name",
+    "button_text",
+    "created_at",
+    "display_end_at",
+    "display_start_at",
+    "gacha_group_event_id",
+    "gacha_group_id",
+    "id",
+    "receivable_end_at",
+    "receivable_start_at",
+    "sns_text",
+    "updated_at"
+  ],
+  "jaggy_treasure_boards": [
+    "board",
+    "id"
+  ],
+  "jaggy_treasure_events": [
+    "created_at",
+    "egg_item_id",
+    "end_at",
+    "id",
+    "minus_sec",
+    "plus_sec",
+    "start_at",
+    "time_limit_sec",
+    "updated_at"
+  ],
+  "jaggy_treasure_reward_items": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "treasure_cnt",
+    "updated_at"
+  ],
+  "guardian_char_count_rewards": [
+    "char_count",
+    "cnt",
+    "created_at",
+    "guardian_event_id",
+    "id",
+    "item_id",
+    "stage_id",
+    "updated_at"
+  ],
+  "guardian_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "stage_group_id",
+    "start_at",
+    "updated_at"
+  ],
+  "guardian_total_char_count_rewards": [
+    "char_count",
+    "cnt",
+    "created_at",
+    "guardian_event_id",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "stage_additional_luck_effects": [
+    "created_at",
+    "id",
+    "luck1_attack_factor",
+    "luck1_damage_tol_factor",
+    "luck200_attack_factor",
+    "luck200_damage_tol_factor",
+    "stage_group_id",
+    "updated_at"
+  ],
+  "onion_achievement_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "third_start_at",
+    "updated_at"
+  ],
+  "home_icon_notifies": [
+    "badge",
+    "created_at",
+    "home_icon_id",
+    "id",
+    "label_type",
+    "notify_at",
+    "notify_message",
+    "notify_sub_message",
+    "register_id",
+    "register_start_at",
+    "updated_at",
+    "version"
+  ],
+  "onion_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "onion_participation_rewards": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "play_count",
+    "updated_at"
+  ],
+  "onion_rewards": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "smile_search_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "search_num",
+    "second_half_at",
+    "start_at",
+    "updated_at"
+  ],
+  "smile_search_items": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "smile_search_open_stage_groups": [
+    "created_at",
+    "end_at",
+    "id",
+    "stage_group_id",
+    "start_at",
+    "updated_at"
+  ],
+  "smile_search_square_actions": [
+    "created_at",
+    "enemy_id",
+    "id",
+    "pattern",
+    "smile_search_item_id",
+    "smile_search_square_id",
+    "type_id",
+    "updated_at"
+  ],
+  "smile_search_squares": [
+    "created_at",
+    "id",
+    "num_day",
+    "smile_search_event_id",
+    "updated_at",
+    "x",
+    "y"
+  ],
+  "smile_count_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "smile_count_rewards": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "smile_count_stage_id",
+    "type_id",
+    "updated_at"
+  ],
+  "smile_count_stages": [
+    "challenge_time",
+    "condition_description",
+    "created_at",
+    "description",
+    "id",
+    "kanji_number_cnt",
+    "limit_time",
+    "move_number_cnt",
+    "normal_number_cnt",
+    "opened_at",
+    "set_cnt",
+    "updated_at"
+  ],
+  "seal_backgrounds": [
+    "created_at",
+    "id",
+    "image_name",
+    "item_id",
+    "sort_id",
+    "updated_at"
+  ],
+  "seal_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "name",
+    "start_at",
+    "updated_at"
+  ],
+  "seal_item_groups": [
+    "category",
+    "created_at",
+    "id",
+    "name",
+    "sort_id",
+    "updated_at"
+  ],
+  "seal_items": [
+    "blend",
+    "collabo",
+    "created_at",
+    "display_id",
+    "id",
+    "image_name",
+    "item_id",
+    "rarity",
+    "seal_collection_enable_at",
+    "seal_filter_id",
+    "seal_item_group_id",
+    "type_id",
+    "updated_at"
+  ],
+  "stage_difficulty_banner_timelines": [
+    "conditions",
+    "created_at",
+    "difficulty",
+    "end_hour",
+    "id",
+    "start_hour",
+    "updated_at"
+  ],
+  "stage_group_banners": [
+    "conditions",
+    "created_at",
+    "end_at",
+    "id",
+    "priority",
+    "stage_group_id",
+    "start_at",
+    "updated_at"
+  ],
+  "stage_group_mishoko_banner_timelines": [
+    "created_at",
+    "end_hour",
+    "id",
+    "start_hour",
+    "updated_at"
+  ],
+  "stage_group_mishoko_banners": [
+    "conditions",
+    "created_at",
+    "end_at",
+    "id",
+    "stage_group_id",
+    "start_at",
+    "updated_at"
+  ],
+  "gyoza_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "seibo_raid_event_reward_items": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "seibo_raid_event_reward_id",
+    "updated_at"
+  ],
+  "seibo_raid_event_rewards": [
+    "count",
+    "created_at",
+    "id",
+    "reward_type",
+    "seibo_raid_event_id",
+    "updated_at"
+  ],
+  "seibo_raid_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "receivable_end_at",
+    "start_at",
+    "updated_at"
+  ],
+  "map_spot_almighty_effects": [
+    "condition_id",
+    "created_at",
+    "id",
+    "map_spot_effect_id",
+    "updated_at"
+  ],
+  "maron_action_achievement_defeat_items": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "defeat_count",
+    "id",
+    "item_id",
+    "maron_action_achievement_event_id",
+    "updated_at"
+  ],
+  "maron_action_achievement_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "receiving_at",
+    "start_at",
+    "updated_at"
+  ],
+  "maron_action_achievement_random_items": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "maron_action_achievement_event_id",
+    "updated_at"
+  ],
+  "maron_action_achievement_sessions": [
+    "created_at",
+    "end_at",
+    "id",
+    "maron_action_achievement_event_id",
+    "start_at",
+    "updated_at"
+  ],
+  "inherited_special_gacha_events": [
+    "banner_name",
+    "button_text",
+    "created_at",
+    "display_end_at",
+    "display_start_at",
+    "gacha_group_event_id",
+    "gacha_group_id",
+    "id",
+    "receivable_end_at",
+    "updated_at"
+  ],
+  "stage_records": [
+    "amount",
+    "category_id",
+    "created_at",
+    "group_id",
+    "id",
+    "target_id",
+    "updated_at"
+  ],
+  "maiku_action_achievement_achieved_count_items": [
+    "achieved_count",
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "maiku_action_achievement_items": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "maiku_action_achievement_id",
+    "updated_at"
+  ],
+  "maiku_mission_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "mission_point_start_at",
+    "start_at",
+    "updated_at"
+  ],
+  "maiku_mission_max_points": [
+    "created_at",
+    "id",
+    "maiku_mission_event_id",
+    "max_point",
+    "type_id",
+    "updated_at"
+  ],
+  "maiku_mission_point_rewards": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "maiku_mission_event_id",
+    "need_point",
+    "type_id",
+    "updated_at"
+  ],
+  "milk_action_achievements": [
+    "action_type",
+    "condition_count",
+    "condition_id",
+    "created_at",
+    "description",
+    "end_at",
+    "headline",
+    "id",
+    "long_name",
+    "message",
+    "multi_play_condition",
+    "name",
+    "panel_id",
+    "parent_achievement_id",
+    "parent_type",
+    "receiving_at",
+    "sort_id",
+    "start_at",
+    "ui_category_id",
+    "ui_id",
+    "updated_at",
+    "visible_at"
+  ],
+  "milk_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "second_end_at",
+    "second_start_at",
+    "secret_start_at",
+    "start_at",
+    "third_end_at",
+    "third_start_at",
+    "updated_at"
+  ],
+  "milk_box_daily_rewards": [
+    "cnt",
+    "created_at",
+    "end_at",
+    "id",
+    "item_id",
+    "milk_box_event_id",
+    "start_at",
+    "updated_at"
+  ],
+  "milk_box_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "losing_reward_item_cnt",
+    "losing_reward_item_id",
+    "max_peek_uses",
+    "start_at",
+    "updated_at"
+  ],
+  "milk_box_play_count_rewards": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "milk_box_event_id",
+    "required_count",
+    "updated_at"
+  ],
+  "drop_el_live_counter_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "reload_time",
+    "start_at",
+    "updated_at"
+  ],
+  "apron_card_events": [
+    "buffer_end_at",
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "apron_card_rewards": [
+    "apron_card_event_id",
+    "cnt",
+    "created_at",
+    "enable_at",
+    "id",
+    "item_id",
+    "order",
+    "required_luck",
+    "stock",
+    "updated_at"
+  ],
+  "apron_card_stage_groups": [
+    "apron_card_event_id",
+    "created_at",
+    "id",
+    "stage_group_id",
+    "updated_at"
+  ],
+  "apron_card_target_chars": [
+    "apron_card_event_id",
+    "char_id",
+    "created_at",
+    "id",
+    "max_count",
+    "updated_at"
+  ],
+  "kirin_action_achievement_events": [
+    "created_at",
+    "emergency_quest_first_end_at",
+    "emergency_quest_first_start_at",
+    "emergency_quest_second_end_at",
+    "emergency_quest_second_start_at",
+    "event_end_at",
+    "event_start_at",
+    "id",
+    "updated_at"
+  ],
+  "kirin_lottery_daily_weathers": [
+    "created_at",
+    "day_offset",
+    "id",
+    "kirin_lottery_event_id",
+    "updated_at",
+    "weather_type"
+  ],
+  "kirin_lottery_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "milestone_play_count",
+    "start_at",
+    "updated_at"
+  ],
+  "kirin_lottery_play_count_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "kirin_lottery_event_id",
+    "required_count",
+    "updated_at"
+  ],
+  "kirin_lottery_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "jackpot",
+    "kirin_lottery_event_id",
+    "reward_group",
+    "updated_at"
+  ],
+  "seibo_season_extra_stages": [
+    "created_at",
+    "extra_stage_effect_id",
+    "floor_number",
+    "id",
+    "seibo_extra_stage_rate_id",
+    "seibo_season_id",
+    "stage_group_id",
+    "updated_at"
+  ],
+  "seibo_season_phase_confirmed_rewards": [
+    "char_extend_template_id",
+    "cnt",
+    "condition_phase_cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "seibo_season_id",
+    "updated_at"
+  ],
+  "seibo_season_phase_lottery_rewards": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "seibo_season_id",
+    "updated_at"
+  ],
+  "seibo_season_total_phase_rewards": [
+    "char_extend_template_id",
+    "cnt",
+    "condition_phase_cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "seibo_season_id",
+    "updated_at"
+  ],
+  "nibu_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "receiving_at",
+    "stage_group_id",
+    "start_at",
+    "updated_at"
+  ],
+  "referral_multi_mission_event_rewards": [
+    "achieve_cnt",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "referral_multi_mission_event_id",
+    "type_id",
+    "updated_at"
+  ],
+  "referral_multi_mission_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "receivable_end_at",
+    "start_at",
+    "updated_at"
+  ],
+  "referral_passports": [
+    "created_at",
+    "end_at",
+    "id",
+    "name",
+    "start_at",
+    "updated_at"
+  ],
+  "iwaki_action_achievements": [
+    "acquired_points",
+    "action_type",
+    "condition_count",
+    "condition_id",
+    "created_at",
+    "description",
+    "end_at",
+    "headline",
+    "id",
+    "long_name",
+    "message",
+    "multi_play_condition",
+    "name",
+    "panel_id",
+    "receiving_at",
+    "sort_id",
+    "start_at",
+    "ui_category_id",
+    "ui_id",
+    "updated_at",
+    "visible_at"
+  ],
+  "iwaki_cafe_enter_cnt_rewards": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "enter_cnt",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "iwaki_cafe_events": [
+    "created_at",
+    "day_change_time",
+    "end_at",
+    "enter_point_cnt",
+    "extend_reward_item_cnt",
+    "extend_reward_item_id",
+    "extend_reward_point_interval",
+    "id",
+    "receiving_at",
+    "start_at",
+    "updated_at"
+  ],
+  "iwaki_cafe_point_rewards": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "point_cnt",
+    "updated_at"
+  ],
+  "map_campaign_stamp_sheet_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "map_campaign_stamp_sheet_id",
+    "required_point",
+    "updated_at"
+  ],
+  "map_campaign_stamp_sheets": [
+    "created_at",
+    "id",
+    "image",
+    "map_campaign_id",
+    "max_point",
+    "updated_at"
+  ],
+  "storage_favorite_gacha_events": [
+    "banner_name",
+    "button_text",
+    "created_at",
+    "display_end_at",
+    "display_start_at",
+    "gacha_group_event_id",
+    "gacha_group_id",
+    "id",
+    "initialize_gacha_group_id",
+    "receivable_end_at",
+    "updated_at"
+  ],
+  "showcase_layouts": [
+    "created_at",
+    "id",
+    "image_background",
+    "image_background_head",
+    "image_stand",
+    "image_stand_frame",
+    "image_thumbnail",
+    "name",
+    "updated_at"
+  ],
+  "biwa_live_all_clear_rewards": [
+    "biwa_live_member_id",
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "biwa_live_bonus_stage_groups": [
+    "created_at",
+    "id",
+    "stage_group_id",
+    "updated_at"
+  ],
+  "biwa_live_events": [
+    "bonus_point",
+    "created_at",
+    "day_change_time",
+    "id",
+    "max_point",
+    "play_end_at",
+    "point_end_at",
+    "start_at",
+    "updated_at"
+  ],
+  "biwa_live_member_reward_items": [
+    "biwa_live_member_reward_id",
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "is_common",
+    "item_id",
+    "updated_at"
+  ],
+  "biwa_live_member_rewards": [
+    "biwa_live_member_id",
+    "created_at",
+    "id",
+    "name",
+    "point",
+    "updated_at"
+  ],
+  "biwa_live_members": [
+    "created_at",
+    "id",
+    "name",
+    "updated_at"
+  ],
+  "referral_passport_login_rewards": [
+    "char_extend_template_id",
+    "created_at",
+    "id",
+    "item_count",
+    "item_id",
+    "login_end_at",
+    "login_start_at",
+    "name",
+    "receive_end_at",
+    "receive_start_at",
+    "updated_at"
+  ],
+  "inhale_additional_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "inhale_event_id",
+    "item_id",
+    "updated_at"
+  ],
+  "inhale_box_quantity_patterns": [
+    "box_quantity",
+    "created_at",
+    "id",
+    "inhale_event_id",
+    "updated_at"
+  ],
+  "inhale_box_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "inhale_box_id",
+    "item_id",
+    "updated_at"
+  ],
+  "inhale_boxes": [
+    "box_type",
+    "created_at",
+    "id",
+    "rarity",
+    "updated_at"
+  ],
+  "inhale_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "inhale_reward_pattern_parts": [
+    "created_at",
+    "id",
+    "inhale_box_id",
+    "inhale_reward_pattern_id",
+    "updated_at"
+  ],
+  "inhale_reward_patterns": [
+    "created_at",
+    "id",
+    "inhale_box_quantity_pattern_id",
+    "order",
+    "updated_at"
+  ],
+  "yasai_action_achievements": [
+    "action_type",
+    "condition_count",
+    "condition_id",
+    "created_at",
+    "description",
+    "end_at",
+    "headline",
+    "id",
+    "long_name",
+    "message",
+    "multi_play_condition",
+    "name",
+    "panel_id",
+    "receiving_at",
+    "sort_id",
+    "start_at",
+    "ui_category_id",
+    "ui_id",
+    "updated_at",
+    "visible_at",
+    "yasai_enemy_id"
+  ],
+  "yasai_attacker_cards": [
+    "attack_point",
+    "card_count",
+    "combo_add_point",
+    "created_at",
+    "id",
+    "name",
+    "updated_at"
+  ],
+  "yasai_enemies": [
+    "created_at",
+    "hitpoint",
+    "id",
+    "name",
+    "release_order",
+    "released_at",
+    "updated_at"
+  ],
+  "yasai_enemy_items": [
+    "all_completed",
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at",
+    "yasai_enemy_id"
+  ],
+  "yasai_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "journey_conditions": [
+    "ability_id_1",
+    "ability_id_2",
+    "ability_id_3",
+    "attribute_id",
+    "created_at",
+    "fight_type",
+    "hit_type",
+    "id",
+    "journey_id",
+    "updated_at"
+  ],
+  "journey_duration_configs": [
+    "created_at",
+    "duration_hours",
+    "id",
+    "luck_threshold",
+    "lucky_rate",
+    "treasure_count",
+    "updated_at"
+  ],
+  "journey_events": [
+    "convert_end_at",
+    "convert_item_cnt_rate",
+    "convert_item_id",
+    "convert_start_at",
+    "created_at",
+    "end_at",
+    "id",
+    "receive_box_message",
+    "receive_box_title",
+    "start_at",
+    "updated_at"
+  ],
+  "journey_luck_bonus_configs": [
+    "created_at",
+    "id",
+    "premium_treasure_rate",
+    "required_luck_count",
+    "updated_at"
+  ],
+  "journey_luck_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "journey_event_id",
+    "required_luck_count",
+    "updated_at"
+  ],
+  "journey_rewards": [
+    "created_at",
+    "id",
+    "item_cnt",
+    "item_id",
+    "journey_id",
+    "treasure_type",
+    "updated_at"
+  ],
+  "journey_target_chars": [
+    "char_id",
+    "created_at",
+    "id",
+    "journey_event_id",
+    "max_count",
+    "updated_at"
+  ],
+  "journeys": [
+    "created_at",
+    "id",
+    "item_id",
+    "journey_event_id",
+    "name",
+    "open_at",
+    "stage_group_id",
+    "updated_at"
+  ],
+  "multi_sweepstake_events": [
+    "consolation_prize_cnt",
+    "consolation_prize_item_id",
+    "created_at",
+    "end_at",
+    "id",
+    "prize_receivable_end_at",
+    "prize_receivable_overtime_end_at",
+    "prize_receivable_start_at",
+    "start_at",
+    "updated_at"
+  ],
+  "multi_sweepstake_prizes": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "feature",
+    "id",
+    "item_id",
+    "multi_sweepstake_event_id",
+    "stock",
+    "updated_at"
+  ],
+  "multi_sweepstake_unreceived_reward_messages": [
+    "created_at",
+    "id",
+    "message",
+    "multi_sweepstake_event_id",
+    "title",
+    "updated_at"
+  ],
+  "stage_class_catalogs": [
+    "created_at",
+    "end_at",
+    "id",
+    "is_collabo",
+    "is_limited",
+    "quest_type_id",
+    "start_at",
+    "updated_at"
+  ],
+  "brass_achievement_count_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "need_cnt",
+    "updated_at"
+  ],
+  "brass_achievement_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "brass_ball_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "brass_ball_rewards": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "reward_type",
+    "stage_id",
+    "updated_at"
+  ],
+  "brass_ball_stages": [
+    "alert_time",
+    "appearance_type",
+    "challenge_time",
+    "created_at",
+    "difficulty",
+    "id",
+    "opened_at",
+    "switch_interval",
+    "tap_count",
+    "tap_thresholds",
+    "target_count",
+    "time_limit",
+    "updated_at"
+  ],
+  "illustration_quiz_complete_rewards": [
+    "created_at",
+    "id",
+    "illustration_quiz_event_id",
+    "item_id",
+    "updated_at"
+  ],
+  "illustration_quiz_hint_difficulties": [
+    "created_at",
+    "id",
+    "illustration_quiz_event_id",
+    "initial_hint_cnt",
+    "threshold",
+    "updated_at"
+  ],
+  "illustration_quiz_hints": [
+    "char_id",
+    "created_at",
+    "genre",
+    "hint_text",
+    "id",
+    "updated_at"
+  ],
+  "illustration_quiz_stage_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "illustration_quiz_event_id",
+    "illustration_quiz_stage_id",
+    "item_id",
+    "success_cnt",
+    "updated_at"
+  ],
+  "auto_gacha_events": [
+    "created_at",
+    "end_at",
+    "gacha_group_event_id",
+    "id",
+    "purchase_item_id",
+    "receivable_end_at",
+    "start_at",
+    "updated_at"
+  ],
+  "kiji_achievement_events": [
+    "boost_item_end_at",
+    "created_at",
+    "effect_stage_class_ids",
+    "end_at",
+    "event_stage_group_ids",
+    "exchange_cost",
+    "exchangeable_lowest_point",
+    "exchangeable_total_cnt",
+    "id",
+    "stage_black_lists",
+    "start_at",
+    "updated_at"
+  ],
+  "kiji_achievement_total_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "kiji_achievement_event_id",
+    "need_total_cnt",
+    "updated_at"
+  ],
+  "campaign_boost_items": [
+    "created_at",
+    "end_at",
+    "id",
+    "item_id",
+    "start_at",
+    "updated_at"
+  ],
+  "kiji_challenge_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "kiji_challenge_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "kiji_challenge_event_id",
+    "reward_type",
+    "updated_at"
+  ],
+  "kiji_challenge_stages": [
+    "base_speed",
+    "base_success_width",
+    "created_at",
+    "id",
+    "kiji_challenge_event_id",
+    "max_circle_radius",
+    "max_speed",
+    "min_success_width",
+    "required_success_count",
+    "speed_step",
+    "speed_weight",
+    "success_width_step",
+    "success_width_weight",
+    "updated_at"
+  ],
+  "ladder_lottery_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "cavern_campaigns": [
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "cavern_complete_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "cavern_fixed_floor_rewards": [
+    "cnt",
+    "created_at",
+    "floor_number",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "cavern_floors": [
+    "created_at",
+    "floor_number",
+    "id",
+    "stage_group_id",
+    "updated_at"
+  ],
+  "cavern_relative_floor_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "relative_floor_number",
+    "updated_at"
+  ],
+  "cavern_selectable_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "permanent_desert_complete_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "permanent_desert_fixed_floor_rewards": [
+    "cnt",
+    "created_at",
+    "floor_number",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "permanent_desert_floors": [
+    "created_at",
+    "floor_number",
+    "id",
+    "stage_group_id",
+    "updated_at"
+  ],
+  "kyuri_action_achievement_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "second_start_at",
+    "secret_start_at",
+    "start_at",
+    "third_start_at",
+    "updated_at"
+  ],
+  "kyuri_client_game_params": [
+    "created_at",
+    "id",
+    "type_id",
+    "updated_at",
+    "value1",
+    "value2",
+    "value3"
+  ],
+  "kyuri_consolation_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "kyuri_events": [
+    "created_at",
+    "end_at",
+    "extra_mode_start_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "kyuri_levels": [
+    "created_at",
+    "id",
+    "level",
+    "need_point",
+    "updated_at"
+  ],
+  "kyuri_panels": [
+    "cnt",
+    "created_at",
+    "id",
+    "index",
+    "level",
+    "type_id",
+    "updated_at"
+  ],
+  "kyuri_play_count_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "need_cnt",
+    "updated_at"
+  ],
+  "kyuri_play_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "kyuri_point_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "level",
+    "need_point",
+    "updated_at"
+  ],
+  "kyuri_random_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "updated_at"
+  ],
+  "gourmet_stage_icons": [
+    "array_values",
+    "created_at",
+    "end_at",
+    "gourmet_campaign_id",
+    "id",
+    "sort_id",
+    "start_at",
+    "type_id",
+    "updated_at"
+  ],
+  "seal_filters": [
+    "created_at",
+    "id",
+    "name",
+    "sort_id",
+    "updated_at",
+    "visible"
+  ],
+  "seal_readings": [
+    "char_id",
+    "created_at",
+    "id",
+    "match_str",
+    "name",
+    "seal_item_id",
+    "updated_at"
+  ],
+  "anohi_events": [
+    "created_at",
+    "id",
+    "play_end_at",
+    "play_start_at",
+    "receive_end_at",
+    "receive_start_at",
+    "updated_at"
+  ],
+  "anohi_gacha_group_events": [
+    "anohi_event_id",
+    "created_at",
+    "gacha_group_event_id",
+    "headline",
+    "id",
+    "updated_at"
+  ],
+  "manju_characters": [
+    "created_at",
+    "id",
+    "image_name",
+    "name",
+    "updated_at"
+  ],
+  "manju_daily_lottery_choices": [
+    "char_extend_template_id",
+    "choice_number",
+    "cnt",
+    "created_at",
+    "game_date",
+    "id",
+    "item_id",
+    "updated_at",
+    "win_rate"
+  ],
+  "manju_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "stage_group_id",
+    "start_at",
+    "updated_at"
+  ],
+  "manju_total_training_rewards": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "training_count",
+    "updated_at"
+  ],
+  "iruka_tap_game_events": [
+    "created_at",
+    "end_at",
+    "event_start_at",
+    "id",
+    "play_start_at",
+    "updated_at"
+  ],
+  "iruka_panel_complete_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "iruka_panel_group_id",
+    "item_id",
+    "updated_at"
+  ],
+  "iruka_panel_events": [
+    "base_cost",
+    "base_daily_limit",
+    "cost_item_id",
+    "created_at",
+    "end_at",
+    "extra_cost",
+    "id",
+    "stage_group_id",
+    "start_at",
+    "updated_at"
+  ],
+  "iruka_panel_groups": [
+    "created_at",
+    "group_number",
+    "id",
+    "iruka_panel_event_id",
+    "is_loop",
+    "openable_at",
+    "panel_count",
+    "updated_at"
+  ],
+  "iruka_panel_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "iruka_panel_group_id",
+    "item_id",
+    "reward_type",
+    "stock",
+    "updated_at"
+  ],
+  "iruka_tap_game_parameters": [
+    "created_at",
+    "game_time_seconds",
+    "id",
+    "max_tap_count",
+    "min_tap_count",
+    "rush_time_start_seconds",
+    "tap_cooldown_frames",
+    "updated_at"
+  ],
+  "iruka_tap_game_rewards": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "id",
+    "item_id",
+    "required_tap_count",
+    "updated_at"
+  ],
+  "iruka_panel_random_rewards": [
+    "cnt",
+    "created_at",
+    "id",
+    "iruka_panel_reward_id",
+    "item_id",
+    "updated_at"
+  ],
+  "normal_quest_clear_bonus_rewards": [
+    "char_extend_template_id",
+    "cnt",
+    "created_at",
+    "display_only",
+    "floor",
+    "id",
+    "item_id",
+    "normal_quest_event_id",
+    "sort_id",
+    "updated_at"
+  ],
+  "normal_quest_events": [
+    "clear_bonus_event_id",
+    "created_at",
+    "end_at",
+    "id",
+    "start_at",
+    "updated_at"
+  ],
+  "normal_quest_stage_groups": [
+    "created_at",
+    "floor",
+    "id",
+    "normal_quest_event_id",
+    "stage_group_id",
+    "updated_at"
+  ],
+  "ponzu_action_achievement_events": [
+    "created_at",
+    "end_at",
+    "id",
+    "second_start_at",
+    "start_at",
+    "third_start_at",
+    "updated_at"
+  ],
+  "stage_group_events": [
+    "created_at",
+    "end_at",
+    "first_day",
+    "id",
+    "name",
+    "priority",
+    "stage_group_id",
+    "start_at",
+    "type_id",
+    "updated_at",
+    "user_group_set_id",
+    "value"
+  ],
+  "stage_group_kind_events": [
+    "created_at",
+    "end_at",
+    "first_day",
+    "id",
+    "name",
+    "priority",
+    "stage_group_id",
+    "start_at",
+    "type_id",
+    "updated_at",
+    "user_group_set_id",
+    "value"
+  ]
+}

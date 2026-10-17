@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "table": "preparative_stages",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "stage_id": 23430010,
+      "skin_char_id": 9158,
+      "target_stage_id": 23460010,
+      "created_at": 1638266461,
+      "updated_at": 1638266461
+    },
+    {
+      "id": 2,
+      "stage_id": 23440010,
+      "skin_char_id": 9160,
+      "target_stage_id": 23460010,
+      "created_at": 1638266461,
+      "updated_at": 1638266461
+    },
+    {
+      "id": 3,
+      "stage_id": 23450010,
+      "skin_char_id": 9155,
+      "target_stage_id": 23460010,
+      "created_at": 1638266461,
+      "updated_at": 1638266461
+    },
+    {
+      "id": 4,
+      "stage_id": 24190010,
+      "skin_char_id": 9548,
+      "target_stage_id": 24220010,
+      "created_at": 1654076293,
+      "updated_at": 1654076293
+    },
+    {
+      "id": 5,
+      "stage_id": 24200010,
+      "skin_char_id": 9550,
+      "target_stage_id": 24220010,
+      "created_at": 1654076293,
+      "updated_at": 1654076293
+    },
+    {
+      "id": 6,
+      "stage_id": 24210010,
+      "skin_char_id": 9545,
+      "target_stage_id": 24220010,
+      "created_at": 1654076293,
+      "updated_at": 1654076293
+    },
+    {
+      "id": 7,
+      "stage_id": 26170010,
+      "skin_char_id": 10733,
+      "target_stage_id": 26200010,
+      "created_at": 1694686789,
+      "updated_at": 1694686789
+    },
+    {
+      "id": 8,
+      "stage_id": 26180010,
+      "skin_char_id": 10728,
+      "target_stage_id": 26200010,
+      "created_at": 1694686789,
+      "updated_at": 1694686789
+    },
+    {
+      "id": 9,
+      "stage_id": 26190010,
+      "skin_char_id": 10730,
+      "target_stage_id": 26200010,
+      "created_at": 1694686789,
+      "updated_at": 1694686789
+    }
+  ]
+}

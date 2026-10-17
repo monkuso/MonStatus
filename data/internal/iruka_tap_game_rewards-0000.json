@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "table": "iruka_tap_game_rewards",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "required_tap_count": 40,
+      "item_id": 66,
+      "cnt": 20,
+      "char_extend_template_id": 0,
+      "created_at": 1790849737,
+      "updated_at": 1790849737
+    },
+    {
+      "id": 2,
+      "required_tap_count": 53,
+      "item_id": 6152,
+      "cnt": 1,
+      "char_extend_template_id": 0,
+      "created_at": 1790849737,
+      "updated_at": 1790849737
+    },
+    {
+      "id": 3,
+      "required_tap_count": 53,
+      "item_id": 47,
+      "cnt": 1,
+      "char_extend_template_id": 0,
+      "created_at": 1790849737,
+      "updated_at": 1790849737
+    },
+    {
+      "id": 4,
+      "required_tap_count": 80,
+      "item_id": 10240022,
+      "cnt": 1,
+      "char_extend_template_id": 0,
+      "created_at": 1790849737,
+      "updated_at": 1790849737
+    },
+    {
+      "id": 5,
+      "required_tap_count": 80,
+      "item_id": 10040202,
+      "cnt": 1,
+      "char_extend_template_id": 0,
+      "created_at": 1790849737,
+      "updated_at": 1790849737
+    }
+  ]
+}

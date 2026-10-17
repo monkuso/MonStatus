@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 1,
+  "table": "texts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 17478,
+      "text": "個別接客報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1714206947,
+      "updated_at": 1714206947,
+      "label": "eTEXTS_DEF_ME_FLUTE_MISSION_LOTTERY_REWARD"
+    },
+    {
+      "id": 17479,
+      "text": "アイテムを全て獲得後の個別接客報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1714206947,
+      "updated_at": 1714206947,
+      "label": "eTEXTS_DEF_ME_FLUTE_MISSION_REPEAT_REWARD"
+    },
+    {
+      "id": 17480,
+      "text": "※キャラごとに全アイテムを獲得すると下記報酬に切り替わります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1714206947,
+      "updated_at": 1714206947,
+      "label": "eTEXTS_DEF_ME_FLUTE_MISSION_REPEAT_REWARD_CAUTIOON"
+    },
+    {
+      "id": 17481,
+      "text": "残り %d個",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1714206947,
+      "updated_at": 1714206947,
+      "label": "eTEXTS_DEF_ME_FLUTE_MISSION_REMAIN_BOX"
+    },
+    {
+      "id": 17482,
+      "text": "%sの排出アイテム",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1714206947,
+      "updated_at": 1714206947,
+      "label": "eTEXTS_DEF_ME_FLUTE_MISSION_WAITER_BOX_REWARD"
+    },
+    {
+      "id": 17483,
+      "text": "所持 %s%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1714206947,
+      "updated_at": 1714206947,
+      "label": "eTEXTS_DEF_ME_FLUTE_MISSION_COFFEE_COUNT"
+    },
+    {
+      "id": 17484,
+      "text": "繰り返し獲得可能",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1714206947,
+      "updated_at": 1714206947,
+      "label": "eTEXTS_DEF_ME_FLUTE_MISSION_REPEAT_REWARD_POSSIBLE"
+    },
+    {
+      "id": 17485,
+      "text": "[LC]エラーにより受取アイテムを表示できません",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1714206947,
+      "updated_at": 1714206947,
+      "label": "eTEXTS_DEF_MSG_FLUTE_MISSION_EXCHANGE_DESTROY_CACHE"
+    },
+    {
+      "id": 17486,
+      "text": "ミッション%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1714206947,
+      "updated_at": 1714206947,
+      "label": "eTEXTS_DEF_ME_FLUTE_MISSION_REWARD_TITLE"
+    },
+    {
+      "id": 17487,
+      "text": "[LC][C6:超究極難易度が登場]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1714634724,
+      "updated_at": 1714634724,
+      "label": "eTEXTS_DEF_45132"
+    },
+    {
+      "id": 17488,
+      "text": "[b:ba_help_collabo_flute_00_3.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1714634724,
+      "updated_at": 1714634724,
+      "label": "eTEXTS_DEF_45133"
+    },
+    {
+      "id": 17489,
+      "text": "[C5:超究極クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1714634724,
+      "updated_at": 1714634724,
+      "label": "eTEXTS_DEF_45134"
+    },
+    {
+      "id": 17490,
+      "text": "[SGBI27160|difficulty1]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1714634724,
+      "updated_at": 1714634724,
+      "label": "eTEXTS_DEF_45135"
+    },
+    {
+      "id": 17491,
+      "text": "このクエストではどのキャラも[LF]本来のラックに[C4:+99]された[C4:運極]状態で[LF]ラックボーナスが獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1714634724,
+      "updated_at": 1714634724,
+      "label": "eTEXTS_DEF_45136"
+    },
+    {
+      "id": 17492,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20240427_1.html#a|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1714634724,
+      "updated_at": 1714634724,
+      "label": "eTEXTS_DEF_45137"
+    },
+    {
+      "id": 17493,
+      "text": "[IPJ11217]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45216"
+    },
+    {
+      "id": 17494,
+      "text": "[IPJ11219]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45217"
+    },
+    {
+      "id": 17495,
+      "text": "梟討伐作戦",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45218"
+    },
+    {
+      "id": 17496,
+      "text": "[LC]梟討伐作戦とは[LF][LF][TAB:クエスト][CCB:dlme/help_collabo_flute_sb2_00][TAB:ボーナス][CCB:dlme/help_collabo_flute_sb2_01]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_MSG_RUINS_FLUTE_HELP"
+    },
+    {
+      "id": 17497,
+      "text": "[LC]喰種コイン引き換え[LF][LF][CCB:dlme/help_collabo_flute_sb2_02]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_MSG_RUINS_FLUTE_EXCHANGE_HELP"
+    },
+    {
+      "id": 17498,
+      "text": "新しいクエストが追加されました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_RUINS_FLUTE_QUEST_NOTIFY_DIALOG"
+    },
+    {
+      "id": 17499,
+      "text": "[SW0.8][C6:金木のマスクを集めて、梟討伐作戦を進めよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45400"
+    },
+    {
+      "id": 17500,
+      "text": "[b:ba_help_collabo_flute_sb2_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45401"
+    },
+    {
+      "id": 17501,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45402"
+    },
+    {
+      "id": 17502,
+      "text": "5/10 12:00 ～ 5/17 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45403"
+    },
+    {
+      "id": 17503,
+      "text": "[C5:遊び方]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45404"
+    },
+    {
+      "id": 17504,
+      "text": "[C6:梟討伐作戦のクエストをクリア]すると報酬として[LF][C6:喰種コイン]や[C6:金木のマスク]が獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45405"
+    },
+    {
+      "id": 17505,
+      "text": "梟討伐作戦",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45406"
+    },
+    {
+      "id": 17506,
+      "text": "[C6:ゲット！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45407"
+    },
+    {
+      "id": 17507,
+      "text": "ステージを進めると難易度が上がり[LF]コインの獲得数も増加します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45408"
+    },
+    {
+      "id": 17508,
+      "text": "金木のマスクについて",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45409"
+    },
+    {
+      "id": 17509,
+      "text": "[C6:ノーコンテニュー報酬]からのみ獲得できます[LF]一定数集まると次のクエストが挑戦可能になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45410"
+    },
+    {
+      "id": 17510,
+      "text": "梟討伐作戦 vs魔猿",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45411"
+    },
+    {
+      "id": 17511,
+      "text": "梟討伐作戦 vs黒狗",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45412"
+    },
+    {
+      "id": 17512,
+      "text": "[C6:解放！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45413"
+    },
+    {
+      "id": 17513,
+      "text": "喰種コイン引き換えについて",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45414"
+    },
+    {
+      "id": 17514,
+      "text": "総合引き換え所にてアイテムに引き換えができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45415"
+    },
+    {
+      "id": 17515,
+      "text": "6500",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45416"
+    },
+    {
+      "id": 17516,
+      "text": "わくわくミンEL",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45417"
+    },
+    {
+      "id": 17517,
+      "text": "5000",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45418"
+    },
+    {
+      "id": 17518,
+      "text": "0/1",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45419"
+    },
+    {
+      "id": 17519,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20240427_1.html#b|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45420"
+    },
+    {
+      "id": 17520,
+      "text": "[SW0.8][C6:ボーナス対象キャラを編成してコインを増やそう]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45500"
+    },
+    {
+      "id": 17521,
+      "text": "[b:ba_help_collabo_flute_sb2_01.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45501"
+    },
+    {
+      "id": 17522,
+      "text": "[C5:ボーナス対象キャラについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45502"
+    },
+    {
+      "id": 17523,
+      "text": "ボーナス対象キャラをデッキに編成して[LF]梟討伐作戦のクエストをクリアすると[LF][C6:獲得できる喰種コインが2倍]になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45503"
+    },
+    {
+      "id": 17524,
+      "text": "[IP10592]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45504"
+    },
+    {
+      "id": 17525,
+      "text": "[IP10592]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45505"
+    },
+    {
+      "id": 17526,
+      "text": "[IP6352]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45506"
+    },
+    {
+      "id": 17527,
+      "text": "[IP8615]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45507"
+    },
+    {
+      "id": 17528,
+      "text": "[IP8621]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45508"
+    },
+    {
+      "id": 17529,
+      "text": "[C6:獲得2倍！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45509"
+    },
+    {
+      "id": 17530,
+      "text": "ボーナス対象キャラは毎日[C6:AM4:00]に切り替わり[LF]マルチプレイでは誰かが編成することで[LF][C6:全員が効果を受けることができます]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45510"
+    },
+    {
+      "id": 17531,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20240427_1.html#b|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45511"
+    },
+    {
+      "id": 17532,
+      "text": "[LC][C6:喰種コインを集めて引き換えよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45600"
+    },
+    {
+      "id": 17533,
+      "text": "[b:ba_help_collabo_flute_sb2_02.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45601"
+    },
+    {
+      "id": 17534,
+      "text": "引換期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45602"
+    },
+    {
+      "id": 17535,
+      "text": "5/10 12:00 ～ 5/20 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45603"
+    },
+    {
+      "id": 17536,
+      "text": "[C5:喰種コインとは]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45604"
+    },
+    {
+      "id": 17537,
+      "text": "[C6:コラボキャラ]や[C6:コラボ限定称号]などと[LF]引き換えることができるアイテムです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45605"
+    },
+    {
+      "id": 17538,
+      "text": "[C6:梟討伐作戦のクエストをクリア]すると獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45606"
+    },
+    {
+      "id": 17539,
+      "text": "梟討伐作戦",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45607"
+    },
+    {
+      "id": 17540,
+      "text": "[C6:ゲット！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45608"
+    },
+    {
+      "id": 17541,
+      "text": "[C5:引き換えについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45609"
+    },
+    {
+      "id": 17542,
+      "text": "喰種コインを使用してアイテムを引き換えができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45610"
+    },
+    {
+      "id": 17543,
+      "text": "[IPJ11217]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45611"
+    },
+    {
+      "id": 17544,
+      "text": "[C6:ロックされたアイテムは][LF][C6:一定の条件を達成]すると引き換え可能になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45612"
+    },
+    {
+      "id": 17545,
+      "text": "わくわくミンEL",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45613"
+    },
+    {
+      "id": 17546,
+      "text": "5000",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45614"
+    },
+    {
+      "id": 17547,
+      "text": "0/1",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45615"
+    },
+    {
+      "id": 17548,
+      "text": "条件はアイテムをタップすると確認可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45616"
+    },
+    {
+      "id": 17549,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20240427_1.html#b2|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_45617"
+    },
+    {
+      "id": 17550,
+      "text": "イベント開催期間が終了しているため、[LF]今回、獲得した報酬は無効となります",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1715249301,
+      "updated_at": 1715249301,
+      "label": "eTEXTS_DEF_RUINS_OVERTIME_48HOUR_MSG"
+    },
+    {
+      "id": 17551,
+      "text": "[LC]秘海石引き換えとは[LF][LF][CCB:dlme/help_ocean_02]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1716458451,
+      "updated_at": 1716458451,
+      "label": "eTEXTS_DEF_OCEAN_EXCHANGE_HELP"
+    },
+    {
+      "id": 17552,
+      "text": "%d/%d %d:%02d～%d/%d %d:%02d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1716458451,
+      "updated_at": 1716458451,
+      "label": "eTEXTS_DEF_DEFAULT_PERIOD"
+    },
+    {
+      "id": 17553,
+      "text": "[LC][C6:秘海石を集めて引き換えよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1716458451,
+      "updated_at": 1716458451,
+      "label": "eTEXTS_DEF_45700"
+    },
+    {
+      "id": 17554,
+      "text": "[b:ba_help_ocean_02.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1716458451,
+      "updated_at": 1716458451,
+      "label": "eTEXTS_DEF_45701"
+    },
+    {
+      "id": 17555,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1716458451,
+      "updated_at": 1716458451,
+      "label": "eTEXTS_DEF_45702"
+    },
+    {
+      "id": 17556,
+      "text": "5/24 12:00 ～ 7/24 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1716458451,
+      "updated_at": 1716458451,
+      "label": "eTEXTS_DEF_45703"
+    },
+    {
+      "id": 17557,
+      "text": "引換期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1716458451,
+      "updated_at": 1716458451,
+      "label": "eTEXTS_DEF_45704"
+    },
+    {
+      "id": 17558,
+      "text": "5/24 12:00 ～ 7/25 23:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1716458451,
+      "updated_at": 1716458451,
+      "label": "eTEXTS_DEF_45705"
+    },
+    {
+      "id": 17559,
+      "text": "[C5:秘海石とは]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1716458451,
+      "updated_at": 1716458451,
+      "label": "eTEXTS_DEF_45706"
+    },
+    {
+      "id": 17560,
+      "text": "[C6:秘海の冒険船専用アイテム]や[C6:イベント限定称号]などと[LF]引き換えることができるアイテムです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1716458451,
+      "updated_at": 1716458451,
+      "label": "eTEXTS_DEF_45707"
+    },
+    {
+      "id": 17561,
+      "text": "[C6:秘海の冒険船内のクエスト]や[C6:お宝釣り]で獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1716458451,
+      "updated_at": 1716458451,
+      "label": "eTEXTS_DEF_45708"
+    },
+    {
+      "id": 17562,
+      "text": "[C5:引き換えについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1716458451,
+      "updated_at": 1716458451,
+      "label": "eTEXTS_DEF_45709"
+    },
+    {
+      "id": 17563,
+      "text": "秘海石を使用してアイテムを引き換えができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1716458451,
+      "updated_at": 1716458451,
+      "label": "eTEXTS_DEF_45710"
+    },
+    {
+      "id": 17564,
+      "text": "[C6:ロックされたアイテムは][LF][C6:一定の条件を達成すると引き換え可能になります]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1716458451,
+      "updated_at": 1716458451,
+      "label": "eTEXTS_DEF_45711"
+    },
+    {
+      "id": 17565,
+      "text": "ロックされたアイテムをタップで条件が確認できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1716458451,
+      "updated_at": 1716458451,
+      "label": "eTEXTS_DEF_45712"
+    },
+    {
+      "id": 17566,
+      "text": "船の日について",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1716458451,
+      "updated_at": 1716458451,
+      "label": "eTEXTS_DEF_45713"
+    },
+    {
+      "id": 17567,
+      "text": "[C6:毎月8日、18日、28日]は船の日！[LF]対象の日限定で引き換えアイテムが追加されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1716458451,
+      "updated_at": 1716458451,
+      "label": "eTEXTS_DEF_45714"
+    },
+    {
+      "id": 17568,
+      "text": "※船の日は0:00～23:59までになります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1716458451,
+      "updated_at": 1716458451,
+      "label": "eTEXTS_DEF_45715"
+    },
+    {
+      "id": 17569,
+      "text": "[C5:引き換え可能な秘海の冒険船専用アイテム]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1716458451,
+      "updated_at": 1716458451,
+      "label": "eTEXTS_DEF_45716"
+    },
+    {
+      "id": 17570,
+      "text": "[C5:秘海の水時計]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1716458451,
+      "updated_at": 1716458451,
+      "label": "eTEXTS_DEF_45717"
+    },
+    {
+      "id": 17571,
+      "text": "航海中の時間を短縮し[LF][C6:島にすぐ到着する]ことができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1716458451,
+      "updated_at": 1716458451,
+      "label": "eTEXTS_DEF_45718"
+    },
+    {
+      "id": 17572,
+      "text": "[C5:秘海の海図]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1716458451,
+      "updated_at": 1716458451,
+      "label": "eTEXTS_DEF_45719"
+    },
+    {
+      "id": 17573,
+      "text": "クリア済みのクエストの中から[LF][C6:次の目的地を指定する]ことができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1716458451,
+      "updated_at": 1716458451,
+      "label": "eTEXTS_DEF_45720"
+    },
+    {
+      "id": 17574,
+      "text": "[C5:トレルアー]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1716458451,
+      "updated_at": 1716458451,
+      "label": "eTEXTS_DEF_45721"
+    },
+    {
+      "id": 17575,
+      "text": "お宝釣りで[C6:宝箱を必ず釣り上げる][LF]ことができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1716458451,
+      "updated_at": 1716458451,
+      "label": "eTEXTS_DEF_45722"
+    },
+    {
+      "id": 17576,
+      "text": "[C5:船拡張]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1716458451,
+      "updated_at": 1716458451,
+      "label": "eTEXTS_DEF_45723"
+    },
+    {
+      "id": 17577,
+      "text": "船のLvを上げることができます[LF][C6:Lvを上げると、航海可能な海域を][LF][C6:増やしたり、引き換え可能な][LF][C6:アイテムを増やす]ことができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1716458451,
+      "updated_at": 1716458451,
+      "label": "eTEXTS_DEF_45724"
+    },
+    {
+      "id": 17578,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20240523_2.html#3|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1716458451,
+      "updated_at": 1716458451,
+      "label": "eTEXTS_DEF_45725"
+    },
+    {
+      "id": 17579,
+      "text": "黎絶勲章",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718036498,
+      "updated_at": 1718036498,
+      "label": "eTEXTS_DEF_REIZETU_BADGE_REWARD_TITLE"
+    },
+    {
+      "id": 17580,
+      "text": "[LC][C5:轟傑勲章]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718036498,
+      "updated_at": 1718036498,
+      "label": "eTEXTS_DEF_13819"
+    },
+    {
+      "id": 17581,
+      "text": "[C6:轟絶クエストで轟傑ポイントを][LF][C6:一定数集める]と獲得できる勲章です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718036498,
+      "updated_at": 1718036498,
+      "label": "eTEXTS_DEF_13820"
+    },
+    {
+      "id": 17582,
+      "text": "[LC][C5:黎絶勲章]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718036498,
+      "updated_at": 1718036498,
+      "label": "eTEXTS_DEF_13821"
+    },
+    {
+      "id": 17583,
+      "text": "[C6:黎絶クエストをクリアする]と[LF]クエスト毎に獲得できる勲章です[LF]各クエストの最大連勝数が表示されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718036498,
+      "updated_at": 1718036498,
+      "label": "eTEXTS_DEF_13822"
+    },
+    {
+      "id": 17584,
+      "text": "[IB3000;1]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718036498,
+      "updated_at": 1718036498,
+      "label": "eTEXTS_DEF_13823"
+    },
+    {
+      "id": 17585,
+      "text": "解放開始",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718036498,
+      "updated_at": 1718036498,
+      "label": "eTEXTS_DEF_ME_RELEASE_SAMETIME_RELEASE_START"
+    },
+    {
+      "id": 17586,
+      "text": "解放する項目を選択してください（複数選択可能です）",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718036498,
+      "updated_at": 1718036498,
+      "label": "eTEXTS_DEF_ME_RELEASE_SAMETIME_INFO"
+    },
+    {
+      "id": 17587,
+      "text": "・[C6:英雄の書]は使用すると[LF]　取り消すことができません[LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718036498,
+      "updated_at": 1741621130,
+      "label": "eTEXTS_DEF_ME_RELEASE_SAMETIME_CAUTION_GEM"
+    },
+    {
+      "id": 17588,
+      "text": "・[C6:レベルの書]は使用すると、[LF]　取り消すことができません[LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718036498,
+      "updated_at": 1723564135,
+      "label": "eTEXTS_DEF_ME_RELEASE_SAMETIME_CAUTION_LEVEL"
+    },
+    {
+      "id": 17589,
+      "text": "・[C6:戦型の書]は使用すると、[LF]　取り消すことができません[LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718036498,
+      "updated_at": 1718036498,
+      "label": "eTEXTS_DEF_ME_RELEASE_SAMETIME_CAUTION_FIGHT_TYPE"
+    },
+    {
+      "id": 17590,
+      "text": "・[C6:コネクトスキルの書]は使用すると、[LF]　取り消すことができません[LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718036498,
+      "updated_at": 1718036498,
+      "label": "eTEXTS_DEF_ME_RELEASE_SAMETIME_CAUTION_CONNECT_SKILL"
+    },
+    {
+      "id": 17591,
+      "text": "[LC][C2:◆◆　警告　◆◆][LF][LF][LC][NODE][LF]このモンスターの解放を行いますか？[LF16][LC][NODE][LF]本当によろしいですか？",
+      "layout": 8,
+      "color": 1,
+      "created_at": 1718036498,
+      "updated_at": 1718036498,
+      "label": "eTEXTS_DEF_MSG_RELEASE_SAMETIME_CAUTION"
+    },
+    {
+      "id": 17592,
+      "text": "解放元モンスター",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718036498,
+      "updated_at": 1718036498,
+      "label": "eTEXTS_DEF_ME_RELEASE_SAMETIME_RELEASE_CHAR_TITLE"
+    },
+    {
+      "id": 17593,
+      "text": "解放元変更",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718036498,
+      "updated_at": 1718036498,
+      "label": "eTEXTS_DEF_ME_RELEASE_SAMETIME_RELEASE_MONSTER_CHANGE"
+    },
+    {
+      "id": 17594,
+      "text": "英雄の証解放の対象外です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718036498,
+      "updated_at": 1718036498,
+      "label": "eTEXTS_DEF_ME_RELEASE_SAMETIME_CANNOT_USE_GEM"
+    },
+    {
+      "id": 17595,
+      "text": "レベル上限解放の対象外です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718036498,
+      "updated_at": 1718036498,
+      "label": "eTEXTS_DEF_ME_RELEASE_SAMETIME_CANNOT_USE_LEVEL"
+    },
+    {
+      "id": 17596,
+      "text": "超戦型解放の対象外です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718036498,
+      "updated_at": 1718036498,
+      "label": "eTEXTS_DEF_ME_RELEASE_SAMETIME_CANNOT_USE_FIGHT_TYPE"
+    },
+    {
+      "id": 17597,
+      "text": "コネクト条件解放の対象外です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718036498,
+      "updated_at": 1718036498,
+      "label": "eTEXTS_DEF_ME_RELEASE_SAMETIME_CANNOT_USE_CONNECT_SKILL"
+    },
+    {
+      "id": 17598,
+      "text": "あと%dつ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718036498,
+      "updated_at": 1718036498,
+      "label": "eTEXTS_DEF_ME_GEM_TRANSFER_V2_ATO"
+    },
+    {
+      "id": 17599,
+      "text": "付替えするわくわくの力を[LF]最大[C6:%dつ]選択できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718036498,
+      "updated_at": 1718036498,
+      "label": "eTEXTS_DEF_ME_GEM_TRANSFER_V2_CHOICE_INFO"
+    },
+    {
+      "id": 17600,
+      "text": "他の付替え元を選択",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718036498,
+      "updated_at": 1718036498,
+      "label": "eTEXTS_DEF_ME_GEM_TRANSFER_V2_BUTTON_SEARCH_ANOTHER_GEM"
+    },
+    {
+      "id": 17601,
+      "text": "付替え先を選択",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718036498,
+      "updated_at": 1718036498,
+      "label": "eTEXTS_DEF_ME_GEM_TRANSFER_V2_BUTTON_SELECT_TARGET_CHAR"
+    },
+    {
+      "id": 17602,
+      "text": "解除",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718036498,
+      "updated_at": 1718036498,
+      "label": "eTEXTS_DEF_ME_GEM_TRANSFER_V2_BUTTON_UN_SELECT"
+    },
+    {
+      "id": 17603,
+      "text": "[C6:選択中のわくわくの力（最大%dつ選択可能）]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718036498,
+      "updated_at": 1751990627,
+      "label": "eTEXTS_DEF_ME_GEM_TRANSFER_V2_SCROLL_TOP_INFO"
+    },
+    {
+      "id": 17604,
+      "text": "変更前",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718036498,
+      "updated_at": 1718036498,
+      "label": "eTEXTS_DEF_ME_GEM_TRANSFER_V2_DIALOG_LABEL_CHANGE_BEFORE"
+    },
+    {
+      "id": 17605,
+      "text": "変更後",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718036498,
+      "updated_at": 1718036498,
+      "label": "eTEXTS_DEF_ME_GEM_TRANSFER_V2_DIALOG_LABEL_CHANGE_AFTER"
+    },
+    {
+      "id": 17606,
+      "text": "アイテム使用状況",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718036498,
+      "updated_at": 1718036498,
+      "label": "eTEXTS_DEF_ME_GEM_TRANSFER_V2_DIALOG_LABEL_USE_ITEM_INFO"
+    },
+    {
+      "id": 17607,
+      "text": "選択中のわくわくの力",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718036498,
+      "updated_at": 1718036498,
+      "label": "eTEXTS_DEF_ME_GEM_TRANSFER_V2_LABEL_CHOICE_GEM"
+    },
+    {
+      "id": 17608,
+      "text": "現在のわくわくの力",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718036498,
+      "updated_at": 1718036498,
+      "label": "eTEXTS_DEF_ME_GEM_TRANSFER_V2_LABEL_HAVE_GEM"
+    },
+    {
+      "id": 17609,
+      "text": "わくわくの力を[C6:%dつ]選びましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718036498,
+      "updated_at": 1718036498,
+      "label": "eTEXTS_DEF_ME_GEM_TRANSFER_V2_LABEL_CHOICE_INFO_IN_DESTINATION"
+    },
+    {
+      "id": 17610,
+      "text": "この力にする",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718036498,
+      "updated_at": 1718036498,
+      "label": "eTEXTS_DEF_ME_GEM_TRANSFER_V2_BUTTON_DECIDED"
+    },
+    {
+      "id": 17611,
+      "text": "[LC]これ以上は選択できません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718036498,
+      "updated_at": 1718036498,
+      "label": "eTEXTS_DEF_ME_GEM_TRANSFER_V2_TOAST_CAUTION_NO_MORE_SELECTED"
+    },
+    {
+      "id": 17612,
+      "text": "[LC]選択中のわくわくの力から[LF][LC]1つ以上選択してください",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718036498,
+      "updated_at": 1718036498,
+      "label": "eTEXTS_DEF_ME_GEM_TRANSFER_V2_TOAST_CAUTION_PLEASE_SELECTED"
+    },
+    {
+      "id": 17613,
+      "text": "[LC]わくわくの力を付替えますか？[LF][LF][LC][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1718036498,
+      "updated_at": 1718036498,
+      "label": "eTEXTS_DEF_ME_GEM_TRANSFER_V2_DIALOG_ASK_CHANGE_INFO"
+    },
+    {
+      "id": 17614,
+      "text": "選択を破棄して[LF]この画面を離れますか？",
+      "layout": 29,
+      "color": 0,
+      "created_at": 1718036498,
+      "updated_at": 1718036498,
+      "label": "eTEXTS_DEF_ME_GEM_TRANSFER_V2_DIALOG_ASK_RETURN"
+    },
+    {
+      "id": 17615,
+      "text": "6/14 12:00 〜 7/5 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_DAIBA_MISSION_PERIOD"
+    },
+    {
+      "id": 17616,
+      "text": "ミッションをクリアしてBOXを開封しよう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_DAIBA_NAVI_FRAME_DESC1"
+    },
+    {
+      "id": 17617,
+      "text": "開封可能数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_DAIBA_ENABLE_CNT_TEXT"
+    },
+    {
+      "id": 17618,
+      "text": "回",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_DAIBA_ENABLE_CNT"
+    },
+    {
+      "id": 17619,
+      "text": "[C6:クリティカル]が出れば怪獣討伐",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_DAIBA_TARGET_WEAPON_DESC"
+    },
+    {
+      "id": 17620,
+      "text": "このBOXを開封しますか？",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_DAIBA_TARGET_CONFIRM_DESC"
+    },
+    {
+      "id": 17621,
+      "text": "[LC]怪獣を討伐しました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_DAIBA_SUB1_ALL_CLEAR"
+    },
+    {
+      "id": 17622,
+      "text": "[LC][C6:翌日AM4:00]に新たな怪獣が襲来します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_DAIBA_SUB1_ALL_CLEAR_NEXT"
+    },
+    {
+      "id": 17623,
+      "text": "[LC]怪獣討伐任務とは[LF][LF][CCB:dlme/help_collabo_daiba_sb1_00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_MSG_DAIBA_SUB1_MISSION_HELP"
+    },
+    {
+      "id": 17624,
+      "text": "BOXを開封しました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_DAIBA_BOX_OPEN_DESC"
+    },
+    {
+      "id": 17625,
+      "text": "%sを攻撃！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_DAIBA_BOX_ATTACK_MISS_DESC"
+    },
+    {
+      "id": 17626,
+      "text": "%sに[C6:クリティカル]！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_DAIBA_BOX_ATTACK_HIT_DESC"
+    },
+    {
+      "id": 17627,
+      "text": "[LC]報酬一覧[LF][LF]怪獣を討伐すると[LF][C6:残りのBOXの報酬をすべて獲得]できます[LF][LF][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_MSG_DAIBA_MISSION_REWARD_LIST"
+    },
+    {
+      "id": 17628,
+      "text": "攻撃",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_MSG_DAIBA_MISSION_REWARD_LIST_OPEN"
+    },
+    {
+      "id": 17629,
+      "text": "討伐",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_MSG_DAIBA_MISSION_REWARD_LIST_DESTROY"
+    },
+    {
+      "id": 17630,
+      "text": "[LC]開催期間が終了しました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_MSG_DAIBA_MISSION_EXPIRED"
+    },
+    {
+      "id": 17631,
+      "text": "[LC]報酬[LF][LF][LC][NODE][LF][LC]%sを獲得しました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_MSG_DAIBA_REWARD_MISS"
+    },
+    {
+      "id": 17632,
+      "text": "[LC]報酬[LF][LF][LC][NODE][LF][LC]怪獣を討伐し[LF][LC]残りの報酬をすべて獲得しました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_MSG_DAIBA_REWARD_HIT"
+    },
+    {
+      "id": 17633,
+      "text": "開封するBOXを選択してください",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_DAIBA_NAVI_FRAME_DESC2"
+    },
+    {
+      "id": 17634,
+      "text": "[C6:コラボガチャ開催]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46000"
+    },
+    {
+      "id": 17635,
+      "text": "[b:ba_help_collabo_daiba_00_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46001"
+    },
+    {
+      "id": 17636,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46002"
+    },
+    {
+      "id": 17637,
+      "text": "6/14 12:00～7/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46003"
+    },
+    {
+      "id": 17638,
+      "text": "[C5:コラボ限定ガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46004"
+    },
+    {
+      "id": 17639,
+      "text": "[IPJ11304]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46006"
+    },
+    {
+      "id": 17640,
+      "text": "[IPJ11310]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46007"
+    },
+    {
+      "id": 17641,
+      "text": "[IPJ11312]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46008"
+    },
+    {
+      "id": 17642,
+      "text": "[IPJ11306]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46009"
+    },
+    {
+      "id": 17643,
+      "text": "[IPJ11308]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46010"
+    },
+    {
+      "id": 17644,
+      "text": "[C6:コラボクエスト出現中]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46011"
+    },
+    {
+      "id": 17645,
+      "text": "[b:ba_help_collabo_daiba_00_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46012"
+    },
+    {
+      "id": 17646,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46013"
+    },
+    {
+      "id": 17647,
+      "text": "6/14 12:00～7/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46014"
+    },
+    {
+      "id": 17648,
+      "text": "[C5:イベントクエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46015"
+    },
+    {
+      "id": 17649,
+      "text": "[SGBI27290|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46016"
+    },
+    {
+      "id": 17650,
+      "text": "[SGBI27280|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46017"
+    },
+    {
+      "id": 17651,
+      "text": "[SGBI27300|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46018"
+    },
+    {
+      "id": 17652,
+      "text": "[SGBI27260|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46019"
+    },
+    {
+      "id": 17653,
+      "text": "[SGBI27270|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46020"
+    },
+    {
+      "id": 17654,
+      "text": "[C3:｢翼竜系怪獣｣]は[LF]1日1回クリアボーナスで[C6:7体]獲得可能、[LF]マルチだと金卵2個以上の排出率がアップします",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46021"
+    },
+    {
+      "id": 17655,
+      "text": "[C6:超究極難易度が登場]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46022"
+    },
+    {
+      "id": 17656,
+      "text": "[b:ba_help_collabo_daiba_00_3.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46023"
+    },
+    {
+      "id": 17657,
+      "text": "[C5:超究極クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46024"
+    },
+    {
+      "id": 17658,
+      "text": "[SGBI27310|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46025"
+    },
+    {
+      "id": 17659,
+      "text": "このクエストではどのキャラも[LF]本来のラックに[C4:+99]された[C4:運極]状態で[LF]ラックボーナスが獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46026"
+    },
+    {
+      "id": 17660,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20240613_1.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46027"
+    },
+    {
+      "id": 17661,
+      "text": "[SW0.85][C6:コラボスターターパックなどのお楽しみ要素も]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46100"
+    },
+    {
+      "id": 17662,
+      "text": "[b:ba_help_collabo_daiba_01_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46101"
+    },
+    {
+      "id": 17663,
+      "text": "[C5:コラボスターターパック]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46102"
+    },
+    {
+      "id": 17664,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46103"
+    },
+    {
+      "id": 17665,
+      "text": "6/14 12:00～7/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46104"
+    },
+    {
+      "id": 17666,
+      "text": "[C6:ここでのみ入手可能なキャラ]と[LF]各種アイテムがセットとなった[LF][C6:コラボスターターパック]が購入可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46105"
+    },
+    {
+      "id": 17667,
+      "text": "[IPJ11313]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46106"
+    },
+    {
+      "id": 17668,
+      "text": "[C5:フレンドガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46107"
+    },
+    {
+      "id": 17669,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46108"
+    },
+    {
+      "id": 17670,
+      "text": "6/14 12:00～7/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46109"
+    },
+    {
+      "id": 17671,
+      "text": "期間中フレンドガチャから[LF]下記のキャラが排出されるようになります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46110"
+    },
+    {
+      "id": 17672,
+      "text": "[IPJ11327]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46111"
+    },
+    {
+      "id": 17673,
+      "text": "[C5:期間限定ラックボーナス]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46112"
+    },
+    {
+      "id": 17674,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46113"
+    },
+    {
+      "id": 17675,
+      "text": "6/14 12:00～7/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46114"
+    },
+    {
+      "id": 17676,
+      "text": "下記のキャラは期間中[LF]本来のラックに[C4:+99]された[C4:運極]状態で[LF]ラックボーナスが獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46115"
+    },
+    {
+      "id": 17677,
+      "text": "[IPJ11313]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46116"
+    },
+    {
+      "id": 17678,
+      "text": "[IPJ11326]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46117"
+    },
+    {
+      "id": 17679,
+      "text": "[IPJ11327]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46118"
+    },
+    {
+      "id": 17680,
+      "text": "[C5:その他お楽しみ要素]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46119"
+    },
+    {
+      "id": 17681,
+      "text": "怪獣討伐任務",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46120"
+    },
+    {
+      "id": 17682,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20240613_1.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46121"
+    },
+    {
+      "id": 17683,
+      "text": "[SW0.77][C6:ミッションクリアでBOXを開封し怪獣討伐をしよう]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46200"
+    },
+    {
+      "id": 17684,
+      "text": "[b:ba_help_collabo_daiba_sb1_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46201"
+    },
+    {
+      "id": 17685,
+      "text": "襲来した怪獣の討伐を目指しましょう[LF][C6:ミッションクリアでBOXが開封]できるようになり[LF]中から[C6:クリティカルが出れば討伐]が可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46202"
+    },
+    {
+      "id": 17686,
+      "text": "[C5:ミッションとBOXについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46203"
+    },
+    {
+      "id": 17687,
+      "text": "[C6:ミッションを1つクリア]すると[LF][C6:BOXが1つ開封]でき、中から攻撃が出現します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46204"
+    },
+    {
+      "id": 17688,
+      "text": "[C6:開封！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46205"
+    },
+    {
+      "id": 17689,
+      "text": "怪獣を攻撃することで報酬が手に入ります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46206"
+    },
+    {
+      "id": 17690,
+      "text": "[C6:GET！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46207"
+    },
+    {
+      "id": 17691,
+      "text": "BOXから[C6:クリティカルが出現すると][LF][C6:怪獣が討伐]され[C6:残りの報酬をすべて獲得]できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46208"
+    },
+    {
+      "id": 17692,
+      "text": "[C6:すべてGET！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46209"
+    },
+    {
+      "id": 17693,
+      "text": "[IPJ11326]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46210"
+    },
+    {
+      "id": 17694,
+      "text": "[C5:怪獣について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46211"
+    },
+    {
+      "id": 17695,
+      "text": "怪獣を討伐すると[LF][C6:翌日AM4:00に新たな怪獣が襲来]します[LF]怪獣ごとにミッションとBOXの数は異なります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46212"
+    },
+    {
+      "id": 17696,
+      "text": "[C5:報酬について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46213"
+    },
+    {
+      "id": 17697,
+      "text": "攻撃すると[C6:コラボ限定キャラ]などの[LF]報酬を獲得することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46214"
+    },
+    {
+      "id": 17698,
+      "text": "[IPJ11326]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46215"
+    },
+    {
+      "id": 17699,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20240613_1.html#6|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718273220,
+      "updated_at": 1718273220,
+      "label": "eTEXTS_DEF_46216"
+    },
+    {
+      "id": 17700,
+      "text": "[b:ba_help_collabo_daiba_00_4.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718876559,
+      "updated_at": 1718876559,
+      "label": "eTEXTS_DEF_46028"
+    },
+    {
+      "id": 17701,
+      "text": "[SGBI27320|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718876559,
+      "updated_at": 1718876559,
+      "label": "eTEXTS_DEF_46029"
+    },
+    {
+      "id": 17702,
+      "text": "クリアすると[LF][C6:識別怪獣 怪獣１０号]を[LF][C4:運極(ラック+99)]で1体獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1718876559,
+      "updated_at": 1718876559,
+      "label": "eTEXTS_DEF_46030"
+    },
+    {
+      "id": 17703,
+      "text": "[LC]50連達成[LF][LF][LC][C6:ガチャ連数が50連分貯まりました][LF][LF][LC]期間内に忘れずにガチャを引きましょう[LF][LF][LC][C6:ガチャ期間：7/27 3:59まで]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1718876559,
+      "updated_at": 1781774287,
+      "label": "eTEXTS_DEF_GACHA_DAILY_STACK_DIALOG_REACHED_MAX_STACK"
+    },
+    {
+      "id": 17704,
+      "text": "-",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_DAIBA_SUB1_ALL_CLEAR_NEXT_2"
+    },
+    {
+      "id": 17705,
+      "text": "-",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_DAIBA_SUB1_ALL_CLEAR_NEXT_3"
+    },
+    {
+      "id": 17706,
+      "text": "毎日解体！モンスタースイーパー",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_46122"
+    },
+    {
+      "id": 17707,
+      "text": "[C5:怪獣１０号について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_46217"
+    },
+    {
+      "id": 17708,
+      "text": "[SGBI27320|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_46218"
+    },
+    {
+      "id": 17709,
+      "text": "超究極クエスト[C6:｢怪獣１０号｣]をクリアすると[LF]襲来した[C6:怪獣１０号に挑むことが可能]になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_46219"
+    },
+    {
+      "id": 17710,
+      "text": "毎日解体！モンスタースイーパー",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_DAIBA_LOTTERY_TITLE"
+    },
+    {
+      "id": 17711,
+      "text": "6/28 4:00 〜 7/2 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_DAIBA_LOTTERY_DATE"
+    },
+    {
+      "id": 17712,
+      "text": "怪獣を毎日解体して報酬を受け取ろう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_DAIBA_LOTTERY_DESCRIPTION"
+    },
+    {
+      "id": 17713,
+      "text": "報酬一覧[LF][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_MSG_DAIBA_LOTTERY_REWARD_DIALOG"
+    },
+    {
+      "id": 17714,
+      "text": "報酬[LF][LF]以下の報酬を獲得しました[LF][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_MSG_DAIBA_LOTTERY_RESULT_DIALOG"
+    },
+    {
+      "id": 17715,
+      "text": "未使用（整理時に削除希望）",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_MSG_DAIBA_LOTTERY_RESET_DIALOG"
+    },
+    {
+      "id": 17716,
+      "text": "解体できませんでした",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_MSG_DAIBA_LOTTERY_CANT_LOTTERY_DIALOG"
+    },
+    {
+      "id": 17717,
+      "text": "[LC][SW0.8]毎日解体！モンスタースイーパーとは[LF][LF][CCB:dlme/help_collabo_daiba_sb2_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_MSG_DAIBA_LOTTERY_HELP_DIALOG"
+    },
+    {
+      "id": 17718,
+      "text": "解体報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_DAIBA_LOTTERY_LOTTERY_REWARD_LABEL"
+    },
+    {
+      "id": 17719,
+      "text": "解体完了報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_DAIBA_LOTTERY_COMPLETE_REWARD_LABEL"
+    },
+    {
+      "id": 17720,
+      "text": "[C6:怪獣を毎日解体して報酬を受け取ろう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_46300"
+    },
+    {
+      "id": 17721,
+      "text": "[b:ba_help_collabo_daiba_sb2_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_46301"
+    },
+    {
+      "id": 17722,
+      "text": "討伐された怪獣を解体清掃して街を綺麗にしましょう[LF][C6:解体するたびに報酬が獲得でき][LF]4日間で解体完了することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_46302"
+    },
+    {
+      "id": 17723,
+      "text": "[C5:解体について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_46303"
+    },
+    {
+      "id": 17724,
+      "text": "1日1回の解体作業で報酬が獲得でき[LF][C6:毎日AM4時を過ぎると再び解体可能]になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_46304"
+    },
+    {
+      "id": 17725,
+      "text": "[C6:解体作業]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_46305"
+    },
+    {
+      "id": 17726,
+      "text": "[C6:報酬ゲット！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_46306"
+    },
+    {
+      "id": 17727,
+      "text": "[C5:報酬について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_46307"
+    },
+    {
+      "id": 17728,
+      "text": "解体ごとに、[C6:いずれかの4種の戦型の書が1枚獲得]でき[LF]4回解体をすることで[C6:全種類が獲得可能]です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_46308"
+    },
+    {
+      "id": 17729,
+      "text": "1回目で獲得",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_46309"
+    },
+    {
+      "id": 17730,
+      "text": "2回目で獲得",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_46310"
+    },
+    {
+      "id": 17731,
+      "text": "[C6:4日間毎日解体が行えると勲章を獲得]できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_46311"
+    },
+    {
+      "id": 17732,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20240613_1.html#0627|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_46312"
+    },
+    {
+      "id": 17733,
+      "text": "解体ごとにいずれか1枚獲得",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1719479174,
+      "updated_at": 1719479174,
+      "label": "eTEXTS_DEF_DAIBA_LOTTERY_LOTTERY_REWARD_EXPLANATION"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "table": "kevin_map_achievements",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "achieve_limit": 6,
+      "kevin_type_id": 0,
+      "name": "[C0:同じ絵柄を4つ揃えよう]",
+      "headline": "同じ絵柄を4つ揃えよう",
+      "description": "4か所を1種類の絵柄で揃えよう",
+      "message": null,
+      "sort_id": 1,
+      "panel_id": 1,
+      "show_period": 0,
+      "start_at": 1748055600,
+      "end_at": 1748804399,
+      "receiving_at": 1748804399,
+      "created_at": 1747910281,
+      "updated_at": 1747910281
+    },
+    {
+      "id": 2,
+      "achieve_limit": 6,
+      "kevin_type_id": 1,
+      "name": "[C0:同じ絵柄を5つ揃えよう]",
+      "headline": "同じ絵柄を5つ揃えよう",
+      "description": "5か所を1種類の絵柄で揃えよう",
+      "message": null,
+      "sort_id": 2,
+      "panel_id": 1,
+      "show_period": 0,
+      "start_at": 1748055600,
+      "end_at": 1748804399,
+      "receiving_at": 1748804399,
+      "created_at": 1747910281,
+      "updated_at": 1747910281
+    },
+    {
+      "id": 3,
+      "achieve_limit": 1,
+      "kevin_type_id": 2,
+      "name": "[C0:同じ絵柄にすべて揃えよう]",
+      "headline": "同じ絵柄にすべて揃えよう",
+      "description": "全ての場所を1種類の絵柄で揃えよう",
+      "message": null,
+      "sort_id": 3,
+      "panel_id": 1,
+      "show_period": 0,
+      "start_at": 1748545200,
+      "end_at": 1748804399,
+      "receiving_at": 1748804399,
+      "created_at": 1748513773,
+      "updated_at": 1748513773
+    }
+  ]
+}

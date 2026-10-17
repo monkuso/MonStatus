@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "table": "notifies",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "api_name": "/master/version",
+      "created_at": 1380124827,
+      "updated_at": 1380124827
+    },
+    {
+      "id": 2,
+      "api_name": "/deck/get",
+      "created_at": 1380124827,
+      "updated_at": 1380124827
+    },
+    {
+      "id": 3,
+      "api_name": "/friend/list",
+      "created_at": 1380124827,
+      "updated_at": 1380124827
+    },
+    {
+      "id": 4,
+      "api_name": "/information/list",
+      "created_at": 1380124827,
+      "updated_at": 1380807500
+    },
+    {
+      "id": 5,
+      "api_name": "/user_receive/list",
+      "created_at": 1380124827,
+      "updated_at": 1380124827
+    },
+    {
+      "id": 6,
+      "api_name": "/user/get",
+      "created_at": 1380124827,
+      "updated_at": 1380124827
+    },
+    {
+      "id": 7,
+      "api_name": "/application/version",
+      "created_at": 1380124827,
+      "updated_at": 1380124827
+    }
+  ]
+}

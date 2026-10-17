@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "table": "udon_towns",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "name": "セントラル",
+      "icon_name": "udon_01_icon_chara1.png",
+      "display_type_id": 1,
+      "mission_interval": 20,
+      "created_at": 1676025509,
+      "updated_at": 1676025509
+    },
+    {
+      "id": 2,
+      "name": "ブリッグズ",
+      "icon_name": "udon_01_icon_chara2.png",
+      "display_type_id": 2,
+      "mission_interval": 10,
+      "created_at": 1676025509,
+      "updated_at": 1676025509
+    },
+    {
+      "id": 3,
+      "name": "イーストシティ",
+      "icon_name": "udon_01_icon_chara3.png",
+      "display_type_id": 3,
+      "mission_interval": 5,
+      "created_at": 1676025509,
+      "updated_at": 1676025509
+    },
+    {
+      "id": 4,
+      "name": "リゼンブール",
+      "icon_name": "udon_01_icon_chara4.png",
+      "display_type_id": 4,
+      "mission_interval": 0,
+      "created_at": 1676025509,
+      "updated_at": 1676025509
+    }
+  ]
+}

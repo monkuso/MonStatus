@@ -1,0 +1,1528 @@
+{
+  "schemaVersion": 1,
+  "table": "char_filter_abilities",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "name": "アンチ重力バリア",
+      "filter_id": 1,
+      "type_id": 2,
+      "created_at": 1454949864,
+      "updated_at": 1454949864,
+      "target_id": 0
+    },
+    {
+      "id": 2,
+      "name": "アンチ重力バリア",
+      "filter_id": 1,
+      "type_id": 40,
+      "created_at": 1454949864,
+      "updated_at": 1483701082,
+      "target_id": 0
+    },
+    {
+      "id": 3,
+      "name": "アンチ重力バリア",
+      "filter_id": 1,
+      "type_id": 54,
+      "created_at": 1454949864,
+      "updated_at": 1510588386,
+      "target_id": 0
+    },
+    {
+      "id": 4,
+      "name": "アンチダメージウォール",
+      "filter_id": 2,
+      "type_id": 3,
+      "created_at": 1454949864,
+      "updated_at": 1510588386,
+      "target_id": 0
+    },
+    {
+      "id": 5,
+      "name": "アンチダメージウォール",
+      "filter_id": 2,
+      "type_id": 56,
+      "created_at": 1454949864,
+      "updated_at": 1514297164,
+      "target_id": 0
+    },
+    {
+      "id": 6,
+      "name": "アンチダメージウォール",
+      "filter_id": 2,
+      "type_id": 111,
+      "created_at": 1454949864,
+      "updated_at": 1637747809,
+      "target_id": 0
+    },
+    {
+      "id": 7,
+      "name": "アンチワープ",
+      "filter_id": 3,
+      "type_id": 4,
+      "created_at": 1454949864,
+      "updated_at": 1637747809,
+      "target_id": 0
+    },
+    {
+      "id": 8,
+      "name": "アンチワープ",
+      "filter_id": 3,
+      "type_id": 43,
+      "created_at": 1454949864,
+      "updated_at": 1637747809,
+      "target_id": 0
+    },
+    {
+      "id": 9,
+      "name": "アンチワープ",
+      "filter_id": 3,
+      "type_id": 62,
+      "created_at": 1454949864,
+      "updated_at": 1637747809,
+      "target_id": 0
+    },
+    {
+      "id": 10,
+      "name": "マインスイーパー／飛行",
+      "filter_id": 4,
+      "type_id": 13,
+      "created_at": 1454949864,
+      "updated_at": 1637747809,
+      "target_id": 0
+    },
+    {
+      "id": 11,
+      "name": "マインスイーパー／飛行",
+      "filter_id": 4,
+      "type_id": 79,
+      "created_at": 1454949864,
+      "updated_at": 1637747809,
+      "target_id": 0
+    },
+    {
+      "id": 12,
+      "name": "マインスイーパー／飛行",
+      "filter_id": 4,
+      "type_id": 7,
+      "created_at": 1454949864,
+      "updated_at": 1637747809,
+      "target_id": 0
+    },
+    {
+      "id": 13,
+      "name": "マインスイーパー",
+      "filter_id": 5,
+      "type_id": 13,
+      "created_at": 1454949864,
+      "updated_at": 1637747809,
+      "target_id": 0
+    },
+    {
+      "id": 14,
+      "name": "マインスイーパー",
+      "filter_id": 5,
+      "type_id": 79,
+      "created_at": 1454949864,
+      "updated_at": 1637747809,
+      "target_id": 0
+    },
+    {
+      "id": 15,
+      "name": "飛行",
+      "filter_id": 6,
+      "type_id": 7,
+      "created_at": 1454949864,
+      "updated_at": 1660578400,
+      "target_id": 0
+    },
+    {
+      "id": 16,
+      "name": "アンチブロック",
+      "filter_id": 10,
+      "type_id": 26,
+      "created_at": 1454949864,
+      "updated_at": 1660578400,
+      "target_id": 0
+    },
+    {
+      "id": 17,
+      "name": "アンチウィンド",
+      "filter_id": 11,
+      "type_id": 29,
+      "created_at": 1454949864,
+      "updated_at": 1660578400,
+      "target_id": 0
+    },
+    {
+      "id": 18,
+      "name": "アンチウィンド",
+      "filter_id": 11,
+      "type_id": 72,
+      "created_at": 1454949864,
+      "updated_at": 1660578400,
+      "target_id": 0
+    },
+    {
+      "id": 19,
+      "name": "アンチウィンド",
+      "filter_id": 11,
+      "type_id": 112,
+      "created_at": 1454949864,
+      "updated_at": 1660578400,
+      "target_id": 0
+    },
+    {
+      "id": 20,
+      "name": "アンチ魔法陣／ブースト",
+      "filter_id": 12,
+      "type_id": 31,
+      "created_at": 1454949864,
+      "updated_at": 1660578400,
+      "target_id": 0
+    },
+    {
+      "id": 21,
+      "name": "アンチ魔法陣／ブースト",
+      "filter_id": 12,
+      "type_id": 47,
+      "created_at": 1454949864,
+      "updated_at": 1660578400,
+      "target_id": 0
+    },
+    {
+      "id": 22,
+      "name": "アンチ減速壁",
+      "filter_id": 24,
+      "type_id": 75,
+      "created_at": 1454949864,
+      "updated_at": 1660578400,
+      "target_id": 0
+    },
+    {
+      "id": 23,
+      "name": "アンチ減速壁",
+      "filter_id": 24,
+      "type_id": 91,
+      "created_at": 1471364446,
+      "updated_at": 1707148419,
+      "target_id": 0
+    },
+    {
+      "id": 24,
+      "name": "アンチ減速壁",
+      "filter_id": 24,
+      "type_id": 133,
+      "created_at": 1471364446,
+      "updated_at": 1716458191,
+      "target_id": 0
+    },
+    {
+      "id": 25,
+      "name": "アンチ転送壁",
+      "filter_id": 25,
+      "type_id": 113,
+      "created_at": 1471612557,
+      "updated_at": 1716458191,
+      "target_id": 0
+    },
+    {
+      "id": 26,
+      "name": "アンチ転送壁",
+      "filter_id": 25,
+      "type_id": 132,
+      "created_at": 1477569807,
+      "updated_at": 1716458191,
+      "target_id": 0
+    },
+    {
+      "id": 27,
+      "name": "アンチ転送壁",
+      "filter_id": 25,
+      "type_id": 159,
+      "created_at": 1481559863,
+      "updated_at": 1787217663,
+      "target_id": 0
+    },
+    {
+      "id": 28,
+      "name": "アンチ減速床",
+      "filter_id": 26,
+      "type_id": 140,
+      "created_at": 1483701083,
+      "updated_at": 1787217663,
+      "target_id": 0
+    },
+    {
+      "id": 29,
+      "name": "アンチマルチレイヤ",
+      "filter_id": 27,
+      "type_id": 148,
+      "created_at": 1483701083,
+      "updated_at": 1787217663,
+      "target_id": 0
+    },
+    {
+      "id": 30,
+      "name": "キラー",
+      "filter_id": 7,
+      "type_id": 0,
+      "created_at": 1483701083,
+      "updated_at": 1787217663,
+      "target_id": 0
+    },
+    {
+      "id": 31,
+      "name": "耐性",
+      "filter_id": 8,
+      "type_id": 15,
+      "created_at": 1483701083,
+      "updated_at": 1787217663,
+      "target_id": 0
+    },
+    {
+      "id": 32,
+      "name": "耐性",
+      "filter_id": 8,
+      "type_id": 51,
+      "created_at": 1490082423,
+      "updated_at": 1787217663,
+      "target_id": 0
+    },
+    {
+      "id": 33,
+      "name": "ブレイカー",
+      "filter_id": 9,
+      "type_id": 10,
+      "created_at": 1496679239,
+      "updated_at": 1787217663,
+      "target_id": 0
+    },
+    {
+      "id": 34,
+      "name": "SSターン",
+      "filter_id": 13,
+      "type_id": 16,
+      "created_at": 1499429955,
+      "updated_at": 1787217664,
+      "target_id": 0
+    },
+    {
+      "id": 35,
+      "name": "SSターン",
+      "filter_id": 13,
+      "type_id": 89,
+      "created_at": 1502367651,
+      "updated_at": 1787217664,
+      "target_id": 0
+    },
+    {
+      "id": 36,
+      "name": "SSターン",
+      "filter_id": 13,
+      "type_id": 110,
+      "created_at": 1504174510,
+      "updated_at": 1787217664,
+      "target_id": 0
+    },
+    {
+      "id": 37,
+      "name": "SSターン",
+      "filter_id": 13,
+      "type_id": 58,
+      "created_at": 1524672619,
+      "updated_at": 1787217664,
+      "target_id": 0
+    },
+    {
+      "id": 38,
+      "name": "SSターン",
+      "filter_id": 13,
+      "type_id": 70,
+      "created_at": 1528132162,
+      "updated_at": 1787217664,
+      "target_id": 0
+    },
+    {
+      "id": 39,
+      "name": "SSターン",
+      "filter_id": 13,
+      "type_id": 90,
+      "created_at": 1528132162,
+      "updated_at": 1787217664,
+      "target_id": 0
+    },
+    {
+      "id": 40,
+      "name": "SSターン",
+      "filter_id": 13,
+      "type_id": 147,
+      "created_at": 1545914697,
+      "updated_at": 1787217664,
+      "target_id": 0
+    },
+    {
+      "id": 41,
+      "name": "回復",
+      "filter_id": 14,
+      "type_id": 17,
+      "created_at": 1545914697,
+      "updated_at": 1787217664,
+      "target_id": 0
+    },
+    {
+      "id": 42,
+      "name": "回復",
+      "filter_id": 14,
+      "type_id": 20,
+      "created_at": 1548691838,
+      "updated_at": 1787217664,
+      "target_id": 0
+    },
+    {
+      "id": 43,
+      "name": "回復",
+      "filter_id": 14,
+      "type_id": 61,
+      "created_at": 1557480365,
+      "updated_at": 1787217664,
+      "target_id": 0
+    },
+    {
+      "id": 44,
+      "name": "回復",
+      "filter_id": 14,
+      "type_id": 120,
+      "created_at": 1561636103,
+      "updated_at": 1787217664,
+      "target_id": 0
+    },
+    {
+      "id": 45,
+      "name": "回復",
+      "filter_id": 14,
+      "type_id": 37,
+      "created_at": 1567682443,
+      "updated_at": 1787217664,
+      "target_id": 0
+    },
+    {
+      "id": 46,
+      "name": "回復",
+      "filter_id": 14,
+      "type_id": 46,
+      "created_at": 1570273946,
+      "updated_at": 1787217664,
+      "target_id": 0
+    },
+    {
+      "id": 47,
+      "name": "回復",
+      "filter_id": 14,
+      "type_id": 74,
+      "created_at": 1570273946,
+      "updated_at": 1787217664,
+      "target_id": 0
+    },
+    {
+      "id": 48,
+      "name": "回復",
+      "filter_id": 14,
+      "type_id": 83,
+      "created_at": 1577442254,
+      "updated_at": 1787217664,
+      "target_id": 0
+    },
+    {
+      "id": 49,
+      "name": "回復",
+      "filter_id": 14,
+      "type_id": 84,
+      "created_at": 1587035208,
+      "updated_at": 1787217664,
+      "target_id": 0
+    },
+    {
+      "id": 50,
+      "name": "回復",
+      "filter_id": 14,
+      "type_id": 107,
+      "created_at": 1588341808,
+      "updated_at": 1787217664,
+      "target_id": 0
+    },
+    {
+      "id": 51,
+      "name": "回復",
+      "filter_id": 14,
+      "type_id": 132,
+      "created_at": 1601292746,
+      "updated_at": 1787217664,
+      "target_id": 0
+    },
+    {
+      "id": 52,
+      "name": "状態異常回復",
+      "filter_id": 15,
+      "type_id": 21,
+      "created_at": 1601725674,
+      "updated_at": 1787217664,
+      "target_id": 0
+    },
+    {
+      "id": 53,
+      "name": "バリア",
+      "filter_id": 17,
+      "type_id": 8,
+      "created_at": 1601809772,
+      "updated_at": 1787217664,
+      "target_id": 0
+    },
+    {
+      "id": 54,
+      "name": "バリア",
+      "filter_id": 17,
+      "type_id": 36,
+      "created_at": 1608200607,
+      "updated_at": 1787217664,
+      "target_id": 0
+    },
+    {
+      "id": 55,
+      "name": "バリア",
+      "filter_id": 17,
+      "type_id": 80,
+      "created_at": 1609141731,
+      "updated_at": 1787217664,
+      "target_id": 0
+    },
+    {
+      "id": 56,
+      "name": "バリア",
+      "filter_id": 17,
+      "type_id": 44,
+      "created_at": 1609141731,
+      "updated_at": 1787217664,
+      "target_id": 0
+    },
+    {
+      "id": 57,
+      "name": "バリア",
+      "filter_id": 17,
+      "type_id": 27,
+      "created_at": 1766920578,
+      "updated_at": 1787217664,
+      "target_id": 0
+    },
+    {
+      "id": 58,
+      "name": "バリア",
+      "filter_id": 17,
+      "type_id": 146,
+      "created_at": 1766920578,
+      "updated_at": 1787217664,
+      "target_id": 100
+    },
+    {
+      "id": 59,
+      "name": "レーザーストップ",
+      "filter_id": 20,
+      "type_id": 28,
+      "created_at": 1781169789,
+      "updated_at": 1787217664,
+      "target_id": 0
+    },
+    {
+      "id": 60,
+      "name": "レーザーストップ",
+      "filter_id": 20,
+      "type_id": 83,
+      "created_at": 1785407066,
+      "updated_at": 1787217664,
+      "target_id": 0
+    },
+    {
+      "id": 61,
+      "name": "その他",
+      "filter_id": 23,
+      "type_id": 0,
+      "created_at": 1787217664,
+      "updated_at": 1787217664,
+      "target_id": 0
+    },
+    {
+      "id": 200,
+      "name": "ドラゴン",
+      "filter_id": 7,
+      "type_id": 6,
+      "created_at": 1510588387,
+      "updated_at": 1510588387,
+      "target_id": 1
+    },
+    {
+      "id": 201,
+      "name": "ロボット",
+      "filter_id": 7,
+      "type_id": 6,
+      "created_at": 1510588387,
+      "updated_at": 1510588387,
+      "target_id": 2
+    },
+    {
+      "id": 202,
+      "name": "魔人",
+      "filter_id": 7,
+      "type_id": 6,
+      "created_at": 1510588387,
+      "updated_at": 1510588387,
+      "target_id": 3
+    },
+    {
+      "id": 203,
+      "name": "神",
+      "filter_id": 7,
+      "type_id": 6,
+      "created_at": 1510588387,
+      "updated_at": 1510588387,
+      "target_id": 4
+    },
+    {
+      "id": 204,
+      "name": "鳥",
+      "filter_id": 7,
+      "type_id": 6,
+      "created_at": 1510588387,
+      "updated_at": 1512392816,
+      "target_id": 5
+    },
+    {
+      "id": 205,
+      "name": "獣",
+      "filter_id": 7,
+      "type_id": 6,
+      "created_at": 1510588387,
+      "updated_at": 1512392816,
+      "target_id": 6
+    },
+    {
+      "id": 206,
+      "name": "亜人",
+      "filter_id": 7,
+      "type_id": 6,
+      "created_at": 1510588387,
+      "updated_at": 1510588387,
+      "target_id": 7
+    },
+    {
+      "id": 207,
+      "name": "魔族",
+      "filter_id": 7,
+      "type_id": 6,
+      "created_at": 1510588387,
+      "updated_at": 1510588387,
+      "target_id": 8
+    },
+    {
+      "id": 208,
+      "name": "妖精",
+      "filter_id": 7,
+      "type_id": 6,
+      "created_at": 1510588387,
+      "updated_at": 1510588387,
+      "target_id": 9
+    },
+    {
+      "id": 209,
+      "name": "鉱物",
+      "filter_id": 7,
+      "type_id": 6,
+      "created_at": 1510588387,
+      "updated_at": 1510588387,
+      "target_id": 10
+    },
+    {
+      "id": 210,
+      "name": "魔王",
+      "filter_id": 7,
+      "type_id": 6,
+      "created_at": 1510588387,
+      "updated_at": 1510588387,
+      "target_id": 11
+    },
+    {
+      "id": 211,
+      "name": "幻獣",
+      "filter_id": 7,
+      "type_id": 6,
+      "created_at": 1510588387,
+      "updated_at": 1510588387,
+      "target_id": 12
+    },
+    {
+      "id": 213,
+      "name": "ユニバース",
+      "filter_id": 7,
+      "type_id": 6,
+      "created_at": 1510588387,
+      "updated_at": 1510588387,
+      "target_id": 14
+    },
+    {
+      "id": 214,
+      "name": "聖騎士",
+      "filter_id": 7,
+      "type_id": 6,
+      "created_at": 1510588387,
+      "updated_at": 1510588387,
+      "target_id": 15
+    },
+    {
+      "id": 215,
+      "name": "サムライ",
+      "filter_id": 7,
+      "type_id": 6,
+      "created_at": 1510588387,
+      "updated_at": 1510588387,
+      "target_id": 16
+    },
+    {
+      "id": 218,
+      "name": "ユニオン",
+      "filter_id": 7,
+      "type_id": 6,
+      "created_at": 1510588387,
+      "updated_at": 1510588387,
+      "target_id": 19
+    },
+    {
+      "id": 219,
+      "name": "アクシス",
+      "filter_id": 7,
+      "type_id": 6,
+      "created_at": 1510588387,
+      "updated_at": 1510588387,
+      "target_id": 20
+    },
+    {
+      "id": 220,
+      "name": "幻妖",
+      "filter_id": 7,
+      "type_id": 6,
+      "created_at": 1562839675,
+      "updated_at": 1562839675,
+      "target_id": 21
+    },
+    {
+      "id": 222,
+      "name": "闘神",
+      "filter_id": 7,
+      "type_id": 6,
+      "created_at": 1510588387,
+      "updated_at": 1653492771,
+      "target_id": 33
+    },
+    {
+      "id": 225,
+      "name": "神獣",
+      "filter_id": 7,
+      "type_id": 6,
+      "created_at": 1510588387,
+      "updated_at": 1653492771,
+      "target_id": 34
+    },
+    {
+      "id": 227,
+      "name": "怪獣",
+      "filter_id": 7,
+      "type_id": 6,
+      "created_at": 1510588387,
+      "updated_at": 1653492771,
+      "target_id": 23
+    },
+    {
+      "id": 232,
+      "name": "使徒",
+      "filter_id": 7,
+      "type_id": 6,
+      "created_at": 1519905470,
+      "updated_at": 1653492771,
+      "target_id": 26
+    },
+    {
+      "id": 233,
+      "name": "ファイター",
+      "filter_id": 7,
+      "type_id": 6,
+      "created_at": 1510588387,
+      "updated_at": 1653492771,
+      "target_id": 28
+    },
+    {
+      "id": 237,
+      "name": "巨人",
+      "filter_id": 7,
+      "type_id": 6,
+      "created_at": 1601809772,
+      "updated_at": 1601809772,
+      "target_id": 38
+    },
+    {
+      "id": 300,
+      "name": "火属性",
+      "filter_id": 7,
+      "type_id": 14,
+      "created_at": 1510588387,
+      "updated_at": 1510588387,
+      "target_id": 1
+    },
+    {
+      "id": 301,
+      "name": "水属性",
+      "filter_id": 7,
+      "type_id": 14,
+      "created_at": 1510588387,
+      "updated_at": 1510588387,
+      "target_id": 2
+    },
+    {
+      "id": 302,
+      "name": "木属性",
+      "filter_id": 7,
+      "type_id": 14,
+      "created_at": 1510588387,
+      "updated_at": 1510588387,
+      "target_id": 3
+    },
+    {
+      "id": 303,
+      "name": "光属性",
+      "filter_id": 7,
+      "type_id": 14,
+      "created_at": 1510588387,
+      "updated_at": 1510588387,
+      "target_id": 4
+    },
+    {
+      "id": 304,
+      "name": "闇属性",
+      "filter_id": 7,
+      "type_id": 14,
+      "created_at": 1510588387,
+      "updated_at": 1510588387,
+      "target_id": 5
+    },
+    {
+      "id": 305,
+      "name": "カウンター",
+      "filter_id": 7,
+      "type_id": 30,
+      "created_at": 1510588387,
+      "updated_at": 1510588387,
+      "target_id": 0
+    },
+    {
+      "id": 306,
+      "name": "カウンター",
+      "filter_id": 7,
+      "type_id": 101,
+      "created_at": 1510588387,
+      "updated_at": 1619781694,
+      "target_id": 0
+    },
+    {
+      "id": 307,
+      "name": "弱点",
+      "filter_id": 7,
+      "type_id": 32,
+      "created_at": 1510588387,
+      "updated_at": 1615547117,
+      "target_id": 0
+    },
+    {
+      "id": 308,
+      "name": "弱点",
+      "filter_id": 7,
+      "type_id": 102,
+      "created_at": 1539348828,
+      "updated_at": 1641542705,
+      "target_id": 0
+    },
+    {
+      "id": 309,
+      "name": "重力バリア",
+      "filter_id": 7,
+      "type_id": 33,
+      "created_at": 1545914697,
+      "updated_at": 1641542705,
+      "target_id": 0
+    },
+    {
+      "id": 310,
+      "name": "重力バリア",
+      "filter_id": 7,
+      "type_id": 103,
+      "created_at": 1561636103,
+      "updated_at": 1641542705,
+      "target_id": 0
+    },
+    {
+      "id": 311,
+      "name": "毒",
+      "filter_id": 7,
+      "type_id": 67,
+      "created_at": 1627645510,
+      "updated_at": 1641542705,
+      "target_id": 0
+    },
+    {
+      "id": 312,
+      "name": "毒",
+      "filter_id": 7,
+      "type_id": 104,
+      "created_at": 1565258226,
+      "updated_at": 1728990436,
+      "target_id": 0
+    },
+    {
+      "id": 313,
+      "name": "バイタル",
+      "filter_id": 7,
+      "type_id": 63,
+      "created_at": 1609141731,
+      "updated_at": 1728990436,
+      "target_id": 50
+    },
+    {
+      "id": 314,
+      "name": "バイタル",
+      "filter_id": 7,
+      "type_id": 125,
+      "created_at": 1615547117,
+      "updated_at": 1728990436,
+      "target_id": 50
+    },
+    {
+      "id": 315,
+      "name": "フェイタル",
+      "filter_id": 7,
+      "type_id": 150,
+      "created_at": 1628762957,
+      "updated_at": 1783855239,
+      "target_id": 50
+    },
+    {
+      "id": 316,
+      "name": "連撃",
+      "filter_id": 7,
+      "type_id": 73,
+      "created_at": 1634894109,
+      "updated_at": 1783855239,
+      "target_id": 10
+    },
+    {
+      "id": 317,
+      "name": "レーザーバリア",
+      "filter_id": 7,
+      "type_id": 76,
+      "created_at": 1641542705,
+      "updated_at": 1783855239,
+      "target_id": 0
+    },
+    {
+      "id": 318,
+      "name": "レーザーバリア",
+      "filter_id": 7,
+      "type_id": 105,
+      "created_at": 1639649352,
+      "updated_at": 1783855239,
+      "target_id": 0
+    },
+    {
+      "id": 319,
+      "name": "ファースト",
+      "filter_id": 7,
+      "type_id": 96,
+      "created_at": 1641542706,
+      "updated_at": 1783855239,
+      "target_id": 0
+    },
+    {
+      "id": 320,
+      "name": "ポジション",
+      "filter_id": 7,
+      "type_id": 92,
+      "created_at": 1661423820,
+      "updated_at": 1783855239,
+      "target_id": 1
+    },
+    {
+      "id": 321,
+      "name": "ポジション",
+      "filter_id": 7,
+      "type_id": 92,
+      "created_at": 1689854427,
+      "updated_at": 1783855239,
+      "target_id": 2
+    },
+    {
+      "id": 322,
+      "name": "ポジション",
+      "filter_id": 7,
+      "type_id": 92,
+      "created_at": 1728990436,
+      "updated_at": 1783855239,
+      "target_id": 4
+    },
+    {
+      "id": 323,
+      "name": "ポジション",
+      "filter_id": 7,
+      "type_id": 92,
+      "created_at": 1735373870,
+      "updated_at": 1783855239,
+      "target_id": 8
+    },
+    {
+      "id": 324,
+      "name": "ポジション",
+      "filter_id": 7,
+      "type_id": 92,
+      "created_at": 1750411047,
+      "updated_at": 1783855239,
+      "target_id": 32
+    },
+    {
+      "id": 325,
+      "name": "アタックターン",
+      "filter_id": 7,
+      "type_id": 115,
+      "created_at": 1755776865,
+      "updated_at": 1783855239,
+      "target_id": 1
+    },
+    {
+      "id": 326,
+      "name": "ザコ",
+      "filter_id": 7,
+      "type_id": 141,
+      "created_at": 1762427319,
+      "updated_at": 1783855239,
+      "target_id": 0
+    },
+    {
+      "id": 327,
+      "name": "中ボス",
+      "filter_id": 7,
+      "type_id": 141,
+      "created_at": 1756979042,
+      "updated_at": 1783855239,
+      "target_id": 1
+    },
+    {
+      "id": 328,
+      "name": "ボス",
+      "filter_id": 7,
+      "type_id": 141,
+      "created_at": 1768472459,
+      "updated_at": 1783855239,
+      "target_id": 2
+    },
+    {
+      "id": 329,
+      "name": "攻撃変化",
+      "filter_id": 7,
+      "type_id": 143,
+      "created_at": 1774703414,
+      "updated_at": 1783855239,
+      "target_id": 0
+    },
+    {
+      "id": 330,
+      "name": "防御変化",
+      "filter_id": 7,
+      "type_id": 144,
+      "created_at": 1783855239,
+      "updated_at": 1783855239,
+      "target_id": 0
+    },
+    {
+      "id": 1000,
+      "name": "友情",
+      "filter_id": 23,
+      "type_id": 25,
+      "created_at": 1741621013,
+      "updated_at": 1741621013,
+      "target_id": 0
+    },
+    {
+      "id": 1001,
+      "name": "友情",
+      "filter_id": 23,
+      "type_id": 39,
+      "created_at": 1741621013,
+      "updated_at": 1741621013,
+      "target_id": 0
+    },
+    {
+      "id": 1002,
+      "name": "友情",
+      "filter_id": 23,
+      "type_id": 88,
+      "created_at": 1741621013,
+      "updated_at": 1741621013,
+      "target_id": 0
+    },
+    {
+      "id": 1003,
+      "name": "友情",
+      "filter_id": 23,
+      "type_id": 81,
+      "created_at": 1741621013,
+      "updated_at": 1741621013,
+      "target_id": 50
+    },
+    {
+      "id": 1004,
+      "name": "友情",
+      "filter_id": 23,
+      "type_id": 81,
+      "created_at": 1741621013,
+      "updated_at": 1751539478,
+      "target_id": 66
+    },
+    {
+      "id": 1005,
+      "name": "友情",
+      "filter_id": 23,
+      "type_id": 130,
+      "created_at": 1741621013,
+      "updated_at": 1751539478,
+      "target_id": 4
+    },
+    {
+      "id": 1006,
+      "name": "底力",
+      "filter_id": 23,
+      "type_id": 35,
+      "created_at": 1741621013,
+      "updated_at": 1751539478,
+      "target_id": 50
+    },
+    {
+      "id": 1007,
+      "name": "底力",
+      "filter_id": 23,
+      "type_id": 35,
+      "created_at": 1741621013,
+      "updated_at": 1764843851,
+      "target_id": 66
+    },
+    {
+      "id": 1008,
+      "name": "底力",
+      "filter_id": 23,
+      "type_id": 81,
+      "created_at": 1741621013,
+      "updated_at": 1764843851,
+      "target_id": 50
+    },
+    {
+      "id": 1009,
+      "name": "底力",
+      "filter_id": 23,
+      "type_id": 81,
+      "created_at": 1741621013,
+      "updated_at": 1764843851,
+      "target_id": 66
+    },
+    {
+      "id": 1010,
+      "name": "底力",
+      "filter_id": 23,
+      "type_id": 77,
+      "created_at": 1741621013,
+      "updated_at": 1764843851,
+      "target_id": 0
+    },
+    {
+      "id": 1011,
+      "name": "底力",
+      "filter_id": 23,
+      "type_id": 137,
+      "created_at": 1741621013,
+      "updated_at": 1764843851,
+      "target_id": 3
+    },
+    {
+      "id": 1012,
+      "name": "底力",
+      "filter_id": 23,
+      "type_id": 136,
+      "created_at": 1741621013,
+      "updated_at": 1764843851,
+      "target_id": 3
+    },
+    {
+      "id": 1013,
+      "name": "ダッシュ",
+      "filter_id": 23,
+      "type_id": 12,
+      "created_at": 1741621013,
+      "updated_at": 1764843852,
+      "target_id": 0
+    },
+    {
+      "id": 1014,
+      "name": "ダッシュ",
+      "filter_id": 23,
+      "type_id": 95,
+      "created_at": 1741621013,
+      "updated_at": 1764843852,
+      "target_id": 0
+    },
+    {
+      "id": 1015,
+      "name": "無効",
+      "filter_id": 23,
+      "type_id": 98,
+      "created_at": 1741621013,
+      "updated_at": 1764843852,
+      "target_id": 0
+    },
+    {
+      "id": 1016,
+      "name": "無効",
+      "filter_id": 23,
+      "type_id": 52,
+      "created_at": 1741621013,
+      "updated_at": 1764843852,
+      "target_id": 0
+    },
+    {
+      "id": 1017,
+      "name": "無効",
+      "filter_id": 23,
+      "type_id": 55,
+      "created_at": 1741621013,
+      "updated_at": 1764843852,
+      "target_id": 0
+    },
+    {
+      "id": 1018,
+      "name": "付与",
+      "filter_id": 23,
+      "type_id": 50,
+      "created_at": 1741621013,
+      "updated_at": 1764843852,
+      "target_id": 0
+    },
+    {
+      "id": 1019,
+      "name": "付与",
+      "filter_id": 23,
+      "type_id": 44,
+      "created_at": 1741621013,
+      "updated_at": 1764843852,
+      "target_id": 0
+    },
+    {
+      "id": 1020,
+      "name": "プロテクション",
+      "filter_id": 23,
+      "type_id": 82,
+      "created_at": 1741621013,
+      "updated_at": 1764843852,
+      "target_id": 0
+    },
+    {
+      "id": 1021,
+      "name": "プロテクション",
+      "filter_id": 23,
+      "type_id": 97,
+      "created_at": 1741621013,
+      "updated_at": 1764843852,
+      "target_id": 0
+    },
+    {
+      "id": 1022,
+      "name": "ゲージ保持/渾身",
+      "filter_id": 23,
+      "type_id": 94,
+      "created_at": 1741621013,
+      "updated_at": 1764843852,
+      "target_id": 0
+    },
+    {
+      "id": 1023,
+      "name": "モード",
+      "filter_id": 23,
+      "type_id": 86,
+      "created_at": 1741621013,
+      "updated_at": 1764843852,
+      "target_id": 1
+    },
+    {
+      "id": 1024,
+      "name": "モード",
+      "filter_id": 23,
+      "type_id": 85,
+      "created_at": 1741621013,
+      "updated_at": 1764843852,
+      "target_id": 1
+    },
+    {
+      "id": 1025,
+      "name": "モード",
+      "filter_id": 23,
+      "type_id": 87,
+      "created_at": 1741621013,
+      "updated_at": 1764843852,
+      "target_id": 2
+    },
+    {
+      "id": 1026,
+      "name": "モード",
+      "filter_id": 23,
+      "type_id": 86,
+      "created_at": 1741621013,
+      "updated_at": 1764843852,
+      "target_id": 2
+    },
+    {
+      "id": 1027,
+      "name": "モード",
+      "filter_id": 23,
+      "type_id": 85,
+      "created_at": 1741621013,
+      "updated_at": 1764843852,
+      "target_id": 2
+    },
+    {
+      "id": 1028,
+      "name": "モード",
+      "filter_id": 23,
+      "type_id": 87,
+      "created_at": 1741621013,
+      "updated_at": 1764843852,
+      "target_id": 8
+    },
+    {
+      "id": 1029,
+      "name": "モード",
+      "filter_id": 23,
+      "type_id": 118,
+      "created_at": 1741621013,
+      "updated_at": 1764843852,
+      "target_id": 1
+    },
+    {
+      "id": 1030,
+      "name": "モード",
+      "filter_id": 23,
+      "type_id": 118,
+      "created_at": 1741621013,
+      "updated_at": 1764843852,
+      "target_id": 2
+    },
+    {
+      "id": 1031,
+      "name": "オーラ",
+      "filter_id": 23,
+      "type_id": 114,
+      "created_at": 1741862158,
+      "updated_at": 1764843852,
+      "target_id": 80
+    },
+    {
+      "id": 1032,
+      "name": "ウォールブースト",
+      "filter_id": 23,
+      "type_id": 121,
+      "created_at": 1741862158,
+      "updated_at": 1764843852,
+      "target_id": 0
+    },
+    {
+      "id": 1033,
+      "name": "チャージ",
+      "filter_id": 23,
+      "type_id": 127,
+      "created_at": 1744281497,
+      "updated_at": 1764843852,
+      "target_id": 1
+    },
+    {
+      "id": 1034,
+      "name": "チャージ",
+      "filter_id": 23,
+      "type_id": 128,
+      "created_at": 1751539478,
+      "updated_at": 1764843852,
+      "target_id": 4
+    },
+    {
+      "id": 1035,
+      "name": "チャージ",
+      "filter_id": 23,
+      "type_id": 70,
+      "created_at": 1751539478,
+      "updated_at": 1764843852,
+      "target_id": 0
+    },
+    {
+      "id": 1036,
+      "name": "チャージ",
+      "filter_id": 23,
+      "type_id": 130,
+      "created_at": 1753965296,
+      "updated_at": 1764843852,
+      "target_id": 4
+    },
+    {
+      "id": 1037,
+      "name": "チャージ",
+      "filter_id": 23,
+      "type_id": 131,
+      "created_at": 1758197262,
+      "updated_at": 1764843852,
+      "target_id": 1
+    },
+    {
+      "id": 1038,
+      "name": "経験値アップ",
+      "filter_id": 23,
+      "type_id": 139,
+      "created_at": 1761221343,
+      "updated_at": 1764843852,
+      "target_id": 10100
+    },
+    {
+      "id": 1039,
+      "name": "ボスドロップアップ",
+      "filter_id": 23,
+      "type_id": 145,
+      "created_at": 1764843852,
+      "updated_at": 1764843852,
+      "target_id": 3
+    },
+    {
+      "id": 1040,
+      "name": "メダルアップ",
+      "filter_id": 23,
+      "type_id": 161,
+      "created_at": 1789639633,
+      "updated_at": 1789639633,
+      "target_id": 10100
+    },
+    {
+      "id": 10000,
+      "name": "超アンチ重力バリア",
+      "filter_id": 1001,
+      "type_id": 40,
+      "created_at": 1670861914,
+      "updated_at": 1670861914,
+      "target_id": 0
+    },
+    {
+      "id": 10001,
+      "name": "超アンチ重力バリア",
+      "filter_id": 1001,
+      "type_id": 54,
+      "created_at": 1670861914,
+      "updated_at": 1670861914,
+      "target_id": 0
+    },
+    {
+      "id": 10002,
+      "name": "超アンチダメージウォール",
+      "filter_id": 1002,
+      "type_id": 56,
+      "created_at": 1670861914,
+      "updated_at": 1670861914,
+      "target_id": 0
+    },
+    {
+      "id": 10003,
+      "name": "超アンチダメージウォール",
+      "filter_id": 1002,
+      "type_id": 111,
+      "created_at": 1670861914,
+      "updated_at": 1670861914,
+      "target_id": 0
+    },
+    {
+      "id": 10004,
+      "name": "超アンチワープ",
+      "filter_id": 1003,
+      "type_id": 43,
+      "created_at": 1670861914,
+      "updated_at": 1670861914,
+      "target_id": 0
+    },
+    {
+      "id": 10005,
+      "name": "超アンチワープ",
+      "filter_id": 1003,
+      "type_id": 62,
+      "created_at": 1670861914,
+      "updated_at": 1670861914,
+      "target_id": 0
+    },
+    {
+      "id": 10006,
+      "name": "超マインスイーパー",
+      "filter_id": 1005,
+      "type_id": 79,
+      "created_at": 1670861914,
+      "updated_at": 1670861914,
+      "target_id": 0
+    },
+    {
+      "id": 10007,
+      "name": "超アンチウィンド",
+      "filter_id": 1011,
+      "type_id": 72,
+      "created_at": 1670861914,
+      "updated_at": 1670903042,
+      "target_id": 0
+    },
+    {
+      "id": 10008,
+      "name": "超アンチウィンド",
+      "filter_id": 1011,
+      "type_id": 112,
+      "created_at": 1670903042,
+      "updated_at": 1670903042,
+      "target_id": 0
+    },
+    {
+      "id": 10009,
+      "name": "超アンチ減速壁",
+      "filter_id": 1024,
+      "type_id": 91,
+      "created_at": 1670903042,
+      "updated_at": 1670903042,
+      "target_id": 0
+    },
+    {
+      "id": 10010,
+      "name": "超アンチ減速壁",
+      "filter_id": 1024,
+      "type_id": 133,
+      "created_at": 1703756708,
+      "updated_at": 1716458192,
+      "target_id": 0
+    },
+    {
+      "id": 10011,
+      "name": "超アンチ転送壁",
+      "filter_id": 1025,
+      "type_id": 132,
+      "created_at": 1716458192,
+      "updated_at": 1716458192,
+      "target_id": 0
+    }
+  ]
+}

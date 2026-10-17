@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "table": "game_calendar_categories",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 10000,
+      "name": "ピックアップ",
+      "start_at": 1640962800,
+      "end_at": 2074777199,
+      "priority": 10000,
+      "color": 1,
+      "dialog_type": 0,
+      "caution_message": "※開催期間や内容は変更となる場合があります",
+      "created_at": 1666798735,
+      "updated_at": 1666798735
+    },
+    {
+      "id": 20000,
+      "name": "『NARUTO-ナルト- 疾⾵伝』コラボ",
+      "start_at": 1781168400,
+      "end_at": 1783364399,
+      "priority": 20000,
+      "color": 2,
+      "dialog_type": 0,
+      "caution_message": "※開催期間や内容は変更となる場合があります",
+      "created_at": 1666952623,
+      "updated_at": 1782387197
+    },
+    {
+      "id": 20001,
+      "name": "呪術廻戦コラボ",
+      "start_at": 1783846800,
+      "end_at": 1786042799,
+      "priority": 20001,
+      "color": 2,
+      "dialog_type": 0,
+      "caution_message": "※開催期間や内容は変更となる場合があります",
+      "created_at": 1693480088,
+      "updated_at": 1783855299
+    },
+    {
+      "id": 20002,
+      "name": "SAKAMOTO DAYSコラボ",
+      "start_at": 1778749200,
+      "end_at": 1780599599,
+      "priority": 20002,
+      "color": 2,
+      "dialog_type": 0,
+      "caution_message": "※開催期間や内容は変更となる場合があります",
+      "created_at": 1696070483,
+      "updated_at": 1778754990
+    },
+    {
+      "id": 30000,
+      "name": "クエスト",
+      "start_at": 1640962800,
+      "end_at": 2074777199,
+      "priority": 30000,
+      "color": 3,
+      "dialog_type": 0,
+      "caution_message": "※開催期間や内容は変更となる場合があります",
+      "created_at": 1666798735,
+      "updated_at": 1666798735
+    },
+    {
+      "id": 40000,
+      "name": "キャンペーン",
+      "start_at": 1640962800,
+      "end_at": 2074777199,
+      "priority": 40000,
+      "color": 4,
+      "dialog_type": 1,
+      "caution_message": "※キャンペーンは変更となる場合があります",
+      "created_at": 1666798735,
+      "updated_at": 1666798735
+    },
+    {
+      "id": 50000,
+      "name": "その他",
+      "start_at": 1640962800,
+      "end_at": 2074777199,
+      "priority": 50000,
+      "color": 5,
+      "dialog_type": 0,
+      "caution_message": "※時間は変更となる場合があります",
+      "created_at": 1666798735,
+      "updated_at": 1741257089
+    }
+  ]
+}

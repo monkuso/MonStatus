@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "table": "iruka_tap_game_parameters",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "max_tap_count": 5,
+      "min_tap_count": 2,
+      "game_time_seconds": 15,
+      "rush_time_start_seconds": 5,
+      "tap_cooldown_frames": 6,
+      "created_at": 1790849737,
+      "updated_at": 1790849737
+    }
+  ]
+}

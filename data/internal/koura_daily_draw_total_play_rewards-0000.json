@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "table": "koura_daily_draw_total_play_rewards",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "koura_daily_draw_event_id": 1,
+      "play_cnt": 1,
+      "item_id": 6932,
+      "cnt": 1,
+      "created_at": 1744886896,
+      "updated_at": 1744886896
+    },
+    {
+      "id": 2,
+      "koura_daily_draw_event_id": 1,
+      "play_cnt": 3,
+      "item_id": 8651,
+      "cnt": 1,
+      "created_at": 1744886896,
+      "updated_at": 1744886896
+    },
+    {
+      "id": 3,
+      "koura_daily_draw_event_id": 1,
+      "play_cnt": 5,
+      "item_id": 10040148,
+      "cnt": 1,
+      "created_at": 1744886896,
+      "updated_at": 1744886896
+    }
+  ]
+}

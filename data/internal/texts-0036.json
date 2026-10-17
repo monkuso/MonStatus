@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 1,
+  "table": "texts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 9280,
+      "text": "[LC]クエストに挑戦するには[LF][LF]クエスト[C5:「竜宮の加護を受けし者」]の[C6:究極]を[LF]クリアする必要があります[LF][LF][LC][SGBI22200|difficulty0][LF][LF]対象のクエストは追憶の書庫でプレイ可能です",
+      "layout": 43,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1675873247,
+      "label": "eTEXTS_DEF_153"
+    },
+    {
+      "id": 9281,
+      "text": "[LC]クエストに挑戦するには[LF][LF]クエスト[C4:「舞い堕ちたる美しき悪魔」]の[C6:究極]を[LF]クリアする必要があります[LF][LF][LC][SGBI22490|difficulty0][LF][LF]対象のクエストは追憶の書庫でプレイ可能です",
+      "layout": 43,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1675873247,
+      "label": "eTEXTS_DEF_154"
+    },
+    {
+      "id": 9282,
+      "text": "[LC]クエストに挑戦するには[LF][LF]クエスト[C6:「大志を背負う新選組の長」]の[C6:究極]を[LF]クリアする必要があります[LF][LF][LC][SGBI22740|difficulty0][LF][LF]対象のクエストは追憶の書庫でプレイ可能です",
+      "layout": 43,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1675873247,
+      "label": "eTEXTS_DEF_155"
+    },
+    {
+      "id": 9283,
+      "text": "[LC]クエストに挑戦するには[LF][LF]クエスト[C3:「王家を守護せし天空神」]の[C6:究極]を[LF]クリアする必要があります[LF][LF][LC][SGBI22980|difficulty0][LF][LF]対象のクエストは追憶の書庫でプレイ可能です",
+      "layout": 43,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1675873247,
+      "label": "eTEXTS_DEF_156"
+    },
+    {
+      "id": 9284,
+      "text": "[LC]お楽しみアイテムBOX[LF][LF][LC][NODE][LF10][LC][b:ba_otanoshimi_normal_00.png][LF10][LC][BG_STR:deck_number_bg.png|WIDTH:120|CSTR:開催期間]8/2 12:00 ～ 8/16 11:59[LF][LF]期間限定の対象クエストをクリアすると[LF][C6:アイテムBOXから1つアイテムが手に入ります][LF]どの色のアイテムBOXが出現するかはお楽しみ♪[LF30][TI:各BOXから入手できるアイテム][LF18][NODE][LF][NODE][LF][TI:対象クエスト][LF18][LC][NODE][LF][LF]繰り返し予約してアイテムを手に入れよう！[LF][LF][LC][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1639649514,
+      "updated_at": 1785407197,
+      "label": "eTEXTS_DEF_SPECIAL_BOX_MAIN_DIALOG"
+    },
+    {
+      "id": 9285,
+      "text": "[LC]お楽しみアイテムBOX[LF][LF]排出数に上限のあるアイテムを[LF]全て入手しました！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1639649514,
+      "updated_at": 1639649514,
+      "label": "eTEXTS_DEF_SPECIAL_BOX_EMPTY_DIALOG"
+    },
+    {
+      "id": 9286,
+      "text": "[LC]開封ボーナス報酬[LF][LF][LC]以下の報酬を獲得しました[LF][TI:開封ボーナス][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1639649514,
+      "updated_at": 1639649514,
+      "label": "eTEXTS_DEF_SPECIAL_BOX_REWARD_RECEIVE_DIALOG"
+    },
+    {
+      "id": 9287,
+      "text": "アイテムBOX・白",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639649514,
+      "updated_at": 1639649514,
+      "label": "eTEXTS_DEF_SPECIAL_BOX_REWARD_NORMAL_TITLE"
+    },
+    {
+      "id": 9288,
+      "text": "アイテムBOX・緑",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639649514,
+      "updated_at": 1639649514,
+      "label": "eTEXTS_DEF_SPECIAL_BOX_REWARD_RARE_TITLE"
+    },
+    {
+      "id": 9289,
+      "text": "アイテムBOX・紫",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639649514,
+      "updated_at": 1639649514,
+      "label": "eTEXTS_DEF_SPECIAL_BOX_REWARD_HIGH_RARE_TITLE"
+    },
+    {
+      "id": 9290,
+      "text": "アイテムBOX・赤",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639649514,
+      "updated_at": 1639649514,
+      "label": "eTEXTS_DEF_SPECIAL_BOX_REWARD_ULTRA_RARE_TITLE"
+    },
+    {
+      "id": 9291,
+      "text": "現在のアイテムBOX開封回数　%d回",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639649514,
+      "updated_at": 1639649514,
+      "label": "eTEXTS_DEF_SPECIAL_BOX_REWARD_OPEN_NUM"
+    },
+    {
+      "id": 9292,
+      "text": "お楽しみアイテムBOX",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639649514,
+      "updated_at": 1639649514,
+      "label": "eTEXTS_DEF_SPECIAL_BOX_RESULT_TITLE"
+    },
+    {
+      "id": 9293,
+      "text": "[C6:クリアするたびアイテムプレゼント！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639649514,
+      "updated_at": 1639649514,
+      "label": "eTEXTS_DEF_SPECIAL_BOX_MAIN_DIALOG_PARTS"
+    },
+    {
+      "id": 9294,
+      "text": "開封ボーナス",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639649514,
+      "updated_at": 1639649514,
+      "label": "eTEXTS_DEF_SPECIAL_BOX_MAIN_DIALOG_PARTS2"
+    },
+    {
+      "id": 9295,
+      "text": "たくさん開けるとさらにプレゼント♪",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639649514,
+      "updated_at": 1639649514,
+      "label": "eTEXTS_DEF_SPECIAL_BOX_MAIN_DIALOG_PARTS3"
+    },
+    {
+      "id": 9296,
+      "text": "コラボ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1640686208,
+      "updated_at": 1640686208,
+      "label": "eTEXTS_DEF_ME_SUBTITLE_COLLABO"
+    },
+    {
+      "id": 9297,
+      "text": "スペシャル",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1640686208,
+      "updated_at": 1697560705,
+      "label": "eTEXTS_DEF_ME_SUBTITLE_LIMITED"
+    },
+    {
+      "id": 9298,
+      "text": "[LC]ONに切り替えることはできません[LF][LF]「特Lの園」では[C6:ONに切り替えることができません][LF][LF]わくわくの実の排出状況に関わらず[LF][C6:ランダムに]特級Lのわくわくの実が排出されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1640686208,
+      "updated_at": 1640686208,
+      "label": "eTEXTS_DEF_MSG_TOKUL_GEM_BOX_CLICK"
+    },
+    {
+      "id": 9299,
+      "text": "[LC]1日1回挑戦可能クエスト[LF][LF][C6:特級Lの実]しか出ない[C6:「特Lの園」]に[LF]挑戦することができます[LF][LF][LC][NODE][LF][LF]※[C6:ソロ]、マルチプレイの[C6:ホスト][LF]　での挑戦は1日1回となります[LF][LF][LC][NODE]次から表示しない",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1640686208,
+      "updated_at": 1640686208,
+      "label": "eTEXTS_DEF_MSG_TOKUL_GEM_INFO_ONCE"
+    },
+    {
+      "id": 9300,
+      "text": "[LC]金のオラコイン引き換えとは[LF][LF][CCB:dlme/help_ocgld_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1640686208,
+      "updated_at": 1640686208,
+      "label": "eTEXTS_DEF_ME_MSG_EXCHANGE_ORACOIN_GOLD_HELP"
+    },
+    {
+      "id": 9301,
+      "text": "[C6:オラコインを集めよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1640686208,
+      "updated_at": 1640686208,
+      "label": "eTEXTS_DEF_29600"
+    },
+    {
+      "id": 9302,
+      "text": "[b:ba_help_ocgld_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1640686208,
+      "updated_at": 1640686208,
+      "label": "eTEXTS_DEF_29601"
+    },
+    {
+      "id": 9303,
+      "text": "[C5:入手方法]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1640686208,
+      "updated_at": 1640686208,
+      "label": "eTEXTS_DEF_29602"
+    },
+    {
+      "id": 9304,
+      "text": "期間限定の[C6:対象クエストをクリア]すると、[LF]オラコインが手に入ります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1640686208,
+      "updated_at": 1640686208,
+      "label": "eTEXTS_DEF_29603"
+    },
+    {
+      "id": 9305,
+      "text": "オラコイン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1640686208,
+      "updated_at": 1640686208,
+      "label": "eTEXTS_DEF_29604"
+    },
+    {
+      "id": 9306,
+      "text": "また、クエスト道中で登場する[LF][C6:「たんまりオラゴン」]を倒すと、[LF]「オラコイン」が入手できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1640686208,
+      "updated_at": 1640686208,
+      "label": "eTEXTS_DEF_29605"
+    },
+    {
+      "id": 9307,
+      "text": "たんまりオラゴン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1640686208,
+      "updated_at": 1640686208,
+      "label": "eTEXTS_DEF_29606"
+    },
+    {
+      "id": 9308,
+      "text": "オラコイン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1640686208,
+      "updated_at": 1640686208,
+      "label": "eTEXTS_DEF_29607"
+    },
+    {
+      "id": 9309,
+      "text": "レアアイテム 金のオラコイン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1640686208,
+      "updated_at": 1640686208,
+      "label": "eTEXTS_DEF_29608"
+    },
+    {
+      "id": 9310,
+      "text": "クエスト中まれに登場する[LF][C6:「獅子舞いオラゴン」]を倒すと、[LF]「金のオラコイン」が入手できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1640686208,
+      "updated_at": 1640686208,
+      "label": "eTEXTS_DEF_29609"
+    },
+    {
+      "id": 9311,
+      "text": "獅子舞いオラゴン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1640686208,
+      "updated_at": 1640686208,
+      "label": "eTEXTS_DEF_29610"
+    },
+    {
+      "id": 9312,
+      "text": "金のオラコイン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1640686208,
+      "updated_at": 1640686208,
+      "label": "eTEXTS_DEF_29611"
+    },
+    {
+      "id": 9313,
+      "text": "[C6:モンスターやアイテムと引き換えよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1640686208,
+      "updated_at": 1640686208,
+      "label": "eTEXTS_DEF_29612"
+    },
+    {
+      "id": 9314,
+      "text": "[b:ba_help_oracoin_01.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1640686208,
+      "updated_at": 1640686208,
+      "label": "eTEXTS_DEF_29613"
+    },
+    {
+      "id": 9315,
+      "text": "[C5:引き換えについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1640686208,
+      "updated_at": 1640686208,
+      "label": "eTEXTS_DEF_29614"
+    },
+    {
+      "id": 9316,
+      "text": "集めたオラコイン、金のオラコインを使用して[LF][C6:モンスター]や[C6:アイテム]と引き換えができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1640686208,
+      "updated_at": 1640686208,
+      "label": "eTEXTS_DEF_29615"
+    },
+    {
+      "id": 9317,
+      "text": "[b:ba_help_oracoin_02.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1640686208,
+      "updated_at": 1640686208,
+      "label": "eTEXTS_DEF_29616"
+    },
+    {
+      "id": 9318,
+      "text": "[b:ba_help_ocgld_01.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1640686208,
+      "updated_at": 1640686208,
+      "label": "eTEXTS_DEF_29617"
+    },
+    {
+      "id": 9319,
+      "text": "※アイテムの種類で、引き換え数は異なります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1640686208,
+      "updated_at": 1640686208,
+      "label": "eTEXTS_DEF_29618"
+    },
+    {
+      "id": 9320,
+      "text": "[C5:達成条件が必要なアイテムについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1640686208,
+      "updated_at": 1640686208,
+      "label": "eTEXTS_DEF_29619"
+    },
+    {
+      "id": 9321,
+      "text": "[C6:一定の条件]を達成すると[LF]引き替え可能になるアイテムがあります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1640686208,
+      "updated_at": 1640686208,
+      "label": "eTEXTS_DEF_29620"
+    },
+    {
+      "id": 9322,
+      "text": "[b:ba_help_oracoin_03.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1640686208,
+      "updated_at": 1640686208,
+      "label": "eTEXTS_DEF_29621"
+    },
+    {
+      "id": 9323,
+      "text": "ロックされているアイテムをタップして[LF]条件を確認しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1640686208,
+      "updated_at": 1640686208,
+      "label": "eTEXTS_DEF_29622"
+    },
+    {
+      "id": 9324,
+      "text": "[LC]期間終了[LF][LF]%d月%d日分の無料ガチャは[LF]終了しました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1640686208,
+      "updated_at": 1640686208,
+      "label": "eTEXTS_DEF_MSG_LIMITED_FREE_PER_DAY_GACHA_ERROR"
+    },
+    {
+      "id": 9325,
+      "text": "[C2:1日1回無料！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1640686208,
+      "updated_at": 1640686208,
+      "label": "eTEXTS_DEF_GACHA_LIMITED_FREE_PER_DAY"
+    },
+    {
+      "id": 9326,
+      "text": "[LC]オーブカウンター[LF][LF][LC][b:orb_counter_help2.png][LF10][LC][BG_STR:deck_number_bg.png|WIDTH:120|CSTR:[S-1]開催期間]%s～%s[LF][LF][LC][P][LF][LF][TI:選べる報酬][LF]オーブ10個かアイテムセットのどちらかを[LF]選ぶことができます！[LF][LF][LC][NODE][LF][TI:オーブカウンターとは][LF]キャンペーンやミッション等でオーブを獲得すると[LF]その数を自動的にカウント！[LF][LF]目標数を達成すると、ボーナスとしてオーブを10個[LF]またはアイテムセットをプレゼントいたします！[LF][LF]※オーブカウンター報酬の受取期限は[LF]　[C6:期間終了から1ヶ月後まで][LF][LF]※以下で獲得したオーブは、カウント対象外となります[LF]・ショップでのオーブ購入（パック購入を含む）[LF]・ストアでのオーブ引き換え[LF]・オーブカウンター達成時に獲得できるオーブ[LF]・渋谷区ふるさと納税返礼品のオーブ[LF][IF:%d]・[texts:eTEXTS_DEF_LIMITED_ORB_NAME][LF][ENDIF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1643625419,
+      "updated_at": 1759059905,
+      "label": "eTEXTS_DEF_MSG_SELECT_ORB_COUNTER_PROGRESS"
+    },
+    {
+      "id": 9327,
+      "text": "[LC]オーブカウンター[LF][LF][LC][C6:%s月の目標数達成！][LF]報酬を選んで「受け取る」ボタンから[LF]受け取ろう！[LF][LF][LC][NODE]",
+      "layout": 22,
+      "color": 0,
+      "created_at": 1643625419,
+      "updated_at": 1643625419,
+      "label": "eTEXTS_DEF_MSG_SELECT_ORB_COUNTER_CLEAR"
+    },
+    {
+      "id": 9328,
+      "text": "オーブ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1643625419,
+      "updated_at": 1643625419,
+      "label": "eTEXTS_DEF_MSG_SELECT_ORB"
+    },
+    {
+      "id": 9329,
+      "text": "アイテムセット",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1643625419,
+      "updated_at": 1643625419,
+      "label": "eTEXTS_DEF_MSG_SELECT_ITEM"
+    },
+    {
+      "id": 9330,
+      "text": "[LC]受け取り確認[LF][LF][LC]「%s」を受け取ります[LF][LC]本当によろしいでしょうか？[LF][LC][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1643625419,
+      "updated_at": 1643625419,
+      "label": "eTEXTS_DEF_MSG_SELECT_ORB_COUNTER_CLEAR_ASK"
+    },
+    {
+      "id": 9331,
+      "text": "[LC]受け取り完了[LF][LF][LC]報酬を受け取りました[LF][LC][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1643625419,
+      "updated_at": 1643625419,
+      "label": "eTEXTS_DEF_MSG_SELECT_ORB_COUNTER_COMPLETE"
+    },
+    {
+      "id": 9332,
+      "text": "このクエストに挑むには[LF]クエスト[C6:「天界への挑戦」]を全てクリアしよう！",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1643882225,
+      "updated_at": 1643882225,
+      "label": "eTEXTS_DEF_20948"
+    },
+    {
+      "id": 9333,
+      "text": "「天界への挑戦」クリアで挑戦可",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1643882225,
+      "updated_at": 1643882225,
+      "label": "eTEXTS_DEF_20949"
+    },
+    {
+      "id": 9334,
+      "text": "[LC]挑戦できません[LF][LF]このクエストに参加するには[LF]クエスト[C6:「天界への挑戦」]を[LF]全てクリアする必要があります[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1643882225,
+      "updated_at": 1643882225,
+      "label": "eTEXTS_DEF_20950"
+    },
+    {
+      "id": 9335,
+      "text": "キャラ選択",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_PLAYER_CARD_CHARBALL_TITLE"
+    },
+    {
+      "id": 9336,
+      "text": "カードに表示するキャラクター",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_PLAYER_CARD_CHARBALL_LABEL"
+    },
+    {
+      "id": 9337,
+      "text": "[IMG:icon_heart.png|1.2]お気に入り登録する",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_ME_FRIEND_FAVORITE_CONFIRM"
+    },
+    {
+      "id": 9338,
+      "text": "最近成立したフレンド",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_ME_SORT_NEW"
+    },
+    {
+      "id": 9339,
+      "text": "フレンド一覧",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_ME_SORT_NEW_EXCEPT"
+    },
+    {
+      "id": 9340,
+      "text": "Android画面設定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_OPTION_CATEGORY_ANDROID_SETTINGS"
+    },
+    {
+      "id": 9341,
+      "text": "ナビゲーションバーを隠す",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_OPTION_ANDROID_FULLSCREEN"
+    },
+    {
+      "id": 9342,
+      "text": "・隠れているナビゲーションバーは画面下から[LF]スワイプで引き出すことができます[LF]・設定を変更した場合、一度モンストを終了します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_OPTION_ANDROID_FULLSCREEN_DESCRIPTION"
+    },
+    {
+      "id": 9343,
+      "text": "[LC]ナビゲーションバー設定[LF][LF]設定を変更すると、[LF]一度モンストを[C6:終了]します[LF][LF]よろしいですか？[LF][LF]※終了後、再度モンストを起動してください",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_OPTION_ANDROID_FULLSCREEN_ASK"
+    },
+    {
+      "id": 9344,
+      "text": "履歴反映デッキ選択",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_ME_TITLE_DECKSELECTHISTORY"
+    },
+    {
+      "id": 9345,
+      "text": "プレイタイプ選択",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_ME_TITLE_PLAYTYPESELECT"
+    },
+    {
+      "id": 9346,
+      "text": "募集方法選択",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_ME_TITLE_MULTITYPESELECT"
+    },
+    {
+      "id": 9347,
+      "text": "助っ人選択",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_ME_TITLE_BUDDYSELECT"
+    },
+    {
+      "id": 9348,
+      "text": "デッキ選択",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_ME_TITLE_DECKSELECT"
+    },
+    {
+      "id": 9349,
+      "text": "[LC]モンスターロック編集[LF][WIDTH514][LF][LF-16][LC][NODE]",
+      "layout": 26,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_MSG_FAVORITE_EDIT_LOCK_TYPE_SELECT"
+    },
+    {
+      "id": 9350,
+      "text": "[LC]モンスターロック編集[LF][LF]選択しているモンスターをロックします。[LF]よろしいですか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_MSG_FAVORITE_EDIT_LOCK_DECIDE"
+    },
+    {
+      "id": 9351,
+      "text": "[LC]モンスターロック編集[LF][LF]選択しているモンスターのロックを解除します。[LF]よろしいですか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_MSG_FAVORITE_EDIT_UNLOCK_DECIDE"
+    },
+    {
+      "id": 9352,
+      "text": "まとめてロック",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_ME_FAVORITE_EDIT_TITLE"
+    },
+    {
+      "id": 9353,
+      "text": "まとめてロック解除",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_ME_FAVORITE_EDIT_TITLE2"
+    },
+    {
+      "id": 9354,
+      "text": "まとめてロックする",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_ME_FAVORITE_EDIT_LOCK_ALL"
+    },
+    {
+      "id": 9355,
+      "text": "まとめてロックをはずす",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_ME_FAVORITE_EDIT_UNLOCK_ALL"
+    },
+    {
+      "id": 9356,
+      "text": "モンスターロック",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_ME_FAVORITE_EDIT_PAGE_TOP_NAME"
+    },
+    {
+      "id": 9357,
+      "text": "[LC]キャンセル確認[LF][LF]参加申請をキャンセルしますか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_MSG_ROOM_CONFIRM_REQUEST_CANCEL"
+    },
+    {
+      "id": 9358,
+      "text": "[LC]メンバー詳細[LF][LF][NODE]",
+      "layout": 26,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_MSG_ROOM_MEBER_EDIT"
+    },
+    {
+      "id": 9359,
+      "text": "申請中",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1646756068,
+      "label": "eTEXTS_DEF_ROOM_SUB_TITLE_REQUESTING_ROOMS"
+    },
+    {
+      "id": 9360,
+      "text": "キャンセル",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_ROOM_REQUEST_CANCEL_MENU_BUTTON"
+    },
+    {
+      "id": 9361,
+      "text": "参加承認待ち",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_ROOM_REQUESTING_USERS_SUB_TITLE"
+    },
+    {
+      "id": 9362,
+      "text": "[LC]メンバー確認[LF][LF][LC][TAB:メンバー][NODE][TAB:参加申請][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_MSG_ROOM_PARTICIPANTS_AND_REQUESTING_USERS"
+    },
+    {
+      "id": 9363,
+      "text": "確認",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_ROOM_MEMBER_CONTROL_BUTTON"
+    },
+    {
+      "id": 9364,
+      "text": "[LC]参加申請[LF][LF]このROOMは作成者に承認されると参加できます[LF]参加申請を送りますか？[LF10][LC][NODE][LF14][LC][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_MSG_ROOM_REQUEST"
+    },
+    {
+      "id": 9365,
+      "text": "[LC]メンバー退室確認[LF][LF]このメンバーを退室させますか？[LF10][LC][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_MSG_ROOM_CONFIRM_KICK_OUT"
+    },
+    {
+      "id": 9366,
+      "text": "%s",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_ROOM_TIME_ZONE_TEXT"
+    },
+    {
+      "id": 9367,
+      "text": "次へ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_ROOM_DIALOG_BUTTON_NEXT"
+    },
+    {
+      "id": 9368,
+      "text": "[LC]プレイ時間帯設定[LF][LF]メンバーがマルチを募集しあう時間帯を[LF]作成者が目安として設定することができます[LF]1つ選んでください[LF][MARGIN15][LF][LC][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_MSG_ROOM_TIME_ZONE_SELECT"
+    },
+    {
+      "id": 9369,
+      "text": "すべて",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_ROOM_TIME_ZONE_ALL"
+    },
+    {
+      "id": 9370,
+      "text": "[LC]プレイ時間帯選択[LF][LF]マルチを募集しあう時間帯の目安を[LF]指定してROOMを探すことができます[LF][MARGIN15][LF][LC][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_MSG_ROOM_SEARCH_TIME_ZONE_SELECT"
+    },
+    {
+      "id": 9371,
+      "text": "プレイ時間帯：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_ROOM_CREATE_TIME_ZONE_LABEL"
+    },
+    {
+      "id": 9372,
+      "text": "参加に作成者の承認が必要なようにする",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_ROOM_CREATE_INVITATION_LABEL"
+    },
+    {
+      "id": 9373,
+      "text": "設定なし",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_ROOM_TIME_ZONE_NONE"
+    },
+    {
+      "id": 9374,
+      "text": "[LC]設定確認[LF][LF]参加に作成者の承認が必要なROOMから[LF]誰でも参加できるROOMに変更しますか？[LF][LF]※メンバーはそのまま残りますが、[LF]未承認の申請はすべて拒否されます",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_MSG_ROOM_CONFIRM_SHIFT_OPEN_ROOM"
+    },
+    {
+      "id": 9375,
+      "text": "なし",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_ROOM_TIME_ZONE_TEXT_NONE"
+    },
+    {
+      "id": 9376,
+      "text": "承認する",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_ROOM_REQUEST_ACCEPT_BUTTON"
+    },
+    {
+      "id": 9377,
+      "text": "拒否する",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_ROOM_REQUEST_REFUSE_BUTTON"
+    },
+    {
+      "id": 9378,
+      "text": "一括拒否",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_ROOM_REQUEST_ALL_REFUSE_BUTTON"
+    },
+    {
+      "id": 9379,
+      "text": "[LC]確認[LF][LF]参加申請を[LF]拒否してよろしいですか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_MSG_ROOM_CONFIRM_REFUSE_ROOM"
+    },
+    {
+      "id": 9380,
+      "text": "[LC]確認[LF][LF]すべての参加申請を[LF]拒否してよろしいですか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_MSG_ROOM_CONFIRM_ALL_REFUSE_ROOM"
+    },
+    {
+      "id": 9381,
+      "text": "現在このROOMに[LF]参加申請をすることはできません",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_MSG_ROOM_ERR_ROOM_REQUEST_CAPACITY_FULL"
+    },
+    {
+      "id": 9382,
+      "text": "メンバーが追加されました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_MSG_ROOM_ACCEPT_SUCCESS"
+    },
+    {
+      "id": 9383,
+      "text": "参加申請を拒否しました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_MSG_ROOM_REFUSE_SUCCESS"
+    },
+    {
+      "id": 9384,
+      "text": "参加申請をキャンセルしました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_MSG_ROOM_REQUEST_CANCEL_SUCCESS"
+    },
+    {
+      "id": 9385,
+      "text": "[LC]設定確認[LF][LF]誰でも参加できるROOMから[LF]参加に作成者の承認が必要なROOMに変更しますか？[LF][LF]※メンバーはそのまま残ります",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_MSG_ROOM_CONFIRM_SHIFT_INVITATION_ROOM"
+    },
+    {
+      "id": 9386,
+      "text": "退室させる",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_ROOM_REQUEST_KICKOUT_BUTTON"
+    },
+    {
+      "id": 9387,
+      "text": "メンバーを退室させました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_MSG_ROOM_KICKOUT_SUCCESS"
+    },
+    {
+      "id": 9388,
+      "text": "[LC]参加申請確認[LF][LF][NODE]",
+      "layout": 26,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_MSG_ROOM_REQUESTING_USER_EDIT"
+    },
+    {
+      "id": 9389,
+      "text": "[LC]フレンド[LF-4][LC]申請",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_ROOM_MEMBER_FRIEND_REQUEST_BUTTON"
+    },
+    {
+      "id": 9390,
+      "text": "現在参加申請はありません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_ROOM_WARN_DONT_HAVE_REQUESTING_USERS"
+    },
+    {
+      "id": 9391,
+      "text": "[LC]リスト内のROOM情報に[LF][LC]変更がありました[LF][LF][LC][I0]",
+      "layout": 33,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_ROOM_DID_CHANGE_NOTICE"
+    },
+    {
+      "id": 9392,
+      "text": "メンバー数が上限に達しているため[LF]承認できません",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_MSG_ROOM_ERR_ROOM_NO_CAPACITY_TO_ACCEPT"
+    },
+    {
+      "id": 9393,
+      "text": "参加申請が[LF]すでに取り下げられていました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1644255389,
+      "updated_at": 1644255389,
+      "label": "eTEXTS_DEF_MSG_ROOM_ERR_ROOM_REQUEST_NOT_FOUND"
+    },
+    {
+      "id": 9394,
+      "text": "[LC]挑戦できません[LF][LF]参加するには同一のクエストが[LF]出現している必要があります",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_MSG_CANT_ASSAULT_CHALLENGE_LIMITED_GUEST"
+    },
+    {
+      "id": 9395,
+      "text": "このクエストをマルチプレイするには[LF][C6:ホスト、ゲスト全員に同一のクエストが出現]している[LF]必要があります[LF][LF]※マルチのゲストでプレイした場合も、[LF]出現したステージは消費されます。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_ASSAULT_LIMITED_GUEST_QUEST_NOTICE"
+    },
+    {
+      "id": 9396,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LC][b:tips_stage_capture_16.png][LF][C6:パワーバトン]所持中は攻撃力UP！[LF]＆味方に触れると[C6:パワーバトン]が移動！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_200330"
+    },
+    {
+      "id": 9397,
+      "text": "[LF][MARGIN16][LC][b:tips_stage_capture_16.png][LF][C6:パワーバトン]所持中は攻撃力UP！[LF]＆味方に触れると[C6:パワーバトン]が移動！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1791909060,
+      "label": "eTEXTS_DEF_200331"
+    },
+    {
+      "id": 9398,
+      "text": "ボーダーランクミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_SUSHI_COLLABO_TITLE"
+    },
+    {
+      "id": 9399,
+      "text": "[LC]ボーダーランクミッション[LF][TAB:ランクミッション][CCB:dlme/help_collabo_sushi_mission_00_1][TAB:報酬パネル][CCB:dlme/help_collabo_sushi_mission_01]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_SUSHI_COLLABO_HELP"
+    },
+    {
+      "id": 9400,
+      "text": "2/12 12:00 ～ 3/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_SUSHI_COLLABO_EVENT_TIME"
+    },
+    {
+      "id": 9401,
+      "text": "[LC]報酬一覧[LF][TAB:ランクミッション報酬][NODE][TAB:階級クリア報酬][NODE][TAB:報酬パネル][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_MSG_SUSHI_COLLABO_REWARD"
+    },
+    {
+      "id": 9402,
+      "text": "C級ミッション全クリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_SUSHI_COLLABO_ALL_CLEAR_C"
+    },
+    {
+      "id": 9403,
+      "text": "B級ミッション全クリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_SUSHI_COLLABO_ALL_CLEAR_B"
+    },
+    {
+      "id": 9404,
+      "text": "A級ミッション全クリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_SUSHI_COLLABO_ALL_CLEAR_A"
+    },
+    {
+      "id": 9405,
+      "text": "所持",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_SUSHI_COLLABO_OWNED"
+    },
+    {
+      "id": 9406,
+      "text": "%dpt",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_SUSHI_COLLABO_POINT_UNIT"
+    },
+    {
+      "id": 9407,
+      "text": "消費",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_SUSHI_COLLABO_COST"
+    },
+    {
+      "id": 9408,
+      "text": "消費pt",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_SUSHI_COLLABO_COST_POINT"
+    },
+    {
+      "id": 9409,
+      "text": "現在の所持pt",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_SUSHI_COLLABO_OWNED_POINT"
+    },
+    {
+      "id": 9410,
+      "text": "%d/%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_SUSHI_COLLABO_PROGRESS_FORMAT"
+    },
+    {
+      "id": 9411,
+      "text": "[LC]ログインポイント獲得[LF][LF]報酬パネル解放用のポイントを[C6:%dpt]獲得！[MARGIN20][LF][BG_STR:deck_number_bg.png|WIDTH:420|LSTR:獲得済みpt:|RSTR:[C4:%d]/%dpt][MARGIN20][LF]※ログインポイントは1日1pt獲得できます[LF][LF]※最大6日間、合計6pt獲得できます",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_MSG_SUSHI_COLLABO_LOGIN_POINT"
+    },
+    {
+      "id": 9412,
+      "text": "[LC]ランクミッションクリア報酬[LF][LF]以下の報酬を獲得しました[MARGIN10][LF][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_MSG_SUSHI_COLLABO_REWARD_GET"
+    },
+    {
+      "id": 9413,
+      "text": "[LC]報酬パネル選択[LF][LF]隣接したパネルを解放していないので[LF]解放できません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_MSG_SUSHI_COLLABO_ERR_COND"
+    },
+    {
+      "id": 9414,
+      "text": "[LC]報酬パネル選択[LF][LF]所持ポイントが不足しているので[LF]解放できません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_MSG_SUSHI_COLLABO_ERR_COST"
+    },
+    {
+      "id": 9415,
+      "text": "[LC]ラッキー発動！[LF][LF]報酬パネル解放用のポイントを[LF][C6:%dpt]獲得しました！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_MSG_SUSHI_COLLABO_LUCKY"
+    },
+    {
+      "id": 9416,
+      "text": "[LC]全パネル解放報酬[LF][LF][LC]全ての報酬パネルを解放！[LF][LC]以下の報酬を獲得しました[MARGIN13][LF][LC][IB49][LF][LF][LF][LC][C6:ボーダー本部の勲章][LF][LF]※ログインポイントは[LF]これ以降手に入らなくなります[LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_MSG_SUSHI_COLLABO_ALL_OPEN"
+    },
+    {
+      "id": 9417,
+      "text": "[LC]報酬パネル選択[LF][LF]選択中のパネル：[C6:？アイテムパネル][MARGIN5][LF][LC][NODE][LF]アイテムを1つ獲得できます[LF]このパネルを解放しますか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_MSG_SUSHI_COLLABO_CHECK_ITEM_RANDOM"
+    },
+    {
+      "id": 9418,
+      "text": "[LC]報酬パネル選択[LF][LF]選択中のパネル：[C6:%s][MARGIN9][LF][LC][NODE][LF]%sを獲得できます[LF]このパネルを解放しますか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_MSG_SUSHI_COLLABO_CHECK_ITEM"
+    },
+    {
+      "id": 9419,
+      "text": "[LC]報酬パネル選択[LF][LF]選択中のパネル：[C6:グッジョブパネル][MARGIN10][LF][LC][NODE][LF]グッジョブを1つ獲得できます[LF]このパネルを解放しますか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_MSG_SUSHI_COLLABO_CHECK_GJ_RANDOM"
+    },
+    {
+      "id": 9420,
+      "text": "[LC]報酬パネル解放[LF][LF]グッジョブパネルから[LF][C6:%s]を獲得しました！[MARGIN15][LF][LC][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_MSG_SUSHI_COLLABO_GET_RANDOM"
+    },
+    {
+      "id": 9421,
+      "text": "[LC]報酬パネル解放[LF][LF]アイテムパネルから[LF][C6:%s]を獲得しました！[MARGIN15][LF][LC][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_MSG_SUSHI_COLLABO_GET_FIXED"
+    },
+    {
+      "id": 9422,
+      "text": "サイドエフェクト効果対象クエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_SUSHI_SF_TARGET_STAGE_LABEL"
+    },
+    {
+      "id": 9423,
+      "text": "[LC]報酬パネル選択[[LF][LF]選択中のパネル：[C6:サイドエフェクト][LF]サイドエフェクトが発動できるようになります[MARGIN18][LF][LC][NODE][LF][LF]このパネルを解放しますか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_MSG_SUSHI_COLLABO_CHECK_SIDE_1"
+    },
+    {
+      "id": 9424,
+      "text": "[LC]報酬パネル選択[[LF][LF]選択中のパネル：[C6:サイドエフェクト][LF]サイドエフェクトの効果時間と待機時間が変化します[MARGIN18][LF][LC][NODE][LF][LF]このパネルを解放しますか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_MSG_SUSHI_COLLABO_CHECK_SIDE_2"
+    },
+    {
+      "id": 9425,
+      "text": "[LC]報酬パネル解放[LF][LF][C6:｢%s｣のサイドエフェクト]の[LF]効果時間と待機時間が変化しました！[MARGIN15][LF][LC][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_MSG_SUSHI_COLLABO_GET_SIDE_1"
+    },
+    {
+      "id": 9426,
+      "text": "[LC]報酬パネル解放[LF][LF]サイドエフェクトの[C6:同時発動可能数]が[LF][C6:%d]▶▶[C6:%d]に増えました！[MARGIN15][LF][LC][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_MSG_SUSHI_COLLABO_GET_SIDE_2"
+    },
+    {
+      "id": 9427,
+      "text": "[C6:%s]▶▶[C6:%s]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_SUSHI_SIDE_UPDATE_FORMAT"
+    },
+    {
+      "id": 9428,
+      "text": "効果時間：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_SUSHI_SIDE_TIME"
+    },
+    {
+      "id": 9429,
+      "text": "発動可能までの待機時間：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_SUSHI_SIDE_COOL"
+    },
+    {
+      "id": 9430,
+      "text": "同時発動可能数：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_SUSHI_SIDE_NUM"
+    },
+    {
+      "id": 9431,
+      "text": "サイドエフェクトを同時に発動できる[LF]数が増える",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_SUSHI_SIDE_NUM_DISCRIPTION"
+    },
+    {
+      "id": 9432,
+      "text": "あと[BG_STR:|WIDTH:68|HEIGHT:34|CSTR:[C6:%dつ]]発動可能",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_SUSHI_ACTIVATE_LIMIT_COUNT"
+    },
+    {
+      "id": 9433,
+      "text": "[IMG:sushi_sf_icon_06.png]解放で",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_SUSHI_ACTIVATE_LIMIT_COUNT_UP_1"
+    },
+    {
+      "id": 9434,
+      "text": "発動数アップ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_SUSHI_ACTIVATE_LIMIT_COUNT_UP_2"
+    },
+    {
+      "id": 9435,
+      "text": "[LC]サイドエフェクト[LF][LF][LC]同時発動数の上限に達しているため[LF][LC]効果を発動できません",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_SUSHI_ACTIVATE_DIALOG_LIMITMAX"
+    },
+    {
+      "id": 9436,
+      "text": "シークレット",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_SUSHI_MISSION_SECRET_MISSION_NAME_IN_REWARD_STRING"
+    },
+    {
+      "id": 9437,
+      "text": "---",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_SPEED_RELEASE_BUTTON_COMP"
+    },
+    {
+      "id": 9438,
+      "text": "C級ミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_ME_SUSHI_MISSION_HEADER_C"
+    },
+    {
+      "id": 9439,
+      "text": "B級ミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_ME_SUSHI_MISSION_HEADER_B"
+    },
+    {
+      "id": 9440,
+      "text": "A級ミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_ME_SUSHI_MISSION_HEADER_A"
+    },
+    {
+      "id": 9441,
+      "text": "スキル一覧",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1726150048,
+      "label": "eTEXTS_DEF_ME_SUSHI_MISSION_HEADER_SIDE"
+    },
+    {
+      "id": 9442,
+      "text": "アイテムパネル",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_ME_SUSHI_MISSION_HEADER_RECOMMEND"
+    },
+    {
+      "id": 9443,
+      "text": "？アイテムパネル",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_ME_SUSHI_MISSION_HEADER_RANDOM"
+    },
+    {
+      "id": 9444,
+      "text": "グッジョブパネル",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_ME_SUSHI_MISSION_HEADER_GJ"
+    },
+    {
+      "id": 9445,
+      "text": "全パネル解放",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_ME_SUSHI_MISSION_HEADER_ALL_PANEL"
+    },
+    {
+      "id": 9446,
+      "text": "2/18 4:00解放！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_ME_SUSHI_MISSION_SCELET_LOCK"
+    },
+    {
+      "id": 9447,
+      "text": "解放数[LF][LC]%d/%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_ME_SUSHI_MISSION_PANEL_OPEN_NUM_SIDE"
+    },
+    {
+      "id": 9448,
+      "text": "パネル%d枚目",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_ME_SUSHI_MISSION_SIDE_TITLE"
+    },
+    {
+      "id": 9449,
+      "text": "[LC]報酬パネル解放[LF][LF]？アイテムパネルから[LF][C6:%s]を獲得しました！[MARGIN15][LF][LC][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_MSG_SUSHI_COLLABO_GET_RANDOM_ITEM"
+    },
+    {
+      "id": 9450,
+      "text": "[LC]報酬パネル解放[LF][LF][C6:｢%s｣のサイドエフェクト]を[LF]解放しました！[MARGIN15][LF][LC][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_MSG_SUSHI_COLLABO_GET_SIDE_3"
+    },
+    {
+      "id": 9451,
+      "text": "サイドエフェクト同時発動数+1",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_SUSHI_SIDE_NUM_TITLE"
+    },
+    {
+      "id": 9452,
+      "text": "%dpt",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_SUSHI_PANEL_PT_FORMAT"
+    },
+    {
+      "id": 9453,
+      "text": "[LC]報酬パネル選択[[LF][LF]選択中のパネル：[C6:サイドエフェクト][MARGIN18][LF][LC][NODE][LF][LF]このパネルを解放しますか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_MSG_SUSHI_COLLABO_CHECK_SIDE_3"
+    },
+    {
+      "id": 9454,
+      "text": "[LF][LC]発動可能期間が終了しています",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_NOT_AVAILABLE_ITEM_EVENT"
+    },
+    {
+      "id": 9455,
+      "text": "[C6:コラボ限定ガチャ開催中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_29700"
+    },
+    {
+      "id": 9456,
+      "text": "[b:ba_help_collabo_sushi_00_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_29701"
+    },
+    {
+      "id": 9457,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_29702"
+    },
+    {
+      "id": 9458,
+      "text": "2/12 12:00 ～ 3/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_29703"
+    },
+    {
+      "id": 9459,
+      "text": "[C5:コラボ限定ガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_29704"
+    },
+    {
+      "id": 9460,
+      "text": "新登場キャラ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_29705"
+    },
+    {
+      "id": 9461,
+      "text": "ガチャ[C6:｢ワールドトリガー｣]が期間限定で開催中！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_29706"
+    },
+    {
+      "id": 9462,
+      "text": "[IP9301]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_29707"
+    },
+    {
+      "id": 9463,
+      "text": "[IP9303]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495255,
+      "updated_at": 1644495255,
+      "label": "eTEXTS_DEF_29708"
+    },
+    {
+      "id": 9464,
+      "text": "[IP9305]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29709"
+    },
+    {
+      "id": 9465,
+      "text": "[IP9297]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29710"
+    },
+    {
+      "id": 9466,
+      "text": "[IP9299]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29711"
+    },
+    {
+      "id": 9467,
+      "text": "第一弾キャラ再登場",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29712"
+    },
+    {
+      "id": 9468,
+      "text": "3体の獣神化・改、解禁！＆ガチャ開催！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29713"
+    },
+    {
+      "id": 9469,
+      "text": "[IP9293]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29714"
+    },
+    {
+      "id": 9470,
+      "text": "[IP9294]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29715"
+    },
+    {
+      "id": 9471,
+      "text": "[IP9295]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29716"
+    },
+    {
+      "id": 9472,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20220210_1.html#1|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29717"
+    },
+    {
+      "id": 9473,
+      "text": "[C6:コラボ限定クエスト出現中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29718"
+    },
+    {
+      "id": 9474,
+      "text": "[b:ba_help_collabo_sushi_00_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29719"
+    },
+    {
+      "id": 9475,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29720"
+    },
+    {
+      "id": 9476,
+      "text": "2/12 12:00 ～ 3/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29721"
+    },
+    {
+      "id": 9477,
+      "text": "[C5:コラボ限定クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29722"
+    },
+    {
+      "id": 9478,
+      "text": "スケジュールに沿ってクエストが出現！[LF]降臨時間はスケジュール＆繰り返し予約で確認しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29723"
+    },
+    {
+      "id": 9479,
+      "text": "[SGBI23720|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29724"
+    },
+    {
+      "id": 9480,
+      "text": "[SGBI23730|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29725"
+    },
+    {
+      "id": 9481,
+      "text": "[SGBI23740|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29726"
+    },
+    {
+      "id": 9482,
+      "text": "コラボ期間中、常に挑戦できるクエストも出現！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29727"
+    },
+    {
+      "id": 9483,
+      "text": "[SGBI23750|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29728"
+    },
+    {
+      "id": 9484,
+      "text": "[SGBI23700|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29729"
+    },
+    {
+      "id": 9485,
+      "text": "[SGBI23710|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29730"
+    },
+    {
+      "id": 9486,
+      "text": "追憶の書庫クエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29731"
+    },
+    {
+      "id": 9487,
+      "text": "コラボ期間中追憶の書庫にコラボ限定クエストが出現！[LF][LF][C5:ハイレインの恐怖　★5 ハイレイン][LF][C4:星の杖の使い手　　★5 ヴィザ][LF][C6:ヒュースの使命　　 ★5 ヒュース][LF][C2:個の力vs数の力　  ★4 ランバネイン][LF][C3:執念のエネドラ　　★4 エネドラ][LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29732"
+    },
+    {
+      "id": 9488,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20220210_1.html#5|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29733"
+    },
+    {
+      "id": 9489,
+      "text": "[C5:守護獣の森クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29734"
+    },
+    {
+      "id": 9490,
+      "text": "守護獣の森にクエスト[C2:｢運命｣]が降臨！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29735"
+    },
+    {
+      "id": 9491,
+      "text": "運命",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29736"
+    },
+    {
+      "id": 9492,
+      "text": "[C2:★5 ガロプラ遠征部隊 レギンデッツ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29737"
+    },
+    {
+      "id": 9493,
+      "text": "[SUE23007]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29738"
+    },
+    {
+      "id": 9494,
+      "text": "※クエストボスの｢ガロプラ遠征部隊 レギンデッツ｣は[LF]　入手できません[LF][LF]究極難易度をクリアすることで、[LF]守護獣[C6:林藤陽太郎&雷神丸]を入手可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29739"
+    },
+    {
+      "id": 9495,
+      "text": "[SU17]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29740"
+    },
+    {
+      "id": 9496,
+      "text": "第1弾クエスト再出現",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29741"
+    },
+    {
+      "id": 9497,
+      "text": "クエスト[C3:｢異世界からの来訪者｣]が再出現！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29742"
+    },
+    {
+      "id": 9498,
+      "text": "異世界からの来訪者",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29743"
+    },
+    {
+      "id": 9499,
+      "text": "[C3:★5 ラービット]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29744"
+    },
+    {
+      "id": 9500,
+      "text": "[SUE21891]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29745"
+    },
+    {
+      "id": 9501,
+      "text": "※クエストボスの｢ラービット｣は入手できません[LF][LF]究極難易度をクリアすることで、[LF]守護獣[C6:レプリカ]を入手可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29746"
+    },
+    {
+      "id": 9502,
+      "text": "[SU4]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29747"
+    },
+    {
+      "id": 9503,
+      "text": "※守護獣や絆のカケラなどの報酬の入手状況は[LF]第1弾から引き継がれます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29748"
+    },
+    {
+      "id": 9504,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20220210_1.html#7|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29749"
+    },
+    {
+      "id": 9505,
+      "text": "[SW0.8][C6:1日1回限定クリアボーナスを手に入れよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29750"
+    },
+    {
+      "id": 9506,
+      "text": "[b:ba_help_collabo_sushi_00_3.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29751"
+    },
+    {
+      "id": 9507,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29752"
+    },
+    {
+      "id": 9508,
+      "text": "2/12 12:00 ～ 3/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29753"
+    },
+    {
+      "id": 9509,
+      "text": "[C5:1日1回限定クリアボーナス！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29754"
+    },
+    {
+      "id": 9510,
+      "text": "1日1回限定クリアボーナス！[LF]コラボクエスト[C3:｢B級ランク戦ROUND7 vs影浦隊｣][LF]究極クリアで[C3:★5 影浦隊]が[C6:7体]獲得できる！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29755"
+    },
+    {
+      "id": 9511,
+      "text": "[IP9316]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29756"
+    },
+    {
+      "id": 9512,
+      "text": "さらにマルチプレイで[LF][C6:金卵2個以上のドロップ率アップ！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29757"
+    },
+    {
+      "id": 9513,
+      "text": "※追憶の書庫クエスト[C4:｢星の杖の使い手｣]も[LF]　ボーナスの対象となります[LF][LF]※詳細は[u:https://www.monster-strike.com/news/20220210_1.html#11|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29758"
+    },
+    {
+      "id": 9514,
+      "text": "[C6:ガロプラ遠征部隊を迎撃せよ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29759"
+    },
+    {
+      "id": 9515,
+      "text": "[b:ba_help_collabo_sushi_00_4.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29760"
+    },
+    {
+      "id": 9516,
+      "text": "[C5:超究極クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29761"
+    },
+    {
+      "id": 9517,
+      "text": "超究極クエスト[C6:｢決戦｣]が出現！[LF]降臨時間はスケジュール＆繰り返し予約で[LF]確認しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29762"
+    },
+    {
+      "id": 9518,
+      "text": "[SGBI23760|difficulty1]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29763"
+    },
+    {
+      "id": 9519,
+      "text": "[C6:｢決戦｣]では本来のラックに[LF]｢ラック＋99｣分のラックボーナスがプラス！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29764"
+    },
+    {
+      "id": 9520,
+      "text": "[LUCK]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29765"
+    },
+    {
+      "id": 9521,
+      "text": "[C4:+99]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29766"
+    },
+    {
+      "id": 9522,
+      "text": "全てのモンスターがラックボーナスで宝箱を[LF]２個獲得可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29767"
+    },
+    {
+      "id": 9523,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20220210_1.html#8c|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1645095819,
+      "label": "eTEXTS_DEF_29768"
+    },
+    {
+      "id": 9524,
+      "text": "[SW0.82][C6:ワールドトリガー コラボスターターパック登場]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29800"
+    },
+    {
+      "id": 9525,
+      "text": "[b:ba_help_collabo_sushi_01_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29801"
+    },
+    {
+      "id": 9526,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29802"
+    },
+    {
+      "id": 9527,
+      "text": "2/12 12:00 ～ 3/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29803"
+    },
+    {
+      "id": 9528,
+      "text": "[C5:スターターパックについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29804"
+    },
+    {
+      "id": 9529,
+      "text": "コラボ期間中[C6:★6 A級1位太刀川隊シューター 出水公平]と[LF]各種アイテムがセットとなった[LF][C6:ワールドトリガー コラボスターターパック]が登場！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29805"
+    },
+    {
+      "id": 9530,
+      "text": "[IP9306]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29806"
+    },
+    {
+      "id": 9531,
+      "text": "[C6:★6 A級1位太刀川隊シューター 出水公平]は[LF]ここでのみ入手可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29807"
+    },
+    {
+      "id": 9532,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20220210_1.html#4|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29808"
+    },
+    {
+      "id": 9533,
+      "text": "[C6:期間限定ラックボーナス！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29809"
+    },
+    {
+      "id": 9534,
+      "text": "[b:ba_help_collabo_sushi_01_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29810"
+    },
+    {
+      "id": 9535,
+      "text": "[C5:期間限定ラック+99]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1644495256,
+      "updated_at": 1644495256,
+      "label": "eTEXTS_DEF_29811"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "table": "stage_additional_luck_effects",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "stage_group_id": 851760,
+      "luck1_attack_factor": 20,
+      "luck200_attack_factor": 115,
+      "luck1_damage_tol_factor": 900,
+      "luck200_damage_tol_factor": 80,
+      "created_at": 1756373683,
+      "updated_at": 1756373683
+    },
+    {
+      "id": 2,
+      "stage_group_id": 851890,
+      "luck1_attack_factor": 60,
+      "luck200_attack_factor": 115,
+      "luck1_damage_tol_factor": 180,
+      "luck200_damage_tol_factor": 80,
+      "created_at": 1773393113,
+      "updated_at": 1773393113
+    }
+  ]
+}

@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 1,
+  "table": "shop_item_conditions",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "shop_item_id": 7012,
+      "condition_type": 1,
+      "condition_value": 39,
+      "condition_count": 100000,
+      "created_at": 1539869244,
+      "updated_at": 1539869244
+    },
+    {
+      "id": 2,
+      "shop_item_id": 7033,
+      "condition_type": 1,
+      "condition_value": 39,
+      "condition_count": 100000,
+      "created_at": 1554976755,
+      "updated_at": 1554976755
+    },
+    {
+      "id": 3,
+      "shop_item_id": 10000,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1555947367,
+      "updated_at": 1555947367
+    },
+    {
+      "id": 4,
+      "shop_item_id": 10001,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1555947367,
+      "updated_at": 1555947367
+    },
+    {
+      "id": 5,
+      "shop_item_id": 10002,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1555947367,
+      "updated_at": 1555947367
+    },
+    {
+      "id": 6,
+      "shop_item_id": 10003,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1557317713,
+      "updated_at": 1557317713
+    },
+    {
+      "id": 7,
+      "shop_item_id": 10004,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1557317714,
+      "updated_at": 1557317714
+    },
+    {
+      "id": 8,
+      "shop_item_id": 10005,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1557317714,
+      "updated_at": 1557317714
+    },
+    {
+      "id": 9,
+      "shop_item_id": 10006,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1558088533,
+      "updated_at": 1558088533
+    },
+    {
+      "id": 10,
+      "shop_item_id": 10007,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1558088534,
+      "updated_at": 1558088534
+    },
+    {
+      "id": 11,
+      "shop_item_id": 10008,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1558088534,
+      "updated_at": 1558088534
+    },
+    {
+      "id": 12,
+      "shop_item_id": 10009,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1558088534,
+      "updated_at": 1558088534
+    },
+    {
+      "id": 13,
+      "shop_item_id": 10010,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1558088534,
+      "updated_at": 1558088534
+    },
+    {
+      "id": 14,
+      "shop_item_id": 10011,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1558088534,
+      "updated_at": 1558088534
+    },
+    {
+      "id": 15,
+      "shop_item_id": 10012,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1559899535,
+      "updated_at": 1559899535
+    },
+    {
+      "id": 16,
+      "shop_item_id": 10013,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1559899535,
+      "updated_at": 1559899535
+    },
+    {
+      "id": 17,
+      "shop_item_id": 10014,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1559899535,
+      "updated_at": 1559899535
+    },
+    {
+      "id": 18,
+      "shop_item_id": 10015,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1560862263,
+      "updated_at": 1560862263
+    },
+    {
+      "id": 19,
+      "shop_item_id": 10016,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1560862263,
+      "updated_at": 1560862263
+    },
+    {
+      "id": 20,
+      "shop_item_id": 10017,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1560862263,
+      "updated_at": 1560862263
+    },
+    {
+      "id": 21,
+      "shop_item_id": 10018,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1560862263,
+      "updated_at": 1560862263
+    },
+    {
+      "id": 22,
+      "shop_item_id": 10019,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1560862264,
+      "updated_at": 1560862264
+    },
+    {
+      "id": 23,
+      "shop_item_id": 10020,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1560862264,
+      "updated_at": 1560862264
+    },
+    {
+      "id": 24,
+      "shop_item_id": 10021,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1562580743,
+      "updated_at": 1562580743
+    },
+    {
+      "id": 25,
+      "shop_item_id": 10022,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1562580743,
+      "updated_at": 1562580743
+    },
+    {
+      "id": 26,
+      "shop_item_id": 10023,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1562580743,
+      "updated_at": 1562580743
+    },
+    {
+      "id": 27,
+      "shop_item_id": 7061,
+      "condition_type": 3,
+      "condition_value": 19610010,
+      "condition_count": 1,
+      "created_at": 1563294697,
+      "updated_at": 1563294697
+    },
+    {
+      "id": 28,
+      "shop_item_id": 7082,
+      "condition_type": 1,
+      "condition_value": 44,
+      "condition_count": 100000,
+      "created_at": 1563294697,
+      "updated_at": 1563294697
+    },
+    {
+      "id": 29,
+      "shop_item_id": 10024,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1563445658,
+      "updated_at": 1563445658
+    },
+    {
+      "id": 30,
+      "shop_item_id": 10025,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1563445658,
+      "updated_at": 1563445658
+    },
+    {
+      "id": 31,
+      "shop_item_id": 10026,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1563445658,
+      "updated_at": 1563445658
+    },
+    {
+      "id": 32,
+      "shop_item_id": 10027,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1563445658,
+      "updated_at": 1563445658
+    },
+    {
+      "id": 33,
+      "shop_item_id": 10028,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1563445658,
+      "updated_at": 1563445658
+    },
+    {
+      "id": 34,
+      "shop_item_id": 10029,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1563445658,
+      "updated_at": 1563445658
+    },
+    {
+      "id": 35,
+      "shop_item_id": 10030,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1565258212,
+      "updated_at": 1565258212
+    },
+    {
+      "id": 36,
+      "shop_item_id": 10031,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1565258212,
+      "updated_at": 1565258212
+    },
+    {
+      "id": 37,
+      "shop_item_id": 10032,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1565258212,
+      "updated_at": 1565258212
+    },
+    {
+      "id": 38,
+      "shop_item_id": 10033,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1565951317,
+      "updated_at": 1565951317
+    },
+    {
+      "id": 39,
+      "shop_item_id": 10034,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1565951317,
+      "updated_at": 1565951317
+    },
+    {
+      "id": 40,
+      "shop_item_id": 10035,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1565951317,
+      "updated_at": 1565951317
+    },
+    {
+      "id": 41,
+      "shop_item_id": 10036,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1565951317,
+      "updated_at": 1565951317
+    },
+    {
+      "id": 42,
+      "shop_item_id": 10037,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1565951317,
+      "updated_at": 1565951317
+    },
+    {
+      "id": 43,
+      "shop_item_id": 10038,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1565951317,
+      "updated_at": 1565951317
+    },
+    {
+      "id": 44,
+      "shop_item_id": 10039,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1567758670,
+      "updated_at": 1567758670
+    },
+    {
+      "id": 45,
+      "shop_item_id": 10040,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1567758670,
+      "updated_at": 1567758670
+    },
+    {
+      "id": 46,
+      "shop_item_id": 10041,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1567758670,
+      "updated_at": 1567758670
+    },
+    {
+      "id": 47,
+      "shop_item_id": 10042,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1568792666,
+      "updated_at": 1568792666
+    },
+    {
+      "id": 48,
+      "shop_item_id": 10043,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1568792666,
+      "updated_at": 1568792666
+    },
+    {
+      "id": 49,
+      "shop_item_id": 10044,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1568792666,
+      "updated_at": 1568792666
+    },
+    {
+      "id": 50,
+      "shop_item_id": 10045,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1568792666,
+      "updated_at": 1568792666
+    },
+    {
+      "id": 51,
+      "shop_item_id": 10046,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1568792666,
+      "updated_at": 1568792666
+    },
+    {
+      "id": 52,
+      "shop_item_id": 10047,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1568792666,
+      "updated_at": 1568792666
+    },
+    {
+      "id": 53,
+      "shop_item_id": 7124,
+      "condition_type": 1,
+      "condition_value": 10050000,
+      "condition_count": 100000,
+      "created_at": 1570463651,
+      "updated_at": 1570463651
+    },
+    {
+      "id": 54,
+      "shop_item_id": 10048,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1570463651,
+      "updated_at": 1570463651
+    },
+    {
+      "id": 55,
+      "shop_item_id": 10049,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1570463651,
+      "updated_at": 1570463651
+    },
+    {
+      "id": 56,
+      "shop_item_id": 10050,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1570463651,
+      "updated_at": 1570463651
+    },
+    {
+      "id": 57,
+      "shop_item_id": 10051,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1571390429,
+      "updated_at": 1571390429
+    },
+    {
+      "id": 58,
+      "shop_item_id": 10052,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1571390429,
+      "updated_at": 1571390429
+    },
+    {
+      "id": 59,
+      "shop_item_id": 10053,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1571390429,
+      "updated_at": 1571390429
+    },
+    {
+      "id": 60,
+      "shop_item_id": 10054,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1571390429,
+      "updated_at": 1571390429
+    },
+    {
+      "id": 61,
+      "shop_item_id": 10055,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1571390429,
+      "updated_at": 1571390429
+    },
+    {
+      "id": 62,
+      "shop_item_id": 10056,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1571390429,
+      "updated_at": 1571390429
+    },
+    {
+      "id": 63,
+      "shop_item_id": 10057,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1573114736,
+      "updated_at": 1573114736
+    },
+    {
+      "id": 64,
+      "shop_item_id": 10058,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1573114736,
+      "updated_at": 1573114736
+    },
+    {
+      "id": 65,
+      "shop_item_id": 10059,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1573114736,
+      "updated_at": 1573114736
+    },
+    {
+      "id": 66,
+      "shop_item_id": 10060,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1574066943,
+      "updated_at": 1574066943
+    },
+    {
+      "id": 67,
+      "shop_item_id": 10061,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1574066943,
+      "updated_at": 1574066943
+    },
+    {
+      "id": 68,
+      "shop_item_id": 10062,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1574066943,
+      "updated_at": 1574066943
+    },
+    {
+      "id": 69,
+      "shop_item_id": 10063,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1574066943,
+      "updated_at": 1574066943
+    },
+    {
+      "id": 70,
+      "shop_item_id": 10064,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1574066943,
+      "updated_at": 1574066943
+    },
+    {
+      "id": 71,
+      "shop_item_id": 10065,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1574066943,
+      "updated_at": 1574066943
+    },
+    {
+      "id": 72,
+      "shop_item_id": 10066,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1574066943,
+      "updated_at": 1574066943
+    },
+    {
+      "id": 73,
+      "shop_item_id": 10067,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1574066943,
+      "updated_at": 1574066943
+    },
+    {
+      "id": 74,
+      "shop_item_id": 10068,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1575633881,
+      "updated_at": 1575633881
+    },
+    {
+      "id": 75,
+      "shop_item_id": 10069,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1575633881,
+      "updated_at": 1575633881
+    },
+    {
+      "id": 76,
+      "shop_item_id": 10070,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1575633881,
+      "updated_at": 1575633881
+    },
+    {
+      "id": 77,
+      "shop_item_id": 10071,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1575633881,
+      "updated_at": 1575633881
+    },
+    {
+      "id": 78,
+      "shop_item_id": 10072,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1576664215,
+      "updated_at": 1576664215
+    },
+    {
+      "id": 79,
+      "shop_item_id": 10073,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1576664215,
+      "updated_at": 1576664215
+    },
+    {
+      "id": 80,
+      "shop_item_id": 10074,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1576664215,
+      "updated_at": 1576664215
+    },
+    {
+      "id": 81,
+      "shop_item_id": 10075,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1576664215,
+      "updated_at": 1576664215
+    },
+    {
+      "id": 82,
+      "shop_item_id": 10076,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1576664215,
+      "updated_at": 1576664215
+    },
+    {
+      "id": 83,
+      "shop_item_id": 10077,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1576664215,
+      "updated_at": 1576664215
+    },
+    {
+      "id": 84,
+      "shop_item_id": 10078,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1576664215,
+      "updated_at": 1576664215
+    },
+    {
+      "id": 85,
+      "shop_item_id": 10079,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1576664215,
+      "updated_at": 1576664215
+    },
+    {
+      "id": 86,
+      "shop_item_id": 7163,
+      "condition_type": 1,
+      "condition_value": 39,
+      "condition_count": 100000,
+      "created_at": 1577442249,
+      "updated_at": 1577442249
+    },
+    {
+      "id": 87,
+      "shop_item_id": 10080,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1578469178,
+      "updated_at": 1578469178
+    },
+    {
+      "id": 88,
+      "shop_item_id": 10081,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1578469178,
+      "updated_at": 1578469178
+    },
+    {
+      "id": 89,
+      "shop_item_id": 10082,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1578469178,
+      "updated_at": 1578469178
+    },
+    {
+      "id": 90,
+      "shop_item_id": 10083,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1578469178,
+      "updated_at": 1578469178
+    },
+    {
+      "id": 91,
+      "shop_item_id": 10084,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1579169576,
+      "updated_at": 1579169576
+    },
+    {
+      "id": 92,
+      "shop_item_id": 10085,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1579169576,
+      "updated_at": 1579169576
+    },
+    {
+      "id": 93,
+      "shop_item_id": 10086,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1579169576,
+      "updated_at": 1579169576
+    },
+    {
+      "id": 94,
+      "shop_item_id": 10087,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1579169576,
+      "updated_at": 1579169576
+    },
+    {
+      "id": 95,
+      "shop_item_id": 10088,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1579169576,
+      "updated_at": 1579169576
+    },
+    {
+      "id": 96,
+      "shop_item_id": 10089,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1579169576,
+      "updated_at": 1579169576
+    },
+    {
+      "id": 97,
+      "shop_item_id": 10090,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1579169576,
+      "updated_at": 1579169576
+    },
+    {
+      "id": 98,
+      "shop_item_id": 10091,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1579169576,
+      "updated_at": 1579169576
+    },
+    {
+      "id": 99,
+      "shop_item_id": 10092,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1581064071,
+      "updated_at": 1581064071
+    },
+    {
+      "id": 100,
+      "shop_item_id": 10093,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1581064071,
+      "updated_at": 1581064071
+    },
+    {
+      "id": 101,
+      "shop_item_id": 10094,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1581064071,
+      "updated_at": 1581064071
+    },
+    {
+      "id": 102,
+      "shop_item_id": 10095,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1581064071,
+      "updated_at": 1581064071
+    },
+    {
+      "id": 103,
+      "shop_item_id": 10096,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1582018103,
+      "updated_at": 1582018103
+    },
+    {
+      "id": 104,
+      "shop_item_id": 10097,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1582018103,
+      "updated_at": 1582018103
+    },
+    {
+      "id": 105,
+      "shop_item_id": 10098,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1582018103,
+      "updated_at": 1582018103
+    },
+    {
+      "id": 106,
+      "shop_item_id": 10099,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1582018103,
+      "updated_at": 1582018103
+    },
+    {
+      "id": 107,
+      "shop_item_id": 10100,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1582018103,
+      "updated_at": 1582018103
+    },
+    {
+      "id": 108,
+      "shop_item_id": 10101,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1582018103,
+      "updated_at": 1582018103
+    },
+    {
+      "id": 109,
+      "shop_item_id": 10102,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1582018103,
+      "updated_at": 1582018103
+    },
+    {
+      "id": 110,
+      "shop_item_id": 10103,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1582018103,
+      "updated_at": 1582018103
+    },
+    {
+      "id": 111,
+      "shop_item_id": 10104,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1582018104,
+      "updated_at": 1582018104
+    },
+    {
+      "id": 112,
+      "shop_item_id": 10105,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1582018104,
+      "updated_at": 1582018104
+    },
+    {
+      "id": 113,
+      "shop_item_id": 10106,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1582018104,
+      "updated_at": 1582018104
+    },
+    {
+      "id": 114,
+      "shop_item_id": 10107,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1582018104,
+      "updated_at": 1582018104
+    },
+    {
+      "id": 115,
+      "shop_item_id": 10108,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1582018104,
+      "updated_at": 1582018104
+    },
+    {
+      "id": 116,
+      "shop_item_id": 10109,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1582018104,
+      "updated_at": 1582018104
+    },
+    {
+      "id": 117,
+      "shop_item_id": 10110,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1582018104,
+      "updated_at": 1582018104
+    },
+    {
+      "id": 118,
+      "shop_item_id": 10111,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1582018104,
+      "updated_at": 1582018104
+    },
+    {
+      "id": 119,
+      "shop_item_id": 10112,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1582018104,
+      "updated_at": 1582018104
+    },
+    {
+      "id": 120,
+      "shop_item_id": 10113,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1582018104,
+      "updated_at": 1582018104
+    },
+    {
+      "id": 121,
+      "shop_item_id": 7228,
+      "condition_type": 1,
+      "condition_value": 10050001,
+      "condition_count": 100000,
+      "created_at": 1583427555,
+      "updated_at": 1583427555
+    },
+    {
+      "id": 122,
+      "shop_item_id": 10114,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1583427555,
+      "updated_at": 1583427555
+    },
+    {
+      "id": 123,
+      "shop_item_id": 10115,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1583427555,
+      "updated_at": 1583427555
+    },
+    {
+      "id": 124,
+      "shop_item_id": 10116,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1583427555,
+      "updated_at": 1583427555
+    },
+    {
+      "id": 125,
+      "shop_item_id": 10117,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1583427555,
+      "updated_at": 1583427555
+    },
+    {
+      "id": 126,
+      "shop_item_id": 10118,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1583427555,
+      "updated_at": 1583427555
+    },
+    {
+      "id": 127,
+      "shop_item_id": 10119,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1583427555,
+      "updated_at": 1583427555
+    },
+    {
+      "id": 128,
+      "shop_item_id": 10120,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1584512731,
+      "updated_at": 1584512731
+    },
+    {
+      "id": 129,
+      "shop_item_id": 10121,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1584512731,
+      "updated_at": 1584512731
+    },
+    {
+      "id": 130,
+      "shop_item_id": 10122,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1584512731,
+      "updated_at": 1584512731
+    },
+    {
+      "id": 131,
+      "shop_item_id": 10123,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1584512731,
+      "updated_at": 1584512731
+    },
+    {
+      "id": 132,
+      "shop_item_id": 10124,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1584512731,
+      "updated_at": 1584512731
+    },
+    {
+      "id": 133,
+      "shop_item_id": 10125,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1584512732,
+      "updated_at": 1584512732
+    },
+    {
+      "id": 134,
+      "shop_item_id": 10126,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1584512732,
+      "updated_at": 1584512732
+    },
+    {
+      "id": 135,
+      "shop_item_id": 10127,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1584512732,
+      "updated_at": 1584512732
+    },
+    {
+      "id": 136,
+      "shop_item_id": 10128,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1586329195,
+      "updated_at": 1586329195
+    },
+    {
+      "id": 137,
+      "shop_item_id": 10129,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1586329195,
+      "updated_at": 1586329195
+    },
+    {
+      "id": 138,
+      "shop_item_id": 10130,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1586329195,
+      "updated_at": 1586329195
+    },
+    {
+      "id": 139,
+      "shop_item_id": 10131,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1586329195,
+      "updated_at": 1586329195
+    },
+    {
+      "id": 140,
+      "shop_item_id": 10132,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1587113681,
+      "updated_at": 1587113681
+    },
+    {
+      "id": 141,
+      "shop_item_id": 10133,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1587113681,
+      "updated_at": 1587113681
+    },
+    {
+      "id": 142,
+      "shop_item_id": 10134,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1587113681,
+      "updated_at": 1587113681
+    },
+    {
+      "id": 143,
+      "shop_item_id": 10135,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1587113681,
+      "updated_at": 1587113681
+    },
+    {
+      "id": 144,
+      "shop_item_id": 10136,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1587113681,
+      "updated_at": 1587113681
+    },
+    {
+      "id": 145,
+      "shop_item_id": 10137,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1587113681,
+      "updated_at": 1587113681
+    },
+    {
+      "id": 146,
+      "shop_item_id": 10138,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1587113681,
+      "updated_at": 1587113681
+    },
+    {
+      "id": 147,
+      "shop_item_id": 10139,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1587113681,
+      "updated_at": 1587113681
+    },
+    {
+      "id": 148,
+      "shop_item_id": 10140,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1588842659,
+      "updated_at": 1588842659
+    },
+    {
+      "id": 149,
+      "shop_item_id": 10141,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1588842659,
+      "updated_at": 1588842659
+    },
+    {
+      "id": 150,
+      "shop_item_id": 10142,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1588842659,
+      "updated_at": 1588842659
+    },
+    {
+      "id": 151,
+      "shop_item_id": 10143,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1588842659,
+      "updated_at": 1588842659
+    },
+    {
+      "id": 152,
+      "shop_item_id": 10144,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1589790045,
+      "updated_at": 1589790045
+    },
+    {
+      "id": 153,
+      "shop_item_id": 10145,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1589790045,
+      "updated_at": 1589790045
+    },
+    {
+      "id": 154,
+      "shop_item_id": 10146,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1589790045,
+      "updated_at": 1589790045
+    },
+    {
+      "id": 155,
+      "shop_item_id": 10147,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1589790045,
+      "updated_at": 1589790045
+    },
+    {
+      "id": 156,
+      "shop_item_id": 10148,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1589790045,
+      "updated_at": 1589790045
+    },
+    {
+      "id": 157,
+      "shop_item_id": 10149,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1589790045,
+      "updated_at": 1589790045
+    },
+    {
+      "id": 158,
+      "shop_item_id": 10150,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1589790045,
+      "updated_at": 1589790045
+    },
+    {
+      "id": 159,
+      "shop_item_id": 10151,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1589790045,
+      "updated_at": 1589790045
+    },
+    {
+      "id": 160,
+      "shop_item_id": 10152,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1591630772,
+      "updated_at": 1591630772
+    },
+    {
+      "id": 161,
+      "shop_item_id": 10153,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1591630772,
+      "updated_at": 1591630772
+    },
+    {
+      "id": 162,
+      "shop_item_id": 10154,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1591630772,
+      "updated_at": 1591630772
+    },
+    {
+      "id": 163,
+      "shop_item_id": 10155,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1591630772,
+      "updated_at": 1591630772
+    },
+    {
+      "id": 164,
+      "shop_item_id": 10156,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1592477299,
+      "updated_at": 1592477299
+    },
+    {
+      "id": 165,
+      "shop_item_id": 10157,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1592477299,
+      "updated_at": 1592477299
+    },
+    {
+      "id": 166,
+      "shop_item_id": 10158,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1592477299,
+      "updated_at": 1592477299
+    },
+    {
+      "id": 167,
+      "shop_item_id": 10159,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1592477299,
+      "updated_at": 1592477299
+    },
+    {
+      "id": 168,
+      "shop_item_id": 10160,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1592477299,
+      "updated_at": 1592477299
+    },
+    {
+      "id": 169,
+      "shop_item_id": 10161,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1592477299,
+      "updated_at": 1592477299
+    },
+    {
+      "id": 170,
+      "shop_item_id": 10162,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1592477299,
+      "updated_at": 1592477299
+    },
+    {
+      "id": 171,
+      "shop_item_id": 10163,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1592477299,
+      "updated_at": 1592477299
+    },
+    {
+      "id": 172,
+      "shop_item_id": 10164,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1594200347,
+      "updated_at": 1594200347
+    },
+    {
+      "id": 173,
+      "shop_item_id": 10165,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1594200347,
+      "updated_at": 1594200347
+    },
+    {
+      "id": 174,
+      "shop_item_id": 10166,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1594200348,
+      "updated_at": 1594200348
+    },
+    {
+      "id": 175,
+      "shop_item_id": 10167,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1594200348,
+      "updated_at": 1594200348
+    },
+    {
+      "id": 176,
+      "shop_item_id": 10168,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1594979390,
+      "updated_at": 1594979390
+    },
+    {
+      "id": 177,
+      "shop_item_id": 10169,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1594979390,
+      "updated_at": 1594979390
+    },
+    {
+      "id": 178,
+      "shop_item_id": 10170,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1594979390,
+      "updated_at": 1594979390
+    },
+    {
+      "id": 179,
+      "shop_item_id": 10171,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1594979390,
+      "updated_at": 1594979390
+    },
+    {
+      "id": 180,
+      "shop_item_id": 10172,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1594979390,
+      "updated_at": 1594979390
+    },
+    {
+      "id": 181,
+      "shop_item_id": 10173,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1594979390,
+      "updated_at": 1594979390
+    },
+    {
+      "id": 182,
+      "shop_item_id": 10174,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1594979390,
+      "updated_at": 1594979390
+    },
+    {
+      "id": 183,
+      "shop_item_id": 10175,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1594979390,
+      "updated_at": 1594979390
+    },
+    {
+      "id": 184,
+      "shop_item_id": 10176,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1596796596,
+      "updated_at": 1596796596
+    },
+    {
+      "id": 185,
+      "shop_item_id": 10177,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1596796596,
+      "updated_at": 1596796596
+    },
+    {
+      "id": 186,
+      "shop_item_id": 10178,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1596796596,
+      "updated_at": 1596796596
+    },
+    {
+      "id": 187,
+      "shop_item_id": 10179,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1596796596,
+      "updated_at": 1596796596
+    },
+    {
+      "id": 188,
+      "shop_item_id": 10180,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1596796596,
+      "updated_at": 1596796596
+    },
+    {
+      "id": 189,
+      "shop_item_id": 10181,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1596796596,
+      "updated_at": 1596796596
+    },
+    {
+      "id": 190,
+      "shop_item_id": 10182,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1597680521,
+      "updated_at": 1597680521
+    },
+    {
+      "id": 191,
+      "shop_item_id": 10183,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1597680521,
+      "updated_at": 1597680521
+    },
+    {
+      "id": 192,
+      "shop_item_id": 10184,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1597680521,
+      "updated_at": 1597680521
+    },
+    {
+      "id": 193,
+      "shop_item_id": 10185,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1597680521,
+      "updated_at": 1597680521
+    },
+    {
+      "id": 194,
+      "shop_item_id": 10186,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1597680521,
+      "updated_at": 1597680521
+    },
+    {
+      "id": 195,
+      "shop_item_id": 10187,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1597680521,
+      "updated_at": 1597680521
+    },
+    {
+      "id": 196,
+      "shop_item_id": 10188,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1597680521,
+      "updated_at": 1597680521
+    },
+    {
+      "id": 197,
+      "shop_item_id": 10189,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1597680521,
+      "updated_at": 1597680521
+    },
+    {
+      "id": 198,
+      "shop_item_id": 7264,
+      "condition_type": 5,
+      "condition_value": 821,
+      "condition_count": 0,
+      "created_at": 1598874410,
+      "updated_at": 1598874410
+    },
+    {
+      "id": 199,
+      "shop_item_id": 7265,
+      "condition_type": 5,
+      "condition_value": 822,
+      "condition_count": 0,
+      "created_at": 1598874410,
+      "updated_at": 1598874410
+    },
+    {
+      "id": 200,
+      "shop_item_id": 7266,
+      "condition_type": 5,
+      "condition_value": 823,
+      "condition_count": 0,
+      "created_at": 1598874410,
+      "updated_at": 1598874410
+    },
+    {
+      "id": 201,
+      "shop_item_id": 7267,
+      "condition_type": 5,
+      "condition_value": 824,
+      "condition_count": 0,
+      "created_at": 1598874410,
+      "updated_at": 1598874410
+    },
+    {
+      "id": 202,
+      "shop_item_id": 7268,
+      "condition_type": 5,
+      "condition_value": 825,
+      "condition_count": 0,
+      "created_at": 1598874410,
+      "updated_at": 1598874410
+    },
+    {
+      "id": 203,
+      "shop_item_id": 7269,
+      "condition_type": 5,
+      "condition_value": 826,
+      "condition_count": 0,
+      "created_at": 1598874410,
+      "updated_at": 1598874410
+    },
+    {
+      "id": 204,
+      "shop_item_id": 7270,
+      "condition_type": 5,
+      "condition_value": 827,
+      "condition_count": 0,
+      "created_at": 1598874410,
+      "updated_at": 1598874410
+    },
+    {
+      "id": 205,
+      "shop_item_id": 7271,
+      "condition_type": 5,
+      "condition_value": 828,
+      "condition_count": 0,
+      "created_at": 1598874410,
+      "updated_at": 1598874410
+    },
+    {
+      "id": 206,
+      "shop_item_id": 7272,
+      "condition_type": 1,
+      "condition_value": 10050003,
+      "condition_count": 100000,
+      "created_at": 1598874410,
+      "updated_at": 1598874410
+    },
+    {
+      "id": 207,
+      "shop_item_id": 10190,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1599546716,
+      "updated_at": 1599546716
+    },
+    {
+      "id": 208,
+      "shop_item_id": 10191,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1599546716,
+      "updated_at": 1599546716
+    },
+    {
+      "id": 209,
+      "shop_item_id": 10192,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1599546716,
+      "updated_at": 1599546716
+    },
+    {
+      "id": 210,
+      "shop_item_id": 10193,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1599546716,
+      "updated_at": 1599546716
+    },
+    {
+      "id": 211,
+      "shop_item_id": 10194,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1600418950,
+      "updated_at": 1600418950
+    },
+    {
+      "id": 212,
+      "shop_item_id": 10195,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1600418950,
+      "updated_at": 1600418950
+    },
+    {
+      "id": 213,
+      "shop_item_id": 10196,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1600418950,
+      "updated_at": 1600418950
+    },
+    {
+      "id": 214,
+      "shop_item_id": 10197,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1600418950,
+      "updated_at": 1600418950
+    },
+    {
+      "id": 215,
+      "shop_item_id": 10198,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1600418950,
+      "updated_at": 1600418950
+    },
+    {
+      "id": 216,
+      "shop_item_id": 10199,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1600418950,
+      "updated_at": 1600418950
+    },
+    {
+      "id": 217,
+      "shop_item_id": 10200,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1600418950,
+      "updated_at": 1600418950
+    },
+    {
+      "id": 218,
+      "shop_item_id": 10201,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1600418950,
+      "updated_at": 1600418950
+    },
+    {
+      "id": 219,
+      "shop_item_id": 10202,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1602154085,
+      "updated_at": 1602154085
+    },
+    {
+      "id": 220,
+      "shop_item_id": 10203,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1602154085,
+      "updated_at": 1602154085
+    },
+    {
+      "id": 221,
+      "shop_item_id": 10204,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1602154085,
+      "updated_at": 1602154085
+    },
+    {
+      "id": 222,
+      "shop_item_id": 10205,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1602154085,
+      "updated_at": 1602154085
+    },
+    {
+      "id": 223,
+      "shop_item_id": 10206,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1602836175,
+      "updated_at": 1602836175
+    },
+    {
+      "id": 224,
+      "shop_item_id": 10207,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1602836175,
+      "updated_at": 1602836175
+    },
+    {
+      "id": 225,
+      "shop_item_id": 10208,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1602836175,
+      "updated_at": 1602836175
+    },
+    {
+      "id": 226,
+      "shop_item_id": 10209,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1602836175,
+      "updated_at": 1602836175
+    },
+    {
+      "id": 227,
+      "shop_item_id": 10210,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1602836175,
+      "updated_at": 1602836175
+    },
+    {
+      "id": 228,
+      "shop_item_id": 10211,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1602836175,
+      "updated_at": 1602836175
+    },
+    {
+      "id": 229,
+      "shop_item_id": 10212,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1602836175,
+      "updated_at": 1602836175
+    },
+    {
+      "id": 230,
+      "shop_item_id": 10213,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1602836175,
+      "updated_at": 1602836175
+    },
+    {
+      "id": 231,
+      "shop_item_id": 10214,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1602836176,
+      "updated_at": 1602836176
+    },
+    {
+      "id": 232,
+      "shop_item_id": 10215,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1602836176,
+      "updated_at": 1602836176
+    },
+    {
+      "id": 233,
+      "shop_item_id": 10216,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1604650504,
+      "updated_at": 1604650504
+    },
+    {
+      "id": 234,
+      "shop_item_id": 10217,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1604650504,
+      "updated_at": 1604650504
+    },
+    {
+      "id": 235,
+      "shop_item_id": 10218,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1604650504,
+      "updated_at": 1604650504
+    },
+    {
+      "id": 236,
+      "shop_item_id": 10219,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1604650504,
+      "updated_at": 1604650504
+    },
+    {
+      "id": 237,
+      "shop_item_id": 10220,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1605679570,
+      "updated_at": 1605679570
+    },
+    {
+      "id": 238,
+      "shop_item_id": 10221,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1605679570,
+      "updated_at": 1605679570
+    },
+    {
+      "id": 239,
+      "shop_item_id": 10222,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1605679570,
+      "updated_at": 1605679570
+    },
+    {
+      "id": 240,
+      "shop_item_id": 10223,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1605679570,
+      "updated_at": 1605679570
+    },
+    {
+      "id": 241,
+      "shop_item_id": 10224,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1605679570,
+      "updated_at": 1605679570
+    },
+    {
+      "id": 242,
+      "shop_item_id": 10225,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1605679570,
+      "updated_at": 1605679570
+    },
+    {
+      "id": 243,
+      "shop_item_id": 10226,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1605679570,
+      "updated_at": 1605679570
+    },
+    {
+      "id": 244,
+      "shop_item_id": 10227,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1605679570,
+      "updated_at": 1605679570
+    },
+    {
+      "id": 245,
+      "shop_item_id": 10228,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1607421567,
+      "updated_at": 1607421567
+    },
+    {
+      "id": 246,
+      "shop_item_id": 10229,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1607421567,
+      "updated_at": 1607421567
+    },
+    {
+      "id": 247,
+      "shop_item_id": 10230,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1607421567,
+      "updated_at": 1607421567
+    },
+    {
+      "id": 248,
+      "shop_item_id": 10231,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1607421567,
+      "updated_at": 1607421567
+    },
+    {
+      "id": 249,
+      "shop_item_id": 10232,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1608278820,
+      "updated_at": 1608278820
+    },
+    {
+      "id": 250,
+      "shop_item_id": 10233,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1608278820,
+      "updated_at": 1608278820
+    },
+    {
+      "id": 251,
+      "shop_item_id": 10234,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1608278820,
+      "updated_at": 1608278820
+    },
+    {
+      "id": 252,
+      "shop_item_id": 10235,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1608278820,
+      "updated_at": 1608278820
+    },
+    {
+      "id": 253,
+      "shop_item_id": 10236,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1608278820,
+      "updated_at": 1608278820
+    },
+    {
+      "id": 254,
+      "shop_item_id": 10237,
+      "condition_type": 4,
+      "condition_value": 3,
+      "condition_count": 0,
+      "created_at": 1608278820,
+      "updated_at": 1608278820
+    },
+    {
+      "id": 255,
+      "shop_item_id": 10238,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1608278820,
+      "updated_at": 1608278820
+    },
+    {
+      "id": 256,
+      "shop_item_id": 10239,
+      "condition_type": 2,
+      "condition_value": 0,
+      "condition_count": 0,
+      "created_at": 1608278820,
+      "updated_at": 1608278820
+    }
+  ]
+}

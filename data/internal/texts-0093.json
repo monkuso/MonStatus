@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 1,
+  "table": "texts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 23883,
+      "text": "[C6:あと]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_ME_STAGE_GROUP_TITILE_EVENT_ARRIVAL_R"
+    },
+    {
+      "id": 23884,
+      "text": "[C6:1時間]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_15518"
+    },
+    {
+      "id": 23885,
+      "text": "[C6:持ち時間が減少]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_15519"
+    },
+    {
+      "id": 23886,
+      "text": "ストライクシール",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_SEAL_TITLE"
+    },
+    {
+      "id": 23887,
+      "text": "[LC]ストライクシールとは[LF][LF][CCB:dlme/help_strikeseal_00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_MSG_SEAL_HELP"
+    },
+    {
+      "id": 23888,
+      "text": "シールガチャ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_SEAL_"
+    },
+    {
+      "id": 23889,
+      "text": "ミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_SEAL_MISSION_LABEL"
+    },
+    {
+      "id": 23890,
+      "text": "MM/DD hh:mm まで",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_SEAL_MISSION_BUTTON_PERIOD"
+    },
+    {
+      "id": 23891,
+      "text": "達成率：%d/%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_SEAL_MISSION_BUTTON_PROGRESS"
+    },
+    {
+      "id": 23892,
+      "text": "シールガチャ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_SEAL_SUB_TITLE"
+    },
+    {
+      "id": 23893,
+      "text": "%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_SEAL_GACHA_ITEM_COUNT"
+    },
+    {
+      "id": 23894,
+      "text": "99+",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_SEAL_GACHA_ITEM_COUNT_MAX"
+    },
+    {
+      "id": 23895,
+      "text": "開催中のシールガチャはありません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_SEAL_NO_SEAL_GACHA"
+    },
+    {
+      "id": 23896,
+      "text": "[LC]シール玉所持上限間近[LF][LF][LF]シール玉：%d個[LF][LF]上限以上のシール玉は破棄されます",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_MSG_SEAL_GACHA_PLAY_NOTICE"
+    },
+    {
+      "id": 23897,
+      "text": "[LC]ミッション報酬[LF][LF][LC]以下の報酬を獲得しました[LF][LF][LC][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_MSG_SEAL_MISSION_RESULT"
+    },
+    {
+      "id": 23898,
+      "text": "[LC]ログインボーナス[LF][LF][LC]以下の報酬を獲得しました[LF][LF][LC][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_MSG_SEAL_LOGIN_BONUS_RESULT"
+    },
+    {
+      "id": 23899,
+      "text": "戻る",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_SEAL_EDIT_BUTTON_1"
+    },
+    {
+      "id": 23900,
+      "text": "シール選択",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_SEAL_EDIT_BUTTON_2"
+    },
+    {
+      "id": 23901,
+      "text": "ボード選択",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_SEAL_EDIT_BUTTON_3"
+    },
+    {
+      "id": 23902,
+      "text": "リセット",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_SEAL_EDIT_BUTTON_4"
+    },
+    {
+      "id": 23903,
+      "text": "決定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_SEAL_EDIT_BUTTON_5"
+    },
+    {
+      "id": 23904,
+      "text": "キャンセル",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_SEAL_EDIT_BUTTON_6"
+    },
+    {
+      "id": 23905,
+      "text": "%d/%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_SEAL_EDIT_LABEL_1"
+    },
+    {
+      "id": 23906,
+      "text": "上限：%d/%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_SEAL_EDIT_LABEL_2"
+    },
+    {
+      "id": 23907,
+      "text": "%d/%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_SEAL_EDIT_LABEL_3"
+    },
+    {
+      "id": 23908,
+      "text": "[LC]画像保存[LF][LF]画像を保存します[LF]よろしいですか？[LF][LF]※画像の保存にはストレージへの[LF]アクセス権限が必要になります",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1780939801,
+      "label": "eTEXTS_DEF_MSG_SEAL_EDIT_SAVE_IMAGE"
+    },
+    {
+      "id": 23909,
+      "text": "このボードのシールを[LF]全てはがしますか？",
+      "layout": 29,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_MSG_SEAL_EDIT_ALL_REMOVE"
+    },
+    {
+      "id": 23910,
+      "text": "このボードに貼れる[LF]シールの上限に達しました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_ERR_SEAL_EDIT_SET_LIMIT"
+    },
+    {
+      "id": 23911,
+      "text": "所持シール一覧",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_SEAL_LIST_TITLE"
+    },
+    {
+      "id": 23912,
+      "text": "シール図鑑",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_SEAL_LIBRARY_TITLE"
+    },
+    {
+      "id": 23913,
+      "text": "ミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_SEAL_MISSION_TITLE"
+    },
+    {
+      "id": 23914,
+      "text": "MM/DD hh:mm ～ MM/DD hh:mm",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_SEAL_MISSION_PERIOD"
+    },
+    {
+      "id": 23915,
+      "text": "%d/%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_SEAL_MISSION_PROGRESS"
+    },
+    {
+      "id": 23916,
+      "text": "[LC]ミッション報酬一覧[LF][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_MSG_SEAL_MISSION_REWARD_LIST"
+    },
+    {
+      "id": 23917,
+      "text": "シールガチャ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_SEAL_GACHA_TITLE"
+    },
+    {
+      "id": 23918,
+      "text": "キャラ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_SEAL_LIBRARY_TAB_1"
+    },
+    {
+      "id": 23919,
+      "text": "その他",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_SEAL_LIBRARY_TAB_2"
+    },
+    {
+      "id": 23920,
+      "text": "%d/%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_GACHA_BOX_REMAINING"
+    },
+    {
+      "id": 23921,
+      "text": "排出残数： %d/%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_GACHA_BOX_REMAINING2"
+    },
+    {
+      "id": 23922,
+      "text": "[LC]排出対象[LF][WIDTH500][LF][NODE]",
+      "layout": 59,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_MSG_GACHA_BOX_DROP_LIST"
+    },
+    {
+      "id": 23923,
+      "text": "[LC]リセット[LF][LF]リセットすると[LF][C6:排出対象が全て復活]します[LF][LF]リセットすると元に戻せませんが[LF]リセットしてもよろしいですか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_MSG_GACHA_BOX_RESET_CONFIRM"
+    },
+    {
+      "id": 23924,
+      "text": "[LF]リセットしました[LF]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_MSG_GACHA_BOX_RESET_DONE"
+    },
+    {
+      "id": 23925,
+      "text": "[LC]排出対象を全て引き切りました[LF][LF]排出対象を全て引いたので[LF]リセットしました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_MSG_GACHA_BOX_COMPLETE"
+    },
+    {
+      "id": 23926,
+      "text": "OK",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_GACHA_BOX_DIALOG_BUTTON_OK"
+    },
+    {
+      "id": 23927,
+      "text": "リセット",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_GACHA_BOX_DIALOG_BUTTON_RESET"
+    },
+    {
+      "id": 23928,
+      "text": "[LC]アイテム詳細[LF][LF][S2][LC]%s[LF5][LC][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_MSG_DETAIL_REWARD_INFO_SEAL_BG"
+    },
+    {
+      "id": 23929,
+      "text": "所持しているシールがありません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_SEAL_LIST_NO_ITEMS"
+    },
+    {
+      "id": 23930,
+      "text": "シールを所持していません",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_ERR_SEAL_EDIT_NO_ITEMS"
+    },
+    {
+      "id": 23931,
+      "text": "繰り返し挑戦可能",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_LOOP_MISSION_LABEL"
+    },
+    {
+      "id": 23932,
+      "text": "[LC]画像保存[LF][LF]ボード画像を保存します[LF]よろしいですか？[LF][LF]※画像の保存にはストレージへの[LF]アクセス権限が必要になります",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_MSG_SEAL_IMAGE_SAVE"
+    },
+    {
+      "id": 23933,
+      "text": "[LC]画像保存完了[LF][LF][LC]画像が保存されました[LF][LC]端末の「写真」アプリ等で[LF]ご確認ください[LC][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_MSG_SEAL_IMAGE_SUCCESS"
+    },
+    {
+      "id": 23934,
+      "text": "[LC]ボード画像保存失敗[LF][LF][LC]ボード画像の保存に失敗しました[LF][LC][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_MSG_SEAL_IMAGE_FAILURE"
+    },
+    {
+      "id": 23935,
+      "text": "[LC]画像保存権限[LF][LF][LC]ストレージへのアクセス権限がないため[LF][LC]画像が保存できませんでした[LF][LF][LC]画像を保存するためには[LF][LC]権限の許可が必要になります[LC][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1780939801,
+      "label": "eTEXTS_DEF_MSG_SEAL_IMAGE_NOT_PERMISSION"
+    },
+    {
+      "id": 23936,
+      "text": "[LC]画像保存権限[LF][LF][LC]ストレージへのアクセス権限がないため[LF][LC]画像が保存できませんでした[LF][LF][LC]画像を保存するためには[LF][LC]権限の許可が必要になります[LC][NODE][LF][LF]端末の[[設定]から[LF][[アプリ]-[[モンスト]-[[許可]にて[LF][[ファイルとメディア]の設定をご確認[LF]下さい",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1780939801,
+      "label": "eTEXTS_DEF_MSG_SEAL_IMAGE_NOT_PERMISSION_2ND"
+    },
+    {
+      "id": 23937,
+      "text": "[SW0.8][C6:シールをたくさん集めて貼って、カスタマイズ！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60100"
+    },
+    {
+      "id": 23938,
+      "text": "[b:ba_help_strikeseal_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60101"
+    },
+    {
+      "id": 23939,
+      "text": "[C6:ガチャ]や[C6:ミッション]で手に入る[C6:シール]を集めて[LF]自由に貼って自分なりのボードを完成させましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60102"
+    },
+    {
+      "id": 23940,
+      "text": "シール設定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_OPTION_CATEGORY_SEAL"
+    },
+    {
+      "id": 23941,
+      "text": "ドラゴンのボードに貼ったシールを[LF]アプリ内のドラゴン背景にも反映",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_OPTION_SEAL_BG_USE"
+    },
+    {
+      "id": 23942,
+      "text": "通常",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_SEAL_MISSION_TAB_1"
+    },
+    {
+      "id": 23943,
+      "text": "期間限定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_SEAL_MISSION_TAB_2"
+    },
+    {
+      "id": 23944,
+      "text": "[C5:シールについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60103"
+    },
+    {
+      "id": 23945,
+      "text": "入手方法",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60104"
+    },
+    {
+      "id": 23946,
+      "text": "[C6:シール専用のガチャ]や[C6:ミッション]で[LF]獲得することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60105"
+    },
+    {
+      "id": 23947,
+      "text": "ガチャ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60106"
+    },
+    {
+      "id": 23948,
+      "text": "１",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60107"
+    },
+    {
+      "id": 23949,
+      "text": "シールのレアリティ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60108"
+    },
+    {
+      "id": 23950,
+      "text": "シールには[C6:3つのレアリティ]があり[LF]レアリティによってデザインが異なります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60109"
+    },
+    {
+      "id": 23951,
+      "text": "[IAN10220031]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60110"
+    },
+    {
+      "id": 23952,
+      "text": "[IAN10220005]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60111"
+    },
+    {
+      "id": 23953,
+      "text": "[IAN10220101]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60112"
+    },
+    {
+      "id": 23954,
+      "text": "[C5:シールの貼り方]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1780939801,
+      "label": "eTEXTS_DEF_60113"
+    },
+    {
+      "id": 23955,
+      "text": "好きなボードを選んでシールを貼ることができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60114"
+    },
+    {
+      "id": 23956,
+      "text": "ボード選択",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60115"
+    },
+    {
+      "id": 23957,
+      "text": "獲得したシールは[C6:ボード]や[C6:ストライカーカード]に[LF]貼ることができます[LF]貼る際は、シールの大きさや角度も設定可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1780939801,
+      "label": "eTEXTS_DEF_60116"
+    },
+    {
+      "id": 23958,
+      "text": "[C6:ドラゴンのボード]にシールを貼ると[LF]ゲーム内の背景にもシールが反映されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60117"
+    },
+    {
+      "id": 23959,
+      "text": "[C5:シールガチャについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60118"
+    },
+    {
+      "id": 23960,
+      "text": "1回につき1枚シールが手に入る[C6:シールガチャ]は[LF][C6:シール玉]を使って回すことができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60119"
+    },
+    {
+      "id": 23961,
+      "text": "排出されたシールは[C6:排出対象から除外]されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60120"
+    },
+    {
+      "id": 23962,
+      "text": "[C6:ゲット！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60121"
+    },
+    {
+      "id": 23963,
+      "text": "[IAN10220001]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60122"
+    },
+    {
+      "id": 23964,
+      "text": "[IAN10220002]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60123"
+    },
+    {
+      "id": 23965,
+      "text": "[IAN10220003]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60124"
+    },
+    {
+      "id": 23966,
+      "text": "排出対象",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60125"
+    },
+    {
+      "id": 23967,
+      "text": "また[C6:リセット]すると[C6:排出対象がすべて復活]します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60126"
+    },
+    {
+      "id": 23968,
+      "text": "リセット",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60127"
+    },
+    {
+      "id": 23969,
+      "text": "[C5:シール玉について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60128"
+    },
+    {
+      "id": 23970,
+      "text": "シール玉は[C6:ガチャ開催期間中]に[LF][C6:1日1回ログインボーナス]で[C6:1個]獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60129"
+    },
+    {
+      "id": 23971,
+      "text": "ログイン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60130"
+    },
+    {
+      "id": 23972,
+      "text": "ログインボーナス",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60131"
+    },
+    {
+      "id": 23973,
+      "text": "[C6:1個][LF][C6:ゲット！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60132"
+    },
+    {
+      "id": 23974,
+      "text": "また上記期間中の[C6:月曜日]は[C6:ストライクシール画面]で[LF]さらにシール玉を[C6:3個]獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60133"
+    },
+    {
+      "id": 23975,
+      "text": "[LC][C6:月曜][LF]ログイン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60134"
+    },
+    {
+      "id": 23976,
+      "text": "シール画面に入る",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60135"
+    },
+    {
+      "id": 23977,
+      "text": "[C6:合計4個][LF][C6:ゲット！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60136"
+    },
+    {
+      "id": 23978,
+      "text": "[C5:ミッションについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60137"
+    },
+    {
+      "id": 23979,
+      "text": "ミッションを達成すると[LF][C6:シール]や[C6:ボード]などが獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60138"
+    },
+    {
+      "id": 23980,
+      "text": "[IAN10220111]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60139"
+    },
+    {
+      "id": 23981,
+      "text": "[IAN10220117]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60140"
+    },
+    {
+      "id": 23982,
+      "text": "期間限定や、繰り返し達成可能なものもあります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1788887798,
+      "label": "eTEXTS_DEF_60141"
+    },
+    {
+      "id": 23983,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20251010_6.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60142"
+    },
+    {
+      "id": 23984,
+      "text": "[IAN10220032]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_60143"
+    },
+    {
+      "id": 23985,
+      "text": "ミッションは全てクリア済みです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470639,
+      "updated_at": 1760470639,
+      "label": "eTEXTS_DEF_SEAL_ALL_LIMITED_MISSION_CLEAR"
+    },
+    {
+      "id": 23986,
+      "text": "柱稽古",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_GYOZA_MISSION_TITLE"
+    },
+    {
+      "id": 23987,
+      "text": "[LC]柱稽古とは[LF][LF][CCB:dlme/help_collabo_gyoza_sb1_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_GYOZA_MISSION_HELP"
+    },
+    {
+      "id": 23988,
+      "text": "10/25 12:00 ~ 11/7 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_GYOZA_MISSION_PERIOD"
+    },
+    {
+      "id": 23989,
+      "text": "柱を順番に巡り稽古をつけてもらおう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_GYOZA_MISSION_DESC1"
+    },
+    {
+      "id": 23990,
+      "text": "[LC]水柱・冨岡義勇の説得",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761562825,
+      "label": "eTEXTS_DEF_GYOZA_MISSION_DESC2"
+    },
+    {
+      "id": 23991,
+      "text": "[LC]元音柱・宇髄天元の稽古",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_GYOZA_MISSION_DESC3"
+    },
+    {
+      "id": 23992,
+      "text": "[LC]霞柱・時透無一郎の稽古",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_GYOZA_MISSION_DESC4"
+    },
+    {
+      "id": 23993,
+      "text": "[LC]恋柱・甘露寺蜜璃の稽古",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_GYOZA_MISSION_DESC5"
+    },
+    {
+      "id": 23994,
+      "text": "[LC]蛇柱・伊黒小芭内の稽古",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_GYOZA_MISSION_DESC6"
+    },
+    {
+      "id": 23995,
+      "text": "[LC]風柱・不死川実弥の稽古",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_GYOZA_MISSION_DESC7"
+    },
+    {
+      "id": 23996,
+      "text": "[LC]岩柱・悲鳴嶼行冥の稽古",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_GYOZA_MISSION_DESC8"
+    },
+    {
+      "id": 23997,
+      "text": "[LC]全稽古完了報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_GYOZA_MISSION_DESC9"
+    },
+    {
+      "id": 23998,
+      "text": "[LC]報酬一覧[LF][WIDTH565][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_GYOZA_MISSION_DIALOG_REWARD_LIST"
+    },
+    {
+      "id": 23999,
+      "text": "[LC]ミッション報酬[LF][WIDTH565][LF]以下の報酬を受け取りました[LF][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_GYOZA_MISSION_DIALOG_REWARD_GET"
+    },
+    {
+      "id": 24000,
+      "text": "[LC]柱稽古[LF][LF]新たな柱稽古が解放されました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_GYOZA_MISSION_DIALOG_RELEASE"
+    },
+    {
+      "id": 24001,
+      "text": "次の稽古解放時間 %d/%d %d:%02d 〜",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_GYOZA_MISSION_RELEASE_TIME"
+    },
+    {
+      "id": 24002,
+      "text": "柱稽古をすべてクリアすると獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_GYOZA_MISSION_DESC10"
+    },
+    {
+      "id": 24003,
+      "text": "[C6:コラボガチャ開催中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59600"
+    },
+    {
+      "id": 24004,
+      "text": "[b:ba_help_collabo_gyoza_00_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59601"
+    },
+    {
+      "id": 24005,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59602"
+    },
+    {
+      "id": 24006,
+      "text": "10/25 12:00〜11/4 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59603"
+    },
+    {
+      "id": 24007,
+      "text": "[C5:コラボ限定ガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59604"
+    },
+    {
+      "id": 24008,
+      "text": "ガチャ[C6:｢超・獣神祭｣]に期間限定で[LF][C6:｢鬼滅の刃｣]コラボ限定キャラが登場中！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59605"
+    },
+    {
+      "id": 24009,
+      "text": "新登場キャラ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59606"
+    },
+    {
+      "id": 24010,
+      "text": "[IPJ12360]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59607"
+    },
+    {
+      "id": 24011,
+      "text": "[IPJ12358]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59608"
+    },
+    {
+      "id": 24012,
+      "text": "[IPJ12364]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59609"
+    },
+    {
+      "id": 24013,
+      "text": "[IPJ12362]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59610"
+    },
+    {
+      "id": 24014,
+      "text": "[IPJ12366]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59611"
+    },
+    {
+      "id": 24015,
+      "text": "ガチャ｢超・獣神祭×鬼滅の刃｣の[LF]10連ガチャではEXおまけとして[LF][C6:コラボグッジョブ]が手に入ります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59612"
+    },
+    {
+      "id": 24016,
+      "text": "[IS746|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59613"
+    },
+    {
+      "id": 24017,
+      "text": "[IS748|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59614"
+    },
+    {
+      "id": 24018,
+      "text": "[IS741|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59615"
+    },
+    {
+      "id": 24019,
+      "text": "[IS743|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59616"
+    },
+    {
+      "id": 24020,
+      "text": "[IS744|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59617"
+    },
+    {
+      "id": 24021,
+      "text": "[IS747|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59618"
+    },
+    {
+      "id": 24022,
+      "text": "[IS745|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59619"
+    },
+    {
+      "id": 24023,
+      "text": "[IS750|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59620"
+    },
+    {
+      "id": 24024,
+      "text": "[IS749|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59621"
+    },
+    {
+      "id": 24025,
+      "text": "さらに[C6:5体のうち1体が確定で排出される][LF][C6:1人1回限り]の無料シングルガチャ[LF][C6:｢1体確定！鬼滅の刃｣]も開催！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59622"
+    },
+    {
+      "id": 24026,
+      "text": "第1弾、第2弾、第3弾キャラ再登場",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59623"
+    },
+    {
+      "id": 24027,
+      "text": "第3弾 再登場キャラ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59624"
+    },
+    {
+      "id": 24028,
+      "text": "[IPJ12354]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59625"
+    },
+    {
+      "id": 24029,
+      "text": "[IPJ12355]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59626"
+    },
+    {
+      "id": 24030,
+      "text": "[IPJ12356]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59627"
+    },
+    {
+      "id": 24031,
+      "text": "[IPJ10605]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59628"
+    },
+    {
+      "id": 24032,
+      "text": "[IPJ10613]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59629"
+    },
+    {
+      "id": 24033,
+      "text": "第2弾 再登場キャラ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59630"
+    },
+    {
+      "id": 24034,
+      "text": "[IPJ10601]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59631"
+    },
+    {
+      "id": 24035,
+      "text": "[IPJ10602]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59632"
+    },
+    {
+      "id": 24036,
+      "text": "[IPJ10603]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59633"
+    },
+    {
+      "id": 24037,
+      "text": "[IPJ9381]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59634"
+    },
+    {
+      "id": 24038,
+      "text": "[IPJ9387]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59635"
+    },
+    {
+      "id": 24039,
+      "text": "第1弾 再登場キャラ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59636"
+    },
+    {
+      "id": 24040,
+      "text": "[IPJ9375]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59637"
+    },
+    {
+      "id": 24041,
+      "text": "[IPJ9376]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59638"
+    },
+    {
+      "id": 24042,
+      "text": "[IPJ9377]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59639"
+    },
+    {
+      "id": 24043,
+      "text": "[IPJ7647]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221801,
+      "updated_at": 1761221801,
+      "label": "eTEXTS_DEF_59640"
+    },
+    {
+      "id": 24044,
+      "text": "[IPJ7649]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59641"
+    },
+    {
+      "id": 24045,
+      "text": "[C6:コラボクエスト出現中]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59642"
+    },
+    {
+      "id": 24046,
+      "text": "[b:ba_help_collabo_gyoza_00_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59643"
+    },
+    {
+      "id": 24047,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59644"
+    },
+    {
+      "id": 24048,
+      "text": "10/25 12:00〜11/4 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59645"
+    },
+    {
+      "id": 24049,
+      "text": "[C5:イベントクエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59646"
+    },
+    {
+      "id": 24050,
+      "text": "[SGBI29440|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59647"
+    },
+    {
+      "id": 24051,
+      "text": "[C5:追憶の書庫]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59648"
+    },
+    {
+      "id": 24052,
+      "text": "[IPJ10616]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59649"
+    },
+    {
+      "id": 24053,
+      "text": "[IPJ10618]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59650"
+    },
+    {
+      "id": 24054,
+      "text": "[IPJ10620]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59651"
+    },
+    {
+      "id": 24055,
+      "text": "[IPJ10625]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59652"
+    },
+    {
+      "id": 24056,
+      "text": "[IPJ10622]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59653"
+    },
+    {
+      "id": 24057,
+      "text": "[IPJ9392]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59654"
+    },
+    {
+      "id": 24058,
+      "text": "[IPJ9395]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59655"
+    },
+    {
+      "id": 24059,
+      "text": "[IPJ9401]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59656"
+    },
+    {
+      "id": 24060,
+      "text": "[IPJ9390]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59657"
+    },
+    {
+      "id": 24061,
+      "text": "[IPJ9399]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59658"
+    },
+    {
+      "id": 24062,
+      "text": "[IPJ7653]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59659"
+    },
+    {
+      "id": 24063,
+      "text": "[IPJ7659]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59660"
+    },
+    {
+      "id": 24064,
+      "text": "[IPJ7661]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59661"
+    },
+    {
+      "id": 24065,
+      "text": "[IPJ7655]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59662"
+    },
+    {
+      "id": 24066,
+      "text": "[IPJ7657]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59663"
+    },
+    {
+      "id": 24067,
+      "text": "[C6:｢上弦の伍｣][C3:｢深い眠り｣][C2:｢手毬鬼と矢印鬼｣]は[LF]1日1回クリアボーナスで[C6:7体]獲得可能、[LF]マルチだと金卵2個以上の排出率がアップします",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59664"
+    },
+    {
+      "id": 24068,
+      "text": "[C6:超究極難易度が登場]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59665"
+    },
+    {
+      "id": 24069,
+      "text": "[b:ba_help_collabo_gyoza_00_3.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59666"
+    },
+    {
+      "id": 24070,
+      "text": "[C5:超究極クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59667"
+    },
+    {
+      "id": 24071,
+      "text": "[SGBI29450|difficulty1]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59668"
+    },
+    {
+      "id": 24072,
+      "text": "このクエストではどのキャラも[LF]本来のラックに[C4:+99]された[C4:運極]状態で[LF]ラックボーナスが獲得できます[LF][LF]クリアすると[C4:修羅 上弦の参 猗窩座]への[LF][C6:獣神化]が解放されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59669"
+    },
+    {
+      "id": 24073,
+      "text": "[IPJ9397]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59670"
+    },
+    {
+      "id": 24074,
+      "text": "[IPJ12369]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59671"
+    },
+    {
+      "id": 24075,
+      "text": "その他にもミッションを達成することで[LF][C6:・修羅 上弦の参 猗窩座のボイスセット][LF][C6:・猗窩座のグッジョブ][LF]を獲得することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59672"
+    },
+    {
+      "id": 24076,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20251023_1.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59673"
+    },
+    {
+      "id": 24077,
+      "text": "[b:ba_help_collabo_gyoza_00_4.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761815694,
+      "updated_at": 1761815694,
+      "label": "eTEXTS_DEF_59674"
+    },
+    {
+      "id": 24078,
+      "text": "[SGBI29460|difficulty1]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761815694,
+      "updated_at": 1761815694,
+      "label": "eTEXTS_DEF_59675"
+    },
+    {
+      "id": 24079,
+      "text": "クリアすると[C3:上弦の弐 童磨]を[LF][C4:運極(ラック+99)]で1体獲得できます[LF][LF]その他にもミッションをクリアすることで[LF][C6:・称号｢蟲柱｣][LF][C6:・上弦の弐 童磨のボイスセット][LF][C6:・童磨のグッジョブ][LF][C6:・コラボ限定ストライカーカード][LF]を獲得することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761815694,
+      "updated_at": 1761815694,
+      "label": "eTEXTS_DEF_59676"
+    },
+    {
+      "id": 24080,
+      "text": "[SW0.85][C6:コラボスターターパックなどのお楽しみ要素も]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59700"
+    },
+    {
+      "id": 24081,
+      "text": "[b:ba_help_collabo_gyoza_01.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59701"
+    },
+    {
+      "id": 24082,
+      "text": "[C5:コラボスターターパック]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59702"
+    },
+    {
+      "id": 24083,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59703"
+    },
+    {
+      "id": 24084,
+      "text": "10/25 12:00〜11/4 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59704"
+    },
+    {
+      "id": 24085,
+      "text": "[C6:ここでのみ入手可能なキャラ]と[LF]各種アイテムがセットとなった[LF][C6:コラボスターターパック]が購入可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59705"
+    },
+    {
+      "id": 24086,
+      "text": "再登場パック コラボ第3弾",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59706"
+    },
+    {
+      "id": 24087,
+      "text": "[IPJ10614]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59707"
+    },
+    {
+      "id": 24088,
+      "text": "再登場パック コラボ第2弾",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59708"
+    },
+    {
+      "id": 24089,
+      "text": "[IPJ9388]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59709"
+    },
+    {
+      "id": 24090,
+      "text": "[C5:フレンドガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59710"
+    },
+    {
+      "id": 24091,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59711"
+    },
+    {
+      "id": 24092,
+      "text": "10/25 12:00〜11/4 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59712"
+    },
+    {
+      "id": 24093,
+      "text": "期間中フレンドガチャから[LF]下記のキャラが排出されるようになります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59713"
+    },
+    {
+      "id": 24094,
+      "text": "[IPJ12371]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59714"
+    },
+    {
+      "id": 24095,
+      "text": "[C5:期間限定ラックボーナス]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59715"
+    },
+    {
+      "id": 24096,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59716"
+    },
+    {
+      "id": 24097,
+      "text": "10/25 12:00〜11/4 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59717"
+    },
+    {
+      "id": 24098,
+      "text": "下記のキャラは期間中[LF]本来のラックに[C4:+99]された[C4:運極]状態で[LF]ラックボーナスが獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59718"
+    },
+    {
+      "id": 24099,
+      "text": "[IPJ12370]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59719"
+    },
+    {
+      "id": 24100,
+      "text": "[C5:その他お楽しみ要素]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59720"
+    },
+    {
+      "id": 24101,
+      "text": "柱稽古",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59721"
+    },
+    {
+      "id": 24102,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20251023_1.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59722"
+    },
+    {
+      "id": 24103,
+      "text": "[C6:稽古を達成して報酬を獲得しよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59800"
+    },
+    {
+      "id": 24104,
+      "text": "[b:ba_help_collabo_gyoza_sb1_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59801"
+    },
+    {
+      "id": 24105,
+      "text": "柱達との稽古に挑戦して報酬を獲得しましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59802"
+    },
+    {
+      "id": 24106,
+      "text": "[C5:稽古について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59803"
+    },
+    {
+      "id": 24107,
+      "text": "稽古を達成すると報酬を獲得することができます[LF][LF]各柱からの[C6:3つの稽古をすべて達成]すると、[LF][C6:次の柱との稽古が可能]になります[LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59804"
+    },
+    {
+      "id": 24108,
+      "text": "すべて達成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59805"
+    },
+    {
+      "id": 24109,
+      "text": "挑戦可能",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59806"
+    },
+    {
+      "id": 24110,
+      "text": "[C5:解放について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59807"
+    },
+    {
+      "id": 24111,
+      "text": "各柱との稽古には[C6:解放日時]があり[LF]それまでは[C6:挑戦することができません][LF][LF]解放前に条件を満たしていたとしても、[LF][C6:稽古は達成されません]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59808"
+    },
+    {
+      "id": 24112,
+      "text": "[C5:報酬について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59809"
+    },
+    {
+      "id": 24113,
+      "text": "各稽古を達成するとコラボキャラや[LF]ボイスセットなどが獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59810"
+    },
+    {
+      "id": 24114,
+      "text": "また、[C6:すべての柱との稽古を達成]することで、[LF]さらに報酬を獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59812"
+    },
+    {
+      "id": 24115,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20251023_1.html#9|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59813"
+    },
+    {
+      "id": 24116,
+      "text": "[IPJ12370]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_59811"
+    },
+    {
+      "id": 24117,
+      "text": "万",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_SEIBO_RAID_UNIT"
+    },
+    {
+      "id": 24118,
+      "text": "%02d/%02d %02d:%02d～%02d/%02d %02d:%02d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_SEIBO_RAID_PAGE_PERIOD"
+    },
+    {
+      "id": 24119,
+      "text": "みんなのBATTLE突破数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_SEIBO_RAID_TOTAL_CLEAR_COUNT_LABEL"
+    },
+    {
+      "id": 24120,
+      "text": "挑戦する",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_SEIBO_RAID_CHALLENGE"
+    },
+    {
+      "id": 24121,
+      "text": "破界の星墓 みんなで突破チャレンジ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_SEIBO_RAID_TITLE"
+    },
+    {
+      "id": 24122,
+      "text": "[SW0.8][LC]破界の星墓 みんなで突破チャレンジとは[LF][LF][CCB:dlme/help_seibo_raid_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_SEIBO_RAID_HELP"
+    },
+    {
+      "id": 24123,
+      "text": "みんなの %s BATTLE突破",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_SEIBO_RAID_TOTAL_CLEAR_REWARD_TITLE"
+    },
+    {
+      "id": 24124,
+      "text": "キリ番 %s BATTLE突破毎",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_SEIBO_RAID_CUTOFF_CLEAR_REWARD_TITLE"
+    },
+    {
+      "id": 24125,
+      "text": "みんなのBATTLE突破報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_SEIBO_RAID_TOTAL_CLEAR_REWARD"
+    },
+    {
+      "id": 24126,
+      "text": "キリ番突破報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_SEIBO_RAID_CUTOFF_CLEAR_REWARD"
+    },
+    {
+      "id": 24127,
+      "text": "報酬獲得対象",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_SEIBO_RAID_REWARD_TARGET_TITLE"
+    },
+    {
+      "id": 24128,
+      "text": "期間中に[C6:破界の星墓で][LF][C6:1BATTLE以上突破すると獲得可能]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_SEIBO_RAID_TOTAL_CLEAR_REWARD_DESCRIPTION"
+    },
+    {
+      "id": 24129,
+      "text": "みんなのBATTLE突破数で[LF][C6:キリの良いBATTLE数を突破した人のみ獲得可能]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_SEIBO_RAID_CUTOFF_CLEAR_REWARD_DESCRIPTION"
+    },
+    {
+      "id": 24130,
+      "text": "集計中",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_SEIBO_RAID_COUNTING_LABEL"
+    },
+    {
+      "id": 24131,
+      "text": "[LC]キリ番突破報酬 獲得履歴[LF][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_SEIBO_RAID_CUTOFF_REWARD_HISTORY"
+    },
+    {
+      "id": 24132,
+      "text": "報酬獲得の履歴はありません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_SEIBO_RAID_NO_REWARD_HISTORY"
+    },
+    {
+      "id": 24133,
+      "text": "%s BATTLE突破",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_SEIBO_RAID_CUTOFF_HISTORY_LABEL"
+    },
+    {
+      "id": 24134,
+      "text": "獲得履歴",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_SEIBO_RAID_OBTAIN_HISTORY"
+    },
+    {
+      "id": 24135,
+      "text": "[C6:%s BATTLEの突破ごとに]獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_SEIBO_RAID_CUTOFF_REWARD_DESCRIPTION_FIX"
+    },
+    {
+      "id": 24136,
+      "text": "[C6:%s BATTLEの突破ごとに]獲得できます[LF]以下のいずれかを[C6:ランダムで1種類獲得]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_SEIBO_RAID_CUTOFF_REWARD_DESCRIPTION_RAND"
+    },
+    {
+      "id": 24137,
+      "text": "※獲得履歴は自身が獲得したもののみが表示され[LF]　最大で直近獲得した50件が表示されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_SEIBO_RAID_CUTOFF_HISTORY_FOOTNOTE"
+    },
+    {
+      "id": 24138,
+      "text": "[LC]みんなのBATTLE突破報酬獲得[LF][LF]以下の報酬を獲得しました[LF20][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1761221802,
+      "updated_at": 1761221802,
+      "label": "eTEXTS_DEF_SEIBO_RAID_TOTAL_REWARD_RECEIVE_DIALOG"
+    }
+  ]
+}

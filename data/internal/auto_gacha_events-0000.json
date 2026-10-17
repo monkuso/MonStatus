@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "table": "auto_gacha_events",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "gacha_group_event_id": 5974,
+      "purchase_item_id": 171,
+      "receivable_end_at": 1785697199,
+      "start_at": 1785869999,
+      "end_at": null,
+      "created_at": 1783855219,
+      "updated_at": 1783855219
+    },
+    {
+      "id": 2,
+      "gacha_group_event_id": 5975,
+      "purchase_item_id": 172,
+      "receivable_end_at": 1785697199,
+      "start_at": 1785869999,
+      "end_at": null,
+      "created_at": 1783855219,
+      "updated_at": 1783855219
+    },
+    {
+      "id": 3,
+      "gacha_group_event_id": 5976,
+      "purchase_item_id": 173,
+      "receivable_end_at": 1785697199,
+      "start_at": 1785869999,
+      "end_at": null,
+      "created_at": 1783855219,
+      "updated_at": 1783855219
+    }
+  ]
+}

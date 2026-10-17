@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "table": "ocean_campaigns",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "season_id": 1,
+      "start_at": 1603206000,
+      "end_at": 1612061999,
+      "created_at": 1603213926,
+      "updated_at": 1603213926,
+      "exchange_end_at": 1612234799
+    },
+    {
+      "id": 2,
+      "season_id": 2,
+      "start_at": 1627873200,
+      "end_at": 1636513199,
+      "created_at": 1627645561,
+      "updated_at": 1627645561,
+      "exchange_end_at": 1636685999
+    },
+    {
+      "id": 3,
+      "season_id": 3,
+      "start_at": 1654916400,
+      "end_at": 1660445999,
+      "created_at": 1654771484,
+      "updated_at": 1654771484,
+      "exchange_end_at": 1660575599
+    },
+    {
+      "id": 4,
+      "season_id": 4,
+      "start_at": 1684465200,
+      "end_at": 1690081199,
+      "created_at": 1684404370,
+      "updated_at": 1684477489,
+      "exchange_end_at": 1690210799
+    },
+    {
+      "id": 5,
+      "season_id": 5,
+      "start_at": 1716519600,
+      "end_at": 1721789999,
+      "created_at": 1716458262,
+      "updated_at": 1716458262,
+      "exchange_end_at": 1721919599
+    }
+  ]
+}

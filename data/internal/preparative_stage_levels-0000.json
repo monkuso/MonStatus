@@ -1,0 +1,817 @@
+{
+  "schemaVersion": 1,
+  "table": "preparative_stage_levels",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "stage_id": 23430010,
+      "level": 1,
+      "experience": 0,
+      "value": 100,
+      "created_at": 1638266461,
+      "updated_at": 1638266461
+    },
+    {
+      "id": 2,
+      "stage_id": 23430010,
+      "level": 2,
+      "experience": 100,
+      "value": 150,
+      "created_at": 1638266461,
+      "updated_at": 1638266461
+    },
+    {
+      "id": 3,
+      "stage_id": 23430010,
+      "level": 3,
+      "experience": 250,
+      "value": 200,
+      "created_at": 1638266461,
+      "updated_at": 1638266461
+    },
+    {
+      "id": 4,
+      "stage_id": 23430010,
+      "level": 4,
+      "experience": 450,
+      "value": 250,
+      "created_at": 1638266461,
+      "updated_at": 1638266461
+    },
+    {
+      "id": 5,
+      "stage_id": 23430010,
+      "level": 5,
+      "experience": 700,
+      "value": 300,
+      "created_at": 1638266461,
+      "updated_at": 1638266461
+    },
+    {
+      "id": 6,
+      "stage_id": 23430010,
+      "level": 6,
+      "experience": 1000,
+      "value": 350,
+      "created_at": 1638266461,
+      "updated_at": 1638266461
+    },
+    {
+      "id": 7,
+      "stage_id": 23430010,
+      "level": 7,
+      "experience": 1350,
+      "value": 400,
+      "created_at": 1638266461,
+      "updated_at": 1638266461
+    },
+    {
+      "id": 8,
+      "stage_id": 23430010,
+      "level": 8,
+      "experience": 1750,
+      "value": 450,
+      "created_at": 1638266461,
+      "updated_at": 1638266461
+    },
+    {
+      "id": 9,
+      "stage_id": 23430010,
+      "level": 9,
+      "experience": 2200,
+      "value": 500,
+      "created_at": 1638266461,
+      "updated_at": 1638266461
+    },
+    {
+      "id": 10,
+      "stage_id": 23430010,
+      "level": 10,
+      "experience": 2700,
+      "value": 550,
+      "created_at": 1638266461,
+      "updated_at": 1638266461
+    },
+    {
+      "id": 11,
+      "stage_id": 23440010,
+      "level": 1,
+      "experience": 0,
+      "value": 100,
+      "created_at": 1638266461,
+      "updated_at": 1638266461
+    },
+    {
+      "id": 12,
+      "stage_id": 23440010,
+      "level": 2,
+      "experience": 100,
+      "value": 150,
+      "created_at": 1638266461,
+      "updated_at": 1638266461
+    },
+    {
+      "id": 13,
+      "stage_id": 23440010,
+      "level": 3,
+      "experience": 250,
+      "value": 200,
+      "created_at": 1638266461,
+      "updated_at": 1638266461
+    },
+    {
+      "id": 14,
+      "stage_id": 23440010,
+      "level": 4,
+      "experience": 450,
+      "value": 250,
+      "created_at": 1638266461,
+      "updated_at": 1638266461
+    },
+    {
+      "id": 15,
+      "stage_id": 23440010,
+      "level": 5,
+      "experience": 700,
+      "value": 300,
+      "created_at": 1638266461,
+      "updated_at": 1638266461
+    },
+    {
+      "id": 16,
+      "stage_id": 23440010,
+      "level": 6,
+      "experience": 1000,
+      "value": 350,
+      "created_at": 1638266461,
+      "updated_at": 1638266461
+    },
+    {
+      "id": 17,
+      "stage_id": 23440010,
+      "level": 7,
+      "experience": 1350,
+      "value": 400,
+      "created_at": 1638266461,
+      "updated_at": 1638266461
+    },
+    {
+      "id": 18,
+      "stage_id": 23440010,
+      "level": 8,
+      "experience": 1750,
+      "value": 450,
+      "created_at": 1638266461,
+      "updated_at": 1638266461
+    },
+    {
+      "id": 19,
+      "stage_id": 23440010,
+      "level": 9,
+      "experience": 2200,
+      "value": 500,
+      "created_at": 1638266461,
+      "updated_at": 1638266461
+    },
+    {
+      "id": 20,
+      "stage_id": 23440010,
+      "level": 10,
+      "experience": 2700,
+      "value": 550,
+      "created_at": 1638266461,
+      "updated_at": 1638266461
+    },
+    {
+      "id": 21,
+      "stage_id": 23450010,
+      "level": 1,
+      "experience": 0,
+      "value": 100,
+      "created_at": 1638266461,
+      "updated_at": 1638266461
+    },
+    {
+      "id": 22,
+      "stage_id": 23450010,
+      "level": 2,
+      "experience": 100,
+      "value": 150,
+      "created_at": 1638266461,
+      "updated_at": 1638266461
+    },
+    {
+      "id": 23,
+      "stage_id": 23450010,
+      "level": 3,
+      "experience": 250,
+      "value": 200,
+      "created_at": 1638266461,
+      "updated_at": 1638266461
+    },
+    {
+      "id": 24,
+      "stage_id": 23450010,
+      "level": 4,
+      "experience": 450,
+      "value": 250,
+      "created_at": 1638266461,
+      "updated_at": 1638266461
+    },
+    {
+      "id": 25,
+      "stage_id": 23450010,
+      "level": 5,
+      "experience": 700,
+      "value": 300,
+      "created_at": 1638266461,
+      "updated_at": 1638266461
+    },
+    {
+      "id": 26,
+      "stage_id": 23450010,
+      "level": 6,
+      "experience": 1000,
+      "value": 350,
+      "created_at": 1638266461,
+      "updated_at": 1638266461
+    },
+    {
+      "id": 27,
+      "stage_id": 23450010,
+      "level": 7,
+      "experience": 1350,
+      "value": 400,
+      "created_at": 1638266461,
+      "updated_at": 1638266461
+    },
+    {
+      "id": 28,
+      "stage_id": 23450010,
+      "level": 8,
+      "experience": 1750,
+      "value": 450,
+      "created_at": 1638266461,
+      "updated_at": 1638266461
+    },
+    {
+      "id": 29,
+      "stage_id": 23450010,
+      "level": 9,
+      "experience": 2200,
+      "value": 500,
+      "created_at": 1638266461,
+      "updated_at": 1638266461
+    },
+    {
+      "id": 30,
+      "stage_id": 23450010,
+      "level": 10,
+      "experience": 2700,
+      "value": 550,
+      "created_at": 1638266461,
+      "updated_at": 1638266461
+    },
+    {
+      "id": 31,
+      "stage_id": 24190010,
+      "level": 1,
+      "experience": 0,
+      "value": 100,
+      "created_at": 1654076293,
+      "updated_at": 1654076293
+    },
+    {
+      "id": 32,
+      "stage_id": 24190010,
+      "level": 2,
+      "experience": 100,
+      "value": 120,
+      "created_at": 1654076293,
+      "updated_at": 1654076293
+    },
+    {
+      "id": 33,
+      "stage_id": 24190010,
+      "level": 3,
+      "experience": 250,
+      "value": 140,
+      "created_at": 1654076293,
+      "updated_at": 1654076293
+    },
+    {
+      "id": 34,
+      "stage_id": 24190010,
+      "level": 4,
+      "experience": 450,
+      "value": 160,
+      "created_at": 1654076293,
+      "updated_at": 1654076293
+    },
+    {
+      "id": 35,
+      "stage_id": 24190010,
+      "level": 5,
+      "experience": 700,
+      "value": 180,
+      "created_at": 1654076293,
+      "updated_at": 1654076293
+    },
+    {
+      "id": 36,
+      "stage_id": 24190010,
+      "level": 6,
+      "experience": 1000,
+      "value": 200,
+      "created_at": 1654076293,
+      "updated_at": 1654076293
+    },
+    {
+      "id": 37,
+      "stage_id": 24190010,
+      "level": 7,
+      "experience": 1350,
+      "value": 280,
+      "created_at": 1654076293,
+      "updated_at": 1654076293
+    },
+    {
+      "id": 38,
+      "stage_id": 24190010,
+      "level": 8,
+      "experience": 1750,
+      "value": 360,
+      "created_at": 1654076293,
+      "updated_at": 1654076293
+    },
+    {
+      "id": 39,
+      "stage_id": 24190010,
+      "level": 9,
+      "experience": 2200,
+      "value": 450,
+      "created_at": 1654076293,
+      "updated_at": 1654076293
+    },
+    {
+      "id": 40,
+      "stage_id": 24190010,
+      "level": 10,
+      "experience": 2700,
+      "value": 550,
+      "created_at": 1654076293,
+      "updated_at": 1654076293
+    },
+    {
+      "id": 41,
+      "stage_id": 24200010,
+      "level": 1,
+      "experience": 0,
+      "value": 100,
+      "created_at": 1654076293,
+      "updated_at": 1654076293
+    },
+    {
+      "id": 42,
+      "stage_id": 24200010,
+      "level": 2,
+      "experience": 100,
+      "value": 120,
+      "created_at": 1654076293,
+      "updated_at": 1654076293
+    },
+    {
+      "id": 43,
+      "stage_id": 24200010,
+      "level": 3,
+      "experience": 250,
+      "value": 140,
+      "created_at": 1654076293,
+      "updated_at": 1654076293
+    },
+    {
+      "id": 44,
+      "stage_id": 24200010,
+      "level": 4,
+      "experience": 450,
+      "value": 160,
+      "created_at": 1654076293,
+      "updated_at": 1654076293
+    },
+    {
+      "id": 45,
+      "stage_id": 24200010,
+      "level": 5,
+      "experience": 700,
+      "value": 180,
+      "created_at": 1654076293,
+      "updated_at": 1654076293
+    },
+    {
+      "id": 46,
+      "stage_id": 24200010,
+      "level": 6,
+      "experience": 1000,
+      "value": 200,
+      "created_at": 1654076293,
+      "updated_at": 1654076293
+    },
+    {
+      "id": 47,
+      "stage_id": 24200010,
+      "level": 7,
+      "experience": 1350,
+      "value": 280,
+      "created_at": 1654076293,
+      "updated_at": 1654076293
+    },
+    {
+      "id": 48,
+      "stage_id": 24200010,
+      "level": 8,
+      "experience": 1750,
+      "value": 360,
+      "created_at": 1654076293,
+      "updated_at": 1654076293
+    },
+    {
+      "id": 49,
+      "stage_id": 24200010,
+      "level": 9,
+      "experience": 2200,
+      "value": 450,
+      "created_at": 1654076293,
+      "updated_at": 1654076293
+    },
+    {
+      "id": 50,
+      "stage_id": 24200010,
+      "level": 10,
+      "experience": 2700,
+      "value": 550,
+      "created_at": 1654076293,
+      "updated_at": 1654076293
+    },
+    {
+      "id": 51,
+      "stage_id": 24210010,
+      "level": 1,
+      "experience": 0,
+      "value": 100,
+      "created_at": 1654076293,
+      "updated_at": 1654076293
+    },
+    {
+      "id": 52,
+      "stage_id": 24210010,
+      "level": 2,
+      "experience": 100,
+      "value": 120,
+      "created_at": 1654076293,
+      "updated_at": 1654076293
+    },
+    {
+      "id": 53,
+      "stage_id": 24210010,
+      "level": 3,
+      "experience": 250,
+      "value": 140,
+      "created_at": 1654076293,
+      "updated_at": 1654076293
+    },
+    {
+      "id": 54,
+      "stage_id": 24210010,
+      "level": 4,
+      "experience": 450,
+      "value": 160,
+      "created_at": 1654076293,
+      "updated_at": 1654076293
+    },
+    {
+      "id": 55,
+      "stage_id": 24210010,
+      "level": 5,
+      "experience": 700,
+      "value": 180,
+      "created_at": 1654076293,
+      "updated_at": 1654076293
+    },
+    {
+      "id": 56,
+      "stage_id": 24210010,
+      "level": 6,
+      "experience": 1000,
+      "value": 200,
+      "created_at": 1654076293,
+      "updated_at": 1654076293
+    },
+    {
+      "id": 57,
+      "stage_id": 24210010,
+      "level": 7,
+      "experience": 1350,
+      "value": 280,
+      "created_at": 1654076293,
+      "updated_at": 1654076293
+    },
+    {
+      "id": 58,
+      "stage_id": 24210010,
+      "level": 8,
+      "experience": 1750,
+      "value": 360,
+      "created_at": 1654076293,
+      "updated_at": 1654076293
+    },
+    {
+      "id": 59,
+      "stage_id": 24210010,
+      "level": 9,
+      "experience": 2200,
+      "value": 450,
+      "created_at": 1654076293,
+      "updated_at": 1654076293
+    },
+    {
+      "id": 60,
+      "stage_id": 24210010,
+      "level": 10,
+      "experience": 2700,
+      "value": 550,
+      "created_at": 1654076293,
+      "updated_at": 1654076293
+    },
+    {
+      "id": 61,
+      "stage_id": 26170010,
+      "level": 1,
+      "experience": 0,
+      "value": 100,
+      "created_at": 1694686789,
+      "updated_at": 1694686789
+    },
+    {
+      "id": 62,
+      "stage_id": 26170010,
+      "level": 2,
+      "experience": 100,
+      "value": 120,
+      "created_at": 1694686789,
+      "updated_at": 1694686789
+    },
+    {
+      "id": 63,
+      "stage_id": 26170010,
+      "level": 3,
+      "experience": 250,
+      "value": 140,
+      "created_at": 1694686789,
+      "updated_at": 1694686789
+    },
+    {
+      "id": 64,
+      "stage_id": 26170010,
+      "level": 4,
+      "experience": 450,
+      "value": 160,
+      "created_at": 1694686789,
+      "updated_at": 1694686789
+    },
+    {
+      "id": 65,
+      "stage_id": 26170010,
+      "level": 5,
+      "experience": 700,
+      "value": 180,
+      "created_at": 1694686789,
+      "updated_at": 1694686789
+    },
+    {
+      "id": 66,
+      "stage_id": 26170010,
+      "level": 6,
+      "experience": 1000,
+      "value": 200,
+      "created_at": 1694686789,
+      "updated_at": 1694686789
+    },
+    {
+      "id": 67,
+      "stage_id": 26170010,
+      "level": 7,
+      "experience": 1350,
+      "value": 280,
+      "created_at": 1694686789,
+      "updated_at": 1694686789
+    },
+    {
+      "id": 68,
+      "stage_id": 26170010,
+      "level": 8,
+      "experience": 1750,
+      "value": 360,
+      "created_at": 1694686789,
+      "updated_at": 1694686789
+    },
+    {
+      "id": 69,
+      "stage_id": 26170010,
+      "level": 9,
+      "experience": 2200,
+      "value": 450,
+      "created_at": 1694686789,
+      "updated_at": 1694686789
+    },
+    {
+      "id": 70,
+      "stage_id": 26170010,
+      "level": 10,
+      "experience": 2700,
+      "value": 550,
+      "created_at": 1694686789,
+      "updated_at": 1694686789
+    },
+    {
+      "id": 71,
+      "stage_id": 26180010,
+      "level": 1,
+      "experience": 0,
+      "value": 100,
+      "created_at": 1694686789,
+      "updated_at": 1694686789
+    },
+    {
+      "id": 72,
+      "stage_id": 26180010,
+      "level": 2,
+      "experience": 100,
+      "value": 120,
+      "created_at": 1694686789,
+      "updated_at": 1694686789
+    },
+    {
+      "id": 73,
+      "stage_id": 26180010,
+      "level": 3,
+      "experience": 250,
+      "value": 140,
+      "created_at": 1694686789,
+      "updated_at": 1694686789
+    },
+    {
+      "id": 74,
+      "stage_id": 26180010,
+      "level": 4,
+      "experience": 450,
+      "value": 160,
+      "created_at": 1694686789,
+      "updated_at": 1694686789
+    },
+    {
+      "id": 75,
+      "stage_id": 26180010,
+      "level": 5,
+      "experience": 700,
+      "value": 180,
+      "created_at": 1694686789,
+      "updated_at": 1694686789
+    },
+    {
+      "id": 76,
+      "stage_id": 26180010,
+      "level": 6,
+      "experience": 1000,
+      "value": 200,
+      "created_at": 1694686789,
+      "updated_at": 1694686789
+    },
+    {
+      "id": 77,
+      "stage_id": 26180010,
+      "level": 7,
+      "experience": 1350,
+      "value": 280,
+      "created_at": 1694686789,
+      "updated_at": 1694686789
+    },
+    {
+      "id": 78,
+      "stage_id": 26180010,
+      "level": 8,
+      "experience": 1750,
+      "value": 360,
+      "created_at": 1694686789,
+      "updated_at": 1694686789
+    },
+    {
+      "id": 79,
+      "stage_id": 26180010,
+      "level": 9,
+      "experience": 2200,
+      "value": 450,
+      "created_at": 1694686789,
+      "updated_at": 1694686789
+    },
+    {
+      "id": 80,
+      "stage_id": 26180010,
+      "level": 10,
+      "experience": 2700,
+      "value": 550,
+      "created_at": 1694686789,
+      "updated_at": 1694686789
+    },
+    {
+      "id": 81,
+      "stage_id": 26190010,
+      "level": 1,
+      "experience": 0,
+      "value": 100,
+      "created_at": 1694686789,
+      "updated_at": 1694686789
+    },
+    {
+      "id": 82,
+      "stage_id": 26190010,
+      "level": 2,
+      "experience": 100,
+      "value": 120,
+      "created_at": 1694686789,
+      "updated_at": 1694686789
+    },
+    {
+      "id": 83,
+      "stage_id": 26190010,
+      "level": 3,
+      "experience": 250,
+      "value": 140,
+      "created_at": 1694686789,
+      "updated_at": 1694686789
+    },
+    {
+      "id": 84,
+      "stage_id": 26190010,
+      "level": 4,
+      "experience": 450,
+      "value": 160,
+      "created_at": 1694686789,
+      "updated_at": 1694686789
+    },
+    {
+      "id": 85,
+      "stage_id": 26190010,
+      "level": 5,
+      "experience": 700,
+      "value": 180,
+      "created_at": 1694686789,
+      "updated_at": 1694686789
+    },
+    {
+      "id": 86,
+      "stage_id": 26190010,
+      "level": 6,
+      "experience": 1000,
+      "value": 200,
+      "created_at": 1694686789,
+      "updated_at": 1694686789
+    },
+    {
+      "id": 87,
+      "stage_id": 26190010,
+      "level": 7,
+      "experience": 1350,
+      "value": 280,
+      "created_at": 1694686789,
+      "updated_at": 1694686789
+    },
+    {
+      "id": 88,
+      "stage_id": 26190010,
+      "level": 8,
+      "experience": 1750,
+      "value": 360,
+      "created_at": 1694686789,
+      "updated_at": 1694686789
+    },
+    {
+      "id": 89,
+      "stage_id": 26190010,
+      "level": 9,
+      "experience": 2200,
+      "value": 450,
+      "created_at": 1694686789,
+      "updated_at": 1694686789
+    },
+    {
+      "id": 90,
+      "stage_id": 26190010,
+      "level": 10,
+      "experience": 2700,
+      "value": 550,
+      "created_at": 1694686789,
+      "updated_at": 1694686789
+    }
+  ]
+}

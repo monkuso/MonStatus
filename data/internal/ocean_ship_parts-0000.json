@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "table": "ocean_ship_parts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "name": "エンジン",
+      "level": 1,
+      "require_point": 1,
+      "group_id": 1,
+      "description": "出航時の航海時間を[C6:8％短縮]する",
+      "image_name": "ocean_icon_parts_01.png",
+      "created_at": 1654771486,
+      "updated_at": 1654771486
+    },
+    {
+      "id": 2,
+      "name": "エンジン",
+      "level": 2,
+      "require_point": 2,
+      "group_id": 1,
+      "description": "出航時の航海時間を[C6:16.5％短縮]する",
+      "image_name": "ocean_icon_parts_01.png",
+      "created_at": 1654771486,
+      "updated_at": 1654771486
+    },
+    {
+      "id": 3,
+      "name": "エンジン",
+      "level": 3,
+      "require_point": 3,
+      "group_id": 1,
+      "description": "出航時の航海時間を[C6:25％短縮]する",
+      "image_name": "ocean_icon_parts_01.png",
+      "created_at": 1654771486,
+      "updated_at": 1654771486
+    },
+    {
+      "id": 4,
+      "name": "エンジン",
+      "level": 4,
+      "require_point": 4,
+      "group_id": 1,
+      "description": "出航時の航海時間を[C6:37.5％短縮]する",
+      "image_name": "ocean_icon_parts_01.png",
+      "created_at": 1654771486,
+      "updated_at": 1654771486
+    },
+    {
+      "id": 5,
+      "name": "海底探査機",
+      "level": 1,
+      "require_point": 2,
+      "group_id": 2,
+      "description": "アポストロスのスピードクリア報酬が[C6:2倍]",
+      "image_name": "ocean_icon_parts_02.png",
+      "created_at": 1654771486,
+      "updated_at": 1654771486
+    },
+    {
+      "id": 6,
+      "name": "海底探査機",
+      "level": 2,
+      "require_point": 3,
+      "group_id": 2,
+      "description": "アポストロスのスピードクリア報酬が[C6:3倍]",
+      "image_name": "ocean_icon_parts_02.png",
+      "created_at": 1654771486,
+      "updated_at": 1654771486
+    },
+    {
+      "id": 7,
+      "name": "海底探査機",
+      "level": 3,
+      "require_point": 4,
+      "group_id": 2,
+      "description": "アポストロスのスピードクリア報酬が[C6:4倍]",
+      "image_name": "ocean_icon_parts_02.png",
+      "created_at": 1654771486,
+      "updated_at": 1654771486
+    },
+    {
+      "id": 8,
+      "name": "船首像",
+      "level": 1,
+      "require_point": 2,
+      "group_id": 3,
+      "description": "秘海の冒険船内の金卵排出率が[C6:1.2倍]",
+      "image_name": "ocean_icon_parts_03.png",
+      "created_at": 1654771486,
+      "updated_at": 1654771486
+    },
+    {
+      "id": 9,
+      "name": "船首像",
+      "level": 2,
+      "require_point": 3,
+      "group_id": 3,
+      "description": "秘海の冒険船内の金卵排出率が[C6:1.5倍]",
+      "image_name": "ocean_icon_parts_03.png",
+      "created_at": 1654771486,
+      "updated_at": 1654771486
+    },
+    {
+      "id": 10,
+      "name": "船首像",
+      "level": 3,
+      "require_point": 4,
+      "group_id": 3,
+      "description": "秘海の冒険船内の金卵排出率が[C6:2倍]",
+      "image_name": "ocean_icon_parts_03.png",
+      "created_at": 1654771486,
+      "updated_at": 1654771486
+    },
+    {
+      "id": 11,
+      "name": "小型船",
+      "level": 1,
+      "require_point": 10,
+      "group_id": 4,
+      "description": "出航できる[C6:海域の数が増加]",
+      "image_name": "ocean_icon_parts_04.png",
+      "created_at": 1654771486,
+      "updated_at": 1654771486
+    },
+    {
+      "id": 12,
+      "name": "リール",
+      "level": 1,
+      "require_point": 5,
+      "group_id": 5,
+      "description": "お宝釣りの[C6:回数+1]",
+      "image_name": "ocean_icon_parts_05.png",
+      "created_at": 1654771486,
+      "updated_at": 1656318693
+    },
+    {
+      "id": 13,
+      "name": "リール",
+      "level": 2,
+      "require_point": 5,
+      "group_id": 5,
+      "description": "お宝釣りの[C6:回数+1]＆稀に[C6:豪華な宝箱]が出現！",
+      "image_name": "ocean_icon_parts_05.png",
+      "created_at": 1654771486,
+      "updated_at": 1656318693
+    }
+  ]
+}

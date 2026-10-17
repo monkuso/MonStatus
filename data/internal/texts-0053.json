@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 1,
+  "table": "texts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 13635,
+      "text": "[IP941]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1677838567,
+      "updated_at": 1677838567,
+      "label": "eTEXTS_DEF_37321"
+    },
+    {
+      "id": 13636,
+      "text": "[C6:ターンリミットが0]になるまでに[LF][C6:ボス]または[C6:すべての敵を撃破]するとステージクリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1677838567,
+      "updated_at": 1677838567,
+      "label": "eTEXTS_DEF_37322"
+    },
+    {
+      "id": 13637,
+      "text": "[C6:撃破！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1677838567,
+      "updated_at": 1677838567,
+      "label": "eTEXTS_DEF_37323"
+    },
+    {
+      "id": 13638,
+      "text": "※一部の撃破しなくても良い敵が出現します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1677838567,
+      "updated_at": 1677838567,
+      "label": "eTEXTS_DEF_37325"
+    },
+    {
+      "id": 13639,
+      "text": "ステージ途中で[C6:MENUから再挑戦を選択]し、[LF]初めからやり直すことも可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1677838567,
+      "updated_at": 1677838567,
+      "label": "eTEXTS_DEF_37326"
+    },
+    {
+      "id": 13640,
+      "text": "再挑戦",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1677838567,
+      "updated_at": 1677838567,
+      "label": "eTEXTS_DEF_37327"
+    },
+    {
+      "id": 13641,
+      "text": "[C5:進め方]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1677838567,
+      "updated_at": 1677838567,
+      "label": "eTEXTS_DEF_37328"
+    },
+    {
+      "id": 13642,
+      "text": "[C6:ステージをクリアすると報酬を獲得]でき、[LF]次のステージに挑むことができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1677838567,
+      "updated_at": 1677838567,
+      "label": "eTEXTS_DEF_37329"
+    },
+    {
+      "id": 13643,
+      "text": "[C6:報酬獲得！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1677838567,
+      "updated_at": 1677838567,
+      "label": "eTEXTS_DEF_37330"
+    },
+    {
+      "id": 13644,
+      "text": "[C6:挑戦可能！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1677838567,
+      "updated_at": 1677838567,
+      "label": "eTEXTS_DEF_37331"
+    },
+    {
+      "id": 13645,
+      "text": "エリアの道中にある宝箱は[C6:一つ手前]のステージを[LF]クリアすると開封可能になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1677838567,
+      "updated_at": 1677838567,
+      "label": "eTEXTS_DEF_37335"
+    },
+    {
+      "id": 13646,
+      "text": "[C6:開封可能！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1677838567,
+      "updated_at": 1677838567,
+      "label": "eTEXTS_DEF_37337"
+    },
+    {
+      "id": 13647,
+      "text": "ランドは全部で4つのエリアに分かれており、[LF][C6:それぞれ決められた日時に解放]されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1677838567,
+      "updated_at": 1677838567,
+      "label": "eTEXTS_DEF_37338"
+    },
+    {
+      "id": 13648,
+      "text": "[LC]エリア1[LF][LC]アドベンチャーエリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1677838567,
+      "updated_at": 1677838567,
+      "label": "eTEXTS_DEF_37339"
+    },
+    {
+      "id": 13649,
+      "text": "[LC]エリア2[LF][LC]スイーツエリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1677838567,
+      "updated_at": 1677838567,
+      "label": "eTEXTS_DEF_37340"
+    },
+    {
+      "id": 13650,
+      "text": "[LC]エリア3[LF][LC]ウエスタンエリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1677838567,
+      "updated_at": 1677838567,
+      "label": "eTEXTS_DEF_37341"
+    },
+    {
+      "id": 13651,
+      "text": "[LC]エリア4[LF][LC]ホラーエリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1677838567,
+      "updated_at": 1677838567,
+      "label": "eTEXTS_DEF_37342"
+    },
+    {
+      "id": 13652,
+      "text": "[C5:スターについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1677838567,
+      "updated_at": 1677838567,
+      "label": "eTEXTS_DEF_37343"
+    },
+    {
+      "id": 13653,
+      "text": "ミッションについて",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1677838567,
+      "updated_at": 1677838567,
+      "label": "eTEXTS_DEF_37344"
+    },
+    {
+      "id": 13654,
+      "text": "[C6:各ステージには3つのミッション]が用意されています",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1677838567,
+      "updated_at": 1677838567,
+      "label": "eTEXTS_DEF_37345"
+    },
+    {
+      "id": 13655,
+      "text": "ステージクリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1677838567,
+      "updated_at": 1677838567,
+      "label": "eTEXTS_DEF_37347"
+    },
+    {
+      "id": 13656,
+      "text": "5ショット以内にクリアせよ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1677838567,
+      "updated_at": 1677838567,
+      "label": "eTEXTS_DEF_37348"
+    },
+    {
+      "id": 13657,
+      "text": "3ショット以内にクリアせよ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1677838567,
+      "updated_at": 1677838567,
+      "label": "eTEXTS_DEF_37349"
+    },
+    {
+      "id": 13658,
+      "text": "※達成条件はステージによって異なります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1677838567,
+      "updated_at": 1677838567,
+      "label": "eTEXTS_DEF_37350"
+    },
+    {
+      "id": 13659,
+      "text": "スターの獲得方法",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1677838567,
+      "updated_at": 1677838567,
+      "label": "eTEXTS_DEF_37351"
+    },
+    {
+      "id": 13660,
+      "text": "ミッションを達成すると[C6:スター]を獲得でき、[LF][C6:集めたスター数に応じて報酬]をゲットできます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1677838567,
+      "updated_at": 1677838567,
+      "label": "eTEXTS_DEF_37352"
+    },
+    {
+      "id": 13661,
+      "text": "[C6:ミッション2つ達成]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1677838567,
+      "updated_at": 1677838567,
+      "label": "eTEXTS_DEF_37353"
+    },
+    {
+      "id": 13662,
+      "text": "[C6:＋2]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1677838567,
+      "updated_at": 1677838567,
+      "label": "eTEXTS_DEF_37354"
+    },
+    {
+      "id": 13663,
+      "text": "[C6:20]/54",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1677838567,
+      "updated_at": 1677838567,
+      "label": "eTEXTS_DEF_37355"
+    },
+    {
+      "id": 13664,
+      "text": "[C6:ゲット！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1677838567,
+      "updated_at": 1677838567,
+      "label": "eTEXTS_DEF_37356"
+    },
+    {
+      "id": 13665,
+      "text": "特別な関門",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1677838567,
+      "updated_at": 1677838567,
+      "label": "eTEXTS_DEF_37357"
+    },
+    {
+      "id": 13666,
+      "text": "またルートの途中では[C6:一定数のスターを集めないと][LF][C6:先へ進めない]関門も登場します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1677838567,
+      "updated_at": 1677838567,
+      "label": "eTEXTS_DEF_37358"
+    },
+    {
+      "id": 13667,
+      "text": "[C6:0]/96",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1677838567,
+      "updated_at": 1677838567,
+      "label": "eTEXTS_DEF_37359"
+    },
+    {
+      "id": 13668,
+      "text": "※アルゴリズムランドのより詳細な説明は[u:https://www.monster-strike.com/news/20230302_4.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1677838567,
+      "updated_at": 1677838567,
+      "label": "eTEXTS_DEF_37360"
+    },
+    {
+      "id": 13669,
+      "text": "4/8 12:00～4/15 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_37903"
+    },
+    {
+      "id": 13670,
+      "text": "[C5:コラボ限定ガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_37904"
+    },
+    {
+      "id": 13671,
+      "text": "ガチャ[C6:｢激・獣神祭｣]に期間限定で[LF][C6:｢かぐや様は告らせたい｣]コラボ限定キャラが登場中！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_37905"
+    },
+    {
+      "id": 13672,
+      "text": "[IPJ10364]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_37906"
+    },
+    {
+      "id": 13673,
+      "text": "[IPJ10368]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_37907"
+    },
+    {
+      "id": 13674,
+      "text": "[IPJ10366]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_37908"
+    },
+    {
+      "id": 13675,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20230406_1.html#1|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_37909"
+    },
+    {
+      "id": 13676,
+      "text": "[SW0.82][C6:1日5回挑戦可能なコラボ限定クエスト出現中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1681115836,
+      "label": "eTEXTS_DEF_37910"
+    },
+    {
+      "id": 13677,
+      "text": "[b:ba_help_collabo_heian_00_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_37911"
+    },
+    {
+      "id": 13678,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_37912"
+    },
+    {
+      "id": 13679,
+      "text": "4/8 12:00～4/15 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_37913"
+    },
+    {
+      "id": 13680,
+      "text": "[C5:コラボ限定クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_37914"
+    },
+    {
+      "id": 13681,
+      "text": "コラボクエスト[C6:｢恋愛頭脳戦｣]をクリアすると[LF][C6:千花のボードゲーム]を遊ぶことができます[LF][LF]さらに報酬として[C4:生徒会書記 藤原千花]を[LF]獲得することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_37915"
+    },
+    {
+      "id": 13682,
+      "text": "ソロ・ホスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_37916"
+    },
+    {
+      "id": 13683,
+      "text": "ゲスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_37917"
+    },
+    {
+      "id": 13684,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20230209_1.html#6|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1677056693,
+      "updated_at": 1677056693,
+      "label": "eTEXTS_DEF_36877"
+    },
+    {
+      "id": 13685,
+      "text": "[IPJ10369]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_37918"
+    },
+    {
+      "id": 13686,
+      "text": "[C6:｢恋愛頭脳戦｣]はソロ・ホストでは1日5回[LF]ゲストでは何度でもプレイ可能なクエストです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1681115836,
+      "label": "eTEXTS_DEF_37919"
+    },
+    {
+      "id": 13687,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20230406_1.html#3|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_37920"
+    },
+    {
+      "id": 13688,
+      "text": "[C6:1日5回]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1681115836,
+      "label": "eTEXTS_DEF_37921"
+    },
+    {
+      "id": 13689,
+      "text": "[C6:何度でも獲得可能！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_37922"
+    },
+    {
+      "id": 13690,
+      "text": "[C6:期間限定ラックボーナス！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38000"
+    },
+    {
+      "id": 13691,
+      "text": "[b:ba_help_collabo_heian_01_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38001"
+    },
+    {
+      "id": 13692,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38002"
+    },
+    {
+      "id": 13693,
+      "text": "4/8 12:00～4/15 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38003"
+    },
+    {
+      "id": 13694,
+      "text": "[C5:期間限定ラック+99]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38004"
+    },
+    {
+      "id": 13695,
+      "text": "以下のキャラはコラボ期間中、[LF]本来のラックに[C4:+99]された[C4:運極]状態で、[LF]ラックボーナスが獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38005"
+    },
+    {
+      "id": 13696,
+      "text": "コラボ期間中",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38006"
+    },
+    {
+      "id": 13697,
+      "text": "[IPJ10369]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38007"
+    },
+    {
+      "id": 13698,
+      "text": "[LUCK]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38008"
+    },
+    {
+      "id": 13699,
+      "text": "[C4:+99]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38009"
+    },
+    {
+      "id": 13700,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20230406_1.html#8|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38010"
+    },
+    {
+      "id": 13701,
+      "text": "[C6:他にもコラボ限定のお楽しみ要素満載]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38011"
+    },
+    {
+      "id": 13702,
+      "text": "[b:ba_help_collabo_heian_01_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38012"
+    },
+    {
+      "id": 13703,
+      "text": "詳細は各コラボページを確認しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38013"
+    },
+    {
+      "id": 13704,
+      "text": "千花のボードゲーム",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38014"
+    },
+    {
+      "id": 13705,
+      "text": "[C6:友達と協力してゴールを目指せ！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38100"
+    },
+    {
+      "id": 13706,
+      "text": "[b:ba_help_collabo_heian_dice_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38101"
+    },
+    {
+      "id": 13707,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38102"
+    },
+    {
+      "id": 13708,
+      "text": "4/8 12:00～4/15 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38103"
+    },
+    {
+      "id": 13709,
+      "text": "[C5:遊び方]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38104"
+    },
+    {
+      "id": 13710,
+      "text": "コラボクエスト[C6:｢恋愛頭脳戦｣]をクリアすると[LF][C6:千花のボードゲーム]を遊ぶことができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38105"
+    },
+    {
+      "id": 13711,
+      "text": "恋愛頭脳戦",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38106"
+    },
+    {
+      "id": 13712,
+      "text": "[C6:何度でも獲得可能！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38135"
+    },
+    {
+      "id": 13713,
+      "text": "[C6:プレイ可能！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38108"
+    },
+    {
+      "id": 13714,
+      "text": "クエストクリアにつき1回サイコロが振れ、[LF]止まったマスに応じてアイテムが1つ獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38109"
+    },
+    {
+      "id": 13715,
+      "text": "出た数進む",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38110"
+    },
+    {
+      "id": 13716,
+      "text": "[C6:報酬ゲット！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38111"
+    },
+    {
+      "id": 13717,
+      "text": "ソロ・ホストでのクエスト挑戦は[C6:1日5回]となります[LF][C6:ゲストなら何度でも挑戦可能！][LF]友達と協力してゴールを目指そう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1681115836,
+      "label": "eTEXTS_DEF_38112"
+    },
+    {
+      "id": 13718,
+      "text": "ソロ・ホスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38113"
+    },
+    {
+      "id": 13719,
+      "text": "ゲスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38114"
+    },
+    {
+      "id": 13720,
+      "text": "[C6:1日5回]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1681115836,
+      "label": "eTEXTS_DEF_38115"
+    },
+    {
+      "id": 13721,
+      "text": "[C6:何度でも挑戦可能！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38116"
+    },
+    {
+      "id": 13722,
+      "text": "ボードゲームは毎日[C6:AM4時]にリセットされ、[LF]スタート地点から開始となります[LF][C6:リセットされる前にゴールに辿り着きましょう]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38117"
+    },
+    {
+      "id": 13723,
+      "text": "※一度ゴールするとその日は[LF]　サイコロを振ることはできません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38118"
+    },
+    {
+      "id": 13724,
+      "text": "[C5:報酬について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38119"
+    },
+    {
+      "id": 13725,
+      "text": "クエストクリア報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38120"
+    },
+    {
+      "id": 13726,
+      "text": "[C6:｢恋愛頭脳戦｣]をクリアするたびに獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38121"
+    },
+    {
+      "id": 13727,
+      "text": "ソロ・ホスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38122"
+    },
+    {
+      "id": 13728,
+      "text": "ゲスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38123"
+    },
+    {
+      "id": 13729,
+      "text": "[IPJ10369]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38124"
+    },
+    {
+      "id": 13730,
+      "text": "停止マス報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38125"
+    },
+    {
+      "id": 13731,
+      "text": "[C6:停止したマスのキャラ]に応じてランダムで[LF]獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38126"
+    },
+    {
+      "id": 13732,
+      "text": "藤原千花",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38127"
+    },
+    {
+      "id": 13733,
+      "text": "四宮かぐや",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38128"
+    },
+    {
+      "id": 13734,
+      "text": "白銀御行",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38129"
+    },
+    {
+      "id": 13735,
+      "text": "サイコロ使用回数報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38130"
+    },
+    {
+      "id": 13736,
+      "text": "[C6:サイコロを振った累計数]に応じて獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38131"
+    },
+    {
+      "id": 13737,
+      "text": "ゴール回数報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38132"
+    },
+    {
+      "id": 13738,
+      "text": "[C6:ゴールした回数]に応じて獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38133"
+    },
+    {
+      "id": 13739,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20230406_1.html#4|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1680775032,
+      "updated_at": 1680775032,
+      "label": "eTEXTS_DEF_38134"
+    },
+    {
+      "id": 13740,
+      "text": "[LC]選択不可[LF][LF]金卵排出率2倍キャンペーンとの[LF]併用はできません",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_CANT_USE_BOOST_ITEM_GOLD_EGG_DROP_RATE_UP"
+    },
+    {
+      "id": 13741,
+      "text": "特別ミッション報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1688030511,
+      "updated_at": 1688030511,
+      "label": "eTEXTS_DEF_ME_TENKO_SP_MISSION_TITLE"
+    },
+    {
+      "id": 13742,
+      "text": "BATTLE突破報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1688030511,
+      "updated_at": 1688030511,
+      "label": "eTEXTS_DEF_ME_TENKO_BATTALE_MISSION_TITLE"
+    },
+    {
+      "id": 13743,
+      "text": "[LC]BATTLEを指定数突破せよ！[LF]※天魔の孤城｢試練の間｣と｢空中庭園｣のうち[LF]　BATTLE突破数が多い方で判定されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1688030511,
+      "updated_at": 1706752741,
+      "label": "eTEXTS_DEF_ME_TENKO_SP_MISSION_INFO"
+    },
+    {
+      "id": 13744,
+      "text": "%d突破",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1688030511,
+      "updated_at": 1688030511,
+      "label": "eTEXTS_DEF_ME_TENKO_BATTLE_MISSION_UNIT_NAME"
+    },
+    {
+      "id": 13745,
+      "text": "ミッション内容",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1688030511,
+      "updated_at": 1688030511,
+      "label": "eTEXTS_DEF_ME_TENKO_SP_MISSION_ACHIVE"
+    },
+    {
+      "id": 13746,
+      "text": "確定マシマシ5属性ガチャ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1681977124,
+      "updated_at": 1681977124,
+      "label": "eTEXTS_DEF_FIVE_STEP_UP_GACHA_TITLE"
+    },
+    {
+      "id": 13747,
+      "text": "各属性ガチャ[C6:1回だけ]引くことができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1681977124,
+      "updated_at": 1681977124,
+      "label": "eTEXTS_DEF_FIVE_STEP_UP_GACHA_INFO1"
+    },
+    {
+      "id": 13748,
+      "text": "%s回目",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1681977124,
+      "updated_at": 1681977124,
+      "label": "eTEXTS_DEF_FIVE_STEP_UP_GACHA_TIMES"
+    },
+    {
+      "id": 13749,
+      "text": "★6キャラ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1681977124,
+      "updated_at": 1681977124,
+      "label": "eTEXTS_DEF_FIVE_STEP_UP_GACHA_STAR6CHAR"
+    },
+    {
+      "id": 13750,
+      "text": "%d体確定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1681977124,
+      "updated_at": 1681977124,
+      "label": "eTEXTS_DEF_FIVE_STEP_UP_GACHA_PROMISENUM"
+    },
+    {
+      "id": 13751,
+      "text": "うち1体限定確定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1681977124,
+      "updated_at": 1681977124,
+      "label": "eTEXTS_DEF_FIVE_STEP_UP_GACHA_5TH_PROMISEINFO"
+    },
+    {
+      "id": 13752,
+      "text": "%sが[C6:%s]！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1681977124,
+      "updated_at": 1681977124,
+      "label": "eTEXTS_DEF_FIVE_STEP_UP_GACHA_INFO2"
+    },
+    {
+      "id": 13753,
+      "text": "%sが[C6:%s]！[C6:%s]！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1681977124,
+      "updated_at": 1681977124,
+      "label": "eTEXTS_DEF_FIVE_STEP_UP_GACHA_5TH_INFO2"
+    },
+    {
+      "id": 13754,
+      "text": "[LC]エラー[LF][LF]回数上限を超えたため[LF]ガチャを引くとこができません",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1681977124,
+      "updated_at": 1681977124,
+      "label": "eTEXTS_DEF_FIVE_STEP_UP_GACHA_PLAYED_MSG"
+    },
+    {
+      "id": 13755,
+      "text": "[C6:%s]から挑戦可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1679566647,
+      "updated_at": 1679566647,
+      "label": "eTEXTS_DEF_ORACOIN_MISSION_NEXTDAY_INFO1"
+    },
+    {
+      "id": 13758,
+      "text": "[LF]本日分のミッション報酬の受取期限は[LF]%sまで[LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1679566647,
+      "updated_at": 1679566647,
+      "label": "eTEXTS_DEF_ME_ACHIEVE_DETAILS_RECEIVE_LIMIT_DAILY"
+    },
+    {
+      "id": 13759,
+      "text": "[LC]エラー[LF][LF]ミッション報酬の受取期限が切れました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1679566647,
+      "updated_at": 1679566647,
+      "label": "eTEXTS_DEF_ERRMSG_GET_DAILY_ACTION_ACHIEVEMENT_ERROR"
+    },
+    {
+      "id": 13760,
+      "text": "[LC]育成完了[LF][LF]レベルと＋値が最大になりました[LF]超戦型解放画面に戻ります",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_MSG_COMB_MAX_ALERT_FIGHT_TYPE"
+    },
+    {
+      "id": 13761,
+      "text": "ガチャリドラカード終了3日前の正午",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_GACHA_LIDRA_CARD_NOTIFICATIN_OPTION"
+    },
+    {
+      "id": 13762,
+      "text": "期間終了前に通知する",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_MSG_GACHA_LIDRA_CARD_NOTIFICATION_CHECKBOX_LABEL"
+    },
+    {
+      "id": 13763,
+      "text": "もうすぐ終了！ガチャリドラカードを受け取ろう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_NOTIFICATON_CONTENTS_GACHA_LIDRA_CARD"
+    },
+    {
+      "id": 13764,
+      "text": "★5以上キャラがもらえるチャンス！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_NOTIFICATON_TITLE_GACHA_LIDRA_CARD"
+    },
+    {
+      "id": 13765,
+      "text": "極 マルチ専用",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_FILTER_WINDOW_DIFFICULTY_MULTI_ONLY"
+    },
+    {
+      "id": 13766,
+      "text": "マルチ専用",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_FILTER_WINDOW_DIFFICULTY_MULTI_ONLY_PULL_DOWN"
+    },
+    {
+      "id": 13767,
+      "text": "[LC]条件未達成[LF][LF][LC][S2]爆絶3種類クリア者限定クエスト！[LF][LF][LC]轟絶クエストに挑戦するには[LF][LC]いずれかの爆絶クエストを3種類以上[LF][LC]クリアしている必要があります[LF][LF][LC](現在 %d 種類クリア)",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_MSG_STAGE_CONDITION_NOT_ACHIEVED_GOUZETSU"
+    },
+    {
+      "id": 13768,
+      "text": "難易度「%s」を%d種類以上クリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_GROUP_PLAYING_CONDITION_19"
+    },
+    {
+      "id": 13769,
+      "text": "対象キャラクター",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_MISSION_INFO_TARGET_CHARACTERS"
+    },
+    {
+      "id": 13770,
+      "text": "※進化形態は問いません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_MISSION_INFO_TARGET_CHARACTERS_WARNING1"
+    },
+    {
+      "id": 13771,
+      "text": "※記載されている進化形態のみ対象です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_MISSION_INFO_TARGET_CHARACTERS_WARNING2"
+    },
+    {
+      "id": 13772,
+      "text": "[LC]条件未達成[LF][LF][LC][S2]轟絶1種類クリア者限定クエスト！[LF][LF][LC]黎絶クエストに挑戦するには[LF][LC]いずれかの轟絶クエストを1種類以上[LF][LC]クリアしている必要があります",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1698661706,
+      "updated_at": 1698661706,
+      "label": "eTEXTS_DEF_MSG_STAGE_CONDITION_NOT_ACHIEVED_GOUZETSU_PLUS"
+    },
+    {
+      "id": 13773,
+      "text": "[SW0.95]｢%s｣の｢%s｣クリアで解放",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_PREV_STAGE_CHALLENGE_STAGE_BUTTON_WITH_DIFFICULTY"
+    },
+    {
+      "id": 13774,
+      "text": "｢%s｣の｢%s｣クリアで挑戦可",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_GROUP_PLAYING_CONDITION_11_WITH_DIFFICULTY"
+    },
+    {
+      "id": 13775,
+      "text": "｢%s｣の｢%s｣クリアで挑戦可",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_GROUP_PLAYING_CONDITION_6_WITH_DIFFICULTY"
+    },
+    {
+      "id": 13776,
+      "text": "｢%s｣の｢%s｣クリアで挑戦可",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_GROUP_PLAYING_CONDITION_16_WITH_DIFFICULTY"
+    },
+    {
+      "id": 13777,
+      "text": "[GIMMICK:スピード床][LF][LC][IMG:help_gimmick_13_1.png|1.4][IMG:help_gimmick_13_2.png|1.4][IMG:help_gimmick_13_3.png|1.4][LF][LF]ONの状態でふれるとスピードや進行方向が変化する[LF]一度ふれるとOFFになる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_12"
+    },
+    {
+      "id": 13778,
+      "text": "[GIMMICK:加速パネル][LF][LC][IMG:help_gimmick_14.png|1.4][LF][LF]ONの状態でふれるとスピードがアップする[LF]一度ふれるとOFFになる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_13"
+    },
+    {
+      "id": 13779,
+      "text": "[GIMMICK:ハートパネル][LF][LC][IMG:help_gimmick_15.png|1.4][LF][LF]ONの状態でふれるとHPが回復する[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_14"
+    },
+    {
+      "id": 13780,
+      "text": "[GIMMICK:撃種変化パネル][LF][LC][IMG:help_gimmick_16.png|1.4][LF][LF]ONの状態でふれると撃種が変化する[LF]一度ふれるとOFFになる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_15"
+    },
+    {
+      "id": 13781,
+      "text": "[GIMMICK:ニードルパネル][LF][LC][IMG:help_gimmick_17.png|1.4][LF][LF]ふれるとダメージを受ける[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_16"
+    },
+    {
+      "id": 13782,
+      "text": "[GIMMICK:パワーアップパネル][LF][LC][IMG:help_gimmick_18.png|1.4][LF][LF]ONの状態でふれると攻撃力がアップする[LF]一度ふれるとOFFになる[LF]ふれた数に応じて倍率が上がる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_17"
+    },
+    {
+      "id": 13783,
+      "text": "[GIMMICK:ドクロ][LF][LC][IMG:help_gimmick_19.png|1.4][LF][LF]ドクロマークがついた敵を倒すと何か効果が発生する[LF]ただし気絶・マヒ・睡眠状態で倒すと、効果が発生しない[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1696325045,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_18"
+    },
+    {
+      "id": 13784,
+      "text": "[GIMMICK:クロスドクロ][LF][LC][IMG:help_gimmick_20.png|1.4][LF][LF]クロスドクロがついた画面上全ての敵を倒すと何か効果が発生する[LF]ただし気絶・マヒ・睡眠状態で倒すと、効果が発生しない[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1696325045,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_19"
+    },
+    {
+      "id": 13785,
+      "text": "[GIMMICK:チェンジドクロ][LF][LC][b:tips_stage_capture_17.png][LF][LF]チェンジドクロマークがついた敵を倒すと何か効果が発生する[LF]ふれるたびに色が変わり[LF]撃破時の色に応じて起こる効果が異なる[LF]ただし気絶・マヒ・睡眠状態で倒すと、効果が発生しない[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1696325045,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_20"
+    },
+    {
+      "id": 13786,
+      "text": "[GIMMICK:レーザーバリア][LF][LF][LC][IMG:help_gimmick_21.png|2.1][LF][LF]敵の周りに展開され、レーザー攻撃を無効化する[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_21"
+    },
+    {
+      "id": 13787,
+      "text": "[GIMMICK:属性レーザーバリア][LF][LF][LC][IMG:help_gimmick_22.png|2.1][LF][LF]敵の周りに展開され、有利属性以外のレーザー攻撃を無効化する[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_22"
+    },
+    {
+      "id": 13788,
+      "text": "[GIMMICK:プロテクトバリア][LF][LC][IMG:help_gimmick_23.png|1.4][LF][LF]敵の周りに展開され、攻撃を無効化する[LF]一定のダメージを与えると壊れる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_23"
+    },
+    {
+      "id": 13789,
+      "text": "[GIMMICK:パワースイッチ][LF][LC][b:tips_stage_capture_11.png][LF][LF]各スイッチにふれるたびにLVが一段階変化する[LF]画面上すべてのスイッチをLV2にすると[LF]味方全員の攻撃力がアップする[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_24"
+    },
+    {
+      "id": 13790,
+      "text": "[GIMMICK:撃種スピードパネル][LF][LC][IMG:help_gimmick_24_1.png|1.4][IMG:help_gimmick_24_2.png|1.4][LF][LF]ONの状態でふれるとスピードが変化する[LF]一度ふれるとOFFになる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_25"
+    },
+    {
+      "id": 13791,
+      "text": "[GIMMICK:リセットパネル][LF][LC][IMG:help_gimmick_25.png|1.4][LF][LF]ONの状態でふれると状態異常をリセットする[LF]一度ふれるとOFFになる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_26"
+    },
+    {
+      "id": 13792,
+      "text": "[GIMMICK:弱点パワーアップパネル][LF][LC][IMG:help_gimmick_26.png|1.4][LF][LF]ONの状態でふれると弱点への攻撃倍率がアップする[LF]一度ふれるとOFFになる[LF]ふれた数に応じて倍率が上がる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_27"
+    },
+    {
+      "id": 13793,
+      "text": "[GIMMICK:アイテム生成パネル][LF][LC][IMG:help_gimmick_27_1.png|1.4][IMG:help_gimmick_27_2.png|1.4][LF][LF]パネル上に毎ターンアイテムが生成される[LF]獲得すると次ターンは別のアイテムが生成される[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_28"
+    },
+    {
+      "id": 13794,
+      "text": "[GIMMICK:透明スイッチ][LF][LC][IMG:help_gimmick_28.png|1.4][LF][LF]ONの状態でふれると対象の敵の透明状態が変化する[LF]一度ふれるとOFFになる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_29"
+    },
+    {
+      "id": 13795,
+      "text": "[GIMMICK:ウォールチェンジパネル][LF][LC][b:tips_stage_capture_18.png][LF][LF]ONの状態でふれるとカウント数に応じた効果が発生する[LF]一度ふれるとOFFになる[LF]壁にふれるとカウントが進み最大3になる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_30"
+    },
+    {
+      "id": 13796,
+      "text": "[GIMMICK:ランチャーパネル][LF][LC][IMG:help_gimmick_29.png|1.4][LF][LF]最後にふれたランチャーパネルに移動する[LF]次のキャラと同時にショットされる[LF]同じパネルに複数回ふれても効果はない[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_31"
+    },
+    {
+      "id": 13797,
+      "text": "[GIMMICK:パワーアップウォール][LF][LC][b:tips_stage_capture_1.png][LF][LF]ふれたウォール数に応じて攻撃力がアップする[LF]敵にふれると攻撃力は元に戻る[LF]同じパネルに複数回ふれても効果はない[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_32"
+    },
+    {
+      "id": 13798,
+      "text": "[GIMMICK:カウントブーストウォール][LF][LC][b:tips_stage_capture_19.png][LF][LF]ふれた回数に応じて攻撃力がアップする[LF]各ウォール上限がある[LF]ターンが終わると攻撃力が戻る[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_33"
+    },
+    {
+      "id": 13799,
+      "text": "[GIMMICK:加速壁][LF][LC][IMG:help_gimmick_30.png|1.4][LF][LF]ステージの壁に展開され、ふれるとスピードがアップする[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_34"
+    },
+    {
+      "id": 13800,
+      "text": "[GIMMICK:ベクトルウォール][LF][LC][IMG:help_gimmick_31.png|1.4][LF][LF]ふれるとスピードがアップし進行方向が変化する[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_35"
+    },
+    {
+      "id": 13801,
+      "text": "[GIMMICK:ヒーリングウォール][LF][LC][IMG:help_gimmick_32.png|1.4][LF][LF]ステージの壁に展開され、ふれるとHPが回復する[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_36"
+    },
+    {
+      "id": 13802,
+      "text": "[GIMMICK:エレメントエリア][LF][LC][b:tips_stage_capture_3.png][LF][LF]エリア内のキャラは属性効果がアップする[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_37"
+    },
+    {
+      "id": 13803,
+      "text": "[GIMMICK:エレメントパネル][LF][LC][IMG:help_gimmick_33.png|1.4][LF][LF]ふれると周囲にエレメントエリアを展開する[LF]別のパネルにふれるとエレメントエリアはそちらに移る[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_38"
+    },
+    {
+      "id": 13804,
+      "text": "[GIMMICK:エレメントショット][LF][LC][b:tips_stage_capture_15.png][LF][LF]ひっぱる矢印の長さと連動してサブ矢印が表示される[LF]ショットをするとサブ矢印の方向にエレメントショットが発射される[LF]敵に当たるとその周囲にエレメントエリアが展開する[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_39"
+    },
+    {
+      "id": 13805,
+      "text": "[GIMMICK:透明][LF][LF][LC][IMG:help_gimmick_34.png|2.1][LF][LF]対象の敵はふれることが出来ず、ダメージも与えられなくなる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_40"
+    },
+    {
+      "id": 13806,
+      "text": "[GIMMICK:火柱][LF][LC][IMG:help_gimmick_35_1.png|1.4][IMG:help_gimmick_35_2.png|1.4][LF][LF]ターン経過でカウントが進み、0になると火柱が発生する[LF]ふれるとダメージを受け、マヒすることがある[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_41"
+    },
+    {
+      "id": 13807,
+      "text": "[GIMMICK:マルチレイヤガード][LF][LC][b:tips_stage_capture_6.png][LF][LF]ダメージを1しか受けない[LF]一定回数ふれると壊れる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_42"
+    },
+    {
+      "id": 13808,
+      "text": "[GIMMICK:落雷センサー][LF][LC][IMG:help_gimmick_36.png|1.4][LF][LF]ふれるとキャラが停止後に攻撃を受ける[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_43"
+    },
+    {
+      "id": 13809,
+      "text": "[GIMMICK:カウンターセンサー][LF][LC][IMG:help_gimmick_37.png|1.4][LF][LF]ふれると何か効果が発生する[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_44"
+    },
+    {
+      "id": 13810,
+      "text": "[GIMMICK:キャノンベース][LF][LC][IMG:help_gimmick_38.png|1.4][LF][LF]ふれると近くの敵に攻撃を発射する[LF]別のキャノンベースにふれると再度発射可能になる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_45"
+    },
+    {
+      "id": 13811,
+      "text": "[GIMMICK:キャノンユニット][LF][LC][IMG:help_gimmick_39.png|1.4][LF][LF]ふれるとキャラの進行方向に攻撃を発射する[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_46"
+    },
+    {
+      "id": 13812,
+      "text": "[GIMMICK:チェイスビームユニット][LF][LC][IMG:help_gimmick_40.png|1.4][LF][LF]ふれるとキャラを追従する攻撃を発射する[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_47"
+    },
+    {
+      "id": 13813,
+      "text": "[GIMMICK:ボールユニット][LF][LC][IMG:help_gimmick_41_1.png|1.4][IMG:help_gimmick_41_2.png|1.4][LF][LF]ふれるとキャラの進行方向に攻撃を発射する[LF]赤いユニットは反射、青いユニットは貫通の攻撃を発射する[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_48"
+    },
+    {
+      "id": 13814,
+      "text": "[GIMMICK:結界][LF][LC][IMG:help_gimmick_42.png|1.4][LF][LF]通過することができず進行を妨げる[LF]一定回数ふれると壊れる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_49"
+    },
+    {
+      "id": 13815,
+      "text": "[GIMMICK:ディレクションアタック][LF][LF][LC][IMG:help_gimmick_43.png|2.1][LF][LF]ひっぱる矢印の向きと連動して敵が攻撃を行う[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_50"
+    },
+    {
+      "id": 13816,
+      "text": "[GIMMICK:ディレクションガード][LF][LF][LC][IMG:help_gimmick_44.png|2.1][LF][LF]ひっぱる矢印の向きと連動して敵にガードが展開される[LF]ガード側からはダメージを与えられない[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_51"
+    },
+    {
+      "id": 13817,
+      "text": "[GIMMICK:ヒーリングバルーン][LF][LC][IMG:help_gimmick_45.png|1.4][LF][LF]ふれるとバルーンを獲得することができる[LF]味方または敵にふれると対象のHPが回復する[LF]最大4つ所持できる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_52"
+    },
+    {
+      "id": 13818,
+      "text": "[GIMMICK:エナジーコンテナ][LF][LC][b:tips_stage_capture_20.png][LF][LF]エナジーコンテナにふれるとエナジーを獲得し攻撃力がアップする[LF]敵にふれるとエナジーを消費して攻撃する[LF]表示の数だけコンテナから獲得でき最大4つ所持できる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_53"
+    },
+    {
+      "id": 13819,
+      "text": "[GIMMICK:バニッシュボックス][LF][LC][IMG:help_gimmick_46.png|1.4][LF][LF]通過することができず進行を妨げる[LF]最後にふれたバニッシュボックスは次ターン消える[LF]同じボックスに複数回ふれても効果はない[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_54"
+    },
+    {
+      "id": 13820,
+      "text": "[GIMMICK:ダメージスモーク][LF][LC][IMG:help_gimmick_47.png|1.4][LF][LF]ふれるとダメージを受ける[LF]ターン経過または、ふれると消える[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_55"
+    },
+    {
+      "id": 13821,
+      "text": "[GIMMICK:ビジョンベース][LF][LC][IMG:help_gimmick_48.png|1.4][LF][LF]ふれるとそれ以外のビジョンベースから[LF]キャラの分身を発射し攻撃する[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_56"
+    },
+    {
+      "id": 13822,
+      "text": "[GIMMICK:テレポトンネル][LF][LC][IMG:help_gimmick_49.png|1.4][LF][LF]ONの状態でふれると同じ色のテレポトンネルに移動する[LF]一度ふれるとOFFになる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_57"
+    },
+    {
+      "id": 13823,
+      "text": "[GIMMICK:キャラポトンネル][LF][LC][b:tips_stage_capture_21.png][LF][LF]ONの状態で入り口にふれると同じ色の出口に移動する[LF]出口は手番以外のキャラの位置に設置される[LF]一度ふれるとOFFになる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_58"
+    },
+    {
+      "id": 13824,
+      "text": "[GIMMICK:弱点封印][LF][LC][b:tips_stage_capture_13.png][LF][LF]封印された弱点にふれると弱点が出現する[LF]1体の敵に複数の封印がある場合、はじめにふれた弱点のみ出現する[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_59"
+    },
+    {
+      "id": 13825,
+      "text": "[GIMMICK:弱点移動][LF][LC][b:tips_stage_capture_22.png][LF][LF]弱点にふれると弱点が別の位置に移動する[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_60"
+    },
+    {
+      "id": 13826,
+      "text": "[GIMMICK:マーカー][LF][LC][b:tips_stage_capture_23.png][LF][LF]ターン経過で色が変化し赤でターンを終えるとダメージが発生する[LF]敵や味方にふれるとマーカーが移動する[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_61"
+    },
+    {
+      "id": 13827,
+      "text": "[GIMMICK:パワーバトン][LF][LC][b:tips_stage_capture_16.png][LF][LF]パワーバトンを所持しているキャラは攻撃力がアップする[LF]味方にふれるとバトンが受け渡しされる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_62"
+    },
+    {
+      "id": 13828,
+      "text": "[GIMMICK:リング][LF][LC][b:tips_stage_capture_24.png][LF][LF]色に応じて攻撃力が変化する[LF]味方にふれると色が変化する[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_63"
+    },
+    {
+      "id": 13829,
+      "text": "[GIMMICK:レーザージェネレーター][LF][LC][IMG:help_gimmick_50.png|1.4][LF][LF]ふれた壁にレーザージェネレーターを設置する[LF]各壁に1つずつ設置でき、数に応じてレーザーの威力が上がる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_64"
+    },
+    {
+      "id": 13830,
+      "text": "[GIMMICK:キューブ][LF][LC][b:tips_stage_capture_10.png][LF][LF]手番以外のキャラはキューブに覆われ[LF]ふれても通り抜けできなくなる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_65"
+    },
+    {
+      "id": 13831,
+      "text": "[GIMMICK:ドサッソー][LF][LC][IC970|100][IC972|100][IC974|100][IC976|100][IC978|100][LF][LF][LF][LF]種族：鉱物[LF]HITした数しかダメージを受けない[LF]毒など固定ダメージを与えると倒しやすい[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1695658314,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_66"
+    },
+    {
+      "id": 13832,
+      "text": "[GIMMICK:ホイホイ][LF][LC][IC1353|100][IC1354|100][IC1355|100][IC1356|100][IC1357|100][LF][LF][LF][LF]種族：鉱物[LF]ホーミング攻撃を吸収しダメージも軽減する[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1695658314,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_67"
+    },
+    {
+      "id": 13833,
+      "text": "[GIMMICK:ヒラカナイト][LF][LC][b:tips_stage_capture_8.png][LF]種族：聖騎士[LF]ふれると盾で防御をする[LF]別の敵にふれると盾を解除する[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1695658314,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_68"
+    },
+    {
+      "id": 13834,
+      "text": "[GIMMICK:つよリン][LF][LC][CT20396][CT20397][CT20398][CT20399][CT20400][LF][LF]種族：幻獣[LF]ふれたキャラの攻撃力をアップする[LF]2体以上にふれても効果はない[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1695658314,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_69"
+    },
+    {
+      "id": 13835,
+      "text": "[GIMMICK:まもリン][LF][LC][CT21905][CT21906][CT21907][CT21908][CT21909][LF][LF]種族：幻獣[LF]ふれたキャラの防御力をアップする[LF]2体以上にふれても効果はない[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1695658314,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_70"
+    },
+    {
+      "id": 13836,
+      "text": "[GIMMICK:はやリン][LF][LC][CT3339][CT3340][CT3341][CT3342][CT3343][LF][LF]種族：幻獣[LF]ふれたキャラのスピードをアップする[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1695658314,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_71"
+    },
+    {
+      "id": 13837,
+      "text": "[GIMMICK:火山][LF][LC][IMG:help_gimmick_56.png|1.4][LF][LF]毎ターン味方全員がダメージを受ける[LF]冷却ポーションにより一定ターン無効化できる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_72"
+    },
+    {
+      "id": 13838,
+      "text": "[GIMMICK:密林][LF][LC][IMG:help_gimmick_57.png|1.4][LF][LF]毎ターン味方全員のスピードがダウンする[LF]ジャングルブーツにより一定ターン無効化できる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_73"
+    },
+    {
+      "id": 13839,
+      "text": "[GIMMICK:氷河][LF][LC][IMG:help_gimmick_58.png|1.4][LF][LF]毎ターン味方全員の攻撃力がダウンする[LF]加熱ポーションにより一定ターン無効化できる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_74"
+    },
+    {
+      "id": 13840,
+      "text": "[GIMMICK:宇宙][LF][LC][IMG:help_gimmick_59.png|1.4][LF][LF]キャラのスピードがダウンするが、[LF]壁にふれるとスピードがアップする[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_75"
+    },
+    {
+      "id": 13841,
+      "text": "[GIMMICK:空域][LF][LC][IMG:help_gimmick_60.png|1.4][LF][LF]毎ターン味方全員のスピードがダウンする[LF]「飛行」を所持するキャラは影響を受けない[LF]※ゲージアビリティを除く[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_76"
+    },
+    {
+      "id": 13842,
+      "text": "[GIMMICK:味方にふれると攻撃力アップ][LF][LC][b:tips_stage_capture_2.png][LF][LF]味方にふれると攻撃力がアップする[LF]2体以上にふれても効果はない[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_77"
+    },
+    {
+      "id": 13843,
+      "text": "[GIMMICK:受けたダメージに応じて攻撃力アップ][LF][LC][b:tips_stage_capture_5.png][LF][LF]ショット中に受けたダメージに応じて攻撃力がアップする[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_78"
+    },
+    {
+      "id": 13844,
+      "text": "[GIMMICK:敵にふれるたびに攻撃力アップ][LF][LC][b:tips_stage_capture_4.png][LF][LF]敵にふれた数に応じて攻撃力がアップする[LF]同じ敵に複数回ふれても効果はない[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_79"
+    },
+    {
+      "id": 13845,
+      "text": "[GIMMICK:ふれた味方の数に応じて攻撃力アップ][LF][LC][b:tips_stage_capture_7.png][LF][LF]味方にふれた数に応じて攻撃力がアップする[LF]同じ味方に複数回ふれても効果はない[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_80"
+    },
+    {
+      "id": 13846,
+      "text": "[GIMMICK:スピードが下がるにつれて攻撃力アップ][LF][LC][b:tips_stage_capture_9.png][LF][LF]ショット中に下がったスピードに応じて攻撃力がアップする[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_81"
+    },
+    {
+      "id": 13847,
+      "text": "[GIMMICK:味方にふれると撃種が変化][LF][LC][b:tips_stage_capture_12.png][LF][LF]味方にふれると撃種が変化する[LF]同じ味方に複数回ふれても効果はない[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_82"
+    },
+    {
+      "id": 13848,
+      "text": "[GIMMICK:HP個別][LF][LC][IMG:help_gimmick_61.png|1.4][LF][LF]キャラごとにHPが独立しており[LF]HPが0になるとユーレイになる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_83"
+    },
+    {
+      "id": 13849,
+      "text": "[GIMMICK:マップクリアHP回復無し][LF][LC][b:tips_stage_capture_25.png][LF][LF]マップクリア時にHPが回復しない[LF]HPが0でマップクリアした場合はHPが1回復する[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_84"
+    },
+    {
+      "id": 13850,
+      "text": "[GIMMICK:HP残量が多いほど攻撃力アップ][LF][LF][LC][b:tips_stage_capture_26.png|2.1][LF][LF]最大HPに対して残りHPが高いほど攻撃力がアップする[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682351354,
+      "updated_at": 1682351354,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_85"
+    },
+    {
+      "id": 13851,
+      "text": "[LC]レベリオ脱出作戦とは[LF][LF][CCB:dlme/help_collabo_sauna_ms_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_MSG_SAUNA_MISSION_HELP"
+    },
+    {
+      "id": 13852,
+      "text": "[LC]開催期間が終了しました。",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_MSG_SAUNA_MISSION_END"
+    },
+    {
+      "id": 13853,
+      "text": "開催期間：%s ～ %s",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_ME_SAUNA_MISSION_PERIOD"
+    },
+    {
+      "id": 13854,
+      "text": "レベリオ脱出作戦",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_ME_SAUNA_MISSION_TITLE"
+    },
+    {
+      "id": 13855,
+      "text": "アルミン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_ME_SAUNA_MISSION_RESCUE_CHAR1"
+    },
+    {
+      "id": 13856,
+      "text": "サシャ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_ME_SAUNA_MISSION_RESCUE_CHAR2"
+    },
+    {
+      "id": 13857,
+      "text": "ジャン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_ME_SAUNA_MISSION_RESCUE_CHAR3"
+    },
+    {
+      "id": 13858,
+      "text": "コニー",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_ME_SAUNA_MISSION_RESCUE_CHAR4"
+    },
+    {
+      "id": 13859,
+      "text": "エレン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_ME_SAUNA_MISSION_RESCUE_CHAR5"
+    },
+    {
+      "id": 13860,
+      "text": "ミカサ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_ME_SAUNA_MISSION_RESCUE_CHAR6"
+    },
+    {
+      "id": 13861,
+      "text": "リヴァイ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_ME_SAUNA_MISSION_RESCUE_CHAR7"
+    },
+    {
+      "id": 13862,
+      "text": "回収成功報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_ME_SAUNA_MISSION_REWARD_SUB1"
+    },
+    {
+      "id": 13863,
+      "text": "全員回収成功報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_ME_SAUNA_MISSION_REWARD_SUB2"
+    },
+    {
+      "id": 13864,
+      "text": "[LC]移動確認[LF][LF]選択したマスへ飛行船を移動します[LF]よろしいですか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_MSG_SAUNA_MISSION_MOVE1"
+    },
+    {
+      "id": 13865,
+      "text": "[LC]移動確認[LF][LF]仲間が待つマスへ飛行船を移動します[LF][LC][NODE][LF]本日はこれ以上ミッション挑戦が[LF]出来なくなりますがよろしいですか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_MSG_SAUNA_MISSION_MOVE2"
+    },
+    {
+      "id": 13866,
+      "text": "[LC]仲間の回収成功[LF][LF]仲間の回収に成功したため[LF]以下の報酬を受け取りました[LF][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_MSG_SAUNA_MISSION_RESCUED1"
+    },
+    {
+      "id": 13867,
+      "text": "[LC]仲間全員の回収成功[LF][LF]仲間全員の回収に成功したため[LF]以下の報酬を受け取りました[LF][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_MSG_SAUNA_MISSION_RESCUED2"
+    },
+    {
+      "id": 13868,
+      "text": "操縦ミッションをクリアせよ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_ME_SAUNA_MISSION_STATUS_TITLE1"
+    },
+    {
+      "id": 13869,
+      "text": "飛行船の移動先を選択せよ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_ME_SAUNA_MISSION_STATUS_TITLE2"
+    },
+    {
+      "id": 13870,
+      "text": "0:00にミッションリセット",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_ME_SAUNA_MISSION_STATUS_TITLE3"
+    },
+    {
+      "id": 13871,
+      "text": "レベリオ脱出成功",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_ME_SAUNA_MISSION_STATUS_TITLE4"
+    },
+    {
+      "id": 13872,
+      "text": "0:00にリセット",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_ME_SAUNA_MISSION_RESET_TXT"
+    },
+    {
+      "id": 13873,
+      "text": "[LC]ミッションリセット[LF][LF]0:00を過ぎたためミッション内容と[LF]難易度がリセットされました[LF]ミッションに挑戦して仲間の回収に向かおう",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_MSG_SAUNA_MISSION_RESET"
+    },
+    {
+      "id": 13874,
+      "text": "[LC]飛行船の移動方法[LF][LF]進みたい方向のマスを選択して移動しよう[LF65][LC][IMG:sauna_01_explanation_1.png|1.0][IMG:evo_arrow2.png|1.0|270][IMG:sauna_01_explanation_2.png|1.0][LF][LF]仲間のマスに移動すると回収成功！[LF]その日はミッション挑戦が出来なくなりますが[LF][C6:翌0:00]になると再び挑戦可能になります[LF][LC][NODE][LF][LC][NODE]次回から表示しない",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_MSG_SAUNA_MOVE_INFO"
+    },
+    {
+      "id": 13875,
+      "text": "全員回収成功",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_ME_SAUNA_MISSION_RESCUE_COMPLETE"
+    },
+    {
+      "id": 13876,
+      "text": "[C6:飛行船を操縦して仲間を回収せよ！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_38400"
+    },
+    {
+      "id": 13877,
+      "text": "[b:ba_help_collabo_sauna_ms_00_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_38401"
+    },
+    {
+      "id": 13878,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_38402"
+    },
+    {
+      "id": 13879,
+      "text": "5/1 00:00～5/16 23:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_38403"
+    },
+    {
+      "id": 13880,
+      "text": "[C5:遊び方]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_38404"
+    },
+    {
+      "id": 13881,
+      "text": "操縦ミッション挑戦と飛行船の移動を繰り返して[LF]7人の仲間の回収を目指しましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_38405"
+    },
+    {
+      "id": 13882,
+      "text": "ミッションA",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_38406"
+    },
+    {
+      "id": 13883,
+      "text": "0:00にリセット",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_38407"
+    },
+    {
+      "id": 13884,
+      "text": "[C5:飛行船の移動について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_38408"
+    },
+    {
+      "id": 13885,
+      "text": "ミッションを達成すると飛行船を[LF][C6:上下左右の隣接するマスに1回移動]できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_38409"
+    },
+    {
+      "id": 13886,
+      "text": "移動が完了すると、上下左右のマスに明かりが灯り[LF]仲間の有無が確認できるようになります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_38410"
+    },
+    {
+      "id": 13887,
+      "text": "[C5:操縦ミッションについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_38411"
+    },
+    {
+      "id": 13888,
+      "text": "ミッション達成後、飛行船の移動が完了すると[LF]次のミッションに挑戦可能になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_38412"
+    },
+    {
+      "id": 13889,
+      "text": "[C6:ミッション達成！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_38413"
+    },
+    {
+      "id": 13890,
+      "text": "飛行船移動",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_38414"
+    },
+    {
+      "id": 13891,
+      "text": "ミッションB",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_38415"
+    },
+    {
+      "id": 13892,
+      "text": "[C6:次に挑戦可能！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1682755290,
+      "updated_at": 1682755290,
+      "label": "eTEXTS_DEF_38416"
+    }
+  ]
+}

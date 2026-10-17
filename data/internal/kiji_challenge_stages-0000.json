@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "table": "kiji_challenge_stages",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "kiji_challenge_event_id": 1,
+      "required_success_count": 10,
+      "max_circle_radius": 33000,
+      "base_speed": 300,
+      "speed_step": 40,
+      "speed_weight": 110,
+      "max_speed": 1136,
+      "base_success_width": 10000,
+      "success_width_step": 100,
+      "success_width_weight": 100,
+      "min_success_width": 5000,
+      "created_at": 1784804579,
+      "updated_at": 1784804579
+    }
+  ]
+}

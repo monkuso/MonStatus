@@ -1,0 +1,607 @@
+{
+  "schemaVersion": 1,
+  "table": "striker_report_sub_categories",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "striker_report_category_id": 1,
+      "order": 1,
+      "name": "総合",
+      "created_at": 1727612478,
+      "updated_at": 1727612478
+    },
+    {
+      "id": 2,
+      "striker_report_category_id": 1,
+      "order": 2,
+      "name": "激究極",
+      "created_at": 1727612478,
+      "updated_at": 1727612478
+    },
+    {
+      "id": 3,
+      "striker_report_category_id": 1,
+      "order": 3,
+      "name": "究極",
+      "created_at": 1727612478,
+      "updated_at": 1727612478
+    },
+    {
+      "id": 4,
+      "striker_report_category_id": 2,
+      "order": 1,
+      "name": "未開の砂宮",
+      "created_at": 1727612478,
+      "updated_at": 1727612478
+    },
+    {
+      "id": 5,
+      "striker_report_category_id": 2,
+      "order": 2,
+      "name": "覇者の塔",
+      "created_at": 1727612478,
+      "updated_at": 1727612478
+    },
+    {
+      "id": 6,
+      "striker_report_category_id": 2,
+      "order": 3,
+      "name": "禁忌の獄",
+      "created_at": 1727612478,
+      "updated_at": 1727612478
+    },
+    {
+      "id": 7,
+      "striker_report_category_id": 3,
+      "order": 1,
+      "name": "絶級トーナメント",
+      "created_at": 1727612478,
+      "updated_at": 1727612478
+    },
+    {
+      "id": 8,
+      "striker_report_category_id": 3,
+      "order": 2,
+      "name": "超絶/爆絶",
+      "created_at": 1727612478,
+      "updated_at": 1727612478
+    },
+    {
+      "id": 9,
+      "striker_report_category_id": 3,
+      "order": 3,
+      "name": "轟絶",
+      "created_at": 1727612478,
+      "updated_at": 1727612478
+    },
+    {
+      "id": 10,
+      "striker_report_category_id": 4,
+      "order": 1,
+      "name": "天魔の孤城",
+      "created_at": 1727612478,
+      "updated_at": 1727612478
+    },
+    {
+      "id": 11,
+      "striker_report_category_id": 4,
+      "order": 2,
+      "name": "禁忌の獄～深淵～",
+      "created_at": 1727612478,
+      "updated_at": 1727612478
+    },
+    {
+      "id": 12,
+      "striker_report_category_id": 4,
+      "order": 3,
+      "name": "黎絶",
+      "created_at": 1727612478,
+      "updated_at": 1727612478
+    },
+    {
+      "id": 13,
+      "striker_report_category_id": 5,
+      "order": 1,
+      "name": "入手/進化",
+      "created_at": 1727612478,
+      "updated_at": 1727612478
+    },
+    {
+      "id": 14,
+      "striker_report_category_id": 5,
+      "order": 2,
+      "name": "英雄の神殿",
+      "created_at": 1727612478,
+      "updated_at": 1727612478
+    },
+    {
+      "id": 15,
+      "striker_report_category_id": 5,
+      "order": 3,
+      "name": "守護獣",
+      "created_at": 1727612478,
+      "updated_at": 1727612478
+    },
+    {
+      "id": 16,
+      "striker_report_category_id": 6,
+      "order": 1,
+      "name": "総合",
+      "created_at": 1743069583,
+      "updated_at": 1743069583
+    },
+    {
+      "id": 17,
+      "striker_report_category_id": 6,
+      "order": 2,
+      "name": "激究極",
+      "created_at": 1743069583,
+      "updated_at": 1743069583
+    },
+    {
+      "id": 18,
+      "striker_report_category_id": 6,
+      "order": 3,
+      "name": "究極",
+      "created_at": 1743069583,
+      "updated_at": 1743069583
+    },
+    {
+      "id": 19,
+      "striker_report_category_id": 7,
+      "order": 1,
+      "name": "未開の砂宮",
+      "created_at": 1743069583,
+      "updated_at": 1743069583
+    },
+    {
+      "id": 20,
+      "striker_report_category_id": 7,
+      "order": 2,
+      "name": "覇者の塔",
+      "created_at": 1743069583,
+      "updated_at": 1743069583
+    },
+    {
+      "id": 21,
+      "striker_report_category_id": 7,
+      "order": 3,
+      "name": "禁忌の獄",
+      "created_at": 1743069583,
+      "updated_at": 1743069583
+    },
+    {
+      "id": 22,
+      "striker_report_category_id": 8,
+      "order": 1,
+      "name": "絶級トーナメント",
+      "created_at": 1743069583,
+      "updated_at": 1743069583
+    },
+    {
+      "id": 23,
+      "striker_report_category_id": 8,
+      "order": 2,
+      "name": "超絶/爆絶",
+      "created_at": 1743069583,
+      "updated_at": 1743069583
+    },
+    {
+      "id": 24,
+      "striker_report_category_id": 8,
+      "order": 3,
+      "name": "轟絶",
+      "created_at": 1743069583,
+      "updated_at": 1743069583
+    },
+    {
+      "id": 25,
+      "striker_report_category_id": 9,
+      "order": 1,
+      "name": "天魔の孤城",
+      "created_at": 1743069583,
+      "updated_at": 1743069583
+    },
+    {
+      "id": 26,
+      "striker_report_category_id": 9,
+      "order": 2,
+      "name": "禁忌の獄～深淵～",
+      "created_at": 1743069583,
+      "updated_at": 1743069583
+    },
+    {
+      "id": 27,
+      "striker_report_category_id": 9,
+      "order": 3,
+      "name": "黎絶",
+      "created_at": 1743069583,
+      "updated_at": 1743069583
+    },
+    {
+      "id": 28,
+      "striker_report_category_id": 10,
+      "order": 1,
+      "name": "入手/進化",
+      "created_at": 1743069583,
+      "updated_at": 1743069583
+    },
+    {
+      "id": 29,
+      "striker_report_category_id": 10,
+      "order": 2,
+      "name": "英雄の神殿",
+      "created_at": 1743069583,
+      "updated_at": 1743069583
+    },
+    {
+      "id": 30,
+      "striker_report_category_id": 10,
+      "order": 3,
+      "name": "守護獣",
+      "created_at": 1743069583,
+      "updated_at": 1743069583
+    },
+    {
+      "id": 31,
+      "striker_report_category_id": 11,
+      "order": 1,
+      "name": "総合",
+      "created_at": 1759235488,
+      "updated_at": 1759235488
+    },
+    {
+      "id": 32,
+      "striker_report_category_id": 11,
+      "order": 2,
+      "name": "激究極",
+      "created_at": 1759235488,
+      "updated_at": 1759235488
+    },
+    {
+      "id": 33,
+      "striker_report_category_id": 11,
+      "order": 3,
+      "name": "究極",
+      "created_at": 1759235488,
+      "updated_at": 1759235488
+    },
+    {
+      "id": 34,
+      "striker_report_category_id": 12,
+      "order": 1,
+      "name": "未開の砂宮",
+      "created_at": 1759235488,
+      "updated_at": 1759235488
+    },
+    {
+      "id": 35,
+      "striker_report_category_id": 12,
+      "order": 2,
+      "name": "覇者の塔",
+      "created_at": 1759235488,
+      "updated_at": 1759235488
+    },
+    {
+      "id": 36,
+      "striker_report_category_id": 12,
+      "order": 3,
+      "name": "禁忌の獄",
+      "created_at": 1759235488,
+      "updated_at": 1759235488
+    },
+    {
+      "id": 37,
+      "striker_report_category_id": 13,
+      "order": 1,
+      "name": "絶級トーナメント",
+      "created_at": 1759235488,
+      "updated_at": 1759235488
+    },
+    {
+      "id": 38,
+      "striker_report_category_id": 13,
+      "order": 2,
+      "name": "爆絶",
+      "created_at": 1759235488,
+      "updated_at": 1759235488
+    },
+    {
+      "id": 39,
+      "striker_report_category_id": 13,
+      "order": 3,
+      "name": "轟絶",
+      "created_at": 1759235488,
+      "updated_at": 1759235488
+    },
+    {
+      "id": 40,
+      "striker_report_category_id": 14,
+      "order": 1,
+      "name": "破界の星墓",
+      "created_at": 1759235488,
+      "updated_at": 1759235488
+    },
+    {
+      "id": 41,
+      "striker_report_category_id": 14,
+      "order": 2,
+      "name": "禁忌の獄～深淵～",
+      "created_at": 1759235488,
+      "updated_at": 1759235488
+    },
+    {
+      "id": 42,
+      "striker_report_category_id": 14,
+      "order": 3,
+      "name": "黎絶",
+      "created_at": 1759235488,
+      "updated_at": 1759235488
+    },
+    {
+      "id": 43,
+      "striker_report_category_id": 15,
+      "order": 1,
+      "name": "入手/進化",
+      "created_at": 1759235488,
+      "updated_at": 1759235488
+    },
+    {
+      "id": 44,
+      "striker_report_category_id": 15,
+      "order": 2,
+      "name": "英雄の神殿",
+      "created_at": 1759235488,
+      "updated_at": 1759235488
+    },
+    {
+      "id": 45,
+      "striker_report_category_id": 15,
+      "order": 3,
+      "name": "守護獣",
+      "created_at": 1759235488,
+      "updated_at": 1759235488
+    },
+    {
+      "id": 46,
+      "striker_report_category_id": 16,
+      "order": 1,
+      "name": "総合",
+      "created_at": 1774952220,
+      "updated_at": 1774952220
+    },
+    {
+      "id": 47,
+      "striker_report_category_id": 16,
+      "order": 2,
+      "name": "激究極",
+      "created_at": 1774952220,
+      "updated_at": 1774952220
+    },
+    {
+      "id": 48,
+      "striker_report_category_id": 16,
+      "order": 3,
+      "name": "究極",
+      "created_at": 1774952220,
+      "updated_at": 1774952220
+    },
+    {
+      "id": 49,
+      "striker_report_category_id": 17,
+      "order": 1,
+      "name": "未開の砂宮/幻洞",
+      "created_at": 1774952220,
+      "updated_at": 1786550606
+    },
+    {
+      "id": 50,
+      "striker_report_category_id": 17,
+      "order": 2,
+      "name": "覇者の塔",
+      "created_at": 1774952220,
+      "updated_at": 1774952220
+    },
+    {
+      "id": 51,
+      "striker_report_category_id": 17,
+      "order": 3,
+      "name": "禁忌の獄",
+      "created_at": 1774952220,
+      "updated_at": 1774952220
+    },
+    {
+      "id": 52,
+      "striker_report_category_id": 18,
+      "order": 1,
+      "name": "絶級トーナメント",
+      "created_at": 1774952220,
+      "updated_at": 1774952220
+    },
+    {
+      "id": 53,
+      "striker_report_category_id": 18,
+      "order": 2,
+      "name": "超究極",
+      "created_at": 1774952220,
+      "updated_at": 1774952220
+    },
+    {
+      "id": 54,
+      "striker_report_category_id": 18,
+      "order": 3,
+      "name": "轟絶",
+      "created_at": 1774952220,
+      "updated_at": 1774952220
+    },
+    {
+      "id": 55,
+      "striker_report_category_id": 19,
+      "order": 1,
+      "name": "破界の星墓",
+      "created_at": 1774952220,
+      "updated_at": 1774952220
+    },
+    {
+      "id": 56,
+      "striker_report_category_id": 19,
+      "order": 2,
+      "name": "禁忌の獄～深淵～",
+      "created_at": 1774952220,
+      "updated_at": 1774952220
+    },
+    {
+      "id": 57,
+      "striker_report_category_id": 19,
+      "order": 3,
+      "name": "黎絶",
+      "created_at": 1774952220,
+      "updated_at": 1774952220
+    },
+    {
+      "id": 58,
+      "striker_report_category_id": 20,
+      "order": 1,
+      "name": "入手/進化",
+      "created_at": 1774952220,
+      "updated_at": 1774952220
+    },
+    {
+      "id": 59,
+      "striker_report_category_id": 20,
+      "order": 2,
+      "name": "英雄の神殿",
+      "created_at": 1774952220,
+      "updated_at": 1774952220
+    },
+    {
+      "id": 60,
+      "striker_report_category_id": 20,
+      "order": 3,
+      "name": "守護獣",
+      "created_at": 1774952220,
+      "updated_at": 1774952220
+    },
+    {
+      "id": 61,
+      "striker_report_category_id": 21,
+      "order": 1,
+      "name": "総合",
+      "created_at": 1790511668,
+      "updated_at": 1790511668
+    },
+    {
+      "id": 62,
+      "striker_report_category_id": 21,
+      "order": 2,
+      "name": "激究極",
+      "created_at": 1790511668,
+      "updated_at": 1790511668
+    },
+    {
+      "id": 63,
+      "striker_report_category_id": 21,
+      "order": 3,
+      "name": "究極",
+      "created_at": 1790511668,
+      "updated_at": 1790511668
+    },
+    {
+      "id": 64,
+      "striker_report_category_id": 22,
+      "order": 1,
+      "name": "未開の幻洞",
+      "created_at": 1790511668,
+      "updated_at": 1790511668
+    },
+    {
+      "id": 65,
+      "striker_report_category_id": 22,
+      "order": 2,
+      "name": "覇者の塔",
+      "created_at": 1790511668,
+      "updated_at": 1790511668
+    },
+    {
+      "id": 66,
+      "striker_report_category_id": 22,
+      "order": 3,
+      "name": "禁忌の獄",
+      "created_at": 1790511668,
+      "updated_at": 1790511668
+    },
+    {
+      "id": 67,
+      "striker_report_category_id": 23,
+      "order": 1,
+      "name": "絶級トーナメント",
+      "created_at": 1790511668,
+      "updated_at": 1790511668
+    },
+    {
+      "id": 68,
+      "striker_report_category_id": 23,
+      "order": 2,
+      "name": "超究極",
+      "created_at": 1790511668,
+      "updated_at": 1790511668
+    },
+    {
+      "id": 69,
+      "striker_report_category_id": 23,
+      "order": 3,
+      "name": "轟絶",
+      "created_at": 1790511668,
+      "updated_at": 1790511668
+    },
+    {
+      "id": 70,
+      "striker_report_category_id": 24,
+      "order": 1,
+      "name": "破界の星墓",
+      "created_at": 1790511668,
+      "updated_at": 1790511668
+    },
+    {
+      "id": 71,
+      "striker_report_category_id": 24,
+      "order": 2,
+      "name": "禁忌の獄～深淵～",
+      "created_at": 1790511668,
+      "updated_at": 1790511668
+    },
+    {
+      "id": 72,
+      "striker_report_category_id": 24,
+      "order": 3,
+      "name": "滅絶",
+      "created_at": 1790511668,
+      "updated_at": 1790511668
+    },
+    {
+      "id": 73,
+      "striker_report_category_id": 25,
+      "order": 1,
+      "name": "入手/進化",
+      "created_at": 1790511668,
+      "updated_at": 1790511668
+    },
+    {
+      "id": 74,
+      "striker_report_category_id": 25,
+      "order": 2,
+      "name": "英雄の神殿",
+      "created_at": 1790511668,
+      "updated_at": 1790511668
+    },
+    {
+      "id": 75,
+      "striker_report_category_id": 25,
+      "order": 3,
+      "name": "守護獣",
+      "created_at": 1790511668,
+      "updated_at": 1790511668
+    }
+  ]
+}

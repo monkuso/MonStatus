@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "table": "ordeal_rewards",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "ordeal_event_id": 1,
+      "type_id": 1,
+      "required_point": 100,
+      "item_id": 12,
+      "cnt": 5,
+      "created_at": 1573649340,
+      "updated_at": 1581515242,
+      "require_message": 1
+    },
+    {
+      "id": 2,
+      "ordeal_event_id": 1,
+      "type_id": 1,
+      "required_point": 200,
+      "item_id": 14,
+      "cnt": 1,
+      "created_at": 1573649340,
+      "updated_at": 1581515242,
+      "require_message": 1
+    },
+    {
+      "id": 3,
+      "ordeal_event_id": 1,
+      "type_id": 1,
+      "required_point": 300,
+      "item_id": 116,
+      "cnt": 1,
+      "created_at": 1573649340,
+      "updated_at": 1581515242,
+      "require_message": 1
+    },
+    {
+      "id": 4,
+      "ordeal_event_id": 1,
+      "type_id": 2,
+      "required_point": 100,
+      "item_id": 117,
+      "cnt": 1,
+      "created_at": 1573649340,
+      "updated_at": 1581515242,
+      "require_message": 1
+    },
+    {
+      "id": 5,
+      "ordeal_event_id": 1,
+      "type_id": 2,
+      "required_point": 200,
+      "item_id": 42,
+      "cnt": 2,
+      "created_at": 1573649340,
+      "updated_at": 1581515242,
+      "require_message": 1
+    },
+    {
+      "id": 6,
+      "ordeal_event_id": 1,
+      "type_id": 2,
+      "required_point": 300,
+      "item_id": 41,
+      "cnt": 1,
+      "created_at": 1573649340,
+      "updated_at": 1581515242,
+      "require_message": 1
+    },
+    {
+      "id": 7,
+      "ordeal_event_id": 1,
+      "type_id": 3,
+      "required_point": 100,
+      "item_id": 113,
+      "cnt": 2,
+      "created_at": 1573649340,
+      "updated_at": 1581515242,
+      "require_message": 1
+    },
+    {
+      "id": 8,
+      "ordeal_event_id": 1,
+      "type_id": 3,
+      "required_point": 200,
+      "item_id": 117,
+      "cnt": 2,
+      "created_at": 1573649340,
+      "updated_at": 1581515242,
+      "require_message": 1
+    },
+    {
+      "id": 9,
+      "ordeal_event_id": 1,
+      "type_id": 3,
+      "required_point": 300,
+      "item_id": 116,
+      "cnt": 2,
+      "created_at": 1573649340,
+      "updated_at": 1581515242,
+      "require_message": 1
+    },
+    {
+      "id": 10,
+      "ordeal_event_id": 1,
+      "type_id": 4,
+      "required_point": 100,
+      "item_id": 7,
+      "cnt": 5,
+      "created_at": 1573649340,
+      "updated_at": 1581515242,
+      "require_message": 1
+    },
+    {
+      "id": 11,
+      "ordeal_event_id": 1,
+      "type_id": 4,
+      "required_point": 200,
+      "item_id": 42,
+      "cnt": 2,
+      "created_at": 1573649340,
+      "updated_at": 1581515242,
+      "require_message": 1
+    },
+    {
+      "id": 12,
+      "ordeal_event_id": 1,
+      "type_id": 4,
+      "required_point": 300,
+      "item_id": 13,
+      "cnt": 1,
+      "created_at": 1573649340,
+      "updated_at": 1581515242,
+      "require_message": 1
+    },
+    {
+      "id": 13,
+      "ordeal_event_id": 1,
+      "type_id": 5,
+      "required_point": 100,
+      "item_id": 34,
+      "cnt": 5,
+      "created_at": 1573649340,
+      "updated_at": 1581515242,
+      "require_message": 1
+    },
+    {
+      "id": 14,
+      "ordeal_event_id": 1,
+      "type_id": 5,
+      "required_point": 200,
+      "item_id": 14,
+      "cnt": 2,
+      "created_at": 1573649340,
+      "updated_at": 1581515242,
+      "require_message": 1
+    },
+    {
+      "id": 15,
+      "ordeal_event_id": 1,
+      "type_id": 5,
+      "required_point": 300,
+      "item_id": 41,
+      "cnt": 1,
+      "created_at": 1573649340,
+      "updated_at": 1581515242,
+      "require_message": 1
+    },
+    {
+      "id": 16,
+      "ordeal_event_id": 1,
+      "type_id": 6,
+      "required_point": 100,
+      "item_id": 113,
+      "cnt": 2,
+      "created_at": 1573649340,
+      "updated_at": 1581515242,
+      "require_message": 1
+    },
+    {
+      "id": 17,
+      "ordeal_event_id": 1,
+      "type_id": 6,
+      "required_point": 200,
+      "item_id": 40,
+      "cnt": 2,
+      "created_at": 1573649340,
+      "updated_at": 1581515242,
+      "require_message": 1
+    },
+    {
+      "id": 18,
+      "ordeal_event_id": 1,
+      "type_id": 6,
+      "required_point": 300,
+      "item_id": 35,
+      "cnt": 1,
+      "created_at": 1573649340,
+      "updated_at": 1581515242,
+      "require_message": 1
+    },
+    {
+      "id": 19,
+      "ordeal_event_id": 2,
+      "type_id": 1,
+      "required_point": 100,
+      "item_id": 0,
+      "cnt": 0,
+      "created_at": 1581515242,
+      "updated_at": 1581515242,
+      "require_message": 0
+    },
+    {
+      "id": 20,
+      "ordeal_event_id": 2,
+      "type_id": 1,
+      "required_point": 600,
+      "item_id": 0,
+      "cnt": 0,
+      "created_at": 1581515242,
+      "updated_at": 1581515242,
+      "require_message": 0
+    }
+  ]
+}

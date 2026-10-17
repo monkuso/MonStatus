@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "table": "denim_armies",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "name": "王翦",
+      "is_enemy": false,
+      "type_id": 1,
+      "rival_denim_army_id": 6,
+      "rival_denim_army_id2": 0,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 2,
+      "name": "函谷関",
+      "is_enemy": false,
+      "type_id": 2,
+      "rival_denim_army_id": 7,
+      "rival_denim_army_id2": 0,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 3,
+      "name": "騰",
+      "is_enemy": false,
+      "type_id": 3,
+      "rival_denim_army_id": 8,
+      "rival_denim_army_id2": 0,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 4,
+      "name": "蒙武",
+      "is_enemy": false,
+      "type_id": 4,
+      "rival_denim_army_id": 8,
+      "rival_denim_army_id2": 0,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 5,
+      "name": "麃公",
+      "is_enemy": false,
+      "type_id": 5,
+      "rival_denim_army_id": 9,
+      "rival_denim_army_id2": 0,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 6,
+      "name": "燕軍",
+      "is_enemy": true,
+      "type_id": 1,
+      "rival_denim_army_id": 1,
+      "rival_denim_army_id2": 0,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 7,
+      "name": "魏軍＆韓軍",
+      "is_enemy": true,
+      "type_id": 2,
+      "rival_denim_army_id": 2,
+      "rival_denim_army_id2": 0,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 8,
+      "name": "楚軍",
+      "is_enemy": true,
+      "type_id": 3,
+      "rival_denim_army_id": 3,
+      "rival_denim_army_id2": 4,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    },
+    {
+      "id": 9,
+      "name": "趙軍",
+      "is_enemy": true,
+      "type_id": 4,
+      "rival_denim_army_id": 5,
+      "rival_denim_army_id2": 0,
+      "created_at": 1693480000,
+      "updated_at": 1693480000
+    }
+  ]
+}

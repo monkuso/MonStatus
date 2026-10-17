@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "table": "multi_sweepstake_events",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "start_at": 1780585200,
+      "end_at": 1781535599,
+      "prize_receivable_start_at": 1781578800,
+      "prize_receivable_end_at": 1782068399,
+      "prize_receivable_overtime_end_at": 1782154799,
+      "consolation_prize_item_id": 1,
+      "consolation_prize_cnt": 3,
+      "created_at": 1780570434,
+      "updated_at": 1781852197
+    },
+    {
+      "id": 2,
+      "start_at": 1782226800,
+      "end_at": 1783004399,
+      "prize_receivable_start_at": 1783047600,
+      "prize_receivable_end_at": 1783623599,
+      "prize_receivable_overtime_end_at": 1785437999,
+      "consolation_prize_item_id": 1,
+      "consolation_prize_cnt": 3,
+      "created_at": 1782120927,
+      "updated_at": 1782120927
+    }
+  ]
+}

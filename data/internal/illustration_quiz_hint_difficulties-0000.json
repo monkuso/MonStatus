@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "table": "illustration_quiz_hint_difficulties",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "illustration_quiz_event_id": 6,
+      "threshold": 0,
+      "initial_hint_cnt": 3,
+      "created_at": 1782387204,
+      "updated_at": 1782387204
+    },
+    {
+      "id": 2,
+      "illustration_quiz_event_id": 6,
+      "threshold": 2,
+      "initial_hint_cnt": 2,
+      "created_at": 1782387204,
+      "updated_at": 1782387204
+    },
+    {
+      "id": 3,
+      "illustration_quiz_event_id": 6,
+      "threshold": 4,
+      "initial_hint_cnt": 1,
+      "created_at": 1782387204,
+      "updated_at": 1782387204
+    }
+  ]
+}

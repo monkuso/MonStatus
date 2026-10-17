@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "table": "realtime_stage_points",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "stage_id": 980020010,
+      "realtime_point": 40,
+      "daily_realtime_point": 60,
+      "created_at": 1620992065,
+      "updated_at": 1620992065
+    },
+    {
+      "id": 2,
+      "stage_id": 980000010,
+      "realtime_point": 160,
+      "daily_realtime_point": 240,
+      "created_at": 1620992065,
+      "updated_at": 1620992065
+    },
+    {
+      "id": 3,
+      "stage_id": 980010010,
+      "realtime_point": 160,
+      "daily_realtime_point": 240,
+      "created_at": 1620992065,
+      "updated_at": 1620992065
+    },
+    {
+      "id": 4,
+      "stage_id": 980030010,
+      "realtime_point": 320,
+      "daily_realtime_point": 480,
+      "created_at": 1620992065,
+      "updated_at": 1620992065
+    },
+    {
+      "id": 5,
+      "stage_id": 980040010,
+      "realtime_point": 320,
+      "daily_realtime_point": 480,
+      "created_at": 1622106296,
+      "updated_at": 1622106296
+    }
+  ]
+}

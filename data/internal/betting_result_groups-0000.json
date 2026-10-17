@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "table": "betting_result_groups",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "betting_id": 1,
+      "title": "レース結果画面",
+      "message": "レース結果テキスト",
+      "start_at": 1498762800,
+      "end_at": 1500836399,
+      "created_at": 1497859237,
+      "updated_at": 1507904508
+    },
+    {
+      "id": 2,
+      "betting_id": 2,
+      "title": "結果画面",
+      "message": "結果テキスト",
+      "start_at": 1507921200,
+      "end_at": 1509044399,
+      "created_at": 1507136080,
+      "updated_at": 1507904509
+    },
+    {
+      "id": 3,
+      "betting_id": 3,
+      "title": "運極ルーレット1投目結果画面",
+      "message": "1投目結果テキスト",
+      "start_at": 1539457200,
+      "end_at": 1540580399,
+      "created_at": 1539091834,
+      "updated_at": 1539091834
+    },
+    {
+      "id": 4,
+      "betting_id": 4,
+      "title": "運極ルーレット2投目結果画面",
+      "message": "2投目結果テキスト",
+      "start_at": 1539457200,
+      "end_at": 1540580399,
+      "created_at": 1539091834,
+      "updated_at": 1539091834
+    },
+    {
+      "id": 5,
+      "betting_id": 5,
+      "title": "運極ルーレット3投目結果画面",
+      "message": "3投目結果テキスト",
+      "start_at": 1539457200,
+      "end_at": 1540580399,
+      "created_at": 1539091834,
+      "updated_at": 1539091834
+    },
+    {
+      "id": 6,
+      "betting_id": 6,
+      "title": "運極ルーレット4投目結果画面",
+      "message": "4投目結果テキスト",
+      "start_at": 1539457200,
+      "end_at": 1540580399,
+      "created_at": 1539091834,
+      "updated_at": 1539091834
+    },
+    {
+      "id": 7,
+      "betting_id": 7,
+      "title": "モンストジャッジメント",
+      "message": null,
+      "start_at": 1577905200,
+      "end_at": 1580497199,
+      "created_at": 1577359875,
+      "updated_at": 1577359875
+    }
+  ]
+}

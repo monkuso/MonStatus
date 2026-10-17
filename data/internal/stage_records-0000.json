@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "table": "stage_records",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "category_id": 1,
+      "target_id": 3090,
+      "group_id": 1,
+      "created_at": 1765385516,
+      "updated_at": 1765385516,
+      "amount": 1
+    },
+    {
+      "id": 2,
+      "category_id": 2,
+      "target_id": 1,
+      "group_id": 2,
+      "created_at": 1776802987,
+      "updated_at": 1776802987,
+      "amount": 1
+    },
+    {
+      "id": 3,
+      "category_id": 2,
+      "target_id": 2,
+      "group_id": 2,
+      "created_at": 1776802987,
+      "updated_at": 1776802987,
+      "amount": 1
+    },
+    {
+      "id": 4,
+      "category_id": 2,
+      "target_id": 3,
+      "group_id": 2,
+      "created_at": 1776802987,
+      "updated_at": 1776802987,
+      "amount": 1
+    },
+    {
+      "id": 5,
+      "category_id": 2,
+      "target_id": 4,
+      "group_id": 3,
+      "created_at": 1780939757,
+      "updated_at": 1780939757,
+      "amount": 1
+    },
+    {
+      "id": 6,
+      "category_id": 2,
+      "target_id": 5,
+      "group_id": 4,
+      "created_at": 1786550604,
+      "updated_at": 1786550604,
+      "amount": 1
+    },
+    {
+      "id": 7,
+      "category_id": 2,
+      "target_id": 6,
+      "group_id": 4,
+      "created_at": 1786550604,
+      "updated_at": 1786550604,
+      "amount": 1
+    },
+    {
+      "id": 8,
+      "category_id": 2,
+      "target_id": 7,
+      "group_id": 5,
+      "created_at": 1783443833,
+      "updated_at": 1783443833,
+      "amount": 1
+    },
+    {
+      "id": 9,
+      "category_id": 2,
+      "target_id": 8,
+      "group_id": 5,
+      "created_at": 1783443833,
+      "updated_at": 1783443833,
+      "amount": 1
+    },
+    {
+      "id": 10,
+      "category_id": 2,
+      "target_id": 9,
+      "group_id": 6,
+      "created_at": 1780939757,
+      "updated_at": 1780939757,
+      "amount": 1
+    },
+    {
+      "id": 14,
+      "category_id": 1,
+      "target_id": 28042,
+      "group_id": 9,
+      "created_at": 1770050280,
+      "updated_at": 1770050280,
+      "amount": 1
+    },
+    {
+      "id": 15,
+      "category_id": 2,
+      "target_id": 13,
+      "group_id": 10,
+      "created_at": 1772704077,
+      "updated_at": 1772704077,
+      "amount": 1
+    },
+    {
+      "id": 16,
+      "category_id": 2,
+      "target_id": 14,
+      "group_id": 10,
+      "created_at": 1772704077,
+      "updated_at": 1772704077,
+      "amount": 2
+    },
+    {
+      "id": 17,
+      "category_id": 2,
+      "target_id": 15,
+      "group_id": 10,
+      "created_at": 1772704077,
+      "updated_at": 1772704077,
+      "amount": 3
+    },
+    {
+      "id": 18,
+      "category_id": 2,
+      "target_id": 30,
+      "group_id": 4,
+      "created_at": 1786550604,
+      "updated_at": 1786550604,
+      "amount": 1
+    }
+  ]
+}

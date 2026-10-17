@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "table": "gourmet_campaigns",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "max_lucky_orb_cnt": 0,
+      "start_at": 1649386800,
+      "end_at": 1651345199,
+      "cooking_end_at": 1651287599,
+      "created_at": 1649323876,
+      "updated_at": 1649323876,
+      "campaign_type": 0
+    },
+    {
+      "id": 2,
+      "max_lucky_orb_cnt": 10,
+      "start_at": 1672542000,
+      "end_at": 1674327599,
+      "cooking_end_at": 1674269999,
+      "created_at": 1672224653,
+      "updated_at": 1672224653,
+      "campaign_type": 0
+    },
+    {
+      "id": 3,
+      "max_lucky_orb_cnt": 0,
+      "start_at": 1788231600,
+      "end_at": 1789757999,
+      "cooking_end_at": 1789700399,
+      "created_at": 1787909376,
+      "updated_at": 1787909376,
+      "campaign_type": 1
+    }
+  ]
+}

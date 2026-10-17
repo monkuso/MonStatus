@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 1,
+  "table": "texts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 25422,
+      "text": "[C6:アイ玉を集めてガチャを引こう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774703479,
+      "updated_at": 1774703479,
+      "label": "eTEXTS_DEF_63900"
+    },
+    {
+      "id": 25423,
+      "text": "[b:ba_help_nibu_itemga_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774703479,
+      "updated_at": 1774703479,
+      "label": "eTEXTS_DEF_63901"
+    },
+    {
+      "id": 25424,
+      "text": "専用のガチャ玉「[C6:アイ玉]」で引くことができ[LF]様々なアイテムが獲得できる特別なガチャです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774703479,
+      "updated_at": 1774703479,
+      "label": "eTEXTS_DEF_63902"
+    },
+    {
+      "id": 25425,
+      "text": "[C5:排出されるアイテムについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774703479,
+      "updated_at": 1774703479,
+      "label": "eTEXTS_DEF_63903"
+    },
+    {
+      "id": 25426,
+      "text": "[C6:100個のラインナップ]から[LF]アイ玉1つにつきアイテムを1つ入手できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774703479,
+      "updated_at": 1774703479,
+      "label": "eTEXTS_DEF_63904"
+    },
+    {
+      "id": 25427,
+      "text": "全100個の[C6:アイテムをすべて獲得後]は[LF][C6:ラインナップが変わり]1度獲得した報酬も[LF]繰り返し獲得できるようになります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774703479,
+      "updated_at": 1774703479,
+      "label": "eTEXTS_DEF_63905"
+    },
+    {
+      "id": 25428,
+      "text": "[C5:アイ玉の入手方法]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774703479,
+      "updated_at": 1774703479,
+      "label": "eTEXTS_DEF_63906"
+    },
+    {
+      "id": 25429,
+      "text": "アイ玉の入手方法は以下の通りです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774703479,
+      "updated_at": 1774703479,
+      "label": "eTEXTS_DEF_63907"
+    },
+    {
+      "id": 25430,
+      "text": "デイリースタンプミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774703479,
+      "updated_at": 1774703479,
+      "label": "eTEXTS_DEF_63908"
+    },
+    {
+      "id": 25431,
+      "text": "[C6:スタンプをすべて集めること]で合計100個[LF]アイ玉を獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774703479,
+      "updated_at": 1774703479,
+      "label": "eTEXTS_DEF_63909"
+    },
+    {
+      "id": 25432,
+      "text": "全てGET！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774703479,
+      "updated_at": 1774703479,
+      "label": "eTEXTS_DEF_63910"
+    },
+    {
+      "id": 25433,
+      "text": "対象クエストクリア報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774703479,
+      "updated_at": 1774703479,
+      "label": "eTEXTS_DEF_63911"
+    },
+    {
+      "id": 25434,
+      "text": "[C6:スペシャル報酬の宝箱]から一定の確率で獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774703479,
+      "updated_at": 1774703479,
+      "label": "eTEXTS_DEF_63912"
+    },
+    {
+      "id": 25435,
+      "text": "さらに[C6:1日1回クリアボーナス]として[LF]3個獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774703479,
+      "updated_at": 1774703479,
+      "label": "eTEXTS_DEF_63913"
+    },
+    {
+      "id": 25436,
+      "text": "※日付の切り替わりはＡＭ4:00です[LF]※詳細は[u:https://www.monster-strike.com/news/20260328_7.html#5|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774703479,
+      "updated_at": 1774703479,
+      "label": "eTEXTS_DEF_63914"
+    },
+    {
+      "id": 25437,
+      "text": "[LC]%s[LF][LF]%s[LF][LF][LC]1回：　%s　%d%s！[LF][LC]所持数：　%d%s[LF][LF][LC]あと[C6:%d回]ガチャれます！%s",
+      "layout": 13,
+      "color": 0,
+      "created_at": 1774703479,
+      "updated_at": 1774703479,
+      "label": "eTEXTS_DEF_MSG_NIBU_ITEMGACHA_GACHA"
+    },
+    {
+      "id": 25438,
+      "text": "ガチャ期間終了間近[LF][LF]まもなくガチャ期間が終了します[LF]忘れずに引きましょう[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1774703479,
+      "updated_at": 1774703479,
+      "label": "eTEXTS_DEF_MSG_NIBU_ITEMGACHA_END_SOON"
+    },
+    {
+      "id": 25439,
+      "text": "カフェ｢二道｣",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_IWAKI_MISSION_TITLE"
+    },
+    {
+      "id": 25440,
+      "text": "[LC]カフェ｢二道｣とは[LF][LF][CCB:dlme/help_collabo_iwaki_sb1_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_IWAKI_MISSION_HELP"
+    },
+    {
+      "id": 25441,
+      "text": "4/1 0:00 ～ 4/10 23:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_IWAKI_MISSION_PERIOD"
+    },
+    {
+      "id": 25442,
+      "text": "ポイントを貯めて報酬を獲得しよう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_IWAKI_MISSION_INFO_DESC1"
+    },
+    {
+      "id": 25443,
+      "text": "[C4:所持pt：]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_IWAKI_MISSION_INFO_DESC2"
+    },
+    {
+      "id": 25444,
+      "text": "[C4:%d]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_IWAKI_MISSION_INFO_DESC3"
+    },
+    {
+      "id": 25445,
+      "text": "次の報酬まで",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_IWAKI_MISSION_INFO_DESC4"
+    },
+    {
+      "id": 25446,
+      "text": "(AM0時でミッションリセット)",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_IWAKI_MISSION_INFO_DESC7"
+    },
+    {
+      "id": 25447,
+      "text": "%dpt",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_IWAKI_MISSION_INFO_DESC5"
+    },
+    {
+      "id": 25448,
+      "text": "[C4:pt]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_IWAKI_MISSION_INFO_DESC6"
+    },
+    {
+      "id": 25449,
+      "text": "１日１回二道に入店で",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_IWAKI_MISSION_ENTER_DESC1"
+    },
+    {
+      "id": 25450,
+      "text": "累計入店回数：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_IWAKI_MISSION_ENTER_DESC2"
+    },
+    {
+      "id": 25451,
+      "text": "%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_IWAKI_MISSION_ENTER_DESC3"
+    },
+    {
+      "id": 25452,
+      "text": "[C4:%dpt]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_IWAKI_MISSION_ENTER_DESC4"
+    },
+    {
+      "id": 25453,
+      "text": "[LC]報酬一覧[LF][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_IWAKI_MISSION_DIALOG_REWARD_LIST"
+    },
+    {
+      "id": 25454,
+      "text": "入店回数報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_IWAKI_MISSION_DIALOG_REWARD_LIST_DESC1"
+    },
+    {
+      "id": 25455,
+      "text": "%d回",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_IWAKI_MISSION_DIALOG_REWARD_LIST_DESC2"
+    },
+    {
+      "id": 25456,
+      "text": "ポイント報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_IWAKI_MISSION_DIALOG_REWARD_LIST_DESC3"
+    },
+    {
+      "id": 25457,
+      "text": "%dpt",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_IWAKI_MISSION_DIALOG_REWARD_LIST_DESC4"
+    },
+    {
+      "id": 25458,
+      "text": "45pt以降",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_IWAKI_MISSION_DIALOG_REWARD_LIST_DESC5"
+    },
+    {
+      "id": 25459,
+      "text": "以下報酬が5ptごとに獲得",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_IWAKI_MISSION_DIALOG_REWARD_LIST_DESC6"
+    },
+    {
+      "id": 25460,
+      "text": "[LC]ミッション報酬[LF][LF]以下の報酬を受け取りました[LF][LF-15][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_IWAKI_MISSION_DIALOG_REWARD_GET"
+    },
+    {
+      "id": 25461,
+      "text": "[C6:コラボガチャ開催中]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_63000"
+    },
+    {
+      "id": 25462,
+      "text": "[b:ba_help_collabo_iwaki_00_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_63001"
+    },
+    {
+      "id": 25463,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_63002"
+    },
+    {
+      "id": 25464,
+      "text": "4/1 0:00〜4/11 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_63003"
+    },
+    {
+      "id": 25465,
+      "text": "[C5:コラボ限定ガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_63004"
+    },
+    {
+      "id": 25466,
+      "text": "新登場キャラ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_63005"
+    },
+    {
+      "id": 25467,
+      "text": "ガチャ[C6:｢チェンソーマン×激・獣神祭｣]が[LF]期間限定で開催中！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_63006"
+    },
+    {
+      "id": 25468,
+      "text": "[IPJ12678]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_63007"
+    },
+    {
+      "id": 25469,
+      "text": "[IPJ12682]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_63008"
+    },
+    {
+      "id": 25470,
+      "text": "[IPJ12680]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_63009"
+    },
+    {
+      "id": 25471,
+      "text": "ガチャ[C6:｢チェンソーマン×激・獣神祭｣]の[LF]10連ガチャではEXおまけとして[LF][C6:コラボグッジョブ]が手に入ります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_63010"
+    },
+    {
+      "id": 25472,
+      "text": "[IS819|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_63011"
+    },
+    {
+      "id": 25473,
+      "text": "[IS821|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_63012"
+    },
+    {
+      "id": 25474,
+      "text": "[IS823|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_63013"
+    },
+    {
+      "id": 25475,
+      "text": "[IS824|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_63014"
+    },
+    {
+      "id": 25476,
+      "text": "[IS825|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_63015"
+    },
+    {
+      "id": 25477,
+      "text": "[IS826|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_63016"
+    },
+    {
+      "id": 25478,
+      "text": "[IS827|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_63017"
+    },
+    {
+      "id": 25479,
+      "text": "[IS829|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_63018"
+    },
+    {
+      "id": 25480,
+      "text": "[IS830|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_63019"
+    },
+    {
+      "id": 25481,
+      "text": "ガチャ[C6:｢チェンソーマン 第1弾｣]が再登場！[LF]第1弾のコラボキャラクター5体が入手可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_63020"
+    },
+    {
+      "id": 25482,
+      "text": "[IPJ12676]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_63021"
+    },
+    {
+      "id": 25483,
+      "text": "[IPJ12675]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_63022"
+    },
+    {
+      "id": 25484,
+      "text": "[IPJ12674]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_63023"
+    },
+    {
+      "id": 25485,
+      "text": "[IPJ10028]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_63024"
+    },
+    {
+      "id": 25486,
+      "text": "[IPJ10032]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_63025"
+    },
+    {
+      "id": 25487,
+      "text": "[C6:コラボクエスト出現中]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_63026"
+    },
+    {
+      "id": 25488,
+      "text": "[b:ba_help_collabo_iwaki_00_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_63027"
+    },
+    {
+      "id": 25489,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_63028"
+    },
+    {
+      "id": 25490,
+      "text": "4/1 0:00〜4/11 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_63029"
+    },
+    {
+      "id": 25491,
+      "text": "[C5:イベントクエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_63030"
+    },
+    {
+      "id": 25492,
+      "text": "[SGBI30130|difficulty1]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1775554244,
+      "label": "eTEXTS_DEF_63031"
+    },
+    {
+      "id": 25493,
+      "text": "[C5:追憶の書庫]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952225,
+      "updated_at": 1774952225,
+      "label": "eTEXTS_DEF_63032"
+    },
+    {
+      "id": 25494,
+      "text": "[IPJ10035]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63033"
+    },
+    {
+      "id": 25495,
+      "text": "[IPJ10039]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63034"
+    },
+    {
+      "id": 25496,
+      "text": "[IPJ10041]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63035"
+    },
+    {
+      "id": 25497,
+      "text": "[IPJ10037]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63036"
+    },
+    {
+      "id": 25498,
+      "text": "[IPJ10043]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63037"
+    },
+    {
+      "id": 25499,
+      "text": "[C6:｢夢バトル｣]は1日1回クリアボーナスで[LF]7体獲得可能、マルチだと金卵2個以上の[LF]排出率がアップします",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63038"
+    },
+    {
+      "id": 25500,
+      "text": "[C6:超究極難易度が登場]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63039"
+    },
+    {
+      "id": 25501,
+      "text": "[b:ba_help_collabo_iwaki_00_3.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63040"
+    },
+    {
+      "id": 25502,
+      "text": "[C5:超究極クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1775022323,
+      "label": "eTEXTS_DEF_63041"
+    },
+    {
+      "id": 25503,
+      "text": "[SGBI30140|difficulty1]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1775554244,
+      "label": "eTEXTS_DEF_63042"
+    },
+    {
+      "id": 25504,
+      "text": "[C3:｢ボンっ｣]は1日1回クリアボーナスで12体獲得可能、[LF]マルチだと金卵2個以上の排出率がアップします",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63043"
+    },
+    {
+      "id": 25505,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20260328_1.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63044"
+    },
+    {
+      "id": 25506,
+      "text": "[SW0.85][C6:コラボスターターパックなどのお楽しみ要素も]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63100"
+    },
+    {
+      "id": 25507,
+      "text": "[b:ba_help_collabo_iwaki_01.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63101"
+    },
+    {
+      "id": 25508,
+      "text": "[C6:コラボスターターパック]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63102"
+    },
+    {
+      "id": 25509,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63103"
+    },
+    {
+      "id": 25510,
+      "text": "4/1 0:00〜4/11 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63104"
+    },
+    {
+      "id": 25511,
+      "text": "[C6:ここでのみ入手可能なキャラ]と[LF]各種アイテムがセットとなった[LF][C6:コラボスターターパック]が購入可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63105"
+    },
+    {
+      "id": 25512,
+      "text": "新登場パック",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63106"
+    },
+    {
+      "id": 25513,
+      "text": "[IPJ12683]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63107"
+    },
+    {
+      "id": 25514,
+      "text": "再登場パック 第1弾コラボ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63108"
+    },
+    {
+      "id": 25515,
+      "text": "[IPJ10033]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63109"
+    },
+    {
+      "id": 25516,
+      "text": "[C5:フレンドガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63110"
+    },
+    {
+      "id": 25517,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LC][b:tips_stage_capture_42.png][LF]数字を0にすると発動する攻撃[LF]壁にふれると数字が減少する[LF]同じ壁にふれても数字は減少しない[LF]ウォールカウントアタックを持つ敵はふれると数字が減少しなくなる",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1772704095,
+      "updated_at": 1772704095,
+      "label": "eTEXTS_DEF_200394"
+    },
+    {
+      "id": 25518,
+      "text": "[LF][MARGIN16][LC][b:tips_stage_capture_42.png][LF]数字を0にすると発動する攻撃[LF]壁にふれると数字が減少する、同じ壁にふれても数字は減少しない[LF]ウォールカウントアタックを持つ敵はふれると数字が減少しなくなる",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1772704095,
+      "updated_at": 1791909061,
+      "label": "eTEXTS_DEF_200395"
+    },
+    {
+      "id": 25519,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63111"
+    },
+    {
+      "id": 25520,
+      "text": "4/1 0:00〜4/11 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63112"
+    },
+    {
+      "id": 25521,
+      "text": "期間中フレンドガチャから[LF]下記のキャラが排出されるようになります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63113"
+    },
+    {
+      "id": 25522,
+      "text": "[IPJ12687]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63114"
+    },
+    {
+      "id": 25523,
+      "text": "[C5:期間限定ラックボーナス]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63115"
+    },
+    {
+      "id": 25524,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63116"
+    },
+    {
+      "id": 25525,
+      "text": "4/1 0:00〜4/11 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63117"
+    },
+    {
+      "id": 25526,
+      "text": "下記のキャラは期間中[LF][C4:運極]状態でラックボーナスが獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63118"
+    },
+    {
+      "id": 25527,
+      "text": "[IPJ12688]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63119"
+    },
+    {
+      "id": 25528,
+      "text": "[C5:その他お楽しみ要素]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63120"
+    },
+    {
+      "id": 25529,
+      "text": "カフェ｢二道｣",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63121"
+    },
+    {
+      "id": 25530,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20260328_1.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63122"
+    },
+    {
+      "id": 25531,
+      "text": "[SW0.95][C6:毎日ポイントをためて報酬を獲得しよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63200"
+    },
+    {
+      "id": 25532,
+      "text": "[b:ba_help_collabo_iwaki_sb1_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63201"
+    },
+    {
+      "id": 25533,
+      "text": "[C5:ポイントの獲得方法について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63202"
+    },
+    {
+      "id": 25534,
+      "text": "ポイントは以下の方法で獲得することが出来ます[LF]・カフェ｢二道｣に入店[LF]・デイリーミッションをクリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63203"
+    },
+    {
+      "id": 25535,
+      "text": "[C5:入店について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63204"
+    },
+    {
+      "id": 25536,
+      "text": "[C6:1日1回]カフェ｢二道｣に訪れることで[LF][C6:2ポイント獲得]できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63205"
+    },
+    {
+      "id": 25537,
+      "text": "[C5:デイリーミッションについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63206"
+    },
+    {
+      "id": 25538,
+      "text": "毎日3つのデイリーミッションが表示されます[LF]クリア時に得られるポイントは[LF][C6:ミッションの難易度に応じて異なります]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63207"
+    },
+    {
+      "id": 25539,
+      "text": "ミッション1",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63208"
+    },
+    {
+      "id": 25540,
+      "text": "[C4:1pt]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63209"
+    },
+    {
+      "id": 25541,
+      "text": "ミッション2",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63210"
+    },
+    {
+      "id": 25542,
+      "text": "[C4:2pt]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63211"
+    },
+    {
+      "id": 25543,
+      "text": "ミッション3",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63212"
+    },
+    {
+      "id": 25544,
+      "text": "[C4:3pt]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63213"
+    },
+    {
+      "id": 25545,
+      "text": "[C6:すべて達成で合計6ポイント獲得]できます[LF]※日付の切り替わりは0時です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63214"
+    },
+    {
+      "id": 25546,
+      "text": "[C5:報酬について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63215"
+    },
+    {
+      "id": 25547,
+      "text": "ポイント報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63216"
+    },
+    {
+      "id": 25548,
+      "text": "[C6:ポイントを一定数貯める]と報酬が獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63217"
+    },
+    {
+      "id": 25549,
+      "text": "[C4:所持pt：]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63218"
+    },
+    {
+      "id": 25550,
+      "text": "[C4:3]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63219"
+    },
+    {
+      "id": 25551,
+      "text": "[C4:pt]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63220"
+    },
+    {
+      "id": 25552,
+      "text": "[IPJ12688]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63221"
+    },
+    {
+      "id": 25553,
+      "text": "入店回数報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63222"
+    },
+    {
+      "id": 25554,
+      "text": "[C6:カフェ｢二道｣に入店した日数]に応じて[LF]報酬が獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63223"
+    },
+    {
+      "id": 25555,
+      "text": "累計入店回数：　1",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63224"
+    },
+    {
+      "id": 25556,
+      "text": "[IAN10220177]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63225"
+    },
+    {
+      "id": 25557,
+      "text": "[IAN10220178]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63226"
+    },
+    {
+      "id": 25558,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20260328_1.html#7|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774952226,
+      "updated_at": 1774952226,
+      "label": "eTEXTS_DEF_63227"
+    },
+    {
+      "id": 25559,
+      "text": "[b:ba_help_collabo_iwaki_00_4.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775554244,
+      "updated_at": 1775554244,
+      "label": "eTEXTS_DEF_63045"
+    },
+    {
+      "id": 25560,
+      "text": "[SGBI30150|difficulty1]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775554244,
+      "updated_at": 1775554244,
+      "label": "eTEXTS_DEF_63046"
+    },
+    {
+      "id": 25561,
+      "text": "1回目のクリアで[C3:｢秘密の正体 レゼ｣][LF]への進化が解放され、[LF][C6:・称号｢逮捕！逮捕する！｣][LF][C6:・勲章｢チェンソーマン｣][LF][C6:・ボムのグッジョブ][LF][C6:・ストライカーカード｢チェンソーマン(レゼVer.)｣][LF]を獲得することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775554244,
+      "updated_at": 1775554244,
+      "label": "eTEXTS_DEF_63047"
+    },
+    {
+      "id": 25562,
+      "text": "2、3回目のクリアでそれぞれ[LF][C3:｢力の応用 ボム｣]×50体を獲得することが出来ます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775554244,
+      "updated_at": 1775554244,
+      "label": "eTEXTS_DEF_63048"
+    },
+    {
+      "id": 25563,
+      "text": "[LC]フェイバリットガチャとは[LF][LF][CCB:dlme/help_storage_favorite_gacha_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_MSG_STORAGE_FAVORITE_GACHA_HELP"
+    },
+    {
+      "id": 25564,
+      "text": "[LC]フェイバリットガチャ[LF][LF]最初のフェイバリットキャラを抽選します[LF][LF]★5以上のキャラが[LF]各属性1体ずつ5体当たるガチャ！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_MSG_STORAGE_FAVORITE_GACHA_FIRST_GACHA"
+    },
+    {
+      "id": 25565,
+      "text": "[LC]入れ替えるキャラを選択[LF][LF]10連ガチャで排出されたキャラをタップすると[LF]同じ属性のフェイバリットキャラと入れ替えが可能です[LF][LF][TI:10連ガチャの結果][LF][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_MSG_STORAGE_FAVORITE_GACHA_SELECT"
+    },
+    {
+      "id": 25566,
+      "text": "[LC]入れ替え確認[LF][LF]以下の内容でフェイバリットキャラが入れ替わります[LF][LF][NODE][LF][IF:%d]フェイバリットキャラに[C6:★4のキャラが含まれています][LF][ENDIF][C6:変更後の選び直しはできません][LF]本当によろしいですか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_MSG_STORAGE_FAVORITE_GACHA_SELECT_CHANGE"
+    },
+    {
+      "id": 25567,
+      "text": "[LC]内容確認[LF][LF]以下のまま変更されません[LF][LF][NODE][LF]本当によろしいですか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_MSG_STORAGE_FAVORITE_GACHA_SELECT_NOT_CHANGE"
+    },
+    {
+      "id": 25568,
+      "text": "[LC]ポスト確認[LF][LF]以下のフェイバリットキャラ画像を保存して[LF]Xにポストすることが出来ます[LF][LF][NODE]",
+      "layout": 37,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_MSG_STORAGE_FAVORITE_GACHA_SAVE_IMAGE"
+    },
+    {
+      "id": 25569,
+      "text": "画像保存完了[LC][LF][LF]画像が保存されました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_MSG_STORAGE_FAVORITE_GACHA_SAVE_IMAGE_FINISH"
+    },
+    {
+      "id": 25570,
+      "text": "画像保存に失敗しました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_MSG_STORAGE_FAVORITE_GACHA_SAVE_IMAGE_FAILED"
+    },
+    {
+      "id": 25571,
+      "text": "[LC]確認[LF][LF]以下のキャラを受け取りました[LF][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_MSG_STORAGE_FAVORITE_GACHA_RECEIVE_FINISH"
+    },
+    {
+      "id": 25572,
+      "text": "[LC]確認[LF][LF]以下のキャラを受け取りました[LF][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_MSG_STORAGE_FAVORITE_GACHA_RECEIVE_FINISH_AUTO"
+    },
+    {
+      "id": 25573,
+      "text": "[LC]画像保存権限[LF][LF][LC]ストレージへのアクセス権限がないため[LF][LC]画像が保存できませんでした[LF][LF][LC]画像を保存するためには[LF][LC]権限の許可が必要になります[LF][LC][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_MSG_STORAGE_FAVORITE_GACHA_NOT_PERMISSION"
+    },
+    {
+      "id": 25574,
+      "text": "[LC]画像保存権限[LF][LF][LC]ストレージへのアクセス権限がないため[LF][LC]画像が保存できませんでした[LF][LF][LC]画像を保存するためには[LF][LC]権限の許可が必要になります[LF][LC]端末の[[設定]から[LF][LC][[アプリ]-[[モンスト]-[[許可]にて[LF][LC][[ファイルとメディア]の設定をご確認下さい[LF][LC][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_MSG_STORAGE_FAVORITE_GACHA_NOT_PERMISSION_2ND"
+    },
+    {
+      "id": 25575,
+      "text": "ガチャが切り替わりました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_MSG_STORAGE_FAVORITE_GACHA_CHANGED"
+    },
+    {
+      "id": 25576,
+      "text": "ガチャ期間は終了しました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_MSG_STORAGE_FAVORITE_GACHA_FINISHED"
+    },
+    {
+      "id": 25577,
+      "text": "毎日引いて選んで！フェイバリットガチャ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_ME_STORAGE_FAVORITE_GACHA_TITLE"
+    },
+    {
+      "id": 25578,
+      "text": "ガチャ結果",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_ME_STORAGE_FAVORITE_GACHA_RESULT_TITLE"
+    },
+    {
+      "id": 25579,
+      "text": "ガチャ期間  :  4/10 12:00～4/20 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_ME_STORAGE_FAVORITE_GACHA_GACHA_PERIOD"
+    },
+    {
+      "id": 25580,
+      "text": "受取期間  :  4/19 4:00～4/26 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_ME_STORAGE_FAVORITE_GACHA_RECEIVE_PERIOD"
+    },
+    {
+      "id": 25581,
+      "text": "AM4:00にガチャ可能",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_ME_STORAGE_FAVORITE_GACHA_ALREADY_GET"
+    },
+    {
+      "id": 25582,
+      "text": "ガチャる",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_ME_STORAGE_FAVORITE_GACHA_BTN_NAME_GACHARU"
+    },
+    {
+      "id": 25583,
+      "text": "決定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_ME_STORAGE_FAVORITE_GACHA_BTN_NAME_DESIDE"
+    },
+    {
+      "id": 25584,
+      "text": "変更しない",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_ME_STORAGE_FAVORITE_GACHA_BTN_NAME_NOT_CHANGE"
+    },
+    {
+      "id": 25585,
+      "text": "ポスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_ME_STORAGE_FAVORITE_GACHA_BTN_NAME_YES"
+    },
+    {
+      "id": 25586,
+      "text": "保存せずポスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_ME_STORAGE_FAVORITE_GACHA_BTN_NAME_NO_IMAGE"
+    },
+    {
+      "id": 25587,
+      "text": "閉じる",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_ME_STORAGE_FAVORITE_GACHA_BTN_NAME_NO"
+    },
+    {
+      "id": 25588,
+      "text": "フェイバリットキャラ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_ME_STORAGE_FAVORITE_GACHA_FRAME_TITLE1"
+    },
+    {
+      "id": 25589,
+      "text": "変更前のフェイバリットキャラ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_ME_STORAGE_FAVORITE_GACHA_FRAME_TITLE2"
+    },
+    {
+      "id": 25590,
+      "text": "変更後のフェイバリットキャラ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_ME_STORAGE_FAVORITE_GACHA_FRAME_TITLE3"
+    },
+    {
+      "id": 25591,
+      "text": "本日の #フェイバリットガチャ ！<br>今のフェイバリットはこのキャラ！<br>皆は入れ替える？そのまま？<br><br>☆___画像を貼ってここにコメントを書こう___☆<br><br>#モンスト<br>#モンストハーフアニバ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_ME_STORAGE_FAVORITE_GACHA_SNS_MESSAGE1"
+    },
+    {
+      "id": 25592,
+      "text": "最終日の #フェイバリットガチャ ！<br>最後に選び抜いたのはこのキャラ！<br>皆はどのキャラを選んだ？<br><br>☆___画像を貼ってここにコメントを書こう___☆<br><br>#モンスト<br>#モンストハーフアニバ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_ME_STORAGE_FAVORITE_GACHA_SNS_MESSAGE2"
+    },
+    {
+      "id": 25593,
+      "text": "キャラを選択していません",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_MSG_STORAGE_FAVORITE_GACHA_NO_SELECT"
+    },
+    {
+      "id": 25594,
+      "text": "[LC]ファミマスポットキャンペーン[LF][LF][CCB:dlme/help_spot_ex06_00_1][LF][BLOCK:[C5:現在のスタンプ状況]][LF][NODE][LF][BLOCK_END][LF][CCB:dlme/help_spot_ex06_00_2]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_MSG_MONSPOT_STAMP_SHEET_HELP"
+    },
+    {
+      "id": 25595,
+      "text": "引き換え所",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_LABEL_MONSPT_STAMP_SHEET_EXCHANGE"
+    },
+    {
+      "id": 25596,
+      "text": "抽選参加画面",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_LABEL_MONSPT_STAMP_SHEET_SPOT_LOTTERY"
+    },
+    {
+      "id": 25597,
+      "text": "スタンプ報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_LABEL_MONSPT_STAMP_SHEET_REWARD"
+    },
+    {
+      "id": 25598,
+      "text": "アプリ起動",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_ME_MONSPOT_COUPON_BTN_NAME3"
+    },
+    {
+      "id": 25599,
+      "text": "破界の星墓に新たにステージが追加されました[LF]詳細はヘルプを確認してください",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1774517600,
+      "updated_at": 1783592182,
+      "label": "eTEXTS_DEF_SEIBO_NEW_STAGE_ADDED_DIALOG"
+    },
+    {
+      "id": 25600,
+      "text": "[LC]報酬一覧[LF][LF][TAB|WIDTH565:BATTLE突破][NODE][TAB|WIDTH565:全クエストBATTLE突破][NODE][TAB|WIDTH565:期間限定][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774517600,
+      "updated_at": 1774517600,
+      "label": "eTEXTS_DEF_SEIBO_REWARD_EVENT_DIALOG"
+    },
+    {
+      "id": 25601,
+      "text": "%s[C6:%d]個獲得しました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774517600,
+      "updated_at": 1774517600,
+      "label": "eTEXTS_DEF_SEIBO_ADDED_RESULT_GACHABALL_REWARD_LABEL"
+    },
+    {
+      "id": 25602,
+      "text": "現在の%s：%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774517600,
+      "updated_at": 1774517600,
+      "label": "eTEXTS_DEF_SEIBO_ADDED_REWARD_GACHABALL_CURRENT_LABEL"
+    },
+    {
+      "id": 25603,
+      "text": "%s %d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1774517600,
+      "updated_at": 1774517600,
+      "label": "eTEXTS_DEF_SEIBO_RESULT_GACHABALL_REWARD_TITLE_NAME"
+    },
+    {
+      "id": 25604,
+      "text": "応募期間：%s～%s",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MULTI_SWEEPSTAKE_ENTRY_DATA"
+    },
+    {
+      "id": 25605,
+      "text": "発表期間：%s～%s",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MULTI_SWEEPSTAKE_RESULT_DATA"
+    },
+    {
+      "id": 25606,
+      "text": "%s本",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MULTI_SWEEPSTAKE_PRIZE_COUNT_NUM"
+    },
+    {
+      "id": 25607,
+      "text": "%s％",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MULTI_SWEEPSTAKE_TOTAL_PERSENT"
+    },
+    {
+      "id": 25608,
+      "text": "%d/%d %d:%02d まで",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_LABEL_TIME_MADE"
+    },
+    {
+      "id": 25609,
+      "text": "自分の応募キャラ",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MULTI_SWEEPSTAKE_SELF_SELECT_PRIZE"
+    },
+    {
+      "id": 25610,
+      "text": "応募するキャラを選択してください",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MULTI_SWEEPSTAKE_PRIZE_SELECT"
+    },
+    {
+      "id": 25611,
+      "text": "応募期間中であれば何度でも変更可能です",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MULTI_SWEEPSTAKE_PRIZE_SELECT_WARNING"
+    },
+    {
+      "id": 25612,
+      "text": "メンバーの応募キャラ",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MULTI_SWEEPSTAKE_MEMBER_SELECT_PRIZE"
+    },
+    {
+      "id": 25613,
+      "text": "応募する",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MULTI_SWEEPSTAKE_BTN_SELECT_PRIZE"
+    },
+    {
+      "id": 25614,
+      "text": "変更する",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MULTI_SWEEPSTAKE_BTN_CHANGE_PRIZE"
+    },
+    {
+      "id": 25615,
+      "text": "マルチ抽選会募集リスト",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MULTI_SWEEPSTAKE_SEARCH_TITLE"
+    },
+    {
+      "id": 25616,
+      "text": "[LC]みんなで応募！マルチ抽選会とは[LF][LF][CCB:dlme/help_cp_multi_sweepstake_00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MSG_MULTI_SWEEPSTAKE_HELP"
+    },
+    {
+      "id": 25617,
+      "text": "[LC]応募状況[LF][LF][LC]前日までの応募状況を応募率が高い順に掲載[LF][LF][NODE][LF]※毎日23:59に集計を開始し、終わり次第[LF]　反映されます[LF]※合計が100％にならない場合があります",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MSG_MULTI_SWEEPSTAKE_ENTRY_STATUS"
+    },
+    {
+      "id": 25618,
+      "text": "[LF][LC]開催終了しました[LF]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MSG_MULTI_SWEEPSTAKE_EVENT_END"
+    },
+    {
+      "id": 25619,
+      "text": "[LC]確認[LF][LF][LC]「ソロで応募」を選択しました[LF][LF][LC]一度決定すると「マルチで応募」を[LF][LC]選択することはできません[LF][LF][LC]本当によろしいですか？",
+      "layout": 8,
+      "color": 1,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MSG_MULTI_SWEEPSTAKE_SOLO_MEMBER_CONFRIM"
+    },
+    {
+      "id": 25620,
+      "text": "[LC]離れた相手と応募[LF][LF]マルチ募集URLを使って、[LF]離れた相手を抽選会に誘おう[LF][LF]・[C6:ホストになる]をタップし、LINEで繋がっている相手に[LF]　募集URLとメッセージを送ります[LF][LF]・[C6:自分が投稿した募集URLをタップ]すると、[LF]　メンバー受付画面に切り替わります[LF][LF]・[C6:ゲストにも、][LF]　[C6:届いた募集URLをタップしてもらうことで][LF]　[C6:一緒に応募することができます]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MSG_MULTI_SWEEPSTAKE_LINE_INVITE"
+    },
+    {
+      "id": 25621,
+      "text": "マルチ抽選会受付中",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_ME_TITLE_MULTI_SWEEPSTAKE_STANDBY"
+    },
+    {
+      "id": 25622,
+      "text": "[LC]募集を検索します[LF][LF]「検索する」をタップすると[LF][C4:近くのホスト・フレンド]の募集の検索を開始します[LF][LF]・[C4:合言葉設定]をすると同じ3桁の数字を入力した[LF]　ホストの募集のみが表示されます[LF]　解除したい時は数字の横の｢鍵のボタン｣を[LF]　タップしましょう[LF][LF]・[C4:位置情報(GPS)]許可設定[C4:電波状況]等を[LF]　ご確認ください[LF][LF][C6:｢募集する」]をタップすると自分がホストになり[LF]一緒に引くメンバーを集めることが出来ます",
+      "layout": 27,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MULTI_SWEEPSTAKE_HOST_GUEST_SELECTION"
+    },
+    {
+      "id": 25623,
+      "text": "[LC]メンバー確認[LF][LF][LC]このメンバーで応募します[LF][LC][C16:決定するとメンバーを変えることは出来ません][LF][LC]よろしいですか？[LF][LF][LC][NODE]",
+      "layout": 8,
+      "color": 1,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MSG_MULTI_SWEEPSTAKE_MEMBER_CONFIRM"
+    },
+    {
+      "id": 25624,
+      "text": "[LC]メンバー決定！[LF][LF]好きなキャラを選んで応募してみよう！[LF][LF][LC][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MULTI_SWEEPSTAKE_MEMBER_FIX"
+    },
+    {
+      "id": 25625,
+      "text": "[LC]ホスト確認[LF][LF][LC][NODE][LF][LF][LC][C16:ホストがメンバーを確定すると][LF][LC][C16:一緒に応募する人を変えることは出来ません][LF][LC]このホストで間違いないですか？[LF]",
+      "layout": 8,
+      "color": 1,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MSG_MULTI_SWEEPSTAKE_HOST_CONFIRM"
+    },
+    {
+      "id": 25626,
+      "text": "選択したホストに[LF]接続できませんでした",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MSG_MULTI_SWEEPSTAKE_ERR_HOST_TO_CONNECT_FAIL"
+    },
+    {
+      "id": 25627,
+      "text": "参加前に、ホストがメンバー確定を[LF]していたため、参加できませんでした[LF]接続を終了します",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MSG_MULTI_SWEEPSTAKE_ERR_TEAM_CREATE_WITHOUTME"
+    },
+    {
+      "id": 25628,
+      "text": "[LC]エラー[LF][LF]定員オーバーです[LF]マッチングをし直してください。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MULTI_SWEEPSTAKE_TEAM_MEMBER_OVERED"
+    },
+    {
+      "id": 25629,
+      "text": "[LC]エラー[LF][LF]メンバー確認に失敗しました[LF][LF]【[C6:「マルチで応募」]の場合】[LF]ホストまたはゲストのいずれかのメンバーが[LF]すでに応募しています[LF]まだ応募していないメンバーのみで[LF]集まってください[LF][LF]【[C5:「ソロで応募」]の場合】[LF]「マルチで応募」を選択済みです[LF][LF]うまくいかない場合お手数ですが[LF]一度タイトルに戻ってお試しください[LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MSG_MULTI_SWEEPSTAKE_TEAM_ALREADY_CREATED"
+    },
+    {
+      "id": 25630,
+      "text": "[LC]エラー[LF][LF]メンバー確認に失敗しました[LF]ゲストのいずれかのメンバーが[LF]別のチームに参加しています[LF]募集または検索し直してください",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MSG_MULTI_SWEEPSTAKE_TEAM_MEMBER_INVALID"
+    },
+    {
+      "id": 25631,
+      "text": "[LC]合言葉を入力しよう[LF][LF][LC]3桁の番号が入力されていません[LF][LC]3桁の番号を設定してください",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MSG_MULTI_SWEEPSTAKE_PSSS_CODE_ERR"
+    },
+    {
+      "id": 25632,
+      "text": "[LC]募集が見つかりません[LF][LF]有効な[C4:ホスト]の募集が見つかりません[LF][LF]・友達が[C4:合言葉]を設定していませんか？[LF]　友達に聞いて同じ数字を入力しましょう[LF][LF]・[C4:位置情報（GPS）]許可設定[C4:電波状況]等を[LF]　ご確認ください",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MSG_MULTI_SWEEPSTAKE_SEARCH_ERROR"
+    },
+    {
+      "id": 25633,
+      "text": "[LC]期間終了[LF][LF]マルチ募集期間、[LF]または、応募期間が終了しました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MSG_MULTI_SWEEPSTAKE_TEAM_CREARION_OUT_OF_SESSION"
+    },
+    {
+      "id": 25634,
+      "text": "[LC]応募キャラ確認[LF][LF][LC]このキャラに応募しますか？[LF][LF][LC][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MSG_MULTI_SWEEPSTAKE_PRIZE_SELECT_CONFRIM"
+    },
+    {
+      "id": 25635,
+      "text": "未応募",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MULTI_SWEEPSTAKE_NO_ENTRY_PRIZE"
+    },
+    {
+      "id": 25636,
+      "text": "応募期間終了間近です",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MSG_MULTI_SWEEPSTAKE_LOTTERY_PERIOD"
+    },
+    {
+      "id": 25637,
+      "text": "[LC]応募期間終了[LF][LF]応募期間が終了しました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MSG_MULTI_SWEEPSTAKE_ENTRY_PERIOD"
+    },
+    {
+      "id": 25638,
+      "text": "応募期限切れ[LF][LF]この応募の期限を過ぎています",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MSG_MULTI_SWEEPSTAKE_ENTRY_EXPIRED"
+    },
+    {
+      "id": 25639,
+      "text": "抽選結果が発表されました！アプリを開いて確認しよう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MULTI_SWEEPSTAKE_NOTIFICATION"
+    },
+    {
+      "id": 25640,
+      "text": "[LC]受取確認[LF][LF][LC][S3][C6:当たり！][LF][LC][NODE][LF][LF]当選したキャラを受け取りました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MSG_MULTI_SWEEPSTAKE_PRIZE_RECEIVED"
+    },
+    {
+      "id": 25641,
+      "text": "[LC]受取確認[LF][LF][LC][NODE][LF][LF]チームメンバー分の[LF]報酬を受け取りました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MSG_MULTI_SWEEPSTAKE_PRIZE_RECEIVED_TEAM"
+    },
+    {
+      "id": 25642,
+      "text": "[LC]マルチ抽選会[LF][LF][LC][S2]抽選結果を発表します",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MSG_MULTI_SWEEPSTAKE_LOTTERY_START"
+    },
+    {
+      "id": 25643,
+      "text": "[LC]受取確認[LF][LF][LC][NODE][LF][LF]参加賞を受け取りました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MSG_MULTI_SWEEPSTAKE_PRIZE_RECEIVED_BLANK"
+    },
+    {
+      "id": 25644,
+      "text": "マルチ抽選会結果発表",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MULTI_SWEEPSTAKE_NOTIFICATION_TITLE"
+    },
+    {
+      "id": 25645,
+      "text": "[LC]応募確認[LF][LF][LC]「ソロで応募」を選択しました[LF][LF][LC]キャラの応募に進みますか？",
+      "layout": 8,
+      "color": 1,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MSG_MULTI_SWEEPSTAKE_SOLO_CONFIRM_SOLO_ONLY"
+    },
+    {
+      "id": 25646,
+      "text": "[LC]抽選結果[LF][LC]発表前",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MULTI_SWEEPSTAKE_LOTTERY_PERIOD"
+    },
+    {
+      "id": 25647,
+      "text": "[LC]確認[LF][LF]メンバー全員が未応募のため[LF]抽選は実施されませんでした",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MSG_MULTI_SWEEPSTAKE_MEMBER_NOT_ENTRY"
+    },
+    {
+      "id": 25648,
+      "text": "[LC]無効な募集[LF][LF]この募集はプレイ済みです[LF]改めてマルチ募集を行ってください",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1780570548,
+      "updated_at": 1780570548,
+      "label": "eTEXTS_DEF_MSG_LINE_MULTI_INVITATION_INVALID"
+    },
+    {
+      "id": 25649,
+      "text": "[C6:モンスポットにコラボ店舗が登場！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_64000"
+    },
+    {
+      "id": 25650,
+      "text": "[b:ba_help_spot_ex06_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_64001"
+    },
+    {
+      "id": 25651,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_64002"
+    },
+    {
+      "id": 25652,
+      "text": "4/14 4:00 〜 4/28 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_64003"
+    },
+    {
+      "id": 25653,
+      "text": "[C5:キャンペーン情報]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_64004"
+    },
+    {
+      "id": 25654,
+      "text": "[C6:コラボ店舗]やいつものスポットで[LF][C6:ジューシーコイン]を集めアイテムに引き換えましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_64005"
+    },
+    {
+      "id": 25655,
+      "text": "引き換え所",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_64006"
+    },
+    {
+      "id": 25656,
+      "text": "コラボ店舗に訪れると[C6:スタンプを1つ獲得]できます[LF]スタンプを集めてアイテムを獲得しましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_64007"
+    },
+    {
+      "id": 25657,
+      "text": "さらに、コラボ店舗では[LF][C6:｢ファミマポイント｣などが当たる抽選]に[LF]参加することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_64008"
+    },
+    {
+      "id": 25658,
+      "text": "ファミペイアプリ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_64009"
+    },
+    {
+      "id": 25659,
+      "text": "アプリ起動",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_64010"
+    },
+    {
+      "id": 25660,
+      "text": "[C5:ジューシーコインについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_64011"
+    },
+    {
+      "id": 25661,
+      "text": "期間中はいつものスポットで[LF]ジューシーコインがドロップするようになります[LF]稀に[C6:金のジューシーコイン]がドロップすることも！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_64012"
+    },
+    {
+      "id": 25662,
+      "text": "コラボ店舗ではオーブのカケラなどとあわせて[LF]金のジューシーコインが必ずドロップします",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_64013"
+    },
+    {
+      "id": 25663,
+      "text": "※コラボ店舗も10分でアイテムが再獲得可能です[LF][LF]※コラボ店舗でのアイテム獲得は[LF]　轟絶ボーナスモンスポット範囲拡大の対象外です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_64014"
+    },
+    {
+      "id": 25664,
+      "text": "[C5:引き換えについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_64015"
+    },
+    {
+      "id": 25665,
+      "text": "引き換え期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_64016"
+    },
+    {
+      "id": 25666,
+      "text": "4/14 4:00 ~ 4/30 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_64017"
+    },
+    {
+      "id": 25667,
+      "text": "ジューシーコインをアイテムと引き換えができます[LF]金のジューシーコインでは[C6:限定勲章]や[C6:シール]、[LF][C6:グッジョブ]も引き換え可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_64018"
+    },
+    {
+      "id": 25668,
+      "text": "[C5:スタンプカードについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_64019"
+    },
+    {
+      "id": 25669,
+      "text": "コラボ店舗でアイテム獲得を行うことで[LF]1日1回[C6:スタンプを獲得]できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_64020"
+    },
+    {
+      "id": 25670,
+      "text": "[C6:スタンプ][LF][C6:獲得！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_64021"
+    },
+    {
+      "id": 25671,
+      "text": "スタンプを押した個数に応じて[LF]アイテムを獲得することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_64022"
+    },
+    {
+      "id": 25672,
+      "text": "※日付の切り替わりはAM4:00です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_64023"
+    },
+    {
+      "id": 25673,
+      "text": "[C5:抽選について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_64024"
+    },
+    {
+      "id": 25674,
+      "text": "コラボ店舗では1日1回[LF][C6:抽選に参加]することが可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_64025"
+    },
+    {
+      "id": 25675,
+      "text": "ファミマのアプリ｢ファミペイ｣で抽選に参加",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_64026"
+    },
+    {
+      "id": 25676,
+      "text": "アプリ起動",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_64027"
+    },
+    {
+      "id": 25677,
+      "text": "※日付の切り替わりはAM0:00です[LF][LF]※抽選への参加はファミマのアプリ｢ファミペイ｣[LF]　のインストールが必要です[LF][LF]※詳細は[u:https://www.monster-strike.com/news/20260406_1.html#1|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1775728422,
+      "updated_at": 1775728422,
+      "label": "eTEXTS_DEF_64028"
+    }
+  ]
+}

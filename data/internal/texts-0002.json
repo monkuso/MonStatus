@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 1,
+  "table": "texts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 513,
+      "text": "魂の紋章・紅",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1507135465,
+      "updated_at": 1524671565,
+      "label": "eTEXTS_DEF_SOUL_MONSHO_FIRE"
+    },
+    {
+      "id": 514,
+      "text": "魂の紋章・蒼",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1507135465,
+      "updated_at": 1524671565,
+      "label": "eTEXTS_DEF_SOUL_MONSHO_ICE"
+    },
+    {
+      "id": 515,
+      "text": "魂の紋章・碧",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1507135465,
+      "updated_at": 1524671565,
+      "label": "eTEXTS_DEF_SOUL_MONSHO_PLANT"
+    },
+    {
+      "id": 516,
+      "text": "魂の紋章・光",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1507135465,
+      "updated_at": 1524671565,
+      "label": "eTEXTS_DEF_SOUL_MONSHO_LIGHT"
+    },
+    {
+      "id": 517,
+      "text": "魂の紋章・闇",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1507135465,
+      "updated_at": 1524671565,
+      "label": "eTEXTS_DEF_SOUL_MONSHO_DARK"
+    },
+    {
+      "id": 518,
+      "text": "2日前",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1507135465,
+      "updated_at": 1524671565,
+      "label": "eTEXTS_DEF_SOUL_YESTERDAY2"
+    },
+    {
+      "id": 519,
+      "text": "1日前",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1507135465,
+      "updated_at": 1524671565,
+      "label": "eTEXTS_DEF_SOUL_YESTERDAY"
+    },
+    {
+      "id": 520,
+      "text": "本日分",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1507135465,
+      "updated_at": 1524671565,
+      "label": "eTEXTS_DEF_SOUL_TODAY"
+    },
+    {
+      "id": 521,
+      "text": "本日の魂気上限内訳",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1507135465,
+      "updated_at": 1524671565,
+      "label": "eTEXTS_DEF_SOUL_TOP_KURIKOSI"
+    },
+    {
+      "id": 522,
+      "text": "降神玉1つでモンスターの神化ができます[LF]◎爆絶モンスターを含む、一部モンスターは除きます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1507135465,
+      "updated_at": 1524671565,
+      "label": "eTEXTS_DEF_ITEMLIST_GOD_ITEM_DESCRIPTION"
+    },
+    {
+      "id": 523,
+      "text": "獣竜玉1つで[LF]モンスターの獣神化ができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1507135465,
+      "updated_at": 1524671565,
+      "label": "eTEXTS_DEF_ITEMLIST_BEAST_ITEM_DESCRIPTION"
+    },
+    {
+      "id": 524,
+      "text": "必要数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1507135465,
+      "updated_at": 1524671565,
+      "label": "eTEXTS_DEF_BEAST_MUTATION_NEED_NUM"
+    },
+    {
+      "id": 525,
+      "text": "[LC]獣神化確認[LF][WIDTH500][LF]以下の素材を消費して獣神化を行います[LF]よろしいですか？[LF][LF]%s[IF:%d][MARGIN10][LF][NODE][ENDIF]%s",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1507135465,
+      "updated_at": 1791909059,
+      "label": "eTEXTS_DEF_BEAST_MUTATION_DIALOG"
+    },
+    {
+      "id": 526,
+      "text": "[LF8]◎｢モンスターBOX｣内の一番ラックの高い[LF]獣神竜から消費されます。不足している場合は、[LF]｢進化アイテムBOX｣の獣神竜からも消費します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1507135465,
+      "updated_at": 1791909059,
+      "label": "eTEXTS_DEF_BEAST_MUTATION_ADD_WARNING"
+    },
+    {
+      "id": 527,
+      "text": "[LC]「進化アイテムBOX」に引っ越ししよう！[LF][LF][I33][LF][LF]獣神竜を「進化アイテムBOX」に引っ越しすると、[LF][C8:上限数を気にせずに所持することが可能になり、][LF][C8:獣神化の際にラック合成を行わなくても使用できます。][LF]※各素材は9999体まで所持が可能！[LF][LF]まずは、この機能で、Ver.10.1以前に入手した[LF]下記の「獣神竜」を一括で引っ越しさせよう！[LF][LF]対象モンスター[LF][IP2892][IP2893][IP2894][IP2895][IP2896][LF][LF][LF][LF]【[C6:ご注意ください]】[LF]◎「進化アイテムBOX」では以下のことができません。[LF]・獣神竜同士の「強化合成」や、「売却」[LF]・獣神竜のデッキやフレンド使用キャラへの設定[LF]・獣神竜を「ラック引き換え」の素材にすること[LF][LF]◎ラックが複数ある場合は「進化アイテムBOX」に[LF]引っ越しても、ラック数と同数の素材として使用できます。[LF][LF][I34][LF][LF]◎以下の設定がされている獣神竜は引っ越しされません。[LF]・デッキやフレンド使用キャラへ設定されている[LF]・モンスターBOXでロックされている[LF][LF]◎一度「進化アイテムBOX」に引っ越した場合、[LF]「モンスターBOX」に戻すことはできません。",
+      "layout": 8,
+      "color": 2,
+      "created_at": 1507135465,
+      "updated_at": 1524671565,
+      "label": "eTEXTS_DEF_BEAST_DRAGON_MOVING_BOX_INFO"
+    },
+    {
+      "id": 528,
+      "text": "この機能は、Ver10.1以前に入手した獣神竜を[LF]一括で「進化アイテムBOX」に移動させる為の機能です。[LF][LF]通算ログイン日数の長いユーザー様より、[LF]順次、本機能のご利用を解放しておりますので、[LF]ご利用開始までもうしばらくお待ちください。[LF][LF]引越し前の獣神化につきましては、[LF]「モンスターBOX」内の獣神竜から消費されます。[LF]なお、「モンスターBOX」内の獣神竜が必要素材数に[LF]達しない場合は、「進化アイテムBOX」の獣神竜も[LF]合わせて消費されます。",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1507135465,
+      "updated_at": 1524671565,
+      "label": "eTEXTS_DEF_BEAST_DRAGON_MOVING_NO_USE"
+    },
+    {
+      "id": 529,
+      "text": "獣神竜の引っ越しが完了しました！",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1507135465,
+      "updated_at": 1524671565,
+      "label": "eTEXTS_DEF_BEAST_DRAGON_MOVING_SUCCESS"
+    },
+    {
+      "id": 530,
+      "text": "獣神竜を引っ越す",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1507135465,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_ME_DRAGON_MOVING_BOX"
+    },
+    {
+      "id": 531,
+      "text": "[LC]降神玉を使用して神化[LF][LF]降神玉を使用して神化を行います。[LF]よろしいですか？[LF][LF]降神玉所持数：%d[LF][LF]下記素材とゴールドは消費されません。[LF]%s",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1507135465,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_MSG_MUTATION_ALMIGHTY_ITEM_ASK"
+    },
+    {
+      "id": 532,
+      "text": "[LC]アイテム未所持[LF][LF]降神玉を所持していません",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1507135465,
+      "updated_at": 1791909059,
+      "label": "eTEXTS_DEF_MSG_MUTATION_ALMIGHTY_ITEM_NOITEM"
+    },
+    {
+      "id": 533,
+      "text": "[LC]LV不足[LF][LF]LVが不足しているため、[LF]神化することができません。",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1507135465,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_MSG_MUTATION_ALMIGHTY_ITEM_LOWLEVEL"
+    },
+    {
+      "id": 534,
+      "text": "[LC]降神玉を使用して神化[LF][LF]この神化には降神玉を使用できません。",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1507135465,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_MSG_MUTATION_ALMIGHTY_ITEM_NOUSE"
+    },
+    {
+      "id": 535,
+      "text": "[LC]神化確認[LF][WIDTH500][LF]以下の素材を消費して神化を行います[LF]よろしいですか？[LF][LF][MARGIN10][LF][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1507135465,
+      "updated_at": 1791909059,
+      "label": "eTEXTS_DEF_MUTATION_DIALOG"
+    },
+    {
+      "id": 536,
+      "text": "ロック",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1507135465,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_SORT_WINDOW_LOCK_TITLE"
+    },
+    {
+      "id": 537,
+      "text": "している",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1517244522,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_SORT_WINDOW_LOCK_ON"
+    },
+    {
+      "id": 538,
+      "text": "していない",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1517244522,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_SORT_WINDOW_LOCK_OFF"
+    },
+    {
+      "id": 539,
+      "text": "合計ラック",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1517244522,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_LUCK_SELECT_LUCK"
+    },
+    {
+      "id": 540,
+      "text": "引き換えセット数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1517244522,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_LUCK_SELECT_NUM"
+    },
+    {
+      "id": 541,
+      "text": "合計ラック",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1517244522,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_LUCK_SELECT_CHAR_LUCK"
+    },
+    {
+      "id": 542,
+      "text": "引き換えセット数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1517244522,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_LUCK_SELECT_CHAR_NUM"
+    },
+    {
+      "id": 543,
+      "text": "[LC]ラック確認[LF][LF]引き換えに必要なラックに対して、[LF]素材の合計ラックが [C4:%d] 超えています。[LF][LF]このまま引き換えてもよろしいですか？[LF]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1517244522,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_LUCK_SELECT_OVER"
+    },
+    {
+      "id": 544,
+      "text": "[LC]引き換え[LF][MARGIN40][LF][LC][NODE][LF]%s[LF]引き換えを行うと、素材になったモンスターは、[LF][C8:モンスターBOXからいなくなります。][LF][LF]本当に引き換えてもよろしいですか？[LF]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1517244522,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_LUCK_SELECT_ASK"
+    },
+    {
+      "id": 545,
+      "text": "上記のモンスターを素材として、[LF][C6:%s]を[C6:%d%s]と引き換えを行います。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1517244522,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_LUCK_SELECT_ASK_RESULT"
+    },
+    {
+      "id": 546,
+      "text": "上記のモンスターを素材として、[LF][C6:%s]と引き換えを行います。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1517244522,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_LUCK_SELECT_ASK_RESULT_PROFILE"
+    },
+    {
+      "id": 547,
+      "text": "体",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1517244522,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_LUCK_EXCHANGE_CHAR_UNIT_NAME"
+    },
+    {
+      "id": 548,
+      "text": "★%d以上の[LUCK]%d素材で対象と引き換え",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1517244522,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_LUCK_SELECT_INFO"
+    },
+    {
+      "id": 549,
+      "text": "[C6:ベルゼキュー、リリス＆貂蝉、ドラギロスを10体まで選択可能]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1528894420,
+      "label": "eTEXTS_DEF_LUCK_SELECT_ASSIGNED_INFO"
+    },
+    {
+      "id": 550,
+      "text": "[LC]ラック引き換えとは[LF][LF][CCB:dlme/help_luckexchange_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1542216859,
+      "label": "eTEXTS_DEF_MSG_LUCK_EXCHANGE_HELP"
+    },
+    {
+      "id": 551,
+      "text": "[LC]ラック引き換えがリニューアル！[LF][LF][LC][b:ba_charexchange.png][LF]これまで、複数回に分けて行なっていた引き換えが、[LF][C6:まとめて一度に行なえるようになりました！][LF][LF]モンスターやアイテムへ引き換えをする際、[LF]選択した引き換え素材モンスターの[LF]合計ラックに応じて、[LF][C6:引き換えできる数を増やすことができます！][LF][LF]また、引き換え素材モンスターも、[LF][C6:1度に最大10体まで選択可能になりました！][LF][LF]※1度に引き換えられるモンスターやアイテムは[LF]1種類です。",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_LUCK_EXCHANGE_INTRO"
+    },
+    {
+      "id": 552,
+      "text": "引き換え素材モンスター",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_LUCK_MATERIAL_TITLE"
+    },
+    {
+      "id": 553,
+      "text": "引き換え数の上限に達しているため[LF][LC]選択できません。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_LUCK_TITLE_SELECT_WARNING"
+    },
+    {
+      "id": 554,
+      "text": "[LC]購入分オーブの所持上限[LF][LF][LC]購入分オーブが、所持上限値の[LF]99999個を超えてしまうため、購入することができません。[LF][LF]購入分オーブを消費してから、再度ご購入ください。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_MAX_USER_MONEY"
+    },
+    {
+      "id": 555,
+      "text": "[LC]%sと引き換え[LF][WIDTH500][LF][LC][NODE][MARGIN10][LF][LC][NODE][MARGIN10][LF][MARGIN20][LF][LC][NODE]%s",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1542216859,
+      "label": "eTEXTS_DEF_MSG_EXCHANGE_ASKED"
+    },
+    {
+      "id": 556,
+      "text": "お助けアイテム「%s」[LF]%d個と引き換えました。%s",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1542216859,
+      "label": "eTEXTS_DEF_MSG_BOOST_EXCHANGE_SUCCESS"
+    },
+    {
+      "id": 557,
+      "text": "引き換え後のメダル:",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_ME_MEDALS_AFTER_BUY"
+    },
+    {
+      "id": 558,
+      "text": "[LC]%sと引き換え[LF][WIDTH500]%s[LF]メダルを%s枚で[LF]「%s」[LF]と引き換えますか？[LF][MARGIN20][LF][LC][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_MSG_EXCHANGE_ASKED_NO_SELECT"
+    },
+    {
+      "id": 559,
+      "text": "[LC]メダル不足[LF][WIDTH500][LF][LC][NODE][MARGIN10][LF]メダルが不足しているため[LF]引き換えできません。[LF]メダルを獲得してから引き換えてください。[LF][MARGIN20][LF][LC][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1566833572,
+      "label": "eTEXTS_DEF_MSG_MEDAL_LACK"
+    },
+    {
+      "id": 560,
+      "text": "現在の所持メダル:",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_ME_NOW_MEDALS"
+    },
+    {
+      "id": 561,
+      "text": "引き換え後の所持数:",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_ME_BOOST_ITEM_AFTER_BUY"
+    },
+    {
+      "id": 562,
+      "text": "現在の所持数:",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_ME_NOW_BOOST_ITEM"
+    },
+    {
+      "id": 563,
+      "text": "[LC]アイテム上限[LF][WIDTH500][LF][LC][NODE][MARGIN10][LF][LC][NODE][MARGIN10][LF]アイテムの所持上限に達しているため[LF]引き換えできません。[LF]アイテムを使用してから引き換えしてください。",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1542216860,
+      "label": "eTEXTS_DEF_ME_BOOST_ITEM_FULL"
+    },
+    {
+      "id": 564,
+      "text": "このアイテムは運極のモンスターを[LF]%d体以上所持していなければ[LF]引き換えることはできません。[LF][MARGIN20][LF][LC][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1566833572,
+      "label": "eTEXTS_DEF_ME_BOOST_EXCHANGE_LIMIT"
+    },
+    {
+      "id": 565,
+      "text": "[LC]本日のプレゼント[LF][WIDTH450][LF][NODE][LF][LC]※アイテムは受け取りボックスに送られます",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_LONGIN_STAMP"
+    },
+    {
+      "id": 566,
+      "text": "[LC]チョコボもらえる！[LF][WIDTH550][LF][b:ff_campaign_info.png][LF]キャンペーン詳細は[u:https://www.monster-strike.com/news/20180125_4.html|こちら][LF][TI:ログインでもらえる！～2/13 3:59まで][LF][NODE][LF][TI:直前キャンペーン期間中のログインボーナス！][LF][NODE][LF]※プレゼントはログイン時に、受け取りBOXに送られています[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_FF_PROMOTION_DIALOG"
+    },
+    {
+      "id": 567,
+      "text": "%d日目",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_FF_PROMOTION_DIALOG_DAY"
+    },
+    {
+      "id": 568,
+      "text": "[LC]「閃きの遊技場」出現中！[LF][LF]%sの期間で出現！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1529426215,
+      "label": "eTEXTS_DEF_MSG_TUMEMON_INTRO"
+    },
+    {
+      "id": 569,
+      "text": "[LC]閃きの遊技場とは[LF][LF][CCB:dlme/help_turn_stage00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1536166379,
+      "label": "eTEXTS_DEF_MSG_TUMEMON_INFO"
+    },
+    {
+      "id": 570,
+      "text": "[LC]%s[LF][WIDTH530][LF][LC][NODE][LF][LF][TI:初クリア報酬][LF][LC][NODE][LF][LF][TI:ベストスコア][LF][LC][NODE][LF]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1538494846,
+      "label": "eTEXTS_DEF_MSG_TUMEMON_STAGE_INFO"
+    },
+    {
+      "id": 571,
+      "text": "このステージをプレイするには、[LF]前のステージをクリアする必要があります。",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_MSG_TUMEMON_STAGE_ERROR"
+    },
+    {
+      "id": 572,
+      "text": "ターンリミット",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_ME_TUMEMON_LIMIT"
+    },
+    {
+      "id": 573,
+      "text": "バトル数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_ME_TUMEMON_BATTLENUM"
+    },
+    {
+      "id": 574,
+      "text": "消費スタミナ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_ME_TUMEMON_STAMINANUM"
+    },
+    {
+      "id": 575,
+      "text": "ターン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_ME_TUMEMON_TURN"
+    },
+    {
+      "id": 576,
+      "text": "未クリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_ME_TUMEMON_NOTCLEAR"
+    },
+    {
+      "id": 577,
+      "text": "閃きの遊技場",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_ME_TITLE_TUMEMON"
+    },
+    {
+      "id": 578,
+      "text": "クリアターン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_ME_CLEAR_TURN"
+    },
+    {
+      "id": 579,
+      "text": "クリア情報",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_ME_CLEAR_INFO"
+    },
+    {
+      "id": 580,
+      "text": "[LC]マジックストーン設定[LF][LF]出撃時／メダル引き換え時に[LF]マジックストーンも使用可能にする",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1542216860,
+      "label": "eTEXTS_DEF_MSG_OPTION_BUY_ITEM_WITH_STONE"
+    },
+    {
+      "id": 581,
+      "text": "%d/%d(%s)",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_FF_PROMOTION_DIALOG_MONTH_DAY"
+    },
+    {
+      "id": 582,
+      "text": "[LC]メダル精製[LF][WIDTH500][LF]マジックストーンを%s個使用して、[LF]メダル[C4:%s枚]に精製しますか？[LF][LF]引き換え後の所持数[LF][MARGIN20][LF][LC][NODE][LF][MARGIN20][LF][LC][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_MSG_MEDAL_EXCHANGE"
+    },
+    {
+      "id": 583,
+      "text": "[LC]マジックストーン不足[LF][LF]マジックストーンが不足しているため[LF]引き換えできません。[LF]マジックストーンを獲得してから引き換えてください。[LF][LF][LC][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1566833572,
+      "label": "eTEXTS_DEF_MSG_STONE_LACK"
+    },
+    {
+      "id": 584,
+      "text": "メダル:",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_ME_MEDAL_EXCHANGE_MEDAL"
+    },
+    {
+      "id": 585,
+      "text": "マジックストーン:",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_ME_MEDAL_EXCHANGE_MAGIC_STONE"
+    },
+    {
+      "id": 586,
+      "text": "現在の所持マジックストーン:",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671566,
+      "updated_at": 1524671566,
+      "label": "eTEXTS_DEF_ME_MEDAL_EXCHANGE_NOW_MAGIC_STONE"
+    },
+    {
+      "id": 587,
+      "text": "選択した募集リストには[LF]うまく接続できませんでした。 ",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1524671567,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_MSG_ERR_HOST_TO_CONNECT_FAIL"
+    },
+    {
+      "id": 588,
+      "text": "参加していた募集リストとの[LF]接続が切れました。",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1524671567,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_MSG_ERR_HOST_DOWN"
+    },
+    {
+      "id": 589,
+      "text": "[LC]「禁忌の獄」出現中！[LF][LF]%sの期間で出現！[LF][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1528175787,
+      "updated_at": 1695658293,
+      "label": "eTEXTS_DEF_MSG_SHADOW_TOWER_INTRO"
+    },
+    {
+      "id": 590,
+      "text": "[LC]「禁忌の獄」とは？[LF][LF][b:ba_info_20180531_6.png][LF][LF]「戦績」での「封印の玉楼 最高達成列数」が12列[LF]達成した者だけが挑戦可能な、超高難易度クエスト！[LF][LF]「禁忌の獄」では、各ステージを初めてクリアした際に[LF]報酬がもらえるぞ！[LF]報酬には「わくわくミン」や「英雄の書」も！[LF]ステージを勝ち進んで報酬をゲットしよう！[LF][LF]また、最終ステージでは、「奈落」が待ち構えているぞ！[LF]「奈落」は最終ステージをクリアすることで入手可能だぞ！[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1528175787,
+      "updated_at": 1528175787,
+      "label": "eTEXTS_DEF_MSG_SHADOW_TOWER_INFO"
+    },
+    {
+      "id": 591,
+      "text": "禁忌の獄",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1528175787,
+      "updated_at": 1528175787,
+      "label": "eTEXTS_DEF_ME_TITLE_SHADOW_TOWER"
+    },
+    {
+      "id": 592,
+      "text": "最高到達獄数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1528175787,
+      "updated_at": 1670862117,
+      "label": "eTEXTS_DEF_ME_PLAYRECORD_SHADOW_TOWER_FLOOR"
+    },
+    {
+      "id": 593,
+      "text": "制覇回数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1528175787,
+      "updated_at": 1670862117,
+      "label": "eTEXTS_DEF_ME_PLAYRECORD_SHADOW_TOWER_COMPLETE"
+    },
+    {
+      "id": 594,
+      "text": "[LC]獣竜玉で獣神化[LF][LF]この獣神化には獣竜玉を使用できません。",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1524671567,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_BEAST_EVO_ITEM_DIALOG_CAN_NOT_USE"
+    },
+    {
+      "id": 595,
+      "text": "[LC]モンパス特典で獣神化[LF][LF]この獣神化にはモンパス特典を使用できません。",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1524671567,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_BEAST_EVO_MONPASS_DIALOG_CAN_NOT_USE"
+    },
+    {
+      "id": 596,
+      "text": "わくわくの実",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671567,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_SORT_WINDOW_WAKUWAKU_TITLE"
+    },
+    {
+      "id": 597,
+      "text": "実あり",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671567,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_SORT_WINDOW_WAKUWAKU_ON"
+    },
+    {
+      "id": 598,
+      "text": "実なし",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671567,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_SORT_WINDOW_WAKUWAKU_OFF"
+    },
+    {
+      "id": 599,
+      "text": "わくわくの実詳細絞り込み",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671567,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_ME_COMMON_WAKUWAKU_FILTER_TITLE"
+    },
+    {
+      "id": 600,
+      "text": "3月16日（金）12:00解放予定！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1510588389,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_MSG_BINGO_DORA_PRE_RELEASE"
+    },
+    {
+      "id": 601,
+      "text": "[LC]「秘密の宝箱」出現中！[LF][LF]%sの期間で出現！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1510588389,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_MSG_BINGO_DORA_RELEASE"
+    },
+    {
+      "id": 602,
+      "text": "のび太の宝箱",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1510588389,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_ME_BINGO_DORA_TITLE_NOBITA"
+    },
+    {
+      "id": 603,
+      "text": "スネ夫の宝箱",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1510588389,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_ME_BINGO_DORA_TITLE_SUNEO"
+    },
+    {
+      "id": 604,
+      "text": "ジャイアンの宝箱",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1510588389,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_ME_BINGO_DORA_TITLE_GIAN"
+    },
+    {
+      "id": 605,
+      "text": "[LC][S2][C6:「秘密の宝箱」が登場！][LF][LF][LC][b:ba_help_doragyokustage.png][LF][LF] [S2][C6:■「秘密の宝箱-のび太の宝箱-」とは？][LF][LF] 25個の宝玉が盤面に封印された特殊クエスト。[LF] ※ストライカーごとに[C4:異なる盤面]が生成されます。[LF][LF] [S2][C6:■遊び方][LF]  [C8:・1つのクエストクリアにつき１つの宝玉を解放][LF]  [C8:・縦、横、斜めの列を達成するごとに報酬を獲得！][LF] すべての宝玉を解放し「のび太」を手に入れよう！[LF][LF]  [S2][C6:■攻略のポイント][LF]  [C4: クリア時に使用した自分のモンスターは力を封印され、][LF]  [C4: 別の「のび太の宝箱」クエストには出撃不可となる。][LF]  どのクエストにどのモンスターで挑むかが重要だ。[LF][LF]  マルチプレイでは、ホストだけでなくゲスト参加でも[LF]  クリア扱いになるので、友達と協力しよう！[LF][LF]  [C2:＜「秘密の宝箱」クエストでの注意事項＞][LF]・「のび太の宝箱」クエストクリア時に使用した[LF]    モンスターは「ジャイアンの宝箱」「スネ夫の宝箱」[LF]    クエストでは封印されません。[LF]・進化や神化・獣神化をしても出撃不可は継続されます。[LF]・ソロ／ホスト、ゲストともにクリア時の[LF]　自分のモンスターが出撃不可となります。[LF]・ソロの助っ人枠で自分のモンスターを使用した場合は[LF]　クリア時に出撃不可となります。[LF]・ソロの助っ人枠で使用する他のストライカーの[LF]   モンスターは出撃不可の状態に関係なく使用可能です。[LF]・自分がクリア済のクエストにゲスト参加する場合は[LF]　クリア時に使用したモンスターの出撃が必須です。[LF]・ボスモンスターを報酬で入手することはできません。[LF]・詳しくは公式サイトのお知らせをご確認ください。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1510588389,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_MSG_BINGO_DORA_HELP_NOBITA"
+    },
+    {
+      "id": 606,
+      "text": "[LC][S2][C6:「秘密の宝箱」が登場！][LF][LF][LC][b:ba_help_doragyokustage.png][LF][LF] [S2][C6:■「秘密の宝箱-スネ夫の宝箱-」とは？][LF][LF] 25個の宝玉が盤面に封印された特殊クエスト。[LF] ※ストライカーごとに[C4:異なる盤面]が生成されます。[LF][LF] [S2][C6:■遊び方][LF]  [C8:・1つのクエストクリアにつき１つの宝玉を解放][LF]  [C8:・縦、横、斜めの列を達成するごとに報酬を獲得！][LF] すべての宝玉を解放し「スネ夫」を手に入れよう！[LF][LF]  [S2][C6:■攻略のポイント][LF]  [C4: クリア時に使用した自分のモンスターは力を封印され、][LF]  [C4: 別の「スネ夫の宝箱」クエストには出撃不可となる。][LF]  どのクエストにどのモンスターで挑むかが重要だ。[LF][LF]  マルチプレイでは、ホストだけでなくゲスト参加でも[LF]  クリア扱いになるので、友達と協力しよう！[LF][LF]  [C2:＜「秘密の宝箱」クエストでの注意事項＞][LF]・「スネ夫の宝箱」クエストクリア時に使用した[LF]    モンスターは「のび太の宝箱」「ジャイアンの宝箱」[LF]    クエストでは封印されません。[LF]・進化や神化・獣神化をしても出撃不可は継続されます。[LF]・ソロ／ホスト、ゲストともにクリア時の[LF]　自分のモンスターが出撃不可となります。[LF]・ソロの助っ人枠で自分のモンスターを使用した場合は[LF]　クリア時に出撃不可となります。[LF]・ソロの助っ人枠で使用する他のストライカーの[LF]   モンスターは出撃不可の状態に関係なく使用可能です。[LF]・自分がクリア済のクエストにゲスト参加する場合は[LF]　クリア時に使用したモンスターの出撃が必須です。[LF]・ボスモンスターを報酬で入手することはできません。[LF]・詳しくは公式サイトのお知らせをご確認ください。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1510588389,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_MSG_BINGO_DORA_HELP_SUNEO"
+    },
+    {
+      "id": 607,
+      "text": "[LC][S2][C6:「秘密の宝箱」が登場！][LF][LF][LC][b:ba_help_doragyokustage.png][LF][LF] [S2][C6:■「秘密の宝箱-ジャイアンの宝箱-」とは？][LF][LF] 25個の宝玉が盤面に封印された特殊クエスト。[LF] ※ストライカーごとに[C4:異なる盤面]が生成されます。[LF][LF] [S2][C6:■遊び方][LF]  [C8:・1つのクエストクリアにつき１つの宝玉を解放][LF]  [C8:・縦、横、斜めの列を達成するごとに報酬を獲得！][LF] すべての宝玉を解放し「ジャイアン」を手に入れよう！[LF][LF]  [S2][C6:■攻略のポイント][LF]  [C4: クリア時に使用した自分のモンスターは力を封印され、][LF]  [C4: 別の「ジャイアンの宝箱」クエストには出撃不可となる。][LF]  どのクエストにどのモンスターで挑むかが重要だ。[LF][LF]  マルチプレイでは、ホストだけでなくゲスト参加でも[LF]  クリア扱いになるので、友達と協力しよう！[LF][LF]  [C2:＜「秘密の宝箱」クエストでの注意事項＞][LF]・「ジャイアンの宝箱」クエストクリア時に使用した[LF]    モンスターは「のび太の宝箱」「スネ夫の宝箱」[LF]    クエストでは封印されません。[LF]・進化や神化・獣神化をしても出撃不可は継続されます。[LF]・ソロ／ホスト、ゲストともにクリア時の[LF]　自分のモンスターが出撃不可となります。[LF]・ソロの助っ人枠で自分のモンスターを使用した場合は[LF]　クリア時に出撃不可となります。[LF]・ソロの助っ人枠で使用する他のストライカーの[LF]   モンスターは出撃不可の状態に関係なく使用可能です。[LF]・自分がクリア済のクエストにゲスト参加する場合は[LF]　クリア時に使用したモンスターの出撃が必須です。[LF]・ボスモンスターを報酬で入手することはできません。[LF]・詳しくは公式サイトのお知らせをご確認ください。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1510588389,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_MSG_BINGO_DORA_HELP_GIAN"
+    },
+    {
+      "id": 608,
+      "text": "[LC]「のび太の宝箱」おしまい！！[LF][LF]すべてのステージをクリアしました！[LF][LF]報酬アイテムは[C4:受け取りBOX]で[LF]ご確認ください。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1510588389,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_MSG_BINGO_DORA_CLEAR_NOBITA"
+    },
+    {
+      "id": 609,
+      "text": "[LC]「スネ夫の宝箱」おしまい！！[LF][LF]すべてのステージをクリアしました！[LF][LF]報酬アイテムは[C4:受け取りBOX]で[LF]ご確認ください。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1510588389,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_MSG_BINGO_DORA_CLEAR_SUNEO"
+    },
+    {
+      "id": 610,
+      "text": "[LC]「ジャイアンの宝箱」おしまい！！[LF][LF]すべてのステージをクリアしました！[LF][LF]報酬アイテムは[C4:受け取りBOX]で[LF]ご確認ください。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1510588389,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_MSG_BINGO_DORA_CLEAR_GIAN"
+    },
+    {
+      "id": 611,
+      "text": "※「のび太の宝箱」クエストクリア時に使用したモンスターは、[LF]「のび太の宝箱」クエストで使用することはできません。[LF]※このクエストにゲスト参加する場合は、クリア時に使用したモンスターをデッキに編成してください。[LF]※「のび太の宝箱」クエストクリア時に使用したモンスターは「スネ夫の宝箱」[LF]「ジャイアンの宝箱」クエストでは封印されません。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1510588389,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_BINGO_CLEAR_UI_MAIN_NOBITA"
+    },
+    {
+      "id": 612,
+      "text": "※「スネ夫の宝箱」クエストクリア時に使用したモンスターは、[LF]「スネ夫の宝箱」クエストで使用することはできません。[LF]※このクエストにゲスト参加する場合は、クリア時に使用したモンスターをデッキに編成してください。[LF]※「スネ夫の宝箱」クエストクリア時に使用したモンスターは「のび太の宝箱」[LF]「ジャイアンの宝箱」クエストでは封印されません。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1510588389,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_BINGO_CLEAR_UI_MAIN_SUNEO"
+    },
+    {
+      "id": 613,
+      "text": "※「ジャイアンの宝箱」クエストクリア時に使用したモンスターは、[LF]「ジャイアンの宝箱」クエストで使用することはできません。[LF]※このクエストにゲスト参加する場合は、クリア時に使用したモンスターをデッキに編成してください。[LF]※「ジャイアンの宝箱」クエストクリア時に使用したモンスターは「のび太の宝箱」[LF]「スネ夫の宝箱」クエストでは封印されません。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1513012557,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_BINGO_CLEAR_UI_MAIN_GIAN"
+    },
+    {
+      "id": 614,
+      "text": "「のび太の宝箱」[LC]挑戦できません[LF][LF]このクエストは[C4:クリア済]です。[LF][LF]開催期間中に1度クリアした「のび太の宝箱」クエストに[LF]ソロ／ホストとしては再挑戦できません。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671567,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_BINGO_QUEST_ALERT_NOBITA"
+    },
+    {
+      "id": 615,
+      "text": "「スネ夫の宝箱」[LC]挑戦できません[LF][LF]このクエストは[C4:クリア済]です。[LF][LF]開催期間中に1度クリアした「スネ夫の宝箱」クエストに[LF]ソロ／ホストとしては再挑戦できません。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671567,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_BINGO_QUEST_ALERT_SUNEO"
+    },
+    {
+      "id": 616,
+      "text": "「ジャイアンの宝箱」[LC]挑戦できません[LF][LF]このクエストは[C4:クリア済]です。[LF][LF]開催期間中に1度クリアした「ジャイアンの宝箱」クエストに[LF]ソロ／ホストとしては再挑戦できません。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671567,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_BINGO_QUEST_ALERT_GIAN"
+    },
+    {
+      "id": 617,
+      "text": "「のび太の宝箱」[LC]挑戦できません[LF][LF]選択中のデッキに、このクエストへ参加できない[LF]モンスターが含まれています。[LF][LF]・クリア済の「のび太の宝箱」クエストへ参加の場合、[LF]　このクエストの[C4:クリア時に使用したモンスター]の[LF]　出撃が必須です。[LF][LF]　編成には[C6:「デッキ履歴」]機能や[LF]　並び替え表示の[C6:「使用制限」]順が便利です。[LF][LF]・余った枠がある場合は[C4:封印されていないモンスター]を[LF]　編成してください。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671567,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_BINGO_GUEST_ALERT1_NOBITA"
+    },
+    {
+      "id": 618,
+      "text": "「スネ夫の宝箱」[LC]挑戦できません[LF][LF]選択中のデッキに、このクエストへ参加できない[LF]モンスターが含まれています。[LF][LF]・クリア済の「スネ夫の宝箱」クエストへ参加の場合、[LF]　このクエストの[C4:クリア時に使用したモンスター]の[LF]　出撃が必須です。[LF][LF]　編成には[C6:「デッキ履歴」]機能や[LF]　並び替え表示の[C6:「使用制限」]順が便利です。[LF][LF]・余った枠がある場合は[C4:封印されていないモンスター]を[LF]　編成してください。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671567,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_BINGO_GUEST_ALERT1_SUNEO"
+    },
+    {
+      "id": 619,
+      "text": "「ジャイアンの宝箱」[LC]挑戦できません[LF][LF]選択中のデッキに、このクエストへ参加できない[LF]モンスターが含まれています。[LF][LF]・クリア済の「ジャイアンの宝箱」クエストへ参加の場合、[LF]　このクエストの[C4:クリア時に使用したモンスター]の[LF]　出撃が必須です。[LF][LF]　編成には[C6:「デッキ履歴」]機能や[LF]　並び替え表示の[C6:「使用制限」]順が便利です。[LF][LF]・余った枠がある場合は[C4:封印されていないモンスター]を[LF]　編成してください。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671567,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_BINGO_GUEST_ALERT1_GIAN"
+    },
+    {
+      "id": 620,
+      "text": "-",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1513012557,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_BINGO_GUEST_ALERT2_NOBITA"
+    },
+    {
+      "id": 621,
+      "text": "-",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1513012557,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_BINGO_GUEST_ALERT2_SUNEO"
+    },
+    {
+      "id": 622,
+      "text": "-",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1513012557,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_BINGO_GUEST_ALERT2_GIAN"
+    },
+    {
+      "id": 623,
+      "text": "「のび太の宝箱」[LC]「列」達成！[LF][LF]全ての宝玉を獲得し、[LF]「列」達成報酬を獲得！[LF][LF]報酬アイテムは[LF][C4:受け取りBOX]でご確認ください。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1513012557,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_BINGO_LINE_CLEAR_NOBITA"
+    },
+    {
+      "id": 624,
+      "text": "「スネ夫の宝箱」[LC]「列」達成！[LF][LF]全ての宝玉を獲得し、[LF]「列」達成報酬を獲得！[LF][LF]報酬アイテムは[LF][C4:受け取りBOX]でご確認ください。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1513012557,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_BINGO_LINE_CLEAR_SUNEO"
+    },
+    {
+      "id": 625,
+      "text": "「ジャイアンの宝箱」[LC]「列」達成！[LF][LF]全ての宝玉を獲得し、[LF]「列」達成報酬を獲得！[LF][LF]報酬アイテムは[LF][C4:受け取りBOX]でご確認ください。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1513012557,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_BINGO_LINE_CLEAR_GIAN"
+    },
+    {
+      "id": 626,
+      "text": " 「のび太の宝箱」[LC]挑戦できません[LF][LF]選択中のデッキに、別の「のび太の宝箱」クエストを[LF]クリアして[C2:封印されたモンスター]が含まれています。[LF][LF][C4:封印されていないモンスターだけ]で[LF]デッキを編成してから挑戦してください。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1513012557,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_BINGO_ERROR_USED_CHARACTOR_NOBITA"
+    },
+    {
+      "id": 627,
+      "text": " 「スネ夫の宝箱」[LC]挑戦できません[LF][LF]選択中のデッキに、別の「スネ夫の宝箱」クエストを[LF]クリアして[C2:封印されたモンスター]が含まれています。[LF][LF][C4:封印されていないモンスターだけ]で[LF]デッキを編成してから挑戦してください。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1513012557,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_BINGO_ERROR_USED_CHARACTOR_SUNEO"
+    },
+    {
+      "id": 628,
+      "text": " 「ジャイアンの宝箱」[LC]挑戦できません[LF][LF]選択中のデッキに、別の「ジャイアンの宝箱」クエストを[LF]クリアして[C2:封印されたモンスター]が含まれています。[LF][LF][C4:封印されていないモンスターだけ]で[LF]デッキを編成してから挑戦してください。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1513012557,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_BINGO_ERROR_USED_CHARACTOR_GIAN"
+    },
+    {
+      "id": 629,
+      "text": "「のび太の宝箱」[LC]出撃前に再確認！[LF][LF][C6:「のび太の宝箱」]クエストではクリア時に使用した[LF]自分のモンスターたちは封印され、その開催期間中の[LF][C2:別の「のび太の宝箱」クエストで出撃不可]になります。[LF][LF]※クリア以外では封印されません。[LF]※クリア済クエストへの参加の場合は[LF]　追加で封印されることはありません。[LF][LF]このデッキ編成で出撃してよろしいですか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1513012557,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_BINGO_FIRST_TRY_CHECK_NOBITA"
+    },
+    {
+      "id": 630,
+      "text": "「スネ夫の宝箱」[LC]出撃前に再確認！[LF][LF][C6:「スネ夫の宝箱」]クエストではクリア時に使用した[LF]自分のモンスターたちは封印され、その開催期間中の[LF][C2:別の「スネ夫の宝箱」クエストで出撃不可]になります。[LF][LF]※クリア以外では封印されません。[LF]※クリア済クエストへの参加の場合は[LF]　追加で封印されることはありません。[LF][LF]このデッキ編成で出撃してよろしいですか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1513012557,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_BINGO_FIRST_TRY_CHECK_SUNEO"
+    },
+    {
+      "id": 631,
+      "text": "「ジャイアンの宝箱」[LC]出撃前に再確認！[LF][LF][C6:「ジャイアンの宝箱」]クエストではクリア時に使用した[LF]自分のモンスターたちは封印され、その開催期間中の[LF][C2:別の「ジャイアンの宝箱」クエストで出撃不可]になります。[LF][LF]※クリア以外では封印されません。[LF]※クリア済クエストへの参加の場合は[LF]　追加で封印されることはありません。[LF][LF]このデッキ編成で出撃してよろしいですか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1513012557,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_BINGO_FIRST_TRY_CHECK_GIAN"
+    },
+    {
+      "id": 632,
+      "text": "「のび太の宝箱」 デッキ編成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1513012557,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_BINGO_DECKSELECT_TITLE_NOBITA"
+    },
+    {
+      "id": 633,
+      "text": "「スネ夫の宝箱」 デッキ編成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1513012557,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_BINGO_DECKSELECT_TITLE_SUNEO"
+    },
+    {
+      "id": 634,
+      "text": "「ジャイアンの宝箱」 デッキ編成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1513012557,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_BINGO_DECKSELECT_TITLE_GIAN"
+    },
+    {
+      "id": 635,
+      "text": "「のび太の宝箱」 デッキ一括編成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1513012557,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_BINGO_MONSTERCHANGE_TITLE_NOBITA"
+    },
+    {
+      "id": 636,
+      "text": "「スネ夫の宝箱」 デッキ一括編成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1513012557,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_BINGO_MONSTERCHANGE_TITLE_SUNEO"
+    },
+    {
+      "id": 637,
+      "text": "「ジャイアンの宝箱」 デッキ一括編成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1517490804,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_BINGO_MONSTERCHANGE_TITLE_GIAN"
+    },
+    {
+      "id": 638,
+      "text": "「秘密の宝箱」[LC]開催期間外です[LF][LF]「のび太の宝箱」ステージに[LF]入れませんでした。[LF]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1524671567,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_BINGO_TIME_OVER_NOBITA"
+    },
+    {
+      "id": 639,
+      "text": "「秘密の宝箱」[LC]開催期間外です[LF][LF]「スネ夫の宝箱」ステージに[LF]入れませんでした。[LF]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1524671567,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_BINGO_TIME_OVER_SUNEO"
+    },
+    {
+      "id": 640,
+      "text": "「秘密の宝箱」[LC]開催期間外です[LF][LF]「ジャイアンの宝箱」ステージに[LF]入れませんでした。[LF]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1524671567,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_BINGO_TIME_OVER_GIAN"
+    },
+    {
+      "id": 641,
+      "text": "%d列クリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671567,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_BINGO_LINE_ACHIEVE"
+    },
+    {
+      "id": 642,
+      "text": "[LC]進化アイテム生成[LF][WIDTH580][LF][LC][NODE][MARGIN5][LF][MARGIN20][LF][LC][NODE][MARGIN26][LF][LC][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1524671567,
+      "updated_at": 1682351333,
+      "label": "eTEXTS_DEF_MSG_EVOITEM_EXCHAGE_NORMAL"
+    },
+    {
+      "id": 643,
+      "text": "[LC]進化アイテム生成[LF][WIDTH580][LF][LC][NODE][MARGIN5][LF][LC][NODE][MARGIN10][LF][LC][NODE][MARGIN10][LF][LC][NODE][MARGIN10][LF][LC][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1524671567,
+      "updated_at": 1686590631,
+      "label": "eTEXTS_DEF_MSG_EVOITEM_EXCHAGE_SP"
+    },
+    {
+      "id": 644,
+      "text": "[LC]進化素材不足[LF][WIDTH520][LF][LC][NODE][MARGIN5][LF][LC][NODE][MARGIN5][LF]%sが不足しているため生成できません。[LF]%sを生成するには%sが%d個必要です。",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1524671567,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_MSG_EVOITEM_EXCHAGE_LACK"
+    },
+    {
+      "id": 645,
+      "text": "[LC]%s[LF][WIDTH500][LF][MARGIN10][LF][LC][NODE][LF][MARGIN10][LF]%s",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1524671567,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_MSG_EVOITEM_EXCHAGE_DESCRIPTION"
+    },
+    {
+      "id": 646,
+      "text": "[LC]アイテム生成完了[LF][WIDTH500][LF][MARGIN10][LF][LC][NODE][LF][MARGIN10][LF]%sを%d個生成しました。",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1524671567,
+      "updated_at": 1570463652,
+      "label": "eTEXTS_DEF_MSG_EVOITEM_EXCHAGE_SUCCESS"
+    },
+    {
+      "id": 647,
+      "text": "素材として使う玉を選んでください",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671567,
+      "updated_at": 1570463652,
+      "label": "eTEXTS_DEF_ME_EVOITEM_EXCHAGE_SELECT"
+    },
+    {
+      "id": 648,
+      "text": "未選択",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671567,
+      "updated_at": 1524671567,
+      "label": "eTEXTS_DEF_ME_EVOITEM_EXCHAGE_NON_SELECT"
+    },
+    {
+      "id": 649,
+      "text": "強化進化クエストやノーマルクエスト[LF]で入手できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671567,
+      "updated_at": 1594660568,
+      "label": "eTEXTS_DEF_ME_EVOITEM_EXCHAGE_LITTLE_BEAST_STONE_DESCRIPTION"
+    },
+    {
+      "id": 650,
+      "text": "強化進化クエストやノーマルクエスト[LF]で入手できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671568,
+      "updated_at": 1594660568,
+      "label": "eTEXTS_DEF_ME_EVOITEM_EXCHAGE_BEAST_STONE_DESCRIPTION"
+    },
+    {
+      "id": 651,
+      "text": "強化進化クエストの[LF]「全ての進化を求めて」[C6:上級［大獣石］]で入手できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1517244522,
+      "updated_at": 1594660568,
+      "label": "eTEXTS_DEF_ME_EVOITEM_EXCHAGE_BIG_BEAST_STONE_DESCRIPTION"
+    },
+    {
+      "id": 652,
+      "text": "強化進化クエストの[LF]「全ての進化を求めて」[C3:上級［闇］]で入手できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1517244522,
+      "updated_at": 1594660568,
+      "label": "eTEXTS_DEF_ME_EVOITEM_EXCHAGE_FIRE_BEAST_STONE_DESCRIPTION"
+    },
+    {
+      "id": 653,
+      "text": "強化進化クエストの[LF]「全ての進化を求めて」[C6:上級［光］]で入手できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1517244522,
+      "updated_at": 1594660568,
+      "label": "eTEXTS_DEF_ME_EVOITEM_EXCHAGE_ICE_BEAST_STONE_DESCRIPTION"
+    },
+    {
+      "id": 654,
+      "text": "強化進化クエストの[LF]「全ての進化を求めて」[C4:上級［木］]で入手できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1517244522,
+      "updated_at": 1594660568,
+      "label": "eTEXTS_DEF_ME_EVOITEM_EXCHAGE_WOOD_BEAST_STONE_DESCRIPTION"
+    },
+    {
+      "id": 655,
+      "text": "強化進化クエストの[LF]「全ての進化を求めて」[C5:上級［水］]で入手できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1517244522,
+      "updated_at": 1594660568,
+      "label": "eTEXTS_DEF_ME_EVOITEM_EXCHAGE_LIGHT_BEAST_STONE_DESCRIPTION"
+    },
+    {
+      "id": 656,
+      "text": "強化進化クエストの[LF]「全ての進化を求めて」[C2:上級［火］]で入手できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1517244522,
+      "updated_at": 1594660568,
+      "label": "eTEXTS_DEF_ME_EVOITEM_EXCHAGE_DARK_BEAST_STONE_DESCRIPTION"
+    },
+    {
+      "id": 657,
+      "text": "強化進化クエストの[LF]「全ての進化を求めて」[C3:上級［闇］]で入手できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1517244522,
+      "updated_at": 1594660568,
+      "label": "eTEXTS_DEF_ME_EVOITEM_EXCHAGE_FIRE_BEAST_BALL_DESCRIPTION"
+    },
+    {
+      "id": 658,
+      "text": "強化進化クエストの[LF]「全ての進化を求めて」[C6:上級［光］]で入手できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1517244522,
+      "updated_at": 1594660568,
+      "label": "eTEXTS_DEF_ME_EVOITEM_EXCHAGE_ICE_BEAST_BALL_DESCRIPTION"
+    },
+    {
+      "id": 659,
+      "text": "強化進化クエストの[LF]「全ての進化を求めて」[C4:上級［木］]で入手できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1517244522,
+      "updated_at": 1594660568,
+      "label": "eTEXTS_DEF_ME_EVOITEM_EXCHAGE_WOOD_BEAST_BALL_DESCRIPTION"
+    },
+    {
+      "id": 660,
+      "text": "強化進化クエストの[LF]「全ての進化を求めて」[C5:上級［水］]で入手できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1517244522,
+      "updated_at": 1594660568,
+      "label": "eTEXTS_DEF_ME_EVOITEM_EXCHAGE_LIGHT_BEAST_BALL_DESCRIPTION"
+    },
+    {
+      "id": 661,
+      "text": "強化進化クエストの[LF]「全ての進化を求めて」[C2:上級［火］]で入手できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1517244522,
+      "updated_at": 1594660568,
+      "label": "eTEXTS_DEF_ME_EVOITEM_EXCHAGE_DARK_BEAST_BALL_DESCRIPTION"
+    },
+    {
+      "id": 662,
+      "text": "強化進化クエストの[LF]「全ての進化を求めて」の「上級」で入手できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1517244522,
+      "updated_at": 1594660568,
+      "label": "eTEXTS_DEF_ME_EVOITEM_EXCHAGE_BEAST_GOD_BALL_DESCRIPTION"
+    },
+    {
+      "id": 663,
+      "text": "紅獣石、蒼獣石、碧獣石、光獣石、闇獣石[LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1517244522,
+      "updated_at": 1524671568,
+      "label": "eTEXTS_DEF_ME_EVOITEM_EXCHAGE_COLOR_BEAST_STONE"
+    },
+    {
+      "id": 664,
+      "text": "%s%s%s",
+      "layout": 26,
+      "color": 0,
+      "created_at": 1517244522,
+      "updated_at": 1524671568,
+      "label": "eTEXTS_DEF_MSG_LIVE_TWO_CHOICES_POLL"
+    },
+    {
+      "id": 665,
+      "text": "[LC]予想確認[LF][LF][LC][NODE][LF]に予想します。よろしいですか？[LF][LF][C6:※予想のやり直しはできませんので][LF][C6:ご注意ください]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1518519467,
+      "updated_at": 1524671568,
+      "label": "eTEXTS_DEF_MSG_LIVE_TWO_CHOICES_CONFIRM"
+    },
+    {
+      "id": 666,
+      "text": "[LC]パスワードを入力してください。[LF][LF]下に表示されているモンスターを[LF]左から順番に３つタップしてください。[LF]※この確認が終わると、予想完了となります[LF]%s[LF]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1518519467,
+      "updated_at": 1524671568,
+      "label": "eTEXTS_DEF_MSG_LIVE_TWO_CHOICES_PASS"
+    },
+    {
+      "id": 667,
+      "text": "入力が完了し、予想受付が完了しました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1518519467,
+      "updated_at": 1524671568,
+      "label": "eTEXTS_DEF_MSG_LIVE_TWO_CHOICES_ANSWER"
+    },
+    {
+      "id": 668,
+      "text": "予想受付時間が過ぎました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1518519467,
+      "updated_at": 1524671568,
+      "label": "eTEXTS_DEF_MSG_LIVE_TWO_CHOICES_EXPIRE"
+    },
+    {
+      "id": 669,
+      "text": "[LC]結果発表準備中[LF][LF]激・モン楽祭のいずれかの企画に予想した方には、[LF]受け取りBOXに結果と賞品が届きます[LF][LF]しばらくお待ちください[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1518519467,
+      "updated_at": 1524671568,
+      "label": "eTEXTS_DEF_MSG_LIVE_TWO_CHOICES_TALLY"
+    },
+    {
+      "id": 670,
+      "text": "予想期間は終了しました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1518519467,
+      "updated_at": 1524671568,
+      "label": "eTEXTS_DEF_MSG_LIVE_TWO_CHOICES_NO_POLL"
+    },
+    {
+      "id": 671,
+      "text": "あなたはすでに予想済みです",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1518519467,
+      "updated_at": 1524671568,
+      "label": "eTEXTS_DEF_MSG_LIVE_TWO_CHOICES_ALREADY_ANSWER"
+    },
+    {
+      "id": 672,
+      "text": "[LC]表示設定[LF][LF]クエスト中の矢印表示を[P:30|20][LF]見やすくする",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1518519467,
+      "updated_at": 1524671568,
+      "label": "eTEXTS_DEF_ME_MSG_ARROW_ZORDER"
+    },
+    {
+      "id": 673,
+      "text": "[LC]「強化素材BOX」に引っ越ししよう！[LF][LF][I27][LF][LF]経験値用の亀系モンスターおよび、[LF]「+値」強化用のタス系モンスターを[LF]「強化素材BOX」に引っ越ししよう！[LF][C8:「強化素材BOX」では、上限数を気にせず][LF][C8:亀素材やタス素材を所持することができるよ！][LF]※各素材は9999体まで所持が可能！[LF][LF]まずは、この機能で下記のモンスターを[LF]一括で「強化素材BOX」に引っ越しさせよう！[LF][LF]対象モンスター[LF][IP857][IP856][IP855][IP854][LF][LF][LF][LF]各属性のオクケンチー、マンケンチー、[LF]ドケンチー、コケンチー[LF]※期間限定・コラボ系ケンチーは対象外です[LF][LF][IP1373][IP670][IP213][IP212][LF][LF][LF][LF][IP3585][IP671][IP215][IP214][LF][LF][LF][LF][IP3586][IP672][IP217][IP216][LF][LF][LF][LF]各属性タス系モンスター[LF][LF]【[C6:ご注意ください]】[LF]◎「強化素材BOX」では、以下のことが[LF]できません。[LF]・亀素材やタス素材同士の「強化合成」や、「売却」[LF]・亀素材やタス素材のデッキやフレンド使用キャラへの設定[LF]・亀素材やタス素材を「ラック引き換え」の素材にすること[LF][LF]◎ラックが複数ある場合は「強化素材BOX」に[LF]引っ越しても、ラック数と同数の素材として使用できます。[LF][LF][I28][LF][LF]◎亀系モンスターもしくはタス系モンスターをロックしたり、[LF]選抜に入れている場合も、この機能を利用すると[LF]全て「強化素材BOX」に移動します。[LF][LF]◎一度「強化素材BOX」に引っ越した場合、[LF]「モンスターBOX」に戻すことはできません。",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1518519467,
+      "updated_at": 1524671568,
+      "label": "eTEXTS_DEF_MOVING_BOX_INFO"
+    },
+    {
+      "id": 674,
+      "text": "引っ越しが完了しました！[LF]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1518519467,
+      "updated_at": 1524671568,
+      "label": "eTEXTS_DEF_MOVING_SUCCESS"
+    },
+    {
+      "id": 675,
+      "text": "この機能は、経験値用の亀系モンスターや[LF]「+値」強化用のタス系モンスターを[LF]「強化素材BOX」に移動させる為の機能です。[LF][LF]通算ログイン日数の長いユーザー様より、[LF]順次、本機能のご利用を解放しておりますので、[LF]ご利用開始までもうしばらくお待ちください。",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1518519467,
+      "updated_at": 1524671568,
+      "label": "eTEXTS_DEF_MOVING_NO_USE"
+    },
+    {
+      "id": 676,
+      "text": "[LC]クエストストック機能[LF][LF][NODE][LF]※モンパス特典でクエストを２つストックする[LF]　ことができます。[LF]※3つ目のクエストをストックしたい場合は、[LF]　先にストックしたクエストのうちいずれかを[LF]　削除して、新たにストックすることができます。[LF][LF]ストックされたクエストは、期限内であれば、[LF][C4:スタミナを使って]、[C5:クリアするまでプレイ可能]です。[LF][LF]クエストをストックしますか？[LF][LF][ONLY_1:[S-1][IMG:icon_stamina_monpass.png]モンパス入会で[C6:クエストのストックが2つ]まで可能に！]",
+      "layout": 34,
+      "color": 0,
+      "created_at": 1518519467,
+      "updated_at": 1603213999,
+      "label": "eTEXTS_DEF_MSG_QUEST_STOCK_MONPASS"
+    },
+    {
+      "id": 677,
+      "text": "[LC]クエストストック機能[LF][LF][NODE][LF]ストックされたクエストは、期限内であれば、[LF][C4:スタミナを使って]、[C5:クリアするまでプレイ可能]です。[LF][LF]クエストをストックしますか？[LF][LF][ONLY_1:[S-1][IMG:icon_stamina_monpass.png]モンパス入会で[C6:クエストのストックが2つ]まで可能に！]",
+      "layout": 34,
+      "color": 0,
+      "created_at": 1524671568,
+      "updated_at": 1603213999,
+      "label": "eTEXTS_DEF_MSG_QUEST_STOCK"
+    },
+    {
+      "id": 678,
+      "text": "[LC]ストック済みのクエストがあります[LF][LF]%s[LF][NODE][LF]新たにストックされるクエスト[LF][NODE][LF][LF][C4:現在ストック済みのクエストは消去されます。][LF]新たにクエストをストックしますか？[LF][LF][ONLY_1:[S-1][IMG:icon_stamina_monpass.png]モンパス入会で[C6:クエストのストックが2つ]まで可能に！]",
+      "layout": 34,
+      "color": 0,
+      "created_at": 1524671568,
+      "updated_at": 1603213999,
+      "label": "eTEXTS_DEF_MSG_QUEST_STOCK_OVERWRITE"
+    },
+    {
+      "id": 679,
+      "text": "[LC]ストック済みのクエストがあります[LF][LF][NODE][LF]同じクエストを削除して新たに[LF]クエストをストックすることはできません。[LF][LF]このクエストをストックするには、先にストック済みの[LF]上記クエストをプレイしてください。",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1524671568,
+      "updated_at": 1603213999,
+      "label": "eTEXTS_DEF_MSG_QUEST_STOCK_SAME"
+    },
+    {
+      "id": 680,
+      "text": "その他",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1517244522,
+      "updated_at": 1524671568,
+      "label": "eTEXTS_DEF_ME_ARCHIVE_ETC_TABTITLE"
+    },
+    {
+      "id": 681,
+      "text": "%1.0f倍",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1517244522,
+      "updated_at": 1524671568,
+      "label": "eTEXTS_DEF_QUEST_EVENT_EGG_UP"
+    },
+    {
+      "id": 682,
+      "text": "[C6:%d/%dpt]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1520268002,
+      "updated_at": 1538494846,
+      "label": "eTEXTS_DEF_ARCHIVE_PLAY_NUM"
+    },
+    {
+      "id": 683,
+      "text": "後に",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1520268002,
+      "updated_at": 1524671568,
+      "label": "eTEXTS_DEF_ARCHIVE_PLAY_RECOVER_1"
+    },
+    {
+      "id": 684,
+      "text": "プレイ可能",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1520268002,
+      "updated_at": 1524671568,
+      "label": "eTEXTS_DEF_ARCHIVE_PLAY_RECOVER_2"
+    },
+    {
+      "id": 685,
+      "text": "%d倍",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1520268002,
+      "updated_at": 1524671568,
+      "label": "eTEXTS_DEF_ARCHIVE_EVENT_EXP"
+    },
+    {
+      "id": 686,
+      "text": "減少",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1520268002,
+      "updated_at": 1524671568,
+      "label": "eTEXTS_DEF_ARCHIVE_EVENT_STAMINA"
+    },
+    {
+      "id": 687,
+      "text": "[EGG:UP]排出率%1.0f倍",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1520268002,
+      "updated_at": 1703147416,
+      "label": "eTEXTS_DEF_ARCHIVE_EVENT_EGG"
+    },
+    {
+      "id": 688,
+      "text": "[LC]LINE連携する[LF][LF][CCB:dlme/help_lineconnect_00]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1520268002,
+      "updated_at": 1542216860,
+      "label": "eTEXTS_DEF_ME_MSG_LINE_LINK"
+    },
+    {
+      "id": 689,
+      "text": "[LC]LINE連携[LF][LF]LINE連携が完了しました。",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1520268002,
+      "updated_at": 1524671568,
+      "label": "eTEXTS_DEF_ME_MSG_LINE_LINKOK"
+    },
+    {
+      "id": 690,
+      "text": "[LC]LINE再連携[LF][LF]再びLINE連携を行います。よろしいですか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1520268002,
+      "updated_at": 1524671568,
+      "label": "eTEXTS_DEF_ME_MSG_LINE_RELOGIN"
+    },
+    {
+      "id": 691,
+      "text": "[LC]LINE連携[LF][LF]LINE連携が完了しました。",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1520268002,
+      "updated_at": 1524671568,
+      "label": "eTEXTS_DEF_ME_MSG_LINE_RELOGINOK"
+    },
+    {
+      "id": 692,
+      "text": "[LC]LINE友だちリスト更新[LF][LF]LINE友だちリストを最新の状態に更新します。[LF]よろしいですか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1524671568,
+      "updated_at": 1524671568,
+      "label": "eTEXTS_DEF_ME_MSG_LINE_FRIENDUPDATE"
+    },
+    {
+      "id": 693,
+      "text": "[LC]LINE友だちリスト更新[LF][LF]LINE友だちリストの更新が完了しました。",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1524671568,
+      "updated_at": 1524671568,
+      "label": "eTEXTS_DEF_ME_MSG_LINE_FRIENDUPDATEOK"
+    },
+    {
+      "id": 694,
+      "text": "[LC]LINE連携解除[LF][LF]LINE連携を解除します。よろしいですか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1520268002,
+      "updated_at": 1524671568,
+      "label": "eTEXTS_DEF_ME_MSG_LINE_UNLINK"
+    },
+    {
+      "id": 695,
+      "text": "[LC]LINE連携解除[LF][LF]LINE連携を解除しました。[LF][LF]LINEアプリの連動アプリ一覧からも[LF]「モンスターストライク（アプリ連携）」の[LF]アプリ連動を解除してください。[LF][LF]詳しくは[u:https://www.monster-strike.com/help/answer11/|こちら]をご確認ください。[LF][LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1520268002,
+      "updated_at": 1524671568,
+      "label": "eTEXTS_DEF_ME_MSG_LINE_UNLINKOK"
+    },
+    {
+      "id": 696,
+      "text": "LINEで招待",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1520268002,
+      "updated_at": 1524671568,
+      "label": "eTEXTS_DEF_ME_TITLE_LINE_INVITATION"
+    },
+    {
+      "id": 697,
+      "text": "[LC]招待メッセージ確認[LF][LF][TI:送信するLINE友だち][LF][NODE][LF][LF][TI:送信メッセージ内容選択][LF]メッセージタイプを選んでください。[LF][LF][NODE][LF][LF][NODE][LF][LF]※メッセージタイプでは送信内容が若干異なります。[LF]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1520268002,
+      "updated_at": 1524671568,
+      "label": "eTEXTS_DEF_ME_MSG_LINE_INVITATION"
+    },
+    {
+      "id": 698,
+      "text": "A：招待を初めて送る相手用",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1520268002,
+      "updated_at": 1524671568,
+      "label": "eTEXTS_DEF_ME_COMMON_LINE_INVITATION_BUTTON1"
+    },
+    {
+      "id": 699,
+      "text": "B：招待を送ったことがある相手用",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1520268002,
+      "updated_at": 1524671568,
+      "label": "eTEXTS_DEF_ME_COMMON_LINE_INVITATION_BUTTON2"
+    },
+    {
+      "id": 700,
+      "text": "送信する",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1521121465,
+      "updated_at": 1524671568,
+      "label": "eTEXTS_DEF_ME_COMMON_LINE_INVITATION_BUTTON3"
+    },
+    {
+      "id": 701,
+      "text": "[LC]メッセージ送信完了[LF][LF]LINE友だちに招待メッセージを送信しました。[LF][LF]※メッセージのお届けまでに、[LF]お時間をいただく場合がございます。[LF]予めご了承ください。[LF][LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1521121465,
+      "updated_at": 1524671568,
+      "label": "eTEXTS_DEF_ME_MSG_LINE_INVITATIONOK"
+    },
+    {
+      "id": 702,
+      "text": "[LC]LINEで招待とは[LF][LF]モンスターストライクの招待メッセージを、[LF]LINE友だちに送信することができます。[LF][LF]招待メッセージのタイプは[LF]二種類から選ぶことができます。[LF]・招待を初めて送る相手用[LF]・招待を送ったことがある相手用[LF][LF]LINE友だちを招待して、モンスターストライクで一緒に遊ぼう！[LF][LF]※モンスターストライクと[LF]LINE連携していないLINE友だちが表示されます。[LF]※LINE連携についての注意事項やご質問は[u:https://www.monster-strike.com/help/answer11/|こちら][LF][LF][C8:◆LINE連携限定ミッション][LF]LINE連携をして招待メッセージを送信すると、[LF]5人ごとに[C9:オーブ5個]がもらえる！（最大%d人まで）[LF][LF]◎ミッション達成状況（送信済数：[C6:%d/%d]）[LF]招待メッセージを送信したLINE友だち[LF]%s",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1521121465,
+      "updated_at": 1524671568,
+      "label": "eTEXTS_DEF_ME_MSG_LINE_INVITATIONINFO"
+    },
+    {
+      "id": 703,
+      "text": "LINE友だち選択",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1521121465,
+      "updated_at": 1524671568,
+      "label": "eTEXTS_DEF_ME_TITLE_LINE_FRIEND"
+    },
+    {
+      "id": 704,
+      "text": "LINEグループ選択",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1521121465,
+      "updated_at": 1524671568,
+      "label": "eTEXTS_DEF_ME_TITLE_LINE_GROUP"
+    },
+    {
+      "id": 705,
+      "text": "LINE友だち",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1521121465,
+      "updated_at": 1524671568,
+      "label": "eTEXTS_DEF_ME_COMMON_LINE_FRIENDBUTTON"
+    },
+    {
+      "id": 706,
+      "text": "LINEグループ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1521121465,
+      "updated_at": 1524671568,
+      "label": "eTEXTS_DEF_ME_COMMON_LINE_GROUPBUTTON"
+    },
+    {
+      "id": 707,
+      "text": "LINE連携している",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1521121465,
+      "updated_at": 1524671569,
+      "label": "eTEXTS_DEF_ME_COMMON_LINE_LINKED"
+    },
+    {
+      "id": 708,
+      "text": "LINE連携していない",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1521121465,
+      "updated_at": 1524671569,
+      "label": "eTEXTS_DEF_ME_COMMON_LINE_UNLINK"
+    },
+    {
+      "id": 709,
+      "text": "選択可能数が上限に達しています。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1521121465,
+      "updated_at": 1524671569,
+      "label": "eTEXTS_DEF_ME_COMMON_LINE_MAX_SELECT"
+    },
+    {
+      "id": 710,
+      "text": "[LC]LINEマルチ募集[LF][LF]選択したLINE友だちにクエスト募集を送ります。[LF][LF]%s[LF]よろしいですか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1521121465,
+      "updated_at": 1524671569,
+      "label": "eTEXTS_DEF_ME_MSG_LINE_MULTIINVITATION"
+    },
+    {
+      "id": 711,
+      "text": "[LC]LINEマルチ募集[LF][LF]選択したLINEグループにクエスト募集を送ります。[LF][LF]%s[LF]よろしいですか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1521121465,
+      "updated_at": 1524671569,
+      "label": "eTEXTS_DEF_ME_MSG_LINE_MULTIINVITATION_GROUP"
+    },
+    {
+      "id": 712,
+      "text": "[LC]送信完了[LF][LF]クエスト募集メッセージを送信しました！[LF]ストライカー受付中へ移動します。[LF][LF]※メッセージのお届けまでに、[LF]お時間をいただく場合がございます。[LF]予めご了承ください。[LF][LF][LF]",
+      "layout": 33,
+      "color": 0,
+      "created_at": 1521121465,
+      "updated_at": 1524671569,
+      "label": "eTEXTS_DEF_ME_MSG_LINE_MULTIINVITATION_OK"
+    },
+    {
+      "id": 713,
+      "text": "[LC]LINE API失敗[LF][LF]再連携をするか連携解除してください",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1521121465,
+      "updated_at": 1524671569,
+      "label": "eTEXTS_DEF_ME_MSG_LINE_ERROR_RELOGIN"
+    },
+    {
+      "id": 714,
+      "text": "再連携",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1521121465,
+      "updated_at": 1524671569,
+      "label": "eTEXTS_DEF_ME_COMMON_LINE_BUTTON_RELOGIN"
+    },
+    {
+      "id": 715,
+      "text": "連携解除",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1521121465,
+      "updated_at": 1524671569,
+      "label": "eTEXTS_DEF_ME_COMMON_LINE_BUTTON_UNLINK"
+    },
+    {
+      "id": 716,
+      "text": "[LC]LINE連携失敗[LF][LF]LINE連携に失敗しました。[LF]電波状況のよい場所で、再度LINE連携を行ってください。[LF][LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1521121465,
+      "updated_at": 1524671569,
+      "label": "eTEXTS_DEF_ME_MSG_LINE_ERROR"
+    },
+    {
+      "id": 717,
+      "text": "[LC]予期せぬエラー[LF][LF]予期せぬエラーが起こったため、[LF]LINE連携を解除いたしました。[LF]電波状況のよい場所で、再度LINE連携を行ってください。[LF][LF]（%d:%d)[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1521121465,
+      "updated_at": 1524671569,
+      "label": "eTEXTS_DEF_ME_MSG_LINE_ERROR_DISCONNECT"
+    },
+    {
+      "id": 718,
+      "text": "[LC]LINE連携キャンセル[LF][LF]LINE連携がキャンセルされました。[LF]電波状況のよい場所で、再度LINE連携を行ってください。[LF][LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1521121465,
+      "updated_at": 1524671569,
+      "label": "eTEXTS_DEF_ME_MSG_LINE_CANCEL"
+    },
+    {
+      "id": 719,
+      "text": "送信数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1521121465,
+      "updated_at": 1524671569,
+      "label": "eTEXTS_DEF_ME_COMMON_LINE_SENDNUM"
+    },
+    {
+      "id": 720,
+      "text": "神化素材予約",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1521121466,
+      "updated_at": 1524671569,
+      "label": "eTEXTS_DEF_FILTER_WINDOW_MUTATION_MATERIAL_RESERVED_SUBTITLE"
+    },
+    {
+      "id": 721,
+      "text": "予約済み",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1521121466,
+      "updated_at": 1524671569,
+      "label": "eTEXTS_DEF_FILTER_WINDOW_MUTATION_MATERIAL_RESERVED_BUTTON"
+    },
+    {
+      "id": 722,
+      "text": "ロードポイント",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1521121466,
+      "updated_at": 1575633872,
+      "label": "eTEXTS_DEF_ME_LOAD_POINT"
+    },
+    {
+      "id": 723,
+      "text": "欲しいアビリティを選ぼう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1521121466,
+      "updated_at": 1528894421,
+      "label": "eTEXTS_DEF_ME_ABILITY_GACHA2_SELECT"
+    },
+    {
+      "id": 724,
+      "text": "[LC]確認[LF][LF][LC][S2]【%s】[LF][LF][LC]のガチャでよろしいですか？[LF][LC]※決定後にアビリティの変更は[LF][LC]できませんのでご注意ください",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1521121466,
+      "updated_at": 1536166379,
+      "label": "eTEXTS_DEF_MSG_BEGINNERS_GACHA2_FINAL_CONFIRMATION"
+    },
+    {
+      "id": 725,
+      "text": "%sについて[LF][LF]%s",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1521121466,
+      "updated_at": 1524671569,
+      "label": "eTEXTS_DEF_MSG_BEGINNERS_GACHA_DESCRIPTION"
+    },
+    {
+      "id": 726,
+      "text": "[LC]獣神化情報[LF][LF][LC][I0035][LF]以下のモンスターが獣神化可能になりました。 [LF]さっそくモンスターを獣神化させよう！[LF][LF][LC][NODE][LF][LF]※獣神化通知設定をOFFにするには、[LF]　[C8:その他]の[C8:オプション]から変更可能です。",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1521121466,
+      "updated_at": 1549469129,
+      "label": "eTEXTS_DEF_MSG_BEAST_MUTATION_OPEN_NORIFICATION"
+    },
+    {
+      "id": 727,
+      "text": "五右衛門 福引きガチャ",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1521121466,
+      "updated_at": 1527592283,
+      "label": "eTEXTS_DEF_ME_TITLE_GOM_GATYA"
+    },
+    {
+      "id": 728,
+      "text": "[LC]%s[LF][LF]%s[LF][LF][LC]1回：　%s　%d%s！[LF][LF][LC]所持数：　%d%s[LF][LF][LC]あと%d回ガチャれます！%s",
+      "layout": 15,
+      "color": 0,
+      "created_at": 1521121466,
+      "updated_at": 1528894421,
+      "label": "eTEXTS_DEF_MSG_GOM_GATYA_ONE"
+    },
+    {
+      "id": 729,
+      "text": "必要%s 1回：%d%s　所持数： %d%s",
+      "layout": 15,
+      "color": 0,
+      "created_at": 1521121466,
+      "updated_at": 1527592283,
+      "label": "eTEXTS_DEF_ME_GOM_GATYA_ONE"
+    },
+    {
+      "id": 730,
+      "text": "[LC]%s[LF][LF]%s[LF][LF][LC]1回：　%s　%d%s[LF][LF][LC]所持数：　%d%s[LF][LF][LC][C4:%sが足りません！]%s",
+      "layout": 15,
+      "color": 0,
+      "created_at": 1521121466,
+      "updated_at": 1528894421,
+      "label": "eTEXTS_DEF_MSG_GOM_GATYA_ZERO"
+    },
+    {
+      "id": 731,
+      "text": "[LC]五右衛門 福引きガチャとは[LF][LF][b:ba_ga_gom_02.png][LF]超・獣神祭でガチャを引いて、[LF]おまけでGETできる小判を集めよう！[LF][C4:五右衛門 福引きガチャ]に挑戦ができるぞ！[LF][LF]福引きガチャの賞品は以下の通り[LF][LF]【１等】[LF][C16:金]の五右衛門タカラゴン1体と[LF]ギフトコード2000円分！[LF][LF]【２等】[LF][C15:銀]の五右衛門タカラゴン1体と[LF]獣神竜セット！（各属性1体ずつ）[LF][LF]【３等】[LF][C12:銅]の五右衛門タカラゴン1体と[LF]オクケンチー大盛りセット！（各属性2体ずつ）[LF][LF]【４等】[LF]五右衛門タカラゴン1体と[LF]タスX大盛りセット！（各属性3体ずつ）[LF][LF]福引きガチャに必要な小判は[LF]超・獣神祭を引くとおまけで入手できます[LF][LF]・１０連で小判１０枚[LF]・シングルで小判１枚[LF][LF]小判を１０枚集めて[C4:福引きガチャ]に挑戦しよう！[LF][LF]詳細は[u:https://xfl.ag/2IKGg1S|特設サイト]をチェック！[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1521121466,
+      "updated_at": 1527592283,
+      "label": "eTEXTS_DEF_MSG_GOM_GATYA_EXPLAIN"
+    },
+    {
+      "id": 732,
+      "text": "[LC]１等大当たり！[LF][LF][C16:金]の五右衛門タカラゴン1体に加えて[LF][C8:2000円分]のギフトコードをプレゼント！[LF][LF]「App Store＆iTunesコード」or[LF]「Google Playギフトコード」いずれかを選択可能！[LF][LF]詳細は受け取りBOXにメッセージをお届けします[LF]※届くのに時間が掛かる場合があります[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1521121466,
+      "updated_at": 1527592283,
+      "label": "eTEXTS_DEF_MSG_GOM_GATYA_RESULT1"
+    },
+    {
+      "id": 733,
+      "text": "[LC]２等当たり！[LF][LF][C15:銀]の五右衛門タカラゴン1体に加えて[LF]獣神竜セットをプレゼント！[LF][LF][LC][IP2892][IP2893][IP2894][IP2895][IP2896][LF][LF][LF][LC][C8:獣神竜を各属性1体ずつ][LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1521121466,
+      "updated_at": 1527592283,
+      "label": "eTEXTS_DEF_MSG_GOM_GATYA_RESULT2"
+    },
+    {
+      "id": 734,
+      "text": "[LC]３等当たり！[LF][LF][C12:銅]の五右衛門タカラゴン1体に加えて[LF]オクケンチー大盛りセットをプレゼント！[LF][LF][LC][IP564][IP857][IP861][IP865][IP869][LF][LF][LF][LC][C8:オクケンチーを各属性2体ずつ][LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1521121466,
+      "updated_at": 1527592283,
+      "label": "eTEXTS_DEF_MSG_GOM_GATYA_RESULT3"
+    },
+    {
+      "id": 735,
+      "text": "[LC]４等当たり！[LF][LF]五右衛門タカラゴン1体に加えて[LF]タスX大盛りセットをプレゼント！[LF][LF][LC][IP670][IP671][IP672][LF][LF][LF][LC][C8:タスXを各属性3体ずつ][LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1521121466,
+      "updated_at": 1527592283,
+      "label": "eTEXTS_DEF_MSG_GOM_GATYA_RESULT4"
+    },
+    {
+      "id": 736,
+      "text": "このガチャは終了しました。",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1521121466,
+      "updated_at": 1527592283,
+      "label": "eTEXTS_DEF_MSG_GOM_GATYA_END_DIALOG"
+    },
+    {
+      "id": 737,
+      "text": "ゲーム内の設定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1521121466,
+      "updated_at": 1524671569,
+      "label": "eTEXTS_DEF_INGAME_OPTION_SETTING"
+    },
+    {
+      "id": 738,
+      "text": "クエスト中の[C6:矢印表示]を見やすくする",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1521121466,
+      "updated_at": 1531150903,
+      "label": "eTEXTS_DEF_INGAME_OPTION_ARROW"
+    },
+    {
+      "id": 739,
+      "text": "マルチプレイ中に[C6:バイブ]でお知らせ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1521121466,
+      "updated_at": 1533569597,
+      "label": "eTEXTS_DEF_INGAME_OPTION_VIBRATION"
+    },
+    {
+      "id": 740,
+      "text": "基本設定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1521121466,
+      "updated_at": 1533569597,
+      "label": "eTEXTS_DEF_OPTION_TAB_COMMON"
+    },
+    {
+      "id": 741,
+      "text": "クエスト設定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1521121466,
+      "updated_at": 1533569597,
+      "label": "eTEXTS_DEF_OPTION_TAB_INGAME"
+    },
+    {
+      "id": 742,
+      "text": "通知設定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671569,
+      "updated_at": 1533569597,
+      "label": "eTEXTS_DEF_OPTION_TAB_OUTGAME"
+    },
+    {
+      "id": 743,
+      "text": "ニックネーム変更",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671569,
+      "updated_at": 1524671569,
+      "label": "eTEXTS_DEF_OPTION_CATEGORY_NAME"
+    },
+    {
+      "id": 744,
+      "text": "サウンド設定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671569,
+      "updated_at": 1524671569,
+      "label": "eTEXTS_DEF_OPTION_CATEGORY_SOUND"
+    },
+    {
+      "id": 745,
+      "text": "スタミナ満タン通知",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671569,
+      "updated_at": 1524671569,
+      "label": "eTEXTS_DEF_OPTION_CATEGORY_NOTIFICATION_STAMINA"
+    },
+    {
+      "id": 746,
+      "text": "購入確認設定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671569,
+      "updated_at": 1533569597,
+      "label": "eTEXTS_DEF_OPTION_CATEGORY_ASK_PAYMENT"
+    },
+    {
+      "id": 747,
+      "text": "画質設定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671569,
+      "updated_at": 1524671569,
+      "label": "eTEXTS_DEF_OPTION_CATEGORY_SCREEN"
+    },
+    {
+      "id": 748,
+      "text": "Facebookログアウト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671569,
+      "updated_at": 1533569597,
+      "label": "eTEXTS_DEF_OPTION_CATEGORY_FACEBOOK"
+    },
+    {
+      "id": 749,
+      "text": "表示設定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671569,
+      "updated_at": 1524671569,
+      "label": "eTEXTS_DEF_OPTION_CATEGORY_DISP"
+    },
+    {
+      "id": 750,
+      "text": "タイム設定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1520268002,
+      "updated_at": 1524671569,
+      "label": "eTEXTS_DEF_OPTION_CATEGORY_TIME"
+    },
+    {
+      "id": 751,
+      "text": "バイブ設定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1520268002,
+      "updated_at": 1533569597,
+      "label": "eTEXTS_DEF_OPTION_CATEGORY_VIBRATION"
+    },
+    {
+      "id": 752,
+      "text": "獣神化通知設定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1520268002,
+      "updated_at": 1533569597,
+      "label": "eTEXTS_DEF_OPTION_CATEGORY_NOTIFICATION_BEAST"
+    },
+    {
+      "id": 753,
+      "text": "マジックストーン設定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1520268002,
+      "updated_at": 1524671569,
+      "label": "eTEXTS_DEF_OPTION_CATEGORY_STONE"
+    },
+    {
+      "id": 754,
+      "text": "キャラの自動ロック",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1520268002,
+      "updated_at": 1713803179,
+      "label": "eTEXTS_DEF_OPTION_CATEGORY_LOCK"
+    },
+    {
+      "id": 755,
+      "text": "演出表示",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1520268002,
+      "updated_at": 1524671569,
+      "label": "eTEXTS_DEF_OPTION_CATEGORY_ANIMATION"
+    },
+    {
+      "id": 756,
+      "text": "オラゴンからのお知らせ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1520268002,
+      "updated_at": 1533569597,
+      "label": "eTEXTS_DEF_OPTION_CATEGORY_NOTIFICATION_ORAGON"
+    },
+    {
+      "id": 757,
+      "text": "あなたの名前を入力してください。(最大１２文字)",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1520268002,
+      "updated_at": 1524671569,
+      "label": "eTEXTS_DEF_OPTION_NAME"
+    },
+    {
+      "id": 758,
+      "text": "音楽",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1520268002,
+      "updated_at": 1524671569,
+      "label": "eTEXTS_DEF_OPTION_SOUND_BGM"
+    },
+    {
+      "id": 759,
+      "text": "効果音",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1520268002,
+      "updated_at": 1524671569,
+      "label": "eTEXTS_DEF_OPTION_SOUND_SE"
+    },
+    {
+      "id": 760,
+      "text": "満タンになった時",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1520268002,
+      "updated_at": 1597680615,
+      "label": "eTEXTS_DEF_OPTION_NOTIFICATION_STAMINA_FULL"
+    },
+    {
+      "id": 761,
+      "text": "満タンになる５分前",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1520268002,
+      "updated_at": 1597680615,
+      "label": "eTEXTS_DEF_OPTION_NOTIFICATION_STAMINA_5MIN"
+    },
+    {
+      "id": 762,
+      "text": "満タンになる３０分前",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1520268002,
+      "updated_at": 1597680615,
+      "label": "eTEXTS_DEF_OPTION_NOTIFICATION_STAMINA_30MIN"
+    },
+    {
+      "id": 763,
+      "text": "月に購入できる上限金額を選んでください。[LF]上限金額を超えていると確認画面が表示されます。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1520268002,
+      "updated_at": 1533569597,
+      "label": "eTEXTS_DEF_OPTION_ASK_PAYMENT"
+    },
+    {
+      "id": 764,
+      "text": "OFF",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1520268002,
+      "updated_at": 1524671570,
+      "label": "eTEXTS_DEF_OPTION_ASK_PAYMENT_OFF"
+    },
+    {
+      "id": 765,
+      "text": "20000円",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1520268002,
+      "updated_at": 1524671570,
+      "label": "eTEXTS_DEF_OPTION_ASK_PAYMENT_20000"
+    },
+    {
+      "id": 766,
+      "text": "30000円",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1520268002,
+      "updated_at": 1524671570,
+      "label": "eTEXTS_DEF_OPTION_ASK_PAYMENT_30000"
+    },
+    {
+      "id": 767,
+      "text": "50000円",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1520268002,
+      "updated_at": 1524671570,
+      "label": "eTEXTS_DEF_OPTION_ASK_PAYMENT_50000"
+    },
+    {
+      "id": 768,
+      "text": "画質",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1520268003,
+      "updated_at": 1524671570,
+      "label": "eTEXTS_DEF_OPTION_SCREEN"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "table": "referral_events",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "receiver_check_start_at": 1743433200,
+      "start_at": 1743534000,
+      "end_at": 1773169199,
+      "campaign_start_at": 1743534000,
+      "campaign_end_at": 1746989999,
+      "created_at": 1743069532,
+      "updated_at": 1773179204,
+      "campaign_group_id": 1
+    },
+    {
+      "id": 2,
+      "receiver_check_start_at": 1743433200,
+      "start_at": 1743534000,
+      "end_at": 1773169199,
+      "campaign_start_at": 1753988400,
+      "campaign_end_at": 1756753199,
+      "created_at": 1753965353,
+      "updated_at": 1773179204,
+      "campaign_group_id": 0
+    },
+    {
+      "id": 3,
+      "receiver_check_start_at": 1774623600,
+      "start_at": 1774724400,
+      "end_at": 1806433199,
+      "campaign_start_at": 1774724400,
+      "campaign_end_at": 1777489199,
+      "created_at": 1774517477,
+      "updated_at": 1774517477,
+      "campaign_group_id": 2
+    }
+  ]
+}

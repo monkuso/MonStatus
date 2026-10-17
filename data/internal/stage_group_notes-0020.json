@@ -1,0 +1,2055 @@
+{
+  "schemaVersion": 1,
+  "table": "stage_group_notes",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 5121,
+      "stage_group_id": 29900,
+      "message": "一部の敵は一定回数ふれるまでダメージ無効",
+      "created_at": 1767864562,
+      "updated_at": 1791909001,
+      "display_type": 3
+    },
+    {
+      "id": 5122,
+      "stage_group_id": 629380,
+      "message": "ラック+10ステージ",
+      "created_at": 1767864562,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5123,
+      "stage_group_id": 629380,
+      "message": "アイテム「剣」でダメージ15倍",
+      "created_at": 1768472705,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5124,
+      "stage_group_id": 629480,
+      "message": "ラック+10ステージ",
+      "created_at": 1768472705,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5125,
+      "stage_group_id": 629490,
+      "message": "ハート無しステージ",
+      "created_at": 1769070931,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5126,
+      "stage_group_id": 29910,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1769070931,
+      "updated_at": 1791909001,
+      "display_type": 2
+    },
+    {
+      "id": 5127,
+      "stage_group_id": 29910,
+      "message": "属性効果超絶アップ",
+      "created_at": 1769070931,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5128,
+      "stage_group_id": 29910,
+      "message": "弱点効果アップ",
+      "created_at": 1769070931,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5129,
+      "stage_group_id": 29910,
+      "message": "水属性以外のキャラクター使用注意！",
+      "created_at": 1769681430,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5130,
+      "stage_group_id": 720770,
+      "message": "弱点効果アップ",
+      "created_at": 1769681430,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5131,
+      "stage_group_id": 720770,
+      "message": "一部の敵は「地雷」でダメージUP",
+      "created_at": 1769681430,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5132,
+      "stage_group_id": 720770,
+      "message": "木属性以外のキャラクター使用注意！",
+      "created_at": 1769681430,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5133,
+      "stage_group_id": 673230,
+      "message": "ハート無しステージ",
+      "created_at": 1769681430,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5134,
+      "stage_group_id": 29940,
+      "message": "ハート無しステージ",
+      "created_at": 1769681430,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5135,
+      "stage_group_id": 970870,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1769681430,
+      "updated_at": 1791909001,
+      "display_type": 2
+    },
+    {
+      "id": 5136,
+      "stage_group_id": 970870,
+      "message": "水属性以外のキャラクター使用注意！",
+      "created_at": 1769681430,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5137,
+      "stage_group_id": 970870,
+      "message": "全敵弱点無し",
+      "created_at": 1770050232,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5138,
+      "stage_group_id": 970870,
+      "message": "カウントブーストウォールにふれると攻撃力UP",
+      "created_at": 1770050232,
+      "updated_at": 1791909001,
+      "display_type": 3
+    },
+    {
+      "id": 5139,
+      "stage_group_id": 29970,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1770050232,
+      "updated_at": 1791909001,
+      "display_type": 2
+    },
+    {
+      "id": 5140,
+      "stage_group_id": 29970,
+      "message": "敵にふれるたびに攻撃力アップ",
+      "created_at": 1770050232,
+      "updated_at": 1791909001,
+      "display_type": 3
+    },
+    {
+      "id": 5141,
+      "stage_group_id": 851880,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1770275122,
+      "updated_at": 1791909001,
+      "display_type": 2
+    },
+    {
+      "id": 5142,
+      "stage_group_id": 851880,
+      "message": "弱点効果アップ",
+      "created_at": 1770275122,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5143,
+      "stage_group_id": 29980,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1770275122,
+      "updated_at": 1791909001,
+      "display_type": 2
+    },
+    {
+      "id": 5144,
+      "stage_group_id": 29980,
+      "message": "全ての弱点はダメージ20倍",
+      "created_at": 1770275122,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5145,
+      "stage_group_id": 29980,
+      "message": "「エレメントショット」ステージ",
+      "created_at": 1770275122,
+      "updated_at": 1791909001,
+      "display_type": 3
+    },
+    {
+      "id": 5146,
+      "stage_group_id": 29980,
+      "message": "エレメントエリア内は属性効果アップ",
+      "created_at": 1770275122,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5147,
+      "stage_group_id": 29990,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1770275122,
+      "updated_at": 1791909001,
+      "display_type": 2
+    },
+    {
+      "id": 5148,
+      "stage_group_id": 29990,
+      "message": "光属性以外のキャラクター使用注意！",
+      "created_at": 1770808062,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5149,
+      "stage_group_id": 29990,
+      "message": "属性効果超アップ",
+      "created_at": 1770808062,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5150,
+      "stage_group_id": 29990,
+      "message": "ハート無しステージ",
+      "created_at": 1770808062,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5151,
+      "stage_group_id": 29990,
+      "message": "全敵弱点無し",
+      "created_at": 1770808062,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5152,
+      "stage_group_id": 30000,
+      "message": "一部の「弱点」は弱点効果アップ",
+      "created_at": 1770808062,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5153,
+      "stage_group_id": 30010,
+      "message": "ラック+10ステージ",
+      "created_at": 1770808062,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5154,
+      "stage_group_id": 30020,
+      "message": "弱点効果アップ",
+      "created_at": 1771494338,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5155,
+      "stage_group_id": 30040,
+      "message": "0コンテニュー専用＆かりモン使用禁止ステージ",
+      "created_at": 1771494338,
+      "updated_at": 1791909001,
+      "display_type": 2
+    },
+    {
+      "id": 5156,
+      "stage_group_id": 30040,
+      "message": "わくわくの実と魂の紋章は効果無効",
+      "created_at": 1771494338,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5157,
+      "stage_group_id": 30040,
+      "message": "属性効果超絶アップ＆一部の敵は弱点効果アップ",
+      "created_at": 1771494338,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5158,
+      "stage_group_id": 30040,
+      "message": "火属性以外のキャラクター使用注意！",
+      "created_at": 1771744976,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5159,
+      "stage_group_id": 30040,
+      "message": "ハート無しステージ",
+      "created_at": 1771744976,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5160,
+      "stage_group_id": 30040,
+      "message": "一部の敵は一定回数ふれるまでダメージ無効",
+      "created_at": 1771744976,
+      "updated_at": 1791909001,
+      "display_type": 3
+    },
+    {
+      "id": 5161,
+      "stage_group_id": 720780,
+      "message": "かりモン使用禁止ステージ",
+      "created_at": 1771744976,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5162,
+      "stage_group_id": 720780,
+      "message": "わくわくの実と魂の紋章は効果無効",
+      "created_at": 1772099975,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5163,
+      "stage_group_id": 720780,
+      "message": "属性効果超絶アップ",
+      "created_at": 1772099975,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5164,
+      "stage_group_id": 720780,
+      "message": "闇属性以外のキャラクター使用注意！",
+      "created_at": 1772099975,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5165,
+      "stage_group_id": 720780,
+      "message": "弱点効果アップ",
+      "created_at": 1772099975,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5166,
+      "stage_group_id": 720780,
+      "message": "マップクリアHP回復無し＆ハート無しステージ",
+      "created_at": 1772099975,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5167,
+      "stage_group_id": 30050,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1772099975,
+      "updated_at": 1791909001,
+      "display_type": 2
+    },
+    {
+      "id": 5168,
+      "stage_group_id": 30050,
+      "message": "木属性以外のキャラクター使用注意！",
+      "created_at": 1772099975,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5169,
+      "stage_group_id": 629780,
+      "message": "ラック+10ステージ",
+      "created_at": 1772099975,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5170,
+      "stage_group_id": 629790,
+      "message": "ハート無しステージ",
+      "created_at": 1772704051,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5171,
+      "stage_group_id": 970880,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1772704051,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5172,
+      "stage_group_id": 970880,
+      "message": "属性効果アップ",
+      "created_at": 1772704051,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5173,
+      "stage_group_id": 970880,
+      "message": "木属性以外のキャラクター使用注意！",
+      "created_at": 1772704051,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5174,
+      "stage_group_id": 30090,
+      "message": "ハート無しステージ",
+      "created_at": 1772704051,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5175,
+      "stage_group_id": 30110,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1772704051,
+      "updated_at": 1791909001,
+      "display_type": 2
+    },
+    {
+      "id": 5176,
+      "stage_group_id": 30110,
+      "message": "一部の敵は「地雷」でダメージUP",
+      "created_at": 1772704051,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5177,
+      "stage_group_id": 30120,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1772704051,
+      "updated_at": 1791909001,
+      "display_type": 2
+    },
+    {
+      "id": 5178,
+      "stage_group_id": 30120,
+      "message": "弱点効果アップ",
+      "created_at": 1772704051,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5179,
+      "stage_group_id": 30120,
+      "message": "パワーチェンジウォールにふれると攻撃力が変化",
+      "created_at": 1772704051,
+      "updated_at": 1791909001,
+      "display_type": 3
+    },
+    {
+      "id": 5180,
+      "stage_group_id": 191110,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1772704051,
+      "updated_at": 1791909001,
+      "display_type": 2
+    },
+    {
+      "id": 5181,
+      "stage_group_id": 191110,
+      "message": "水属性以外のキャラクター使用注意！",
+      "created_at": 1772704051,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5182,
+      "stage_group_id": 191120,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1772704051,
+      "updated_at": 1791909001,
+      "display_type": 2
+    },
+    {
+      "id": 5183,
+      "stage_group_id": 191120,
+      "message": "属性効果超絶アップ",
+      "created_at": 1773179246,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5184,
+      "stage_group_id": 191120,
+      "message": "木属性以外のキャラクター使用注意！",
+      "created_at": 1773179246,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5185,
+      "stage_group_id": 191120,
+      "message": "味方にふれると攻撃力アップ",
+      "created_at": 1773179246,
+      "updated_at": 1791909001,
+      "display_type": 3
+    },
+    {
+      "id": 5186,
+      "stage_group_id": 191120,
+      "message": "全敵弱点無し",
+      "created_at": 1773179246,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5187,
+      "stage_group_id": 191130,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1773179246,
+      "updated_at": 1791909001,
+      "display_type": 2
+    },
+    {
+      "id": 5188,
+      "stage_group_id": 191130,
+      "message": "属性効果超絶アップ",
+      "created_at": 1773179246,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5189,
+      "stage_group_id": 191130,
+      "message": "火属性以外のキャラクター使用注意！",
+      "created_at": 1773179246,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5190,
+      "stage_group_id": 191130,
+      "message": "スルーチェンジウォール登場ステージ",
+      "created_at": 1773179246,
+      "updated_at": 1791909001,
+      "display_type": 3
+    },
+    {
+      "id": 5191,
+      "stage_group_id": 191130,
+      "message": "一部の敵は弱点無し",
+      "created_at": 1773393145,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5192,
+      "stage_group_id": 191140,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1774517498,
+      "updated_at": 1791909001,
+      "display_type": 2
+    },
+    {
+      "id": 5193,
+      "stage_group_id": 191140,
+      "message": "弱点効果アップ",
+      "created_at": 1774517498,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5194,
+      "stage_group_id": 191140,
+      "message": "闇属性以外のキャラクター使用注意！",
+      "created_at": 1774517498,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5195,
+      "stage_group_id": 191140,
+      "message": "敵にふれるたびに攻撃力アップ",
+      "created_at": 1774517498,
+      "updated_at": 1791909001,
+      "display_type": 3
+    },
+    {
+      "id": 5196,
+      "stage_group_id": 191150,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1774517498,
+      "updated_at": 1791909001,
+      "display_type": 2
+    },
+    {
+      "id": 5197,
+      "stage_group_id": 191150,
+      "message": "弱点効果アップ",
+      "created_at": 1774517498,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5198,
+      "stage_group_id": 191150,
+      "message": "光属性以外のキャラクター使用注意！",
+      "created_at": 1774517498,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5199,
+      "stage_group_id": 191150,
+      "message": "ハート無しステージ",
+      "created_at": 1774517498,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5200,
+      "stage_group_id": 191150,
+      "message": "受けたダメージに応じて攻撃力アップ",
+      "created_at": 1774517498,
+      "updated_at": 1791909001,
+      "display_type": 3
+    },
+    {
+      "id": 5201,
+      "stage_group_id": 191150,
+      "message": "一部の敵は弱点ヒットで弱点が移動",
+      "created_at": 1774517498,
+      "updated_at": 1791909001,
+      "display_type": 3
+    },
+    {
+      "id": 5202,
+      "stage_group_id": 191160,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1774517498,
+      "updated_at": 1791909001,
+      "display_type": 2
+    },
+    {
+      "id": 5203,
+      "stage_group_id": 191160,
+      "message": "闇属性以外のキャラクター使用注意！",
+      "created_at": 1774517498,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5204,
+      "stage_group_id": 191160,
+      "message": "全敵弱点無し",
+      "created_at": 1774517498,
+      "updated_at": 1791909001,
+      "display_type": 1
+    },
+    {
+      "id": 5205,
+      "stage_group_id": 191160,
+      "message": "高攻撃力必須ステージ",
+      "created_at": 1774517498,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5206,
+      "stage_group_id": 191160,
+      "message": "パワーアップウォールにふれると攻撃力アップ",
+      "created_at": 1774517498,
+      "updated_at": 1791909002,
+      "display_type": 3
+    },
+    {
+      "id": 5207,
+      "stage_group_id": 191160,
+      "message": "撃種制限ボックスステージ",
+      "created_at": 1774517498,
+      "updated_at": 1791909002,
+      "display_type": 3
+    },
+    {
+      "id": 5208,
+      "stage_group_id": 30140,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1774517498,
+      "updated_at": 1791909002,
+      "display_type": 2
+    },
+    {
+      "id": 5209,
+      "stage_group_id": 30140,
+      "message": "ふれた味方の数に応じて攻撃力アップ",
+      "created_at": 1774517498,
+      "updated_at": 1791909002,
+      "display_type": 3
+    },
+    {
+      "id": 5210,
+      "stage_group_id": 30140,
+      "message": "全ての弱点はダメージ10倍",
+      "created_at": 1774517498,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5211,
+      "stage_group_id": 673510,
+      "message": "全ての弱点はダメージ20倍",
+      "created_at": 1774517498,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5212,
+      "stage_group_id": 890330,
+      "message": "パワーアップウォールにふれると攻撃力アップ",
+      "created_at": 1774517498,
+      "updated_at": 1791909002,
+      "display_type": 3
+    },
+    {
+      "id": 5213,
+      "stage_group_id": 890330,
+      "message": "撃種制限ボックスステージ",
+      "created_at": 1774517498,
+      "updated_at": 1791909002,
+      "display_type": 3
+    },
+    {
+      "id": 5214,
+      "stage_group_id": 30150,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1774517498,
+      "updated_at": 1791909002,
+      "display_type": 2
+    },
+    {
+      "id": 5215,
+      "stage_group_id": 30150,
+      "message": "狂化状態時は攻撃力UP＆HP回復不可",
+      "created_at": 1774517498,
+      "updated_at": 1791909002,
+      "display_type": 3
+    },
+    {
+      "id": 5216,
+      "stage_group_id": 30150,
+      "message": "属性効果超アップ",
+      "created_at": 1774517498,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5217,
+      "stage_group_id": 30150,
+      "message": "ハート無しステージ",
+      "created_at": 1774517498,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5218,
+      "stage_group_id": 30150,
+      "message": "弱点効果アップ",
+      "created_at": 1774952132,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5219,
+      "stage_group_id": 970890,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1774952132,
+      "updated_at": 1791909002,
+      "display_type": 2
+    },
+    {
+      "id": 5220,
+      "stage_group_id": 970890,
+      "message": "属性効果アップ",
+      "created_at": 1774952132,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5221,
+      "stage_group_id": 970890,
+      "message": "全ての弱点はダメージ6倍",
+      "created_at": 1774952132,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5222,
+      "stage_group_id": 970890,
+      "message": "火属性以外のキャラクター使用注意！",
+      "created_at": 1774952132,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5223,
+      "stage_group_id": 970890,
+      "message": "一部の敵は弱点無し",
+      "created_at": 1774952132,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5224,
+      "stage_group_id": 30160,
+      "message": "ボスの弱点はダメージ8倍",
+      "created_at": 1775554217,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5225,
+      "stage_group_id": 30160,
+      "message": "弱点ヒットで弱点が移動",
+      "created_at": 1775554217,
+      "updated_at": 1791909002,
+      "display_type": 3
+    },
+    {
+      "id": 5226,
+      "stage_group_id": 30170,
+      "message": "ラック+10ステージ",
+      "created_at": 1775554217,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5227,
+      "stage_group_id": 673550,
+      "message": "ラック+10ステージ",
+      "created_at": 1775554217,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5228,
+      "stage_group_id": 673580,
+      "message": "ラック+10ステージ",
+      "created_at": 1775554217,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5229,
+      "stage_group_id": 30190,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1775728342,
+      "updated_at": 1791909002,
+      "display_type": 2
+    },
+    {
+      "id": 5230,
+      "stage_group_id": 30190,
+      "message": "属性効果超絶アップ",
+      "created_at": 1775728342,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5231,
+      "stage_group_id": 30190,
+      "message": "闇属性以外のキャラクター使用注意！",
+      "created_at": 1775728342,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5232,
+      "stage_group_id": 30190,
+      "message": "弱点効果アップ",
+      "created_at": 1775728342,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5233,
+      "stage_group_id": 30190,
+      "message": "一部の敵は一定回数ふれるまでダメージ無効",
+      "created_at": 1775728342,
+      "updated_at": 1791909002,
+      "display_type": 3
+    },
+    {
+      "id": 5234,
+      "stage_group_id": 30200,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1775728342,
+      "updated_at": 1791909002,
+      "display_type": 2
+    },
+    {
+      "id": 5235,
+      "stage_group_id": 30200,
+      "message": "HP残量が多いほど攻撃力アップ",
+      "created_at": 1775728342,
+      "updated_at": 1791909002,
+      "display_type": 3
+    },
+    {
+      "id": 5236,
+      "stage_group_id": 30200,
+      "message": "一部の敵は弱点効果アップ",
+      "created_at": 1775728342,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5237,
+      "stage_group_id": 720790,
+      "message": "属性効果超絶アップ",
+      "created_at": 1775728342,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5238,
+      "stage_group_id": 720790,
+      "message": "弱点効果アップ",
+      "created_at": 1775728342,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5239,
+      "stage_group_id": 720790,
+      "message": "水属性以外のキャラクター使用注意！",
+      "created_at": 1776335191,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5240,
+      "stage_group_id": 851920,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1776335191,
+      "updated_at": 1791909002,
+      "display_type": 2
+    },
+    {
+      "id": 5241,
+      "stage_group_id": 629880,
+      "message": "一部の敵は「地雷」でダメージUP",
+      "created_at": 1776335191,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5242,
+      "stage_group_id": 629890,
+      "message": "ラック+10ステージ",
+      "created_at": 1776335191,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5243,
+      "stage_group_id": 629890,
+      "message": "アイテム「剣」でダメージ5倍",
+      "created_at": 1776335191,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5244,
+      "stage_group_id": 629900,
+      "message": "一部の敵は一定回数ふれるまでダメージ無効",
+      "created_at": 1776335191,
+      "updated_at": 1791909002,
+      "display_type": 3
+    },
+    {
+      "id": 5245,
+      "stage_group_id": 30220,
+      "message": "ハート無しステージ",
+      "created_at": 1776335191,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5246,
+      "stage_group_id": 30230,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1776335191,
+      "updated_at": 1791909002,
+      "display_type": 2
+    },
+    {
+      "id": 5247,
+      "stage_group_id": 30230,
+      "message": "ハート無しステージ",
+      "created_at": 1776335191,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5248,
+      "stage_group_id": 30230,
+      "message": "アイテム「剣」でダメージ20倍",
+      "created_at": 1776335191,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5249,
+      "stage_group_id": 742110,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1776335191,
+      "updated_at": 1791909002,
+      "display_type": 2
+    },
+    {
+      "id": 5250,
+      "stage_group_id": 742110,
+      "message": "属性効果超絶アップ",
+      "created_at": 1776802973,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5251,
+      "stage_group_id": 742110,
+      "message": "光属性以外のキャラクター使用注意！",
+      "created_at": 1776802973,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5252,
+      "stage_group_id": 742120,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1777104477,
+      "updated_at": 1791909002,
+      "display_type": 2
+    },
+    {
+      "id": 5253,
+      "stage_group_id": 742120,
+      "message": "属性効果アップ",
+      "created_at": 1777104477,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5254,
+      "stage_group_id": 742120,
+      "message": "水属性以外のキャラクター使用注意！",
+      "created_at": 1777104477,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5255,
+      "stage_group_id": 742120,
+      "message": "全敵弱点無し",
+      "created_at": 1777104477,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5256,
+      "stage_group_id": 742130,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1777104477,
+      "updated_at": 1791909002,
+      "display_type": 2
+    },
+    {
+      "id": 5257,
+      "stage_group_id": 742130,
+      "message": "属性効果超絶アップ",
+      "created_at": 1777104477,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5258,
+      "stage_group_id": 742130,
+      "message": "弱点効果アップ",
+      "created_at": 1777104477,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5259,
+      "stage_group_id": 742130,
+      "message": "水属性以外のキャラクター使用注意！",
+      "created_at": 1777104477,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5260,
+      "stage_group_id": 742140,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1777104477,
+      "updated_at": 1791909002,
+      "display_type": 2
+    },
+    {
+      "id": 5261,
+      "stage_group_id": 742140,
+      "message": "弱点効果アップ",
+      "created_at": 1777104477,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5262,
+      "stage_group_id": 742140,
+      "message": "一部の敵は「地雷」でダメージUP",
+      "created_at": 1777104477,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5263,
+      "stage_group_id": 742140,
+      "message": "木属性以外のキャラクター使用注意！",
+      "created_at": 1777104477,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5264,
+      "stage_group_id": 742150,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1777104477,
+      "updated_at": 1791909002,
+      "display_type": 2
+    },
+    {
+      "id": 5265,
+      "stage_group_id": 742150,
+      "message": "属性効果超絶アップ",
+      "created_at": 1777104477,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5266,
+      "stage_group_id": 742150,
+      "message": "弱点効果アップ",
+      "created_at": 1777104477,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5267,
+      "stage_group_id": 742150,
+      "message": "水属性以外のキャラクター使用注意！",
+      "created_at": 1777104477,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5268,
+      "stage_group_id": 30240,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1777104477,
+      "updated_at": 1791909002,
+      "display_type": 2
+    },
+    {
+      "id": 5269,
+      "stage_group_id": 30240,
+      "message": "一部の敵は弱点効果アップ",
+      "created_at": 1777104477,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5270,
+      "stage_group_id": 30240,
+      "message": "味方にふれると撃種が変化",
+      "created_at": 1777104477,
+      "updated_at": 1791909002,
+      "display_type": 3
+    },
+    {
+      "id": 5271,
+      "stage_group_id": 30250,
+      "message": "0コンテニュー専用＆かりモン使用禁止ステージ",
+      "created_at": 1777104477,
+      "updated_at": 1791909002,
+      "display_type": 2
+    },
+    {
+      "id": 5272,
+      "stage_group_id": 30250,
+      "message": "わくわくの実と魂の紋章は効果無効",
+      "created_at": 1777104477,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5273,
+      "stage_group_id": 30250,
+      "message": "木属性以外のキャラクター使用注意！",
+      "created_at": 1777104477,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5274,
+      "stage_group_id": 30250,
+      "message": "全ての弱点はダメージ27倍",
+      "created_at": 1777104477,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5275,
+      "stage_group_id": 30250,
+      "message": "リミットパワーウォールにふれると攻撃力アップ",
+      "created_at": 1777545898,
+      "updated_at": 1791909002,
+      "display_type": 3
+    },
+    {
+      "id": 5276,
+      "stage_group_id": 720800,
+      "message": "かりモン使用禁止ステージ",
+      "created_at": 1777545898,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5277,
+      "stage_group_id": 720800,
+      "message": "わくわくの実と魂の紋章は効果無効",
+      "created_at": 1777545898,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5278,
+      "stage_group_id": 720800,
+      "message": "属性効果超絶アップ＆一部の敵は弱点効果アップ",
+      "created_at": 1777545898,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5279,
+      "stage_group_id": 720800,
+      "message": "火属性以外のキャラクター使用注意！",
+      "created_at": 1777545898,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5280,
+      "stage_group_id": 720800,
+      "message": "ハート無しステージ",
+      "created_at": 1777545898,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5281,
+      "stage_group_id": 720800,
+      "message": "一部の敵は一定回数ふれるまでダメージ無効",
+      "created_at": 1777545898,
+      "updated_at": 1791909002,
+      "display_type": 3
+    },
+    {
+      "id": 5282,
+      "stage_group_id": 970900,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1777545898,
+      "updated_at": 1791909002,
+      "display_type": 2
+    },
+    {
+      "id": 5283,
+      "stage_group_id": 970900,
+      "message": "属性効果アップ",
+      "created_at": 1777545898,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5284,
+      "stage_group_id": 970900,
+      "message": "全ての弱点はダメージ150倍",
+      "created_at": 1777545898,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5285,
+      "stage_group_id": 970900,
+      "message": "闇属性以外のキャラクター使用注意！",
+      "created_at": 1777545898,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5286,
+      "stage_group_id": 30280,
+      "message": "ハート無しステージ",
+      "created_at": 1777545898,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5287,
+      "stage_group_id": 30290,
+      "message": "全ての弱点はダメージ6倍",
+      "created_at": 1777545898,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5288,
+      "stage_group_id": 30310,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1777545898,
+      "updated_at": 1791909002,
+      "display_type": 2
+    },
+    {
+      "id": 5289,
+      "stage_group_id": 30310,
+      "message": "属性効果アップ",
+      "created_at": 1777545898,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5290,
+      "stage_group_id": 30310,
+      "message": "降臨中1回のみプレイ可能",
+      "created_at": 1778144263,
+      "updated_at": 1791909002,
+      "display_type": 0
+    },
+    {
+      "id": 5291,
+      "stage_group_id": 851950,
+      "message": "一部の敵は弱点効果アップ",
+      "created_at": 1778144263,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5292,
+      "stage_group_id": 30320,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1778144263,
+      "updated_at": 1791909002,
+      "display_type": 2
+    },
+    {
+      "id": 5293,
+      "stage_group_id": 30320,
+      "message": "ハート無しステージ",
+      "created_at": 1778144263,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5294,
+      "stage_group_id": 30320,
+      "message": "一部の敵は弱点効果アップ",
+      "created_at": 1778755018,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5295,
+      "stage_group_id": 30320,
+      "message": "カウントブーストウォールにふれると攻撃力UP",
+      "created_at": 1778755018,
+      "updated_at": 1791909002,
+      "display_type": 3
+    },
+    {
+      "id": 5296,
+      "stage_group_id": 30330,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1778755018,
+      "updated_at": 1791909002,
+      "display_type": 2
+    },
+    {
+      "id": 5297,
+      "stage_group_id": 30330,
+      "message": "弱点効果アップ",
+      "created_at": 1778755018,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5298,
+      "stage_group_id": 30330,
+      "message": "水属性以外のキャラクター使用注意！",
+      "created_at": 1778755018,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5299,
+      "stage_group_id": 30340,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1779358521,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5300,
+      "stage_group_id": 30340,
+      "message": "属性効果超アップ",
+      "created_at": 1779358521,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5301,
+      "stage_group_id": 30340,
+      "message": "一部の敵は「地雷」でダメージUP",
+      "created_at": 1779358521,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5302,
+      "stage_group_id": 30350,
+      "message": "全ての弱点はダメージ9倍",
+      "created_at": 1779358521,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5303,
+      "stage_group_id": 30360,
+      "message": "ラック+10ステージ",
+      "created_at": 1779358521,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5304,
+      "stage_group_id": 30380,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1779358521,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5305,
+      "stage_group_id": 30380,
+      "message": "降臨中1回のみプレイ可能",
+      "created_at": 1779358521,
+      "updated_at": 1791909002,
+      "display_type": 0
+    },
+    {
+      "id": 5306,
+      "stage_group_id": 30380,
+      "message": "全ての弱点はダメージ9倍",
+      "created_at": 1779358521,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5307,
+      "stage_group_id": 851960,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1779966304,
+      "updated_at": 1791909002,
+      "display_type": 2
+    },
+    {
+      "id": 5308,
+      "stage_group_id": 851960,
+      "message": "水属性以外のキャラクター使用注意！",
+      "created_at": 1779966304,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5309,
+      "stage_group_id": 851960,
+      "message": "一部の敵は弱点効果アップ",
+      "created_at": 1779966304,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5310,
+      "stage_group_id": 851960,
+      "message": "ハート無しステージ",
+      "created_at": 1779966304,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5311,
+      "stage_group_id": 851970,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1779966304,
+      "updated_at": 1791909002,
+      "display_type": 2
+    },
+    {
+      "id": 5312,
+      "stage_group_id": 851970,
+      "message": "木属性以外のキャラクター使用注意！",
+      "created_at": 1779966304,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5313,
+      "stage_group_id": 851970,
+      "message": "敵にふれるたびに攻撃力アップ",
+      "created_at": 1779966304,
+      "updated_at": 1791909002,
+      "display_type": 3
+    },
+    {
+      "id": 5314,
+      "stage_group_id": 851970,
+      "message": "全ての弱点はダメージ9倍",
+      "created_at": 1779966304,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5315,
+      "stage_group_id": 851980,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1779966304,
+      "updated_at": 1791909002,
+      "display_type": 2
+    },
+    {
+      "id": 5316,
+      "stage_group_id": 851980,
+      "message": "火属性以外のキャラクター使用注意！",
+      "created_at": 1779966304,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5317,
+      "stage_group_id": 851980,
+      "message": "弱点効果アップ",
+      "created_at": 1779966304,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5318,
+      "stage_group_id": 851980,
+      "message": "最初にふれた弱点封印の位置に弱点が出現",
+      "created_at": 1779966304,
+      "updated_at": 1791909002,
+      "display_type": 3
+    },
+    {
+      "id": 5319,
+      "stage_group_id": 851990,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1779966304,
+      "updated_at": 1791909002,
+      "display_type": 2
+    },
+    {
+      "id": 5320,
+      "stage_group_id": 851990,
+      "message": "闇属性以外のキャラクター使用注意！",
+      "created_at": 1779966304,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5321,
+      "stage_group_id": 851990,
+      "message": "狂化状態時は攻撃力UP＆HP回復不可",
+      "created_at": 1779966304,
+      "updated_at": 1791909002,
+      "display_type": 3
+    },
+    {
+      "id": 5322,
+      "stage_group_id": 851990,
+      "message": "マップクリアHP回復無し＆ハート無しステージ",
+      "created_at": 1779966304,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5323,
+      "stage_group_id": 852000,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1779966304,
+      "updated_at": 1791909002,
+      "display_type": 2
+    },
+    {
+      "id": 5324,
+      "stage_group_id": 852000,
+      "message": "属性効果超アップ",
+      "created_at": 1779966304,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5325,
+      "stage_group_id": 852000,
+      "message": "光属性以外のキャラクター使用注意！",
+      "created_at": 1779966304,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5326,
+      "stage_group_id": 673600,
+      "message": "ダルーズの弱点はダメージ6倍",
+      "created_at": 1779966304,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5327,
+      "stage_group_id": 673610,
+      "message": "ラック+10ステージ",
+      "created_at": 1779966304,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5328,
+      "stage_group_id": 673620,
+      "message": "ハート無しステージ",
+      "created_at": 1779966304,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5329,
+      "stage_group_id": 673650,
+      "message": "弱点効果アップ",
+      "created_at": 1779966304,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5330,
+      "stage_group_id": 673640,
+      "message": "ラック+10ステージ",
+      "created_at": 1779966304,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5331,
+      "stage_group_id": 30390,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1779966304,
+      "updated_at": 1791909002,
+      "display_type": 2
+    },
+    {
+      "id": 5332,
+      "stage_group_id": 30390,
+      "message": "属性効果超絶アップ",
+      "created_at": 1779966304,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5333,
+      "stage_group_id": 30390,
+      "message": "ハート無しステージ",
+      "created_at": 1779966304,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5334,
+      "stage_group_id": 30390,
+      "message": "受けたダメージに応じて攻撃力アップ",
+      "created_at": 1779966304,
+      "updated_at": 1791909002,
+      "display_type": 3
+    },
+    {
+      "id": 5335,
+      "stage_group_id": 30390,
+      "message": "弱点効果アップ",
+      "created_at": 1779966304,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5336,
+      "stage_group_id": 30390,
+      "message": "火属性以外のキャラクター使用注意！",
+      "created_at": 1779966304,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5337,
+      "stage_group_id": 30400,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1779966304,
+      "updated_at": 1791909002,
+      "display_type": 2
+    },
+    {
+      "id": 5338,
+      "stage_group_id": 30400,
+      "message": "弱点効果アップ",
+      "created_at": 1779966304,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5339,
+      "stage_group_id": 720810,
+      "message": "属性効果超絶アップ",
+      "created_at": 1780570468,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5340,
+      "stage_group_id": 720810,
+      "message": "闇属性以外のキャラクター使用注意！",
+      "created_at": 1780570468,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5341,
+      "stage_group_id": 720810,
+      "message": "弱点効果アップ",
+      "created_at": 1780570468,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5342,
+      "stage_group_id": 720810,
+      "message": "一部の敵は一定回数ふれるまでダメージ無効",
+      "created_at": 1780570468,
+      "updated_at": 1791909002,
+      "display_type": 3
+    },
+    {
+      "id": 5343,
+      "stage_group_id": 630000,
+      "message": "一部の「弱点」は弱点効果アップ",
+      "created_at": 1780570468,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5344,
+      "stage_group_id": 630010,
+      "message": "ラック+10ステージ",
+      "created_at": 1780570468,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5345,
+      "stage_group_id": 630020,
+      "message": "弱点効果アップ",
+      "created_at": 1780570468,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5346,
+      "stage_group_id": 970910,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1780570468,
+      "updated_at": 1791909002,
+      "display_type": 2
+    },
+    {
+      "id": 5347,
+      "stage_group_id": 970910,
+      "message": "属性効果超アップ",
+      "created_at": 1780570468,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5348,
+      "stage_group_id": 970910,
+      "message": "光属性以外のキャラクター使用注意！",
+      "created_at": 1780570468,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5349,
+      "stage_group_id": 970910,
+      "message": "全敵弱点無し",
+      "created_at": 1780570468,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5350,
+      "stage_group_id": 970910,
+      "message": "味方にふれると攻撃力アップ",
+      "created_at": 1780570468,
+      "updated_at": 1791909002,
+      "display_type": 3
+    },
+    {
+      "id": 5351,
+      "stage_group_id": 30410,
+      "message": "ハート無しステージ",
+      "created_at": 1780939753,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5352,
+      "stage_group_id": 30420,
+      "message": "全ての弱点はダメージ9倍",
+      "created_at": 1780939753,
+      "updated_at": 1791909002,
+      "display_type": 1
+    },
+    {
+      "id": 5353,
+      "stage_group_id": 30440,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1780939753,
+      "updated_at": 1791909002,
+      "display_type": 2
+    },
+    {
+      "id": 5354,
+      "stage_group_id": 30440,
+      "message": "降臨中1回のみプレイ可能",
+      "created_at": 1781169878,
+      "updated_at": 1791909002,
+      "display_type": 0
+    },
+    {
+      "id": 5355,
+      "stage_group_id": 30450,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1781169878,
+      "updated_at": 1791909003,
+      "display_type": 2
+    },
+    {
+      "id": 5356,
+      "stage_group_id": 30450,
+      "message": "一部の敵は「地雷」でダメージUP",
+      "created_at": 1781169878,
+      "updated_at": 1791909003,
+      "display_type": 1
+    },
+    {
+      "id": 5357,
+      "stage_group_id": 852010,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1781169878,
+      "updated_at": 1791909003,
+      "display_type": 2
+    },
+    {
+      "id": 5358,
+      "stage_group_id": 852010,
+      "message": "ハート無しステージ",
+      "created_at": 1781169878,
+      "updated_at": 1791909003,
+      "display_type": 1
+    },
+    {
+      "id": 5359,
+      "stage_group_id": 852010,
+      "message": "水属性以外のキャラクター使用注意！",
+      "created_at": 1781169878,
+      "updated_at": 1791909003,
+      "display_type": 1
+    },
+    {
+      "id": 5360,
+      "stage_group_id": 30460,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1781169878,
+      "updated_at": 1791909003,
+      "display_type": 2
+    },
+    {
+      "id": 5361,
+      "stage_group_id": 30460,
+      "message": "属性効果超絶アップ",
+      "created_at": 1781169878,
+      "updated_at": 1791909003,
+      "display_type": 1
+    },
+    {
+      "id": 5362,
+      "stage_group_id": 30460,
+      "message": "敵にふれるたびに攻撃力アップ",
+      "created_at": 1781169878,
+      "updated_at": 1791909003,
+      "display_type": 3
+    },
+    {
+      "id": 5363,
+      "stage_group_id": 852030,
+      "message": "0コンテニュー専用ステージ",
+      "created_at": 1781169878,
+      "updated_at": 1791909003,
+      "display_type": 2
+    },
+    {
+      "id": 5364,
+      "stage_group_id": 852030,
+      "message": "HP残量が多いほど攻撃力アップ",
+      "created_at": 1781169878,
+      "updated_at": 1791909003,
+      "display_type": 3
+    },
+    {
+      "id": 5365,
+      "stage_group_id": 852030,
+      "message": "ハート無しステージ",
+      "created_at": 1781774242,
+      "updated_at": 1791909003,
+      "display_type": 1
+    },
+    {
+      "id": 5366,
+      "stage_group_id": 852030,
+      "message": "全ての弱点はダメージ6倍",
+      "created_at": 1781774242,
+      "updated_at": 1791909003,
+      "display_type": 1
+    },
+    {
+      "id": 5367,
+      "stage_group_id": 30480,
+      "message": "ラック+10ステージ",
+      "created_at": 1781774242,
+      "updated_at": 1791909003,
+      "display_type": 1
+    },
+    {
+      "id": 5368,
+      "stage_group_id": 30510,
+      "message": "一部の敵は弱点効果アップ",
+      "created_at": 1782387270,
+      "updated_at": 1791909003,
+      "display_type": 1
+    },
+    {
+      "id": 5369,
+      "stage_group_id": 30520,
+      "message": "0コンテニュー専用＆かりモン使用禁止ステージ",
+      "created_at": 1782387270,
+      "updated_at": 1791909003,
+      "display_type": 2
+    },
+    {
+      "id": 5370,
+      "stage_group_id": 30520,
+      "message": "わくわくの実と魂の紋章は効果無効",
+      "created_at": 1782387270,
+      "updated_at": 1791909003,
+      "display_type": 1
+    },
+    {
+      "id": 5371,
+      "stage_group_id": 30520,
+      "message": "属性効果超絶アップ",
+      "created_at": 1782387270,
+      "updated_at": 1791909003,
+      "display_type": 1
+    },
+    {
+      "id": 5372,
+      "stage_group_id": 30520,
+      "message": "光属性以外のキャラクター使用注意！",
+      "created_at": 1782387270,
+      "updated_at": 1791909003,
+      "display_type": 1
+    },
+    {
+      "id": 5373,
+      "stage_group_id": 30520,
+      "message": "一部の敵は収束弱点",
+      "created_at": 1782387270,
+      "updated_at": 1791909003,
+      "display_type": 3
+    },
+    {
+      "id": 5374,
+      "stage_group_id": 720820,
+      "message": "かりモン使用禁止ステージ",
+      "created_at": 1782387270,
+      "updated_at": 1791909003,
+      "display_type": 1
+    },
+    {
+      "id": 5375,
+      "stage_group_id": 720820,
+      "message": "わくわくの実と魂の紋章は効果無効",
+      "created_at": 1782387270,
+      "updated_at": 1791909003,
+      "display_type": 1
+    },
+    {
+      "id": 5376,
+      "stage_group_id": 720820,
+      "message": "木属性以外のキャラクター使用注意！",
+      "created_at": 1782988028,
+      "updated_at": 1791909003,
+      "display_type": 1
+    }
+  ]
+}

@@ -1,0 +1,879 @@
+{
+  "schemaVersion": 1,
+  "table": "wanted_boss_achievement_conditions",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 30081101,
+      "wanted_boss_id": 30081,
+      "condition_type": 1,
+      "condition_value": 28300,
+      "created_at": 1738599183,
+      "updated_at": 1738599183
+    },
+    {
+      "id": 30081201,
+      "wanted_boss_id": 30081,
+      "condition_type": 2,
+      "condition_value": 11810,
+      "created_at": 1738599183,
+      "updated_at": 1738599183
+    },
+    {
+      "id": 30081202,
+      "wanted_boss_id": 30081,
+      "condition_type": 2,
+      "condition_value": 11811,
+      "created_at": 1738599183,
+      "updated_at": 1738599183
+    },
+    {
+      "id": 30082101,
+      "wanted_boss_id": 30082,
+      "condition_type": 1,
+      "condition_value": 28010,
+      "created_at": 1733213450,
+      "updated_at": 1733213450
+    },
+    {
+      "id": 30082201,
+      "wanted_boss_id": 30082,
+      "condition_type": 2,
+      "condition_value": 11682,
+      "created_at": 1733213450,
+      "updated_at": 1733213450
+    },
+    {
+      "id": 30082202,
+      "wanted_boss_id": 30082,
+      "condition_type": 2,
+      "condition_value": 11683,
+      "created_at": 1733213450,
+      "updated_at": 1733213450
+    },
+    {
+      "id": 30083101,
+      "wanted_boss_id": 30083,
+      "condition_type": 1,
+      "condition_value": 27530,
+      "created_at": 1723121854,
+      "updated_at": 1723121854
+    },
+    {
+      "id": 30083201,
+      "wanted_boss_id": 30083,
+      "condition_type": 2,
+      "condition_value": 11436,
+      "created_at": 1723121854,
+      "updated_at": 1723121854
+    },
+    {
+      "id": 30083202,
+      "wanted_boss_id": 30083,
+      "condition_type": 2,
+      "condition_value": 11437,
+      "created_at": 1723121854,
+      "updated_at": 1723121854
+    },
+    {
+      "id": 30084101,
+      "wanted_boss_id": 30084,
+      "condition_type": 1,
+      "condition_value": 27330,
+      "created_at": 1719479162,
+      "updated_at": 1719479162
+    },
+    {
+      "id": 30084201,
+      "wanted_boss_id": 30084,
+      "condition_type": 2,
+      "condition_value": 11297,
+      "created_at": 1719479162,
+      "updated_at": 1719479162
+    },
+    {
+      "id": 30084202,
+      "wanted_boss_id": 30084,
+      "condition_type": 2,
+      "condition_value": 11298,
+      "created_at": 1719479162,
+      "updated_at": 1719479162
+    },
+    {
+      "id": 30085101,
+      "wanted_boss_id": 30085,
+      "condition_type": 1,
+      "condition_value": 27850,
+      "created_at": 1729527488,
+      "updated_at": 1729527488
+    },
+    {
+      "id": 30085201,
+      "wanted_boss_id": 30085,
+      "condition_type": 2,
+      "condition_value": 11596,
+      "created_at": 1729527488,
+      "updated_at": 1729527488
+    },
+    {
+      "id": 30085202,
+      "wanted_boss_id": 30085,
+      "condition_type": 2,
+      "condition_value": 11597,
+      "created_at": 1729527488,
+      "updated_at": 1729527488
+    },
+    {
+      "id": 30091101,
+      "wanted_boss_id": 30091,
+      "condition_type": 1,
+      "condition_value": 29430,
+      "created_at": 1761221812,
+      "updated_at": 1761221812
+    },
+    {
+      "id": 30091201,
+      "wanted_boss_id": 30091,
+      "condition_type": 2,
+      "condition_value": 12302,
+      "created_at": 1761221812,
+      "updated_at": 1761221812
+    },
+    {
+      "id": 30091202,
+      "wanted_boss_id": 30091,
+      "condition_type": 2,
+      "condition_value": 12303,
+      "created_at": 1761221812,
+      "updated_at": 1761221812
+    },
+    {
+      "id": 30092101,
+      "wanted_boss_id": 30092,
+      "condition_type": 1,
+      "condition_value": 29640,
+      "created_at": 1764844257,
+      "updated_at": 1764844257
+    },
+    {
+      "id": 30092201,
+      "wanted_boss_id": 30092,
+      "condition_type": 2,
+      "condition_value": 12452,
+      "created_at": 1764844257,
+      "updated_at": 1764844257
+    },
+    {
+      "id": 30092202,
+      "wanted_boss_id": 30092,
+      "condition_type": 2,
+      "condition_value": 12453,
+      "created_at": 1764844257,
+      "updated_at": 1764844257
+    },
+    {
+      "id": 30093101,
+      "wanted_boss_id": 30093,
+      "condition_type": 1,
+      "condition_value": 28800,
+      "created_at": 1749120256,
+      "updated_at": 1749120256
+    },
+    {
+      "id": 30093201,
+      "wanted_boss_id": 30093,
+      "condition_type": 2,
+      "condition_value": 12054,
+      "created_at": 1749120256,
+      "updated_at": 1749120256
+    },
+    {
+      "id": 30093202,
+      "wanted_boss_id": 30093,
+      "condition_type": 2,
+      "condition_value": 12055,
+      "created_at": 1749120256,
+      "updated_at": 1749120256
+    },
+    {
+      "id": 30094101,
+      "wanted_boss_id": 30094,
+      "condition_type": 1,
+      "condition_value": 28550,
+      "created_at": 1744092667,
+      "updated_at": 1744092667
+    },
+    {
+      "id": 30094201,
+      "wanted_boss_id": 30094,
+      "condition_type": 2,
+      "condition_value": 11928,
+      "created_at": 1744092667,
+      "updated_at": 1744092667
+    },
+    {
+      "id": 30094202,
+      "wanted_boss_id": 30094,
+      "condition_type": 2,
+      "condition_value": 11929,
+      "created_at": 1744092667,
+      "updated_at": 1744092667
+    },
+    {
+      "id": 30095101,
+      "wanted_boss_id": 30095,
+      "condition_type": 1,
+      "condition_value": 29040,
+      "created_at": 1755014637,
+      "updated_at": 1755014637
+    },
+    {
+      "id": 30095201,
+      "wanted_boss_id": 30095,
+      "condition_type": 2,
+      "condition_value": 12177,
+      "created_at": 1755014637,
+      "updated_at": 1755014637
+    },
+    {
+      "id": 30095202,
+      "wanted_boss_id": 30095,
+      "condition_type": 2,
+      "condition_value": 12178,
+      "created_at": 1755014637,
+      "updated_at": 1755014637
+    },
+    {
+      "id": 30101101,
+      "wanted_boss_id": 30101,
+      "condition_type": 1,
+      "condition_value": 29910,
+      "created_at": 1770275181,
+      "updated_at": 1770275181
+    },
+    {
+      "id": 30101201,
+      "wanted_boss_id": 30101,
+      "condition_type": 2,
+      "condition_value": 12569,
+      "created_at": 1770275181,
+      "updated_at": 1770275181
+    },
+    {
+      "id": 30101202,
+      "wanted_boss_id": 30101,
+      "condition_type": 2,
+      "condition_value": 12570,
+      "created_at": 1770275181,
+      "updated_at": 1770275181
+    },
+    {
+      "id": 30102101,
+      "wanted_boss_id": 30102,
+      "condition_type": 1,
+      "condition_value": 30630,
+      "created_at": 1785407204,
+      "updated_at": 1785407204
+    },
+    {
+      "id": 30102201,
+      "wanted_boss_id": 30102,
+      "condition_type": 2,
+      "condition_value": 12956,
+      "created_at": 1785407204,
+      "updated_at": 1785407204
+    },
+    {
+      "id": 30102202,
+      "wanted_boss_id": 30102,
+      "condition_type": 2,
+      "condition_value": 12957,
+      "created_at": 1785407204,
+      "updated_at": 1785407204
+    },
+    {
+      "id": 30103101,
+      "wanted_boss_id": 30103,
+      "condition_type": 1,
+      "condition_value": 30390,
+      "created_at": 1780570557,
+      "updated_at": 1780570557
+    },
+    {
+      "id": 30103201,
+      "wanted_boss_id": 30103,
+      "condition_type": 2,
+      "condition_value": 12794,
+      "created_at": 1780570557,
+      "updated_at": 1780570557
+    },
+    {
+      "id": 30103202,
+      "wanted_boss_id": 30103,
+      "condition_type": 2,
+      "condition_value": 12795,
+      "created_at": 1780570557,
+      "updated_at": 1780570557
+    },
+    {
+      "id": 30104101,
+      "wanted_boss_id": 30104,
+      "condition_type": 1,
+      "condition_value": 30190,
+      "created_at": 1776335250,
+      "updated_at": 1776335250
+    },
+    {
+      "id": 30104201,
+      "wanted_boss_id": 30104,
+      "condition_type": 2,
+      "condition_value": 12693,
+      "created_at": 1776335250,
+      "updated_at": 1776335250
+    },
+    {
+      "id": 30104202,
+      "wanted_boss_id": 30104,
+      "condition_type": 2,
+      "condition_value": 12694,
+      "created_at": 1776335250,
+      "updated_at": 1776335250
+    },
+    {
+      "id": 30105101,
+      "wanted_boss_id": 30105,
+      "condition_type": 1,
+      "condition_value": 30930,
+      "created_at": 1790849814,
+      "updated_at": 1790849814
+    },
+    {
+      "id": 30105201,
+      "wanted_boss_id": 30105,
+      "condition_type": 2,
+      "condition_value": 13115,
+      "created_at": 1790849814,
+      "updated_at": 1790849814
+    },
+    {
+      "id": 30105202,
+      "wanted_boss_id": 30105,
+      "condition_type": 2,
+      "condition_value": 13116,
+      "created_at": 1790849814,
+      "updated_at": 1790849814
+    },
+    {
+      "id": 40011101,
+      "wanted_boss_id": 40011,
+      "condition_type": 1,
+      "condition_value": 27200,
+      "created_at": 1760470643,
+      "updated_at": 1760470643
+    },
+    {
+      "id": 40011102,
+      "wanted_boss_id": 40011,
+      "condition_type": 1,
+      "condition_value": 627200,
+      "created_at": 1760470643,
+      "updated_at": 1760470643
+    },
+    {
+      "id": 40011201,
+      "wanted_boss_id": 40011,
+      "condition_type": 2,
+      "condition_value": 11243,
+      "created_at": 1716458456,
+      "updated_at": 1716458456
+    },
+    {
+      "id": 40011202,
+      "wanted_boss_id": 40011,
+      "condition_type": 2,
+      "condition_value": 11244,
+      "created_at": 1716458456,
+      "updated_at": 1716458456
+    },
+    {
+      "id": 40012101,
+      "wanted_boss_id": 40012,
+      "condition_type": 1,
+      "condition_value": 26930,
+      "created_at": 1760470643,
+      "updated_at": 1760470643
+    },
+    {
+      "id": 40012102,
+      "wanted_boss_id": 40012,
+      "condition_type": 1,
+      "condition_value": 626930,
+      "created_at": 1760470643,
+      "updated_at": 1760470643
+    },
+    {
+      "id": 40012201,
+      "wanted_boss_id": 40012,
+      "condition_type": 2,
+      "condition_value": 11098,
+      "created_at": 1709720074,
+      "updated_at": 1709720074
+    },
+    {
+      "id": 40012202,
+      "wanted_boss_id": 40012,
+      "condition_type": 2,
+      "condition_value": 11099,
+      "created_at": 1709720074,
+      "updated_at": 1709720074
+    },
+    {
+      "id": 40013101,
+      "wanted_boss_id": 40013,
+      "condition_type": 1,
+      "condition_value": 26640,
+      "created_at": 1760470643,
+      "updated_at": 1760470643
+    },
+    {
+      "id": 40013102,
+      "wanted_boss_id": 40013,
+      "condition_type": 1,
+      "condition_value": 626640,
+      "created_at": 1760470643,
+      "updated_at": 1760470643
+    },
+    {
+      "id": 40013201,
+      "wanted_boss_id": 40013,
+      "condition_type": 2,
+      "condition_value": 10973,
+      "created_at": 1703757052,
+      "updated_at": 1703757052
+    },
+    {
+      "id": 40013202,
+      "wanted_boss_id": 40013,
+      "condition_type": 2,
+      "condition_value": 10974,
+      "created_at": 1703757052,
+      "updated_at": 1703757052
+    },
+    {
+      "id": 40014101,
+      "wanted_boss_id": 40014,
+      "condition_type": 1,
+      "condition_value": 26440,
+      "created_at": 1760470643,
+      "updated_at": 1760470643
+    },
+    {
+      "id": 40014102,
+      "wanted_boss_id": 40014,
+      "condition_type": 1,
+      "condition_value": 626440,
+      "created_at": 1760470643,
+      "updated_at": 1760470643
+    },
+    {
+      "id": 40014201,
+      "wanted_boss_id": 40014,
+      "condition_type": 2,
+      "condition_value": 10867,
+      "created_at": 1698661700,
+      "updated_at": 1698661700
+    },
+    {
+      "id": 40014202,
+      "wanted_boss_id": 40014,
+      "condition_type": 2,
+      "condition_value": 10868,
+      "created_at": 1698661700,
+      "updated_at": 1698661700
+    },
+    {
+      "id": 40015101,
+      "wanted_boss_id": 40015,
+      "condition_type": 1,
+      "condition_value": 27410,
+      "created_at": 1760470643,
+      "updated_at": 1760470643
+    },
+    {
+      "id": 40015102,
+      "wanted_boss_id": 40015,
+      "condition_type": 1,
+      "condition_value": 627410,
+      "created_at": 1760470643,
+      "updated_at": 1760470643
+    },
+    {
+      "id": 40015201,
+      "wanted_boss_id": 40015,
+      "condition_type": 2,
+      "condition_value": 11369,
+      "created_at": 1720777963,
+      "updated_at": 1720777963
+    },
+    {
+      "id": 40015202,
+      "wanted_boss_id": 40015,
+      "condition_type": 2,
+      "condition_value": 11370,
+      "created_at": 1720777963,
+      "updated_at": 1720777963
+    },
+    {
+      "id": 40021101,
+      "wanted_boss_id": 40021,
+      "condition_type": 1,
+      "condition_value": 27710,
+      "created_at": 1791909076,
+      "updated_at": 1791909076
+    },
+    {
+      "id": 40021102,
+      "wanted_boss_id": 40021,
+      "condition_type": 1,
+      "condition_value": 627710,
+      "created_at": 1791909076,
+      "updated_at": 1791909076
+    },
+    {
+      "id": 40021201,
+      "wanted_boss_id": 40021,
+      "condition_type": 2,
+      "condition_value": 11522,
+      "created_at": 1727195480,
+      "updated_at": 1727195480
+    },
+    {
+      "id": 40021202,
+      "wanted_boss_id": 40021,
+      "condition_type": 2,
+      "condition_value": 11523,
+      "created_at": 1727195480,
+      "updated_at": 1727195480
+    },
+    {
+      "id": 40022101,
+      "wanted_boss_id": 40022,
+      "condition_type": 1,
+      "condition_value": 28420,
+      "created_at": 1791909076,
+      "updated_at": 1791909076
+    },
+    {
+      "id": 40022102,
+      "wanted_boss_id": 40022,
+      "condition_type": 1,
+      "condition_value": 628450,
+      "created_at": 1791909076,
+      "updated_at": 1791909076
+    },
+    {
+      "id": 40022201,
+      "wanted_boss_id": 40022,
+      "condition_type": 2,
+      "condition_value": 11878,
+      "created_at": 1741862340,
+      "updated_at": 1741862340
+    },
+    {
+      "id": 40022202,
+      "wanted_boss_id": 40022,
+      "condition_type": 2,
+      "condition_value": 11879,
+      "created_at": 1741862340,
+      "updated_at": 1741862340
+    },
+    {
+      "id": 40023101,
+      "wanted_boss_id": 40023,
+      "condition_type": 1,
+      "condition_value": 28720,
+      "created_at": 1791909076,
+      "updated_at": 1791909076
+    },
+    {
+      "id": 40023102,
+      "wanted_boss_id": 40023,
+      "condition_type": 1,
+      "condition_value": 628720,
+      "created_at": 1791909076,
+      "updated_at": 1791909076
+    },
+    {
+      "id": 40023201,
+      "wanted_boss_id": 40023,
+      "condition_type": 2,
+      "condition_value": 11999,
+      "created_at": 1747127859,
+      "updated_at": 1747127859
+    },
+    {
+      "id": 40023202,
+      "wanted_boss_id": 40023,
+      "condition_type": 2,
+      "condition_value": 12000,
+      "created_at": 1747127859,
+      "updated_at": 1747127859
+    },
+    {
+      "id": 40024101,
+      "wanted_boss_id": 40024,
+      "condition_type": 1,
+      "condition_value": 27860,
+      "created_at": 1791909076,
+      "updated_at": 1791909076
+    },
+    {
+      "id": 40024102,
+      "wanted_boss_id": 40024,
+      "condition_type": 1,
+      "condition_value": 627860,
+      "created_at": 1791909076,
+      "updated_at": 1791909076
+    },
+    {
+      "id": 40024201,
+      "wanted_boss_id": 40024,
+      "condition_type": 2,
+      "condition_value": 11627,
+      "created_at": 1730192201,
+      "updated_at": 1730192201
+    },
+    {
+      "id": 40024202,
+      "wanted_boss_id": 40024,
+      "condition_type": 2,
+      "condition_value": 11628,
+      "created_at": 1730192201,
+      "updated_at": 1730192201
+    },
+    {
+      "id": 40025101,
+      "wanted_boss_id": 40025,
+      "condition_type": 1,
+      "condition_value": 28120,
+      "created_at": 1791909076,
+      "updated_at": 1791909076
+    },
+    {
+      "id": 40025102,
+      "wanted_boss_id": 40025,
+      "condition_type": 1,
+      "condition_value": 628120,
+      "created_at": 1791909076,
+      "updated_at": 1791909076
+    },
+    {
+      "id": 40025201,
+      "wanted_boss_id": 40025,
+      "condition_type": 2,
+      "condition_value": 11739,
+      "created_at": 1735374520,
+      "updated_at": 1735374520
+    },
+    {
+      "id": 40025202,
+      "wanted_boss_id": 40025,
+      "condition_type": 2,
+      "condition_value": 11740,
+      "created_at": 1735374520,
+      "updated_at": 1735374520
+    },
+    {
+      "id": 40031101,
+      "wanted_boss_id": 40031,
+      "condition_type": 1,
+      "condition_value": 29250,
+      "created_at": 1758793860,
+      "updated_at": 1758793860
+    },
+    {
+      "id": 40031201,
+      "wanted_boss_id": 40031,
+      "condition_type": 2,
+      "condition_value": 12279,
+      "created_at": 1758793860,
+      "updated_at": 1758793860
+    },
+    {
+      "id": 40031202,
+      "wanted_boss_id": 40031,
+      "condition_type": 2,
+      "condition_value": 12280,
+      "created_at": 1758793860,
+      "updated_at": 1758793860
+    },
+    {
+      "id": 40032101,
+      "wanted_boss_id": 40032,
+      "condition_type": 1,
+      "condition_value": 28910,
+      "created_at": 1752143527,
+      "updated_at": 1752143527
+    },
+    {
+      "id": 40032201,
+      "wanted_boss_id": 40032,
+      "condition_type": 2,
+      "condition_value": 12102,
+      "created_at": 1752143527,
+      "updated_at": 1752143527
+    },
+    {
+      "id": 40032202,
+      "wanted_boss_id": 40032,
+      "condition_type": 2,
+      "condition_value": 12103,
+      "created_at": 1752143527,
+      "updated_at": 1752143527
+    },
+    {
+      "id": 40033101,
+      "wanted_boss_id": 40033,
+      "condition_type": 1,
+      "condition_value": 30040,
+      "created_at": 1772704104,
+      "updated_at": 1772704104
+    },
+    {
+      "id": 40033201,
+      "wanted_boss_id": 40033,
+      "condition_type": 2,
+      "condition_value": 12633,
+      "created_at": 1772704104,
+      "updated_at": 1772704104
+    },
+    {
+      "id": 40033202,
+      "wanted_boss_id": 40033,
+      "condition_type": 2,
+      "condition_value": 12634,
+      "created_at": 1772704104,
+      "updated_at": 1772704104
+    },
+    {
+      "id": 40034101,
+      "wanted_boss_id": 40034,
+      "condition_type": 1,
+      "condition_value": 29750,
+      "created_at": 1766921351,
+      "updated_at": 1766921351
+    },
+    {
+      "id": 40034201,
+      "wanted_boss_id": 40034,
+      "condition_type": 2,
+      "condition_value": 12504,
+      "created_at": 1766921351,
+      "updated_at": 1766921351
+    },
+    {
+      "id": 40034202,
+      "wanted_boss_id": 40034,
+      "condition_type": 2,
+      "condition_value": 12505,
+      "created_at": 1766921351,
+      "updated_at": 1766921351
+    },
+    {
+      "id": 40035101,
+      "wanted_boss_id": 40035,
+      "condition_type": 1,
+      "condition_value": 29500,
+      "created_at": 1762427688,
+      "updated_at": 1762427688
+    },
+    {
+      "id": 40035201,
+      "wanted_boss_id": 40035,
+      "condition_type": 2,
+      "condition_value": 12390,
+      "created_at": 1762427688,
+      "updated_at": 1762427688
+    },
+    {
+      "id": 40035202,
+      "wanted_boss_id": 40035,
+      "condition_type": 2,
+      "condition_value": 12391,
+      "created_at": 1762427688,
+      "updated_at": 1762427688
+    },
+    {
+      "id": 40041101,
+      "wanted_boss_id": 40041,
+      "condition_type": 1,
+      "condition_value": 30850,
+      "created_at": 1789639860,
+      "updated_at": 1789639860
+    },
+    {
+      "id": 40041201,
+      "wanted_boss_id": 40041,
+      "condition_type": 2,
+      "condition_value": 13041,
+      "created_at": 1789639860,
+      "updated_at": 1789639860
+    },
+    {
+      "id": 40041202,
+      "wanted_boss_id": 40041,
+      "condition_type": 2,
+      "condition_value": 13042,
+      "created_at": 1789639860,
+      "updated_at": 1789639860
+    },
+    {
+      "id": 40042101,
+      "wanted_boss_id": 40042,
+      "condition_type": 1,
+      "condition_value": 30250,
+      "created_at": 1777545987,
+      "updated_at": 1777545987
+    },
+    {
+      "id": 40042201,
+      "wanted_boss_id": 40042,
+      "condition_type": 2,
+      "condition_value": 12744,
+      "created_at": 1777545987,
+      "updated_at": 1777545987
+    },
+    {
+      "id": 40042202,
+      "wanted_boss_id": 40042,
+      "condition_type": 2,
+      "condition_value": 12745,
+      "created_at": 1777545987,
+      "updated_at": 1777545987
+    },
+    {
+      "id": 40045101,
+      "wanted_boss_id": 40045,
+      "condition_type": 1,
+      "condition_value": 30520,
+      "created_at": 1783443882,
+      "updated_at": 1783443882
+    },
+    {
+      "id": 40045201,
+      "wanted_boss_id": 40045,
+      "condition_type": 2,
+      "condition_value": 12878,
+      "created_at": 1783443882,
+      "updated_at": 1783443882
+    },
+    {
+      "id": 40045202,
+      "wanted_boss_id": 40045,
+      "condition_type": 2,
+      "condition_value": 12879,
+      "created_at": 1783443882,
+      "updated_at": 1783443882
+    }
+  ]
+}

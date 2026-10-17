@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 1,
+  "table": "texts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 14405,
+      "text": "三",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_SUGAR_MISSION2_REWARD_SUBTITLE3"
+    },
+    {
+      "id": 14406,
+      "text": "四",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_SUGAR_MISSION2_REWARD_SUBTITLE4"
+    },
+    {
+      "id": 14407,
+      "text": "捜索任務に挑戦して地図を完成させよう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_SUGAR_MISSION2_INFO1"
+    },
+    {
+      "id": 14408,
+      "text": "捜索地点に隠れている半天狗を見つけよう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_SUGAR_MISSION2_INFO2"
+    },
+    {
+      "id": 14409,
+      "text": "討伐任務・憎珀天に挑戦しよう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689854669,
+      "updated_at": 1689854669,
+      "label": "eTEXTS_DEF_SUGAR_MISSION2_INFO3"
+    },
+    {
+      "id": 14410,
+      "text": "残り",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_SUGAR_MISSION2_TEXT1"
+    },
+    {
+      "id": 14411,
+      "text": "捜索可能回数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_SUGAR_MISSION2_TEXT2"
+    },
+    {
+      "id": 14412,
+      "text": "[LC]捜索地点確認[LF][LF]指定した場所を捜索しますか？[LF]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_MSG_SUGAR_MISSION2_EXPLORE_CONFIRM"
+    },
+    {
+      "id": 14413,
+      "text": "[LC]捜索可能回数不足[LF][LF]捜索可能回数が不足しているため、[LF]選択された地点の捜索ができません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_MSG_SUGAR_MISSION2_CANT_EXPLORE"
+    },
+    {
+      "id": 14414,
+      "text": "[LC]討伐任務追加[LF][LF]新しく討伐任務・憎珀天が追加されました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689854669,
+      "updated_at": 1689854669,
+      "label": "eTEXTS_DEF_MSG_SUGAR_MISSION2_SECRET_OPEN"
+    },
+    {
+      "id": 14415,
+      "text": "データを再取得します",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_MSG_SUGAR_MISSION2_ERROR_RELOAD"
+    },
+    {
+      "id": 14416,
+      "text": "[LC]任務報酬[LF][LF]以下の報酬を獲得しました[LF][MARGIN10][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_MSG_SUGAR_MISSION2_REWARD1"
+    },
+    {
+      "id": 14417,
+      "text": "[LC]地点報酬[LF][LF]以下の報酬を獲得しました[LF]引き続き半天狗を捜索しよう！[LF][MARGIN10][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_MSG_SUGAR_MISSION2_REWARD2"
+    },
+    {
+      "id": 14418,
+      "text": "[LC]地点報酬[LF][LF]半天狗を発見しました！[LF]以下の報酬を獲得しました[LF][MARGIN10][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_MSG_SUGAR_MISSION2_REWARD3"
+    },
+    {
+      "id": 14419,
+      "text": "討伐任務・憎珀天",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689854669,
+      "updated_at": 1689854669,
+      "label": "eTEXTS_DEF_SUGAR_MISSION2_REWARD_HEADLINE1_7"
+    },
+    {
+      "id": 14420,
+      "text": "日輪刀鍛錬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_SUGAR_RANKUP_DIALOG_TITLE"
+    },
+    {
+      "id": 14421,
+      "text": "鋼鐵塚家に伝わる日輪刀研磨術で[LF]見事磨き上げてしんぜよう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_SUGAR_RANKUP_DIALOG_BALLOON_TEXT"
+    },
+    {
+      "id": 14422,
+      "text": "「縁壱零式訓練」出現中！[LF][LF]7/15(土) 12:00 〜 8/2(水)11:59の期間で出現！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_SUGAR_QUEST_INTRO_MSG"
+    },
+    {
+      "id": 14423,
+      "text": "[LC]お知らせ[LF][LF]縁壱零式訓練で未獲得の報酬があります。[LF]縁壱零式訓練に移動します。",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_ME_MSG_SUGAR_QUEST_CAN_GET_ITEM"
+    },
+    {
+      "id": 14424,
+      "text": "封印されていないキャラ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_SEALED_SORT_NON_USED"
+    },
+    {
+      "id": 14425,
+      "text": "封印されたキャラ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_SEALED_SORT_USED_QUEST"
+    },
+    {
+      "id": 14426,
+      "text": "[LC]出撃できません[LF][LF]封印中のキャラが含まれている為[LF]出撃できません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_SUGAR_ERR_DO_NOT_GO_QUEST"
+    },
+    {
+      "id": 14427,
+      "text": "[LC]半天狗捜索任務とは[LF][LF][IF_DATE|2023/07/14 12:00:00|2023/07/21 03:59:59][CCB:dlme/help_collabo_sugar_ms_00_1][ENDIF][IF_DATE|2023/07/21 04:00:00|2023/08/07 03:59:59][CCB:dlme/help_collabo_sugar_ms_00_2][ENDIF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689854669,
+      "label": "eTEXTS_DEF_SUGAR_MISSION2_HELP"
+    },
+    {
+      "id": 14428,
+      "text": "[SW0.90][C6:日輪刀をパワーアップしクエストを有利に]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39200"
+    },
+    {
+      "id": 14429,
+      "text": "[b:ba_help_collabo_sugar_02.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39201"
+    },
+    {
+      "id": 14430,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39202"
+    },
+    {
+      "id": 14431,
+      "text": "7/14 12:00 ～ 8/5 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39203"
+    },
+    {
+      "id": 14432,
+      "text": "鋼鐵塚蛍に日輪刀を研磨してもらおう[LF]研磨状況に応じて[C6:クエストで有利な効果が発動します]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39204"
+    },
+    {
+      "id": 14433,
+      "text": "[LC][C5:研磨方法]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39205"
+    },
+    {
+      "id": 14434,
+      "text": "半天狗捜索任務、または縁壱零式訓練で獲得した[LF][C4:★6 刀鍛冶 鋼鐵塚蛍]の数に応じて研磨が進みます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39206"
+    },
+    {
+      "id": 14435,
+      "text": "[IPJ10627]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39207"
+    },
+    {
+      "id": 14436,
+      "text": "[C6:獲得数]に[LF]応じて・・",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39208"
+    },
+    {
+      "id": 14437,
+      "text": "[C6:研磨状況]が進行！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39209"
+    },
+    {
+      "id": 14438,
+      "text": "[C6:15]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39210"
+    },
+    {
+      "id": 14439,
+      "text": "/25",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39211"
+    },
+    {
+      "id": 14440,
+      "text": "[C6:18]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39212"
+    },
+    {
+      "id": 14441,
+      "text": "/25",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39213"
+    },
+    {
+      "id": 14442,
+      "text": "[LC][C5:効果一覧]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39214"
+    },
+    {
+      "id": 14443,
+      "text": "研磨の状況に応じて[C6:日輪刀の効果がアップします]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39215"
+    },
+    {
+      "id": 14444,
+      "text": "[LC]錆びた刀",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39216"
+    },
+    {
+      "id": 14445,
+      "text": "効果なし",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39217"
+    },
+    {
+      "id": 14446,
+      "text": "[LC]鈍刀",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39218"
+    },
+    {
+      "id": 14447,
+      "text": "攻撃力＆友情コンボ威力：[C6:1.05倍]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39219"
+    },
+    {
+      "id": 14448,
+      "text": "[LC]業物",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39220"
+    },
+    {
+      "id": 14449,
+      "text": "攻撃力＆友情コンボ威力：[C6:1.1倍]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39221"
+    },
+    {
+      "id": 14450,
+      "text": "[LC]日輪刀",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39222"
+    },
+    {
+      "id": 14451,
+      "text": "攻撃力＆友情コンボ威力：[C6:1.15倍]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39223"
+    },
+    {
+      "id": 14452,
+      "text": "[LC]爆血刀",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39224"
+    },
+    {
+      "id": 14453,
+      "text": "攻撃力＆友情コンボ威力：[C6:1.2倍]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39225"
+    },
+    {
+      "id": 14454,
+      "text": "[LC][C5:対象クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39226"
+    },
+    {
+      "id": 14455,
+      "text": "[C6:追憶の書庫の全てのクエスト]と[C6:以下コラボクエスト]で[LF]日輪刀の効果が発動します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39227"
+    },
+    {
+      "id": 14456,
+      "text": "[LC]対象コラボクエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39228"
+    },
+    {
+      "id": 14457,
+      "text": "[C2:上弦の肆・怒]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39229"
+    },
+    {
+      "id": 14458,
+      "text": "[C5:上弦の肆・楽]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39230"
+    },
+    {
+      "id": 14459,
+      "text": "[C4:上弦の肆・喜]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39231"
+    },
+    {
+      "id": 14460,
+      "text": "[C3:上弦の肆・哀]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39232"
+    },
+    {
+      "id": 14461,
+      "text": "[C6:上弦の伍]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39233"
+    },
+    {
+      "id": 14462,
+      "text": "[C2:縁壱零式]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39234"
+    },
+    {
+      "id": 14463,
+      "text": "※マルチプレイの場合、[LF]ホストの日輪刀の効果が発動します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39235"
+    },
+    {
+      "id": 14464,
+      "text": "[LC]発動のオンオフ切り替えについて",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39236"
+    },
+    {
+      "id": 14465,
+      "text": "デッキ編成画面で[LF][C6:発動をオフに切り替えることも可能です]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39237"
+    },
+    {
+      "id": 14466,
+      "text": "[C6:切り替え可能]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39238"
+    },
+    {
+      "id": 14467,
+      "text": "[LC]ON",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39239"
+    },
+    {
+      "id": 14468,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20230708_3.html#8|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39240"
+    },
+    {
+      "id": 14469,
+      "text": "[LC][C6:任務を達成し半天狗を見つけ出せ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39300"
+    },
+    {
+      "id": 14470,
+      "text": "[b:ba_help_collabo_sugar_ms_00_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39301"
+    },
+    {
+      "id": 14471,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39302"
+    },
+    {
+      "id": 14472,
+      "text": "7/14 12:00 ～ 8/5 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39303"
+    },
+    {
+      "id": 14473,
+      "text": "[LC][C5:遊び方]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39304"
+    },
+    {
+      "id": 14474,
+      "text": "捜索任務を達成して[C6:地図を完成]させ[LF][C6:半天狗を捜索地点の中から発見]しよう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39305"
+    },
+    {
+      "id": 14475,
+      "text": "地図を完成[LF]させよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39306"
+    },
+    {
+      "id": 14476,
+      "text": "半天狗を[LF]見つけ出そう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39307"
+    },
+    {
+      "id": 14477,
+      "text": "[LC][C5:捜索任務とは]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39308"
+    },
+    {
+      "id": 14478,
+      "text": "捜索任務を達成すると[C6:地図の一部]が入手できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39309"
+    },
+    {
+      "id": 14479,
+      "text": "[C6:地図の一部]入手！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39310"
+    },
+    {
+      "id": 14480,
+      "text": "[C10:｢上弦の肆・怒｣をクリア]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39311"
+    },
+    {
+      "id": 14481,
+      "text": "全ての任務を達成すると地図が完成し、[LF]半天狗が隠れている[C6:捜索地点が出現]します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39312"
+    },
+    {
+      "id": 14482,
+      "text": "[LC][C6:任務全達成]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39313"
+    },
+    {
+      "id": 14483,
+      "text": "[LC][C6:捜索地点出現！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39314"
+    },
+    {
+      "id": 14484,
+      "text": "捜索任務を達成すると地図の一部以外にも[LF][C4:★6 刀鍛冶 鋼鐵塚蛍]や[C6:ボイスセット]を獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39315"
+    },
+    {
+      "id": 14485,
+      "text": "[IPJ10627]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39316"
+    },
+    {
+      "id": 14486,
+      "text": "[LC][C5:半天狗の捜索について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39317"
+    },
+    {
+      "id": 14487,
+      "text": "捜索地点を1つ選択して、[C6:半天狗を探そう][LF]見つからなくても捜索のたびに報酬が獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39318"
+    },
+    {
+      "id": 14488,
+      "text": "[LC]半天狗がどこかに隠れているぞ！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39319"
+    },
+    {
+      "id": 14489,
+      "text": "見事半天狗を発見できると[LF][C6:まだ捜索してない地点の報酬もすべて獲得]できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39320"
+    },
+    {
+      "id": 14490,
+      "text": "[C6:半天狗発見！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39321"
+    },
+    {
+      "id": 14491,
+      "text": "捜索可能回数は[C6:1日1回増加]します[LF][LF]※日付の切り替わりはAM4時になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39322"
+    },
+    {
+      "id": 14492,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20230708_3.html#7|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39323"
+    },
+    {
+      "id": 14493,
+      "text": "[LC][SW0.90][C6:キャラの封印を乗り越え縁壱零式を撃破せよ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39400"
+    },
+    {
+      "id": 14494,
+      "text": "[b:ba_help_collabo_sugar_tra_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39401"
+    },
+    {
+      "id": 14495,
+      "text": "[GIMMICK:ピアッシングウォール][LF][LC][b:tips_stage_capture_27.png][LF][LF]ふれると攻撃が発生する[LF]別のピアッシングウォールにふれると再度攻撃が発生する[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1688640514,
+      "updated_at": 1688640514,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_97"
+    },
+    {
+      "id": 14496,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39402"
+    },
+    {
+      "id": 14497,
+      "text": "7/15 12:00 ～ 8/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39403"
+    },
+    {
+      "id": 14498,
+      "text": "[LC][C5:遊び方]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39404"
+    },
+    {
+      "id": 14499,
+      "text": "縁壱零式訓練は[C6:編成するキャラを変更]しながら[LF]何度も勝利を目指すクエストです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39405"
+    },
+    {
+      "id": 14500,
+      "text": "[C6:クリア！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39406"
+    },
+    {
+      "id": 14501,
+      "text": "[LC][C6:キャラが封印！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39407"
+    },
+    {
+      "id": 14502,
+      "text": "[IPJ9375]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39408"
+    },
+    {
+      "id": 14503,
+      "text": "クリア回数に応じて[C4:★6 刀鍛冶 鋼鐵塚蛍]や[LF][C6:勲章]が獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39409"
+    },
+    {
+      "id": 14504,
+      "text": "[IPJ10627]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39410"
+    },
+    {
+      "id": 14505,
+      "text": "[LC][C5:キャラの封印について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39411"
+    },
+    {
+      "id": 14506,
+      "text": "縁壱零式訓練はクリア時に編成していたキャラが[LF][C6:封印され]、以降の訓練では[C6:使用不可となります][LF][LF][C6:助っ人]が自身のキャラの場合も[C6:封印対象]となります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39412"
+    },
+    {
+      "id": 14507,
+      "text": "[LC][C6:封印！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39413"
+    },
+    {
+      "id": 14508,
+      "text": "[IPJ6356]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39414"
+    },
+    {
+      "id": 14509,
+      "text": "[IPJ10137]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39415"
+    },
+    {
+      "id": 14510,
+      "text": "[LC]マルチプレイの場合",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39416"
+    },
+    {
+      "id": 14511,
+      "text": "[C6:自身が編成していたキャラ]のみが封印されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39417"
+    },
+    {
+      "id": 14512,
+      "text": "[LC]かりモンした場合",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39418"
+    },
+    {
+      "id": 14513,
+      "text": "かりモンしたキャラが一度でも封印されると[LF][C6:以降の訓練でかりモンは使用不可]となります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39419"
+    },
+    {
+      "id": 14514,
+      "text": "[LC]かりモンを[LF][LC]使用してクリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39420"
+    },
+    {
+      "id": 14515,
+      "text": "[LC]かりモンが[LF][LC]封印される",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39421"
+    },
+    {
+      "id": 14516,
+      "text": "[LC][C6:かりモンが][LF][LC][C6:使用不可に！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39422"
+    },
+    {
+      "id": 14517,
+      "text": "[IPJ10607]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39423"
+    },
+    {
+      "id": 14518,
+      "text": "[LC][C5:勲章について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39424"
+    },
+    {
+      "id": 14519,
+      "text": "獲得した勲章には[C6:最大勝利回数]が刻み込まれ、[LF][C6:最大10回]まで変化します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39425"
+    },
+    {
+      "id": 14520,
+      "text": "[LC][C6:カウントアップ！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39426"
+    },
+    {
+      "id": 14521,
+      "text": "[LC][C5:リセットについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39427"
+    },
+    {
+      "id": 14522,
+      "text": "期間中[C6:1度だけ封印をリセット]することが出来ます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39428"
+    },
+    {
+      "id": 14523,
+      "text": "ただし[C6:クリアした回数]もリセットされ、[LF]最初からやり直しになります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39429"
+    },
+    {
+      "id": 14524,
+      "text": "勝利数： [C6:0]/10",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39430"
+    },
+    {
+      "id": 14525,
+      "text": "どうしても行き詰まった場合のみ使用してください",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39431"
+    },
+    {
+      "id": 14526,
+      "text": "※勲章の数字はリセットされません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39432"
+    },
+    {
+      "id": 14527,
+      "text": "[LC][C5:封印の解放について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39433"
+    },
+    {
+      "id": 14528,
+      "text": "訓練を[C6:10回クリア]すると[LF]封印が解放され、キャラの[C6:使用制限がなくなります]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39434"
+    },
+    {
+      "id": 14529,
+      "text": "[LC]10回クリア前",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39435"
+    },
+    {
+      "id": 14530,
+      "text": "[LC][C6:封印解放！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39436"
+    },
+    {
+      "id": 14531,
+      "text": "[LC][C6:10回クリア！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39437"
+    },
+    {
+      "id": 14532,
+      "text": "※訓練には10回クリア以降も挑戦できます[LF]　ただし、報酬の獲得はありません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39438"
+    },
+    {
+      "id": 14533,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20230708_3.html#6|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_39439"
+    },
+    {
+      "id": 14534,
+      "text": "日輪刀鍛錬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_SUGAR_QUEST_MENU_TITLE"
+    },
+    {
+      "id": 14535,
+      "text": "発動中の効果はありません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_SUGAR_POWERUP_NOTHING_INGAME"
+    },
+    {
+      "id": 14536,
+      "text": "効果なし",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_SUGAR_POWERUP_NOTHING"
+    },
+    {
+      "id": 14537,
+      "text": "このユーザーは既に招待成立済です[LF]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1689007861,
+      "updated_at": 1689007861,
+      "label": "eTEXTS_DEF_MSG_RELATIONSHIP_REFFERRED_ERR710"
+    },
+    {
+      "id": 14538,
+      "text": "既に5人から招待申請を受けているため[LF]招待申請を追加できません[LF]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1689007861,
+      "updated_at": 1689007861,
+      "label": "eTEXTS_DEF_MSG_RELATIONSHIP_REFFERRED_ERR711"
+    },
+    {
+      "id": 14539,
+      "text": "新人ではなく既に先輩になっている[LF]ユーザーのため申請できません[LF]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1689007861,
+      "updated_at": 1689007861,
+      "label": "eTEXTS_DEF_MSG_RELATIONSHIP_REFFERRED_ERR712"
+    },
+    {
+      "id": 14540,
+      "text": "[LC]招待5人成立済[LF][LF]既に招待が5人成立しているため[LF]成立できません[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1689007861,
+      "updated_at": 1774703477,
+      "label": "eTEXTS_DEF_MSG_RELATIONSHIP_REFFERRED_ERR713"
+    },
+    {
+      "id": 14541,
+      "text": "[LC]挑戦できません[LF][LF]参加するにはウェルカムクエストを[LF]クリアする必要があります。",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_MSG_CANT_CHALLENGE_BEFORE_WELCOME_QUEST_CLEARED"
+    },
+    {
+      "id": 14542,
+      "text": "縁壱零式訓練",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689244484,
+      "updated_at": 1689244484,
+      "label": "eTEXTS_DEF_NAVI_SUGAR_QUEST_TITLE"
+    },
+    {
+      "id": 14543,
+      "text": "[LC]超究極クエスト[C6:｢極悪人｣]限定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689854670,
+      "updated_at": 1689854670,
+      "label": "eTEXTS_DEF_39241"
+    },
+    {
+      "id": 14544,
+      "text": "スピクリ報酬金卵確定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689854670,
+      "updated_at": 1689854670,
+      "label": "eTEXTS_DEF_39242"
+    },
+    {
+      "id": 14545,
+      "text": "[LC]超究極クエスト[C6:｢極悪人｣]限定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689854670,
+      "updated_at": 1689854670,
+      "label": "eTEXTS_DEF_39243"
+    },
+    {
+      "id": 14546,
+      "text": "スピクリ報酬金卵確定[LF]金卵排出率：[C6:1.2倍]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689854670,
+      "updated_at": 1689854670,
+      "label": "eTEXTS_DEF_39244"
+    },
+    {
+      "id": 14547,
+      "text": "[LC]超究極クエスト[C6:｢極悪人｣]限定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689854670,
+      "updated_at": 1689854670,
+      "label": "eTEXTS_DEF_39245"
+    },
+    {
+      "id": 14548,
+      "text": "スピクリ報酬金卵確定[LF]金卵排出率：[C6:1.5倍]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689854670,
+      "updated_at": 1689854670,
+      "label": "eTEXTS_DEF_39246"
+    },
+    {
+      "id": 14549,
+      "text": "[C6:極悪人]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689854670,
+      "updated_at": 1689854670,
+      "label": "eTEXTS_DEF_39247"
+    },
+    {
+      "id": 14550,
+      "text": "また超究極クエスト[C6:｢極悪人｣]を[C6:クリアするたび]に[LF]捜索可能回数が1回増加します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689854670,
+      "updated_at": 1689854670,
+      "label": "eTEXTS_DEF_39324"
+    },
+    {
+      "id": 14551,
+      "text": "[LC][C6:討伐任務・憎珀天が追加！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689854670,
+      "updated_at": 1689854670,
+      "label": "eTEXTS_DEF_39325"
+    },
+    {
+      "id": 14552,
+      "text": "[b:ba_help_collabo_sugar_ms_00_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689854670,
+      "updated_at": 1689854670,
+      "label": "eTEXTS_DEF_39326"
+    },
+    {
+      "id": 14553,
+      "text": "[LC][C5:討伐任務・憎珀天について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689854670,
+      "updated_at": 1689854670,
+      "label": "eTEXTS_DEF_39327"
+    },
+    {
+      "id": 14554,
+      "text": "半天狗を発見すると[C6:憎珀天の討伐任務]が追加されます[LF]任務を達成して報酬を獲得しよう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689854670,
+      "updated_at": 1689854670,
+      "label": "eTEXTS_DEF_39328"
+    },
+    {
+      "id": 14555,
+      "text": "[b:ba_help_collabo_sugar_00_4.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689854670,
+      "updated_at": 1689854670,
+      "label": "eTEXTS_DEF_39062"
+    },
+    {
+      "id": 14556,
+      "text": "[C5:憎珀天、出現]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689854670,
+      "updated_at": 1689854670,
+      "label": "eTEXTS_DEF_39063"
+    },
+    {
+      "id": 14557,
+      "text": "超究極クエスト[C6:｢極悪人｣]が出現！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689854670,
+      "updated_at": 1689854670,
+      "label": "eTEXTS_DEF_39064"
+    },
+    {
+      "id": 14558,
+      "text": "[SGBI25970|difficulty1]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689854670,
+      "updated_at": 1689854670,
+      "label": "eTEXTS_DEF_39065"
+    },
+    {
+      "id": 14559,
+      "text": "このクエストでは[LF]使用キャラのラックが[C4:+99]され、[LF]ラックボーナスで宝箱を2個獲得可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689854670,
+      "updated_at": 1689854670,
+      "label": "eTEXTS_DEF_39066"
+    },
+    {
+      "id": 14560,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20230708_3.html#17|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1689854670,
+      "updated_at": 1689854670,
+      "label": "eTEXTS_DEF_39067"
+    },
+    {
+      "id": 14561,
+      "text": "[C3:誰かの夢]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1690454412,
+      "updated_at": 1690454412,
+      "label": "eTEXTS_DEF_39248"
+    },
+    {
+      "id": 14562,
+      "text": "[b:ba_help_collabo_sugar_00_5.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1690454412,
+      "updated_at": 1690454412,
+      "label": "eTEXTS_DEF_39068"
+    },
+    {
+      "id": 14563,
+      "text": "[C5:鬼舞辻無惨、出現]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1690454412,
+      "updated_at": 1690454412,
+      "label": "eTEXTS_DEF_39069"
+    },
+    {
+      "id": 14564,
+      "text": "”高難易度“の超究極クエスト[C3:｢誰かの夢｣]が出現！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1690454412,
+      "updated_at": 1690454412,
+      "label": "eTEXTS_DEF_39070"
+    },
+    {
+      "id": 14565,
+      "text": "[SGBI25980|difficulty1]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1690454412,
+      "updated_at": 1690454412,
+      "label": "eTEXTS_DEF_39071"
+    },
+    {
+      "id": 14566,
+      "text": "※クエストボスの｢鬼舞辻無惨｣は入手できません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1690454412,
+      "updated_at": 1690454412,
+      "label": "eTEXTS_DEF_39072"
+    },
+    {
+      "id": 14567,
+      "text": "クリアボーナス",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1690454412,
+      "updated_at": 1690454412,
+      "label": "eTEXTS_DEF_39073"
+    },
+    {
+      "id": 14568,
+      "text": "[C6:称号｢無惨と再び対峙せし鬼殺隊士｣][LF][C6:鬼舞辻無惨のグッジョブ][LF][C6:ストライカーカード｢鬼滅の刃(鬼舞辻無惨 青年ver.)｣][LF]を獲得可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1690454412,
+      "updated_at": 1690454412,
+      "label": "eTEXTS_DEF_39074"
+    },
+    {
+      "id": 14569,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20230708_3.html#18|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1690454412,
+      "updated_at": 1690454412,
+      "label": "eTEXTS_DEF_39075"
+    },
+    {
+      "id": 14570,
+      "text": "※ゲーム内に記載している”煉獄“の｢煉｣は｢火＋東｣、[LF]　”禰豆子“の｢禰｣は｢ネ＋爾｣、“鬼舞辻“の｢辻｣は[LF]　｢一点しんにょう｣が正しい表記です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1690454412,
+      "updated_at": 1690454412,
+      "label": "eTEXTS_DEF_39076"
+    },
+    {
+      "id": 14571,
+      "text": "暴獣の研究所",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691054007,
+      "updated_at": 1691054007,
+      "label": "eTEXTS_DEF_POEM_MAIN_TITLE"
+    },
+    {
+      "id": 14572,
+      "text": "[LC]暴獣の研究所とは[LF][LF][CCB:dlme/help_poem_00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691054007,
+      "updated_at": 1691054007,
+      "label": "eTEXTS_DEF_POEM_HELP"
+    },
+    {
+      "id": 14573,
+      "text": "%d/%d %d:%02d～%d/%d %d:%02d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691054007,
+      "updated_at": 1691054007,
+      "label": "eTEXTS_DEF_POEM_PERIOD"
+    },
+    {
+      "id": 14574,
+      "text": "%d/%d %d:%02d 解放",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691054007,
+      "updated_at": 1691054007,
+      "label": "eTEXTS_DEF_POEM_UNLOCK_TIME_FORMAT"
+    },
+    {
+      "id": 14575,
+      "text": "あと",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691054007,
+      "updated_at": 1691054007,
+      "label": "eTEXTS_DEF_POEM_ATO"
+    },
+    {
+      "id": 14576,
+      "text": "回",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691054007,
+      "updated_at": 1691054007,
+      "label": "eTEXTS_DEF_POEM_KAI"
+    },
+    {
+      "id": 14577,
+      "text": "[LC]報酬一覧[LF][LF][TAB:初捕獲報酬][NODE][TAB:全捕獲報酬][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691054007,
+      "updated_at": 1691054007,
+      "label": "eTEXTS_DEF_MSG_POEM_REWARD"
+    },
+    {
+      "id": 14578,
+      "text": "[LC]開催期間外[LF][LF][LC]イベント期間が終了しました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1691054007,
+      "updated_at": 1691054007,
+      "label": "eTEXTS_DEF_MSG_POEM_EVENT_END"
+    },
+    {
+      "id": 14579,
+      "text": "モンスターの捕獲情報",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691054007,
+      "updated_at": 1691054007,
+      "label": "eTEXTS_DEF_POEM_QUEST_MENU_TITLE"
+    },
+    {
+      "id": 14580,
+      "text": "暴獣の研究所",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691054007,
+      "updated_at": 1691054007,
+      "label": "eTEXTS_DEF_POEM_RESULT_TITLE"
+    },
+    {
+      "id": 14581,
+      "text": "捕獲したモンスター",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691054007,
+      "updated_at": 1691054007,
+      "label": "eTEXTS_DEF_POEM_RESULT_REWARD_SUBTITLE"
+    },
+    {
+      "id": 14582,
+      "text": "[LC]獲得報酬[LF][LF]以下の報酬を獲得しました[LF][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1691054007,
+      "updated_at": 1691054007,
+      "label": "eTEXTS_DEF_POEM_RESULT_REWARD_DIALOG"
+    },
+    {
+      "id": 14583,
+      "text": "全捕獲報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691054007,
+      "updated_at": 1691054007,
+      "label": "eTEXTS_DEF_POEM_RESULT_REWARD_DIALOG_SUBTITLE_1"
+    },
+    {
+      "id": 14584,
+      "text": "初獲得報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691054007,
+      "updated_at": 1691054007,
+      "label": "eTEXTS_DEF_POEM_RESULT_REWARD_DIALOG_SUBTITLE_2"
+    },
+    {
+      "id": 14585,
+      "text": "[LC]クエスト未解放[LF][LF][LC]このクエストはまだ解放されていません",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1691054007,
+      "updated_at": 1691054007,
+      "label": "eTEXTS_DEF_MEG_POEM_RESULT_LOCKED_ERROR"
+    },
+    {
+      "id": 14586,
+      "text": "このステージに出現するモンスター",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691054007,
+      "updated_at": 1691054007,
+      "label": "eTEXTS_DEF_MEG_POEM_STAGE_INFO"
+    },
+    {
+      "id": 14587,
+      "text": "出現率UP",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691054007,
+      "updated_at": 1691054007,
+      "label": "eTEXTS_DEF_MEG_POEM_MINI_BALLOON"
+    },
+    {
+      "id": 14588,
+      "text": "[LC]「暴獣の研究所」出現中！[LF][LF]%sの期間で出現！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1691054007,
+      "updated_at": 1691054007,
+      "label": "eTEXTS_DEF_MSG_POEM_INTRO"
+    },
+    {
+      "id": 14589,
+      "text": "暴獣の研究所終了後、48時間が経過しているため、[LF]今回更新された敵の捕獲情報は無効となります",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1691054007,
+      "updated_at": 1691054007,
+      "label": "eTEXTS_DEF_MSG_POEM_RRESULT_END_ERROR"
+    },
+    {
+      "id": 14590,
+      "text": "%d月%d日",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691423898,
+      "updated_at": 1691423898,
+      "label": "eTEXTS_DEF_ME_MONTH_DAY"
+    },
+    {
+      "id": 14591,
+      "text": "マイベストワンガチャ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1694686912,
+      "updated_at": 1697712064,
+      "label": "eTEXTS_DEF_ME_MYBEST_GACHA_TITLE"
+    },
+    {
+      "id": 14592,
+      "text": "キャラを選ぶ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1694686912,
+      "updated_at": 1697712064,
+      "label": "eTEXTS_DEF_ME_MYBEST_GACHA_SELECT"
+    },
+    {
+      "id": 14593,
+      "text": "ガチャる",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1694686912,
+      "updated_at": 1694686912,
+      "label": "eTEXTS_DEF_ME_MYBEST_GACHA_START"
+    },
+    {
+      "id": 14594,
+      "text": "選んだ1体のキャラが排出！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1694686912,
+      "updated_at": 1697712064,
+      "label": "eTEXTS_DEF_ME_MYBEST_GACHA_CAPTION"
+    },
+    {
+      "id": 14595,
+      "text": "[LC]この画面を離れると[LF][LC]未決定の内容は破棄されます[LF][LC]よろしいですか？",
+      "layout": 29,
+      "color": 0,
+      "created_at": 1694686912,
+      "updated_at": 1694686912,
+      "label": "eTEXTS_DEF_ME_MYBEST_GACHA_CLOSE"
+    },
+    {
+      "id": 14596,
+      "text": "[LC]この1体でガチャしますか？[LF][LF][LC][NODE][LF][LC]※このガチャが引けるのは[C6:1度のみ]です[LF][LC]本当によろしいですか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1694686912,
+      "updated_at": 1697712064,
+      "label": "eTEXTS_DEF_MSG_MYBEST_GACHA_CONFIRM"
+    },
+    {
+      "id": 14597,
+      "text": "キャラ選択",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1694686912,
+      "updated_at": 1694686912,
+      "label": "eTEXTS_DEF_ME_MYBEST_SELECT_TITLE"
+    },
+    {
+      "id": 14598,
+      "text": "選択中の排出対象キャラ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1694686912,
+      "updated_at": 1694686912,
+      "label": "eTEXTS_DEF_ME_MYBEST_SELECT_CAPTION1"
+    },
+    {
+      "id": 14599,
+      "text": "排出対象キャラを選ぼう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1694686912,
+      "updated_at": 1694686912,
+      "label": "eTEXTS_DEF_ME_MYBEST_SELECT_CAPTION2"
+    },
+    {
+      "id": 14600,
+      "text": "決定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1694686912,
+      "updated_at": 1694686912,
+      "label": "eTEXTS_DEF_ME_MYBEST_SELECT_DECISION"
+    },
+    {
+      "id": 14601,
+      "text": "キャラを選ぶ！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1694686912,
+      "updated_at": 1694686912,
+      "label": "eTEXTS_DEF_ME_MYBEST_GACHA_BUTTON_TEXT"
+    },
+    {
+      "id": 14602,
+      "text": "詳細",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1694686912,
+      "updated_at": 1694686912,
+      "label": "eTEXTS_DEF_MSG_MYBEST_GACHA_INFO"
+    },
+    {
+      "id": 14603,
+      "text": "[LC]開催期間外[LF][LF][LC]ガチャ期間が終了しました[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1694686912,
+      "updated_at": 1694686912,
+      "label": "eTEXTS_DEF_MSG_MYBEST_GACHA_TIMEOUT"
+    },
+    {
+      "id": 14604,
+      "text": "LEVEL",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_LEVEL"
+    },
+    {
+      "id": 14605,
+      "text": "8/13 12:00 ~ 9/5 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_PERIOD"
+    },
+    {
+      "id": 14606,
+      "text": "あと",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_REMAIN_EXP"
+    },
+    {
+      "id": 14607,
+      "text": "アルヴヘイム・オンライン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_WORLD_1_JP"
+    },
+    {
+      "id": 14608,
+      "text": "ALfheim Online",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_WORLD_1_EN"
+    },
+    {
+      "id": 14609,
+      "text": "ガンゲイル・オンライン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_WORLD_2_JP"
+    },
+    {
+      "id": 14610,
+      "text": "Gun Gale Online",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_WORLD_2_EN"
+    },
+    {
+      "id": 14611,
+      "text": "アンダーワールド",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_WORLD_3_JP"
+    },
+    {
+      "id": 14612,
+      "text": "UnderWorld",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_WORLD_3_EN"
+    },
+    {
+      "id": 14613,
+      "text": "[IMG:sanma_01_icon_in.png] LOGIN",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_LOGIN_BUTTON"
+    },
+    {
+      "id": 14614,
+      "text": "この世界にLOGIN中",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_LOGIN_ALREADY"
+    },
+    {
+      "id": 14615,
+      "text": "[C6:この世界にLOGIN][IMG:sanma_01_icon_in.png][C6:可能]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_LOGIN_AVAILABLE"
+    },
+    {
+      "id": 14616,
+      "text": "LOGIN[IMG:sanma_01_icon_in.png]可能まであと  [C6:%d:%02d]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_LOGIN_UNAVAILABLE"
+    },
+    {
+      "id": 14617,
+      "text": "%d回目のLOGINで解放",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_MISSION_UNLOCK_CONDITION"
+    },
+    {
+      "id": 14618,
+      "text": "ミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_MISSION_REWARD_TITLE_MISSION"
+    },
+    {
+      "id": 14619,
+      "text": "LEVEL",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_MISSION_REWARD_TITLE_LEVEL"
+    },
+    {
+      "id": 14620,
+      "text": "アルヴヘイム",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_WORLD_1_JP_SHORT"
+    },
+    {
+      "id": 14621,
+      "text": "ガンゲイル",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_WORLD_2_JP_SHORT"
+    },
+    {
+      "id": 14622,
+      "text": "LOGINした回数：%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_LOGIN_COUNT"
+    },
+    {
+      "id": 14623,
+      "text": "[LC]ザ・シードミッション状況詳細[LF][LF][TAB:LEVEL][NODE][TAB:LOGIN][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_WORLD_INFO"
+    },
+    {
+      "id": 14624,
+      "text": "現在のLEVEL状況",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_LEVEL_HELP_DIALOG_TITLE"
+    },
+    {
+      "id": 14625,
+      "text": "[C6:待機時間短縮]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_LEVEL_EFFECT_1_TITLE"
+    },
+    {
+      "id": 14626,
+      "text": "[C6:獲得経験値アップ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_LEVEL_EFFECT_2_TITLE"
+    },
+    {
+      "id": 14627,
+      "text": "現在の待機時間：[C6:%d時間%02d分]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_LEVEL_EFFECT_1_CONTENT"
+    },
+    {
+      "id": 14628,
+      "text": "現在の倍率：[C6:%d倍]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_LEVEL_EFFECT_2_CONTENT"
+    },
+    {
+      "id": 14629,
+      "text": "対象クエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_LEVEL_EFFECT_2_TARGET"
+    },
+    {
+      "id": 14630,
+      "text": "LOGINしている世界のコラボクエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_LEVEL_EFFECT_2_TARGET_DESCRIPTION"
+    },
+    {
+      "id": 14631,
+      "text": "獲得経験値アップ対象",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_LEVEL_TARGET_LABEL"
+    },
+    {
+      "id": 14632,
+      "text": "[LC]LOGIN[LF][LF][LC]この世界にLOGINします！[LF][LC]次のLOGINまでに待機時間が発生します[LF][LC][NODE][LF][LF][LF][LC]この世界にLOGINしますか？[LF][LC][NODE][LF]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_LOGIN_DIALOG"
+    },
+    {
+      "id": 14633,
+      "text": "[LC]ミッション解放！[LF][LF]ミッションが解放されました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_UNLOCK_MISSION_DIALOG"
+    },
+    {
+      "id": 14634,
+      "text": "[LC]LEVEL達成報酬[LF][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_LEVEL_REWARD_DIALOG"
+    },
+    {
+      "id": 14635,
+      "text": "MAX",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_LEVEL_MAX"
+    },
+    {
+      "id": 14636,
+      "text": "イベントクエストをクリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_COLLABO_RESULT_TITLE_EVENT"
+    },
+    {
+      "id": 14637,
+      "text": "英雄の神殿をクリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_COLLABO_RESULT_TITLE_CHALLENGE"
+    },
+    {
+      "id": 14638,
+      "text": "追憶の書庫をクリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_COLLABO_RESULT_TITLE_ARCHIVE"
+    },
+    {
+      "id": 14639,
+      "text": "守護獣の森をクリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_COLLABO_RESULT_TITLE_SUPPORT"
+    },
+    {
+      "id": 14640,
+      "text": "コラボクエストをクリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_COLLABO_RESULT_TITLE_COLLABO"
+    },
+    {
+      "id": 14641,
+      "text": "コラボキャラを編成してクリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_COLLABO_RESULT_TITLE_COLLABO_CHAR"
+    },
+    {
+      "id": 14642,
+      "text": "[C6:獲得合計]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_COLLABO_RESULT_TOTAL"
+    },
+    {
+      "id": 14643,
+      "text": "[LC]新たなミッションが出現！[LF][LF]ミッションが追加されました[LF]各世界にLOGINして挑戦しよう！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1692267481,
+      "updated_at": 1692267481,
+      "label": "eTEXTS_DEF_SANMA_SECRET_MISSION_UNLOCK"
+    },
+    {
+      "id": 14644,
+      "text": "[LC]待機時間中[LF][LF][LC]待機時間中です[LF][LC][NODE][LF][LF][LC][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_LOGIN_UNAVAILABLE_DIALOG"
+    },
+    {
+      "id": 14645,
+      "text": "LOGIN[IMG:sanma_01_icon_in.png]可能まであと  [C6:%d:%02d]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_LOGIN_CD"
+    },
+    {
+      "id": 14646,
+      "text": "[C6:この世界にLOGIN][IMG:sanma_01_icon_in.png][C6:可能]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_LOGIN_AVAILABLE_COLOR"
+    },
+    {
+      "id": 14647,
+      "text": "[LC]ザ・シードミッションとは[LF][LF][CCB:dlme/help_collabo_sanma_ms_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_HELP"
+    },
+    {
+      "id": 14648,
+      "text": "待機時間が[C6:%d分短縮]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_REWARD_TITLE_CD"
+    },
+    {
+      "id": 14649,
+      "text": "%d:%02d → [C6:%d:%02d]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_REWARD_DETAIL_CD"
+    },
+    {
+      "id": 14650,
+      "text": "獲得経験値が[C6:%d倍]アップ[LF]※LOGIN中のコラボクエストのみ対象",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_REWARD_TITLE_EXP"
+    },
+    {
+      "id": 14651,
+      "text": "[LC]ミッション達成！[LF][LF]以下の報酬を受け取りました[LF20][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_SANMA_REWARD_DIALOG"
+    },
+    {
+      "id": 14652,
+      "text": "[C6:コラボ限定ガチャ開催中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_39500"
+    },
+    {
+      "id": 14653,
+      "text": "[b:ba_help_collabo_sanma_00_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_39501"
+    },
+    {
+      "id": 14654,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_39502"
+    },
+    {
+      "id": 14655,
+      "text": "8/13 12:00～9/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_39503"
+    },
+    {
+      "id": 14656,
+      "text": "[C5:コラボ限定ガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_39504"
+    },
+    {
+      "id": 14657,
+      "text": "新登場キャラ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_39505"
+    },
+    {
+      "id": 14658,
+      "text": "ガチャ[C6:｢モンスト夏休み×ソードアート・オンライン｣][LF]が期間限定で開催中！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_39506"
+    },
+    {
+      "id": 14659,
+      "text": "[IPJ10667]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_39507"
+    },
+    {
+      "id": 14660,
+      "text": "[IPJ10663]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1691663231,
+      "updated_at": 1691663231,
+      "label": "eTEXTS_DEF_39508"
+    }
+  ]
+}

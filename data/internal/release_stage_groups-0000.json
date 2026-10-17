@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "table": "release_stage_groups",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "item_id": 1800,
+      "stage_group_id": 580010,
+      "expiration_minutes": 720,
+      "created_at": 1499700737,
+      "updated_at": 1505233427
+    },
+    {
+      "id": 2,
+      "item_id": 1801,
+      "stage_group_id": 580020,
+      "expiration_minutes": 720,
+      "created_at": 1499700737,
+      "updated_at": 1505233427
+    },
+    {
+      "id": 3,
+      "item_id": 1802,
+      "stage_group_id": 580030,
+      "expiration_minutes": 720,
+      "created_at": 1520268865,
+      "updated_at": 1520268865
+    },
+    {
+      "id": 4,
+      "item_id": 1803,
+      "stage_group_id": 580040,
+      "expiration_minutes": 720,
+      "created_at": 1520268865,
+      "updated_at": 1520268865
+    },
+    {
+      "id": 5,
+      "item_id": 1804,
+      "stage_group_id": 580050,
+      "expiration_minutes": 720,
+      "created_at": 1551713584,
+      "updated_at": 1551713584
+    },
+    {
+      "id": 6,
+      "item_id": 1805,
+      "stage_group_id": 580060,
+      "expiration_minutes": 720,
+      "created_at": 1551713585,
+      "updated_at": 1551713585
+    },
+    {
+      "id": 7,
+      "item_id": 1806,
+      "stage_group_id": 580070,
+      "expiration_minutes": 720,
+      "created_at": 1563294667,
+      "updated_at": 1563294667
+    }
+  ]
+}

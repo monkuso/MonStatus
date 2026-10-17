@@ -1,0 +1,7591 @@
+{
+  "schemaVersion": 1,
+  "table": "assist_gems",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 100416,
+      "name": "同族の絆・加速命(3級)",
+      "name_short": "同族・加速命",
+      "name_short_with_rarity": "同族・加速命(3級)",
+      "rarity": 2,
+      "assist_type": 11,
+      "description": "自分＆同種族のスピード1、HP40アップ",
+      "description_with_tag": "自分＆同種族の[LF]スピード1、HP40アップ",
+      "image_id": 3,
+      "created_at": 1530284951,
+      "updated_at": 1723563953,
+      "gem_sort_id": 131004,
+      "gem_sort_id_hero": 107004,
+      "gem_sort_id_box": 112004,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1309,
+          "assist_gem_id": 100416,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1310,
+          "assist_gem_id": 100416,
+          "value": 30,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1311,
+          "assist_gem_id": 100416,
+          "value": 40,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        30,
+        40
+      ]
+    },
+    {
+      "id": 100417,
+      "name": "同族の絆・加速命(3級M)",
+      "name_short": "同族・加速命",
+      "name_short_with_rarity": "同族・加速命(3級M)",
+      "rarity": 2,
+      "assist_type": 11,
+      "description": "自分＆同種族のスピード1.2、HP60アップ",
+      "description_with_tag": "自分＆同種族の[LF]スピード1.2、HP60アップ",
+      "image_id": 3,
+      "created_at": 1530284951,
+      "updated_at": 1723563953,
+      "gem_sort_id": 131005,
+      "gem_sort_id_hero": 107005,
+      "gem_sort_id_box": 112005,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1312,
+          "assist_gem_id": 100417,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1313,
+          "assist_gem_id": 100417,
+          "value": 36,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1314,
+          "assist_gem_id": 100417,
+          "value": 60,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        36,
+        60
+      ]
+    },
+    {
+      "id": 100418,
+      "name": "同族の絆・加速命(3級L)",
+      "name_short": "同族・加速命",
+      "name_short_with_rarity": "同族・加速命(3級L)",
+      "rarity": 2,
+      "assist_type": 11,
+      "description": "自分＆同種族のスピード1.4、HP80アップ",
+      "description_with_tag": "自分＆同種族の[LF]スピード1.4、HP80アップ",
+      "image_id": 3,
+      "created_at": 1530284951,
+      "updated_at": 1723563953,
+      "gem_sort_id": 131006,
+      "gem_sort_id_hero": 107006,
+      "gem_sort_id_box": 112006,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1315,
+          "assist_gem_id": 100418,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1316,
+          "assist_gem_id": 100418,
+          "value": 42,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1317,
+          "assist_gem_id": 100418,
+          "value": 80,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        42,
+        80
+      ]
+    },
+    {
+      "id": 100419,
+      "name": "同族の絆・加速命(2級)",
+      "name_short": "同族・加速命",
+      "name_short_with_rarity": "同族・加速命(2級)",
+      "rarity": 3,
+      "assist_type": 11,
+      "description": "自分＆同種族のスピード1.6、HP160アップ",
+      "description_with_tag": "自分＆同種族の[LF]スピード1.6、HP160アップ",
+      "image_id": 4,
+      "created_at": 1530284951,
+      "updated_at": 1723563953,
+      "gem_sort_id": 131007,
+      "gem_sort_id_hero": 107007,
+      "gem_sort_id_box": 112007,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1318,
+          "assist_gem_id": 100419,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1319,
+          "assist_gem_id": 100419,
+          "value": 48,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1320,
+          "assist_gem_id": 100419,
+          "value": 160,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        48,
+        160
+      ]
+    },
+    {
+      "id": 100420,
+      "name": "同族の絆・加速命(2級M)",
+      "name_short": "同族・加速命",
+      "name_short_with_rarity": "同族・加速命(2級M)",
+      "rarity": 3,
+      "assist_type": 11,
+      "description": "自分＆同種族のスピード2.2、HP200アップ",
+      "description_with_tag": "自分＆同種族の[LF]スピード2.2、HP200アップ",
+      "image_id": 4,
+      "created_at": 1530284951,
+      "updated_at": 1723563953,
+      "gem_sort_id": 131008,
+      "gem_sort_id_hero": 107008,
+      "gem_sort_id_box": 112008,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1321,
+          "assist_gem_id": 100420,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1322,
+          "assist_gem_id": 100420,
+          "value": 66,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1323,
+          "assist_gem_id": 100420,
+          "value": 200,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        66,
+        200
+      ]
+    },
+    {
+      "id": 100421,
+      "name": "同族の絆・加速命(2級L)",
+      "name_short": "同族・加速命",
+      "name_short_with_rarity": "同族・加速命(2級L)",
+      "rarity": 3,
+      "assist_type": 11,
+      "description": "自分＆同種族のスピード2.8、HP240アップ",
+      "description_with_tag": "自分＆同種族の[LF]スピード2.8、HP240アップ",
+      "image_id": 4,
+      "created_at": 1530284951,
+      "updated_at": 1723563953,
+      "gem_sort_id": 131009,
+      "gem_sort_id_hero": 107009,
+      "gem_sort_id_box": 112009,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1324,
+          "assist_gem_id": 100421,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1325,
+          "assist_gem_id": 100421,
+          "value": 84,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1326,
+          "assist_gem_id": 100421,
+          "value": 240,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        84,
+        240
+      ]
+    },
+    {
+      "id": 100422,
+      "name": "同族の絆・加速命(1級)",
+      "name_short": "同族・加速命",
+      "name_short_with_rarity": "同族・加速命(1級)",
+      "rarity": 4,
+      "assist_type": 11,
+      "description": "自分＆同種族のスピード5.4、HP400アップ",
+      "description_with_tag": "自分＆同種族の[LF]スピード5.4、HP400アップ",
+      "image_id": 5,
+      "created_at": 1530284952,
+      "updated_at": 1723563953,
+      "gem_sort_id": 131010,
+      "gem_sort_id_hero": 107010,
+      "gem_sort_id_box": 112010,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1327,
+          "assist_gem_id": 100422,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1328,
+          "assist_gem_id": 100422,
+          "value": 162,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1329,
+          "assist_gem_id": 100422,
+          "value": 400,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        162,
+        400
+      ]
+    },
+    {
+      "id": 100423,
+      "name": "同族の絆・加速命(1級M)",
+      "name_short": "同族・加速命",
+      "name_short_with_rarity": "同族・加速命(1級M)",
+      "rarity": 4,
+      "assist_type": 11,
+      "description": "自分＆同種族のスピード6.6、HP600アップ",
+      "description_with_tag": "自分＆同種族の[LF]スピード6.6、HP600アップ",
+      "image_id": 6,
+      "created_at": 1530284952,
+      "updated_at": 1723563953,
+      "gem_sort_id": 131011,
+      "gem_sort_id_hero": 107011,
+      "gem_sort_id_box": 112011,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1330,
+          "assist_gem_id": 100423,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1331,
+          "assist_gem_id": 100423,
+          "value": 198,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1332,
+          "assist_gem_id": 100423,
+          "value": 600,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        198,
+        600
+      ]
+    },
+    {
+      "id": 100424,
+      "name": "同族の絆・加速命(1級L)",
+      "name_short": "同族・加速命",
+      "name_short_with_rarity": "同族・加速命(1級L)",
+      "rarity": 4,
+      "assist_type": 11,
+      "description": "自分＆同種族のスピード8、HP800アップ",
+      "description_with_tag": "自分＆同種族の[LF]スピード8、HP800アップ",
+      "image_id": 7,
+      "created_at": 1530284952,
+      "updated_at": 1723563953,
+      "gem_sort_id": 131012,
+      "gem_sort_id_hero": 107012,
+      "gem_sort_id_box": 112012,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1333,
+          "assist_gem_id": 100424,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1334,
+          "assist_gem_id": 100424,
+          "value": 240,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1335,
+          "assist_gem_id": 100424,
+          "value": 800,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        240,
+        800
+      ]
+    },
+    {
+      "id": 100425,
+      "name": "同族の絆・加速命(特級)",
+      "name_short": "同族・加速命",
+      "name_short_with_rarity": "同族・加速命(特級)",
+      "rarity": 5,
+      "assist_type": 11,
+      "description": "自分＆同種族のスピード16、HP1200アップ",
+      "description_with_tag": "自分＆同種族の[LF]スピード16、HP1200アップ",
+      "image_id": 8,
+      "created_at": 1530284952,
+      "updated_at": 1723563953,
+      "gem_sort_id": 131013,
+      "gem_sort_id_hero": 107013,
+      "gem_sort_id_box": 112013,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1336,
+          "assist_gem_id": 100425,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1337,
+          "assist_gem_id": 100425,
+          "value": 480,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1338,
+          "assist_gem_id": 100425,
+          "value": 1200,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        480,
+        1200
+      ]
+    },
+    {
+      "id": 100426,
+      "name": "同族の絆・加速命(特級M)",
+      "name_short": "同族・加速命",
+      "name_short_with_rarity": "同族・加速命(特級M)",
+      "rarity": 5,
+      "assist_type": 11,
+      "description": "自分＆同種族のスピード21.2、HP1600アップ",
+      "description_with_tag": "自分＆同種族の[LF]スピード21.2、HP1600アップ",
+      "image_id": 9,
+      "created_at": 1530284952,
+      "updated_at": 1723563953,
+      "gem_sort_id": 131014,
+      "gem_sort_id_hero": 107014,
+      "gem_sort_id_box": 112014,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1339,
+          "assist_gem_id": 100426,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1340,
+          "assist_gem_id": 100426,
+          "value": 636,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1341,
+          "assist_gem_id": 100426,
+          "value": 1600,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        636,
+        1600
+      ]
+    },
+    {
+      "id": 100427,
+      "name": "同族の絆・加速命(特級L)",
+      "name_short": "同族・加速命",
+      "name_short_with_rarity": "同族・加速命(特級L)",
+      "rarity": 5,
+      "assist_type": 11,
+      "description": "自分＆同種族のスピード26.6、HP2000アップ",
+      "description_with_tag": "自分＆同種族の[LF]スピード26.6、HP2000アップ",
+      "image_id": 10,
+      "created_at": 1530284952,
+      "updated_at": 1723563953,
+      "gem_sort_id": 131015,
+      "gem_sort_id_hero": 107015,
+      "gem_sort_id_box": 112015,
+      "grown_assist_gem_id": 200014,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1342,
+          "assist_gem_id": 100427,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1343,
+          "assist_gem_id": 100427,
+          "value": 798,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1344,
+          "assist_gem_id": 100427,
+          "value": 2000,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        798,
+        2000
+      ]
+    },
+    {
+      "id": 100429,
+      "name": "同族の絆・加命撃(4級M)",
+      "name_short": "同族・加命撃",
+      "name_short_with_rarity": "同族・加命撃(4級M)",
+      "rarity": 1,
+      "assist_type": 11,
+      "description": "自分＆同種族のHP16、攻撃力16アップ",
+      "description_with_tag": "自分＆同種族の[LF]HP16、攻撃力16アップ",
+      "image_id": 2,
+      "created_at": 1530284952,
+      "updated_at": 1723563953,
+      "gem_sort_id": 102002,
+      "gem_sort_id_hero": 113002,
+      "gem_sort_id_box": 106002,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1345,
+          "assist_gem_id": 100429,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1346,
+          "assist_gem_id": 100429,
+          "value": 16,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1347,
+          "assist_gem_id": 100429,
+          "value": 16,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        16,
+        16
+      ]
+    },
+    {
+      "id": 100430,
+      "name": "同族の絆・加命撃(4級L)",
+      "name_short": "同族・加命撃",
+      "name_short_with_rarity": "同族・加命撃(4級L)",
+      "rarity": 1,
+      "assist_type": 11,
+      "description": "自分＆同種族のHP24、攻撃力24アップ",
+      "description_with_tag": "自分＆同種族の[LF]HP24、攻撃力24アップ",
+      "image_id": 2,
+      "created_at": 1530284952,
+      "updated_at": 1723563953,
+      "gem_sort_id": 102003,
+      "gem_sort_id_hero": 113003,
+      "gem_sort_id_box": 106003,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1348,
+          "assist_gem_id": 100430,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1349,
+          "assist_gem_id": 100430,
+          "value": 24,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1350,
+          "assist_gem_id": 100430,
+          "value": 24,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        24,
+        24
+      ]
+    },
+    {
+      "id": 100431,
+      "name": "同族の絆・加命撃(3級)",
+      "name_short": "同族・加命撃",
+      "name_short_with_rarity": "同族・加命撃(3級)",
+      "rarity": 2,
+      "assist_type": 11,
+      "description": "自分＆同種族のHP40、攻撃力40アップ",
+      "description_with_tag": "自分＆同種族の[LF]HP40、攻撃力40アップ",
+      "image_id": 3,
+      "created_at": 1530284953,
+      "updated_at": 1723563953,
+      "gem_sort_id": 102004,
+      "gem_sort_id_hero": 113004,
+      "gem_sort_id_box": 106004,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1351,
+          "assist_gem_id": 100431,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1352,
+          "assist_gem_id": 100431,
+          "value": 40,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1353,
+          "assist_gem_id": 100431,
+          "value": 40,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        40,
+        40
+      ]
+    },
+    {
+      "id": 100432,
+      "name": "同族の絆・加命撃(3級M)",
+      "name_short": "同族・加命撃",
+      "name_short_with_rarity": "同族・加命撃(3級M)",
+      "rarity": 2,
+      "assist_type": 11,
+      "description": "自分＆同種族のHP60、攻撃力60アップ",
+      "description_with_tag": "自分＆同種族の[LF]HP60、攻撃力60アップ",
+      "image_id": 3,
+      "created_at": 1530284953,
+      "updated_at": 1723563953,
+      "gem_sort_id": 102005,
+      "gem_sort_id_hero": 113005,
+      "gem_sort_id_box": 106005,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1354,
+          "assist_gem_id": 100432,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1355,
+          "assist_gem_id": 100432,
+          "value": 60,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1356,
+          "assist_gem_id": 100432,
+          "value": 60,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        60,
+        60
+      ]
+    },
+    {
+      "id": 100433,
+      "name": "同族の絆・加命撃(3級L)",
+      "name_short": "同族・加命撃",
+      "name_short_with_rarity": "同族・加命撃(3級L)",
+      "rarity": 2,
+      "assist_type": 11,
+      "description": "自分＆同種族のHP80、攻撃力80アップ",
+      "description_with_tag": "自分＆同種族の[LF]HP80、攻撃力80アップ",
+      "image_id": 3,
+      "created_at": 1530284953,
+      "updated_at": 1723563953,
+      "gem_sort_id": 102006,
+      "gem_sort_id_hero": 113006,
+      "gem_sort_id_box": 106006,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1357,
+          "assist_gem_id": 100433,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1358,
+          "assist_gem_id": 100433,
+          "value": 80,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1359,
+          "assist_gem_id": 100433,
+          "value": 80,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        80,
+        80
+      ]
+    },
+    {
+      "id": 100434,
+      "name": "同族の絆・加命撃(2級)",
+      "name_short": "同族・加命撃",
+      "name_short_with_rarity": "同族・加命撃(2級)",
+      "rarity": 3,
+      "assist_type": 11,
+      "description": "自分＆同種族のHP160、攻撃力160アップ",
+      "description_with_tag": "自分＆同種族の[LF]HP160、攻撃力160アップ",
+      "image_id": 4,
+      "created_at": 1530284953,
+      "updated_at": 1723563953,
+      "gem_sort_id": 102007,
+      "gem_sort_id_hero": 113007,
+      "gem_sort_id_box": 106007,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1360,
+          "assist_gem_id": 100434,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1361,
+          "assist_gem_id": 100434,
+          "value": 160,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1362,
+          "assist_gem_id": 100434,
+          "value": 160,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        160,
+        160
+      ]
+    },
+    {
+      "id": 100435,
+      "name": "同族の絆・加命撃(2級M)",
+      "name_short": "同族・加命撃",
+      "name_short_with_rarity": "同族・加命撃(2級M)",
+      "rarity": 3,
+      "assist_type": 11,
+      "description": "自分＆同種族のHP200、攻撃力200アップ",
+      "description_with_tag": "自分＆同種族の[LF]HP200、攻撃力200アップ",
+      "image_id": 4,
+      "created_at": 1530284953,
+      "updated_at": 1723563954,
+      "gem_sort_id": 102008,
+      "gem_sort_id_hero": 113008,
+      "gem_sort_id_box": 106008,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1363,
+          "assist_gem_id": 100435,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1364,
+          "assist_gem_id": 100435,
+          "value": 200,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1365,
+          "assist_gem_id": 100435,
+          "value": 200,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        200,
+        200
+      ]
+    },
+    {
+      "id": 100436,
+      "name": "同族の絆・加命撃(2級L)",
+      "name_short": "同族・加命撃",
+      "name_short_with_rarity": "同族・加命撃(2級L)",
+      "rarity": 3,
+      "assist_type": 11,
+      "description": "自分＆同種族のHP240、攻撃力240アップ",
+      "description_with_tag": "自分＆同種族の[LF]HP240、攻撃力240アップ",
+      "image_id": 4,
+      "created_at": 1530284953,
+      "updated_at": 1723563954,
+      "gem_sort_id": 102009,
+      "gem_sort_id_hero": 113009,
+      "gem_sort_id_box": 106009,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1366,
+          "assist_gem_id": 100436,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1367,
+          "assist_gem_id": 100436,
+          "value": 240,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1368,
+          "assist_gem_id": 100436,
+          "value": 240,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        240,
+        240
+      ]
+    },
+    {
+      "id": 100437,
+      "name": "同族の絆・加命撃(1級)",
+      "name_short": "同族・加命撃",
+      "name_short_with_rarity": "同族・加命撃(1級)",
+      "rarity": 4,
+      "assist_type": 11,
+      "description": "自分＆同種族のHP400、攻撃力400アップ",
+      "description_with_tag": "自分＆同種族の[LF]HP400、攻撃力400アップ",
+      "image_id": 5,
+      "created_at": 1530284953,
+      "updated_at": 1723563954,
+      "gem_sort_id": 102010,
+      "gem_sort_id_hero": 113010,
+      "gem_sort_id_box": 106010,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1369,
+          "assist_gem_id": 100437,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1370,
+          "assist_gem_id": 100437,
+          "value": 400,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1371,
+          "assist_gem_id": 100437,
+          "value": 400,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        400,
+        400
+      ]
+    },
+    {
+      "id": 100438,
+      "name": "同族の絆・加命撃(1級M)",
+      "name_short": "同族・加命撃",
+      "name_short_with_rarity": "同族・加命撃(1級M)",
+      "rarity": 4,
+      "assist_type": 11,
+      "description": "自分＆同種族のHP600、攻撃力600アップ",
+      "description_with_tag": "自分＆同種族の[LF]HP600、攻撃力600アップ",
+      "image_id": 6,
+      "created_at": 1530284953,
+      "updated_at": 1723563954,
+      "gem_sort_id": 102011,
+      "gem_sort_id_hero": 113011,
+      "gem_sort_id_box": 106011,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1372,
+          "assist_gem_id": 100438,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1373,
+          "assist_gem_id": 100438,
+          "value": 600,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1374,
+          "assist_gem_id": 100438,
+          "value": 600,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        600,
+        600
+      ]
+    },
+    {
+      "id": 100439,
+      "name": "同族の絆・加命撃(1級L)",
+      "name_short": "同族・加命撃",
+      "name_short_with_rarity": "同族・加命撃(1級L)",
+      "rarity": 4,
+      "assist_type": 11,
+      "description": "自分＆同種族のHP800、攻撃力800アップ",
+      "description_with_tag": "自分＆同種族の[LF]HP800、攻撃力800アップ",
+      "image_id": 7,
+      "created_at": 1530284954,
+      "updated_at": 1723563954,
+      "gem_sort_id": 102012,
+      "gem_sort_id_hero": 113012,
+      "gem_sort_id_box": 106012,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1375,
+          "assist_gem_id": 100439,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1376,
+          "assist_gem_id": 100439,
+          "value": 800,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1377,
+          "assist_gem_id": 100439,
+          "value": 800,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        800,
+        800
+      ]
+    },
+    {
+      "id": 100440,
+      "name": "同族の絆・加命撃(特級)",
+      "name_short": "同族・加命撃",
+      "name_short_with_rarity": "同族・加命撃(特級)",
+      "rarity": 5,
+      "assist_type": 11,
+      "description": "自分＆同種族のHP1200、攻撃力1200アップ",
+      "description_with_tag": "自分＆同種族の[LF]HP1200、攻撃力1200アップ",
+      "image_id": 8,
+      "created_at": 1530284954,
+      "updated_at": 1723563954,
+      "gem_sort_id": 102013,
+      "gem_sort_id_hero": 113013,
+      "gem_sort_id_box": 106013,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1378,
+          "assist_gem_id": 100440,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1379,
+          "assist_gem_id": 100440,
+          "value": 1200,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1380,
+          "assist_gem_id": 100440,
+          "value": 1200,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        1200,
+        1200
+      ]
+    },
+    {
+      "id": 100441,
+      "name": "同族の絆・加命撃(特級M)",
+      "name_short": "同族・加命撃",
+      "name_short_with_rarity": "同族・加命撃(特級M)",
+      "rarity": 5,
+      "assist_type": 11,
+      "description": "自分＆同種族のHP1600、攻撃力1600アップ",
+      "description_with_tag": "自分＆同種族の[LF]HP1600、攻撃力1600アップ",
+      "image_id": 9,
+      "created_at": 1530284954,
+      "updated_at": 1723563954,
+      "gem_sort_id": 102014,
+      "gem_sort_id_hero": 113014,
+      "gem_sort_id_box": 106014,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1381,
+          "assist_gem_id": 100441,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1382,
+          "assist_gem_id": 100441,
+          "value": 1600,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1383,
+          "assist_gem_id": 100441,
+          "value": 1600,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        1600,
+        1600
+      ]
+    },
+    {
+      "id": 100442,
+      "name": "同族の絆・加命撃(特級L)",
+      "name_short": "同族・加命撃",
+      "name_short_with_rarity": "同族・加命撃(特級L)",
+      "rarity": 5,
+      "assist_type": 11,
+      "description": "自分＆同種族のHP2000、攻撃力2000アップ",
+      "description_with_tag": "自分＆同種族の[LF]HP2000、攻撃力2000アップ",
+      "image_id": 10,
+      "created_at": 1530284954,
+      "updated_at": 1723563954,
+      "gem_sort_id": 102015,
+      "gem_sort_id_hero": 113015,
+      "gem_sort_id_box": 106015,
+      "grown_assist_gem_id": 200015,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1384,
+          "assist_gem_id": 100442,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1385,
+          "assist_gem_id": 100442,
+          "value": 2000,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1386,
+          "assist_gem_id": 100442,
+          "value": 2000,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        2000,
+        2000
+      ]
+    },
+    {
+      "id": 100444,
+      "name": "撃種の絆・加撃速(4級M)",
+      "name_short": "撃種・加撃速",
+      "name_short_with_rarity": "撃種・加撃速(4級M)",
+      "rarity": 1,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型の攻撃力8、スピード0.4アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]攻撃力8、スピード0.4アップ",
+      "image_id": 2,
+      "created_at": 1530284954,
+      "updated_at": 1723563954,
+      "gem_sort_id": 111002,
+      "gem_sort_id_hero": 103002,
+      "gem_sort_id_box": 104002,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1387,
+          "assist_gem_id": 100444,
+          "value": 3,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1388,
+          "assist_gem_id": 100444,
+          "value": 8,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1389,
+          "assist_gem_id": 100444,
+          "value": 12,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        3,
+        8,
+        12
+      ]
+    },
+    {
+      "id": 100445,
+      "name": "撃種の絆・加撃速(4級L)",
+      "name_short": "撃種・加撃速",
+      "name_short_with_rarity": "撃種・加撃速(4級L)",
+      "rarity": 1,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型の攻撃力12、スピード0.6アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]攻撃力12、スピード0.6アップ",
+      "image_id": 2,
+      "created_at": 1530284954,
+      "updated_at": 1723563954,
+      "gem_sort_id": 111003,
+      "gem_sort_id_hero": 103003,
+      "gem_sort_id_box": 104003,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1390,
+          "assist_gem_id": 100445,
+          "value": 3,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1391,
+          "assist_gem_id": 100445,
+          "value": 12,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1392,
+          "assist_gem_id": 100445,
+          "value": 18,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        3,
+        12,
+        18
+      ]
+    },
+    {
+      "id": 100446,
+      "name": "撃種の絆・加撃速(3級)",
+      "name_short": "撃種・加撃速",
+      "name_short_with_rarity": "撃種・加撃速(3級)",
+      "rarity": 2,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型の攻撃力24、スピード0.8アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]攻撃力24、スピード0.8アップ",
+      "image_id": 3,
+      "created_at": 1530284954,
+      "updated_at": 1723563954,
+      "gem_sort_id": 111004,
+      "gem_sort_id_hero": 103004,
+      "gem_sort_id_box": 104004,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1393,
+          "assist_gem_id": 100446,
+          "value": 3,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1394,
+          "assist_gem_id": 100446,
+          "value": 24,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1395,
+          "assist_gem_id": 100446,
+          "value": 24,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        3,
+        24,
+        24
+      ]
+    },
+    {
+      "id": 100447,
+      "name": "撃種の絆・加撃速(3級M)",
+      "name_short": "撃種・加撃速",
+      "name_short_with_rarity": "撃種・加撃速(3級M)",
+      "rarity": 2,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型の攻撃力32、スピード1アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]攻撃力32、スピード1アップ",
+      "image_id": 3,
+      "created_at": 1530284954,
+      "updated_at": 1723563954,
+      "gem_sort_id": 111005,
+      "gem_sort_id_hero": 103005,
+      "gem_sort_id_box": 104005,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1396,
+          "assist_gem_id": 100447,
+          "value": 3,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1397,
+          "assist_gem_id": 100447,
+          "value": 32,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1398,
+          "assist_gem_id": 100447,
+          "value": 30,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        3,
+        32,
+        30
+      ]
+    },
+    {
+      "id": 100448,
+      "name": "撃種の絆・加撃速(3級L)",
+      "name_short": "撃種・加撃速",
+      "name_short_with_rarity": "撃種・加撃速(3級L)",
+      "rarity": 2,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型の攻撃力40、スピード1.2アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]攻撃力40、スピード1.2アップ",
+      "image_id": 3,
+      "created_at": 1530284954,
+      "updated_at": 1723563954,
+      "gem_sort_id": 111006,
+      "gem_sort_id_hero": 103006,
+      "gem_sort_id_box": 104006,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1399,
+          "assist_gem_id": 100448,
+          "value": 3,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1400,
+          "assist_gem_id": 100448,
+          "value": 40,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1401,
+          "assist_gem_id": 100448,
+          "value": 36,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        3,
+        40,
+        36
+      ]
+    },
+    {
+      "id": 100449,
+      "name": "撃種の絆・加撃速(2級)",
+      "name_short": "撃種・加撃速",
+      "name_short_with_rarity": "撃種・加撃速(2級)",
+      "rarity": 3,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型の攻撃力80、スピード1.4アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]攻撃力80、スピード1.4アップ",
+      "image_id": 4,
+      "created_at": 1530284955,
+      "updated_at": 1723563954,
+      "gem_sort_id": 111007,
+      "gem_sort_id_hero": 103007,
+      "gem_sort_id_box": 104007,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1402,
+          "assist_gem_id": 100449,
+          "value": 3,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1403,
+          "assist_gem_id": 100449,
+          "value": 80,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1404,
+          "assist_gem_id": 100449,
+          "value": 42,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        3,
+        80,
+        42
+      ]
+    },
+    {
+      "id": 100450,
+      "name": "撃種の絆・加撃速(2級M)",
+      "name_short": "撃種・加撃速",
+      "name_short_with_rarity": "撃種・加撃速(2級M)",
+      "rarity": 3,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型の攻撃力100、スピード1.6アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]攻撃力100、スピード1.6アップ",
+      "image_id": 4,
+      "created_at": 1530284955,
+      "updated_at": 1723563954,
+      "gem_sort_id": 111008,
+      "gem_sort_id_hero": 103008,
+      "gem_sort_id_box": 104008,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1405,
+          "assist_gem_id": 100450,
+          "value": 3,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1406,
+          "assist_gem_id": 100450,
+          "value": 100,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1407,
+          "assist_gem_id": 100450,
+          "value": 48,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        3,
+        100,
+        48
+      ]
+    },
+    {
+      "id": 100451,
+      "name": "撃種の絆・加撃速(2級L)",
+      "name_short": "撃種・加撃速",
+      "name_short_with_rarity": "撃種・加撃速(2級L)",
+      "rarity": 3,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型の攻撃力120、スピード1.8アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]攻撃力120、スピード1.8アップ",
+      "image_id": 4,
+      "created_at": 1530284955,
+      "updated_at": 1723563954,
+      "gem_sort_id": 111009,
+      "gem_sort_id_hero": 103009,
+      "gem_sort_id_box": 104009,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1408,
+          "assist_gem_id": 100451,
+          "value": 3,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1409,
+          "assist_gem_id": 100451,
+          "value": 120,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1410,
+          "assist_gem_id": 100451,
+          "value": 54,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        3,
+        120,
+        54
+      ]
+    },
+    {
+      "id": 100452,
+      "name": "撃種の絆・加撃速(1級)",
+      "name_short": "撃種・加撃速",
+      "name_short_with_rarity": "撃種・加撃速(1級)",
+      "rarity": 4,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型の攻撃力200、スピード2.8アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]攻撃力200、スピード2.8アップ",
+      "image_id": 5,
+      "created_at": 1530284955,
+      "updated_at": 1723563954,
+      "gem_sort_id": 111010,
+      "gem_sort_id_hero": 103010,
+      "gem_sort_id_box": 104010,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1411,
+          "assist_gem_id": 100452,
+          "value": 3,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1412,
+          "assist_gem_id": 100452,
+          "value": 200,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1413,
+          "assist_gem_id": 100452,
+          "value": 84,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        3,
+        200,
+        84
+      ]
+    },
+    {
+      "id": 100453,
+      "name": "撃種の絆・加撃速(1級M)",
+      "name_short": "撃種・加撃速",
+      "name_short_with_rarity": "撃種・加撃速(1級M)",
+      "rarity": 4,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型の攻撃力300、スピード3.4アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]攻撃力300、スピード3.4アップ",
+      "image_id": 6,
+      "created_at": 1530284955,
+      "updated_at": 1723563954,
+      "gem_sort_id": 111011,
+      "gem_sort_id_hero": 103011,
+      "gem_sort_id_box": 104011,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1414,
+          "assist_gem_id": 100453,
+          "value": 3,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1415,
+          "assist_gem_id": 100453,
+          "value": 300,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1416,
+          "assist_gem_id": 100453,
+          "value": 102,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        3,
+        300,
+        102
+      ]
+    },
+    {
+      "id": 100454,
+      "name": "撃種の絆・加撃速(1級L)",
+      "name_short": "撃種・加撃速",
+      "name_short_with_rarity": "撃種・加撃速(1級L)",
+      "rarity": 4,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型の攻撃力400、スピード4アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]攻撃力400、スピード4アップ",
+      "image_id": 7,
+      "created_at": 1530284955,
+      "updated_at": 1723563954,
+      "gem_sort_id": 111012,
+      "gem_sort_id_hero": 103012,
+      "gem_sort_id_box": 104012,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1417,
+          "assist_gem_id": 100454,
+          "value": 3,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1418,
+          "assist_gem_id": 100454,
+          "value": 400,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1419,
+          "assist_gem_id": 100454,
+          "value": 120,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        3,
+        400,
+        120
+      ]
+    },
+    {
+      "id": 100455,
+      "name": "撃種の絆・加撃速(特級)",
+      "name_short": "撃種・加撃速",
+      "name_short_with_rarity": "撃種・加撃速(特級)",
+      "rarity": 5,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型の攻撃力600、スピード8アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]攻撃力600、スピード8アップ",
+      "image_id": 8,
+      "created_at": 1530284955,
+      "updated_at": 1723563954,
+      "gem_sort_id": 111013,
+      "gem_sort_id_hero": 103013,
+      "gem_sort_id_box": 104013,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1420,
+          "assist_gem_id": 100455,
+          "value": 3,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1421,
+          "assist_gem_id": 100455,
+          "value": 600,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1422,
+          "assist_gem_id": 100455,
+          "value": 240,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        3,
+        600,
+        240
+      ]
+    },
+    {
+      "id": 100456,
+      "name": "撃種の絆・加撃速(特級M)",
+      "name_short": "撃種・加撃速",
+      "name_short_with_rarity": "撃種・加撃速(特級M)",
+      "rarity": 5,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型の攻撃力800、スピード10.6アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]攻撃力800、スピード10.6アップ",
+      "image_id": 9,
+      "created_at": 1530284955,
+      "updated_at": 1723563954,
+      "gem_sort_id": 111014,
+      "gem_sort_id_hero": 103014,
+      "gem_sort_id_box": 104014,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1423,
+          "assist_gem_id": 100456,
+          "value": 3,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1424,
+          "assist_gem_id": 100456,
+          "value": 800,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1425,
+          "assist_gem_id": 100456,
+          "value": 318,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        3,
+        800,
+        318
+      ]
+    },
+    {
+      "id": 100457,
+      "name": "撃種の絆・加撃速(特級L)",
+      "name_short": "撃種・加撃速",
+      "name_short_with_rarity": "撃種・加撃速(特級L)",
+      "rarity": 5,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型の攻撃力1000、スピード13.2アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]攻撃力1000、スピード13.2アップ",
+      "image_id": 10,
+      "created_at": 1530284955,
+      "updated_at": 1723563954,
+      "gem_sort_id": 111015,
+      "gem_sort_id_hero": 103015,
+      "gem_sort_id_box": 104015,
+      "grown_assist_gem_id": 200019,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1426,
+          "assist_gem_id": 100457,
+          "value": 3,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1427,
+          "assist_gem_id": 100457,
+          "value": 1000,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1428,
+          "assist_gem_id": 100457,
+          "value": 396,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        3,
+        1000,
+        396
+      ]
+    },
+    {
+      "id": 100459,
+      "name": "撃種の絆・加速命(4級M)",
+      "name_short": "撃種・加速命",
+      "name_short_with_rarity": "撃種・加速命(4級M)",
+      "rarity": 1,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型のスピード0.4、HP8アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]スピード0.4、HP8アップ",
+      "image_id": 2,
+      "created_at": 1530284956,
+      "updated_at": 1723563954,
+      "gem_sort_id": 141002,
+      "gem_sort_id_hero": 109002,
+      "gem_sort_id_box": 113002,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1429,
+          "assist_gem_id": 100459,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1430,
+          "assist_gem_id": 100459,
+          "value": 12,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1431,
+          "assist_gem_id": 100459,
+          "value": 8,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        12,
+        8
+      ]
+    },
+    {
+      "id": 100460,
+      "name": "撃種の絆・加速命(4級L)",
+      "name_short": "撃種・加速命",
+      "name_short_with_rarity": "撃種・加速命(4級L)",
+      "rarity": 1,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型のスピード0.6、HP12アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]スピード0.6、HP12アップ",
+      "image_id": 2,
+      "created_at": 1530284956,
+      "updated_at": 1723563954,
+      "gem_sort_id": 141003,
+      "gem_sort_id_hero": 109003,
+      "gem_sort_id_box": 113003,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1432,
+          "assist_gem_id": 100460,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1433,
+          "assist_gem_id": 100460,
+          "value": 18,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1434,
+          "assist_gem_id": 100460,
+          "value": 12,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        18,
+        12
+      ]
+    },
+    {
+      "id": 100461,
+      "name": "撃種の絆・加速命(3級)",
+      "name_short": "撃種・加速命",
+      "name_short_with_rarity": "撃種・加速命(3級)",
+      "rarity": 2,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型のスピード0.8、HP24アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]スピード0.8、HP24アップ",
+      "image_id": 3,
+      "created_at": 1530284956,
+      "updated_at": 1723563955,
+      "gem_sort_id": 141004,
+      "gem_sort_id_hero": 109004,
+      "gem_sort_id_box": 113004,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1435,
+          "assist_gem_id": 100461,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1436,
+          "assist_gem_id": 100461,
+          "value": 24,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1437,
+          "assist_gem_id": 100461,
+          "value": 24,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        24,
+        24
+      ]
+    },
+    {
+      "id": 100462,
+      "name": "撃種の絆・加速命(3級M)",
+      "name_short": "撃種・加速命",
+      "name_short_with_rarity": "撃種・加速命(3級M)",
+      "rarity": 2,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型のスピード1、HP32アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]スピード1、HP32アップ",
+      "image_id": 3,
+      "created_at": 1530284956,
+      "updated_at": 1723563955,
+      "gem_sort_id": 141005,
+      "gem_sort_id_hero": 109005,
+      "gem_sort_id_box": 113005,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1438,
+          "assist_gem_id": 100462,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1439,
+          "assist_gem_id": 100462,
+          "value": 30,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1440,
+          "assist_gem_id": 100462,
+          "value": 32,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        30,
+        32
+      ]
+    },
+    {
+      "id": 100463,
+      "name": "撃種の絆・加速命(3級L)",
+      "name_short": "撃種・加速命",
+      "name_short_with_rarity": "撃種・加速命(3級L)",
+      "rarity": 2,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型のスピード1.2、HP40アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]スピード1.2、HP40アップ",
+      "image_id": 3,
+      "created_at": 1530284956,
+      "updated_at": 1723563955,
+      "gem_sort_id": 141006,
+      "gem_sort_id_hero": 109006,
+      "gem_sort_id_box": 113006,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1441,
+          "assist_gem_id": 100463,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1442,
+          "assist_gem_id": 100463,
+          "value": 36,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1443,
+          "assist_gem_id": 100463,
+          "value": 40,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        36,
+        40
+      ]
+    },
+    {
+      "id": 100464,
+      "name": "撃種の絆・加速命(2級)",
+      "name_short": "撃種・加速命",
+      "name_short_with_rarity": "撃種・加速命(2級)",
+      "rarity": 3,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型のスピード1.4、HP80アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]スピード1.4、HP80アップ",
+      "image_id": 4,
+      "created_at": 1530284956,
+      "updated_at": 1723563955,
+      "gem_sort_id": 141007,
+      "gem_sort_id_hero": 109007,
+      "gem_sort_id_box": 113007,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1444,
+          "assist_gem_id": 100464,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1445,
+          "assist_gem_id": 100464,
+          "value": 42,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1446,
+          "assist_gem_id": 100464,
+          "value": 80,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        42,
+        80
+      ]
+    },
+    {
+      "id": 100465,
+      "name": "撃種の絆・加速命(2級M)",
+      "name_short": "撃種・加速命",
+      "name_short_with_rarity": "撃種・加速命(2級M)",
+      "rarity": 3,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型のスピード1.6、HP100アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]スピード1.6、HP100アップ",
+      "image_id": 4,
+      "created_at": 1530284956,
+      "updated_at": 1723563955,
+      "gem_sort_id": 141008,
+      "gem_sort_id_hero": 109008,
+      "gem_sort_id_box": 113008,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1447,
+          "assist_gem_id": 100465,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1448,
+          "assist_gem_id": 100465,
+          "value": 48,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1449,
+          "assist_gem_id": 100465,
+          "value": 100,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        48,
+        100
+      ]
+    },
+    {
+      "id": 100466,
+      "name": "撃種の絆・加速命(2級L)",
+      "name_short": "撃種・加速命",
+      "name_short_with_rarity": "撃種・加速命(2級L)",
+      "rarity": 3,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型のスピード1.8、HP120アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]スピード1.8、HP120アップ",
+      "image_id": 4,
+      "created_at": 1530284956,
+      "updated_at": 1723563955,
+      "gem_sort_id": 141009,
+      "gem_sort_id_hero": 109009,
+      "gem_sort_id_box": 113009,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1450,
+          "assist_gem_id": 100466,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1451,
+          "assist_gem_id": 100466,
+          "value": 54,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1452,
+          "assist_gem_id": 100466,
+          "value": 120,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        54,
+        120
+      ]
+    },
+    {
+      "id": 100467,
+      "name": "撃種の絆・加速命(1級)",
+      "name_short": "撃種・加速命",
+      "name_short_with_rarity": "撃種・加速命(1級)",
+      "rarity": 4,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型のスピード2.8、HP200アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]スピード2.8、HP200アップ",
+      "image_id": 5,
+      "created_at": 1530284957,
+      "updated_at": 1723563955,
+      "gem_sort_id": 141010,
+      "gem_sort_id_hero": 109010,
+      "gem_sort_id_box": 113010,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1453,
+          "assist_gem_id": 100467,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1454,
+          "assist_gem_id": 100467,
+          "value": 84,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1455,
+          "assist_gem_id": 100467,
+          "value": 200,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        84,
+        200
+      ]
+    },
+    {
+      "id": 100468,
+      "name": "撃種の絆・加速命(1級M)",
+      "name_short": "撃種・加速命",
+      "name_short_with_rarity": "撃種・加速命(1級M)",
+      "rarity": 4,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型のスピード3.4、HP300アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]スピード3.4、HP300アップ",
+      "image_id": 6,
+      "created_at": 1530284957,
+      "updated_at": 1723563955,
+      "gem_sort_id": 141011,
+      "gem_sort_id_hero": 109011,
+      "gem_sort_id_box": 113011,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1456,
+          "assist_gem_id": 100468,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1457,
+          "assist_gem_id": 100468,
+          "value": 102,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1458,
+          "assist_gem_id": 100468,
+          "value": 300,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        102,
+        300
+      ]
+    },
+    {
+      "id": 100469,
+      "name": "撃種の絆・加速命(1級L)",
+      "name_short": "撃種・加速命",
+      "name_short_with_rarity": "撃種・加速命(1級L)",
+      "rarity": 4,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型のスピード4、HP400アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]スピード4、HP400アップ",
+      "image_id": 7,
+      "created_at": 1530284957,
+      "updated_at": 1723563955,
+      "gem_sort_id": 141012,
+      "gem_sort_id_hero": 109012,
+      "gem_sort_id_box": 113012,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1459,
+          "assist_gem_id": 100469,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1460,
+          "assist_gem_id": 100469,
+          "value": 120,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1461,
+          "assist_gem_id": 100469,
+          "value": 400,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        120,
+        400
+      ]
+    },
+    {
+      "id": 100470,
+      "name": "撃種の絆・加速命(特級)",
+      "name_short": "撃種・加速命",
+      "name_short_with_rarity": "撃種・加速命(特級)",
+      "rarity": 5,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型のスピード8、HP600アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]スピード8、HP600アップ",
+      "image_id": 8,
+      "created_at": 1530284957,
+      "updated_at": 1723563955,
+      "gem_sort_id": 141013,
+      "gem_sort_id_hero": 109013,
+      "gem_sort_id_box": 113013,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1462,
+          "assist_gem_id": 100470,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1463,
+          "assist_gem_id": 100470,
+          "value": 240,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1464,
+          "assist_gem_id": 100470,
+          "value": 600,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        240,
+        600
+      ]
+    },
+    {
+      "id": 100471,
+      "name": "撃種の絆・加速命(特級M)",
+      "name_short": "撃種・加速命",
+      "name_short_with_rarity": "撃種・加速命(特級M)",
+      "rarity": 5,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型のスピード10.6、HP800アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]スピード10.6、HP800アップ",
+      "image_id": 9,
+      "created_at": 1530284957,
+      "updated_at": 1723563955,
+      "gem_sort_id": 141014,
+      "gem_sort_id_hero": 109014,
+      "gem_sort_id_box": 113014,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1465,
+          "assist_gem_id": 100471,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1466,
+          "assist_gem_id": 100471,
+          "value": 318,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1467,
+          "assist_gem_id": 100471,
+          "value": 800,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        318,
+        800
+      ]
+    },
+    {
+      "id": 100472,
+      "name": "撃種の絆・加速命(特級L)",
+      "name_short": "撃種・加速命",
+      "name_short_with_rarity": "撃種・加速命(特級L)",
+      "rarity": 5,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型のスピード13.2、HP1000アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]スピード13.2、HP1000アップ",
+      "image_id": 10,
+      "created_at": 1530284957,
+      "updated_at": 1723563955,
+      "gem_sort_id": 141015,
+      "gem_sort_id_hero": 109015,
+      "gem_sort_id_box": 113015,
+      "grown_assist_gem_id": 200020,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1468,
+          "assist_gem_id": 100472,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1469,
+          "assist_gem_id": 100472,
+          "value": 396,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1470,
+          "assist_gem_id": 100472,
+          "value": 1000,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        396,
+        1000
+      ]
+    },
+    {
+      "id": 100474,
+      "name": "撃種の絆・加命撃(4級M)",
+      "name_short": "撃種・加命撃",
+      "name_short_with_rarity": "撃種・加命撃(4級M)",
+      "rarity": 1,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型のHP8、攻撃力8アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]HP8、攻撃力8アップ",
+      "image_id": 2,
+      "created_at": 1530284957,
+      "updated_at": 1723563955,
+      "gem_sort_id": 112002,
+      "gem_sort_id_hero": 115002,
+      "gem_sort_id_box": 107002,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1471,
+          "assist_gem_id": 100474,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1472,
+          "assist_gem_id": 100474,
+          "value": 8,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1473,
+          "assist_gem_id": 100474,
+          "value": 8,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        8,
+        8
+      ]
+    },
+    {
+      "id": 100475,
+      "name": "撃種の絆・加命撃(4級L)",
+      "name_short": "撃種・加命撃",
+      "name_short_with_rarity": "撃種・加命撃(4級L)",
+      "rarity": 1,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型のHP12、攻撃力12アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]HP12、攻撃力12アップ",
+      "image_id": 2,
+      "created_at": 1530284957,
+      "updated_at": 1723563955,
+      "gem_sort_id": 112003,
+      "gem_sort_id_hero": 115003,
+      "gem_sort_id_box": 107003,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1474,
+          "assist_gem_id": 100475,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1475,
+          "assist_gem_id": 100475,
+          "value": 12,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1476,
+          "assist_gem_id": 100475,
+          "value": 12,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        12,
+        12
+      ]
+    },
+    {
+      "id": 100476,
+      "name": "撃種の絆・加命撃(3級)",
+      "name_short": "撃種・加命撃",
+      "name_short_with_rarity": "撃種・加命撃(3級)",
+      "rarity": 2,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型のHP24、攻撃力24アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]HP24、攻撃力24アップ",
+      "image_id": 3,
+      "created_at": 1530284958,
+      "updated_at": 1723563955,
+      "gem_sort_id": 112004,
+      "gem_sort_id_hero": 115004,
+      "gem_sort_id_box": 107004,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1477,
+          "assist_gem_id": 100476,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1478,
+          "assist_gem_id": 100476,
+          "value": 24,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1479,
+          "assist_gem_id": 100476,
+          "value": 24,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        24,
+        24
+      ]
+    },
+    {
+      "id": 100477,
+      "name": "撃種の絆・加命撃(3級M)",
+      "name_short": "撃種・加命撃",
+      "name_short_with_rarity": "撃種・加命撃(3級M)",
+      "rarity": 2,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型のHP32、攻撃力32アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]HP32、攻撃力32アップ",
+      "image_id": 3,
+      "created_at": 1530284958,
+      "updated_at": 1723563955,
+      "gem_sort_id": 112005,
+      "gem_sort_id_hero": 115005,
+      "gem_sort_id_box": 107005,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1480,
+          "assist_gem_id": 100477,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1481,
+          "assist_gem_id": 100477,
+          "value": 32,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1482,
+          "assist_gem_id": 100477,
+          "value": 32,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        32,
+        32
+      ]
+    },
+    {
+      "id": 100478,
+      "name": "撃種の絆・加命撃(3級L)",
+      "name_short": "撃種・加命撃",
+      "name_short_with_rarity": "撃種・加命撃(3級L)",
+      "rarity": 2,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型のHP40、攻撃力40アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]HP40、攻撃力40アップ",
+      "image_id": 3,
+      "created_at": 1530284958,
+      "updated_at": 1723563955,
+      "gem_sort_id": 112006,
+      "gem_sort_id_hero": 115006,
+      "gem_sort_id_box": 107006,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1483,
+          "assist_gem_id": 100478,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1484,
+          "assist_gem_id": 100478,
+          "value": 40,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1485,
+          "assist_gem_id": 100478,
+          "value": 40,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        40,
+        40
+      ]
+    },
+    {
+      "id": 100479,
+      "name": "撃種の絆・加命撃(2級)",
+      "name_short": "撃種・加命撃",
+      "name_short_with_rarity": "撃種・加命撃(2級)",
+      "rarity": 3,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型のHP80、攻撃力80アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]HP80、攻撃力80アップ",
+      "image_id": 4,
+      "created_at": 1530284958,
+      "updated_at": 1723563955,
+      "gem_sort_id": 112007,
+      "gem_sort_id_hero": 115007,
+      "gem_sort_id_box": 107007,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1486,
+          "assist_gem_id": 100479,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1487,
+          "assist_gem_id": 100479,
+          "value": 80,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1488,
+          "assist_gem_id": 100479,
+          "value": 80,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        80,
+        80
+      ]
+    },
+    {
+      "id": 100480,
+      "name": "撃種の絆・加命撃(2級M)",
+      "name_short": "撃種・加命撃",
+      "name_short_with_rarity": "撃種・加命撃(2級M)",
+      "rarity": 3,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型のHP100、攻撃力100アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]HP100、攻撃力100アップ",
+      "image_id": 4,
+      "created_at": 1530284958,
+      "updated_at": 1723563955,
+      "gem_sort_id": 112008,
+      "gem_sort_id_hero": 115008,
+      "gem_sort_id_box": 107008,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1489,
+          "assist_gem_id": 100480,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1490,
+          "assist_gem_id": 100480,
+          "value": 100,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1491,
+          "assist_gem_id": 100480,
+          "value": 100,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        100,
+        100
+      ]
+    },
+    {
+      "id": 100481,
+      "name": "撃種の絆・加命撃(2級L)",
+      "name_short": "撃種・加命撃",
+      "name_short_with_rarity": "撃種・加命撃(2級L)",
+      "rarity": 3,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型のHP120、攻撃力120アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]HP120、攻撃力120アップ",
+      "image_id": 4,
+      "created_at": 1530284958,
+      "updated_at": 1723563955,
+      "gem_sort_id": 112009,
+      "gem_sort_id_hero": 115009,
+      "gem_sort_id_box": 107009,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1492,
+          "assist_gem_id": 100481,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1493,
+          "assist_gem_id": 100481,
+          "value": 120,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1494,
+          "assist_gem_id": 100481,
+          "value": 120,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        120,
+        120
+      ]
+    },
+    {
+      "id": 100482,
+      "name": "撃種の絆・加命撃(1級)",
+      "name_short": "撃種・加命撃",
+      "name_short_with_rarity": "撃種・加命撃(1級)",
+      "rarity": 4,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型のHP200、攻撃力200アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]HP200、攻撃力200アップ",
+      "image_id": 5,
+      "created_at": 1530284958,
+      "updated_at": 1723563955,
+      "gem_sort_id": 112010,
+      "gem_sort_id_hero": 115010,
+      "gem_sort_id_box": 107010,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1495,
+          "assist_gem_id": 100482,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1496,
+          "assist_gem_id": 100482,
+          "value": 200,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1497,
+          "assist_gem_id": 100482,
+          "value": 200,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        200,
+        200
+      ]
+    },
+    {
+      "id": 100483,
+      "name": "撃種の絆・加命撃(1級M)",
+      "name_short": "撃種・加命撃",
+      "name_short_with_rarity": "撃種・加命撃(1級M)",
+      "rarity": 4,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型のHP300、攻撃力300アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]HP300、攻撃力300アップ",
+      "image_id": 6,
+      "created_at": 1530284958,
+      "updated_at": 1723563955,
+      "gem_sort_id": 112011,
+      "gem_sort_id_hero": 115011,
+      "gem_sort_id_box": 107011,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1498,
+          "assist_gem_id": 100483,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1499,
+          "assist_gem_id": 100483,
+          "value": 300,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1500,
+          "assist_gem_id": 100483,
+          "value": 300,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        300,
+        300
+      ]
+    },
+    {
+      "id": 100484,
+      "name": "撃種の絆・加命撃(1級L)",
+      "name_short": "撃種・加命撃",
+      "name_short_with_rarity": "撃種・加命撃(1級L)",
+      "rarity": 4,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型のHP400、攻撃力400アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]HP400、攻撃力400アップ",
+      "image_id": 7,
+      "created_at": 1530284958,
+      "updated_at": 1723563955,
+      "gem_sort_id": 112012,
+      "gem_sort_id_hero": 115012,
+      "gem_sort_id_box": 107012,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1501,
+          "assist_gem_id": 100484,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1502,
+          "assist_gem_id": 100484,
+          "value": 400,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1503,
+          "assist_gem_id": 100484,
+          "value": 400,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        400,
+        400
+      ]
+    },
+    {
+      "id": 100485,
+      "name": "撃種の絆・加命撃(特級)",
+      "name_short": "撃種・加命撃",
+      "name_short_with_rarity": "撃種・加命撃(特級)",
+      "rarity": 5,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型のHP600、攻撃力600アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]HP600、攻撃力600アップ",
+      "image_id": 8,
+      "created_at": 1530284959,
+      "updated_at": 1723563955,
+      "gem_sort_id": 112013,
+      "gem_sort_id_hero": 115013,
+      "gem_sort_id_box": 107013,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1504,
+          "assist_gem_id": 100485,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1505,
+          "assist_gem_id": 100485,
+          "value": 600,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1506,
+          "assist_gem_id": 100485,
+          "value": 600,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        600,
+        600
+      ]
+    },
+    {
+      "id": 100486,
+      "name": "撃種の絆・加命撃(特級M)",
+      "name_short": "撃種・加命撃",
+      "name_short_with_rarity": "撃種・加命撃(特級M)",
+      "rarity": 5,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型のHP800、攻撃力800アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]HP800、攻撃力800アップ",
+      "image_id": 9,
+      "created_at": 1530284959,
+      "updated_at": 1723563955,
+      "gem_sort_id": 112014,
+      "gem_sort_id_hero": 115014,
+      "gem_sort_id_box": 107014,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1507,
+          "assist_gem_id": 100486,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1508,
+          "assist_gem_id": 100486,
+          "value": 800,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1509,
+          "assist_gem_id": 100486,
+          "value": 800,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        800,
+        800
+      ]
+    },
+    {
+      "id": 100487,
+      "name": "撃種の絆・加命撃(特級L)",
+      "name_short": "撃種・加命撃",
+      "name_short_with_rarity": "撃種・加命撃(特級L)",
+      "rarity": 5,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型のHP1000、攻撃力1000アップ",
+      "description_with_tag": "自分＆同ヒット型の[LF]HP1000、攻撃力1000アップ",
+      "image_id": 10,
+      "created_at": 1530284959,
+      "updated_at": 1723563956,
+      "gem_sort_id": 112015,
+      "gem_sort_id_hero": 115015,
+      "gem_sort_id_box": 107015,
+      "grown_assist_gem_id": 200021,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1510,
+          "assist_gem_id": 100487,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1511,
+          "assist_gem_id": 100487,
+          "value": 1000,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1512,
+          "assist_gem_id": 100487,
+          "value": 1000,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        1000,
+        1000
+      ]
+    },
+    {
+      "id": 100489,
+      "name": "戦型の絆・加撃速(4級M)",
+      "name_short": "戦型・加撃速",
+      "name_short_with_rarity": "戦型・加撃速(4級M)",
+      "rarity": 1,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型の攻撃力8、スピード0.4アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]攻撃力8、スピード0.4アップ",
+      "image_id": 2,
+      "created_at": 1530284959,
+      "updated_at": 1723563956,
+      "gem_sort_id": 121002,
+      "gem_sort_id_hero": 105002,
+      "gem_sort_id_box": 105002,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1513,
+          "assist_gem_id": 100489,
+          "value": 3,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1514,
+          "assist_gem_id": 100489,
+          "value": 8,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1515,
+          "assist_gem_id": 100489,
+          "value": 12,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        3,
+        8,
+        12
+      ]
+    },
+    {
+      "id": 100490,
+      "name": "戦型の絆・加撃速(4級L)",
+      "name_short": "戦型・加撃速",
+      "name_short_with_rarity": "戦型・加撃速(4級L)",
+      "rarity": 1,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型の攻撃力12、スピード0.6アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]攻撃力12、スピード0.6アップ",
+      "image_id": 2,
+      "created_at": 1530284959,
+      "updated_at": 1723563956,
+      "gem_sort_id": 121003,
+      "gem_sort_id_hero": 105003,
+      "gem_sort_id_box": 105003,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1516,
+          "assist_gem_id": 100490,
+          "value": 3,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1517,
+          "assist_gem_id": 100490,
+          "value": 12,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1518,
+          "assist_gem_id": 100490,
+          "value": 18,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        3,
+        12,
+        18
+      ]
+    },
+    {
+      "id": 100491,
+      "name": "戦型の絆・加撃速(3級)",
+      "name_short": "戦型・加撃速",
+      "name_short_with_rarity": "戦型・加撃速(3級)",
+      "rarity": 2,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型の攻撃力24、スピード0.8アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]攻撃力24、スピード0.8アップ",
+      "image_id": 3,
+      "created_at": 1530284959,
+      "updated_at": 1723563956,
+      "gem_sort_id": 121004,
+      "gem_sort_id_hero": 105004,
+      "gem_sort_id_box": 105004,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1519,
+          "assist_gem_id": 100491,
+          "value": 3,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1520,
+          "assist_gem_id": 100491,
+          "value": 24,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1521,
+          "assist_gem_id": 100491,
+          "value": 24,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        3,
+        24,
+        24
+      ]
+    },
+    {
+      "id": 100492,
+      "name": "戦型の絆・加撃速(3級M)",
+      "name_short": "戦型・加撃速",
+      "name_short_with_rarity": "戦型・加撃速(3級M)",
+      "rarity": 2,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型の攻撃力32、スピード1アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]攻撃力32、スピード1アップ",
+      "image_id": 3,
+      "created_at": 1530284959,
+      "updated_at": 1723563956,
+      "gem_sort_id": 121005,
+      "gem_sort_id_hero": 105005,
+      "gem_sort_id_box": 105005,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1522,
+          "assist_gem_id": 100492,
+          "value": 3,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1523,
+          "assist_gem_id": 100492,
+          "value": 32,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1524,
+          "assist_gem_id": 100492,
+          "value": 30,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        3,
+        32,
+        30
+      ]
+    },
+    {
+      "id": 100493,
+      "name": "戦型の絆・加撃速(3級L)",
+      "name_short": "戦型・加撃速",
+      "name_short_with_rarity": "戦型・加撃速(3級L)",
+      "rarity": 2,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型の攻撃力40、スピード1.2アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]攻撃力40、スピード1.2アップ",
+      "image_id": 3,
+      "created_at": 1530284959,
+      "updated_at": 1723563956,
+      "gem_sort_id": 121006,
+      "gem_sort_id_hero": 105006,
+      "gem_sort_id_box": 105006,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1525,
+          "assist_gem_id": 100493,
+          "value": 3,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1526,
+          "assist_gem_id": 100493,
+          "value": 40,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1527,
+          "assist_gem_id": 100493,
+          "value": 36,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        3,
+        40,
+        36
+      ]
+    },
+    {
+      "id": 100494,
+      "name": "戦型の絆・加撃速(2級)",
+      "name_short": "戦型・加撃速",
+      "name_short_with_rarity": "戦型・加撃速(2級)",
+      "rarity": 3,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型の攻撃力80、スピード1.4アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]攻撃力80、スピード1.4アップ",
+      "image_id": 4,
+      "created_at": 1530284960,
+      "updated_at": 1723563956,
+      "gem_sort_id": 121007,
+      "gem_sort_id_hero": 105007,
+      "gem_sort_id_box": 105007,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1528,
+          "assist_gem_id": 100494,
+          "value": 3,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1529,
+          "assist_gem_id": 100494,
+          "value": 80,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1530,
+          "assist_gem_id": 100494,
+          "value": 42,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        3,
+        80,
+        42
+      ]
+    },
+    {
+      "id": 100495,
+      "name": "戦型の絆・加撃速(2級M)",
+      "name_short": "戦型・加撃速",
+      "name_short_with_rarity": "戦型・加撃速(2級M)",
+      "rarity": 3,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型の攻撃力100、スピード1.6アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]攻撃力100、スピード1.6アップ",
+      "image_id": 4,
+      "created_at": 1530284960,
+      "updated_at": 1723563956,
+      "gem_sort_id": 121008,
+      "gem_sort_id_hero": 105008,
+      "gem_sort_id_box": 105008,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1531,
+          "assist_gem_id": 100495,
+          "value": 3,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1532,
+          "assist_gem_id": 100495,
+          "value": 100,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1533,
+          "assist_gem_id": 100495,
+          "value": 48,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        3,
+        100,
+        48
+      ]
+    },
+    {
+      "id": 100496,
+      "name": "戦型の絆・加撃速(2級L)",
+      "name_short": "戦型・加撃速",
+      "name_short_with_rarity": "戦型・加撃速(2級L)",
+      "rarity": 3,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型の攻撃力120、スピード1.8アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]攻撃力120、スピード1.8アップ",
+      "image_id": 4,
+      "created_at": 1530284960,
+      "updated_at": 1723563956,
+      "gem_sort_id": 121009,
+      "gem_sort_id_hero": 105009,
+      "gem_sort_id_box": 105009,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1534,
+          "assist_gem_id": 100496,
+          "value": 3,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1535,
+          "assist_gem_id": 100496,
+          "value": 120,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1536,
+          "assist_gem_id": 100496,
+          "value": 54,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        3,
+        120,
+        54
+      ]
+    },
+    {
+      "id": 100497,
+      "name": "戦型の絆・加撃速(1級)",
+      "name_short": "戦型・加撃速",
+      "name_short_with_rarity": "戦型・加撃速(1級)",
+      "rarity": 4,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型の攻撃力200、スピード2.8アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]攻撃力200、スピード2.8アップ",
+      "image_id": 5,
+      "created_at": 1530284960,
+      "updated_at": 1723563956,
+      "gem_sort_id": 121010,
+      "gem_sort_id_hero": 105010,
+      "gem_sort_id_box": 105010,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1537,
+          "assist_gem_id": 100497,
+          "value": 3,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1538,
+          "assist_gem_id": 100497,
+          "value": 200,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1539,
+          "assist_gem_id": 100497,
+          "value": 84,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        3,
+        200,
+        84
+      ]
+    },
+    {
+      "id": 100498,
+      "name": "戦型の絆・加撃速(1級M)",
+      "name_short": "戦型・加撃速",
+      "name_short_with_rarity": "戦型・加撃速(1級M)",
+      "rarity": 4,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型の攻撃力300、スピード3.4アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]攻撃力300、スピード3.4アップ",
+      "image_id": 6,
+      "created_at": 1530284960,
+      "updated_at": 1723563956,
+      "gem_sort_id": 121011,
+      "gem_sort_id_hero": 105011,
+      "gem_sort_id_box": 105011,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1540,
+          "assist_gem_id": 100498,
+          "value": 3,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1541,
+          "assist_gem_id": 100498,
+          "value": 300,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1542,
+          "assist_gem_id": 100498,
+          "value": 102,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        3,
+        300,
+        102
+      ]
+    },
+    {
+      "id": 100499,
+      "name": "戦型の絆・加撃速(1級L)",
+      "name_short": "戦型・加撃速",
+      "name_short_with_rarity": "戦型・加撃速(1級L)",
+      "rarity": 4,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型の攻撃力400、スピード4アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]攻撃力400、スピード4アップ",
+      "image_id": 7,
+      "created_at": 1530284960,
+      "updated_at": 1723563956,
+      "gem_sort_id": 121012,
+      "gem_sort_id_hero": 105012,
+      "gem_sort_id_box": 105012,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1543,
+          "assist_gem_id": 100499,
+          "value": 3,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1544,
+          "assist_gem_id": 100499,
+          "value": 400,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1545,
+          "assist_gem_id": 100499,
+          "value": 120,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        3,
+        400,
+        120
+      ]
+    },
+    {
+      "id": 100500,
+      "name": "戦型の絆・加撃速(特級)",
+      "name_short": "戦型・加撃速",
+      "name_short_with_rarity": "戦型・加撃速(特級)",
+      "rarity": 5,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型の攻撃力600、スピード8アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]攻撃力600、スピード8アップ",
+      "image_id": 8,
+      "created_at": 1530284960,
+      "updated_at": 1723563956,
+      "gem_sort_id": 121013,
+      "gem_sort_id_hero": 105013,
+      "gem_sort_id_box": 105013,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1546,
+          "assist_gem_id": 100500,
+          "value": 3,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1547,
+          "assist_gem_id": 100500,
+          "value": 600,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1548,
+          "assist_gem_id": 100500,
+          "value": 240,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        3,
+        600,
+        240
+      ]
+    },
+    {
+      "id": 100501,
+      "name": "戦型の絆・加撃速(特級M)",
+      "name_short": "戦型・加撃速",
+      "name_short_with_rarity": "戦型・加撃速(特級M)",
+      "rarity": 5,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型の攻撃力800、スピード10.6アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]攻撃力800、スピード10.6アップ",
+      "image_id": 9,
+      "created_at": 1530284960,
+      "updated_at": 1723563956,
+      "gem_sort_id": 121014,
+      "gem_sort_id_hero": 105014,
+      "gem_sort_id_box": 105014,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1549,
+          "assist_gem_id": 100501,
+          "value": 3,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1550,
+          "assist_gem_id": 100501,
+          "value": 800,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1551,
+          "assist_gem_id": 100501,
+          "value": 318,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        3,
+        800,
+        318
+      ]
+    },
+    {
+      "id": 100502,
+      "name": "戦型の絆・加撃速(特級L)",
+      "name_short": "戦型・加撃速",
+      "name_short_with_rarity": "戦型・加撃速(特級L)",
+      "rarity": 5,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型の攻撃力1000、スピード13.2アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]攻撃力1000、スピード13.2アップ",
+      "image_id": 10,
+      "created_at": 1530284960,
+      "updated_at": 1723563956,
+      "gem_sort_id": 121015,
+      "gem_sort_id_hero": 105015,
+      "gem_sort_id_box": 105015,
+      "grown_assist_gem_id": 200025,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1552,
+          "assist_gem_id": 100502,
+          "value": 3,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1553,
+          "assist_gem_id": 100502,
+          "value": 1000,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1554,
+          "assist_gem_id": 100502,
+          "value": 396,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        3,
+        1000,
+        396
+      ]
+    },
+    {
+      "id": 100504,
+      "name": "戦型の絆・加速命(4級M)",
+      "name_short": "戦型・加速命",
+      "name_short_with_rarity": "戦型・加速命(4級M)",
+      "rarity": 1,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型のスピード0.4、HP8アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]スピード0.4、HP8アップ",
+      "image_id": 2,
+      "created_at": 1530284961,
+      "updated_at": 1723563956,
+      "gem_sort_id": 151002,
+      "gem_sort_id_hero": 111002,
+      "gem_sort_id_box": 114002,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1555,
+          "assist_gem_id": 100504,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1556,
+          "assist_gem_id": 100504,
+          "value": 12,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1557,
+          "assist_gem_id": 100504,
+          "value": 8,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        12,
+        8
+      ]
+    },
+    {
+      "id": 100505,
+      "name": "戦型の絆・加速命(4級L)",
+      "name_short": "戦型・加速命",
+      "name_short_with_rarity": "戦型・加速命(4級L)",
+      "rarity": 1,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型のスピード0.6、HP12アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]スピード0.6、HP12アップ",
+      "image_id": 2,
+      "created_at": 1530284961,
+      "updated_at": 1723563956,
+      "gem_sort_id": 151003,
+      "gem_sort_id_hero": 111003,
+      "gem_sort_id_box": 114003,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1558,
+          "assist_gem_id": 100505,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1559,
+          "assist_gem_id": 100505,
+          "value": 18,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1560,
+          "assist_gem_id": 100505,
+          "value": 12,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        18,
+        12
+      ]
+    },
+    {
+      "id": 100506,
+      "name": "戦型の絆・加速命(3級)",
+      "name_short": "戦型・加速命",
+      "name_short_with_rarity": "戦型・加速命(3級)",
+      "rarity": 2,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型のスピード0.8、HP24アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]スピード0.8、HP24アップ",
+      "image_id": 3,
+      "created_at": 1530284961,
+      "updated_at": 1723563956,
+      "gem_sort_id": 151004,
+      "gem_sort_id_hero": 111004,
+      "gem_sort_id_box": 114004,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1561,
+          "assist_gem_id": 100506,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1562,
+          "assist_gem_id": 100506,
+          "value": 24,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1563,
+          "assist_gem_id": 100506,
+          "value": 24,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        24,
+        24
+      ]
+    },
+    {
+      "id": 100507,
+      "name": "戦型の絆・加速命(3級M)",
+      "name_short": "戦型・加速命",
+      "name_short_with_rarity": "戦型・加速命(3級M)",
+      "rarity": 2,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型のスピード1、HP32アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]スピード1、HP32アップ",
+      "image_id": 3,
+      "created_at": 1530284961,
+      "updated_at": 1723563956,
+      "gem_sort_id": 151005,
+      "gem_sort_id_hero": 111005,
+      "gem_sort_id_box": 114005,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1564,
+          "assist_gem_id": 100507,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1565,
+          "assist_gem_id": 100507,
+          "value": 30,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1566,
+          "assist_gem_id": 100507,
+          "value": 32,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        30,
+        32
+      ]
+    },
+    {
+      "id": 100508,
+      "name": "戦型の絆・加速命(3級L)",
+      "name_short": "戦型・加速命",
+      "name_short_with_rarity": "戦型・加速命(3級L)",
+      "rarity": 2,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型のスピード1.2、HP40アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]スピード1.2、HP40アップ",
+      "image_id": 3,
+      "created_at": 1530284961,
+      "updated_at": 1723563956,
+      "gem_sort_id": 151006,
+      "gem_sort_id_hero": 111006,
+      "gem_sort_id_box": 114006,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1567,
+          "assist_gem_id": 100508,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1568,
+          "assist_gem_id": 100508,
+          "value": 36,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1569,
+          "assist_gem_id": 100508,
+          "value": 40,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        36,
+        40
+      ]
+    },
+    {
+      "id": 100509,
+      "name": "戦型の絆・加速命(2級)",
+      "name_short": "戦型・加速命",
+      "name_short_with_rarity": "戦型・加速命(2級)",
+      "rarity": 3,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型のスピード1.4、HP80アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]スピード1.4、HP80アップ",
+      "image_id": 4,
+      "created_at": 1530284961,
+      "updated_at": 1723563956,
+      "gem_sort_id": 151007,
+      "gem_sort_id_hero": 111007,
+      "gem_sort_id_box": 114007,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1570,
+          "assist_gem_id": 100509,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1571,
+          "assist_gem_id": 100509,
+          "value": 42,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1572,
+          "assist_gem_id": 100509,
+          "value": 80,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        42,
+        80
+      ]
+    },
+    {
+      "id": 100510,
+      "name": "戦型の絆・加速命(2級M)",
+      "name_short": "戦型・加速命",
+      "name_short_with_rarity": "戦型・加速命(2級M)",
+      "rarity": 3,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型のスピード1.6、HP100アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]スピード1.6、HP100アップ",
+      "image_id": 4,
+      "created_at": 1530284961,
+      "updated_at": 1723563956,
+      "gem_sort_id": 151008,
+      "gem_sort_id_hero": 111008,
+      "gem_sort_id_box": 114008,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1573,
+          "assist_gem_id": 100510,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1574,
+          "assist_gem_id": 100510,
+          "value": 48,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1575,
+          "assist_gem_id": 100510,
+          "value": 100,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        48,
+        100
+      ]
+    },
+    {
+      "id": 100511,
+      "name": "戦型の絆・加速命(2級L)",
+      "name_short": "戦型・加速命",
+      "name_short_with_rarity": "戦型・加速命(2級L)",
+      "rarity": 3,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型のスピード1.8、HP120アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]スピード1.8、HP120アップ",
+      "image_id": 4,
+      "created_at": 1530284961,
+      "updated_at": 1723563956,
+      "gem_sort_id": 151009,
+      "gem_sort_id_hero": 111009,
+      "gem_sort_id_box": 114009,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1576,
+          "assist_gem_id": 100511,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1577,
+          "assist_gem_id": 100511,
+          "value": 54,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1578,
+          "assist_gem_id": 100511,
+          "value": 120,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        54,
+        120
+      ]
+    },
+    {
+      "id": 100512,
+      "name": "戦型の絆・加速命(1級)",
+      "name_short": "戦型・加速命",
+      "name_short_with_rarity": "戦型・加速命(1級)",
+      "rarity": 4,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型のスピード2.8、HP200アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]スピード2.8、HP200アップ",
+      "image_id": 5,
+      "created_at": 1530284962,
+      "updated_at": 1723563956,
+      "gem_sort_id": 151010,
+      "gem_sort_id_hero": 111010,
+      "gem_sort_id_box": 114010,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1579,
+          "assist_gem_id": 100512,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1580,
+          "assist_gem_id": 100512,
+          "value": 84,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1581,
+          "assist_gem_id": 100512,
+          "value": 200,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        84,
+        200
+      ]
+    },
+    {
+      "id": 100513,
+      "name": "戦型の絆・加速命(1級M)",
+      "name_short": "戦型・加速命",
+      "name_short_with_rarity": "戦型・加速命(1級M)",
+      "rarity": 4,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型のスピード3.4、HP300アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]スピード3.4、HP300アップ",
+      "image_id": 6,
+      "created_at": 1530284962,
+      "updated_at": 1723563956,
+      "gem_sort_id": 151011,
+      "gem_sort_id_hero": 111011,
+      "gem_sort_id_box": 114011,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1582,
+          "assist_gem_id": 100513,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1583,
+          "assist_gem_id": 100513,
+          "value": 102,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1584,
+          "assist_gem_id": 100513,
+          "value": 300,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        102,
+        300
+      ]
+    },
+    {
+      "id": 100514,
+      "name": "戦型の絆・加速命(1級L)",
+      "name_short": "戦型・加速命",
+      "name_short_with_rarity": "戦型・加速命(1級L)",
+      "rarity": 4,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型のスピード4、HP400アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]スピード4、HP400アップ",
+      "image_id": 7,
+      "created_at": 1530284962,
+      "updated_at": 1723563957,
+      "gem_sort_id": 151012,
+      "gem_sort_id_hero": 111012,
+      "gem_sort_id_box": 114012,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1585,
+          "assist_gem_id": 100514,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1586,
+          "assist_gem_id": 100514,
+          "value": 120,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1587,
+          "assist_gem_id": 100514,
+          "value": 400,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        120,
+        400
+      ]
+    },
+    {
+      "id": 100515,
+      "name": "戦型の絆・加速命(特級)",
+      "name_short": "戦型・加速命",
+      "name_short_with_rarity": "戦型・加速命(特級)",
+      "rarity": 5,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型のスピード8、HP600アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]スピード8、HP600アップ",
+      "image_id": 8,
+      "created_at": 1530284962,
+      "updated_at": 1723563957,
+      "gem_sort_id": 151013,
+      "gem_sort_id_hero": 111013,
+      "gem_sort_id_box": 114013,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1588,
+          "assist_gem_id": 100515,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1589,
+          "assist_gem_id": 100515,
+          "value": 240,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1590,
+          "assist_gem_id": 100515,
+          "value": 600,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        240,
+        600
+      ]
+    },
+    {
+      "id": 100516,
+      "name": "戦型の絆・加速命(特級M)",
+      "name_short": "戦型・加速命",
+      "name_short_with_rarity": "戦型・加速命(特級M)",
+      "rarity": 5,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型のスピード10.6、HP800アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]スピード10.6、HP800アップ",
+      "image_id": 9,
+      "created_at": 1530284962,
+      "updated_at": 1723563957,
+      "gem_sort_id": 151014,
+      "gem_sort_id_hero": 111014,
+      "gem_sort_id_box": 114014,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1591,
+          "assist_gem_id": 100516,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1592,
+          "assist_gem_id": 100516,
+          "value": 318,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1593,
+          "assist_gem_id": 100516,
+          "value": 800,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        318,
+        800
+      ]
+    },
+    {
+      "id": 100517,
+      "name": "戦型の絆・加速命(特級L)",
+      "name_short": "戦型・加速命",
+      "name_short_with_rarity": "戦型・加速命(特級L)",
+      "rarity": 5,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型のスピード13.2、HP1000アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]スピード13.2、HP1000アップ",
+      "image_id": 10,
+      "created_at": 1530284962,
+      "updated_at": 1723563957,
+      "gem_sort_id": 151015,
+      "gem_sort_id_hero": 111015,
+      "gem_sort_id_box": 114015,
+      "grown_assist_gem_id": 200026,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1594,
+          "assist_gem_id": 100517,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1595,
+          "assist_gem_id": 100517,
+          "value": 396,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1596,
+          "assist_gem_id": 100517,
+          "value": 1000,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        396,
+        1000
+      ]
+    },
+    {
+      "id": 100519,
+      "name": "戦型の絆・加命撃(4級M)",
+      "name_short": "戦型・加命撃",
+      "name_short_with_rarity": "戦型・加命撃(4級M)",
+      "rarity": 1,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型のHP8、攻撃力8アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]HP8、攻撃力8アップ",
+      "image_id": 2,
+      "created_at": 1530284962,
+      "updated_at": 1723563957,
+      "gem_sort_id": 122002,
+      "gem_sort_id_hero": 117002,
+      "gem_sort_id_box": 108002,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1597,
+          "assist_gem_id": 100519,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1598,
+          "assist_gem_id": 100519,
+          "value": 8,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1599,
+          "assist_gem_id": 100519,
+          "value": 8,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        8,
+        8
+      ]
+    },
+    {
+      "id": 100520,
+      "name": "戦型の絆・加命撃(4級L)",
+      "name_short": "戦型・加命撃",
+      "name_short_with_rarity": "戦型・加命撃(4級L)",
+      "rarity": 1,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型のHP12、攻撃力12アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]HP12、攻撃力12アップ",
+      "image_id": 2,
+      "created_at": 1530284962,
+      "updated_at": 1723563957,
+      "gem_sort_id": 122003,
+      "gem_sort_id_hero": 117003,
+      "gem_sort_id_box": 108003,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1600,
+          "assist_gem_id": 100520,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1601,
+          "assist_gem_id": 100520,
+          "value": 12,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1602,
+          "assist_gem_id": 100520,
+          "value": 12,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        12,
+        12
+      ]
+    },
+    {
+      "id": 100521,
+      "name": "戦型の絆・加命撃(3級)",
+      "name_short": "戦型・加命撃",
+      "name_short_with_rarity": "戦型・加命撃(3級)",
+      "rarity": 2,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型のHP24、攻撃力24アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]HP24、攻撃力24アップ",
+      "image_id": 3,
+      "created_at": 1530284962,
+      "updated_at": 1723563957,
+      "gem_sort_id": 122004,
+      "gem_sort_id_hero": 117004,
+      "gem_sort_id_box": 108004,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1603,
+          "assist_gem_id": 100521,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1604,
+          "assist_gem_id": 100521,
+          "value": 24,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1605,
+          "assist_gem_id": 100521,
+          "value": 24,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        24,
+        24
+      ]
+    },
+    {
+      "id": 100522,
+      "name": "戦型の絆・加命撃(3級M)",
+      "name_short": "戦型・加命撃",
+      "name_short_with_rarity": "戦型・加命撃(3級M)",
+      "rarity": 2,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型のHP32、攻撃力32アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]HP32、攻撃力32アップ",
+      "image_id": 3,
+      "created_at": 1530284963,
+      "updated_at": 1723563957,
+      "gem_sort_id": 122005,
+      "gem_sort_id_hero": 117005,
+      "gem_sort_id_box": 108005,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1606,
+          "assist_gem_id": 100522,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1607,
+          "assist_gem_id": 100522,
+          "value": 32,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1608,
+          "assist_gem_id": 100522,
+          "value": 32,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        32,
+        32
+      ]
+    },
+    {
+      "id": 100523,
+      "name": "戦型の絆・加命撃(3級L)",
+      "name_short": "戦型・加命撃",
+      "name_short_with_rarity": "戦型・加命撃(3級L)",
+      "rarity": 2,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型のHP40、攻撃力40アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]HP40、攻撃力40アップ",
+      "image_id": 3,
+      "created_at": 1530284963,
+      "updated_at": 1723563957,
+      "gem_sort_id": 122006,
+      "gem_sort_id_hero": 117006,
+      "gem_sort_id_box": 108006,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1609,
+          "assist_gem_id": 100523,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1610,
+          "assist_gem_id": 100523,
+          "value": 40,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1611,
+          "assist_gem_id": 100523,
+          "value": 40,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        40,
+        40
+      ]
+    },
+    {
+      "id": 100524,
+      "name": "戦型の絆・加命撃(2級)",
+      "name_short": "戦型・加命撃",
+      "name_short_with_rarity": "戦型・加命撃(2級)",
+      "rarity": 3,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型のHP80、攻撃力80アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]HP80、攻撃力80アップ",
+      "image_id": 4,
+      "created_at": 1530284963,
+      "updated_at": 1723563957,
+      "gem_sort_id": 122007,
+      "gem_sort_id_hero": 117007,
+      "gem_sort_id_box": 108007,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1612,
+          "assist_gem_id": 100524,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1613,
+          "assist_gem_id": 100524,
+          "value": 80,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1614,
+          "assist_gem_id": 100524,
+          "value": 80,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        80,
+        80
+      ]
+    },
+    {
+      "id": 100525,
+      "name": "戦型の絆・加命撃(2級M)",
+      "name_short": "戦型・加命撃",
+      "name_short_with_rarity": "戦型・加命撃(2級M)",
+      "rarity": 3,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型のHP100、攻撃力100アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]HP100、攻撃力100アップ",
+      "image_id": 4,
+      "created_at": 1530284963,
+      "updated_at": 1723563957,
+      "gem_sort_id": 122008,
+      "gem_sort_id_hero": 117008,
+      "gem_sort_id_box": 108008,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1615,
+          "assist_gem_id": 100525,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1616,
+          "assist_gem_id": 100525,
+          "value": 100,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1617,
+          "assist_gem_id": 100525,
+          "value": 100,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        100,
+        100
+      ]
+    },
+    {
+      "id": 100526,
+      "name": "戦型の絆・加命撃(2級L)",
+      "name_short": "戦型・加命撃",
+      "name_short_with_rarity": "戦型・加命撃(2級L)",
+      "rarity": 3,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型のHP120、攻撃力120アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]HP120、攻撃力120アップ",
+      "image_id": 4,
+      "created_at": 1530284963,
+      "updated_at": 1723563957,
+      "gem_sort_id": 122009,
+      "gem_sort_id_hero": 117009,
+      "gem_sort_id_box": 108009,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1618,
+          "assist_gem_id": 100526,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1619,
+          "assist_gem_id": 100526,
+          "value": 120,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1620,
+          "assist_gem_id": 100526,
+          "value": 120,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        120,
+        120
+      ]
+    },
+    {
+      "id": 100527,
+      "name": "戦型の絆・加命撃(1級)",
+      "name_short": "戦型・加命撃",
+      "name_short_with_rarity": "戦型・加命撃(1級)",
+      "rarity": 4,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型のHP200、攻撃力200アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]HP200、攻撃力200アップ",
+      "image_id": 5,
+      "created_at": 1530284963,
+      "updated_at": 1723563957,
+      "gem_sort_id": 122010,
+      "gem_sort_id_hero": 117010,
+      "gem_sort_id_box": 108010,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1621,
+          "assist_gem_id": 100527,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1622,
+          "assist_gem_id": 100527,
+          "value": 200,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1623,
+          "assist_gem_id": 100527,
+          "value": 200,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        200,
+        200
+      ]
+    },
+    {
+      "id": 100528,
+      "name": "戦型の絆・加命撃(1級M)",
+      "name_short": "戦型・加命撃",
+      "name_short_with_rarity": "戦型・加命撃(1級M)",
+      "rarity": 4,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型のHP300、攻撃力300アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]HP300、攻撃力300アップ",
+      "image_id": 6,
+      "created_at": 1530284963,
+      "updated_at": 1723563957,
+      "gem_sort_id": 122011,
+      "gem_sort_id_hero": 117011,
+      "gem_sort_id_box": 108011,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1624,
+          "assist_gem_id": 100528,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1625,
+          "assist_gem_id": 100528,
+          "value": 300,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1626,
+          "assist_gem_id": 100528,
+          "value": 300,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        300,
+        300
+      ]
+    },
+    {
+      "id": 100529,
+      "name": "戦型の絆・加命撃(1級L)",
+      "name_short": "戦型・加命撃",
+      "name_short_with_rarity": "戦型・加命撃(1級L)",
+      "rarity": 4,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型のHP400、攻撃力400アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]HP400、攻撃力400アップ",
+      "image_id": 7,
+      "created_at": 1530284963,
+      "updated_at": 1723563957,
+      "gem_sort_id": 122012,
+      "gem_sort_id_hero": 117012,
+      "gem_sort_id_box": 108012,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1627,
+          "assist_gem_id": 100529,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1628,
+          "assist_gem_id": 100529,
+          "value": 400,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1629,
+          "assist_gem_id": 100529,
+          "value": 400,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        400,
+        400
+      ]
+    },
+    {
+      "id": 100530,
+      "name": "戦型の絆・加命撃(特級)",
+      "name_short": "戦型・加命撃",
+      "name_short_with_rarity": "戦型・加命撃(特級)",
+      "rarity": 5,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型のHP600、攻撃力600アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]HP600、攻撃力600アップ",
+      "image_id": 8,
+      "created_at": 1530284964,
+      "updated_at": 1723563957,
+      "gem_sort_id": 122013,
+      "gem_sort_id_hero": 117013,
+      "gem_sort_id_box": 108013,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1630,
+          "assist_gem_id": 100530,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1631,
+          "assist_gem_id": 100530,
+          "value": 600,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1632,
+          "assist_gem_id": 100530,
+          "value": 600,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        600,
+        600
+      ]
+    },
+    {
+      "id": 100531,
+      "name": "戦型の絆・加命撃(特級M)",
+      "name_short": "戦型・加命撃",
+      "name_short_with_rarity": "戦型・加命撃(特級M)",
+      "rarity": 5,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型のHP800、攻撃力800アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]HP800、攻撃力800アップ",
+      "image_id": 9,
+      "created_at": 1530284964,
+      "updated_at": 1723563957,
+      "gem_sort_id": 122014,
+      "gem_sort_id_hero": 117014,
+      "gem_sort_id_box": 108014,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1633,
+          "assist_gem_id": 100531,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1634,
+          "assist_gem_id": 100531,
+          "value": 800,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1635,
+          "assist_gem_id": 100531,
+          "value": 800,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        800,
+        800
+      ]
+    },
+    {
+      "id": 100532,
+      "name": "戦型の絆・加命撃(特級L)",
+      "name_short": "戦型・加命撃",
+      "name_short_with_rarity": "戦型・加命撃(特級L)",
+      "rarity": 5,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型のHP1000、攻撃力1000アップ",
+      "description_with_tag": "自分＆同戦闘型の[LF]HP1000、攻撃力1000アップ",
+      "image_id": 10,
+      "created_at": 1530284964,
+      "updated_at": 1723563957,
+      "gem_sort_id": 122015,
+      "gem_sort_id_hero": 117015,
+      "gem_sort_id_box": 108015,
+      "grown_assist_gem_id": 200027,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1636,
+          "assist_gem_id": 100532,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1637,
+          "assist_gem_id": 100532,
+          "value": 1000,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1638,
+          "assist_gem_id": 100532,
+          "value": 1000,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        1000,
+        1000
+      ]
+    },
+    {
+      "id": 100534,
+      "name": "ハート強化の力(4級M)",
+      "name_short": "ハート",
+      "name_short_with_rarity": "ハート(4級M)",
+      "rarity": 1,
+      "assist_type": 15,
+      "description": "ハートの効果が0.6%アップする",
+      "description_with_tag": "ハートの効果が[LF]0.6%アップする",
+      "image_id": 2,
+      "created_at": 1530284964,
+      "updated_at": 1723563957,
+      "gem_sort_id": 208002,
+      "gem_sort_id_hero": 208002,
+      "gem_sort_id_box": 208002,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1639,
+          "assist_gem_id": 100534,
+          "value": 1006,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1640,
+          "assist_gem_id": 100534,
+          "value": 6,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        1006,
+        6
+      ]
+    },
+    {
+      "id": 100535,
+      "name": "ハート強化の力(4級L)",
+      "name_short": "ハート",
+      "name_short_with_rarity": "ハート(4級L)",
+      "rarity": 1,
+      "assist_type": 15,
+      "description": "ハートの効果が0.7%アップする",
+      "description_with_tag": "ハートの効果が[LF]0.7%アップする",
+      "image_id": 2,
+      "created_at": 1530284964,
+      "updated_at": 1723563957,
+      "gem_sort_id": 208003,
+      "gem_sort_id_hero": 208003,
+      "gem_sort_id_box": 208003,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1641,
+          "assist_gem_id": 100535,
+          "value": 1007,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1642,
+          "assist_gem_id": 100535,
+          "value": 7,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        1007,
+        7
+      ]
+    },
+    {
+      "id": 100536,
+      "name": "ハート強化の力(3級)",
+      "name_short": "ハート",
+      "name_short_with_rarity": "ハート(3級)",
+      "rarity": 2,
+      "assist_type": 15,
+      "description": "ハートの効果が0.8%アップする",
+      "description_with_tag": "ハートの効果が[LF]0.8%アップする",
+      "image_id": 3,
+      "created_at": 1530284964,
+      "updated_at": 1723563957,
+      "gem_sort_id": 208004,
+      "gem_sort_id_hero": 208004,
+      "gem_sort_id_box": 208004,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1643,
+          "assist_gem_id": 100536,
+          "value": 1008,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1644,
+          "assist_gem_id": 100536,
+          "value": 8,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        1008,
+        8
+      ]
+    },
+    {
+      "id": 100537,
+      "name": "ハート強化の力(3級M)",
+      "name_short": "ハート",
+      "name_short_with_rarity": "ハート(3級M)",
+      "rarity": 2,
+      "assist_type": 15,
+      "description": "ハートの効果が0.9%アップする",
+      "description_with_tag": "ハートの効果が[LF]0.9%アップする",
+      "image_id": 3,
+      "created_at": 1530284964,
+      "updated_at": 1723563957,
+      "gem_sort_id": 208005,
+      "gem_sort_id_hero": 208005,
+      "gem_sort_id_box": 208005,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1645,
+          "assist_gem_id": 100537,
+          "value": 1009,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1646,
+          "assist_gem_id": 100537,
+          "value": 9,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        1009,
+        9
+      ]
+    },
+    {
+      "id": 100538,
+      "name": "ハート強化の力(3級L)",
+      "name_short": "ハート",
+      "name_short_with_rarity": "ハート(3級L)",
+      "rarity": 2,
+      "assist_type": 15,
+      "description": "ハートの効果が1%アップする",
+      "description_with_tag": "ハートの効果が[LF]1%アップする",
+      "image_id": 3,
+      "created_at": 1530284964,
+      "updated_at": 1723563957,
+      "gem_sort_id": 208006,
+      "gem_sort_id_hero": 208006,
+      "gem_sort_id_box": 208006,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1647,
+          "assist_gem_id": 100538,
+          "value": 1010,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1648,
+          "assist_gem_id": 100538,
+          "value": 10,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        1010,
+        10
+      ]
+    },
+    {
+      "id": 100539,
+      "name": "ハート強化の力(2級)",
+      "name_short": "ハート",
+      "name_short_with_rarity": "ハート(2級)",
+      "rarity": 3,
+      "assist_type": 15,
+      "description": "ハートの効果が1.5%アップする",
+      "description_with_tag": "ハートの効果が[LF]1.5%アップする",
+      "image_id": 4,
+      "created_at": 1530284964,
+      "updated_at": 1723563957,
+      "gem_sort_id": 208007,
+      "gem_sort_id_hero": 208007,
+      "gem_sort_id_box": 208007,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1649,
+          "assist_gem_id": 100539,
+          "value": 1015,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1650,
+          "assist_gem_id": 100539,
+          "value": 15,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        1015,
+        15
+      ]
+    },
+    {
+      "id": 100540,
+      "name": "ハート強化の力(2級M)",
+      "name_short": "ハート",
+      "name_short_with_rarity": "ハート(2級M)",
+      "rarity": 3,
+      "assist_type": 15,
+      "description": "ハートの効果が2%アップする",
+      "description_with_tag": "ハートの効果が[LF]2%アップする",
+      "image_id": 4,
+      "created_at": 1530284964,
+      "updated_at": 1723563957,
+      "gem_sort_id": 208008,
+      "gem_sort_id_hero": 208008,
+      "gem_sort_id_box": 208008,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1651,
+          "assist_gem_id": 100540,
+          "value": 1020,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1652,
+          "assist_gem_id": 100540,
+          "value": 20,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        1020,
+        20
+      ]
+    },
+    {
+      "id": 100541,
+      "name": "ハート強化の力(2級L)",
+      "name_short": "ハート",
+      "name_short_with_rarity": "ハート(2級L)",
+      "rarity": 3,
+      "assist_type": 15,
+      "description": "ハートの効果が2.5%アップする",
+      "description_with_tag": "ハートの効果が[LF]2.5%アップする",
+      "image_id": 4,
+      "created_at": 1530284965,
+      "updated_at": 1723563957,
+      "gem_sort_id": 208009,
+      "gem_sort_id_hero": 208009,
+      "gem_sort_id_box": 208009,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1653,
+          "assist_gem_id": 100541,
+          "value": 1025,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1654,
+          "assist_gem_id": 100541,
+          "value": 25,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        1025,
+        25
+      ]
+    },
+    {
+      "id": 100542,
+      "name": "ハート強化の力(1級)",
+      "name_short": "ハート",
+      "name_short_with_rarity": "ハート(1級)",
+      "rarity": 4,
+      "assist_type": 15,
+      "description": "ハートの効果が3%アップする",
+      "description_with_tag": "ハートの効果が[LF]3%アップする",
+      "image_id": 5,
+      "created_at": 1530284965,
+      "updated_at": 1723563958,
+      "gem_sort_id": 208010,
+      "gem_sort_id_hero": 208010,
+      "gem_sort_id_box": 208010,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1655,
+          "assist_gem_id": 100542,
+          "value": 1030,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1656,
+          "assist_gem_id": 100542,
+          "value": 30,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        1030,
+        30
+      ]
+    },
+    {
+      "id": 100543,
+      "name": "ハート強化の力(1級M)",
+      "name_short": "ハート",
+      "name_short_with_rarity": "ハート(1級M)",
+      "rarity": 4,
+      "assist_type": 15,
+      "description": "ハートの効果が4%アップする",
+      "description_with_tag": "ハートの効果が[LF]4%アップする",
+      "image_id": 6,
+      "created_at": 1530284965,
+      "updated_at": 1723563958,
+      "gem_sort_id": 208011,
+      "gem_sort_id_hero": 208011,
+      "gem_sort_id_box": 208011,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1657,
+          "assist_gem_id": 100543,
+          "value": 1040,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1658,
+          "assist_gem_id": 100543,
+          "value": 40,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        1040,
+        40
+      ]
+    },
+    {
+      "id": 100544,
+      "name": "ハート強化の力(1級L)",
+      "name_short": "ハート",
+      "name_short_with_rarity": "ハート(1級L)",
+      "rarity": 4,
+      "assist_type": 15,
+      "description": "ハートの効果が5%アップする",
+      "description_with_tag": "ハートの効果が[LF]5%アップする",
+      "image_id": 7,
+      "created_at": 1530284965,
+      "updated_at": 1723563958,
+      "gem_sort_id": 208012,
+      "gem_sort_id_hero": 208012,
+      "gem_sort_id_box": 208012,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1659,
+          "assist_gem_id": 100544,
+          "value": 1050,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1660,
+          "assist_gem_id": 100544,
+          "value": 50,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        1050,
+        50
+      ]
+    },
+    {
+      "id": 100545,
+      "name": "ハート強化の力(特級)",
+      "name_short": "ハート",
+      "name_short_with_rarity": "ハート(特級)",
+      "rarity": 5,
+      "assist_type": 15,
+      "description": "ハートの効果が10%アップする",
+      "description_with_tag": "ハートの効果が[LF]10%アップする",
+      "image_id": 8,
+      "created_at": 1530284965,
+      "updated_at": 1723563958,
+      "gem_sort_id": 208013,
+      "gem_sort_id_hero": 208013,
+      "gem_sort_id_box": 208013,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1661,
+          "assist_gem_id": 100545,
+          "value": 1100,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1662,
+          "assist_gem_id": 100545,
+          "value": 100,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        1100,
+        100
+      ]
+    },
+    {
+      "id": 100546,
+      "name": "ハート強化の力(特級M)",
+      "name_short": "ハート",
+      "name_short_with_rarity": "ハート(特級M)",
+      "rarity": 5,
+      "assist_type": 15,
+      "description": "ハートの効果が12.5%アップする",
+      "description_with_tag": "ハートの効果が[LF]12.5%アップする",
+      "image_id": 9,
+      "created_at": 1530284965,
+      "updated_at": 1723563958,
+      "gem_sort_id": 208014,
+      "gem_sort_id_hero": 208014,
+      "gem_sort_id_box": 208014,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1663,
+          "assist_gem_id": 100546,
+          "value": 1125,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1664,
+          "assist_gem_id": 100546,
+          "value": 125,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        1125,
+        125
+      ]
+    },
+    {
+      "id": 100547,
+      "name": "ハート強化の力(特級L)",
+      "name_short": "ハート",
+      "name_short_with_rarity": "ハート(特級L)",
+      "rarity": 5,
+      "assist_type": 15,
+      "description": "ハートの効果が15%アップする",
+      "description_with_tag": "ハートの効果が[LF]15%アップする",
+      "image_id": 10,
+      "created_at": 1530284965,
+      "updated_at": 1723563958,
+      "gem_sort_id": 208015,
+      "gem_sort_id_hero": 208015,
+      "gem_sort_id_box": 208015,
+      "grown_assist_gem_id": 200028,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1665,
+          "assist_gem_id": 100547,
+          "value": 1150,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1666,
+          "assist_gem_id": 100547,
+          "value": 150,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        1150,
+        150
+      ]
+    },
+    {
+      "id": 100549,
+      "name": "兵命削りの力(4級M)",
+      "name_short": "兵命削り",
+      "name_short_with_rarity": "兵命削り(4級M)",
+      "rarity": 1,
+      "assist_type": 16,
+      "description": "バトルの開始直前にボス以外のHPを1.5%削る",
+      "description_with_tag": "バトルの開始直前に[LF]ボス以外のHPを1.5%削る",
+      "image_id": 2,
+      "created_at": 1566833589,
+      "updated_at": 1723563958,
+      "gem_sort_id": 203002,
+      "gem_sort_id_hero": 203002,
+      "gem_sort_id_box": 203002,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1685,
+          "assist_gem_id": 100549,
+          "value": 15,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        15
+      ]
+    },
+    {
+      "id": 100550,
+      "name": "兵命削りの力(4級L)",
+      "name_short": "兵命削り",
+      "name_short_with_rarity": "兵命削り(4級L)",
+      "rarity": 1,
+      "assist_type": 16,
+      "description": "バトルの開始直前にボス以外のHPを2%削る",
+      "description_with_tag": "バトルの開始直前に[LF]ボス以外のHPを2%削る",
+      "image_id": 2,
+      "created_at": 1566833589,
+      "updated_at": 1723563958,
+      "gem_sort_id": 203003,
+      "gem_sort_id_hero": 203003,
+      "gem_sort_id_box": 203003,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1686,
+          "assist_gem_id": 100550,
+          "value": 20,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        20
+      ]
+    },
+    {
+      "id": 100551,
+      "name": "兵命削りの力(3級)",
+      "name_short": "兵命削り",
+      "name_short_with_rarity": "兵命削り(3級)",
+      "rarity": 2,
+      "assist_type": 16,
+      "description": "バトルの開始直前にボス以外のHPを3%削る",
+      "description_with_tag": "バトルの開始直前に[LF]ボス以外のHPを3%削る",
+      "image_id": 3,
+      "created_at": 1566833589,
+      "updated_at": 1723563958,
+      "gem_sort_id": 203004,
+      "gem_sort_id_hero": 203004,
+      "gem_sort_id_box": 203004,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1687,
+          "assist_gem_id": 100551,
+          "value": 30,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        30
+      ]
+    },
+    {
+      "id": 100552,
+      "name": "兵命削りの力(3級M)",
+      "name_short": "兵命削り",
+      "name_short_with_rarity": "兵命削り(3級M)",
+      "rarity": 2,
+      "assist_type": 16,
+      "description": "バトルの開始直前にボス以外のHPを3.5%削る",
+      "description_with_tag": "バトルの開始直前に[LF]ボス以外のHPを3.5%削る",
+      "image_id": 3,
+      "created_at": 1566833589,
+      "updated_at": 1723563958,
+      "gem_sort_id": 203005,
+      "gem_sort_id_hero": 203005,
+      "gem_sort_id_box": 203005,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1688,
+          "assist_gem_id": 100552,
+          "value": 35,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        35
+      ]
+    },
+    {
+      "id": 100553,
+      "name": "兵命削りの力(3級L)",
+      "name_short": "兵命削り",
+      "name_short_with_rarity": "兵命削り(3級L)",
+      "rarity": 2,
+      "assist_type": 16,
+      "description": "バトルの開始直前にボス以外のHPを4%削る",
+      "description_with_tag": "バトルの開始直前に[LF]ボス以外のHPを4%削る",
+      "image_id": 3,
+      "created_at": 1566833589,
+      "updated_at": 1723563958,
+      "gem_sort_id": 203006,
+      "gem_sort_id_hero": 203006,
+      "gem_sort_id_box": 203006,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1689,
+          "assist_gem_id": 100553,
+          "value": 40,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        40
+      ]
+    },
+    {
+      "id": 100554,
+      "name": "兵命削りの力(2級)",
+      "name_short": "兵命削り",
+      "name_short_with_rarity": "兵命削り(2級)",
+      "rarity": 3,
+      "assist_type": 16,
+      "description": "バトルの開始直前にボス以外のHPを5%削る",
+      "description_with_tag": "バトルの開始直前に[LF]ボス以外のHPを5%削る",
+      "image_id": 4,
+      "created_at": 1566833589,
+      "updated_at": 1723563958,
+      "gem_sort_id": 203007,
+      "gem_sort_id_hero": 203007,
+      "gem_sort_id_box": 203007,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1690,
+          "assist_gem_id": 100554,
+          "value": 50,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        50
+      ]
+    },
+    {
+      "id": 100555,
+      "name": "兵命削りの力(2級M)",
+      "name_short": "兵命削り",
+      "name_short_with_rarity": "兵命削り(2級M)",
+      "rarity": 3,
+      "assist_type": 16,
+      "description": "バトルの開始直前にボス以外のHPを5.5%削る",
+      "description_with_tag": "バトルの開始直前に[LF]ボス以外のHPを5.5%削る",
+      "image_id": 4,
+      "created_at": 1566833589,
+      "updated_at": 1723563958,
+      "gem_sort_id": 203008,
+      "gem_sort_id_hero": 203008,
+      "gem_sort_id_box": 203008,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1691,
+          "assist_gem_id": 100555,
+          "value": 55,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        55
+      ]
+    },
+    {
+      "id": 100556,
+      "name": "兵命削りの力(2級L)",
+      "name_short": "兵命削り",
+      "name_short_with_rarity": "兵命削り(2級L)",
+      "rarity": 3,
+      "assist_type": 16,
+      "description": "バトルの開始直前にボス以外のHPを6%削る",
+      "description_with_tag": "バトルの開始直前に[LF]ボス以外のHPを6%削る",
+      "image_id": 4,
+      "created_at": 1566833589,
+      "updated_at": 1723563958,
+      "gem_sort_id": 203009,
+      "gem_sort_id_hero": 203009,
+      "gem_sort_id_box": 203009,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1692,
+          "assist_gem_id": 100556,
+          "value": 60,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        60
+      ]
+    },
+    {
+      "id": 100557,
+      "name": "兵命削りの力(1級)",
+      "name_short": "兵命削り",
+      "name_short_with_rarity": "兵命削り(1級)",
+      "rarity": 4,
+      "assist_type": 16,
+      "description": "バトルの開始直前にボス以外のHPを7.5%削る",
+      "description_with_tag": "バトルの開始直前に[LF]ボス以外のHPを7.5%削る",
+      "image_id": 5,
+      "created_at": 1566833589,
+      "updated_at": 1723563958,
+      "gem_sort_id": 203010,
+      "gem_sort_id_hero": 203010,
+      "gem_sort_id_box": 203010,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1693,
+          "assist_gem_id": 100557,
+          "value": 75,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        75
+      ]
+    },
+    {
+      "id": 100558,
+      "name": "兵命削りの力(1級M)",
+      "name_short": "兵命削り",
+      "name_short_with_rarity": "兵命削り(1級M)",
+      "rarity": 4,
+      "assist_type": 16,
+      "description": "バトルの開始直前にボス以外のHPを9%削る",
+      "description_with_tag": "バトルの開始直前に[LF]ボス以外のHPを9%削る",
+      "image_id": 6,
+      "created_at": 1566833589,
+      "updated_at": 1723563958,
+      "gem_sort_id": 203011,
+      "gem_sort_id_hero": 203011,
+      "gem_sort_id_box": 203011,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1694,
+          "assist_gem_id": 100558,
+          "value": 90,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        90
+      ]
+    },
+    {
+      "id": 100559,
+      "name": "兵命削りの力(1級L)",
+      "name_short": "兵命削り",
+      "name_short_with_rarity": "兵命削り(1級L)",
+      "rarity": 4,
+      "assist_type": 16,
+      "description": "バトルの開始直前にボス以外のHPを10.5%削る",
+      "description_with_tag": "バトルの開始直前に[LF]ボス以外のHPを10.5%削る",
+      "image_id": 7,
+      "created_at": 1566833589,
+      "updated_at": 1723563958,
+      "gem_sort_id": 203012,
+      "gem_sort_id_hero": 203012,
+      "gem_sort_id_box": 203012,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1695,
+          "assist_gem_id": 100559,
+          "value": 105,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        105
+      ]
+    },
+    {
+      "id": 100560,
+      "name": "兵命削りの力(特級)",
+      "name_short": "兵命削り",
+      "name_short_with_rarity": "兵命削り(特級)",
+      "rarity": 5,
+      "assist_type": 16,
+      "description": "バトルの開始直前にボス以外のHPを12%削る",
+      "description_with_tag": "バトルの開始直前に[LF]ボス以外のHPを12%削る",
+      "image_id": 8,
+      "created_at": 1566833589,
+      "updated_at": 1723563958,
+      "gem_sort_id": 203013,
+      "gem_sort_id_hero": 203013,
+      "gem_sort_id_box": 203013,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 0,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1696,
+          "assist_gem_id": 100560,
+          "value": 120,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        120
+      ]
+    },
+    {
+      "id": 100561,
+      "name": "兵命削りの力(特級M)",
+      "name_short": "兵命削り",
+      "name_short_with_rarity": "兵命削り(特級M)",
+      "rarity": 5,
+      "assist_type": 16,
+      "description": "バトルの開始直前にボス以外のHPを14%削る",
+      "description_with_tag": "バトルの開始直前に[LF]ボス以外のHPを14%削る",
+      "image_id": 9,
+      "created_at": 1566833589,
+      "updated_at": 1723563958,
+      "gem_sort_id": 203014,
+      "gem_sort_id_hero": 203014,
+      "gem_sort_id_box": 203014,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 1,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1697,
+          "assist_gem_id": 100561,
+          "value": 140,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        140
+      ]
+    },
+    {
+      "id": 100562,
+      "name": "兵命削りの力(特級L)",
+      "name_short": "兵命削り",
+      "name_short_with_rarity": "兵命削り(特級L)",
+      "rarity": 5,
+      "assist_type": 16,
+      "description": "バトルの開始直前にボス以外のHPを16%削る",
+      "description_with_tag": "バトルの開始直前に[LF]ボス以外のHPを16%削る",
+      "image_id": 10,
+      "created_at": 1566833589,
+      "updated_at": 1723563958,
+      "gem_sort_id": 203015,
+      "gem_sort_id_hero": 203015,
+      "gem_sort_id_box": 203015,
+      "grown_assist_gem_id": 200029,
+      "box_group_id": 0,
+      "rarity_type": 2,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1698,
+          "assist_gem_id": 100562,
+          "value": 160,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        160
+      ]
+    },
+    {
+      "id": 200001,
+      "name": "学びの力(特級EL)",
+      "name_short": "学び",
+      "name_short_with_rarity": "学び(特級EL)",
+      "rarity": 5,
+      "assist_type": 1,
+      "description": "クエスト報酬の｢獲得経験値｣が65%増える",
+      "description_with_tag": "クエスト報酬の｢獲得経験値｣が[LF]65%増える",
+      "image_id": 11,
+      "created_at": 1659577585,
+      "updated_at": 1723563958,
+      "gem_sort_id": 300016,
+      "gem_sort_id_hero": 300016,
+      "gem_sort_id_box": 300016,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 3,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1700,
+          "assist_gem_id": 200001,
+          "value": 165,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        165
+      ]
+    },
+    {
+      "id": 200002,
+      "name": "荒稼ぎの力(特級EL)",
+      "name_short": "荒稼ぎ",
+      "name_short_with_rarity": "荒稼ぎ(特級EL)",
+      "rarity": 5,
+      "assist_type": 2,
+      "description": "クエスト報酬の｢獲得ゴールド｣が70%増える",
+      "description_with_tag": "クエスト報酬の｢獲得ゴールド｣が[LF]70%増える",
+      "image_id": 11,
+      "created_at": 1659577585,
+      "updated_at": 1723563958,
+      "gem_sort_id": 301016,
+      "gem_sort_id_hero": 301016,
+      "gem_sort_id_box": 301016,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 3,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1701,
+          "assist_gem_id": 200002,
+          "value": 170,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        170
+      ]
+    },
+    {
+      "id": 200003,
+      "name": "熱き友撃の力(特級EL)",
+      "name_short": "熱き友撃",
+      "name_short_with_rarity": "熱き友撃(特級EL)",
+      "rarity": 5,
+      "assist_type": 3,
+      "description": "友情コンボ｢威力｣が27.5%アップする",
+      "description_with_tag": "友情コンボ｢威力｣が[LF]27.5%アップする",
+      "image_id": 11,
+      "created_at": 1659577585,
+      "updated_at": 1723563958,
+      "gem_sort_id": 200016,
+      "gem_sort_id_hero": 200016,
+      "gem_sort_id_box": 200016,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 3,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1702,
+          "assist_gem_id": 200003,
+          "value": 1275,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        1275
+      ]
+    },
+    {
+      "id": 200004,
+      "name": "ケガ減りの力(特級EL)",
+      "name_short": "ケガ減り",
+      "name_short_with_rarity": "ケガ減り(特級EL)",
+      "rarity": 5,
+      "assist_type": 4,
+      "description": "敵から受けるダメージが27.5%減る",
+      "description_with_tag": "敵から受けるダメージが[LF]27.5%減る",
+      "image_id": 11,
+      "created_at": 1659577586,
+      "updated_at": 1723563958,
+      "gem_sort_id": 201016,
+      "gem_sort_id_hero": 201016,
+      "gem_sort_id_box": 201016,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 3,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1703,
+          "assist_gem_id": 200004,
+          "value": 725,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        725
+      ]
+    },
+    {
+      "id": 200005,
+      "name": "将命削りの力(特級EL)",
+      "name_short": "将命削り",
+      "name_short_with_rarity": "将命削り(特級EL)",
+      "rarity": 5,
+      "assist_type": 5,
+      "description": "バトルの開始直前にボスのHPを17%削る",
+      "description_with_tag": "バトルの開始直前にボスのHPを17%削る",
+      "image_id": 11,
+      "created_at": 1659577586,
+      "updated_at": 1723563958,
+      "gem_sort_id": 202016,
+      "gem_sort_id_hero": 202016,
+      "gem_sort_id_box": 202016,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 3,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1704,
+          "assist_gem_id": 200005,
+          "value": 170,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        170
+      ]
+    },
+    {
+      "id": 200006,
+      "name": "一撃失心の力(特級EL)",
+      "name_short": "一撃失心",
+      "name_short_with_rarity": "一撃失心(特級EL)",
+      "rarity": 5,
+      "assist_type": 6,
+      "description": "敵にヒット時まれに敵を気絶させる",
+      "description_with_tag": "敵にヒット時まれに敵を気絶させる",
+      "image_id": 11,
+      "created_at": 1659577586,
+      "updated_at": 1723563958,
+      "gem_sort_id": 204016,
+      "gem_sort_id_hero": 204016,
+      "gem_sort_id_box": 204016,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 3,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1705,
+          "assist_gem_id": 200006,
+          "value": 35,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1706,
+          "assist_gem_id": 200006,
+          "value": 2,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        35,
+        2
+      ]
+    },
+    {
+      "id": 200007,
+      "name": "速必殺の力(特級EL)",
+      "name_short": "速必殺",
+      "name_short_with_rarity": "速必殺(特級EL)",
+      "rarity": 5,
+      "assist_type": 7,
+      "description": "開始時にストライクショットが6ターン減る",
+      "description_with_tag": "開始時にストライクショットが[LF]6ターン減る",
+      "image_id": 11,
+      "created_at": 1659577586,
+      "updated_at": 1723563958,
+      "gem_sort_id": 205016,
+      "gem_sort_id_hero": 205016,
+      "gem_sort_id_box": 205016,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 3,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1707,
+          "assist_gem_id": 200007,
+          "value": 6,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        6
+      ]
+    },
+    {
+      "id": 200008,
+      "name": "毒がまんの力(特級EL)",
+      "name_short": "毒がまん",
+      "name_short_with_rarity": "毒がまん(特級EL)",
+      "rarity": 5,
+      "assist_type": 8,
+      "description": "毒によるダメージを99.9%減らす",
+      "description_with_tag": "毒によるダメージを99.9%減らす",
+      "image_id": 11,
+      "created_at": 1659577586,
+      "updated_at": 1723563958,
+      "gem_sort_id": 206016,
+      "gem_sort_id_hero": 206016,
+      "gem_sort_id_box": 206016,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 3,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1708,
+          "assist_gem_id": 200008,
+          "value": 10,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        10
+      ]
+    },
+    {
+      "id": 200009,
+      "name": "ちび癒しの力(特級EL)",
+      "name_short": "ちび癒し",
+      "name_short_with_rarity": "ちび癒し(特級EL)",
+      "rarity": 5,
+      "assist_type": 9,
+      "description": "1ターンごとにHPを1200回復する",
+      "description_with_tag": "1ターンごとにHPを1200回復する",
+      "image_id": 11,
+      "created_at": 1659577586,
+      "updated_at": 1723563958,
+      "gem_sort_id": 207016,
+      "gem_sort_id_hero": 207016,
+      "gem_sort_id_box": 207016,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 3,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1709,
+          "assist_gem_id": 200009,
+          "value": 1200,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        1200
+      ]
+    },
+    {
+      "id": 200010,
+      "name": "同族の絆・加撃(特級EL)",
+      "name_short": "同族・加撃",
+      "name_short_with_rarity": "同族・加撃(特級EL)",
+      "rarity": 5,
+      "assist_type": 11,
+      "description": "自分＆同種族の攻撃力が3300アップ",
+      "description_with_tag": "自分＆同種族の攻撃力が[LF]3300アップ",
+      "image_id": 11,
+      "created_at": 1659577586,
+      "updated_at": 1723563959,
+      "gem_sort_id": 100016,
+      "gem_sort_id_hero": 100016,
+      "gem_sort_id_box": 100016,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 3,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1710,
+          "assist_gem_id": 200010,
+          "value": 0,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1711,
+          "assist_gem_id": 200010,
+          "value": 3300,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        0,
+        3300
+      ]
+    },
+    {
+      "id": 200011,
+      "name": "同族の絆・加速(特級EL)",
+      "name_short": "同族・加速",
+      "name_short_with_rarity": "同族・加速(特級EL)",
+      "rarity": 5,
+      "assist_type": 11,
+      "description": "自分＆同種族のスピードが36.6アップ",
+      "description_with_tag": "自分＆同種族のスピードが[LF]36.6アップ",
+      "image_id": 11,
+      "created_at": 1659577586,
+      "updated_at": 1723563959,
+      "gem_sort_id": 130016,
+      "gem_sort_id_hero": 106016,
+      "gem_sort_id_box": 109016,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 3,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1712,
+          "assist_gem_id": 200011,
+          "value": 1,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1713,
+          "assist_gem_id": 200011,
+          "value": 1098,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        1,
+        1098
+      ]
+    },
+    {
+      "id": 200012,
+      "name": "同族の絆・加命(特級EL)",
+      "name_short": "同族・加命",
+      "name_short_with_rarity": "同族・加命(特級EL)",
+      "rarity": 5,
+      "assist_type": 11,
+      "description": "自分＆同種族のHPが2750アップ",
+      "description_with_tag": "自分＆同種族のHPが[LF]2750アップ",
+      "image_id": 11,
+      "created_at": 1659577586,
+      "updated_at": 1723563959,
+      "gem_sort_id": 132016,
+      "gem_sort_id_hero": 112016,
+      "gem_sort_id_box": 115016,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 3,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1714,
+          "assist_gem_id": 200012,
+          "value": 2,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1715,
+          "assist_gem_id": 200012,
+          "value": 2750,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        2,
+        2750
+      ]
+    },
+    {
+      "id": 200013,
+      "name": "同族の絆・加撃速(特級EL)",
+      "name_short": "同族・加撃速",
+      "name_short_with_rarity": "同族・加撃速(特級EL)",
+      "rarity": 5,
+      "assist_type": 11,
+      "description": "自分＆同種族の攻撃力2200、スピード29.3アップ",
+      "description_with_tag": "自分＆同種族の攻撃力2200、スピード29.3アップ",
+      "image_id": 11,
+      "created_at": 1659577586,
+      "updated_at": 1723563959,
+      "gem_sort_id": 101016,
+      "gem_sort_id_hero": 101016,
+      "gem_sort_id_box": 103016,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 3,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1716,
+          "assist_gem_id": 200013,
+          "value": 3,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1717,
+          "assist_gem_id": 200013,
+          "value": 2200,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1718,
+          "assist_gem_id": 200013,
+          "value": 879,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        3,
+        2200,
+        879
+      ]
+    },
+    {
+      "id": 200014,
+      "name": "同族の絆・加速命(特級EL)",
+      "name_short": "同族・加速命",
+      "name_short_with_rarity": "同族・加速命(特級EL)",
+      "rarity": 5,
+      "assist_type": 11,
+      "description": "自分＆同種族のスピード29.3、HP2200アップ",
+      "description_with_tag": "自分＆同種族のスピード29.3、HP2200アップ",
+      "image_id": 11,
+      "created_at": 1659577586,
+      "updated_at": 1723563959,
+      "gem_sort_id": 131016,
+      "gem_sort_id_hero": 107016,
+      "gem_sort_id_box": 112016,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 3,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1719,
+          "assist_gem_id": 200014,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1720,
+          "assist_gem_id": 200014,
+          "value": 879,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1721,
+          "assist_gem_id": 200014,
+          "value": 2200,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        879,
+        2200
+      ]
+    },
+    {
+      "id": 200015,
+      "name": "同族の絆・加命撃(特級EL)",
+      "name_short": "同族・加命撃",
+      "name_short_with_rarity": "同族・加命撃(特級EL)",
+      "rarity": 5,
+      "assist_type": 11,
+      "description": "自分＆同種族のHP2200、攻撃力2200アップ",
+      "description_with_tag": "自分＆同種族のHP2200、攻撃力2200アップ",
+      "image_id": 11,
+      "created_at": 1659577586,
+      "updated_at": 1723563959,
+      "gem_sort_id": 102016,
+      "gem_sort_id_hero": 113016,
+      "gem_sort_id_box": 106016,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 3,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1722,
+          "assist_gem_id": 200015,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1723,
+          "assist_gem_id": 200015,
+          "value": 2200,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1724,
+          "assist_gem_id": 200015,
+          "value": 2200,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        2200,
+        2200
+      ]
+    },
+    {
+      "id": 200016,
+      "name": "撃種の絆・加撃(特級EL)",
+      "name_short": "撃種・加撃",
+      "name_short_with_rarity": "撃種・加撃(特級EL)",
+      "rarity": 5,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型の攻撃力が1650アップ",
+      "description_with_tag": "自分＆同ヒット型の攻撃力が[LF]1650アップ",
+      "image_id": 11,
+      "created_at": 1659577586,
+      "updated_at": 1723563959,
+      "gem_sort_id": 110016,
+      "gem_sort_id_hero": 102016,
+      "gem_sort_id_box": 101016,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 3,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1725,
+          "assist_gem_id": 200016,
+          "value": 0,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1726,
+          "assist_gem_id": 200016,
+          "value": 1650,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        0,
+        1650
+      ]
+    },
+    {
+      "id": 200017,
+      "name": "撃種の絆・加速(特級EL)",
+      "name_short": "撃種・加速",
+      "name_short_with_rarity": "撃種・加速(特級EL)",
+      "rarity": 5,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型のスピードが18.3アップ",
+      "description_with_tag": "自分＆同ヒット型のスピードが[LF]18.3アップ",
+      "image_id": 11,
+      "created_at": 1659577586,
+      "updated_at": 1723563959,
+      "gem_sort_id": 140016,
+      "gem_sort_id_hero": 108016,
+      "gem_sort_id_box": 110016,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 3,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1727,
+          "assist_gem_id": 200017,
+          "value": 1,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1728,
+          "assist_gem_id": 200017,
+          "value": 549,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        1,
+        549
+      ]
+    },
+    {
+      "id": 200018,
+      "name": "撃種の絆・加命(特級EL)",
+      "name_short": "撃種・加命",
+      "name_short_with_rarity": "撃種・加命(特級EL)",
+      "rarity": 5,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型のHPが1375アップ",
+      "description_with_tag": "自分＆同ヒット型のHPが[LF]1375アップ",
+      "image_id": 11,
+      "created_at": 1659577586,
+      "updated_at": 1723563959,
+      "gem_sort_id": 142016,
+      "gem_sort_id_hero": 114016,
+      "gem_sort_id_box": 116016,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 3,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1729,
+          "assist_gem_id": 200018,
+          "value": 2,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1730,
+          "assist_gem_id": 200018,
+          "value": 1375,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        2,
+        1375
+      ]
+    },
+    {
+      "id": 200019,
+      "name": "撃種の絆・加撃速(特級EL)",
+      "name_short": "撃種・加撃速",
+      "name_short_with_rarity": "撃種・加撃速(特級EL)",
+      "rarity": 5,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型の攻撃力1100、スピード14.5アップ",
+      "description_with_tag": "自分＆同ヒット型の攻撃力1100、スピード14.5アップ",
+      "image_id": 11,
+      "created_at": 1659577586,
+      "updated_at": 1723563959,
+      "gem_sort_id": 111016,
+      "gem_sort_id_hero": 103016,
+      "gem_sort_id_box": 104016,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 3,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1731,
+          "assist_gem_id": 200019,
+          "value": 3,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1732,
+          "assist_gem_id": 200019,
+          "value": 1100,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1733,
+          "assist_gem_id": 200019,
+          "value": 435,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        3,
+        1100,
+        435
+      ]
+    },
+    {
+      "id": 200020,
+      "name": "撃種の絆・加速命(特級EL)",
+      "name_short": "撃種・加速命",
+      "name_short_with_rarity": "撃種・加速命(特級EL)",
+      "rarity": 5,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型のスピード14.5、HP1100アップ",
+      "description_with_tag": "自分＆同ヒット型のスピード14.5、HP1100アップ",
+      "image_id": 11,
+      "created_at": 1659577586,
+      "updated_at": 1723563959,
+      "gem_sort_id": 141016,
+      "gem_sort_id_hero": 109016,
+      "gem_sort_id_box": 113016,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 3,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1734,
+          "assist_gem_id": 200020,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1735,
+          "assist_gem_id": 200020,
+          "value": 435,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1736,
+          "assist_gem_id": 200020,
+          "value": 1100,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        435,
+        1100
+      ]
+    },
+    {
+      "id": 200021,
+      "name": "撃種の絆・加命撃(特級EL)",
+      "name_short": "撃種・加命撃",
+      "name_short_with_rarity": "撃種・加命撃(特級EL)",
+      "rarity": 5,
+      "assist_type": 12,
+      "description": "自分＆同ヒット型のHP1100、攻撃力1100アップ",
+      "description_with_tag": "自分＆同ヒット型のHP1100、攻撃力1100アップ",
+      "image_id": 11,
+      "created_at": 1659577586,
+      "updated_at": 1723563959,
+      "gem_sort_id": 112016,
+      "gem_sort_id_hero": 115016,
+      "gem_sort_id_box": 107016,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 3,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1737,
+          "assist_gem_id": 200021,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1738,
+          "assist_gem_id": 200021,
+          "value": 1100,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1739,
+          "assist_gem_id": 200021,
+          "value": 1100,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        1100,
+        1100
+      ]
+    },
+    {
+      "id": 200022,
+      "name": "戦型の絆・加撃(特級EL)",
+      "name_short": "戦型・加撃",
+      "name_short_with_rarity": "戦型・加撃(特級EL)",
+      "rarity": 5,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型の攻撃力が1650アップ",
+      "description_with_tag": "自分＆同戦闘型の攻撃力が[LF]1650アップ",
+      "image_id": 11,
+      "created_at": 1659577586,
+      "updated_at": 1723563959,
+      "gem_sort_id": 120016,
+      "gem_sort_id_hero": 104016,
+      "gem_sort_id_box": 102016,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 3,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1740,
+          "assist_gem_id": 200022,
+          "value": 0,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1741,
+          "assist_gem_id": 200022,
+          "value": 1650,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        0,
+        1650
+      ]
+    },
+    {
+      "id": 200023,
+      "name": "戦型の絆・加速(特級EL)",
+      "name_short": "戦型・加速",
+      "name_short_with_rarity": "戦型・加速(特級EL)",
+      "rarity": 5,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型のスピードが18.3アップ",
+      "description_with_tag": "自分＆同戦闘型のスピードが[LF]18.3アップ",
+      "image_id": 11,
+      "created_at": 1659577586,
+      "updated_at": 1723563959,
+      "gem_sort_id": 150016,
+      "gem_sort_id_hero": 110016,
+      "gem_sort_id_box": 111016,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 3,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1742,
+          "assist_gem_id": 200023,
+          "value": 1,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1743,
+          "assist_gem_id": 200023,
+          "value": 549,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        1,
+        549
+      ]
+    },
+    {
+      "id": 200024,
+      "name": "戦型の絆・加命(特級EL)",
+      "name_short": "戦型・加命",
+      "name_short_with_rarity": "戦型・加命(特級EL)",
+      "rarity": 5,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型のHPが1375アップ",
+      "description_with_tag": "自分＆同戦闘型のHPが[LF]1375アップ",
+      "image_id": 11,
+      "created_at": 1659577586,
+      "updated_at": 1723563959,
+      "gem_sort_id": 152016,
+      "gem_sort_id_hero": 116016,
+      "gem_sort_id_box": 117016,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 3,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1744,
+          "assist_gem_id": 200024,
+          "value": 2,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1745,
+          "assist_gem_id": 200024,
+          "value": 1375,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        2,
+        1375
+      ]
+    },
+    {
+      "id": 200025,
+      "name": "戦型の絆・加撃速(特級EL)",
+      "name_short": "戦型・加撃速",
+      "name_short_with_rarity": "戦型・加撃速(特級EL)",
+      "rarity": 5,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型の攻撃力1100、スピード14.5アップ",
+      "description_with_tag": "自分＆同戦闘型の攻撃力1100、スピード14.5アップ",
+      "image_id": 11,
+      "created_at": 1659577586,
+      "updated_at": 1723563959,
+      "gem_sort_id": 121016,
+      "gem_sort_id_hero": 105016,
+      "gem_sort_id_box": 105016,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 3,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1746,
+          "assist_gem_id": 200025,
+          "value": 3,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1747,
+          "assist_gem_id": 200025,
+          "value": 1100,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1748,
+          "assist_gem_id": 200025,
+          "value": 435,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        3,
+        1100,
+        435
+      ]
+    },
+    {
+      "id": 200026,
+      "name": "戦型の絆・加速命(特級EL)",
+      "name_short": "戦型・加速命",
+      "name_short_with_rarity": "戦型・加速命(特級EL)",
+      "rarity": 5,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型のスピード14.5、HP1100アップ",
+      "description_with_tag": "自分＆同戦闘型のスピード14.5、HP1100アップ",
+      "image_id": 11,
+      "created_at": 1659577587,
+      "updated_at": 1723563959,
+      "gem_sort_id": 151016,
+      "gem_sort_id_hero": 111016,
+      "gem_sort_id_box": 114016,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 3,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1749,
+          "assist_gem_id": 200026,
+          "value": 4,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1750,
+          "assist_gem_id": 200026,
+          "value": 435,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1751,
+          "assist_gem_id": 200026,
+          "value": 1100,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        4,
+        435,
+        1100
+      ]
+    },
+    {
+      "id": 200027,
+      "name": "戦型の絆・加命撃(特級EL)",
+      "name_short": "戦型・加命撃",
+      "name_short_with_rarity": "戦型・加命撃(特級EL)",
+      "rarity": 5,
+      "assist_type": 13,
+      "description": "自分＆同戦闘型のHP1100、攻撃力1100アップ",
+      "description_with_tag": "自分＆同戦闘型のHP1100、攻撃力1100アップ",
+      "image_id": 11,
+      "created_at": 1659577587,
+      "updated_at": 1723563959,
+      "gem_sort_id": 122016,
+      "gem_sort_id_hero": 117016,
+      "gem_sort_id_box": 108016,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 3,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1752,
+          "assist_gem_id": 200027,
+          "value": 5,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1753,
+          "assist_gem_id": 200027,
+          "value": 1100,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1754,
+          "assist_gem_id": 200027,
+          "value": 1100,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        5,
+        1100,
+        1100
+      ]
+    },
+    {
+      "id": 200028,
+      "name": "ハート強化の力(特級EL)",
+      "name_short": "ハート",
+      "name_short_with_rarity": "ハート(特級EL)",
+      "rarity": 5,
+      "assist_type": 15,
+      "description": "ハートの効果が20%アップする",
+      "description_with_tag": "ハートの効果が[LF]20%アップする",
+      "image_id": 11,
+      "created_at": 1659577587,
+      "updated_at": 1723563959,
+      "gem_sort_id": 208016,
+      "gem_sort_id_hero": 208016,
+      "gem_sort_id_box": 208016,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 3,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1755,
+          "assist_gem_id": 200028,
+          "value": 1200,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        },
+        {
+          "id": 1756,
+          "assist_gem_id": 200028,
+          "value": 200,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        1200,
+        200
+      ]
+    },
+    {
+      "id": 200029,
+      "name": "兵命削りの力(特級EL)",
+      "name_short": "兵命削り",
+      "name_short_with_rarity": "兵命削り(特級EL)",
+      "rarity": 5,
+      "assist_type": 16,
+      "description": "バトルの開始直前にボス以外のHPを17%削る",
+      "description_with_tag": "バトルの開始直前にボス以外のHPを17%削る",
+      "image_id": 11,
+      "created_at": 1659577587,
+      "updated_at": 1723563959,
+      "gem_sort_id": 203016,
+      "gem_sort_id_hero": 203016,
+      "gem_sort_id_box": 203016,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 3,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1757,
+          "assist_gem_id": 200029,
+          "value": 170,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        170
+      ]
+    },
+    {
+      "id": 200030,
+      "name": "スピクリの力(特級EL)",
+      "name_short": "スピクリ",
+      "name_short_with_rarity": "スピクリ(特級EL)",
+      "rarity": 5,
+      "assist_type": 20,
+      "description": "スピードクリアのターン数が10ターン増える",
+      "description_with_tag": "スピードクリアのターン数が[LF]10ターン増える",
+      "image_id": 11,
+      "created_at": 1659577587,
+      "updated_at": 1723563959,
+      "gem_sort_id": 302010,
+      "gem_sort_id_hero": 302010,
+      "gem_sort_id_box": 302010,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 3,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1758,
+          "assist_gem_id": 200030,
+          "value": 10,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        10
+      ]
+    },
+    {
+      "id": 200031,
+      "name": "Sランクの力(特級EL)",
+      "name_short": "Sランク",
+      "name_short_with_rarity": "Sランク(特級EL)",
+      "rarity": 5,
+      "assist_type": 21,
+      "description": "Sのタイムランク基準が150秒増える",
+      "description_with_tag": "Sのタイムランク基準が[LF]150秒増える",
+      "image_id": 11,
+      "created_at": 1659577587,
+      "updated_at": 1723563959,
+      "gem_sort_id": 303010,
+      "gem_sort_id_hero": 303010,
+      "gem_sort_id_box": 303010,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 3,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1759,
+          "assist_gem_id": 200031,
+          "value": 150000,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        150000
+      ]
+    },
+    {
+      "id": 200032,
+      "name": "スコア稼ぎの力(特級EL)",
+      "name_short": "スコア稼ぎ",
+      "name_short_with_rarity": "スコア稼ぎ(特級EL)",
+      "rarity": 5,
+      "assist_type": 22,
+      "description": "スコア報酬の｢獲得ポイント｣が120増える",
+      "description_with_tag": "スコア報酬の｢獲得ポイント｣が[LF]120増える",
+      "image_id": 11,
+      "created_at": 1659577587,
+      "updated_at": 1723563959,
+      "gem_sort_id": 304010,
+      "gem_sort_id_hero": 304010,
+      "gem_sort_id_box": 304010,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 3,
+      "is_permanent": 0,
+      "assist_gem_values": [
+        {
+          "id": 1760,
+          "assist_gem_id": 200032,
+          "value": 120,
+          "created_at": 1670860922,
+          "updated_at": 1670860923
+        }
+      ],
+      "values": [
+        120
+      ]
+    },
+    {
+      "id": 200033,
+      "name": "孤高の力・加撃(特級EL)",
+      "name_short": "孤高・加撃",
+      "name_short_with_rarity": "孤高・加撃(特級EL)",
+      "rarity": 5,
+      "assist_type": 17,
+      "description": "同種族の味方がいない場合、自分の攻撃力が3300アップ",
+      "description_with_tag": "同種族の味方がいない場合、自分の攻撃力が3300アップ",
+      "image_id": 11,
+      "created_at": 1774703417,
+      "updated_at": 1774703417,
+      "gem_sort_id": 160016,
+      "gem_sort_id_hero": 199002,
+      "gem_sort_id_box": 118010,
+      "grown_assist_gem_id": null,
+      "box_group_id": 0,
+      "rarity_type": 3,
+      "is_permanent": 1,
+      "assist_gem_values": [
+        {
+          "id": 1828,
+          "assist_gem_id": 200033,
+          "value": 0,
+          "created_at": 1774703417,
+          "updated_at": 1774703417
+        },
+        {
+          "id": 1829,
+          "assist_gem_id": 200033,
+          "value": 3300,
+          "created_at": 1774703417,
+          "updated_at": 1774703417
+        }
+      ],
+      "values": [
+        0,
+        3300
+      ]
+    }
+  ]
+}

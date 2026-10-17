@@ -1,0 +1,1027 @@
+{
+  "schemaVersion": 1,
+  "table": "assist_skills",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "char_id": 10803,
+      "description": "攻撃力が5000アップ",
+      "assist_skill_effect_id_1": 1,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1696510209,
+      "updated_at": 1774703395
+    },
+    {
+      "id": 2,
+      "char_id": 10804,
+      "description": "マップが進む毎に攻撃力が6％ずつアップ",
+      "assist_skill_effect_id_1": 2,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1696510209,
+      "updated_at": 1774703395
+    },
+    {
+      "id": 3,
+      "char_id": 10805,
+      "description": "ゲーム開始時にSSターンを2ターン短縮",
+      "assist_skill_effect_id_1": 3,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1696510209,
+      "updated_at": 1696510209
+    },
+    {
+      "id": 4,
+      "char_id": 10847,
+      "description": "HPが50％アップ",
+      "assist_skill_effect_id_1": 4,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1698312990,
+      "updated_at": 1698312990
+    },
+    {
+      "id": 5,
+      "char_id": 10848,
+      "description": "アイテム剣の効果が50％アップ",
+      "assist_skill_effect_id_1": 5,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1698312990,
+      "updated_at": 1698312990
+    },
+    {
+      "id": 6,
+      "char_id": 10868,
+      "description": "ボスマップで友情コンボの威力が10%アップ",
+      "assist_skill_effect_id_1": 6,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1698661290,
+      "updated_at": 1698661290
+    },
+    {
+      "id": 7,
+      "char_id": 10955,
+      "description": "ボス、中ボス以外の重力バリアを持つ敵への攻撃力が50％アップ",
+      "assist_skill_effect_id_1": 7,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1701414826,
+      "updated_at": 1774703395
+    },
+    {
+      "id": 8,
+      "char_id": 10969,
+      "description": "各ボスマップ開始時にSSターンを3ターン短縮",
+      "assist_skill_effect_id_1": 8,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1703756663,
+      "updated_at": 1703756663
+    },
+    {
+      "id": 9,
+      "char_id": 10970,
+      "description": "各ボスマップ開始時に一定期間、バブリー状態になる",
+      "assist_skill_effect_id_1": 9,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1703756663,
+      "updated_at": 1703756663
+    },
+    {
+      "id": 10,
+      "char_id": 10974,
+      "description": "ボスマップ以外の各マップ開始時にガイドを付与する",
+      "assist_skill_effect_id_1": 10,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1703756663,
+      "updated_at": 1703756663
+    },
+    {
+      "id": 11,
+      "char_id": 11081,
+      "description": "水属性、無属性によるダメージを25%軽減する",
+      "assist_skill_effect_id_1": 11,
+      "assist_skill_effect_id_2": 12,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1708596031,
+      "updated_at": 1708596031
+    },
+    {
+      "id": 12,
+      "char_id": 11099,
+      "description": "ボスマップでSSが満タン状態だと攻撃力が10％アップ",
+      "assist_skill_effect_id_1": 13,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1709719830,
+      "updated_at": 1709719830
+    },
+    {
+      "id": 13,
+      "char_id": 11170,
+      "description": "地雷を所持するキャラの友情コンボの威力が20%アップ",
+      "assist_skill_effect_id_1": 14,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1713802920,
+      "updated_at": 1713802920
+    },
+    {
+      "id": 14,
+      "char_id": 11277,
+      "description": "HPと攻撃力が2000アップ",
+      "assist_skill_effect_id_1": 15,
+      "assist_skill_effect_id_2": 16,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1716884096,
+      "updated_at": 1716884096
+    },
+    {
+      "id": 15,
+      "char_id": 11278,
+      "description": "偶数マップ時に攻撃力が20％アップ",
+      "assist_skill_effect_id_1": 17,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1716884096,
+      "updated_at": 1716884096
+    },
+    {
+      "id": 16,
+      "char_id": 11244,
+      "description": "アイテムハートを獲得した際にSSターンを2ターン短縮",
+      "assist_skill_effect_id_1": 18,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1716458152,
+      "updated_at": 1716458152
+    },
+    {
+      "id": 17,
+      "char_id": 11299,
+      "description": "回復時の回復量が20%アップ",
+      "assist_skill_effect_id_1": 19,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1718036211,
+      "updated_at": 1718036211
+    },
+    {
+      "id": 18,
+      "char_id": 11370,
+      "description": "ゲージショットを所持しているキャラの攻撃力が20％アップ",
+      "assist_skill_effect_id_1": 20,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1720777714,
+      "updated_at": 1774703395
+    },
+    {
+      "id": 19,
+      "char_id": 11381,
+      "description": "バランス型のキャラの攻撃力が10％アップ",
+      "assist_skill_effect_id_1": 21,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1720961017,
+      "updated_at": 1720961017
+    },
+    {
+      "id": 20,
+      "char_id": 11382,
+      "description": "バランス型のキャラの攻撃力が10％アップ",
+      "assist_skill_effect_id_1": 22,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1720961017,
+      "updated_at": 1720961017
+    },
+    {
+      "id": 21,
+      "char_id": 11435,
+      "description": "ボス、中ボス以外の毒状態の敵への攻撃力が15％アップ",
+      "assist_skill_effect_id_1": 23,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1723121534,
+      "updated_at": 1723121534
+    },
+    {
+      "id": 22,
+      "char_id": 11518,
+      "description": "各マップ開始時に一定期間、アクセラレータ状態になる",
+      "assist_skill_effect_id_1": 24,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1726741491,
+      "updated_at": 1726741491
+    },
+    {
+      "id": 23,
+      "char_id": 11519,
+      "description": "ボスマップで残りHPが80%以上の時、攻撃力が20％アップ",
+      "assist_skill_effect_id_1": 25,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1726741491,
+      "updated_at": 1726741491
+    },
+    {
+      "id": 24,
+      "char_id": 11523,
+      "description": "威力が50000以下の友情コンボ威力が25％アップ",
+      "assist_skill_effect_id_1": 26,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1727195163,
+      "updated_at": 1727195163
+    },
+    {
+      "id": 25,
+      "char_id": 11534,
+      "description": "種族「妖精」のキャラの友情コンボの威力が20％アップ",
+      "assist_skill_effect_id_1": 27,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1727612058,
+      "updated_at": 1727612058
+    },
+    {
+      "id": 26,
+      "char_id": 11535,
+      "description": "ショット中は一定以上の距離を移動すると攻撃力が10％アップ",
+      "assist_skill_effect_id_1": 28,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1727612058,
+      "updated_at": 1727612058
+    },
+    {
+      "id": 27,
+      "char_id": 11536,
+      "description": "種族「妖精」のキャラの友情コンボの威力が20％アップ",
+      "assist_skill_effect_id_1": 29,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1727612058,
+      "updated_at": 1727612058
+    },
+    {
+      "id": 28,
+      "char_id": 11540,
+      "description": "敵を10体倒す毎に、パワーが一定期間20％アップ",
+      "assist_skill_effect_id_1": 30,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1727612058,
+      "updated_at": 1727612058
+    },
+    {
+      "id": 29,
+      "char_id": 11628,
+      "description": "各マップ開始時に魔法陣効果を解除する",
+      "assist_skill_effect_id_1": 31,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1730191893,
+      "updated_at": 1730191893
+    },
+    {
+      "id": 30,
+      "char_id": 11665,
+      "description": "各マップ開始時に防御力が一定期間アップし、[LF]ダメージを30%軽減する",
+      "assist_skill_effect_id_1": 32,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1732791767,
+      "updated_at": 1732791767
+    },
+    {
+      "id": 31,
+      "char_id": 11718,
+      "description": "各マップ終了時にHPが50%以下の時に、[LF]パワーが一定期間20％アップ",
+      "assist_skill_effect_id_1": 33,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1733996743,
+      "updated_at": 1733996743
+    },
+    {
+      "id": 32,
+      "char_id": 11733,
+      "description": "このキャラが攻撃力アップ状態になった際に、その効果を受ける",
+      "assist_skill_effect_id_1": 34,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1735373767,
+      "updated_at": 1786550538
+    },
+    {
+      "id": 33,
+      "char_id": 11734,
+      "description": "各マップ開始時にバリアを張る",
+      "assist_skill_effect_id_1": 35,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1735373767,
+      "updated_at": 1735373767
+    },
+    {
+      "id": 34,
+      "char_id": 11740,
+      "description": "ボスマップで残りHPが80%以下の時、攻撃力が10%アップ",
+      "assist_skill_effect_id_1": 36,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1735373767,
+      "updated_at": 1735373767
+    },
+    {
+      "id": 35,
+      "char_id": 11787,
+      "description": "パワー型のキャラの攻撃力が6000アップ",
+      "assist_skill_effect_id_1": 37,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1737020535,
+      "updated_at": 1737020535
+    },
+    {
+      "id": 36,
+      "char_id": 11821,
+      "description": "200HIT以上出ている時に攻撃力が20％アップ",
+      "assist_skill_effect_id_1": 38,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1739269653,
+      "updated_at": 1745250860
+    },
+    {
+      "id": 37,
+      "char_id": 11876,
+      "description": "状態異常を受けているキャラの攻撃力が15%アップ",
+      "assist_skill_effect_id_1": 39,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1741621012,
+      "updated_at": 1741621012
+    },
+    {
+      "id": 38,
+      "char_id": 11879,
+      "description": "誘発された友情コンボの威力が50％から100％にアップ ",
+      "assist_skill_effect_id_1": 40,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1741862143,
+      "updated_at": 1741862143
+    },
+    {
+      "id": 39,
+      "char_id": 11963,
+      "description": "毒状態の敵への攻撃力が25％アップ",
+      "assist_skill_effect_id_1": 41,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1745654848,
+      "updated_at": 1745654848
+    },
+    {
+      "id": 40,
+      "char_id": 11964,
+      "description": "毒状態の敵への攻撃力が25％アップ",
+      "assist_skill_effect_id_1": 41,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1745654848,
+      "updated_at": 1745654848
+    },
+    {
+      "id": 41,
+      "char_id": 12000,
+      "description": "ゲージショット成功時にHPを10000回復",
+      "assist_skill_effect_id_1": 43,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1747127620,
+      "updated_at": 1747127620
+    },
+    {
+      "id": 42,
+      "char_id": 12033,
+      "description": "ターン終了時に残りHPが100%の場合、[LF]SSターンを1ターン短縮",
+      "assist_skill_effect_id_1": 44,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1747910196,
+      "updated_at": 1747910196
+    },
+    {
+      "id": 43,
+      "char_id": 12071,
+      "description": "アイテムを獲得した際にバリアを付与する",
+      "assist_skill_effect_id_1": 45,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1750318326,
+      "updated_at": 1750318326
+    },
+    {
+      "id": 44,
+      "char_id": 12077,
+      "description": "各マップ開始時にガイドを付与する",
+      "assist_skill_effect_id_1": 46,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1750935214,
+      "updated_at": 1750935214
+    },
+    {
+      "id": 45,
+      "char_id": 12078,
+      "description": "ボスマップ以外の各マップ開始時にSSターンを2ターン短縮",
+      "assist_skill_effect_id_1": 47,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1750935214,
+      "updated_at": 1750935214
+    },
+    {
+      "id": 46,
+      "char_id": 12103,
+      "description": "弱点以外への攻撃力が25％アップ",
+      "assist_skill_effect_id_1": 48,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1752143375,
+      "updated_at": 1752143375
+    },
+    {
+      "id": 47,
+      "char_id": 12127,
+      "description": "画面上の敵の弱点1つにつき攻撃力が10％アップ",
+      "assist_skill_effect_id_1": 49,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1752408830,
+      "updated_at": 1776802913
+    },
+    {
+      "id": 48,
+      "char_id": 12128,
+      "description": "画面上の敵の弱点1つにつき攻撃力が10％アップ",
+      "assist_skill_effect_id_1": 50,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1752408830,
+      "updated_at": 1776802913
+    },
+    {
+      "id": 49,
+      "char_id": 12129,
+      "description": "ストライクショットを合計3回以上[LF]使用していると、攻撃力が20％アップ",
+      "assist_skill_effect_id_1": 51,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1752408830,
+      "updated_at": 1752408830
+    },
+    {
+      "id": 50,
+      "char_id": 12130,
+      "description": "ストライクショットを合計3回以上[LF]使用していると、攻撃力が20％アップ",
+      "assist_skill_effect_id_1": 52,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1752408830,
+      "updated_at": 1752408830
+    },
+    {
+      "id": 51,
+      "char_id": 12174,
+      "description": "アビリティにアンチダメージウォールを[LF]所持しているキャラの攻撃力が10％アップ",
+      "assist_skill_effect_id_1": 53,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1754562923,
+      "updated_at": 1754562923
+    },
+    {
+      "id": 52,
+      "char_id": 12218,
+      "description": "ターン終了時に残りHPが90%以上の場合、[LF]SSターンを1ターン短縮",
+      "assist_skill_effect_id_1": 54,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1755776847,
+      "updated_at": 1755776847
+    },
+    {
+      "id": 53,
+      "char_id": 12219,
+      "description": "HPが50％以下の敵への攻撃力が25％アップ",
+      "assist_skill_effect_id_1": 55,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1755776847,
+      "updated_at": 1755776847
+    },
+    {
+      "id": 54,
+      "char_id": 12238,
+      "description": "種族「サムライ」のキャラの攻撃力が25%アップ",
+      "assist_skill_effect_id_1": 56,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1756979035,
+      "updated_at": 1756979035
+    },
+    {
+      "id": 55,
+      "char_id": 12280,
+      "description": "怒り状態の敵への攻撃力が15％アップ",
+      "assist_skill_effect_id_1": 57,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1758793494,
+      "updated_at": 1758793494
+    },
+    {
+      "id": 56,
+      "char_id": 12296,
+      "description": "HPが5000アップ",
+      "assist_skill_effect_id_1": 58,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1758973991,
+      "updated_at": 1758973991
+    },
+    {
+      "id": 57,
+      "char_id": 12297,
+      "description": "主友情コンボの威力が30%アップ",
+      "assist_skill_effect_id_1": 59,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1758973991,
+      "updated_at": 1758973991
+    },
+    {
+      "id": 58,
+      "char_id": 12298,
+      "description": "火水木光闇属性によるダメージを25%軽減する",
+      "assist_skill_effect_id_1": 60,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1759059737,
+      "updated_at": 1759059737
+    },
+    {
+      "id": 59,
+      "char_id": 12391,
+      "description": "ボスマップ以外の各マップ開始時にSSターンを2ターン短縮",
+      "assist_skill_effect_id_1": 61,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1762427312,
+      "updated_at": 1762427312
+    },
+    {
+      "id": 60,
+      "char_id": 12395,
+      "description": "重力バリアを持つボスへの攻撃力が15％アップ",
+      "assist_skill_effect_id_1": 62,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1763632061,
+      "updated_at": 1763632061
+    },
+    {
+      "id": 61,
+      "char_id": 12450,
+      "description": "各ボスマップ開始時に一定期間、バブリー状態になる",
+      "assist_skill_effect_id_1": 63,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1764843832,
+      "updated_at": 1764843832
+    },
+    {
+      "id": 62,
+      "char_id": 12486,
+      "description": "残りHPが50%以下の時、攻撃力が20％アップ",
+      "assist_skill_effect_id_1": 64,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1764843832,
+      "updated_at": 1764843832
+    },
+    {
+      "id": 63,
+      "char_id": 12490,
+      "description": "画面上の敵1体につき攻撃力が7%アップ",
+      "assist_skill_effect_id_1": 65,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1766543844,
+      "updated_at": 1766543844
+    },
+    {
+      "id": 64,
+      "char_id": 12491,
+      "description": "画面上の敵1体につき攻撃力が7%アップ",
+      "assist_skill_effect_id_1": 66,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1766543844,
+      "updated_at": 1766543844
+    },
+    {
+      "id": 65,
+      "char_id": 12497,
+      "description": "弱点以外への攻撃力が33％アップ",
+      "assist_skill_effect_id_1": 67,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1766920557,
+      "updated_at": 1766920557
+    },
+    {
+      "id": 66,
+      "char_id": 12498,
+      "description": "各壁面に最初にふれた際にHPを5000回復",
+      "assist_skill_effect_id_1": 68,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1766920557,
+      "updated_at": 1766920557
+    },
+    {
+      "id": 67,
+      "char_id": 12505,
+      "description": "状態異常回復時にHPを10000回復",
+      "assist_skill_effect_id_1": 69,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1766920557,
+      "updated_at": 1766920557
+    },
+    {
+      "id": 68,
+      "char_id": 12499,
+      "description": "偶数マップ時に攻撃力が20％アップ",
+      "assist_skill_effect_id_1": 70,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1766920557,
+      "updated_at": 1766920557
+    },
+    {
+      "id": 69,
+      "char_id": 12500,
+      "description": "アイテム剣の効果が50％アップ",
+      "assist_skill_effect_id_1": 71,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1766920557,
+      "updated_at": 1766920557
+    },
+    {
+      "id": 70,
+      "char_id": 12523,
+      "description": "アイテムを獲得した際にSSターンを1ターン短縮",
+      "assist_skill_effect_id_1": 72,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1769070774,
+      "updated_at": 1769070774
+    },
+    {
+      "id": 71,
+      "char_id": 12572,
+      "description": "ボスマップでSSが満タン状態だと攻撃力が25％アップ",
+      "assist_skill_effect_id_1": 73,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1770275056,
+      "updated_at": 1770275056
+    },
+    {
+      "id": 72,
+      "char_id": 12608,
+      "description": "HPと回復時の回復量が25％アップ",
+      "assist_skill_effect_id_1": 74,
+      "assist_skill_effect_id_2": 75,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1770807923,
+      "updated_at": 1770807923
+    },
+    {
+      "id": 73,
+      "char_id": 12609,
+      "description": "HPと回復時の回復量が25％アップ",
+      "assist_skill_effect_id_1": 76,
+      "assist_skill_effect_id_2": 77,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1770807923,
+      "updated_at": 1770807923
+    },
+    {
+      "id": 74,
+      "char_id": 12634,
+      "description": "マップが進む毎に攻撃力が5％ずつアップ",
+      "assist_skill_effect_id_1": 78,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1772703955,
+      "updated_at": 1772703955
+    },
+    {
+      "id": 75,
+      "char_id": 12639,
+      "description": "HPが5000アップ",
+      "assist_skill_effect_id_1": 79,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1772703955,
+      "updated_at": 1772703955
+    },
+    {
+      "id": 76,
+      "char_id": 12671,
+      "description": "ボスマップで残りHPが60%以下の時、攻撃力が25%アップ",
+      "assist_skill_effect_id_1": 80,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1773914085,
+      "updated_at": 1773914085
+    },
+    {
+      "id": 77,
+      "char_id": 12702,
+      "description": "毒状態の敵への攻撃力と友情コンボの威力が25%アップ",
+      "assist_skill_effect_id_1": 81,
+      "assist_skill_effect_id_2": 82,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1777104354,
+      "updated_at": 1780939691
+    },
+    {
+      "id": 78,
+      "char_id": 12703,
+      "description": "毒状態の敵への攻撃力と友情コンボの威力が25%アップ",
+      "assist_skill_effect_id_1": 83,
+      "assist_skill_effect_id_2": 84,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1777104354,
+      "updated_at": 1780939691
+    },
+    {
+      "id": 79,
+      "char_id": 12745,
+      "description": "ストライクショットを合計3回以上使用していると、[LF]ボスマップで攻撃力が30％アップ",
+      "assist_skill_effect_id_1": 85,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1777545796,
+      "updated_at": 1777545796
+    },
+    {
+      "id": 80,
+      "char_id": 12746,
+      "description": "主友情コンボの威力が30%アップ",
+      "assist_skill_effect_id_1": 86,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1778754907,
+      "updated_at": 1778754907
+    },
+    {
+      "id": 81,
+      "char_id": 12779,
+      "description": "バリア状態のキャラの友情コンボの威力が100％アップ",
+      "assist_skill_effect_id_1": 87,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1779358443,
+      "updated_at": 1779358443
+    },
+    {
+      "id": 82,
+      "char_id": 12780,
+      "description": "弱点への攻撃力と友情コンボの威力が25%アップ",
+      "assist_skill_effect_id_1": 88,
+      "assist_skill_effect_id_2": 89,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1779358443,
+      "updated_at": 1779358443
+    },
+    {
+      "id": 83,
+      "char_id": 12781,
+      "description": "ショット中は一定以上の距離を移動すると攻撃力が30％アップ",
+      "assist_skill_effect_id_1": 90,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1779358443,
+      "updated_at": 1779358443
+    },
+    {
+      "id": 84,
+      "char_id": 12782,
+      "description": "ショット中は一定以上の距離を移動すると攻撃力が30％アップ",
+      "assist_skill_effect_id_1": 91,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1779358443,
+      "updated_at": 1779358443
+    },
+    {
+      "id": 85,
+      "char_id": 12790,
+      "description": "種族「亜人」のキャラの攻撃力が25％アップ",
+      "assist_skill_effect_id_1": 92,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1780939691,
+      "updated_at": 1780939691
+    },
+    {
+      "id": 86,
+      "char_id": 12879,
+      "description": "弱点以外への攻撃力が25％アップ",
+      "assist_skill_effect_id_1": 93,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1783443742,
+      "updated_at": 1791908903
+    },
+    {
+      "id": 87,
+      "char_id": 12892,
+      "description": "各マップ開始時にガイドを付与する",
+      "assist_skill_effect_id_1": 94,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1783855218,
+      "updated_at": 1783855218
+    },
+    {
+      "id": 88,
+      "char_id": 12893,
+      "description": "ゲージショット成功時にHPを10000回復",
+      "assist_skill_effect_id_1": 95,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1783855218,
+      "updated_at": 1783855218
+    },
+    {
+      "id": 89,
+      "char_id": 12894,
+      "description": "弱点以外への攻撃力が30％アップ",
+      "assist_skill_effect_id_1": 96,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1783855218,
+      "updated_at": 1783855218
+    },
+    {
+      "id": 90,
+      "char_id": 12927,
+      "description": "このキャラと撃種が異なるキャラの攻撃力が25%アップ",
+      "assist_skill_effect_id_1": 97,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1783855218,
+      "updated_at": 1786550538
+    },
+    {
+      "id": 91,
+      "char_id": 12928,
+      "description": "このキャラと撃種が異なるキャラの攻撃力が25%アップ",
+      "assist_skill_effect_id_1": 98,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1783855218,
+      "updated_at": 1786550538
+    },
+    {
+      "id": 92,
+      "char_id": 12929,
+      "description": "残りHPが66%以下の時、攻撃力が20％アップ",
+      "assist_skill_effect_id_1": 99,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1783855218,
+      "updated_at": 1783855218
+    },
+    {
+      "id": 93,
+      "char_id": 12930,
+      "description": "残りHPが66%以下の時、攻撃力が20％アップ",
+      "assist_skill_effect_id_1": 100,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1783855218,
+      "updated_at": 1783855218
+    },
+    {
+      "id": 94,
+      "char_id": 12959,
+      "description": "攻撃変化状態または防御変化状態の敵への[LF]友情コンボの威力がそれぞれ50%アップ",
+      "assist_skill_effect_id_1": 101,
+      "assist_skill_effect_id_2": 102,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1786010898,
+      "updated_at": 1786010898
+    },
+    {
+      "id": 95,
+      "char_id": 12961,
+      "description": "このキャラが防御力アップ状態になった際に、その効果を受ける",
+      "assist_skill_effect_id_1": 103,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1786010898,
+      "updated_at": 1786010898
+    },
+    {
+      "id": 96,
+      "char_id": 12962,
+      "description": "木属性以外のキャラの攻撃力が30%アップ",
+      "assist_skill_effect_id_1": 104,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1786010898,
+      "updated_at": 1786010898
+    },
+    {
+      "id": 97,
+      "char_id": 12990,
+      "description": "画面上の敵の弱点1つにつき攻撃力が10％アップ",
+      "assist_skill_effect_id_1": 105,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1787909286,
+      "updated_at": 1787909286
+    },
+    {
+      "id": 98,
+      "char_id": 13042,
+      "description": "ボス、中ボス以外の弱点への攻撃力が33％アップ",
+      "assist_skill_effect_id_1": 106,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1789639613,
+      "updated_at": 1789639613
+    },
+    {
+      "id": 99,
+      "char_id": 13085,
+      "description": "このキャラが画面の中央付近にいた時に、[LF]一定期間、パワーが28％アップ",
+      "assist_skill_effect_id_1": 107,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1790511571,
+      "updated_at": 1790511571
+    },
+    {
+      "id": 100,
+      "char_id": 13086,
+      "description": "このキャラが攻撃力アップ状態になった際に、[LF]水属性のキャラはその効果を受ける",
+      "assist_skill_effect_id_1": 108,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1790511571,
+      "updated_at": 1790511571
+    },
+    {
+      "id": 101,
+      "char_id": 13087,
+      "description": "このキャラが攻撃力アップ状態になった際に、[LF]水属性のキャラはその効果を受ける",
+      "assist_skill_effect_id_1": 109,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1790511571,
+      "updated_at": 1790511571
+    },
+    {
+      "id": 102,
+      "char_id": 13092,
+      "description": "火水木光闇属性によるダメージを25％軽減する",
+      "assist_skill_effect_id_1": 110,
+      "assist_skill_effect_id_2": 0,
+      "assist_skill_effect_id_3": 0,
+      "created_at": 1791461830,
+      "updated_at": 1791461830
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "table": "wall_break_stages",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "wall_break_event_id": 1,
+      "stage_id": 29000010,
+      "cost_item_id": 10213000,
+      "order": 1,
+      "created_at": 1753965443,
+      "updated_at": 1753965443
+    },
+    {
+      "id": 2,
+      "wall_break_event_id": 1,
+      "stage_id": 29010010,
+      "cost_item_id": 10213001,
+      "order": 2,
+      "created_at": 1753965443,
+      "updated_at": 1753965443
+    },
+    {
+      "id": 3,
+      "wall_break_event_id": 1,
+      "stage_id": 29020010,
+      "cost_item_id": 10213002,
+      "order": 3,
+      "created_at": 1753965443,
+      "updated_at": 1753965443
+    }
+  ]
+}

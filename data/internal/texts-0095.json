@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 1,
+  "table": "texts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 24398,
+      "text": "一覧",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765385554,
+      "updated_at": 1765385554,
+      "label": "eTEXTS_DEF_ME_SPECIAL_SS_CUTIN_BUTTON"
+    },
+    {
+      "id": 24399,
+      "text": "[LC]注意！[LF][LF]先頭のモンスターが[C4:英雄の証]を持っていません[LF][LF]入手した[C4:わくわくの実]は[LF]わくわくBANKに預けることが可能ですが[LF]預けなかった実は別の報酬に交換されます[LF][LF]クエストに出発しますか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1765385554,
+      "updated_at": 1765385554,
+      "label": "eTEXTS_DEF_MSG_CHALLENGE_SOKET"
+    },
+    {
+      "id": 24400,
+      "text": "[LC]これ以上選択できません[LF]選択した力は再タップして解除できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765385554,
+      "updated_at": 1765385554,
+      "label": "eTEXTS_DEF_GEM_RESULT_GEM_SELECT_ERROR"
+    },
+    {
+      "id": 24401,
+      "text": "[LC]英雄の証を所持していないため[LF]わくわくの力を選択することができません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765385554,
+      "updated_at": 1765385554,
+      "label": "eTEXTS_DEF_GEM_RESULT_NO_PROOF_ERROR"
+    },
+    {
+      "id": 24402,
+      "text": "[LC]かりモン中のキャラのため[LF]わくわくの力を選択することができません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765385554,
+      "updated_at": 1765385554,
+      "label": "eTEXTS_DEF_GEM_RESULT_BORROWED_ERROR"
+    },
+    {
+      "id": 24403,
+      "text": "完了",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765385554,
+      "updated_at": 1765385554,
+      "label": "eTEXTS_DEF_GEM_RESULT_NO_PROOF_BUTTON"
+    },
+    {
+      "id": 24404,
+      "text": "完了",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765385554,
+      "updated_at": 1765385554,
+      "label": "eTEXTS_DEF_GEM_RESULT_BORROWED_BUTTON"
+    },
+    {
+      "id": 24405,
+      "text": "わくわくBANKへの預け入れのみ可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765385554,
+      "updated_at": 1765385554,
+      "label": "eTEXTS_DEF_GEM_RESULT_NO_PROOF_SELECT_GUIDE"
+    },
+    {
+      "id": 24406,
+      "text": "わくわくBANKへの預け入れのみ可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765385554,
+      "updated_at": 1765385554,
+      "label": "eTEXTS_DEF_GEM_RESULT_BORROWED_SELECT_GUIDE"
+    },
+    {
+      "id": 24407,
+      "text": "英雄の証なし",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765385554,
+      "updated_at": 1765385554,
+      "label": "eTEXTS_DEF_ME_RESULT_GEM_NO_PROOF_EMPTY_LABEL"
+    },
+    {
+      "id": 24408,
+      "text": "★4以下",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765385554,
+      "updated_at": 1765385554,
+      "label": "eTEXTS_DEF_SORT_WINDOW_BELOW_4"
+    },
+    {
+      "id": 24409,
+      "text": "★５",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765385554,
+      "updated_at": 1765385554,
+      "label": "eTEXTS_DEF_SORT_WINDOW_RARE_5"
+    },
+    {
+      "id": 24410,
+      "text": "最終★５",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765385554,
+      "updated_at": 1765385554,
+      "label": "eTEXTS_DEF_SORT_WINDOW_FINAL_5"
+    },
+    {
+      "id": 24411,
+      "text": "★６",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765385554,
+      "updated_at": 1765385554,
+      "label": "eTEXTS_DEF_SORT_WINDOW_RARE_6"
+    },
+    {
+      "id": 24412,
+      "text": "最終★６",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765385554,
+      "updated_at": 1765385554,
+      "label": "eTEXTS_DEF_SORT_WINDOW_FINAL_6"
+    },
+    {
+      "id": 24413,
+      "text": "超究極・兵",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765385554,
+      "updated_at": 1765385554,
+      "label": "eTEXTS_DEF_SORT_TROUPE_FILTER"
+    },
+    {
+      "id": 24414,
+      "text": "通算除外",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765385554,
+      "updated_at": 1765385554,
+      "label": "eTEXTS_DEF_SORT_TROUPE_BUTTON_LABEL"
+    },
+    {
+      "id": 24415,
+      "text": "通算体数：%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765385554,
+      "updated_at": 1765385554,
+      "label": "eTEXTS_DEF_TROUPE_TOTAL_CHAR_COUNT_LABEL"
+    },
+    {
+      "id": 24416,
+      "text": "まとめてラック引き換え[LF][LF][LC]%sと引き換えます[LF][LF][LC][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1765385554,
+      "updated_at": 1765385554,
+      "label": "eTEXTS_DEF_EVO_AUTO_LUCK_EXCHANGE_CONFIRM"
+    },
+    {
+      "id": 24417,
+      "text": "まとめてラック引き換え[LF][LF][LC]以下と引き換えます[LF][LF][LC][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1765385554,
+      "updated_at": 1765385554,
+      "label": "eTEXTS_DEF_EVO_AUTO_LUCK_EXCHANGE_CONFIRM_MULTIPLE"
+    },
+    {
+      "id": 24418,
+      "text": "まとめてラック引き換え完了[LF][LF][LC][NODE][LF][LC]引き換えました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1765385554,
+      "updated_at": 1765385554,
+      "label": "eTEXTS_DEF_EVO_AUTO_LUCK_EXCHANGE_COMPLETE"
+    },
+    {
+      "id": 24419,
+      "text": "ラックが不足しているため[LF]引き換えできません",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1765385554,
+      "updated_at": 1765385554,
+      "label": "eTEXTS_DEF_EVO_AUTO_LUCK_EXCHANGE_FAILURE"
+    },
+    {
+      "id": 24420,
+      "text": "まとめてラック引き換え",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765385554,
+      "updated_at": 1765385554,
+      "label": "eTEXTS_DEF_EVO_LUCK_AUTO_EXCHANGE"
+    },
+    {
+      "id": 24421,
+      "text": "進化アイテム",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1765385554,
+      "updated_at": 1765385554,
+      "label": "eTEXTS_DEF_SHORTAGE_MATERIAL_HEADING_BEAST_GOD"
+    },
+    {
+      "id": 24422,
+      "text": "進化アイテム",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1765385554,
+      "updated_at": 1765385554,
+      "label": "eTEXTS_DEF_SHORTAGE_MATERIAL_HEADING_BEAST_GOD_KAI"
+    },
+    {
+      "id": 24423,
+      "text": "ゴールド",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1765385554,
+      "updated_at": 1765385554,
+      "label": "eTEXTS_DEF_SHORTAGE_MATERIAL_HEADING_GOLD"
+    },
+    {
+      "id": 24424,
+      "text": "経験値素材",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1765385554,
+      "updated_at": 1765385554,
+      "label": "eTEXTS_DEF_SHORTAGE_MATERIAL_HEADING_MUTATION"
+    },
+    {
+      "id": 24425,
+      "text": "＋値素材",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1765385555,
+      "updated_at": 1765385555,
+      "label": "eTEXTS_DEF_SHORTAGE_MATERIAL_HEADING_TAS"
+    },
+    {
+      "id": 24426,
+      "text": "進化アイテム",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1765385555,
+      "updated_at": 1765385555,
+      "label": "eTEXTS_DEF_SHORTAGE_MATERIAL_HEADING_EVOLUTION"
+    },
+    {
+      "id": 24427,
+      "text": "進化アイテム",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1765385555,
+      "updated_at": 1765385555,
+      "label": "eTEXTS_DEF_SHORTAGE_MATERIAL_HEADING_NEO"
+    },
+    {
+      "id": 24428,
+      "text": "進化アイテム",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1765385555,
+      "updated_at": 1765385555,
+      "label": "eTEXTS_DEF_SHORTAGE_MATERIAL_HEADING_GOD"
+    },
+    {
+      "id": 24429,
+      "text": "バジュラの母星",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1765538478,
+      "updated_at": 1765538478,
+      "label": "eTEXTS_DEF_MAIKU_QUEST_TITLE"
+    },
+    {
+      "id": 24430,
+      "text": "[LC]バジュラの母星とは[LF][LF][IF_DATE|2025/12/14 12:00:00|2025/12/25 04:00:00][CCB:dlme/help_collabo_maiku_sb2_00_1][ELSE][CCB:dlme/help_collabo_maiku_sb2_00_2][ENDIF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1765538478,
+      "updated_at": 1765538478,
+      "label": "eTEXTS_DEF_ME_MSG_MAIKU_QUEST_HELP"
+    },
+    {
+      "id": 24431,
+      "text": "[LC]「バジュラの母星」出現中！[LF][LF]%sの期間で出現！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1765538478,
+      "updated_at": 1765538478,
+      "label": "eTEXTS_DEF_ME_MSG_MAIKU_QUEST_INTRO"
+    },
+    {
+      "id": 24432,
+      "text": "[LC]BATTLE突破数[LF][LF]BATTLE突破数は毎日AM4時にリセットされ[LF]再度BATTLE突破報酬が獲得可能となります[LF][LF][LC][NODE]次から表示しない",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1765538478,
+      "updated_at": 1765538478,
+      "label": "eTEXTS_DEF_ME_MSG_MAIKU_QUEST_ANNOTATION"
+    },
+    {
+      "id": 24433,
+      "text": "[LC]報酬一覧[LF][LF][TAB|WIDTH565:BATTLE突破報酬][NODE][TAB|WIDTH565:クリアボーナス][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1765538478,
+      "updated_at": 1765538478,
+      "label": "eTEXTS_DEF_ME_MSG_MAIKU_QUEST_REWARD_LIST"
+    },
+    {
+      "id": 24434,
+      "text": "12/16 19:00 ～ 12/31 23:59",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1765538478,
+      "updated_at": 1765538478,
+      "label": "eTEXTS_DEF_ME_MSG_MAIKU_PERIOD"
+    },
+    {
+      "id": 24435,
+      "text": "本日のBATTLE突破数:%d/6",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1765538478,
+      "updated_at": 1765538478,
+      "label": "eTEXTS_DEF_ME_MSG_MAIKU_DESC2"
+    },
+    {
+      "id": 24436,
+      "text": "BATTLE突破を積み重ねて運極を目指そう",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1765538478,
+      "updated_at": 1765538478,
+      "label": "eTEXTS_DEF_ME_MSG_MAIKU_DESC3"
+    },
+    {
+      "id": 24437,
+      "text": "毎日AM4時にBATTLE突破数リセット",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1765538478,
+      "updated_at": 1765538478,
+      "label": "eTEXTS_DEF_ME_MSG_MAIKU_DESC4"
+    },
+    {
+      "id": 24438,
+      "text": "※クリアボーナスの獲得は[C6:1度のみ]となります",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1765538478,
+      "updated_at": 1765538478,
+      "label": "eTEXTS_DEF_ME_MSG_MAIKU_QUEST_CLEAR_BONUS_NOTE"
+    },
+    {
+      "id": 24439,
+      "text": "リトルクイーンのクリアボーナス",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1765538478,
+      "updated_at": 1765538478,
+      "label": "eTEXTS_DEF_ME_MSG_MAIKU_QUEST_CLEAR_BONUS_TITLE1"
+    },
+    {
+      "id": 24440,
+      "text": "BATTLE突破数%d",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1765538478,
+      "updated_at": 1765538478,
+      "label": "eTEXTS_DEF_MAIKU_QUEST_REWARD_TITLE"
+    },
+    {
+      "id": 24441,
+      "text": "[LC]報酬一覧[LF][LF][LC][NODE]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1765538478,
+      "updated_at": 1765538478,
+      "label": "eTEXTS_DEF_ME_MSG_MAIKU_QUEST_REWARD_LIST_DIALOG"
+    },
+    {
+      "id": 24442,
+      "text": "バジュラの母星",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1765538478,
+      "updated_at": 1765538478,
+      "label": "eTEXTS_DEF_MAIKU_QUEST_RESULT_TITLE"
+    },
+    {
+      "id": 24443,
+      "text": "[C6:毎日AM4時にリセット]され、再度獲得可能となります",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1765538478,
+      "updated_at": 1765538478,
+      "label": "eTEXTS_DEF_MAIKU_QUEST_REWARD_LIST_NOTE"
+    },
+    {
+      "id": 24444,
+      "text": "ライブ防衛ミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538478,
+      "updated_at": 1765538478,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_TITLE"
+    },
+    {
+      "id": 24445,
+      "text": "[LC]ライブ防衛ミッションとは[LF][LF][LC][TAB|WIDTH500:ミッション][IF_DATE|2025/12/14 12:00:00|2025/12/19 04:00:00][CCB:dlme/help_collabo_maiku_sb1_00_1][ELSE][CCB:dlme/help_collabo_maiku_sb1_00_2][ENDIF][TAB|WIDTH500:歌の力][IF_DATE|2025/12/19 04:00:00|2025/12/25 04:00:00][CCB:dlme/help_collabo_maiku_sb1_01_2][ELSE][CCB:dlme/help_collabo_maiku_sb1_01_3][ENDIF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1765538478,
+      "updated_at": 1766587236,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_HELP"
+    },
+    {
+      "id": 24446,
+      "text": "12/14 12:00 ～ 1/3 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538478,
+      "updated_at": 1765538478,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_PERIOD"
+    },
+    {
+      "id": 24447,
+      "text": "ミッションをクリアしてライブを開催しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538478,
+      "updated_at": 1765538478,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_DESC"
+    },
+    {
+      "id": 24448,
+      "text": "ファイアーボンバー",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538478,
+      "updated_at": 1765538478,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_CHAR_NAME_1"
+    },
+    {
+      "id": 24449,
+      "text": "シェリル",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538478,
+      "updated_at": 1765538478,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_CHAR_NAME_2"
+    },
+    {
+      "id": 24450,
+      "text": "ランカ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538478,
+      "updated_at": 1765538478,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_CHAR_NAME_3"
+    },
+    {
+      "id": 24451,
+      "text": "ワルキューレ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538478,
+      "updated_at": 1765538478,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_CHAR_NAME_4"
+    },
+    {
+      "id": 24452,
+      "text": "1ターン遅延",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538478,
+      "updated_at": 1765538478,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_SONG_EFFECT_TEXT_1"
+    },
+    {
+      "id": 24453,
+      "text": "獲得経験値50倍",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538478,
+      "updated_at": 1765538478,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_SONG_EFFECT_TEXT_2"
+    },
+    {
+      "id": 24454,
+      "text": "スペシャル報酬2倍",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538478,
+      "updated_at": 1765538478,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_SONG_EFFECT_TEXT_3"
+    },
+    {
+      "id": 24455,
+      "text": "攻撃力&友情コンボ1.5倍",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538478,
+      "updated_at": 1765538478,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_SONG_EFFECT_TEXT_4"
+    },
+    {
+      "id": 24456,
+      "text": "クリア：%u/%u",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538478,
+      "updated_at": 1765538478,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_TAB_PROGRESS"
+    },
+    {
+      "id": 24457,
+      "text": "[LC]報酬一覧[LF][LF][LC][TAB|WIDTH565:ミッション報酬][NODE][TAB|WIDTH565:歌の力][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1765538478,
+      "updated_at": 1765538478,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_DIALOG_REWARD_LIST_PART1"
+    },
+    {
+      "id": 24458,
+      "text": "[LC]ミッション報酬[LF][WIDTH565][LF]以下の報酬を受け取りました[LF][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1765538478,
+      "updated_at": 1765538478,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_DIALOG_REWARD_GET"
+    },
+    {
+      "id": 24459,
+      "text": "防衛報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538478,
+      "updated_at": 1765538478,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_GROUP_COMP_REWARD_HEADLINE"
+    },
+    {
+      "id": 24460,
+      "text": "クリア数報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538478,
+      "updated_at": 1765538478,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_ACHIEVED_COUNT_REWARD_HEADLINE"
+    },
+    {
+      "id": 24461,
+      "text": "クリア数：%u",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538478,
+      "updated_at": 1765538478,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_ACHIEVED_COUNT_REWARD_TITLE"
+    },
+    {
+      "id": 24462,
+      "text": "キャラ毎のミッションをすべてクリアで獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538478,
+      "updated_at": 1765538478,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_REWARD_LIST_DESCRIPTION"
+    },
+    {
+      "id": 24463,
+      "text": "歌の力一覧",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538478,
+      "updated_at": 1765538478,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_SONG_LIST_HEADLINE"
+    },
+    {
+      "id": 24464,
+      "text": "効果時間：[C6:%s][LF]発動可能までの待機時間：[C6:%s]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538478,
+      "updated_at": 1765538478,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_SONG_LIST_TEXT_DETAIL_INFO"
+    },
+    {
+      "id": 24465,
+      "text": "[LC]歌の力発動状況[LF][LF][LC][NODE]",
+      "layout": 26,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_ACTIVATE_DIALOG_MAIN"
+    },
+    {
+      "id": 24466,
+      "text": "発動できる歌の力は1つまでです[LF]開催するライブを選択してください",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_ACTIVATE_DIALOG_TEXT_DESC"
+    },
+    {
+      "id": 24467,
+      "text": "%s",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_ACTIVATE_DIALOG_TEXT_TITLE"
+    },
+    {
+      "id": 24468,
+      "text": "[LC]歌の力発動確認[LF][WIDTH580][LF][LC]選択した歌の力を発動しますか？[LF][LC][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_ACTIVATE_DIALOG_ACITIVATE_CONFIRM"
+    },
+    {
+      "id": 24469,
+      "text": "[LC]歌の力発動確認[LF][WIDTH580][LF][LC]選択した歌の力を発動しますか？[LF][LF][LC][BG_STR:|WIDTH:180|CSTR:[C4:選択中の効果]][LF][LC][NODE][LF][LF][LC]発動中の効果は失われます[LF][LF][LC][BG_STR:|WIDTH:180|CSTR:発動中の効果][LF][LC][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_ACTIVATE_DIALOG_ACITIVATE_CONFIRM_OVERWRITE"
+    },
+    {
+      "id": 24470,
+      "text": "終了後の待機時間：[C6:%s]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_ACTIVATE_DIALOG_TEXT_DETAIL_INFO"
+    },
+    {
+      "id": 24471,
+      "text": "[LC]歌の力[LF][LF][LC]再発動にかかる待機時間が終わるまで[LF]効果を発動できません",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_ACTIVATE_DIALOG_COOLING"
+    },
+    {
+      "id": 24472,
+      "text": "[LC]歌の力を解放しよう[LF][LF][LC]ミッションをクリアして歌の力を解放しよう！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_ACTIVATE_DIALOG_NOT_EARNED"
+    },
+    {
+      "id": 24473,
+      "text": "[LF][LC]歌の力が選択されていません",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_ACTIVATE_DIALOG_NO_ITEM"
+    },
+    {
+      "id": 24474,
+      "text": "[LC]開催期間外[LF][LF]開催期間は終了しました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_ACTIVATE_DIALOG_EXPIRED"
+    },
+    {
+      "id": 24475,
+      "text": "[C6:歌の力]効果対象クエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_STAGE_GROUP"
+    },
+    {
+      "id": 24476,
+      "text": "歌の力効果対象クエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_TARGET_STAGE_LABEL"
+    },
+    {
+      "id": 24477,
+      "text": "ファイアーボンバーのライブが発動中のため、[LF]同じ効果を持つお助けアイテムを選択できません",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_STAGE_DECK_SELECT_ERROR_DIALOG"
+    },
+    {
+      "id": 24478,
+      "text": "発動中の歌の力はありません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_INGAME_SONG_EFFECT_NOTHING"
+    },
+    {
+      "id": 24479,
+      "text": "マップ開始時に全ての敵攻撃が初回のみ1ターン遅延",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_INGAME_SONG_EFFECT_TEXT_1"
+    },
+    {
+      "id": 24480,
+      "text": "獲得経験値50倍",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_INGAME_SONG_EFFECT_TEXT_2"
+    },
+    {
+      "id": 24481,
+      "text": "スペシャル報酬2倍",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_INGAME_SONG_EFFECT_TEXT_3"
+    },
+    {
+      "id": 24482,
+      "text": "味方全員の攻撃力と友情コンボ威力が50％アップ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_INGAME_SONG_EFFECT_TEXT_4"
+    },
+    {
+      "id": 24483,
+      "text": "[C6:コラボガチャ開催中]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61300"
+    },
+    {
+      "id": 24484,
+      "text": "[b:ba_help_collabo_maiku_00_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61301"
+    },
+    {
+      "id": 24485,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61302"
+    },
+    {
+      "id": 24486,
+      "text": "12/14 12:00〜1/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61303"
+    },
+    {
+      "id": 24487,
+      "text": "[C5:コラボ限定ガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61304"
+    },
+    {
+      "id": 24488,
+      "text": "[IPJ12463]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61305"
+    },
+    {
+      "id": 24489,
+      "text": "[IPJ12467]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61306"
+    },
+    {
+      "id": 24490,
+      "text": "[IPJ12469]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61307"
+    },
+    {
+      "id": 24491,
+      "text": "[IPJ12465]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61308"
+    },
+    {
+      "id": 24492,
+      "text": "[IPJ12471]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61309"
+    },
+    {
+      "id": 24493,
+      "text": "さらに10連ガチャではEXおまけとして[LF][C6:コラボグッジョブ]が手に入ります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61310"
+    },
+    {
+      "id": 24494,
+      "text": "[IS766|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61311"
+    },
+    {
+      "id": 24495,
+      "text": "[IS768|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61312"
+    },
+    {
+      "id": 24496,
+      "text": "[IS769|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61313"
+    },
+    {
+      "id": 24497,
+      "text": "[IS770|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61314"
+    },
+    {
+      "id": 24498,
+      "text": "[IS771|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61315"
+    },
+    {
+      "id": 24499,
+      "text": "[IS767|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61316"
+    },
+    {
+      "id": 24500,
+      "text": "[IS761|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61317"
+    },
+    {
+      "id": 24501,
+      "text": "[IS763|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61318"
+    },
+    {
+      "id": 24502,
+      "text": "[IS764|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61319"
+    },
+    {
+      "id": 24503,
+      "text": "[C6:コラボクエスト出現中]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61320"
+    },
+    {
+      "id": 24504,
+      "text": "[b:ba_help_collabo_maiku_00_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61321"
+    },
+    {
+      "id": 24505,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61322"
+    },
+    {
+      "id": 24506,
+      "text": "12/14 12:00〜12/31 23:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61323"
+    },
+    {
+      "id": 24507,
+      "text": "[C5:イベントクエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61324"
+    },
+    {
+      "id": 24508,
+      "text": "[SGBI29670]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61325"
+    },
+    {
+      "id": 24509,
+      "text": "[SGBI29690]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61326"
+    },
+    {
+      "id": 24510,
+      "text": "[SGBI29680]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61327"
+    },
+    {
+      "id": 24511,
+      "text": "[SGBI29650]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61328"
+    },
+    {
+      "id": 24512,
+      "text": "[SGBI29660]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61329"
+    },
+    {
+      "id": 24513,
+      "text": "[C6:｢激情ダイビング｣]は[LF]1日1回クリアボーナスで[C6:7体]獲得可能、[LF]マルチだと金卵２個以上の排出率がアップします[LF][LF]※クエストボスの[LF]　｢空中騎士団 ボーグ・コンファールト｣[LF]　｢大型バジュラ｣｢プロトデビルン ガビル｣は[LF]　入手できません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61330"
+    },
+    {
+      "id": 24514,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20251211_2.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61331"
+    },
+    {
+      "id": 24515,
+      "text": "[SW0.85][C6:コラボスターターパックなどのお楽しみ要素も]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61400"
+    },
+    {
+      "id": 24516,
+      "text": "[b:ba_help_collabo_maiku_01.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61401"
+    },
+    {
+      "id": 24517,
+      "text": "[C5:コラボスターターパック]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61402"
+    },
+    {
+      "id": 24518,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61403"
+    },
+    {
+      "id": 24519,
+      "text": "12/14 12:00〜1/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61404"
+    },
+    {
+      "id": 24520,
+      "text": "[C6:ここでのみ入手可能なキャラ]と[LF]各種アイテムがセットとなった[LF][C6:コラボスターターパック]が購入可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61405"
+    },
+    {
+      "id": 24521,
+      "text": "[IPJ12472]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61406"
+    },
+    {
+      "id": 24522,
+      "text": "[C5:フレンドガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61407"
+    },
+    {
+      "id": 24523,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61408"
+    },
+    {
+      "id": 24524,
+      "text": "12/14 12:00〜1/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61409"
+    },
+    {
+      "id": 24525,
+      "text": "期間中フレンドガチャから[LF]下記のキャラが排出されるようになります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61410"
+    },
+    {
+      "id": 24526,
+      "text": "[IPJ12479]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61411"
+    },
+    {
+      "id": 24527,
+      "text": "[C5:期間限定ラックボーナス]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61412"
+    },
+    {
+      "id": 24528,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61413"
+    },
+    {
+      "id": 24529,
+      "text": "12/14 12:00〜1/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61414"
+    },
+    {
+      "id": 24530,
+      "text": "下記のキャラは期間中[LF]本来のラックに[C4:+99]された[C4:運極]状態で[LF]ラックボーナスが獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61415"
+    },
+    {
+      "id": 24531,
+      "text": "[IPJ12480]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61416"
+    },
+    {
+      "id": 24532,
+      "text": "[C5:その他お楽しみ要素]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61417"
+    },
+    {
+      "id": 24533,
+      "text": "ライブ防衛ミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61418"
+    },
+    {
+      "id": 24534,
+      "text": "バジュラの母星",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61419"
+    },
+    {
+      "id": 24535,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20251211_2.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61420"
+    },
+    {
+      "id": 24536,
+      "text": "[SW0.85][C6:ミッションをクリアしてライブを開催しよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61500"
+    },
+    {
+      "id": 24537,
+      "text": "[b:ba_help_collabo_maiku_sb1_00_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61501"
+    },
+    {
+      "id": 24538,
+      "text": "ミッションに挑戦して、[C6:報酬の獲得]や[LF][C6:ライブ開催による歌の力の発動]を目指しましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61502"
+    },
+    {
+      "id": 24539,
+      "text": "[C5:防衛ミッションについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61503"
+    },
+    {
+      "id": 24540,
+      "text": "キャラ毎に分かれたミッションに挑戦して[LF]報酬を獲得しましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61504"
+    },
+    {
+      "id": 24541,
+      "text": "ファイアーボンバー",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61505"
+    },
+    {
+      "id": 24542,
+      "text": "ワルキューレ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61506"
+    },
+    {
+      "id": 24543,
+      "text": "シェリル",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61507"
+    },
+    {
+      "id": 24544,
+      "text": "ランカ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61508"
+    },
+    {
+      "id": 24545,
+      "text": "報酬について",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61509"
+    },
+    {
+      "id": 24546,
+      "text": "クリア数報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61510"
+    },
+    {
+      "id": 24547,
+      "text": "[C6:ミッション全体のクリア数]に応じて獲得",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61511"
+    },
+    {
+      "id": 24548,
+      "text": "[C6:クリア数2]で獲得",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61512"
+    },
+    {
+      "id": 24549,
+      "text": "[C6:クリア数7]で獲得",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61513"
+    },
+    {
+      "id": 24550,
+      "text": "[IPJ12480]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61514"
+    },
+    {
+      "id": 24551,
+      "text": "[IPJ671]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61515"
+    },
+    {
+      "id": 24552,
+      "text": "防衛報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61516"
+    },
+    {
+      "id": 24553,
+      "text": "[C6:キャラ毎のミッションをすべてクリア]で獲得",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61517"
+    },
+    {
+      "id": 24554,
+      "text": "[C6:5/5]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61518"
+    },
+    {
+      "id": 24555,
+      "text": "[C5:歌の力について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61519"
+    },
+    {
+      "id": 24556,
+      "text": "防衛報酬獲得で、対象キャラの歌の力を発動し[LF]ライブを開催できるようになります[LF][LF]歌の力が発動すると、[C6:対象クエストの][LF][C6:攻略に有利な効果]が得られるようになります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61520"
+    },
+    {
+      "id": 24557,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20251211_2.html#6|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61521"
+    },
+    {
+      "id": 24558,
+      "text": "[SW0.78][C6:歌の力を活用してクエスト攻略を有利に進めよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61600"
+    },
+    {
+      "id": 24559,
+      "text": "[b:ba_help_collabo_maiku_sb1_01.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61601"
+    },
+    {
+      "id": 24560,
+      "text": "[C5:歌の力について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61602"
+    },
+    {
+      "id": 24561,
+      "text": "歌の力を発動すると[C5:一定時間][LF][C6:対象クエストの攻略に有利な効果]を得られます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61603"
+    },
+    {
+      "id": 24562,
+      "text": "発動する",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61604"
+    },
+    {
+      "id": 24563,
+      "text": "効果時間が終了すると歌の力の効果は失われ[LF][C6:一定時間が経過すると再び発動が可能]になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61605"
+    },
+    {
+      "id": 24564,
+      "text": "あと4時間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61606"
+    },
+    {
+      "id": 24565,
+      "text": "[C6:発動可能！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61607"
+    },
+    {
+      "id": 24566,
+      "text": "歌の力の発動方法",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61608"
+    },
+    {
+      "id": 24567,
+      "text": "歌の力はデッキ選択画面などから発動が可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61609"
+    },
+    {
+      "id": 24568,
+      "text": "マルチプレイの場合は[LF][C6:ホストが発動している歌の力のみ]効果が得られます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61610"
+    },
+    {
+      "id": 24569,
+      "text": "ホスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538479,
+      "updated_at": 1765538479,
+      "label": "eTEXTS_DEF_61611"
+    },
+    {
+      "id": 24570,
+      "text": "発動中",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61612"
+    },
+    {
+      "id": 24571,
+      "text": "ゲスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61613"
+    },
+    {
+      "id": 24572,
+      "text": "効果あり",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61614"
+    },
+    {
+      "id": 24573,
+      "text": "※[C6:1度に発動できる歌の力は1つまで]です[LF]※歌の力発動中に他の歌の力を発動する場合には[LF]　発動中の歌の力の効果が失われます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61615"
+    },
+    {
+      "id": 24574,
+      "text": "[C5:歌の力一覧]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61616"
+    },
+    {
+      "id": 24575,
+      "text": "ファイアーボンバーのライブ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61617"
+    },
+    {
+      "id": 24576,
+      "text": "[LC][C6:マップ開始時に全ての敵攻撃が][LF][LC][C6:初回のみ1ターン遅延]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61618"
+    },
+    {
+      "id": 24577,
+      "text": "効果時間：[C6:30分][LF]発動可能までの待機時間：[C6:4時間]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61619"
+    },
+    {
+      "id": 24578,
+      "text": "シェリルのライブ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61620"
+    },
+    {
+      "id": 24579,
+      "text": "[LC][C6:クエスト報酬の｢獲得経験値｣が50倍になる]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61621"
+    },
+    {
+      "id": 24580,
+      "text": "効果時間：[C6:30分][LF]発動可能までの待機時間：[C6:4時間]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61622"
+    },
+    {
+      "id": 24581,
+      "text": "ランカのライブ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61623"
+    },
+    {
+      "id": 24582,
+      "text": "[LC][C6:スペシャル報酬が2倍になる]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61624"
+    },
+    {
+      "id": 24583,
+      "text": "効果時間：[C6:30分][LF]発動可能までの待機時間：[C6:4時間]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61625"
+    },
+    {
+      "id": 24584,
+      "text": "ワルキューレのライブ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61626"
+    },
+    {
+      "id": 24585,
+      "text": "[LC][C6:味方全員の攻撃力と][LF][C6:友情コンボ威力が50％アップする]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61627"
+    },
+    {
+      "id": 24586,
+      "text": "効果時間：[C6:1時間][LF]発動可能までの待機時間：[C6:4時間]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61628"
+    },
+    {
+      "id": 24587,
+      "text": "※｢ランカのライブ｣は[LF]　フエ～ルビスケットと併用することも可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61629"
+    },
+    {
+      "id": 24588,
+      "text": "[C5:対象クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61630"
+    },
+    {
+      "id": 24589,
+      "text": "[C2:脱出レゾナンス][LF][C5:ハード・チェイス][LF][C4:悪夢の突入作戦][LF][C6:激情ダイビング][LF][C3:ラスト・フロンティア][LF][C2:リトルクイーン]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61631"
+    },
+    {
+      "id": 24590,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20251211_2.html#7|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61632"
+    },
+    {
+      "id": 24591,
+      "text": "[SW0.9][C6:BATTLE突破を積み重ねて運極を目指そう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61700"
+    },
+    {
+      "id": 24592,
+      "text": "[b:ba_help_collabo_maiku_sb2_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61701"
+    },
+    {
+      "id": 24593,
+      "text": "バジュラの母星はより多くの[C6:BATTLEを突破し][LF][C2:トライアングラー シェリル＆ランカ＆アルト]の[LF][C4:運極]を目指すクエストです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61702"
+    },
+    {
+      "id": 24594,
+      "text": "[C5:報酬について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61703"
+    },
+    {
+      "id": 24595,
+      "text": "BATTLE突破報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61704"
+    },
+    {
+      "id": 24596,
+      "text": "バジュラの母星ではBATTLEを新たに突破するたびに[LF]報酬の[C2:トライアングラー シェリル＆ランカ＆アルト]を[LF]獲得することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61705"
+    },
+    {
+      "id": 24597,
+      "text": "BATTLE突破数:[C6:2]/6",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61706"
+    },
+    {
+      "id": 24598,
+      "text": "[LC][C6:2]BATTLE[LF][LC]突破！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61707"
+    },
+    {
+      "id": 24599,
+      "text": "[IPJ12478]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61708"
+    },
+    {
+      "id": 24600,
+      "text": "BATTLE突破数ごとの獲得報酬数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61709"
+    },
+    {
+      "id": 24601,
+      "text": "突破数：[C6:1]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61710"
+    },
+    {
+      "id": 24602,
+      "text": "突破数：[C6:2]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61711"
+    },
+    {
+      "id": 24603,
+      "text": "突破数：[C6:3]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61712"
+    },
+    {
+      "id": 24604,
+      "text": "突破数：[C6:4]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61713"
+    },
+    {
+      "id": 24605,
+      "text": "突破数：[C6:5]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61714"
+    },
+    {
+      "id": 24606,
+      "text": "突破数：[C6:6]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61715"
+    },
+    {
+      "id": 24607,
+      "text": "※1度突破したBATTLEを再度突破しても[LF]　同日中は報酬を獲得できません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61716"
+    },
+    {
+      "id": 24608,
+      "text": "[C5:リセットについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61717"
+    },
+    {
+      "id": 24609,
+      "text": "突破したBATTLE数は[LF][C6:毎日AM4:00にリセット]されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61718"
+    },
+    {
+      "id": 24610,
+      "text": "BATTLE突破数:[C6:2]/6",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61719"
+    },
+    {
+      "id": 24611,
+      "text": "[C6:リセット]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61720"
+    },
+    {
+      "id": 24612,
+      "text": "BATTLE突破数:[C6:0]/6",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61721"
+    },
+    {
+      "id": 24613,
+      "text": "リセットされるとBATTLE突破による報酬が[LF][C6:改めて獲得可能]になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61722"
+    },
+    {
+      "id": 24614,
+      "text": "[C5:クリアボーナスについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61723"
+    },
+    {
+      "id": 24615,
+      "text": "バジュラの母星を初めてクリアすると[LF][C6:称号]と[C6:勲章]を獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61724"
+    },
+    {
+      "id": 24616,
+      "text": "[C5:英雄の証について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61725"
+    },
+    {
+      "id": 24617,
+      "text": "[C2:トライアングラー シェリル＆ランカ＆アルト]は[LF][C4:運極合成]で[C6:英雄の証]を獲得することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61726"
+    },
+    {
+      "id": 24618,
+      "text": "[LUCK]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61727"
+    },
+    {
+      "id": 24619,
+      "text": "[C4:極]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61728"
+    },
+    {
+      "id": 24620,
+      "text": "[C4:50]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61729"
+    },
+    {
+      "id": 24621,
+      "text": "[C4:49]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61730"
+    },
+    {
+      "id": 24622,
+      "text": "合計",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61731"
+    },
+    {
+      "id": 24623,
+      "text": "[C4:99]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61732"
+    },
+    {
+      "id": 24624,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20251211_2.html#5|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1765538480,
+      "updated_at": 1765538480,
+      "label": "eTEXTS_DEF_61733"
+    },
+    {
+      "id": 24625,
+      "text": "歌の力を発動してクエストに挑戦しよう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1766058382,
+      "updated_at": 1766058382,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_DESC_3"
+    },
+    {
+      "id": 24626,
+      "text": "[LC]報酬一覧[LF][LF][LC][TAB|WIDTH565:ミッション報酬][NODE][TAB|WIDTH565:ライブ報酬][NODE][TAB|WIDTH565:歌の力][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1766058382,
+      "updated_at": 1766058382,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_DIALOG_REWARD_LIST_PART2"
+    },
+    {
+      "id": 24627,
+      "text": "対象クエストで[IMG:uiitem_0017.png|0.5]宝箱を集めて応援ptを溜めよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1766058382,
+      "updated_at": 1766058382,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_DESC_2"
+    },
+    {
+      "id": 24628,
+      "text": "歌の力発動可能まで待機中",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1766058382,
+      "updated_at": 1766058382,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_WAITING_TEXT"
+    },
+    {
+      "id": 24629,
+      "text": "[LC]新たなミッションに挑戦可能に！[LF][WIDTH580][LF][BLOCK:[C5:応援ミッション]][LF][C6:歌の力発動中に、対象クエストをクリア]することで[LF][C6:スペシャル報酬の宝箱数に応じて]報酬が獲得できます[LF][LF]歌の力を発動してクエストをクリアしよう[LF][BLOCK_END]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1766058382,
+      "updated_at": 1766058382,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_PART2_FIRST_DIALOG"
+    },
+    {
+      "id": 24630,
+      "text": "獲得応援pt",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1766058382,
+      "updated_at": 1766058382,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_RESULT_POINT_TEXT"
+    },
+    {
+      "id": 24631,
+      "text": "%upt",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1766058382,
+      "updated_at": 1766058382,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_RESULT_POINT_NUM"
+    },
+    {
+      "id": 24632,
+      "text": "応援ptは最大値まで到達しています",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1766058382,
+      "updated_at": 1766058382,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_RESULT_POINT_MAX_TEXT"
+    },
+    {
+      "id": 24633,
+      "text": "全体ライブ報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1766058382,
+      "updated_at": 1766058382,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_CHEER_POINT_REWARD_HEADLINE"
+    },
+    {
+      "id": 24634,
+      "text": "ライブ報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1766058382,
+      "updated_at": 1766058382,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_CHEER_POINT_REWARD_HEADLINE2"
+    },
+    {
+      "id": 24635,
+      "text": "各キャラの応援ptを100ptにすると獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1766058382,
+      "updated_at": 1766058382,
+      "label": "eTEXTS_DEF_MAIKU_MISSION_CHEER_POINT_REWARD_DESCRIPTION"
+    },
+    {
+      "id": 24636,
+      "text": "[C6:超究極難易度が登場]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1766058382,
+      "updated_at": 1766058382,
+      "label": "eTEXTS_DEF_61332"
+    },
+    {
+      "id": 24637,
+      "text": "[b:ba_help_collabo_maiku_00_3.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1766058382,
+      "updated_at": 1766058382,
+      "label": "eTEXTS_DEF_61333"
+    },
+    {
+      "id": 24638,
+      "text": "[C5:超究極クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1766058382,
+      "updated_at": 1766058382,
+      "label": "eTEXTS_DEF_61334"
+    },
+    {
+      "id": 24639,
+      "text": "[SGBI29700]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1766058382,
+      "updated_at": 1766058382,
+      "label": "eTEXTS_DEF_61335"
+    },
+    {
+      "id": 24640,
+      "text": "※クエストボスの[LF]　｢ウィンダミア宰相 ロイド・ブレーム｣[LF]　は入手できません[LF][LF]クリアすると[LF][C4:星の歌い手 美雲・ギンヌメール]を[LF][C4:運極(ラック+99)]で1体獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1766058382,
+      "updated_at": 1766058382,
+      "label": "eTEXTS_DEF_61336"
+    },
+    {
+      "id": 24641,
+      "text": "[IPJ12481]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1766058382,
+      "updated_at": 1766058382,
+      "label": "eTEXTS_DEF_61337"
+    },
+    {
+      "id": 24642,
+      "text": "[LUCK]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1766058382,
+      "updated_at": 1766058382,
+      "label": "eTEXTS_DEF_61338"
+    },
+    {
+      "id": 24643,
+      "text": "[C4:極]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1766058382,
+      "updated_at": 1766058382,
+      "label": "eTEXTS_DEF_61339"
+    },
+    {
+      "id": 24644,
+      "text": "[b:ba_help_collabo_maiku_sb1_00_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1766058382,
+      "updated_at": 1766058382,
+      "label": "eTEXTS_DEF_61522"
+    },
+    {
+      "id": 24645,
+      "text": "[C5:応援ミッションについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1766058382,
+      "updated_at": 1766058382,
+      "label": "eTEXTS_DEF_61523"
+    },
+    {
+      "id": 24646,
+      "text": "[C6:すべての防衛ミッションをクリア]すると[LF]応援ミッションに挑戦可能になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1766058382,
+      "updated_at": 1766058382,
+      "label": "eTEXTS_DEF_61524"
+    },
+    {
+      "id": 24647,
+      "text": "[C6:歌の力発動中に、対象クエストをクリア]することで[LF][C6:スペシャル報酬の宝箱数に応じて]報酬が獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1766058382,
+      "updated_at": 1766058382,
+      "label": "eTEXTS_DEF_61525"
+    },
+    {
+      "id": 24648,
+      "text": "クエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1766058382,
+      "updated_at": 1766058382,
+      "label": "eTEXTS_DEF_61526"
+    },
+    {
+      "id": 24649,
+      "text": "[C6:10個獲得]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1766058382,
+      "updated_at": 1766058382,
+      "label": "eTEXTS_DEF_61527"
+    },
+    {
+      "id": 24650,
+      "text": "[C6:10pt獲得]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1766058382,
+      "updated_at": 1766058382,
+      "label": "eTEXTS_DEF_61528"
+    },
+    {
+      "id": 24651,
+      "text": "報酬について",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1766058382,
+      "updated_at": 1766058382,
+      "label": "eTEXTS_DEF_61529"
+    },
+    {
+      "id": 24652,
+      "text": "ライブ報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1766058382,
+      "updated_at": 1766058382,
+      "label": "eTEXTS_DEF_61530"
+    },
+    {
+      "id": 24653,
+      "text": "[C6:各キャラのスペシャル報酬の宝箱数]に応じて獲得",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1766058382,
+      "updated_at": 1766058382,
+      "label": "eTEXTS_DEF_61531"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "table": "sugar_stage_events",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "level": 1,
+      "condition_value": 0,
+      "name": "錆びた刀",
+      "description": "効果なし",
+      "created_at": 1689244460,
+      "updated_at": 1689244460
+    },
+    {
+      "id": 2,
+      "level": 2,
+      "condition_value": 25,
+      "name": "鈍刀",
+      "description": "攻撃力＆友情コンボ1.05倍",
+      "created_at": 1689244460,
+      "updated_at": 1689244460
+    },
+    {
+      "id": 3,
+      "level": 3,
+      "condition_value": 50,
+      "name": "業物",
+      "description": "攻撃力＆友情コンボ1.1倍[LF]「極悪人」のスピードクリア金卵確定",
+      "created_at": 1689244460,
+      "updated_at": 1689854648
+    },
+    {
+      "id": 4,
+      "level": 4,
+      "condition_value": 75,
+      "name": "日輪刀",
+      "description": "攻撃力＆友情コンボ1.15倍[LF]「極悪人」のスピードクリア金卵確定[LF]「極悪人」の金卵ドロップ率1.2倍",
+      "created_at": 1689244460,
+      "updated_at": 1689854648
+    },
+    {
+      "id": 5,
+      "level": 5,
+      "condition_value": 99,
+      "name": "爆血刀",
+      "description": "攻撃力＆友情コンボ1.2倍[LF]「極悪人」のスピードクリア金卵確定[LF]「極悪人」の金卵ドロップ率1.5倍",
+      "created_at": 1689244460,
+      "updated_at": 1689854648
+    }
+  ]
+}

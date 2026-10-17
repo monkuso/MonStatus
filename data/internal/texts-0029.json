@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 1,
+  "table": "texts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 7487,
+      "text": "[LF][LC]開催終了しました[LF]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1620992152,
+      "updated_at": 1620992152,
+      "label": "eTEXTS_DEF_RTM_TIMEOUT"
+    },
+    {
+      "id": 7488,
+      "text": "イベント期間が終了しました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1620992152,
+      "updated_at": 1620992152,
+      "label": "eTEXTS_DEF_RTM_END"
+    },
+    {
+      "id": 7489,
+      "text": "[LC]本当にあきらめますか？[LF][LF][LC][C8:本当によろしいですか？]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1620992152,
+      "updated_at": 1620992152,
+      "label": "eTEXTS_DEF_RTM_MSG_CONTINUE2"
+    },
+    {
+      "id": 7490,
+      "text": "[LC]コンテニュー確認中[LF][LF][LC]ホストがコンテニューを考え中です[LF][LC]しばらくお待ちください",
+      "layout": 18,
+      "color": 0,
+      "created_at": 1620992152,
+      "updated_at": 1620992152,
+      "label": "eTEXTS_DEF_RTM_MSG_CONTINUE_JOIN"
+    },
+    {
+      "id": 7491,
+      "text": "敵にヒットした際の[LF][C6:減速率を緩和]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1623085182,
+      "label": "eTEXTS_DEF_16225"
+    },
+    {
+      "id": 7492,
+      "text": "超絶・廻",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1623085182,
+      "label": "eTEXTS_DEF_FILTER_WINDOW_DIFFICULTY_CHOZETSU_KAI"
+    },
+    {
+      "id": 7493,
+      "text": "パネル:%d達成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1623085182,
+      "label": "eTEXTS_DEF_MSG_MICKEY_BINGO_PANEL_TITLE"
+    },
+    {
+      "id": 7494,
+      "text": "[LC]自動合成完了[LF][LF]自動合成に設定しているモンスターを[LF]合成しました。[LF][LF][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1623085182,
+      "label": "eTEXTS_DEF_AUTOCOMB_RESULT"
+    },
+    {
+      "id": 7495,
+      "text": "[LC]ゴールド不足[LF][LF][NODE][LF][LF]ゴールドが不足しているため、[LF]自動合成することができませんでした。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1623085182,
+      "label": "eTEXTS_DEF_AUTOCOMB_LACK_GOLD"
+    },
+    {
+      "id": 7496,
+      "text": "[LC]メッセージが溜まっています[LF][LF]受け取りBOXに保持できる[LF]メッセージ数の[C6:上限は100件]です[LF]上限に達すると新たにメッセージを[LF]受け取ることができません[LF][LF]上限に達した場合は[LF]既読メッセージを削除することで[LF]新たなメッセージを受け取ることができます",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1623085182,
+      "label": "eTEXTS_DEF_MSG_MESSAGE_FULL_ALERT"
+    },
+    {
+      "id": 7497,
+      "text": "[LC]メッセージ数が上限に達しました[LF][LF]受け取りBOXに保持できる[LF]メッセージ数の[C6:上限は100件]です[LF]上限に達しましたので[LF][C6:受け取れていないメッセージ]があります[LF][LF]既読メッセージを削除することで[LF]新たなメッセージを受け取ることができます",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1623085182,
+      "label": "eTEXTS_DEF_MSG_MESSAGE_OVER_ALERT"
+    },
+    {
+      "id": 7498,
+      "text": "[LC]受け取りBOXとは[LF][LF][CCB:dlme/help_inbox_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1623085182,
+      "label": "eTEXTS_DEF_MSG_MESSAGE_BOX_HELP"
+    },
+    {
+      "id": 7499,
+      "text": "受け取り期限 あと%s",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1623085182,
+      "label": "eTEXTS_DEF_ME_MESSAGE_DELETE_LIMIT"
+    },
+    {
+      "id": 7500,
+      "text": "[C6:プレゼントの受け取りはこちらから]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1623085182,
+      "label": "eTEXTS_DEF_26700"
+    },
+    {
+      "id": 7501,
+      "text": "[C5:メッセージについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1623085182,
+      "label": "eTEXTS_DEF_26701"
+    },
+    {
+      "id": 7502,
+      "text": "受け取りBOXにはログインプレゼントや[LF]各種報酬のついたメッセージが届きます[LF][LF]期限内に各メッセージの[C6:受け取る]から[LF]報酬を忘れずにお受け取りください",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1623085182,
+      "label": "eTEXTS_DEF_26702"
+    },
+    {
+      "id": 7503,
+      "text": "[C5:メッセージの自動削除について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1623085182,
+      "label": "eTEXTS_DEF_26703"
+    },
+    {
+      "id": 7504,
+      "text": "未読メッセージ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1623085182,
+      "label": "eTEXTS_DEF_26704"
+    },
+    {
+      "id": 7505,
+      "text": "・90日経過で削除されます[LF]※[C6:未受け取りの報酬も削除]となります[LF][LF]・期限なしのメッセージは削除されません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1723564122,
+      "label": "eTEXTS_DEF_26705"
+    },
+    {
+      "id": 7506,
+      "text": "既読メッセージ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1623085182,
+      "label": "eTEXTS_DEF_26706"
+    },
+    {
+      "id": 7507,
+      "text": "・14日経過で削除されます[LF]※一部例外のメッセージもあります[LF][LF]・メッセージ総数が91件以上になると[LF]経過日数に関わらず古いものから削除されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1623085182,
+      "label": "eTEXTS_DEF_26707"
+    },
+    {
+      "id": 7508,
+      "text": "[C5:メッセージの一括削除とロックについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1623085182,
+      "label": "eTEXTS_DEF_26708"
+    },
+    {
+      "id": 7509,
+      "text": "一括削除ボタンから既読メッセージを[LF]一括削除することができます[LF][LF]メッセージをロックすると、[LF]一括削除の対象外となり保護されます[LF]ただし、[C6:ロック状態でも自動削除の対象]となります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1623085182,
+      "label": "eTEXTS_DEF_26709"
+    },
+    {
+      "id": 7510,
+      "text": "[LC]終了間近[LF][LF][LC]ガチャ連数を貯められる期間、ガチャ開催期間の終了間近です[LF][LF]貯められる期間を過ぎると、[C2:ガチャ連数を獲得できなくなります][LF]毎日クエストをクリアして50連を目指そう！[LF][LF][C6:貯められる期間：7/13 23:59まで][LF][C6:ガチャ開催期間：7/15 11:59まで]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1686822173,
+      "label": "eTEXTS_DEF_GACHA_DAILY_STACK_DIALOG_CONFIRM"
+    },
+    {
+      "id": 7511,
+      "text": "[LC]デイリーつみたてガチャ[LF][LF][LF][LC][S2]現在[C6:%d連]回せます[LF][LF][LC]※このガチャが引けるのは[C2:1度のみ]です[LF][LC][C2:※本日分のガチャ連数が未獲得です][LF][LF][LC]本当によろしいですか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1654076371,
+      "label": "eTEXTS_DEF_GACHA_DAILY_STACK_DIALOG_CONFIRM_UNCHALLENGED"
+    },
+    {
+      "id": 7512,
+      "text": "[LC]デイリーつみたてガチャ[LF][LF][LF][LC][C2:まだガチャ連数を獲得できます][LF][LC][S2][C2:現在%d連／最大%d連][LF][LF][LC]本当によろしいですか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1654076371,
+      "label": "eTEXTS_DEF_GACHA_DAILY_STACK_DIALOG_CONFIRM_NOT_MAX"
+    },
+    {
+      "id": 7513,
+      "text": "[LC]期間終了間近[LF][LF]ガチャ連数を貯められる期間、[LF]ガチャ開催期間の終了間近です[LF][LF]貯められる期間を過ぎると、[LF][C2:ガチャ連数を獲得できなくなります][LF]毎日クエストをクリアして50連を目指そう！[LF][LF][C6:貯められる期間：7/20 23:59まで][LF][C6:ガチャ開催期間：7/27 3:59まで]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1781774287,
+      "label": "eTEXTS_DEF_GACHA_DAILY_STACK_DIALOG_ACQUISITION_EXPIRATION_NEAR"
+    },
+    {
+      "id": 7514,
+      "text": "[LC]注意！[LF][LF]ガチャ期間がもうすぐ終了です[LF][LF]これ以上ガチャ連数は貯まりません[LF]期間中に忘れずガチャを引きましょう[LF][LF][C6:ガチャ期間：7/27 3:59まで]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1781774287,
+      "label": "eTEXTS_DEF_GACHA_DAILY_STACK_DIALOG_EXPIRATION_DATE_NEAR"
+    },
+    {
+      "id": 7515,
+      "text": "[LC]デイリーつみたてガチャ[LF][LF][LC][S2][C6:本日はモンストの日！][LF][LF][LC]クエストをクリアすると[C6:10連分]の[LF][LC]ガチャ連数を獲得することができます[LF][LF][LC]忘れずにクエストに挑戦しましょう[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1765385553,
+      "label": "eTEXTS_DEF_GACHA_DAILY_STACK_DIALOG_QUEST_MONST_DAY_NOTIFY"
+    },
+    {
+      "id": 7516,
+      "text": "[LC]本日クリア済み[LF][LF][LC]本日分のガチャ連数は獲得済みです",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1686822173,
+      "label": "eTEXTS_DEF_GACHA_DAILY_STACK_DIALOG_TODAY_CLEARED"
+    },
+    {
+      "id": 7517,
+      "text": "[LC]デイリーつみたてガチャ[LF][LF][LC]つみたて期間が終了しました[LF][LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1718876546,
+      "label": "eTEXTS_DEF_GACHA_DAILY_STACK_DIALOG_ACQUISITION_EXPIRATION"
+    },
+    {
+      "id": 7518,
+      "text": "[LC]つみたてガチャ連数獲得！[LF][LF][LF][LC]1日1回クエストクリア達成で[LF][LC]ガチャ連数を獲得しました[LF][LF][LC]獲得ガチャ連数：%d連[LF][LF][LC][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1654076371,
+      "label": "eTEXTS_DEF_GACHA_DAILY_STACK_DIALOG_RESULT"
+    },
+    {
+      "id": 7519,
+      "text": "[LC]デイリーつみたてガチャ[LF][LF][LC]ガチャ期間が終了しました[LF][LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1718876546,
+      "label": "eTEXTS_DEF_GACHA_DAILY_STACK_DIALOG_EXPIRATION_EXCHANGE"
+    },
+    {
+      "id": 7520,
+      "text": "挑戦する",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1623085182,
+      "label": "eTEXTS_DEF_GACHA_DAILY_STACK_BUTTON_CHALLENGE"
+    },
+    {
+      "id": 7521,
+      "text": "ガチャる",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1623085182,
+      "label": "eTEXTS_DEF_GACHA_DAILY_STACK_BUTTON_GACGA"
+    },
+    {
+      "id": 7522,
+      "text": "デイリーつみたてガチャ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1623085182,
+      "label": "eTEXTS_DEF_GACHA_DAILY_STACK_TITLE"
+    },
+    {
+      "id": 7523,
+      "text": "毎日クエストクリアを続けて最大50連！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1654076371,
+      "label": "eTEXTS_DEF_GACHA_DAILY_STACK_DESCRIPTION"
+    },
+    {
+      "id": 7524,
+      "text": "ガチャ期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1718876546,
+      "label": "eTEXTS_DEF_GACHA_DAILY_STACK_GACHA_DATE1"
+    },
+    {
+      "id": 7525,
+      "text": "7/11 0:00 ～ 7/27   3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1781774287,
+      "label": "eTEXTS_DEF_GACHA_DAILY_STACK_GACHA_DATE2"
+    },
+    {
+      "id": 7526,
+      "text": "つみたて期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1718876546,
+      "label": "eTEXTS_DEF_GACHA_DAILY_STACK_STOCK_DATE1"
+    },
+    {
+      "id": 7527,
+      "text": "6/21 0:00 ～ 7/20 23:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1781774287,
+      "label": "eTEXTS_DEF_GACHA_DAILY_STACK_STOCK_DATE2"
+    },
+    {
+      "id": 7528,
+      "text": "つみたて期間は終了しました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1718876546,
+      "label": "eTEXTS_DEF_GACHA_DAILY_STACK_ACQUISTITION_END"
+    },
+    {
+      "id": 7529,
+      "text": "ガチャ連数を最大まで獲得しました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1654076371,
+      "label": "eTEXTS_DEF_GACHA_DAILY_STACK_GACHA_MAX"
+    },
+    {
+      "id": 7530,
+      "text": "本日のクリア状況：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1623085182,
+      "label": "eTEXTS_DEF_GACHA_DAILY_STACK_TODAY_CLEAR_STATUS"
+    },
+    {
+      "id": 7531,
+      "text": "クリア済",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085182,
+      "updated_at": 1623085182,
+      "label": "eTEXTS_DEF_GACHA_DAILY_STACK_CLEARED"
+    },
+    {
+      "id": 7532,
+      "text": "未クリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_GACHA_DAILY_STACK_NOT_CLEAR"
+    },
+    {
+      "id": 7533,
+      "text": "[LC]アビリティ詳細[LF][LF][ABILITY:1231][LF][ABILITY:1232][LF][ABILITY:1233][LF][ABILITY:1234][LF][ABILITY:1235][LF][ABILITY:1236]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1619144410,
+      "updated_at": 1632756678,
+      "label": "eTEXTS_DEF_ABILITY_HELP_36"
+    },
+    {
+      "id": 7534,
+      "text": "[LC]悪なる存在 真・ベリアルを手に入れろ！[LF][LF]このクエストをクリアすると、ミッション報酬で[LF][C4:★5 真・ベリアル]を[C4:★6 悪なる存在 真・ベリアル][LF]に進化させる事ができるようになるぞ！[LF][LF]このクエストに挑むには[LF]クエスト[C4:「舞い堕ちたる美しき悪魔」]の[C6:究極]をクリアしよう！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1619453326,
+      "updated_at": 1619453326,
+      "label": "eTEXTS_DEF_20936"
+    },
+    {
+      "id": 7535,
+      "text": "「舞い堕ちたる美しき悪魔」クリアで挑戦可",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1619453326,
+      "updated_at": 1619453326,
+      "label": "eTEXTS_DEF_20937"
+    },
+    {
+      "id": 7536,
+      "text": "[LC]挑戦できません[LF][LF]このクエストに参加するには[LF]クエスト[C4:「舞い堕ちたる美しき悪魔」]の[C6:究極]を[LF]クリアする必要があります[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1619453326,
+      "updated_at": 1619453326,
+      "label": "eTEXTS_DEF_20938"
+    },
+    {
+      "id": 7537,
+      "text": "クエストクリアでガチャ[C6:%d連]追加！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1654076371,
+      "label": "eTEXTS_DEF_GACHA_DAILY_STACK_CHALLENGE_INFO"
+    },
+    {
+      "id": 7538,
+      "text": "クエストクリアで[C6:最大%d連]まで到達可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1654076371,
+      "label": "eTEXTS_DEF_GACHA_DAILY_STACK_LOWER_INFO"
+    },
+    {
+      "id": 7539,
+      "text": "31連目以降は限定キャラが排出対象に追加！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_GACHA_DAILY_STACK_GACHA_INFO"
+    },
+    {
+      "id": 7540,
+      "text": "[LC]デイリーつみたてガチャ[LF][LF][CCB:dlme/help_deposit_kai_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1718876546,
+      "label": "eTEXTS_DEF_GACHA_DAILY_STACK_HELP"
+    },
+    {
+      "id": 7541,
+      "text": "現在のガチャ連数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1654076371,
+      "label": "eTEXTS_DEF_GACHA_DAILY_STACK_RESULT_TEXT"
+    },
+    {
+      "id": 7542,
+      "text": "[LC][S2]%d連目以降突入！ 　[I0][LF]※通信環境の良いところでプレイしてください。[LF]　データが破損する可能性がございます。※",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_GACHA_DAILY_STACK_GACHA_PROGRESS"
+    },
+    {
+      "id": 7543,
+      "text": "クエストクリアで最大50連まで到達可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1654076371,
+      "label": "eTEXTS_DEF_GACHA_DAILY_STACK_LOWER_INFO2"
+    },
+    {
+      "id": 7544,
+      "text": "[LC][C6:毎日クエストクリアを続けて最大50連！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26800"
+    },
+    {
+      "id": 7545,
+      "text": "[b:ba_help_deposit_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26801"
+    },
+    {
+      "id": 7546,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26802"
+    },
+    {
+      "id": 7547,
+      "text": "6/9 0:00 ～ 7/13 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26803"
+    },
+    {
+      "id": 7548,
+      "text": "[C5:デイリーつみたてガチャについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26804"
+    },
+    {
+      "id": 7549,
+      "text": "[C6:最大で50連引ける]特別なガチャ！[LF][LF]1日1回[C6:クエストをクリア]することで[LF]引けるガチャ回数を自分で増やすことが可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26805"
+    },
+    {
+      "id": 7550,
+      "text": "[C6:どのクエストタイプ][LF][C6:でもOK！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26806"
+    },
+    {
+      "id": 7551,
+      "text": "[C6:クエストクリア]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26807"
+    },
+    {
+      "id": 7552,
+      "text": "1",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26808"
+    },
+    {
+      "id": 7553,
+      "text": "▶",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26809"
+    },
+    {
+      "id": 7554,
+      "text": "[LC]アビリティ詳細[LF][LF][ABILITY:4811]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1619781846,
+      "updated_at": 1619781846,
+      "label": "eTEXTS_DEF_ABILITY_HELP_37"
+    },
+    {
+      "id": 7555,
+      "text": "また、ストライクショットもアクションゲージが[LF]溜まっているほど[C6:威力がアップします]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1620992152,
+      "updated_at": 1620992152,
+      "label": "eTEXTS_DEF_25844"
+    },
+    {
+      "id": 7556,
+      "text": "[C6:2]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26810"
+    },
+    {
+      "id": 7557,
+      "text": "[C6:ガチャ回数獲得！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26811"
+    },
+    {
+      "id": 7558,
+      "text": "さらに[C6:モンストの日]は一気に[C6:10連]がつみたて！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26812"
+    },
+    {
+      "id": 7559,
+      "text": "[C6:クエストクリア]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26813"
+    },
+    {
+      "id": 7560,
+      "text": "10",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26814"
+    },
+    {
+      "id": 7561,
+      "text": "▶",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26815"
+    },
+    {
+      "id": 7562,
+      "text": "[C6:20]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26816"
+    },
+    {
+      "id": 7563,
+      "text": "[C6:ガチャ10回分獲得！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26817"
+    },
+    {
+      "id": 7564,
+      "text": "また[C6:31連目以降]は[C6:限定キャラ]も排出対象に追加！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26818"
+    },
+    {
+      "id": 7565,
+      "text": "※排出対象となるキャラクターの詳細は[u:https://www.monster-strike.com/news/20210603_5.html#2a|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26819"
+    },
+    {
+      "id": 7566,
+      "text": "[C5:ガチャの参加方法について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26820"
+    },
+    {
+      "id": 7567,
+      "text": "貯められる期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26821"
+    },
+    {
+      "id": 7568,
+      "text": "6/17 0:00 ～ [C6:7/13 23:59まで]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1686822173,
+      "label": "eTEXTS_DEF_26822"
+    },
+    {
+      "id": 7569,
+      "text": "ガチャ開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26823"
+    },
+    {
+      "id": 7570,
+      "text": "7/8 0:00 ～ [C6:7/15 11:59まで]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1686822173,
+      "label": "eTEXTS_DEF_26824"
+    },
+    {
+      "id": 7571,
+      "text": "STEP1 ガチャ回数をつみたてよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26825"
+    },
+    {
+      "id": 7572,
+      "text": "[C6:クエストをクリア]することで[LF]ガチャ回数が[C6:1日1回]だけ加算されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26826"
+    },
+    {
+      "id": 7573,
+      "text": "通常",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26827"
+    },
+    {
+      "id": 7574,
+      "text": "[C6:1回分]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26828"
+    },
+    {
+      "id": 7575,
+      "text": "モンストの日",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26829"
+    },
+    {
+      "id": 7576,
+      "text": "[C6:10回分]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26830"
+    },
+    {
+      "id": 7577,
+      "text": "期間内は毎日忘れずにクエストをクリアして[LF][C6:50連分]のガチャを貯めよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26831"
+    },
+    {
+      "id": 7578,
+      "text": "STEP2 ガチャを引こう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26832"
+    },
+    {
+      "id": 7579,
+      "text": "つみたてが完了したら、ガチャを引こう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26833"
+    },
+    {
+      "id": 7580,
+      "text": "ガチャ回数を最大まで獲得しました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26834"
+    },
+    {
+      "id": 7581,
+      "text": "現在",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26835"
+    },
+    {
+      "id": 7582,
+      "text": "[C6:50]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26836"
+    },
+    {
+      "id": 7583,
+      "text": "回",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26837"
+    },
+    {
+      "id": 7584,
+      "text": "ガチャる",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26838"
+    },
+    {
+      "id": 7585,
+      "text": "ガチャを引けるのは[C6:期間中1回限り]です[LF]50連分貯まる前に引く場合はよく考えて引こう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26839"
+    },
+    {
+      "id": 7586,
+      "text": "※[C6:ソロプレイ]、マルチプレイの[C6:ホスト]、[C6:ゲスト][LF]　どのクエストのクリアでもガチャ回数が増加します[LF][LF]※日付の切り替わりは毎日0時です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1623085183,
+      "updated_at": 1623085183,
+      "label": "eTEXTS_DEF_26840"
+    },
+    {
+      "id": 7588,
+      "text": "応援報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_RAIN_MISSION_REWARD_TITLE_RANDOM"
+    },
+    {
+      "id": 7589,
+      "text": "学年応援報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_RAIN_MISSION_REWARD_TITLE_GROUP"
+    },
+    {
+      "id": 7590,
+      "text": "全員応援報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_RAIN_MISSION_REWARD_TITLE_COMPLETE"
+    },
+    {
+      "id": 7591,
+      "text": "報酬一覧[LF][LF][LC][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_RAIN_MISSION_REWARD_DIALOG"
+    },
+    {
+      "id": 7592,
+      "text": "応援確認[LF][WIDTH470][LF][LC]応援チケット1枚で1回応援できます[LF][LF][LC] %sを応援しますか？[LF][LC][NODE][LF][LC]現在の応援チケット：%d枚[LF][LF][LC]あと[C6:%d回]応援できます[LF][LF][LF][LC]※応援するとボイスが再生されます",
+      "layout": 49,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_RAIN_MISSION_COMFIRM_DIALOG"
+    },
+    {
+      "id": 7593,
+      "text": "応援チケット不足[LF][WIDTH470][LF]応援チケットが不足しているため[LF]メンバーを応援できません[LF][LF][C6:スタミナを50消費]することで[LF]応援チケットを[C6:1枚]入手できます[LF][LF]スタミナはクエスト出撃時に消費されます[LF]※全てのクエストが対象です[LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_RAIN_MISSION_NOT_ENOUGH_DIALOG"
+    },
+    {
+      "id": 7594,
+      "text": "%d回応援",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_RAIN_MISSION_CONFIRM_BUTTON_TEXT"
+    },
+    {
+      "id": 7595,
+      "text": "プレゼント[LF][LF][WIDTH550][LF][LC]%sを応援しました[LF][LF][LC][NODE][LF][LC][NODE][LF][LC]を受け取りました！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_RAIN_MISSION_CHEER_RESULT"
+    },
+    {
+      "id": 7596,
+      "text": "学年報酬プレゼント[LF][LF][WIDTH550][LF][LC]%s[LF][LF][LC][NODE][LF][LC][NODE][LF][LC]を受け取りました！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_RAIN_MISSION_GROUP_COMPLETE_DIALOG"
+    },
+    {
+      "id": 7597,
+      "text": "コンプ報酬プレゼント[LF][LF][WIDTH550][LF][LC]%s[LF][LF][LC][NODE][LF][LC][NODE][LF][LC]を受け取りました！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_RAIN_MISSION_ALL_COMPLETE_DIALOG"
+    },
+    {
+      "id": 7598,
+      "text": "ライブ応援ミッション[LF][LF][LC][CCB:dlme/help_collabo_rain_mission_00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_RAIN_MISSION_HELP"
+    },
+    {
+      "id": 7599,
+      "text": "消費スタミナ[C19:50]で応援チケット1枚！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_RAIN_MISSION_BALOON_TEXT"
+    },
+    {
+      "id": 7600,
+      "text": "ライブ応援ミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_RAIN_MISSION_TITLE"
+    },
+    {
+      "id": 7601,
+      "text": "%s回",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_RAIN_MISSION_CHARA_PANEL_TEXT"
+    },
+    {
+      "id": 7602,
+      "text": "ランダムで配布されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_RAIN_MISSION_RANDOM_REWAD_TEXT"
+    },
+    {
+      "id": 7603,
+      "text": "6/26 12:00 ~ 7/3 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_RAIN_MISSION_TERM"
+    },
+    {
+      "id": 7604,
+      "text": "[C6:コラボ限定ガチャ開催中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26300"
+    },
+    {
+      "id": 7605,
+      "text": "[b:ba_help_collabo_rain_00_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26301"
+    },
+    {
+      "id": 7606,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26302"
+    },
+    {
+      "id": 7607,
+      "text": "6/26 12:00～7/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26303"
+    },
+    {
+      "id": 7608,
+      "text": "[C5:コラボ限定ガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26304"
+    },
+    {
+      "id": 7609,
+      "text": "ガチャ[C6:｢超獣神祭×ラブライブ！サンシャイン!!｣]に[LF]期間限定でコラボ限定キャラが登場中！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26305"
+    },
+    {
+      "id": 7610,
+      "text": "[IP8739]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26306"
+    },
+    {
+      "id": 7611,
+      "text": "[IP8742]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26307"
+    },
+    {
+      "id": 7612,
+      "text": "[IP8736]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26308"
+    },
+    {
+      "id": 7613,
+      "text": "さらに、10連ガチャのEXおまけとして[LF][C6:コラボ限定グッジョブ]が付いてくる！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26309"
+    },
+    {
+      "id": 7614,
+      "text": "[IS157|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26310"
+    },
+    {
+      "id": 7615,
+      "text": "[IS158|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26311"
+    },
+    {
+      "id": 7616,
+      "text": "[IS159|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26312"
+    },
+    {
+      "id": 7617,
+      "text": "[IS160|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26313"
+    },
+    {
+      "id": 7618,
+      "text": "[IS161|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26314"
+    },
+    {
+      "id": 7619,
+      "text": "[IS162|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26315"
+    },
+    {
+      "id": 7620,
+      "text": "[IS163|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26316"
+    },
+    {
+      "id": 7621,
+      "text": "[IS164|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26317"
+    },
+    {
+      "id": 7622,
+      "text": "[IS165|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26318"
+    },
+    {
+      "id": 7623,
+      "text": "[C6:コラボ限定クエスト出現中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26319"
+    },
+    {
+      "id": 7624,
+      "text": "[b:ba_help_collabo_rain_00_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26320"
+    },
+    {
+      "id": 7625,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26321"
+    },
+    {
+      "id": 7626,
+      "text": "6/26 12:00～7/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26322"
+    },
+    {
+      "id": 7627,
+      "text": "[C5:コラボ限定クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26323"
+    },
+    {
+      "id": 7628,
+      "text": "スケジュールに沿ってクエストが出現！[LF]降臨時間はスケジュール＆繰り返し予約で確認しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26324"
+    },
+    {
+      "id": 7629,
+      "text": "[SGBI22760|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26325"
+    },
+    {
+      "id": 7630,
+      "text": "[SGBI22770|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26326"
+    },
+    {
+      "id": 7631,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20210624_2.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26327"
+    },
+    {
+      "id": 7632,
+      "text": "[SW0.85][C6:Aqoursを応援して豪華報酬をゲットしよう]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26400"
+    },
+    {
+      "id": 7633,
+      "text": "[b:ba_help_collabo_rain_01.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26401"
+    },
+    {
+      "id": 7634,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26402"
+    },
+    {
+      "id": 7635,
+      "text": "6/26 12:00～7/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26403"
+    },
+    {
+      "id": 7636,
+      "text": "[C5:Aqoursを応援するには]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26404"
+    },
+    {
+      "id": 7637,
+      "text": "期間中、[C6:ライブ応援ミッション]が開催！[LF]ホームのアイコンからミッションを確認できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26405"
+    },
+    {
+      "id": 7638,
+      "text": "応援チケット入手方法",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26406"
+    },
+    {
+      "id": 7639,
+      "text": "[C6:スタミナを50消費するごと]に[LF][C6:応援チケットが１枚]手に入ります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26407"
+    },
+    {
+      "id": 7640,
+      "text": "[C6:スタミナ50消費]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26408"
+    },
+    {
+      "id": 7641,
+      "text": "＋1",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26409"
+    },
+    {
+      "id": 7642,
+      "text": "※全クエストでのスタミナ消費が対象です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26410"
+    },
+    {
+      "id": 7643,
+      "text": "応援チケットの使い方",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26411"
+    },
+    {
+      "id": 7644,
+      "text": "ライブ応援ミッション画面内で、[LF]応援したいメンバーを選択！[LF][C6:応援チケット1枚消費]で、メンバーを[C6:1回]応援できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26412"
+    },
+    {
+      "id": 7645,
+      "text": "1枚消費",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26413"
+    },
+    {
+      "id": 7646,
+      "text": "[C6:メンバーアイコン][LF][C6:タップで応援！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26414"
+    },
+    {
+      "id": 7647,
+      "text": "※5回まで連続して応援することが可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26415"
+    },
+    {
+      "id": 7648,
+      "text": "手に入れた応援チケットを使って[LF]好きなAqoursメンバーを応援しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26416"
+    },
+    {
+      "id": 7649,
+      "text": "[C5:豪華報酬を手に入れよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26417"
+    },
+    {
+      "id": 7650,
+      "text": "メンバーを[C6:1回応援するごと]に[LF]オクケンチーや獣神竜、タスなどの[LF]アイテムがランダムで1つ手に入ります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26418"
+    },
+    {
+      "id": 7651,
+      "text": "[IP0857]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26419"
+    },
+    {
+      "id": 7652,
+      "text": "[IP2892]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26420"
+    },
+    {
+      "id": 7653,
+      "text": "[IP0670]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26421"
+    },
+    {
+      "id": 7654,
+      "text": "学年応援報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26422"
+    },
+    {
+      "id": 7655,
+      "text": "[C6:学年ごとに各メンバー]を[C6:5回以上]応援すると、[LF]ボイスや衣装が解放！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26423"
+    },
+    {
+      "id": 7656,
+      "text": "1年生",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26424"
+    },
+    {
+      "id": 7657,
+      "text": "2年生",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26425"
+    },
+    {
+      "id": 7658,
+      "text": "3年生",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26426"
+    },
+    {
+      "id": 7659,
+      "text": "[C6:衣装解放]することで、いつでもアイテムなしで[LF]もう一つの獣神化に切り替えることができます！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26427"
+    },
+    {
+      "id": 7660,
+      "text": "[IP8740]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26428"
+    },
+    {
+      "id": 7661,
+      "text": "[IP8741]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26429"
+    },
+    {
+      "id": 7662,
+      "text": "[IP8743]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26430"
+    },
+    {
+      "id": 7663,
+      "text": "[IP8744]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26431"
+    },
+    {
+      "id": 7664,
+      "text": "[IP8737]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26432"
+    },
+    {
+      "id": 7665,
+      "text": "[IP8738]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26433"
+    },
+    {
+      "id": 7666,
+      "text": "全員応援報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26434"
+    },
+    {
+      "id": 7667,
+      "text": "[C6:Aqoursメンバー全員]をそれぞれ[C6:5回以上]応援すると、[LF][C6:戦型の書]と[C6:「Aqours」応援勲章]を獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26435"
+    },
+    {
+      "id": 7668,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20210624_2.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26436"
+    },
+    {
+      "id": 7669,
+      "text": "[C5:ボイスを変更するとボール絵も変化！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26437"
+    },
+    {
+      "id": 7670,
+      "text": "[C6:キャラ詳細]で[C6:ボイスの隣のアイコン]をタップすると[LF]セットメニューが開き、ボイスの変更ができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26438"
+    },
+    {
+      "id": 7671,
+      "text": "[C6:タップ！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26439"
+    },
+    {
+      "id": 7672,
+      "text": "[C10:セット中]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26440"
+    },
+    {
+      "id": 7673,
+      "text": "セット",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26441"
+    },
+    {
+      "id": 7674,
+      "text": "ボイスを変更すると[LF]そのボイスに対応したメンバーに[C6:ボール絵が変化します]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26442"
+    },
+    {
+      "id": 7675,
+      "text": "ボイス変更",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26443"
+    },
+    {
+      "id": 7676,
+      "text": "対象キャラクター",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26444"
+    },
+    {
+      "id": 7677,
+      "text": "[C5:★6 浦女3年生 松浦果南＆黒澤ダイヤ＆小原鞠莉][LF][C5:★6 私たちの輝き 松浦果南＆黒澤ダイヤ＆小原鞠莉][LF][C4:★6 浦女1年生 黒澤ルビィ＆津島善子＆国木田花丸][LF][C4:★6 みんなの輝き 黒澤ルビィ＆津島善子＆国木田花丸][LF][C6:★6 浦女2年生 渡辺 曜&高海千歌&桜内梨子][LF][C6:★6 輝きの形 渡辺 曜&高海千歌&桜内梨子]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26445"
+    },
+    {
+      "id": 7678,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20210624_2.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26446"
+    },
+    {
+      "id": 7679,
+      "text": "[SW0.75][C6:Aqoursのメンバーを応援して報酬をゲットしよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26500"
+    },
+    {
+      "id": 7680,
+      "text": "[b:ba_help_collabo_rain_mission_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26501"
+    },
+    {
+      "id": 7681,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26502"
+    },
+    {
+      "id": 7682,
+      "text": "6/26 12:00～7/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26503"
+    },
+    {
+      "id": 7683,
+      "text": "受取期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26504"
+    },
+    {
+      "id": 7684,
+      "text": "7/3 3:59まで",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26505"
+    },
+    {
+      "id": 7685,
+      "text": "[C6:応援チケット]を集めて、Aqoursのメンバーを応援しよう！[LF][C6:応援回数によって、豪華報酬が手に入るチャンス！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26506"
+    },
+    {
+      "id": 7686,
+      "text": "[C5:応援方法]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26507"
+    },
+    {
+      "id": 7687,
+      "text": "応援チケット入手方法",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26508"
+    },
+    {
+      "id": 7688,
+      "text": "期間中に[C6:スタミナを50消費するごと]に[LF][C6:応援チケットが１枚]手に入ります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26509"
+    },
+    {
+      "id": 7689,
+      "text": "[C6:スタミナ50消費]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26510"
+    },
+    {
+      "id": 7690,
+      "text": "＋1",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26511"
+    },
+    {
+      "id": 7691,
+      "text": "※全クエストでのスタミナ消費が対象です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26512"
+    },
+    {
+      "id": 7692,
+      "text": "応援チケットの使い方",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26513"
+    },
+    {
+      "id": 7693,
+      "text": "ライブ応援ミッション画面内で[LF]応援したいメンバーを選択！[LF][C6:応援チケット1枚消費]で、メンバーを[C6:1回]応援できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26514"
+    },
+    {
+      "id": 7694,
+      "text": "1枚消費",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26515"
+    },
+    {
+      "id": 7695,
+      "text": "[C6:メンバーアイコン][LF][C6:タップで応援！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26516"
+    },
+    {
+      "id": 7696,
+      "text": "※5回まで連続して応援することが可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26517"
+    },
+    {
+      "id": 7697,
+      "text": "[C5:応援報酬]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26518"
+    },
+    {
+      "id": 7698,
+      "text": "メンバーを[C6:1回応援するごと]に[LF]オクケンチーや獣神竜、タスなどの[LF]アイテムがランダムで1つ手に入ります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26519"
+    },
+    {
+      "id": 7699,
+      "text": "[IP0857]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26520"
+    },
+    {
+      "id": 7700,
+      "text": "[IP2892]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26521"
+    },
+    {
+      "id": 7701,
+      "text": "[IP0670]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26522"
+    },
+    {
+      "id": 7702,
+      "text": "学年応援報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26523"
+    },
+    {
+      "id": 7703,
+      "text": "[C6:学年ごとに各メンバー]を[C6:5回以上]応援すると達成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26524"
+    },
+    {
+      "id": 7704,
+      "text": "1年生",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26525"
+    },
+    {
+      "id": 7705,
+      "text": "2年生",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26526"
+    },
+    {
+      "id": 7706,
+      "text": "3年生",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26527"
+    },
+    {
+      "id": 7707,
+      "text": "[C6:衣装解放]することで、いつでもアイテムなしで[LF]もう一つの獣神化に切り替えることができます！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26528"
+    },
+    {
+      "id": 7708,
+      "text": "[IP8740]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26529"
+    },
+    {
+      "id": 7709,
+      "text": "[IP8741]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26530"
+    },
+    {
+      "id": 7710,
+      "text": "[IP8743]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26531"
+    },
+    {
+      "id": 7711,
+      "text": "[IP8744]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26532"
+    },
+    {
+      "id": 7712,
+      "text": "[IP8737]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26533"
+    },
+    {
+      "id": 7713,
+      "text": "[IP8738]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26534"
+    },
+    {
+      "id": 7714,
+      "text": "全員応援報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26535"
+    },
+    {
+      "id": 7715,
+      "text": "[C6:Aqoursメンバー全員]を[LF]それぞれ[C6:5回以上]応援すると達成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26536"
+    },
+    {
+      "id": 7716,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20210624_2.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1624529812,
+      "updated_at": 1624529812,
+      "label": "eTEXTS_DEF_26537"
+    },
+    {
+      "id": 7717,
+      "text": "[LF][LC]開催期間外のため挑戦できません",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_MSG_STAGECLASS_TRANSITION_TIMEOUT"
+    },
+    {
+      "id": 7718,
+      "text": "クエスト挑戦条件を満たしていないため[LF]挑戦できません",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_MSG_STAGECLASS_TRANSITION_NONCOMPLETION"
+    },
+    {
+      "id": 7719,
+      "text": "[LC]アビリティ詳細[LF][LF][ABILITY:5201]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1622106390,
+      "updated_at": 1622106390,
+      "label": "eTEXTS_DEF_ABILITY_HELP_38"
+    },
+    {
+      "id": 7720,
+      "text": "[IP8423]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_10326"
+    },
+    {
+      "id": 7721,
+      "text": "[IP7625]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_10327"
+    },
+    {
+      "id": 7722,
+      "text": "[IP7530]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_10328"
+    },
+    {
+      "id": 7723,
+      "text": "[LUCK][C4:5]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_10329"
+    },
+    {
+      "id": 7724,
+      "text": "[LUCK][C4:90]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_10330"
+    },
+    {
+      "id": 7725,
+      "text": "[LUCK][C4:5]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_10331"
+    },
+    {
+      "id": 7726,
+      "text": "[C6:ソウルスキル]の設定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1729527482,
+      "label": "eTEXTS_DEF_10332"
+    },
+    {
+      "id": 7727,
+      "text": "スロットの[C6:解放]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1729527482,
+      "label": "eTEXTS_DEF_10333"
+    },
+    {
+      "id": 7728,
+      "text": "魂の紋章[LF][C6:装着モンスターの変更]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_10334"
+    },
+    {
+      "id": 7729,
+      "text": "各属性ごとの[LF][C6:２つ目の魂の紋章の解放]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_10335"
+    },
+    {
+      "id": 7730,
+      "text": "[IP886]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_10336"
+    },
+    {
+      "id": 7731,
+      "text": "紋章力対象モンスター",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_SOUL_COLLECTION_LEVEL_TITLE"
+    },
+    {
+      "id": 7732,
+      "text": "[LC]変更できません[LF][LF]モンスターがかしモン中または修練中のため、[LF]ソウルを変更できません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_ERROR_SOUL_NO_CHANGE"
+    },
+    {
+      "id": 7733,
+      "text": "[LC]紋章の解放[LF][LF][C6:魂気%d]を消費して、[LF]紋章枠を解放することができます[LF][LF]解放しますか？[LF][LF]解放後の魂気：%s",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_SOUL_EXTRA_RELEASE_MSG"
+    },
+    {
+      "id": 7734,
+      "text": "[LC]魂気不足[LF][LF]解放に必要な魂気が不足しています[LF][LF]※2枠目の紋章を解放するには[LF][C6:魂気%d]を消費する必要があります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1689007851,
+      "label": "eTEXTS_DEF_ERROR_SOUL_EXTRA_RELEASE_POINT"
+    },
+    {
+      "id": 7735,
+      "text": "ボーナス！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_RESULT_EXP_BONUS"
+    },
+    {
+      "id": 7736,
+      "text": "モンスターソウル",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_RESULT_TITLE_MONSTER_SOUL"
+    },
+    {
+      "id": 7737,
+      "text": "[LC]モンスターソウル 引き換え[LF][LF][CCB:dlme/help_collabo_beef_exchange_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_ME_BEEF_EXCHANGE_HELP_DIALOG"
+    },
+    {
+      "id": 7738,
+      "text": "モンスターソウル引き換え",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_ME_BEEF_EXCHANGE_NAME"
+    },
+    {
+      "id": 7739,
+      "text": "大冒険ミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_ME_BEEF_MISSION_TITLE_STRING"
+    },
+    {
+      "id": 7740,
+      "text": "[LC]大冒険ミッション[LF][LF][CCB:dlme/help_collabo_beef_mission_00_1]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_ME_BEEF_MISSION_HELP_DIALOG"
+    },
+    {
+      "id": 7741,
+      "text": "7/15 12:00 ～ 8/5 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_ME_BEEF_MISSION_PERIOD_STRING"
+    },
+    {
+      "id": 7742,
+      "text": "報酬一覧[LF][LF][LC][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_ME_BEEF_MISSION_REWARD_LIST_DIALOG"
+    },
+    {
+      "id": 7743,
+      "text": "[LC]報酬一覧[LF][LF][LC]以下の報酬を獲得しました[LF][LF][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1626109856,
+      "updated_at": 1626109856,
+      "label": "eTEXTS_DEF_ME_BEEF_MISSION_CLEAR_DIALOG"
+    }
+  ]
+}

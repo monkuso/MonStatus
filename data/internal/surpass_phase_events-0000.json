@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "table": "surpass_phase_events",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "stage_group_id": 851600,
+      "start_at": 1738378800,
+      "end_at": 1739588399,
+      "created_at": 1738232918,
+      "updated_at": 1781774283,
+      "next_stage_group_id": 0,
+      "revived_end_at": 1739588399,
+      "overtime_period": 48
+    },
+    {
+      "id": 2,
+      "stage_group_id": 851840,
+      "start_at": 1765879200,
+      "end_at": 1767193199,
+      "created_at": 1765538474,
+      "updated_at": 1781774283,
+      "next_stage_group_id": 29730,
+      "revived_end_at": 1767193199,
+      "overtime_period": 48
+    },
+    {
+      "id": 3,
+      "stage_group_id": 851880,
+      "start_at": 1771556400,
+      "end_at": 1772852399,
+      "created_at": 1771494377,
+      "updated_at": 1781774283,
+      "next_stage_group_id": 0,
+      "revived_end_at": 1772852399,
+      "overtime_period": 48
+    },
+    {
+      "id": 4,
+      "stage_group_id": 852010,
+      "start_at": 1781863200,
+      "end_at": 1782961199,
+      "created_at": 1781774283,
+      "updated_at": 1781774283,
+      "next_stage_group_id": 0,
+      "revived_end_at": 1783133999,
+      "overtime_period": 48
+    }
+  ]
+}

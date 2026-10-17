@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "table": "sns_api_messages",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "sns_id": 1,
+      "message": "[{\"type\": \"template\",\"altText\": \"一緒にモンストで遊ぼう！\",\"template\": {\"type\": \"buttons\",\"actions\": [{\"type\": \"uri\",\"label\": \"アプリをダウンロードする\",\"uri\": \"%s\"}],\"thumbnailImageUrl\": \"https://www.monster-strike.com/line_message/lineinvite_banner01.png\",\"title\": \"一緒にモンストで遊ぼう！\",\"text\": \"ひっぱるだけで遊べるゲームだよ！\\n最大4人まで協力プレイができるから\\n今からはじめても大丈夫！\"}}]",
+      "created_at": 1524671573,
+      "updated_at": 1524671573
+    },
+    {
+      "id": 2,
+      "sns_id": 1,
+      "message": "[{\"type\": \"template\",\"altText\": \"モンストやってる？\",\"template\": {\"type\": \"buttons\",\"actions\": [{\"type\": \"uri\",\"label\": \"アプリをダウンロードする\",\"uri\": \"%s\"}],\"thumbnailImageUrl\": \"https://www.monster-strike.com/line_message/lineinvite_banner02.png\",\"title\": \"モンストやってる？\",\"text\": \"よかったら一緒にモンストしない？\\n個性豊かなキャラや、獣神化して\\n魅力的になったキャラもいるよ！\"}}]",
+      "created_at": 1524671573,
+      "updated_at": 1524671573
+    },
+    {
+      "id": 3,
+      "sns_id": 1,
+      "message": "[{\"type\": \"template\",\"altText\": \"モンストはじめたよ！\",\"template\": {\"type\": \"buttons\",\"actions\": [{\"type\": \"uri\",\"label\": \"アプリを起動する\",\"uri\": \"http://www.monster-strike.com/startup/\"}],\"title\": \"モンストはじめたよ！\",\"text\": \"よかったら一緒にモンストしてほしいな！\"}}]",
+      "created_at": 1536166376,
+      "updated_at": 1536166376
+    }
+  ]
+}

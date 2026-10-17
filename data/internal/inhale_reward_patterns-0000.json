@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "table": "inhale_reward_patterns",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "inhale_box_quantity_pattern_id": 1,
+      "order": 1,
+      "created_at": 1778144256,
+      "updated_at": 1778144256
+    },
+    {
+      "id": 2,
+      "inhale_box_quantity_pattern_id": 1,
+      "order": 2,
+      "created_at": 1778144256,
+      "updated_at": 1778144256
+    },
+    {
+      "id": 3,
+      "inhale_box_quantity_pattern_id": 2,
+      "order": 1,
+      "created_at": 1778144256,
+      "updated_at": 1778144256
+    },
+    {
+      "id": 4,
+      "inhale_box_quantity_pattern_id": 2,
+      "order": 2,
+      "created_at": 1778144256,
+      "updated_at": 1778144256
+    },
+    {
+      "id": 5,
+      "inhale_box_quantity_pattern_id": 2,
+      "order": 3,
+      "created_at": 1778144256,
+      "updated_at": 1778144256
+    }
+  ]
+}

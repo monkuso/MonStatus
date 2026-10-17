@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 1,
+  "table": "texts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 20808,
+      "text": "[IMG:uiitem_10090083.png|0.7]:%s個",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662278,
+      "updated_at": 1740662278,
+      "label": "eTEXTS_DEF_ME_WONDER_TICKET_TEXT"
+    },
+    {
+      "id": 20809,
+      "text": "レムリアの探索者 スリープ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662278,
+      "updated_at": 1740662278,
+      "label": "eTEXTS_DEF_ME_WONDER_DECK_TEXT"
+    },
+    {
+      "id": 20810,
+      "text": "-",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662278,
+      "updated_at": 1740662278,
+      "label": "eTEXTS_DEF_ME_WONDER_NO_PERMENENT_ITEM"
+    },
+    {
+      "id": 20811,
+      "text": "[LC]クエストに挑戦するには[LF][LF]対象のクエストをクリアして[LF]ふんわり枕を獲得する必要があります[LF][LF][NODE][LF]下記ボタンから繰り返し予約画面へ移動できます[LF][LC][LF][LC][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1740662278,
+      "updated_at": 1740662278,
+      "label": "eTEXTS_DEF_MSG_WONDER_DROP_STAGE_CONFIRM"
+    },
+    {
+      "id": 20812,
+      "text": "ふんわり枕所持で挑戦可能",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662278,
+      "updated_at": 1740662278,
+      "label": "eTEXTS_DEF_ME_WONDER_STAGE_LOCK_CONDITION"
+    },
+    {
+      "id": 20813,
+      "text": "BATTLE突破報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662278,
+      "updated_at": 1740662278,
+      "label": "eTEXTS_DEF_ME_WONDER_STAGE_INFO_TAB_TITLE"
+    },
+    {
+      "id": 20814,
+      "text": "%d周目以降",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662278,
+      "updated_at": 1740662278,
+      "label": "eTEXTS_DEF_ME_WONDER_REWARD_TEXT1"
+    },
+    {
+      "id": 20815,
+      "text": "%d周目",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662278,
+      "updated_at": 1740662278,
+      "label": "eTEXTS_DEF_ME_WONDER_REWARD_TEXT2"
+    },
+    {
+      "id": 20816,
+      "text": "%dBATTLE突破",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662278,
+      "updated_at": 1740662278,
+      "label": "eTEXTS_DEF_ME_WONDER_REWARD_TEXT3"
+    },
+    {
+      "id": 20817,
+      "text": "[LC]「夢幻レムリア」出現中！[LF][LF]%sの期間で出現！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1740662278,
+      "updated_at": 1740662278,
+      "label": "eTEXTS_DEF_ME_MSG_WONDER_INTRO"
+    },
+    {
+      "id": 20818,
+      "text": "[LC]おくすりを1つ選んでください",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662278,
+      "updated_at": 1740662278,
+      "label": "eTEXTS_DEF_WONDER_INGAME_ITEM_MENU_TITLE"
+    },
+    {
+      "id": 20819,
+      "text": "[LC]確認[LF][WIDTH600][LF10][LC]このおくすりを選択しますか？[LF10][LC][NODE]%s",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1740662278,
+      "updated_at": 1740662278,
+      "label": "eTEXTS_DEF_WONDER_INGAME_ITEM_CONFIRM"
+    },
+    {
+      "id": 20820,
+      "text": "[LF][LC]※ライフは上限までの回復となります",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1740662278,
+      "updated_at": 1740662278,
+      "label": "eTEXTS_DEF_WONDER_INGAME_ITEM_CONFIRM_ADD"
+    },
+    {
+      "id": 20821,
+      "text": "仲間にするおともを1体選んでください",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662278,
+      "updated_at": 1740662278,
+      "label": "eTEXTS_DEF_WONDER_INGAME_ABILITY_MENU_TITLE"
+    },
+    {
+      "id": 20822,
+      "text": "[LC]確認[LF][WIDTH600][LF10][LC]このおともを選択しますか？[LF10][LC][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1740662278,
+      "updated_at": 1740662278,
+      "label": "eTEXTS_DEF_WONDER_INGAME_ABILITY_CONFIRM"
+    },
+    {
+      "id": 20823,
+      "text": "[LC]仲間がいっぱいです[LF][WIDTH600][LF10][LC]選択したおとも[LF10][LC][NODE][LF10][LC]お別れするおともを選んでください[LF10][LC][NODE]",
+      "layout": 26,
+      "color": 0,
+      "created_at": 1740662278,
+      "updated_at": 1740662278,
+      "label": "eTEXTS_DEF_WONDER_INGAME_ABILITY_CONFIRM_LIMIT"
+    },
+    {
+      "id": 20824,
+      "text": "[LC]確認[LF][WIDTH600][LF10][LC][C6:お別れする]おとも[LF10][LC][NODE][LF10][LC][C6:仲間にする]おとも[LF10][LC][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1740662278,
+      "updated_at": 1740662278,
+      "label": "eTEXTS_DEF_WONDER_INGAME_ABILITY_CONFIRM_CHANGE"
+    },
+    {
+      "id": 20825,
+      "text": "[LC]確認[LF][LF18][LC]おともを仲間にしなくてよろしいですか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1740662278,
+      "updated_at": 1740662278,
+      "label": "eTEXTS_DEF_WONDER_INGAME_ABILITY_CONFIRM_NONE"
+    },
+    {
+      "id": 20826,
+      "text": "決定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662278,
+      "updated_at": 1740662278,
+      "label": "eTEXTS_DEF_WONDER_INGAME_DECIDE"
+    },
+    {
+      "id": 20827,
+      "text": "戻る",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662278,
+      "updated_at": 1740662278,
+      "label": "eTEXTS_DEF_WONDER_INGAME_RETURN"
+    },
+    {
+      "id": 20828,
+      "text": "攻撃力",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662278,
+      "updated_at": 1740662278,
+      "label": "eTEXTS_DEF_WONDER_INGAME_ATTACK"
+    },
+    {
+      "id": 20829,
+      "text": "スピード",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662278,
+      "updated_at": 1740662278,
+      "label": "eTEXTS_DEF_WONDER_INGAME_SPEED"
+    },
+    {
+      "id": 20830,
+      "text": "→",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662278,
+      "updated_at": 1740662278,
+      "label": "eTEXTS_DEF_WONDER_INGAME_ARROW"
+    },
+    {
+      "id": 20831,
+      "text": "%s→[C6:%s]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662278,
+      "updated_at": 1740662278,
+      "label": "eTEXTS_DEF_WONDER_INGAME_ADD_POW"
+    },
+    {
+      "id": 20832,
+      "text": "[LC]プレゼント[LF][LF20][LC][NODE][LF20][LC]ふんわり枕を%d個獲得しました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1740662278,
+      "updated_at": 1740662278,
+      "label": "eTEXTS_DEF_ME_MSG_WONDER_GET_PASS"
+    },
+    {
+      "id": 20833,
+      "text": "夢幻レムリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662278,
+      "updated_at": 1740662278,
+      "label": "eTEXTS_DEF_WONDER_TITLE"
+    },
+    {
+      "id": 20834,
+      "text": "結果",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_WONDER_QUEST_RESULT_NAME"
+    },
+    {
+      "id": 20835,
+      "text": "ショット数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_WONDER_QUEST_RESULT_SHOT_NUM"
+    },
+    {
+      "id": 20836,
+      "text": "[C6:%d] BATTLEまで到達しました！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_WONDER_RESULT_NOTE1"
+    },
+    {
+      "id": 20837,
+      "text": "[SW0.95][C6:ワンショットで夢の世界を冒険しよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53400"
+    },
+    {
+      "id": 20838,
+      "text": "[b:ba_help_wonder_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53401"
+    },
+    {
+      "id": 20839,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53402"
+    },
+    {
+      "id": 20840,
+      "text": "3/2 12:00 ～ 3/18 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53403"
+    },
+    {
+      "id": 20841,
+      "text": "[C5:クエストについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53404"
+    },
+    {
+      "id": 20842,
+      "text": "[C6:夢幻レムリア]は下記のボタンから挑戦可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53405"
+    },
+    {
+      "id": 20843,
+      "text": "[SCTR:45|206|50|夢幻レムリアへ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53406"
+    },
+    {
+      "id": 20844,
+      "text": "[C5:遊び方]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53407"
+    },
+    {
+      "id": 20845,
+      "text": "夢幻レムリアは[C6:ソロプレイ専用]で、鍵を手にして[LF]ドアにたどり着くことで、先に進めるクエストです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53408"
+    },
+    {
+      "id": 20846,
+      "text": "[C5:挑戦方法]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53409"
+    },
+    {
+      "id": 20847,
+      "text": "[C6:対象新イベントクエスト]クリアで獲得できる[LF][C6:ふんわり枕]を1つ消費することで、[LF]夢幻レムリアに挑戦可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53410"
+    },
+    {
+      "id": 20848,
+      "text": "[C6:対象クエスト][LF][C6:クリアで獲得]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53411"
+    },
+    {
+      "id": 20849,
+      "text": "[C6:挑戦可能！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53412"
+    },
+    {
+      "id": 20850,
+      "text": "ふんわり枕はクエストタイプのアイコンからも[LF][C6:1日1回]だけ入手できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53413"
+    },
+    {
+      "id": 20851,
+      "text": "[C6:1日1回]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53414"
+    },
+    {
+      "id": 20852,
+      "text": "※日付の切り替わりはAM4:00です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53415"
+    },
+    {
+      "id": 20853,
+      "text": "[C5:ルール]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53416"
+    },
+    {
+      "id": 20854,
+      "text": "夢幻レムリアは、[C6:各BATTLEを1ショットで突破し][LF][C6:50BATTLE制覇を目指す]クエストです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53417"
+    },
+    {
+      "id": 20855,
+      "text": "[C6:1ショット]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53418"
+    },
+    {
+      "id": 20856,
+      "text": "1ショットで[C6:鍵]を獲得したうえで[LF][C6:ドア]にたどり着けると次のBATTLEに進めます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53419"
+    },
+    {
+      "id": 20857,
+      "text": "[C6:鍵]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53420"
+    },
+    {
+      "id": 20858,
+      "text": "[C6:ドア]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53421"
+    },
+    {
+      "id": 20859,
+      "text": "ただし、フィールド上に敵がいる場合は[LF][C6:すべての敵を倒しドアの茨を解除した上で][LF]ドアにいく必要があります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53422"
+    },
+    {
+      "id": 20860,
+      "text": "1ショットで突破できないとライフが1つ減り、[LF][C6:0になると始めからやり直し]になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53423"
+    },
+    {
+      "id": 20861,
+      "text": "[C5:おともについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53424"
+    },
+    {
+      "id": 20862,
+      "text": "BATTLEを突破するとおともメーターが貯まり、[LF]一定に達すると[C6:ステータスアップなどの効果をもった][LF][C6:おとも]を選択して仲間にすることができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53425"
+    },
+    {
+      "id": 20863,
+      "text": "おともは[C6:ライフが0になっても消えない]ため、[LF]ステータスアップなどの[C6:効果を持ったまま][LF][C6:クエストに再チャレンジすることが可能]です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53426"
+    },
+    {
+      "id": 20864,
+      "text": "ライフ0",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53427"
+    },
+    {
+      "id": 20865,
+      "text": "再チャレンジ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53428"
+    },
+    {
+      "id": 20866,
+      "text": "闇属性キラー",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53429"
+    },
+    {
+      "id": 20867,
+      "text": "ダッシュ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53430"
+    },
+    {
+      "id": 20868,
+      "text": "バブリーモード",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53431"
+    },
+    {
+      "id": 20869,
+      "text": "[C5:おくすりについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53432"
+    },
+    {
+      "id": 20870,
+      "text": "特定のBATTLEを突破すると[LF][C6:ライフ回復やステータスアップなどの効果をもった][LF][C6:おくすり]を選んで飲むことができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53433"
+    },
+    {
+      "id": 20871,
+      "text": "[C6:おくすりはライフが0になると効果が消えます]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53434"
+    },
+    {
+      "id": 20872,
+      "text": "[C5:報酬について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53435"
+    },
+    {
+      "id": 20873,
+      "text": "BATTLEを[C6:10ずつ初めて突破する]たびに[LF]報酬が獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1741621131,
+      "label": "eTEXTS_DEF_53436"
+    },
+    {
+      "id": 20874,
+      "text": "[IPJ11864]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53437"
+    },
+    {
+      "id": 20875,
+      "text": "50BATTLEまで突破すると[C6:制覇]となり[LF]報酬の内容が変更されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53438"
+    },
+    {
+      "id": 20876,
+      "text": "[IPJ11866]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53439"
+    },
+    {
+      "id": 20877,
+      "text": "[C5:対象イベント]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53440"
+    },
+    {
+      "id": 20878,
+      "text": "[C5:★5 磯撫]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53441"
+    },
+    {
+      "id": 20879,
+      "text": "[TRYB:28390]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53442"
+    },
+    {
+      "id": 20880,
+      "text": "[C4:★5 天火]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53443"
+    },
+    {
+      "id": 20881,
+      "text": "[TRYB:28400]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53444"
+    },
+    {
+      "id": 20882,
+      "text": "[IPJ11868]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53445"
+    },
+    {
+      "id": 20883,
+      "text": "[C6:★5 のっぺらぼう]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53446"
+    },
+    {
+      "id": 20884,
+      "text": "[TRYB:28410]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53447"
+    },
+    {
+      "id": 20885,
+      "text": "下記ボタンから繰り返し予約画面へ移動できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53448"
+    },
+    {
+      "id": 20886,
+      "text": "[RRBS:11865|11867|11869]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740728865,
+      "label": "eTEXTS_DEF_53449"
+    },
+    {
+      "id": 20887,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20250227_6.html#5|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53450"
+    },
+    {
+      "id": 20888,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LC][b:wonder_stage_tips01.png][LF]1ショットで鍵を獲得したうえでドアに[LF]たどり着けると次のBATTLEに進めます[LF]ただし、フィールド上に敵がいる場合は[LF]すべての敵を倒しドアの茨を解除した上で[LF]ドアにいく必要があります",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_200342"
+    },
+    {
+      "id": 20889,
+      "text": "[LF][MARGIN10][LC][b:wonder_stage_tips01.png][LF]1ショットで鍵を獲得したうえでドアに[LF]たどり着けると次のBATTLEに進めます[LF]ただし、フィールド上に敵がいる場合は[LF]すべての敵を倒しドアの茨を解除した上で[LF]ドアにいく必要があります",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_200343"
+    },
+    {
+      "id": 20890,
+      "text": "下記のいずれか1つを獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_ME_WONDER_REWARD_TEXT4"
+    },
+    {
+      "id": 20891,
+      "text": "ふんわり枕",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_ME_WONDER_ITEM"
+    },
+    {
+      "id": 20892,
+      "text": "クエストをクリアすると[LF]仲間にしたおともは居なくなります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_53451"
+    },
+    {
+      "id": 20893,
+      "text": "[LC]夢幻レムリアとは[LF][LF][CCB:dlme/help_wonder_00_1][LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_MSG_WONDER_HELP_HOME"
+    },
+    {
+      "id": 20894,
+      "text": "４周目以降の報酬内容は同じものになります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1740662279,
+      "updated_at": 1740662279,
+      "label": "eTEXTS_DEF_ME_WONDER_REWARD_TEXT5"
+    },
+    {
+      "id": 20895,
+      "text": "[LC]バックアップ[LF][LF]プレイデータをバックアップすると、[LF]アプリを消してしまった場合や[LF]機種変更時などにデータの引き継ぎが可能です[LF][LF][C2:重要なお知らせ][LF]MIXI IDや認証コードは他人に教えないでください[LF]バックアップや引き継ぎに関する大切なポイント[LF]やトラブル回避のためのヒントは[u:https://support.monster-strike.com/hc/ja/articles/14663844355481|こちら]を[LF]ご確認ください[LF][LF]プレイデータのバックアップを行いますか？[LF][LF]※MIXI IDが必要です[LF]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1741621131,
+      "updated_at": 1741621131,
+      "label": "eTEXTS_DEF_ME_MSG_BACKUP_INFO"
+    },
+    {
+      "id": 20896,
+      "text": "その他",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741621131,
+      "updated_at": 1741621131,
+      "label": "eTEXTS_DEF_ME_MATCHING_QUEST_FILTER_CATEGORY3"
+    },
+    {
+      "id": 20897,
+      "text": "・[C6:%s]は使用すると[LF]　取り消すことができません[LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741621131,
+      "updated_at": 1741621131,
+      "label": "eTEXTS_DEF_ME_RELEASE_ITEM_USE_CAUTION_GEM"
+    },
+    {
+      "id": 20898,
+      "text": "選択中のうちいずれかに該当するモンスターを表示",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741621131,
+      "updated_at": 1741621131,
+      "label": "eTEXTS_DEF_FILTER_WINDOW_OTHER_EXPLANATION"
+    },
+    {
+      "id": 20899,
+      "text": "複数のアビリティ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741621131,
+      "updated_at": 1741621131,
+      "label": "eTEXTS_DEF_FILTER_WINDOW_OTHER_BUTTON_STATUS_MULTI"
+    },
+    {
+      "id": 20900,
+      "text": "対象クエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741621131,
+      "updated_at": 1741621131,
+      "label": "eTEXTS_DEF_ME_STRIKER_REPORT_INFO_QUEST"
+    },
+    {
+      "id": 20901,
+      "text": "～深淵～",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741621131,
+      "updated_at": 1741621131,
+      "label": "eTEXTS_DEF_ME_STRIKER_REPORT_INFO_ABYSS"
+    },
+    {
+      "id": 20902,
+      "text": "～試練の間～",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741621131,
+      "updated_at": 1741621131,
+      "label": "eTEXTS_DEF_ME_STRIKER_REPORT_INFO_TENKO1"
+    },
+    {
+      "id": 20903,
+      "text": "～空中庭園～",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741621131,
+      "updated_at": 1741621131,
+      "label": "eTEXTS_DEF_ME_STRIKER_REPORT_INFO_TENKO2"
+    },
+    {
+      "id": 20904,
+      "text": "[GIMMICK:撃種制限ボックス][LF][LC][b:tips_stage_capture_37.png][LF][LF]青いボックスは貫通タイプが通過できない[LF]赤いボックスは反射タイプが通過できない[LF]ふれるか、通過すると次ターンに色が変わる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_123"
+    },
+    {
+      "id": 20905,
+      "text": "次のミッションは 3/22 4:00 解放予定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_PULIN_MISSION_TOP_INFO6"
+    },
+    {
+      "id": 20906,
+      "text": "[TAB|WIDTH565:ミッション][NODE][TAB|WIDTH565:全達成][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_PULIN_MISSION_REWARD_LIST_MULTI_TAB"
+    },
+    {
+      "id": 20907,
+      "text": "ミッション1-5全達成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_PULIN_MISSION_REWARD_COMP_TITLE_1"
+    },
+    {
+      "id": 20908,
+      "text": "ミッション6-10全達成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_PULIN_MISSION_REWARD_COMP_TITLE_2"
+    },
+    {
+      "id": 20909,
+      "text": "ミッション11-15全達成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_PULIN_MISSION_REWARD_COMP_TITLE_3"
+    },
+    {
+      "id": 20910,
+      "text": "ミッション16-19全達成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_PULIN_MISSION_REWARD_COMP_TITLE_4"
+    },
+    {
+      "id": 20911,
+      "text": "[LC]ミッション達成！[LF][LF]以下の報酬を受け取りました[LF][LF15][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_PULIN_MISSION_REWARD_GET"
+    },
+    {
+      "id": 20912,
+      "text": "ミッション報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_PULIN_MISSION_REWARD_GET_MISSION_TITLE"
+    },
+    {
+      "id": 20913,
+      "text": "[LC]カード画像保存[LF][LF][LC]カード画像を保存します[LF][LC]よろしいですか？[LF][LC][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1738599195,
+      "updated_at": 1738599195,
+      "label": "eTEXTS_DEF_MSG_PLAYER_CARD_SAVE_NO_PERMISSION"
+    },
+    {
+      "id": 20914,
+      "text": "全達成報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_PULIN_MISSION_REWARD_GET_COMP_TITLE"
+    },
+    {
+      "id": 20915,
+      "text": "[LC]ギアスミッション[LF][LF]新たなミッションが解放されました！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_PULIN_MISSION_UNLOCK_MISSION"
+    },
+    {
+      "id": 20916,
+      "text": "[LC]ギアスミッションとは[LF][LF][IF_DATE|2025/3/15 12:00:00|2025/3/22 04:00:00][CCB:dlme/help_collabo_pulin_sb1_00][ELSE][CCB:dlme/help_collabo_pulin_sb1_01][ENDIF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1742550676,
+      "label": "eTEXTS_DEF_PULIN_MISSION_HELP"
+    },
+    {
+      "id": 20917,
+      "text": "3/15 12:00 ～ 4/5 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_PULIN_MISSION_TOP_PERIOD"
+    },
+    {
+      "id": 20918,
+      "text": "全てのミッションをクリアで次のミッションを解放",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_PULIN_MISSION_TOP_INFO1"
+    },
+    {
+      "id": 20919,
+      "text": "次のミッションは %d/%d %d:%02d 解放",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_PULIN_MISSION_TOP_INFO2"
+    },
+    {
+      "id": 20920,
+      "text": "ミッション%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_PULIN_MISSION_REWARD_MISSION_TITLE"
+    },
+    {
+      "id": 20921,
+      "text": "[C6:コラボガチャ開催中]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53700"
+    },
+    {
+      "id": 20922,
+      "text": "[b:ba_help_collabo_pulin_00_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53701"
+    },
+    {
+      "id": 20923,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53702"
+    },
+    {
+      "id": 20924,
+      "text": "3/15 12:00〜4/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53703"
+    },
+    {
+      "id": 20925,
+      "text": "[C5:コラボ限定ガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53704"
+    },
+    {
+      "id": 20926,
+      "text": "[IPJ11881]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53705"
+    },
+    {
+      "id": 20927,
+      "text": "[IPJ11883]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53706"
+    },
+    {
+      "id": 20928,
+      "text": "[IPJ11889]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53707"
+    },
+    {
+      "id": 20929,
+      "text": "[IPJ11885]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53708"
+    },
+    {
+      "id": 20930,
+      "text": "[IPJ11887]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53709"
+    },
+    {
+      "id": 20931,
+      "text": "さらに10連ガチャではEXおまけとして[LF][C6:コラボグッジョブ]が手に入ります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53710"
+    },
+    {
+      "id": 20932,
+      "text": "[IS633|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53711"
+    },
+    {
+      "id": 20933,
+      "text": "[IS634|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53712"
+    },
+    {
+      "id": 20934,
+      "text": "[IS635|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53713"
+    },
+    {
+      "id": 20935,
+      "text": "[IS636|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53714"
+    },
+    {
+      "id": 20936,
+      "text": "[IS637|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53715"
+    },
+    {
+      "id": 20937,
+      "text": "[IS638|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53716"
+    },
+    {
+      "id": 20938,
+      "text": "[IS639|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53717"
+    },
+    {
+      "id": 20939,
+      "text": "[IS640|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53718"
+    },
+    {
+      "id": 20940,
+      "text": "[IS641|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53719"
+    },
+    {
+      "id": 20941,
+      "text": "[C6:コラボクエスト出現中]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53720"
+    },
+    {
+      "id": 20942,
+      "text": "[b:ba_help_collabo_pulin_00_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53721"
+    },
+    {
+      "id": 20943,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53722"
+    },
+    {
+      "id": 20944,
+      "text": "3/15 12:00〜4/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53723"
+    },
+    {
+      "id": 20945,
+      "text": "[C5:イベントクエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53724"
+    },
+    {
+      "id": 20946,
+      "text": "[SGBI28450|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53725"
+    },
+    {
+      "id": 20947,
+      "text": "[SGBI28460|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53726"
+    },
+    {
+      "id": 20948,
+      "text": "[SGBI28470|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53727"
+    },
+    {
+      "id": 20949,
+      "text": "[SGBI28440|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53728"
+    },
+    {
+      "id": 20950,
+      "text": "[SGBI28430|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53729"
+    },
+    {
+      "id": 20951,
+      "text": "[C2:｢ナイトオブシックス｣]は[LF]1日1回クリアボーナスで[C6:7体]獲得可能、[LF]マルチだと金卵2個以上の排出率がアップします",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53730"
+    },
+    {
+      "id": 20952,
+      "text": "[C6:超究極難易度が登場]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53731"
+    },
+    {
+      "id": 20953,
+      "text": "[b:ba_help_collabo_pulin_00_3.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53732"
+    },
+    {
+      "id": 20954,
+      "text": "[C5:超究極クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53733"
+    },
+    {
+      "id": 20955,
+      "text": "[SGBI28480|difficulty1]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53734"
+    },
+    {
+      "id": 20956,
+      "text": "このクエストではどのキャラも[LF]本来のラックに[C4:+99]された[C4:運極]状態で[LF]ラックボーナスが獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53735"
+    },
+    {
+      "id": 20957,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20250313_2.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53736"
+    },
+    {
+      "id": 20958,
+      "text": "[SW0.85][C6:コラボスターターパックなどのお楽しみ要素も]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862336,
+      "updated_at": 1741862336,
+      "label": "eTEXTS_DEF_53800"
+    },
+    {
+      "id": 20959,
+      "text": "[b:ba_help_collabo_pulin_01.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862337,
+      "updated_at": 1741862337,
+      "label": "eTEXTS_DEF_53801"
+    },
+    {
+      "id": 20960,
+      "text": "[C5:コラボスターターパック]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862337,
+      "updated_at": 1741862337,
+      "label": "eTEXTS_DEF_53802"
+    },
+    {
+      "id": 20961,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862337,
+      "updated_at": 1741862337,
+      "label": "eTEXTS_DEF_53803"
+    },
+    {
+      "id": 20962,
+      "text": "3/15 12:00〜4/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862337,
+      "updated_at": 1741862337,
+      "label": "eTEXTS_DEF_53804"
+    },
+    {
+      "id": 20963,
+      "text": "[C6:ここでのみ入手可能なキャラ]と[LF]各種アイテムがセットとなった[LF][C6:コラボスターターパック]が購入可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862337,
+      "updated_at": 1741862337,
+      "label": "eTEXTS_DEF_53805"
+    },
+    {
+      "id": 20964,
+      "text": "[IPJ11890]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862337,
+      "updated_at": 1741862337,
+      "label": "eTEXTS_DEF_53806"
+    },
+    {
+      "id": 20965,
+      "text": "[C5:フレンドガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862337,
+      "updated_at": 1741862337,
+      "label": "eTEXTS_DEF_53807"
+    },
+    {
+      "id": 20966,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862337,
+      "updated_at": 1741862337,
+      "label": "eTEXTS_DEF_53808"
+    },
+    {
+      "id": 20967,
+      "text": "3/15 12:00〜4/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862337,
+      "updated_at": 1741862337,
+      "label": "eTEXTS_DEF_53809"
+    },
+    {
+      "id": 20968,
+      "text": "期間中フレンドガチャから[LF]下記のキャラが排出されるようになります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862337,
+      "updated_at": 1741862337,
+      "label": "eTEXTS_DEF_53810"
+    },
+    {
+      "id": 20969,
+      "text": "[IPJ11902]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862337,
+      "updated_at": 1741862337,
+      "label": "eTEXTS_DEF_53811"
+    },
+    {
+      "id": 20970,
+      "text": "[C5:期間限定ラックボーナス]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862337,
+      "updated_at": 1741862337,
+      "label": "eTEXTS_DEF_53812"
+    },
+    {
+      "id": 20971,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862337,
+      "updated_at": 1741862337,
+      "label": "eTEXTS_DEF_53813"
+    },
+    {
+      "id": 20972,
+      "text": "3/15 12:00〜4/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862337,
+      "updated_at": 1741862337,
+      "label": "eTEXTS_DEF_53814"
+    },
+    {
+      "id": 20973,
+      "text": "下記のキャラは期間中[LF]本来のラックに[C4:+99]された[C4:運極]状態で[LF]ラックボーナスが獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862337,
+      "updated_at": 1741862337,
+      "label": "eTEXTS_DEF_53815"
+    },
+    {
+      "id": 20974,
+      "text": "[IPJ11903]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862337,
+      "updated_at": 1741862337,
+      "label": "eTEXTS_DEF_53816"
+    },
+    {
+      "id": 20975,
+      "text": "[C5:その他お楽しみ要素]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862337,
+      "updated_at": 1741862337,
+      "label": "eTEXTS_DEF_53817"
+    },
+    {
+      "id": 20976,
+      "text": "ギアスミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862337,
+      "updated_at": 1741862337,
+      "label": "eTEXTS_DEF_53818"
+    },
+    {
+      "id": 20977,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20250313_2.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862337,
+      "updated_at": 1741862337,
+      "label": "eTEXTS_DEF_53819"
+    },
+    {
+      "id": 20978,
+      "text": "[SW0.85][C6:ミッションをクリアして報酬を獲得しよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862337,
+      "updated_at": 1741862337,
+      "label": "eTEXTS_DEF_53900"
+    },
+    {
+      "id": 20979,
+      "text": "[b:ba_help_collabo_pulin_sb1_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862337,
+      "updated_at": 1741862337,
+      "label": "eTEXTS_DEF_53901"
+    },
+    {
+      "id": 20980,
+      "text": "ギアスミッションに挑戦して報酬を獲得しましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862337,
+      "updated_at": 1741862337,
+      "label": "eTEXTS_DEF_53902"
+    },
+    {
+      "id": 20981,
+      "text": "[C5:遊び方]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862337,
+      "updated_at": 1741862337,
+      "label": "eTEXTS_DEF_53903"
+    },
+    {
+      "id": 20982,
+      "text": "挑戦可能なミッションを[C6:全てクリア]すると[LF][C6:次のミッションが解放]されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862337,
+      "updated_at": 1741862337,
+      "label": "eTEXTS_DEF_53904"
+    },
+    {
+      "id": 20983,
+      "text": "[C10:ミッション]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862337,
+      "updated_at": 1741862337,
+      "label": "eTEXTS_DEF_53905"
+    },
+    {
+      "id": 20984,
+      "text": "全てクリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862337,
+      "updated_at": 1741862337,
+      "label": "eTEXTS_DEF_53906"
+    },
+    {
+      "id": 20985,
+      "text": "ミッション解放",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862337,
+      "updated_at": 1741862337,
+      "label": "eTEXTS_DEF_53907"
+    },
+    {
+      "id": 20986,
+      "text": "※[C6:解放前のミッションは条件を満たしても][LF]　ミッションクリアとなりません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862337,
+      "updated_at": 1741862337,
+      "label": "eTEXTS_DEF_53908"
+    },
+    {
+      "id": 20987,
+      "text": "[C5:報酬について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862337,
+      "updated_at": 1741862337,
+      "label": "eTEXTS_DEF_53909"
+    },
+    {
+      "id": 20988,
+      "text": "各ミッションをクリアすると報酬が獲得できます[LF][LF]また、解放済みのミッションを全てクリアすると[LF][C6:さらに報酬を獲得]できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862337,
+      "updated_at": 1741862337,
+      "label": "eTEXTS_DEF_53910"
+    },
+    {
+      "id": 20989,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20250313_2.html#6|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862337,
+      "updated_at": 1741862337,
+      "label": "eTEXTS_DEF_53911"
+    },
+    {
+      "id": 20990,
+      "text": "ミッション20-21全達成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862337,
+      "updated_at": 1742550676,
+      "label": "eTEXTS_DEF_PULIN_MISSION_REWARD_COMP_TITLE_5"
+    },
+    {
+      "id": 20991,
+      "text": "ミッション20-21全達成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1741862337,
+      "updated_at": 1742550676,
+      "label": "eTEXTS_DEF_PULIN_MISSION_REWARD_COMP_TITLE_6"
+    },
+    {
+      "id": 20992,
+      "text": "[LC]ギアスミッションとは[LF][LF][CCB:dlme/help_collabo_pulin_sb1_01]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1742550676,
+      "updated_at": 1742550676,
+      "label": "eTEXTS_DEF_PULIN_MISSION_HELP2"
+    },
+    {
+      "id": 20993,
+      "text": "どちらかの勢力を選択してミッションに挑もう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1742550676,
+      "updated_at": 1742550676,
+      "label": "eTEXTS_DEF_PULIN_MISSION_TOP_INFO3"
+    },
+    {
+      "id": 20994,
+      "text": "[C2:紅月カレン＆紅蓮聖天八極式]に挑戦可能",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1742550676,
+      "updated_at": 1742550676,
+      "label": "eTEXTS_DEF_PULIN_MISSION_TOP_INFO4"
+    },
+    {
+      "id": 20995,
+      "text": "[C5:枢木スザク＆ランスロット・アルビオン]に挑戦可能",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1742550676,
+      "updated_at": 1742550676,
+      "label": "eTEXTS_DEF_PULIN_MISSION_TOP_INFO5"
+    },
+    {
+      "id": 20996,
+      "text": "※どちらの勢力を選択しても獲得できる報酬は同じです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1742550676,
+      "updated_at": 1742550676,
+      "label": "eTEXTS_DEF_PULIN_MISSION_TOP_SELECT_TEAM_INFO"
+    },
+    {
+      "id": 20997,
+      "text": "[LC]勢力選択[LF][LF][LC][NODE][LF]選択後は以下のクエストに挑戦可能になります[LF][LF-10][NODE][LF][LF]「[C6:%s]」を選択します[LF]よろしいですか？[LF][LF][C6:※勢力選択後は変更できません][LF][C6:※選択しなかった勢力のクエストには][LF]　[C6:マルチでのみ挑戦可能です]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1742550676,
+      "updated_at": 1742550676,
+      "label": "eTEXTS_DEF_PULIN_MISSION_TOP_SELECT_TEAM_DIALOG"
+    },
+    {
+      "id": 20998,
+      "text": "神聖ブリタニア帝国",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1742550676,
+      "updated_at": 1742550676,
+      "label": "eTEXTS_DEF_PULIN_MISSION_TEAM_RED"
+    },
+    {
+      "id": 20999,
+      "text": "超合集国",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1742550676,
+      "updated_at": 1742550676,
+      "label": "eTEXTS_DEF_PULIN_MISSION_TEAM_BLUE"
+    },
+    {
+      "id": 21000,
+      "text": "挑戦条件を満たしていません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1742550676,
+      "updated_at": 1742550676,
+      "label": "eTEXTS_DEF_PULIN_MISSION_STAGE_UNPLAYABLE_INFO"
+    },
+    {
+      "id": 21001,
+      "text": "[LC]条件未達成[LF][LF]ギアスミッションで全てのミッションをクリアして[LF]「超合集国」「神聖ブリタニア帝国」のいずれかを選択しよう[LF][LF][LC][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1742550676,
+      "updated_at": 1742550676,
+      "label": "eTEXTS_DEF_PULIN_MISSION_STAGE_UNPLAYABLE_DIALOG"
+    },
+    {
+      "id": 21002,
+      "text": "移動",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1742550676,
+      "updated_at": 1742550676,
+      "label": "eTEXTS_DEF_PULIN_MISSION_STAGE_MOVE_BUTTON"
+    },
+    {
+      "id": 21003,
+      "text": "[LC]挑戦できません[LF][LF]ギアスミッションで全てのミッションをクリアして[LF]「超合集国」「神聖ブリタニア帝国」のいずれかを選択することで[LF]クエストに挑戦することができます",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1742550676,
+      "updated_at": 1742550676,
+      "label": "eTEXTS_DEF_PULIN_MISSION_MULTI_UNPLAYABLE_DIALOG"
+    },
+    {
+      "id": 21004,
+      "text": "[LC]ギアスミッション[LF][LF]新たなミッションが解放されました！[LF]「超合集国」「神聖ブリタニア帝国」の[LF]いずれかを選択することでミッションに[LF]挑戦することができます",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1742550676,
+      "updated_at": 1742550676,
+      "label": "eTEXTS_DEF_PULIN_MISSION_BEGIN_LATTER_HARF_DIALOG"
+    },
+    {
+      "id": 21005,
+      "text": "[b:ba_help_collabo_pulin_00_4.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1742550676,
+      "updated_at": 1742550676,
+      "label": "eTEXTS_DEF_53737"
+    },
+    {
+      "id": 21006,
+      "text": "[SGBI28490|difficulty1]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1742550676,
+      "updated_at": 1742550676,
+      "label": "eTEXTS_DEF_53738"
+    },
+    {
+      "id": 21007,
+      "text": "[SGBI28500|difficulty1]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1742550676,
+      "updated_at": 1742550676,
+      "label": "eTEXTS_DEF_53739"
+    },
+    {
+      "id": 21008,
+      "text": "ギアスミッションで[LF]超合集国を選択すると[C5:｢Re; vsスザク｣]に[LF]神聖ブリタニア帝国を選択すると[C2:｢Re; vsカレン｣]に[LF]挑戦可能になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1742550676,
+      "updated_at": 1742550676,
+      "label": "eTEXTS_DEF_53740"
+    },
+    {
+      "id": 21009,
+      "text": "選択していないクエストにはマルチプレイの[LF]ゲストのみ挑戦可能です[LF][LF]※クエストボスの｢紅月カレン＆紅蓮聖天八極式｣と[LF]　｢枢木スザク＆ランスロット・アルビオン｣は[LF]　入手できません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1742550676,
+      "updated_at": 1742550676,
+      "label": "eTEXTS_DEF_53741"
+    },
+    {
+      "id": 21010,
+      "text": "[C5:選択ミッションについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1742550676,
+      "updated_at": 1742550676,
+      "label": "eTEXTS_DEF_53912"
+    },
+    {
+      "id": 21011,
+      "text": "全てのミッションをクリアすると[LF][C6:｢超合集国｣]と[C6:｢神聖ブリタニア帝国｣]の[LF][C6:いずれかの勢力を選択可能]になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1742550676,
+      "updated_at": 1742550676,
+      "label": "eTEXTS_DEF_53913"
+    },
+    {
+      "id": 21012,
+      "text": "選択した勢力のミッションをクリアすると[LF][C6:コラボキャラやストライカーカードなどの][LF][C6:報酬を獲得]できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1742550676,
+      "updated_at": 1742550676,
+      "label": "eTEXTS_DEF_53914"
+    },
+    {
+      "id": 21013,
+      "text": "[IPJ11904]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1742550676,
+      "updated_at": 1742550676,
+      "label": "eTEXTS_DEF_53915"
+    },
+    {
+      "id": 21014,
+      "text": "魔女との契約",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_PULIN_PIZZA_TITLE"
+    },
+    {
+      "id": 21015,
+      "text": "[LC]魔女との契約とは[LF][LF][CCB:dlme/help_collabo_pulin_sb3_00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_MSG_PULIN_PIZZA_HELP"
+    },
+    {
+      "id": 21016,
+      "text": "3/28 4:00 ～ 4/3 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_PULIN_PIZZA_PIRIOD"
+    },
+    {
+      "id": 21017,
+      "text": "C.C.にピザをあげて報酬をもらおう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_PULIN_PIZZA_SUB_TITLE"
+    },
+    {
+      "id": 21018,
+      "text": "[IMG:uiitem_10181008.png|1.0] ギアス：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_PULIN_PIZZA_MY_POINT"
+    },
+    {
+      "id": 21019,
+      "text": "あげる数：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_PULIN_PIZZA_MY_PIZZA"
+    },
+    {
+      "id": 21020,
+      "text": "クエストクリアでスタミナを200消費で獲得：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_PULIN_PIZZA_PIZZA_STAMINA"
+    },
+    {
+      "id": 21021,
+      "text": "%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_PULIN_PIZZA_POINT_FORMAT_1"
+    },
+    {
+      "id": 21022,
+      "text": "[C6:%d]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_PULIN_PIZZA_POINT_FORMAT_2"
+    },
+    {
+      "id": 21023,
+      "text": "%d/%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_PULIN_PIZZA_POINT_FORMAT_3"
+    },
+    {
+      "id": 21024,
+      "text": "[C6:%d/%d]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_PULIN_PIZZA_POINT_FORMAT_4"
+    },
+    {
+      "id": 21025,
+      "text": "[LC]確認[LF][LF]C.C.に獲得したピザを全てあげて[LF]よろしいですか？[LF][LF][LC][BG_STR:deck_number_bg.png|Y:-3|WIDTH:542|CSTR:[IMG:uiitem_10090084.png|1.0]あげる数：%s]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_MSG_PULIN_PIZZA_CONFIRMATION"
+    },
+    {
+      "id": 21026,
+      "text": "[LC]報酬獲得[LF][LF]以下の報酬を獲得しました[LF][LF15][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_MSG_PULIN_PIZZA_RESULT"
+    },
+    {
+      "id": 21027,
+      "text": "[LC]報酬獲得[LF][LF]本日の報酬を獲得しました[LF][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_MSG_PULIN_PIZZA_RESULT_DAILY"
+    },
+    {
+      "id": 21028,
+      "text": "[LC]報酬獲得[LF][LF]以下の報酬を獲得しました[LF][LF15][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_MSG_PULIN_PIZZA_RESULT_BOOST"
+    },
+    {
+      "id": 21029,
+      "text": "[LC]報酬一覧[LF][WIDTH565][LF][TAB|WIDTH565:ギアス使用回数報酬]対象クエストでギアスを使用した回数に応じて獲得できます[LF][LF-10][NODE][TAB|WIDTH565:ピザ報酬][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_MSG_PULIN_PIZZA_REWARD"
+    },
+    {
+      "id": 21030,
+      "text": "[IMG:uiitem_10181008.png|1.0]ギアス使用回数：%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_PULIN_PIZZA_REWARD_PARTS_1"
+    },
+    {
+      "id": 21031,
+      "text": "ギアス使用回数 %d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_PULIN_PIZZA_REWARD_PARTS_2"
+    },
+    {
+      "id": 21032,
+      "text": "ピザ報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_PULIN_PIZZA_REWARD_PARTS_3"
+    },
+    {
+      "id": 21033,
+      "text": "ピザを1つあげる毎に、[LF]以下のアイテムのいずれか1種を獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_PULIN_PIZZA_REWARD_PARTS_4"
+    },
+    {
+      "id": 21034,
+      "text": "通常",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_PULIN_PIZZA_REWARD_PARTS_5"
+    },
+    {
+      "id": 21035,
+      "text": "レア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_PULIN_PIZZA_REWARD_PARTS_6"
+    },
+    {
+      "id": 21036,
+      "text": "ログイン報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_PULIN_PIZZA_REWARD_PARTS_7"
+    },
+    {
+      "id": 21037,
+      "text": "初回",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_PULIN_PIZZA_REWARD_PARTS_8"
+    },
+    {
+      "id": 21038,
+      "text": "2回目以降",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_PULIN_PIZZA_REWARD_PARTS_9"
+    },
+    {
+      "id": 21039,
+      "text": "[LC]確認[LF][LF]C.C.に獲得したピザを全てあげて[LF]よろしいですか？[LF][LC][BG_STR:deck_number_bg.png|Y:-3|WIDTH:542|CSTR:[IMG:uiitem_10090084.png|1.0]あげる数：%s]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_PULIN_PIZZA_REWARD_PARTS_10"
+    },
+    {
+      "id": 21040,
+      "text": "クエストクリアで[LF]スタミナを200消費",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_PULIN_PIZZA_RESULT_PARTS_1"
+    },
+    {
+      "id": 21041,
+      "text": "[C6:※上限に達したため、過剰分は獲得できませんでした]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_PULIN_PIZZA_RESULT_PARTS_2"
+    },
+    {
+      "id": 21042,
+      "text": "[C6:※上限に達しているためピザは獲得できません]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_PULIN_PIZZA_RESULT_PARTS_3"
+    },
+    {
+      "id": 21043,
+      "text": "[C6:ギアス]対象クエスト！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_PULIN_PIZZA_EFFECT_NOTICE_LABEL"
+    },
+    {
+      "id": 21044,
+      "text": "魔女との契約",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_53820"
+    },
+    {
+      "id": 21045,
+      "text": "[SW0.85][C6:ピザをあげてラッキーリザルト発動を目指せ！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54000"
+    },
+    {
+      "id": 21046,
+      "text": "[b:ba_help_collabo_pulin_sb3_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54001"
+    },
+    {
+      "id": 21047,
+      "text": "C.C.にピザをあげて[LF][C6:ラッキーリザルトが必ず発動する]お助けアイテム[LF][C6:ギアス]を手に入れましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54002"
+    },
+    {
+      "id": 21048,
+      "text": "[C5:ギアスについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54003"
+    },
+    {
+      "id": 21049,
+      "text": "対象のクエストで[C6:ギアスを使用]すると[LF][C6:ラッキーリザルトが必ず発動]します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54004"
+    },
+    {
+      "id": 21050,
+      "text": "コラボのみ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54005"
+    },
+    {
+      "id": 21051,
+      "text": "[C6:ギアス使用！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54006"
+    },
+    {
+      "id": 21052,
+      "text": "ソロ・ホストのみ使用可能で[LF]マルチプレイの場合はゲストも効果を得られます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54007"
+    },
+    {
+      "id": 21053,
+      "text": "[C5:ギアスの入手方法]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54008"
+    },
+    {
+      "id": 21054,
+      "text": "C.C.にピザをあげると[LF][C6:稀にギアスを獲得]することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54009"
+    },
+    {
+      "id": 21055,
+      "text": "ピザをあげる",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54010"
+    },
+    {
+      "id": 21056,
+      "text": "稀にギアス獲得",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54011"
+    },
+    {
+      "id": 21057,
+      "text": "あげる数：6/8",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54012"
+    },
+    {
+      "id": 21058,
+      "text": "また｢魔女との契約｣の画面を初めて開いた際に[LF][C6:ギアスを1個獲得]することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54013"
+    },
+    {
+      "id": 21059,
+      "text": "[C5:ピザの入手方法]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54014"
+    },
+    {
+      "id": 21060,
+      "text": "クエストクリアで消費したスタミナの合計が[C6:200に][LF][C6:到達する毎にピザを1枚獲得]することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54015"
+    },
+    {
+      "id": 21061,
+      "text": "スタミナ200消費",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54016"
+    },
+    {
+      "id": 21062,
+      "text": "ピザ獲得",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54017"
+    },
+    {
+      "id": 21063,
+      "text": "クエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1743069589,
+      "updated_at": 1743069589,
+      "label": "eTEXTS_DEF_54018"
+    }
+  ]
+}

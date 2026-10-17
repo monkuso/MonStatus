@@ -1,0 +1,999 @@
+{
+  "schemaVersion": 1,
+  "table": "limited_bgm_schedules",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "bgm_tag": "so2_raid",
+      "start_at": 1594954800,
+      "end_at": 1596337199,
+      "created_at": 1588341872,
+      "updated_at": 1594816774
+    },
+    {
+      "id": 2,
+      "bgm_tag": "sk_event",
+      "start_at": 1601823600,
+      "end_at": 1602989999,
+      "created_at": 1601809854,
+      "updated_at": 1601809854
+    },
+    {
+      "id": 3,
+      "bgm_tag": "nt2_event",
+      "start_at": 1605322800,
+      "end_at": 1606877999,
+      "created_at": 1605113761,
+      "updated_at": 1605113761
+    },
+    {
+      "id": 4,
+      "bgm_tag": "jj_event1",
+      "start_at": 1619924400,
+      "end_at": 1620442799,
+      "created_at": 1619781749,
+      "updated_at": 1620379759
+    },
+    {
+      "id": 5,
+      "bgm_tag": "jj_event2",
+      "start_at": 1620442800,
+      "end_at": 1621220399,
+      "created_at": 1619781749,
+      "updated_at": 1620379759
+    },
+    {
+      "id": 6,
+      "bgm_tag": "beef_event",
+      "start_at": 1626318000,
+      "end_at": 1627873199,
+      "created_at": 1626107777,
+      "updated_at": 1626107777
+    },
+    {
+      "id": 7,
+      "bgm_tag": "choco_event",
+      "start_at": 1633273200,
+      "end_at": 1634612399,
+      "created_at": 1633259556,
+      "updated_at": 1633259556
+    },
+    {
+      "id": 8,
+      "bgm_tag": "choco_event2",
+      "start_at": 1633273200,
+      "end_at": 1634612399,
+      "created_at": 1633259556,
+      "updated_at": 1633259556
+    },
+    {
+      "id": 9,
+      "bgm_tag": "math_event",
+      "start_at": 1636858800,
+      "end_at": 1638413999,
+      "created_at": 1636715961,
+      "updated_at": 1636715961
+    },
+    {
+      "id": 10,
+      "bgm_tag": "math_event2",
+      "start_at": 1637377200,
+      "end_at": 1638413999,
+      "created_at": 1637230831,
+      "updated_at": 1637230831
+    },
+    {
+      "id": 11,
+      "bgm_tag": "sushi_event",
+      "start_at": 1644634800,
+      "end_at": 1646189999,
+      "created_at": 1644495137,
+      "updated_at": 1644495137
+    },
+    {
+      "id": 12,
+      "bgm_tag": "tofu_01_event_1",
+      "start_at": 1647313200,
+      "end_at": 1648868399,
+      "created_at": 1646996523,
+      "updated_at": 1646996523
+    },
+    {
+      "id": 13,
+      "bgm_tag": "tofu_01_event_2",
+      "start_at": 1647313200,
+      "end_at": 1648868399,
+      "created_at": 1646996523,
+      "updated_at": 1646996523
+    },
+    {
+      "id": 14,
+      "bgm_tag": "carp_event",
+      "start_at": 1651330800,
+      "end_at": 1652583599,
+      "created_at": 1651145849,
+      "updated_at": 1651145849
+    },
+    {
+      "id": 15,
+      "bgm_tag": "brown_event",
+      "start_at": 1653620400,
+      "end_at": 1654138799,
+      "created_at": 1657801590,
+      "updated_at": 1657801590
+    },
+    {
+      "id": 16,
+      "bgm_tag": "beer_event1",
+      "start_at": 1657854000,
+      "end_at": 1659409199,
+      "created_at": 1657801590,
+      "updated_at": 1657801590
+    },
+    {
+      "id": 17,
+      "bgm_tag": "beer_event2",
+      "start_at": 1657854000,
+      "end_at": 1659409199,
+      "created_at": 1657801590,
+      "updated_at": 1657801590
+    },
+    {
+      "id": 18,
+      "bgm_tag": "beer_event3",
+      "start_at": 1658458800,
+      "end_at": 1659409199,
+      "created_at": 1658400448,
+      "updated_at": 1658400448
+    },
+    {
+      "id": 19,
+      "bgm_tag": "beer_event4",
+      "start_at": 1658502000,
+      "end_at": 1659409199,
+      "created_at": 1658400448,
+      "updated_at": 1658400448
+    },
+    {
+      "id": 20,
+      "bgm_tag": "lake_event",
+      "start_at": 1660921200,
+      "end_at": 1661914799,
+      "created_at": 1660819514,
+      "updated_at": 1660819514
+    },
+    {
+      "id": 21,
+      "bgm_tag": "ehime_event1",
+      "start_at": 1662087600,
+      "end_at": 1663383599,
+      "created_at": 1662030007,
+      "updated_at": 1662030007
+    },
+    {
+      "id": 22,
+      "bgm_tag": "cream_event1",
+      "start_at": 1664636400,
+      "end_at": 1665975599,
+      "created_at": 1664623960,
+      "updated_at": 1664623960
+    },
+    {
+      "id": 23,
+      "bgm_tag": "cream_event2",
+      "start_at": 1664636400,
+      "end_at": 1665975599,
+      "created_at": 1665050553,
+      "updated_at": 1665050553
+    },
+    {
+      "id": 24,
+      "bgm_tag": "osaka_event",
+      "start_at": 1667228400,
+      "end_at": 1668740399,
+      "created_at": 1666952629,
+      "updated_at": 1666952629
+    },
+    {
+      "id": 25,
+      "bgm_tag": "gana_event",
+      "start_at": 1671159600,
+      "end_at": 1672498799,
+      "created_at": 1671106109,
+      "updated_at": 1671106109
+    },
+    {
+      "id": 26,
+      "bgm_tag": "pork_event1",
+      "start_at": 1673665200,
+      "end_at": 1675177199,
+      "created_at": 1673524992,
+      "updated_at": 1673524992
+    },
+    {
+      "id": 27,
+      "bgm_tag": "udon_event",
+      "start_at": 1676170800,
+      "end_at": 1677725999,
+      "created_at": 1676025367,
+      "updated_at": 1676025367
+    },
+    {
+      "id": 28,
+      "bgm_tag": "udon_event2",
+      "start_at": 1676170800,
+      "end_at": 1677725999,
+      "created_at": 1676025367,
+      "updated_at": 1676025367
+    },
+    {
+      "id": 29,
+      "bgm_tag": "mochi_event",
+      "start_at": 1679022000,
+      "end_at": 1680404399,
+      "created_at": 1678963028,
+      "updated_at": 1678963028
+    },
+    {
+      "id": 30,
+      "bgm_tag": "heian_event",
+      "start_at": 1680922800,
+      "end_at": 1681498799,
+      "created_at": 1680774895,
+      "updated_at": 1680774895
+    },
+    {
+      "id": 31,
+      "bgm_tag": "sauna_event1",
+      "start_at": 1682866800,
+      "end_at": 1684205999,
+      "created_at": 1682755163,
+      "updated_at": 1682755163
+    },
+    {
+      "id": 32,
+      "bgm_tag": "sauna_event2",
+      "start_at": 1683385200,
+      "end_at": 1684205999,
+      "created_at": 1683184801,
+      "updated_at": 1683184801
+    },
+    {
+      "id": 33,
+      "bgm_tag": "neko_event",
+      "start_at": 1687575600,
+      "end_at": 1688266799,
+      "created_at": 1687428031,
+      "updated_at": 1687428031
+    },
+    {
+      "id": 34,
+      "bgm_tag": "sugar_event1",
+      "start_at": 1689303600,
+      "end_at": 1690945199,
+      "created_at": 1689244332,
+      "updated_at": 1689244332
+    },
+    {
+      "id": 35,
+      "bgm_tag": "sugar_event2",
+      "start_at": 1689303600,
+      "end_at": 1690945199,
+      "created_at": 1689244332,
+      "updated_at": 1689244332
+    },
+    {
+      "id": 36,
+      "bgm_tag": "sanma_event",
+      "start_at": 1691895600,
+      "end_at": 1693623599,
+      "created_at": 1691663105,
+      "updated_at": 1691663105
+    },
+    {
+      "id": 37,
+      "bgm_tag": "denim_event1",
+      "start_at": 1693494000,
+      "end_at": 1694833199,
+      "created_at": 1693480105,
+      "updated_at": 1693480105
+    },
+    {
+      "id": 38,
+      "bgm_tag": "denim_event2",
+      "start_at": 1694185200,
+      "end_at": 1694789999,
+      "created_at": 1694079713,
+      "updated_at": 1694079713
+    },
+    {
+      "id": 39,
+      "bgm_tag": "gunma_event1",
+      "start_at": 1696100400,
+      "end_at": 1697309999,
+      "created_at": 1696070509,
+      "updated_at": 1696070509
+    },
+    {
+      "id": 40,
+      "bgm_tag": "gunma_event2",
+      "start_at": 1696532400,
+      "end_at": 1697338799,
+      "created_at": 1696510409,
+      "updated_at": 1696510409
+    },
+    {
+      "id": 41,
+      "bgm_tag": "gunma_event3",
+      "start_at": 1696532400,
+      "end_at": 1697338799,
+      "created_at": 1696510409,
+      "updated_at": 1696510409
+    },
+    {
+      "id": 42,
+      "bgm_tag": "pils_event1",
+      "start_at": 1697338800,
+      "end_at": 1698865199,
+      "created_at": 1697109083,
+      "updated_at": 1697109083
+    },
+    {
+      "id": 43,
+      "bgm_tag": "pils_event2",
+      "start_at": 1697796000,
+      "end_at": 1698893999,
+      "created_at": 1697711928,
+      "updated_at": 1697711928
+    },
+    {
+      "id": 44,
+      "bgm_tag": "piano_event1",
+      "start_at": 1700190000,
+      "end_at": 1701485999,
+      "created_at": 1700133411,
+      "updated_at": 1700133411
+    },
+    {
+      "id": 45,
+      "bgm_tag": "piano_event2",
+      "start_at": 1700190000,
+      "end_at": 1701485999,
+      "created_at": 1700133411,
+      "updated_at": 1700133411
+    },
+    {
+      "id": 46,
+      "bgm_tag": "piano_event3",
+      "start_at": 1700190000,
+      "end_at": 1701485999,
+      "created_at": 1700133411,
+      "updated_at": 1700133411
+    },
+    {
+      "id": 47,
+      "bgm_tag": "stew_event",
+      "start_at": 1702609200,
+      "end_at": 1704034799,
+      "created_at": 1702548907,
+      "updated_at": 1702548907
+    },
+    {
+      "id": 48,
+      "bgm_tag": "beach_event1",
+      "start_at": 1705374000,
+      "end_at": 1706842799,
+      "created_at": 1705051352,
+      "updated_at": 1705051352
+    },
+    {
+      "id": 49,
+      "bgm_tag": "beach_event2",
+      "start_at": 1705719600,
+      "end_at": 1706842799,
+      "created_at": 1705572091,
+      "updated_at": 1705572091
+    },
+    {
+      "id": 50,
+      "bgm_tag": "ginza_event1",
+      "start_at": 1708052400,
+      "end_at": 1709348399,
+      "created_at": 1707995620,
+      "updated_at": 1707995620
+    },
+    {
+      "id": 51,
+      "bgm_tag": "ginza_event2",
+      "start_at": 1708700400,
+      "end_at": 1709348399,
+      "created_at": 1708596235,
+      "updated_at": 1708596235
+    },
+    {
+      "id": 52,
+      "bgm_tag": "unagi_event1",
+      "start_at": 1710471600,
+      "end_at": 1712026799,
+      "created_at": 1710410804,
+      "updated_at": 1710410804
+    },
+    {
+      "id": 53,
+      "bgm_tag": "unagi_event2",
+      "start_at": 1711047600,
+      "end_at": 1712026799,
+      "created_at": 1711014570,
+      "updated_at": 1711014570
+    },
+    {
+      "id": 54,
+      "bgm_tag": "unagi_event3",
+      "start_at": 1711652400,
+      "end_at": 1712026799,
+      "created_at": 1711619335,
+      "updated_at": 1711619335
+    },
+    {
+      "id": 55,
+      "bgm_tag": "cacao_event1",
+      "start_at": 1712372400,
+      "end_at": 1712977199,
+      "created_at": 1712223153,
+      "updated_at": 1712223153
+    },
+    {
+      "id": 56,
+      "bgm_tag": "cacao_event2",
+      "start_at": 1712372400,
+      "end_at": 1712977199,
+      "created_at": 1712223153,
+      "updated_at": 1712223153
+    },
+    {
+      "id": 57,
+      "bgm_tag": "cacao_event3",
+      "start_at": 1712372400,
+      "end_at": 1712977199,
+      "created_at": 1712223153,
+      "updated_at": 1712223153
+    },
+    {
+      "id": 58,
+      "bgm_tag": "flute_event1",
+      "start_at": 1714489200,
+      "end_at": 1715914799,
+      "created_at": 1714206840,
+      "updated_at": 1714206840
+    },
+    {
+      "id": 59,
+      "bgm_tag": "flute_event2",
+      "start_at": 1715310000,
+      "end_at": 1715914799,
+      "created_at": 1715249143,
+      "updated_at": 1715249143
+    },
+    {
+      "id": 60,
+      "bgm_tag": "daiba_event1",
+      "start_at": 1718334000,
+      "end_at": 1719889199,
+      "created_at": 1718273085,
+      "updated_at": 1718273085
+    },
+    {
+      "id": 61,
+      "bgm_tag": "daiba_event2",
+      "start_at": 1719514800,
+      "end_at": 1719860399,
+      "created_at": 1719479030,
+      "updated_at": 1719479030
+    },
+    {
+      "id": 62,
+      "bgm_tag": "sazae_event1",
+      "start_at": 1720969200,
+      "end_at": 1722567599,
+      "created_at": 1720961209,
+      "updated_at": 1720961209
+    },
+    {
+      "id": 63,
+      "bgm_tag": "sazae_event2",
+      "start_at": 1721358000,
+      "end_at": 1722567599,
+      "created_at": 1721295977,
+      "updated_at": 1721295977
+    },
+    {
+      "id": 64,
+      "bgm_tag": "yatai_event",
+      "start_at": 1723777200,
+      "end_at": 1725116399,
+      "created_at": 1723722823,
+      "updated_at": 1723722823
+    },
+    {
+      "id": 65,
+      "bgm_tag": "oheso_event2",
+      "start_at": 1726282800,
+      "end_at": 1727708399,
+      "created_at": 1726149916,
+      "updated_at": 1726149916
+    },
+    {
+      "id": 66,
+      "bgm_tag": "oheso_event3",
+      "start_at": 1726282800,
+      "end_at": 1727708399,
+      "created_at": 1726149916,
+      "updated_at": 1726149916
+    },
+    {
+      "id": 67,
+      "bgm_tag": "mushi_event1",
+      "start_at": 1727708400,
+      "end_at": 1729047599,
+      "created_at": 1727612348,
+      "updated_at": 1727612348
+    },
+    {
+      "id": 68,
+      "bgm_tag": "mushi_event2",
+      "start_at": 1727982000,
+      "end_at": 1729047599,
+      "created_at": 1727950414,
+      "updated_at": 1727950414
+    },
+    {
+      "id": 69,
+      "bgm_tag": "plum_event1",
+      "start_at": 1731639600,
+      "end_at": 1733108399,
+      "created_at": 1731579180,
+      "updated_at": 1731579180
+    },
+    {
+      "id": 70,
+      "bgm_tag": "juice_event",
+      "start_at": 1734058800,
+      "end_at": 1735786799,
+      "created_at": 1733997150,
+      "updated_at": 1733997150
+    },
+    {
+      "id": 71,
+      "bgm_tag": "citra_event1",
+      "start_at": 1736564400,
+      "end_at": 1738681199,
+      "created_at": 1736423030,
+      "updated_at": 1736423030
+    },
+    {
+      "id": 72,
+      "bgm_tag": "citra_event2",
+      "start_at": 1737730800,
+      "end_at": 1738421999,
+      "created_at": 1737626796,
+      "updated_at": 1737626796
+    },
+    {
+      "id": 73,
+      "bgm_tag": "motsu_event1",
+      "start_at": 1739588400,
+      "end_at": 1740884399,
+      "created_at": 1739443957,
+      "updated_at": 1739443957
+    },
+    {
+      "id": 74,
+      "bgm_tag": "motsu_event2",
+      "start_at": 1740078000,
+      "end_at": 1740884399,
+      "created_at": 1740045893,
+      "updated_at": 1740045893
+    },
+    {
+      "id": 75,
+      "bgm_tag": "motsu_event3",
+      "start_at": 1740078000,
+      "end_at": 1740884399,
+      "created_at": 1740045893,
+      "updated_at": 1740045893
+    },
+    {
+      "id": 76,
+      "bgm_tag": "pulin_event1",
+      "start_at": 1742007600,
+      "end_at": 1743562799,
+      "created_at": 1741862244,
+      "updated_at": 1741862244
+    },
+    {
+      "id": 77,
+      "bgm_tag": "pulin_event2",
+      "start_at": 1742583600,
+      "end_at": 1743562799,
+      "created_at": 1742550604,
+      "updated_at": 1742550604
+    },
+    {
+      "id": 78,
+      "bgm_tag": "pulin_event3",
+      "start_at": 1743102000,
+      "end_at": 1743562799,
+      "created_at": 1743069517,
+      "updated_at": 1743069517
+    },
+    {
+      "id": 79,
+      "bgm_tag": "koura_event1",
+      "start_at": 1744513200,
+      "end_at": 1746197999,
+      "created_at": 1744281584,
+      "updated_at": 1744281584
+    },
+    {
+      "id": 80,
+      "bgm_tag": "koura_event2",
+      "start_at": 1744988400,
+      "end_at": 1746025199,
+      "created_at": 1744886897,
+      "updated_at": 1744886897
+    },
+    {
+      "id": 81,
+      "bgm_tag": "mikan_event1",
+      "start_at": 1746730800,
+      "end_at": 1747364399,
+      "created_at": 1746697529,
+      "updated_at": 1746697529
+    },
+    {
+      "id": 82,
+      "bgm_tag": "kevin_event1",
+      "start_at": 1748055600,
+      "end_at": 1748804399,
+      "created_at": 1747910281,
+      "updated_at": 1747910281
+    },
+    {
+      "id": 83,
+      "bgm_tag": "kevin_cutin_event1",
+      "start_at": 1748055600,
+      "end_at": 1748804399,
+      "created_at": 1748513773,
+      "updated_at": 1748513773
+    },
+    {
+      "id": 84,
+      "bgm_tag": "kevin_comp_event1",
+      "start_at": 1748055600,
+      "end_at": 1748804399,
+      "created_at": 1748513773,
+      "updated_at": 1748513773
+    },
+    {
+      "id": 85,
+      "bgm_tag": "kevin_comp_event2",
+      "start_at": 1748055600,
+      "end_at": 1748804399,
+      "created_at": 1748513773,
+      "updated_at": 1748513773
+    },
+    {
+      "id": 86,
+      "bgm_tag": "kevin_comp_event3",
+      "start_at": 1748055600,
+      "end_at": 1748804399,
+      "created_at": 1748513773,
+      "updated_at": 1748513773
+    },
+    {
+      "id": 87,
+      "bgm_tag": "kyoto_event1",
+      "start_at": 1749870000,
+      "end_at": 1750647599,
+      "created_at": 1749808166,
+      "updated_at": 1749808166
+    },
+    {
+      "id": 88,
+      "bgm_tag": "piman_play_event2",
+      "start_at": 1752548400,
+      "end_at": 1754103599,
+      "created_at": 1752408889,
+      "updated_at": 1752408889
+    },
+    {
+      "id": 89,
+      "bgm_tag": "piman_play_event",
+      "start_at": 1753383600,
+      "end_at": 1754074799,
+      "created_at": 1753352803,
+      "updated_at": 1753352803
+    },
+    {
+      "id": 90,
+      "bgm_tag": "jaggy_event1",
+      "start_at": 1755313200,
+      "end_at": 1756781999,
+      "created_at": 1755172897,
+      "updated_at": 1755172897
+    },
+    {
+      "id": 91,
+      "bgm_tag": "jaggy_event2",
+      "start_at": 1755918000,
+      "end_at": 1756781999,
+      "created_at": 1755777069,
+      "updated_at": 1755777069
+    },
+    {
+      "id": 92,
+      "bgm_tag": "onion_event1",
+      "start_at": 1757732400,
+      "end_at": 1759244399,
+      "created_at": 1757672720,
+      "updated_at": 1757672720
+    },
+    {
+      "id": 93,
+      "bgm_tag": "onion_event2",
+      "start_at": 1758222000,
+      "end_at": 1759172399,
+      "created_at": 1758197412,
+      "updated_at": 1758197412
+    },
+    {
+      "id": 94,
+      "bgm_tag": "smile_event1",
+      "start_at": 1759244400,
+      "end_at": 1760410799,
+      "created_at": 1759235137,
+      "updated_at": 1759235137
+    },
+    {
+      "id": 95,
+      "bgm_tag": "smile_event2",
+      "start_at": 1759590000,
+      "end_at": 1760410799,
+      "created_at": 1759402972,
+      "updated_at": 1759402972
+    },
+    {
+      "id": 96,
+      "bgm_tag": "smile_event3",
+      "start_at": 1759590000,
+      "end_at": 1760410799,
+      "created_at": 1759402972,
+      "updated_at": 1759402972
+    },
+    {
+      "id": 97,
+      "bgm_tag": "gyoza_event1",
+      "start_at": 1761361200,
+      "end_at": 1762441199,
+      "created_at": 1761221583,
+      "updated_at": 1761221583
+    },
+    {
+      "id": 98,
+      "bgm_tag": "maiku_event1",
+      "start_at": 1765879200,
+      "end_at": 1767193199,
+      "created_at": 1761221583,
+      "updated_at": 1761221583
+    },
+    {
+      "id": 99,
+      "bgm_tag": "maron_event1",
+      "start_at": 1763175600,
+      "end_at": 1764644399,
+      "created_at": 1763032732,
+      "updated_at": 1763032732
+    },
+    {
+      "id": 100,
+      "bgm_tag": "milk_event1",
+      "start_at": 1768618800,
+      "end_at": 1770001199,
+      "created_at": 1768472660,
+      "updated_at": 1768472660
+    },
+    {
+      "id": 101,
+      "bgm_tag": "milk_event2",
+      "start_at": 1769108400,
+      "end_at": 1770001199,
+      "created_at": 1769070854,
+      "updated_at": 1769070854
+    },
+    {
+      "id": 102,
+      "bgm_tag": "maiku_event2",
+      "start_at": 1765681200,
+      "end_at": 1767322799,
+      "created_at": 1765538219,
+      "updated_at": 1765538219
+    },
+    {
+      "id": 103,
+      "bgm_tag": "maiku_event3",
+      "start_at": 1765681200,
+      "end_at": 1767322799,
+      "created_at": 1765538219,
+      "updated_at": 1765538219
+    },
+    {
+      "id": 104,
+      "bgm_tag": "maiku_event4",
+      "start_at": 1765681200,
+      "end_at": 1767322799,
+      "created_at": 1765538219,
+      "updated_at": 1765538219
+    },
+    {
+      "id": 105,
+      "bgm_tag": "maiku_event5",
+      "start_at": 1765681200,
+      "end_at": 1767322799,
+      "created_at": 1765538219,
+      "updated_at": 1765538219
+    },
+    {
+      "id": 106,
+      "bgm_tag": "maiku_event6",
+      "start_at": 1765681200,
+      "end_at": 1767322799,
+      "created_at": 1765538219,
+      "updated_at": 1765538219
+    },
+    {
+      "id": 107,
+      "bgm_tag": "apron_event1",
+      "start_at": 1770951600,
+      "end_at": 1772420399,
+      "created_at": 1770807995,
+      "updated_at": 1770807995
+    },
+    {
+      "id": 108,
+      "bgm_tag": "apron_event2",
+      "start_at": 1771149600,
+      "end_at": 1772420399,
+      "created_at": 1770807995,
+      "updated_at": 1770807995
+    },
+    {
+      "id": 109,
+      "bgm_tag": "iwaki_event1",
+      "start_at": 1774969200,
+      "end_at": 1775833199,
+      "created_at": 1774952105,
+      "updated_at": 1774952105
+    },
+    {
+      "id": 110,
+      "bgm_tag": "kirin_event1",
+      "start_at": 1773543600,
+      "end_at": 1775098799,
+      "created_at": 1773393106,
+      "updated_at": 1773393106
+    },
+    {
+      "id": 111,
+      "bgm_tag": "biwa_event1",
+      "start_at": 1777172400,
+      "end_at": 1778381999,
+      "created_at": 1777104436,
+      "updated_at": 1777104436
+    },
+    {
+      "id": 112,
+      "bgm_tag": "biwa_event2",
+      "start_at": 1777604400,
+      "end_at": 1778381999,
+      "created_at": 1777545854,
+      "updated_at": 1777545854
+    },
+    {
+      "id": 113,
+      "bgm_tag": "yasai_event1",
+      "start_at": 1778814000,
+      "end_at": 1780369199,
+      "created_at": 1778754992,
+      "updated_at": 1778754992
+    },
+    {
+      "id": 114,
+      "bgm_tag": "brass_event1",
+      "start_at": 1781233200,
+      "end_at": 1782961199,
+      "created_at": 1781169852,
+      "updated_at": 1781169852
+    },
+    {
+      "id": 115,
+      "bgm_tag": "brass_event2",
+      "start_at": 1782399600,
+      "end_at": 1782961199,
+      "created_at": 1782387262,
+      "updated_at": 1782387262
+    },
+    {
+      "id": 116,
+      "bgm_tag": "brass_event3",
+      "start_at": 1782399600,
+      "end_at": 1782961199,
+      "created_at": 1782387262,
+      "updated_at": 1782387262
+    },
+    {
+      "id": 117,
+      "bgm_tag": "kiji_event2",
+      "start_at": 1783998000,
+      "end_at": 1785639599,
+      "created_at": 1783855310,
+      "updated_at": 1783855310
+    },
+    {
+      "id": 118,
+      "bgm_tag": "kyuri_event1",
+      "start_at": 1786849200,
+      "end_at": 1788317999,
+      "created_at": 1786697106,
+      "updated_at": 1786697106
+    },
+    {
+      "id": 119,
+      "bgm_tag": "manju_event1",
+      "start_at": 1788231600,
+      "end_at": 1789700399,
+      "created_at": 1787909379,
+      "updated_at": 1787909379
+    },
+    {
+      "id": 120,
+      "bgm_tag": "manju_event2",
+      "start_at": 1789066800,
+      "end_at": 1789700399,
+      "created_at": 1789028416,
+      "updated_at": 1789028416
+    },
+    {
+      "id": 121,
+      "bgm_tag": "iruka_event1",
+      "start_at": 1790434800,
+      "end_at": 1792119599,
+      "created_at": 1790422530,
+      "updated_at": 1790422530
+    },
+    {
+      "id": 122,
+      "bgm_tag": "iruka_event2",
+      "start_at": 1790881200,
+      "end_at": 1792119599,
+      "created_at": 1790849743,
+      "updated_at": 1790849743
+    },
+    {
+      "id": 123,
+      "bgm_tag": "iruka_event3",
+      "start_at": 1790910000,
+      "end_at": 1792119599,
+      "created_at": 1791461883,
+      "updated_at": 1791461883
+    },
+    {
+      "id": 124,
+      "bgm_tag": "ponzu_event1",
+      "start_at": 1792119600,
+      "end_at": 1793588399,
+      "created_at": 1792059527,
+      "updated_at": 1792059527
+    }
+  ]
+}

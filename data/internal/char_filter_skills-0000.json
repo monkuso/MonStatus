@@ -1,0 +1,2277 @@
+{
+  "schemaVersion": 1,
+  "table": "char_filter_skills",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "name": "コピー",
+      "filter_id": 1001,
+      "skill_id": 266,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 2
+    },
+    {
+      "id": 2,
+      "name": "爆発",
+      "filter_id": 1,
+      "skill_id": 27,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 3,
+      "name": "爆発",
+      "filter_id": 1,
+      "skill_id": 48,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 4,
+      "name": "爆発",
+      "filter_id": 1,
+      "skill_id": 141,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 5,
+      "name": "爆発",
+      "filter_id": 1,
+      "skill_id": 390,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 6,
+      "name": "爆発",
+      "filter_id": 1,
+      "skill_id": 406,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 7,
+      "name": "爆発",
+      "filter_id": 1,
+      "skill_id": 591,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 8,
+      "name": "爆発",
+      "filter_id": 1,
+      "skill_id": 546,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 9,
+      "name": "爆発",
+      "filter_id": 1,
+      "skill_id": 550,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 10,
+      "name": "爆発",
+      "filter_id": 1,
+      "skill_id": 626,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 11,
+      "name": "フレイム",
+      "filter_id": 31,
+      "skill_id": 82,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 12,
+      "name": "フレイム",
+      "filter_id": 31,
+      "skill_id": 83,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 13,
+      "name": "ブレス",
+      "filter_id": 19,
+      "skill_id": 158,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 14,
+      "name": "レーザー",
+      "filter_id": 3,
+      "skill_id": 26,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 15,
+      "name": "レーザー",
+      "filter_id": 3,
+      "skill_id": 45,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 16,
+      "name": "レーザー",
+      "filter_id": 3,
+      "skill_id": 46,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 17,
+      "name": "レーザー",
+      "filter_id": 3,
+      "skill_id": 47,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 18,
+      "name": "レーザー",
+      "filter_id": 3,
+      "skill_id": 73,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 19,
+      "name": "レーザー",
+      "filter_id": 3,
+      "skill_id": 74,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 20,
+      "name": "レーザー",
+      "filter_id": 3,
+      "skill_id": 75,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 21,
+      "name": "レーザー",
+      "filter_id": 3,
+      "skill_id": 76,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 22,
+      "name": "レーザー",
+      "filter_id": 3,
+      "skill_id": 264,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 23,
+      "name": "レーザー",
+      "filter_id": 3,
+      "skill_id": 327,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 24,
+      "name": "レーザー",
+      "filter_id": 3,
+      "skill_id": 363,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 25,
+      "name": "ホーミング",
+      "filter_id": 4,
+      "skill_id": 49,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 26,
+      "name": "ホーミング",
+      "filter_id": 4,
+      "skill_id": 72,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 27,
+      "name": "ホーミング",
+      "filter_id": 4,
+      "skill_id": 108,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 28,
+      "name": "拡散弾",
+      "filter_id": 6,
+      "skill_id": 1,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 29,
+      "name": "拡散弾",
+      "filter_id": 6,
+      "skill_id": 2,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 30,
+      "name": "拡散弾",
+      "filter_id": 6,
+      "skill_id": 50,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 31,
+      "name": "拡散弾",
+      "filter_id": 6,
+      "skill_id": 51,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 32,
+      "name": "拡散弾",
+      "filter_id": 6,
+      "skill_id": 52,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 33,
+      "name": "拡散弾",
+      "filter_id": 6,
+      "skill_id": 53,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 34,
+      "name": "拡散弾",
+      "filter_id": 6,
+      "skill_id": 60,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 35,
+      "name": "拡散弾",
+      "filter_id": 6,
+      "skill_id": 61,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 36,
+      "name": "拡散弾",
+      "filter_id": 6,
+      "skill_id": 62,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 37,
+      "name": "拡散弾",
+      "filter_id": 6,
+      "skill_id": 65,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 38,
+      "name": "拡散弾",
+      "filter_id": 6,
+      "skill_id": 68,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 39,
+      "name": "拡散弾",
+      "filter_id": 6,
+      "skill_id": 69,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 40,
+      "name": "拡散弾",
+      "filter_id": 6,
+      "skill_id": 90,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 41,
+      "name": "拡散弾",
+      "filter_id": 6,
+      "skill_id": 91,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 42,
+      "name": "拡散弾",
+      "filter_id": 6,
+      "skill_id": 97,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 43,
+      "name": "拡散弾",
+      "filter_id": 6,
+      "skill_id": 104,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 44,
+      "name": "コラボ",
+      "filter_id": 2001,
+      "skill_id": 114,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1654771406,
+      "category_id": 2
+    },
+    {
+      "id": 45,
+      "name": "ショットガン",
+      "filter_id": 8,
+      "skill_id": 110,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 46,
+      "name": "ショットガン",
+      "filter_id": 8,
+      "skill_id": 218,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 47,
+      "name": "ショットガン",
+      "filter_id": 8,
+      "skill_id": 345,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 48,
+      "name": "衝撃波",
+      "filter_id": 7,
+      "skill_id": 54,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 49,
+      "name": "衝撃波",
+      "filter_id": 7,
+      "skill_id": 100,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 50,
+      "name": "衝撃波",
+      "filter_id": 7,
+      "skill_id": 166,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 51,
+      "name": "衝撃波",
+      "filter_id": 7,
+      "skill_id": 203,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 52,
+      "name": "衝撃波",
+      "filter_id": 7,
+      "skill_id": 226,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 53,
+      "name": "衝撃波",
+      "filter_id": 7,
+      "skill_id": 284,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 54,
+      "name": "衝撃波",
+      "filter_id": 7,
+      "skill_id": 288,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 55,
+      "name": "衝撃波",
+      "filter_id": 7,
+      "skill_id": 317,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 56,
+      "name": "プラズマ",
+      "filter_id": 9,
+      "skill_id": 77,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 57,
+      "name": "ステータスアップ",
+      "filter_id": 1002,
+      "skill_id": 81,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 2
+    },
+    {
+      "id": 58,
+      "name": "ステータスアップ",
+      "filter_id": 1002,
+      "skill_id": 105,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 2
+    },
+    {
+      "id": 59,
+      "name": "ステータスアップ",
+      "filter_id": 1002,
+      "skill_id": 120,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 2
+    },
+    {
+      "id": 60,
+      "name": "ステータスアップ",
+      "filter_id": 1002,
+      "skill_id": 387,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 2
+    },
+    {
+      "id": 61,
+      "name": "ステータスアップ",
+      "filter_id": 1002,
+      "skill_id": 430,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 2
+    },
+    {
+      "id": 62,
+      "name": "エナジーサークル",
+      "filter_id": 5,
+      "skill_id": 85,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 63,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 189,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1766057871,
+      "category_id": 2
+    },
+    {
+      "id": 64,
+      "name": "エナジーサークル",
+      "filter_id": 5,
+      "skill_id": 221,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 65,
+      "name": "エナジーサークル",
+      "filter_id": 5,
+      "skill_id": 225,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 66,
+      "name": "エナジーサークル",
+      "filter_id": 5,
+      "skill_id": 407,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 67,
+      "name": "斬撃",
+      "filter_id": 15,
+      "skill_id": 117,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 68,
+      "name": "斬撃",
+      "filter_id": 15,
+      "skill_id": 433,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 69,
+      "name": "メテオ",
+      "filter_id": 12,
+      "skill_id": 37,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 70,
+      "name": "メテオ",
+      "filter_id": 12,
+      "skill_id": 201,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 71,
+      "name": "メテオ",
+      "filter_id": 12,
+      "skill_id": 38,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 72,
+      "name": "メテオ",
+      "filter_id": 12,
+      "skill_id": 39,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 73,
+      "name": "メテオ",
+      "filter_id": 12,
+      "skill_id": 40,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 74,
+      "name": "メテオ",
+      "filter_id": 12,
+      "skill_id": 182,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 75,
+      "name": "メテオ",
+      "filter_id": 12,
+      "skill_id": 408,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 76,
+      "name": "電撃",
+      "filter_id": 14,
+      "skill_id": 146,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 77,
+      "name": "電撃",
+      "filter_id": 14,
+      "skill_id": 409,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 78,
+      "name": "電撃",
+      "filter_id": 14,
+      "skill_id": 466,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 79,
+      "name": "気弾",
+      "filter_id": 20,
+      "skill_id": 174,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 80,
+      "name": "ウェーブ",
+      "filter_id": 17,
+      "skill_id": 142,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 81,
+      "name": "フレア",
+      "filter_id": 2,
+      "skill_id": 145,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 82,
+      "name": "分裂弾",
+      "filter_id": 21,
+      "skill_id": 165,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 83,
+      "name": "トライブパルス",
+      "filter_id": 34,
+      "skill_id": 168,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 84,
+      "name": "ブラスト",
+      "filter_id": 32,
+      "skill_id": 263,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 85,
+      "name": "ブラスト",
+      "filter_id": 32,
+      "skill_id": 318,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 86,
+      "name": "増殖弾",
+      "filter_id": 22,
+      "skill_id": 398,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 87,
+      "name": "薙ぎ払い",
+      "filter_id": 16,
+      "skill_id": 258,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 88,
+      "name": "分身弾",
+      "filter_id": 28,
+      "skill_id": 378,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 89,
+      "name": "炸裂弾",
+      "filter_id": 25,
+      "skill_id": 509,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 90,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 173,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 2
+    },
+    {
+      "id": 91,
+      "name": "追従型貫通弾",
+      "filter_id": 10,
+      "skill_id": 188,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 92,
+      "name": "追従型貫通弾",
+      "filter_id": 10,
+      "skill_id": 391,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 93,
+      "name": "ラウンド",
+      "filter_id": 35,
+      "skill_id": 325,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 94,
+      "name": "跳弾",
+      "filter_id": 13,
+      "skill_id": 330,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 95,
+      "name": "跳弾",
+      "filter_id": 13,
+      "skill_id": 592,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 96,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 347,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 2
+    },
+    {
+      "id": 97,
+      "name": "インボリュート",
+      "filter_id": 23,
+      "skill_id": 364,
+      "skill_pattern_id": 0,
+      "created_at": 1591630703,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 98,
+      "name": "衛星弾",
+      "filter_id": 11,
+      "skill_id": 379,
+      "skill_pattern_id": 0,
+      "created_at": 1591630704,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 99,
+      "name": "バウンドボム",
+      "filter_id": 33,
+      "skill_id": 405,
+      "skill_pattern_id": 0,
+      "created_at": 1591630704,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 100,
+      "name": "ヨーヨー弾",
+      "filter_id": 24,
+      "skill_id": 410,
+      "skill_pattern_id": 0,
+      "created_at": 1591630704,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 101,
+      "name": "クロススティンガー",
+      "filter_id": 29,
+      "skill_id": 442,
+      "skill_pattern_id": 0,
+      "created_at": 1591630704,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 102,
+      "name": "チップソー",
+      "filter_id": 30,
+      "skill_id": 468,
+      "skill_pattern_id": 0,
+      "created_at": 1591630704,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 103,
+      "name": "ウォールムービング",
+      "filter_id": 26,
+      "skill_id": 471,
+      "skill_pattern_id": 0,
+      "created_at": 1591630704,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 104,
+      "name": "追撃貫通弾",
+      "filter_id": 18,
+      "skill_id": 486,
+      "skill_pattern_id": 0,
+      "created_at": 1591630704,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 105,
+      "name": "追撃貫通弾",
+      "filter_id": 18,
+      "skill_id": 594,
+      "skill_pattern_id": 0,
+      "created_at": 1591630704,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 106,
+      "name": "ウォールスルー",
+      "filter_id": 27,
+      "skill_id": 513,
+      "skill_pattern_id": 0,
+      "created_at": 1591630704,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 107,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 586,
+      "skill_pattern_id": 0,
+      "created_at": 1591630704,
+      "updated_at": 1644255285,
+      "category_id": 2
+    },
+    {
+      "id": 108,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 587,
+      "skill_pattern_id": 0,
+      "created_at": 1591630704,
+      "updated_at": 1644255285,
+      "category_id": 2
+    },
+    {
+      "id": 109,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 588,
+      "skill_pattern_id": 0,
+      "created_at": 1591630704,
+      "updated_at": 1644255285,
+      "category_id": 2
+    },
+    {
+      "id": 110,
+      "name": "SSターン",
+      "filter_id": 1005,
+      "skill_id": 606,
+      "skill_pattern_id": 0,
+      "created_at": 1591630704,
+      "updated_at": 1723563938,
+      "category_id": 2
+    },
+    {
+      "id": 111,
+      "name": "コラボ",
+      "filter_id": 2001,
+      "skill_id": 116,
+      "skill_pattern_id": 0,
+      "created_at": 1591630704,
+      "updated_at": 1644255285,
+      "category_id": 2
+    },
+    {
+      "id": 112,
+      "name": "コラボ",
+      "filter_id": 2001,
+      "skill_id": 132,
+      "skill_pattern_id": 0,
+      "created_at": 1591630704,
+      "updated_at": 1644255285,
+      "category_id": 2
+    },
+    {
+      "id": 113,
+      "name": "コラボ",
+      "filter_id": 2001,
+      "skill_id": 149,
+      "skill_pattern_id": 0,
+      "created_at": 1591630704,
+      "updated_at": 1644255285,
+      "category_id": 2
+    },
+    {
+      "id": 114,
+      "name": "コラボ",
+      "filter_id": 2001,
+      "skill_id": 149,
+      "skill_pattern_id": 0,
+      "created_at": 1591630704,
+      "updated_at": 1644255285,
+      "category_id": 2
+    },
+    {
+      "id": 115,
+      "name": "コラボ",
+      "filter_id": 2001,
+      "skill_id": 149,
+      "skill_pattern_id": 0,
+      "created_at": 1591630704,
+      "updated_at": 1644255285,
+      "category_id": 2
+    },
+    {
+      "id": 116,
+      "name": "コラボ",
+      "filter_id": 2001,
+      "skill_id": 150,
+      "skill_pattern_id": 0,
+      "created_at": 1591630704,
+      "updated_at": 1644255285,
+      "category_id": 2
+    },
+    {
+      "id": 117,
+      "name": "コラボ",
+      "filter_id": 2001,
+      "skill_id": 150,
+      "skill_pattern_id": 0,
+      "created_at": 1591630704,
+      "updated_at": 1644255285,
+      "category_id": 2
+    },
+    {
+      "id": 118,
+      "name": "コラボ",
+      "filter_id": 2001,
+      "skill_id": 151,
+      "skill_pattern_id": 0,
+      "created_at": 1591630704,
+      "updated_at": 1644255285,
+      "category_id": 2
+    },
+    {
+      "id": 119,
+      "name": "コラボ",
+      "filter_id": 2001,
+      "skill_id": 194,
+      "skill_pattern_id": 0,
+      "created_at": 1591630704,
+      "updated_at": 1644255285,
+      "category_id": 2
+    },
+    {
+      "id": 120,
+      "name": "コラボ",
+      "filter_id": 2001,
+      "skill_id": 196,
+      "skill_pattern_id": 0,
+      "created_at": 1591630704,
+      "updated_at": 1644255285,
+      "category_id": 2
+    },
+    {
+      "id": 121,
+      "name": "コラボ",
+      "filter_id": 2001,
+      "skill_id": 207,
+      "skill_pattern_id": 0,
+      "created_at": 1591630704,
+      "updated_at": 1644255285,
+      "category_id": 2
+    },
+    {
+      "id": 122,
+      "name": "コラボ",
+      "filter_id": 2001,
+      "skill_id": 340,
+      "skill_pattern_id": 0,
+      "created_at": 1591630704,
+      "updated_at": 1644255285,
+      "category_id": 2
+    },
+    {
+      "id": 123,
+      "name": "毒",
+      "filter_id": 999,
+      "skill_id": 83,
+      "skill_pattern_id": 0,
+      "created_at": 1591630704,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 124,
+      "name": "毒",
+      "filter_id": 999,
+      "skill_id": 182,
+      "skill_pattern_id": 0,
+      "created_at": 1591630704,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 125,
+      "name": "毒",
+      "filter_id": 999,
+      "skill_id": 90,
+      "skill_pattern_id": 0,
+      "created_at": 1591630704,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 126,
+      "name": "毒",
+      "filter_id": 999,
+      "skill_id": 91,
+      "skill_pattern_id": 0,
+      "created_at": 1591630704,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 127,
+      "name": "毒",
+      "filter_id": 999,
+      "skill_id": 100,
+      "skill_pattern_id": 0,
+      "created_at": 1591630704,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 128,
+      "name": "毒",
+      "filter_id": 999,
+      "skill_id": 288,
+      "skill_pattern_id": 0,
+      "created_at": 1591630704,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 129,
+      "name": "ステータスダウン",
+      "filter_id": 1003,
+      "skill_id": 318,
+      "skill_pattern_id": 0,
+      "created_at": 1591630704,
+      "updated_at": 1644255285,
+      "category_id": 2
+    },
+    {
+      "id": 130,
+      "name": "回復",
+      "filter_id": 1006,
+      "skill_id": 388,
+      "skill_pattern_id": 0,
+      "created_at": 1591630704,
+      "updated_at": 1723563938,
+      "category_id": 2
+    },
+    {
+      "id": 131,
+      "name": "回復",
+      "filter_id": 1006,
+      "skill_id": 263,
+      "skill_pattern_id": 0,
+      "created_at": 1591630704,
+      "updated_at": 1723563938,
+      "category_id": 2
+    },
+    {
+      "id": 132,
+      "name": "フレア",
+      "filter_id": 2,
+      "skill_id": 564,
+      "skill_pattern_id": 0,
+      "created_at": 1591630704,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 133,
+      "name": "毒",
+      "filter_id": 999,
+      "skill_id": 564,
+      "skill_pattern_id": 0,
+      "created_at": 1594294244,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 134,
+      "name": "レーザー",
+      "filter_id": 3,
+      "skill_id": 363,
+      "skill_pattern_id": 0,
+      "created_at": 1594294244,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 135,
+      "name": "追従型貫通弾",
+      "filter_id": 10,
+      "skill_id": 635,
+      "skill_pattern_id": 0,
+      "created_at": 1594294244,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 136,
+      "name": "追従型貫通弾",
+      "filter_id": 10,
+      "skill_id": 636,
+      "skill_pattern_id": 0,
+      "created_at": 1594472464,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 137,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 632,
+      "skill_pattern_id": 0,
+      "created_at": 1594472464,
+      "updated_at": 1644255285,
+      "category_id": 2
+    },
+    {
+      "id": 138,
+      "name": "ステータスアップ",
+      "filter_id": 1002,
+      "skill_id": 678,
+      "skill_pattern_id": 0,
+      "created_at": 1599730362,
+      "updated_at": 1644255285,
+      "category_id": 2
+    },
+    {
+      "id": 139,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 673,
+      "skill_pattern_id": 0,
+      "created_at": 1602673878,
+      "updated_at": 1644255285,
+      "category_id": 2
+    },
+    {
+      "id": 140,
+      "name": "回復",
+      "filter_id": 1006,
+      "skill_id": 676,
+      "skill_pattern_id": 0,
+      "created_at": 1603213834,
+      "updated_at": 1723563938,
+      "category_id": 2
+    },
+    {
+      "id": 141,
+      "name": "爆発",
+      "filter_id": 1,
+      "skill_id": 669,
+      "skill_pattern_id": 0,
+      "created_at": 1603213834,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 142,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 616,
+      "skill_pattern_id": 0,
+      "created_at": 1603213834,
+      "updated_at": 1644255285,
+      "category_id": 2
+    },
+    {
+      "id": 143,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 618,
+      "skill_pattern_id": 0,
+      "created_at": 1606284531,
+      "updated_at": 1644255285,
+      "category_id": 2
+    },
+    {
+      "id": 144,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 692,
+      "skill_pattern_id": 0,
+      "created_at": 1607593819,
+      "updated_at": 1644255285,
+      "category_id": 2
+    },
+    {
+      "id": 145,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 694,
+      "skill_pattern_id": 0,
+      "created_at": 1609141732,
+      "updated_at": 1644255285,
+      "category_id": 2
+    },
+    {
+      "id": 146,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 629,
+      "skill_pattern_id": 0,
+      "created_at": 1609141732,
+      "updated_at": 1644255285,
+      "category_id": 2
+    },
+    {
+      "id": 147,
+      "name": "ブラスト",
+      "filter_id": 32,
+      "skill_id": 109,
+      "skill_pattern_id": 0,
+      "created_at": 1609141732,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 148,
+      "name": "ステータスダウン",
+      "filter_id": 1003,
+      "skill_id": 109,
+      "skill_pattern_id": 0,
+      "created_at": 1615393096,
+      "updated_at": 1644255285,
+      "category_id": 2
+    },
+    {
+      "id": 149,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 714,
+      "skill_pattern_id": 0,
+      "created_at": 1615393096,
+      "updated_at": 1644255285,
+      "category_id": 2
+    },
+    {
+      "id": 150,
+      "name": "分裂弾",
+      "filter_id": 21,
+      "skill_id": 722,
+      "skill_pattern_id": 0,
+      "created_at": 1619093078,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 151,
+      "name": "爆発",
+      "filter_id": 1,
+      "skill_id": 740,
+      "skill_pattern_id": 0,
+      "created_at": 1620812320,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 152,
+      "name": "ラウンド",
+      "filter_id": 35,
+      "skill_id": 753,
+      "skill_pattern_id": 0,
+      "created_at": 1625212602,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 153,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 764,
+      "skill_pattern_id": 0,
+      "created_at": 1627645510,
+      "updated_at": 1644255285,
+      "category_id": 2
+    },
+    {
+      "id": 154,
+      "name": "クロススティンガー",
+      "filter_id": 29,
+      "skill_id": 782,
+      "skill_pattern_id": 0,
+      "created_at": 1631787415,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 155,
+      "name": "SSターン",
+      "filter_id": 1005,
+      "skill_id": 793,
+      "skill_pattern_id": 0,
+      "created_at": 1633259502,
+      "updated_at": 1723563938,
+      "category_id": 2
+    },
+    {
+      "id": 156,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 817,
+      "skill_pattern_id": 0,
+      "created_at": 1640685954,
+      "updated_at": 1644255285,
+      "category_id": 2
+    },
+    {
+      "id": 157,
+      "name": "爆発",
+      "filter_id": 1,
+      "skill_id": 803,
+      "skill_pattern_id": 0,
+      "created_at": 1640685954,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 158,
+      "name": "ラウンド",
+      "filter_id": 35,
+      "skill_id": 803,
+      "skill_pattern_id": 0,
+      "created_at": 1640685954,
+      "updated_at": 1644255285,
+      "category_id": 1
+    },
+    {
+      "id": 159,
+      "name": "拡散弾",
+      "filter_id": 6,
+      "skill_id": 822,
+      "skill_pattern_id": 0,
+      "created_at": 1646996472,
+      "updated_at": 1646996472,
+      "category_id": 1
+    },
+    {
+      "id": 160,
+      "name": "毒",
+      "filter_id": 999,
+      "skill_id": 822,
+      "skill_pattern_id": 0,
+      "created_at": 1646996472,
+      "updated_at": 1646996472,
+      "category_id": 1
+    },
+    {
+      "id": 161,
+      "name": "拡散弾",
+      "filter_id": 6,
+      "skill_id": 821,
+      "skill_pattern_id": 0,
+      "created_at": 1647522135,
+      "updated_at": 1647522135,
+      "category_id": 1
+    },
+    {
+      "id": 162,
+      "name": "コラボ",
+      "filter_id": 2001,
+      "skill_id": 831,
+      "skill_pattern_id": 0,
+      "created_at": 1651145759,
+      "updated_at": 1654771406,
+      "category_id": 2
+    },
+    {
+      "id": 163,
+      "name": "爆発",
+      "filter_id": 1,
+      "skill_id": 741,
+      "skill_pattern_id": 0,
+      "created_at": 1652772263,
+      "updated_at": 1652772263,
+      "category_id": 1
+    },
+    {
+      "id": 164,
+      "name": "回復",
+      "filter_id": 1006,
+      "skill_id": 741,
+      "skill_pattern_id": 0,
+      "created_at": 1652772263,
+      "updated_at": 1723563939,
+      "category_id": 2
+    },
+    {
+      "id": 165,
+      "name": "スピードアップ",
+      "filter_id": 1004,
+      "skill_id": 81,
+      "skill_pattern_id": 1,
+      "created_at": 1653492771,
+      "updated_at": 1657555015,
+      "category_id": 2
+    },
+    {
+      "id": 166,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 830,
+      "skill_pattern_id": 0,
+      "created_at": 1654771406,
+      "updated_at": 1654771406,
+      "category_id": 2
+    },
+    {
+      "id": 167,
+      "name": "衝撃波",
+      "filter_id": 7,
+      "skill_id": 818,
+      "skill_pattern_id": 0,
+      "created_at": 1656318641,
+      "updated_at": 1656318641,
+      "category_id": 1
+    },
+    {
+      "id": 168,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 833,
+      "skill_pattern_id": 0,
+      "created_at": 1657188094,
+      "updated_at": 1657188094,
+      "category_id": 2
+    },
+    {
+      "id": 169,
+      "name": "追撃貫通弾",
+      "filter_id": 18,
+      "skill_id": 834,
+      "skill_pattern_id": 0,
+      "created_at": 1657555015,
+      "updated_at": 1657555015,
+      "category_id": 1
+    },
+    {
+      "id": 170,
+      "name": "爆発",
+      "filter_id": 1,
+      "skill_id": 836,
+      "skill_pattern_id": 0,
+      "created_at": 1657555015,
+      "updated_at": 1657555015,
+      "category_id": 1
+    },
+    {
+      "id": 171,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 820,
+      "skill_pattern_id": 0,
+      "created_at": 1659577587,
+      "updated_at": 1659577587,
+      "category_id": 2
+    },
+    {
+      "id": 172,
+      "name": "衝撃波",
+      "filter_id": 7,
+      "skill_id": 840,
+      "skill_pattern_id": 0,
+      "created_at": 1662625591,
+      "updated_at": 1662625591,
+      "category_id": 1
+    },
+    {
+      "id": 173,
+      "name": "チップソー",
+      "filter_id": 30,
+      "skill_id": 845,
+      "skill_pattern_id": 0,
+      "created_at": 1666952481,
+      "updated_at": 1666952481,
+      "category_id": 1
+    },
+    {
+      "id": 174,
+      "name": "跳弾",
+      "filter_id": 13,
+      "skill_id": 843,
+      "skill_pattern_id": 0,
+      "created_at": 1669358647,
+      "updated_at": 1669358647,
+      "category_id": 1
+    },
+    {
+      "id": 175,
+      "name": "インボリュート",
+      "filter_id": 23,
+      "skill_id": 846,
+      "skill_pattern_id": 0,
+      "created_at": 1672224465,
+      "updated_at": 1672224465,
+      "category_id": 1
+    },
+    {
+      "id": 176,
+      "name": "インボリュート",
+      "filter_id": 23,
+      "skill_id": 848,
+      "skill_pattern_id": 0,
+      "created_at": 1672224465,
+      "updated_at": 1672224465,
+      "category_id": 1
+    },
+    {
+      "id": 177,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 847,
+      "skill_pattern_id": 0,
+      "created_at": 1672224465,
+      "updated_at": 1672224465,
+      "category_id": 2
+    },
+    {
+      "id": 178,
+      "name": "ステータスアップ",
+      "filter_id": 1002,
+      "skill_id": 849,
+      "skill_pattern_id": 0,
+      "created_at": 1680084288,
+      "updated_at": 1680084288,
+      "category_id": 2
+    },
+    {
+      "id": 179,
+      "name": "爆発",
+      "filter_id": 1,
+      "skill_id": 852,
+      "skill_pattern_id": 0,
+      "created_at": 1684404280,
+      "updated_at": 1684404280,
+      "category_id": 1
+    },
+    {
+      "id": 180,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 851,
+      "skill_pattern_id": 0,
+      "created_at": 1684404280,
+      "updated_at": 1684404280,
+      "category_id": 2
+    },
+    {
+      "id": 181,
+      "name": "ステータスダウン",
+      "filter_id": 1003,
+      "skill_id": 853,
+      "skill_pattern_id": 0,
+      "created_at": 1684837503,
+      "updated_at": 1684837503,
+      "category_id": 2
+    },
+    {
+      "id": 182,
+      "name": "爆発",
+      "filter_id": 1,
+      "skill_id": 844,
+      "skill_pattern_id": 0,
+      "created_at": 1685084332,
+      "updated_at": 1685084332,
+      "category_id": 1
+    },
+    {
+      "id": 183,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 855,
+      "skill_pattern_id": 0,
+      "created_at": 1687312903,
+      "updated_at": 1687312903,
+      "category_id": 2
+    },
+    {
+      "id": 184,
+      "name": "ステータスアップ",
+      "filter_id": 1002,
+      "skill_id": 856,
+      "skill_pattern_id": 0,
+      "created_at": 1688640234,
+      "updated_at": 1688640234,
+      "category_id": 2
+    },
+    {
+      "id": 185,
+      "name": "スピードアップ",
+      "filter_id": 1004,
+      "skill_id": 856,
+      "skill_pattern_id": 1,
+      "created_at": 1688640234,
+      "updated_at": 1688640234,
+      "category_id": 2
+    },
+    {
+      "id": 186,
+      "name": "エナジーサークル",
+      "filter_id": 5,
+      "skill_id": 854,
+      "skill_pattern_id": 0,
+      "created_at": 1688904272,
+      "updated_at": 1688904272,
+      "category_id": 1
+    },
+    {
+      "id": 187,
+      "name": "爆発",
+      "filter_id": 1,
+      "skill_id": 863,
+      "skill_pattern_id": 0,
+      "created_at": 1696155325,
+      "updated_at": 1696155325,
+      "category_id": 1
+    },
+    {
+      "id": 188,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 863,
+      "skill_pattern_id": 0,
+      "created_at": 1696155325,
+      "updated_at": 1696155325,
+      "category_id": 2
+    },
+    {
+      "id": 189,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 860,
+      "skill_pattern_id": 0,
+      "created_at": 1696155325,
+      "updated_at": 1696155325,
+      "category_id": 2
+    },
+    {
+      "id": 190,
+      "name": "回復",
+      "filter_id": 1006,
+      "skill_id": 859,
+      "skill_pattern_id": 0,
+      "created_at": 1701844924,
+      "updated_at": 1723563939,
+      "category_id": 2
+    },
+    {
+      "id": 191,
+      "name": "ステータスダウン",
+      "filter_id": 1003,
+      "skill_id": 864,
+      "skill_pattern_id": 0,
+      "created_at": 1703756709,
+      "updated_at": 1703756709,
+      "category_id": 2
+    },
+    {
+      "id": 192,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 865,
+      "skill_pattern_id": 0,
+      "created_at": 1703756709,
+      "updated_at": 1765385417,
+      "category_id": 2
+    },
+    {
+      "id": 193,
+      "name": "爆発",
+      "filter_id": 1,
+      "skill_id": 869,
+      "skill_pattern_id": 0,
+      "created_at": 1703756709,
+      "updated_at": 1765385417,
+      "category_id": 1
+    },
+    {
+      "id": 194,
+      "name": "分身弾",
+      "filter_id": 28,
+      "skill_id": 870,
+      "skill_pattern_id": 0,
+      "created_at": 1703756709,
+      "updated_at": 1765385417,
+      "category_id": 1
+    },
+    {
+      "id": 195,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 871,
+      "skill_pattern_id": 0,
+      "created_at": 1703756709,
+      "updated_at": 1765385417,
+      "category_id": 2
+    },
+    {
+      "id": 196,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 873,
+      "skill_pattern_id": 0,
+      "created_at": 1703756709,
+      "updated_at": 1765385417,
+      "category_id": 2
+    },
+    {
+      "id": 197,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 877,
+      "skill_pattern_id": 0,
+      "created_at": 1708596069,
+      "updated_at": 1765385417,
+      "category_id": 2
+    },
+    {
+      "id": 198,
+      "name": "プラズマ",
+      "filter_id": 9,
+      "skill_id": 875,
+      "skill_pattern_id": 0,
+      "created_at": 1713802927,
+      "updated_at": 1765385417,
+      "category_id": 1
+    },
+    {
+      "id": 199,
+      "name": "分裂弾",
+      "filter_id": 21,
+      "skill_id": 878,
+      "skill_pattern_id": 0,
+      "created_at": 1716458192,
+      "updated_at": 1765385417,
+      "category_id": 1
+    },
+    {
+      "id": 200,
+      "name": "SSターン",
+      "filter_id": 1005,
+      "skill_id": 879,
+      "skill_pattern_id": 0,
+      "created_at": 1716458192,
+      "updated_at": 1765385417,
+      "category_id": 2
+    },
+    {
+      "id": 201,
+      "name": "爆発",
+      "filter_id": 1,
+      "skill_id": 883,
+      "skill_pattern_id": 0,
+      "created_at": 1719478883,
+      "updated_at": 1765385417,
+      "category_id": 1
+    },
+    {
+      "id": 202,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 880,
+      "skill_pattern_id": 0,
+      "created_at": 1720961064,
+      "updated_at": 1765385417,
+      "category_id": 2
+    },
+    {
+      "id": 203,
+      "name": "爆発",
+      "filter_id": 1,
+      "skill_id": 885,
+      "skill_pattern_id": 0,
+      "created_at": 1723121548,
+      "updated_at": 1765385417,
+      "category_id": 1
+    },
+    {
+      "id": 204,
+      "name": "回復",
+      "filter_id": 1006,
+      "skill_id": 886,
+      "skill_pattern_id": 0,
+      "created_at": 1729527080,
+      "updated_at": 1765385417,
+      "category_id": 2
+    },
+    {
+      "id": 205,
+      "name": "ラウンド",
+      "filter_id": 35,
+      "skill_id": 886,
+      "skill_pattern_id": 0,
+      "created_at": 1733213189,
+      "updated_at": 1765385417,
+      "category_id": 1
+    },
+    {
+      "id": 206,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 887,
+      "skill_pattern_id": 0,
+      "created_at": 1733213189,
+      "updated_at": 1765385417,
+      "category_id": 2
+    },
+    {
+      "id": 207,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 888,
+      "skill_pattern_id": 0,
+      "created_at": 1735373871,
+      "updated_at": 1765385417,
+      "category_id": 2
+    },
+    {
+      "id": 208,
+      "name": "爆発",
+      "filter_id": 1,
+      "skill_id": 889,
+      "skill_pattern_id": 0,
+      "created_at": 1735373871,
+      "updated_at": 1765385417,
+      "category_id": 1
+    },
+    {
+      "id": 209,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 891,
+      "skill_pattern_id": 0,
+      "created_at": 1735373871,
+      "updated_at": 1765385417,
+      "category_id": 2
+    },
+    {
+      "id": 210,
+      "name": "爆発",
+      "filter_id": 1,
+      "skill_id": 892,
+      "skill_pattern_id": 0,
+      "created_at": 1738598634,
+      "updated_at": 1765385417,
+      "category_id": 1
+    },
+    {
+      "id": 211,
+      "name": "毒",
+      "filter_id": 999,
+      "skill_id": 892,
+      "skill_pattern_id": 0,
+      "created_at": 1744092402,
+      "updated_at": 1765385417,
+      "category_id": 1
+    },
+    {
+      "id": 212,
+      "name": "ラウンド",
+      "filter_id": 35,
+      "skill_id": 894,
+      "skill_pattern_id": 0,
+      "created_at": 1744092402,
+      "updated_at": 1765385417,
+      "category_id": 1
+    },
+    {
+      "id": 213,
+      "name": "SSターン",
+      "filter_id": 1005,
+      "skill_id": 894,
+      "skill_pattern_id": 0,
+      "created_at": 1749120017,
+      "updated_at": 1765385417,
+      "category_id": 2
+    },
+    {
+      "id": 214,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 895,
+      "skill_pattern_id": 0,
+      "created_at": 1749120017,
+      "updated_at": 1765385417,
+      "category_id": 2
+    },
+    {
+      "id": 215,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 896,
+      "skill_pattern_id": 0,
+      "created_at": 1752408843,
+      "updated_at": 1765385417,
+      "category_id": 2
+    },
+    {
+      "id": 216,
+      "name": "爆発",
+      "filter_id": 1,
+      "skill_id": 897,
+      "skill_pattern_id": 0,
+      "created_at": 1752408843,
+      "updated_at": 1765385417,
+      "category_id": 1
+    },
+    {
+      "id": 217,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 899,
+      "skill_pattern_id": 0,
+      "created_at": 1753965296,
+      "updated_at": 1765385417,
+      "category_id": 2
+    },
+    {
+      "id": 218,
+      "name": "爆発",
+      "filter_id": 1,
+      "skill_id": 900,
+      "skill_pattern_id": 0,
+      "created_at": 1755014453,
+      "updated_at": 1765385417,
+      "category_id": 1
+    },
+    {
+      "id": 219,
+      "name": "ウォールムービング",
+      "filter_id": 26,
+      "skill_id": 902,
+      "skill_pattern_id": 0,
+      "created_at": 1759059737,
+      "updated_at": 1765385417,
+      "category_id": 1
+    },
+    {
+      "id": 220,
+      "name": "回復",
+      "filter_id": 1006,
+      "skill_id": 903,
+      "skill_pattern_id": 0,
+      "created_at": 1761221343,
+      "updated_at": 1765385417,
+      "category_id": 2
+    },
+    {
+      "id": 221,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 904,
+      "skill_pattern_id": 0,
+      "created_at": 1766920578,
+      "updated_at": 1766920578,
+      "category_id": 2
+    },
+    {
+      "id": 222,
+      "name": "衝撃波",
+      "filter_id": 7,
+      "skill_id": 906,
+      "skill_pattern_id": 0,
+      "created_at": 1766920578,
+      "updated_at": 1766920578,
+      "category_id": 1
+    },
+    {
+      "id": 223,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 907,
+      "skill_pattern_id": 0,
+      "created_at": 1766920578,
+      "updated_at": 1766920578,
+      "category_id": 2
+    },
+    {
+      "id": 224,
+      "name": "その他",
+      "filter_id": 1999,
+      "skill_id": 908,
+      "skill_pattern_id": 0,
+      "created_at": 1774517374,
+      "updated_at": 1774517374,
+      "category_id": 2
+    },
+    {
+      "id": 225,
+      "name": "メテオ",
+      "filter_id": 12,
+      "skill_id": 909,
+      "skill_pattern_id": 0,
+      "created_at": 1776335121,
+      "updated_at": 1776335121,
+      "category_id": 1
+    },
+    {
+      "id": 226,
+      "name": "ステータスダウン",
+      "filter_id": 1003,
+      "skill_id": 909,
+      "skill_pattern_id": 0,
+      "created_at": 1776335121,
+      "updated_at": 1776335121,
+      "category_id": 2
+    },
+    {
+      "id": 227,
+      "name": "コラボ",
+      "filter_id": 2001,
+      "skill_id": 910,
+      "skill_pattern_id": 0,
+      "created_at": 1781169789,
+      "updated_at": 1781169789,
+      "category_id": 2
+    }
+  ]
+}

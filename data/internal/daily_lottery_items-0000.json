@@ -1,0 +1,497 @@
+{
+  "schemaVersion": 1,
+  "table": "daily_lottery_items",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "daily_lottery_group_id": 1,
+      "item_id": 42,
+      "cnt": 1,
+      "weight": 150,
+      "rate_of_win_effect": 50,
+      "created_at": 1647522166,
+      "updated_at": 1647522166
+    },
+    {
+      "id": 2,
+      "daily_lottery_group_id": 1,
+      "item_id": 35,
+      "cnt": 1,
+      "weight": 150,
+      "rate_of_win_effect": 50,
+      "created_at": 1647522166,
+      "updated_at": 1647522166
+    },
+    {
+      "id": 3,
+      "daily_lottery_group_id": 1,
+      "item_id": 14,
+      "cnt": 1,
+      "weight": 150,
+      "rate_of_win_effect": 50,
+      "created_at": 1647522166,
+      "updated_at": 1647522166
+    },
+    {
+      "id": 4,
+      "daily_lottery_group_id": 1,
+      "item_id": 19,
+      "cnt": 5000,
+      "weight": 150,
+      "rate_of_win_effect": 50,
+      "created_at": 1647522166,
+      "updated_at": 1647522166
+    },
+    {
+      "id": 5,
+      "daily_lottery_group_id": 1,
+      "item_id": 40,
+      "cnt": 1,
+      "weight": 200,
+      "rate_of_win_effect": 0,
+      "created_at": 1647522166,
+      "updated_at": 1647522166
+    },
+    {
+      "id": 6,
+      "daily_lottery_group_id": 1,
+      "item_id": 49,
+      "cnt": 1,
+      "weight": 200,
+      "rate_of_win_effect": 0,
+      "created_at": 1647522166,
+      "updated_at": 1647522166
+    },
+    {
+      "id": 7,
+      "daily_lottery_group_id": 2,
+      "item_id": 46,
+      "cnt": 1,
+      "weight": 200,
+      "rate_of_win_effect": 0,
+      "created_at": 1647522166,
+      "updated_at": 1647522166
+    },
+    {
+      "id": 8,
+      "daily_lottery_group_id": 2,
+      "item_id": 62,
+      "cnt": 1,
+      "weight": 200,
+      "rate_of_win_effect": 38,
+      "created_at": 1647522166,
+      "updated_at": 1647522166
+    },
+    {
+      "id": 9,
+      "daily_lottery_group_id": 2,
+      "item_id": 63,
+      "cnt": 1,
+      "weight": 200,
+      "rate_of_win_effect": 37,
+      "created_at": 1647522166,
+      "updated_at": 1647522166
+    },
+    {
+      "id": 10,
+      "daily_lottery_group_id": 2,
+      "item_id": 64,
+      "cnt": 1,
+      "weight": 200,
+      "rate_of_win_effect": 38,
+      "created_at": 1647522166,
+      "updated_at": 1647522166
+    },
+    {
+      "id": 11,
+      "daily_lottery_group_id": 2,
+      "item_id": 65,
+      "cnt": 1,
+      "weight": 200,
+      "rate_of_win_effect": 37,
+      "created_at": 1647522166,
+      "updated_at": 1647522166
+    },
+    {
+      "id": 12,
+      "daily_lottery_group_id": 3,
+      "item_id": 1,
+      "cnt": 1,
+      "weight": 500,
+      "rate_of_win_effect": 60,
+      "created_at": 1647522166,
+      "updated_at": 1647522166
+    },
+    {
+      "id": 13,
+      "daily_lottery_group_id": 3,
+      "item_id": 12,
+      "cnt": 1,
+      "weight": 500,
+      "rate_of_win_effect": 0,
+      "created_at": 1647522166,
+      "updated_at": 1647522166
+    },
+    {
+      "id": 14,
+      "daily_lottery_group_id": 4,
+      "item_id": 1,
+      "cnt": 1,
+      "weight": 500,
+      "rate_of_win_effect": 100,
+      "created_at": 1662625626,
+      "updated_at": 1662625626
+    },
+    {
+      "id": 15,
+      "daily_lottery_group_id": 4,
+      "item_id": 19,
+      "cnt": 2000,
+      "weight": 500,
+      "rate_of_win_effect": 0,
+      "created_at": 1662625626,
+      "updated_at": 1662625626
+    },
+    {
+      "id": 16,
+      "daily_lottery_group_id": 5,
+      "item_id": 46,
+      "cnt": 1,
+      "weight": 700,
+      "rate_of_win_effect": 100,
+      "created_at": 1662625626,
+      "updated_at": 1662625626
+    },
+    {
+      "id": 17,
+      "daily_lottery_group_id": 5,
+      "item_id": 40,
+      "cnt": 1,
+      "weight": 300,
+      "rate_of_win_effect": 0,
+      "created_at": 1662625626,
+      "updated_at": 1662625626
+    },
+    {
+      "id": 18,
+      "daily_lottery_group_id": 6,
+      "item_id": 41,
+      "cnt": 1,
+      "weight": 500,
+      "rate_of_win_effect": 100,
+      "created_at": 1662625626,
+      "updated_at": 1662625626
+    },
+    {
+      "id": 19,
+      "daily_lottery_group_id": 6,
+      "item_id": 19,
+      "cnt": 2000,
+      "weight": 500,
+      "rate_of_win_effect": 0,
+      "created_at": 1662625626,
+      "updated_at": 1662625626
+    },
+    {
+      "id": 20,
+      "daily_lottery_group_id": 7,
+      "item_id": 13,
+      "cnt": 1,
+      "weight": 80,
+      "rate_of_win_effect": 100,
+      "created_at": 1662625626,
+      "updated_at": 1662625626
+    },
+    {
+      "id": 21,
+      "daily_lottery_group_id": 7,
+      "item_id": 40,
+      "cnt": 1,
+      "weight": 920,
+      "rate_of_win_effect": 0,
+      "created_at": 1662625626,
+      "updated_at": 1662625626
+    },
+    {
+      "id": 22,
+      "daily_lottery_group_id": 8,
+      "item_id": 42,
+      "cnt": 1,
+      "weight": 700,
+      "rate_of_win_effect": 100,
+      "created_at": 1662625626,
+      "updated_at": 1662625626
+    },
+    {
+      "id": 23,
+      "daily_lottery_group_id": 8,
+      "item_id": 49,
+      "cnt": 1,
+      "weight": 300,
+      "rate_of_win_effect": 0,
+      "created_at": 1662625626,
+      "updated_at": 1662625626
+    },
+    {
+      "id": 24,
+      "daily_lottery_group_id": 9,
+      "item_id": 47,
+      "cnt": 1,
+      "weight": 80,
+      "rate_of_win_effect": 100,
+      "created_at": 1662625626,
+      "updated_at": 1662625626
+    },
+    {
+      "id": 25,
+      "daily_lottery_group_id": 9,
+      "item_id": 49,
+      "cnt": 1,
+      "weight": 920,
+      "rate_of_win_effect": 0,
+      "created_at": 1662625626,
+      "updated_at": 1662625626
+    },
+    {
+      "id": 26,
+      "daily_lottery_group_id": 10,
+      "item_id": 1,
+      "cnt": 1,
+      "weight": 900,
+      "rate_of_win_effect": 100,
+      "created_at": 1662625626,
+      "updated_at": 1662625626
+    },
+    {
+      "id": 27,
+      "daily_lottery_group_id": 10,
+      "item_id": 19,
+      "cnt": 2000,
+      "weight": 100,
+      "rate_of_win_effect": 0,
+      "created_at": 1662625626,
+      "updated_at": 1662625626
+    },
+    {
+      "id": 28,
+      "daily_lottery_group_id": 11,
+      "item_id": 46,
+      "cnt": 1,
+      "weight": 900,
+      "rate_of_win_effect": 100,
+      "created_at": 1662625626,
+      "updated_at": 1662625626
+    },
+    {
+      "id": 29,
+      "daily_lottery_group_id": 11,
+      "item_id": 40,
+      "cnt": 1,
+      "weight": 100,
+      "rate_of_win_effect": 0,
+      "created_at": 1662625626,
+      "updated_at": 1662625626
+    },
+    {
+      "id": 30,
+      "daily_lottery_group_id": 12,
+      "item_id": 41,
+      "cnt": 1,
+      "weight": 900,
+      "rate_of_win_effect": 100,
+      "created_at": 1662625626,
+      "updated_at": 1662625626
+    },
+    {
+      "id": 31,
+      "daily_lottery_group_id": 12,
+      "item_id": 19,
+      "cnt": 2000,
+      "weight": 100,
+      "rate_of_win_effect": 0,
+      "created_at": 1662625626,
+      "updated_at": 1662625626
+    },
+    {
+      "id": 32,
+      "daily_lottery_group_id": 13,
+      "item_id": 13,
+      "cnt": 1,
+      "weight": 900,
+      "rate_of_win_effect": 100,
+      "created_at": 1662625626,
+      "updated_at": 1662625626
+    },
+    {
+      "id": 33,
+      "daily_lottery_group_id": 13,
+      "item_id": 40,
+      "cnt": 1,
+      "weight": 100,
+      "rate_of_win_effect": 0,
+      "created_at": 1662625626,
+      "updated_at": 1662625626
+    },
+    {
+      "id": 34,
+      "daily_lottery_group_id": 14,
+      "item_id": 42,
+      "cnt": 1,
+      "weight": 900,
+      "rate_of_win_effect": 100,
+      "created_at": 1662625626,
+      "updated_at": 1662625626
+    },
+    {
+      "id": 35,
+      "daily_lottery_group_id": 14,
+      "item_id": 49,
+      "cnt": 1,
+      "weight": 100,
+      "rate_of_win_effect": 0,
+      "created_at": 1662625626,
+      "updated_at": 1662625626
+    },
+    {
+      "id": 36,
+      "daily_lottery_group_id": 15,
+      "item_id": 47,
+      "cnt": 1,
+      "weight": 900,
+      "rate_of_win_effect": 100,
+      "created_at": 1662625626,
+      "updated_at": 1662625626
+    },
+    {
+      "id": 37,
+      "daily_lottery_group_id": 15,
+      "item_id": 49,
+      "cnt": 1,
+      "weight": 100,
+      "rate_of_win_effect": 0,
+      "created_at": 1662625626,
+      "updated_at": 1662625626
+    },
+    {
+      "id": 38,
+      "daily_lottery_group_id": 16,
+      "item_id": 12,
+      "cnt": 1,
+      "weight": 25,
+      "rate_of_win_effect": 0,
+      "created_at": 1668074199,
+      "updated_at": 1668074199
+    },
+    {
+      "id": 39,
+      "daily_lottery_group_id": 16,
+      "item_id": 113,
+      "cnt": 1,
+      "weight": 25,
+      "rate_of_win_effect": 0,
+      "created_at": 1668074200,
+      "updated_at": 1668074200
+    },
+    {
+      "id": 40,
+      "daily_lottery_group_id": 16,
+      "item_id": 116,
+      "cnt": 1,
+      "weight": 25,
+      "rate_of_win_effect": 0,
+      "created_at": 1668074200,
+      "updated_at": 1668074200
+    },
+    {
+      "id": 41,
+      "daily_lottery_group_id": 16,
+      "item_id": 41,
+      "cnt": 1,
+      "weight": 25,
+      "rate_of_win_effect": 0,
+      "created_at": 1668074200,
+      "updated_at": 1668074200
+    },
+    {
+      "id": 42,
+      "daily_lottery_group_id": 17,
+      "item_id": 49,
+      "cnt": 1,
+      "weight": 25,
+      "rate_of_win_effect": 0,
+      "created_at": 1668074200,
+      "updated_at": 1668074200
+    },
+    {
+      "id": 43,
+      "daily_lottery_group_id": 17,
+      "item_id": 40,
+      "cnt": 1,
+      "weight": 25,
+      "rate_of_win_effect": 0,
+      "created_at": 1668074200,
+      "updated_at": 1668074200
+    },
+    {
+      "id": 44,
+      "daily_lottery_group_id": 17,
+      "item_id": 14,
+      "cnt": 1,
+      "weight": 25,
+      "rate_of_win_effect": 0,
+      "created_at": 1668074200,
+      "updated_at": 1668074200
+    },
+    {
+      "id": 45,
+      "daily_lottery_group_id": 17,
+      "item_id": 1122,
+      "cnt": 1,
+      "weight": 25,
+      "rate_of_win_effect": 0,
+      "created_at": 1668074200,
+      "updated_at": 1668074200
+    },
+    {
+      "id": 46,
+      "daily_lottery_group_id": 18,
+      "item_id": 62,
+      "cnt": 1,
+      "weight": 25,
+      "rate_of_win_effect": 0,
+      "created_at": 1668074200,
+      "updated_at": 1668074200
+    },
+    {
+      "id": 47,
+      "daily_lottery_group_id": 18,
+      "item_id": 63,
+      "cnt": 1,
+      "weight": 25,
+      "rate_of_win_effect": 0,
+      "created_at": 1668074200,
+      "updated_at": 1668074200
+    },
+    {
+      "id": 48,
+      "daily_lottery_group_id": 18,
+      "item_id": 64,
+      "cnt": 1,
+      "weight": 25,
+      "rate_of_win_effect": 0,
+      "created_at": 1668074200,
+      "updated_at": 1668074200
+    },
+    {
+      "id": 49,
+      "daily_lottery_group_id": 18,
+      "item_id": 65,
+      "cnt": 1,
+      "weight": 25,
+      "rate_of_win_effect": 0,
+      "created_at": 1668074200,
+      "updated_at": 1668074200
+    }
+  ]
+}

@@ -1,0 +1,799 @@
+{
+  "schemaVersion": 1,
+  "table": "char_species",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "name": "ドラゴン",
+      "created_at": 1471363988,
+      "updated_at": 1644255306,
+      "sort_id": 1,
+      "category_id": 1
+    },
+    {
+      "id": 2,
+      "name": "ロボット",
+      "created_at": 1471363988,
+      "updated_at": 1644255306,
+      "sort_id": 2,
+      "category_id": 1
+    },
+    {
+      "id": 3,
+      "name": "魔人",
+      "created_at": 1471363988,
+      "updated_at": 1644255306,
+      "sort_id": 3,
+      "category_id": 1
+    },
+    {
+      "id": 4,
+      "name": "神",
+      "created_at": 1471363988,
+      "updated_at": 1644255306,
+      "sort_id": 4,
+      "category_id": 1
+    },
+    {
+      "id": 5,
+      "name": "鳥",
+      "created_at": 1471363988,
+      "updated_at": 1644255306,
+      "sort_id": 5,
+      "category_id": 1
+    },
+    {
+      "id": 6,
+      "name": "獣",
+      "created_at": 1471363988,
+      "updated_at": 1644255306,
+      "sort_id": 6,
+      "category_id": 1
+    },
+    {
+      "id": 7,
+      "name": "亜人",
+      "created_at": 1471363988,
+      "updated_at": 1644255306,
+      "sort_id": 7,
+      "category_id": 1
+    },
+    {
+      "id": 8,
+      "name": "魔族",
+      "created_at": 1471363988,
+      "updated_at": 1644255306,
+      "sort_id": 8,
+      "category_id": 1
+    },
+    {
+      "id": 9,
+      "name": "妖精",
+      "created_at": 1471363988,
+      "updated_at": 1644255306,
+      "sort_id": 9,
+      "category_id": 1
+    },
+    {
+      "id": 10,
+      "name": "鉱物",
+      "created_at": 1471363988,
+      "updated_at": 1644255306,
+      "sort_id": 10,
+      "category_id": 1
+    },
+    {
+      "id": 11,
+      "name": "魔王",
+      "created_at": 1471363988,
+      "updated_at": 1644255306,
+      "sort_id": 11,
+      "category_id": 1
+    },
+    {
+      "id": 12,
+      "name": "幻獣",
+      "created_at": 1471363988,
+      "updated_at": 1644255306,
+      "sort_id": 12,
+      "category_id": 1
+    },
+    {
+      "id": 13,
+      "name": "コスモ",
+      "created_at": 1471363988,
+      "updated_at": 1644255306,
+      "sort_id": 13,
+      "category_id": 1
+    },
+    {
+      "id": 14,
+      "name": "ユニバース",
+      "created_at": 1471363988,
+      "updated_at": 1644255306,
+      "sort_id": 14,
+      "category_id": 1
+    },
+    {
+      "id": 15,
+      "name": "聖騎士",
+      "created_at": 1471363988,
+      "updated_at": 1644255306,
+      "sort_id": 15,
+      "category_id": 1
+    },
+    {
+      "id": 16,
+      "name": "サムライ",
+      "created_at": 1471363988,
+      "updated_at": 1644255306,
+      "sort_id": 16,
+      "category_id": 1
+    },
+    {
+      "id": 17,
+      "name": "シールドン",
+      "created_at": 1471363988,
+      "updated_at": 1471363988,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 18,
+      "name": "LINE",
+      "created_at": 1471363988,
+      "updated_at": 1644255306,
+      "sort_id": 1,
+      "category_id": 2
+    },
+    {
+      "id": 19,
+      "name": "ユニオン",
+      "created_at": 1471363988,
+      "updated_at": 1644255306,
+      "sort_id": 17,
+      "category_id": 1
+    },
+    {
+      "id": 20,
+      "name": "アクシス",
+      "created_at": 1471363988,
+      "updated_at": 1644255306,
+      "sort_id": 18,
+      "category_id": 1
+    },
+    {
+      "id": 21,
+      "name": "幻妖",
+      "created_at": 1471363988,
+      "updated_at": 1644255306,
+      "sort_id": 19,
+      "category_id": 1
+    },
+    {
+      "id": 22,
+      "name": "part22",
+      "created_at": 1471363988,
+      "updated_at": 1786550549,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 23,
+      "name": "怪獣",
+      "created_at": 1471363988,
+      "updated_at": 1644255306,
+      "sort_id": 2,
+      "category_id": 2
+    },
+    {
+      "id": 24,
+      "name": "ウルトラ兄弟",
+      "created_at": 1471363988,
+      "updated_at": 1644255306,
+      "sort_id": 3,
+      "category_id": 2
+    },
+    {
+      "id": 25,
+      "name": "エヴァパイロット",
+      "created_at": 1471363988,
+      "updated_at": 1644255306,
+      "sort_id": 4,
+      "category_id": 2
+    },
+    {
+      "id": 26,
+      "name": "使徒",
+      "created_at": 1471363988,
+      "updated_at": 1644255306,
+      "sort_id": 5,
+      "category_id": 2
+    },
+    {
+      "id": 27,
+      "name": "ゴジエヴァ",
+      "created_at": 1471363988,
+      "updated_at": 1644255306,
+      "sort_id": 6,
+      "category_id": 2
+    },
+    {
+      "id": 28,
+      "name": "ファイター",
+      "created_at": 1471363988,
+      "updated_at": 1644255306,
+      "sort_id": 7,
+      "category_id": 2
+    },
+    {
+      "id": 29,
+      "name": "妖怪",
+      "created_at": 1471363988,
+      "updated_at": 1644255306,
+      "sort_id": 8,
+      "category_id": 2
+    },
+    {
+      "id": 30,
+      "name": "青銅聖闘士",
+      "created_at": 1471363989,
+      "updated_at": 1644255306,
+      "sort_id": 9,
+      "category_id": 2
+    },
+    {
+      "id": 31,
+      "name": "黄金聖闘士",
+      "created_at": 1471363989,
+      "updated_at": 1644255306,
+      "sort_id": 10,
+      "category_id": 2
+    },
+    {
+      "id": 32,
+      "name": "マベツム",
+      "created_at": 1471363989,
+      "updated_at": 1644255306,
+      "sort_id": 11,
+      "category_id": 2
+    },
+    {
+      "id": 33,
+      "name": "闘神",
+      "created_at": 1471363989,
+      "updated_at": 1644255306,
+      "sort_id": 20,
+      "category_id": 1
+    },
+    {
+      "id": 34,
+      "name": "神獣",
+      "created_at": 1471363989,
+      "updated_at": 1644255306,
+      "sort_id": 21,
+      "category_id": 1
+    },
+    {
+      "id": 35,
+      "name": "聖域の狩人",
+      "created_at": 1471363989,
+      "updated_at": 1644255306,
+      "sort_id": 22,
+      "category_id": 1
+    },
+    {
+      "id": 36,
+      "name": "ホムンクルス",
+      "created_at": 1471363989,
+      "updated_at": 1644255306,
+      "sort_id": 12,
+      "category_id": 2
+    },
+    {
+      "id": 37,
+      "name": "怪異",
+      "created_at": 1471363989,
+      "updated_at": 1644255306,
+      "sort_id": 13,
+      "category_id": 2
+    },
+    {
+      "id": 38,
+      "name": "巨人",
+      "created_at": 1471363989,
+      "updated_at": 1644255306,
+      "sort_id": 14,
+      "category_id": 2
+    },
+    {
+      "id": 39,
+      "name": "魔神",
+      "created_at": 1471363989,
+      "updated_at": 1644255306,
+      "sort_id": 15,
+      "category_id": 2
+    },
+    {
+      "id": 40,
+      "name": "ビット",
+      "created_at": 1471363989,
+      "updated_at": 1471363989,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 41,
+      "name": "人形",
+      "created_at": 1471363989,
+      "updated_at": 1644255306,
+      "sort_id": 16,
+      "category_id": 2
+    },
+    {
+      "id": 42,
+      "name": "キメラアント",
+      "created_at": 1471363989,
+      "updated_at": 1644255306,
+      "sort_id": 17,
+      "category_id": 2
+    },
+    {
+      "id": 43,
+      "name": "ミッキー＆フレンズ",
+      "created_at": 1471363989,
+      "updated_at": 1644255306,
+      "sort_id": 18,
+      "category_id": 2
+    },
+    {
+      "id": 44,
+      "name": "死神",
+      "created_at": 1471363989,
+      "updated_at": 1644255306,
+      "sort_id": 19,
+      "category_id": 2
+    },
+    {
+      "id": 45,
+      "name": "バーニッシュ",
+      "created_at": 1471363989,
+      "updated_at": 1644255306,
+      "sort_id": 20,
+      "category_id": 2
+    },
+    {
+      "id": 46,
+      "name": "parts46",
+      "created_at": 1471363989,
+      "updated_at": 1786550549,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 47,
+      "name": "アクシス部位",
+      "created_at": 1471363989,
+      "updated_at": 1623085054,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 48,
+      "name": "ボーダー隊員",
+      "created_at": 1471363989,
+      "updated_at": 1644255306,
+      "sort_id": 21,
+      "category_id": 2
+    },
+    {
+      "id": 49,
+      "name": "近界民",
+      "created_at": 1471363989,
+      "updated_at": 1644255306,
+      "sort_id": 22,
+      "category_id": 2
+    },
+    {
+      "id": 50,
+      "name": "十刃",
+      "created_at": 1471363989,
+      "updated_at": 1644255306,
+      "sort_id": 23,
+      "category_id": 2
+    },
+    {
+      "id": 51,
+      "name": "仮面の軍勢",
+      "created_at": 1471363989,
+      "updated_at": 1644255306,
+      "sort_id": 24,
+      "category_id": 2
+    },
+    {
+      "id": 52,
+      "name": "真理",
+      "created_at": 1471363989,
+      "updated_at": 1676547103,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 53,
+      "name": "スキル",
+      "created_at": 1471363989,
+      "updated_at": 1678962958,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 54,
+      "name": "parts54",
+      "created_at": 1471363989,
+      "updated_at": 1786550549,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 55,
+      "name": "parts55",
+      "created_at": 1471363989,
+      "updated_at": 1786550549,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 56,
+      "name": "parts56",
+      "created_at": 1471363989,
+      "updated_at": 1786550549,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 57,
+      "name": "parts57",
+      "created_at": 1471363989,
+      "updated_at": 1786550549,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 58,
+      "name": "parts58",
+      "created_at": 1471363989,
+      "updated_at": 1786550549,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 59,
+      "name": "parts36",
+      "created_at": 1471363989,
+      "updated_at": 1471363989,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 60,
+      "name": "parts37",
+      "created_at": 1471363989,
+      "updated_at": 1471363989,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 61,
+      "name": "parts38",
+      "created_at": 1471363989,
+      "updated_at": 1471363989,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 62,
+      "name": "parts39",
+      "created_at": 1471363989,
+      "updated_at": 1471363989,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 63,
+      "name": "parts40",
+      "created_at": 1471363989,
+      "updated_at": 1471363989,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 64,
+      "name": "parts41",
+      "created_at": 1471363989,
+      "updated_at": 1471363989,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 65,
+      "name": "parts42",
+      "created_at": 1471363989,
+      "updated_at": 1471363989,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 66,
+      "name": "parts43",
+      "created_at": 1471363989,
+      "updated_at": 1471363989,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 67,
+      "name": "parts44",
+      "created_at": 1471363989,
+      "updated_at": 1471363989,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 68,
+      "name": "parts45",
+      "created_at": 1471363989,
+      "updated_at": 1471363989,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 69,
+      "name": "parts46",
+      "created_at": 1471363989,
+      "updated_at": 1471363989,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 70,
+      "name": "parts47",
+      "created_at": 1471363989,
+      "updated_at": 1471363989,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 71,
+      "name": "parts48",
+      "created_at": 1471363989,
+      "updated_at": 1471363989,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 72,
+      "name": "parts49",
+      "created_at": 1471363989,
+      "updated_at": 1471363989,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 73,
+      "name": "parts50",
+      "created_at": 1471363989,
+      "updated_at": 1471363989,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 74,
+      "name": "parts51",
+      "created_at": 1471363989,
+      "updated_at": 1471363989,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 75,
+      "name": "parts52",
+      "created_at": 1471363989,
+      "updated_at": 1471363989,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 76,
+      "name": "parts53",
+      "created_at": 1471363989,
+      "updated_at": 1471363989,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 77,
+      "name": "parts54",
+      "created_at": 1471363989,
+      "updated_at": 1471363989,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 78,
+      "name": "parts55",
+      "created_at": 1471363989,
+      "updated_at": 1471363989,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 79,
+      "name": "parts56",
+      "created_at": 1471363989,
+      "updated_at": 1471363989,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 80,
+      "name": "parts57",
+      "created_at": 1471363989,
+      "updated_at": 1471363989,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 81,
+      "name": "parts58",
+      "created_at": 1471363989,
+      "updated_at": 1471363989,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 82,
+      "name": "parts59",
+      "created_at": 1471363989,
+      "updated_at": 1471363989,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 83,
+      "name": "parts60",
+      "created_at": 1471363989,
+      "updated_at": 1471363989,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 84,
+      "name": "parts61",
+      "created_at": 1471363989,
+      "updated_at": 1471363989,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 85,
+      "name": "parts62",
+      "created_at": 1471363989,
+      "updated_at": 1471363989,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 86,
+      "name": "parts63",
+      "created_at": 1471363989,
+      "updated_at": 1471363989,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 87,
+      "name": "parts64",
+      "created_at": 1471363990,
+      "updated_at": 1471363990,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 88,
+      "name": "parts65",
+      "created_at": 1471363990,
+      "updated_at": 1471363990,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 89,
+      "name": "parts66",
+      "created_at": 1471363990,
+      "updated_at": 1471363990,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 90,
+      "name": "parts67",
+      "created_at": 1471363990,
+      "updated_at": 1471363990,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 91,
+      "name": "parts68",
+      "created_at": 1471363990,
+      "updated_at": 1471363990,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 92,
+      "name": "parts69",
+      "created_at": 1471363990,
+      "updated_at": 1471363990,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 93,
+      "name": "parts70",
+      "created_at": 1471363990,
+      "updated_at": 1471363990,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 94,
+      "name": "parts71",
+      "created_at": 1471363990,
+      "updated_at": 1471363990,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 95,
+      "name": "parts72",
+      "created_at": 1471363990,
+      "updated_at": 1471363990,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 96,
+      "name": "parts73",
+      "created_at": 1471363990,
+      "updated_at": 1471363990,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 97,
+      "name": "parts74",
+      "created_at": 1471363990,
+      "updated_at": 1471363990,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 98,
+      "name": "parts75",
+      "created_at": 1471363990,
+      "updated_at": 1471363990,
+      "sort_id": 0,
+      "category_id": 0
+    },
+    {
+      "id": 99,
+      "name": "parts76",
+      "created_at": 1471363990,
+      "updated_at": 1471363990,
+      "sort_id": 0,
+      "category_id": 0
+    }
+  ]
+}

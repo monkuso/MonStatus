@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "table": "andevbox_groups",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "name": "天使の箱",
+      "short_name": "天使",
+      "andevbox_event_id": 1,
+      "andevbox_type": 1,
+      "init_orb": 10,
+      "carry_over_orb": 5,
+      "lottery": 1000,
+      "created_at": 1722508907,
+      "updated_at": 1722508907
+    },
+    {
+      "id": 2,
+      "name": "悪魔の箱",
+      "short_name": "悪魔",
+      "andevbox_event_id": 1,
+      "andevbox_type": 2,
+      "init_orb": 200,
+      "carry_over_orb": 0,
+      "lottery": 10,
+      "created_at": 1722508907,
+      "updated_at": 1722508907
+    },
+    {
+      "id": 3,
+      "name": "天使の箱",
+      "short_name": "天使",
+      "andevbox_event_id": 2,
+      "andevbox_type": 1,
+      "init_orb": 10,
+      "carry_over_orb": 5,
+      "lottery": 1000,
+      "created_at": 1752745023,
+      "updated_at": 1752745023
+    },
+    {
+      "id": 4,
+      "name": "悪魔の箱",
+      "short_name": "悪魔",
+      "andevbox_event_id": 2,
+      "andevbox_type": 2,
+      "init_orb": 200,
+      "carry_over_orb": 0,
+      "lottery": 10,
+      "created_at": 1752745023,
+      "updated_at": 1752745023
+    }
+  ]
+}

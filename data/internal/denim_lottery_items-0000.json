@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "table": "denim_lottery_items",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "denim_lottery_group_id": 1,
+      "success": 0,
+      "item_id": 19,
+      "cnt": 2500,
+      "created_at": 1694079630,
+      "updated_at": 1694079630
+    },
+    {
+      "id": 2,
+      "denim_lottery_group_id": 1,
+      "success": 1,
+      "item_id": 1,
+      "cnt": 1,
+      "created_at": 1694079630,
+      "updated_at": 1694079630
+    },
+    {
+      "id": 3,
+      "denim_lottery_group_id": 2,
+      "success": 0,
+      "item_id": 19,
+      "cnt": 2500,
+      "created_at": 1694079630,
+      "updated_at": 1694079630
+    },
+    {
+      "id": 4,
+      "denim_lottery_group_id": 2,
+      "success": 1,
+      "item_id": 62,
+      "cnt": 1,
+      "created_at": 1694079630,
+      "updated_at": 1694079630
+    },
+    {
+      "id": 5,
+      "denim_lottery_group_id": 2,
+      "success": 1,
+      "item_id": 63,
+      "cnt": 1,
+      "created_at": 1694079630,
+      "updated_at": 1694079630
+    },
+    {
+      "id": 6,
+      "denim_lottery_group_id": 3,
+      "success": 0,
+      "item_id": 19,
+      "cnt": 2500,
+      "created_at": 1694079630,
+      "updated_at": 1694079630
+    },
+    {
+      "id": 7,
+      "denim_lottery_group_id": 3,
+      "success": 1,
+      "item_id": 64,
+      "cnt": 1,
+      "created_at": 1694079630,
+      "updated_at": 1694079630
+    },
+    {
+      "id": 8,
+      "denim_lottery_group_id": 3,
+      "success": 1,
+      "item_id": 65,
+      "cnt": 1,
+      "created_at": 1694079630,
+      "updated_at": 1694079630
+    },
+    {
+      "id": 9,
+      "denim_lottery_group_id": 4,
+      "success": 0,
+      "item_id": 19,
+      "cnt": 2500,
+      "created_at": 1694079630,
+      "updated_at": 1694079630
+    },
+    {
+      "id": 10,
+      "denim_lottery_group_id": 4,
+      "success": 1,
+      "item_id": 35,
+      "cnt": 1,
+      "created_at": 1694079630,
+      "updated_at": 1694079630
+    }
+  ]
+}

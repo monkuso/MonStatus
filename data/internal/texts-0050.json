@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 1,
+  "table": "texts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 12867,
+      "text": "[LC]報酬一覧[LF][LF][TAB:地球連邦軍][NODE][TAB:ジオン公国軍][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_PORK_MISSION_REWARD_VIEW"
+    },
+    {
+      "id": 12868,
+      "text": "[LC]所属確認[LF][LF]あなたが選択したのは[C6:｢地球連邦軍｣]です[LF][LF]この軍の指令に挑戦しますか？[LF][LF][LC][NODE][LF][LC][C18:難易度：低][LF][LF]※｢地球連邦軍｣の指令を全て達成することで[LF]　｢ジオン公国軍｣の指令に挑戦できます[LF]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_PORK_MISSION_TEAM_SELECT_BLUE"
+    },
+    {
+      "id": 12869,
+      "text": "[LC]警告[LF][LF]あなたが選択したのは[C6:｢ジオン公国軍｣]です[LF][LF]この軍の指令に挑戦しますか？[LF][LF][LC][NODE][LF][LC][C2:難易度：高][LF][LF]※｢ジオン公国軍｣の指令を全て達成することで[LF]　｢地球連邦軍｣の指令に挑戦できます[LF]",
+      "layout": 8,
+      "color": 1,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_PORK_MISSION_TEAM_SELECT_RED"
+    },
+    {
+      "id": 12870,
+      "text": "[LC]指令達成[LF][LF]指令を達成したため、以下の報酬を獲得しました[LF][LF][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_PORK_MISSION_CLEAR_REWARD_DIALOG"
+    },
+    {
+      "id": 12871,
+      "text": "[LC]全指令達成[LF][LF]%s指令を達成したため、[LF]以下の報酬を獲得しました[LF][LF][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_PORK_MISSION_ALL_CLEAR_REWARD_DIALOG"
+    },
+    {
+      "id": 12872,
+      "text": "[LC]指令内容公開[LF][LF]機密指令の内容が公開されました[LF]指令内容を遂行しましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_PORK_MISSION_RELEASE"
+    },
+    {
+      "id": 12873,
+      "text": "[LC]所属変更[LF][LF]%sの指令を全て達成したため、[LF]所属が[C6:｢%s｣]に移りました[LF][LC][NODE][LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_PORK_MISSION_TEAM_CHECK_DIALOG"
+    },
+    {
+      "id": 12874,
+      "text": "地球連邦軍",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_PORK_TEAM_1"
+    },
+    {
+      "id": 12875,
+      "text": "ジオン公国軍",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_PORK_TEAM_2"
+    },
+    {
+      "id": 12876,
+      "text": "指令",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_PORK_MISSION_ORDER"
+    },
+    {
+      "id": 12877,
+      "text": "1/20 12:00 公開",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_PORK_MISSION_RELASE_DAY"
+    },
+    {
+      "id": 12878,
+      "text": "地球連邦軍/ジオン公国軍からの指令",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_PORK_MISSION_TITLE"
+    },
+    {
+      "id": 12879,
+      "text": "全指令達成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_PORK_SWITCH_ACHIVE_REWARD_BOARD"
+    },
+    {
+      "id": 12880,
+      "text": "[C6:所属する軍を選び、指令を遂行せよ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36700"
+    },
+    {
+      "id": 12881,
+      "text": "[b:ba_help_collabo_pork_ms_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36701"
+    },
+    {
+      "id": 12882,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36702"
+    },
+    {
+      "id": 12883,
+      "text": "1/14 12:00 ～ 2/3 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36703"
+    },
+    {
+      "id": 12884,
+      "text": "報酬受取期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36704"
+    },
+    {
+      "id": 12885,
+      "text": "1/14 12:00 ～ 2/3 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36705"
+    },
+    {
+      "id": 12886,
+      "text": "[C5:所属する軍について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36706"
+    },
+    {
+      "id": 12887,
+      "text": "[C6:地球連邦軍]か[C6:ジオン公国軍][LF]いずれかの軍に所属し、指令を遂行しよう[LF][LF]指令の難易度、報酬はそれぞれの軍で異なるため[LF]内容を確認した上で慎重に選択しよう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36707"
+    },
+    {
+      "id": 12888,
+      "text": "地球連邦軍：[C5:難易度低]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36708"
+    },
+    {
+      "id": 12889,
+      "text": "[IP10187]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36709"
+    },
+    {
+      "id": 12890,
+      "text": "[IP10189]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36710"
+    },
+    {
+      "id": 12891,
+      "text": "ジオン公国軍：[C6:難易度高]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36711"
+    },
+    {
+      "id": 12892,
+      "text": "[C5:指令への挑戦方法]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36712"
+    },
+    {
+      "id": 12893,
+      "text": "[C6:所属する軍を選択し決定]することで、[LF]指令に挑戦することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36713"
+    },
+    {
+      "id": 12894,
+      "text": "各指令を達成することで報酬が獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36714"
+    },
+    {
+      "id": 12895,
+      "text": "[C10:グエルのプライドをクリア]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36715"
+    },
+    {
+      "id": 12896,
+      "text": "[C6:ゲット！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36716"
+    },
+    {
+      "id": 12897,
+      "text": "[C6:機密指令]は、1/20 12:00以降に[LF]挑戦可能になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36717"
+    },
+    {
+      "id": 12898,
+      "text": "[C6:1/20 12:00 公開]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36718"
+    },
+    {
+      "id": 12899,
+      "text": "※所属前に条件を満たしても[LF]指令は達成できません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36719"
+    },
+    {
+      "id": 12900,
+      "text": "[C5:所属の変更について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36720"
+    },
+    {
+      "id": 12901,
+      "text": "所属軍ですべての指令を達成し報酬を受け取ると[LF]もう一方の軍に所属が変更されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36721"
+    },
+    {
+      "id": 12902,
+      "text": "[C6:全指令達成！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36722"
+    },
+    {
+      "id": 12903,
+      "text": "両軍ですべての指令達成を目指そう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36723"
+    },
+    {
+      "id": 12904,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20230105_1.html#6|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36724"
+    },
+    {
+      "id": 12905,
+      "text": "[LC]ガンダムシリーズ コラボ[VL:eTEXTS_DEF_PORK_HELP_MSG_LUCK|0][LF][LF][TAB:ガチャ・クエスト][CCB:dlme/help_collabo_pork_00_3][TAB:スペシャル][CCB:dlme/help_collabo_pork_01_2][TAB|BADGE5:ザク討伐戦][CCB:dlme/help_collabo_pork_02][LF][NODE][LF][NODE][LF][LF][TI:対象クエスト][LF][NODE][LF][LF]※4種の戦型の書は2/3 3:59を過ぎると[LF]    使用できなくなります[LF][LF]※詳細は[u:https://www.monster-strike.com/news/20230105_1.html#14|こちら][LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1674120895,
+      "updated_at": 1674727625,
+      "label": "eTEXTS_DEF_PORK_HELP_MSG"
+    },
+    {
+      "id": 12906,
+      "text": "[LC]排出アイテム一覧[LF][LF]獲得したBOXから、下記の[C6:いずれか1つの][LF][C6:アイテム]が排出されます[LF][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1674120895,
+      "updated_at": 1674120895,
+      "label": "eTEXTS_DEF_PORK_STAGE_HELP_MSG_1"
+    },
+    {
+      "id": 12907,
+      "text": "[LC]排出アイテム一覧[LF][LF]下記の[C6:いずれか1つの][LF][C6:アイテム]が排出されます[LF][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1674120895,
+      "updated_at": 1674120895,
+      "label": "eTEXTS_DEF_PORK_STAGE_HELP_MSG_2"
+    },
+    {
+      "id": 12908,
+      "text": "[LC]本日クリア済み[LF][LF]本日分のクエストはクリア済みのため[LF]挑戦できません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1674120895,
+      "updated_at": 1674120895,
+      "label": "eTEXTS_DEF_PORK_STAGE_ERROR_MSG"
+    },
+    {
+      "id": 12909,
+      "text": "ジオン公国軍アイテムBOX",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1674120895,
+      "updated_at": 1674120895,
+      "label": "eTEXTS_DEF_COLLABO_LOTTERY_BOX_RESULT_TITLE"
+    },
+    {
+      "id": 12910,
+      "text": "このクエストで獲得できるBOX",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1674120895,
+      "updated_at": 1674120895,
+      "label": "eTEXTS_DEF_COLLABO_LOTTERY_BOX_STAGE_INFO_TITLE"
+    },
+    {
+      "id": 12911,
+      "text": "[C6:ソロ・ホスト]で獲得",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1674120895,
+      "updated_at": 1674120895,
+      "label": "eTEXTS_DEF_COLLABO_LOTTERY_BOX_STAGE_INFO_SOLO_HOST_INFO"
+    },
+    {
+      "id": 12912,
+      "text": "[C6:ゲスト]で獲得",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1674120895,
+      "updated_at": 1674120895,
+      "label": "eTEXTS_DEF_COLLABO_LOTTERY_BOX_STAGE_INFO_GUEST_INFO"
+    },
+    {
+      "id": 12913,
+      "text": "[S2]or",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1674120895,
+      "updated_at": 1674120895,
+      "label": "eTEXTS_DEF_PORK_QUEST_INFO_OR"
+    },
+    {
+      "id": 12914,
+      "text": "[LC]入手状況[LF][LF][TI:プレミアムガチャ][LF10][IPLCJ10171][IPLCJ10167][IPLCJ10165][IPLCJ10169][IPLCJ10173][LF88][TI:その他][LF10][IPLCJ10184][IPLCJ10176|10177][IPLCJ10179][IPLCJ10186][LF88][IPLCJ10181][IPLCJ10183][IPLCJ10174][IPLCJ10187][IPLCJ10188][LF88][IPLCJ10189][LF][LF]",
+      "layout": 53,
+      "color": 0,
+      "created_at": 1674120895,
+      "updated_at": 1674120895,
+      "label": "eTEXTS_DEF_PORK_HELP_MSG_LUCK"
+    },
+    {
+      "id": 12915,
+      "text": "[SW0.95][C6:1日1回貴重なアイテムの獲得チャンス！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1674120895,
+      "updated_at": 1674120895,
+      "label": "eTEXTS_DEF_36600"
+    },
+    {
+      "id": 12916,
+      "text": "[b:ba_help_collabo_pork_02.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1674120895,
+      "updated_at": 1674120895,
+      "label": "eTEXTS_DEF_36601"
+    },
+    {
+      "id": 12917,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1674120895,
+      "updated_at": 1674120895,
+      "label": "eTEXTS_DEF_36602"
+    },
+    {
+      "id": 12918,
+      "text": "1/21 0:00～1/31 23:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1674120895,
+      "updated_at": 1674120895,
+      "label": "eTEXTS_DEF_36603"
+    },
+    {
+      "id": 12919,
+      "text": "[C5:遊び方]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1674120895,
+      "updated_at": 1674120895,
+      "label": "eTEXTS_DEF_36604"
+    },
+    {
+      "id": 12920,
+      "text": "1日1回挑戦可能な[C2:｢ジオンの脅威｣]を[LF]クリアすると[C6:ジオン公国軍アイテムBOX]が出現！[LF][LF]BOXから、いずれかのアイテム１つが獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1674120895,
+      "updated_at": 1674120895,
+      "label": "eTEXTS_DEF_36605"
+    },
+    {
+      "id": 12921,
+      "text": "[IP2892]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1674120895,
+      "updated_at": 1674120895,
+      "label": "eTEXTS_DEF_36606"
+    },
+    {
+      "id": 12922,
+      "text": "[C5:クエストについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1674120895,
+      "updated_at": 1674120895,
+      "label": "eTEXTS_DEF_36607"
+    },
+    {
+      "id": 12923,
+      "text": "[C2:｢ジオンの脅威｣]はソロ・ホストだと1日1回、[LF]ゲストだと何度でもプレイ可能なクエストです[LF][LF]プレイタイプにより、出現するBOXが異なります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1674120895,
+      "updated_at": 1674120895,
+      "label": "eTEXTS_DEF_36608"
+    },
+    {
+      "id": 12924,
+      "text": "[C6:ソロ・ホスト]で獲得",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1674120895,
+      "updated_at": 1674120895,
+      "label": "eTEXTS_DEF_36609"
+    },
+    {
+      "id": 12925,
+      "text": "ザクBOX",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1674120895,
+      "updated_at": 1674120895,
+      "label": "eTEXTS_DEF_36610"
+    },
+    {
+      "id": 12926,
+      "text": "シャア専用ザクBOX",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1674120895,
+      "updated_at": 1674120895,
+      "label": "eTEXTS_DEF_36611"
+    },
+    {
+      "id": 12927,
+      "text": "or",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1674120895,
+      "updated_at": 1674120895,
+      "label": "eTEXTS_DEF_36612"
+    },
+    {
+      "id": 12928,
+      "text": "[C6:ゲスト]で獲得",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1674120895,
+      "updated_at": 1674120895,
+      "label": "eTEXTS_DEF_36613"
+    },
+    {
+      "id": 12929,
+      "text": "ジオンBOX",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1674120895,
+      "updated_at": 1674120895,
+      "label": "eTEXTS_DEF_36614"
+    },
+    {
+      "id": 12930,
+      "text": "出現したBOXに応じて、アイテムが1つ獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1674120895,
+      "updated_at": 1674120895,
+      "label": "eTEXTS_DEF_36615"
+    },
+    {
+      "id": 12931,
+      "text": "期間限定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1675873252,
+      "updated_at": 1675873252,
+      "label": "eTEXTS_DEF_ME_SORT_LIMIT"
+    },
+    {
+      "id": 12932,
+      "text": "通常",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1675873252,
+      "updated_at": 1675873252,
+      "label": "eTEXTS_DEF_ME_SORT_NORMAL"
+    },
+    {
+      "id": 12933,
+      "text": "[LC]メダル所持上限に達しました[LF][LF]現在のメダル所持数：[C2:%s]/%s[LF][LF]新たにメダルを獲得できませんので[LF]お助けアイテムやモンスターと引き換えてください",
+      "layout": 24,
+      "color": 0,
+      "created_at": 1675873252,
+      "updated_at": 1675873252,
+      "label": "eTEXTS_DEF_MSG_MEDAL_LIMIT_JUMPABLE"
+    },
+    {
+      "id": 12934,
+      "text": "引き換える",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1675873252,
+      "updated_at": 1675873252,
+      "label": "eTEXTS_DEF_ME_MEDAL_LIMIT_BUTTON_NAME"
+    },
+    {
+      "id": 12935,
+      "text": "新イベントミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1675873252,
+      "updated_at": 1675873252,
+      "label": "eTEXTS_DEF_COLLECT_LUCK_TITLE"
+    },
+    {
+      "id": 12936,
+      "text": "次の獲得報酬までのラック入手状況",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1675873252,
+      "updated_at": 1675873252,
+      "label": "eTEXTS_DEF_COLLECT_LUCK_LABEL"
+    },
+    {
+      "id": 12937,
+      "text": "集めてラック楽キャンペーン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1675873252,
+      "updated_at": 1675873252,
+      "label": "eTEXTS_DEF_TOTAL_LUCK_BONUS_TITLE"
+    },
+    {
+      "id": 12938,
+      "text": "ラック入手状況",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1675873252,
+      "updated_at": 1675873252,
+      "label": "eTEXTS_DEF_TOTAL_LUCK_BONUS_LABEL"
+    },
+    {
+      "id": 12939,
+      "text": "※訓練場では、通常ドロップでモンスターは[LF]手に入りません[LF]初回完遂報酬のみになります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1675873252,
+      "updated_at": 1675873252,
+      "label": "eTEXTS_DEF_ME_PRACTICE_NOTICE_TYO_KYUKYOKU_FU"
+    },
+    {
+      "id": 12940,
+      "text": "[LC]超究極・封クエストに挑戦しよう[LF][LF]このクエストは下記のクエストをクリアすることで[LF]挑戦可能になります[LF][LF][LC][SGBI23790|difficulty0][LF][LF]対象のクエストは追憶の書庫でプレイ可能です[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1675873252,
+      "updated_at": 1718036492,
+      "label": "eTEXTS_DEF_166"
+    },
+    {
+      "id": 12941,
+      "text": "[LC]超究極・封クエストに挑戦しよう[LF][LF]このクエストは下記のクエストをクリアすることで[LF]挑戦可能になります[LF][LF][LC][SGBI24040|difficulty0][LF][LF]対象のクエストは追憶の書庫でプレイ可能です[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1675873252,
+      "updated_at": 1718036492,
+      "label": "eTEXTS_DEF_167"
+    },
+    {
+      "id": 12942,
+      "text": "[LC]超究極・封クエストに挑戦しよう[LF][LF]このクエストは下記のクエストをクリアすることで[LF]挑戦可能になります[LF][LF][LC][SGBI24270|difficulty0][LF][LF]対象のクエストは追憶の書庫でプレイ可能です[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1675873252,
+      "updated_at": 1718036492,
+      "label": "eTEXTS_DEF_168"
+    },
+    {
+      "id": 12943,
+      "text": "[LC]超究極・封クエストに挑戦しよう[LF][LF]このクエストは下記のクエストをクリアすることで[LF]挑戦可能になります[LF][LF][LC][SGBI24540|difficulty0][LF][LF]対象のクエストは追憶の書庫でプレイ可能です[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1675873252,
+      "updated_at": 1718036492,
+      "label": "eTEXTS_DEF_169"
+    },
+    {
+      "id": 12944,
+      "text": "[LC]超究極・封クエストに挑戦しよう[LF][LF]このクエストは下記のクエストをクリアすることで[LF]挑戦可能になります[LF][LF][LC][SGBI24810|difficulty0][LF][LF]対象のクエストは追憶の書庫でプレイ可能です[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1675873252,
+      "updated_at": 1718036492,
+      "label": "eTEXTS_DEF_170"
+    },
+    {
+      "id": 12945,
+      "text": "超究極・封",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1675873252,
+      "updated_at": 1675873252,
+      "label": "eTEXTS_DEF_FILTER_WINDOW_DIFFICULTY_TYO_KYUKYOKU_FU"
+    },
+    {
+      "id": 12946,
+      "text": "[LC]超究極・封クエストに挑戦しよう[LF][LF]このクエストは下記のクエストをクリアすることで[LF]挑戦可能になります[LF][LF][LC][SGBI23790|difficulty0][LF][LF]対象のクエストは追憶の書庫でプレイ可能です[LF][LC][TRY:623790]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1675873252,
+      "updated_at": 1675873252,
+      "label": "eTEXTS_DEF_160"
+    },
+    {
+      "id": 12947,
+      "text": "[LC]超究極・封クエストに挑戦しよう[LF][LF]このクエストは下記のクエストをクリアすることで[LF]挑戦可能になります[LF][LF][LC][SGBI24040|difficulty0][LF][LF]対象のクエストは追憶の書庫でプレイ可能です[LF][LC][TRY:624040]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1675873252,
+      "updated_at": 1675873252,
+      "label": "eTEXTS_DEF_161"
+    },
+    {
+      "id": 12948,
+      "text": "[LC]超究極・封クエストに挑戦しよう[LF][LF]このクエストは下記のクエストをクリアすることで[LF]挑戦可能になります[LF][LF][LC][SGBI24270|difficulty0][LF][LF]対象のクエストは追憶の書庫でプレイ可能です[LF][LC][TRY:624270]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1675873252,
+      "updated_at": 1675873252,
+      "label": "eTEXTS_DEF_162"
+    },
+    {
+      "id": 12949,
+      "text": "[LC]超究極・封クエストに挑戦しよう[LF][LF]このクエストは下記のクエストをクリアすることで[LF]挑戦可能になります[LF][LF][LC][SGBI24540|difficulty0][LF][LF]対象のクエストは追憶の書庫でプレイ可能です[LF][LC][TRY:624540]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1675873252,
+      "updated_at": 1675873252,
+      "label": "eTEXTS_DEF_164"
+    },
+    {
+      "id": 12950,
+      "text": "[LC]超究極・封クエストに挑戦しよう[LF][LF]このクエストは下記のクエストをクリアすることで[LF]挑戦可能になります[LF][LF][LC][SGBI24810|difficulty0][LF][LF]対象のクエストは追憶の書庫でプレイ可能です[LF][LC][TRY:624810]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1675873252,
+      "updated_at": 1675873252,
+      "label": "eTEXTS_DEF_165"
+    },
+    {
+      "id": 12951,
+      "text": "開催期間 2/12 12:00 ～ 3/5 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_MISSION_PERIOD"
+    },
+    {
+      "id": 12952,
+      "text": "ミッションをクリアして錬成素材を獲得しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_MISSION_DESCRIPTION"
+    },
+    {
+      "id": 12953,
+      "text": "1時間ごとに錬成素材が生産されます[LF]※素材を備蓄できる量には限りがあります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_TOWN4_DESCRIPTION"
+    },
+    {
+      "id": 12954,
+      "text": "3都市ミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_REWARD_LIST_3TOWN_MISSION"
+    },
+    {
+      "id": 12955,
+      "text": "中央司令部ミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_REWARD_LIST_SP_MISSION"
+    },
+    {
+      "id": 12956,
+      "text": "セントラル",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_TOWN1"
+    },
+    {
+      "id": 12957,
+      "text": "ブリッグズ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_TOWN2"
+    },
+    {
+      "id": 12958,
+      "text": "イーストシティ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_TOWN3"
+    },
+    {
+      "id": 12959,
+      "text": "リゼンブール",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_TOWN4"
+    },
+    {
+      "id": 12960,
+      "text": "中央司令部",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_TOWN5"
+    },
+    {
+      "id": 12961,
+      "text": "所持[IMG:uiitem_%d.png] :",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_MATERIAL_HOLDING"
+    },
+    {
+      "id": 12962,
+      "text": "報酬[IMG:uiitem_%d.png] :",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_MATERIAL_REWARD"
+    },
+    {
+      "id": 12963,
+      "text": "生産[IMG:uiitem_%d.png] :",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_MATERIAL_GENERATION"
+    },
+    {
+      "id": 12964,
+      "text": "高難易度ミッションに挑戦し[LF]特別な報酬を獲得しよう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_SP_MISSION_DESCRIPTION"
+    },
+    {
+      "id": 12965,
+      "text": "備蓄上限まであと%02d:%02d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_TOWN4_REMAIN_TIME"
+    },
+    {
+      "id": 12966,
+      "text": "錬金術師Lv%d：1時間で[C6:%d]生産",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_USER_LEVEL_ACCUMULATION_CNT"
+    },
+    {
+      "id": 12967,
+      "text": "受け取る",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_RECEIVE_MATERIAL_BUTTON"
+    },
+    {
+      "id": 12968,
+      "text": "[LC]アメストリスミッションとは[LF][LF][CCB:dlme/help_collabo_udon_ms_00_1]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_MISSION_HELP"
+    },
+    {
+      "id": 12969,
+      "text": "中央司令部",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_REWARD_TITLE_SP"
+    },
+    {
+      "id": 12970,
+      "text": "アイテム錬成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_EXCHANGE_TITLE"
+    },
+    {
+      "id": 12971,
+      "text": "アイテム錬成すると錬金術師レベルがアップ！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_EXCHANGE_LEVEL_INFO"
+    },
+    {
+      "id": 12972,
+      "text": "次のレベルまで",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_EXCHANGE_NEXT_LEVEL_INFO"
+    },
+    {
+      "id": 12973,
+      "text": "あと%d消費",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_EXCHANGE_NEXT_EXP_INFO"
+    },
+    {
+      "id": 12974,
+      "text": "アメストリスミッション素材獲得量",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_EXCHANGE_NOW_EXP"
+    },
+    {
+      "id": 12975,
+      "text": "レベル20到達報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_EXCHANGE_LEVEL_MAX_REWARD_INFO"
+    },
+    {
+      "id": 12976,
+      "text": "レベル%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_EXCHANGE_LEVEL"
+    },
+    {
+      "id": 12977,
+      "text": "%d/１時間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_EXCHANGE_MATE_ONE_HOUR"
+    },
+    {
+      "id": 12978,
+      "text": "[LC]アイテム錬成とは[LF][LF][CCB:dlme/help_collabo_udon_item_00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_EXCHANGE_HELP"
+    },
+    {
+      "id": 12979,
+      "text": "[LC]錬金術師レベル詳細[LF][LF][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_EXCHANGE_DIALOG_LEVEL_INFO"
+    },
+    {
+      "id": 12980,
+      "text": "[LC]錬金術師レベルアップ！[LF][LF]ミッション素材獲得量がアップしました[LF][LF][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_EXCHANGE_DIALOG_LEVEL_UP"
+    },
+    {
+      "id": 12981,
+      "text": "[LC]錬金術師レベルアップ！[LF][LF]レベル20到達報酬を入手し、[LF]ミッション素材獲得量がアップしました[LF][LF][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_EXCHANGE_DIALOG_MAX_LEVEL_UP"
+    },
+    {
+      "id": 12982,
+      "text": "[LC]錬成素材受け取り[LF][LF][LC][IAD%d|%d][LF][LC][FSIZE22]錬成素材を受け取りました！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_AUTO_GENERATE_RECEIVE_DIALOG"
+    },
+    {
+      "id": 12983,
+      "text": "レベル%d  →  [C6:レベル%d]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_EXCHANGE_LEVEL_UP"
+    },
+    {
+      "id": 12984,
+      "text": "[LC]ミッション達成報酬[LF][LF]以下の報酬を受け取りました[LF20][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_MSG_REWARD_UDON_TEXTS"
+    },
+    {
+      "id": 12985,
+      "text": "[LC]錬成条件[LF][LF]錬金術師レベル%dに達すると[LF]錬成可能になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_EXCHANGE_ITEM_DIALOG"
+    },
+    {
+      "id": 12986,
+      "text": "[LC]錬成完了[LF][WIDTH500][LF][MARGIN10][LF][LC][NODE][LF][MARGIN10][LF][LC]%s%d%sを錬成しました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_EXCHANGE_SUCCESS"
+    },
+    {
+      "id": 12987,
+      "text": "[LC]錬成完了[LF][WIDTH500][LF][MARGIN10][LF][LC][NODE][LF][MARGIN10][LF][LC]%sを錬成しました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_EXCHANGE_SUCCESS_SYOGO"
+    },
+    {
+      "id": 12988,
+      "text": "[LC]錬成完了[LF][WIDTH500][LF][MARGIN10][LF][LC][NODE][LF][MARGIN10][LF][LC]%s%d体を錬成しました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_EXCHANGE_SUCCESS_MONSTER"
+    },
+    {
+      "id": 12989,
+      "text": "[LC]錬成[LF][WIDTH580][LF][LC]%sを錬成します[LF][MARGIN20][LF][LC][NODE][MARGIN20][LF][LC][S2]必要%s：[C6:%s][MARGIN22][LF][LC][NODE][MARGIN26][LF][LC][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_EXCHANGE_BODY"
+    },
+    {
+      "id": 12990,
+      "text": "ミッション%d初クリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_REWARD_LIST_TITLE"
+    },
+    {
+      "id": 12991,
+      "text": "アイテム錬成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_EXCHANGE_MENU_TITLE"
+    },
+    {
+      "id": 12992,
+      "text": "[C6:Lv.%d]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_BUTTON_LEVEL"
+    },
+    {
+      "id": 12993,
+      "text": "錬成済み",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_EXCHANGE_CATEGORY_EXCHANGED"
+    },
+    {
+      "id": 12994,
+      "text": "錬成素材",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_RESULT_POINT_TITLE"
+    },
+    {
+      "id": 12995,
+      "text": "コラボクエストをクリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_RESULT_CLEAR_POINT_COLLABO"
+    },
+    {
+      "id": 12996,
+      "text": "イベントクエストをクリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_RESULT_CLEAR_POINT_EVENT"
+    },
+    {
+      "id": 12997,
+      "text": "書庫クエストをクリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_RESULT_CLEAR_POINT_ARCHIVE"
+    },
+    {
+      "id": 12998,
+      "text": "英雄の神殿クエストをクリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_RESULT_CLEAR_POINT_GEM"
+    },
+    {
+      "id": 12999,
+      "text": "コラボキャラを編成してクリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_RESULT_CLEAR_POINT_COLLABO_CHAR"
+    },
+    {
+      "id": 13000,
+      "text": "錬金術師レベル%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_RESULT_LEVEL"
+    },
+    {
+      "id": 13001,
+      "text": "獲得合計",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_POINT_RESULT_TOTAL"
+    },
+    {
+      "id": 13002,
+      "text": "※6番目をクリアすると再度最初から挑戦可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_TOWN_MISSION_DESCRIPTION"
+    },
+    {
+      "id": 13003,
+      "text": "[LC]中央司令部ミッション追加[LF][LF][LC][IC10264][LF][LF][LF][LF][LF][LF]超究極難易度クエスト[C5:｢最後の戦い｣]についての[LF]ミッションが追加されました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1677056693,
+      "updated_at": 1677056693,
+      "label": "eTEXTS_DEF_ME_UDON_SECRET_MISSION_OPEN"
+    },
+    {
+      "id": 13004,
+      "text": "[LC]アメストリスミッションとは[LF][LF][CCB:dlme/help_collabo_udon_ms_00_2]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1677056693,
+      "updated_at": 1677056693,
+      "label": "eTEXTS_DEF_ME_UDON_MISSION_HELP_2"
+    },
+    {
+      "id": 13005,
+      "text": "ミッション%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_GET_REWARD_LIST_TITLE"
+    },
+    {
+      "id": 13006,
+      "text": "ミッション%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_ME_UDON_REWARD_LIST_TITLE_SP"
+    },
+    {
+      "id": 13007,
+      "text": "[C6:コラボ限定ガチャ開催中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36800"
+    },
+    {
+      "id": 13008,
+      "text": "[b:ba_help_collabo_udon_00_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36801"
+    },
+    {
+      "id": 13009,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36802"
+    },
+    {
+      "id": 13010,
+      "text": "2/12 12:00～3/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36803"
+    },
+    {
+      "id": 13011,
+      "text": "[C5:コラボ限定ガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36804"
+    },
+    {
+      "id": 13012,
+      "text": "ガチャ[C6:｢鋼の錬金術師 FULLMETAL ALCHEMIST｣][LF]が期間限定で開催中！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36805"
+    },
+    {
+      "id": 13013,
+      "text": "新登場キャラ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36806"
+    },
+    {
+      "id": 13014,
+      "text": "[IPJ10239]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36807"
+    },
+    {
+      "id": 13015,
+      "text": "[IPJ10241]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36808"
+    },
+    {
+      "id": 13016,
+      "text": "[IPJ10245]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36809"
+    },
+    {
+      "id": 13017,
+      "text": "[IPJ10243]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36810"
+    },
+    {
+      "id": 13018,
+      "text": "[IPJ10247]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36811"
+    },
+    {
+      "id": 13019,
+      "text": "[C5:第1弾キャラ再登場]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36812"
+    },
+    {
+      "id": 13020,
+      "text": "3体の獣神化が解禁！[C4:エルリック兄弟]は[LF]2通りの獣神化が可能！＆ガチャ開催！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36813"
+    },
+    {
+      "id": 13021,
+      "text": "再登場キャラ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36814"
+    },
+    {
+      "id": 13022,
+      "text": "[IPJ10234]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36815"
+    },
+    {
+      "id": 13023,
+      "text": "[IPJ10235]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36816"
+    },
+    {
+      "id": 13024,
+      "text": "[IPJ10236]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36817"
+    },
+    {
+      "id": 13025,
+      "text": "[IPJ10237]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36818"
+    },
+    {
+      "id": 13026,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20230209_1.html#1|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36819"
+    },
+    {
+      "id": 13027,
+      "text": "[C6:コラボ限定クエスト出現中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36820"
+    },
+    {
+      "id": 13028,
+      "text": "[b:ba_help_collabo_udon_00_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36821"
+    },
+    {
+      "id": 13029,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36822"
+    },
+    {
+      "id": 13030,
+      "text": "2/12 12:00～3/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36823"
+    },
+    {
+      "id": 13031,
+      "text": "[C5:コラボ限定クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36824"
+    },
+    {
+      "id": 13032,
+      "text": "[SGBI25310|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36825"
+    },
+    {
+      "id": 13033,
+      "text": "[SGBI25320|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36826"
+    },
+    {
+      "id": 13034,
+      "text": "[SGBI25330|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36827"
+    },
+    {
+      "id": 13035,
+      "text": "[SGBI25290|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36828"
+    },
+    {
+      "id": 13036,
+      "text": "[SGBI25300|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36829"
+    },
+    {
+      "id": 13037,
+      "text": "[C6:｢紅蓮の男｣]はマルチプレイだと[LF]金卵２個以上のドロップ率アップ！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36830"
+    },
+    {
+      "id": 13038,
+      "text": "追憶の書庫クエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36831"
+    },
+    {
+      "id": 13039,
+      "text": "コラボ期間中、追憶の書庫にコラボ限定クエストが再登場！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36832"
+    },
+    {
+      "id": 13040,
+      "text": "[C2:破壊の右手　　　★5 スカー][LF][C4:不俱戴天の敵　　★5 エンヴィー][LF][C3:底なしの強欲　　★5 グリード][LF][C5:死なざる者の死   ★4 ラスト][LF][C6:人中の化物　　　★4 グラトニー]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36833"
+    },
+    {
+      "id": 13041,
+      "text": "[C2:｢破壊の右手｣]はマルチプレイだと[LF]金卵２個以上のドロップ率アップ！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36834"
+    },
+    {
+      "id": 13042,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20230209_1.html#5|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36835"
+    },
+    {
+      "id": 13043,
+      "text": "[C6:1日1回限定クリアボーナスを手に入れよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36836"
+    },
+    {
+      "id": 13044,
+      "text": "[b:ba_help_collabo_udon_00_3.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36837"
+    },
+    {
+      "id": 13045,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36838"
+    },
+    {
+      "id": 13046,
+      "text": "2/12 12:00～3/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36839"
+    },
+    {
+      "id": 13047,
+      "text": "[C5:1日1回限定クリアボーナス]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36840"
+    },
+    {
+      "id": 13048,
+      "text": "コラボクエスト[C6:｢紅蓮の男｣]クリアで1日1回[LF][C6:ゾルフ・J・キンブリー]が7体獲得できる！[LF][LF]※追憶の書庫クエスト[C2:｢破壊の右手｣]も[LF]　ボーナスの対象となります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36841"
+    },
+    {
+      "id": 13049,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20230209_1.html#5|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36842"
+    },
+    {
+      "id": 13050,
+      "text": "超究極クエスト[C6:｢戦士、再び・・・・・・｣]が出現！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1673525112,
+      "updated_at": 1673525112,
+      "label": "eTEXTS_DEF_36449"
+    },
+    {
+      "id": 13051,
+      "text": "[C6:超究極、出現！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36843"
+    },
+    {
+      "id": 13052,
+      "text": "[b:ba_help_collabo_udon_00_4.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36844"
+    },
+    {
+      "id": 13053,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36845"
+    },
+    {
+      "id": 13054,
+      "text": "2/14 19:00～3/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36846"
+    },
+    {
+      "id": 13055,
+      "text": "[C5:キング・ブラッドレイ、出現]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36847"
+    },
+    {
+      "id": 13056,
+      "text": "[SGBI25340]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36848"
+    },
+    {
+      "id": 13057,
+      "text": "このクエストでは[LF]使用キャラのラックが[C4:+99]され、[LF]ラックボーナスで宝箱を2個獲得可能！[LF][LF]さらにアメストリスミッション内の[LF][C6:中央司令部ミッション]クリアで[LF][C6:大総統 キング・ブラッドレイ]から[LF][C6:“憤怒”の大総統 キング・ブラッドレイ]への[LF]進化が可能に！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36849"
+    },
+    {
+      "id": 13058,
+      "text": "[C6:クリア！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36850"
+    },
+    {
+      "id": 13059,
+      "text": "進化可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36851"
+    },
+    {
+      "id": 13060,
+      "text": "[IPJ4586]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36852"
+    },
+    {
+      "id": 13061,
+      "text": "[IPJ10257]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36853"
+    },
+    {
+      "id": 13062,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20230209_1.html#6|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36854"
+    },
+    {
+      "id": 13063,
+      "text": "[C6:コラボスターターパック登場！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36900"
+    },
+    {
+      "id": 13064,
+      "text": "[b:ba_help_collabo_udon_01_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36901"
+    },
+    {
+      "id": 13065,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36902"
+    },
+    {
+      "id": 13066,
+      "text": "2/12 12:00～3/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36903"
+    },
+    {
+      "id": 13067,
+      "text": "[C5:スターターパックについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36904"
+    },
+    {
+      "id": 13068,
+      "text": "コラボ期間中、[C5:幼馴染みの想い エドワード＆ウィンリィ][LF]と各種アイテムがセットとなった[LF][C6:鋼の錬金術師 FULLMETAL ALCHEMIST コラボ][LF][C6:スターターパック]が登場！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36905"
+    },
+    {
+      "id": 13069,
+      "text": "[IPJ10248]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36906"
+    },
+    {
+      "id": 13070,
+      "text": "[C5:幼馴染みの想い エドワード＆ウィンリィ]は[LF]ここでのみ入手可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36907"
+    },
+    {
+      "id": 13071,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20230209_1.html#4|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36908"
+    },
+    {
+      "id": 13072,
+      "text": "[C5:フレンドガチャについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36909"
+    },
+    {
+      "id": 13073,
+      "text": "コラボイベント期間中[C6:｢フレンドガチャ｣]でも[LF][C2:錬丹術の使い手 メイ・チャン]を[LF]入手することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36910"
+    },
+    {
+      "id": 13074,
+      "text": "[IPJ10260]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36911"
+    },
+    {
+      "id": 13075,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20230209_1.html#12|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36912"
+    },
+    {
+      "id": 13076,
+      "text": "[C6:期間限定ラックボーナス！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36913"
+    },
+    {
+      "id": 13077,
+      "text": "[b:ba_help_collabo_udon_01_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36914"
+    },
+    {
+      "id": 13078,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36915"
+    },
+    {
+      "id": 13079,
+      "text": "2/12 12:00～3/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36916"
+    },
+    {
+      "id": 13080,
+      "text": "[C5:期間限定ラック+99]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36917"
+    },
+    {
+      "id": 13081,
+      "text": "以下のキャラはコラボ期間中、[LF]本来のラックに[C4:+99]された[C4:運極]状態で、[LF]ラックボーナスが獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36918"
+    },
+    {
+      "id": 13082,
+      "text": "[IPJ10261]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36919"
+    },
+    {
+      "id": 13083,
+      "text": "[IPJ10262]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36920"
+    },
+    {
+      "id": 13084,
+      "text": "コラボ期間中",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36921"
+    },
+    {
+      "id": 13085,
+      "text": "[LUCK]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36922"
+    },
+    {
+      "id": 13086,
+      "text": "[C4:+99]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36923"
+    },
+    {
+      "id": 13087,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20230209_1.html#13|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36924"
+    },
+    {
+      "id": 13088,
+      "text": "[C6:錬成お助けアイテム]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36925"
+    },
+    {
+      "id": 13089,
+      "text": "[b:ba_help_collabo_udon_01_3.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36926"
+    },
+    {
+      "id": 13090,
+      "text": "クエスト攻略の役に立つ[LF][C6:錬成お助けアイテム]がコラボクエストで使用可能に！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36927"
+    },
+    {
+      "id": 13091,
+      "text": "[C5:効果]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36928"
+    },
+    {
+      "id": 13092,
+      "text": "[C6:錬成＜鉄槍＞]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36929"
+    },
+    {
+      "id": 13093,
+      "text": "攻撃力1.2倍",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36930"
+    },
+    {
+      "id": 13094,
+      "text": "[C6:錬成＜石の拳＞]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36931"
+    },
+    {
+      "id": 13095,
+      "text": "弱点への攻撃倍率1.5倍",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36932"
+    },
+    {
+      "id": 13096,
+      "text": "[C6:錬成＜鉄檻＞]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36933"
+    },
+    {
+      "id": 13097,
+      "text": "全ての敵を1ターン遅延",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36934"
+    },
+    {
+      "id": 13098,
+      "text": "[C6:錬成＜神の鉄槌＞]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36935"
+    },
+    {
+      "id": 13099,
+      "text": "金卵排出率2倍",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36936"
+    },
+    {
+      "id": 13100,
+      "text": "[C5:入手方法]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36937"
+    },
+    {
+      "id": 13101,
+      "text": "[C6:アイテム錬成]で入手することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36938"
+    },
+    {
+      "id": 13102,
+      "text": "アイテム錬成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36939"
+    },
+    {
+      "id": 13103,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20230209_1.html#8d|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36940"
+    },
+    {
+      "id": 13104,
+      "text": "[C6:他にもコラボ限定のお楽しみ要素満載]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36941"
+    },
+    {
+      "id": 13105,
+      "text": "[b:ba_help_collabo_udon_01_4.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36942"
+    },
+    {
+      "id": 13106,
+      "text": "詳細は各コラボページを確認しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36943"
+    },
+    {
+      "id": 13107,
+      "text": "アメストリスミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36944"
+    },
+    {
+      "id": 13108,
+      "text": "アイテム錬成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_36945"
+    },
+    {
+      "id": 13109,
+      "text": "[SW0.95][C6:都市を巡って錬成素材を手に入れよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_37100"
+    },
+    {
+      "id": 13110,
+      "text": "[b:ba_help_collabo_udon_ms_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_37101"
+    },
+    {
+      "id": 13111,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_37102"
+    },
+    {
+      "id": 13112,
+      "text": "2/12 12:00～3/5 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_37103"
+    },
+    {
+      "id": 13113,
+      "text": "アメストリスミッションをクリアして、[LF][C6:錬成素材]や[C6:コラボキャラ]などの報酬を獲得しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_37104"
+    },
+    {
+      "id": 13114,
+      "text": "[C5:3都市ミッション]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_37105"
+    },
+    {
+      "id": 13115,
+      "text": "[C6:セントラル、ブリッグズ、イーストシティ]の[LF]3都市のミッションをクリアすると、[LF][C6:アイテム錬成]に必要な[C6:錬成素材]を入手できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_37106"
+    },
+    {
+      "id": 13116,
+      "text": "[C6:クリア！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_37107"
+    },
+    {
+      "id": 13117,
+      "text": "ミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_37108"
+    },
+    {
+      "id": 13118,
+      "text": "錬成素材",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_37109"
+    },
+    {
+      "id": 13119,
+      "text": "ミッションクリア後、[C6:一定時間経過]するまでは[LF]その都市でミッションには挑戦できません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_37110"
+    },
+    {
+      "id": 13120,
+      "text": "[C6:待機中]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_37111"
+    },
+    {
+      "id": 13121,
+      "text": "[C6:挑戦可能！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_37112"
+    },
+    {
+      "id": 13122,
+      "text": "[SW0.9][C6:19:59]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1676025505,
+      "updated_at": 1676025505,
+      "label": "eTEXTS_DEF_37113"
+    }
+  ]
+}

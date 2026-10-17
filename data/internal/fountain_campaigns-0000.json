@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "table": "fountain_campaigns",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "start_at": 1709348400,
+      "end_at": 1710701999,
+      "event_stage_group_ids": "26900 26910 26920",
+      "effect_stage_class_ids": "2 5",
+      "effect_stage_group_ids": "",
+      "category_id": null,
+      "consume_item_id": null,
+      "consume_item_cnt": null,
+      "provide_cnt_bonus_type": 0
+    },
+    {
+      "id": 2,
+      "start_at": 1719889200,
+      "end_at": 1721156399,
+      "event_stage_group_ids": "27340 27350 27360",
+      "effect_stage_class_ids": "2 5",
+      "effect_stage_group_ids": "",
+      "category_id": null,
+      "consume_item_id": null,
+      "consume_item_cnt": null,
+      "provide_cnt_bonus_type": 0
+    },
+    {
+      "id": 3,
+      "start_at": 1734058800,
+      "end_at": 1735844399,
+      "event_stage_group_ids": "28020 28030 28040 28050 28060 28070 28080 28090",
+      "effect_stage_class_ids": "2 5 24",
+      "effect_stage_group_ids": "",
+      "category_id": 172,
+      "consume_item_id": 10090082,
+      "consume_item_cnt": 1,
+      "provide_cnt_bonus_type": 0
+    },
+    {
+      "id": 4,
+      "start_at": 1751425200,
+      "end_at": 1752433199,
+      "event_stage_group_ids": "0",
+      "effect_stage_class_ids": "0",
+      "effect_stage_group_ids": "",
+      "category_id": null,
+      "consume_item_id": null,
+      "consume_item_cnt": null,
+      "provide_cnt_bonus_type": 0
+    },
+    {
+      "id": 5,
+      "start_at": 1777604400,
+      "end_at": 1778439599,
+      "event_stage_group_ids": "851930",
+      "effect_stage_class_ids": "2 5",
+      "effect_stage_group_ids": "30210 30220 30230 30240",
+      "category_id": 5,
+      "consume_item_id": null,
+      "consume_item_cnt": null,
+      "provide_cnt_bonus_type": 2
+    }
+  ]
+}

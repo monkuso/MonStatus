@@ -1,0 +1,2567 @@
+{
+  "schemaVersion": 1,
+  "table": "plum_bingo_action_achievement_conditions",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "plum_bingo_action_achievement_id": 2,
+      "type_id": 13,
+      "condition_id": 0,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 2,
+      "plum_bingo_action_achievement_id": 2,
+      "type_id": 1,
+      "condition_id": 27940010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 3,
+      "plum_bingo_action_achievement_id": 4,
+      "type_id": 13,
+      "condition_id": 0,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 4,
+      "plum_bingo_action_achievement_id": 4,
+      "type_id": 1,
+      "condition_id": 27960010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 5,
+      "plum_bingo_action_achievement_id": 5,
+      "type_id": 21,
+      "condition_id": 5,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 6,
+      "plum_bingo_action_achievement_id": 5,
+      "type_id": 2,
+      "condition_id": 700,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 7,
+      "plum_bingo_action_achievement_id": 5,
+      "type_id": 2,
+      "condition_id": 800,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 8,
+      "plum_bingo_action_achievement_id": 6,
+      "type_id": 13,
+      "condition_id": 0,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 9,
+      "plum_bingo_action_achievement_id": 6,
+      "type_id": 28,
+      "condition_id": 5,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 10,
+      "plum_bingo_action_achievement_id": 6,
+      "type_id": 14,
+      "condition_id": 11660,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 11,
+      "plum_bingo_action_achievement_id": 6,
+      "type_id": 14,
+      "condition_id": 11661,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 12,
+      "plum_bingo_action_achievement_id": 7,
+      "type_id": 13,
+      "condition_id": 0,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 13,
+      "plum_bingo_action_achievement_id": 7,
+      "type_id": 28,
+      "condition_id": 5,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 14,
+      "plum_bingo_action_achievement_id": 9,
+      "type_id": 1,
+      "condition_id": 27920010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 15,
+      "plum_bingo_action_achievement_id": 9,
+      "type_id": 1,
+      "condition_id": 27930010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 16,
+      "plum_bingo_action_achievement_id": 9,
+      "type_id": 1,
+      "condition_id": 27940010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 17,
+      "plum_bingo_action_achievement_id": 9,
+      "type_id": 1,
+      "condition_id": 27950010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 18,
+      "plum_bingo_action_achievement_id": 9,
+      "type_id": 1,
+      "condition_id": 27960010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 19,
+      "plum_bingo_action_achievement_id": 9,
+      "type_id": 1,
+      "condition_id": 170360010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 20,
+      "plum_bingo_action_achievement_id": 9,
+      "type_id": 1,
+      "condition_id": 170360020,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 21,
+      "plum_bingo_action_achievement_id": 10,
+      "type_id": 2,
+      "condition_id": 900,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 22,
+      "plum_bingo_action_achievement_id": 10,
+      "type_id": 22,
+      "condition_id": 0,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 23,
+      "plum_bingo_action_achievement_id": 11,
+      "type_id": 13,
+      "condition_id": 0,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 24,
+      "plum_bingo_action_achievement_id": 11,
+      "type_id": 1,
+      "condition_id": 27950010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 25,
+      "plum_bingo_action_achievement_id": 12,
+      "type_id": 13,
+      "condition_id": 0,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 26,
+      "plum_bingo_action_achievement_id": 12,
+      "type_id": 1,
+      "condition_id": 27920010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 27,
+      "plum_bingo_action_achievement_id": 12,
+      "type_id": 14,
+      "condition_id": 11660,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 28,
+      "plum_bingo_action_achievement_id": 12,
+      "type_id": 14,
+      "condition_id": 11661,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 29,
+      "plum_bingo_action_achievement_id": 13,
+      "type_id": 13,
+      "condition_id": 0,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 30,
+      "plum_bingo_action_achievement_id": 13,
+      "type_id": 1,
+      "condition_id": 27920010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 31,
+      "plum_bingo_action_achievement_id": 13,
+      "type_id": 1,
+      "condition_id": 27930010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 32,
+      "plum_bingo_action_achievement_id": 13,
+      "type_id": 1,
+      "condition_id": 27940010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 33,
+      "plum_bingo_action_achievement_id": 13,
+      "type_id": 1,
+      "condition_id": 27950010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 34,
+      "plum_bingo_action_achievement_id": 13,
+      "type_id": 1,
+      "condition_id": 27960010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 35,
+      "plum_bingo_action_achievement_id": 13,
+      "type_id": 1,
+      "condition_id": 27970010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 36,
+      "plum_bingo_action_achievement_id": 13,
+      "type_id": 1,
+      "condition_id": 170360010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 37,
+      "plum_bingo_action_achievement_id": 13,
+      "type_id": 1,
+      "condition_id": 170360020,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 38,
+      "plum_bingo_action_achievement_id": 15,
+      "type_id": 1,
+      "condition_id": 27970010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 39,
+      "plum_bingo_action_achievement_id": 16,
+      "type_id": 28,
+      "condition_id": 2,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 40,
+      "plum_bingo_action_achievement_id": 18,
+      "type_id": 13,
+      "condition_id": 0,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 41,
+      "plum_bingo_action_achievement_id": 18,
+      "type_id": 1,
+      "condition_id": 27930010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 42,
+      "plum_bingo_action_achievement_id": 18,
+      "type_id": 14,
+      "condition_id": 11660,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 43,
+      "plum_bingo_action_achievement_id": 18,
+      "type_id": 14,
+      "condition_id": 11661,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 44,
+      "plum_bingo_action_achievement_id": 19,
+      "type_id": 13,
+      "condition_id": 0,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 45,
+      "plum_bingo_action_achievement_id": 19,
+      "type_id": 1,
+      "condition_id": 170360010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 46,
+      "plum_bingo_action_achievement_id": 19,
+      "type_id": 1,
+      "condition_id": 170360020,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 47,
+      "plum_bingo_action_achievement_id": 19,
+      "type_id": 14,
+      "condition_id": 11637,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 48,
+      "plum_bingo_action_achievement_id": 19,
+      "type_id": 14,
+      "condition_id": 11638,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 49,
+      "plum_bingo_action_achievement_id": 19,
+      "type_id": 14,
+      "condition_id": 11639,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 50,
+      "plum_bingo_action_achievement_id": 19,
+      "type_id": 14,
+      "condition_id": 11640,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 51,
+      "plum_bingo_action_achievement_id": 19,
+      "type_id": 14,
+      "condition_id": 11641,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 52,
+      "plum_bingo_action_achievement_id": 19,
+      "type_id": 14,
+      "condition_id": 11642,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 53,
+      "plum_bingo_action_achievement_id": 19,
+      "type_id": 14,
+      "condition_id": 11643,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 54,
+      "plum_bingo_action_achievement_id": 19,
+      "type_id": 14,
+      "condition_id": 11644,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 55,
+      "plum_bingo_action_achievement_id": 19,
+      "type_id": 14,
+      "condition_id": 11645,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 56,
+      "plum_bingo_action_achievement_id": 19,
+      "type_id": 14,
+      "condition_id": 11646,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 57,
+      "plum_bingo_action_achievement_id": 19,
+      "type_id": 14,
+      "condition_id": 11647,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 58,
+      "plum_bingo_action_achievement_id": 19,
+      "type_id": 14,
+      "condition_id": 11648,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 59,
+      "plum_bingo_action_achievement_id": 19,
+      "type_id": 14,
+      "condition_id": 11649,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 60,
+      "plum_bingo_action_achievement_id": 19,
+      "type_id": 14,
+      "condition_id": 11650,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 61,
+      "plum_bingo_action_achievement_id": 19,
+      "type_id": 14,
+      "condition_id": 11651,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 62,
+      "plum_bingo_action_achievement_id": 19,
+      "type_id": 14,
+      "condition_id": 11652,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 63,
+      "plum_bingo_action_achievement_id": 19,
+      "type_id": 14,
+      "condition_id": 11653,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 64,
+      "plum_bingo_action_achievement_id": 19,
+      "type_id": 14,
+      "condition_id": 11655,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 65,
+      "plum_bingo_action_achievement_id": 19,
+      "type_id": 14,
+      "condition_id": 11656,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 66,
+      "plum_bingo_action_achievement_id": 19,
+      "type_id": 14,
+      "condition_id": 11657,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 67,
+      "plum_bingo_action_achievement_id": 19,
+      "type_id": 14,
+      "condition_id": 11658,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 68,
+      "plum_bingo_action_achievement_id": 19,
+      "type_id": 14,
+      "condition_id": 11659,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 69,
+      "plum_bingo_action_achievement_id": 19,
+      "type_id": 14,
+      "condition_id": 11660,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 70,
+      "plum_bingo_action_achievement_id": 19,
+      "type_id": 14,
+      "condition_id": 11661,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 71,
+      "plum_bingo_action_achievement_id": 20,
+      "type_id": 1,
+      "condition_id": 27970010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 72,
+      "plum_bingo_action_achievement_id": 21,
+      "type_id": 13,
+      "condition_id": 0,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 73,
+      "plum_bingo_action_achievement_id": 21,
+      "type_id": 28,
+      "condition_id": 38,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 74,
+      "plum_bingo_action_achievement_id": 22,
+      "type_id": 13,
+      "condition_id": 0,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 75,
+      "plum_bingo_action_achievement_id": 22,
+      "type_id": 1,
+      "condition_id": 27920010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 76,
+      "plum_bingo_action_achievement_id": 22,
+      "type_id": 1,
+      "condition_id": 27930010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 77,
+      "plum_bingo_action_achievement_id": 22,
+      "type_id": 1,
+      "condition_id": 27940010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 78,
+      "plum_bingo_action_achievement_id": 22,
+      "type_id": 1,
+      "condition_id": 27950010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 79,
+      "plum_bingo_action_achievement_id": 22,
+      "type_id": 1,
+      "condition_id": 27960010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 80,
+      "plum_bingo_action_achievement_id": 22,
+      "type_id": 1,
+      "condition_id": 27970010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 81,
+      "plum_bingo_action_achievement_id": 22,
+      "type_id": 1,
+      "condition_id": 170360010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 82,
+      "plum_bingo_action_achievement_id": 22,
+      "type_id": 1,
+      "condition_id": 170360020,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 83,
+      "plum_bingo_action_achievement_id": 22,
+      "type_id": 27,
+      "condition_id": 42,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 84,
+      "plum_bingo_action_achievement_id": 23,
+      "type_id": 13,
+      "condition_id": 0,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 85,
+      "plum_bingo_action_achievement_id": 23,
+      "type_id": 28,
+      "condition_id": 5,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 86,
+      "plum_bingo_action_achievement_id": 23,
+      "type_id": 21,
+      "condition_id": 5,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 87,
+      "plum_bingo_action_achievement_id": 24,
+      "type_id": 13,
+      "condition_id": 0,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 88,
+      "plum_bingo_action_achievement_id": 24,
+      "type_id": 2,
+      "condition_id": 500,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 89,
+      "plum_bingo_action_achievement_id": 24,
+      "type_id": 14,
+      "condition_id": 11660,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 90,
+      "plum_bingo_action_achievement_id": 24,
+      "type_id": 14,
+      "condition_id": 11661,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 91,
+      "plum_bingo_action_achievement_id": 25,
+      "type_id": 1,
+      "condition_id": 27970010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 92,
+      "plum_bingo_action_achievement_id": 25,
+      "type_id": 35,
+      "condition_id": 3,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 93,
+      "plum_bingo_action_achievement_id": 26,
+      "type_id": 13,
+      "condition_id": 0,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 94,
+      "plum_bingo_action_achievement_id": 26,
+      "type_id": 1,
+      "condition_id": 27940010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 95,
+      "plum_bingo_action_achievement_id": 26,
+      "type_id": 21,
+      "condition_id": 5,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 96,
+      "plum_bingo_action_achievement_id": 27,
+      "type_id": 13,
+      "condition_id": 0,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 97,
+      "plum_bingo_action_achievement_id": 27,
+      "type_id": 1,
+      "condition_id": 27920010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 98,
+      "plum_bingo_action_achievement_id": 27,
+      "type_id": 1,
+      "condition_id": 27930010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 99,
+      "plum_bingo_action_achievement_id": 27,
+      "type_id": 1,
+      "condition_id": 27940010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 100,
+      "plum_bingo_action_achievement_id": 27,
+      "type_id": 1,
+      "condition_id": 27950010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 101,
+      "plum_bingo_action_achievement_id": 27,
+      "type_id": 1,
+      "condition_id": 27960010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 102,
+      "plum_bingo_action_achievement_id": 27,
+      "type_id": 1,
+      "condition_id": 27970010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 103,
+      "plum_bingo_action_achievement_id": 27,
+      "type_id": 1,
+      "condition_id": 170360010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 104,
+      "plum_bingo_action_achievement_id": 27,
+      "type_id": 1,
+      "condition_id": 170360020,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 105,
+      "plum_bingo_action_achievement_id": 27,
+      "type_id": 22,
+      "condition_id": 0,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 106,
+      "plum_bingo_action_achievement_id": 28,
+      "type_id": 13,
+      "condition_id": 0,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 107,
+      "plum_bingo_action_achievement_id": 28,
+      "type_id": 28,
+      "condition_id": 5,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 108,
+      "plum_bingo_action_achievement_id": 28,
+      "type_id": 14,
+      "condition_id": 11637,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 109,
+      "plum_bingo_action_achievement_id": 28,
+      "type_id": 14,
+      "condition_id": 11638,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 110,
+      "plum_bingo_action_achievement_id": 28,
+      "type_id": 14,
+      "condition_id": 11639,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 111,
+      "plum_bingo_action_achievement_id": 28,
+      "type_id": 14,
+      "condition_id": 11640,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 112,
+      "plum_bingo_action_achievement_id": 28,
+      "type_id": 14,
+      "condition_id": 11641,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 113,
+      "plum_bingo_action_achievement_id": 28,
+      "type_id": 14,
+      "condition_id": 11642,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 114,
+      "plum_bingo_action_achievement_id": 28,
+      "type_id": 14,
+      "condition_id": 11643,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 115,
+      "plum_bingo_action_achievement_id": 28,
+      "type_id": 14,
+      "condition_id": 11644,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 116,
+      "plum_bingo_action_achievement_id": 28,
+      "type_id": 14,
+      "condition_id": 11645,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 117,
+      "plum_bingo_action_achievement_id": 28,
+      "type_id": 14,
+      "condition_id": 11646,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 118,
+      "plum_bingo_action_achievement_id": 28,
+      "type_id": 14,
+      "condition_id": 11647,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 119,
+      "plum_bingo_action_achievement_id": 28,
+      "type_id": 14,
+      "condition_id": 11648,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 120,
+      "plum_bingo_action_achievement_id": 28,
+      "type_id": 14,
+      "condition_id": 11649,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 121,
+      "plum_bingo_action_achievement_id": 28,
+      "type_id": 14,
+      "condition_id": 11650,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 122,
+      "plum_bingo_action_achievement_id": 28,
+      "type_id": 14,
+      "condition_id": 11651,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 123,
+      "plum_bingo_action_achievement_id": 28,
+      "type_id": 14,
+      "condition_id": 11652,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 124,
+      "plum_bingo_action_achievement_id": 28,
+      "type_id": 14,
+      "condition_id": 11653,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 125,
+      "plum_bingo_action_achievement_id": 28,
+      "type_id": 14,
+      "condition_id": 11655,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 126,
+      "plum_bingo_action_achievement_id": 28,
+      "type_id": 14,
+      "condition_id": 11656,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 127,
+      "plum_bingo_action_achievement_id": 28,
+      "type_id": 14,
+      "condition_id": 11657,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 128,
+      "plum_bingo_action_achievement_id": 28,
+      "type_id": 14,
+      "condition_id": 11658,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 129,
+      "plum_bingo_action_achievement_id": 28,
+      "type_id": 14,
+      "condition_id": 11659,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 130,
+      "plum_bingo_action_achievement_id": 28,
+      "type_id": 14,
+      "condition_id": 11660,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 131,
+      "plum_bingo_action_achievement_id": 28,
+      "type_id": 14,
+      "condition_id": 11661,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 132,
+      "plum_bingo_action_achievement_id": 29,
+      "type_id": 13,
+      "condition_id": 0,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 133,
+      "plum_bingo_action_achievement_id": 29,
+      "type_id": 1,
+      "condition_id": 27960010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 134,
+      "plum_bingo_action_achievement_id": 30,
+      "type_id": 2,
+      "condition_id": 700,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 135,
+      "plum_bingo_action_achievement_id": 30,
+      "type_id": 2,
+      "condition_id": 800,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 136,
+      "plum_bingo_action_achievement_id": 30,
+      "type_id": 14,
+      "condition_id": 11660,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 137,
+      "plum_bingo_action_achievement_id": 30,
+      "type_id": 14,
+      "condition_id": 11661,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 138,
+      "plum_bingo_action_achievement_id": 31,
+      "type_id": 28,
+      "condition_id": 2,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 139,
+      "plum_bingo_action_achievement_id": 33,
+      "type_id": 13,
+      "condition_id": 0,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 140,
+      "plum_bingo_action_achievement_id": 33,
+      "type_id": 29,
+      "condition_id": 0,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 141,
+      "plum_bingo_action_achievement_id": 33,
+      "type_id": 1,
+      "condition_id": 27950010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 142,
+      "plum_bingo_action_achievement_id": 34,
+      "type_id": 13,
+      "condition_id": 0,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 143,
+      "plum_bingo_action_achievement_id": 34,
+      "type_id": 1,
+      "condition_id": 27920010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 144,
+      "plum_bingo_action_achievement_id": 34,
+      "type_id": 1,
+      "condition_id": 27930010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 145,
+      "plum_bingo_action_achievement_id": 34,
+      "type_id": 1,
+      "condition_id": 27940010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 146,
+      "plum_bingo_action_achievement_id": 34,
+      "type_id": 1,
+      "condition_id": 27950010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 147,
+      "plum_bingo_action_achievement_id": 34,
+      "type_id": 1,
+      "condition_id": 27960010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 148,
+      "plum_bingo_action_achievement_id": 34,
+      "type_id": 1,
+      "condition_id": 27970010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 149,
+      "plum_bingo_action_achievement_id": 34,
+      "type_id": 1,
+      "condition_id": 170360010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 150,
+      "plum_bingo_action_achievement_id": 34,
+      "type_id": 1,
+      "condition_id": 170360020,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 151,
+      "plum_bingo_action_achievement_id": 34,
+      "type_id": 30,
+      "condition_id": 1,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 152,
+      "plum_bingo_action_achievement_id": 35,
+      "type_id": 1,
+      "condition_id": 27970010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 153,
+      "plum_bingo_action_achievement_id": 35,
+      "type_id": 27,
+      "condition_id": 42,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 154,
+      "plum_bingo_action_achievement_id": 36,
+      "type_id": 2,
+      "condition_id": 900,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 155,
+      "plum_bingo_action_achievement_id": 36,
+      "type_id": 14,
+      "condition_id": 11660,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 156,
+      "plum_bingo_action_achievement_id": 36,
+      "type_id": 14,
+      "condition_id": 11661,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 157,
+      "plum_bingo_action_achievement_id": 37,
+      "type_id": 13,
+      "condition_id": 0,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 158,
+      "plum_bingo_action_achievement_id": 37,
+      "type_id": 2,
+      "condition_id": 500,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 159,
+      "plum_bingo_action_achievement_id": 37,
+      "type_id": 14,
+      "condition_id": 11648,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 160,
+      "plum_bingo_action_achievement_id": 37,
+      "type_id": 14,
+      "condition_id": 11649,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 161,
+      "plum_bingo_action_achievement_id": 38,
+      "type_id": 13,
+      "condition_id": 0,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 162,
+      "plum_bingo_action_achievement_id": 38,
+      "type_id": 1,
+      "condition_id": 27940010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 163,
+      "plum_bingo_action_achievement_id": 39,
+      "type_id": 13,
+      "condition_id": 0,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 164,
+      "plum_bingo_action_achievement_id": 39,
+      "type_id": 1,
+      "condition_id": 27920010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 165,
+      "plum_bingo_action_achievement_id": 39,
+      "type_id": 1,
+      "condition_id": 27930010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 166,
+      "plum_bingo_action_achievement_id": 39,
+      "type_id": 1,
+      "condition_id": 27940010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 167,
+      "plum_bingo_action_achievement_id": 39,
+      "type_id": 1,
+      "condition_id": 27950010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 168,
+      "plum_bingo_action_achievement_id": 39,
+      "type_id": 1,
+      "condition_id": 27960010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 169,
+      "plum_bingo_action_achievement_id": 39,
+      "type_id": 1,
+      "condition_id": 27970010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 170,
+      "plum_bingo_action_achievement_id": 39,
+      "type_id": 1,
+      "condition_id": 170360010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 171,
+      "plum_bingo_action_achievement_id": 39,
+      "type_id": 1,
+      "condition_id": 170360020,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 172,
+      "plum_bingo_action_achievement_id": 39,
+      "type_id": 14,
+      "condition_id": 11650,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 173,
+      "plum_bingo_action_achievement_id": 39,
+      "type_id": 14,
+      "condition_id": 11651,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 174,
+      "plum_bingo_action_achievement_id": 40,
+      "type_id": 13,
+      "condition_id": 0,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 175,
+      "plum_bingo_action_achievement_id": 40,
+      "type_id": 1,
+      "condition_id": 27960010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 176,
+      "plum_bingo_action_achievement_id": 41,
+      "type_id": 21,
+      "condition_id": 5,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 177,
+      "plum_bingo_action_achievement_id": 41,
+      "type_id": 2,
+      "condition_id": 700,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 178,
+      "plum_bingo_action_achievement_id": 41,
+      "type_id": 2,
+      "condition_id": 800,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 179,
+      "plum_bingo_action_achievement_id": 42,
+      "type_id": 13,
+      "condition_id": 0,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 180,
+      "plum_bingo_action_achievement_id": 42,
+      "type_id": 28,
+      "condition_id": 5,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 181,
+      "plum_bingo_action_achievement_id": 42,
+      "type_id": 14,
+      "condition_id": 11660,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 182,
+      "plum_bingo_action_achievement_id": 42,
+      "type_id": 14,
+      "condition_id": 11661,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 183,
+      "plum_bingo_action_achievement_id": 43,
+      "type_id": 13,
+      "condition_id": 0,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 184,
+      "plum_bingo_action_achievement_id": 43,
+      "type_id": 28,
+      "condition_id": 5,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 185,
+      "plum_bingo_action_achievement_id": 44,
+      "type_id": 13,
+      "condition_id": 0,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 186,
+      "plum_bingo_action_achievement_id": 44,
+      "type_id": 2,
+      "condition_id": 500,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 187,
+      "plum_bingo_action_achievement_id": 44,
+      "type_id": 14,
+      "condition_id": 11658,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 188,
+      "plum_bingo_action_achievement_id": 44,
+      "type_id": 14,
+      "condition_id": 11659,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 189,
+      "plum_bingo_action_achievement_id": 45,
+      "type_id": 1,
+      "condition_id": 27920010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 190,
+      "plum_bingo_action_achievement_id": 45,
+      "type_id": 1,
+      "condition_id": 27930010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 191,
+      "plum_bingo_action_achievement_id": 45,
+      "type_id": 1,
+      "condition_id": 27940010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 192,
+      "plum_bingo_action_achievement_id": 45,
+      "type_id": 1,
+      "condition_id": 27950010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 193,
+      "plum_bingo_action_achievement_id": 45,
+      "type_id": 1,
+      "condition_id": 27960010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 194,
+      "plum_bingo_action_achievement_id": 45,
+      "type_id": 1,
+      "condition_id": 27970010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 195,
+      "plum_bingo_action_achievement_id": 45,
+      "type_id": 1,
+      "condition_id": 170360010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 196,
+      "plum_bingo_action_achievement_id": 45,
+      "type_id": 1,
+      "condition_id": 170360020,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 197,
+      "plum_bingo_action_achievement_id": 46,
+      "type_id": 2,
+      "condition_id": 900,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 198,
+      "plum_bingo_action_achievement_id": 46,
+      "type_id": 22,
+      "condition_id": 0,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 199,
+      "plum_bingo_action_achievement_id": 47,
+      "type_id": 13,
+      "condition_id": 0,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 200,
+      "plum_bingo_action_achievement_id": 47,
+      "type_id": 1,
+      "condition_id": 27950010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 201,
+      "plum_bingo_action_achievement_id": 48,
+      "type_id": 13,
+      "condition_id": 0,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 202,
+      "plum_bingo_action_achievement_id": 48,
+      "type_id": 1,
+      "condition_id": 27920010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 203,
+      "plum_bingo_action_achievement_id": 48,
+      "type_id": 14,
+      "condition_id": 11660,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 204,
+      "plum_bingo_action_achievement_id": 48,
+      "type_id": 14,
+      "condition_id": 11661,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 205,
+      "plum_bingo_action_achievement_id": 49,
+      "type_id": 13,
+      "condition_id": 0,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 206,
+      "plum_bingo_action_achievement_id": 49,
+      "type_id": 1,
+      "condition_id": 27920010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 207,
+      "plum_bingo_action_achievement_id": 49,
+      "type_id": 1,
+      "condition_id": 27930010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 208,
+      "plum_bingo_action_achievement_id": 49,
+      "type_id": 1,
+      "condition_id": 27940010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 209,
+      "plum_bingo_action_achievement_id": 49,
+      "type_id": 1,
+      "condition_id": 27950010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 210,
+      "plum_bingo_action_achievement_id": 49,
+      "type_id": 1,
+      "condition_id": 27960010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 211,
+      "plum_bingo_action_achievement_id": 49,
+      "type_id": 1,
+      "condition_id": 27970010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 212,
+      "plum_bingo_action_achievement_id": 49,
+      "type_id": 1,
+      "condition_id": 170360010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 213,
+      "plum_bingo_action_achievement_id": 49,
+      "type_id": 1,
+      "condition_id": 170360020,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 214,
+      "plum_bingo_action_achievement_id": 49,
+      "type_id": 1,
+      "condition_id": 851520010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1732183255,
+      "updated_at": 1732183255
+    },
+    {
+      "id": 215,
+      "plum_bingo_action_achievement_id": 50,
+      "type_id": 13,
+      "condition_id": 0,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 216,
+      "plum_bingo_action_achievement_id": 50,
+      "type_id": 28,
+      "condition_id": 5,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 217,
+      "plum_bingo_action_achievement_id": 50,
+      "type_id": 14,
+      "condition_id": 11657,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 218,
+      "plum_bingo_action_achievement_id": 51,
+      "type_id": 1,
+      "condition_id": 27970010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 219,
+      "plum_bingo_action_achievement_id": 52,
+      "type_id": 28,
+      "condition_id": 2,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 220,
+      "plum_bingo_action_achievement_id": 54,
+      "type_id": 13,
+      "condition_id": 0,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 221,
+      "plum_bingo_action_achievement_id": 54,
+      "type_id": 1,
+      "condition_id": 27930010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 222,
+      "plum_bingo_action_achievement_id": 54,
+      "type_id": 14,
+      "condition_id": 11660,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 223,
+      "plum_bingo_action_achievement_id": 54,
+      "type_id": 14,
+      "condition_id": 11661,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 224,
+      "plum_bingo_action_achievement_id": 55,
+      "type_id": 13,
+      "condition_id": 0,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 225,
+      "plum_bingo_action_achievement_id": 55,
+      "type_id": 1,
+      "condition_id": 170360010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 226,
+      "plum_bingo_action_achievement_id": 55,
+      "type_id": 1,
+      "condition_id": 170360020,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 227,
+      "plum_bingo_action_achievement_id": 55,
+      "type_id": 14,
+      "condition_id": 11637,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 228,
+      "plum_bingo_action_achievement_id": 55,
+      "type_id": 14,
+      "condition_id": 11638,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 229,
+      "plum_bingo_action_achievement_id": 55,
+      "type_id": 14,
+      "condition_id": 11639,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 230,
+      "plum_bingo_action_achievement_id": 55,
+      "type_id": 14,
+      "condition_id": 11640,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 231,
+      "plum_bingo_action_achievement_id": 55,
+      "type_id": 14,
+      "condition_id": 11641,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 232,
+      "plum_bingo_action_achievement_id": 55,
+      "type_id": 14,
+      "condition_id": 11642,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 233,
+      "plum_bingo_action_achievement_id": 55,
+      "type_id": 14,
+      "condition_id": 11643,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 234,
+      "plum_bingo_action_achievement_id": 55,
+      "type_id": 14,
+      "condition_id": 11644,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 235,
+      "plum_bingo_action_achievement_id": 55,
+      "type_id": 14,
+      "condition_id": 11645,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 236,
+      "plum_bingo_action_achievement_id": 55,
+      "type_id": 14,
+      "condition_id": 11646,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 237,
+      "plum_bingo_action_achievement_id": 55,
+      "type_id": 14,
+      "condition_id": 11647,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 238,
+      "plum_bingo_action_achievement_id": 55,
+      "type_id": 14,
+      "condition_id": 11648,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 239,
+      "plum_bingo_action_achievement_id": 55,
+      "type_id": 14,
+      "condition_id": 11649,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 240,
+      "plum_bingo_action_achievement_id": 55,
+      "type_id": 14,
+      "condition_id": 11650,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 241,
+      "plum_bingo_action_achievement_id": 55,
+      "type_id": 14,
+      "condition_id": 11651,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 242,
+      "plum_bingo_action_achievement_id": 55,
+      "type_id": 14,
+      "condition_id": 11652,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 243,
+      "plum_bingo_action_achievement_id": 55,
+      "type_id": 14,
+      "condition_id": 11653,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 244,
+      "plum_bingo_action_achievement_id": 55,
+      "type_id": 14,
+      "condition_id": 11654,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1732183255,
+      "updated_at": 1732183255
+    },
+    {
+      "id": 245,
+      "plum_bingo_action_achievement_id": 55,
+      "type_id": 14,
+      "condition_id": 11655,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 246,
+      "plum_bingo_action_achievement_id": 55,
+      "type_id": 14,
+      "condition_id": 11656,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 247,
+      "plum_bingo_action_achievement_id": 55,
+      "type_id": 14,
+      "condition_id": 11657,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 248,
+      "plum_bingo_action_achievement_id": 55,
+      "type_id": 14,
+      "condition_id": 11658,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 249,
+      "plum_bingo_action_achievement_id": 55,
+      "type_id": 14,
+      "condition_id": 11659,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 250,
+      "plum_bingo_action_achievement_id": 55,
+      "type_id": 14,
+      "condition_id": 11660,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 251,
+      "plum_bingo_action_achievement_id": 55,
+      "type_id": 14,
+      "condition_id": 11661,
+      "sub_condition_id_0": 1,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 252,
+      "plum_bingo_action_achievement_id": 56,
+      "type_id": 1,
+      "condition_id": 27970010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 253,
+      "plum_bingo_action_achievement_id": 57,
+      "type_id": 13,
+      "condition_id": 0,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 254,
+      "plum_bingo_action_achievement_id": 57,
+      "type_id": 28,
+      "condition_id": 38,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 255,
+      "plum_bingo_action_achievement_id": 58,
+      "type_id": 13,
+      "condition_id": 0,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    },
+    {
+      "id": 256,
+      "plum_bingo_action_achievement_id": 58,
+      "type_id": 1,
+      "condition_id": 27920010,
+      "sub_condition_id_0": 0,
+      "sub_condition_id_1": 0,
+      "created_at": 1731579184,
+      "updated_at": 1731579184
+    }
+  ]
+}

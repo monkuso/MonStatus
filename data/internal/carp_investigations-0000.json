@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "table": "carp_investigations",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "title": "強化について調査",
+      "carp_event_id": 1,
+      "need_investigated_cnt": 0,
+      "only_once": false,
+      "created_at": 1651145723,
+      "updated_at": 1651145723
+    },
+    {
+      "id": 2,
+      "title": "進化について調査",
+      "carp_event_id": 1,
+      "need_investigated_cnt": 1,
+      "only_once": false,
+      "created_at": 1651145723,
+      "updated_at": 1651145723
+    },
+    {
+      "id": 3,
+      "title": "進化についてもっと詳しく調査",
+      "carp_event_id": 1,
+      "need_investigated_cnt": 2,
+      "only_once": false,
+      "created_at": 1651145723,
+      "updated_at": 1651145723
+    },
+    {
+      "id": 4,
+      "title": "怪盗キッドについて調査",
+      "carp_event_id": 1,
+      "need_investigated_cnt": 3,
+      "only_once": false,
+      "created_at": 1651145723,
+      "updated_at": 1651145723
+    },
+    {
+      "id": 5,
+      "title": "タスについて調査",
+      "carp_event_id": 1,
+      "need_investigated_cnt": 3,
+      "only_once": false,
+      "created_at": 1651145723,
+      "updated_at": 1651145723
+    },
+    {
+      "id": 6,
+      "title": "獣神化について調査",
+      "carp_event_id": 1,
+      "need_investigated_cnt": 3,
+      "only_once": false,
+      "created_at": 1651145723,
+      "updated_at": 1651145723
+    },
+    {
+      "id": 7,
+      "title": "コラボキャラについて調査",
+      "carp_event_id": 1,
+      "need_investigated_cnt": 7,
+      "only_once": false,
+      "created_at": 1651145723,
+      "updated_at": 1651145723
+    },
+    {
+      "id": 8,
+      "title": "バランス型について調査",
+      "carp_event_id": 1,
+      "need_investigated_cnt": 9,
+      "only_once": true,
+      "created_at": 1651145723,
+      "updated_at": 1651145723
+    },
+    {
+      "id": 9,
+      "title": "パワー型について調査",
+      "carp_event_id": 1,
+      "need_investigated_cnt": 9,
+      "only_once": true,
+      "created_at": 1651145723,
+      "updated_at": 1651145723
+    },
+    {
+      "id": 10,
+      "title": "スピード型について調査",
+      "carp_event_id": 1,
+      "need_investigated_cnt": 9,
+      "only_once": true,
+      "created_at": 1651145723,
+      "updated_at": 1651145723
+    },
+    {
+      "id": 11,
+      "title": "砲撃型について調査",
+      "carp_event_id": 1,
+      "need_investigated_cnt": 9,
+      "only_once": true,
+      "created_at": 1651145723,
+      "updated_at": 1651145723
+    }
+  ]
+}

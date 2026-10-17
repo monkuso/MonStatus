@@ -1,0 +1,718 @@
+{
+  "schemaVersion": 1,
+  "table": "collabo_filter_groups",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "name": "モンハン 大狩猟クエスト",
+      "display_char_id": 1461,
+      "visible_at": 1701399600,
+      "sort_id": 2,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 2,
+      "name": "ゴジラ",
+      "display_char_id": 1139,
+      "visible_at": 1701399600,
+      "sort_id": 3,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 3,
+      "name": "ミュータント・タートルズ",
+      "display_char_id": 1675,
+      "visible_at": 1701399600,
+      "sort_id": 4,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 4,
+      "name": "ドラえもん",
+      "display_char_id": 2095,
+      "visible_at": 1701399600,
+      "sort_id": 24,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 5,
+      "name": "エヴァンゲリオン",
+      "display_char_id": 2217,
+      "visible_at": 1701399600,
+      "sort_id": 30,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 6,
+      "name": "ストリートファイター",
+      "display_char_id": 2638,
+      "visible_at": 1701399600,
+      "sort_id": 6,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 7,
+      "name": "ルパン三世",
+      "display_char_id": 2795,
+      "visible_at": 1701399600,
+      "sort_id": 5,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 8,
+      "name": "聖闘士星矢",
+      "display_char_id": 3397,
+      "visible_at": 1701399600,
+      "sort_id": 7,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 9,
+      "name": "ウルトラマン",
+      "display_char_id": 3550,
+      "visible_at": 1701399600,
+      "sort_id": 8,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 10,
+      "name": "マーベル ツムツム",
+      "display_char_id": 3695,
+      "visible_at": 1701399600,
+      "sort_id": 9,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 11,
+      "name": "幽☆遊☆白書",
+      "display_char_id": 3883,
+      "visible_at": 1701399600,
+      "sort_id": 10,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 12,
+      "name": "ファイナルファンタジー",
+      "display_char_id": 4180,
+      "visible_at": 1701399600,
+      "sort_id": 14,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 13,
+      "name": "パイレーツ・オブ・カリビアン／最後の海賊",
+      "display_char_id": 4507,
+      "visible_at": 1701399600,
+      "sort_id": 11,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 14,
+      "name": "鋼の錬金術師 FULLMETAL ALCHEMIST",
+      "display_char_id": 4570,
+      "visible_at": 1701399600,
+      "sort_id": 45,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 15,
+      "name": "〈物語〉シリーズ",
+      "display_char_id": 4747,
+      "visible_at": 1701399600,
+      "sort_id": 79,
+      "created_at": 1707148479,
+      "updated_at": 1757672675
+    },
+    {
+      "id": 16,
+      "name": "七つの大罪",
+      "display_char_id": 4899,
+      "visible_at": 1701399600,
+      "sort_id": 27,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 17,
+      "name": "電撃25周年",
+      "display_char_id": 5015,
+      "visible_at": 1701399600,
+      "sort_id": 13,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 18,
+      "name": "HUNTER×HUNTER",
+      "display_char_id": 5089,
+      "visible_at": 1701399600,
+      "sort_id": 23,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 19,
+      "name": "スター・ウォーズ",
+      "display_char_id": 5540,
+      "visible_at": 1701399600,
+      "sort_id": 15,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 20,
+      "name": "銀魂",
+      "display_char_id": 5599,
+      "visible_at": 1701399600,
+      "sort_id": 36,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 21,
+      "name": "ソードアート・オンライン",
+      "display_char_id": 5879,
+      "visible_at": 1701399600,
+      "sort_id": 51,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 22,
+      "name": "るろうに剣心-明治剣客浪漫譚-",
+      "display_char_id": 5941,
+      "visible_at": 1701399600,
+      "sort_id": 16,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 23,
+      "name": "ミッキーマウス",
+      "display_char_id": 6062,
+      "visible_at": 1701399600,
+      "sort_id": 17,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 24,
+      "name": "美少女戦士セーラームーンCrystal",
+      "display_char_id": 6289,
+      "visible_at": 1701399600,
+      "sort_id": 18,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 25,
+      "name": "劇場版シティーハンター <新宿プライベート・アイズ>",
+      "display_char_id": 6500,
+      "visible_at": 1701399600,
+      "sort_id": 19,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 26,
+      "name": "遊☆戯☆王シリーズ",
+      "display_char_id": 6580,
+      "visible_at": 1701399600,
+      "sort_id": 82,
+      "created_at": 1707148479,
+      "updated_at": 1763032628
+    },
+    {
+      "id": 27,
+      "name": "BLEACH",
+      "display_char_id": 6909,
+      "visible_at": 1701399600,
+      "sort_id": 34,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 28,
+      "name": "プロメア公開記念",
+      "display_char_id": 6983,
+      "visible_at": 1701399600,
+      "sort_id": 21,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 29,
+      "name": "僕のヒーローアカデミア",
+      "display_char_id": 7177,
+      "visible_at": 1701399600,
+      "sort_id": 26,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 30,
+      "name": "妖怪ウォッチ ぷにぷに",
+      "display_char_id": 7355,
+      "visible_at": 1701399600,
+      "sort_id": 22,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 31,
+      "name": "鬼滅の刃",
+      "display_char_id": 7643,
+      "visible_at": 1701399600,
+      "sort_id": 81,
+      "created_at": 1707148479,
+      "updated_at": 1761221566
+    },
+    {
+      "id": 32,
+      "name": "FAIRY TAIL",
+      "display_char_id": 7715,
+      "visible_at": 1701399600,
+      "sort_id": 25,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 33,
+      "name": "進撃の巨人",
+      "display_char_id": 8186,
+      "visible_at": 1701399600,
+      "sort_id": 48,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 34,
+      "name": "ワールドトリガー",
+      "display_char_id": 8454,
+      "visible_at": 1701399600,
+      "sort_id": 37,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 35,
+      "name": "るーみっくわーるど",
+      "display_char_id": 8522,
+      "visible_at": 1701399600,
+      "sort_id": 28,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 36,
+      "name": "仮面ライダーシリーズ",
+      "display_char_id": 8544,
+      "visible_at": 1701399600,
+      "sort_id": 29,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 37,
+      "name": "呪術廻戦",
+      "display_char_id": 8632,
+      "visible_at": 1701399600,
+      "sort_id": 91,
+      "created_at": 1707148479,
+      "updated_at": 1783855283
+    },
+    {
+      "id": 38,
+      "name": "ラブライブ！シリーズ",
+      "display_char_id": 13007,
+      "visible_at": 1701399600,
+      "sort_id": 93,
+      "created_at": 1707148479,
+      "updated_at": 1787909334
+    },
+    {
+      "id": 39,
+      "name": "ダイの大冒険",
+      "display_char_id": 8793,
+      "visible_at": 1701399600,
+      "sort_id": 32,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 40,
+      "name": "Dr.STONE",
+      "display_char_id": 8880,
+      "visible_at": 1701399600,
+      "sort_id": 33,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 41,
+      "name": "Re:ゼロから始める異世界生活",
+      "display_char_id": 9006,
+      "visible_at": 1701399600,
+      "sort_id": 94,
+      "created_at": 1707148479,
+      "updated_at": 1790422505
+    },
+    {
+      "id": 42,
+      "name": "SHAMAN KING",
+      "display_char_id": 9120,
+      "visible_at": 1701399600,
+      "sort_id": 35,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 43,
+      "name": "名探偵コナン",
+      "display_char_id": 9471,
+      "visible_at": 1701399600,
+      "sort_id": 74,
+      "created_at": 1707148479,
+      "updated_at": 1746009091
+    },
+    {
+      "id": 44,
+      "name": "SPY×FAMILY",
+      "display_char_id": 9530,
+      "visible_at": 1701399600,
+      "sort_id": 56,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 45,
+      "name": "ジョジョの奇妙な冒険",
+      "display_char_id": 10812,
+      "visible_at": 1701399600,
+      "sort_id": 70,
+      "created_at": 1707148479,
+      "updated_at": 1736422858
+    },
+    {
+      "id": 46,
+      "name": "ONE PIECE",
+      "display_char_id": 9727,
+      "visible_at": 1701399600,
+      "sort_id": 39,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 47,
+      "name": "TIGER & BUNNY 2",
+      "display_char_id": 9873,
+      "visible_at": 1701399600,
+      "sort_id": 40,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 48,
+      "name": "魔法少女まどか☆マギカ",
+      "display_char_id": 9961,
+      "visible_at": 1701399600,
+      "sort_id": 64,
+      "created_at": 1707148479,
+      "updated_at": 1723722749
+    },
+    {
+      "id": 49,
+      "name": "チェンソーマン",
+      "display_char_id": 10030,
+      "visible_at": 1701399600,
+      "sort_id": 87,
+      "created_at": 1707148479,
+      "updated_at": 1774952077
+    },
+    {
+      "id": 50,
+      "name": "ガンダムシリーズ",
+      "display_char_id": 10171,
+      "visible_at": 1701399600,
+      "sort_id": 77,
+      "created_at": 1707148479,
+      "updated_at": 1752408865
+    },
+    {
+      "id": 51,
+      "name": "転生したらスライムだった件",
+      "display_char_id": 10313,
+      "visible_at": 1701399600,
+      "sort_id": 71,
+      "created_at": 1707148479,
+      "updated_at": 1739443890
+    },
+    {
+      "id": 52,
+      "name": "かぐや様は告らせたい",
+      "display_char_id": 10364,
+      "visible_at": 1701399600,
+      "sort_id": 47,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 53,
+      "name": "地獄楽",
+      "display_char_id": 10551,
+      "visible_at": 1701399600,
+      "sort_id": 49,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 54,
+      "name": "キングダム",
+      "display_char_id": 10694,
+      "visible_at": 1701399600,
+      "sort_id": 52,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 55,
+      "name": "東京リベンジャーズ",
+      "display_char_id": 10749,
+      "visible_at": 1701399600,
+      "sort_id": 53,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 56,
+      "name": "陰の実力者になりたくて！",
+      "display_char_id": 10881,
+      "visible_at": 1701399600,
+      "sort_id": 55,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    },
+    {
+      "id": 57,
+      "name": "炎炎ノ消防隊",
+      "display_char_id": 11115,
+      "visible_at": 1710410400,
+      "sort_id": 59,
+      "created_at": 1710410728,
+      "updated_at": 1710410728
+    },
+    {
+      "id": 58,
+      "name": "葬送のフリーレン",
+      "display_char_id": 11164,
+      "visible_at": 1712242800,
+      "sort_id": 84,
+      "created_at": 1712223081,
+      "updated_at": 1768472558
+    },
+    {
+      "id": 59,
+      "name": "東京喰種",
+      "display_char_id": 11203,
+      "visible_at": 1714402800,
+      "sort_id": 61,
+      "created_at": 1714206683,
+      "updated_at": 1714206683
+    },
+    {
+      "id": 60,
+      "name": "怪獣８号",
+      "display_char_id": 11304,
+      "visible_at": 1718272800,
+      "sort_id": 62,
+      "created_at": 1718272993,
+      "updated_at": 1718272993
+    },
+    {
+      "id": 61,
+      "name": "【推しの子】",
+      "display_char_id": 11399,
+      "visible_at": 1720963800,
+      "sort_id": 85,
+      "created_at": 1720961109,
+      "updated_at": 1770807978
+    },
+    {
+      "id": 62,
+      "name": "シャングリラ・フロンティア",
+      "display_char_id": 11489,
+      "visible_at": 1726153200,
+      "sort_id": 65,
+      "created_at": 1726149812,
+      "updated_at": 1726149812
+    },
+    {
+      "id": 63,
+      "name": "五等分の花嫁",
+      "display_char_id": 11610,
+      "visible_at": 1729782000,
+      "sort_id": 67,
+      "created_at": 1729766252,
+      "updated_at": 1729766252
+    },
+    {
+      "id": 64,
+      "name": "夜桜さんちの大作戦",
+      "display_char_id": 11638,
+      "visible_at": 1731578400,
+      "sort_id": 68,
+      "created_at": 1731579092,
+      "updated_at": 1731579092
+    },
+    {
+      "id": 65,
+      "name": "とある科学の超電磁砲",
+      "display_char_id": 11690,
+      "visible_at": 1733997600,
+      "sort_id": 69,
+      "created_at": 1733997000,
+      "updated_at": 1733997000
+    },
+    {
+      "id": 66,
+      "name": "コードギアス 反逆のルルーシュ",
+      "display_char_id": 11889,
+      "visible_at": 1741878000,
+      "sort_id": 72,
+      "created_at": 1741862187,
+      "updated_at": 1741862187
+    },
+    {
+      "id": 67,
+      "name": "2.5次元の誘惑",
+      "display_char_id": 11937,
+      "visible_at": 1744383600,
+      "sort_id": 73,
+      "created_at": 1744281530,
+      "updated_at": 1744281530
+    },
+    {
+      "id": 68,
+      "name": "ぼっち・ざ・ろっく！",
+      "display_char_id": 12027,
+      "visible_at": 1747926000,
+      "sort_id": 75,
+      "created_at": 1747910252,
+      "updated_at": 1747910252
+    },
+    {
+      "id": 69,
+      "name": "薬屋のひとりごと",
+      "display_char_id": 12060,
+      "visible_at": 1749826800,
+      "sort_id": 76,
+      "created_at": 1749808139,
+      "updated_at": 1749808139
+    },
+    {
+      "id": 70,
+      "name": "ペルソナ５ ザ・ロイヤル",
+      "display_char_id": 12188,
+      "visible_at": 1755183600,
+      "sort_id": 78,
+      "created_at": 1755172879,
+      "updated_at": 1755172879
+    },
+    {
+      "id": 71,
+      "name": "ダンダダン",
+      "display_char_id": 12316,
+      "visible_at": 1759219200,
+      "sort_id": 80,
+      "created_at": 1759235047,
+      "updated_at": 1759235047
+    },
+    {
+      "id": 72,
+      "name": "マクロスシリーズ",
+      "display_char_id": 12469,
+      "visible_at": 1701399600,
+      "sort_id": 83,
+      "created_at": 1765538103,
+      "updated_at": 1765538103
+    },
+    {
+      "id": 73,
+      "name": "この素晴らしい世界に祝福を！",
+      "display_char_id": 12644,
+      "visible_at": 1773414000,
+      "sort_id": 86,
+      "created_at": 1773393077,
+      "updated_at": 1773393077
+    },
+    {
+      "id": 74,
+      "name": "けいおん！",
+      "display_char_id": 12728,
+      "visible_at": 1777118400,
+      "sort_id": 88,
+      "created_at": 1777104410,
+      "updated_at": 1777104410
+    },
+    {
+      "id": 75,
+      "name": "SAKAMOTO DAYS",
+      "display_char_id": 12761,
+      "visible_at": 1778756400,
+      "sort_id": 89,
+      "created_at": 1778754971,
+      "updated_at": 1778754971
+    },
+    {
+      "id": 76,
+      "name": "NARUTO-ナルト- 疾⾵伝",
+      "display_char_id": 12822,
+      "visible_at": 1781190000,
+      "sort_id": 90,
+      "created_at": 1781169837,
+      "updated_at": 1781169837
+    },
+    {
+      "id": 77,
+      "name": "ブルーロック",
+      "display_char_id": 12969,
+      "visible_at": 1786694400,
+      "sort_id": 92,
+      "created_at": 1786697080,
+      "updated_at": 1786697080
+    },
+    {
+      "id": 78,
+      "name": "黄泉のツガイ",
+      "display_char_id": 13103,
+      "visible_at": 1792076400,
+      "sort_id": 95,
+      "created_at": 1792059503,
+      "updated_at": 1792059503
+    },
+    {
+      "id": 500,
+      "name": "その他",
+      "display_char_id": 0,
+      "visible_at": 1701399600,
+      "sort_id": 1,
+      "created_at": 1707148479,
+      "updated_at": 1707148479
+    }
+  ]
+}

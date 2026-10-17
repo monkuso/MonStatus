@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 1,
+  "table": "texts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 23627,
+      "text": "[LC]ミッション達成[LF][LF]以下の報酬を獲得しました[LF][LF-15][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1759235494,
+      "updated_at": 1759235494,
+      "label": "eTEXTS_DEF_SMILE_SEARCH_MISSION_GET_ACHIEVE"
+    },
+    {
+      "id": 23628,
+      "text": "[LC]捜索数回復[LF][LF]捜索の残り回数が上限まで回復しました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1759235494,
+      "updated_at": 1759235494,
+      "label": "eTEXTS_DEF_SMILE_SEARCH_MISSION_POINT_RESET"
+    },
+    {
+      "id": 23629,
+      "text": "[LC]アイテムBOX[LF][LF]以下の報酬を受け取りました[LF][LF-15][NODE]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1759235494,
+      "updated_at": 1759235494,
+      "label": "eTEXTS_DEF_SMILE_SEARCH_MISSION_GET_ITEM"
+    },
+    {
+      "id": 23630,
+      "text": "捜索したいマスを選択してください",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1759235494,
+      "updated_at": 1759235494,
+      "label": "eTEXTS_DEF_SMILE_SEARCH_MISSION_SELECT_WARNING"
+    },
+    {
+      "id": 23631,
+      "text": "マスを選択して捜索対象を発見しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759235494,
+      "updated_at": 1759235494,
+      "label": "eTEXTS_DEF_SMILE_SEARCH_MISSION_FIRST_MESSAGE"
+    },
+    {
+      "id": 23632,
+      "text": "[LC]捜索対象発見！[LF][LF][C6:捜索対象]を発見しました[LF]以下のミッションが解放されます[LF][LF-15][LC][NODE][LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1759235494,
+      "updated_at": 1759235494,
+      "label": "eTEXTS_DEF_SMILE_SEARCH_MISSION_HIT_1"
+    },
+    {
+      "id": 23633,
+      "text": "[LC]招き猫発見！[LF][LF][C6:招き猫]を発見しました[LF]捜索残り回数の上限が1つ増えます",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1759235494,
+      "updated_at": 1759235494,
+      "label": "eTEXTS_DEF_SMILE_SEARCH_MISSION_HIT_2"
+    },
+    {
+      "id": 23634,
+      "text": "[LC]アイテムBOX発見！[LF][LF][C6:アイテムBOX]を発見しました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759235494,
+      "updated_at": 1759235494,
+      "label": "eTEXTS_DEF_SMILE_SEARCH_MISSION_HIT_3"
+    },
+    {
+      "id": 23635,
+      "text": "[LC]エリア開放[LF][LF][C6:新たなエリア]が捜索可能になりました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1759235494,
+      "updated_at": 1759235494,
+      "label": "eTEXTS_DEF_SMILE_SEARCH_MISSION_2DAY"
+    },
+    {
+      "id": 23636,
+      "text": "[LC]エリア開放[LF][LF][LC][NODE][LF][C6:新たなエリア]が捜索可能になり[LF]捜索対象に[C6:ターボババア]が追加されました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1759235494,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_SMILE_SEARCH_MISSION_3DAY"
+    },
+    {
+      "id": 23637,
+      "text": "[LC]エリア開放[LF][LF][C6:すべてのエリア]が捜索可能になりました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1759235494,
+      "updated_at": 1759235494,
+      "label": "eTEXTS_DEF_SMILE_SEARCH_MISSION_4DAY_1"
+    },
+    {
+      "id": 23638,
+      "text": "[LC]エリア開放[LF][LF][LC][NODE][LF][C6:すべてのエリア]が捜索可能になり[LF]捜索対象に[C6:ターボババア]が追加されました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1759235494,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_SMILE_SEARCH_MISSION_4DAY_2"
+    },
+    {
+      "id": 23639,
+      "text": "[LC]全ミッション達成[LF][LF]すべてのミッションをクリアしました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1759235494,
+      "updated_at": 1759235494,
+      "label": "eTEXTS_DEF_SMILE_SEARCH_MISSION_COMPLETE_MISSION"
+    },
+    {
+      "id": 23640,
+      "text": "[LC]超究極出現！[LF][LF][LC][b:ba_smile_sub1.png][LF]イベントクエストに[C5:｢ヤベー女がきた｣]が降臨しました[LF]さらに[C6:EX!ミッション]が追加されました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1759235494,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_SMILE_SEARCH_MISSION_COMPLETE"
+    },
+    {
+      "id": 23641,
+      "text": "[LC]挑戦できません[LF][LF]参加条件を満たしていないため挑戦できません",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1759235494,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_SMILE_SEARCH_MISSION_NO_OPEN_MULTI_GUEST"
+    },
+    {
+      "id": 23642,
+      "text": "[LC]挑戦できません[LF][LF]参加条件を満たしていないため挑戦できません",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1759235494,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_SMILE_SEARCH_MISSION_NO_OPEN_STAGE"
+    },
+    {
+      "id": 23643,
+      "text": "発見してない[C6:アイテムBOX]が残っています[LF]捜索して報酬を獲得しましょう",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1759235494,
+      "updated_at": 1759235494,
+      "label": "eTEXTS_DEF_SMILE_SEARCH_MISSION_ITEM_NO_GET"
+    },
+    {
+      "id": 23644,
+      "text": "すべての[C6:アイテムBOX]を発見しました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1759235494,
+      "updated_at": 1759235494,
+      "label": "eTEXTS_DEF_SMILE_SEARCH_MISSION_ITEM_ALL_GET"
+    },
+    {
+      "id": 23645,
+      "text": "捜索可能",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759235494,
+      "updated_at": 1759235494,
+      "label": "eTEXTS_DEF_SMILE_SEARCH_MISSION_CAN_SEARCH"
+    },
+    {
+      "id": 23646,
+      "text": "本日分終了",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759235494,
+      "updated_at": 1759235494,
+      "label": "eTEXTS_DEF_SMILE_SEARCH_MISSION_NOT_SEARCH"
+    },
+    {
+      "id": 23647,
+      "text": "[LC]エラー[LF][LF]開催期間は終了しています",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1759235494,
+      "updated_at": 1759235494,
+      "label": "eTEXTS_DEF_SMILE_SEARCH_MISSION_EVENT_END"
+    },
+    {
+      "id": 23648,
+      "text": "[LC]挑戦できません[LF][LF]参加条件を満たしていないため挑戦できません",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1759235494,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_MSG_SMILE_MISSION_MULTI_ERROR"
+    },
+    {
+      "id": 23649,
+      "text": "本日分は終了しました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759235494,
+      "updated_at": 1759235494,
+      "label": "eTEXTS_DEF_SMILE_SEARCH_PLAY_WARNING"
+    },
+    {
+      "id": 23650,
+      "text": "[LC]アイテムBOX[LF][LF]以下の報酬を受け取りました[LF][LF-15][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1759235494,
+      "updated_at": 1759235494,
+      "label": "eTEXTS_DEF_SMILE_SEARCH_GET_ITEM_BOX"
+    },
+    {
+      "id": 23651,
+      "text": "発見%d個目",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759235494,
+      "updated_at": 1759235494,
+      "label": "eTEXTS_DEF_SMILE_SEARCH_GET_ITEM_BOX_FORMAT"
+    },
+    {
+      "id": 23652,
+      "text": "[LC]ONに切り替えることはできません[LF][LF]「原生の神殿」では[C6:ONに切り替えることができません][LF][LF]わくわくの実の排出状況に関わらず[LF][C6:ランダムに]わくわくの実が排出されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_MSG_TOKUEL_GEM_BOX_CLICK"
+    },
+    {
+      "id": 23653,
+      "text": "全STAGEのチャレンジタイムクリアで獲得",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_SMILE_COUNT_STAGE_SELECT_REWARD_EXPLANATION"
+    },
+    {
+      "id": 23654,
+      "text": "%02d’%02d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_SMILE_COUNT_CLEAR_SEC"
+    },
+    {
+      "id": 23655,
+      "text": "[LC]確認[LF][LF][LF][LC][S2]リタイアしますか？[LF]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_MSG_SMILE_COUNT_GAME_RETIRE"
+    },
+    {
+      "id": 23656,
+      "text": "[LC]攻撃に失敗！[LF][LF][LC]謎の巨大透明怪獣への攻撃に失敗しました[LF][LC]再挑戦しますか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_MSG_SMILE_COUNT_GAME_FAILURE"
+    },
+    {
+      "id": 23657,
+      "text": "10/5 00:00～10/14 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_SMILE_COUNT_STAGE_SELECT_PERIOD"
+    },
+    {
+      "id": 23658,
+      "text": "クリアタイム",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_SMILE_COUNT_STAGE_SELECT_CLEAR_TIME_LABEL"
+    },
+    {
+      "id": 23659,
+      "text": "%d/%d %d:%02d開放！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_SMILE_COUNT_STAGE_SELECT_OPENED_AT"
+    },
+    {
+      "id": 23660,
+      "text": "STAGE %dクリアで開放！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_SMILE_COUNT_STAGE_SELECT_OPENED_AT_ONE_BEFORE"
+    },
+    {
+      "id": 23661,
+      "text": "セット数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_SMILE_COUNT_GAME_ATTACK_COUNT_EXPLANATION"
+    },
+    {
+      "id": 23662,
+      "text": "あと%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_SMILE_COUNT_GAME_ATTACK_COUNT_LEFT"
+    },
+    {
+      "id": 23663,
+      "text": "制限時間内にターゲットの数字を1から順番にタップしよう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_SMILE_COUNT_GAME_START_DIALOG_EXPLANATION"
+    },
+    {
+      "id": 23664,
+      "text": "ターゲット",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_SMILE_COUNT_GAME_START_DIALOG_TARGET"
+    },
+    {
+      "id": 23665,
+      "text": "タイム",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_SMILE_COUNT_GAME_START_DIALOG_TIME"
+    },
+    {
+      "id": 23666,
+      "text": "制限時間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_SMILE_COUNT_GAME_START_DIALOG_LIMIT_TIME"
+    },
+    {
+      "id": 23667,
+      "text": "チャレンジタイム",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_SMILE_COUNT_GAME_START_DIALOG_CHALLENGE_TIME"
+    },
+    {
+      "id": 23668,
+      "text": "クリアタイム",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_SMILE_COUNT_GAME_START_DIALOG_CLEAR_TIME"
+    },
+    {
+      "id": 23669,
+      "text": "--’--",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_SMILE_COUNT_EMPTY_SEC"
+    },
+    {
+      "id": 23670,
+      "text": "%s 秒",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_SMILE_COUNT_GAME_SEC_LABEL"
+    },
+    {
+      "id": 23671,
+      "text": "[LC]発進！グレートキンタ！とは[LF][LF][CCB:dlme/help_collabo_smile_sb2_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_MSG_SMILE_COUNT_STAGE_SELECT_HELP"
+    },
+    {
+      "id": 23672,
+      "text": "[LC]報酬一覧[LF][LF][LC][TAB:初クリア報酬][NODE][TAB:チャレンジ報酬][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_MSG_SMILE_COUNT_STAGE_SELECT_REWARD_LIST"
+    },
+    {
+      "id": 23673,
+      "text": "STAGE %dをクリア！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_SMILE_COUNT_GAME_RESULT_DIALOG_CLEAR_LEVEL"
+    },
+    {
+      "id": 23674,
+      "text": "ラッキーモンスター2種運極で引換可能",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_ME_MONPASS_PREMIUM_LUCKYMON_SHOP_ITEMS_LABEL"
+    },
+    {
+      "id": 23675,
+      "text": "以下の報酬を受け取りました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_SMILE_COUNT_GAME_RESULT_DIALOG_REWARD"
+    },
+    {
+      "id": 23676,
+      "text": "全STAGEのチャレンジタイムをクリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_SMILE_COUNT_STAGE_SELECT_REWARD_CHALLENGE"
+    },
+    {
+      "id": 23677,
+      "text": "STAGE %dを初クリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_SMILE_COUNT_STAGE_SELECT_REWARD_STAGE"
+    },
+    {
+      "id": 23678,
+      "text": "チャレンジタイム全達成！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_SMILE_COUNT_STAGE_SELECT_CHALLENGE_DIALOG"
+    },
+    {
+      "id": 23679,
+      "text": "[LC]全チャレンジクリア！[LF][LF][LC][S2][C6:すべてのSTAGEを][LF][LC][LC][S2][C6:チャレンジタイム内でクリア達成！][LF][LC]以下の報酬を受け取りました[LF][LC]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_SMILE_COUNT_STAGE_SELECT_CHALLENGE_DIALOG_TEXT"
+    },
+    {
+      "id": 23680,
+      "text": "[LC]開催期間外[LF][LF][LC]開催期間は終了しました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_MSG_SMILE_COUNT_EXPIRED"
+    },
+    {
+      "id": 23681,
+      "text": "[LC]エラー[LF][LF]STAGEの生成に失敗しました[LF]ホーム画面に戻ります",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_MSG_SMILE_COUNT_GAME_CREATE_TARGETS_ERROR"
+    },
+    {
+      "id": 23682,
+      "text": "STAGE %d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_SMILE_COUNT_STAGE_SELECT_REWARD_LIST_CHALLENGE_STAGE"
+    },
+    {
+      "id": 23683,
+      "text": "[C6:超究極難易度が登場]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_59132"
+    },
+    {
+      "id": 23684,
+      "text": "[b:ba_help_collabo_smile_00_3.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_59133"
+    },
+    {
+      "id": 23685,
+      "text": "[C5:超究極クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_59134"
+    },
+    {
+      "id": 23686,
+      "text": "[SGBI29320|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_59135"
+    },
+    {
+      "id": 23687,
+      "text": "このクエストではどのキャラも[LF]本来のラックに[C4:+99]された[C4:運極]状態で[LF]ラックボーナスが獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_59136"
+    },
+    {
+      "id": 23688,
+      "text": "[b:ba_help_collabo_smile_00_4.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_59137"
+    },
+    {
+      "id": 23689,
+      "text": "[SGBI29330|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_59138"
+    },
+    {
+      "id": 23690,
+      "text": "これらのクエストではどのキャラも[LF]本来のラックに[C4:+99]された[C4:運極]状態で[LF]ラックボーナスが獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_59139"
+    },
+    {
+      "id": 23691,
+      "text": "[IPJ12337]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_59220"
+    },
+    {
+      "id": 23692,
+      "text": "発進！グレートキンタ！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_59221"
+    },
+    {
+      "id": 23693,
+      "text": "[C5:超究極の出現について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_59327"
+    },
+    {
+      "id": 23694,
+      "text": "[C6:すべてのミッションをクリア]すると[LF]イベントに[C5:｢ヤベー女がきた｣]が降臨します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_59328"
+    },
+    {
+      "id": 23695,
+      "text": "[SGBI29330|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_59329"
+    },
+    {
+      "id": 23696,
+      "text": "さらに、[C6:EX!ミッション]が出現し[LF]クリアすると[C6:勲章]、[C6:英雄の書]を獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_59330"
+    },
+    {
+      "id": 23697,
+      "text": "[SW0.84][C6:ミニゲームをクリアして攻撃を成功させよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_59400"
+    },
+    {
+      "id": 23698,
+      "text": "[b:ba_help_collabo_smile_sb2_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_59401"
+    },
+    {
+      "id": 23699,
+      "text": "表示された[C6:数字を順番にタップ]して[LF]制限時間内に敵への攻撃を成功させましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_59402"
+    },
+    {
+      "id": 23700,
+      "text": "[C5:STAGEについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_59403"
+    },
+    {
+      "id": 23701,
+      "text": "STAGEは[C6:順番にクリア]する必要があり[LF][C6:1日1つずつ開放されて挑戦可能]になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_59404"
+    },
+    {
+      "id": 23702,
+      "text": "[SW0.9]STAGEクリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_59405"
+    },
+    {
+      "id": 23703,
+      "text": "10/6 開放",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403121,
+      "updated_at": 1759403121,
+      "label": "eTEXTS_DEF_59406"
+    },
+    {
+      "id": 23704,
+      "text": "[C6:挑戦可能]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403122,
+      "updated_at": 1759403122,
+      "label": "eTEXTS_DEF_59407"
+    },
+    {
+      "id": 23705,
+      "text": "[C5:報酬について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403122,
+      "updated_at": 1759403122,
+      "label": "eTEXTS_DEF_59408"
+    },
+    {
+      "id": 23706,
+      "text": "クリア報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403122,
+      "updated_at": 1759403122,
+      "label": "eTEXTS_DEF_59409"
+    },
+    {
+      "id": 23707,
+      "text": "初めてクリアした際に[C6:各STAGE報酬を獲得]できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403122,
+      "updated_at": 1759403122,
+      "label": "eTEXTS_DEF_59410"
+    },
+    {
+      "id": 23708,
+      "text": "チャレンジ報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403122,
+      "updated_at": 1759403122,
+      "label": "eTEXTS_DEF_59411"
+    },
+    {
+      "id": 23709,
+      "text": "さらに全STAGEをチャレンジタイム以内に[LF]クリアすると[C6:勲章などの報酬を獲得]できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403122,
+      "updated_at": 1759403122,
+      "label": "eTEXTS_DEF_59412"
+    },
+    {
+      "id": 23710,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20250928_1.html#13|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403122,
+      "updated_at": 1759403122,
+      "label": "eTEXTS_DEF_59413"
+    },
+    {
+      "id": 23711,
+      "text": "[IPJ12337]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1759403122,
+      "updated_at": 1759403122,
+      "label": "eTEXTS_DEF_59414"
+    },
+    {
+      "id": 23712,
+      "text": "[b:ba_help_collabo_smile_00_5.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59140"
+    },
+    {
+      "id": 23713,
+      "text": "[SGBI29340|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59141"
+    },
+    {
+      "id": 23714,
+      "text": "クリアすると[C6:ストライカーカード｢ダンダダン｣][LF]を獲得することが出来ます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59142"
+    },
+    {
+      "id": 23715,
+      "text": "※クエストボスの｢邪視の力 ジジ｣は[LF]入手できません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59143"
+    },
+    {
+      "id": 23716,
+      "text": "[SW0.92][C6:最大5体を選んで受け取れる★6確定ガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59500"
+    },
+    {
+      "id": 23717,
+      "text": "[b:ba_help_cp_13multi_ga_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1791461957,
+      "label": "eTEXTS_DEF_59501"
+    },
+    {
+      "id": 23718,
+      "text": "メンバー募集期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59502"
+    },
+    {
+      "id": 23719,
+      "text": "10/10 12:00～11/10 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59503"
+    },
+    {
+      "id": 23720,
+      "text": "ガチャ期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59504"
+    },
+    {
+      "id": 23721,
+      "text": "10/10 12:00～11/11 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59505"
+    },
+    {
+      "id": 23722,
+      "text": "受取期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59506"
+    },
+    {
+      "id": 23723,
+      "text": "10/10 12:00～11/15 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59507"
+    },
+    {
+      "id": 23724,
+      "text": "轟絶感謝マルチガチャは[C6:最大4人のマルチ]で[LF]引くことができる[C6:★6確定の無料のガチャ]です[LF][LF]ガチャ参加人数+1体のキャラが受け取れるため[LF]マルチだと[C6:最大5体のキャラを獲得]可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59508"
+    },
+    {
+      "id": 23725,
+      "text": "[C5:引き方①ソロ、マルチの選択]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59509"
+    },
+    {
+      "id": 23726,
+      "text": "まずは[C6:ソロ]か[C6:マルチ]かの選択をしましょう[LF]マルチの場合、[C6:メンバーの募集または検索]、[LF]いずれかの方法でメンバーを決定することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59510"
+    },
+    {
+      "id": 23727,
+      "text": "※一度メンバーを決定すると変更はできません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59511"
+    },
+    {
+      "id": 23728,
+      "text": "[C5:引き方②ガチャの選択]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59512"
+    },
+    {
+      "id": 23729,
+      "text": "[C6:16種類]のガチャの中から、[C6:1つだけ選択]して[LF]ガチャを引きましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1791461957,
+      "label": "eTEXTS_DEF_59513"
+    },
+    {
+      "id": 23730,
+      "text": "[C5:引き方③ガチャを引こう]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59514"
+    },
+    {
+      "id": 23731,
+      "text": "[C6:10体の★6キャラ]が候補として選ばれます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59515"
+    },
+    {
+      "id": 23732,
+      "text": "結果",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59516"
+    },
+    {
+      "id": 23733,
+      "text": "[IP12556]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1791461957,
+      "label": "eTEXTS_DEF_59517"
+    },
+    {
+      "id": 23734,
+      "text": "[IP12507]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1791461957,
+      "label": "eTEXTS_DEF_59518"
+    },
+    {
+      "id": 23735,
+      "text": "[IP12779]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1791461957,
+      "label": "eTEXTS_DEF_59519"
+    },
+    {
+      "id": 23736,
+      "text": "[IP11687]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1791461957,
+      "label": "eTEXTS_DEF_59520"
+    },
+    {
+      "id": 23737,
+      "text": "[IP12610]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1791461957,
+      "label": "eTEXTS_DEF_59521"
+    },
+    {
+      "id": 23738,
+      "text": "[IP12923]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1791461957,
+      "label": "eTEXTS_DEF_59522"
+    },
+    {
+      "id": 23739,
+      "text": "[IP12511]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1791461957,
+      "label": "eTEXTS_DEF_59523"
+    },
+    {
+      "id": 23740,
+      "text": "[IP12922]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1791461957,
+      "label": "eTEXTS_DEF_59524"
+    },
+    {
+      "id": 23741,
+      "text": "[IP9516]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1791461957,
+      "label": "eTEXTS_DEF_59525"
+    },
+    {
+      "id": 23742,
+      "text": "[IP12625]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1791461957,
+      "label": "eTEXTS_DEF_59526"
+    },
+    {
+      "id": 23743,
+      "text": "OK",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59527"
+    },
+    {
+      "id": 23744,
+      "text": "[C5:キャラの受け取りについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59528"
+    },
+    {
+      "id": 23745,
+      "text": "[C6:自身]と[C6:メンバーのガチャ結果]の中から[LF]キャラを選択して受け取ることができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59529"
+    },
+    {
+      "id": 23746,
+      "text": "ソロで引いた場合",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59530"
+    },
+    {
+      "id": 23747,
+      "text": "[C6:10体]の中から[C6:2体]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59531"
+    },
+    {
+      "id": 23748,
+      "text": "マルチで引いた場合",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59532"
+    },
+    {
+      "id": 23749,
+      "text": "2人の場合：[C6:20体]の中から[C6:3体]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59533"
+    },
+    {
+      "id": 23750,
+      "text": "3人の場合：[C6:30体]の中から[C6:4体]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59534"
+    },
+    {
+      "id": 23751,
+      "text": "4人の場合：[C6:40体]の中から[C6:5体]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59535"
+    },
+    {
+      "id": 23752,
+      "text": "キャラの選択は、特定のメンバーから[LF][C6:複数体選択]することも可能です[LF][LF]期間内に忘れずにキャラを受け取りをしましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59536"
+    },
+    {
+      "id": 23753,
+      "text": "受け取る",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59537"
+    },
+    {
+      "id": 23754,
+      "text": "欲しいキャラを選択",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59538"
+    },
+    {
+      "id": 23755,
+      "text": "受け取るキャラを体数分選択しましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59539"
+    },
+    {
+      "id": 23756,
+      "text": "あなた",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59540"
+    },
+    {
+      "id": 23757,
+      "text": "[C2:「轟絶感謝 RED STARS」]を選択しました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59541"
+    },
+    {
+      "id": 23758,
+      "text": "[IP9188]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1791461957,
+      "label": "eTEXTS_DEF_59542"
+    },
+    {
+      "id": 23759,
+      "text": "[IP12082]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1791461957,
+      "label": "eTEXTS_DEF_59543"
+    },
+    {
+      "id": 23760,
+      "text": "[IP11157]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1791461957,
+      "label": "eTEXTS_DEF_59544"
+    },
+    {
+      "id": 23761,
+      "text": "[IP12002]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1791461957,
+      "label": "eTEXTS_DEF_59545"
+    },
+    {
+      "id": 23762,
+      "text": "[IP12374]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1791461957,
+      "label": "eTEXTS_DEF_59546"
+    },
+    {
+      "id": 23763,
+      "text": "[IP12931]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1791461957,
+      "label": "eTEXTS_DEF_59547"
+    },
+    {
+      "id": 23764,
+      "text": "[IP11731]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1791461957,
+      "label": "eTEXTS_DEF_59548"
+    },
+    {
+      "id": 23765,
+      "text": "[IP9345]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1791461957,
+      "label": "eTEXTS_DEF_59549"
+    },
+    {
+      "id": 23766,
+      "text": "[IP12221]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1791461957,
+      "label": "eTEXTS_DEF_59550"
+    },
+    {
+      "id": 23767,
+      "text": "[IP12749]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1791461957,
+      "label": "eTEXTS_DEF_59551"
+    },
+    {
+      "id": 23768,
+      "text": "モンスト太郎さん",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59552"
+    },
+    {
+      "id": 23769,
+      "text": "[C5:「轟絶感謝 水の遊宴」]を選択しました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59553"
+    },
+    {
+      "id": 23770,
+      "text": "[IP12223]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1791461957,
+      "label": "eTEXTS_DEF_59554"
+    },
+    {
+      "id": 23771,
+      "text": "[IP12278]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1791461957,
+      "label": "eTEXTS_DEF_59555"
+    },
+    {
+      "id": 23772,
+      "text": "[IP11795]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1791461957,
+      "label": "eTEXTS_DEF_59556"
+    },
+    {
+      "id": 23773,
+      "text": "[IP12869]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1791461957,
+      "label": "eTEXTS_DEF_59557"
+    },
+    {
+      "id": 23774,
+      "text": "[IP11664]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1791461957,
+      "label": "eTEXTS_DEF_59558"
+    },
+    {
+      "id": 23775,
+      "text": "[IP12376]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1791461957,
+      "label": "eTEXTS_DEF_59559"
+    },
+    {
+      "id": 23776,
+      "text": "[IP12777]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1791461957,
+      "label": "eTEXTS_DEF_59560"
+    },
+    {
+      "id": 23777,
+      "text": "[IP12342]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1791461957,
+      "label": "eTEXTS_DEF_59561"
+    },
+    {
+      "id": 23778,
+      "text": "[IP9407]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1791461957,
+      "label": "eTEXTS_DEF_59562"
+    },
+    {
+      "id": 23779,
+      "text": "[IP12605]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1791461957,
+      "label": "eTEXTS_DEF_59563"
+    },
+    {
+      "id": 23780,
+      "text": "選択可能キャラ数：あと[C6:0体]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59564"
+    },
+    {
+      "id": 23781,
+      "text": "決定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59565"
+    },
+    {
+      "id": 23782,
+      "text": "閉じる",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59566"
+    },
+    {
+      "id": 23783,
+      "text": "※ガチャを引き終わっていない[LF]　メンバーのキャラを受け取ることはできません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59567"
+    },
+    {
+      "id": 23784,
+      "text": "[C5:選べるガチャについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008717,
+      "updated_at": 1760008717,
+      "label": "eTEXTS_DEF_59568"
+    },
+    {
+      "id": 23785,
+      "text": "13周年轟絶感謝マルチガチャでは[LF]轟絶感謝 彩・獣神祭が追加され、[LF]全部で[C6:16種類]から[C6:1つ]だけ選んで引くことができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008718,
+      "updated_at": 1791461957,
+      "label": "eTEXTS_DEF_59569"
+    },
+    {
+      "id": 23786,
+      "text": "[C2:・轟絶感謝 RED STARS][LF][C5:・轟絶感謝 水の遊宴][LF][C4:・轟絶感謝 グリーンファンタジー][LF][C6:・轟絶感謝 STARLIGHT MIRAGE][LF][C3:・轟絶感謝 ミッドナイト・パーティー][LF]・轟絶感謝 超・獣神祭[LF]・轟絶感謝 激・獣神祭[LF]・轟絶感謝 彩・獣神祭[LF]・轟絶感謝 モンコレDX[LF]・轟絶感謝 モンストジェネレーション 2013＆2014[LF]・轟絶感謝 モンストジェネレーション 2015[LF]・轟絶感謝 モンストジェネレーション 2016[LF]・轟絶感謝 モンストジェネレーション 2017[LF]・轟絶感謝 モンストジェネレーション 2018[LF]・轟絶感謝 モンストジェネレーション 2019[LF]・轟絶感謝 オリエンタル・トラベラーズ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008718,
+      "updated_at": 1791461957,
+      "label": "eTEXTS_DEF_59570"
+    },
+    {
+      "id": 23787,
+      "text": "※轟絶感謝 彩・獣神祭から「彩卵」は排出されません[LF]※詳細は[u:https://www.monster-strike.com/news/20260927_1.html#2|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008718,
+      "updated_at": 1791461957,
+      "label": "eTEXTS_DEF_59571"
+    },
+    {
+      "id": 23788,
+      "text": "キャラが未選択です",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1760008718,
+      "updated_at": 1760008718,
+      "label": "eTEXTS_DEF_MSG_SELECT_MULTI_GACHA_NO_SELECT"
+    },
+    {
+      "id": 23789,
+      "text": "選択内容を破棄してこの画面を離れますか？",
+      "layout": 29,
+      "color": 0,
+      "created_at": 1760008718,
+      "updated_at": 1760008718,
+      "label": "eTEXTS_DEF_MSG_SELECT_MULTI_GACHA_SELECT_CLOSE"
+    },
+    {
+      "id": 23790,
+      "text": "キャラの受取可能数が[LF]上限に達していません[LF][LF]期限内に忘れずにお受け取りください",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1760008718,
+      "updated_at": 1760008718,
+      "label": "eTEXTS_DEF_MSG_SELECT_MULTI_GACHA_SELECT_AGAIN"
+    },
+    {
+      "id": 23791,
+      "text": "これ以上選択できません",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1760008718,
+      "updated_at": 1760008718,
+      "label": "eTEXTS_DEF_MSG_SELECT_MULTI_GACHA_SELECT_OVER"
+    },
+    {
+      "id": 23792,
+      "text": "ガチャ結果を確認して受け取ろう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008718,
+      "updated_at": 1760008718,
+      "label": "eTEXTS_DEF_ME_SELECT_MULTI_GACHA_SOLO_PLAYER_LIST_TITLE"
+    },
+    {
+      "id": 23793,
+      "text": "受取済み：%d/[C6:%d]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008718,
+      "updated_at": 1760008718,
+      "label": "eTEXTS_DEF_ME_SELECT_MULTI_GACHA_RECEIVE_CNT"
+    },
+    {
+      "id": 23794,
+      "text": "選択可能キャラ数：あと[C6:%d体]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008718,
+      "updated_at": 1760008718,
+      "label": "eTEXTS_DEF_ME_SELECT_MULTI_GACHA_RECEIVE_CNT_DIALOG"
+    },
+    {
+      "id": 23795,
+      "text": "あなた",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008718,
+      "updated_at": 1760008718,
+      "label": "eTEXTS_DEF_ME_SELECT_MULTI_GACHA_SELF_NAME"
+    },
+    {
+      "id": 23796,
+      "text": "ガチャをまだ引いていません\t",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008718,
+      "updated_at": 1760008718,
+      "label": "eTEXTS_DEF_ME_SELECT_MULTI_GACHA_NOT_GACHA_CONFIRM"
+    },
+    {
+      "id": 23797,
+      "text": "[C%d:「%s」]を選択しました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008718,
+      "updated_at": 1760008718,
+      "label": "eTEXTS_DEF_ME_SELECT_MULTI_GACHA_SELECT_GACHA_NAME"
+    },
+    {
+      "id": 23798,
+      "text": "さん",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008718,
+      "updated_at": 1760008718,
+      "label": "eTEXTS_DEF_ME_SELECT_MULTI_GACHA_USER_TITLE"
+    },
+    {
+      "id": 23799,
+      "text": "すべてのメンバーが[LF]ガチャを引き終わっていません[LF][LF]キャラ選択に進んでよろしいですか？",
+      "layout": 29,
+      "color": 0,
+      "created_at": 1760008718,
+      "updated_at": 1760008718,
+      "label": "eTEXTS_DEF_MSG_SELECT_MULTI_GACHA_NOT_PLAY_ALL_MEMBER"
+    },
+    {
+      "id": 23800,
+      "text": "[LC]ガチャ確認[LF][LF][LC]「ソロでガチャる！」を選択しました。[LF][LF][LC]本当によろしいですか？",
+      "layout": 8,
+      "color": 1,
+      "created_at": 1760008718,
+      "updated_at": 1760008718,
+      "label": "eTEXTS_DEF_MSG_MULTIGACHA_SOLO_CONFIRM_SOLO_ONLY"
+    },
+    {
+      "id": 23801,
+      "text": "結果",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760008718,
+      "updated_at": 1760008718,
+      "label": "eTEXTS_DEF_ME_SELECT_MULTI_GACHA_GACHA_TITLE"
+    },
+    {
+      "id": 23802,
+      "text": "ガチャ結果が更新されました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1760008718,
+      "updated_at": 1760008718,
+      "label": "eTEXTS_DEF_MSG_SELECT_MULTI_GACHA_REFRESH_LIST"
+    },
+    {
+      "id": 23803,
+      "text": "現在ROOM機能の提供は[LF]終了しています",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_MSG_ROOM_END_DIALOG"
+    },
+    {
+      "id": 23804,
+      "text": "[LC][C2:◆◆　警告　◆◆][LF][LF][LC][NODE][LF]特級ELの実を食べたモンスターが[LF]含まれています[LF][LF]特級ELの実が失われますが、[LF]本当によろしいですか？",
+      "layout": 8,
+      "color": 1,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_ME_NATURAL_SPECIAL_EL_WARNING"
+    },
+    {
+      "id": 23805,
+      "text": "真獣神玉の[C6:所持上限がUP]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_10838"
+    },
+    {
+      "id": 23806,
+      "text": "｢真獣神玉を求めて｣の[C6:宝箱が2つ追加]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_10839"
+    },
+    {
+      "id": 23807,
+      "text": "[LC]ミラクルミン無料[LF][LF][LC][FSIZE:20][C6:ミラクルミン無料CP開催中！][LF][LF][LC][NODE][LF][LC]ミラクルミンで[LF][LC][C4:HPを全回復]しますか？[LF][LF]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_INGAME_MSG_REVIVE_FREE_CAMPAIGN"
+    },
+    {
+      "id": 23808,
+      "text": "[IMG:uiitem_0041.png]1日1回無料！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_ME_FREE_REVIVE_CAMPAIGN"
+    },
+    {
+      "id": 23809,
+      "text": "1日1回無料！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_ME_FREE_REVIVE_CAMPAIGN_INGAME"
+    },
+    {
+      "id": 23810,
+      "text": "黎絶",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_11022"
+    },
+    {
+      "id": 23811,
+      "text": "[C6:60]pt",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_11023"
+    },
+    {
+      "id": 23812,
+      "text": "制覇",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_MSG_SHADOW_TOWER_FIRST_CLEAR"
+    },
+    {
+      "id": 23813,
+      "text": "1度のみ獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_MSG_SHADOW_TOWER_FIRST_CLEAR_ONLY_NOTE"
+    },
+    {
+      "id": 23814,
+      "text": "[LC]獲得報酬[LF][LF][LC]以下の報酬を獲得しました[LF][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_SHADOW_TOWER_RESULT_GET_REWARD_DIALOG"
+    },
+    {
+      "id": 23815,
+      "text": "[LC]キャンセル確認[LF][LF]キャラにつけるわくわくの実も[LF]未選択に戻ります[LF][LF]よろしいですか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_MSG_RESULT_GEMBOX_CANCEL"
+    },
+    {
+      "id": 23816,
+      "text": "[S2][LC]わくわくの力を預けますか？[LF][LF][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_MSG_RESULT_GEMBOX_ASK_CHANGE_INFO"
+    },
+    {
+      "id": 23817,
+      "text": "残りを預ける",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_ME_RESULT_GEMBOX_STOCK"
+    },
+    {
+      "id": 23818,
+      "text": "預けられるわくわくの実がありません",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_GEM_RESULT_BANK_REMAINING_0"
+    },
+    {
+      "id": 23819,
+      "text": "選択できるわくわくの力",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_ME_RESULT_GEM__BANK_LABEL_CHOICE_GEM"
+    },
+    {
+      "id": 23820,
+      "text": "完了",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_RESULT_GEM_BANK_CHANGE_COMPLETE_BUTTON"
+    },
+    {
+      "id": 23821,
+      "text": "[C5:英雄の神殿について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_58119"
+    },
+    {
+      "id": 23822,
+      "text": "英雄の神殿でキャラが獲得しなかった[LF]わくわくの力も[C6:BANKに預けることができます]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_58120"
+    },
+    {
+      "id": 23823,
+      "text": "[C6:預かり可能]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_58121"
+    },
+    {
+      "id": 23824,
+      "text": "[C10:空き]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_58122"
+    },
+    {
+      "id": 23825,
+      "text": "キャラがわくわくの力を獲得せず[LF]預けるのみでも、[C6:排出状況はリセット]されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_58123"
+    },
+    {
+      "id": 23826,
+      "text": "95/96",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_58124"
+    },
+    {
+      "id": 23827,
+      "text": "0/96",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_58125"
+    },
+    {
+      "id": 23828,
+      "text": "[LC]選択できるわくわくの力から[LF][LC]1つ以上選択してください",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_RESULT_GEM_TRANSFER_BANK_TOAST_SLOT_CAUTION_PLEASE_SELECTED"
+    },
+    {
+      "id": 23829,
+      "text": "[S2][LC]この力で決定しますか？[LF][LF-20][NODE][LF]%s%s[LF-10]",
+      "layout": 29,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_MSG_GEM_CONVERT_WARUNING3"
+    },
+    {
+      "id": 23830,
+      "text": "[LF][LF][LC][NODE][LF][LF][LC][C6:排出対象外のわくわくの実がリセットされました][LF][LC][C6:特級以上の実が再び排出されるようになります][LF]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_ME_GEMBOX_NOCHANGE"
+    },
+    {
+      "id": 23831,
+      "text": "[LC]デッキ編成について[LF][LF][CCB:dlme/help_deck_building_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_TEAM_MONSTER_SELECT_HELP"
+    },
+    {
+      "id": 23832,
+      "text": "[C6:デッキを編成するには？]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_60200"
+    },
+    {
+      "id": 23833,
+      "text": "[b:ba_help_deck_building_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_60201"
+    },
+    {
+      "id": 23834,
+      "text": "好きなキャラを選んで[LF]クエストに挑むデッキを組むことができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_60202"
+    },
+    {
+      "id": 23835,
+      "text": "[C5:デッキ編成画面について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_60203"
+    },
+    {
+      "id": 23836,
+      "text": "キャラの入れ替え",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_60204"
+    },
+    {
+      "id": 23837,
+      "text": "[C6:キャラのパネルを選択]することで、[LF][C6:他のキャラと入れ替える]ことができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_60205"
+    },
+    {
+      "id": 23838,
+      "text": "[IP11733]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_60206"
+    },
+    {
+      "id": 23839,
+      "text": "一括編成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_60207"
+    },
+    {
+      "id": 23840,
+      "text": "[C6:3体のキャラをまとめて、][LF][C6:他のキャラと入れ替える]ことができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_60208"
+    },
+    {
+      "id": 23841,
+      "text": "[IP10592]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_60209"
+    },
+    {
+      "id": 23842,
+      "text": "[IP10969]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_60210"
+    },
+    {
+      "id": 23843,
+      "text": "フレンド使用キャラ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_60211"
+    },
+    {
+      "id": 23844,
+      "text": "設定するとソロプレイをする際に[LF][C6:４体目の助っ人として使える]ようになります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_60212"
+    },
+    {
+      "id": 23845,
+      "text": "[IP12123]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_60213"
+    },
+    {
+      "id": 23846,
+      "text": "設定したキャラは[C6:フレンドや][LF][C6:他プレイヤーにも使われる]ようになります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_60214"
+    },
+    {
+      "id": 23847,
+      "text": "デッキ一覧",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_60215"
+    },
+    {
+      "id": 23848,
+      "text": "デッキを[C6:一覧]で確認することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_60216"
+    },
+    {
+      "id": 23849,
+      "text": "デッキ1",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_60217"
+    },
+    {
+      "id": 23850,
+      "text": "デッキ2",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_60218"
+    },
+    {
+      "id": 23851,
+      "text": "デッキ名",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_60219"
+    },
+    {
+      "id": 23852,
+      "text": "デッキに[C6:好みの名前]をつけることができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_60220"
+    },
+    {
+      "id": 23853,
+      "text": "お気に入り",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_60221"
+    },
+    {
+      "id": 23854,
+      "text": "各属性の最新設定キャラ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_EXTRA_FRIEND_SLOT_DESCRIPTION"
+    },
+    {
+      "id": 23855,
+      "text": "注目",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_EVENT_STAGE_TAB_PICKUP"
+    },
+    {
+      "id": 23856,
+      "text": "絶級",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_EVENT_STAGE_TAB_ZETSUKYU"
+    },
+    {
+      "id": 23857,
+      "text": "未クリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_EVENT_STAGE_TAB_NOT_CLEAR"
+    },
+    {
+      "id": 23858,
+      "text": "すべて",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_EVENT_STAGE_TAB_ALL"
+    },
+    {
+      "id": 23859,
+      "text": "持ち時間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_STAGE_BUTTON_PLAYABLE_TIME_TITLE"
+    },
+    {
+      "id": 23860,
+      "text": "何度でもプレイ可能",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_STAGE_BUTTON_ADDITIONAL_INFO_NO_LIMIT"
+    },
+    {
+      "id": 23861,
+      "text": "1回のみプレイ可能",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_STAGE_BUTTON_ADDITIONAL_INFO_ONE"
+    },
+    {
+      "id": 23862,
+      "text": "[GIMMICK:回転ランチャー][LF][LC][b:tips_stage_capture_40.png|2.1][LF][LF]味方のまわりを矢印が回転し、キャラをひっぱると停止する[LF][LF]最初にふれた味方を矢印の方向にショットする[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1758793852,
+      "updated_at": 1758793852,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_126"
+    },
+    {
+      "id": 23863,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LC][b:tips_stage_capture_40.png][LF]味方のまわりを矢印が回転し、キャラをひっぱると停止する[LF][LF]最初にふれた味方を矢印の方向にショットする",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1758793852,
+      "updated_at": 1758793852,
+      "label": "eTEXTS_DEF_200351"
+    },
+    {
+      "id": 23864,
+      "text": "[LF][MARGIN16][LC][b:tips_stage_capture_40.png][LF]味方のまわりを矢印が回転し、[LF]キャラをひっぱると停止する[LF]最初にふれた味方を矢印の方向にショットする",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1758793852,
+      "updated_at": 1791909060,
+      "label": "eTEXTS_DEF_200352"
+    },
+    {
+      "id": 23865,
+      "text": "1日%d回プレイ可能",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_STAGE_BUTTON_ADDITIONAL_INFO_NUM"
+    },
+    {
+      "id": 23866,
+      "text": "1回のみプレイ可能",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_STAGE_BUTTON_ADDITIONAL_INFO_PERIOD_ONE"
+    },
+    {
+      "id": 23867,
+      "text": "クエストチケットを消費してプレイ可能",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_STAGE_BUTTON_ADDITIONAL_INFO_TICKET"
+    },
+    {
+      "id": 23868,
+      "text": "バトルカードを消費してプレイ可能",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_STAGE_BUTTON_ADDITIONAL_INFO_CARD"
+    },
+    {
+      "id": 23869,
+      "text": "[LC]持ち時間がありません",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_MSG_MULTI_NO_PLAYABLE_TIME"
+    },
+    {
+      "id": 23870,
+      "text": "対象クエストの持ち時間がないため[LF]挑戦できません",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1765385554,
+      "label": "eTEXTS_DEF_MSG_NO_PLAYABLE_TIME"
+    },
+    {
+      "id": 23871,
+      "text": "タイムシフト中",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_HOME_TIMESHIFT_LABEL"
+    },
+    {
+      "id": 23872,
+      "text": "※持ち時間が12時にリセットされます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_ME_MSG_QUEST_GODEVO_INFO_CAUTION_PLAYABLE_TIME"
+    },
+    {
+      "id": 23873,
+      "text": "復活後：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_DIALOG_REVIVE_AFETER"
+    },
+    {
+      "id": 23874,
+      "text": "[LC]クエストの復活[LF][WIDTH540][LF][C6:トラベルベル]を使用または[C6:CMを視聴]して[LF]下記のクエストを復活させますか？[LF][LF][NODE][LF][LF]※復活後の挑戦期限は[C6:3時間]です",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_MSG_TIMESHIFT_USE_ITEM_PLAYABLE_TIME"
+    },
+    {
+      "id": 23875,
+      "text": "[LC]クエストの復活[LF][WIDTH540][LF][C6:オーブ]を使用し、下記のクエストを[LF]復活させますか？%s[LF][LF][NODE][LF][LF]※復活後の挑戦期限は[C6:3時間]です[LF][LF-15][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_MSG_TIMESHIFT_USE_ORB_PLAYABLE_TIME"
+    },
+    {
+      "id": 23876,
+      "text": "[LC]クエストの復活[LF][WIDTH540][LF]このクエストの[C6:持ち時間]が不足しています[LF][LF][C6:トラベルベル]を使用または[C6:CMを視聴]して[LF]クエストを復活させますか？[LF][LF][NODE][LF][LF]※復活後の挑戦期限は[C6:3時間]です",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_MSG_TIMESHIFT_USE_ITEM_GUEST_PLAYABLE_TIME"
+    },
+    {
+      "id": 23877,
+      "text": "[LC]クエストの復活[LF][WIDTH540][LF]このクエストの[C6:持ち時間]が不足しています[LF][LF][C6:オーブ]を使用して、クエストを[LF]復活させますか？%s[LF][LF][NODE][LF][LF]※復活後の挑戦期限は[C6:3時間]です[LF][LF-15][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_MSG_TIMESHIFT_USE_ORB_GUEST_PLAYABLE_TIME"
+    },
+    {
+      "id": 23878,
+      "text": "[LC]クエストの復活[LF][WIDTH540][LF][C6:CMを視聴して]、下記のクエストを[LF]復活させますか？[LF][LF][NODE][LF][LF]※復活後の挑戦期限は[C6:3時間]です",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_MSG_TIMESHIFT_USE_CM_PLAYABLE_TIME"
+    },
+    {
+      "id": 23879,
+      "text": "[LC]クエストの復活[LF][WIDTH540][LF]このクエストの[C6:持ち時間]が不足しています[LF][LF][C6:CMを視聴して]、クエストを[LF]復活させますか？[LF][LF][NODE][LF][LF]※復活後の挑戦期限は[C6:3時間]です",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_MSG_TIMESHIFT_USE_CM_GUEST_PLAYABLE_TIME"
+    },
+    {
+      "id": 23880,
+      "text": "現在挑戦可能なクエストはありません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_ME_STAGE_TAB_ERROR1"
+    },
+    {
+      "id": 23881,
+      "text": "予約したクエストが%dつ登場しました！！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_OTHER_NOTIFY_EVENT_STAGE_SUM"
+    },
+    {
+      "id": 23882,
+      "text": "出現中クエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1760470638,
+      "updated_at": 1760470638,
+      "label": "eTEXTS_DEF_ME_STAGE_GROUP_TITILE_EVENT_ARRIVAL_L"
+    }
+  ]
+}

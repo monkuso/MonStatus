@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 1,
+  "table": "texts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 15942,
+      "text": "※クリアでクラシック%d階、%d階の報酬を獲得可能",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_TOWER_NORMAL_SIDECAR_MESSAGE"
+    },
+    {
+      "id": 15943,
+      "text": "[LF][LF]%sの%u階、%sの%u階、[LF]いずれかをクリアで解放[LF][LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_NO_PLAY_TOWER_NORMAL_1"
+    },
+    {
+      "id": 15944,
+      "text": "[LF][LF]%sの%u階、%sの%u階、[LF]%sの%u階、いずれかをクリアで解放[LF][LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_NO_PLAY_TOWER_NORMAL_2"
+    },
+    {
+      "id": 15945,
+      "text": "[SW0.91][C6:最大4体を選んで受け取れる★6確定ガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_41300"
+    },
+    {
+      "id": 15946,
+      "text": "[b:ba_help_cp_10multi_ga_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_41301"
+    },
+    {
+      "id": 15947,
+      "text": "メンバー募集期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_41302"
+    },
+    {
+      "id": 15948,
+      "text": "10/6 12:00～11/12 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_41303"
+    },
+    {
+      "id": 15949,
+      "text": "ガチャ期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_41304"
+    },
+    {
+      "id": 15950,
+      "text": "10/6 12:00～11/13 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_41305"
+    },
+    {
+      "id": 15951,
+      "text": "受取期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_41306"
+    },
+    {
+      "id": 15952,
+      "text": "10/6 12:00～11/16 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_41307"
+    },
+    {
+      "id": 15953,
+      "text": "轟絶感謝マルチガチャは[C6:最大4人のマルチ]で[LF]引くことができる[C6:★6確定の無料ガチャ]です[LF][LF]マルチだと[C6:最大4体のキャラを獲得]することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_41308"
+    },
+    {
+      "id": 15954,
+      "text": "[C5:引き方① ソロ､マルチの選択]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_41309"
+    },
+    {
+      "id": 15955,
+      "text": "まずは[C6:ソロ]か[C6:マルチ]かの選択をしましょう[LF]マルチの場合、[C6:メンバーの募集または検索]、[LF]いずれかの方法でメンバーを決定することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_41310"
+    },
+    {
+      "id": 15956,
+      "text": "※一度メンバーを決定すると変更はできません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_41311"
+    },
+    {
+      "id": 15957,
+      "text": "[C5:引き方② ガチャの選択]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_41312"
+    },
+    {
+      "id": 15958,
+      "text": "[C6:12種類]のガチャの中から、[C6:1つだけ選択]して[LF]ガチャを引きましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_41313"
+    },
+    {
+      "id": 15959,
+      "text": "[C5:引き方③ ガチャを引こう]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_41314"
+    },
+    {
+      "id": 15960,
+      "text": "[C6:10体の★6キャラ]が候補として選ばれ[LF]その中から[C6:1体]を選択して受け取ることができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_41315"
+    },
+    {
+      "id": 15961,
+      "text": "キャラクターを[C6:1体]選ぼう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_41316"
+    },
+    {
+      "id": 15962,
+      "text": "[IPJ4460]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_41317"
+    },
+    {
+      "id": 15963,
+      "text": "[IPJ10549]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_41318"
+    },
+    {
+      "id": 15964,
+      "text": "[IPJ8692]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_41319"
+    },
+    {
+      "id": 15965,
+      "text": "[IPJ8779]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_41320"
+    },
+    {
+      "id": 15966,
+      "text": "[IPJ9060]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_41321"
+    },
+    {
+      "id": 15967,
+      "text": "[IPJ9701]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_41322"
+    },
+    {
+      "id": 15968,
+      "text": "[IPJ10013]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_41323"
+    },
+    {
+      "id": 15969,
+      "text": "[IPJ10214]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_41324"
+    },
+    {
+      "id": 15970,
+      "text": "[IPJ10359]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_41325"
+    },
+    {
+      "id": 15971,
+      "text": "[IPJ8440]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_41326"
+    },
+    {
+      "id": 15972,
+      "text": "このキャラにする",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_41327"
+    },
+    {
+      "id": 15973,
+      "text": "[C5:メンバーのキャラの受け取りについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_41328"
+    },
+    {
+      "id": 15974,
+      "text": "メンバーが[C6:ガチャを引き終わると]、[LF][C6:各メンバーが引いた10体の候補]の中から[LF][C6:1体ずつ]キャラを受け取ることができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_41329"
+    },
+    {
+      "id": 15975,
+      "text": "受け取る",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_41330"
+    },
+    {
+      "id": 15976,
+      "text": "欲しいキャラを選ぼう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_41331"
+    },
+    {
+      "id": 15977,
+      "text": "モンスト太郎さんは[LF][C6:｢轟絶感謝 超・獣神祭｣]を選択しました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_41332"
+    },
+    {
+      "id": 15978,
+      "text": "キャラを1体選択してゲットしよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_41333"
+    },
+    {
+      "id": 15979,
+      "text": "[IPJ10293]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_41334"
+    },
+    {
+      "id": 15980,
+      "text": "[IPJ9914]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_41335"
+    },
+    {
+      "id": 15981,
+      "text": "[IPJ7863]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510545,
+      "updated_at": 1696510545,
+      "label": "eTEXTS_DEF_41336"
+    },
+    {
+      "id": 15982,
+      "text": "[IPJ8286]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510546,
+      "updated_at": 1696510546,
+      "label": "eTEXTS_DEF_41337"
+    },
+    {
+      "id": 15983,
+      "text": "[IPJ7855]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510546,
+      "updated_at": 1696510546,
+      "label": "eTEXTS_DEF_41338"
+    },
+    {
+      "id": 15984,
+      "text": "[IPJ9942]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510546,
+      "updated_at": 1696510546,
+      "label": "eTEXTS_DEF_41339"
+    },
+    {
+      "id": 15985,
+      "text": "[IPJ7457]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510546,
+      "updated_at": 1696510546,
+      "label": "eTEXTS_DEF_41340"
+    },
+    {
+      "id": 15986,
+      "text": "[IPJ10137]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510546,
+      "updated_at": 1696510546,
+      "label": "eTEXTS_DEF_41341"
+    },
+    {
+      "id": 15987,
+      "text": "[IPJ6932]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510546,
+      "updated_at": 1696510546,
+      "label": "eTEXTS_DEF_41342"
+    },
+    {
+      "id": 15988,
+      "text": "[IPJ7923]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510546,
+      "updated_at": 1696510546,
+      "label": "eTEXTS_DEF_41343"
+    },
+    {
+      "id": 15989,
+      "text": "受け取る",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510546,
+      "updated_at": 1696510546,
+      "label": "eTEXTS_DEF_41344"
+    },
+    {
+      "id": 15990,
+      "text": "閉じる",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510546,
+      "updated_at": 1696510546,
+      "label": "eTEXTS_DEF_41345"
+    },
+    {
+      "id": 15991,
+      "text": "※自身のガチャを引き終わらないと、[LF]　メンバーのキャラを受け取ることはできません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510546,
+      "updated_at": 1696510546,
+      "label": "eTEXTS_DEF_41346"
+    },
+    {
+      "id": 15992,
+      "text": "[C5:選べるガチャについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510546,
+      "updated_at": 1696510546,
+      "label": "eTEXTS_DEF_41347"
+    },
+    {
+      "id": 15993,
+      "text": "全部で[C6:12種類]から[C6:1つ]だけ選んで引くことができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510546,
+      "updated_at": 1696510546,
+      "label": "eTEXTS_DEF_41348"
+    },
+    {
+      "id": 15994,
+      "text": "[C2:・轟絶感謝 RED STARS][LF][C5:・轟絶感謝 水の遊宴][LF][C4:・轟絶感謝 グリーンファンタジー][LF][C6:・轟絶感謝 STARLIGHT MIRAGE][LF][C3:・轟絶感謝 ミッドナイト・パーティー][LF]・轟絶感謝 超・獣神祭[LF]・轟絶感謝 激・獣神祭[LF]・轟絶感謝 モンコレDX[LF]・轟絶感謝 オリエンタル・トラベラーズ[LF]・轟絶感謝 モンストジェネレーション 2016[LF]・轟絶感謝 モンストジェネレーション 2015[LF]・轟絶感謝 モンストジェネレーション 2013＆2014",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510546,
+      "updated_at": 1696510546,
+      "label": "eTEXTS_DEF_41349"
+    },
+    {
+      "id": 15995,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20231001_1.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1696510546,
+      "updated_at": 1696510546,
+      "label": "eTEXTS_DEF_41350"
+    },
+    {
+      "id": 15996,
+      "text": "[LC]報酬一覧[LF][LF][TAB:覇者の塔][NODE][TAB:シーズン][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1773179296,
+      "label": "eTEXTS_DEF_ME_MSG_SIDECAR_REWARD"
+    },
+    {
+      "id": 15997,
+      "text": "※2nd、3rdシーズンの%u階クリアでも獲得可能",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1761815694,
+      "label": "eTEXTS_DEF_ME_MSG_SIDECAR_REWARD_MESSAGE"
+    },
+    {
+      "id": 15998,
+      "text": "%s制覇",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_ME_MSG_SIDECAR_REWARD_SIDECAR_TITLE"
+    },
+    {
+      "id": 15999,
+      "text": "獲得可能回数:  %u/%u",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_ME_MSG_SIDECAR_REWARD_SIDECAR_COUNT"
+    },
+    {
+      "id": 16000,
+      "text": "※獲得可能回数が上限に達しました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_ME_MSG_SIDECAR_REWARD_SIDECAR_COMPLETE"
+    },
+    {
+      "id": 16001,
+      "text": "[LC]シーズン追加[LF][LF]覇者の塔シーズンズに[LF]新しいシーズンが追加されました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_ME_MSG_SIDECAR_START"
+    },
+    {
+      "id": 16002,
+      "text": "[LC]覇者の塔シーズンズとは[LF][LF][CCB:dlme/help_tower_season_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_ME_MSG_TOWER_HELP_2"
+    },
+    {
+      "id": 16003,
+      "text": "%s制覇回数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_PLAYRECORD_TOWER_COMPLETE_SIDECAR"
+    },
+    {
+      "id": 16004,
+      "text": "[LC]条件未達成[LF][LF]前回の絶級トーナメントの本戦で[LF]優勝していないため、参加できません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_MSG_SIDECAR_STAGE_ERR"
+    },
+    {
+      "id": 16005,
+      "text": "達成報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_SIDECAR_COMPLETE_RESULT"
+    },
+    {
+      "id": 16006,
+      "text": "[LC]物々引き換え解放[LF][LF]物々引き換えが解放されました[LF][LF][LC][IMG:all_exchange_recycle.png|1][LF][LF]※覇者の塔開催期間中のみ利用できます[LF]※覇者の塔トップ画面、[LF]　もしくは総合引き換え所から移動できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1699894501,
+      "label": "eTEXTS_DEF_SIDECAR_COMPLETE_RESULT_RELEASE_SHOP"
+    },
+    {
+      "id": 16007,
+      "text": "[LC]挑戦条件未達成[LF][LF]覇者の塔開催の直前の絶級トーナメントで[LF]本戦優勝することで挑戦可能になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_MSG_RECOMMEND_SIDECAR_ERROR"
+    },
+    {
+      "id": 16008,
+      "text": "印引き換え",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_ME_SIDECAR_EXCHANGE_TITLE"
+    },
+    {
+      "id": 16009,
+      "text": "[LC]印引き換えとは[LF][LF][CCB:dlme/help_seal_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1706752744,
+      "label": "eTEXTS_DEF_MSG_SIDECAR_EXCHANGE_HELP"
+    },
+    {
+      "id": 16010,
+      "text": "物々引き換え",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_ME_SIDECAR_LIMITED_EXCHANGE_TITLE"
+    },
+    {
+      "id": 16011,
+      "text": "[LC]物々引き換えとは[LF][LF][CCB:dlme/help_recycle_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_MSG_SIDECAR_LIMITED_EXCHANGE_HELP"
+    },
+    {
+      "id": 16012,
+      "text": "[LC]引き換え不可[LF][LF]覇者の塔シーズンズの3rdシーズンを制覇することで[LF]引き換え可能になります[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1761815694,
+      "label": "eTEXTS_DEF_MSG_SIDECAR_LIMITED_EXCHANGE_CANNOT_TRADE1"
+    },
+    {
+      "id": 16013,
+      "text": "[LC]引き換え不可[LF][LF]覇者の塔シーズンズの3rdシーズンを制覇することで[LF]引き換え可能になります[LF][LF]※覇者の塔シーズンズには覇者の塔開催直前の[LF]絶級トーナメントで本戦優勝することで挑戦できます[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1761815694,
+      "label": "eTEXTS_DEF_MSG_SIDECAR_LIMITED_EXCHANGE_CANNOT_TRADE2"
+    },
+    {
+      "id": 16014,
+      "text": "募集リストへ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1699894501,
+      "updated_at": 1699894501,
+      "label": "eTEXTS_DEF_STANDBY_CANCEL_GUEST"
+    },
+    {
+      "id": 16015,
+      "text": "%s 制覇回数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1699894501,
+      "updated_at": 1699894501,
+      "label": "eTEXTS_DEF_ME_PLAYERCARD_SIDECAR_FORMAT"
+    },
+    {
+      "id": 16016,
+      "text": "[LC]ステージ攻略のカギ[LF][LF][LC][b:tips_stage_capture_28.png][LF][C6:オーラの色に応じて]攻撃力が変化！[LF]壁にふれると色が変化する",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1695896463,
+      "updated_at": 1695896463,
+      "label": "eTEXTS_DEF_200340"
+    },
+    {
+      "id": 16017,
+      "text": "[LF][MARGIN16][LC][b:tips_stage_capture_28.png][LF][C6:オーラの色に応じて]攻撃力が変化！[LF]壁にふれると色が変化する",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1695896463,
+      "updated_at": 1791909060,
+      "label": "eTEXTS_DEF_200341"
+    },
+    {
+      "id": 16018,
+      "text": "[C32:本日の][LF-4][C32:パワー]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1699894501,
+      "updated_at": 1699894501,
+      "label": "eTEXTS_DEF_ME_MONSPOT_MY_SPOT_EFF_TITLE"
+    },
+    {
+      "id": 16019,
+      "text": "[C30:未設置]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1699894501,
+      "updated_at": 1699894501,
+      "label": "eTEXTS_DEF_ME_MONSPOT_MY_SPOT_EFF_NOT_SET"
+    },
+    {
+      "id": 16020,
+      "text": "申請",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1699894501,
+      "updated_at": 1699894501,
+      "label": "eTEXTS_DEF_ME_ADD_FUNC_FRIEND_CANDIDATE_TAB"
+    },
+    {
+      "id": 16021,
+      "text": "承認",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1699894501,
+      "updated_at": 1699894501,
+      "label": "eTEXTS_DEF_ME_ADD_FUNC_FRIEND_APPLOVAL_TAB"
+    },
+    {
+      "id": 16022,
+      "text": "最近遊んだストライカーがまだいません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1699894501,
+      "updated_at": 1699894501,
+      "label": "eTEXTS_DEF_ME_FRIEND_CANDIDATE_NOT_FOUND_REQUEST"
+    },
+    {
+      "id": 16023,
+      "text": "最近遊んだストライカー",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1699894501,
+      "updated_at": 1699894501,
+      "label": "eTEXTS_DEF_ME_FRIEND_CANDIDATE_SUB_TITLE"
+    },
+    {
+      "id": 16024,
+      "text": "フレンド申請してきたストライカー",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1699894501,
+      "updated_at": 1699894501,
+      "label": "eTEXTS_DEF_ME_FRIEND_APPLOVAL_SUB_TITLE"
+    },
+    {
+      "id": 16025,
+      "text": "[C6:申請してフレンドになろう]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1699894501,
+      "updated_at": 1699894501,
+      "label": "eTEXTS_DEF_28010"
+    },
+    {
+      "id": 16026,
+      "text": "[C5:フレンド申請について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1699894501,
+      "updated_at": 1699894501,
+      "label": "eTEXTS_DEF_28011"
+    },
+    {
+      "id": 16027,
+      "text": "フレンド申請には、[C6:マルチプレイを一緒にした][LF]または[LF][C6:助っ人で使用したストライカー]が表示されます[LF][LF][C6:申請して相手が承認する]と[LF][C6:フレンド]になることができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1699894501,
+      "updated_at": 1699894501,
+      "label": "eTEXTS_DEF_28012"
+    },
+    {
+      "id": 16028,
+      "text": "[C5:フレンド申請の上限数について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1699894501,
+      "updated_at": 1699894501,
+      "label": "eTEXTS_DEF_28013"
+    },
+    {
+      "id": 16029,
+      "text": "[C6:フレンド申請は20件まで]表示されます[LF][LF]21件以上ある場合は古いものから[LF]順次削除されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1699894501,
+      "updated_at": 1699894501,
+      "label": "eTEXTS_DEF_28014"
+    },
+    {
+      "id": 16030,
+      "text": "フレンド情報",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1699894501,
+      "updated_at": 1699894501,
+      "label": "eTEXTS_DEF_12750"
+    },
+    {
+      "id": 16031,
+      "text": "[C8:ストライカー：]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1699894501,
+      "updated_at": 1699894501,
+      "label": "eTEXTS_DEF_12751"
+    },
+    {
+      "id": 16032,
+      "text": "3",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1699894501,
+      "updated_at": 1699894501,
+      "label": "eTEXTS_DEF_12752"
+    },
+    {
+      "id": 16033,
+      "text": "[C8:フレンド　　：]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1699894501,
+      "updated_at": 1699894501,
+      "label": "eTEXTS_DEF_12753"
+    },
+    {
+      "id": 16034,
+      "text": "0",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1699894501,
+      "updated_at": 1699894501,
+      "label": "eTEXTS_DEF_12754"
+    },
+    {
+      "id": 16035,
+      "text": "方法3",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1699894501,
+      "updated_at": 1699894501,
+      "label": "eTEXTS_DEF_12755"
+    },
+    {
+      "id": 16036,
+      "text": "フレンドメニューから申請",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1699894501,
+      "updated_at": 1699894501,
+      "label": "eTEXTS_DEF_12756"
+    },
+    {
+      "id": 16037,
+      "text": "方法4",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1699894501,
+      "updated_at": 1699894501,
+      "label": "eTEXTS_DEF_12757"
+    },
+    {
+      "id": 16038,
+      "text": "フレンド依頼を承認",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1699894501,
+      "updated_at": 1699894501,
+      "label": "eTEXTS_DEF_12758"
+    },
+    {
+      "id": 16039,
+      "text": "申請",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1699894501,
+      "updated_at": 1699894501,
+      "label": "eTEXTS_DEF_12759"
+    },
+    {
+      "id": 16040,
+      "text": "承認",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1699894501,
+      "updated_at": 1699894501,
+      "label": "eTEXTS_DEF_12760"
+    },
+    {
+      "id": 16041,
+      "text": "フレンド申請・承認",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1699894501,
+      "updated_at": 1699894501,
+      "label": "eTEXTS_DEF_MAILFRIENDLIST_TITLE"
+    },
+    {
+      "id": 16042,
+      "text": "[LC]もしかして、以下のモンスターですか？[LF10][LC][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1699894501,
+      "updated_at": 1699894501,
+      "label": "eTEXTS_DEF_MSG_CHAR_BOX_SUGGEST"
+    },
+    {
+      "id": 16043,
+      "text": "ミッション%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133534,
+      "updated_at": 1700133534,
+      "label": "eTEXTS_DEF_PIANO_MISSION_REWARD_LIST_MISSION_TITLE"
+    },
+    {
+      "id": 16044,
+      "text": "[LC]解放確認[LF][LF]魔力を消費することで七陰のメンバーを[LF]解放することができます[LF][LC][NODE][LF]魔力を消費しますか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1700133534,
+      "updated_at": 1700133534,
+      "label": "eTEXTS_DEF_PIANO_UNLOCK_CHAR_DIALOG"
+    },
+    {
+      "id": 16045,
+      "text": "必要魔力",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133534,
+      "updated_at": 1700133534,
+      "label": "eTEXTS_DEF_PIANO_UNLOCK_CHAR_COST"
+    },
+    {
+      "id": 16046,
+      "text": "所持魔力",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133534,
+      "updated_at": 1700133534,
+      "label": "eTEXTS_DEF_PIANO_UNLOCK_CHAR_HOLD"
+    },
+    {
+      "id": 16047,
+      "text": "[LC]調査確認[LF][LF]調査完了まで[C6:8時間]かかります[LF]調査完了後に以下の報酬を獲得します[LF][LF][NODE][LF][HR][LF]%sの調査を開始してよろしいですか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1700133534,
+      "updated_at": 1700133534,
+      "label": "eTEXTS_DEF_PIANO_CHAR_INVESTIGATE_DIALOG"
+    },
+    {
+      "id": 16048,
+      "text": "解放されるミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133534,
+      "updated_at": 1700133534,
+      "label": "eTEXTS_DEF_PIANO_INVESTIGATE_UNLOCK_MISSION_REWARD_TITLE"
+    },
+    {
+      "id": 16049,
+      "text": "[C6:必要][IMG:uiitem_10090063.png|0.25]%s",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133534,
+      "updated_at": 1700133534,
+      "label": "eTEXTS_DEF_PIANO_UNLOCK_CHAR_COST_PANEL"
+    },
+    {
+      "id": 16050,
+      "text": "七陰を解放して調査を依頼しよう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133534,
+      "updated_at": 1700133534,
+      "label": "eTEXTS_DEF_PIANO_MISSION_DESCRIPTION"
+    },
+    {
+      "id": 16051,
+      "text": "[LC]調査が完了しました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1700133534,
+      "updated_at": 1700133534,
+      "label": "eTEXTS_DEF_PIANO_INVESTIGATE_END_DIALOG"
+    },
+    {
+      "id": 16052,
+      "text": "[LC]魔力が不足しています",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1700133534,
+      "updated_at": 1700133534,
+      "label": "eTEXTS_DEF_PIANO_COST_NOT_ENOUGH_DIALOG"
+    },
+    {
+      "id": 16053,
+      "text": "アルファ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133534,
+      "updated_at": 1700133534,
+      "label": "eTEXTS_DEF_PIANO_CHAR_1"
+    },
+    {
+      "id": 16054,
+      "text": "ベータ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133534,
+      "updated_at": 1700133534,
+      "label": "eTEXTS_DEF_PIANO_CHAR_2"
+    },
+    {
+      "id": 16055,
+      "text": "ガンマ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133534,
+      "updated_at": 1700133534,
+      "label": "eTEXTS_DEF_PIANO_CHAR_3"
+    },
+    {
+      "id": 16056,
+      "text": "デルタ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_PIANO_CHAR_4"
+    },
+    {
+      "id": 16057,
+      "text": "イプシロン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_PIANO_CHAR_5"
+    },
+    {
+      "id": 16058,
+      "text": "ゼータ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_PIANO_CHAR_6"
+    },
+    {
+      "id": 16059,
+      "text": "イータ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_PIANO_CHAR_7"
+    },
+    {
+      "id": 16060,
+      "text": "[LC]七陰解放[LF][LF]以下の報酬を獲得しました[LF][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_PIANO_UNLOCK_REWARD_DIALOG"
+    },
+    {
+      "id": 16061,
+      "text": "調査完了報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_PIANO_INVESTIGATE_REWARD_TITLE"
+    },
+    {
+      "id": 16062,
+      "text": "- : - -",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_PIANO_NOT_INVESTIGATING_TIME_LABEL"
+    },
+    {
+      "id": 16063,
+      "text": "%d:%02d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_PIANO_INVESTIGATING_TIME_LABEL"
+    },
+    {
+      "id": 16064,
+      "text": "七陰%d人調査で解放",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_PIANO_MISSION_LOCK_STATE"
+    },
+    {
+      "id": 16065,
+      "text": "シャドウ調査で解放",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700816531,
+      "updated_at": 1700816531,
+      "label": "eTEXTS_DEF_PIANO_MISSION_LOCK_STATE_SPECIAL"
+    },
+    {
+      "id": 16066,
+      "text": "%s解放",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_PIANO_UNLOCK_REWARD_TITLE"
+    },
+    {
+      "id": 16067,
+      "text": "調査・解放報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_PIANO_MISSION_REWARD_LIST_TITLE1"
+    },
+    {
+      "id": 16068,
+      "text": "ミッション報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_PIANO_MISSION_REWARD_LIST_TITLE2"
+    },
+    {
+      "id": 16069,
+      "text": "調査完了報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_PIANO_MISSION_REWARD_LIST_HEADLINE1"
+    },
+    {
+      "id": 16070,
+      "text": "七陰解放報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_PIANO_MISSION_REWARD_LIST_HEADLINE2"
+    },
+    {
+      "id": 16071,
+      "text": "11/17 12:00 ~ 12/5 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_PIANO_MISSION_PERIOD"
+    },
+    {
+      "id": 16072,
+      "text": "[LC]調査完了[LF][LF]以下の報酬を獲得しました[LF][LF][LC][NODE][LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_PIANO_MISSION_END_INVESTIGATION_DIALOG_NORMAL"
+    },
+    {
+      "id": 16073,
+      "text": "[LC]調査完了[LF][LF]以下の報酬を獲得しました[LF][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_PIANO_MISSION_END_INVESTIGATION_DIALOG_UNLOCK"
+    },
+    {
+      "id": 16074,
+      "text": "解放されたミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_PIANO_MISSION_END_INVESTIGATION_DIALOG_UNLOCK_TITLE"
+    },
+    {
+      "id": 16075,
+      "text": "[LC]七陰調査任務とは[LF][LF][IF_DATE|2023/11/17 12:00:00|2023/11/25 04:00:00][CCB:dlme/help_collabo_piano_sb1_00_1][ELSE][CCB:dlme/help_collabo_piano_sb1_00_2][ENDIF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_PIANO_HELP"
+    },
+    {
+      "id": 16076,
+      "text": "[C6:所持][IMG:uiitem_10090063.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_PIANO_ITEM_COUNT_PANEL"
+    },
+    {
+      "id": 16077,
+      "text": "[LC]ミッション達成！[LF][LF]以下の報酬を獲得しました[LF20][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_PIANO_MISSION_REWARD_DIALOG"
+    },
+    {
+      "id": 16078,
+      "text": "あと",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_PIANO_MISSION_TIME_LABEL"
+    },
+    {
+      "id": 16079,
+      "text": "調査依頼期間は終了しました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_PIANO_INVESTIGATE_PERIOD_END"
+    },
+    {
+      "id": 16080,
+      "text": "[LC]シャドウが調査に参加！[LF][LF]シャドウが調査に参加しました[LF][LC][NODE][LF]調査を依頼して新たなミッションを[LF]解放しよう！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1700816531,
+      "updated_at": 1700816531,
+      "label": "eTEXTS_DEF_PIANO_NEW_MISSION_ADDED"
+    },
+    {
+      "id": 16081,
+      "text": "[C6:コラボ限定ガチャ開催中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_41800"
+    },
+    {
+      "id": 16082,
+      "text": "[b:ba_help_collabo_piano_00_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_41801"
+    },
+    {
+      "id": 16083,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_41802"
+    },
+    {
+      "id": 16084,
+      "text": "11/17 12:00～12/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_41803"
+    },
+    {
+      "id": 16085,
+      "text": "[C5:コラボ限定ガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_41804"
+    },
+    {
+      "id": 16086,
+      "text": "ガチャ[C6:｢陰の実力者になりたくて！｣]が[LF]期間限定で開催中！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_41805"
+    },
+    {
+      "id": 16087,
+      "text": "[IPJ10881]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_41806"
+    },
+    {
+      "id": 16088,
+      "text": "[IPJ10879]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_41807"
+    },
+    {
+      "id": 16089,
+      "text": "[IPJ10875]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_41808"
+    },
+    {
+      "id": 16090,
+      "text": "[IPJ10873]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_41809"
+    },
+    {
+      "id": 16091,
+      "text": "また、[C6:本戦で優勝]することで、[LF]次回の[C6:覇者の塔シーズンズに挑戦可能]になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1697712066,
+      "updated_at": 1697712066,
+      "label": "eTEXTS_DEF_32550"
+    },
+    {
+      "id": 16092,
+      "text": "[C6:印と好きなアイテムを引き換え]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42400"
+    },
+    {
+      "id": 16093,
+      "text": "[b:ba_help_seal_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42401"
+    },
+    {
+      "id": 16094,
+      "text": "[C5:引き換え方法]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42402"
+    },
+    {
+      "id": 16095,
+      "text": "印引き換えでは[C6:勝者の印]や[C6:天魔の印]を使って[LF][C6:さまざまなアイテムやキャラと引き換え]ができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1706752744,
+      "label": "eTEXTS_DEF_42403"
+    },
+    {
+      "id": 16096,
+      "text": "[C5:勝者の印の入手方法]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42404"
+    },
+    {
+      "id": 16097,
+      "text": "覇者の塔シーズンズで[C6:シーズンのクエスト]を[LF]すべてクリアすると[C6:制覇報酬]として獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42405"
+    },
+    {
+      "id": 16098,
+      "text": "シーズン制覇！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42406"
+    },
+    {
+      "id": 16099,
+      "text": "[C6:ゲット！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42407"
+    },
+    {
+      "id": 16100,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20231102_3.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1706752744,
+      "label": "eTEXTS_DEF_42408"
+    },
+    {
+      "id": 16101,
+      "text": "[C6:アイテム同士を引き換え]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42500"
+    },
+    {
+      "id": 16102,
+      "text": "[b:ba_help_recycle_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42501"
+    },
+    {
+      "id": 16103,
+      "text": "[C5:引き換え方法]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42502"
+    },
+    {
+      "id": 16104,
+      "text": "物々引き換えでは[LF][C6:異なるアイテム同士の引き換え]ができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42503"
+    },
+    {
+      "id": 16105,
+      "text": "※引き換えできるアイテムは開催毎に変更されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42504"
+    },
+    {
+      "id": 16106,
+      "text": "[C5:引き換え条件]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42505"
+    },
+    {
+      "id": 16107,
+      "text": "[C6:覇者の塔シーズンズ]で[C6:最新シーズンのクエスト]を[LF]すべてクリアすることで引き換え可能になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42506"
+    },
+    {
+      "id": 16108,
+      "text": "最新シーズン制覇！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42507"
+    },
+    {
+      "id": 16109,
+      "text": "[C6:解放！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42508"
+    },
+    {
+      "id": 16110,
+      "text": "※覇者の塔シーズンズに挑戦するには[LF]　覇者の塔開催直前の絶級トーナメントで[LF]　[C6:本戦優勝]する必要があります[LF][LF]※詳細は[u:https://www.monster-strike.com/news/20231102_3.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42509"
+    },
+    {
+      "id": 16111,
+      "text": "[SW0.94][C6:シーズン制覇で特別な報酬獲得を目指そう]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42300"
+    },
+    {
+      "id": 16112,
+      "text": "[C5:覇者の塔シーズンズに挑戦]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42301"
+    },
+    {
+      "id": 16113,
+      "text": "覇者の塔シーズンズは、覇者の塔開催直前の[LF][C6:絶級トーナメント本戦で優勝]すると挑戦できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42302"
+    },
+    {
+      "id": 16114,
+      "text": "本戦優勝！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42303"
+    },
+    {
+      "id": 16115,
+      "text": "[LC][C6:覇者の塔シーズンズ][LF][LC][C6:挑戦可能！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42304"
+    },
+    {
+      "id": 16116,
+      "text": "[C5:遊び方]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42305"
+    },
+    {
+      "id": 16117,
+      "text": "覇者の塔シーズンズは[C6:クラシック]と[LF][C6:シーズン]を選んで制覇を目指せるクエストです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42306"
+    },
+    {
+      "id": 16118,
+      "text": "クラシック",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42307"
+    },
+    {
+      "id": 16119,
+      "text": "20階",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1773179296,
+      "label": "eTEXTS_DEF_42308"
+    },
+    {
+      "id": 16120,
+      "text": "11階",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1773179296,
+      "label": "eTEXTS_DEF_42309"
+    },
+    {
+      "id": 16121,
+      "text": "シーズン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42310"
+    },
+    {
+      "id": 16122,
+      "text": "15階",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1773179296,
+      "label": "eTEXTS_DEF_42311"
+    },
+    {
+      "id": 16123,
+      "text": "14階",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1773179296,
+      "label": "eTEXTS_DEF_42312"
+    },
+    {
+      "id": 16124,
+      "text": "13階",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1773179296,
+      "label": "eTEXTS_DEF_42313"
+    },
+    {
+      "id": 16125,
+      "text": "12階",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1773179296,
+      "label": "eTEXTS_DEF_42314"
+    },
+    {
+      "id": 16126,
+      "text": "11階",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1773179296,
+      "label": "eTEXTS_DEF_42315"
+    },
+    {
+      "id": 16127,
+      "text": "[C6:シーズンを制覇]すると[LF]さらに特別な報酬を獲得することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42316"
+    },
+    {
+      "id": 16128,
+      "text": "シーズンについて",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42317"
+    },
+    {
+      "id": 16129,
+      "text": "クラシックよりも難易度は高くなりますが[LF][C6:シーズン1階層]クリアで、横並びになっている[LF][C6:クラシック2階層分]のクリア報酬を獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42318"
+    },
+    {
+      "id": 16130,
+      "text": "シーズン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42319"
+    },
+    {
+      "id": 16131,
+      "text": "15階",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1773179296,
+      "label": "eTEXTS_DEF_42320"
+    },
+    {
+      "id": 16132,
+      "text": "クラシック",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42321"
+    },
+    {
+      "id": 16133,
+      "text": "[C6:獲得！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42322"
+    },
+    {
+      "id": 16134,
+      "text": "20階",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1773179296,
+      "label": "eTEXTS_DEF_42323"
+    },
+    {
+      "id": 16135,
+      "text": "19階",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1773179296,
+      "label": "eTEXTS_DEF_42324"
+    },
+    {
+      "id": 16136,
+      "text": "[C6:5つのクエストのクリアだけで][LF][C6:すべてのクリア報酬の獲得が可能]です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42325"
+    },
+    {
+      "id": 16137,
+      "text": "シーズンは1stシーズンから開始し[LF]定期的にシーズンの追加や削除が行われます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42326"
+    },
+    {
+      "id": 16138,
+      "text": "クラシックについて",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42327"
+    },
+    {
+      "id": 16139,
+      "text": "これまでの覇者の塔のクエストがプレイできます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42328"
+    },
+    {
+      "id": 16140,
+      "text": "[C5:クエストのクリアについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42329"
+    },
+    {
+      "id": 16141,
+      "text": "シーズンとクラシック[C6:いずれかのクエストを][LF][C6:クリア]することで、シーズンとクラシックどちらも[LF]次のクエストに挑戦できるようになります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42330"
+    },
+    {
+      "id": 16142,
+      "text": "クラシックのクエストをクリアした場合",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42331"
+    },
+    {
+      "id": 16143,
+      "text": "クラシック",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42332"
+    },
+    {
+      "id": 16144,
+      "text": "12階",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1773179297,
+      "label": "eTEXTS_DEF_42333"
+    },
+    {
+      "id": 16145,
+      "text": "11階",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1773179297,
+      "label": "eTEXTS_DEF_42334"
+    },
+    {
+      "id": 16146,
+      "text": "クラシック",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42335"
+    },
+    {
+      "id": 16147,
+      "text": "13階",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1773179297,
+      "label": "eTEXTS_DEF_42336"
+    },
+    {
+      "id": 16148,
+      "text": "12階",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1773179297,
+      "label": "eTEXTS_DEF_42337"
+    },
+    {
+      "id": 16149,
+      "text": "[C6:挑戦可能！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42338"
+    },
+    {
+      "id": 16150,
+      "text": "[C6:挑戦可能！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42339"
+    },
+    {
+      "id": 16151,
+      "text": "シーズンのクエストをクリアした場合",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42340"
+    },
+    {
+      "id": 16152,
+      "text": "シーズン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42341"
+    },
+    {
+      "id": 16153,
+      "text": "11階",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1773179297,
+      "label": "eTEXTS_DEF_42342"
+    },
+    {
+      "id": 16154,
+      "text": "クラシック",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42343"
+    },
+    {
+      "id": 16155,
+      "text": "13階",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1773179297,
+      "label": "eTEXTS_DEF_42344"
+    },
+    {
+      "id": 16156,
+      "text": "12階",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1773179297,
+      "label": "eTEXTS_DEF_42345"
+    },
+    {
+      "id": 16157,
+      "text": "[C6:挑戦可能！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42346"
+    },
+    {
+      "id": 16158,
+      "text": "[C6:挑戦可能！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42347"
+    },
+    {
+      "id": 16159,
+      "text": "[C5:シーズン制覇報酬について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42348"
+    },
+    {
+      "id": 16160,
+      "text": "[C6:シーズンのクエストをすべてクリア]することで[LF]追加で報酬を獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42349"
+    },
+    {
+      "id": 16161,
+      "text": "勝者の印引き換え",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42350"
+    },
+    {
+      "id": 16162,
+      "text": "総合引き換え所の印引き換えで[LF][C6:さまざまなアイテムと引き換え]することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42351"
+    },
+    {
+      "id": 16163,
+      "text": "総合引き換え所",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42352"
+    },
+    {
+      "id": 16164,
+      "text": "物々引き換え解放",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42353"
+    },
+    {
+      "id": 16165,
+      "text": "最新シーズンを制覇すると、[LF]総合引き換え所の物々引き換えで[LF][C6:アイテム同士と引き換え]ができるようになります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42354"
+    },
+    {
+      "id": 16166,
+      "text": "最新シーズン制覇！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42355"
+    },
+    {
+      "id": 16167,
+      "text": "[C6:解放！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42356"
+    },
+    {
+      "id": 16168,
+      "text": "※引き換えできるアイテムは開催毎に変更されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42357"
+    },
+    {
+      "id": 16169,
+      "text": "※お助けデッキのモンスターの[LF]　ショット順を入れ替えることはできません[LF][LF]※お助けデッキを使った場合デッキ履歴は残りません[LF][LF]※お助けデッキのモンスターは[LF]　一部の戦績には残りません[LF][LF]※シーズンではお助けデッキは使用できません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1773179297,
+      "label": "eTEXTS_DEF_42358"
+    },
+    {
+      "id": 16170,
+      "text": "シーズン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42359"
+    },
+    {
+      "id": 16171,
+      "text": "シーズン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1698924748,
+      "updated_at": 1698924748,
+      "label": "eTEXTS_DEF_42360"
+    },
+    {
+      "id": 16172,
+      "text": "[IPJ10877]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_41810"
+    },
+    {
+      "id": 16173,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20231116_1.html#1|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_41811"
+    },
+    {
+      "id": 16174,
+      "text": "[C6:コラボ限定クエスト出現中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_41812"
+    },
+    {
+      "id": 16175,
+      "text": "[b:ba_help_collabo_piano_00_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_41813"
+    },
+    {
+      "id": 16176,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_41814"
+    },
+    {
+      "id": 16177,
+      "text": "11/17 12:00～12/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_41815"
+    },
+    {
+      "id": 16178,
+      "text": "[C5:コラボ限定クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_41816"
+    },
+    {
+      "id": 16179,
+      "text": "[SGBI26480|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_41817"
+    },
+    {
+      "id": 16180,
+      "text": "[SGBI26490|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_41818"
+    },
+    {
+      "id": 16181,
+      "text": "[SGBI26500|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_41819"
+    },
+    {
+      "id": 16182,
+      "text": "[SGBI26460|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_41820"
+    },
+    {
+      "id": 16183,
+      "text": "[SGBI26470|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_41821"
+    },
+    {
+      "id": 16184,
+      "text": "[C4:｢君の嘘、君の願い｣]はマルチプレイだと[LF]金卵２個以上のドロップ率アップ！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_41822"
+    },
+    {
+      "id": 16185,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20231116_1.html#4|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_41823"
+    },
+    {
+      "id": 16186,
+      "text": "[SW0.88][C6:1日1回限定クリアボーナスを手に入れよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_41824"
+    },
+    {
+      "id": 16187,
+      "text": "[b:ba_help_collabo_piano_00_3.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_41825"
+    },
+    {
+      "id": 16188,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_41826"
+    },
+    {
+      "id": 16189,
+      "text": "11/17 12:00～12/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_41827"
+    },
+    {
+      "id": 16190,
+      "text": "[C5:1日1回限定クリアボーナス]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_41828"
+    },
+    {
+      "id": 16191,
+      "text": "コラボクエスト[C4:｢君の嘘、君の願い｣]クリアで[LF]1日1回[C4:★5 オリヴィエ]が[C6:7体]獲得できる",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1711619462,
+      "label": "eTEXTS_DEF_41829"
+    },
+    {
+      "id": 16192,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20231116_1.html#4|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_41830"
+    },
+    {
+      "id": 16193,
+      "text": "[C6:超究極、出現！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_41831"
+    },
+    {
+      "id": 16194,
+      "text": "[b:ba_help_collabo_piano_00_4.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_41832"
+    },
+    {
+      "id": 16195,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_41833"
+    },
+    {
+      "id": 16196,
+      "text": "11/19 19:00～12/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_41834"
+    },
+    {
+      "id": 16197,
+      "text": "[C5:武神 ベアトリクス、出現]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1700133535,
+      "updated_at": 1700133535,
+      "label": "eTEXTS_DEF_41835"
+    }
+  ]
+}

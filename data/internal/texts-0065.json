@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 1,
+  "table": "texts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 16710,
+      "text": "すべての制限が解除されました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_BEACH_QUEST_DECK_TEXT"
+    },
+    {
+      "id": 16711,
+      "text": "[LC]報酬一覧[LF][LF][LC][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_BEACH_QUEST_BOX_DIALOG"
+    },
+    {
+      "id": 16712,
+      "text": "コラボ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_BEACH_QUEST_BOX_RESULT_TITLE"
+    },
+    {
+      "id": 16713,
+      "text": "本日獲得 %d/2",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_BEACH_QUEST_BOX_RESULT_TEXT1"
+    },
+    {
+      "id": 16714,
+      "text": "全報酬獲得済み",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_BEACH_QUEST_BOX_RESULT_TEXT2"
+    },
+    {
+      "id": 16715,
+      "text": "本日分獲得済み",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_BEACH_QUEST_BOX_RESULT_TEXT3"
+    },
+    {
+      "id": 16716,
+      "text": "全ての制限が解除されました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_BEACH_QUEST_LIMIT_0"
+    },
+    {
+      "id": 16717,
+      "text": "わくわくの実と魂の紋章効果無効",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_BEACH_QUEST_LIMIT_1"
+    },
+    {
+      "id": 16718,
+      "text": "攻撃力と友情コンボ威力50％ダウン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_BEACH_QUEST_LIMIT_2"
+    },
+    {
+      "id": 16719,
+      "text": "友情コンボ禁止",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_BEACH_QUEST_LIMIT_3"
+    },
+    {
+      "id": 16720,
+      "text": "クエストクリア報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_BEACH_QUEST_REWARD_INFO_TITLE1"
+    },
+    {
+      "id": 16721,
+      "text": "封印箱",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_BEACH_QUEST_REWARD_INFO_SUB1"
+    },
+    {
+      "id": 16722,
+      "text": "魂気",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_BEACH_QUEST_REWARD_INFO_SUB2"
+    },
+    {
+      "id": 16723,
+      "text": "｢渋谷事変 -漏瑚-｣をクリアで獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_BEACH_QUEST_REWARD_INFO_1"
+    },
+    {
+      "id": 16724,
+      "text": "封印箱は1日に最大2回出現し[LF]20種類のうちから1つだけ獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_BEACH_QUEST_REWARD_INFO_2"
+    },
+    {
+      "id": 16725,
+      "text": "同日中に3回以上クリアした場合[LF]または封印箱の報酬すべてを獲得済みの場合は[LF]魂気が報酬として獲得できます[LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_BEACH_QUEST_REWARD_INFO_3"
+    },
+    {
+      "id": 16726,
+      "text": "このクエストで獲得できる報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_BEACH_QUEST_BOX_INFO_1"
+    },
+    {
+      "id": 16727,
+      "text": "本日獲得済み",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_BEACH_QUEST_BOX_INFO_2"
+    },
+    {
+      "id": 16728,
+      "text": "本日獲得 %d/2",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_BEACH_QUEST_BOX_INFO_3"
+    },
+    {
+      "id": 16729,
+      "text": "獲得可能",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_BEACH_QUEST_BOX_INFO_4"
+    },
+    {
+      "id": 16730,
+      "text": "全報酬獲得済み",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_BEACH_QUEST_BOX_INFO_5"
+    },
+    {
+      "id": 16731,
+      "text": "封印箱",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_BEACH_QUEST_BOX_INFO_TITLE1"
+    },
+    {
+      "id": 16732,
+      "text": "魂気",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_BEACH_QUEST_BOX_INFO_TITLE2"
+    },
+    {
+      "id": 16733,
+      "text": "[b:ba_help_collabo_beach_00_5.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1706178981,
+      "updated_at": 1706178981,
+      "label": "eTEXTS_DEF_43152"
+    },
+    {
+      "id": 16734,
+      "text": "[SGBI26770|difficulty1]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1706178981,
+      "updated_at": 1706178981,
+      "label": "eTEXTS_DEF_43153"
+    },
+    {
+      "id": 16735,
+      "text": "※クエストボスの｢両面宿儺｣は入手できません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1706178981,
+      "updated_at": 1706178981,
+      "label": "eTEXTS_DEF_43154"
+    },
+    {
+      "id": 16736,
+      "text": "クリアすると[C6:両面宿儺のグッジョブ]を[LF]獲得することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1706178981,
+      "updated_at": 1706178981,
+      "label": "eTEXTS_DEF_43155"
+    },
+    {
+      "id": 16737,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20240111_2.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1706178981,
+      "updated_at": 1706178981,
+      "label": "eTEXTS_DEF_43156"
+    },
+    {
+      "id": 16738,
+      "text": "[SW0.85][C6:すべての封印箱獲得のために帳解除をめざそう]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_43400"
+    },
+    {
+      "id": 16739,
+      "text": "[b:ba_help_collabo_beach_sb2_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_43401"
+    },
+    {
+      "id": 16740,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_43402"
+    },
+    {
+      "id": 16741,
+      "text": "1/20 12:00～2/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_43403"
+    },
+    {
+      "id": 16742,
+      "text": "縛りによって[C6:制限がかかったクエストに挑戦]して[LF][C6:封印箱から報酬を獲得]しましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_43404"
+    },
+    {
+      "id": 16743,
+      "text": "[C5:制限と解除について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_43405"
+    },
+    {
+      "id": 16744,
+      "text": "このクエストは以下の制限がかかっていますが[LF][C6:対応したミッション達成で制限が解除]できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_43406"
+    },
+    {
+      "id": 16745,
+      "text": "縛り",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_43407"
+    },
+    {
+      "id": 16746,
+      "text": "わくわくの実と魂の紋章効果無効",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_43408"
+    },
+    {
+      "id": 16747,
+      "text": "攻撃力と友情コンボ威力50％ダウン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_43409"
+    },
+    {
+      "id": 16748,
+      "text": "友情コンボ禁止",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_43410"
+    },
+    {
+      "id": 16749,
+      "text": "※マルチプレイの場合[C6:ホストの制限が適用]されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_43411"
+    },
+    {
+      "id": 16750,
+      "text": "[C5:報酬について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_43412"
+    },
+    {
+      "id": 16751,
+      "text": "クエストをクリアすると[C6:1日2回だけ封印箱が出現]し[LF]20種類のうちから1つだけ報酬が獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_43413"
+    },
+    {
+      "id": 16752,
+      "text": "[C6:ゲット！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_43414"
+    },
+    {
+      "id": 16753,
+      "text": "[C6:同日中に3回以上クリア]した場合、[LF]または[C6:20種類の報酬すべてを獲得済み]の場合は[LF]魂気が報酬として獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_43415"
+    },
+    {
+      "id": 16754,
+      "text": "ここで獲得できる魂気は[LF]1日の獲得上限にはカウントされません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_43416"
+    },
+    {
+      "id": 16755,
+      "text": "※クリア回数は[C6:毎日AM4:00にリセット]されます[LF][LF]※詳細は[u:https://www.monster-strike.com/news/20240111_2.html#0118b|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1705572250,
+      "updated_at": 1705572250,
+      "label": "eTEXTS_DEF_43417"
+    },
+    {
+      "id": 16756,
+      "text": "報酬が受け取れるのは天魔の孤城～試練の間～と[LF]～空中庭園～のどちらかで1回のみです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1706752745,
+      "updated_at": 1706752745,
+      "label": "eTEXTS_DEF_TENKO_BATTLE_REWARD_NOTE"
+    },
+    {
+      "id": 16757,
+      "text": "%s",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1706752745,
+      "updated_at": 1706752745,
+      "label": "eTEXTS_DEF_ME_PLAYRECORD_TENKO_GROUP_NAME"
+    },
+    {
+      "id": 16758,
+      "text": "[LC]クエスト追加情報[LF][LF]以下のクエストが追加されました[LF]%s",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1706752745,
+      "updated_at": 1706752745,
+      "label": "eTEXTS_DEF_TENKO_NEW_GROUP_MSG"
+    },
+    {
+      "id": 16759,
+      "text": "勝者の印",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1706752745,
+      "updated_at": 1706752745,
+      "label": "eTEXTS_DEF_ME_TOTAL_SHOPS_MARK_EXCHANGE_TAB_TITLE1"
+    },
+    {
+      "id": 16760,
+      "text": "天魔の印",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1706752745,
+      "updated_at": 1706752745,
+      "label": "eTEXTS_DEF_ME_TOTAL_SHOPS_MARK_EXCHANGE_TAB_TITLE2"
+    },
+    {
+      "id": 16761,
+      "text": "%s 最大BATTLE突破数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1706752745,
+      "updated_at": 1706752745,
+      "label": "eTEXTS_DEF_PLAYERCARD_TENKO_MOST_CLEAR_PHASE_CNT_FORMAT"
+    },
+    {
+      "id": 16762,
+      "text": "%s 通算BATTLE突破数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1706752745,
+      "updated_at": 1706752745,
+      "label": "eTEXTS_DEF_PLAYERCARD_TENKO_TOTAL_CLEAR_PHASE_CNT_FORMAT"
+    },
+    {
+      "id": 16763,
+      "text": "%s 制覇回数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1706752745,
+      "updated_at": 1706752745,
+      "label": "eTEXTS_DEF_PLAYERCARD_TENKO_COMPLETE_CNT_FORMAT"
+    },
+    {
+      "id": 16764,
+      "text": "[IMG:badge_cam.png]CM視聴で[C6:10枠拡張確定！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1704449078,
+      "updated_at": 1704449078,
+      "label": "eTEXTS_DEF_SHOP_BOX_ADD_LUCKY_LABEL_1"
+    },
+    {
+      "id": 16765,
+      "text": "[IMG:badge_cam.png][C6:10枠拡張確定キャンペーン中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1704449078,
+      "updated_at": 1704449078,
+      "label": "eTEXTS_DEF_SHOP_BOX_ADD_LUCKY_LABEL_2"
+    },
+    {
+      "id": 16766,
+      "text": "[LC][C6:【][IMG:badge_cam.png][C6:10枠拡張確定キャンペーン中！】]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1704449078,
+      "updated_at": 1704449078,
+      "label": "eTEXTS_DEF_SHOP_BOX_ADD_LUCKY_LABEL_3"
+    },
+    {
+      "id": 16767,
+      "text": "[LF][LF][FSIZE:25][LC][C6:【][IMG:badge_cam.png][C6:CM視聴でBOX10枠拡張確定！】]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1704449078,
+      "updated_at": 1704449078,
+      "label": "eTEXTS_DEF_SHOP_BOX_ADD_LUCKY_LABEL_4"
+    },
+    {
+      "id": 16768,
+      "text": "付替え元",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707148651,
+      "updated_at": 1707148651,
+      "label": "eTEXTS_DEF_GEM_TRANSFER_DIALOG_ASK_TITLE_3"
+    },
+    {
+      "id": 16769,
+      "text": "[LC]グッジョブ設定[LF][LF]選択したグッジョブに変更しました[LF][LF][LC][IS%d][LF][LF][LF][LF][LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707148651,
+      "updated_at": 1707148651,
+      "label": "eTEXTS_DEF_MSG_GOODJOB_CHANGE"
+    },
+    {
+      "id": 16770,
+      "text": "採掘ポイント未消費時",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707148651,
+      "updated_at": 1780939801,
+      "label": "eTEXTS_DEF_OPTION_BADGE_NEO_POINT_RECOVER"
+    },
+    {
+      "id": 16771,
+      "text": "[LC]採掘ポイント未消費[LF][LF]採掘ポイントが余っています[LF]※採掘ポイントは毎週月曜日の4:00に上限まで回復します",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1707148651,
+      "updated_at": 1707148651,
+      "label": "eTEXTS_DEF_MSG_NEO_POINT_RECOVER"
+    },
+    {
+      "id": 16772,
+      "text": "-",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707148651,
+      "updated_at": 1707148651,
+      "label": "eTEXTS_DEF_ME_SORT_COLLABO_NON_COLLABO_CATEGORY_NAME"
+    },
+    {
+      "id": 16773,
+      "text": "すべて",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707148651,
+      "updated_at": 1707148651,
+      "label": "eTEXTS_DEF_ME_SORT_COLLABO_BUTTON_NAME_ALL"
+    },
+    {
+      "id": 16774,
+      "text": "IDをコピーしました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707148651,
+      "updated_at": 1707148651,
+      "label": "eTEXTS_DEF_TOAST_ID_COPY_DONE"
+    },
+    {
+      "id": 16775,
+      "text": "コラボ編成不可設定",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1707148651,
+      "updated_at": 1707148651,
+      "label": "eTEXTS_DEF_OPTION_CATEGORY_STREAMER"
+    },
+    {
+      "id": 16776,
+      "text": "コラボキャラを編成不可にする",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1707148651,
+      "updated_at": 1780939801,
+      "label": "eTEXTS_DEF_OPTION_STREAMER_ENABLE"
+    },
+    {
+      "id": 16777,
+      "text": "[LC]コラボ編成不可設定とは[LF][LF][CCB:dlme/help_stream_00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707148651,
+      "updated_at": 1707148651,
+      "label": "eTEXTS_DEF_OPTION_STREAMER_DESCRIPTION"
+    },
+    {
+      "id": 16778,
+      "text": "[LC]コラボ編成不可[LF][LF]デッキ内にコラボキャラが[LF]編成されているため出撃できません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707148651,
+      "updated_at": 1707148651,
+      "label": "eTEXTS_DEF_STREAMER_MODE_ERR_DO_NOT_GO_QUEST"
+    },
+    {
+      "id": 16779,
+      "text": "コラボ編成不可",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707148651,
+      "updated_at": 1707148651,
+      "label": "eTEXTS_DEF_STREAMER_MODE_ERR_LABEL"
+    },
+    {
+      "id": 16780,
+      "text": "[C6:ONにすると以下の設定が反映されます][LF]マルチ時はホストの設定が全員に対して[LF]有効になります[LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707148651,
+      "updated_at": 1780939801,
+      "label": "eTEXTS_DEF_43700"
+    },
+    {
+      "id": 16781,
+      "text": "[C5:コラボ編成不可設定]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707148651,
+      "updated_at": 1707148651,
+      "label": "eTEXTS_DEF_43701"
+    },
+    {
+      "id": 16782,
+      "text": "デッキ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707148651,
+      "updated_at": 1707148651,
+      "label": "eTEXTS_DEF_43702"
+    },
+    {
+      "id": 16783,
+      "text": "コラボキャラ編成不可（守護獣含む）",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707148651,
+      "updated_at": 1707148651,
+      "label": "eTEXTS_DEF_43703"
+    },
+    {
+      "id": 16784,
+      "text": "募集リスト/ストライカー受付中画面",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707148651,
+      "updated_at": 1707148651,
+      "label": "eTEXTS_DEF_43704"
+    },
+    {
+      "id": 16785,
+      "text": "称号/勲章/フレームが全て非表示",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707148651,
+      "updated_at": 1707148651,
+      "label": "eTEXTS_DEF_43705"
+    },
+    {
+      "id": 16786,
+      "text": "グッジョブ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707148651,
+      "updated_at": 1707148651,
+      "label": "eTEXTS_DEF_43706"
+    },
+    {
+      "id": 16787,
+      "text": "デフォルトで再生",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707148651,
+      "updated_at": 1707148651,
+      "label": "eTEXTS_DEF_43707"
+    },
+    {
+      "id": 16788,
+      "text": "フレンド申請画面",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707148651,
+      "updated_at": 1707148651,
+      "label": "eTEXTS_DEF_43708"
+    },
+    {
+      "id": 16789,
+      "text": "フレンド使用キャラがコラボの場合[LF]キャラを非表示",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707148651,
+      "updated_at": 1707148651,
+      "label": "eTEXTS_DEF_43709"
+    },
+    {
+      "id": 16790,
+      "text": "[C6:コラボガチャ開催中]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43800"
+    },
+    {
+      "id": 16791,
+      "text": "[b:ba_help_collabo_ginza_00_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43801"
+    },
+    {
+      "id": 16792,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43802"
+    },
+    {
+      "id": 16793,
+      "text": "2/16 12:00～3/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43803"
+    },
+    {
+      "id": 16794,
+      "text": "[C5:コラボ限定ガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43804"
+    },
+    {
+      "id": 16795,
+      "text": "新登場キャラ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43805"
+    },
+    {
+      "id": 16796,
+      "text": "[IPJ11057]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43806"
+    },
+    {
+      "id": 16797,
+      "text": "[IPJ11055]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43807"
+    },
+    {
+      "id": 16798,
+      "text": "[IPJ11059]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43808"
+    },
+    {
+      "id": 16799,
+      "text": "[IPJ11051]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43809"
+    },
+    {
+      "id": 16800,
+      "text": "[IPJ11053]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43810"
+    },
+    {
+      "id": 16801,
+      "text": "ガチャ[C6:｢機動戦士ガンダムSEED FREEDOM｣]の[LF]10連ガチャではEXおまけとして[LF][C6:コラボグッジョブが手に入ります]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43811"
+    },
+    {
+      "id": 16802,
+      "text": "[IS484|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43812"
+    },
+    {
+      "id": 16803,
+      "text": "[IS486|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43813"
+    },
+    {
+      "id": 16804,
+      "text": "[IS485|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43814"
+    },
+    {
+      "id": 16805,
+      "text": "[IS489|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43815"
+    },
+    {
+      "id": 16806,
+      "text": "[IS487|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43816"
+    },
+    {
+      "id": 16807,
+      "text": "[IS492|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43817"
+    },
+    {
+      "id": 16808,
+      "text": "[IS488|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43818"
+    },
+    {
+      "id": 16809,
+      "text": "[IS490|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43819"
+    },
+    {
+      "id": 16810,
+      "text": "[IS491|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43820"
+    },
+    {
+      "id": 16811,
+      "text": "再登場キャラ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43821"
+    },
+    {
+      "id": 16812,
+      "text": "[IPJ10165]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43822"
+    },
+    {
+      "id": 16813,
+      "text": "[IPJ10167]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43823"
+    },
+    {
+      "id": 16814,
+      "text": "[IPJ10171]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43824"
+    },
+    {
+      "id": 16815,
+      "text": "[GIMMICK:回転式レーザーベース][LF][LC][b:tips_stage_capture_29.png][LF][LF]ふれると回転が止まり[LF]キャラが停止後にレーザーを発射する[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1703757051,
+      "updated_at": 1703757051,
+      "label": "eTEXTS_DEF_ME_STAGE_MAIN_GIMMICK_HELP_114"
+    },
+    {
+      "id": 16816,
+      "text": "[IPJ10169]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43825"
+    },
+    {
+      "id": 16817,
+      "text": "[C5:ステージについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1706752745,
+      "updated_at": 1755014631,
+      "label": "eTEXTS_DEF_33436"
+    },
+    {
+      "id": 16818,
+      "text": "天魔の孤城では[C6:｢試練の間｣と｢空中庭園｣の2つ]から[LF]クエストを選択してプレイすることができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1706752745,
+      "updated_at": 1706752745,
+      "label": "eTEXTS_DEF_33437"
+    },
+    {
+      "id": 16819,
+      "text": "天魔の孤城～試練の間～",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1706752745,
+      "updated_at": 1706752745,
+      "label": "eTEXTS_DEF_33438"
+    },
+    {
+      "id": 16820,
+      "text": "天魔の孤城～空中庭園～",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1706752745,
+      "updated_at": 1706752745,
+      "label": "eTEXTS_DEF_33439"
+    },
+    {
+      "id": 16821,
+      "text": "[C6:難易度：高]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1706752745,
+      "updated_at": 1706752745,
+      "label": "eTEXTS_DEF_33440"
+    },
+    {
+      "id": 16822,
+      "text": "※報酬は天魔の孤城の[C6:開催毎に再度獲得可能]です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1706752745,
+      "updated_at": 1706752745,
+      "label": "eTEXTS_DEF_33441"
+    },
+    {
+      "id": 16823,
+      "text": "※突破数は[C6:2025年7月までの分も][LF]　[C6:含めてカウント]されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1706752745,
+      "updated_at": 1755014631,
+      "label": "eTEXTS_DEF_33442"
+    },
+    {
+      "id": 16824,
+      "text": "[IPJ9714]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1706752745,
+      "updated_at": 1706752745,
+      "label": "eTEXTS_DEF_42409"
+    },
+    {
+      "id": 16825,
+      "text": "[IPJ11041]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1706752745,
+      "updated_at": 1706752745,
+      "label": "eTEXTS_DEF_42410"
+    },
+    {
+      "id": 16826,
+      "text": "[C5:天魔の印の入手方法]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1706752745,
+      "updated_at": 1706752745,
+      "label": "eTEXTS_DEF_42411"
+    },
+    {
+      "id": 16827,
+      "text": "天魔の孤城で[C6:合計BATTLE突破数が一定]まで[LF]達すると獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1706752745,
+      "updated_at": 1706752745,
+      "label": "eTEXTS_DEF_42412"
+    },
+    {
+      "id": 16828,
+      "text": "[C6:ゲット！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1706752745,
+      "updated_at": 1706752745,
+      "label": "eTEXTS_DEF_42413"
+    },
+    {
+      "id": 16829,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20240125_3.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1706752745,
+      "updated_at": 1706779879,
+      "label": "eTEXTS_DEF_42414"
+    },
+    {
+      "id": 16830,
+      "text": "[IPJ10173]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43826"
+    },
+    {
+      "id": 16831,
+      "text": "[C6:オラコインを集めよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1703757051,
+      "updated_at": 1703757051,
+      "label": "eTEXTS_DEF_43600"
+    },
+    {
+      "id": 16832,
+      "text": "[b:ba_help_oracoin_04.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1703757051,
+      "updated_at": 1703757051,
+      "label": "eTEXTS_DEF_43601"
+    },
+    {
+      "id": 16833,
+      "text": "[C5:入手方法]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1703757051,
+      "updated_at": 1703757051,
+      "label": "eTEXTS_DEF_43602"
+    },
+    {
+      "id": 16834,
+      "text": "期間限定の[C6:対象クエストをクリア]すると、[LF]オラコインが手に入ります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1703757051,
+      "updated_at": 1703757051,
+      "label": "eTEXTS_DEF_43603"
+    },
+    {
+      "id": 16835,
+      "text": "オラコイン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1703757051,
+      "updated_at": 1703757051,
+      "label": "eTEXTS_DEF_43604"
+    },
+    {
+      "id": 16836,
+      "text": "また、クエストの道中でまれに登場する[LF][C6:「獅子舞いオラゴン」]を倒すと、[LF]オラコインが入手できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1703757051,
+      "updated_at": 1703757051,
+      "label": "eTEXTS_DEF_43605"
+    },
+    {
+      "id": 16837,
+      "text": "[C6:モンスターやアイテムと引き換えよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1703757051,
+      "updated_at": 1703757051,
+      "label": "eTEXTS_DEF_43606"
+    },
+    {
+      "id": 16838,
+      "text": "[b:ba_help_oracoin_01.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1703757051,
+      "updated_at": 1703757051,
+      "label": "eTEXTS_DEF_43607"
+    },
+    {
+      "id": 16839,
+      "text": "[C5:引き換えについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1703757051,
+      "updated_at": 1703757051,
+      "label": "eTEXTS_DEF_43608"
+    },
+    {
+      "id": 16840,
+      "text": "集めたオラコインを使用して[LF][C6:モンスター]や[C6:アイテム]と引き換えができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1703757051,
+      "updated_at": 1703757051,
+      "label": "eTEXTS_DEF_43609"
+    },
+    {
+      "id": 16841,
+      "text": "※アイテムの種類で、引き換え数は異なります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1703757051,
+      "updated_at": 1703757051,
+      "label": "eTEXTS_DEF_43610"
+    },
+    {
+      "id": 16842,
+      "text": "[C5:達成条件が必要なアイテムについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1703757051,
+      "updated_at": 1703757051,
+      "label": "eTEXTS_DEF_43611"
+    },
+    {
+      "id": 16843,
+      "text": "[C6:一定の条件]を達成すると[LF]引き換え可能になるアイテムがあります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1703757051,
+      "updated_at": 1703757051,
+      "label": "eTEXTS_DEF_43612"
+    },
+    {
+      "id": 16844,
+      "text": "ロックされているアイテムをタップして[LF]条件を確認しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1703757051,
+      "updated_at": 1703757051,
+      "label": "eTEXTS_DEF_43613"
+    },
+    {
+      "id": 16845,
+      "text": "[C5:デイリーミッションについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1703757051,
+      "updated_at": 1703757051,
+      "label": "eTEXTS_DEF_43614"
+    },
+    {
+      "id": 16846,
+      "text": "毎日オラコインを[C6:2000枚]集めて報酬を[LF]獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1703757051,
+      "updated_at": 1703757051,
+      "label": "eTEXTS_DEF_43615"
+    },
+    {
+      "id": 16847,
+      "text": "[C6:開催中]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1703757051,
+      "updated_at": 1703757051,
+      "label": "eTEXTS_DEF_43616"
+    },
+    {
+      "id": 16848,
+      "text": "達成報酬の[C6:受け取り期限は毎日翌AM3:59まで]です[LF]ミッションを達成したら忘れずに受け取ろう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1703757051,
+      "updated_at": 1703757051,
+      "label": "eTEXTS_DEF_43617"
+    },
+    {
+      "id": 16849,
+      "text": "2000枚獲得せよ！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1703757051,
+      "updated_at": 1703757051,
+      "label": "eTEXTS_DEF_43618"
+    },
+    {
+      "id": 16850,
+      "text": "[C6:GET！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1703757051,
+      "updated_at": 1703757051,
+      "label": "eTEXTS_DEF_43619"
+    },
+    {
+      "id": 16851,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20251228_7.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1703757051,
+      "updated_at": 1766921342,
+      "label": "eTEXTS_DEF_43620"
+    },
+    {
+      "id": 16852,
+      "text": "[C6:コラボクエスト出現中]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43827"
+    },
+    {
+      "id": 16853,
+      "text": "[b:ba_help_collabo_ginza_00_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43828"
+    },
+    {
+      "id": 16854,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43829"
+    },
+    {
+      "id": 16855,
+      "text": "2/16 12:00～3/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43830"
+    },
+    {
+      "id": 16856,
+      "text": "[C5:イベントクエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43831"
+    },
+    {
+      "id": 16857,
+      "text": "[SGBI26860|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43832"
+    },
+    {
+      "id": 16858,
+      "text": "[SGBI26840|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43833"
+    },
+    {
+      "id": 16859,
+      "text": "[SGBI26850|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43834"
+    },
+    {
+      "id": 16860,
+      "text": "[SGBI26820|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43835"
+    },
+    {
+      "id": 16861,
+      "text": "[SGBI26830|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43836"
+    },
+    {
+      "id": 16862,
+      "text": "[C2:｢近衛師団長 シュラ・サーペンタイン｣]は[LF]1日1回クリアボーナスで[C6:7体]獲得可能、[LF]マルチだと金卵2個以上の排出率がアップします",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43837"
+    },
+    {
+      "id": 16863,
+      "text": "[C5:追憶の書庫]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43838"
+    },
+    {
+      "id": 16864,
+      "text": "[IPJ10176]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43839"
+    },
+    {
+      "id": 16865,
+      "text": "[IPJ10179]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43840"
+    },
+    {
+      "id": 16866,
+      "text": "[IPJ10186]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43841"
+    },
+    {
+      "id": 16867,
+      "text": "[IPJ10181]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43842"
+    },
+    {
+      "id": 16868,
+      "text": "[IPJ10183]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43843"
+    },
+    {
+      "id": 16869,
+      "text": "[C2:｢赤い彗星｣]は[LF]1日1回クリアボーナスで[C6:7体]獲得可能、[LF]マルチだと金卵2個以上の排出率がアップします",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43844"
+    },
+    {
+      "id": 16870,
+      "text": "[C6:超究極難易度が登場]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43845"
+    },
+    {
+      "id": 16871,
+      "text": "[b:ba_help_collabo_ginza_00_3.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43846"
+    },
+    {
+      "id": 16872,
+      "text": "[C5:超究極クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43847"
+    },
+    {
+      "id": 16873,
+      "text": "[SGBI26870|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43848"
+    },
+    {
+      "id": 16874,
+      "text": "このクエストではどのキャラも[LF]本来のラックに[C4:+99]された[C4:運極]状態で[LF]ラックボーナスが獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43849"
+    },
+    {
+      "id": 16875,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20240211_1.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43850"
+    },
+    {
+      "id": 16876,
+      "text": "[SW0.85][C6:コラボスターターパックなどのお楽しみ要素も]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43900"
+    },
+    {
+      "id": 16877,
+      "text": "[b:ba_help_collabo_ginza_01_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43901"
+    },
+    {
+      "id": 16878,
+      "text": "[C5:コラボスターターパック]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43902"
+    },
+    {
+      "id": 16879,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43903"
+    },
+    {
+      "id": 16880,
+      "text": "2/16 12:00～3/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43904"
+    },
+    {
+      "id": 16881,
+      "text": "[C6:ここでのみ入手可能なキャラ]と[LF]各種アイテムがセットとなった[LF][C6:コラボスターターパック]が購入可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43905"
+    },
+    {
+      "id": 16882,
+      "text": "新登場パック",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43906"
+    },
+    {
+      "id": 16883,
+      "text": "[IPJ11060]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43907"
+    },
+    {
+      "id": 16884,
+      "text": "再登場パック",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43908"
+    },
+    {
+      "id": 16885,
+      "text": "[IPJ10174]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43909"
+    },
+    {
+      "id": 16886,
+      "text": "[C5:フレンドガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43910"
+    },
+    {
+      "id": 16887,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43911"
+    },
+    {
+      "id": 16888,
+      "text": "2/16 12:00～3/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43912"
+    },
+    {
+      "id": 16889,
+      "text": "期間中フレンドガチャから[LF]下記のキャラが排出されるようになります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43913"
+    },
+    {
+      "id": 16890,
+      "text": "[IPJ11069]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43914"
+    },
+    {
+      "id": 16891,
+      "text": "[C5:期間限定ラックボーナス]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43915"
+    },
+    {
+      "id": 16892,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43916"
+    },
+    {
+      "id": 16893,
+      "text": "2/16 12:00～3/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43917"
+    },
+    {
+      "id": 16894,
+      "text": "下記のキャラは期間中[LF]本来のラックに[C4:+99]された[C4:運極]状態で[LF]ラックボーナスが獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43918"
+    },
+    {
+      "id": 16895,
+      "text": "[IPJ11060]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43919"
+    },
+    {
+      "id": 16896,
+      "text": "[IPJ11068]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43920"
+    },
+    {
+      "id": 16897,
+      "text": "[IPJ11069]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43921"
+    },
+    {
+      "id": 16898,
+      "text": "[IPJ10174]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43922"
+    },
+    {
+      "id": 16899,
+      "text": "[C5:その他お楽しみ要素]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43923"
+    },
+    {
+      "id": 16900,
+      "text": "ファウンデーション攻防戦",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43924"
+    },
+    {
+      "id": 16901,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20240211_1.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_43925"
+    },
+    {
+      "id": 16902,
+      "text": "コンテナ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_ME_GINZA_MISSION_ITEM"
+    },
+    {
+      "id": 16903,
+      "text": "[LC]ファウンデーション攻防戦とは[LF][LF][CCB:dlme/help_collabo_ginza_sb1_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_MSG_GINZA_MISSION_HELP"
+    },
+    {
+      "id": 16904,
+      "text": "[LC]開催期間が終了しました。",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_MSG_GINZA_MISSION_END_DIALOG"
+    },
+    {
+      "id": 16905,
+      "text": "MAP %d[LF][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_MSG_GINZA_MISSION_MAP_INFO"
+    },
+    {
+      "id": 16906,
+      "text": "サーチ[LF][LF][LC]隠された敵とアイテムがサーチされます",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_MSG_GINZA_MISSION_MAP_SEARCH"
+    },
+    {
+      "id": 16907,
+      "text": "コンテナ[LF][LF][LC]グッジョブを獲得しました[LF][LF][LC][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1708077160,
+      "label": "eTEXTS_DEF_MSG_GINZA_MISSION_MAP_ITEM"
+    },
+    {
+      "id": 16908,
+      "text": "MAPに戻る[LF][LF]ミッションを中断し、MAPに戻りますか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_MSG_GINZA_MISSION_MISSION_ESCAPE"
+    },
+    {
+      "id": 16909,
+      "text": "[LC]報酬一覧[LF][LF][TAB|WIDTH565:MAP1][NODE][TAB:MAP2][NODE][TAB:MAP3][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_MSG_GINZA_MISSION_REWARD_LIST"
+    },
+    {
+      "id": 16910,
+      "text": "ミッションクリア報酬[LF][LF]報酬を獲得しました[LF][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_MSG_GINZA_MISSION_REWARD_GET"
+    },
+    {
+      "id": 16911,
+      "text": "MAPクリア報酬[LF][LF]報酬を獲得しました[LF][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_MSG_GINZA_MAP_REWARD_GET"
+    },
+    {
+      "id": 16912,
+      "text": "グッジョブ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_ME_GINZA_MISSION_MAP_ITEM"
+    },
+    {
+      "id": 16913,
+      "text": "ミッションクリア報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_ME_GINZA_MISSION_MAP_REWARD"
+    },
+    {
+      "id": 16914,
+      "text": "%s撃破ミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_ME_GINZA_MISSION_ENEMY_DESTROY"
+    },
+    {
+      "id": 16915,
+      "text": "出現条件：全ての敵を撃破",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_ME_GINZA_MISSION_BOSS_RELEASE_CONDITION"
+    },
+    {
+      "id": 16916,
+      "text": "2/16 12:00 〜 3/5 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_ME_GINZA_MISSION_PERIOD"
+    },
+    {
+      "id": 16917,
+      "text": "移動先のマスを選択してください",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_ME_GINZA_MISSION_MESSAGE_SELECT"
+    },
+    {
+      "id": 16918,
+      "text": "エネルギーを消費し、選択したマスに移動します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_ME_GINZA_MISSION_MESSAGE_MOVE"
+    },
+    {
+      "id": 16919,
+      "text": "エネルギー切れです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_ME_GINZA_MISSION_MESSAGE_EMPTY"
+    },
+    {
+      "id": 16920,
+      "text": "回復まであと",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_ME_GINZA_MISSION_MESSAGE_ENERGY_RECOVER"
+    },
+    {
+      "id": 16921,
+      "text": "???",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_ME_GINZA_MISSION_BOSS_SECRET"
+    },
+    {
+      "id": 16922,
+      "text": "MAPクリア報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_ME_GINZA_MISSION_MAP_CLEAR_REWARD"
+    },
+    {
+      "id": 16923,
+      "text": "MAP内のアイテムをゲット&すべての敵を撃破",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_ME_GINZA_MISSION_MAP_CLEAR_ITEM_AND_ENEMY"
+    },
+    {
+      "id": 16924,
+      "text": "%d達成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_ME_GINZA_MISSION_REWARD_LIST_UNIT"
+    },
+    {
+      "id": 16925,
+      "text": "[C6:MAPを移動して敵を撃破せよ！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_44000"
+    },
+    {
+      "id": 16926,
+      "text": "[b:ba_help_collabo_ginza_sb1_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_44001"
+    },
+    {
+      "id": 16927,
+      "text": "[C5:遊び方]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_44002"
+    },
+    {
+      "id": 16928,
+      "text": "自機を操作してMAP上の敵を撃破しましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_44003"
+    },
+    {
+      "id": 16929,
+      "text": "[C6:すべての敵を撃破してアイテムを獲得すると][LF]そのMAPはクリアとなります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_44004"
+    },
+    {
+      "id": 16930,
+      "text": "3つのMAPをクリアすると自軍の勝利となります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_44005"
+    },
+    {
+      "id": 16931,
+      "text": "[C5:MAPについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_44006"
+    },
+    {
+      "id": 16932,
+      "text": "MAP上に何があるかは、開始時は隠れており[LF][C6:自機の上下左右のみ確認]することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_44007"
+    },
+    {
+      "id": 16933,
+      "text": "自機はエネルギーを消費することで[LF]隣接するマスに移動できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_44008"
+    },
+    {
+      "id": 16934,
+      "text": "新しいマスに移動",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_44009"
+    },
+    {
+      "id": 16935,
+      "text": "[C6:消費]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_44010"
+    },
+    {
+      "id": 16936,
+      "text": "移動済のマスに移動",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_44011"
+    },
+    {
+      "id": 16937,
+      "text": "[C6:消費]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_44012"
+    },
+    {
+      "id": 16938,
+      "text": "エネルギーは時間経過で上限まで回復します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_44013"
+    },
+    {
+      "id": 16939,
+      "text": "1時間経過",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_44014"
+    },
+    {
+      "id": 16940,
+      "text": "[C6:回復！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_44015"
+    },
+    {
+      "id": 16941,
+      "text": "[C5:特別なマスについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_44016"
+    },
+    {
+      "id": 16942,
+      "text": "サーチ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_44017"
+    },
+    {
+      "id": 16943,
+      "text": "そのMAP上に隠れた敵とアイテムを発見できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_44018"
+    },
+    {
+      "id": 16944,
+      "text": "コンテナ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_44019"
+    },
+    {
+      "id": 16945,
+      "text": "アイテムを獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_44020"
+    },
+    {
+      "id": 16946,
+      "text": "[C6:ゲット！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_44021"
+    },
+    {
+      "id": 16947,
+      "text": "敵",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_44022"
+    },
+    {
+      "id": 16948,
+      "text": "ミッションに挑戦可能になり[LF]すべてクリアすると撃破できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_44023"
+    },
+    {
+      "id": 16949,
+      "text": "ミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_44024"
+    },
+    {
+      "id": 16950,
+      "text": "[C5:報酬について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_44025"
+    },
+    {
+      "id": 16951,
+      "text": "ミッションクリア報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_44026"
+    },
+    {
+      "id": 16952,
+      "text": "ミッションをクリアすることで獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_44027"
+    },
+    {
+      "id": 16953,
+      "text": "[C6:ゲット！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_44028"
+    },
+    {
+      "id": 16954,
+      "text": "[IPJ11068]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_44029"
+    },
+    {
+      "id": 16955,
+      "text": "[C10:ミッション]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_44030"
+    },
+    {
+      "id": 16956,
+      "text": "MAPクリア報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_44031"
+    },
+    {
+      "id": 16957,
+      "text": "MAPをクリアすることで獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_44032"
+    },
+    {
+      "id": 16958,
+      "text": "[C6:ゲット！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_44033"
+    },
+    {
+      "id": 16959,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20240211_1.html#6|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1707995754,
+      "updated_at": 1707995754,
+      "label": "eTEXTS_DEF_44034"
+    },
+    {
+      "id": 16960,
+      "text": "[b:ba_help_collabo_ginza_00_4.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1708596358,
+      "updated_at": 1708596358,
+      "label": "eTEXTS_DEF_43851"
+    },
+    {
+      "id": 16961,
+      "text": "[SGBI26880|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1708596358,
+      "updated_at": 1708596358,
+      "label": "eTEXTS_DEF_43852"
+    },
+    {
+      "id": 16962,
+      "text": "クリアすると[LF][C4:アウラ＆グルヴェイグ＆レクイエム]を[LF][C4:運極(ラック+99)]で1体獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1708596358,
+      "updated_at": 1708596358,
+      "label": "eTEXTS_DEF_43853"
+    },
+    {
+      "id": 16963,
+      "text": "また、特定の条件でクリアすると報酬を獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1708596358,
+      "updated_at": 1708596358,
+      "label": "eTEXTS_DEF_43854"
+    },
+    {
+      "id": 16964,
+      "text": "[C6:クリア！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1708596359,
+      "updated_at": 1708596359,
+      "label": "eTEXTS_DEF_43855"
+    },
+    {
+      "id": 16965,
+      "text": "SEED覚醒 出撃任務",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1708596359,
+      "updated_at": 1708596359,
+      "label": "eTEXTS_DEF_43926"
+    }
+  ]
+}

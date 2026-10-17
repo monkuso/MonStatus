@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 1,
+  "table": "texts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 6203,
+      "text": "[LF][LC]秘海石が不足しているため引き換えできません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1627645636,
+      "label": "eTEXTS_DEF_OCEAN_EXCHANGE_POINT_ERR"
+    },
+    {
+      "id": 6204,
+      "text": "到着！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_OCEAN_DEPATURE_TIME_END"
+    },
+    {
+      "id": 6205,
+      "text": "到着まで",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_OCEAN_DEPATURE_TIME_PREFIX"
+    },
+    {
+      "id": 6206,
+      "text": "挑戦可能",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_OCEAN_DEPATURE_TIME_PREFIX_EX"
+    },
+    {
+      "id": 6207,
+      "text": "[LC]クリア済みクエストがありません[LF][LF][LC]クエストを１度でもクリアすれば[LF][LC][C6:秘海の海図]を1枚消費して目的地を変更できます",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_OCEAN_MSG_NOTHING_TARGET_STAGE"
+    },
+    {
+      "id": 6208,
+      "text": "[LC]クエスト詳細[LF][WIDTH530][LF]%s",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_OCEAN_MSG_STAGE_INFO"
+    },
+    {
+      "id": 6209,
+      "text": "スキップして再出航",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_OCEAN_BTN_STAGE_SKIP"
+    },
+    {
+      "id": 6210,
+      "text": "再出航する",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_OCEAN_BTN_SKIP"
+    },
+    {
+      "id": 6211,
+      "text": "目的地を変更",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_OCEAN_BTN_DEPARTURE_TARGET"
+    },
+    {
+      "id": 6212,
+      "text": "？？？",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_OCEAN_UNKHOWN_STAGE"
+    },
+    {
+      "id": 6213,
+      "text": "[LC]初出航！[LF][LF][LC]この海域に出航します！[LF][LF][LC]※初回出航は航海時間がかかりません[LF][LC]※次回以降は航海時間が4時間必要になります[LF][LF][LC]出航しますか？",
+      "layout": 7,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1627645636,
+      "label": "eTEXTS_DEF_OCEAN_MSG_DEPARTURE_FIRST"
+    },
+    {
+      "id": 6214,
+      "text": "[LC]アポストロスの船が出現中[LF][LF][LC]このクエストに挑戦して[LF][LC]新たにアポストロスの船を発見した場合は[LF][LC]出現中のアポストロスの船を見失います",
+      "layout": 7,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_OCEAN_MSG_REWRITE_EX"
+    },
+    {
+      "id": 6215,
+      "text": "[LF][LC]イベント期間外です",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_OCEAN_MSG_OUTSIDE_PERIOD_EXCHANGE"
+    },
+    {
+      "id": 6216,
+      "text": "[LF][LC]アポストロスの船を見失いました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_OCEAN_MSG_OUTSIDE_PERIOD_EX"
+    },
+    {
+      "id": 6217,
+      "text": "[LC]既に島に到着しています",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_OCEAN_MSG_ALREADY_ARRIVAL"
+    },
+    {
+      "id": 6218,
+      "text": "[LC]出航！[LF][LF][LC]この海域で出航します！[LF][LC]目的地へ到着するには、航海時間がかかります[MARGIN20][LF][LC][NODE][LF][LC]他の海域で[C6:秘海の海図]を使用しています[LF][LC]海域を変更すると指定した目的地に到着しません[LF][LC]本当によろしいですか？",
+      "layout": 7,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_OCEAN_MSG_DEPARTURE_WARN"
+    },
+    {
+      "id": 6219,
+      "text": "期間限定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_OCEAN_EXCHANGE_CATEGORY_0"
+    },
+    {
+      "id": 6220,
+      "text": "[LC][C2:※注意※][LF][LC]不適切な文字が含まれています",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_ERRMSG_FOUND_NGWORD"
+    },
+    {
+      "id": 6221,
+      "text": "・[C6:%s×%d]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_OCEAN_FORTUNE_REWARD_ITEM"
+    },
+    {
+      "id": 6222,
+      "text": "・[C6:スペシャル報酬量が2倍になる効果]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_OCEAN_FORTUNE_REWARD_EVENT"
+    },
+    {
+      "id": 6223,
+      "text": "[C6:未知なる海へ冒険の旅をしよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23900"
+    },
+    {
+      "id": 6224,
+      "text": "[b:ba_help_ocean_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23901"
+    },
+    {
+      "id": 6225,
+      "text": "[C5:遊び方]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23902"
+    },
+    {
+      "id": 6226,
+      "text": "出航について",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23903"
+    },
+    {
+      "id": 6227,
+      "text": "自らの船に乗り秘海を航海することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23904"
+    },
+    {
+      "id": 6228,
+      "text": "出航！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23905"
+    },
+    {
+      "id": 6229,
+      "text": "航海したい海域を選び出航して[C6:4時間が経過]すると[LF]ランダムで島に到着し、[C6:クエストが1つ出現]します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1627645636,
+      "label": "eTEXTS_DEF_23906"
+    },
+    {
+      "id": 6230,
+      "text": "あと3:20",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1627645636,
+      "label": "eTEXTS_DEF_23907"
+    },
+    {
+      "id": 6231,
+      "text": "[C6:到着！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23908"
+    },
+    {
+      "id": 6232,
+      "text": "クエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23909"
+    },
+    {
+      "id": 6233,
+      "text": "クエストの[C6:クリア後は新たに冒険する海を選択して、][LF][C6:出航]する必要があります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23910"
+    },
+    {
+      "id": 6234,
+      "text": "再出航について",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23911"
+    },
+    {
+      "id": 6235,
+      "text": "島へ到着後に[C6:クエストをスキップして][LF][C6:別の島へ再出航]することができます[LF][LF]この時通常よりも[C6:短い時間で別の島に到着]します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23912"
+    },
+    {
+      "id": 6236,
+      "text": "スキップして再出航",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23913"
+    },
+    {
+      "id": 6237,
+      "text": "スキップ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23914"
+    },
+    {
+      "id": 6238,
+      "text": "スキップ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23915"
+    },
+    {
+      "id": 6239,
+      "text": "あと4:00",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1627645636,
+      "label": "eTEXTS_DEF_23916"
+    },
+    {
+      "id": 6240,
+      "text": "あと2:00",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1627645636,
+      "label": "eTEXTS_DEF_23917"
+    },
+    {
+      "id": 6241,
+      "text": "あと1:00",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23918"
+    },
+    {
+      "id": 6242,
+      "text": "※クエストはクリアするまで[C6:何度でも挑戦可能]です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23920"
+    },
+    {
+      "id": 6243,
+      "text": "[C5:アポストロスに挑戦しよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23921"
+    },
+    {
+      "id": 6244,
+      "text": "海域のクエストクリアで、[C6:秘海を支配している組織][LF][C6:アポストロスのクエスト]が出現することがあります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23922"
+    },
+    {
+      "id": 6245,
+      "text": "出現時から[C6:24時間以内]に挑戦しよう！[LF][C6:海域毎に異なるアポストロスのクエスト]が出現します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23923"
+    },
+    {
+      "id": 6246,
+      "text": "マルチで挑戦するには",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23924"
+    },
+    {
+      "id": 6247,
+      "text": "ホスト・ゲストともに[C6:同じアポストロスのクエストが][LF][C6:出現している必要]があります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23925"
+    },
+    {
+      "id": 6248,
+      "text": "同じアポストロスのクエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23926"
+    },
+    {
+      "id": 6249,
+      "text": "クエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23927"
+    },
+    {
+      "id": 6250,
+      "text": "挑戦回数について",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23928"
+    },
+    {
+      "id": 6251,
+      "text": "アポストロスのクエストは[C6:ソロ、ホスト・ゲストを][LF][C6:問わず一度の出現で１回のみ]挑戦することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23929"
+    },
+    {
+      "id": 6252,
+      "text": "※アポストロス出現中に同じ海域内で新たなアポストロスが[LF]　出現した場合、出現時間がリセットされます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1627645636,
+      "label": "eTEXTS_DEF_23930"
+    },
+    {
+      "id": 6253,
+      "text": "[C5:秘海の冒険船専用アイテム]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23931"
+    },
+    {
+      "id": 6254,
+      "text": "秘海の水時計",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23932"
+    },
+    {
+      "id": 6255,
+      "text": "航海中の時間を短縮し[LF][C6:島にすぐ到着する]ことができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23933"
+    },
+    {
+      "id": 6256,
+      "text": "秘海の海図",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23934"
+    },
+    {
+      "id": 6257,
+      "text": "クリア済みのクエストの中から[LF][C6:次の目的地を指定する]ことができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23935"
+    },
+    {
+      "id": 6258,
+      "text": "トレルアー",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23936"
+    },
+    {
+      "id": 6259,
+      "text": "お宝釣りで[C6:宝箱を必ず釣り上げる][LF]ことができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23937"
+    },
+    {
+      "id": 6260,
+      "text": "[C5:冒険船でできること]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23938"
+    },
+    {
+      "id": 6261,
+      "text": "冒険船では[C6:お宝釣り]と[C6:秘海石引き換え]、[LF][C6:船舶装備・強化]ができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1654771578,
+      "label": "eTEXTS_DEF_23939"
+    },
+    {
+      "id": 6262,
+      "text": "モンスト号",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1627645636,
+      "label": "eTEXTS_DEF_23940"
+    },
+    {
+      "id": 6263,
+      "text": "お宝釣りについて",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23941"
+    },
+    {
+      "id": 6264,
+      "text": "一日一回、[C6:海のお宝を釣り上げる]ことができます[LF]お宝は秘海石やアイテムなどを獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23942"
+    },
+    {
+      "id": 6265,
+      "text": "※AM0:00を過ぎると回数がリセットされます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1627645636,
+      "label": "eTEXTS_DEF_23943"
+    },
+    {
+      "id": 6266,
+      "text": "秘海石引き換えについて",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23944"
+    },
+    {
+      "id": 6267,
+      "text": "[C6:秘海石]は秘海の冒険船のクエストやお宝釣りで[LF]獲得でき[C6:様々なアイテム]と引き換えることができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23945"
+    },
+    {
+      "id": 6268,
+      "text": "秘海石",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23946"
+    },
+    {
+      "id": 6269,
+      "text": "船のレベルアップについて",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23947"
+    },
+    {
+      "id": 6270,
+      "text": "秘海石引き換えで[C6:船のLvを上げると、航海可能な][LF][C6:海域を増やす]ことができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23948"
+    },
+    {
+      "id": 6271,
+      "text": "[C6:レベルアップ！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23949"
+    },
+    {
+      "id": 6272,
+      "text": "新たな海域へ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1603214006,
+      "label": "eTEXTS_DEF_23950"
+    },
+    {
+      "id": 6273,
+      "text": "※船の日は0:00～23:59までになります[LF][LF]※詳細は[u:https://www.monster-strike.com/news/20240523_2.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603214006,
+      "updated_at": 1716458437,
+      "label": "eTEXTS_DEF_23951"
+    },
+    {
+      "id": 6274,
+      "text": "[LC]開催期間が終了しました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1603966212,
+      "updated_at": 1603966212,
+      "label": "eTEXTS_DEF_ME_MSG_COLLECT_LUCK_OUT_OF_SERVICE"
+    },
+    {
+      "id": 6275,
+      "text": "新イベントミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603966212,
+      "updated_at": 1603966212,
+      "label": "eTEXTS_DEF_ME_MSG_COLLECT_LUCK_TITLE"
+    },
+    {
+      "id": 6276,
+      "text": "対象モンスターの[LUCK]を獲得して、豪華報酬をゲット！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603966212,
+      "updated_at": 1603966212,
+      "label": "eTEXTS_DEF_ME_MSG_COLLECT_LUCK_HEADER_DESCRIPTION"
+    },
+    {
+      "id": 6277,
+      "text": "[LC]報酬一覧[LF][LF][LC][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603966212,
+      "updated_at": 1603966212,
+      "label": "eTEXTS_DEF_ME_MSG_COLLECT_LUCK_REWARD_DIALOG"
+    },
+    {
+      "id": 6278,
+      "text": "[C5:クエスト降臨ルール]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1602674035,
+      "updated_at": 1602674035,
+      "label": "eTEXTS_DEF_22818"
+    },
+    {
+      "id": 6279,
+      "text": "降臨する時間は[C6:ユーザーによって異なります][LF]自分にクエストが出現していなくても、[LF]マルチのゲストなら[C6:参加可能]！[LF][LF]クエストが降臨したら友達を誘って[LF]マルチで挑戦しよう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1602674035,
+      "updated_at": 1602674035,
+      "label": "eTEXTS_DEF_22819"
+    },
+    {
+      "id": 6280,
+      "text": "※クエスト降臨ルールについて詳細は[u:https://www.monster-strike.com/news/20201004_1.html#1|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1602674035,
+      "updated_at": 1602674035,
+      "label": "eTEXTS_DEF_22820"
+    },
+    {
+      "id": 6281,
+      "text": "[LC]ミッション達成[LF][LF][LC]報酬を受け取りました！[LF][LF][LC][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603966212,
+      "updated_at": 1603966212,
+      "label": "eTEXTS_DEF_ME_MSG_COLLECT_LUCK_RESULT_DIALOG"
+    },
+    {
+      "id": 6282,
+      "text": "%s～%s",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603966212,
+      "updated_at": 1603966212,
+      "label": "eTEXTS_DEF_ME_MSG_COLLECT_LUCK_MISSION_PIRIOD"
+    },
+    {
+      "id": 6283,
+      "text": "%d/%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603966212,
+      "updated_at": 1603966212,
+      "label": "eTEXTS_DEF_ME_MSG_COLLECT_LUCK_PROGRESS_COUNT"
+    },
+    {
+      "id": 6284,
+      "text": "対象クエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603966212,
+      "updated_at": 1603966212,
+      "label": "eTEXTS_DEF_ME_MSG_COLLECT_LUCK_MISSION_LIST"
+    },
+    {
+      "id": 6285,
+      "text": "挑戦",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603966212,
+      "updated_at": 1603966212,
+      "label": "eTEXTS_DEF_ME_MSG_COLLECT_LUCK_COLLECT_LUCK_TRY"
+    },
+    {
+      "id": 6286,
+      "text": "[SW0.85][C6:マスターオーブをLVアップしてオーブをGET!]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24000"
+    },
+    {
+      "id": 6287,
+      "text": "[b:ba_ms_orb_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24001"
+    },
+    {
+      "id": 6288,
+      "text": "LVアップ可能期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24002"
+    },
+    {
+      "id": 6289,
+      "text": "10/23 4:00~11/11 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24003"
+    },
+    {
+      "id": 6290,
+      "text": "受け取り可能期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24004"
+    },
+    {
+      "id": 6291,
+      "text": "10/23 4:00~11/18 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24005"
+    },
+    {
+      "id": 6292,
+      "text": "[C5:マスターオーブLVアップとオーブ獲得]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24006"
+    },
+    {
+      "id": 6293,
+      "text": "[C6:ゲームログイン]や[C6:クエストプレイ]で、ポイントを[LF]獲得して[C6:マスターオーブ]をLVアップ!",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24007"
+    },
+    {
+      "id": 6294,
+      "text": "LVに応じてもらえるオーブ数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24008"
+    },
+    {
+      "id": 6295,
+      "text": "LV0",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24009"
+    },
+    {
+      "id": 6296,
+      "text": "LV1",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24010"
+    },
+    {
+      "id": 6297,
+      "text": "LV2",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24011"
+    },
+    {
+      "id": 6298,
+      "text": "LV3",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24012"
+    },
+    {
+      "id": 6299,
+      "text": "LV4",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24013"
+    },
+    {
+      "id": 6300,
+      "text": "LV5",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24014"
+    },
+    {
+      "id": 6301,
+      "text": "LV6",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24015"
+    },
+    {
+      "id": 6302,
+      "text": "LV7",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24016"
+    },
+    {
+      "id": 6303,
+      "text": "LV8",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24017"
+    },
+    {
+      "id": 6304,
+      "text": "LV9",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24018"
+    },
+    {
+      "id": 6305,
+      "text": "[C6:LV10]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24019"
+    },
+    {
+      "id": 6306,
+      "text": "[C5:マスターオーブの受け取り]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24020"
+    },
+    {
+      "id": 6307,
+      "text": "[C6:マスターオーブ]は受け取り期間中であれば[C6:好きな][LF][C6:LV]で受け取り、[C6:オーブ]を獲得することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24021"
+    },
+    {
+      "id": 6308,
+      "text": "受け取れるオーブ：100個",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24022"
+    },
+    {
+      "id": 6309,
+      "text": "受け取る",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24023"
+    },
+    {
+      "id": 6310,
+      "text": "マスターオーブを受け取ると、オーブ獲得後に[LF][C6:マスターオーブは消失]しますのでご注意ください！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24024"
+    },
+    {
+      "id": 6311,
+      "text": "[C5:ポイント獲得方法]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24025"
+    },
+    {
+      "id": 6312,
+      "text": "１日のポイント獲得上限",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24026"
+    },
+    {
+      "id": 6313,
+      "text": "[C6:２００]pt",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24027"
+    },
+    {
+      "id": 6314,
+      "text": "ゲームログイン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24028"
+    },
+    {
+      "id": 6315,
+      "text": "[C6:１００]pt",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24029"
+    },
+    {
+      "id": 6316,
+      "text": "クエスト（ソロ・ホスト）",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24030"
+    },
+    {
+      "id": 6317,
+      "text": "[C5:クリア]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24031"
+    },
+    {
+      "id": 6318,
+      "text": "[C2:ゲームオーバー/リタイア]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24032"
+    },
+    {
+      "id": 6319,
+      "text": "pt",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24033"
+    },
+    {
+      "id": 6320,
+      "text": "[C6:１/２]pt",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24034"
+    },
+    {
+      "id": 6321,
+      "text": "クエスト（ゲスト）",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24035"
+    },
+    {
+      "id": 6322,
+      "text": "[C5:クリア]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24036"
+    },
+    {
+      "id": 6323,
+      "text": "[C2:ゲームオーバー/リタイア]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24037"
+    },
+    {
+      "id": 6324,
+      "text": "[C6:１/２]pt",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24038"
+    },
+    {
+      "id": 6325,
+      "text": "※スタミナ減少中についても本来の[C6:消費スタミナ分][LF]　ポイントを獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24040"
+    },
+    {
+      "id": 6326,
+      "text": "※覇者の塔・禁忌の獄スキップで消費する[LF]　スタミナは対象外です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24041"
+    },
+    {
+      "id": 6327,
+      "text": "消費",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24042"
+    },
+    {
+      "id": 6328,
+      "text": "消費",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24043"
+    },
+    {
+      "id": 6329,
+      "text": "消費",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24044"
+    },
+    {
+      "id": 6330,
+      "text": "無し",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603373418,
+      "updated_at": 1603373418,
+      "label": "eTEXTS_DEF_24045"
+    },
+    {
+      "id": 6331,
+      "text": "[LC]魏武帝の懐刀 真・夏侯惇を手に入れろ！[LF][LF]このクエストをクリアすると、ミッション報酬で[LF][C6:★5 真・夏侯惇]を[C6:★6 魏武帝の懐刀 真・夏侯惇][LF]に進化させる事ができるようになるぞ！[LF][LF]このクエストに挑むには[LF]クエスト[C6:「魏を支えし忠誠心」]の[C6:究極]をクリアしよう！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1603880377,
+      "updated_at": 1603880377,
+      "label": "eTEXTS_DEF_20921"
+    },
+    {
+      "id": 6332,
+      "text": "「魏を支えし忠誠心」クリアで挑戦可",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1603880377,
+      "updated_at": 1603880377,
+      "label": "eTEXTS_DEF_20922"
+    },
+    {
+      "id": 6333,
+      "text": "[LC]挑戦できません[LF][LF]このクエストに参加するには[LF]クエスト[C6:「魏を支えし忠誠心」]の[C6:究極]を[LF]クリアする必要があります[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1603880377,
+      "updated_at": 1603880377,
+      "label": "eTEXTS_DEF_20923"
+    },
+    {
+      "id": 6334,
+      "text": "ラッキー",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_ME_LUCKY_RESULT_RIBBON_NAME"
+    },
+    {
+      "id": 6335,
+      "text": "[LC]自動合成設定[LF][LF]自動合成の設定を変更しますか？[LF-30][NODE][LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1682351342,
+      "label": "eTEXTS_DEF_AUTO_COMPOSITION_DIALOG"
+    },
+    {
+      "id": 6336,
+      "text": "スキップできるのはクリア経験がある階までです[LF][LF][C6:21階～29階]は、前回開催の[C6:｢裏・覇者の塔｣]で[LF]クリアした階に応じてスキップできる階層が広がります",
+      "layout": 29,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_MSG_TOWER_SKIP_NOT_CLEAR"
+    },
+    {
+      "id": 6337,
+      "text": "スタミナが不足しています[LF]MAX値分回復してもスキップできません[LF][LF]消費スタミナ：[C6:%d][LF]回復後のスタミナ：[C6:%d]",
+      "layout": 29,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_MSG_TOWER_SKIP_OVER_HEAL_NOT_ENOUGH"
+    },
+    {
+      "id": 6338,
+      "text": "スキップに必要なスタミナが不足しています[LF]なおスタミナがオーバーしているため[LF]回復できません",
+      "layout": 29,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_MSG_TOWER_SKIP_OVER_HEAL_NOT_ENOUGH_AFTER"
+    },
+    {
+      "id": 6339,
+      "text": "[C6:コラボ限定ガチャ開催中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23600"
+    },
+    {
+      "id": 6340,
+      "text": "[b:ba_help_collabo_nt2_00_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23601"
+    },
+    {
+      "id": 6341,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23602"
+    },
+    {
+      "id": 6342,
+      "text": "11/14 12:00～12/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23603"
+    },
+    {
+      "id": 6343,
+      "text": "[C5:コラボ限定ガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23604"
+    },
+    {
+      "id": 6344,
+      "text": "新登場キャラ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23605"
+    },
+    {
+      "id": 6345,
+      "text": "ガチャ[C6:｢七つの大罪 憤怒の審判｣]が期間限定で開催中！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23606"
+    },
+    {
+      "id": 6346,
+      "text": "[IP8313]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23607"
+    },
+    {
+      "id": 6347,
+      "text": "[IP8315]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23608"
+    },
+    {
+      "id": 6348,
+      "text": "[IP8319]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23609"
+    },
+    {
+      "id": 6349,
+      "text": "[IP8317]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23610"
+    },
+    {
+      "id": 6350,
+      "text": "[IP8321]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23611"
+    },
+    {
+      "id": 6351,
+      "text": "第1弾キャラ再登場",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23612"
+    },
+    {
+      "id": 6352,
+      "text": "3体の獣神化解禁！＆ガチャ開催！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23613"
+    },
+    {
+      "id": 6353,
+      "text": "[IP8309]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23614"
+    },
+    {
+      "id": 6354,
+      "text": "[IP8310]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23615"
+    },
+    {
+      "id": 6355,
+      "text": "[IP8311]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23616"
+    },
+    {
+      "id": 6356,
+      "text": "[C6:コラボ限定クエスト出現中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23617"
+    },
+    {
+      "id": 6357,
+      "text": "[b:ba_help_collabo_nt2_00_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23618"
+    },
+    {
+      "id": 6358,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23619"
+    },
+    {
+      "id": 6359,
+      "text": "11/14 12:00～12/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23620"
+    },
+    {
+      "id": 6360,
+      "text": "[C5:コラボ限定クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23621"
+    },
+    {
+      "id": 6361,
+      "text": "スケジュールに沿ってクエストが出現！[LF]降臨時間はスケジュール＆繰り返し予約で確認しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23622"
+    },
+    {
+      "id": 6362,
+      "text": "[SGBI21880|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23623"
+    },
+    {
+      "id": 6363,
+      "text": "[SGBI21850|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23624"
+    },
+    {
+      "id": 6364,
+      "text": "[SGBI21870|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23625"
+    },
+    {
+      "id": 6365,
+      "text": "[SGBI21830|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23626"
+    },
+    {
+      "id": 6366,
+      "text": "[SGBI21840|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23627"
+    },
+    {
+      "id": 6367,
+      "text": "[SGBI21860|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23628"
+    },
+    {
+      "id": 6368,
+      "text": "[SGBI21790|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23629"
+    },
+    {
+      "id": 6369,
+      "text": "[SGBI21800|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23630"
+    },
+    {
+      "id": 6370,
+      "text": "[SGBI21810|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23631"
+    },
+    {
+      "id": 6371,
+      "text": "[SGBI21820|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23632"
+    },
+    {
+      "id": 6372,
+      "text": "追憶の書庫クエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23633"
+    },
+    {
+      "id": 6373,
+      "text": "コラボ期間中[C6:追憶の書庫]にコラボ限定クエストが出現！[LF][LF][C4:果たされる約束　★５ ヘルブラム][LF][C6:勇気のまじない　★５ ギルサンダー][LF][C3:絶望降臨　　　　★５ ヘンドリクセン][LF][C2:恐るべき追跡者　★４ ギーラ][LF][C5:戦慄のカノン　　★４ ジェリコ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23634"
+    },
+    {
+      "id": 6374,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20201111_1.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23635"
+    },
+    {
+      "id": 6375,
+      "text": "[SW0.9][C6:1日1回限定クリアボーナスを手に入れよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23636"
+    },
+    {
+      "id": 6376,
+      "text": "[b:ba_help_collabo_nt2_00_3.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23637"
+    },
+    {
+      "id": 6377,
+      "text": "[C5:1日1回限定クリアボーナス！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23638"
+    },
+    {
+      "id": 6378,
+      "text": "コラボクエスト[C5:〈傲慢〉 vs. ｢慈愛｣]クリアで[LF][C5:★6 ｢慈愛｣のエスタロッサ]が[C6:7体]獲得できる！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23639"
+    },
+    {
+      "id": 6379,
+      "text": "[IP8323]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23640"
+    },
+    {
+      "id": 6380,
+      "text": "さらにマルチプレイで[LF]金卵2個以上のドロップ率アップ！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23641"
+    },
+    {
+      "id": 6381,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20201111_1.html#4|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23642"
+    },
+    {
+      "id": 6382,
+      "text": "[C6:｢敬神｣のゼルドリスが出現！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23643"
+    },
+    {
+      "id": 6383,
+      "text": "[b:ba_help_collabo_nt2_00_4.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23644"
+    },
+    {
+      "id": 6384,
+      "text": "[C5:超究極クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23645"
+    },
+    {
+      "id": 6385,
+      "text": "超究極クエスト[C2:｢邂逅｣]が特定の時間に降臨！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23646"
+    },
+    {
+      "id": 6386,
+      "text": "[SGBI21880|difficulty1]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23647"
+    },
+    {
+      "id": 6387,
+      "text": "クリア後の宝箱からは[LF][C2:★6 ｢敬神｣のゼルドリス]のみがドロップ！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23648"
+    },
+    {
+      "id": 6388,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20201111_1.html#6|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23649"
+    },
+    {
+      "id": 6389,
+      "text": "[C6:〈十戒〉統率者 メリオダスを止めろ！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23700"
+    },
+    {
+      "id": 6390,
+      "text": "[b:ba_help_collabo_nt2_01_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23701"
+    },
+    {
+      "id": 6391,
+      "text": "[C5:超究極クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23702"
+    },
+    {
+      "id": 6392,
+      "text": "超究極クエスト[C3:｢最強 vs. 最凶｣]が特定の時間に降臨！[LF][C6:〈十戒〉を7体]撃退することで挑戦可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23703"
+    },
+    {
+      "id": 6393,
+      "text": "[SGBI21890|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23704"
+    },
+    {
+      "id": 6394,
+      "text": "1回クリアすることで[LF][C6:★5 エリザベス＆ホーク]のもうひとつの進化が解放！[LF][LF][C6:★6 王女エリザベス＆喋る豚ホーク]と[LF][C6:★6 三千年の約束 メリオダス＆エリザベス]の[LF]切り替えが自由にできるように！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23705"
+    },
+    {
+      "id": 6395,
+      "text": "[IP4913]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23706"
+    },
+    {
+      "id": 6396,
+      "text": "[IP8332]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23707"
+    },
+    {
+      "id": 6397,
+      "text": "ホーム画面の[C6:ミッション]から受取可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23708"
+    },
+    {
+      "id": 6398,
+      "text": "[C6:ゲット！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23709"
+    },
+    {
+      "id": 6399,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20201111_1.html#9|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23710"
+    },
+    {
+      "id": 6400,
+      "text": "[C5:コラボ期間限定ラック+99]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23711"
+    },
+    {
+      "id": 6401,
+      "text": "[C6:★6 王女エリザベス＆喋る豚ホーク]と[LF][C6:★6 三千年の約束 メリオダス＆エリザベス]は[LF]コラボ期間中、本来のラックに[C4:+99]された[LF][C4:運極]状態で、ラックボーナスが獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23712"
+    },
+    {
+      "id": 6402,
+      "text": "コラボ期間中",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23713"
+    },
+    {
+      "id": 6403,
+      "text": "[IP4913]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23714"
+    },
+    {
+      "id": 6404,
+      "text": "[LUCK]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23715"
+    },
+    {
+      "id": 6405,
+      "text": "コラボ期間中",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23716"
+    },
+    {
+      "id": 6406,
+      "text": "[IP8332]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23717"
+    },
+    {
+      "id": 6407,
+      "text": "[LUCK]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23718"
+    },
+    {
+      "id": 6408,
+      "text": "コラボ期間中に99体集めて、[LF]期間終了後も[C6:運極キャラ]として使おう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23719"
+    },
+    {
+      "id": 6409,
+      "text": "[C5:エリザベス＆ホーク入手方法]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23720"
+    },
+    {
+      "id": 6410,
+      "text": "〈十戒〉撃退ミッションの撃退報酬、[LF]フレンドガチャ、ログインスタンプで獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23721"
+    },
+    {
+      "id": 6411,
+      "text": "[IP4912]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23722"
+    },
+    {
+      "id": 6412,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20201111_1.html#10|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23723"
+    },
+    {
+      "id": 6413,
+      "text": "※クエストボスの[C3:〈十戒〉統率者 メリオダス]は[LF]　ドロップしません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23724"
+    },
+    {
+      "id": 6414,
+      "text": "[C4:99+]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23725"
+    },
+    {
+      "id": 6415,
+      "text": "[C4:99+]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23726"
+    },
+    {
+      "id": 6416,
+      "text": "[SW0.9][C6:ラックを集めてスペシャル報酬を2倍に！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23800"
+    },
+    {
+      "id": 6417,
+      "text": "[b:ba_help_collabo_nt2_02_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23801"
+    },
+    {
+      "id": 6418,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23802"
+    },
+    {
+      "id": 6419,
+      "text": "11/14 12:00～12/4 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23803"
+    },
+    {
+      "id": 6420,
+      "text": "〈十戒〉2人組の[C6:獲得ラック合計が一定数を超える]と、[LF]対象のクエストで[C6:スペシャル報酬が2倍]に！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23804"
+    },
+    {
+      "id": 6421,
+      "text": "[IP8324]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23805"
+    },
+    {
+      "id": 6422,
+      "text": "[IP8325]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23806"
+    },
+    {
+      "id": 6423,
+      "text": "獲得合計",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23807"
+    },
+    {
+      "id": 6424,
+      "text": "[LUCK]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23808"
+    },
+    {
+      "id": 6425,
+      "text": "対象クエストのボスをラックMAXにしやすくなります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23809"
+    },
+    {
+      "id": 6426,
+      "text": "[C5:所持状況]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23810"
+    },
+    {
+      "id": 6427,
+      "text": "｢忍耐｣のドロール＆｢安息｣のグロキシニア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23811"
+    },
+    {
+      "id": 6428,
+      "text": "[SGBI21830|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23812"
+    },
+    {
+      "id": 6429,
+      "text": "[SGBI21840|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23813"
+    },
+    {
+      "id": 6430,
+      "text": "｢沈黙｣のモンスピート＆｢純潔｣のデリエリ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23814"
+    },
+    {
+      "id": 6431,
+      "text": "[SGBI21850|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23815"
+    },
+    {
+      "id": 6432,
+      "text": "[SGBI21860|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23816"
+    },
+    {
+      "id": 6433,
+      "text": "｢無欲｣のフラウドリン＆｢不殺｣のグレイロード",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23817"
+    },
+    {
+      "id": 6434,
+      "text": "[SGBI21790|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23818"
+    },
+    {
+      "id": 6435,
+      "text": "[SGBI21800|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23819"
+    },
+    {
+      "id": 6436,
+      "text": "｢真実｣のガラン＆｢信仰｣のメラスキュラ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23820"
+    },
+    {
+      "id": 6437,
+      "text": "[SGBI21810|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23821"
+    },
+    {
+      "id": 6438,
+      "text": "[SGBI21820|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23822"
+    },
+    {
+      "id": 6439,
+      "text": "※[C2:｢敬神｣のゼルドリス]と[C5: ｢慈愛｣のエスタロッサ]の[LF]　クエストは対象外です[LF]※マルチでは、参加者のうち1人でもボーナスを[LF]　達成していれば全員に効果が適用されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23823"
+    },
+    {
+      "id": 6440,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20201111_1.html#5|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23824"
+    },
+    {
+      "id": 6441,
+      "text": "[C4:99+]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_23825"
+    },
+    {
+      "id": 6442,
+      "text": "[C6:〈十戒〉を撃退せよ！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_24100"
+    },
+    {
+      "id": 6443,
+      "text": "[b:ba_help_collabo_nt2_mission_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_24101"
+    },
+    {
+      "id": 6444,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_24102"
+    },
+    {
+      "id": 6445,
+      "text": "11/14 12:00～12/5 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_24103"
+    },
+    {
+      "id": 6446,
+      "text": "[C5:〈十戒〉撃退ミッションとは]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_24104"
+    },
+    {
+      "id": 6447,
+      "text": "ミッションをクリアして[C6:〈十戒〉を撃退]しよう！[LF]撃退に成功することで報酬が獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_24105"
+    },
+    {
+      "id": 6448,
+      "text": "[C5:〈十戒〉撃退方法]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_24106"
+    },
+    {
+      "id": 6449,
+      "text": "〈十戒〉の各クエストに[C6:3つのミッション]があり、[LF][C6:ミッションを全てクリアすることで撃退]できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_24107"
+    },
+    {
+      "id": 6450,
+      "text": "[C6:撃退]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_24108"
+    },
+    {
+      "id": 6451,
+      "text": "撃退した〈十戒〉に応じて報酬が獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_24109"
+    },
+    {
+      "id": 6452,
+      "text": "[IP4912]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_24110"
+    },
+    {
+      "id": 6453,
+      "text": "[C6:〈十戒〉の撃退数に応じて]さらに報酬が獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_24111"
+    },
+    {
+      "id": 6454,
+      "text": "2体撃退",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_24112"
+    },
+    {
+      "id": 6455,
+      "text": "[C6:ゲット！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_24113"
+    },
+    {
+      "id": 6456,
+      "text": "4体撃退",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_24114"
+    },
+    {
+      "id": 6457,
+      "text": "[C6:ゲット！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_24115"
+    },
+    {
+      "id": 6458,
+      "text": "[C6:7体撃退]に成功すると[C3:超究極クエスト][LF][C3:｢最強 vs. 最凶｣]に挑戦可能になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1605113865,
+      "updated_at": 1605113865,
+      "label": "eTEXTS_DEF_24116"
+    }
+  ]
+}

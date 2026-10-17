@@ -1,0 +1,412 @@
+{
+  "schemaVersion": 1,
+  "table": "raid_levels",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "raid_event_id": 1,
+      "level": 1,
+      "required_point": 0,
+      "raid_level_group_id": 0,
+      "created_at": 1594816794,
+      "updated_at": 1594816794
+    },
+    {
+      "id": 2,
+      "raid_event_id": 1,
+      "level": 2,
+      "required_point": 20,
+      "raid_level_group_id": 1,
+      "created_at": 1594816794,
+      "updated_at": 1594816794
+    },
+    {
+      "id": 3,
+      "raid_event_id": 1,
+      "level": 3,
+      "required_point": 40,
+      "raid_level_group_id": 1,
+      "created_at": 1594816794,
+      "updated_at": 1594816794
+    },
+    {
+      "id": 4,
+      "raid_event_id": 1,
+      "level": 4,
+      "required_point": 60,
+      "raid_level_group_id": 1,
+      "created_at": 1594816794,
+      "updated_at": 1594816794
+    },
+    {
+      "id": 5,
+      "raid_event_id": 1,
+      "level": 5,
+      "required_point": 80,
+      "raid_level_group_id": 1,
+      "created_at": 1594816794,
+      "updated_at": 1594816794
+    },
+    {
+      "id": 6,
+      "raid_event_id": 1,
+      "level": 6,
+      "required_point": 100,
+      "raid_level_group_id": 1,
+      "created_at": 1594816794,
+      "updated_at": 1594816794
+    },
+    {
+      "id": 7,
+      "raid_event_id": 1,
+      "level": 7,
+      "required_point": 120,
+      "raid_level_group_id": 1,
+      "created_at": 1594816794,
+      "updated_at": 1594816794
+    },
+    {
+      "id": 8,
+      "raid_event_id": 1,
+      "level": 8,
+      "required_point": 140,
+      "raid_level_group_id": 1,
+      "created_at": 1594816794,
+      "updated_at": 1594816794
+    },
+    {
+      "id": 9,
+      "raid_event_id": 1,
+      "level": 9,
+      "required_point": 160,
+      "raid_level_group_id": 1,
+      "created_at": 1594816794,
+      "updated_at": 1594816794
+    },
+    {
+      "id": 10,
+      "raid_event_id": 1,
+      "level": 10,
+      "required_point": 190,
+      "raid_level_group_id": 2,
+      "created_at": 1594816794,
+      "updated_at": 1594816794
+    },
+    {
+      "id": 11,
+      "raid_event_id": 1,
+      "level": 11,
+      "required_point": 220,
+      "raid_level_group_id": 2,
+      "created_at": 1594816794,
+      "updated_at": 1594816794
+    },
+    {
+      "id": 12,
+      "raid_event_id": 1,
+      "level": 12,
+      "required_point": 250,
+      "raid_level_group_id": 2,
+      "created_at": 1594816794,
+      "updated_at": 1594816794
+    },
+    {
+      "id": 13,
+      "raid_event_id": 1,
+      "level": 13,
+      "required_point": 280,
+      "raid_level_group_id": 2,
+      "created_at": 1594816794,
+      "updated_at": 1594816794
+    },
+    {
+      "id": 14,
+      "raid_event_id": 1,
+      "level": 14,
+      "required_point": 310,
+      "raid_level_group_id": 2,
+      "created_at": 1594816794,
+      "updated_at": 1594816794
+    },
+    {
+      "id": 15,
+      "raid_event_id": 1,
+      "level": 15,
+      "required_point": 350,
+      "raid_level_group_id": 2,
+      "created_at": 1594816794,
+      "updated_at": 1594816794
+    },
+    {
+      "id": 16,
+      "raid_event_id": 1,
+      "level": 16,
+      "required_point": 390,
+      "raid_level_group_id": 2,
+      "created_at": 1594816794,
+      "updated_at": 1594816794
+    },
+    {
+      "id": 17,
+      "raid_event_id": 1,
+      "level": 17,
+      "required_point": 430,
+      "raid_level_group_id": 2,
+      "created_at": 1594816795,
+      "updated_at": 1594816795
+    },
+    {
+      "id": 18,
+      "raid_event_id": 1,
+      "level": 18,
+      "required_point": 470,
+      "raid_level_group_id": 2,
+      "created_at": 1594816795,
+      "updated_at": 1594816795
+    },
+    {
+      "id": 19,
+      "raid_event_id": 1,
+      "level": 19,
+      "required_point": 510,
+      "raid_level_group_id": 2,
+      "created_at": 1594816795,
+      "updated_at": 1594816795
+    },
+    {
+      "id": 20,
+      "raid_event_id": 1,
+      "level": 20,
+      "required_point": 580,
+      "raid_level_group_id": 3,
+      "created_at": 1594816795,
+      "updated_at": 1594816795
+    },
+    {
+      "id": 21,
+      "raid_event_id": 1,
+      "level": 21,
+      "required_point": 650,
+      "raid_level_group_id": 3,
+      "created_at": 1594816795,
+      "updated_at": 1594816795
+    },
+    {
+      "id": 22,
+      "raid_event_id": 1,
+      "level": 22,
+      "required_point": 720,
+      "raid_level_group_id": 3,
+      "created_at": 1594816795,
+      "updated_at": 1594816795
+    },
+    {
+      "id": 23,
+      "raid_event_id": 1,
+      "level": 23,
+      "required_point": 790,
+      "raid_level_group_id": 3,
+      "created_at": 1594816795,
+      "updated_at": 1594816795
+    },
+    {
+      "id": 24,
+      "raid_event_id": 1,
+      "level": 24,
+      "required_point": 860,
+      "raid_level_group_id": 3,
+      "created_at": 1594816795,
+      "updated_at": 1594816795
+    },
+    {
+      "id": 25,
+      "raid_event_id": 1,
+      "level": 25,
+      "required_point": 950,
+      "raid_level_group_id": 3,
+      "created_at": 1594816795,
+      "updated_at": 1594816795
+    },
+    {
+      "id": 26,
+      "raid_event_id": 1,
+      "level": 26,
+      "required_point": 1040,
+      "raid_level_group_id": 3,
+      "created_at": 1594816795,
+      "updated_at": 1594816795
+    },
+    {
+      "id": 27,
+      "raid_event_id": 1,
+      "level": 27,
+      "required_point": 1130,
+      "raid_level_group_id": 3,
+      "created_at": 1594816795,
+      "updated_at": 1594816795
+    },
+    {
+      "id": 28,
+      "raid_event_id": 1,
+      "level": 28,
+      "required_point": 1220,
+      "raid_level_group_id": 3,
+      "created_at": 1594816795,
+      "updated_at": 1594816795
+    },
+    {
+      "id": 29,
+      "raid_event_id": 1,
+      "level": 29,
+      "required_point": 1310,
+      "raid_level_group_id": 3,
+      "created_at": 1594816795,
+      "updated_at": 1594816795
+    },
+    {
+      "id": 30,
+      "raid_event_id": 1,
+      "level": 30,
+      "required_point": 1420,
+      "raid_level_group_id": 4,
+      "created_at": 1594816795,
+      "updated_at": 1594816795
+    },
+    {
+      "id": 31,
+      "raid_event_id": 1,
+      "level": 31,
+      "required_point": 1530,
+      "raid_level_group_id": 4,
+      "created_at": 1594816795,
+      "updated_at": 1594816795
+    },
+    {
+      "id": 32,
+      "raid_event_id": 1,
+      "level": 32,
+      "required_point": 1640,
+      "raid_level_group_id": 4,
+      "created_at": 1594816795,
+      "updated_at": 1594816795
+    },
+    {
+      "id": 33,
+      "raid_event_id": 1,
+      "level": 33,
+      "required_point": 1750,
+      "raid_level_group_id": 4,
+      "created_at": 1594816795,
+      "updated_at": 1594816795
+    },
+    {
+      "id": 34,
+      "raid_event_id": 1,
+      "level": 34,
+      "required_point": 1860,
+      "raid_level_group_id": 4,
+      "created_at": 1594816795,
+      "updated_at": 1594816795
+    },
+    {
+      "id": 35,
+      "raid_event_id": 1,
+      "level": 35,
+      "required_point": 2010,
+      "raid_level_group_id": 4,
+      "created_at": 1594816795,
+      "updated_at": 1594816795
+    },
+    {
+      "id": 36,
+      "raid_event_id": 1,
+      "level": 36,
+      "required_point": 2160,
+      "raid_level_group_id": 4,
+      "created_at": 1594816795,
+      "updated_at": 1594816795
+    },
+    {
+      "id": 37,
+      "raid_event_id": 1,
+      "level": 37,
+      "required_point": 2310,
+      "raid_level_group_id": 4,
+      "created_at": 1594816795,
+      "updated_at": 1594816795
+    },
+    {
+      "id": 38,
+      "raid_event_id": 1,
+      "level": 38,
+      "required_point": 2460,
+      "raid_level_group_id": 4,
+      "created_at": 1594816795,
+      "updated_at": 1594816795
+    },
+    {
+      "id": 39,
+      "raid_event_id": 1,
+      "level": 39,
+      "required_point": 2660,
+      "raid_level_group_id": 4,
+      "created_at": 1594816795,
+      "updated_at": 1594816795
+    },
+    {
+      "id": 40,
+      "raid_event_id": 1,
+      "level": 40,
+      "required_point": 2860,
+      "raid_level_group_id": 5,
+      "created_at": 1594816795,
+      "updated_at": 1594816795
+    },
+    {
+      "id": 41,
+      "raid_event_id": 1,
+      "level": 41,
+      "required_point": 3160,
+      "raid_level_group_id": 5,
+      "created_at": 1594816795,
+      "updated_at": 1594816795
+    },
+    {
+      "id": 42,
+      "raid_event_id": 1,
+      "level": 42,
+      "required_point": 3460,
+      "raid_level_group_id": 5,
+      "created_at": 1594816795,
+      "updated_at": 1594816795
+    },
+    {
+      "id": 43,
+      "raid_event_id": 1,
+      "level": 43,
+      "required_point": 3860,
+      "raid_level_group_id": 5,
+      "created_at": 1594816795,
+      "updated_at": 1594816795
+    },
+    {
+      "id": 44,
+      "raid_event_id": 1,
+      "level": 44,
+      "required_point": 4460,
+      "raid_level_group_id": 5,
+      "created_at": 1594816795,
+      "updated_at": 1594816795
+    },
+    {
+      "id": 45,
+      "raid_event_id": 1,
+      "level": 45,
+      "required_point": 5060,
+      "raid_level_group_id": 6,
+      "created_at": 1594816795,
+      "updated_at": 1594816795
+    }
+  ]
+}

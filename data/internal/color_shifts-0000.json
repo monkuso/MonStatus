@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "table": "color_shifts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "start_at": 1761966000,
+      "end_at": 1762570799,
+      "item_id": 19922,
+      "char_extend_template_id": 106,
+      "stage_group_id": 850940,
+      "max_cnt": 20,
+      "created_at": 1663238599,
+      "updated_at": 1761815340
+    },
+    {
+      "id": 2,
+      "start_at": 1761361200,
+      "end_at": 1761965999,
+      "item_id": 20513,
+      "char_extend_template_id": 106,
+      "stage_group_id": 851140,
+      "max_cnt": 20,
+      "created_at": 1686219267,
+      "updated_at": 1761221566
+    },
+    {
+      "id": 3,
+      "start_at": 1760756400,
+      "end_at": 1761361199,
+      "item_id": 21479,
+      "char_extend_template_id": 106,
+      "stage_group_id": 851480,
+      "max_cnt": 20,
+      "created_at": 1725534233,
+      "updated_at": 1760697444
+    },
+    {
+      "id": 4,
+      "start_at": 1750647600,
+      "end_at": 1751597999,
+      "item_id": 22072,
+      "char_extend_template_id": 106,
+      "stage_group_id": 851730,
+      "max_cnt": 20,
+      "created_at": 1750411062,
+      "updated_at": 1750411062
+    }
+  ]
+}

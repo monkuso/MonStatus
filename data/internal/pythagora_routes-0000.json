@@ -1,0 +1,677 @@
+{
+  "schemaVersion": 1,
+  "table": "pythagora_routes",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "from_pythagora_stage_id": 1,
+      "to_pythagora_stage_id": 2,
+      "ccb_tag_begin": 200,
+      "ccb_tag_end": 204,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 2,
+      "from_pythagora_stage_id": 2,
+      "to_pythagora_stage_id": 3,
+      "ccb_tag_begin": 205,
+      "ccb_tag_end": 209,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 3,
+      "from_pythagora_stage_id": 3,
+      "to_pythagora_stage_id": 4,
+      "ccb_tag_begin": 210,
+      "ccb_tag_end": 214,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 4,
+      "from_pythagora_stage_id": 4,
+      "to_pythagora_stage_id": 5,
+      "ccb_tag_begin": 215,
+      "ccb_tag_end": 219,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 5,
+      "from_pythagora_stage_id": 5,
+      "to_pythagora_stage_id": 6,
+      "ccb_tag_begin": 220,
+      "ccb_tag_end": 224,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 6,
+      "from_pythagora_stage_id": 6,
+      "to_pythagora_stage_id": 7,
+      "ccb_tag_begin": 225,
+      "ccb_tag_end": 229,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 7,
+      "from_pythagora_stage_id": 7,
+      "to_pythagora_stage_id": 8,
+      "ccb_tag_begin": 230,
+      "ccb_tag_end": 234,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 8,
+      "from_pythagora_stage_id": 8,
+      "to_pythagora_stage_id": 9,
+      "ccb_tag_begin": 235,
+      "ccb_tag_end": 239,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 9,
+      "from_pythagora_stage_id": 9,
+      "to_pythagora_stage_id": 10,
+      "ccb_tag_begin": 240,
+      "ccb_tag_end": 244,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 10,
+      "from_pythagora_stage_id": 10,
+      "to_pythagora_stage_id": 11,
+      "ccb_tag_begin": 245,
+      "ccb_tag_end": 249,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 11,
+      "from_pythagora_stage_id": 11,
+      "to_pythagora_stage_id": 12,
+      "ccb_tag_begin": 250,
+      "ccb_tag_end": 254,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 12,
+      "from_pythagora_stage_id": 12,
+      "to_pythagora_stage_id": 13,
+      "ccb_tag_begin": 285,
+      "ccb_tag_end": 289,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 13,
+      "from_pythagora_stage_id": 12,
+      "to_pythagora_stage_id": 14,
+      "ccb_tag_begin": 255,
+      "ccb_tag_end": 259,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 14,
+      "from_pythagora_stage_id": 14,
+      "to_pythagora_stage_id": 15,
+      "ccb_tag_begin": 260,
+      "ccb_tag_end": 264,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 15,
+      "from_pythagora_stage_id": 15,
+      "to_pythagora_stage_id": 16,
+      "ccb_tag_begin": 265,
+      "ccb_tag_end": 269,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 16,
+      "from_pythagora_stage_id": 16,
+      "to_pythagora_stage_id": 17,
+      "ccb_tag_begin": 270,
+      "ccb_tag_end": 274,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 17,
+      "from_pythagora_stage_id": 17,
+      "to_pythagora_stage_id": 18,
+      "ccb_tag_begin": 275,
+      "ccb_tag_end": 279,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 18,
+      "from_pythagora_stage_id": 18,
+      "to_pythagora_stage_id": 19,
+      "ccb_tag_begin": 280,
+      "ccb_tag_end": 284,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 19,
+      "from_pythagora_stage_id": 19,
+      "to_pythagora_stage_id": 20,
+      "ccb_tag_begin": 285,
+      "ccb_tag_end": 289,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 20,
+      "from_pythagora_stage_id": 20,
+      "to_pythagora_stage_id": 21,
+      "ccb_tag_begin": 200,
+      "ccb_tag_end": 204,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 21,
+      "from_pythagora_stage_id": 21,
+      "to_pythagora_stage_id": 22,
+      "ccb_tag_begin": 205,
+      "ccb_tag_end": 209,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 22,
+      "from_pythagora_stage_id": 22,
+      "to_pythagora_stage_id": 23,
+      "ccb_tag_begin": 210,
+      "ccb_tag_end": 214,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 23,
+      "from_pythagora_stage_id": 23,
+      "to_pythagora_stage_id": 24,
+      "ccb_tag_begin": 215,
+      "ccb_tag_end": 219,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 24,
+      "from_pythagora_stage_id": 24,
+      "to_pythagora_stage_id": 25,
+      "ccb_tag_begin": 220,
+      "ccb_tag_end": 224,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 25,
+      "from_pythagora_stage_id": 25,
+      "to_pythagora_stage_id": 26,
+      "ccb_tag_begin": 225,
+      "ccb_tag_end": 229,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 26,
+      "from_pythagora_stage_id": 26,
+      "to_pythagora_stage_id": 27,
+      "ccb_tag_begin": 230,
+      "ccb_tag_end": 234,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 27,
+      "from_pythagora_stage_id": 27,
+      "to_pythagora_stage_id": 28,
+      "ccb_tag_begin": 235,
+      "ccb_tag_end": 239,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 28,
+      "from_pythagora_stage_id": 28,
+      "to_pythagora_stage_id": 29,
+      "ccb_tag_begin": 240,
+      "ccb_tag_end": 244,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 29,
+      "from_pythagora_stage_id": 29,
+      "to_pythagora_stage_id": 30,
+      "ccb_tag_begin": 245,
+      "ccb_tag_end": 249,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 30,
+      "from_pythagora_stage_id": 30,
+      "to_pythagora_stage_id": 31,
+      "ccb_tag_begin": 250,
+      "ccb_tag_end": 254,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 31,
+      "from_pythagora_stage_id": 31,
+      "to_pythagora_stage_id": 32,
+      "ccb_tag_begin": 255,
+      "ccb_tag_end": 259,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 32,
+      "from_pythagora_stage_id": 32,
+      "to_pythagora_stage_id": 33,
+      "ccb_tag_begin": 285,
+      "ccb_tag_end": 289,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 33,
+      "from_pythagora_stage_id": 31,
+      "to_pythagora_stage_id": 34,
+      "ccb_tag_begin": 260,
+      "ccb_tag_end": 264,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 34,
+      "from_pythagora_stage_id": 34,
+      "to_pythagora_stage_id": 35,
+      "ccb_tag_begin": 265,
+      "ccb_tag_end": 269,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 35,
+      "from_pythagora_stage_id": 35,
+      "to_pythagora_stage_id": 36,
+      "ccb_tag_begin": 270,
+      "ccb_tag_end": 274,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 36,
+      "from_pythagora_stage_id": 36,
+      "to_pythagora_stage_id": 37,
+      "ccb_tag_begin": 280,
+      "ccb_tag_end": 284,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 37,
+      "from_pythagora_stage_id": 37,
+      "to_pythagora_stage_id": 38,
+      "ccb_tag_begin": 200,
+      "ccb_tag_end": 204,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 38,
+      "from_pythagora_stage_id": 38,
+      "to_pythagora_stage_id": 39,
+      "ccb_tag_begin": 205,
+      "ccb_tag_end": 209,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 39,
+      "from_pythagora_stage_id": 39,
+      "to_pythagora_stage_id": 40,
+      "ccb_tag_begin": 210,
+      "ccb_tag_end": 214,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 40,
+      "from_pythagora_stage_id": 40,
+      "to_pythagora_stage_id": 41,
+      "ccb_tag_begin": 215,
+      "ccb_tag_end": 219,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 41,
+      "from_pythagora_stage_id": 41,
+      "to_pythagora_stage_id": 42,
+      "ccb_tag_begin": 220,
+      "ccb_tag_end": 224,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 42,
+      "from_pythagora_stage_id": 42,
+      "to_pythagora_stage_id": 43,
+      "ccb_tag_begin": 225,
+      "ccb_tag_end": 229,
+      "ccb_tag_lock": 227,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 43,
+      "from_pythagora_stage_id": 43,
+      "to_pythagora_stage_id": 44,
+      "ccb_tag_begin": 230,
+      "ccb_tag_end": 234,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 44,
+      "from_pythagora_stage_id": 44,
+      "to_pythagora_stage_id": 45,
+      "ccb_tag_begin": 235,
+      "ccb_tag_end": 239,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 45,
+      "from_pythagora_stage_id": 45,
+      "to_pythagora_stage_id": 46,
+      "ccb_tag_begin": 240,
+      "ccb_tag_end": 244,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 46,
+      "from_pythagora_stage_id": 46,
+      "to_pythagora_stage_id": 47,
+      "ccb_tag_begin": 245,
+      "ccb_tag_end": 249,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 47,
+      "from_pythagora_stage_id": 47,
+      "to_pythagora_stage_id": 48,
+      "ccb_tag_begin": 250,
+      "ccb_tag_end": 254,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 48,
+      "from_pythagora_stage_id": 48,
+      "to_pythagora_stage_id": 49,
+      "ccb_tag_begin": 255,
+      "ccb_tag_end": 259,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 49,
+      "from_pythagora_stage_id": 49,
+      "to_pythagora_stage_id": 50,
+      "ccb_tag_begin": 260,
+      "ccb_tag_end": 264,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 50,
+      "from_pythagora_stage_id": 50,
+      "to_pythagora_stage_id": 51,
+      "ccb_tag_begin": 265,
+      "ccb_tag_end": 269,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 51,
+      "from_pythagora_stage_id": 51,
+      "to_pythagora_stage_id": 52,
+      "ccb_tag_begin": 270,
+      "ccb_tag_end": 274,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 52,
+      "from_pythagora_stage_id": 52,
+      "to_pythagora_stage_id": 53,
+      "ccb_tag_begin": 200,
+      "ccb_tag_end": 204,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 53,
+      "from_pythagora_stage_id": 53,
+      "to_pythagora_stage_id": 54,
+      "ccb_tag_begin": 205,
+      "ccb_tag_end": 209,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 54,
+      "from_pythagora_stage_id": 54,
+      "to_pythagora_stage_id": 55,
+      "ccb_tag_begin": 210,
+      "ccb_tag_end": 214,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 55,
+      "from_pythagora_stage_id": 55,
+      "to_pythagora_stage_id": 56,
+      "ccb_tag_begin": 285,
+      "ccb_tag_end": 289,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 56,
+      "from_pythagora_stage_id": 54,
+      "to_pythagora_stage_id": 57,
+      "ccb_tag_begin": 215,
+      "ccb_tag_end": 219,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 57,
+      "from_pythagora_stage_id": 57,
+      "to_pythagora_stage_id": 58,
+      "ccb_tag_begin": 220,
+      "ccb_tag_end": 224,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 58,
+      "from_pythagora_stage_id": 58,
+      "to_pythagora_stage_id": 59,
+      "ccb_tag_begin": 225,
+      "ccb_tag_end": 229,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 59,
+      "from_pythagora_stage_id": 59,
+      "to_pythagora_stage_id": 60,
+      "ccb_tag_begin": 230,
+      "ccb_tag_end": 234,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 60,
+      "from_pythagora_stage_id": 60,
+      "to_pythagora_stage_id": 61,
+      "ccb_tag_begin": 235,
+      "ccb_tag_end": 239,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 61,
+      "from_pythagora_stage_id": 61,
+      "to_pythagora_stage_id": 62,
+      "ccb_tag_begin": 240,
+      "ccb_tag_end": 244,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 62,
+      "from_pythagora_stage_id": 62,
+      "to_pythagora_stage_id": 63,
+      "ccb_tag_begin": 245,
+      "ccb_tag_end": 249,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 63,
+      "from_pythagora_stage_id": 63,
+      "to_pythagora_stage_id": 64,
+      "ccb_tag_begin": 250,
+      "ccb_tag_end": 254,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 64,
+      "from_pythagora_stage_id": 64,
+      "to_pythagora_stage_id": 65,
+      "ccb_tag_begin": 255,
+      "ccb_tag_end": 259,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 65,
+      "from_pythagora_stage_id": 65,
+      "to_pythagora_stage_id": 66,
+      "ccb_tag_begin": 260,
+      "ccb_tag_end": 264,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 66,
+      "from_pythagora_stage_id": 66,
+      "to_pythagora_stage_id": 67,
+      "ccb_tag_begin": 265,
+      "ccb_tag_end": 269,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    },
+    {
+      "id": 67,
+      "from_pythagora_stage_id": 67,
+      "to_pythagora_stage_id": 68,
+      "ccb_tag_begin": 270,
+      "ccb_tag_end": 274,
+      "ccb_tag_lock": 0,
+      "created_at": 1677838483,
+      "updated_at": 1677838483
+    }
+  ]
+}

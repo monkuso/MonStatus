@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "table": "seesaw_stage_items",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "name": "タツマキ",
+      "item_type": 1,
+      "effect_value": 33,
+      "target_value": 4,
+      "created_at": 1723121724,
+      "updated_at": 1723121724
+    },
+    {
+      "id": 2,
+      "name": "リバース",
+      "item_type": 2,
+      "effect_value": 0,
+      "target_value": 3,
+      "created_at": 1723121724,
+      "updated_at": 1723121724
+    },
+    {
+      "id": 3,
+      "name": "ショウキョ",
+      "item_type": 3,
+      "effect_value": 0,
+      "target_value": 3,
+      "created_at": 1723121724,
+      "updated_at": 1723121724
+    },
+    {
+      "id": 4,
+      "name": "クラヤミ",
+      "item_type": 4,
+      "effect_value": 0,
+      "target_value": 1,
+      "created_at": 1723121724,
+      "updated_at": 1723121724
+    },
+    {
+      "id": 5,
+      "name": "ハート",
+      "item_type": 5,
+      "effect_value": 0,
+      "target_value": 2,
+      "created_at": 1723121724,
+      "updated_at": 1723121724
+    },
+    {
+      "id": 6,
+      "name": "スパークル",
+      "item_type": 6,
+      "effect_value": 50,
+      "target_value": 2,
+      "created_at": 1723121724,
+      "updated_at": 1723121724
+    },
+    {
+      "id": 7,
+      "name": "ソード",
+      "item_type": 7,
+      "effect_value": 0,
+      "target_value": 2,
+      "created_at": 1723121724,
+      "updated_at": 1723121724
+    },
+    {
+      "id": 8,
+      "name": "イチゲキ",
+      "item_type": 8,
+      "effect_value": 0,
+      "target_value": 2,
+      "created_at": 1723121724,
+      "updated_at": 1723121724
+    }
+  ]
+}

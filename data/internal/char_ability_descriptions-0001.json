@@ -1,0 +1,535 @@
+{
+  "schemaVersion": 1,
+  "table": "char_ability_descriptions",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 4103,
+      "name": "ブラッドウェポン",
+      "group_id": 4103,
+      "description": "敵にふれてダメージを与える毎にHPが回復する",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 4104,
+      "name": "エナジードレイン",
+      "group_id": 4104,
+      "description": "敵にふれてダメージを与える毎にHPが回復する",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 4105,
+      "name": "エナジードレイン",
+      "group_id": 4105,
+      "description": "敵にふれてダメージを与える毎にHPが回復する",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 4111,
+      "name": "ソウルスティール",
+      "group_id": 4111,
+      "description": "敵を倒す毎にHPが5000回復する",
+      "created_at": 1619453157,
+      "updated_at": 1640685892
+    },
+    {
+      "id": 4112,
+      "name": "ソウルスティールM",
+      "group_id": 4112,
+      "description": "敵を倒す毎にHPが7500回復する",
+      "created_at": 1619453157,
+      "updated_at": 1640685892
+    },
+    {
+      "id": 4201,
+      "name": "バリア",
+      "group_id": 4201,
+      "description": "敵からの一定量のダメージを無効化する[LF]各マップ開始時にバリアを張る",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 4202,
+      "name": "ハートバリア",
+      "group_id": 4202,
+      "description": "敵からの一定量のダメージを無効化する[LF]各マップ開始時にハートバリアを張る",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 4203,
+      "name": "段ボールバリア",
+      "group_id": 4203,
+      "description": "敵からの一定量のダメージを無効化する[LF]各マップ開始時に段ボールを身にまとう",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 4204,
+      "name": "A.T.フィールド",
+      "group_id": 4204,
+      "description": "敵からの一定量のダメージを無効化する[LF]各マップ移動時にA.T.フィールドを展開する",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 4205,
+      "name": "A.T.フィールド",
+      "group_id": 4205,
+      "description": "敵からの一定量のダメージを無効化する[LF]各マップ移動時にA.T.フィールドを展開する",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 4211,
+      "name": "プロテクション",
+      "group_id": 4211,
+      "description": "敵攻撃の威力が一定以下の場合、[LF]ダメージを1にする",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 4212,
+      "name": "プロテクション",
+      "group_id": 4212,
+      "description": "敵攻撃の威力が一定以下の場合、[LF]ダメージを1にする",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 4301,
+      "name": "友情コンボ×2",
+      "group_id": 4301,
+      "description": "自身の友情コンボを最大2回まで発動できる",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 4401,
+      "name": "レーザーストップ",
+      "group_id": 4401,
+      "description": "敵からのレーザー攻撃を受け止める",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 4402,
+      "name": "超レーザーストップ",
+      "group_id": 4402,
+      "description": "敵からのレーザー攻撃を受け止め、HPが回復する",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 4501,
+      "name": "底力",
+      "group_id": 4501,
+      "description": "残りHPが50%未満の時、攻撃力が1.5倍になる",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 4502,
+      "name": "底力M",
+      "group_id": 4502,
+      "description": "残りHPが50%未満の時、攻撃力が2倍になる",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 4503,
+      "name": "底力L",
+      "group_id": 4503,
+      "description": "残りHPが50%未満の時、攻撃力が2.5倍になる",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 4504,
+      "name": "底力EL",
+      "group_id": 4504,
+      "description": "残りHPが50%未満の時、攻撃力が3倍になる",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 4511,
+      "name": "友情底力",
+      "group_id": 4511,
+      "description": "残りHPが50％未満の時、自身の友情コンボの威力が[LF]1.5倍になる",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 4512,
+      "name": "友情底力M",
+      "group_id": 4512,
+      "description": "残りHPが50％未満の時、自身の友情コンボの威力が[LF]2倍になる",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 4513,
+      "name": "友情底力L",
+      "group_id": 4513,
+      "description": "残りHPが50％未満の時、自身の友情コンボの威力が[LF]2.5倍になる",
+      "created_at": 1641542695,
+      "updated_at": 1641542695
+    },
+    {
+      "id": 4521,
+      "name": "状態異常底力",
+      "group_id": 4521,
+      "description": "状態異常を受けている時、攻撃力が1.5倍になる",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 4522,
+      "name": "状態異常底力M",
+      "group_id": 4522,
+      "description": "状態異常を受けている時、攻撃力が2倍になる",
+      "created_at": 1626419715,
+      "updated_at": 1626419715
+    },
+    {
+      "id": 4601,
+      "name": "友情ブースト",
+      "group_id": 4601,
+      "description": "自身の友情コンボの威力が1.5倍になる",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 4602,
+      "name": "友情ブーストM",
+      "group_id": 4602,
+      "description": "自身の友情コンボの威力が2倍になる",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 4603,
+      "name": "友情ブーストL",
+      "group_id": 4603,
+      "description": "自身の友情コンボの威力が2.5倍になる",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 4611,
+      "name": "友情ブースト(ラック)",
+      "group_id": 4611,
+      "description": "ラック数に応じて友情コンボの威力がアップする[LF]運極で友情ブーストと同じ1.5倍になる",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 4701,
+      "name": "ダッシュ",
+      "group_id": 4701,
+      "description": "自身のスピードが1.5倍になる",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 4702,
+      "name": "ダッシュM",
+      "group_id": 4702,
+      "description": "自身のスピードが2倍になる",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 4703,
+      "name": "ダッシュL",
+      "group_id": 4703,
+      "description": "自身のスピードが2.5倍になる",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 4712,
+      "name": "ダッシュM(ラック)",
+      "group_id": 4712,
+      "description": "ラック数に応じて自身のスピードがアップする[LF]運極でダッシュMと同じ2倍になる",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 4801,
+      "name": "睡眠無効",
+      "group_id": 4801,
+      "description": "睡眠状態にならない",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 4804,
+      "name": "毒無効",
+      "group_id": 4804,
+      "description": "毒状態にならない",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 4811,
+      "name": "状態異常レジスト",
+      "group_id": 4811,
+      "description": "残りHPが75%以上の時、状態異常にならない",
+      "created_at": 1619781668,
+      "updated_at": 1619781668
+    },
+    {
+      "id": 4901,
+      "name": "バリア付与",
+      "group_id": 4901,
+      "description": "3体の味方にふれた場合、[LF]3体目にふれた味方に「バリア」を付与する",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 4902,
+      "name": "飛行付与",
+      "group_id": 4902,
+      "description": "3体の味方にふれた場合、[LF]3体目にふれた味方に「飛行」を付与する",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 5001,
+      "name": "SSターン短縮",
+      "group_id": 5001,
+      "description": "ふれた味方の数に応じて[LF]自身のストライクショット発動までのターン数を短縮する[LF]※1体の場合は1ターン、2体の場合は2ターン、[LF]3体の場合は3ターン短縮",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 5002,
+      "name": "超SSターン短縮",
+      "group_id": 5002,
+      "description": "ふれた味方の数に応じて[LF]自身のストライクショット発動までのターン数を短縮する[LF]※1体の場合は1ターン、2体の場合は3ターン、[LF]3体の場合は6ターン短縮",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 5011,
+      "name": "SSターンアクセル",
+      "group_id": 5011,
+      "description": "残りHPが50%未満の時、[LF]自身のストライクショット発動までのターン数を[LF]2ターン短縮する",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 5012,
+      "name": "超SSターンアクセル",
+      "group_id": 5012,
+      "description": "残りHPが80%未満の時、[LF]自身のストライクショット発動までのターン数を[LF]2ターン短縮する",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 5021,
+      "name": "SSターンチャージ",
+      "group_id": 5021,
+      "description": "3体の味方にふれた場合、3体目にふれた味方の[LF]ストライクショット発動までのターン数を[LF]2ターン短縮させる",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 5022,
+      "name": "SSターンチャージM",
+      "group_id": 5022,
+      "description": "3体の味方にふれた場合、3体目にふれた味方の[LF]ストライクショット発動までのターン数を[LF]3ターン短縮させる",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 5023,
+      "name": "SSターンチャージL",
+      "group_id": 5023,
+      "description": "3体の味方にふれた場合、3体目にふれた味方の[LF]ストライクショット発動までのターン数を[LF]4ターン短縮させる",
+      "created_at": 1640685892,
+      "updated_at": 1640685892
+    },
+    {
+      "id": 5031,
+      "name": "SSターンブースト",
+      "group_id": 5031,
+      "description": "敵を倒す毎にストライクショット発動までのターン数を[LF]1ターン短縮させる",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 5041,
+      "name": "壁SSターン短縮",
+      "group_id": 5041,
+      "description": "ふれた壁面数に応じて自身のストライクショット[LF]発動までのターン数を短縮する[LF]※1面の場合は1ターン、2面の場合は2ターン、[LF]3面の場合は3ターン、4面の場合は4ターン短縮",
+      "created_at": 1640685892,
+      "updated_at": 1640685892
+    },
+    {
+      "id": 5101,
+      "name": "ゲージ倍率保持",
+      "group_id": 5101,
+      "description": "ゲージショットに失敗してもゲージMAX時と同じ[LF]攻撃力になる",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 5201,
+      "name": "パワーモード",
+      "group_id": 5201,
+      "description": "各マップ開始時に一定ターン攻撃力が1.5倍になる",
+      "created_at": 1622106233,
+      "updated_at": 1622106233
+    },
+    {
+      "id": 5221,
+      "name": "スピードモード",
+      "group_id": 5221,
+      "description": "各マップ開始時に一定ターンスピードが1.5倍になる",
+      "created_at": 1642067624,
+      "updated_at": 1642067624
+    },
+    {
+      "id": 5301,
+      "name": "パワーオーラ",
+      "group_id": 5301,
+      "description": "残りHPが80%以上の時、攻撃力が1.5倍になる",
+      "created_at": 1640685892,
+      "updated_at": 1640685892
+    },
+    {
+      "id": 5401,
+      "name": "渾身",
+      "group_id": 5401,
+      "description": "自身の攻撃力が3倍、スピードが0.25倍になる",
+      "created_at": 1643882071,
+      "updated_at": 1643882071
+    },
+    {
+      "id": 10001,
+      "name": "治癒の祈り",
+      "group_id": 10001,
+      "description": "ボスバトルでのマップ開始時、稀にHPが全回復する",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 10002,
+      "name": "治癒の祈り",
+      "group_id": 10002,
+      "description": "ボスバトルでのマップ開始時、稀にHPが全回復する",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 10003,
+      "name": "ユイの応援",
+      "group_id": 10003,
+      "description": "ボスバトルでのマップ開始時、稀にHPが全回復する",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 10004,
+      "name": "ユイの応援",
+      "group_id": 10004,
+      "description": "ボスバトルでのマップ開始時、稀にHPが全回復する",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 10005,
+      "name": "ユイの応援",
+      "group_id": 10005,
+      "description": "ボスバトルでのマップ開始時、稀にHPが全回復する",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 10006,
+      "name": "ユイの応援",
+      "group_id": 10006,
+      "description": "ボスバトルでのマップ開始時、稀にHPが全回復する",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 10007,
+      "name": "ユイの応援",
+      "group_id": 10007,
+      "description": "ボスバトルでのマップ開始時、稀にHPが全回復する",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 10008,
+      "name": "治癒の祈り",
+      "group_id": 10008,
+      "description": "ボスバトルでのマップ開始時、稀にHPが全回復する",
+      "created_at": 1634290168,
+      "updated_at": 1634290168
+    },
+    {
+      "id": 10021,
+      "name": "シンクロ",
+      "group_id": 10021,
+      "description": "種族「使徒」の敵に対して攻撃力が1.5倍になる[LF]敵からの一定量のダメージを無効化する[LF]各マップ移動時にA.T.フィールドを展開する",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 10031,
+      "name": "滅竜魔導士",
+      "group_id": 10031,
+      "description": "種族「ドラゴン」の敵に対して攻撃力が1.5倍になり[LF]種族「ドラゴン」によるダメージを25%軽減する",
+      "created_at": 1619453157,
+      "updated_at": 1623085014
+    },
+    {
+      "id": 10041,
+      "name": "立体機動装置",
+      "group_id": 10041,
+      "description": "ショット時に地雷に当たらない[LF]種族「巨人」の敵に対して攻撃力が1.5倍になる",
+      "created_at": 1619453157,
+      "updated_at": 1619453157
+    },
+    {
+      "id": 50001,
+      "name": "クリティカルマスター",
+      "group_id": 50001,
+      "description": "クリティカルショットが発動しやすくなる",
+      "created_at": 1620991987,
+      "updated_at": 1620991987
+    },
+    {
+      "id": 50002,
+      "name": "シールドマスター",
+      "group_id": 50002,
+      "description": "シールドガードが発動しやすくなる",
+      "created_at": 1620991987,
+      "updated_at": 1620991987
+    },
+    {
+      "id": 50013,
+      "name": "単体回復M",
+      "group_id": 50013,
+      "description": "最初にふれた味方のHPを大回復する",
+      "created_at": 1620991987,
+      "updated_at": 1620991987
+    },
+    {
+      "id": 50021,
+      "name": "バリアS",
+      "group_id": 50021,
+      "description": "敵からの少量のダメージを無効化する[LF]各マップ開始時にバリアを張る",
+      "created_at": 1620991987,
+      "updated_at": 1620991987
+    }
+  ]
+}

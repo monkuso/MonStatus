@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 1,
+  "table": "texts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 23115,
+      "text": "預かり枠は[C6:解放条件の達成で、使用可能]になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_58115"
+    },
+    {
+      "id": 23116,
+      "text": "解放条件達成！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_58116"
+    },
+    {
+      "id": 23117,
+      "text": "[C6:預かり可能]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_58117"
+    },
+    {
+      "id": 23118,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20250807_2.html#2|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_58118"
+    },
+    {
+      "id": 23119,
+      "text": "付替えできる実がありません",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_GEM_TRANSFER_BANK_RREAMING_0"
+    },
+    {
+      "id": 23120,
+      "text": "[LC]選択中のわくわくの力から[LF][LC]1つ以上選択してください",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_GEM_TRANSFER_BANK_TOAST_CAUTION_PLEASE_SELECTED"
+    },
+    {
+      "id": 23121,
+      "text": "[LC]選択中のわくわくの力から[LF][LC]1つ以上選択してください",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_GEM_TRANSFER_BANK_TOAST_SLOT_CAUTION_PLEASE_SELECTED"
+    },
+    {
+      "id": 23122,
+      "text": "[LC]預かり枠解放[LF][LF][LF][LC][NODE][LF][LF]わくわくBANKの預かり枠が[LF]解放されます[LF][LF] Lv 1：預かり枠[C6:1つ]解放[LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_PLAYER_SKILL_GEM_BANK_SLOT"
+    },
+    {
+      "id": 23123,
+      "text": "[LC]わくわくステッキがありません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_ME_GEM_TRANSFER_V2_TOAST_CAUTION_NO_TRANSFER_ITEM"
+    },
+    {
+      "id": 23124,
+      "text": "わくわくBANKの預かり枠解放ボーナス",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_11636"
+    },
+    {
+      "id": 23125,
+      "text": "わくわくBANKの[LF][C6:預かり枠を解放]することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_11637"
+    },
+    {
+      "id": 23126,
+      "text": "わくわくBANK",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_GEM_BANK_OBI_TITLE"
+    },
+    {
+      "id": 23127,
+      "text": "[LC]わくわくの力を預けますか？[LF][LF][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_ME_GEM_TRANSFER_BANK_V2_DIALOG_ASK_CHANGE_INFO"
+    },
+    {
+      "id": 23128,
+      "text": "わくわくの力を預ける",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_GEM_TRANSFER_SELECT_GEM_BANK_TITLE"
+    },
+    {
+      "id": 23129,
+      "text": "預けるわくわくの力を[C6:%dつ]選びましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_ME_GEM_TRANSFER_BANK_LABEL_CHOICE_INFO_IN_DESTINATION"
+    },
+    {
+      "id": 23130,
+      "text": "選んだわくわくの力",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_ME_GEM_TRANSFER_BANK_LABEL_CHOICE_GEM"
+    },
+    {
+      "id": 23131,
+      "text": "現在の預かり枠",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_ME_GEM_TRANSFER_BANK_LABEL_HAVE_GEM"
+    },
+    {
+      "id": 23132,
+      "text": "[GIMMICK:リバース][LF][LF][LC][IMG:help_status_effect_14.png|1.2][LF][LF]引っ張った方向とは反対方向にショットされる[LF][GIMMICK_END]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755014632,
+      "updated_at": 1755014632,
+      "label": "eTEXTS_DEF_ME_ENEMY_BUD_STATUS_HELP_40"
+    },
+    {
+      "id": 23133,
+      "text": "本日は選択済みです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_JAGGY_MISSION_PARAM_DIALOG_RANKED_UP_TOAST_MESSAGE2"
+    },
+    {
+      "id": 23134,
+      "text": "[LC]コープミッションとは[LF][LF][CCB:dlme/help_collabo_jaggy_sb1_00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_JAGGY_MISSION_HELP"
+    },
+    {
+      "id": 23135,
+      "text": "8/16 12:00 ～ 9/5 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_JAGGY_MISSION_PERIOD"
+    },
+    {
+      "id": 23136,
+      "text": "[TAB|WIDTH565:クリア報酬][NODE][TAB|WIDTH565:ランクアップ報酬][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_JAGGY_MISSION_REWARD_LIST_MULTI_TAB"
+    },
+    {
+      "id": 23137,
+      "text": "ミッション%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_JAGGY_MISSION_REWARD_LIST_MISSION_TITLE"
+    },
+    {
+      "id": 23138,
+      "text": "全パラメータ共通",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_JAGGY_MISSION_REWARD_LIST_HUMAN_TITLE"
+    },
+    {
+      "id": 23139,
+      "text": "パラメータを上昇させるたびに獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_JAGGY_MISSION_REWARD_LIST_HUMAN_DESCRIPTION"
+    },
+    {
+      "id": 23140,
+      "text": "三島由輝",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_JAGGY_MISSION_CHAR_NAME_1"
+    },
+    {
+      "id": 23141,
+      "text": "川上貞代",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_JAGGY_MISSION_CHAR_NAME_2"
+    },
+    {
+      "id": 23142,
+      "text": "御船千早",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_JAGGY_MISSION_CHAR_NAME_3"
+    },
+    {
+      "id": 23143,
+      "text": "武見妙",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_JAGGY_MISSION_CHAR_NAME_4"
+    },
+    {
+      "id": 23144,
+      "text": "東郷一二三",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_JAGGY_MISSION_CHAR_NAME_5"
+    },
+    {
+      "id": 23145,
+      "text": "知識",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_JAGGY_MISSION_PARAM_NAME_1"
+    },
+    {
+      "id": 23146,
+      "text": "魅力",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_JAGGY_MISSION_PARAM_NAME_2"
+    },
+    {
+      "id": 23147,
+      "text": "度胸",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_JAGGY_MISSION_PARAM_NAME_3"
+    },
+    {
+      "id": 23148,
+      "text": "好きなパラメータを選択して[LF]1日1回だけランクの上昇ができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_JAGGY_MISSION_HUMAN_PARAM_DIALOG_DESC"
+    },
+    {
+      "id": 23149,
+      "text": "ミッション解放条件",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_JAGGY_MISSION_HUMAN_PARAM_DIALOG_CONDITION_TITLE"
+    },
+    {
+      "id": 23150,
+      "text": "ランク1",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_JAGGY_MISSION_PARAM_DIALOG_CONDITION_RANK_1"
+    },
+    {
+      "id": 23151,
+      "text": "ランク2",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_JAGGY_MISSION_PARAM_DIALOG_CONDITION_RANK_2"
+    },
+    {
+      "id": 23152,
+      "text": "ランクMAX",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_JAGGY_MISSION_PARAM_DIALOG_CONDITION_RANK_3"
+    },
+    {
+      "id": 23153,
+      "text": "[LC]クリア報酬[LF][LF]以下の報酬を獲得しました[LF][LF][LC][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_JAGGY_MISSION_GET_MISSION_CLEAR_REWARD_DIALOG"
+    },
+    {
+      "id": 23154,
+      "text": "[LC]ランクアップ報酬[LF][LF]以下の報酬を獲得しました[LF][LF][LC][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_JAGGY_MISSION_GET_RANK_UP_REWARD_DIALOG"
+    },
+    {
+      "id": 23155,
+      "text": "本日は選択済みです[LF]※毎日AM4:00にリセットされます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_JAGGY_MISSION_PARAM_DIALOG_RANKED_UP_TOAST_MESSAGE"
+    },
+    {
+      "id": 23156,
+      "text": "[LC]ミッション解放！[LF][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_JAGGY_MISSION_OPEN_DIALOG"
+    },
+    {
+      "id": 23157,
+      "text": "[C6:「%s」]が%sに到達したため[LF]%sミッション%dが解放されました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_JAGGY_MISSION_OPEN_MESSAGE"
+    },
+    {
+      "id": 23158,
+      "text": "[SW0.76][C6:パラメータを上げ、ミッションクリアで報酬獲得！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58500"
+    },
+    {
+      "id": 23159,
+      "text": "[b:ba_help_collabo_jaggy_sb1_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58501"
+    },
+    {
+      "id": 23160,
+      "text": "ミッションを達成し[C6:各キャラとの絆を深めて][LF][C6:報酬を獲得]しましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58502"
+    },
+    {
+      "id": 23161,
+      "text": "[C5:ミッションについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58503"
+    },
+    {
+      "id": 23162,
+      "text": "ミッションは各キャラごとに[LF][C6:順番に挑戦]する必要があります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58504"
+    },
+    {
+      "id": 23163,
+      "text": "クリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58505"
+    },
+    {
+      "id": 23164,
+      "text": "[LC][C6:挑戦可能！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58506"
+    },
+    {
+      "id": 23165,
+      "text": "ミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58507"
+    },
+    {
+      "id": 23166,
+      "text": "また[C6:人間パラメータが一定ランクに到達すると][LF][C6:解放され挑戦可能になるミッション]もあります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58508"
+    },
+    {
+      "id": 23167,
+      "text": "挑戦不可",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58509"
+    },
+    {
+      "id": 23168,
+      "text": "[LC][C6:挑戦可能！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58510"
+    },
+    {
+      "id": 23169,
+      "text": "[C10:ミッション]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58511"
+    },
+    {
+      "id": 23170,
+      "text": "ミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58512"
+    },
+    {
+      "id": 23171,
+      "text": "[C5:人間パラメータについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58513"
+    },
+    {
+      "id": 23172,
+      "text": "人間パラメータは[C6:度胸]、[C6:魅力]、[C6:知識]の3種類があり[LF][C6:1日1回いずれか1つ上げることが可能]です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58514"
+    },
+    {
+      "id": 23173,
+      "text": "※1日の切り替わりは毎日ＡＭ4:00です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58515"
+    },
+    {
+      "id": 23174,
+      "text": "[C5:報酬について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58516"
+    },
+    {
+      "id": 23175,
+      "text": "クリア報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58517"
+    },
+    {
+      "id": 23176,
+      "text": "[C6:各ミッションをクリア]すると獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58518"
+    },
+    {
+      "id": 23177,
+      "text": "ランクアップ報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58519"
+    },
+    {
+      "id": 23178,
+      "text": "[C6:人間パラメータのランクが上がる]と獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58520"
+    },
+    {
+      "id": 23179,
+      "text": "[IPJ12201]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58521"
+    },
+    {
+      "id": 23180,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20250814_1.html#7|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58522"
+    },
+    {
+      "id": 23181,
+      "text": "[C6:コラボガチャ開催中]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58300"
+    },
+    {
+      "id": 23182,
+      "text": "[b:ba_help_collabo_jaggy_00_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58301"
+    },
+    {
+      "id": 23183,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58302"
+    },
+    {
+      "id": 23184,
+      "text": "8/16 12:00〜9/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58303"
+    },
+    {
+      "id": 23185,
+      "text": "[C5:コラボ限定ガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58304"
+    },
+    {
+      "id": 23186,
+      "text": "[IPJ12188]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58305"
+    },
+    {
+      "id": 23187,
+      "text": "[IPJ12180]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58306"
+    },
+    {
+      "id": 23188,
+      "text": "[IPJ12186]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58307"
+    },
+    {
+      "id": 23189,
+      "text": "[IPJ12184]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58308"
+    },
+    {
+      "id": 23190,
+      "text": "[IPJ12182]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58309"
+    },
+    {
+      "id": 23191,
+      "text": "[C6:コラボクエスト出現中]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58310"
+    },
+    {
+      "id": 23192,
+      "text": "[b:ba_help_collabo_jaggy_00_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58311"
+    },
+    {
+      "id": 23193,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58312"
+    },
+    {
+      "id": 23194,
+      "text": "8/16 12:00〜9/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58313"
+    },
+    {
+      "id": 23195,
+      "text": "[C5:イベントクエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58314"
+    },
+    {
+      "id": 23196,
+      "text": "[SGBI29090|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58315"
+    },
+    {
+      "id": 23197,
+      "text": "[SGBI29070|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58316"
+    },
+    {
+      "id": 23198,
+      "text": "[SGBI29080|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58317"
+    },
+    {
+      "id": 23199,
+      "text": "[SGBI29050|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58318"
+    },
+    {
+      "id": 23200,
+      "text": "[SGBI29060|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58319"
+    },
+    {
+      "id": 23201,
+      "text": "[C3:｢カネシロパレス｣]は[LF]1日1回クリアボーナスで[C6:7体]獲得可能、[LF]マルチだと金卵2個以上の排出率がアップします",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58320"
+    },
+    {
+      "id": 23202,
+      "text": "[C5:守護獣の森]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58321"
+    },
+    {
+      "id": 23203,
+      "text": "[SUE27577]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58322"
+    },
+    {
+      "id": 23204,
+      "text": "難易度究極をクリアすると守護獣を獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58323"
+    },
+    {
+      "id": 23205,
+      "text": "[SU51]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58324"
+    },
+    {
+      "id": 23206,
+      "text": "[C6:超究極難易度が登場]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58325"
+    },
+    {
+      "id": 23207,
+      "text": "[b:ba_help_collabo_jaggy_00_3.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58326"
+    },
+    {
+      "id": 23208,
+      "text": "[C5:超究極クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58327"
+    },
+    {
+      "id": 23209,
+      "text": "[SGBI29100|difficulty1]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58328"
+    },
+    {
+      "id": 23210,
+      "text": "このクエストではどのキャラも[LF]本来のラックに[C4:+99]された[C4:運極]状態で[LF]ラックボーナスが獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58329"
+    },
+    {
+      "id": 23211,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20250814_1.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58330"
+    },
+    {
+      "id": 23212,
+      "text": "[SW0.85][C6:コラボスターターパックなどのお楽しみ要素も]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58400"
+    },
+    {
+      "id": 23213,
+      "text": "[b:ba_help_collabo_jaggy_01.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58401"
+    },
+    {
+      "id": 23214,
+      "text": "[C5:コラボスターターパック]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58402"
+    },
+    {
+      "id": 23215,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58403"
+    },
+    {
+      "id": 23216,
+      "text": "8/16 12:00〜9/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58404"
+    },
+    {
+      "id": 23217,
+      "text": "[C6:ここでのみ入手可能なキャラ]と[LF]各種アイテムがセットとなった[LF][C6:コラボスターターパック]が購入可能です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58405"
+    },
+    {
+      "id": 23218,
+      "text": "[IPJ12189]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58406"
+    },
+    {
+      "id": 23219,
+      "text": "[C5:フレンドガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58407"
+    },
+    {
+      "id": 23220,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58408"
+    },
+    {
+      "id": 23221,
+      "text": "8/16 12:00〜9/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58409"
+    },
+    {
+      "id": 23222,
+      "text": "期間中フレンドガチャから[LF]下記のキャラが排出されるようになります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58410"
+    },
+    {
+      "id": 23223,
+      "text": "[IPJ12200]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58411"
+    },
+    {
+      "id": 23224,
+      "text": "[C5:期間限定ラックボーナス]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58412"
+    },
+    {
+      "id": 23225,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58413"
+    },
+    {
+      "id": 23226,
+      "text": "8/16 12:00〜9/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58414"
+    },
+    {
+      "id": 23227,
+      "text": "下記のキャラは期間中[LF]本来のラックに[C4:+99]された[C4:運極]状態で[LF]ラックボーナスが獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58415"
+    },
+    {
+      "id": 23228,
+      "text": "[IPJ12189]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58416"
+    },
+    {
+      "id": 23229,
+      "text": "[IPJ12200]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58417"
+    },
+    {
+      "id": 23230,
+      "text": "[IPJ12202]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58418"
+    },
+    {
+      "id": 23231,
+      "text": "[C5:その他お楽しみ要素]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58419"
+    },
+    {
+      "id": 23232,
+      "text": "コープミッション",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58420"
+    },
+    {
+      "id": 23233,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20250814_1.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58421"
+    },
+    {
+      "id": 23234,
+      "text": "フタバパレス",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58335"
+    },
+    {
+      "id": 23235,
+      "text": "[C3:★5 イッシキワカバ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58336"
+    },
+    {
+      "id": 23236,
+      "text": "[LUCK]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755172991,
+      "updated_at": 1755172991,
+      "label": "eTEXTS_DEF_58337"
+    },
+    {
+      "id": 23237,
+      "text": "[b:ba_help_collabo_jaggy_00_4.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58331"
+    },
+    {
+      "id": 23238,
+      "text": "[SGBI29110|difficulty1]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58332"
+    },
+    {
+      "id": 23239,
+      "text": "クリアすると[LF][C3:ベルベットルームの住人 ラヴェンツァ]を[LF][C4:運極(ラック+99)]で1体獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58333"
+    },
+    {
+      "id": 23240,
+      "text": "更にミッションの[LF]｢入手方法｢その他｣のキャラを2体以上入れて[LF][C3:真なる更生を願う者]をクリア｣で[LF][C6:ストライカーカード｢ペルソナ５ ザ・ロイヤル｣][LF][C6:勲章｢心の怪盗団｣][LF]を獲得することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58334"
+    },
+    {
+      "id": 23241,
+      "text": "[IPJ12205]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58422"
+    },
+    {
+      "id": 23242,
+      "text": "タイムリミットメメントス",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58423"
+    },
+    {
+      "id": 23243,
+      "text": "[C4:極]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58338"
+    },
+    {
+      "id": 23244,
+      "text": "[IPJ12206]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58339"
+    },
+    {
+      "id": 23245,
+      "text": "タイムリミットメメントス",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_JAGGY2_TITLE"
+    },
+    {
+      "id": 23246,
+      "text": "[LC]タイムリミットメメントスとは[LF][LF][CCB:dlme/help_collabo_jaggy_sb2_00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_JAGGY2_HELP"
+    },
+    {
+      "id": 23247,
+      "text": "8/23 12:00 ～ 9/2 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_JAGGY2_PERIOD"
+    },
+    {
+      "id": 23248,
+      "text": "金卵を集めながらタカラバコを探そう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_JAGGY2_HOME_HEADER"
+    },
+    {
+      "id": 23249,
+      "text": "敵、発見！[LF]気をつけろよ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_JAGGY2_FUTABA_ENEMY"
+    },
+    {
+      "id": 23250,
+      "text": "喰らった！？[LF]動けないぞ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_JAGGY2_FUTABA_MINUS"
+    },
+    {
+      "id": 23251,
+      "text": "回復だ！[LF]まだ探索出来るな",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_JAGGY2_FUTABA_PLUS"
+    },
+    {
+      "id": 23252,
+      "text": "宝箱ゲット！[LF]やったな！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_JAGGY2_FUTABA_GET"
+    },
+    {
+      "id": 23253,
+      "text": "次いってみよー！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_JAGGY2_FUTABA_NEXT"
+    },
+    {
+      "id": 23254,
+      "text": "[LC]報酬一覧[LF][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_JAGGY2_REWARDLIST_DIALOG"
+    },
+    {
+      "id": 23255,
+      "text": "[LC]プレイ結果[LF][LF][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_JAGGY2_RESULT_DIALOG"
+    },
+    {
+      "id": 23256,
+      "text": "[LC]報酬獲得[LF][LF][LC]以下の報酬を獲得しました[LF][LF][LC][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_JAGGY2_REWARD_DIALOG"
+    },
+    {
+      "id": 23257,
+      "text": "本日分終了になりますが[LF]よろしいですか？",
+      "layout": 29,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_JAGGY2_CONFILM_DIALOG"
+    },
+    {
+      "id": 23258,
+      "text": "獲得した報酬もリセットされますが[LF]よろしいですか？",
+      "layout": 29,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_JAGGY2_RETRY_DIALOG"
+    },
+    {
+      "id": 23259,
+      "text": "[LC]キャラ入手状況[LF][LF][C6:★5 芳澤かすみ]をまだ99体入手出来ていません[LF]引き続き金卵を集めよう！[LF][LF]現在の入手状況：[LUCK][C4:%d]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_JAGGY2_CHARACTER_WARNING_DIALOG"
+    },
+    {
+      "id": 23260,
+      "text": "終了から一定期間が過ぎたため[LF]報酬を獲得できませんでした",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_JAGGY2_ERROR_CANNOT_REWARD_DIALOG"
+    },
+    {
+      "id": 23261,
+      "text": "日付が変わったので[LF]再挑戦できません",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_JAGGY2_ERROR_CANNOT_RETRY_DIALOG"
+    },
+    {
+      "id": 23262,
+      "text": "日付が変わったので[LF]画面を更新します",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_JAGGY2_ERROR_CANNOT_START_DIALOG"
+    },
+    {
+      "id": 23263,
+      "text": "金卵報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_JAGGY2_REWARDLIST_DIALOG_PARTS_1"
+    },
+    {
+      "id": 23264,
+      "text": "タカラバコ累計獲得報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_JAGGY2_REWARDLIST_DIALOG_PARTS_2"
+    },
+    {
+      "id": 23265,
+      "text": "探索中に金卵をタップすると、[C6:★5 芳澤かすみ]を[LF]獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_JAGGY2_REWARDLIST_DIALOG_PARTS_3"
+    },
+    {
+      "id": 23266,
+      "text": "タップした[IMG:jaggy_sub2_mapicon_goal1.png|0.6]タカラバコの数に応じて獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_JAGGY2_REWARDLIST_DIALOG_PARTS_4"
+    },
+    {
+      "id": 23267,
+      "text": "突破MAP数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_JAGGY2_RESULT_DIALOG_PARTS_1"
+    },
+    {
+      "id": 23268,
+      "text": "タカラバコ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_JAGGY2_RESULT_DIALOG_PARTS_2"
+    },
+    {
+      "id": 23269,
+      "text": "報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_JAGGY2_RESULT_DIALOG_PARTS_3"
+    },
+    {
+      "id": 23270,
+      "text": "再挑戦",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_JAGGY2_RESULT_DIALOG_BUTTON_1"
+    },
+    {
+      "id": 23271,
+      "text": "受け取る",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_JAGGY2_RESULT_DIALOG_BUTTON_2"
+    },
+    {
+      "id": 23272,
+      "text": "閉じる",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_JAGGY2_RESULT_DIALOG_BUTTON_3"
+    },
+    {
+      "id": 23273,
+      "text": "突破MAP数：%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_JAGGY2_HISTORY_DIALOG_PARTS_1"
+    },
+    {
+      "id": 23274,
+      "text": "プレイ履歴",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_JAGGY2_TITLE_HISTORY"
+    },
+    {
+      "id": 23275,
+      "text": "本日分プレイ済みです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_JAGGY2_ALREADY_PLAY"
+    },
+    {
+      "id": 23276,
+      "text": "本日分プレイ済みです[LF][LC][C6:※AM4:00更新]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_JAGGY2_ALREADY_PLAY_AND_RECAST"
+    },
+    {
+      "id": 23277,
+      "text": "プレイ履歴がありません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_JAGGY2_NO_HISTORY"
+    },
+    {
+      "id": 23278,
+      "text": "%d個",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_JAGGY2_REWARDLIST_DIALOG_PARTS_5"
+    },
+    {
+      "id": 23279,
+      "text": "×%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_JAGGY2_RESULT_DIALOG_PARTS_4"
+    },
+    {
+      "id": 23280,
+      "text": "[SW0.9][C6:制限時間内により多くの報酬を獲得しよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58600"
+    },
+    {
+      "id": 23281,
+      "text": "[b:ba_help_collabo_jaggy_sb2_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58601"
+    },
+    {
+      "id": 23282,
+      "text": "時間内にパネルをタップで[C6:金卵]を集めながら、[LF]マップに1つずつある[C6:タカラバコ]を探しましょう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58602"
+    },
+    {
+      "id": 23283,
+      "text": "[C5:遊び方]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58603"
+    },
+    {
+      "id": 23284,
+      "text": "パネルをタップすると隠された効果が発動します[LF]さらに上下左右に隠された効果も表示されます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58604"
+    },
+    {
+      "id": 23285,
+      "text": "効果一覧",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58605"
+    },
+    {
+      "id": 23286,
+      "text": "金卵報酬を獲得",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58606"
+    },
+    {
+      "id": 23287,
+      "text": "1秒間操作不能",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58607"
+    },
+    {
+      "id": 23288,
+      "text": "制限時間が増加",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58608"
+    },
+    {
+      "id": 23289,
+      "text": "数に応じて報酬を獲得[LF]＆次のマップへ移動",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58609"
+    },
+    {
+      "id": 23290,
+      "text": "[C5:再挑戦について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58610"
+    },
+    {
+      "id": 23291,
+      "text": "タイムリミットメメントスは[LF]結果に満足がいくまで、[C6:再挑戦可能]ですが[LF]報酬を受け取るとその日は挑戦できなくなります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58611"
+    },
+    {
+      "id": 23292,
+      "text": "※日付は[C6:AM4:00]にリセットされます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58612"
+    },
+    {
+      "id": 23293,
+      "text": "[C5:報酬について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58613"
+    },
+    {
+      "id": 23294,
+      "text": "金卵報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58614"
+    },
+    {
+      "id": 23295,
+      "text": "集めた金卵分だけ下記コラボキャラを獲得",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58615"
+    },
+    {
+      "id": 23296,
+      "text": "[IPJ12204]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58616"
+    },
+    {
+      "id": 23297,
+      "text": "タカラバコ累計獲得報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58617"
+    },
+    {
+      "id": 23298,
+      "text": "タップした回数に応じて報酬を獲得",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58618"
+    },
+    {
+      "id": 23299,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20250814_1.html#10|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58619"
+    },
+    {
+      "id": 23300,
+      "text": "金卵獲得！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58620"
+    },
+    {
+      "id": 23301,
+      "text": "[SW0.8][C6:結果を見てからオーブを使うことができるガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58200"
+    },
+    {
+      "id": 23302,
+      "text": "[b:ba_help_deferred_payment_gacha_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58201"
+    },
+    {
+      "id": 23303,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58202"
+    },
+    {
+      "id": 23304,
+      "text": "8/22 12:00～9/19 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58203"
+    },
+    {
+      "id": 23305,
+      "text": "[LC]ガチャ期間[LF][IF_DATE|2025/8/22 12:00:00|2025/08/29 11:59:59][LC][C6:1週目][ENDIF][IF_DATE|2025/8/29 12:00:00|2025/09/05 11:59:59][LC][C6:2週目][ENDIF][IF_DATE|2025/09/05 12:00:00|2025/09/12 11:59:59][LC][C6:3週目][ENDIF][IF_DATE|2025/09/12 12:00:00|2025/09/20 03:59:59][LC][C6:4週目][ENDIF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58204"
+    },
+    {
+      "id": 23306,
+      "text": "[IF_DATE|2025/8/22 12:00:00|2025/08/29 11:59:59]8/22 12:00～8/28 23:59[ENDIF][IF_DATE|2025/8/29 12:00:00|2025/09/05 11:59:59]8/29 12:00～9/4 23:59[ENDIF][IF_DATE|2025/09/05 12:00:00|2025/09/12 11:59:59]9/5 12:00～9/11 23:59[ENDIF][IF_DATE|2025/09/12 12:00:00|2025/09/20 03:59:59]9/12 12:00～9/18 23:59[ENDIF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58205"
+    },
+    {
+      "id": 23307,
+      "text": "[LC]受取期間[LF][IF_DATE|2025/8/22 12:00:00|2025/08/29 11:59:59][LC][C6:1週目][ENDIF][IF_DATE|2025/8/29 12:00:00|2025/09/05 11:59:59][LC][C6:2週目][ENDIF][IF_DATE|2025/09/05 12:00:00|2025/09/12 11:59:59][LC][C6:3週目][ENDIF][IF_DATE|2025/09/12 12:00:00|2025/09/20 03:59:59][LC][C6:4週目][ENDIF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58206"
+    },
+    {
+      "id": 23308,
+      "text": "[IF_DATE|2025/8/22 12:00:00|2025/08/29 11:59:59]8/22 12:00～8/29 11:59[ENDIF][IF_DATE|2025/8/29 12:00:00|2025/09/05 11:59:59]8/29 12:00～9/5 11:59[ENDIF][IF_DATE|2025/09/05 12:00:00|2025/09/12 11:59:59]9/5 12:00～9/12 11:59[ENDIF][IF_DATE|2025/09/12 12:00:00|2025/09/20 03:59:59]9/12 12:00～9/19 11:59[ENDIF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58207"
+    },
+    {
+      "id": 23309,
+      "text": "[C5:ガチャについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58208"
+    },
+    {
+      "id": 23310,
+      "text": "[C6:結果を見てから]出たキャラを[C6:獲得するか][LF][C6:決めることのできる]10連ガチャです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58209"
+    },
+    {
+      "id": 23311,
+      "text": "ガチャを引いて結果を確認",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777485,
+      "updated_at": 1755777485,
+      "label": "eTEXTS_DEF_58210"
+    },
+    {
+      "id": 23312,
+      "text": "[IP752]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_58211"
+    },
+    {
+      "id": 23313,
+      "text": "[IP569]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_58212"
+    },
+    {
+      "id": 23314,
+      "text": "[IP1412]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_58213"
+    },
+    {
+      "id": 23315,
+      "text": "[IP12016]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_58214"
+    },
+    {
+      "id": 23316,
+      "text": "[IP226]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_58215"
+    },
+    {
+      "id": 23317,
+      "text": "[IP1292]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_58216"
+    },
+    {
+      "id": 23318,
+      "text": "[IP12081]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_58217"
+    },
+    {
+      "id": 23319,
+      "text": "[IP388]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_58218"
+    },
+    {
+      "id": 23320,
+      "text": "[IP3237]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_58219"
+    },
+    {
+      "id": 23321,
+      "text": "[IP11732]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_58220"
+    },
+    {
+      "id": 23322,
+      "text": "[C5:受け取りについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_58221"
+    },
+    {
+      "id": 23323,
+      "text": "[C6:受取期間中であればオーブ50個を使用することで][LF]キャラを受け取ることができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_58222"
+    },
+    {
+      "id": 23324,
+      "text": "[LC][C6:オーブ]　 [C6:50個]で[LF][LC][C6:鍵]と交換",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_58223"
+    },
+    {
+      "id": 23325,
+      "text": "受け取る",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_58224"
+    },
+    {
+      "id": 23326,
+      "text": "解錠されキャラゲット！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_58225"
+    },
+    {
+      "id": 23327,
+      "text": "[C5:ガチャ内容について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_58226"
+    },
+    {
+      "id": 23328,
+      "text": "[C6:ガチャ内容は毎週変わります][LF]詳細は毎週モンストニュースで発表予定です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_58227"
+    },
+    {
+      "id": 23329,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20250821_2.html|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_58228"
+    },
+    {
+      "id": 23330,
+      "text": "[LC][SW0.8]見てから決める！後払い10連ガチャとは[LF][LF][CCB:dlme/help_deferred_payment_gacha_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_MSG_DEFERRED_PAYMENT_GACHA_HELP"
+    },
+    {
+      "id": 23331,
+      "text": "[LC]ガチャ結果投稿キャンペーン[LF][LF][b:ba_defer_payment_gacha_cp.png][LF][LC][C9:ガチャ結果の画像をXでシェアすると][LF][LC][C9:抽選で最大1万円分のえらべるPayが当たる][LF][LC][C9:キャンペーンを4週連続で開催！][LF][LF][C6:キャンペーンへの参加回数に応じて][LF][C6:当選率がアップ♪][LF][LF]※キャンペーンへの応募には[LF]　[u:https://x.com/monst_campaign|@monst_campaign]のフォローが必要です[LF][LF]※詳細は[u:https://www.monster-strike.com/news/20250821_2.html#3|こちら]",
+      "layout": 24,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_MSG_DEFERRED_PAYMENT_GACHA_SNS"
+    },
+    {
+      "id": 23332,
+      "text": "[LC]受取確認[LF][LF]オーブを%d個使用することで[LF]以下のキャラを受け取ることができます[LF][LF][NODE][LF][LF][IF:%d]所持数：[IMG:icon_orb_s.png][WIDTH-15][BG_STR:dummy.png|WIDTH:140|RSTR:%d個][IMG_LORB:][WIDTH-15][BG_STR:dummy.png|WIDTH:100|RSTR:[C6:%d個]][LF][C6:[texts:eTEXTS_DEF_LIMITED_ORB_NAME]から消費されます][ELSE]所持しているオーブ：%d個[ENDIF][LF][LF]キャラを受け取りますか？[LF][LF][HR][LF][gm:eTEXTS_DEF_ME_DEFERRED_PAYMENT_GACHA_LAW_DETAIL|特商法に基づく表示(支払時期/提供時期)][LF]｢はい｣を押した後のキャンセルはできません",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_MSG_DEFERRED_PAYMENT_GACHA_EXCHANGE"
+    },
+    {
+      "id": 23333,
+      "text": "[LC]受取確認[LF][LF]オーブを%d個使用することで[LF]以下のキャラを受け取ることができます[LF][LF][NODE][LF][LF][IF:%d]所持数：[IMG:icon_orb_s.png][WIDTH-15][BG_STR:dummy.png|WIDTH:140|RSTR:%d個][IMG_LORB:][WIDTH-15][BG_STR:dummy.png|WIDTH:100|RSTR:[C6:%d個]][LF][C6:[texts:eTEXTS_DEF_LIMITED_ORB_NAME]から消費されます][ELSE]所持しているオーブ：%d個[ENDIF][LF][LF][LC][C4:オーブが足りません！]",
+      "layout": 42,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_MSG_DEFERRED_PAYMENT_GACHA_EXCHANGE_BUY_ORB"
+    },
+    {
+      "id": 23334,
+      "text": "[LC]画像確認[LF][LF]ポスト添付にも使えるガチャ結果を保存します[LF]よろしいですか？[LF][LF][NODE]",
+      "layout": 37,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_MSG_DEFERRED_PAYMENT_GACHA_SAVE_IMAGE"
+    },
+    {
+      "id": 23335,
+      "text": "画像保存完了[LC][LF][LF]画像が保存されました",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_MSG_DEFERRED_PAYMENT_GACHA_SAVE_IMAGE_FINISH"
+    },
+    {
+      "id": 23336,
+      "text": "画像保存に失敗しました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_MSG_DEFERRED_PAYMENT_GACHA_SAVE_IMAGE_FAILED"
+    },
+    {
+      "id": 23337,
+      "text": "[LC]受取完了[LF][LF]以下のキャラを受け取りました[LF][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_MSG_DEFERRED_PAYMENT_GACHA_EXCHANGE_FINISH"
+    },
+    {
+      "id": 23338,
+      "text": "ガチャが切り替わりました[LF][LF]※前週のガチャの受け取りはできません",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_MSG_DEFERRED_PAYMENT_GACHA_CHANGED"
+    },
+    {
+      "id": 23339,
+      "text": "今週分のガチャ期間は終了しました[LF][LF]ガチャ結果を受け取る場合は[LF]受け取り期間にご注意ください[LF]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_MSG_DEFERRED_PAYMENT_GACHA_RECEIVE_CAUTION"
+    },
+    {
+      "id": 23340,
+      "text": "所持数:%d個",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_ME_DEFERRED_PAYMENT_GACHA_EXCHANGE_ORB"
+    },
+    {
+      "id": 23341,
+      "text": "所持数:%d個 所持数:%d個[LF]期間限定オーブから消費",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_ME_DEFERRED_PAYMENT_GACHA_EXCHANGE_LIMITED_ORB"
+    },
+    {
+      "id": 23342,
+      "text": "　ガチャ期間 : %s",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_ME_DEFERRED_PAYMENT_GACHA_GACHA_PERIOD"
+    },
+    {
+      "id": 23343,
+      "text": "受け取り期間 : %s",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_ME_DEFERRED_PAYMENT_GACHA_RECEIVE_PERIOD"
+    },
+    {
+      "id": 23344,
+      "text": "オーブ[IMG:icon_orb_s.png]50個を使用して受け取り可能",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_ME_DEFERRED_PAYMENT_GACHA_HOW_TO_RECEIVE_MESSAGE"
+    },
+    {
+      "id": 23345,
+      "text": "ガチャを引いていません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_ME_DEFERRED_PAYMENT_GACHA_NOT_PLAY_GACHA"
+    },
+    {
+      "id": 23346,
+      "text": "次週 %s からガチャ可能",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_ME_DEFERRED_PAYMENT_GACHA_NEXT_GACHA_TIME"
+    },
+    {
+      "id": 23347,
+      "text": "受取済み",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_ME_DEFERRED_PAYMENT_GACHA_ALREADY_GET"
+    },
+    {
+      "id": 23348,
+      "text": "今週分は終了しました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_ME_DEFERRED_PAYMENT_GACHA_FINISHED_THIS_WEEK"
+    },
+    {
+      "id": 23349,
+      "text": "ガチャる",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_ME_DEFERRED_PAYMENT_GACHA_BTN_NAME_GACHARU"
+    },
+    {
+      "id": 23350,
+      "text": "受け取る",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_ME_DEFERRED_PAYMENT_GACHA_BTN_NAME_RECEIVE"
+    },
+    {
+      "id": 23351,
+      "text": "投稿",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_ME_DEFERRED_PAYMENT_GACHA_BTN_NAME_SNS"
+    },
+    {
+      "id": 23352,
+      "text": "ポスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_ME_DEFERRED_PAYMENT_GACHA_BTN_NAME_POST"
+    },
+    {
+      "id": 23353,
+      "text": "はい",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_ME_DEFERRED_PAYMENT_GACHA_BTN_NAME_YES"
+    },
+    {
+      "id": 23354,
+      "text": "保存せずポスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_ME_DEFERRED_PAYMENT_GACHA_BTN_NAME_NO_IMAGE"
+    },
+    {
+      "id": 23355,
+      "text": "いいえ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_ME_DEFERRED_PAYMENT_GACHA_BTN_NAME_NO"
+    },
+    {
+      "id": 23356,
+      "text": "[LC]画像保存権限[LF][LF][LC]ストレージへのアクセス権限がないため[LF][LC]画像が保存できませんでした[LF][LF][LC]画像を保存するためには[LF][LC]権限の許可が必要になります[LF][LC][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_MSG_DEFERRED_PAYMENT_GACHA_NOT_PERMISSION"
+    },
+    {
+      "id": 23357,
+      "text": "[LC]画像保存権限[LF][LF][LC]ストレージへのアクセス権限がないため[LF][LC]画像が保存できませんでした[LF][LF][LC]画像を保存するためには[LF][LC]権限の許可が必要になります[LF][LC]端末の[[設定]から[LF][LC][[アプリ]-[[モンスト]-[[許可]にて[LF][LC][[ファイルとメディア]の設定をご確認下さい[LF][LC][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_MSG_DEFERRED_PAYMENT_GACHA_NOT_PERMISSION_2ND"
+    },
+    {
+      "id": 23358,
+      "text": "ガチャが切り替わりました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_MSG_DEFERRED_PAYMENT_GACHA_CHANGED2"
+    },
+    {
+      "id": 23359,
+      "text": "今週分のガチャ期間は終了しました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_MSG_DEFERRED_PAYMENT_GACHA_FINISHED"
+    },
+    {
+      "id": 23360,
+      "text": "後払い10連ガチャ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1755777486,
+      "label": "eTEXTS_DEF_ME_DEFERRED_PAYMENT_GACHA_TITLE"
+    },
+    {
+      "id": 23361,
+      "text": "[LC]特商法に基づく表示[LF][LF][C6:価格（分量、対価）][LF]1回 オーブ50個[LF][LF][C6:商品の提供（引渡し）時期][LF][C6:代金支払い時期および方法][LF]オーブによるお支払い。[LF]｢はい｣を押した後すぐに消費されます。[LF][LF][C6:返品][LF]｢はい｣を押した後のキャンセルはできません。[LF][LF][C6:代表者名][LF]木村 弘毅[LF][LF][C6:連絡先][LF]URL: https://mixi.co.jp/inquiry/others/[LF]E-Mail: support-ms@mixi.jp[LF]電話番号： 03-6897-9500[LF](受付：弊社営業日10:00～19:00)[LF]土日祝日・冬季休暇日はお休みさせていただきます。[LF][LF][C6:お問い合わせ][LF]ホーム画面MENU>ヘルプ>お問い合わせよりお問い合わせください。[LF](受付：弊社営業日11:00～18:00)[LF]土日祝日・冬季休暇日はお休みさせていただきます。[LF][LF][C6:販売事業者所在地][LF]〒150-6136[LF]東京都渋谷区渋谷二丁目24番12号[LF]渋谷スクランブルスクエア[LF][LF][C6:販売事業者名][LF]株式会社MIXI[LF][LF][C6:商品代金以外に必要な費用][LF]消費税、パケット通信料[LF][LF][C6:不良品の取り扱い条件][LF]コンテンツに不具合が発生した場合には速やかに対処いたします。[LF][LF][C6:必須環境][LF]iOS 15.0 以降／iPhone、iPad および iPod touch 対応[LF]Android 7.0以上(Android 7.0未満は動作不可)[LF][LF][C6:利用規約][LF]ホーム画面MENU>その他>利用規約をご覧ください。",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1755777486,
+      "updated_at": 1786550613,
+      "label": "eTEXTS_DEF_ME_DEFERRED_PAYMENT_GACHA_LAW_DETAIL"
+    },
+    {
+      "id": 23362,
+      "text": "[LC]クリア済みキャラ一覧[LF][LF]各属性のステージごとにカウントされます[LF20][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1756374046,
+      "updated_at": 1756374046,
+      "label": "eTEXTS_DEF_GUARDIAN_USED_CHAR_LIST_DIALOG"
+    },
+    {
+      "id": 23363,
+      "text": "[LC]報酬一覧[LF][LF][TAB|WIDTH565:ステージ][NODE][TAB|WIDTH565:通算][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1756374046,
+      "updated_at": 1756374046,
+      "label": "eTEXTS_DEF_GUARDIAN_REWARD_DIALOG"
+    },
+    {
+      "id": 23364,
+      "text": "ステージ別クリア体数報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1756374046,
+      "updated_at": 1756374046,
+      "label": "eTEXTS_DEF_GUARDIAN_REWARD_HEADLINE"
+    },
+    {
+      "id": 23365,
+      "text": "クリア体数：%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1756374046,
+      "updated_at": 1756374046,
+      "label": "eTEXTS_DEF_GUARDIAN_COUNT_LABEL_TITLE"
+    },
+    {
+      "id": 23366,
+      "text": "通算クリア体数報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1756374046,
+      "updated_at": 1756374046,
+      "label": "eTEXTS_DEF_GUARDIAN_TOTAL_COUNT_TITLE"
+    },
+    {
+      "id": 23367,
+      "text": "通算クリア体数：%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1756374046,
+      "updated_at": 1756374046,
+      "label": "eTEXTS_DEF_GUARDIAN_TOTAL_COUNT_LABEL"
+    },
+    {
+      "id": 23368,
+      "text": "%d体",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1756374046,
+      "updated_at": 1756374046,
+      "label": "eTEXTS_DEF_GUARDIAN_COUNT_LABEL"
+    },
+    {
+      "id": 23369,
+      "text": "運撃トレイル",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1756374046,
+      "updated_at": 1756374046,
+      "label": "eTEXTS_DEF_GUARDIAN_TITLE"
+    },
+    {
+      "id": 23370,
+      "text": "[LC]出撃確認[LF][LF]編成したキャラのラック数に応じて[LF]敵に与えるダメージが変化するクエストです[LF][LF]ラックの低いキャラが編成されていますが[LF]出撃しますか？[LF][LC][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1756374046,
+      "updated_at": 1756374046,
+      "label": "eTEXTS_DEF_GUARDIAN_GAME_START_LOW_LUCK_WANRNING"
+    }
+  ]
+}

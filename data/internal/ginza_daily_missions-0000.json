@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "table": "ginza_daily_missions",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "day": 1,
+      "success_rate_percent": 40,
+      "success_item_id": 10211100,
+      "success_item_count": 1,
+      "failure_item_id": 19,
+      "failure_item_count": 3000,
+      "created_at": 1708596218,
+      "updated_at": 1708596218
+    },
+    {
+      "id": 2,
+      "day": 2,
+      "success_rate_percent": 50,
+      "success_item_id": 35,
+      "success_item_count": 1,
+      "failure_item_id": 14,
+      "failure_item_count": 1,
+      "created_at": 1708596218,
+      "updated_at": 1708596218
+    },
+    {
+      "id": 3,
+      "day": 3,
+      "success_rate_percent": 40,
+      "success_item_id": 10211100,
+      "success_item_count": 1,
+      "failure_item_id": 19,
+      "failure_item_count": 3000,
+      "created_at": 1708596218,
+      "updated_at": 1708596218
+    },
+    {
+      "id": 4,
+      "day": 4,
+      "success_rate_percent": 50,
+      "success_item_id": 41,
+      "success_item_count": 1,
+      "failure_item_id": 7,
+      "failure_item_count": 1,
+      "created_at": 1708596218,
+      "updated_at": 1708596218
+    },
+    {
+      "id": 5,
+      "day": 5,
+      "success_rate_percent": 40,
+      "success_item_id": 10211100,
+      "success_item_count": 1,
+      "failure_item_id": 19,
+      "failure_item_count": 3000,
+      "created_at": 1708596218,
+      "updated_at": 1708596218
+    },
+    {
+      "id": 6,
+      "day": 6,
+      "success_rate_percent": 50,
+      "success_item_id": 42,
+      "success_item_count": 1,
+      "failure_item_id": 12,
+      "failure_item_count": 1,
+      "created_at": 1708596218,
+      "updated_at": 1708596218
+    },
+    {
+      "id": 7,
+      "day": 7,
+      "success_rate_percent": 40,
+      "success_item_id": 10211100,
+      "success_item_count": 1,
+      "failure_item_id": 19,
+      "failure_item_count": 3000,
+      "created_at": 1708596218,
+      "updated_at": 1708596218
+    }
+  ]
+}

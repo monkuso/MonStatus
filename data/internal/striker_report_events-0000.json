@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "table": "striker_report_events",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "start_at": 1727722800,
+      "end_at": 1743447599,
+      "receive_end_at": 1743533999,
+      "title_name": "2024後期",
+      "badge_item_id": 10044000,
+      "created_at": 1727612477,
+      "updated_at": 1727612477
+    },
+    {
+      "id": 2,
+      "start_at": 1743534000,
+      "end_at": 1759258799,
+      "receive_end_at": 1759345199,
+      "title_name": "2025前期",
+      "badge_item_id": 10044001,
+      "created_at": 1743069583,
+      "updated_at": 1743069583
+    },
+    {
+      "id": 3,
+      "start_at": 1759345200,
+      "end_at": 1774983599,
+      "receive_end_at": 1775069999,
+      "title_name": "2025後期",
+      "badge_item_id": 10044002,
+      "created_at": 1759235487,
+      "updated_at": 1759235487
+    },
+    {
+      "id": 4,
+      "start_at": 1775070000,
+      "end_at": 1790794799,
+      "receive_end_at": 1790881199,
+      "title_name": "2026前期",
+      "badge_item_id": 10044003,
+      "created_at": 1774952220,
+      "updated_at": 1774952220
+    },
+    {
+      "id": 5,
+      "start_at": 1790881200,
+      "end_at": 1806519599,
+      "receive_end_at": 1806605999,
+      "title_name": "2026後期",
+      "badge_item_id": 10044004,
+      "created_at": 1790511667,
+      "updated_at": 1790511667
+    }
+  ]
+}

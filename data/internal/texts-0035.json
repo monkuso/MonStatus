@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 1,
+  "table": "texts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 9024,
+      "text": "五郎の部屋",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29440"
+    },
+    {
+      "id": 9025,
+      "text": "モンスト五郎",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29441"
+    },
+    {
+      "id": 9026,
+      "text": "六郎の部屋",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29442"
+    },
+    {
+      "id": 9027,
+      "text": "モンスト六郎",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636563956,
+      "updated_at": 1636563956,
+      "label": "eTEXTS_DEF_29443"
+    },
+    {
+      "id": 9028,
+      "text": "[LC]巫力強化ミッション[LF][LF][CCB:dlme/help_collabo_math01_00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_MSG_MATH_MISSION_HELP"
+    },
+    {
+      "id": 9029,
+      "text": "開催期間：11/14 12:00 〜 12/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_MSG_MATH_MISSION_PERIOD"
+    },
+    {
+      "id": 9030,
+      "text": "[LC]ミッションクリア報酬[LF][LF][LC]以下報酬を獲得しました[LF][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_MSG_MATH_MISSION_REWARD"
+    },
+    {
+      "id": 9031,
+      "text": "[C6:コラボ限定ガチャ開催中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29000"
+    },
+    {
+      "id": 9032,
+      "text": "[b:ba_help_collabo_math_00_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29001"
+    },
+    {
+      "id": 9033,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29002"
+    },
+    {
+      "id": 9034,
+      "text": "11/14 12:00～12/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29003"
+    },
+    {
+      "id": 9035,
+      "text": "[C5:コラボ限定ガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29004"
+    },
+    {
+      "id": 9036,
+      "text": "ガチャ[C6:｢SHAMAN KING｣]が期間限定で開催中！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29005"
+    },
+    {
+      "id": 9037,
+      "text": "[IP9118]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29006"
+    },
+    {
+      "id": 9038,
+      "text": "[IP9120]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29007"
+    },
+    {
+      "id": 9039,
+      "text": "[IP9124]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29008"
+    },
+    {
+      "id": 9040,
+      "text": "[IP9116]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29009"
+    },
+    {
+      "id": 9041,
+      "text": "[IP9122]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29010"
+    },
+    {
+      "id": 9042,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20211111_1.html#1|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29011"
+    },
+    {
+      "id": 9043,
+      "text": "[C6:コラボ限定クエスト出現中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29012"
+    },
+    {
+      "id": 9044,
+      "text": "[b:ba_help_collabo_math_00_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29013"
+    },
+    {
+      "id": 9045,
+      "text": "[C5:コラボ限定クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29014"
+    },
+    {
+      "id": 9046,
+      "text": "スケジュールに沿ってクエストが出現！[LF]降臨時間はスケジュール＆繰り返し予約で確認しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29015"
+    },
+    {
+      "id": 9047,
+      "text": "[SGBI23330|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29016"
+    },
+    {
+      "id": 9048,
+      "text": "[SGBI23340|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29017"
+    },
+    {
+      "id": 9049,
+      "text": "コラボ期間中、常に挑戦できるクエストも出現！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29018"
+    },
+    {
+      "id": 9050,
+      "text": "[SGBI23350|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29019"
+    },
+    {
+      "id": 9051,
+      "text": "[SGBI23310|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29020"
+    },
+    {
+      "id": 9052,
+      "text": "[SGBI23320|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29021"
+    },
+    {
+      "id": 9053,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20211111_1.html#4|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29022"
+    },
+    {
+      "id": 9054,
+      "text": "[SW0.8][C6:1日1回限定クリアボーナスを手に入れよう]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29023"
+    },
+    {
+      "id": 9055,
+      "text": "[b:ba_help_collabo_math_00_3.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29024"
+    },
+    {
+      "id": 9056,
+      "text": "[C5:1日1回限定クリアボーナス！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29025"
+    },
+    {
+      "id": 9057,
+      "text": "1日1回限定クリアボーナス！[LF]コラボクエスト[C2:｢リゼルグ・リベンジャー｣][LF]クリアで[C2:★5 リゼルグ・ダイゼル]が[LF][C6:7体]獲得できる！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29026"
+    },
+    {
+      "id": 9058,
+      "text": "[IP9126]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29027"
+    },
+    {
+      "id": 9059,
+      "text": "さらにマルチプレイで[LF][C6:金卵2個以上のドロップ率アップ！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29028"
+    },
+    {
+      "id": 9060,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20211111_1.html#7|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29029"
+    },
+    {
+      "id": 9061,
+      "text": "[C6:超究極クエストをクリアしよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29030"
+    },
+    {
+      "id": 9062,
+      "text": "[b:ba_help_collabo_math_00_4.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29031"
+    },
+    {
+      "id": 9063,
+      "text": "11/16 19:00～12/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29032"
+    },
+    {
+      "id": 9064,
+      "text": "[C5:超究極クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29033"
+    },
+    {
+      "id": 9065,
+      "text": "超究極クエスト[C5:｢幹久タイフーン｣]が出現！[LF]降臨時間はスケジュール＆繰り返し予約で[LF]確認しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29034"
+    },
+    {
+      "id": 9066,
+      "text": "[SGBI23360|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29035"
+    },
+    {
+      "id": 9067,
+      "text": "[C5:｢幹久タイフーン｣]では本来のラックに[LF]ラック[C4:+99]分のラックボーナスがプラス！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29036"
+    },
+    {
+      "id": 9068,
+      "text": "コラボ期間中",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29037"
+    },
+    {
+      "id": 9069,
+      "text": "[LUCK]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29038"
+    },
+    {
+      "id": 9070,
+      "text": "[C4:+99]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29039"
+    },
+    {
+      "id": 9071,
+      "text": "全てのモンスターがラックボーナスで宝箱を[LF]2個獲得可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29040"
+    },
+    {
+      "id": 9072,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20211111_1.html#5|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29041"
+    },
+    {
+      "id": 9073,
+      "text": "[SW0.8][C6:SHAMAN KING コラボスターターパック登場]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29100"
+    },
+    {
+      "id": 9074,
+      "text": "[b:ba_help_collabo_math_01_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29101"
+    },
+    {
+      "id": 9075,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29102"
+    },
+    {
+      "id": 9076,
+      "text": "11/14 12:00～12/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29103"
+    },
+    {
+      "id": 9077,
+      "text": "[C3:スターターパックについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29104"
+    },
+    {
+      "id": 9078,
+      "text": "コラボ期間中[C2:★6 降魔調伏 恐山アンナ]と[LF]各種アイテムがセットとなった[LF][C3:SHAMAN KING コラボスターターパック]が[LF]登場！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29105"
+    },
+    {
+      "id": 9079,
+      "text": "[IP9125]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29106"
+    },
+    {
+      "id": 9080,
+      "text": "[C2:★6 降魔調伏 恐山アンナ]はここでのみ入手可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29107"
+    },
+    {
+      "id": 9081,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20211111_1.html#3|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29108"
+    },
+    {
+      "id": 9082,
+      "text": "[SW0.8][C6:ログインボーナスでチョコラブを手に入れよう]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29109"
+    },
+    {
+      "id": 9083,
+      "text": "[b:ba_help_collabo_math_01_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29110"
+    },
+    {
+      "id": 9084,
+      "text": "11/14 4:00～11/30 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29111"
+    },
+    {
+      "id": 9085,
+      "text": "[C5:ログインボーナスについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29112"
+    },
+    {
+      "id": 9086,
+      "text": "期間中にログインすることで[LF][C6:SHAFT！ チョコラブ・マクダネル]や[LF]アイテムを入手しよう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29113"
+    },
+    {
+      "id": 9087,
+      "text": "[IP9140]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29114"
+    },
+    {
+      "id": 9088,
+      "text": "[C6:SHAFT！ チョコラブ・マクダネル]は[LF]ログインボーナスで[C4:運極]が可能！[LF]毎日ログインしよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29115"
+    },
+    {
+      "id": 9089,
+      "text": "[C5:フレンドガチャについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29116"
+    },
+    {
+      "id": 9090,
+      "text": "コラボイベント期間中[C5:フレンドガチャ]でも[LF][C6:★6 SHAFT！ チョコラブ・マクダネル]を[LF]入手することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29117"
+    },
+    {
+      "id": 9091,
+      "text": "フレンドガチャ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29118"
+    },
+    {
+      "id": 9092,
+      "text": "ログインのみでの運極の達成が難しい場合は[LF]フレンドガチャで仲間を増やそう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29119"
+    },
+    {
+      "id": 9093,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20211111_1.html#8|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29120"
+    },
+    {
+      "id": 9094,
+      "text": "[C6:期間限定ラックボーナス！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29121"
+    },
+    {
+      "id": 9095,
+      "text": "[b:ba_help_collabo_math_01_3.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29122"
+    },
+    {
+      "id": 9096,
+      "text": "[C5:期間限定ラック+99]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29123"
+    },
+    {
+      "id": 9097,
+      "text": "[C2:★6 降魔調伏 恐山アンナ]と[LF][C6:★6 SHAFT！ チョコラブ・マクダネル]は[LF]コラボ期間中、本来のラックに[C4:+99]された[LF][C4:運極]状態で、ラックボーナスが獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29124"
+    },
+    {
+      "id": 9098,
+      "text": "コラボ開催中",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29125"
+    },
+    {
+      "id": 9099,
+      "text": "[LUCK]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29126"
+    },
+    {
+      "id": 9100,
+      "text": "[C4:+99]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29127"
+    },
+    {
+      "id": 9101,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20211111_1.html#8a|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29128"
+    },
+    {
+      "id": 9102,
+      "text": "[SW0.76][C6:クエスト挑戦で巫力を貯めて報酬を手に入れよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29200"
+    },
+    {
+      "id": 9103,
+      "text": "[b:ba_help_collabo_math01_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29201"
+    },
+    {
+      "id": 9104,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29202"
+    },
+    {
+      "id": 9105,
+      "text": "11/14 12:00~12/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29203"
+    },
+    {
+      "id": 9106,
+      "text": "[C5:巫力強化ミッションとは]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29204"
+    },
+    {
+      "id": 9107,
+      "text": "貯めた巫力[IMG:math00_sp_icon.png|0.6]に応じて、[C5:★6 道士 道 潤]や[LF][C4:★6 葉を思う気持ち 玉村たまお]、[C6:称号]や[LF][C6:コラボ限定グッジョブ]などが手に入るミッションです",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29205"
+    },
+    {
+      "id": 9108,
+      "text": "[IP9138]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29206"
+    },
+    {
+      "id": 9109,
+      "text": "[IP9139]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29207"
+    },
+    {
+      "id": 9110,
+      "text": "[C5:巫力の入手方法]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29208"
+    },
+    {
+      "id": 9111,
+      "text": "巫力は[C6:スタミナを消費するたび]に、[LF]消費したスタミナに応じた巫力を入手します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29209"
+    },
+    {
+      "id": 9112,
+      "text": "[IMG:icon_stamina.png|0.74]50消費",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29210"
+    },
+    {
+      "id": 9113,
+      "text": "[IMG:math00_sp_icon.png|0.74]50獲得",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29211"
+    },
+    {
+      "id": 9114,
+      "text": "※全クエストでのスタミナ消費が対象です[LF][LF]※詳細は[u:https://www.monster-strike.com/news/20211111_1.html#6|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1636716037,
+      "updated_at": 1636716037,
+      "label": "eTEXTS_DEF_29212"
+    },
+    {
+      "id": 9115,
+      "text": "シャーマンファイトクエスト開催[LF][LF]シャーマンファイトクエストが開催されました！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_MATH_QUEST_INTRO_MSG"
+    },
+    {
+      "id": 9116,
+      "text": "[LC]シャーマンファイトクエスト[LF][LF][CCB:dlme/help_collabo_math02_00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_MSG_MATH_QUEST_HELP"
+    },
+    {
+      "id": 9117,
+      "text": "開催期間：11/20 12:00 〜 12/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_MSG_MATH_QUEST_PERIOD"
+    },
+    {
+      "id": 9118,
+      "text": "[LC]クエストクリア報酬[LF][LF][LC]以下報酬を獲得しました[LF][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_MSG_MATH_QUEST_REWARD"
+    },
+    {
+      "id": 9119,
+      "text": "シャーマンファイトクエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_ME_MATH_QUEST_TITLE"
+    },
+    {
+      "id": 9120,
+      "text": "[LC]残り巫力が不足しています[LF][LF][LC]クエストに挑戦するための残り巫力が不足しています[LF20][LC][NODE][LF20][LC]クエストでスタミナを消費して巫力を入手しよう",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_MSG_MATH_QUEST_RESTORE_DIALOG_QUEST"
+    },
+    {
+      "id": 9121,
+      "text": "[LC]料理が不足しています[LF][LF][LC]使用する料理が足りません[LF20][LC][NODE][LF20][LC]調理場で料理を作ろう！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1649411771,
+      "label": "eTEXTS_DEF_MSG_MATH_QUEST_RESTORE_DIALOG_ITEM"
+    },
+    {
+      "id": 9122,
+      "text": "%d回戦",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_MSG_MATH_QUEST_LABEL_VS1"
+    },
+    {
+      "id": 9123,
+      "text": "最終戦",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_MSG_MATH_QUEST_LABEL_VS2"
+    },
+    {
+      "id": 9124,
+      "text": "%d回戦クリアで解放",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_MSG_MATH_QUEST_LABEL_UNOPEN"
+    },
+    {
+      "id": 9125,
+      "text": "%d回戦クリアで挑戦可能",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_MSG_MATH_QUEST_UNCHALLENGABLE_DIALOG"
+    },
+    {
+      "id": 9126,
+      "text": "残り料理個数:",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1649411771,
+      "label": "eTEXTS_DEF_MSG_MATH_QUEST_RESTORE_DIALOG_LABEL1"
+    },
+    {
+      "id": 9127,
+      "text": "必要な料理個数:",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1649411771,
+      "label": "eTEXTS_DEF_MSG_MATH_QUEST_RESTORE_DIALOG_LABEL2"
+    },
+    {
+      "id": 9128,
+      "text": "残り巫力",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_MSG_MATH_QUEST_BOOST_ITEM_COST_TITLE"
+    },
+    {
+      "id": 9129,
+      "text": "[LC]挑戦できません[LF][LF]%d回戦をクリアしている場合、参加可能です",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_MSG_STAGE_CONDITION_NOT_MATH_NOT_CLEAR"
+    },
+    {
+      "id": 9130,
+      "text": "[LC]挑戦できません[LF][LF]未受け取りの報酬があります[LF]シャーマンファイトクエスト画面で受け取ってください",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_MSG_STAGE_CONDITION_NOT_MATH_NOT_RECIEVED"
+    },
+    {
+      "id": 9131,
+      "text": "[C6:巫力を使って強敵たちに挑戦！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_29300"
+    },
+    {
+      "id": 9132,
+      "text": "[b:ba_help_collabo_math02_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_29301"
+    },
+    {
+      "id": 9133,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_29302"
+    },
+    {
+      "id": 9134,
+      "text": "11/20 12:00～12/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_29303"
+    },
+    {
+      "id": 9135,
+      "text": "[C5:シャーマンファイトクエストとは]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_29304"
+    },
+    {
+      "id": 9136,
+      "text": "シャーマンファイトクエストは[C6:全5クエスト！][LF]1つのクエストをクリアすることで[LF]次のクエストに挑戦可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_29305"
+    },
+    {
+      "id": 9137,
+      "text": "1回戦",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_29306"
+    },
+    {
+      "id": 9138,
+      "text": "[C6:クリアで挑戦可能！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_29307"
+    },
+    {
+      "id": 9139,
+      "text": "2回戦",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_29308"
+    },
+    {
+      "id": 9140,
+      "text": "最後のクエストでは[C2:★6 未来王 ハオ]が待ち受けている！[LF]強敵たちに打ち勝ち、報酬を手に入れよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_29309"
+    },
+    {
+      "id": 9141,
+      "text": "※クエストはクリア後も挑戦することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_29310"
+    },
+    {
+      "id": 9142,
+      "text": "[C5:挑戦方法に関して]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_29311"
+    },
+    {
+      "id": 9143,
+      "text": "シャーマンファイトクエストは[LF][C6:集めた巫力を消費して挑戦]します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_29312"
+    },
+    {
+      "id": 9144,
+      "text": "1回戦",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_29313"
+    },
+    {
+      "id": 9145,
+      "text": "[C4:シルバ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_29314"
+    },
+    {
+      "id": 9146,
+      "text": "VS シルバ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_29315"
+    },
+    {
+      "id": 9147,
+      "text": "[C5:消費][IMG:math00_sp_icon.png|0.5]：[C5:50]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_29316"
+    },
+    {
+      "id": 9148,
+      "text": "また、巫力を消費することで各クエストで[LF][C6:専用のお助けアイテム]を使用可能[LF]お助けアイテムを駆使してクエストを有利に進めよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_29317"
+    },
+    {
+      "id": 9149,
+      "text": "お助けアイテム一覧",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_29318"
+    },
+    {
+      "id": 9150,
+      "text": "最大HPが30000上昇する",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_29319"
+    },
+    {
+      "id": 9151,
+      "text": "[C5:消費][IMG:math00_sp_icon.png|0.5][C5:：25]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_29320"
+    },
+    {
+      "id": 9152,
+      "text": "マップ開始時に全ての敵に[LF]10％ダメージを与える",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_29321"
+    },
+    {
+      "id": 9153,
+      "text": "[C5:消費][IMG:math00_sp_icon.png|0.5][C5:：25]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_29322"
+    },
+    {
+      "id": 9154,
+      "text": "ガイドが常に表示される",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_29323"
+    },
+    {
+      "id": 9155,
+      "text": "[C5:消費][IMG:math00_sp_icon.png|0.5][C5:：30]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_29324"
+    },
+    {
+      "id": 9156,
+      "text": "弱点への攻撃倍率が1.5倍に上昇する",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_29325"
+    },
+    {
+      "id": 9157,
+      "text": "[C5:消費][IMG:math00_sp_icon.png|0.5][C5:：30]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_29326"
+    },
+    {
+      "id": 9158,
+      "text": "味方全員の攻撃力と友情コンボ威力が[LF]20％アップ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_29327"
+    },
+    {
+      "id": 9159,
+      "text": "[C5:消費][IMG:math00_sp_icon.png|0.5][C5:：40]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_29328"
+    },
+    {
+      "id": 9160,
+      "text": "[C5:報酬に関して]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_29329"
+    },
+    {
+      "id": 9161,
+      "text": "各クエストを[C6:初めてクリアした時]に、[LF]アイテムを獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_29330"
+    },
+    {
+      "id": 9162,
+      "text": "[C6:初クリア]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_29331"
+    },
+    {
+      "id": 9163,
+      "text": "[C2:｢最終戦 VSハオ｣]をクリアすると、[LF][C4:運極]状態の[C2:★6 未来王 ハオ]と、[C6:称号]、[LF][C6:コラボ限定グッジョブ]を獲得！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_29332"
+    },
+    {
+      "id": 9164,
+      "text": "[IP9141]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_29333"
+    },
+    {
+      "id": 9165,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20211111_1.html#a|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1637230911,
+      "updated_at": 1637230911,
+      "label": "eTEXTS_DEF_29334"
+    },
+    {
+      "id": 9166,
+      "text": "対策レベル",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_ME_PREPARATIVE_EVENT"
+    },
+    {
+      "id": 9167,
+      "text": "Lv.%2d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_PREPARATIVE_GAUGE_LV"
+    },
+    {
+      "id": 9168,
+      "text": "レベルアップまで：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_PREPARATIVE_GAUGE_LVUP_MADE"
+    },
+    {
+      "id": 9169,
+      "text": "あと%5d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_PREPARATIVE_GAUGE_LVUP_ATO"
+    },
+    {
+      "id": 9170,
+      "text": "[C6:最大レベルに到達しました]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_PREPARATIVE_GAUGE_ISMAX"
+    },
+    {
+      "id": 9171,
+      "text": "対策レベル",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_PREPARATIVE_DETAIL_LABEL"
+    },
+    {
+      "id": 9172,
+      "text": "対策レベルを上げると、このステージに出現する[LF][C6:以下のモンスター]に対して与えるダメージが増加します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_PREPARATIVE_DETAIL_DESC_BOSS"
+    },
+    {
+      "id": 9173,
+      "text": "対策レベルを上げると、対象ステージに出現する[LF][C6:以下のモンスター]に対して与えるダメージが増加します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_PREPARATIVE_DETAIL_DESC_ZAKO"
+    },
+    {
+      "id": 9174,
+      "text": "対象ステージ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_PREPARATIVE_DETAIL_TARGET"
+    },
+    {
+      "id": 9175,
+      "text": "レベルごとの与ダメージ倍率",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_PREPARATIVE_FACTOR"
+    },
+    {
+      "id": 9176,
+      "text": "Lv.%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_PREPARATIVE_FACTOR_LV"
+    },
+    {
+      "id": 9177,
+      "text": "x %.1f",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_PREPARATIVE_FACTOR_XVALUE"
+    },
+    {
+      "id": 9178,
+      "text": "対策レベル",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_PREPARATIVE_RESULT_TITLE"
+    },
+    {
+      "id": 9179,
+      "text": "対策経験値",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_PREPARATIVE_RESULT_EXP"
+    },
+    {
+      "id": 9180,
+      "text": "与ダメージ倍率: x%.1f",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_PREPARATIVE_RESULT_FACTOR"
+    },
+    {
+      "id": 9181,
+      "text": "対策レベルがアップ！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_PREPARATIVE_RESULT_LEVELUP"
+    },
+    {
+      "id": 9182,
+      "text": "最大レベルに到達！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_PREPARATIVE_RESULT_LEVELMAX"
+    },
+    {
+      "id": 9183,
+      "text": "あと%5d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_PREPARATIVE_RESULT_LVUP_ATO"
+    },
+    {
+      "id": 9184,
+      "text": "[SW0.9][C6:対策レベルを上げて超究極クリアを目指そう]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29500"
+    },
+    {
+      "id": 9185,
+      "text": "[b:ba_help_preparative_stage_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29501"
+    },
+    {
+      "id": 9186,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29502"
+    },
+    {
+      "id": 9187,
+      "text": "9/16 12:00～10/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1694686903,
+      "label": "eTEXTS_DEF_29503"
+    },
+    {
+      "id": 9188,
+      "text": "[C5:決戦クエストの遊び方]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29504"
+    },
+    {
+      "id": 9189,
+      "text": "新イベントをクリアし、[C6:対策レベル]を上げて[LF][C6:超究極クエスト]を有利にクリアしよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29505"
+    },
+    {
+      "id": 9190,
+      "text": "超究極クエストについて",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29506"
+    },
+    {
+      "id": 9191,
+      "text": "期間限定で[C6:超究極クエスト]が登場！[LF]1回クリアで[C4:ラック99]のモンスターを獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29507"
+    },
+    {
+      "id": 9192,
+      "text": "[SGBI26200|difficulty1]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1694686903,
+      "label": "eTEXTS_DEF_29508"
+    },
+    {
+      "id": 9193,
+      "text": "有利にクリアするには？",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29509"
+    },
+    {
+      "id": 9194,
+      "text": "超究極クエストには、[C6:新イベントのボスとして][LF][C6:登場したモンスター]がクエスト中に登場します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29510"
+    },
+    {
+      "id": 9195,
+      "text": "超究極クエストでも登場！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29511"
+    },
+    {
+      "id": 9196,
+      "text": "[C6:それぞれのモンスター]への対策レベルが[LF]上がっていると、攻略が有利になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29512"
+    },
+    {
+      "id": 9197,
+      "text": "[C5:対策レベルとは]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29513"
+    },
+    {
+      "id": 9198,
+      "text": "[C6:対策レベル]を上げることで、[C6:超究極クエスト]で[LF]登場する[C6:新イベントモンスターに対して][LF][C6:与えるダメージが増加]します",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29514"
+    },
+    {
+      "id": 9199,
+      "text": "超究極クエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29515"
+    },
+    {
+      "id": 9200,
+      "text": "小ダメージ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29516"
+    },
+    {
+      "id": 9201,
+      "text": "[C6:中ダメージ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29517"
+    },
+    {
+      "id": 9202,
+      "text": "[C2:大ダメージ！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29518"
+    },
+    {
+      "id": 9203,
+      "text": "対策[LF]Lv.1",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29519"
+    },
+    {
+      "id": 9204,
+      "text": "対策[LF]Lv.5",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29520"
+    },
+    {
+      "id": 9205,
+      "text": "[C6:対策][LF][C6:Lv.10]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29521"
+    },
+    {
+      "id": 9206,
+      "text": "対策レベルは[C6:ステージ詳細]から確認できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29522"
+    },
+    {
+      "id": 9207,
+      "text": "対策レベルの上げ方",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29523"
+    },
+    {
+      "id": 9208,
+      "text": "[C6:対象クエストのクリアで対策経験値を獲得]でき[LF]対策レベルが上がります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29524"
+    },
+    {
+      "id": 9209,
+      "text": "新クエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29525"
+    },
+    {
+      "id": 9210,
+      "text": "[C6:対策レベルアップ！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29526"
+    },
+    {
+      "id": 9211,
+      "text": "[C2:フォトネル]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1694686903,
+      "label": "eTEXTS_DEF_29527"
+    },
+    {
+      "id": 9212,
+      "text": "Lv. 7",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29528"
+    },
+    {
+      "id": 9213,
+      "text": "レベルごとの与ダメージ倍率",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29529"
+    },
+    {
+      "id": 9214,
+      "text": "[C5:Lv.1]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29530"
+    },
+    {
+      "id": 9215,
+      "text": "[C5:Lv.2]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29531"
+    },
+    {
+      "id": 9216,
+      "text": "[C5:Lv.3]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29532"
+    },
+    {
+      "id": 9217,
+      "text": "[C5:Lv.4]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29533"
+    },
+    {
+      "id": 9218,
+      "text": "[C5:Lv.5]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29534"
+    },
+    {
+      "id": 9219,
+      "text": "×1.0",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29535"
+    },
+    {
+      "id": 9220,
+      "text": "×1.2",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1654076373,
+      "label": "eTEXTS_DEF_29536"
+    },
+    {
+      "id": 9221,
+      "text": "×1.4",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1654076373,
+      "label": "eTEXTS_DEF_29537"
+    },
+    {
+      "id": 9222,
+      "text": "×1.6",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1654076373,
+      "label": "eTEXTS_DEF_29538"
+    },
+    {
+      "id": 9223,
+      "text": "×1.8",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1654076373,
+      "label": "eTEXTS_DEF_29539"
+    },
+    {
+      "id": 9224,
+      "text": "[C5:Lv.6]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29540"
+    },
+    {
+      "id": 9225,
+      "text": "[C5:Lv.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29541"
+    },
+    {
+      "id": 9226,
+      "text": "[C5:Lv.8]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29542"
+    },
+    {
+      "id": 9227,
+      "text": "[C5:Lv.9]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29543"
+    },
+    {
+      "id": 9228,
+      "text": "[C5:Lv.10]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29544"
+    },
+    {
+      "id": 9229,
+      "text": "×2.0",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1654076373,
+      "label": "eTEXTS_DEF_29545"
+    },
+    {
+      "id": 9230,
+      "text": "×2.8",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1654076373,
+      "label": "eTEXTS_DEF_29546"
+    },
+    {
+      "id": 9231,
+      "text": "×3.6",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1654076373,
+      "label": "eTEXTS_DEF_29547"
+    },
+    {
+      "id": 9232,
+      "text": "×4.5",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1654076373,
+      "label": "eTEXTS_DEF_29548"
+    },
+    {
+      "id": 9233,
+      "text": "×5.5",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29549"
+    },
+    {
+      "id": 9234,
+      "text": "対象クエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29550"
+    },
+    {
+      "id": 9235,
+      "text": "[SGBI26180|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1694686903,
+      "label": "eTEXTS_DEF_29551"
+    },
+    {
+      "id": 9236,
+      "text": "[SGBI26190|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1694686903,
+      "label": "eTEXTS_DEF_29552"
+    },
+    {
+      "id": 9237,
+      "text": "[SGBI26170|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1694686903,
+      "label": "eTEXTS_DEF_29553"
+    },
+    {
+      "id": 9238,
+      "text": "※マルチプレイでは、[C6:自身が操作するキャラにのみ][LF]　自身の対策レベルが適用されます[LF][LF]※高位なる魔人女優 シキノ・クローネへの[LF]　ダメージは上昇しません[LF][LF]※詳細は[u:https://www.monster-strike.com/news/20230914_6.html#4|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1694686903,
+      "label": "eTEXTS_DEF_29554"
+    },
+    {
+      "id": 9239,
+      "text": "[IPJ10734]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1694686903,
+      "label": "eTEXTS_DEF_29555"
+    },
+    {
+      "id": 9240,
+      "text": "[IPJ10728]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1694686903,
+      "label": "eTEXTS_DEF_29556"
+    },
+    {
+      "id": 9241,
+      "text": "[IPJ10730]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1694686903,
+      "label": "eTEXTS_DEF_29557"
+    },
+    {
+      "id": 9242,
+      "text": "[IPJ10733]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1694686903,
+      "label": "eTEXTS_DEF_29558"
+    },
+    {
+      "id": 9243,
+      "text": "#ROOM",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1639591071,
+      "label": "eTEXTS_DEF_ROOM_HASH_TAG"
+    },
+    {
+      "id": 9244,
+      "text": "ストライカーカード作成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1639591071,
+      "label": "eTEXTS_DEF_PLAYER_CARD_TITLE"
+    },
+    {
+      "id": 9245,
+      "text": "究極",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1638266536,
+      "updated_at": 1638266536,
+      "label": "eTEXTS_DEF_29559"
+    },
+    {
+      "id": 9246,
+      "text": "デザイン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1639591071,
+      "label": "eTEXTS_DEF_PLAYER_CARD_DESIGN_BUTTON"
+    },
+    {
+      "id": 9247,
+      "text": "キャラ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1639591071,
+      "label": "eTEXTS_DEF_PLAYER_CARD_CHARBALL_BUTTON"
+    },
+    {
+      "id": 9248,
+      "text": "実績",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1639591071,
+      "label": "eTEXTS_DEF_PLAYER_CARD_RECORD_BUTTON"
+    },
+    {
+      "id": 9249,
+      "text": "勲章",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1639591071,
+      "label": "eTEXTS_DEF_PLAYER_CARD_BADGE_BUTTON"
+    },
+    {
+      "id": 9250,
+      "text": "フレンドID",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1639591071,
+      "label": "eTEXTS_DEF_PLAYER_CARD_INVITATION_BUTTON"
+    },
+    {
+      "id": 9251,
+      "text": "画像保存",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1639591071,
+      "label": "eTEXTS_DEF_PLAYER_CARD_SAVE_BUTTON"
+    },
+    {
+      "id": 9252,
+      "text": "レギュラーデザイン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1639591071,
+      "label": "eTEXTS_DEF_PLAYER_CARD_REGULAR_DESIGN_TITLE"
+    },
+    {
+      "id": 9253,
+      "text": "コラボデザイン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1639591071,
+      "label": "eTEXTS_DEF_PLAYER_CARD_COLLABO_DESIGN_TITLE"
+    },
+    {
+      "id": 9254,
+      "text": "実績1",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1639591071,
+      "label": "eTEXTS_DEF_PLAYER_CARD_RECORD_BUTTON1"
+    },
+    {
+      "id": 9255,
+      "text": "実績2",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1639591071,
+      "label": "eTEXTS_DEF_PLAYER_CARD_RECORD_BUTTON2"
+    },
+    {
+      "id": 9256,
+      "text": "実績3",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1639591071,
+      "label": "eTEXTS_DEF_PLAYER_CARD_RECORD_BUTTON3"
+    },
+    {
+      "id": 9257,
+      "text": "勲章1",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1639591071,
+      "label": "eTEXTS_DEF_PLAYER_CARD_BADGE_BUTTON1"
+    },
+    {
+      "id": 9258,
+      "text": "勲章2",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1639591071,
+      "label": "eTEXTS_DEF_PLAYER_CARD_BADGE_BUTTON2"
+    },
+    {
+      "id": 9259,
+      "text": "勲章3",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1639591071,
+      "label": "eTEXTS_DEF_PLAYER_CARD_BADGE_BUTTON3"
+    },
+    {
+      "id": 9260,
+      "text": "勲章4",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1639591071,
+      "label": "eTEXTS_DEF_PLAYER_CARD_BADGE_BUTTON4"
+    },
+    {
+      "id": 9261,
+      "text": "勲章5",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1639591071,
+      "label": "eTEXTS_DEF_PLAYER_CARD_BADGE_BUTTON5"
+    },
+    {
+      "id": 9262,
+      "text": "フレンドIDを表示する",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1639591071,
+      "label": "eTEXTS_DEF_PLAYER_CARD_INVITATION_LABEL"
+    },
+    {
+      "id": 9263,
+      "text": "[LC]カード画像保存[LF][LF][LC]カード画像を保存します[LF][LC]よろしいですか？[LF][LF]※カード画像の保存にはストレージへの[LF]アクセス権限が必要になります[LF][LC][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1646756068,
+      "label": "eTEXTS_DEF_MSG_PLAYER_CARD_SAVE"
+    },
+    {
+      "id": 9264,
+      "text": "[LC]カード画像保存完了[LF][LF][LC]カード画像が保存されました[LF][LC]端末の「写真」アプリ等で[LF]ご確認ください[LC][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1639591071,
+      "label": "eTEXTS_DEF_MSG_PLAYER_CARD_SUCCESS"
+    },
+    {
+      "id": 9265,
+      "text": "[LC]カード画像保存失敗[LF][LF][LC]カード画像の保存に失敗しました[LF][LC][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1639591071,
+      "label": "eTEXTS_DEF_MSG_PLAYER_CARD_FAILURE"
+    },
+    {
+      "id": 9266,
+      "text": "[LC]カード画像保存権限[LF][LF][LC]ストレージへのアクセス権限がないため[LF][LC]カード画像が保存できませんでした[LF][LF][LC]カード画像を保存するためには[LF][LC]権限の許可が必要になります[LC][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1646756068,
+      "label": "eTEXTS_DEF_MSG_PLAYER_CARD_NOT_PERMISSION"
+    },
+    {
+      "id": 9267,
+      "text": "プレビュー",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1639591071,
+      "label": "eTEXTS_DEF_PLAYER_CARD_PREVIEW_OPEN"
+    },
+    {
+      "id": 9268,
+      "text": "カード画像を保存",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1639591071,
+      "label": "eTEXTS_DEF_PLAYER_CARD_PREVIEW_SAVE"
+    },
+    {
+      "id": 9269,
+      "text": "未開の大地　最高クリア拠点",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1639591071,
+      "label": "eTEXTS_DEF_PLAYERCARD_FRONTIER_MAX_FLOOR"
+    },
+    {
+      "id": 9270,
+      "text": "未開の大地　制覇回数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1639591071,
+      "label": "eTEXTS_DEF_PLAYERCARD_FRONTIER_DOMINATED_NUM"
+    },
+    {
+      "id": 9271,
+      "text": "未開の大地　最高獲得エナジー",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1639591071,
+      "label": "eTEXTS_DEF_PLAYERCARD_FRONTIER_EARNED_ENERGY"
+    },
+    {
+      "id": 9272,
+      "text": "栄冠の闘技場　シーズン制覇数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1639591071,
+      "label": "eTEXTS_DEF_PLAYERCARD_SEASONROAD_SEASON_CLEAR_COUNT"
+    },
+    {
+      "id": 9273,
+      "text": "栄冠の闘技場　金トロフィー獲得数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1639591071,
+      "label": "eTEXTS_DEF_PLAYERCARD_SEASONROAD_SEASON_GLOD_TROPHY_COUNT"
+    },
+    {
+      "id": 9274,
+      "text": "[LC]超究極クエストに挑戦しよう[LF][LF]このクエストは下記のクエストをクリアすることで[LF]挑戦可能になります[LF][LF][LC][SGBI21940|difficulty0][LF][LF]対象のクエストは追憶の書庫でプレイ可能です[LF][LC][TRY:621940]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1675873247,
+      "label": "eTEXTS_DEF_147"
+    },
+    {
+      "id": 9275,
+      "text": "[LC]超究極クエストに挑戦しよう[LF][LF]このクエストは下記のクエストをクリアすることで[LF]挑戦可能になります[LF][LF][LC][SGBI22200|difficulty0][LF][LF]対象のクエストは追憶の書庫でプレイ可能です[LF][LC][TRY:622200]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1675873247,
+      "label": "eTEXTS_DEF_148"
+    },
+    {
+      "id": 9276,
+      "text": "[LC]超究極クエストに挑戦しよう[LF][LF]このクエストは下記のクエストをクリアすることで[LF]挑戦可能になります[LF][LF][LC][SGBI22490|difficulty0][LF][LF]対象のクエストは追憶の書庫でプレイ可能です[LF][LC][TRY:622490]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1675873247,
+      "label": "eTEXTS_DEF_149"
+    },
+    {
+      "id": 9277,
+      "text": "[LC]超究極クエストに挑戦しよう[LF][LF]このクエストは下記のクエストをクリアすることで[LF]挑戦可能になります[LF][LF][LC][SGBI22740|difficulty0][LF][LF]対象のクエストは追憶の書庫でプレイ可能です[LF][LC][TRY:622750]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1675873247,
+      "label": "eTEXTS_DEF_150"
+    },
+    {
+      "id": 9278,
+      "text": "[LC]超究極クエストに挑戦しよう[LF][LF]このクエストは下記のクエストをクリアすることで[LF]挑戦可能になります[LF][LF][LC][SGBI22980|difficulty0][LF][LF]対象のクエストは追憶の書庫でプレイ可能です[LF][LC][TRY:622980]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1675873247,
+      "label": "eTEXTS_DEF_151"
+    },
+    {
+      "id": 9279,
+      "text": "[LC]クエストに挑戦するには[LF][LF]クエスト[C2:「凛然たる騎士道の体現者」]の[C6:究極]を[LF]クリアする必要があります[LF][LF][LC][SGBI21940|difficulty0][LF][LF]対象のクエストは追憶の書庫でプレイ可能です",
+      "layout": 43,
+      "color": 0,
+      "created_at": 1639591071,
+      "updated_at": 1675873247,
+      "label": "eTEXTS_DEF_152"
+    }
+  ]
+}

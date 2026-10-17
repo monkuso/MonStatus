@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "table": "preparative_stage_events",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "target_stage_id": 23460010,
+      "start_at": 1638414000,
+      "end_at": 1639940399,
+      "created_at": 1638266460,
+      "updated_at": 1638266460
+    },
+    {
+      "id": 2,
+      "target_stage_id": 24220010,
+      "start_at": 1654138800,
+      "end_at": 1655665199,
+      "created_at": 1654076292,
+      "updated_at": 1654076292
+    },
+    {
+      "id": 3,
+      "target_stage_id": 26200010,
+      "start_at": 1694833200,
+      "end_at": 1696445999,
+      "created_at": 1694686788,
+      "updated_at": 1694686788
+    }
+  ]
+}

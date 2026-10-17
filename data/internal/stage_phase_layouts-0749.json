@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 1,
+  "table": "stage_phase_layouts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 391539,
+      "x": 330,
+      "y": 40,
+      "stage_phase_id": 20249,
+      "range": 512,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391540,
+      "x": 40,
+      "y": 470,
+      "stage_phase_id": 20249,
+      "range": 512,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391541,
+      "x": 580,
+      "y": 250,
+      "stage_phase_id": 20249,
+      "range": 1,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391542,
+      "x": 590,
+      "y": 550,
+      "stage_phase_id": 20249,
+      "range": 1,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391543,
+      "x": 150,
+      "y": 490,
+      "stage_phase_id": 20249,
+      "range": 1,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391544,
+      "x": 70,
+      "y": 200,
+      "stage_phase_id": 20249,
+      "range": 1,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391545,
+      "x": 200,
+      "y": 40,
+      "stage_phase_id": 20249,
+      "range": 0,
+      "param": 90003,
+      "type_id": 20
+    },
+    {
+      "id": 391546,
+      "x": 440,
+      "y": 700,
+      "stage_phase_id": 20249,
+      "range": 0,
+      "param": 90003,
+      "type_id": 20
+    },
+    {
+      "id": 391547,
+      "x": 380,
+      "y": 460,
+      "stage_phase_id": 20250,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391548,
+      "x": 360,
+      "y": 230,
+      "stage_phase_id": 20250,
+      "range": 0,
+      "param": 30,
+      "type_id": 5
+    },
+    {
+      "id": 391549,
+      "x": 40,
+      "y": 270,
+      "stage_phase_id": 20250,
+      "range": 0,
+      "param": 60,
+      "type_id": 5
+    },
+    {
+      "id": 391550,
+      "x": 220,
+      "y": 310,
+      "stage_phase_id": 20250,
+      "range": 0,
+      "param": 90,
+      "type_id": 5
+    },
+    {
+      "id": 391551,
+      "x": 540,
+      "y": 210,
+      "stage_phase_id": 20250,
+      "range": 0,
+      "param": 120,
+      "type_id": 5
+    },
+    {
+      "id": 391552,
+      "x": 130,
+      "y": 290,
+      "stage_phase_id": 20250,
+      "range": 0,
+      "param": 150,
+      "type_id": 5
+    },
+    {
+      "id": 391553,
+      "x": 450,
+      "y": 220,
+      "stage_phase_id": 20250,
+      "range": 0,
+      "param": 180,
+      "type_id": 5
+    },
+    {
+      "id": 391577,
+      "x": 450,
+      "y": 560,
+      "stage_phase_id": 20251,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391578,
+      "x": 120,
+      "y": 600,
+      "stage_phase_id": 20251,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391579,
+      "x": 530,
+      "y": 220,
+      "stage_phase_id": 20251,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391580,
+      "x": 260,
+      "y": 610,
+      "stage_phase_id": 20251,
+      "range": 0,
+      "param": 30,
+      "type_id": 5
+    },
+    {
+      "id": 391581,
+      "x": 260,
+      "y": 490,
+      "stage_phase_id": 20251,
+      "range": 0,
+      "param": 60,
+      "type_id": 5
+    },
+    {
+      "id": 391582,
+      "x": 260,
+      "y": 370,
+      "stage_phase_id": 20251,
+      "range": 0,
+      "param": 90,
+      "type_id": 5
+    },
+    {
+      "id": 391583,
+      "x": 380,
+      "y": 370,
+      "stage_phase_id": 20251,
+      "range": 0,
+      "param": 120,
+      "type_id": 5
+    },
+    {
+      "id": 391584,
+      "x": 500,
+      "y": 370,
+      "stage_phase_id": 20251,
+      "range": 0,
+      "param": 150,
+      "type_id": 5
+    },
+    {
+      "id": 391585,
+      "x": 620,
+      "y": 370,
+      "stage_phase_id": 20251,
+      "range": 0,
+      "param": 180,
+      "type_id": 5
+    },
+    {
+      "id": 391607,
+      "x": 420,
+      "y": 540,
+      "stage_phase_id": 20252,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391608,
+      "x": 320,
+      "y": 540,
+      "stage_phase_id": 20252,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391609,
+      "x": 220,
+      "y": 540,
+      "stage_phase_id": 20252,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391610,
+      "x": 320,
+      "y": 80,
+      "stage_phase_id": 20252,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391611,
+      "x": 320,
+      "y": 330,
+      "stage_phase_id": 20252,
+      "range": 0,
+      "param": 30,
+      "type_id": 5
+    },
+    {
+      "id": 391612,
+      "x": 130,
+      "y": 340,
+      "stage_phase_id": 20252,
+      "range": 0,
+      "param": 60,
+      "type_id": 5
+    },
+    {
+      "id": 391613,
+      "x": 510,
+      "y": 340,
+      "stage_phase_id": 20252,
+      "range": 0,
+      "param": 90,
+      "type_id": 5
+    },
+    {
+      "id": 391637,
+      "x": 320,
+      "y": 110,
+      "stage_phase_id": 20253,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391638,
+      "x": 320,
+      "y": 640,
+      "stage_phase_id": 20253,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391639,
+      "x": 320,
+      "y": 390,
+      "stage_phase_id": 20253,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391640,
+      "x": 180,
+      "y": 530,
+      "stage_phase_id": 20253,
+      "range": 0,
+      "param": 30,
+      "type_id": 5
+    },
+    {
+      "id": 391641,
+      "x": 320,
+      "y": 490,
+      "stage_phase_id": 20253,
+      "range": 0,
+      "param": 60,
+      "type_id": 5
+    },
+    {
+      "id": 391642,
+      "x": 460,
+      "y": 410,
+      "stage_phase_id": 20253,
+      "range": 0,
+      "param": 90,
+      "type_id": 5
+    },
+    {
+      "id": 391643,
+      "x": 460,
+      "y": 250,
+      "stage_phase_id": 20253,
+      "range": 0,
+      "param": 120,
+      "type_id": 5
+    },
+    {
+      "id": 391644,
+      "x": 180,
+      "y": 410,
+      "stage_phase_id": 20253,
+      "range": 0,
+      "param": 150,
+      "type_id": 5
+    },
+    {
+      "id": 391645,
+      "x": 460,
+      "y": 530,
+      "stage_phase_id": 20253,
+      "range": 0,
+      "param": 180,
+      "type_id": 5
+    },
+    {
+      "id": 391646,
+      "x": 180,
+      "y": 250,
+      "stage_phase_id": 20253,
+      "range": 0,
+      "param": 210,
+      "type_id": 5
+    },
+    {
+      "id": 391667,
+      "x": 450,
+      "y": 240,
+      "stage_phase_id": 20254,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391668,
+      "x": 210,
+      "y": 220,
+      "stage_phase_id": 20254,
+      "range": 0,
+      "param": 30,
+      "type_id": 5
+    },
+    {
+      "id": 391669,
+      "x": 130,
+      "y": 240,
+      "stage_phase_id": 20254,
+      "range": 0,
+      "param": 60,
+      "type_id": 5
+    },
+    {
+      "id": 391670,
+      "x": 430,
+      "y": 520,
+      "stage_phase_id": 20254,
+      "range": 0,
+      "param": 90,
+      "type_id": 5
+    },
+    {
+      "id": 391671,
+      "x": 400,
+      "y": 600,
+      "stage_phase_id": 20254,
+      "range": 0,
+      "param": 120,
+      "type_id": 5
+    },
+    {
+      "id": 391672,
+      "x": 460,
+      "y": 440,
+      "stage_phase_id": 20254,
+      "range": 0,
+      "param": 150,
+      "type_id": 5
+    },
+    {
+      "id": 391673,
+      "x": 50,
+      "y": 260,
+      "stage_phase_id": 20254,
+      "range": 0,
+      "param": 180,
+      "type_id": 5
+    },
+    {
+      "id": 391697,
+      "x": 90,
+      "y": 370,
+      "stage_phase_id": 20255,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391698,
+      "x": 360,
+      "y": 370,
+      "stage_phase_id": 20255,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391699,
+      "x": 360,
+      "y": 250,
+      "stage_phase_id": 20255,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391700,
+      "x": 360,
+      "y": 490,
+      "stage_phase_id": 20255,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391701,
+      "x": 260,
+      "y": 350,
+      "stage_phase_id": 20255,
+      "range": 0,
+      "param": 30,
+      "type_id": 5
+    },
+    {
+      "id": 391702,
+      "x": 560,
+      "y": 230,
+      "stage_phase_id": 20255,
+      "range": 0,
+      "param": 60,
+      "type_id": 5
+    },
+    {
+      "id": 391703,
+      "x": 560,
+      "y": 470,
+      "stage_phase_id": 20255,
+      "range": 0,
+      "param": 90,
+      "type_id": 5
+    },
+    {
+      "id": 391704,
+      "x": 230,
+      "y": 110,
+      "stage_phase_id": 20255,
+      "range": 0,
+      "param": 120,
+      "type_id": 5
+    },
+    {
+      "id": 391705,
+      "x": 420,
+      "y": 150,
+      "stage_phase_id": 20255,
+      "range": 0,
+      "param": 150,
+      "type_id": 5
+    },
+    {
+      "id": 391706,
+      "x": 230,
+      "y": 600,
+      "stage_phase_id": 20255,
+      "range": 0,
+      "param": 180,
+      "type_id": 5
+    },
+    {
+      "id": 391707,
+      "x": 420,
+      "y": 550,
+      "stage_phase_id": 20255,
+      "range": 0,
+      "param": 210,
+      "type_id": 5
+    },
+    {
+      "id": 391727,
+      "x": 280,
+      "y": 530,
+      "stage_phase_id": 20256,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391728,
+      "x": 380,
+      "y": 560,
+      "stage_phase_id": 20256,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391729,
+      "x": 480,
+      "y": 580,
+      "stage_phase_id": 20256,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391730,
+      "x": 580,
+      "y": 600,
+      "stage_phase_id": 20256,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391731,
+      "x": 180,
+      "y": 510,
+      "stage_phase_id": 20256,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391757,
+      "x": 500,
+      "y": 330,
+      "stage_phase_id": 20257,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391758,
+      "x": 590,
+      "y": 270,
+      "stage_phase_id": 20257,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391759,
+      "x": 150,
+      "y": 480,
+      "stage_phase_id": 20257,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391760,
+      "x": 50,
+      "y": 540,
+      "stage_phase_id": 20257,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391761,
+      "x": 340,
+      "y": 400,
+      "stage_phase_id": 20257,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391787,
+      "x": 310,
+      "y": 440,
+      "stage_phase_id": 20258,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391788,
+      "x": 500,
+      "y": 360,
+      "stage_phase_id": 20258,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391789,
+      "x": 120,
+      "y": 360,
+      "stage_phase_id": 20258,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391790,
+      "x": 210,
+      "y": 130,
+      "stage_phase_id": 20258,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391791,
+      "x": 480,
+      "y": 600,
+      "stage_phase_id": 20258,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391792,
+      "x": 50,
+      "y": 620,
+      "stage_phase_id": 20258,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391793,
+      "x": 590,
+      "y": 130,
+      "stage_phase_id": 20258,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391817,
+      "x": 380,
+      "y": 480,
+      "stage_phase_id": 20259,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391818,
+      "x": 510,
+      "y": 200,
+      "stage_phase_id": 20259,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391819,
+      "x": 120,
+      "y": 200,
+      "stage_phase_id": 20259,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391820,
+      "x": 130,
+      "y": 610,
+      "stage_phase_id": 20259,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391821,
+      "x": 330,
+      "y": 120,
+      "stage_phase_id": 20259,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391832,
+      "x": 570,
+      "y": 350,
+      "stage_phase_id": 20259,
+      "range": 1,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391833,
+      "x": 60,
+      "y": 350,
+      "stage_phase_id": 20259,
+      "range": 1,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391847,
+      "x": 330,
+      "y": 230,
+      "stage_phase_id": 20260,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391848,
+      "x": 390,
+      "y": 580,
+      "stage_phase_id": 20260,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391849,
+      "x": 250,
+      "y": 580,
+      "stage_phase_id": 20260,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391850,
+      "x": 510,
+      "y": 420,
+      "stage_phase_id": 20260,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391851,
+      "x": 130,
+      "y": 420,
+      "stage_phase_id": 20260,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391852,
+      "x": 590,
+      "y": 600,
+      "stage_phase_id": 20260,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391853,
+      "x": 50,
+      "y": 600,
+      "stage_phase_id": 20260,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391864,
+      "x": 380,
+      "y": 430,
+      "stage_phase_id": 20260,
+      "range": 1,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391865,
+      "x": 260,
+      "y": 430,
+      "stage_phase_id": 20260,
+      "range": 1,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391877,
+      "x": 310,
+      "y": 390,
+      "stage_phase_id": 20261,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391878,
+      "x": 120,
+      "y": 600,
+      "stage_phase_id": 20261,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391879,
+      "x": 500,
+      "y": 140,
+      "stage_phase_id": 20261,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391880,
+      "x": 310,
+      "y": 600,
+      "stage_phase_id": 20261,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391881,
+      "x": 590,
+      "y": 610,
+      "stage_phase_id": 20261,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391882,
+      "x": 50,
+      "y": 130,
+      "stage_phase_id": 20261,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391892,
+      "x": 560,
+      "y": 390,
+      "stage_phase_id": 20261,
+      "range": 1,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391893,
+      "x": 70,
+      "y": 390,
+      "stage_phase_id": 20261,
+      "range": 1,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391907,
+      "x": 230,
+      "y": 490,
+      "stage_phase_id": 20262,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391908,
+      "x": 330,
+      "y": 270,
+      "stage_phase_id": 20262,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391909,
+      "x": 430,
+      "y": 490,
+      "stage_phase_id": 20262,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391910,
+      "x": 320,
+      "y": 610,
+      "stage_phase_id": 20262,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391911,
+      "x": 120,
+      "y": 240,
+      "stage_phase_id": 20262,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391912,
+      "x": 320,
+      "y": 490,
+      "stage_phase_id": 20262,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391913,
+      "x": 520,
+      "y": 240,
+      "stage_phase_id": 20262,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391920,
+      "x": 0,
+      "y": 370,
+      "stage_phase_id": 20262,
+      "range": 0,
+      "param": 557056,
+      "type_id": 15
+    },
+    {
+      "id": 391921,
+      "x": 640,
+      "y": 140,
+      "stage_phase_id": 20262,
+      "range": 0,
+      "param": 532480,
+      "type_id": 15
+    },
+    {
+      "id": 391922,
+      "x": 60,
+      "y": 140,
+      "stage_phase_id": 20262,
+      "range": 0,
+      "param": 0,
+      "type_id": 16
+    },
+    {
+      "id": 391923,
+      "x": 580,
+      "y": 370,
+      "stage_phase_id": 20262,
+      "range": 0,
+      "param": 0,
+      "type_id": 16
+    },
+    {
+      "id": 391937,
+      "x": 390,
+      "y": 580,
+      "stage_phase_id": 20263,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391938,
+      "x": 390,
+      "y": 390,
+      "stage_phase_id": 20263,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391939,
+      "x": 200,
+      "y": 170,
+      "stage_phase_id": 20263,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391940,
+      "x": 200,
+      "y": 370,
+      "stage_phase_id": 20263,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391941,
+      "x": 500,
+      "y": 140,
+      "stage_phase_id": 20263,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391942,
+      "x": 190,
+      "y": 260,
+      "stage_phase_id": 20263,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391943,
+      "x": 400,
+      "y": 490,
+      "stage_phase_id": 20263,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391950,
+      "x": 400,
+      "y": 740,
+      "stage_phase_id": 20263,
+      "range": 0,
+      "param": 528384,
+      "type_id": 15
+    },
+    {
+      "id": 391951,
+      "x": 640,
+      "y": 490,
+      "stage_phase_id": 20263,
+      "range": 0,
+      "param": 532480,
+      "type_id": 15
+    },
+    {
+      "id": 391952,
+      "x": 190,
+      "y": 0,
+      "stage_phase_id": 20263,
+      "range": 0,
+      "param": 540672,
+      "type_id": 15
+    },
+    {
+      "id": 391953,
+      "x": 0,
+      "y": 260,
+      "stage_phase_id": 20263,
+      "range": 0,
+      "param": 557056,
+      "type_id": 15
+    },
+    {
+      "id": 391954,
+      "x": 60,
+      "y": 670,
+      "stage_phase_id": 20263,
+      "range": 0,
+      "param": 0,
+      "type_id": 16
+    },
+    {
+      "id": 391955,
+      "x": 580,
+      "y": 70,
+      "stage_phase_id": 20263,
+      "range": 0,
+      "param": 0,
+      "type_id": 16
+    },
+    {
+      "id": 391967,
+      "x": 160,
+      "y": 170,
+      "stage_phase_id": 20264,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391968,
+      "x": 510,
+      "y": 600,
+      "stage_phase_id": 20264,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391969,
+      "x": 310,
+      "y": 50,
+      "stage_phase_id": 20264,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391970,
+      "x": 40,
+      "y": 360,
+      "stage_phase_id": 20264,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391971,
+      "x": 360,
+      "y": 410,
+      "stage_phase_id": 20264,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391972,
+      "x": 160,
+      "y": 630,
+      "stage_phase_id": 20264,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391973,
+      "x": 540,
+      "y": 170,
+      "stage_phase_id": 20264,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391980,
+      "x": 510,
+      "y": 740,
+      "stage_phase_id": 20264,
+      "range": 0,
+      "param": 528384,
+      "type_id": 15
+    },
+    {
+      "id": 391981,
+      "x": 640,
+      "y": 600,
+      "stage_phase_id": 20264,
+      "range": 0,
+      "param": 532480,
+      "type_id": 15
+    },
+    {
+      "id": 391982,
+      "x": 160,
+      "y": 0,
+      "stage_phase_id": 20264,
+      "range": 0,
+      "param": 540672,
+      "type_id": 15
+    },
+    {
+      "id": 391983,
+      "x": 0,
+      "y": 170,
+      "stage_phase_id": 20264,
+      "range": 0,
+      "param": 557056,
+      "type_id": 15
+    },
+    {
+      "id": 391984,
+      "x": 60,
+      "y": 510,
+      "stage_phase_id": 20264,
+      "range": 0,
+      "param": 0,
+      "type_id": 16
+    },
+    {
+      "id": 391985,
+      "x": 440,
+      "y": 70,
+      "stage_phase_id": 20264,
+      "range": 0,
+      "param": 0,
+      "type_id": 16
+    },
+    {
+      "id": 391986,
+      "x": 420,
+      "y": 490,
+      "stage_phase_id": 20264,
+      "range": 0,
+      "param": 0,
+      "type_id": 16
+    },
+    {
+      "id": 391997,
+      "x": 440,
+      "y": 510,
+      "stage_phase_id": 20265,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391998,
+      "x": 360,
+      "y": 270,
+      "stage_phase_id": 20265,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 391999,
+      "x": 180,
+      "y": 440,
+      "stage_phase_id": 20265,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392000,
+      "x": 130,
+      "y": 140,
+      "stage_phase_id": 20265,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392001,
+      "x": 110,
+      "y": 520,
+      "stage_phase_id": 20265,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392002,
+      "x": 450,
+      "y": 190,
+      "stage_phase_id": 20265,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392010,
+      "x": 320,
+      "y": 740,
+      "stage_phase_id": 20265,
+      "range": 0,
+      "param": 528384,
+      "type_id": 15
+    },
+    {
+      "id": 392011,
+      "x": 0,
+      "y": 370,
+      "stage_phase_id": 20265,
+      "range": 0,
+      "param": 557056,
+      "type_id": 15
+    },
+    {
+      "id": 392012,
+      "x": 640,
+      "y": 150,
+      "stage_phase_id": 20265,
+      "range": 0,
+      "param": 532480,
+      "type_id": 15
+    },
+    {
+      "id": 392013,
+      "x": 530,
+      "y": 110,
+      "stage_phase_id": 20265,
+      "range": 0,
+      "param": 0,
+      "type_id": 16
+    },
+    {
+      "id": 392014,
+      "x": 120,
+      "y": 630,
+      "stage_phase_id": 20265,
+      "range": 0,
+      "param": 0,
+      "type_id": 16
+    },
+    {
+      "id": 392015,
+      "x": 200,
+      "y": 270,
+      "stage_phase_id": 20265,
+      "range": 0,
+      "param": 0,
+      "type_id": 16
+    },
+    {
+      "id": 392027,
+      "x": 320,
+      "y": 190,
+      "stage_phase_id": 20266,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392028,
+      "x": 320,
+      "y": 610,
+      "stage_phase_id": 20266,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392029,
+      "x": 320,
+      "y": 420,
+      "stage_phase_id": 20266,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392030,
+      "x": 100,
+      "y": 130,
+      "stage_phase_id": 20266,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392031,
+      "x": 540,
+      "y": 130,
+      "stage_phase_id": 20266,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392032,
+      "x": 140,
+      "y": 610,
+      "stage_phase_id": 20266,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392033,
+      "x": 500,
+      "y": 610,
+      "stage_phase_id": 20266,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392034,
+      "x": 40,
+      "y": 380,
+      "stage_phase_id": 20266,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392035,
+      "x": 600,
+      "y": 380,
+      "stage_phase_id": 20266,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392040,
+      "x": 320,
+      "y": 740,
+      "stage_phase_id": 20266,
+      "range": 0,
+      "param": 528384,
+      "type_id": 15
+    },
+    {
+      "id": 392041,
+      "x": 640,
+      "y": 210,
+      "stage_phase_id": 20266,
+      "range": 0,
+      "param": 532480,
+      "type_id": 15
+    },
+    {
+      "id": 392042,
+      "x": 320,
+      "y": 0,
+      "stage_phase_id": 20266,
+      "range": 0,
+      "param": 540672,
+      "type_id": 15
+    },
+    {
+      "id": 392043,
+      "x": 0,
+      "y": 210,
+      "stage_phase_id": 20266,
+      "range": 0,
+      "param": 557056,
+      "type_id": 15
+    },
+    {
+      "id": 392044,
+      "x": 180,
+      "y": 470,
+      "stage_phase_id": 20266,
+      "range": 0,
+      "param": 0,
+      "type_id": 16
+    },
+    {
+      "id": 392045,
+      "x": 460,
+      "y": 470,
+      "stage_phase_id": 20266,
+      "range": 0,
+      "param": 0,
+      "type_id": 16
+    },
+    {
+      "id": 392057,
+      "x": 210,
+      "y": 500,
+      "stage_phase_id": 20267,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392058,
+      "x": 510,
+      "y": 460,
+      "stage_phase_id": 20267,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392059,
+      "x": 130,
+      "y": 190,
+      "stage_phase_id": 20267,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392060,
+      "x": 290,
+      "y": 190,
+      "stage_phase_id": 20267,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392061,
+      "x": 520,
+      "y": 130,
+      "stage_phase_id": 20267,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392062,
+      "x": 520,
+      "y": 230,
+      "stage_phase_id": 20267,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392063,
+      "x": 200,
+      "y": 180,
+      "stage_phase_id": 20267,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392064,
+      "x": 520,
+      "y": 600,
+      "stage_phase_id": 20267,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392070,
+      "x": 230,
+      "y": 740,
+      "stage_phase_id": 20267,
+      "range": 0,
+      "param": 528384,
+      "type_id": 15
+    },
+    {
+      "id": 392071,
+      "x": 640,
+      "y": 500,
+      "stage_phase_id": 20267,
+      "range": 0,
+      "param": 532480,
+      "type_id": 15
+    },
+    {
+      "id": 392072,
+      "x": 230,
+      "y": 0,
+      "stage_phase_id": 20267,
+      "range": 0,
+      "param": 540672,
+      "type_id": 15
+    },
+    {
+      "id": 392073,
+      "x": 0,
+      "y": 500,
+      "stage_phase_id": 20267,
+      "range": 0,
+      "param": 557056,
+      "type_id": 15
+    },
+    {
+      "id": 392074,
+      "x": 440,
+      "y": 670,
+      "stage_phase_id": 20267,
+      "range": 0,
+      "param": 0,
+      "type_id": 16
+    },
+    {
+      "id": 392075,
+      "x": 60,
+      "y": 310,
+      "stage_phase_id": 20267,
+      "range": 0,
+      "param": 0,
+      "type_id": 16
+    },
+    {
+      "id": 392076,
+      "x": 380,
+      "y": 370,
+      "stage_phase_id": 20267,
+      "range": 0,
+      "param": 0,
+      "type_id": 16
+    },
+    {
+      "id": 392087,
+      "x": 310,
+      "y": 462,
+      "stage_phase_id": 20268,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392088,
+      "x": 115,
+      "y": 477,
+      "stage_phase_id": 20268,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392089,
+      "x": 310,
+      "y": 672,
+      "stage_phase_id": 20268,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392090,
+      "x": 505,
+      "y": 477,
+      "stage_phase_id": 20268,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392091,
+      "x": 310,
+      "y": 282,
+      "stage_phase_id": 20268,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392092,
+      "x": 440,
+      "y": 240,
+      "stage_phase_id": 20268,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392093,
+      "x": 190,
+      "y": 240,
+      "stage_phase_id": 20268,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392094,
+      "x": -120,
+      "y": 690,
+      "stage_phase_id": 20268,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392117,
+      "x": 500,
+      "y": 160,
+      "stage_phase_id": 20269,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392118,
+      "x": 140,
+      "y": 590,
+      "stage_phase_id": 20269,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392119,
+      "x": 260,
+      "y": 380,
+      "stage_phase_id": 20269,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392120,
+      "x": 420,
+      "y": 380,
+      "stage_phase_id": 20269,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392121,
+      "x": -120,
+      "y": 690,
+      "stage_phase_id": 20269,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392147,
+      "x": 320,
+      "y": 537,
+      "stage_phase_id": 20270,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392148,
+      "x": 125,
+      "y": 552,
+      "stage_phase_id": 20270,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392149,
+      "x": 515,
+      "y": 552,
+      "stage_phase_id": 20270,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392150,
+      "x": 320,
+      "y": 357,
+      "stage_phase_id": 20270,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392151,
+      "x": -120,
+      "y": 690,
+      "stage_phase_id": 20270,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392177,
+      "x": 350,
+      "y": 210,
+      "stage_phase_id": 20271,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392178,
+      "x": 110,
+      "y": 252,
+      "stage_phase_id": 20271,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392179,
+      "x": 530,
+      "y": 252,
+      "stage_phase_id": 20271,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392180,
+      "x": 320,
+      "y": 462,
+      "stage_phase_id": 20271,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392181,
+      "x": 120,
+      "y": 620,
+      "stage_phase_id": 20271,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392182,
+      "x": 540,
+      "y": 620,
+      "stage_phase_id": 20271,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392183,
+      "x": -120,
+      "y": 690,
+      "stage_phase_id": 20271,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392207,
+      "x": 220,
+      "y": 340,
+      "stage_phase_id": 20272,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392208,
+      "x": 190,
+      "y": 172,
+      "stage_phase_id": 20272,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392209,
+      "x": 190,
+      "y": 592,
+      "stage_phase_id": 20272,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392210,
+      "x": 400,
+      "y": 382,
+      "stage_phase_id": 20272,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392211,
+      "x": -120,
+      "y": 690,
+      "stage_phase_id": 20272,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392237,
+      "x": 350,
+      "y": 500,
+      "stage_phase_id": 20273,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392238,
+      "x": 320,
+      "y": 332,
+      "stage_phase_id": 20273,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392239,
+      "x": 110,
+      "y": 542,
+      "stage_phase_id": 20273,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392240,
+      "x": 530,
+      "y": 542,
+      "stage_phase_id": 20273,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392241,
+      "x": 150,
+      "y": 150,
+      "stage_phase_id": 20273,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392242,
+      "x": 510,
+      "y": 150,
+      "stage_phase_id": 20273,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392243,
+      "x": -120,
+      "y": 690,
+      "stage_phase_id": 20273,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392267,
+      "x": 520,
+      "y": 410,
+      "stage_phase_id": 20274,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392268,
+      "x": 480,
+      "y": 240,
+      "stage_phase_id": 20274,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392269,
+      "x": 120,
+      "y": 630,
+      "stage_phase_id": 20274,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392270,
+      "x": 290,
+      "y": 590,
+      "stage_phase_id": 20274,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392271,
+      "x": 130,
+      "y": 230,
+      "stage_phase_id": 20274,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392272,
+      "x": 590,
+      "y": 230,
+      "stage_phase_id": 20274,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392273,
+      "x": 30,
+      "y": 30,
+      "stage_phase_id": 20274,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392280,
+      "x": 170,
+      "y": 500,
+      "stage_phase_id": 20274,
+      "range": 512,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392281,
+      "x": 410,
+      "y": 350,
+      "stage_phase_id": 20274,
+      "range": 512,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392282,
+      "x": 570,
+      "y": 660,
+      "stage_phase_id": 20274,
+      "range": 512,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392283,
+      "x": 290,
+      "y": 90,
+      "stage_phase_id": 20274,
+      "range": 512,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392284,
+      "x": 50,
+      "y": 310,
+      "stage_phase_id": 20274,
+      "range": 512,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392286,
+      "x": 50,
+      "y": 490,
+      "stage_phase_id": 20274,
+      "range": 64,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392287,
+      "x": 410,
+      "y": 480,
+      "stage_phase_id": 20274,
+      "range": 64,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392288,
+      "x": 90,
+      "y": 90,
+      "stage_phase_id": 20274,
+      "range": 64,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392289,
+      "x": 590,
+      "y": 230,
+      "stage_phase_id": 20274,
+      "range": 64,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392297,
+      "x": 180,
+      "y": 240,
+      "stage_phase_id": 20275,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392298,
+      "x": 520,
+      "y": 130,
+      "stage_phase_id": 20275,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392299,
+      "x": 120,
+      "y": 610,
+      "stage_phase_id": 20275,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392300,
+      "x": 500,
+      "y": 570,
+      "stage_phase_id": 20275,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392301,
+      "x": 340,
+      "y": 380,
+      "stage_phase_id": 20275,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392302,
+      "x": 320,
+      "y": 810,
+      "stage_phase_id": 20275,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392310,
+      "x": 60,
+      "y": 390,
+      "stage_phase_id": 20275,
+      "range": 512,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392311,
+      "x": 310,
+      "y": 70,
+      "stage_phase_id": 20275,
+      "range": 512,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392312,
+      "x": 260,
+      "y": 670,
+      "stage_phase_id": 20275,
+      "range": 512,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392313,
+      "x": 580,
+      "y": 290,
+      "stage_phase_id": 20275,
+      "range": 512,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392314,
+      "x": 580,
+      "y": 670,
+      "stage_phase_id": 20275,
+      "range": 512,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392315,
+      "x": 420,
+      "y": 490,
+      "stage_phase_id": 20275,
+      "range": 512,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392317,
+      "x": 420,
+      "y": 670,
+      "stage_phase_id": 20275,
+      "range": 64,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392318,
+      "x": 580,
+      "y": 490,
+      "stage_phase_id": 20275,
+      "range": 64,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392319,
+      "x": 50,
+      "y": 160,
+      "stage_phase_id": 20275,
+      "range": 64,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392320,
+      "x": 340,
+      "y": 380,
+      "stage_phase_id": 20275,
+      "range": 64,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392327,
+      "x": 510,
+      "y": 610,
+      "stage_phase_id": 20276,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392328,
+      "x": 110,
+      "y": 130,
+      "stage_phase_id": 20276,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392329,
+      "x": 130,
+      "y": 620,
+      "stage_phase_id": 20276,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392330,
+      "x": 530,
+      "y": 140,
+      "stage_phase_id": 20276,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392331,
+      "x": 300,
+      "y": 470,
+      "stage_phase_id": 20276,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392332,
+      "x": 340,
+      "y": 270,
+      "stage_phase_id": 20276,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    },
+    {
+      "id": 392333,
+      "x": 320,
+      "y": 360,
+      "stage_phase_id": 20276,
+      "range": 0,
+      "param": 0,
+      "type_id": 0
+    }
+  ]
+}

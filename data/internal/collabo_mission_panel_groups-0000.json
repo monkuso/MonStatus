@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "table": "collabo_mission_panel_groups",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "max_login": 6,
+      "point_per_login": 1,
+      "max_width": 8,
+      "start_at": 1644606000,
+      "end_at": 1646420399,
+      "created_at": 1644495115,
+      "updated_at": 1644495115,
+      "drop_point_enabled": 0,
+      "allow_side_effect_overwrite": 0
+    },
+    {
+      "id": 2,
+      "max_login": 1,
+      "point_per_login": 0,
+      "max_width": 1,
+      "start_at": 1664636400,
+      "end_at": 1666205999,
+      "created_at": 1664623904,
+      "updated_at": 1664623904,
+      "drop_point_enabled": 0,
+      "allow_side_effect_overwrite": 0
+    },
+    {
+      "id": 3,
+      "max_login": 1,
+      "point_per_login": 0,
+      "max_width": 1,
+      "start_at": 1679022000,
+      "end_at": 1680634799,
+      "created_at": 1678962958,
+      "updated_at": 1678962958,
+      "drop_point_enabled": 0,
+      "allow_side_effect_overwrite": 0
+    },
+    {
+      "id": 4,
+      "max_login": 19,
+      "point_per_login": 5,
+      "max_width": 8,
+      "start_at": 1726282800,
+      "end_at": 1727981999,
+      "created_at": 1726149813,
+      "updated_at": 1726149813,
+      "drop_point_enabled": 0,
+      "allow_side_effect_overwrite": 0
+    },
+    {
+      "id": 5,
+      "max_login": 1,
+      "point_per_login": 0,
+      "max_width": 1,
+      "start_at": 1739559600,
+      "end_at": 1741114799,
+      "created_at": 1739443890,
+      "updated_at": 1739443890,
+      "drop_point_enabled": 0,
+      "allow_side_effect_overwrite": 0
+    },
+    {
+      "id": 6,
+      "max_login": 1,
+      "point_per_login": 0,
+      "max_width": 1,
+      "start_at": 1765681200,
+      "end_at": 1767380399,
+      "created_at": 1765538103,
+      "updated_at": 1765538103,
+      "drop_point_enabled": 1,
+      "allow_side_effect_overwrite": 1
+    }
+  ]
+}

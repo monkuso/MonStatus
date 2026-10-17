@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 1,
+  "table": "texts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 9792,
+      "text": "[LC]ソロ専用クエスト[LF][LF]このクエストは[C6:ソロ専用]のクエストです",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1646756068,
+      "updated_at": 1646756068,
+      "label": "eTEXTS_SOLO_ONLY_DIALOG"
+    },
+    {
+      "id": 9793,
+      "text": "[NODE]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1646756068,
+      "updated_at": 1646756068,
+      "label": "eTEXTS_DEF_MSG_DECK_INFO"
+    },
+    {
+      "id": 9794,
+      "text": "種族",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646756068,
+      "updated_at": 1646756068,
+      "label": "eTEXTS_DEF_MSG_DECK_INFO_SPECIES"
+    },
+    {
+      "id": 9795,
+      "text": "戦型",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646756068,
+      "updated_at": 1646756068,
+      "label": "eTEXTS_DEF_MSG_DECK_INFO_FIGHT_TYPE"
+    },
+    {
+      "id": 9796,
+      "text": "SS",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646756068,
+      "updated_at": 1646756068,
+      "label": "eTEXTS_DEF_MSG_DECK_INFO_SS"
+    },
+    {
+      "id": 9797,
+      "text": "[LC]モンスター一括選択[LF][LF][NODE]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1646756068,
+      "updated_at": 1697560706,
+      "label": "eTEXTS_DEF_MSG_BATCH_SELECTION"
+    },
+    {
+      "id": 9798,
+      "text": "モンスターが選択されていません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646756068,
+      "updated_at": 1646756068,
+      "label": "eTEXTS_DEF_ME_NOW_SELECTING_CHAR_FILTER_NON_SELECT"
+    },
+    {
+      "id": 9799,
+      "text": "ON",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646756068,
+      "updated_at": 1646756068,
+      "label": "eTEXTS_DEF_ME_NOW_SELECTING_CHAR_FILTER_BUTTON_ON"
+    },
+    {
+      "id": 9800,
+      "text": "OFF",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646756068,
+      "updated_at": 1646756068,
+      "label": "eTEXTS_DEF_ME_NOW_SELECTING_CHAR_FILTER_BUTTON_OFF"
+    },
+    {
+      "id": 9801,
+      "text": "選択中",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646756068,
+      "updated_at": 1646756068,
+      "label": "eTEXTS_DEF_ME_NOW_SELECTING_CHAR_FILTER_BUTTON_SELECT"
+    },
+    {
+      "id": 9802,
+      "text": "[LC]達成報酬[LF][LF][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_MSG_TOFU_MISSION_REWARD_RESULT_3"
+    },
+    {
+      "id": 9803,
+      "text": "強化素材",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646756068,
+      "updated_at": 1646756068,
+      "label": "eTEXTS_DEF_ME_COMMON_COMB_TAS"
+    },
+    {
+      "id": 9804,
+      "text": "ラック",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646756068,
+      "updated_at": 1646756068,
+      "label": "eTEXTS_DEF_ME_COMMON_COMB_LUCK"
+    },
+    {
+      "id": 9805,
+      "text": "進化先がありません",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1646756068,
+      "updated_at": 1646756068,
+      "label": "eTEXTS_DEF_MSG_NO_EVOLUTION"
+    },
+    {
+      "id": 9806,
+      "text": "進化",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646756068,
+      "updated_at": 1646756068,
+      "label": "eTEXTS_DEF_ME_TITLE_EVOLUTIONSET"
+    },
+    {
+      "id": 9807,
+      "text": "神化",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646756068,
+      "updated_at": 1646756068,
+      "label": "eTEXTS_DEF_ME_TITLE_GODEVOLUTIONSET"
+    },
+    {
+      "id": 9808,
+      "text": "獣神化",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646756068,
+      "updated_at": 1646756068,
+      "label": "eTEXTS_DEF_ME_TITLE_BEASTEVOLUTIONSET"
+    },
+    {
+      "id": 9809,
+      "text": "モンスターBOX",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646756068,
+      "updated_at": 1646756068,
+      "label": "eTEXTS_DEF_ME_TITLE_COMPOSITIONMONSTERBASESELECT"
+    },
+    {
+      "id": 9810,
+      "text": "強化",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646756068,
+      "updated_at": 1646756068,
+      "label": "eTEXTS_DEF_ME_TITLE_COMPOSITIONSET"
+    },
+    {
+      "id": 9811,
+      "text": "[LC]%s[LF][LF]%s[LF][LF][LC]1回：%s%d%s[LC][IF:%d]（所持数：[IMG:icon_orb_s.png][WIDTH-15][BG_STR:dummy.png|WIDTH:140|RSTR:%d個][IMG_LORB:][WIDTH-15][BG_STR:dummy.png|WIDTH:100|RSTR:[C6:%d個]]）[LF][LC][C6:[texts:eTEXTS_DEF_LIMITED_ORB_NAME]から消費されます][ELSE]（所持数：%d%s）[ENDIF]%s",
+      "layout": 15,
+      "color": 0,
+      "created_at": 1646756068,
+      "updated_at": 1791461956,
+      "label": "eTEXTS_DEF_MSG_EVENTGACHA_NO_NUM"
+    },
+    {
+      "id": 9812,
+      "text": "現在獲得可能なオーブ数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646756068,
+      "updated_at": 1646756068,
+      "label": "eTEXTS_DEF_NAVI_WILL_GET_ORB"
+    },
+    {
+      "id": 9813,
+      "text": "ノーマルクエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646756068,
+      "updated_at": 1646756068,
+      "label": "eTEXTS_DEF_NAVI_NORMAL_QUEST_TITLE"
+    },
+    {
+      "id": 9814,
+      "text": "イベントクエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646756068,
+      "updated_at": 1646756068,
+      "label": "eTEXTS_DEF_NAVI_EVENT_QUEST_TITLE"
+    },
+    {
+      "id": 9815,
+      "text": "獲得可能[IMG:uiitem_0001.png]:あと%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646756068,
+      "updated_at": 1646756068,
+      "label": "eTEXTS_DEF_NAVI_GET_ORB_STAGE_CLASS"
+    },
+    {
+      "id": 9816,
+      "text": "獲得[IMG:uiitem_0001.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646756068,
+      "updated_at": 1646756068,
+      "label": "eTEXTS_DEF_NAVI_GET_ORB_STAGE_GROUP"
+    },
+    {
+      "id": 9817,
+      "text": "%s クリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646756068,
+      "updated_at": 1654076373,
+      "label": "eTEXTS_DEF_NAVI_STAGE_TITLE_CLEAR"
+    },
+    {
+      "id": 9818,
+      "text": "[LC]クエストに挑戦[LF][LF][NODE][LF-48]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1646756068,
+      "updated_at": 1707389909,
+      "label": "eTEXTS_DEF_MSG_RECOMMEND_QUESTD_BANNER"
+    },
+    {
+      "id": 9819,
+      "text": "覇者の塔",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646756068,
+      "updated_at": 1646756068,
+      "label": "eTEXTS_DEF_NAVI_TOWER_QUEST_TITLE"
+    },
+    {
+      "id": 9820,
+      "text": "裏・覇者の塔",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646756068,
+      "updated_at": 1646756068,
+      "label": "eTEXTS_DEF_NAVI_TOWER_ROTATION_QUEST_TITLE"
+    },
+    {
+      "id": 9821,
+      "text": "おすすめキャラを所持していません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646756068,
+      "updated_at": 1646756068,
+      "label": "eTEXTS_DEF_MSG_NAVI_RECOMMEND_NO_CHARACTER"
+    },
+    {
+      "id": 9822,
+      "text": "[LC]条件未達成[LF][LF]条件を満たしていないためアイテムを[LF]引き換えできません[LF]無限列車任務で索敵度15に上がると[LF]交換可能になります",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_ME_CANT_EXCHANGE_REASON_UNCLEAR_POINT_ACHIEVEMENT"
+    },
+    {
+      "id": 9823,
+      "text": "通常",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_ME_MEDAL_EXCANGE_SUB_TITLE_NORMAL"
+    },
+    {
+      "id": 9824,
+      "text": "コラボ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_ME_MEDAL_EXCANGE_SUB_TITLE_COLLABO"
+    },
+    {
+      "id": 9825,
+      "text": "[C6:鬼殺隊コインを集めよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_31000"
+    },
+    {
+      "id": 9826,
+      "text": "[b:ba_help_collabo_tofu_coin_00.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_31001"
+    },
+    {
+      "id": 9827,
+      "text": "[C5:入手方法]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_31002"
+    },
+    {
+      "id": 9828,
+      "text": "期間限定の[C6:対象クエストをクリア]すると、[LF]鬼殺隊コインが手に入ります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_31003"
+    },
+    {
+      "id": 9829,
+      "text": "鬼殺隊コイン",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_31004"
+    },
+    {
+      "id": 9830,
+      "text": "また、クエストの道中でまれに登場する[LF][C6:｢瓢箪(ひょうたん)｣]をこわすと、[LF]鬼殺隊コインがさらに入手できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_31005"
+    },
+    {
+      "id": 9831,
+      "text": "瓢箪(ひょうたん)",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_31006"
+    },
+    {
+      "id": 9832,
+      "text": "[C6:キャラやアイテムと引き換えよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_31007"
+    },
+    {
+      "id": 9833,
+      "text": "[b:ba_help_collabo_tofu_coin_01.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_31008"
+    },
+    {
+      "id": 9834,
+      "text": "[C5:引き換えについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_31009"
+    },
+    {
+      "id": 9835,
+      "text": "集めた鬼殺隊コインを使用して[LF][C6:キャラやアイテムと引き換え]ができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_31010"
+    },
+    {
+      "id": 9836,
+      "text": "アイテムごとに引き換え上限数が異なります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_31011"
+    },
+    {
+      "id": 9837,
+      "text": "ロックのかかったアイテムについて",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_31012"
+    },
+    {
+      "id": 9838,
+      "text": "一定の条件を達成すると[LF]引き換え可能になるアイテムがあります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_31013"
+    },
+    {
+      "id": 9839,
+      "text": "オーブ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_31014"
+    },
+    {
+      "id": 9840,
+      "text": "5000",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_31015"
+    },
+    {
+      "id": 9841,
+      "text": "0/1",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_31016"
+    },
+    {
+      "id": 9842,
+      "text": "ロックされているアイテムをタップして[LF]条件を確認しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_31017"
+    },
+    {
+      "id": 9843,
+      "text": "[IP9403]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_31018"
+    },
+    {
+      "id": 9844,
+      "text": "[SW0.93][C6:煉獄杏寿郎と共に無限列車任務に挑もう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30800"
+    },
+    {
+      "id": 9845,
+      "text": "[b:ba_help_collabo_tofu_02_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30801"
+    },
+    {
+      "id": 9846,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30802"
+    },
+    {
+      "id": 9847,
+      "text": "3/15 12:00 ～ 4/5 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30803"
+    },
+    {
+      "id": 9848,
+      "text": "炎柱の指令に従い、魘夢の首を探し出そう",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30804"
+    },
+    {
+      "id": 9849,
+      "text": "[C5:炎柱の指令]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30805"
+    },
+    {
+      "id": 9850,
+      "text": "索敵度について",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30806"
+    },
+    {
+      "id": 9851,
+      "text": "まずは[C6:炎柱の指令]に挑戦し、列車内の索敵を行おう[LF]索敵度に応じて[C6:報酬]を獲得することができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30807"
+    },
+    {
+      "id": 9852,
+      "text": "炎柱の指令は、[C6:2つの難易度]があります[LF]難易度に応じて[C6:索敵度の上昇量]が異なります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30808"
+    },
+    {
+      "id": 9853,
+      "text": "[C6:索敵度 1UP!]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30809"
+    },
+    {
+      "id": 9854,
+      "text": "[C6:索敵度 5UP!]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30810"
+    },
+    {
+      "id": 9855,
+      "text": "索敵度を最大にしよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30811"
+    },
+    {
+      "id": 9856,
+      "text": "索敵度が[C6:最大値(15/15)]に達すると魘夢の首を発見し[LF]特別任務に挑戦できるようになります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30812"
+    },
+    {
+      "id": 9857,
+      "text": "[C6:挑戦可能！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30813"
+    },
+    {
+      "id": 9858,
+      "text": "さらに[C6:コラボ限定お助けアイテム｢日輪刀｣]が[LF][C6:メダル引き換え]で引き換え可能になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30814"
+    },
+    {
+      "id": 9859,
+      "text": "※全ての炎柱の指令を達成する必要はありません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30815"
+    },
+    {
+      "id": 9860,
+      "text": "[C6:猗窩座から乗客を守り抜け！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30816"
+    },
+    {
+      "id": 9861,
+      "text": "[b:ba_help_collabo_tofu_00_5_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30817"
+    },
+    {
+      "id": 9862,
+      "text": "[C5:特別任務について]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30818"
+    },
+    {
+      "id": 9863,
+      "text": "索敵度を最大値にすることで[C6:特別任務]に挑戦可能に！[LF]猗窩座から乗客を守り抜ければ報酬が獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30819"
+    },
+    {
+      "id": 9864,
+      "text": "※特別任務解放前に、達成条件を満たしても[LF]　任務達成にはなりません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30820"
+    },
+    {
+      "id": 9865,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20220310_1.html#8|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30821"
+    },
+    {
+      "id": 9866,
+      "text": "メダル引き換え",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30822"
+    },
+    {
+      "id": 9867,
+      "text": "[C6:コラボ限定ガチャ開催中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30500"
+    },
+    {
+      "id": 9868,
+      "text": "[b:ba_help_collabo_tofu_00_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30501"
+    },
+    {
+      "id": 9869,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30502"
+    },
+    {
+      "id": 9870,
+      "text": "3/15 12:00～4/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30503"
+    },
+    {
+      "id": 9871,
+      "text": "[C5:コラボ限定ガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30504"
+    },
+    {
+      "id": 9872,
+      "text": "新登場キャラ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30505"
+    },
+    {
+      "id": 9873,
+      "text": "ガチャ[C6:｢鬼滅の刃 第2弾｣]が期間限定で開催中！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30506"
+    },
+    {
+      "id": 9874,
+      "text": "[IP9379]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30507"
+    },
+    {
+      "id": 9875,
+      "text": "[IP9385]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30508"
+    },
+    {
+      "id": 9876,
+      "text": "[IP9383]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30509"
+    },
+    {
+      "id": 9877,
+      "text": "[IP9381]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30510"
+    },
+    {
+      "id": 9878,
+      "text": "[IP9387]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30511"
+    },
+    {
+      "id": 9879,
+      "text": "第1弾キャラ再登場",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30512"
+    },
+    {
+      "id": 9880,
+      "text": "3体の獣神化・改、解禁！＆ガチャ開催！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30513"
+    },
+    {
+      "id": 9881,
+      "text": "[IP9375]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30514"
+    },
+    {
+      "id": 9882,
+      "text": "[IP9376]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30515"
+    },
+    {
+      "id": 9883,
+      "text": "[IP9377]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30516"
+    },
+    {
+      "id": 9884,
+      "text": "さらに、10連ガチャのEXおまけとして[LF][C6:コラボ限定グッジョブ]が付いてくる！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30517"
+    },
+    {
+      "id": 9885,
+      "text": "[IS250|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30518"
+    },
+    {
+      "id": 9886,
+      "text": "[IS251|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30519"
+    },
+    {
+      "id": 9887,
+      "text": "[IS252|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30520"
+    },
+    {
+      "id": 9888,
+      "text": "[IS253|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30521"
+    },
+    {
+      "id": 9889,
+      "text": "[IS254|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30522"
+    },
+    {
+      "id": 9890,
+      "text": "[IS257|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30523"
+    },
+    {
+      "id": 9891,
+      "text": "[IS258|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30524"
+    },
+    {
+      "id": 9892,
+      "text": "[IS255|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30525"
+    },
+    {
+      "id": 9893,
+      "text": "[IS256|0.7]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30526"
+    },
+    {
+      "id": 9894,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20220310_1.html#1|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30527"
+    },
+    {
+      "id": 9895,
+      "text": "[C6:コラボ限定クエスト出現中！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30528"
+    },
+    {
+      "id": 9896,
+      "text": "[b:ba_help_collabo_tofu_00_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30529"
+    },
+    {
+      "id": 9897,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30530"
+    },
+    {
+      "id": 9898,
+      "text": "3/15 12:00～4/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30531"
+    },
+    {
+      "id": 9899,
+      "text": "[C5:コラボ限定クエスト]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30532"
+    },
+    {
+      "id": 9900,
+      "text": "スケジュールに沿ってクエストが出現！[LF]時間はスケジュール＆繰り返し予約で確認しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30533"
+    },
+    {
+      "id": 9901,
+      "text": "[SGBI23850|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30534"
+    },
+    {
+      "id": 9902,
+      "text": "[SGBI23840|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30535"
+    },
+    {
+      "id": 9903,
+      "text": "コラボ期間中、常に挑戦できるクエストも出現！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30536"
+    },
+    {
+      "id": 9904,
+      "text": "[SGBI23860|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30537"
+    },
+    {
+      "id": 9905,
+      "text": "[SGBI23820|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30538"
+    },
+    {
+      "id": 9906,
+      "text": "[SGBI23830|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30539"
+    },
+    {
+      "id": 9907,
+      "text": "追憶の書庫クエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30540"
+    },
+    {
+      "id": 9908,
+      "text": "コラボ期間中、追憶の書庫にコラボ限定クエストが出現！[LF][C2:手毬鬼と矢印鬼　★５ 矢琶羽＆朱紗丸][LF][C6:鼓の屋敷　　　　★５ 響凱][LF][C3:偽物の絆　　　　★５ 累][LF][C5:鬼を連れた剣士　★４ 沼の鬼][LF][C4:最終選別　　　　★４ 手鬼]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30541"
+    },
+    {
+      "id": 9909,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20220310_1.html#5|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30542"
+    },
+    {
+      "id": 9910,
+      "text": "[SW0.88][C6:1日1回限定クリアボーナスを手に入れよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30543"
+    },
+    {
+      "id": 9911,
+      "text": "[b:ba_help_collabo_tofu_00_3.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30544"
+    },
+    {
+      "id": 9912,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30545"
+    },
+    {
+      "id": 9913,
+      "text": "3/15 12:00～4/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30546"
+    },
+    {
+      "id": 9914,
+      "text": "[C5:1日1回限定クリアボーナス]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30547"
+    },
+    {
+      "id": 9915,
+      "text": "1日1回限定クリアボーナス！[LF]コラボクエスト[C3:｢深い眠り｣]クリアで[LF][C3:★5 魘夢]が[C6:7体]獲得できる！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30548"
+    },
+    {
+      "id": 9916,
+      "text": "[IP9400]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30549"
+    },
+    {
+      "id": 9917,
+      "text": "さらにマルチプレイで[LF][C6:金卵２個以上のドロップ率アップ！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30550"
+    },
+    {
+      "id": 9918,
+      "text": "※追憶の書庫クエスト[C2:｢手毬鬼と矢印鬼｣]も[LF]　ボーナスの対象となります[LF][LF]※詳細は[u:https://www.monster-strike.com/news/20220310_1.html#5|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30551"
+    },
+    {
+      "id": 9919,
+      "text": "[C6:鬼殺隊コインを集めよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30552"
+    },
+    {
+      "id": 9920,
+      "text": "[b:ba_help_collabo_tofu_00_4.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30553"
+    },
+    {
+      "id": 9921,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30554"
+    },
+    {
+      "id": 9922,
+      "text": "3/15 12:00～4/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30555"
+    },
+    {
+      "id": 9923,
+      "text": "[C5:コインをキャラやアイテムと引き換えよう！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30556"
+    },
+    {
+      "id": 9924,
+      "text": "クエスト[C3:｢機能回復訓練｣]が、[LF][C6:コラボ期間中常に登場！][LF]クリアすると、鬼殺隊コインが手に入ります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30557"
+    },
+    {
+      "id": 9925,
+      "text": "[SGBI850830|difficulty0]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30558"
+    },
+    {
+      "id": 9926,
+      "text": "※クエストボスの[C3:栗花落カナヲ]は入手できません[LF][LF]集めた鬼殺隊コインは、[LF][C6:コラボ限定のキャラやグッジョブ等]と[LF]引き換え可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30559"
+    },
+    {
+      "id": 9927,
+      "text": "[C6:超究極、出現]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30560"
+    },
+    {
+      "id": 9928,
+      "text": "[b:ba_help_collabo_tofu_00_5_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30561"
+    },
+    {
+      "id": 9929,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30562"
+    },
+    {
+      "id": 9930,
+      "text": "3/15 12:00～4/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30563"
+    },
+    {
+      "id": 9931,
+      "text": "[C5:猗窩座、出現]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30564"
+    },
+    {
+      "id": 9932,
+      "text": "超究極クエスト[C4:｢猗窩座｣]が出現！[LF]降臨時間はスケジュール＆繰り返し予約で[LF]確認しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30565"
+    },
+    {
+      "id": 9933,
+      "text": "[SGBI23870|difficulty1]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30566"
+    },
+    {
+      "id": 9934,
+      "text": "[C4:｢猗窩座｣]では本来のラックに[LF]｢ラック+99｣分のラックボーナスがプラス！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30567"
+    },
+    {
+      "id": 9935,
+      "text": "コラボ期間中",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30568"
+    },
+    {
+      "id": 9936,
+      "text": "[LUCK]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30569"
+    },
+    {
+      "id": 9937,
+      "text": "[C4:+99]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30570"
+    },
+    {
+      "id": 9938,
+      "text": "全てのモンスターがラックボーナスで[LF]宝箱を2個獲得可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30571"
+    },
+    {
+      "id": 9939,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20220310_1.html#6|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30572"
+    },
+    {
+      "id": 9940,
+      "text": "[C6:鬼滅の刃 コラボスターターパック登場]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30600"
+    },
+    {
+      "id": 9941,
+      "text": "[b:ba_help_collabo_tofu_01_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30601"
+    },
+    {
+      "id": 9942,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30602"
+    },
+    {
+      "id": 9943,
+      "text": "3/15 12:00～4/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30603"
+    },
+    {
+      "id": 9944,
+      "text": "[C5:コラボスターターパックについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30604"
+    },
+    {
+      "id": 9945,
+      "text": "コラボ期間中[C5:★6 鬼殺隊士 我妻善逸＆嘴平伊之助]と[LF]各種アイテムがセットとなった[LF][C6:鬼滅の刃 コラボスターターパック]が登場！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30605"
+    },
+    {
+      "id": 9946,
+      "text": "[IP9388]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30606"
+    },
+    {
+      "id": 9947,
+      "text": "[C5:★6 鬼殺隊士 我妻善逸＆嘴平伊之助]は[LF]ここでのみ入手可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30607"
+    },
+    {
+      "id": 9948,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20220310_1.html#4|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30608"
+    },
+    {
+      "id": 9949,
+      "text": "[C6:期間限定ラックボーナス！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30609"
+    },
+    {
+      "id": 9950,
+      "text": "[b:ba_help_collabo_tofu_01_3.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30610"
+    },
+    {
+      "id": 9951,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30611"
+    },
+    {
+      "id": 9952,
+      "text": "3/15 12:00～4/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30612"
+    },
+    {
+      "id": 9953,
+      "text": "[C5:期間限定ラック+99]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30613"
+    },
+    {
+      "id": 9954,
+      "text": "以下のキャラはコラボ期間中、[LF]本来のラックに[C4:+99]された[C4:運極]状態で、[LF]ラックボーナスが獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30614"
+    },
+    {
+      "id": 9955,
+      "text": "[IP9388]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30615"
+    },
+    {
+      "id": 9956,
+      "text": "[IP9402]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30616"
+    },
+    {
+      "id": 9957,
+      "text": "[IP9403]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30617"
+    },
+    {
+      "id": 9958,
+      "text": "コラボ期間中",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30618"
+    },
+    {
+      "id": 9959,
+      "text": "[LUCK]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30619"
+    },
+    {
+      "id": 9960,
+      "text": "[C4:+99]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30620"
+    },
+    {
+      "id": 9961,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20220310_1.html#7a|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30622"
+    },
+    {
+      "id": 9962,
+      "text": "[C6:コラボ限定お助けアイテム登場！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30623"
+    },
+    {
+      "id": 9963,
+      "text": "[b:ba_help_collabo_tofu_01_4.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30624"
+    },
+    {
+      "id": 9964,
+      "text": "[C5:コラボ限定お助けアイテムについて]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30625"
+    },
+    {
+      "id": 9965,
+      "text": "[C6:コラボ限定お助けアイテム｢日輪刀｣]が登場！[LF]対象クエストで、[LF][C6:味方全員の攻撃力と友情コンボ威力が][LF][C6:20％アップ！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30626"
+    },
+    {
+      "id": 9966,
+      "text": "対象クエスト",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30627"
+    },
+    {
+      "id": 9967,
+      "text": "超究極クエスト[C4:｢猗窩座｣]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30628"
+    },
+    {
+      "id": 9968,
+      "text": "入手方法",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30629"
+    },
+    {
+      "id": 9969,
+      "text": "[C6:無限列車任務]の報酬で獲得可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30630"
+    },
+    {
+      "id": 9970,
+      "text": "さらに、任務を進めることで、[C6:メダル引き換え]で[LF]引き換えできるようになります！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30631"
+    },
+    {
+      "id": 9971,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20220310_1.html#8|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30632"
+    },
+    {
+      "id": 9972,
+      "text": "メダル引き換え",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30651"
+    },
+    {
+      "id": 9973,
+      "text": "[C6:煉獄杏寿郎と共に無限列車任務に挑め！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30700"
+    },
+    {
+      "id": 9974,
+      "text": "[b:ba_help_collabo_tofu_02_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30701"
+    },
+    {
+      "id": 9975,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30702"
+    },
+    {
+      "id": 9976,
+      "text": "3/15 12:00～4/5 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30703"
+    },
+    {
+      "id": 9977,
+      "text": "[C5:無限列車任務]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30704"
+    },
+    {
+      "id": 9978,
+      "text": "任務をクリアすることで、[LF][C6:コラボ限定のグッジョブや勲章]、[LF][C6:コラボ限定お助けアイテム｢日輪刀｣]等の[LF]アイテムを獲得可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30705"
+    },
+    {
+      "id": 9979,
+      "text": "ホーム画面のアイコンをタップして挑戦しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_30706"
+    },
+    {
+      "id": 9980,
+      "text": "[LC]無限列車任務とは[LF][LF][CCB:dlme/help_collabo_tofu01_00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_ME_TOFU_MISSION_HELP"
+    },
+    {
+      "id": 9981,
+      "text": "開催期間：3/15 12:00 ~ 4/5 3:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_ME_TOFU_MISSION_PERIOD"
+    },
+    {
+      "id": 9982,
+      "text": "%d/%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_ME_TOFU_MISSION_PROGRESS"
+    },
+    {
+      "id": 9983,
+      "text": "上昇索敵度：%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_ME_TOFU_MISSION_PROGRESS_SUB_TITLE"
+    },
+    {
+      "id": 9984,
+      "text": "[C6:※索敵度15達成で解放]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_ME_TOFU_MISSION_UNLOCK_CONDITION_LABEL"
+    },
+    {
+      "id": 9985,
+      "text": "[LC]炎柱の指令達成！[LF][LF][LF][LC]鬼の索敵度が上がりました[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_MSG_TOFU_MISSION_REWARD_RESULT_1"
+    },
+    {
+      "id": 9986,
+      "text": "[LC]炎柱の指令達成！[LF][LF][LC]鬼の索敵度が上がりました[LF][LF][NODE]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_MSG_TOFU_MISSION_REWARD_RESULT_2"
+    },
+    {
+      "id": 9987,
+      "text": "炎柱の指令",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_ME_TOFU_MISSION_REWARD_SUB_TITLE_1"
+    },
+    {
+      "id": 9988,
+      "text": "猗窩座から守り抜け！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_ME_TOFU_MISSION_REWARD_SUB_TITLE_2"
+    },
+    {
+      "id": 9989,
+      "text": "索敵度%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_ME_TOFU_MISSION_REWARD_PARTS_1"
+    },
+    {
+      "id": 9990,
+      "text": "お助けアイテム解放",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_ME_TOFU_MISSION_REWARD_PARTS_2"
+    },
+    {
+      "id": 9991,
+      "text": "獲得",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_ME_TOFU_MISSION_REWARD_PARTS_3"
+    },
+    {
+      "id": 9992,
+      "text": "索敵度に応じて報酬ゲット！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1646996613,
+      "updated_at": 1646996613,
+      "label": "eTEXTS_DEF_ME_TOFU_MISSION_REWARD_PARTS_4"
+    },
+    {
+      "id": 9993,
+      "text": "[b:ba_help_collabo_tofu_00_5_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30573"
+    },
+    {
+      "id": 9994,
+      "text": "[C5:上弦の陸、出現]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30574"
+    },
+    {
+      "id": 9995,
+      "text": "超究極クエスト[C5:｢何度生まれ変わっても｣]が出現！[LF]降臨時間はスケジュール＆繰り返し予約で[LF]確認しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30575"
+    },
+    {
+      "id": 9996,
+      "text": "[SGBI23880|difficulty1]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30576"
+    },
+    {
+      "id": 9997,
+      "text": "※クエストボスの[C5:妓夫太郎＆堕姫]は[LF]入手できません[LF][LF]クエストクリアで[C6:｢上弦の陸 討伐任務｣]に[LF]挑戦可能！[LF][C5:★6 上弦の陸 妓夫太郎]から[LF][C5:★6 上弦の陸 妓夫太郎＆堕姫]への進化が可能に！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30577"
+    },
+    {
+      "id": 9998,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20220310_1.html#14|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30578"
+    },
+    {
+      "id": 9999,
+      "text": "[C6:上弦の陸を討伐し、進化を解放！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30633"
+    },
+    {
+      "id": 10000,
+      "text": "[b:ba_help_collabo_tofu_01_1.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30634"
+    },
+    {
+      "id": 10001,
+      "text": "挑戦期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1648118046,
+      "label": "eTEXTS_DEF_30635"
+    },
+    {
+      "id": 10002,
+      "text": "3/20 19:00～4/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30636"
+    },
+    {
+      "id": 10003,
+      "text": "[C5:上弦の陸 討伐任務]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30637"
+    },
+    {
+      "id": 10004,
+      "text": "超究極クエスト[C5:｢何度生まれ変わっても｣]クリアで[LF][C6:上弦の陸 討伐任務]に挑戦可能！[LF][LF][C5:★6 上弦の陸 妓夫太郎]から[LF][C5:★6 上弦の陸 妓夫太郎＆堕姫]への進化が可能に！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30638"
+    },
+    {
+      "id": 10005,
+      "text": "[BUTTON:collabo_stamp_sheet|0|250|58|上弦の陸 討伐任務へ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30639"
+    },
+    {
+      "id": 10006,
+      "text": "[IP9404]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30640"
+    },
+    {
+      "id": 10007,
+      "text": "超究極クエスト[C4:｢猗窩座｣][LF]超究極クエスト[C5:｢何度生まれ変わっても｣]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30641"
+    },
+    {
+      "id": 10008,
+      "text": "[C6:遊郭に潜入しアイテムを獲得せよ！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30707"
+    },
+    {
+      "id": 10009,
+      "text": "[b:ba_help_collabo_tofu_02_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30708"
+    },
+    {
+      "id": 10010,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30709"
+    },
+    {
+      "id": 10011,
+      "text": "3/20 0:00～4/1 23:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30710"
+    },
+    {
+      "id": 10012,
+      "text": "[C5:遊郭潜入]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30711"
+    },
+    {
+      "id": 10013,
+      "text": "1日1回だけ遊郭に潜入できるように！[LF][C3:★6 遊郭潜入 炭子＆善子＆猪子]を獲得できるほか、[LF]選んだキャラによって様々な[C6:アイテム]も獲得可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30712"
+    },
+    {
+      "id": 10014,
+      "text": "[BUTTON:tofu_dispatch|0|200|58|遊郭潜入へ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30713"
+    },
+    {
+      "id": 10015,
+      "text": "潜入状況はホーム画面→モンスター内の[LF][C6:遊郭潜入]からも確認できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30714"
+    },
+    {
+      "id": 10016,
+      "text": "[C5:フレンドガチャ]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30715"
+    },
+    {
+      "id": 10017,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30716"
+    },
+    {
+      "id": 10018,
+      "text": "3/20 0:00～4/2 11:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30717"
+    },
+    {
+      "id": 10019,
+      "text": "コラボ期間中[C6:｢フレンドガチャ｣]でも[LF]下記キャラを入手する事ができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30718"
+    },
+    {
+      "id": 10020,
+      "text": "[IP9404]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30719"
+    },
+    {
+      "id": 10021,
+      "text": "※詳細は[u:https://www.monster-strike.com/news/20220310_1.html#15|こちら]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30720"
+    },
+    {
+      "id": 10022,
+      "text": "[C6:遊郭に潜入しアイテムを獲得せよ！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30900"
+    },
+    {
+      "id": 10023,
+      "text": "[b:ba_help_collabo_tofu_02_2.png]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30901"
+    },
+    {
+      "id": 10024,
+      "text": "開催期間",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30902"
+    },
+    {
+      "id": 10025,
+      "text": "3/20 0:00 ～ 4/1 23:59",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30903"
+    },
+    {
+      "id": 10026,
+      "text": "鬼が棲む遊郭に潜入してアイテムを持ち帰ろう[LF]潜入は[C6:1日1回]だけ！誰を潜入させるか慎重に！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30904"
+    },
+    {
+      "id": 10027,
+      "text": "[C5:アイテム入手方法]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30905"
+    },
+    {
+      "id": 10028,
+      "text": "[C6:善子、炭子、猪子]それぞれ[LF]持ち帰るアイテムが異なります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30906"
+    },
+    {
+      "id": 10029,
+      "text": "[C5:獲得アイテム]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30907"
+    },
+    {
+      "id": 10030,
+      "text": "全キャラ共通獲得アイテム",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30908"
+    },
+    {
+      "id": 10031,
+      "text": "[C3:★6 遊郭潜入 炭子＆善子＆猪子]は[LF]必ず獲得できます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30909"
+    },
+    {
+      "id": 10032,
+      "text": "[IP9404]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30910"
+    },
+    {
+      "id": 10033,
+      "text": "キャラ別獲得可能アイテム",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30911"
+    },
+    {
+      "id": 10034,
+      "text": "選択したキャラに応じて[LF]いずれか１つアイテムを持ち帰ります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30912"
+    },
+    {
+      "id": 10035,
+      "text": "善子",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30913"
+    },
+    {
+      "id": 10036,
+      "text": "[SW0.85]排出率15.0％",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30914"
+    },
+    {
+      "id": 10037,
+      "text": "[SW0.85]排出率15.0％",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30915"
+    },
+    {
+      "id": 10038,
+      "text": "[SW0.85]排出率15.0％",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30916"
+    },
+    {
+      "id": 10039,
+      "text": "[SW0.85]排出率15.0％",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30917"
+    },
+    {
+      "id": 10040,
+      "text": "[SW0.85]排出率20.0％",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30918"
+    },
+    {
+      "id": 10041,
+      "text": "[SW0.85]排出率20.0％",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30919"
+    },
+    {
+      "id": 10042,
+      "text": "炭子",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30920"
+    },
+    {
+      "id": 10043,
+      "text": "[SW0.85]排出率20.0％",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30921"
+    },
+    {
+      "id": 10044,
+      "text": "[SW0.85]排出率20.0％",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30922"
+    },
+    {
+      "id": 10045,
+      "text": "[SW0.85]排出率20.0％",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30923"
+    },
+    {
+      "id": 10046,
+      "text": "[SW0.85]排出率20.0％",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30924"
+    },
+    {
+      "id": 10047,
+      "text": "[SW0.85]排出率20.0％",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1647522271,
+      "updated_at": 1647522271,
+      "label": "eTEXTS_DEF_30925"
+    }
+  ]
+}

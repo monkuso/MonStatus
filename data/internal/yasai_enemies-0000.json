@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "table": "yasai_enemies",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "name": "勢羽夏生",
+      "release_order": 1,
+      "released_at": 1778814000,
+      "hitpoint": 100,
+      "created_at": 1778755116,
+      "updated_at": 1778755116
+    },
+    {
+      "id": 2,
+      "name": "鹿島",
+      "release_order": 2,
+      "released_at": 1778871600,
+      "hitpoint": 100,
+      "created_at": 1778755116,
+      "updated_at": 1778755116
+    },
+    {
+      "id": 3,
+      "name": "鹿島",
+      "release_order": 3,
+      "released_at": 1778958000,
+      "hitpoint": 100,
+      "created_at": 1778755116,
+      "updated_at": 1778755116
+    },
+    {
+      "id": 4,
+      "name": "アパート",
+      "release_order": 4,
+      "released_at": 1779044400,
+      "hitpoint": 100,
+      "created_at": 1778755116,
+      "updated_at": 1778755116
+    },
+    {
+      "id": 5,
+      "name": "勢羽真冬",
+      "release_order": 5,
+      "released_at": 1779130800,
+      "hitpoint": 100,
+      "created_at": 1778755116,
+      "updated_at": 1778755116
+    },
+    {
+      "id": 6,
+      "name": "虎丸尚",
+      "release_order": 6,
+      "released_at": 1779217200,
+      "hitpoint": 100,
+      "created_at": 1778755116,
+      "updated_at": 1778755116
+    }
+  ]
+}

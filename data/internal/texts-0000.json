@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 1,
+  "table": "texts",
+  "updatedAt": "2026-10-16T18:29:45.517252+00:00",
+  "rows": [
+    {
+      "id": 1,
+      "text": "開催終了しました",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1478709335,
+      "updated_at": 1524671556,
+      "label": "eTEXTS_DEF_GACHA_LIDRA_END_DIALOG"
+    },
+    {
+      "id": 2,
+      "text": "[LC]新たな進化｢理の破壊者 オーバーホール｣を解放せよ！[LF][LF]このクエストをクリアすると、ミッション報酬で[LF][C2:★6 死穢八斎會若頭 オーバーホール]を[LF][C2:★6 理の破壊者 オーバーホール]に[LF]進化させる事ができるようになるぞ！[LF][LF]このクエストに挑むには[LF][C2:｢抗う運命｣]の[C6:究極]と[C6:極]をクリアしよう！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1478709335,
+      "updated_at": 1598874494,
+      "label": "eTEXTS_DEF_2"
+    },
+    {
+      "id": 3,
+      "text": "｢抗う運命｣全ステージクリアで挑戦可",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1478709335,
+      "updated_at": 1598874494,
+      "label": "eTEXTS_DEF_3"
+    },
+    {
+      "id": 4,
+      "text": "[LC]本日はオラ玉を獲得済みです[LF][LF]１日にオラ玉を獲得できる回数は１回のみです。[LF][LF]※０時を過ぎるとまたオラ玉を獲得できます",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1478709335,
+      "updated_at": 1524671556,
+      "label": "eTEXTS_DEF_AREAGACHA_ASSERT01"
+    },
+    {
+      "id": 5,
+      "text": "[LC]ナツ玉が不足しています[LF][LF]ガチャを引くのに[LF]必要なナツ玉が足りません。",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1478709335,
+      "updated_at": 1524671556,
+      "label": "eTEXTS_DEF_AREAGACHA_ASSERT10"
+    },
+    {
+      "id": 6,
+      "text": "[LC]もうナツ玉では引けません[LF][LF]あなたはナツ玉を獲得し[LF]すでに全て使用済みです。",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1478709335,
+      "updated_at": 1524671556,
+      "label": "eTEXTS_DEF_AREAGACHA_ASSERT11"
+    },
+    {
+      "id": 7,
+      "text": "1回限り無料で獲得！",
+      "layout": 0,
+      "color": 16776960,
+      "created_at": 1478709335,
+      "updated_at": 1524671556,
+      "label": "eTEXTS_DEF_AREAGACHA_CONDITION"
+    },
+    {
+      "id": 8,
+      "text": "ガチャを[LF]無料で引くことが出来る、[LF]オラ玉が１日１回もらえます。[LF][LF]オラ玉は[LF]映画『モンスターストライク THE MOVIE』が[LF][u:http://www.eigakan.org/theaterpage/schedule.php?t=569|上映される映画館]で獲得できます。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1478709335,
+      "updated_at": 1524671556,
+      "label": "eTEXTS_DEF_AREAGACHA_INFO"
+    },
+    {
+      "id": 9,
+      "text": "画像をタップでキャラ詳細を確認！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1478709335,
+      "updated_at": 1524671556,
+      "label": "eTEXTS_DEF_GACHA_FUTURE_CLOSE"
+    },
+    {
+      "id": 10,
+      "text": "ボールをタップでステータス詳細を確認！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1478709335,
+      "updated_at": 1524671556,
+      "label": "eTEXTS_DEF_GACHA_FUTURE_OPPEN"
+    },
+    {
+      "id": 11,
+      "text": "[LC]対象外のエリアです[LF][LF]この場所ではナツ玉を獲得できませんでした。[LF][LF]ナツ玉は対象の[u:https://www.monster-strike.com/promotion/kiwami2017/natsudama.html#howto|海やプール]で獲得できます。 [LF][LF]対象の海やプールにいても獲得できない場合は[LF]端末の位置情報が有効になっているか[LF]ご確認ください。[LF][LF]また、Wi-Fiを有効にすると位置情報の精度が[LF]向上する可能性があります。[LF][LF]獲得可能期間：[LF]【 8/8 】[C8:12:00 ～17:00][LF]【 8/9 ～ 8/15 】[C8:10:00 ～17:00][LF]【 8/16 】[C8:10:00 ～11:59]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1478709335,
+      "updated_at": 1524671556,
+      "label": "eTEXTS_DEF_AREAGACHA_LOCATION0"
+    },
+    {
+      "id": 12,
+      "text": "[LC]位置情報が取得できません[LF][LF]位置情報の獲得が出来ませんでした。[LF][LF][C4:GPS設定]、[C4:電波状況]等をご確認ください。[LF][LF]Wi-Fiを有効にすると位置情報の精度が[LF]向上する可能性があります。",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1478709335,
+      "updated_at": 1524671556,
+      "label": "eTEXTS_DEF_AREAGACHA_LOCATION_DISABLE"
+    },
+    {
+      "id": 13,
+      "text": "[LC]スタミナ回復[LF][WIDTH540][LF][C6:スタミナミン]を1個使用または[C6:CMを視聴]して[LF]スタミナを[C6:最大値分の%d]回復できます。[LF][LF]スタミナミン所持数：%d個[LF][LF]スタミナを回復させますか？[LF][LF][ONLY_1:[S-1][IMG:icon_stamina_monpass.png]モンパス入会で[C6:1日1回スタミナ全回復！]]",
+      "layout": 24,
+      "color": 0,
+      "created_at": 1482145118,
+      "updated_at": 1747754913,
+      "label": "eTEXTS_DEF_USE_STAMINA_ITEM"
+    },
+    {
+      "id": 14,
+      "text": "[LC]スタミナ回復[LF][WIDTH540][LF][C6:スタミナミン]を1個使用または[C6:CMを視聴]して[LF]スタミナを[C6:最大値分の%d]回復できます。[LF][LF]スタミナミン所持数：%d個[LF][LF]スタミナを回復させますか？[LF][LF][ONLY_1:[S-1][IMG:icon_stamina_monpass.png]モンパス入会で[C6:1日1回スタミナ全回復！]]",
+      "layout": 24,
+      "color": 0,
+      "created_at": 1482145118,
+      "updated_at": 1745251118,
+      "label": "eTEXTS_DEF_USE_STAMINA_ITEM_FOR_STAGE"
+    },
+    {
+      "id": 15,
+      "text": "神獣の聖域",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1495768840,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_SINJU_MENU_TITLE"
+    },
+    {
+      "id": 16,
+      "text": "[LC]スタミナ不足[LF][WIDTH540][LF]スタミナが不足しているため、LINE友達と[LF]マルチプレイをすることができません。[LF][C6:スタミナミン]を1個使用または[C6:CMを視聴]して[LF]スタミナを[C6:最大値分の%d]回復できます。[LF][LF][S-1][ONLY_1:[IMG:icon_stamina_monpass.png]モンパス入会で[C6:1日1回スタミナ全回復！]]",
+      "layout": 24,
+      "color": 0,
+      "created_at": 1482145118,
+      "updated_at": 1745251118,
+      "label": "eTEXTS_DEF_USE_STAMINA_ITEM_FOR_STAGE_LINE"
+    },
+    {
+      "id": 17,
+      "text": "ログインでプレゼント！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1482413221,
+      "updated_at": 1716458429,
+      "label": "eTEXTS_DEF_LOGIN_STAMP_DESCRIPTION_1"
+    },
+    {
+      "id": 18,
+      "text": "※プレゼントの切り替わりはAM4:00となります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1482413221,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_LOGIN_STAMP_DESCRIPTION_2"
+    },
+    {
+      "id": 19,
+      "text": "[LC]神獣の聖域とは[LF][LF][CCB:dlme/help_shinjyuu_00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1495768840,
+      "updated_at": 1536166376,
+      "label": "eTEXTS_DEF_SINJU_HELP_MSG"
+    },
+    {
+      "id": 20,
+      "text": "注目!",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1481559838,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_EVENTSCHEDULE_TABBUTTON_1"
+    },
+    {
+      "id": 21,
+      "text": "絶級",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1481559838,
+      "updated_at": 1697560690,
+      "label": "eTEXTS_DEF_EVENTSCHEDULE_TABBUTTON_2"
+    },
+    {
+      "id": 22,
+      "text": "未クリア",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1481559838,
+      "updated_at": 1697560690,
+      "label": "eTEXTS_DEF_EVENTSCHEDULE_TABBUTTON_3"
+    },
+    {
+      "id": 23,
+      "text": "すべて",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1481559838,
+      "updated_at": 1697560690,
+      "label": "eTEXTS_DEF_EVENTSCHEDULE_TABBUTTON_4"
+    },
+    {
+      "id": 24,
+      "text": "[LC]原始竜の黒い翼[LF][WIDTH560][LF][b:ic0032.png][LF]ダイナが降臨！[LF]イベントクエストから挑戦しよう！！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1484308332,
+      "updated_at": 1678722211,
+      "label": "eTEXTS_DEF_PTERAIN_MESSAGE"
+    },
+    {
+      "id": 25,
+      "text": "[LC]クリスマスまであと%d日！[LF][LF][LF][LC][C2:モンスト ][C4:サンタになれるくじ♥]開催！[LF][LF]12/23（土）から3日間「サンタになれるくじ♥」が引けるよ！[LF]当選すると豪華なプレゼントを2つセットでお届け！[LF]あなたがサンタになって[LF]１つを友達にプレゼント出来るよ♪[LF]くじが引けるのは、[LF][LF][LC]①12/23[C5:（土）]AM4:00～翌AM3:59[LF][LC]②12/24[C2:（日）]AM4:00～翌AM3:59[LF][LC]③12/25[C4:（月）]AM4:00～翌AM3:59[LF][LF]の合計3回！[LF]みんな忘れずに引きに来てね♪[LF][LF]◎「モンスト サンタになれるくじ♥」の詳細は[u:https://www.monster-strike.com/promotion/winter2017/santakuji.html|こちら][LF]",
+      "layout": 26,
+      "color": 0,
+      "created_at": 1482332945,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_XMAS_PRE_MESSAGE"
+    },
+    {
+      "id": 26,
+      "text": "[LC]Merry Christmas!![LF][LF][LF][LC][b:ba_info_20171214_2.png][LF][LC][C2:モンスト ][C4:サンタになれるくじ♥][LF][LF][LC]今日の分のくじが引けるよ！[LF][LC]くじが引けるのは、[LF][LF][LC]①12/23[C5:（土）]AM4:00～翌AM3:59[LF][LC]②12/24[C2:（日）]AM4:00～翌AM3:59[LF][LC]③12/25[C4:（月）]AM4:00～翌AM3:59[LF][LF][LC]の合計3回！[LF][LC]今日は何が当たるかな……？[LF]",
+      "layout": 38,
+      "color": 0,
+      "created_at": 1482332945,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_XMAS_MESSAGE"
+    },
+    {
+      "id": 27,
+      "text": "2017年は未使用",
+      "layout": 26,
+      "color": 0,
+      "created_at": 1482332945,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_XMAS_MESSAGE_FINISH"
+    },
+    {
+      "id": 28,
+      "text": "現在出現中！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1481559838,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_EVENTQUEST_ENDTIME_1"
+    },
+    {
+      "id": 29,
+      "text": "まで",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1481559838,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_EVENTQUEST_ENDTIME_2"
+    },
+    {
+      "id": 30,
+      "text": "[LC][S2][C6:覇者の塔に「封印の玉楼」が出現！][LF][LF] 覇者の塔を制した者だけが辿りつく「封印の玉楼」。[LF] すべての宝玉を解放した者に更なる力を授けると云う…。[LF][LF][LC][b:ba_bingo_reward_gem.png][LF][LF][S2][C6:■「封印の玉楼」とは？][LF]「覇者の塔」40階をクリアした者だけが挑戦可能な、[LF]  25個の宝玉が盤面に封印された特殊クエスト。[LF]  ※ストライカーごとに[C4:異なる盤面]が生成されます。[LF] [C8:「封印の玉楼・壱」]と[C8:「封印の玉楼・弐」]のどちらか[LF]  1つの盤面のみ選択することができます。[LF]  [C2:※1度選択した盤面は開催期間中に変更できません。][LF][LF][S2][C6:■遊び方][LF][C8:・1つのクエストクリアにつき１つの宝玉を解放][LF][C8:・縦、横、斜めの列を達成するごとに報酬を獲得！][LF][LC][b:ba_bingo_help1.png][LF]  すべての宝玉を解放し「英雄の書」をGETしよう！[LF][LF][S2][C6:■攻略のポイント][LF]  [C4:クリア時に使用した自分のモンスターは力を封印され、][LF]  [C4:別の「封印の玉楼」クエストには出撃不可となる。][LF]  どのクエストにどのモンスターで挑むかが重要だ。[LF][LF]  マルチプレイでは、ホストだけでなくゲスト参加でも[LF]  クリア扱いになるので、友達と協力しよう！[LF][LF][C2: ＜「封印の玉楼」クエストでの注意事項＞][LF]・進化や神化・獣神化をしても出撃不可は継続されます。[LF]・ソロ／ホスト、ゲストともにクリア時の[LF]　自分のモンスターが出撃不可となります。[LF]・ソロの助っ人枠で自分のモンスターを使用した場合は[LF]　クリア時に出撃不可となります。[LF]・ソロの助っ人枠で使用する他のストライカーのモンスター[LF]　は出撃不可の状態に関係なく使用可能です。[LF]・自分がクリア済のクエストにゲスト参加する場合は[LF]　クリア時に使用したモンスターの出撃が必須です。[LF]・自分の選択していない盤面のクエストにもゲスト参加可能ですが、[LF]　クエストをクリアしても自分の選択していない盤面の「宝玉」[LF]　は開放されません。[LF]・自分の選択していない盤面のクエストに出撃して使用した[LF]　モンスターは封印されません。[LF]・どちらの盤面も選択していない場合、マルチプレイに[LF]　ゲスト参加ができません。[LF]・1度選択した盤面は開催期間中は変更することができません。[LF]・盤面やクリア状況は開催ごとにリセットされます。[LF]・ボスモンスターを報酬で入手することはできません。[LF]・[C6:「戦績」での「封印の玉楼 最高達成列数」が12列で、][LF]　特別クエスト[C6:「禁忌の獄」]への挑戦が可能となります。[LF]・詳しくは公式サイトのお知らせをご確認ください。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1488817825,
+      "updated_at": 1533569594,
+      "label": "eTEXTS_DEF_BINGO_HELP_MSG"
+    },
+    {
+      "id": 31,
+      "text": "封印の玉楼",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1488817825,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_BINGO_PAGE_TITLE"
+    },
+    {
+      "id": 32,
+      "text": "クリア時に使用したモンスター",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1488817825,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_BINGO_CLEAR_UI_TITLE"
+    },
+    {
+      "id": 33,
+      "text": "※このクエストクリア時に使用したモンスターは、開催期間中に[LF]　別の「封印の玉楼」クエストで使用することはできません。[LF]※このクエストにゲスト参加する場合は、クリア時に使用した[LF]　モンスターをデッキの先頭から順に編成してください。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1488817825,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_BINGO_CLEAR_UI_MAIN"
+    },
+    {
+      "id": 34,
+      "text": "[LC]挑戦できません[LF][LF]このクエストは[C4:クリア済]です。[LF][LF]開催期間中に1度クリアした「封印の玉楼」クエストに[LF]ソロ／ホストとしては再挑戦できません。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1488817825,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_BINGO_QUEST_ALERT"
+    },
+    {
+      "id": 35,
+      "text": "[LC]挑戦できません[LF][LF]選択中のデッキに、このクエストへ参加できない[LF]モンスターが含まれています。[LF][LF]・クリア済の「封印の玉楼」クエストへ参加の場合、[LF]　このクエストの[C4:クリア時に使用したモンスター]の[LF]　出撃が必須です。[LF][LF]　編成には[C6:「デッキ履歴」]機能や[LF]　並び替え表示の[C6:「使用制限」]順が便利です。[LF][LF]・余った枠がある場合は[C4:封印されていないモンスター]を[LF]　編成してください。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1488817825,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_BINGO_GUEST_ALERT1"
+    },
+    {
+      "id": 36,
+      "text": "[LC]挑戦できません[LF][LF][C6:「封印の玉楼」]クエスト参加条件を満たしていません[LF][LF]参加には開催中の「覇者の塔」[C2:40階クリア]が必要です",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1488817825,
+      "updated_at": 1603373411,
+      "label": "eTEXTS_DEF_BINGO_GUEST_ALERT2"
+    },
+    {
+      "id": 37,
+      "text": "[LC]「列」達成！[LF][LF]解放された宝玉が連なり、[LF]「列」達成報酬を獲得！[LF][LF]報酬アイテムは[LF][C4:受け取りBOX]でご確認ください。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1488817825,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_BINGO_LINE_CLEAR"
+    },
+    {
+      "id": 38,
+      "text": "[LC]「封印の玉楼」完全制覇！！[LF][LF]すべての宝玉が解放されました！[LF][LF][C9:「英雄の書」]で好きなモンスター[LF]に英雄の証を追加しよう！[LF][LF][LC][I123][LF][LF]報酬アイテムは[LF][C4:受け取りBOX]でご確認ください。[LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1488817825,
+      "updated_at": 1533569594,
+      "label": "eTEXTS_DEF_BINGO_ALL_CLEAR"
+    },
+    {
+      "id": 39,
+      "text": "前後",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1486484629,
+      "updated_at": 1597680614,
+      "label": "eTEXTS_DEF_USERTITLE_TABBUTTON_1"
+    },
+    {
+      "id": 40,
+      "text": "一括",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1486484629,
+      "updated_at": 1597680614,
+      "label": "eTEXTS_DEF_USERTITLE_TABBUTTON_2"
+    },
+    {
+      "id": 41,
+      "text": "獲得済みの称号はありません。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1486484629,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_USERTITLE_NOGET_LIMITEDTITLE"
+    },
+    {
+      "id": 42,
+      "text": "[LC]挑戦できません[LF][LF]選択中のデッキに、別の「封印の玉楼」クエストを[LF]クリアして[C2:封印されたモンスター]が含まれています。[LF][LF][C4:封印されていないモンスターだけ]で[LF]デッキを編成してから挑戦してください。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1488817826,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_BINGO_ERROR_USED_CHARACTOR"
+    },
+    {
+      "id": 43,
+      "text": "[LC]XFLAG IDデータ連携[LF][LF]XFLAG IDとモンストを連携します。[LF]連携すると、XFLAG STOREで様々なサー[LF]ビスが利用できます。[LF]連携には、[LF][LF][C2:XFLAG IDのアカウントが必要です。][LF][LF]連携しますか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1486484629,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_XFLAG_ID_CONNECT"
+    },
+    {
+      "id": 44,
+      "text": "%d/%d 4:00に解放",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1490791938,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_STAMP_OPEN_DATE"
+    },
+    {
+      "id": 45,
+      "text": "毎日1つミッション解放！また明日挑戦しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1490791938,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_STAMP_MESSAGE_1"
+    },
+    {
+      "id": 46,
+      "text": "本日はあと[C6:1つ]ミッション達成可能！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1490791938,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_STAMP_MESSAGE_2"
+    },
+    {
+      "id": 47,
+      "text": "[C6:ミッション達成上限のため、明日以降に挑戦できます！]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1490791938,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_STAMP_MESSAGE_3"
+    },
+    {
+      "id": 48,
+      "text": "[LC]「XYZミッション」とは？[LF][LF]劇場版シティーハンターコラボに特化した[LF]期間限定のミッションです！[LF][LF]【ルール】[LF]・ミッションは[C4:1日1ミッション]ずつ解放されます。[LF]・1ミッションずつクリアしないと次の[LF]ミッションに挑戦できません。[LF]・ミッションの切り替え時間は[C4:AM4:00]です。[LF]・途中から参加した場合、ミッションが[LF]たくさん解放されていても、挑戦できるミッションは[LF][C4:1日2ミッション]までとなっております。[LF][LF]ミッションで達成した報酬は[LF]「XYZミッション」が終了した場合[LF]受け取れなくなりますのでご注意ください。[LF][LF]【ミッション終了日時】[LF]2019年2月5日 3:59まで[LF][LF]【ミッション報酬受取期限】[LF]2019年2月12日 3:59まで[LF][LF]さぁ、全ミッションクリアを目指して[LF]今すぐ挑戦しよう！[LF]",
+      "layout": 26,
+      "color": 0,
+      "created_at": 1490791938,
+      "updated_at": 1547633098,
+      "label": "eTEXTS_DEF_STAMP_DESCRIPTION_DIALOG"
+    },
+    {
+      "id": 49,
+      "text": "限定ミッション挑戦中",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1490791938,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_STAMP_HOME_CHALLENGE"
+    },
+    {
+      "id": 50,
+      "text": "[LC][C2:このミッションは][LF][LC][C2:%d月%d日 4:00に解放されます]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1490791938,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_STAMP_POPUP_DIALOG_1"
+    },
+    {
+      "id": 51,
+      "text": "[LC][C2:このミッションは][LF][LC][C2:%d月%d日 4:00以降に挑戦ができます]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1490791938,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_STAMP_POPUP_DIALOG_2"
+    },
+    {
+      "id": 52,
+      "text": "[LC][C2:%sを][LF][LC][C2:クリアしないと挑戦できません]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1490791938,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_STAMP_POPUP_DIALOG_3"
+    },
+    {
+      "id": 53,
+      "text": "[LC]連携失敗[LF][LF]データ連携に失敗しました[LF]エラーコード = %d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1486484629,
+      "updated_at": 1713803178,
+      "label": "eTEXTS_DEF_XFLAG_ID_ERROR"
+    },
+    {
+      "id": 54,
+      "text": "[LC]連携成功[LF][LF]データ連携に成功しました[LF]XFLAG STOREポータルサイトに行きます[LF]か？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1486484629,
+      "updated_at": 1713803178,
+      "label": "eTEXTS_DEF_XFLAG_ID_SUCCESS"
+    },
+    {
+      "id": 55,
+      "text": "はい",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1486484629,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_XFLAG_ID_GOTO_STORE"
+    },
+    {
+      "id": 56,
+      "text": "https://store.xflag.com/",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1486484629,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_XFLAG_ID_URL"
+    },
+    {
+      "id": 57,
+      "text": "[LC]キャンセルしました[LF][LF]データ連携をキャンセルしました",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1486484629,
+      "updated_at": 1713803178,
+      "label": "eTEXTS_DEF_XFLAG_ID_CANCEL"
+    },
+    {
+      "id": 58,
+      "text": "[LC]Facebookシェア[LF][LF]Facebookにシェアしますか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1486484629,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_FACEBOOK_SHARE_OK_NO"
+    },
+    {
+      "id": 59,
+      "text": "[LC]出撃前に再確認！[LF][LF][C6:「封印の玉楼」]クエストではクリア時に使用した[LF]自分のモンスターたちは封印され、その開催期間中の[LF][C2:別の「封印の玉楼」クエストで出撃不可]になります。[LF][LF]※クリア以外では封印されません。[LF]※クリア済クエストへの参加の場合は[LF]　追加で封印されることはありません。[LF][LF]このデッキ編成で出撃してよろしいですか？",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1488817826,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_BINGO_FIRST_TRY_CHECK"
+    },
+    {
+      "id": 60,
+      "text": "封印の玉楼 デッキ編成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1488817826,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_BINGO_DECKSELECT_TITLE"
+    },
+    {
+      "id": 61,
+      "text": "封印の玉楼 デッキ一括編成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1488817826,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_BINGO_MONSTERCHANGE_TITLE"
+    },
+    {
+      "id": 62,
+      "text": "最高達成列数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1488817826,
+      "updated_at": 1670862116,
+      "label": "eTEXTS_DEF_BINGO_RECORD"
+    },
+    {
+      "id": 63,
+      "text": "[LC]クエスト出現！[LF][LF]ストライクチャンスの結果、[LF]クエストが出現しました。[LF]イベントクエスト、強化進化クエスト、[LF]または英雄の神殿から挑戦しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1488817826,
+      "updated_at": 1594660567,
+      "label": "eTEXTS_DEF_XFLAG_STORE_MISSION_ONE_DAY"
+    },
+    {
+      "id": 64,
+      "text": "封印されていないモンスター",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1488817826,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_BINGO_SORT_NON_USED"
+    },
+    {
+      "id": 65,
+      "text": "封印されたモンスター",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1488817826,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_BINGO_SORT_USED_QUEST"
+    },
+    {
+      "id": 66,
+      "text": "クリア時に使用したモンスター",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1488817826,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_BINGO_SORT_USED_THIS_QUEST"
+    },
+    {
+      "id": 67,
+      "text": "[LC][C2:◆◆　警告　◆◆][LF][LF][LF][LF][LF][LF]このモンスターの英雄の証を解放しますか？[LF][LF]一度解放すると、取り消すことはできません[LF]また、解放は1体につき1回までとなります[LF][LF]本当によろしいですか？",
+      "layout": 8,
+      "color": 1,
+      "created_at": 1488817826,
+      "updated_at": 1660819579,
+      "label": "eTEXTS_DEF_GEM_REWARD_CAUTION"
+    },
+    {
+      "id": 68,
+      "text": "最終日！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671557,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_LOTTERY_LASYDAT"
+    },
+    {
+      "id": 69,
+      "text": "[LC]当選！[LF][LF][LC][b:xmas_result_txt_01.png][LF][LC][b:xmas_result_txt_cmn.png][LF][LC]受け取りBOXに届く[LF][LC]当選メッセージで、[LF][LC]当たった賞品を確認しよう！[LF][LF][LC]※当選メッセージのお届けまでに[LF][LC]お時間がかかる場合がございます。[LF][LF]◎「モンスト サンタになれるくじ♥」の詳細は[u:https://www.monster-strike.com/promotion/winter2017/santakuji.html|こちら]！[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1524671557,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_LOTTERY_MESSAGE_WIN"
+    },
+    {
+      "id": 70,
+      "text": "[LC]参加賞！[LF][LF][LC][b:xmas_result_txt_02.png][LF][LC][b:xmas_result_txt_cmn.png][LF][LC]受け取りBOXのメッセージより、[LF][LC]参加賞を受け取ってね。[LF][LF][LC]※メッセージのお届けまでに[LF][LC]お時間がかかる場合がございます。[LF][LF]◎「モンスト サンタになれるくじ♥」の詳細は[u:https://www.monster-strike.com/promotion/winter2017/santakuji.html|こちら]！[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1491555272,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_LOTTERY_MESSAGE_LOSE"
+    },
+    {
+      "id": 71,
+      "text": "[LC]明日も挑戦してね！[LF][LF][LF][LC][C2:モンスト ][C4:サンタになれるくじ♥]は[LF][LC]12/26 AM3:59まで毎日開催中！[LF][LC]1日1回引けるので、また明日挑戦しよう！[LF][LF][LC]※日付の切り替わりは毎日4:00です。[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1491555272,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_LOTTERY_MESSAGE_FINISH"
+    },
+    {
+      "id": 72,
+      "text": "%d日目",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1491555272,
+      "updated_at": 1524671557,
+      "label": "eTEXTS_DEF_LOTTERY_OPENDAY1"
+    },
+    {
+      "id": 73,
+      "text": "開催中",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1491555272,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_LOTTERY_OPENDAY2"
+    },
+    {
+      "id": 74,
+      "text": "また明日",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1491555272,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_LOTTERY_TODAY_FINISH"
+    },
+    {
+      "id": 75,
+      "text": "遊び方",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1491555272,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_BINGO_HELP_BUTTON_01"
+    },
+    {
+      "id": 76,
+      "text": "報酬",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1491555272,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_BINGO_HELP_BUTTON_02"
+    },
+    {
+      "id": 77,
+      "text": "現在の達成列数：%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1488817826,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_BINGO_HELP_MESSAGE"
+    },
+    {
+      "id": 78,
+      "text": "覇者の塔40階突破で解放",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1488817826,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_BINGO_QUALIFICATION_ALERT"
+    },
+    {
+      "id": 79,
+      "text": "[LC]英雄の証を解放しよう！[LF][LF][C4:「英雄の証・解放の書」]メニューの[LF][C4:「英雄の証を解放」]から、モンスターに[LF][C4:「英雄の書」]を使うと[C4:「英雄の証」]を[LF]解放することができるぞ！[LF][LF]英雄の証の解放は1体につき[LF]1回までとなります",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1488817826,
+      "updated_at": 1657555184,
+      "label": "eTEXTS_DEF_GEM_REWARD_INTRO"
+    },
+    {
+      "id": 80,
+      "text": "[LC]期限切れ[LF][LF]このメニューは期限切れです。画面を更新します。",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1488817826,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_SHOP_TIME_OVER"
+    },
+    {
+      "id": 81,
+      "text": "[LC]開催期間外です[LF][LF]「封印の玉楼」開催期間外のため[LF]ステージに入れませんでした。[LF]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1488817826,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_BINGO_TIME_OVER"
+    },
+    {
+      "id": 82,
+      "text": "[LC]画質設定[LF]　　　　　　　　　　　　　　　　　　　　　　　[LF][LF][LF][LF]●画質を下げることでゲーム速度が遅くなる[LF]　問題が改善されることがあります[LF]●画質は3段階で設定可能で[LF]　左にいくほど画質は低くなります[LF]●画質を変更した場合は[LF]　モンストを強制的に再起動します[LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1488817826,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_OPTION_SCALE_TITLE"
+    },
+    {
+      "id": 83,
+      "text": "　画質",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1488817826,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_OPTION_SCALE_ITEM"
+    },
+    {
+      "id": 84,
+      "text": "現在対象のステージは出現しておりません[LF][LF]出現時間については[LF]イベントスケジュールをご確認ください[LF]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1493049469,
+      "updated_at": 1643795403,
+      "label": "eTEXTS_DEF_MISSION_LATER_TRY"
+    },
+    {
+      "id": 85,
+      "text": "[LC]対象クエストは開催期間外です",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1493049469,
+      "updated_at": 1761815693,
+      "label": "eTEXTS_DEF_MISSION_NO_TRY"
+    },
+    {
+      "id": 86,
+      "text": "（絞り込みは複数選択することができます）",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671558,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_SORT_WINDOW_01"
+    },
+    {
+      "id": 87,
+      "text": "属性",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493049469,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_SORT_WINDOW_02"
+    },
+    {
+      "id": 88,
+      "text": "撃種",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493049469,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_SORT_WINDOW_03"
+    },
+    {
+      "id": 89,
+      "text": "アビリティ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493049469,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_SORT_WINDOW_04"
+    },
+    {
+      "id": 90,
+      "text": "レアリティ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493049469,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_SORT_WINDOW_05"
+    },
+    {
+      "id": 91,
+      "text": "ラックMAX",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493049469,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_SORT_WINDOW_06"
+    },
+    {
+      "id": 92,
+      "text": "進化状態",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493049469,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_SORT_WINDOW_07"
+    },
+    {
+      "id": 93,
+      "text": "反射",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493049469,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_SORT_WINDOW_08"
+    },
+    {
+      "id": 94,
+      "text": "貫通",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493049469,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_SORT_WINDOW_09"
+    },
+    {
+      "id": 95,
+      "text": "★３以下",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493049469,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_SORT_WINDOW_10"
+    },
+    {
+      "id": 96,
+      "text": "★４",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493049469,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_SORT_WINDOW_11"
+    },
+    {
+      "id": 97,
+      "text": "★５",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493049469,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_SORT_WINDOW_12"
+    },
+    {
+      "id": 98,
+      "text": "★６",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493049470,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_SORT_WINDOW_13"
+    },
+    {
+      "id": 99,
+      "text": "している",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493049470,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_SORT_WINDOW_14"
+    },
+    {
+      "id": 100,
+      "text": "していない",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493049470,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_SORT_WINDOW_15"
+    },
+    {
+      "id": 101,
+      "text": "進化/神化前",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493049470,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_SORT_WINDOW_16"
+    },
+    {
+      "id": 102,
+      "text": "獣神化解禁",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493049470,
+      "updated_at": 1653492784,
+      "label": "eTEXTS_DEF_SORT_WINDOW_17"
+    },
+    {
+      "id": 103,
+      "text": "進化/神化",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493049470,
+      "updated_at": 1570463651,
+      "label": "eTEXTS_DEF_SORT_WINDOW_18"
+    },
+    {
+      "id": 104,
+      "text": "対象モンスター数：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493049470,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_SORT_WINDOW_19"
+    },
+    {
+      "id": 105,
+      "text": "決定",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493049470,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_SORT_WINDOW_20"
+    },
+    {
+      "id": 106,
+      "text": "リセット",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493049470,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_SORT_WINDOW_21"
+    },
+    {
+      "id": 107,
+      "text": "[LC][C%d:%s]への[LF][LC]進化解放のため、[LF][LC][C2:進化解放ミッション][LF][LC]を達成しよう！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493049470,
+      "updated_at": 1594660567,
+      "label": "eTEXTS_DEF_EVO_ACHIEVE_1"
+    },
+    {
+      "id": 108,
+      "text": "[LC][C2:進化解放ミッション][LF][LC][C10:%sの][LF][LC][C10:進化は解放されていません]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493049470,
+      "updated_at": 1562322542,
+      "label": "eTEXTS_DEF_EVO_ACHIEVE_2"
+    },
+    {
+      "id": 109,
+      "text": "未解放",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493049470,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_EVO_ACHIEVE_BUTTON"
+    },
+    {
+      "id": 110,
+      "text": "[LC]デッキ名入力[LF][LF][LC]選択中のデッキ名を入力してください。[LF]　　　　　　　　　　　　　　　　　　　　　　[LF][LF][LC][C8:※最大１２文字]",
+      "layout": 7,
+      "color": 0,
+      "created_at": 1493641191,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_DECKNAME_MESSSAGE1"
+    },
+    {
+      "id": 111,
+      "text": "デッキ名が入力されていません。",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1493641191,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_DECKNAME_MESSSAGE2"
+    },
+    {
+      "id": 112,
+      "text": "デッキ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493641191,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_DECKNAME_DEFAULT"
+    },
+    {
+      "id": 113,
+      "text": "ガチャ予約",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493049470,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_APPOINTMENT_TITLE"
+    },
+    {
+      "id": 114,
+      "text": "予約する",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493049470,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_APPOINTMENT_ON"
+    },
+    {
+      "id": 115,
+      "text": "予約済み",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493049470,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_APPOINTMENT_OFF"
+    },
+    {
+      "id": 116,
+      "text": "自動合成するモンスターを選択",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493049470,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_AUTOCOMB_CHOICE"
+    },
+    {
+      "id": 117,
+      "text": "[LC]自動合成注意事項[LF][LF]※設定後に入手したモンスターのみが対象になります[LF][LF]※設定したモンスターを複数所持している場合、[LF]　[C6:取得の早いモンスターが自動合成対象になります][LF][LF]※自動合成によりラックが上限に達した場合、[LF]　[C6:余ったモンスターは合成されません]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493049470,
+      "updated_at": 1682351332,
+      "label": "eTEXTS_DEF_AUTOCOMB_SET_COMP"
+    },
+    {
+      "id": 118,
+      "text": "[LC]ゴールド不足[LF][LF]ゴールドが不足しているため、[LF]獲得したモンスターを自動合成することができませんでした。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493049470,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_AUTOCOMB_NO_GOLD"
+    },
+    {
+      "id": 119,
+      "text": "[LC]ラック上限に到達！[LF][LF][LC]自動合成に設定しているモンスターが[LF][LC]ラック上限に達しました。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493049470,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_AUTOCOMB_MAX_LUCK"
+    },
+    {
+      "id": 120,
+      "text": "[LC]運極達成！[LF][LF][LC]自動合成に設定しているモンスターが[LF][LC]運極になりました[LF][LC][NODE]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493049470,
+      "updated_at": 1745251118,
+      "label": "eTEXTS_DEF_AUTOCOMB_UNKYOKU"
+    },
+    {
+      "id": 121,
+      "text": "[LC]仙水の新たな人格が出現！[LF][LF][LC][b:ba_stage16190.png][LF][LF][LC][C3:仙水カズヤ]のクエストに挑戦可能！[LF][LC]降臨時に挑戦しよう！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1493049470,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_STARMISSION_SENSUI_1"
+    },
+    {
+      "id": 122,
+      "text": "[LC]仙水の新たな人格が出現！[LF][LF][LC][b:ba_stage16200.png][LF][LF][LC][C3:仙水忍]のクエストに挑戦可能！[LF][LC]降臨時に挑戦しよう！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1493049470,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_STARMISSION_SENSUI_2"
+    },
+    {
+      "id": 123,
+      "text": "数量を指定して精製する",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493049470,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_MEDAL_MENU_SUBTITLE_1"
+    },
+    {
+      "id": 124,
+      "text": "所持上限まで精製する",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493641191,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_MEDAL_MENU_SUBTITLE_2"
+    },
+    {
+      "id": 125,
+      "text": "よろしいですか？[LF][LF]対象のキャラの[C6:神化を達成]、または[C6:売却や強化等][LF][C6:での消費]を行うか、神化素材クエストの[C6:予約解除][LF]をするまで、モンストに[C6:最後にログインしてから][LF][C6:７日間]は常に繰り返し通知が表示されます。",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493641191,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_MUTATION_RESERVED_ATTENTION"
+    },
+    {
+      "id": 126,
+      "text": "[LC][S2]解放の呪文に挑戦しますか？[LF][LF][LC][S2][C4:%s][LF][LF][C8:■ルール][LF]・解放の呪文はすべて[C6:ひらがな]で入力すること[LF]・解放の呪文の入力挑戦可能数は[C6:1日20回]まで[LF]・解放の呪文の有効期限はアニメ配信後[C6:2週間以内][LF][LF][C8:■注意事項][LF]入力挑戦可能数は、解放の呪文に成功した場合も[LF]失敗した場合も回数はカウントされ、[LF]20回を越えるとその日は入力できません。[LF]入力挑戦回数のリセットは毎日0時です。[LF][LF]解放の呪文には、毎話のアニメ配信後[LF]2週間以内の有効期限があります。[LF]期限を過ぎて入力した解放の呪文は[LF]正しく認証されないか、[LF]報酬が変更される場合があります。[LF][LF]解放の呪文の入力に成功した際の報酬は、[LF]受け取りBOXからお受け取りください。[LF][LF][C8:■以下の場合は解放の呪文を正しく認証する][LF][C8:ことができませんのでご注意ください][LF]・解放の呪文が正しくない[LF]・ひらがな以外で入力した[LF]・1日の入力挑戦可能数を過ぎて入力した[LF]・利用済みの解放の呪文を入力した[LF]・解放の呪文の有効期限を越えて入力した[LF]・1アカウントにおける[LF]　報酬受け取り可能数を超えた[LF]",
+      "layout": 27,
+      "color": 0,
+      "created_at": 1493049470,
+      "updated_at": 1564399572,
+      "label": "eTEXTS_DEF_SERIAL_CHECK"
+    },
+    {
+      "id": 127,
+      "text": "[LC]解放の呪文とは[LF][LF][CCB:dlme/help_anicode_00]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1493049470,
+      "updated_at": 1563294519,
+      "label": "eTEXTS_DEF_SERIAL_QA"
+    },
+    {
+      "id": 128,
+      "text": "[LC]所持上限を大幅に超えます[LF][LF][LC][S2]%s[MARGIN10][LF][LC][NODE][LF]所持上限を大幅に超えてしまうため[LF]精製できません[LF][MARGIN20][LF][LC][NODE][LF][LC][S-1]所持上限：%s",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1493049470,
+      "updated_at": 1727195453,
+      "label": "eTEXTS_DEF_MEDAL_ERROR"
+    },
+    {
+      "id": 129,
+      "text": "自動合成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493049470,
+      "updated_at": 1524671558,
+      "label": "eTEXTS_DEF_AUTOCOMB_SETING"
+    },
+    {
+      "id": 130,
+      "text": "[LC]〈十戒〉統率者 メリオダスを止めろ！[LF][LF]このクエストをクリアすると[LF][C6:王女エリザベス＆喋る豚ホーク]から[LF][C6:三千年の約束 メリオダス＆エリザベス]の[LF]切り替えが自由にできるように！[LF][LF][LC][IP8332][LF][LF][LF][LF]※[C6:ソロ]・マルチプレイ[C6:のホスト・ゲスト][LF]　どのクリアも対象です[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1493049470,
+      "updated_at": 1605113857,
+      "label": "eTEXTS_DEF_133"
+    },
+    {
+      "id": 131,
+      "text": "霊界からの指令クリアで挑戦可",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493049470,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_134"
+    },
+    {
+      "id": 132,
+      "text": "[LC]仙水忍に挑め！[LF][LF][LC]このクエストをクリアすると、[LF][LC][C3:聖光気の使い手 仙水忍(★6)]への進化が解放されるぞ！[LF][LF][LC]このクエストに挑むには以下のクエスト[LF][LC][C3:「幽助苦戦！決定的な差」]の[C9:霊界からの指令]を[LF][LC]全てクリアしよう！[LF][LF][LC][b:ba_stage16190.png]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1493049470,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_135"
+    },
+    {
+      "id": 133,
+      "text": "霊界からの指令クリアで挑戦可",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493641191,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_136"
+    },
+    {
+      "id": 134,
+      "text": "[LC]通知設定[LF][LF]%s",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1493641191,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_NOTICE_WINDOW"
+    },
+    {
+      "id": 135,
+      "text": "アニメ最新話の通知をする",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493641191,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_NOTICE_ANIM"
+    },
+    {
+      "id": 136,
+      "text": "モンストニュース・その他の[LF]通知をする",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1493641191,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_NOTICE_NEWS"
+    },
+    {
+      "id": 137,
+      "text": "スケジュール＆繰り返し予約",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1496678980,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_CHAR_RESERV_TITLE"
+    },
+    {
+      "id": 138,
+      "text": "スケジュール",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1496678980,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_CHAR_RESERV_TAB1"
+    },
+    {
+      "id": 139,
+      "text": "繰り返し予約",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1496678980,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_CHAR_RESERV_TAB2"
+    },
+    {
+      "id": 140,
+      "text": "すべて",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1496678980,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_CHAR_RESERV_SUBBUTTON1"
+    },
+    {
+      "id": 141,
+      "text": "絶級",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1496678980,
+      "updated_at": 1697560691,
+      "label": "eTEXTS_DEF_CHAR_RESERV_SUBBUTTON2"
+    },
+    {
+      "id": 142,
+      "text": "ラック",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1496678980,
+      "updated_at": 1697560691,
+      "label": "eTEXTS_DEF_CHAR_RESERV_SUBBUTTON3"
+    },
+    {
+      "id": 143,
+      "text": "予約済",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1496678980,
+      "updated_at": 1697560691,
+      "label": "eTEXTS_DEF_CHAR_RESERV_SUBBUTTON4"
+    },
+    {
+      "id": 144,
+      "text": "現在の繰り返し予約数　%d/%d",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1496678980,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_CHAR_RESERV_MSG"
+    },
+    {
+      "id": 145,
+      "text": "[LC]ストライカー募集を検索します[LF][LF]「検索」をタップすると検索を開始します[LF][LF]・[C4:合言葉]を設定すると、同じ数字を入力した[LF]　友達の募集のみが表示されます[LF]　「[C4:合言葉設定]」から、3桁の数字を入力しましょう[LF][LF]・[C4:合言葉設定]を解除したい時は、[LF]　数字の横の「鍵のボタン」をタップしましょう[LF][LF]・[C4:位置情報（GPS）]許可設定、[C4:電波状況]等を[LF]　ご確認ください",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1496678980,
+      "updated_at": 1636563950,
+      "label": "eTEXTS_DEF_MULTI_GUEST_MESSAGE"
+    },
+    {
+      "id": 146,
+      "text": "検索",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1496678980,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_MULTI_GUEST_BUTTON"
+    },
+    {
+      "id": 147,
+      "text": "予約済み",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1496678980,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_CHAR_RESERVATION_SORTON"
+    },
+    {
+      "id": 148,
+      "text": "未予約",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1496678980,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_CHAR_RESERVATION_SORTOFF"
+    },
+    {
+      "id": 149,
+      "text": "[LC]クエスト詳細[LF][WIDTH530][LF]%s",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1496678980,
+      "updated_at": 1549469127,
+      "label": "eTEXTS_DEF_CHAR_RESERVATION_INFO"
+    },
+    {
+      "id": 150,
+      "text": "[LC]繰り返し予約[LF][LF]%sの[LF]クエストの繰り返し予約を行います。[LF]予約されたクエストは繰り返し通知が送られます。[LF][LF]%s[LF]よろしいですか？[LF]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1496678980,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_CHAR_RESERVATION_CONFIRM"
+    },
+    {
+      "id": 151,
+      "text": "[LC]繰り返し予約[LF][LF]%sの[LF]クエストの繰り返し予約をしました。[LF][LF]※イベント予約と重複している場合は[LF]繰り返し予約で上書かれます。[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1496678980,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_CHAR_RESERVATION_OK"
+    },
+    {
+      "id": 152,
+      "text": "[LC]繰り返し予約[LF][LF]繰り返し予約はモンスター[C6:%d体分]までしか[LF]設定することができません。[LF][LF]選択したモンスターの繰り返し予約を[LF]行いたい場合は、他に予約したモンスターの[LF]繰り返し予約を解除して下さい。[LF][LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1496678980,
+      "updated_at": 1741621129,
+      "label": "eTEXTS_DEF_CHAR_RESERVATION_NG"
+    },
+    {
+      "id": 153,
+      "text": "[LC]繰り返し予約[LF][LF]このモンスターの繰り返し予約を[LF]解除しますか？[LF]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1496678980,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_CHAR_RESERVATION_OFF"
+    },
+    {
+      "id": 154,
+      "text": "[LC]繰り返し予約[LF][LF]繰り返し予約を解除しました。[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1496678980,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_CHAR_RESERVATION_OFFOK"
+    },
+    {
+      "id": 155,
+      "text": "モンスター育成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1496678980,
+      "updated_at": 1670862116,
+      "label": "eTEXTS_DEF_PLAYRECORD_TITLE_MONSTER"
+    },
+    {
+      "id": 156,
+      "text": "モンスター使用回数上位10体",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1496678980,
+      "updated_at": 1670862116,
+      "label": "eTEXTS_DEF_PLAYRECORD_TITLE_MONSTER_TOP10"
+    },
+    {
+      "id": 157,
+      "text": "制覇回数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1496678980,
+      "updated_at": 1670862116,
+      "label": "eTEXTS_DEF_PLAYRECORD_TOWER_COMPLETE"
+    },
+    {
+      "id": 158,
+      "text": "制覇回数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1496678980,
+      "updated_at": 1670862116,
+      "label": "eTEXTS_DEF_PLAYRECORD_BINGO_COMPLETE"
+    },
+    {
+      "id": 159,
+      "text": "モンスター図鑑",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1496678980,
+      "updated_at": 1670862116,
+      "label": "eTEXTS_DEF_PLAYRECORD_LIBRARY"
+    },
+    {
+      "id": 160,
+      "text": "1日1回限定！消費スタミナ1",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1496678980,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_163"
+    },
+    {
+      "id": 161,
+      "text": "[LC]デッキ一覧[LF][LF]%s",
+      "layout": 26,
+      "color": 0,
+      "created_at": 1496678980,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_DECKLIST_SELECT"
+    },
+    {
+      "id": 162,
+      "text": "[LC]ラック確認[LF][LF]選択した合成元モンスターのラックが、[LF]レアリティの限界を超えた合成になります。",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1496678980,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_OVERLUCKSELECT_MESSAGE"
+    },
+    {
+      "id": 163,
+      "text": "投票する",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1496678980,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_BETTING_BUTTON"
+    },
+    {
+      "id": 164,
+      "text": "所持オーブ数内訳",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1496678980,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_BETTING_STR1"
+    },
+    {
+      "id": 165,
+      "text": "無料配布分：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1496678980,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_BETTING_STR2"
+    },
+    {
+      "id": 166,
+      "text": "購入分：",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671559,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_BETTING_STR3"
+    },
+    {
+      "id": 167,
+      "text": "予想",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671559,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_BETTING_STR4"
+    },
+    {
+      "id": 168,
+      "text": "１着",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671559,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_BETTING_STR5"
+    },
+    {
+      "id": 169,
+      "text": "２着",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671559,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_BETTING_STR6"
+    },
+    {
+      "id": 170,
+      "text": "投票するオーブ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1497859240,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_BETTING_STR7"
+    },
+    {
+      "id": 171,
+      "text": "あなたの投票内容",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1497859240,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_BETTING_STR8"
+    },
+    {
+      "id": 172,
+      "text": "投票オーブ数",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1497859240,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_BETTING_STR9"
+    },
+    {
+      "id": 173,
+      "text": "競争結果",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1497859240,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_BETTING_STR10"
+    },
+    {
+      "id": 174,
+      "text": "[LC]十二支再競争開催決定！[LF][LF][LC][b:ba_animalcampaign_01.png][LF]本物の動物たちによる十二支再競争が開催！[LF]1着、2着の動物を予想して、[C5:無料配布オーブ]を投票しよう！[LF]見事1着的中で、投票した数の10倍オーブが返ってくるよ！[LF]さらに1着2着的中で報酬3億円分を山分けプレゼント！[LF]%s[LF]購入オーブに含まれる無料配布数は[u:http://www.monster-strike.com/help/answer04/#help_0404|こちら][LF][LF][C3:●投票に使えるのは無料配布オーブのみです][LF][C3:●投票期間中はいつでも投票できます][LF][C3:●投票できる回数は期間中１回のみです][LF][C3:●投票のやり直しはできません]",
+      "layout": 26,
+      "color": 0,
+      "created_at": 1497859240,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_BETTING_MESSAGE_BEFORE"
+    },
+    {
+      "id": 175,
+      "text": "[LC]モンストラックアウト予想受付中！[LF][LF][LC][b:ba_help_ver10toto.png][LF]リアルガチャリドラの左目にボールを当てることができるのは[LF]8種目のどの競技か？[C5:無料配布オーブ]を使って予想しよう！[LF]成功・失敗の種目を全て的中で、3億円を山分け！[LF]成功数のみ的中だと、使ったオーブの10倍が貰える！[LF]%s[LF]購入オーブに含まれる無料配布数は[u:http://www.monster-strike.com/help/answer04/#help_0404|こちら][LF][LF][C3:●予想には無料配布オーブのみ使用できます][LF][C3:●予想期間中はいつでも予想できます][LF][C3:●予想確定は期間中１回のみです][LF][C3:●やり直して再度予想することはできません][LF]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1497859240,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_BETTING_MESSAGE_POLL"
+    },
+    {
+      "id": 176,
+      "text": "[LC]無料配布オーブ不足[LF][LF]無料配布オーブを持っていないため、参加できません。[LF]参加するには無料配布オーブが最低１個必要です。[LF]クエストの初クリア報酬やログインオーブなどで、[LF]無料配布オーブを手に入れて参加しよう！！",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1497859240,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_BETTING_MESSAGE_POLL_ORB"
+    },
+    {
+      "id": 177,
+      "text": "[LC]タップして成功種目を選ぼう！[LF][LF]%s[LF]",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1497859240,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_BETTING_MESSAGE_POLL_MAIN"
+    },
+    {
+      "id": 178,
+      "text": "[LC]パスワードを入力してください[LF][LF]モンストラックアウトの予想を確定させるため、[LF]以下に表示されているモンスターを、[LF]順番に３つタップしてください。[LF][C2:※この確認が終わると、予想が確定されます][LF]%s[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1497859240,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_BETTING_MESSAGE_POLL_PASS"
+    },
+    {
+      "id": 179,
+      "text": "[LC]予想の登録が完了しました[LF][LF][LC]競技は10月13日19:00から！[LF][LC]お楽しみに！！[LF]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1497859240,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_BETTING_MESSAGE_POLL_OK"
+    },
+    {
+      "id": 180,
+      "text": "入力が間違っています[LF]もう一度入力してください。[LF]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1497859240,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_BETTING_MESSAGE_POLL_NG"
+    },
+    {
+      "id": 181,
+      "text": "間違った入力が繰り返されたため[LF]登録をロックしました。[LF]しばらく経ってから再度入力してください。[LF]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1497859240,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_BETTING_MESSAGE_POLL_LOCK"
+    },
+    {
+      "id": 182,
+      "text": "[LC]予想受付終了[LF][LF][LC][b:ba_help_ver10toto.png][LF]%s[LF][LF][LC]自分の予想をキャプチャーしておこう![LF]",
+      "layout": 26,
+      "color": 0,
+      "created_at": 1497859240,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_BETTING_MESSAGE_POLLEND"
+    },
+    {
+      "id": 183,
+      "text": "[LC]モンストラックアウト開催中！[LF][LF][LC][b:ba_help_ver10toto.png][LF]モンストラックアウト開催中！[LF]特設サイトで競技の様子を生配信中！[LF]%s[LF]",
+      "layout": 26,
+      "color": 0,
+      "created_at": 1497859241,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_BETTING_MESSAGE_RACE"
+    },
+    {
+      "id": 184,
+      "text": "[LC]結果発表準備中[LF][LF][LC]結果が発表されるまで[LF][LC]今しばらくお待ちください。[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1497859241,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_BETTING_MESSAGE_TALLY"
+    },
+    {
+      "id": 185,
+      "text": "モンストラックアウトの結果を確認しますか？[LF][LF]",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1497859241,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_BETTING_MESSAGE_RESULT"
+    },
+    {
+      "id": 186,
+      "text": "[LC]モンストラックアウト結果発表！[LF][LF][LC][b:10toto_result_txt_01.png][LF][C6:報酬３億円分山分け＋予想に使ったオーブ×10をGET！][LF]プレゼントは受け取りBOXに届きます[LF]配布までしばらくお待ち下さい[LF]%s[LF]",
+      "layout": 26,
+      "color": 0,
+      "created_at": 1497859241,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_BETTING_MESSAGE_RESULT_12"
+    },
+    {
+      "id": 187,
+      "text": "[LC]モンストラックアウト結果発表！[LF][LF][LC][b:10toto_result_txt_02.png][LF][C6:予想に使ったオーブ×10をプレゼント！][LF]プレゼントは受け取りBOXに届きます[LF]配布までしばらくお待ち下さい[LF]%s[LF]",
+      "layout": 26,
+      "color": 0,
+      "created_at": 1497859241,
+      "updated_at": 1524671559,
+      "label": "eTEXTS_DEF_BETTING_MESSAGE_RESULT_1"
+    },
+    {
+      "id": 188,
+      "text": "[LC]モンストラックアウト結果発表！[LF][LF][LC][b:10kuji_result_txt_02.png][LF]予想は外れましたが、[C5:スタミナミン]をプレゼント！[LF]プレゼントは受け取りBOXに届きます[LF]配布までしばらくお待ち下さい[LF]%s[LF]",
+      "layout": 26,
+      "color": 0,
+      "created_at": 1497859241,
+      "updated_at": 1524671560,
+      "label": "eTEXTS_DEF_BETTING_MESSAGE_RESULT_MISS"
+    },
+    {
+      "id": 189,
+      "text": "[LC]モンストラックアウト結果発表！[LF][LF][LC]あなたは予想に参加していません。[LF]%s[LF]",
+      "layout": 26,
+      "color": 0,
+      "created_at": 1497859241,
+      "updated_at": 1524671560,
+      "label": "eTEXTS_DEF_BETTING_MESSAGE_RESULT_NONE"
+    },
+    {
+      "id": 190,
+      "text": "[LC]使用するオーブ数を選択してください[LF][LF]予想に使う無料オーブ数が選択されていません。[LF]何個使うかを選択してください。",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1497859241,
+      "updated_at": 1524671560,
+      "label": "eTEXTS_DEF_BETTING_MESSAGE_MAIN_NG"
+    },
+    {
+      "id": 191,
+      "text": "[LC]ゴールドが足りません[LF][LF]ゴールドが不足しているため、[LF]ステージに挑戦できません。[LF][LF][C6:※「毎日がカネ曜日！」クエストをクリア][LF][C6:するとゴールドを獲得できます。]",
+      "layout": 24,
+      "color": 0,
+      "created_at": 1497859241,
+      "updated_at": 1524671560,
+      "label": "eTEXTS_DEF_GOLDQUEST_RESTORE"
+    },
+    {
+      "id": 192,
+      "text": "カネ曜日へ！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1497859241,
+      "updated_at": 1524671560,
+      "label": "eTEXTS_DEF_GOLDQUEST_RESTORE_AGREE"
+    },
+    {
+      "id": 193,
+      "text": "[LC]繰り返し予約[LF][LF]繰り返し予約で設定しています。[LF]繰り返し予約を解除するには、[LF]繰り返し予約設定画面から解除してください。",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1497859241,
+      "updated_at": 1524671560,
+      "label": "eTEXTS_DEF_CHAR_RESERVATION_CAUTION"
+    },
+    {
+      "id": 194,
+      "text": "戻る",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1497859241,
+      "updated_at": 1524671560,
+      "label": "eTEXTS_DEF_COMB_BUTTON"
+    },
+    {
+      "id": 195,
+      "text": "個別に合成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1497859241,
+      "updated_at": 1524671560,
+      "label": "eTEXTS_DEF_COMB_BUTTON_SELECT"
+    },
+    {
+      "id": 196,
+      "text": "-",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1497859241,
+      "updated_at": 1524671560,
+      "label": "eTEXTS_DEF_COMB_BUTTON_AUTO"
+    },
+    {
+      "id": 197,
+      "text": "-",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1497859241,
+      "updated_at": 1524671560,
+      "label": "eTEXTS_DEF_COMB_BUTTON_AUTO_RETURN"
+    },
+    {
+      "id": 198,
+      "text": "半分まで合成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671560,
+      "updated_at": 1524671560,
+      "label": "eTEXTS_DEF_COMB_BUTTON_AUTO_HALF"
+    },
+    {
+      "id": 199,
+      "text": "最大まで合成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671560,
+      "updated_at": 1524671560,
+      "label": "eTEXTS_DEF_COMB_BUTTON_AUTO_MAX"
+    },
+    {
+      "id": 200,
+      "text": "[LF][NODE][LF][LF]わくわくミン%d個を使用し、このわくわくの力を[LF]成長させますか？[LF][LF][S1][C2:※同じ力に、再度使用することはできません]",
+      "layout": 29,
+      "color": 0,
+      "created_at": 1496678980,
+      "updated_at": 1660578525,
+      "label": "eTEXTS_DEF_GEM_GROW_CONFIRM"
+    },
+    {
+      "id": 201,
+      "text": "わくわくミンを使用する[LF]わくわくの力を選んでください",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1496678980,
+      "updated_at": 1524671560,
+      "label": "eTEXTS_DEF_GEM_GROW_1"
+    },
+    {
+      "id": 202,
+      "text": "[LC]わくわくミンとは[LF][LF][TAB:わくわくミン][CCB:dlme/help_wakuwakumin00][TAB:わくわくミンEL][CCB:dlme/help_wm_00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1496678980,
+      "updated_at": 1659577757,
+      "label": "eTEXTS_DEF_GEM_GROW_HELP"
+    },
+    {
+      "id": 203,
+      "text": "[LC]英雄の書 継承とは[LF][LF][CCB:dlme/help_gemkeisyou_00]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671560,
+      "updated_at": 1538494845,
+      "label": "eTEXTS_DEF_INHERIT_HELP"
+    },
+    {
+      "id": 204,
+      "text": "継承元選択",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1524671560,
+      "updated_at": 1524671560,
+      "label": "eTEXTS_DEF_INHERIT_TITLE_ORIGINAL"
+    },
+    {
+      "id": 205,
+      "text": "継承先選択",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1499700219,
+      "updated_at": 1524671560,
+      "label": "eTEXTS_DEF_INHERIT_TITLE_TARGET"
+    },
+    {
+      "id": 206,
+      "text": "わくわくの力を選択",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1499700219,
+      "updated_at": 1524671560,
+      "label": "eTEXTS_DEF_INHERIT_TITLE_SELECT"
+    },
+    {
+      "id": 207,
+      "text": "[LC]継承元選択について[LF][LF]継承元のモンスターを選択してください[LF][LF]なお、英雄の書を継承すると、継承元の[LF]モンスターから英雄の証が1つ無くなります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1499700219,
+      "updated_at": 1657555184,
+      "label": "eTEXTS_DEF_INHERIT_DIALOG_ORIGINAL"
+    },
+    {
+      "id": 208,
+      "text": "[LC]継承先選択について[LF][LF]継承先のモンスターを選択してください[LF][LF]すでに、英雄の証を解放している[LF]モンスターは対象外になります",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1499700219,
+      "updated_at": 1657555184,
+      "label": "eTEXTS_DEF_INHERIT_DIALOG_TARGET"
+    },
+    {
+      "id": 209,
+      "text": "[LC]わくわくの力の選択について[LF][LF]英雄の書を継承すると、[LF]わくわくの力が1つ失われます[LF]継承元のモンスターに残したい、[LF]わくわくの力を選択してください[LF][LF]※わくわくステッキを使用すると[LF]継承元のわくわくの力は失われません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1499700219,
+      "updated_at": 1657555184,
+      "label": "eTEXTS_DEF_INHERIT_DIALOG_SELECT"
+    },
+    {
+      "id": 210,
+      "text": "[LC]継承確認について[LF][LF][LC]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1499700219,
+      "updated_at": 1524671560,
+      "label": "eTEXTS_DEF_INHERIT_DIALOG_CHECK"
+    },
+    {
+      "id": 211,
+      "text": "[LC][C2:◆◆ 警告 ◆◆][LF][LF][LC][NODE][LF]このモンスターに英雄の書を継承しますか？[LF][LF]英雄の書を継承すると、継承元の[LF]モンスターから英雄の証が1つなくなります[LF][LF]本当によろしいですか？",
+      "layout": 8,
+      "color": 1,
+      "created_at": 1499700219,
+      "updated_at": 1657555184,
+      "label": "eTEXTS_DEF_INHERIT_WARNING_LAST"
+    },
+    {
+      "id": 212,
+      "text": "残したいわくわくの力を%dつ選択してください",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1499700219,
+      "updated_at": 1657555184,
+      "label": "eTEXTS_DEF_INHERIT_UI_GEMSELECT"
+    },
+    {
+      "id": 213,
+      "text": "[LC]英雄の書を継承しますか？[LF][LF][LC][NODE][LF]※わくわくの力を継承先のモンスターに[LF]引き継ぐことはできません。[LF]※わくわくの力を選択し直す場合は、[LF]画面を戻り、再度、残したい力を選択してください",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1499700219,
+      "updated_at": 1657555184,
+      "label": "eTEXTS_DEF_INHERIT_UI_CHECK"
+    },
+    {
+      "id": 214,
+      "text": "わくわくの力は失われません",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1499700219,
+      "updated_at": 1657555184,
+      "label": "eTEXTS_DEF_INHERIT_UI_PROMPT01"
+    },
+    {
+      "id": 215,
+      "text": "選択されなかった力が失われます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1499700219,
+      "updated_at": 1657555184,
+      "label": "eTEXTS_DEF_INHERIT_UI_PROMPT02"
+    },
+    {
+      "id": 216,
+      "text": "英雄の書を継承すると、[LF]わくわくの力は失われます[LF][LF]※わくわくの実を食べさせていない場合、[LF]失われる力はありません[LF]",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1499700219,
+      "updated_at": 1657555184,
+      "label": "eTEXTS_DEF_INHERIT_UI_WAKU0_SELECT"
+    },
+    {
+      "id": 217,
+      "text": "[LC]英雄の書を継承しますか？[LF][LF][LC][NODE][LF] [LF]※わくわくの力を継承先のモンスターに[LF]引き継ぐことはできません",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1499700219,
+      "updated_at": 1657555184,
+      "label": "eTEXTS_DEF_INHERIT_UI_WAKU0_CHECK"
+    },
+    {
+      "id": 218,
+      "text": "わくわくの力を成長",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1499700219,
+      "updated_at": 1524671560,
+      "label": "eTEXTS_DEF_GEM_GROW_TITLE"
+    },
+    {
+      "id": 219,
+      "text": "編成",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1499700219,
+      "updated_at": 1524671560,
+      "label": "eTEXTS_DEF_ME_TEAM"
+    },
+    {
+      "id": 220,
+      "text": "強化",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1499700219,
+      "updated_at": 1570463651,
+      "label": "eTEXTS_DEF_ME_GROWTH"
+    },
+    {
+      "id": 221,
+      "text": "亀・タスを引っ越す",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1499700219,
+      "updated_at": 1524671560,
+      "label": "eTEXTS_DEF_ME_MOVING_BOX"
+    },
+    {
+      "id": 222,
+      "text": "進化",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1499700219,
+      "updated_at": 1570463651,
+      "label": "eTEXTS_DEF_ME_EVOLUTION"
+    },
+    {
+      "id": 223,
+      "text": "英雄の証・わくわくの力",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1499700219,
+      "updated_at": 1524671560,
+      "label": "eTEXTS_DEF_ME_GEM"
+    },
+    {
+      "id": 224,
+      "text": "英雄の証をつける",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1499700219,
+      "updated_at": 1657555184,
+      "label": "eTEXTS_DEF_ME_GEM_UNLOCK"
+    },
+    {
+      "id": 225,
+      "text": "英雄の証を解放",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1499700219,
+      "updated_at": 1657555184,
+      "label": "eTEXTS_DEF_ME_GEM_REWARD"
+    },
+    {
+      "id": 226,
+      "text": "わくわくの力の等級をあげる",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1499700219,
+      "updated_at": 1657555184,
+      "label": "eTEXTS_DEF_ME_GEM_GROW"
+    },
+    {
+      "id": 227,
+      "text": "売却",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1499700219,
+      "updated_at": 1524671560,
+      "label": "eTEXTS_DEF_ME_SELL"
+    },
+    {
+      "id": 228,
+      "text": "ユメ玉限定引き換え",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1499700219,
+      "updated_at": 1528894419,
+      "label": "eTEXTS_DEF_ME_LUCK_CHANGE_ASSIGNED"
+    },
+    {
+      "id": 229,
+      "text": "サポテンダー引き換え",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1499700219,
+      "updated_at": 1524671560,
+      "label": "eTEXTS_DEF_ME_COLLABO_FF"
+    },
+    {
+      "id": 230,
+      "text": "ラック引き換え",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1499700219,
+      "updated_at": 1524671560,
+      "label": "eTEXTS_DEF_ME_LUCK_CHANGE"
+    },
+    {
+      "id": 231,
+      "text": "メダル引き換え",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1499700219,
+      "updated_at": 1524671560,
+      "label": "eTEXTS_DEF_ME_MEDAL_CHANGE"
+    },
+    {
+      "id": 232,
+      "text": "モンスターBOX",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1499700219,
+      "updated_at": 1524671560,
+      "label": "eTEXTS_DEF_ME_MO_BOX"
+    },
+    {
+      "id": 233,
+      "text": "強化素材BOX",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1499700219,
+      "updated_at": 1524671560,
+      "label": "eTEXTS_DEF_ME_ST_BOX"
+    },
+    {
+      "id": 234,
+      "text": "進化アイテム",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1499700219,
+      "updated_at": 1524671560,
+      "label": "eTEXTS_DEF_ME_EV_BOX"
+    },
+    {
+      "id": 235,
+      "text": "モンスター図鑑",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1499700219,
+      "updated_at": 1524671560,
+      "label": "eTEXTS_DEF_ME_LIBRARY"
+    },
+    {
+      "id": 236,
+      "text": "英雄の証を継承",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1499700219,
+      "updated_at": 1657555184,
+      "label": "eTEXTS_DEF_ME_GEM_INHERIT"
+    },
+    {
+      "id": 237,
+      "text": "獲得可能な副友情コンボ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1499700219,
+      "updated_at": 1524671560,
+      "label": "eTEXTS_DEF_VIRTUAL_CHAR_TITLE"
+    },
+    {
+      "id": 238,
+      "text": "英雄の書を所持していない為、[LF]英雄の証を解放する事ができません[LF][LF]英雄の書は覇者の塔、禁忌の獄などで[LF]獲得できます",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1499700219,
+      "updated_at": 1657555184,
+      "label": "eTEXTS_DEF_ME_GEM_ERROR_REWARD"
+    },
+    {
+      "id": 239,
+      "text": "英雄の証を解放しているモンスターがいないため[LF]英雄の書を継承することができません",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1499700219,
+      "updated_at": 1657555184,
+      "label": "eTEXTS_DEF_ME_GEM_ERROR_INHERIT"
+    },
+    {
+      "id": 240,
+      "text": "わくわくミンを所持していない為、[LF]わくわくの力を成長させることができません[LF][LF]わくわくミンは禁忌の獄などで獲得できます",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1499700220,
+      "updated_at": 1657555184,
+      "label": "eTEXTS_DEF_ME_GEM_ERROR_GROW"
+    },
+    {
+      "id": 241,
+      "text": "[LC]英雄の証をつけよう！[LF][LF][C4:「英雄の証」]を持ったモンスターだけが[LF]ランク40以上の限定ステージ[C4:「英雄の神殿」]で[LF]手に入る[C4:「わくわくの実」]を食べられるぞ！[LF][LF][C4:「英雄の証をつける」]が表示されたらタッチ！[LF]",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1499700220,
+      "updated_at": 1657555184,
+      "label": "eTEXTS_DEF_GEM_UNLOCK_INTRO"
+    },
+    {
+      "id": 242,
+      "text": "[LC]わくわくの力を成長させよう！[LF][LF][C4:「わくわくミン」]を使うと[LF]モンスターについている[C4:「わくわくの力」]を[LF]1段階成長することができるぞ！[LF][LF][C4:「英雄の証・書／わくわくの力」]のメニュー[LF]にある[C4:「わくわくの力を成長」]から[LF]わくわくミンを使用しよう。[LF]※1つのわくわくの力につき[LF]わくわくミンは1度のみの使用となります",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1499700220,
+      "updated_at": 1524671560,
+      "label": "eTEXTS_DEF_GEM_GROW_INTRO"
+    },
+    {
+      "id": 243,
+      "text": "次へ",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1499700220,
+      "updated_at": 1524671560,
+      "label": "eTEXTS_DEF_INHERIT_BUTTON_OK"
+    },
+    {
+      "id": 244,
+      "text": "[LC][C2:◆◆ 警告 ◆◆][LF][LF][LC][NODE][LF]このモンスターに英雄の書を継承しますか？[LF][LF]英雄の書を継承すると、継承元の[LF]モンスターから英雄の証が1つ無くなります[LF][LF]また、選択しなかった力、[LF][C5:%s]は失われます[LF][LF]本当によろしいですか？",
+      "layout": 8,
+      "color": 1,
+      "created_at": 1499700220,
+      "updated_at": 1657555184,
+      "label": "eTEXTS_DEF_INHERIT_WARNING_LAST_GEMNAME"
+    },
+    {
+      "id": 245,
+      "text": "継承できるモンスターがいません[LF][LF]英雄の書は強化合成でラックを上げることが[LF]できるモンスターにのみ、引き継ぐことができます",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1499700220,
+      "updated_at": 1657555184,
+      "label": "eTEXTS_DEF_INHERIT_DIALOG_NO_TARGET"
+    },
+    {
+      "id": 246,
+      "text": "[WIDTH580]%s[LF]変更前の実にわくわくミンを使用しています[LF]わくわくミンの効果も失われますが、[LF]よろしいでしょうか？",
+      "layout": 29,
+      "color": 0,
+      "created_at": 1499700220,
+      "updated_at": 1660578525,
+      "label": "eTEXTS_DEF_CHANGE_GROW_GEM_ALERT"
+    },
+    {
+      "id": 247,
+      "text": "クエストを開放いたしました[LF]強化進化クエストに移動します",
+      "layout": 3,
+      "color": 0,
+      "created_at": 1499700220,
+      "updated_at": 1657555184,
+      "label": "eTEXTS_DEF_RELEASE_QUEST_SUCCESS"
+    },
+    {
+      "id": 248,
+      "text": "[LC]開放できません[LF][LF]クエストは[C6:%d時間]に1回だけ開放できます[LF]開放可能になるまであと[C6:%s]お待ちください",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1499700220,
+      "updated_at": 1657555184,
+      "label": "eTEXTS_DEF_RELEASE_QUEST_ALREADYOPEN"
+    },
+    {
+      "id": 249,
+      "text": "継承元",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1499700220,
+      "updated_at": 1524671561,
+      "label": "eTEXTS_DEF_INHERIT_POPUP_ORIGIN"
+    },
+    {
+      "id": 250,
+      "text": "継承先",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1499700220,
+      "updated_at": 1524671561,
+      "label": "eTEXTS_DEF_INHERIT_POPUP_TARGET"
+    },
+    {
+      "id": 251,
+      "text": "使用前",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1499700220,
+      "updated_at": 1524671561,
+      "label": "eTEXTS_DEF_GEM_GROW_PREV_USE"
+    },
+    {
+      "id": 252,
+      "text": "使用後",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1499700220,
+      "updated_at": 1524671561,
+      "label": "eTEXTS_DEF_GEM_GROW_AFTER_USE"
+    },
+    {
+      "id": 253,
+      "text": "[LC]大総統の帰還[LF][WIDTH560][LF][LC][IC4585][LF][LF][LF][LF][LF][LF]キング・ブラッドレイが降臨！[LF]イベントクエストから挑戦しよう！！",
+      "layout": 0,
+      "color": 0,
+      "created_at": 1499700220,
+      "updated_at": 1678722211,
+      "label": "eTEXTS_DEF_BR_ASSAULT_MESSAGE"
+    },
+    {
+      "id": 254,
+      "text": "[LC]開放できません[LF][LF]クエストは[C6:%d時間]に1回だけ開放できます[LF]開放可能になるまであと[C6:%s]お待ちください",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1499700220,
+      "updated_at": 1657555184,
+      "label": "eTEXTS_DEF_RELEASE_QUEST_COOLTIME"
+    },
+    {
+      "id": 255,
+      "text": "[LC]クエスト開放期間終了[LF][LF]クエスト開放中又はクエスト開放待機中に[LF]コラボ期間が終了するため、クエストを開放できません",
+      "layout": 9,
+      "color": 0,
+      "created_at": 1499700220,
+      "updated_at": 1657555184,
+      "label": "eTEXTS_DEF_RELEASE_QUEST_CANNOT_BUY"
+    },
+    {
+      "id": 256,
+      "text": "ダミー",
+      "layout": 8,
+      "color": 0,
+      "created_at": 1499700220,
+      "updated_at": 1524671561,
+      "label": "eTEXTS_DEF_XLNQ_SETTING_DIALOG_OFF"
+    }
+  ]
+}
