@@ -17,7 +17,7 @@ async function showRecord(table,id){
   try{const row=await state.store.record(table,id);if(!row)throw new Error('このレコードは配信データ内で確認できません。');const content=await state.view.render(table,row);if(token!==detailRequest)return;const h2=content.querySelector('h2');if(h2)h2.id='internal-detail-title';body.replaceChildren(content);dialog.querySelector('.dialog-top span').textContent=tableLabel(table);dialog.scrollTop=0;const a=el('a','この情報へのリンク ↗','external');a.href='?kind=tables&table='+encodeURIComponent(table)+'&id='+id;body.append(a);}
   catch(exception){if(token===detailRequest)body.replaceChildren(el('p',exception.message,'error'));}
 }
-function showAsset(row){++detailRequest;const body=$('internal-detail-body');body.replaceChildren(el('h2',row.name));const image=el('img','','internal-detail-image');image.src=row.image;image.alt=row.name;body.append(image);if(!$('internal-detail').open)$('internal-detail').showModal();}
+function showAsset(row){++detailRequest;const dialog=$('internal-detail'),body=$('internal-detail-body'),title=el('h2',row.name);title.id='internal-detail-title';body.replaceChildren(title);const image=el('img','','internal-detail-image');image.src=row.image;image.alt=row.name;body.append(image);dialog.querySelector('.dialog-top span').textContent='画像候補';if(!dialog.open)dialog.showModal();dialog.scrollTop=0;}
 function option(value,text){const node=el('option',text);node.value=value;return node;}
 function refreshFilters(){
   const selector=$('internal-filter'),old=state.filter;
