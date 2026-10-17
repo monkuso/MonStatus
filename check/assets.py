@@ -12,7 +12,7 @@ from PIL import Image
 
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 from assetcodec import name_hash,decode
-from cloudassets import RemoteArchive,TransferBudget,image_resources,sync_assets
+from cloudassets import RemoteArchive,TransferBudget,image_resources,sync_assets,package_identity
 from atlasassets import frame_png
 from assetinventory import discover_atlases
 from visualassets import image_names
@@ -22,6 +22,16 @@ import json
 
 class AssetSyncTests(unittest.TestCase):
     seed=(1,2,3,4)
+    def test_verified_inventory_is_reused_only_for_identical_package_fingerprint(self):
+        name='cb/cb13103.png';digest=name_hash(name);raw,row=self.package({name:self.png()})
+        with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parent) as directory:
+            site=Path(directory);(site/'config').mkdir();record={'fingerprint':package_identity(row),'members':{digest:digest},'headerKinds':{digest:'png'},'atlases':{},'atlasScanComplete':True}
+            (site/'config'/'resource-inventory.json').write_text(json.dumps({'resources':{row['path']:record}}),encoding='utf-8')
+            manifest,state=sync_assets(self.catalog(),[row],self.seed,site,{}, {},self.opener(raw,[]))
+            self.assertEqual(state['resources'][row['path']],record);self.assertIn('13103',manifest['characters'])
+            changed={**row,'version':2};calls=[]
+            manifest,state=sync_assets(self.catalog(),[changed],self.seed,site,manifest,state,self.opener(raw,calls))
+            self.assertNotEqual(state['resources'][row['path']]['fingerprint'],record['fingerprint']);self.assertGreater(len(calls),0)
     def test_visual_fields_include_multiple_parts_without_guessing_extensions_or_numeric_ids(self):
         self.assertEqual(image_names({'base_image':'base.png','additional_front_image':'front.png','calendar_icon_name':'cal.png','icon_name_1':'icon1.png','icon_name_2':'icon2.png','image_id':12,'image_name':'extensionless','weapon_ccb_file_name':'scene.ccbi','file_name':'../wrong.png|base.png'}),['base.png','front.png','cal.png','icon1.png','icon2.png'])
     def test_discovery_finds_unlisted_atlas_and_reuses_verified_inventory(self):

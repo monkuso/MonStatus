@@ -157,6 +157,8 @@ def sync_assets(catalog,resources,seed,site,manifest,state,opener=urllib.request
     manifest=json.loads(json.dumps(manifest))
     old_sources=state.get('images',{})
     previous=state.get('resources',{})
+    bootstrap_file=site/'config'/'resource-inventory.json'
+    bootstrap=json.loads(bootstrap_file.read_text(encoding='utf-8')).get('resources',{}) if bootstrap_file.is_file() else {}
     state={'schemaVersion':1,'resources':{},'images':dict(old_sources)}
     budget=TransferBudget()
     failures=[];readers={};records={}
@@ -164,6 +166,8 @@ def sync_assets(catalog,resources,seed,site,manifest,state,opener=urllib.request
     def index(row):
         path=row['path'];fingerprint=package_identity(row)
         old=previous.get(path,{})
+        verified=bootstrap.get(path,{})
+        if verified.get('fingerprint')==fingerprint and verified.get('atlasScanComplete') and (old.get('fingerprint')!=fingerprint or not old.get('atlasScanComplete')):old=verified
         negative_age=time.time()-datetime.datetime.fromisoformat(old['checkedAt']).timestamp() if old.get('availability')=='not-distributed' else None
         if old.get('fingerprint')==fingerprint and (negative_age is None or 0<=negative_age<600):return path,old,None,None
         try:
