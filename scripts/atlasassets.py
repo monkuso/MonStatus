@@ -2,14 +2,10 @@ import hashlib
 import io
 import json
 import os
-import plistlib
 import re
 import uuid
 from PIL import Image
-from assetcodec import name_hash,write_image
-
-ATLAS_NAMES=('cp_again','cp_favorite_317','fountain_cmn','journey','kyuri_2_sub2','nevada_all','nibu_itemga','ocean','sazae_2_sub2_cmn','seesaw_c','ui_items','wallbreak','wonder_all','yatai_1_sub1')
-
+from assetcodec import write_image
 
 def frame_png(sheet,frame):
     numbers=lambda value:list(map(int,re.findall(r'-?\d+',value)))
@@ -24,38 +20,67 @@ def frame_png(sheet,frame):
     canvas=Image.new('RGBA',(sw,sh));canvas.paste(piece,(sx,sy));buffer=io.BytesIO();canvas.save(buffer,format='PNG');return buffer.getvalue()
 
 
-def sync_item_atlases(rows,read,providers,site,manifest,state,missing):
-    wanted={row['image_name'] for row in rows if isinstance(row.get('image_name'),str) and row['image_name'].endswith('.png')}
-    manifest.setdefault('items',{});selections={};ambiguous=set();failures=[];updated=0
-    for base in ATLAS_NAMES:
-        plist_hash=name_hash('dlme/'+base+'.plist');png_hash=name_hash('dlme/'+base+'.png')
-        if plist_hash not in providers or png_hash not in providers:continue
-        sources=[providers[plist_hash],providers[png_hash]]
-        fingerprint=hashlib.sha256(json.dumps([state['resources'][path]['fingerprint'] for path in sources],sort_keys=True).encode()).hexdigest()
-        try:
-            plist=plistlib.loads(re.sub(br'<!DOCTYPE[^>]*>',b'',read(sources[0],plist_hash).rstrip(b'\0'),flags=re.S));frames=plist['frames'];selected=wanted&frames.keys()
-            if not selected:continue
-            with Image.open(io.BytesIO(read(sources[1],png_hash))) as image:
-                if max(image.size)>4096:raise ValueError('Atlas image dimensions rejected')
-                sheet=image.convert('RGBA')
-                for name in selected:
-                    plain=frame_png(sheet,frames[name]);digest=hashlib.sha256(plain).hexdigest()
-                    if name in selections and selections[name][1]!=digest:ambiguous.add(name)
-                    else:selections[name]=(plain,digest,fingerprint)
-        except Exception as error:failures.append({'atlas':base,'errorType':type(error).__name__})
-    for name,(plain,digest,fingerprint) in selections.items():
-        if name in ambiguous:missing['items:'+name]='ambiguous-atlas-frame';continue
-        relative=manifest['items'].get(name) or 'assets/items/'+hashlib.sha256(name.encode()).hexdigest()[:24]+'.webp'
-        if not isinstance(relative,str) or not re.fullmatch(r'assets/items/[a-f0-9]+\.webp',relative):relative='assets/items/'+hashlib.sha256(name.encode()).hexdigest()[:24]+'.webp'
-        destination=site/relative
-        if state['images'].get('items:'+name)!=fingerprint or not destination.is_file():
-            destination.parent.mkdir(parents=True,exist_ok=True);temporary=destination.with_name(destination.name+'.'+uuid.uuid4().hex+'.tmp')
-            try:write_image(plain,temporary);os.replace(temporary,destination);updated+=1
-            finally:
-                if temporary.exists():temporary.unlink()
-        manifest['items'][name]=relative;manifest.setdefault('imageVersions',{})[relative]=digest[:16];state['images']['items:'+name]=fingerprint
+def sync_atlas_images(rows,event_names,descriptors,read,providers,site,manifest,state,missing,registry):
+    from assetinventory import png_candidates
+    wanted_items={row['image_name'] for row in rows if isinstance(row.get('image_name'),str) and row['image_name']}
+    wanted_events=set(event_names)
+    selections={'items':{},'events':{}};failures=[];updated=0;unresolved=[];resolved_families=set()
+    for atlas in descriptors:
+        family=(atlas['hash'],re.sub(r'_[ns]\.zip$','.zip',atlas['package']))
+        if family in resolved_families:continue
+        names=set(atlas['frames'])&(wanted_items|wanted_events)
+        if not names:continue
+        candidates=png_candidates(atlas['hash'],atlas['metadata'],registry,providers);sheets={}
+        for digest in candidates:
+            try:
+                plain=read(providers[digest],digest)
+                if not plain.startswith(b'\x89PNG\r\n\x1a\n'):continue
+                with Image.open(io.BytesIO(plain)) as image:
+                    image.load()
+                    if max(image.size)>4096:continue
+                    expected=list(map(int,re.findall(r'\d+',str(atlas['metadata'].get('size','')))))
+                    if len(expected)==2 and image.size!=tuple(expected):continue
+                    sheets[hashlib.sha256(plain).hexdigest()]=(image.convert('RGBA'),digest)
+            except (ValueError,OSError):continue
+        if len(sheets)!=1:
+            unresolved.append({'hash':atlas['hash'],'package':atlas['package'],'texture':atlas['metadata'].get('textureFileName'),'reason':'texture-not-resolved' if not sheets else 'multiple-textures','frames':sorted(names)})
+            continue
+        sheet,png_hash=next(iter(sheets.values()));png_package=providers[png_hash]
+        resolved_families.add(family)
+        fingerprint=hashlib.sha256(json.dumps([state['resources'][atlas['package']]['fingerprint'],state['resources'][png_package]['fingerprint']],sort_keys=True).encode()).hexdigest()
+        for name in names:
+            try:
+                plain=frame_png(sheet,atlas['frames'][name]);digest=hashlib.sha256(plain).hexdigest()
+                for category,wanted in [('items',wanted_items),('events',wanted_events)]:
+                    if name in wanted:selections[category].setdefault(name,{})[digest]=(plain,fingerprint,atlas['hash'])
+            except (ValueError,KeyError) as error:failures.append({'atlas':atlas['hash'],'asset':name,'errorType':type(error).__name__})
+    for category,by_name in selections.items():
+        manifest.setdefault(category,{})
+        variants_key='itemVariants' if category=='items' else 'eventVariants'
+        manifest.setdefault(variants_key,{})
+        for name,variants in by_name.items():
+            entries=[]
+            for digest,(plain,fingerprint,atlas_hash) in sorted(variants.items()):
+                suffix='_'+digest[:16] if len(variants)>1 else ''
+                relative='assets/'+category+'/'+hashlib.sha256(name.encode()).hexdigest()[:24]+suffix+'.webp';destination=site/relative;source_key=category+':'+name+':'+digest[:16]
+                if state['images'].get(source_key)!=fingerprint or not destination.is_file():
+                    destination.parent.mkdir(parents=True,exist_ok=True);temporary=destination.with_name(destination.name+'.'+uuid.uuid4().hex+'.tmp')
+                    try:write_image(plain,temporary);os.replace(temporary,destination);updated+=1
+                    finally:
+                        if temporary.exists():temporary.unlink()
+                manifest.setdefault('imageVersions',{})[relative]=digest[:16];state['images'][source_key]=fingerprint
+                entries.append({'path':relative,'atlasHash':atlas_hash,'sha256':digest})
+            if len(entries)==1:
+                manifest[category][name]=entries[0]['path'];manifest[variants_key].pop(name,None);missing.pop(category+':'+name,None)
+            else:
+                manifest[category].pop(name,None);manifest[variants_key][name]=entries;missing.pop(category+':'+name,None)
     for row in rows:
         name=row.get('image_name')
-        if name in manifest['items'] and name not in ambiguous:manifest['items'][str(row['id'])]=manifest['items'][name]
-        elif name and str(row['id']) not in manifest['items']:missing['items:'+str(row['id'])]='ambiguous-atlas-frame' if name in ambiguous else 'not-located'
+        if name in manifest.get('items',{}):manifest['items'][str(row['id'])]=manifest['items'][name];missing.pop('items:'+str(row['id']),None)
+        elif name in manifest.get('itemVariants',{}):manifest.setdefault('items',{}).pop(str(row['id']),None);missing.pop('items:'+str(row['id']),None)
+        elif name and str(row['id']) not in manifest.get('items',{}):missing['items:'+str(row['id'])]='not-located'
+    for name in wanted_events:
+        if name not in manifest.get('events',{}) and name not in manifest.get('eventVariants',{}):missing.setdefault('events:'+name,'not-located')
+    state['unresolvedAtlases']=unresolved
+    state['atlasCoverage']={'descriptors':len(descriptors),'itemNames':len(selections['items']),'eventNames':len(selections['events']),'unresolvedTextures':len(unresolved)}
     return updated,failures

@@ -47,6 +47,7 @@ jobs:
           rm -rf dist/web
           cp -r web dist/
           rm -f dist/library.html dist/events.html dist/data/clouddeployment.json dist/data/deployment.json
+          python3 scripts/prettyjson.py --directory dist/data
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:

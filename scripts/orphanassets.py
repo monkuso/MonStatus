@@ -33,7 +33,7 @@ def main():
             width,height=image.size
         write_image(plain,target/f'{skin}.webp')
         rows.append({'id':skin,'name':f'名前ハッシュ候補 {skin}','image':f'assets/internal/{skin}.webp','resourceNameCandidate':virtual,'identityConfidence':'filename-hash-match','otherKnownReferences':known.get(digest,[]),'member':digest,'package':package,'width':width,'height':height,'sha256':hashlib.sha256(plain).hexdigest(),'referencedByCharacter':skin in referenced,'status':'decoded-png-verified'})
-    (DESTINATION/'data'/'orphanassets.json').write_text(json.dumps({'schemaVersion':1,'source':'local-game-asset-packages','scannedUniqueMembers':76666,'characterNameRange':[1,100000],'rows':rows},ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+    (DESTINATION/'data'/'orphanassets.json').write_text(json.dumps({'schemaVersion':1,'source':'local-game-asset-packages','scannedUniqueMembers':76666,'characterNameRange':[1,100000],'rows':rows},ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps({'verifiedImages':len(rows),'unreferenced':sum(not row['referencedByCharacter'] for row in rows),'dimensions':sorted({(row['width'],row['height']) for row in rows})}))
 
 if __name__=='__main__':main()

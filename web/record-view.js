@@ -2,7 +2,8 @@ import {cleanText,assetImageUrl} from './hubsdk.js?v=gacha5';
 import {tableLabel,fieldLabel} from './data-labels.js';
 import {recordIdentity} from './internalsdk.js';
 import {loadCharacterInfo} from './charactersdk.js';
-import {renderCharacter} from './character-view.js?v=clean1';
+import {renderCharacter} from './character-view.js?v=icons2';
+import {characterImageElement} from './character-image.js?v=icons2';
 const el=(tag,text='',cls='')=>{const node=document.createElement(tag);node.textContent=cleanText(text);if(cls)node.className=cls;return node;};
 const date=new Intl.DateTimeFormat('ja-JP',{timeZone:'Asia/Tokyo',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'});
 export const recordDate=seconds=>seconds==null?'未設定':typeof seconds==='number'&&Number.isFinite(seconds)&&seconds>0?date.format(new Date(seconds*1000))+' JST':String(seconds);
@@ -10,14 +11,14 @@ export function recordName(table,row){return cleanText(row.name||row.title||row.
 export function primaryPeriod(row){for(const [start,end] of [['start_at','end_at'],['play_start_at','play_end_at'],['gacha_start_at','gacha_end_at']])if(row[start]!=null||row[end]!=null)return {start:row[start]??null,end:row[end]??null};return {start:null,end:null};}
 export function recordImage(table,row,assets,store){
   if(table==='chars')return assets.characters?.[String(row.skin_id||row.id)];
-  if(table==='stage_groups')return assets.quests?.[row.banner_file_name]||assets.characters?.[String(row.boss_skin_id)];
+  if(table==='stage_groups')return assets.quests?.[row.banner_file_name]||assets.bosses?.[String(row.boss_skin_id)]||assets.characters?.[String(row.boss_skin_id)];
   if(table==='stages'){const group=store.summary('stage_groups',row.stage_group_id);return group?recordImage('stage_groups',group,assets,store):null;}
   if(table==='items'){const charId=store.characterItemId(row.id),character=charId!==null?store.summary('chars',charId):null;return assets.items?.[row.image_name]||assets.items?.[String(row.id)]||(character?assets.characters?.[String(character.skin_id||character.id)]:null);}
   return assets.events?.[row.banner_file_name||row.file_name||row.banner_name||row.icon_name]||assets.quests?.[row.banner_file_name||row.file_name]||assets.gachas?.[row.banner_file_name||row.file_name]||assets.characters?.[String(row.char_id)]||null;
 }
 export function createRecordView({store,assets={},navigate}){
   const index=store.index;
-  function picture(parent,table,row,cls='record-avatar'){const src=assetImageUrl(recordImage(table,row,assets,store),assets);if(!src)return;const image=el('img','',cls);image.src=src;image.alt=recordName(table,row);image.loading='lazy';image.decoding='async';parent.append(image);}
+  function picture(parent,table,row,cls='record-avatar'){const variants=table==='items'?assets.itemVariants?.[row.image_name]:assets.eventVariants?.[row.banner_file_name||row.file_name||row.banner_name||row.icon_name];if(variants?.length){const group=el('span','',cls+' record-image-variants');for(const [position,variant] of variants.entries()){const url=assetImageUrl(variant.path,assets);if(!url)continue;const image=el('img');image.src=url;image.alt=recordName(table,row)+' '+(position+1);image.loading='lazy';image.decoding='async';group.append(image);}parent.append(group);return;}const source=recordImage(table,row,assets,store);if(table==='chars'){const icon=characterImageElement(row,{assets,source,className:cls});if(icon)parent.append(icon);return;}if(table==='items'){const id=store.characterItemId(row.id),character=id!==null?store.summary('chars',id):null;if(character&&!assets.items?.[row.image_name]&&!assets.items?.[String(row.id)]){const icon=characterImageElement(character,{assets,source,className:cls});if(icon)parent.append(icon);return;}}const src=assetImageUrl(source,assets);if(!src)return;const image=el('img','',cls);image.src=src;image.alt=recordName(table,row);image.loading='lazy';image.decoding='async';parent.append(image);}
   function action(text,fn,cls='record-link'){const b=el('button',text,cls);b.type='button';b.onclick=fn;return b;}
   async function reference(parent,target,id,field){
     const resolved=await store.resolve(target,id);if(!resolved){parent.append(el('span',`${fieldLabel(field)}：${id}（参照先未取得・未解決）`,'reference-missing'));return;}

@@ -39,7 +39,7 @@ def name_hash(name):
     return f'{mix(a, b, c)[2]:08X}'
 
 def decode(data, initial):
-    if data.startswith((b'\x89PNG\r\n\x1a\n', b'<?xml', b'<plist')):
+    if data.startswith((b'\x89PNG\r\n\x1a\n', b'<?xml', b'<plist',b'bplist00')):
         return data
     x, y, z, w = initial
     output = bytearray(len(data))

@@ -75,7 +75,7 @@ def write_internal(tables,timestamp,evidence,destination,manifest=None,failures=
         for offset in range(0,len(rows),256):
             selected=rows[offset:offset+256]
             file=f'{table}-{offset//256:04d}.json'
-            payload=json.dumps({'schemaVersion':1,'table':table,'updatedAt':timestamp,'rows':selected},ensure_ascii=False,separators=(',',':')).encode('utf-8')
+            payload=json.dumps({'schemaVersion':1,'table':table,'updatedAt':timestamp,'rows':selected},ensure_ascii=False,indent=2).encode('utf-8')
             (destination/file).write_bytes(payload)
             chunks.append({'file':file,'firstId':selected[0][identity],'lastId':selected[-1][identity],'rows':len(selected),'sha256':hashlib.sha256(payload).hexdigest()})
         fields=sorted({key for row in rows for key in row if key!='_recordIndex'})
@@ -101,5 +101,5 @@ def write_internal(tables,timestamp,evidence,destination,manifest=None,failures=
         index['tables'][name]={'rows':None,'fields':[],'registeredFields':SCHEMAS.get(name,{}).get('fields',[]),'identityField':'id','chunks':[],'category':table_category(name),'status':'error','failure':failed}
     expected=sorted({entry['name'] for entry in manifest}) if manifest is not None else sorted(tables)
     index['coverage']={'expected':len(expected),'verified':sum(v['status']=='verified' for v in index['tables'].values()),'limitedIntegrity':sum(v['status']=='manifest-integrity-unavailable' for v in index['tables'].values()),'notDistributed':sum(v['status']=='not-distributed' for v in index['tables'].values()),'failed':failures or [],'missing':[name for name in expected if name not in index['tables']],'expectedTables':expected}
-    (destination/'index.json').write_text(json.dumps(index,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+    (destination/'index.json').write_text(json.dumps(index,ensure_ascii=False,indent=2),encoding='utf-8')
     return {'indexUrl':'data/internal/index.json','updatedAt':timestamp,'tables':{name:value['rows'] for name,value in index['tables'].items()}}

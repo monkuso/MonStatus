@@ -1,7 +1,7 @@
 import {queryInternal,recordIdentity} from './internalsdk.js';
 import {cleanText} from './hubsdk.js?v=gacha5';
 import {createMasterStore} from './masterdata.js';
-import {createRecordView,primaryPeriod} from './record-view.js?v=clean1';
+import {createRecordView,primaryPeriod} from './record-view.js?v=icons2';
 import {categoryNames,tableLabel,fieldLabel} from './data-labels.js';
 const $=id=>document.getElementById(id);
 const titles={chars:'キャラクター',stage_groups:'クエスト',stages:'ステージ',events:'イベント',items:'アイテム',assets:'画像候補',tables:'すべてのゲームデータ'};

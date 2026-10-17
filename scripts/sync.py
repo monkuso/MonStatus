@@ -449,7 +449,7 @@ def run():
             snapshot=build_snapshot(config,previous,destination,release)
             catalog=snapshot.pop('catalog')
             for name,value in [('catalog.json',catalog),('events.json',snapshot)]:
-                (destination/name).write_text(json.dumps(value,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+                (destination/name).write_text(json.dumps(value,ensure_ascii=False,indent=2),encoding='utf-8')
             files=sorted((path for path in destination.rglob('*') if path.is_file()),key=lambda path:(path.name in {'index.json','catalog.json','events.json'},str(path)))
             for path in files:
                 target=data/path.relative_to(destination)

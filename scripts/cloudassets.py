@@ -17,7 +17,9 @@ import uuid
 import zipfile
 
 from assetcodec import name_hash,decode,write_image
-from atlasassets import sync_item_atlases
+from atlasassets import sync_atlas_images
+from builtinassets import register_builtin_images
+from assetinventory import discover_atlases
 from sync import configured_game,master_manifest
 
 BLOCK_SIZE=65536
@@ -43,7 +45,7 @@ class TransferBudget:
             if self.used>self.limit:raise ValueError('Asset transfer budget exceeded')
 
 class RemoteArchive(io.RawIOBase):
-    def __init__(self,resource,budget,opener=urllib.request.urlopen):
+    def __init__(self,resource,budget,opener=urllib.request.urlopen,block_size=BLOCK_SIZE):
         self.resource=resource
         self.size=resource['size']
         if type(self.size) is not int or not 0<self.size<=MAX_PACKAGE_SIZE:raise ValueError('Asset package size rejected')
@@ -52,6 +54,7 @@ class RemoteArchive(io.RawIOBase):
         self.url=resource['uri']
         self.budget=budget
         self.opener=opener
+        self.block_size=block_size
         self.position=0
         self.blocks={}
         self.complete=None
@@ -64,11 +67,11 @@ class RemoteArchive(io.RawIOBase):
         self.position=position
         return position
     def block(self,index):
-        if self.complete is not None:return self.complete[index*BLOCK_SIZE:(index+1)*BLOCK_SIZE]
+        if self.complete is not None:return self.complete[index*self.block_size:(index+1)*self.block_size]
         if index in self.blocks:return self.blocks[index]
         self.budget.check()
-        start=index*BLOCK_SIZE
-        end=min(self.size,start+BLOCK_SIZE)-1
+        start=index*self.block_size
+        end=min(self.size,start+self.block_size)-1
         request=urllib.request.Request(self.url,headers={'Range':f'bytes={start}-{end}','Accept-Encoding':'identity','User-Agent':'MonStatus asset sync'})
         response=None
         for attempt in range(3):
@@ -100,7 +103,7 @@ class RemoteArchive(io.RawIOBase):
         count=max(0,self.size-self.position) if count<0 else min(count,max(0,self.size-self.position))
         chunks=[]
         while count:
-            index,offset=divmod(self.position,BLOCK_SIZE)
+            index,offset=divmod(self.position,self.block_size)
             block=self.block(index)
             part=block[offset:offset+count]
             if not part:raise ValueError('Asset range did not advance')
@@ -112,27 +115,32 @@ def package_identity(resource):
     return hashlib.sha256(json.dumps(public,sort_keys=True).encode()).hexdigest()
 
 def image_resources(resources):
-    paths={row.get('path') for row in resources if not row.get('disable')}
     selected=[]
     for row in resources:
         path=row.get('path','')
         if row.get('disable') or not path.endswith('.zip') or re.fullmatch(r'/resource/(?:bgm\d*|sound\d*|se\d*)\.zip',path):continue
-        if path.endswith('_s.zip') and path[:-6]+'_n.zip' in paths:continue
         selected.append(row)
     return sorted(selected,key=lambda row:(not row['path'].startswith('/resource/c_banner'),not row['path'].endswith('_n.zip'),-(max([int(n) for n in re.findall(r'\d+',row['path'])] or [0])),row['path']))
 
-def image_targets(catalog):
+def image_targets(catalog,providers=None,manifest=None,site=None):
     targets={}
     def add(category,identity,name,relative):
         digest=name_hash(name)
         item={'category':category,'identity':str(identity),'name':name,'relative':relative,'hash':digest}
         bucket=targets.setdefault(digest,[])
-        if item not in bucket:bucket.append(item)
+        if not any(all(existing.get(key)==value for key,value in item.items()) for existing in bucket):bucket.append(item)
     for row in catalog['tables']['chars']:
         skin=row.get('skin_id') or row['id']
         if type(skin) is not int or skin<=0:continue
-        add('characters',skin,f'cb/cb{skin:04d}.png',f'characters/{skin%100:02d}/{skin}.webp')
+        choices=[('ball',f'cb/cb{skin:04d}.png',f'characters/{skin%100:02d}/{skin}.webp'),('enemy',f'en/en{skin:04d}.png',f'enemies/{skin%100:02d}/{skin}.webp'),('enemy',f'ep/ep{skin:04d}.png',f'enemy-portraits/{skin%100:02d}/{skin}.webp'),('portrait',f'pb/pb{skin:04d}.png',f'portraits/{skin%100:02d}/{skin}.webp')]
+        old=(manifest or {}).get('characters',{}).get(str(skin));keep_ball=isinstance(old,str) and old.startswith('assets/characters/') and site is not None and (Path(site)/old).is_file()
+        selected=choices[0] if providers is None or keep_ball else next((candidate for candidate in choices if name_hash(candidate[1]) in providers),choices[0])
+        kind,name,relative=selected;add('characters',skin,name,relative)
+        for target in targets[name_hash(name)]:
+            if target['category']=='characters' and target['identity']==str(skin):target['kind']=kind
     for row in catalog['tables']['stage_groups']:
+        boss=row.get('boss_skin_id')
+        if type(boss) is int and boss>0:add('bosses',boss,f'eb/eb{boss:04d}.png',f'bosses/{boss%100:02d}/{boss}.webp')
         name=row.get('banner_file_name')
         if isinstance(name,str) and name:
             digest=name_hash(name);add('quests',name,name,f'quests/{digest[:2].lower()}/{digest}.webp')
@@ -154,8 +162,6 @@ def sync_assets(catalog,resources,seed,site,manifest,state,opener=urllib.request
     previous=state.get('resources',{})
     state={'schemaVersion':1,'resources':{},'images':dict(old_sources)}
     budget=TransferBudget()
-    targets=image_targets(catalog)
-    unique={digest:items[0] for digest,items in targets.items() if len({item['name'] for item in items})==1}
     failures=[];readers={};records={}
     packages=image_resources(resources)
     def index(row):
@@ -199,7 +205,9 @@ def sync_assets(catalog,resources,seed,site,manifest,state,opener=urllib.request
         if record:
             records[path]=row
             for digest in record['members']:
-                if digest in unique and digest not in providers:providers[digest]=path
+                if digest not in providers:providers[digest]=path
+    targets=image_targets(catalog,providers,manifest,site)
+    unique={digest:items[0] for digest,items in targets.items() if len({item['name'] for item in items})==1}
     requests={};missing={};reused=0
     for digest,target in unique.items():
         category,identity=target['category'],target['identity'];path=providers.get(digest)
@@ -209,8 +217,9 @@ def sync_assets(catalog,resources,seed,site,manifest,state,opener=urllib.request
         source_key=category+':'+identity
         if path:
             fingerprint=state['resources'][path]['fingerprint']
-            if existing_file and existing_file.is_file() and (source_key not in old_sources or old_sources[source_key]==fingerprint):
+            if existing_file and existing_file.is_file() and existing=='assets/'+target['relative'] and (source_key not in old_sources or old_sources[source_key]==fingerprint):
                 state['images'][source_key]=fingerprint;reused+=1
+                if category=='characters':manifest.setdefault('characterImageKinds',{})[identity]=target['kind']
             else:requests.setdefault(path,[]).append(target)
         elif not existing_file or not existing_file.is_file():missing[source_key]='pending' if failures or any(row.get('availability')=='not-distributed' for row in state['resources'].values()) else 'not-located'
     def extract(item):
@@ -243,6 +252,7 @@ def sync_assets(catalog,resources,seed,site,manifest,state,opener=urllib.request
             for target in completed:
                 relative='assets/'+target['relative']
                 manifest[target['category']][target['identity']]=relative
+                if target['category']=='characters':manifest.setdefault('characterImageKinds',{})[target['identity']]=target['kind']
                 manifest.setdefault('imageVersions',{})[relative]=target['imageDigest'][:16]
                 state['images'][target['category']+':'+target['identity']]=state['resources'][path]['fingerprint'];updated+=1
             done={target['category']+':'+target['identity'] for target in completed}
@@ -268,10 +278,26 @@ def sync_assets(catalog,resources,seed,site,manifest,state,opener=urllib.request
             member=state['resources'][path]['members'][digest]
             if archive.getinfo(member).file_size>32*1024*1024:raise ValueError('Atlas member size rejected')
             return decode(archive.read(member,pwd=password or None),seed)
-    atlas_updates,atlas_failures=sync_item_atlases(catalog['tables'].get('items',[]),read_atlas,all_providers,site,manifest,state,missing)
+    registry_path=site/'config'/'asset-inventory.json'
+    registry=json.loads(registry_path.read_text(encoding='utf-8')) if registry_path.is_file() else {'plistPaths':['dlme/ui_items.plist'],'pngPaths':['dlme/ui_items.png']}
+    item_names={row['image_name'] for row in catalog['tables'].get('items',[]) if row.get('image_name')}
+    event_names={name for row in catalog.get('_visualRows',[]) for field in ['file_name','banner_name','banner_file_name','icon_name'] for name in (row.get(field,'').split('|') if isinstance(row.get(field),str) else []) if name}
+    scan_readers={}
+    def open_scan_archive(path):
+        reader=scan_readers.setdefault(path,RemoteArchive(records[path],budget,opener,block_size=4096))
+        return zipfile.ZipFile(reader)
+    descriptors,discovery_failures=discover_atlases(packages,state['resources'],open_scan_archive,seed,registry,item_names|event_names)
+    failures.extend(discovery_failures)
+    atlas_updates,atlas_failures=sync_atlas_images(catalog['tables'].get('items',[]),event_names,descriptors,read_atlas,all_providers,site,manifest,state,missing,registry)
     updated+=atlas_updates;failures.extend(atlas_failures)
+    register_builtin_images(site,manifest)
+    for category in ['items','events']:
+        for identity in manifest.get(category,{}):missing.pop(category+':'+identity,None)
+    for row in catalog['tables'].get('items',[]):
+        name=row.get('image_name')
+        if name in manifest.get('items',{}):manifest['items'][str(row['id'])]=manifest['items'][name];missing.pop('items:'+str(row['id']),None)
     timestamp=datetime.datetime.now(datetime.timezone.utc).isoformat()
-    manifest['counts']={key:len(manifest.get(key,{})) for key in ['characters','quests','gachas','gimmicks','attributes','items','events']}
+    manifest['counts']={key:len(manifest.get(key,{})) for key in ['characters','quests','gachas','bosses','gimmicks','attributes','items','events']}
     unavailable=sum(row.get('availability')=='not-distributed' for row in state['resources'].values())
     manifest['sync']={'state':'partial' if failures else 'success','lastAttemptAt':timestamp,'lastSuccessAt':manifest.get('sync',{}).get('lastSuccessAt') if failures else timestamp,'updatedImages':updated,'reusedImages':reused,'indexedPackages':len(state['resources'])-unavailable,'unavailablePackages':unavailable,'packageCount':len(packages),'downloadedBytes':budget.used,'unlocatedImages':len(missing),'failures':failures}
     manifest['pending']=missing
@@ -305,7 +331,7 @@ def main():
     if not isinstance(resources,list) or not resources:raise ValueError('Game asset manifest missing')
     manifest,state=sync_assets(catalog,resources,seed,site,manifest,state)
     for name,value in [('assets.json',manifest),('asset-index.json',state)]:
-        target=data/name;temporary=target.with_suffix('.json.tmp');temporary.write_text(json.dumps(value,ensure_ascii=False,separators=(',',':')),encoding='utf-8');os.replace(temporary,target)
+        target=data/name;temporary=target.with_suffix('.json.tmp');temporary.write_text(json.dumps(value,ensure_ascii=False,indent=2),encoding='utf-8');os.replace(temporary,target)
     print(json.dumps(manifest['sync'],ensure_ascii=False))
     if manifest['sync']['state']!='success':raise SystemExit(1)
 
@@ -316,6 +342,6 @@ if __name__=='__main__':
         manifest=json.loads(target.read_text(encoding='utf-8'))
         previous=manifest.get('sync',{})
         manifest['sync']={'state':'error','lastAttemptAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'lastSuccessAt':previous.get('lastSuccessAt'),'errorType':type(error).__name__}
-        temporary=target.with_suffix('.json.tmp');temporary.write_text(json.dumps(manifest,ensure_ascii=False,separators=(',',':')),encoding='utf-8');os.replace(temporary,target)
+        temporary=target.with_suffix('.json.tmp');temporary.write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8');os.replace(temporary,target)
         print(json.dumps(manifest['sync']))
         raise SystemExit(1)

@@ -1,5 +1,6 @@
 import {attributeMeta} from './sdk.js';
 import {cleanText,assetImageUrl} from './hubsdk.js?v=assets1';
+import {characterImageElement} from './character-image.js?v=icons2';
 const node=(tag,text='',className='')=>{const result=document.createElement(tag);result.textContent=cleanText(text);if(className)result.className=className;return result;};
 const numeric=value=>typeof value==='number'&&Number.isFinite(value)?new Intl.NumberFormat('ja-JP',{maximumFractionDigits:2}).format(value):'未配信';
 function section(title,eyebrow){const result=node('section','','character-section');if(eyebrow)result.append(node('span',eyebrow,'eyebrow'));result.append(node('h3',title));return result;}
@@ -8,7 +9,7 @@ function abilityGroup(title,rows,gauge=false){const result=section(title,gauge?'
 export function renderCharacter(info,{image,attributeImage,assets}={}){
   const {row}=info,result=node('div','','character-profile'),attribute=attributeMeta(row.attribute_id);result.style.setProperty('--character-color',attribute?.color||'#b4ce7c');
   const hero=node('section','','character-overview'),portrait=node('div','','character-portrait');
-  if(image&&/^assets\/[a-zA-Z0-9_./-]+$/.test(image)){const img=node('img');img.src=assetImageUrl(image,assets);img.alt=cleanText(row.name);portrait.append(img);}else portrait.append(node('span','画像未取得','character-no-image'));
+  const characterImage=characterImageElement(row,{assets,source:image});if(characterImage)portrait.append(characterImage);else portrait.append(node('span','画像未取得','character-no-image'));
   const intro=node('div','','character-intro');intro.append(node('span','CHARACTER PROFILE','eyebrow'));const title=node('h2',row.name||'名称未配信');title.id='internal-detail-title';intro.append(title);
   const tags=node('div','','character-tags');if(typeof row.rarity==='number'&&row.rarity>=1&&row.rarity<=6)tags.append(node('span','★'.repeat(row.rarity),'character-rarity'));
   if(attribute){const tag=node('span',attribute.label+'属性');if(attributeImage&&/^assets\/[a-zA-Z0-9_./-]+$/.test(attributeImage)){const img=node('img');img.src=attributeImage;img.alt='';tag.prepend(img);}tags.append(tag);}

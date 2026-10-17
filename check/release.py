@@ -53,7 +53,7 @@ class ReleaseSyncTests(unittest.TestCase):
         with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parent) as directory:
             root=Path(directory);data=root/'data';data.mkdir();(data/'internal').mkdir()
             previous={'updatedAt':'2026-10-15T00:00:00Z'}
-            (data/'catalog.json').write_text(json.dumps(previous),encoding='utf-8')
+            (data/'catalog.json').write_text(json.dumps(previous,ensure_ascii=False,indent=2),encoding='utf-8')
             (data/'events.json').write_text('old events',encoding='utf-8')
             (data/'internal'/'index.json').write_text('old index',encoding='utf-8')
             def fail(config,previous,destination,version_info):

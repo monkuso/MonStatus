@@ -100,7 +100,9 @@ jobs:
           MS_ASSET_CONFIG: ${{ secrets.MS_ASSET_CONFIG }}
         run: python scripts/cloudassets.py
       - name: Validate live data
-        run: npm test
+        run: |
+          python scripts/prettyjson.py
+          npm test
       - uses: actions/configure-pages@v5
       - name: Prepare public site
         run: |

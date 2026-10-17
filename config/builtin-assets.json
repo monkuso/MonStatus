@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "gameVersion": "33.0.0",
+  "characterFrames": {
+    "1": {
+      "path": "assets/character-frames/33.0.0/1.webp",
+      "frame": "monsterwindow_fire.png",
+      "width": 120,
+      "height": 120,
+      "sha256": "8ceb89abd5cdd996589229190f1661d7d13b12bd5a472ea2ece6fb1d94ed2959"
+    },
+    "2": {
+      "path": "assets/character-frames/33.0.0/2.webp",
+      "frame": "monsterwindow_water.png",
+      "width": 120,
+      "height": 120,
+      "sha256": "db7445e913e382eef44c39fe64c0a0a95b686901144a6d85cf7f13c32cb97ede"
+    },
+    "3": {
+      "path": "assets/character-frames/33.0.0/3.webp",
+      "frame": "monsterwindow_wood.png",
+      "width": 120,
+      "height": 120,
+      "sha256": "316bd39d3d69dc3ccc5275424791088d01e6c34f94ab9056714152c6d287e059"
+    },
+    "4": {
+      "path": "assets/character-frames/33.0.0/4.webp",
+      "frame": "monsterwindow_light.png",
+      "width": 120,
+      "height": 120,
+      "sha256": "9b5da03e5342443033aefb4adedeb6531030cfff7817e7b5491b1f0d8f90bebd"
+    },
+    "5": {
+      "path": "assets/character-frames/33.0.0/5.webp",
+      "frame": "monsterwindow_dark.png",
+      "width": 120,
+      "height": 120,
+      "sha256": "f8ce1f0d41186423db7895dfae623af24aeee9fb3f4d5a3767336290fa37ce1c"
+    }
+  },
+  "items": {
+    "icon_lucky_result_box.png": {
+      "path": "assets/builtin/33.0.0/items/9aa825c0f188c69e4df7ba0a.webp",
+      "sha256": "f2b4d60e5ef64fe92561131191f2cd5d493b13ea514281faec0491a344456c1e",
+      "atlasHash": "BAB6B052",
+      "textureHash": "E2B56297"
+    },
+    "icon_evo_release_2.png": {
+      "path": "assets/builtin/33.0.0/items/23eaf2cb819f52b29b5ed85b.webp",
+      "sha256": "cb583ee51616efe65f8bd5bbc717deaa4df778f64f4bfcc807189c229fc9d2c7",
+      "atlasHash": "198483BA",
+      "textureHash": "6A84E770"
+    },
+    "icon_gj.png": {
+      "path": "assets/builtin/33.0.0/items/3e1bdfcbff823d28bb4318cc.webp",
+      "sha256": "ae7c14db197d7624d57592d6d7c56f2c21bb4e86a8663dadd877fb66818a7727",
+      "atlasHash": "198483BA",
+      "textureHash": "6A84E770"
+    },
+    "icon_evo_release_3.png": {
+      "path": "assets/builtin/33.0.0/items/8b9abd4fdfe4533239996413.webp",
+      "sha256": "9aa0ba5ab848ca029829196b91c8f112d998167ed6ef945a9316842dd70d1f9d",
+      "atlasHash": "198483BA",
+      "textureHash": "6A84E770"
+    },
+    "reward_question.png": {
+      "path": "assets/builtin/33.0.0/items/e7fdd1e49ebd7da76d092aeb.webp",
+      "sha256": "b74fa9487f9fe86918d9f7d98427d46ee789726b3f9fd635f848646929e81c91",
+      "atlasHash": "198483BA",
+      "textureHash": "6A84E770"
+    },
+    "gem_bank_icon_add.png": {
+      "path": "assets/builtin/33.0.0/items/a4cb1c294c80aada7968bc15.webp",
+      "sha256": "bbf0d383bb930e7ae0ea6e936925a8a42252fe300898d1717e8336bad58d8d1a",
+      "atlasHash": "198483BA",
+      "textureHash": "6A84E770"
+    },
+    "icon_evo_release.png": {
+      "path": "assets/builtin/33.0.0/items/86e9a9f3beeb76ed95299e47.webp",
+      "sha256": "26ed59947020c0460537cad3747d15c53f40a9cbbc63cca247ae94674f8884ea",
+      "atlasHash": "198483BA",
+      "textureHash": "6A84E770"
+    }
+  },
+  "events": {
+    "icon_lucky_result_box.png": {
+      "path": "assets/builtin/33.0.0/events/9aa825c0f188c69e4df7ba0a.webp",
+      "sha256": "f2b4d60e5ef64fe92561131191f2cd5d493b13ea514281faec0491a344456c1e",
+      "atlasHash": "BAB6B052",
+      "textureHash": "E2B56297"
+    }
+  }
+}
