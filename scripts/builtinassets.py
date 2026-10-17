@@ -8,6 +8,7 @@ import zipfile
 from PIL import Image
 from assetcodec import decode
 from atlasassets import frame_png
+from visualassets import image_names,is_visual_field
 
 ATTRIBUTE_FRAMES={1:'monsterwindow_fire.png',2:'monsterwindow_water.png',3:'monsterwindow_wood.png',4:'monsterwindow_light.png',5:'monsterwindow_dark.png'}
 
@@ -52,7 +53,7 @@ def extract_catalog_images(apks,seed,site):
     site=Path(site);configuration=site/'config'/'builtin-assets.json';result=json.loads(configuration.read_text(encoding='utf-8'))
     index=json.loads((site/'data/internal/index.json').read_text(encoding='utf-8'));wanted={'items':set(),'events':set()}
     for name,entry in index['tables'].items():
-        if name!='items' and not set(entry['fields'])&{'file_name','banner_name','banner_file_name','icon_name'}:continue
+        if name!='items' and not any(is_visual_field(field) for field in entry['fields']):continue
         for part in entry['chunks']:
             raw=(site/'data/internal'/part['file']).read_bytes()
             if hashlib.sha256(raw).hexdigest()!=part['sha256']:raise ValueError('Builtin master checksum mismatch')
@@ -60,8 +61,7 @@ def extract_catalog_images(apks,seed,site):
                 if name=='items':
                     if row.get('image_name'):wanted['items'].add(row['image_name'])
                 else:
-                    for field in ['file_name','banner_name','banner_file_name','icon_name']:
-                        if isinstance(row.get(field),str):wanted['events'].update(filter(None,row[field].split('|')))
+                    wanted['events'].update(image_names(row))
     with zipfile.ZipFile(apks) as package:
         with zipfile.ZipFile(io.BytesIO(package.read('base.apk'))) as base:
             for plist_hash,png_hash in [('BAB6B052','E2B56297'),('198483BA','6A84E770')]:

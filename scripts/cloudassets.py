@@ -20,6 +20,7 @@ from assetcodec import name_hash,decode,write_image
 from atlasassets import sync_atlas_images
 from builtinassets import register_builtin_images
 from assetinventory import discover_atlases
+from visualassets import image_names,is_visual_field
 from sync import configured_game,master_manifest
 
 BLOCK_SIZE=65536
@@ -148,11 +149,7 @@ def image_targets(catalog,providers=None,manifest=None,site=None):
         name=row.get('file_name')
         if isinstance(name,str) and name:add('gachas',name,name,f'gachas/{name_hash(name)}.webp')
     for row in catalog.get('_visualRows',[]):
-        for field in ['file_name','banner_name','banner_file_name','icon_name']:
-            names=row.get(field)
-            if not isinstance(names,str):continue
-            for name in names.split('|'):
-                if re.fullmatch(r'[A-Za-z0-9_./-]+\.png',name) and '..' not in name.split('/'):add('events',name,name,f'events/{name_hash(name)}.webp')
+        for name in image_names(row):add('events',name,name,f'events/{name_hash(name)}.webp')
     return targets
 
 def sync_assets(catalog,resources,seed,site,manifest,state,opener=urllib.request.urlopen):
@@ -281,7 +278,7 @@ def sync_assets(catalog,resources,seed,site,manifest,state,opener=urllib.request
     registry_path=site/'config'/'asset-inventory.json'
     registry=json.loads(registry_path.read_text(encoding='utf-8')) if registry_path.is_file() else {'plistPaths':['dlme/ui_items.plist'],'pngPaths':['dlme/ui_items.png']}
     item_names={row['image_name'] for row in catalog['tables'].get('items',[]) if row.get('image_name')}
-    event_names={name for row in catalog.get('_visualRows',[]) for field in ['file_name','banner_name','banner_file_name','icon_name'] for name in (row.get(field,'').split('|') if isinstance(row.get(field),str) else []) if name}
+    event_names={name for row in catalog.get('_visualRows',[]) for name in image_names(row)}
     scan_readers={}
     def open_scan_archive(path):
         reader=scan_readers.setdefault(path,RemoteArchive(records[path],budget,opener,block_size=4096))
@@ -316,7 +313,7 @@ def main():
     internal_index=json.loads((data/'internal'/'index.json').read_text(encoding='utf-8'))
     catalog['_visualRows']=[]
     for name,entry in internal_index['tables'].items():
-        if name!='items' and not set(entry['fields'])&{'file_name','banner_file_name','banner_name','icon_name'}:continue
+        if name!='items' and not any(is_visual_field(field) for field in entry['fields']):continue
         rows=[]
         for part in entry['chunks']:
             raw_part=(data/'internal'/part['file']).read_bytes()

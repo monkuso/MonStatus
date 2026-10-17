@@ -15,12 +15,15 @@ from assetcodec import name_hash,decode
 from cloudassets import RemoteArchive,TransferBudget,image_resources,sync_assets
 from atlasassets import frame_png
 from assetinventory import discover_atlases
+from visualassets import image_names
 from prettyjson import format_public_json
 import hashlib
 import json
 
 class AssetSyncTests(unittest.TestCase):
     seed=(1,2,3,4)
+    def test_visual_fields_include_multiple_parts_without_guessing_extensions_or_numeric_ids(self):
+        self.assertEqual(image_names({'base_image':'base.png','additional_front_image':'front.png','calendar_icon_name':'cal.png','icon_name_1':'icon1.png','icon_name_2':'icon2.png','image_id':12,'image_name':'extensionless','weapon_ccb_file_name':'scene.ccbi','file_name':'../wrong.png|base.png'}),['base.png','front.png','cal.png','icon1.png','icon2.png'])
     def test_discovery_finds_unlisted_atlas_and_reuses_verified_inventory(self):
         name='new_event.png';frame={'frame':'{{0,0},{2,3}}','sourceColorRect':'{{0,0},{2,3}}','sourceSize':'{2,3}'}
         raw,row=self.package({'new/new.plist':plistlib.dumps({'frames':{name:frame},'metadata':{'textureFileName':'new.png'}})})

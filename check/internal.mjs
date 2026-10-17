@@ -4,6 +4,13 @@ import {abilityNames,characterStats,loadCharacterInfo} from '../web/charactersdk
 import {classifyCharacter,classifyQuest,queryInternal,rawChunk,recordIdentity} from '../web/internalsdk.js';
 import {createMasterStore} from '../web/masterdata.js';
 import {createHash} from 'node:crypto';
+import {recordImageNames,recordImagePaths} from '../web/record-images.js';
+
+test('複数の画像パーツと同名の別絵柄を表示し、数値や拡張子を推測しない',()=>{
+  const row={base_image:'base.png',frame_image:'frame.png',icon_name_1:'icon1.png',icon_name_2:'icon2.png',image_id:12,texture_name:'extensionless',file_name:'scene.ccbi'};
+  assert.deepEqual(recordImageNames(row),['base.png','frame.png','icon1.png','icon2.png']);
+  assert.deepEqual(recordImagePaths(row,{events:{'base.png':'assets/base.webp','frame.png':'assets/frame.webp'},items:{'icon1.png':'assets/icon.webp'},eventVariants:{'icon2.png':[{path:'assets/a.webp'},{path:'assets/b.webp'}]}}),['assets/base.webp','assets/frame.webp','assets/icon.webp','assets/a.webp','assets/b.webp']);
+});
 
 test('全テーブルの詳細取得はSHA256を照合し、不一致後の再取得も検証する',async()=>{
   const bytes=new TextEncoder().encode(JSON.stringify({schemaVersion:1,table:'new_system2',rows:[{id:1,name:'追加情報'}]}));

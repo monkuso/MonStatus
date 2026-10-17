@@ -1,5 +1,5 @@
 import {characterImageElement} from './character-image.js?v=icons2';
-import {attachMasterRecord} from './master-attach.js?v=icons2';
+import {attachMasterRecord} from './master-attach.js?v=icons3';
 import {createHub,cleanText,visibleAt,assetImageUrl} from './hubsdk.js?v=gacha5';
 import {occurrenceTime} from './gachadetails.js';
 import {renderGachaArchive} from './gacha-view.js?v=clean1';
