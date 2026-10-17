@@ -1,1 +1,10 @@
-{"name":"monstatus","version":"1.0.0","private":true,"type":"module","scripts":{"test":"node --test check/sdk.mjs check/library.mjs check/hub.mjs check/internal.mjs","test:sync":"python -m unittest check/sync.py check/catalog.py check/internal.py check/release.py check/assets.py"}}
+{
+  "name": "monstatus",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test check/sdk.mjs check/library.mjs check/hub.mjs check/internal.mjs",
+    "test:sync": "python -m unittest check/sync.py check/catalog.py check/internal.py check/release.py check/assets.py"
+  }
+}
